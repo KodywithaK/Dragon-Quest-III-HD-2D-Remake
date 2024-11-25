@@ -1,0 +1,68 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_Dlc",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Dlc_Eary_Reserved": {
+        "SelfId": "Txt_Dlc_Eary_Reserved",
+        "Text": "행복한 여행 세트"
+      },
+      "Txt_Dlc_Fast_GuideBook": {
+        "SelfId": "Txt_Dlc_Fast_GuideBook",
+        "Text": "모험 액세서리 세트"
+      },
+      "Txt_Dlc_Sqex_GuideBook": {
+        "SelfId": "Txt_Dlc_Sqex_GuideBook",
+        "Text": "전설의 이미지 변신 세트"
+      },
+      "Txt_Dlc_Lawson_Collabo": {
+        "SelfId": "Txt_Dlc_Lawson_Collabo",
+        "Text": "전사의 마음가짐 세트"
+      },
+      "Txt_Dlc_Amazon_Collabo": {
+        "SelfId": "Txt_Dlc_Amazon_Collabo",
+        "Text": "마법사의 소양 세트"
+      },
+      "Txt_Dlc_Open_Treasure": {
+        "SelfId": "Txt_Dlc_Open_Treasure",
+        "Text": "{LEADER}<IfKRVowel_LEADER(는,은)> 특전 보물 상자를 열었다!"
+      },
+      "Txt_Dlc_Not_Open_Treasure_1": {
+        "SelfId": "Txt_Dlc_Not_Open_Treasure_1",
+        "Text": "{LEADER}<IfKRVowel_LEADER(는,은)>\r\n특전 보물 상자를 열려고 했다."
+      },
+      "Txt_Dlc_Not_Open_Treasure_2": {
+        "SelfId": "Txt_Dlc_Not_Open_Treasure_2",
+        "Text": "그러나 지금은 열리지 않는 모양이다."
+      },
+      "Txt_Dlc_Not_Open_Treasure_3": {
+        "SelfId": "Txt_Dlc_Not_Open_Treasure_3",
+        "Text": "※이 보물 상자에서 예약 특전 및 구입 특전 등의\r\n아이템을 받으실 수 있습니다."
+      },
+      "Txt_Dlc_Not_Open_Treasure_4": {
+        "SelfId": "Txt_Dlc_Not_Open_Treasure_4",
+        "Text": "※자세한 내용은 각 스토어 판매 페이지 및\r\n특전 코드 안내를 참고하십시오."
+      },
+      "Txt_Dlc_Dlc_Choice": {
+        "SelfId": "Txt_Dlc_Dlc_Choice",
+        "Text": "받을 ‘특전 아이템’을 선택하십시오.<NO_INPUT>"
+      },
+      "Txt_Dlc_Confirm_Receipt": {
+        "SelfId": "Txt_Dlc_Confirm_Receipt",
+        "Text": "{WORD}<IfKRVowel_WORD(를,을)> 받으시겠습니까?\r\n※동료의 소지품이 가득 차 소지 수\r\n999개를 넘긴 것은 파기됩니다."
+      },
+      "Txt_Dlc_Get_Item": {
+        "SelfId": "Txt_Dlc_Get_Item",
+        "Text": "{LEADER}<IfKRVowel_LEADER(는,은)>\r\n{WORD}<IfKRVowel_WORD(를,을)> 획득했다."
+      }
+    }
+  }
+]

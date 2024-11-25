@@ -1,0 +1,312 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_Bar",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Bar_UI_Top_02": {
+        "SelfId": "Txt_Bar_UI_Top_02",
+        "Text": "めいぼを見る"
+      },
+      "Txt_Bar_UI_Top_03": {
+        "SelfId": "Txt_Bar_UI_Top_03",
+        "Text": "たすけにだす"
+      },
+      "Txt_Bar_UI_Top_04": {
+        "SelfId": "Txt_Bar_UI_Top_04",
+        "Text": "たすけをよぶ"
+      },
+      "Txt_Bar_UI_Top_05": {
+        "SelfId": "Txt_Bar_UI_Top_05",
+        "Text": "やめる"
+      },
+      "Txt_Bar_UI_Top_06": {
+        "SelfId": "Txt_Bar_UI_Top_06",
+        "Text": "なかまをよびだす"
+      },
+      "Txt_Bar_UI_Top_07": {
+        "SelfId": "Txt_Bar_UI_Top_07",
+        "Text": "なかまをあずける"
+      },
+      "Txt_Bar_UI_Top_08": {
+        "SelfId": "Txt_Bar_UI_Top_08",
+        "Text": "なかまをさがす"
+      },
+      "Txt_Bar_UI_Top_09": {
+        "SelfId": "Txt_Bar_UI_Top_09",
+        "Text": "おたすけ機能"
+      },
+      "Txt_Bar_UI_Top_10": {
+        "SelfId": "Txt_Bar_UI_Top_10",
+        "Text": "もどる"
+      },
+      "Txt_Bar_UI_Guide_01": {
+        "SelfId": "Txt_Bar_UI_Guide_01",
+        "Text": "なかまを選択"
+      },
+      "Txt_Bar_UI_Blank": {
+        "SelfId": "Txt_Bar_UI_Blank",
+        "Text": "なかまがいません"
+      },
+      "Txt_Bar_UI_Lend_Guide": {
+        "SelfId": "Txt_Bar_UI_Lend_Guide",
+        "Text": "なかまを選択"
+      },
+      "Txt_Bar_UI_Borrow_Guide": {
+        "SelfId": "Txt_Bar_UI_Borrow_Guide",
+        "Text": "ぼうけんしゃを選択"
+      },
+      "Txt_Bar_Message_Start_01": {
+        "SelfId": "Txt_Bar_Message_Start_01",
+        "Text": "ここは　ルイーダの<RUBY>店[みせ]。"
+      },
+      "Txt_Bar_Message_Start_02": {
+        "SelfId": "Txt_Bar_Message_Start_02",
+        "Text": "<RUBY>旅人[たびびと]たちが　<RUBY>仲間[なかま]をもとめて\r\nあつまる　<RUBY>出会[であ]いと<RUBY>別[わか]れの<RUBY>酒場[さかば]よ。"
+      },
+      "Txt_Bar_Message_Top": {
+        "SelfId": "Txt_Bar_Message_Top",
+        "Text": "なにを　おのぞみかしら？<NO_INPUT>"
+      },
+      "Txt_Bar_Message_CannotDropOff": {
+        "SelfId": "Txt_Bar_Message_CannotDropOff",
+        "Text": "あずけるって……　<RUBY>誰[だれ]を？\r\n{LEADER}さんは　いま　\r\nひとりぼっちでしょう？"
+      },
+      "Txt_Bar_Message_DropOffTop": {
+        "SelfId": "Txt_Bar_Message_DropOffTop",
+        "Text": "<RUBY>誰[だれ]を　おあずかりすれば　いいの？<NO_INPUT>"
+      },
+      "Txt_Bar_Message_DropOffHero": {
+        "SelfId": "Txt_Bar_Message_DropOffHero",
+        "Text": "あら　いやだ。\r\n{HERO}さんが　お<RUBY>店[みせ]にいたら　<RUBY>旅[たび]の\r\n<RUBY>指揮[しき]をとるひとが　いなくなっちゃうわよ。"
+      },
+      "Txt_Bar_Message_DropOffDeath_01": {
+        "SelfId": "Txt_Bar_Message_DropOffDeath_01",
+        "Text": "まあ！　{WORD}さんを\r\nそんな<RUBY>姿[すがた]のまま　あずけるの？\r\nそれは　あんまりじゃないかしら。"
+      },
+      "Txt_Bar_Message_DropOffDeath_02": {
+        "SelfId": "Txt_Bar_Message_DropOffDeath_02",
+        "Text": "それとも　<RUBY>今[いま]は<RUBY>助[たす]けてあげる\r\nお<RUBY>金[かね]が　ないの？<NO_INPUT>"
+      },
+      "Txt_Bar_Message_DropOffAbnormalStatus": {
+        "SelfId": "Txt_Bar_Message_DropOffAbnormalStatus",
+        "Text": "{WORD}さんを\r\nおあずかりすれば　いいのね？\r\n<RUBY>少[すこ]し<RUBY>顔色[かおいろ]が　わるそうだけど……。"
+      },
+      "Txt_Bar_Message_ReplaceSelectDeath": {
+        "SelfId": "Txt_Bar_Message_ReplaceSelectDeath",
+        "Text": "それなら　しかたないわね。\r\n{WORD}さんの　ひつぎ\r\nたしかに　おあずかりするわ。"
+      },
+      "Txt_Bar_Message_ReplaceSelectDeathCancel": {
+        "SelfId": "Txt_Bar_Message_ReplaceSelectDeathCancel",
+        "Text": "だったら　<RUBY>助[たす]けてあげたほうが\r\nいいんじゃないかしら？\r\n{WORD}さんが　かわいそうよ。"
+      },
+      "Txt_Bar_Message_ReplaceSelect": {
+        "SelfId": "Txt_Bar_Message_ReplaceSelect",
+        "Text": "{WORD}さんを　どうするの？<NO_INPUT>"
+      },
+      "Txt_Bar_Message_DropOff_01": {
+        "SelfId": "Txt_Bar_Message_DropOff_01",
+        "Text": "{WORD}さんを　おあずかりすれば　いいのね？"
+      },
+      "Txt_Bar_Message_DropOff_02": {
+        "SelfId": "Txt_Bar_Message_DropOff_02",
+        "Text": "じゃあ　{WORD}さん\r\nしばらく　お<RUBY>休[やす]みだわよ。"
+      },
+      "Txt_Bar_Message_Replace_01": {
+        "SelfId": "Txt_Bar_Message_Replace_01",
+        "Text": "{WORD}さんを　<RUBY>入[い]れ<RUBY>替[か]えるのね？"
+      },
+      "Txt_Bar_Message_Replace_02": {
+        "SelfId": "Txt_Bar_Message_Replace_02",
+        "Text": "<RUBY>代[か]わりに　<RUBY>誰[だれ]を　お<RUBY>呼[よ]びするのかしら？<NO_INPUT>"
+      },
+      "Txt_Bar_Message_CannotReplace": {
+        "SelfId": "Txt_Bar_Message_CannotReplace",
+        "Text": "あら　じょうだんでしょ。\r\n<RUBY>死[し]んでるひと　ばかりで\r\n<RUBY>旅[たび]には　<RUBY>出[で]られなくてよ。"
+      },
+      "Txt_Bar_Message_PickUpSelect": {
+        "SelfId": "Txt_Bar_Message_PickUpSelect",
+        "Text": "<RUBY>誰[だれ]を　お<RUBY>呼[よ]びしましょうか？<NO_INPUT>"
+      },
+      "Txt_Bar_Message_CannotPickUp": {
+        "SelfId": "Txt_Bar_Message_CannotPickUp",
+        "Text": "でも　お<RUBY>店[みせ]には\r\nあなたの<RUBY>仲間[なかま]に　できるようなひとは\r\nひとりも　いなくてよ。"
+      },
+      "Txt_Bar_Message_PickUp_01": {
+        "SelfId": "Txt_Bar_Message_PickUp_01",
+        "Text": "{WORD}さんを　<RUBY>仲間[なかま]に　<RUBY>加[くわ]えるのね。\r\nわかったわ。"
+      },
+      "Txt_Bar_Message_PickUp_02": {
+        "SelfId": "Txt_Bar_Message_PickUp_02",
+        "Text": "{WORD}さーん！\r\n{LEADER}さんが　お<RUBY>呼[よ]びよー！"
+      },
+      "Txt_Bar_Message_PickUp_03": {
+        "SelfId": "Txt_Bar_Message_PickUp_03",
+        "Text": "{WORD}が　<RUBY>仲間[なかま]に　くわわった！"
+      },
+      "Txt_Bar_Message_Sort": {
+        "SelfId": "Txt_Bar_Message_Sort",
+        "Text": "そうびしているもの　<RUBY>以外[いがい]は\r\nその　ふくろに　いれておくわね。"
+      },
+      "Txt_Bar_Message_SortFirst": {
+        "SelfId": "Txt_Bar_Message_SortFirst",
+        "Text": "こうしておかないと　<RUBY>大切[たいせつ]なものを\r\n<RUBY>誰[だれ]が　もっていたか\r\n<RUBY>忘[わす]れちゃうひとが　いるのよ。"
+      },
+      "Txt_Bar_Message_DropOffAgain": {
+        "SelfId": "Txt_Bar_Message_DropOffAgain",
+        "Text": "ほかにも　<RUBY>誰[だれ]か\r\nおあずかりしましょうか？<NO_INPUT>"
+      },
+      "Txt_Bar_Message_PickUpAgain": {
+        "SelfId": "Txt_Bar_Message_PickUpAgain",
+        "Text": "ほかにも　<RUBY>誰[だれ]か\r\nお<RUBY>呼[よ]びしましょうか？<NO_INPUT>"
+      },
+      "Txt_Bar_Message_CannotPickUpPartyMAX_01": {
+        "SelfId": "Txt_Bar_Message_CannotPickUpPartyMAX_01",
+        "Text": "あら　そんなに\r\nぞろぞろお<RUBY>仲間[なかま]が　いるのに？"
+      },
+      "Txt_Bar_Message_CannotPickUpPartyMAX_02": {
+        "SelfId": "Txt_Bar_Message_CannotPickUpPartyMAX_02",
+        "Text": "<RUBY>誰[だれ]かを　あずけないかぎり\r\nそれ<RUBY>以上[いじょう]は　<RUBY>連[つ]れて<RUBY>行[い]けなくてよ。"
+      },
+      "Txt_Bar_Message_CannotViewRoster": {
+        "SelfId": "Txt_Bar_Message_CannotViewRoster",
+        "Text": "あら　でも　あなたのお<RUBY>仲間[なかま]は\r\nひとりも　おあずかりしてなくてよ。"
+      },
+      "Txt_Bar_Message_ViewRosterTop": {
+        "SelfId": "Txt_Bar_Message_ViewRosterTop",
+        "Text": "<RUBY>酒場[さかば]にいる<RUBY>人[ひと]のようすを　<RUBY>見[み]たいのね。<NO_INPUT>"
+      },
+      "Txt_Bar_Message_TopAgain": {
+        "SelfId": "Txt_Bar_Message_TopAgain",
+        "Text": "ほかに　ご<RUBY>用[よう]は？<NO_INPUT>"
+      },
+      "Txt_Bar_Message_Finish": {
+        "SelfId": "Txt_Bar_Message_Finish",
+        "Text": "じゃ　また　いらしてね。"
+      },
+      "Txt_Bar_Message_DropOffOnlyLend": {
+        "SelfId": "Txt_Bar_Message_DropOffOnlyLend",
+        "Text": "それじゃあ　パーティが\r\n<RUBY>助[たす]けに<RUBY>来[き]てくれている<RUBY>人[ひと]だけに\r\nなってしまうわよ。"
+      },
+      "Txt_Bar_Message_LendFirst": {
+        "SelfId": "Txt_Bar_Message_LendFirst",
+        "Text": "ここでは　あなたの<RUBY>仲間[なかま]を<RUBY>助[たす]けに\r\nとうろくすることが　できるわ。<KEY_WAIT>\r\nとうろくしておけば　<RUBY>誰[だれ]かの　<RUBY>別[べつ]のパーティで\r\nその<RUBY>人[ひと]が　<RUBY>使[つか]えるようになるわよ。<KEY_WAIT>\r\n<RUBY>助[たす]けにいく　と<RUBY>言[い]っても\r\nいなくなることは　ないし\r\n<RUBY>今[いま]まで<RUBY>通[どお]りに　<RUBY>冒険[ぼうけん]に<RUBY>連[つ]れていけるわ。<KEY_WAIT>\r\nいつか　ほかの<RUBY>冒険者[ぼうけんしゃ]さんの\r\n<RUBY>助[たす]けになるかも　しれないわね。"
+      },
+      "Txt_Bar_Message_LendNone": {
+        "SelfId": "Txt_Bar_Message_LendNone",
+        "Text": "でも　いまは　<RUBY>助[たす]けにだせる<RUBY>仲間[なかま]が\r\n<RUBY>誰[だれ]もいないわよ。"
+      },
+      "Txt_Bar_Message_LendTop": {
+        "SelfId": "Txt_Bar_Message_LendTop",
+        "Text": "<RUBY>誰[だれ]を　<RUBY>助[たす]けにだすのかしら？<NO_INPUT>"
+      },
+      "Txt_Bar_Message_LendTop2": {
+        "SelfId": "Txt_Bar_Message_LendTop2",
+        "Text": "じゃ　ほかの<RUBY>誰[だれ]を\r\n<RUBY>助[たす]けにだすのかしら？<NO_INPUT>"
+      },
+      "Txt_Bar_Message_LendRegistration": {
+        "SelfId": "Txt_Bar_Message_LendRegistration",
+        "Text": "{WORD}さんを\r\n<RUBY>助[たす]けに　いかせるのね？<NO_INPUT>"
+      },
+      "Txt_Bar_Message_LendReregistration": {
+        "SelfId": "Txt_Bar_Message_LendReregistration",
+        "Text": "{WORD}さんを\r\nまた　<RUBY>助[たす]けに　いかせるのね？<NO_INPUT>"
+      },
+      "Txt_Bar_Message_LendChange": {
+        "SelfId": "Txt_Bar_Message_LendChange",
+        "Text": "{WORD2}さんが　とうろくされているけど\r\nかわりに　{WORD}さんを\r\n<RUBY>助[たす]けにいかせて　いいのね？<NO_INPUT>"
+      },
+      "Txt_Bar_Message_LendDecide": {
+        "SelfId": "Txt_Bar_Message_LendDecide",
+        "Text": "じゃ　{WORD}さんを　とうろくするわね。\r\nみんなの　<RUBY>助[たす]けになると　いいわね。"
+      },
+      "Txt_Bar_Message_BorrowFirst": {
+        "SelfId": "Txt_Bar_Message_BorrowFirst",
+        "Text": "ここでは　ほかのパーティの<RUBY>冒険者[ぼうけんしゃ]さんを\r\nパーティに　<RUBY>加[くわ]えることが　できるわ。"
+      },
+      "Txt_Bar_Message_BorrowNone": {
+        "SelfId": "Txt_Bar_Message_BorrowNone",
+        "Text": "まだ　<RUBY>助[たす]けてくれるような\r\n<RUBY>冒険者[ぼうけんしゃ]さんが　いないみたいね……。"
+      },
+      "Txt_Bar_Message_BorrowTop": {
+        "SelfId": "Txt_Bar_Message_BorrowTop",
+        "Text": "<RUBY>誰[だれ]に　<RUBY>助[たす]けにきて　\r\nもらうのかしら？<NO_INPUT>"
+      },
+      "Txt_Bar_Message_BorrowTop2": {
+        "SelfId": "Txt_Bar_Message_BorrowTop2",
+        "Text": "じゃ　ほかの<RUBY>誰[だれ]かに\r\n<RUBY>助[たす]けにきて　もらいましょうか？<NO_INPUT>"
+      },
+      "Txt_Bar_Message_BorrowReturnConfirm": {
+        "SelfId": "Txt_Bar_Message_BorrowReturnConfirm",
+        "Text": "いま　<RUBY>助[たす]けてくれている　{WORD}さんは\r\nもどってしまうけど　それでもいいかしら？"
+      },
+      "Txt_Bar_Message_BorrowReturnDecide": {
+        "SelfId": "Txt_Bar_Message_BorrowReturnDecide",
+        "Text": "わかったわ。\r\n{WORD}さんが　<RUBY>持[も]っていたものは\r\nその　ふくろに　いれておくわね。"
+      },
+      "Txt_Bar_Message_BorrowReturnNoLive": {
+        "SelfId": "Txt_Bar_Message_BorrowReturnNoLive",
+        "Text": "いま　{WORD}さんが\r\nいなくなってしまうと　<RUBY>死[し]んでいる<RUBY>人[ひと]\r\nばかりに　なってしまうわよ。"
+      },
+      "Txt_Bar_Message_BorrowReturnCancel": {
+        "SelfId": "Txt_Bar_Message_BorrowReturnCancel",
+        "Text": "わかったわ。\r\nこれからも　{WORD}さんに\r\n<RUBY>助[たす]けてもらいましょう。"
+      },
+      "Txt_Bar_Message_BorrowSelect": {
+        "SelfId": "Txt_Bar_Message_BorrowSelect",
+        "Text": "{WORD}さんに\r\n<RUBY>助[たす]けにきて　もらうのかしら？<NO_INPUT>"
+      },
+      "Txt_Bar_Message_BorrowDecide": {
+        "SelfId": "Txt_Bar_Message_BorrowDecide",
+        "Text": "じゃ　{WORD}さんを\r\nとうろくするわね。"
+      },
+      "Txt_Bar_Message_BorrowPartyAdd": {
+        "SelfId": "Txt_Bar_Message_BorrowPartyAdd",
+        "Text": "そのまま　{WORD}さんを\r\n<RUBY>冒険[ぼうけん]に　<RUBY>連[つ]れて<RUBY>行[ゆ]くの？<NO_INPUT>"
+      },
+      "Txt_Bar_Message_BorrowPartyChange": {
+        "SelfId": "Txt_Bar_Message_BorrowPartyChange",
+        "Text": "でも　そんなに　ぞろぞろお<RUBY>仲間[なかま]がいたら\r\nそれ<RUBY>以上[いじょう]は　<RUBY>連[つ]れて<RUBY>行[い]けなくてよ。\r\n<RUBY>誰[だれ]か<RUBY>酒場[さかば]で　<RUBY>待[ま]っていてもらいましょうか？<NO_INPUT>"
+      },
+      "Txt_Bar_Message_BorrowPartySelect": {
+        "SelfId": "Txt_Bar_Message_BorrowPartySelect",
+        "Text": "じゃ　<RUBY>誰[だれ]に　ここで\r\n<RUBY>待[ま]っていて　もらうのかしら？<NO_INPUT>"
+      },
+      "Txt_Bar_Message_BorrowPartySelect2": {
+        "SelfId": "Txt_Bar_Message_BorrowPartySelect2",
+        "Text": "ほかの　<RUBY>誰[だれ]に\r\n<RUBY>待[ま]っていて　もらいましょうか？<NO_INPUT>"
+      },
+      "Txt_Bar_Message_BorrowPartyToBar": {
+        "SelfId": "Txt_Bar_Message_BorrowPartyToBar",
+        "Text": "じゃ　{WORD}さんを　はずすわね。\r\nそうびしているもの　<RUBY>以外[いがい]は\r\nその　ふくろに　いれておくわ。"
+      },
+      "Txt_Bar_Message_BorrowAddBarMember": {
+        "SelfId": "Txt_Bar_Message_BorrowAddBarMember",
+        "Text": "じゃ　{WORD}さんは\r\n<RUBY>酒場[さかば]で　<RUBY>待[ま]っていてもらうわね。"
+      },
+      "Txt_Bar_Message_Find": {
+        "SelfId": "Txt_Bar_Message_Find",
+        "Text": "<RUBY>一緒[いっしょ]に　<RUBY>冒険[ぼうけん]にでる<RUBY>人[ひと]を\r\n<RUBY>探[さが]したいのね？\r\n<KEY_WAIT>\r\nもちろん　<RUBY>酒場[さかば]にいる<RUBY>人[ひと]を　<RUBY>呼[よ]んでもいいけれど\r\nもし　そんな<RUBY>人[ひと]がいなかったら\r\n<RUBY>二階[にかい]の<RUBY>受付[うけつけ]で　<RUBY>探[さが]してもらうといいわ。<KEY_WAIT>\r\nきっと　あなたの<RUBY>希望[きぼう]に　ピッタリな<RUBY>人[ひと]を\r\n<RUBY>見[み]つけてもらえると　<RUBY>思[おも]うわよ！"
+      },
+      "Txt_Bar_Message_Help": {
+        "SelfId": "Txt_Bar_Message_Help",
+        "Text": "ほかの　<RUBY>冒険者[ぼうけんしゃ]さんを　<RUBY>助[たす]けてあげるの？\r\nそれとも　<RUBY>誰[だれ]かに　<RUBY>助[たす]けをお<RUBY>願[ねが]いする？<NO_INPUT>"
+      },
+      "Txt_Bar_Message_HelpAgain": {
+        "SelfId": "Txt_Bar_Message_HelpAgain",
+        "Text": "まだ　やりたいことが\r\nあるのかしら？<NO_INPUT>"
+      },
+      "Txt_Bar_Message_BorrowDecideSystem": {
+        "SelfId": "Txt_Bar_Message_BorrowDecideSystem",
+        "Text": "{WORD}が　<RUBY>冒険[ぼうけん]の<RUBY>書[しょ]{VALUE}の\r\nおたすけキャラとして\r\nとうろくされました。"
+      }
+    }
+  }
+]

@@ -1,0 +1,1096 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_Shop",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Shop_UI_Top_01": {
+        "SelfId": "Txt_Shop_UI_Top_01",
+        "Text": "來買東西的"
+      },
+      "Txt_Shop_UI_Top_02": {
+        "SelfId": "Txt_Shop_UI_Top_02",
+        "Text": "來賣東西的"
+      },
+      "Txt_Shop_UI_Top_03": {
+        "SelfId": "Txt_Shop_UI_Top_03",
+        "Text": "放棄"
+      },
+      "Txt_Shop_UI_NoEquip": {
+        "SelfId": "Txt_Shop_UI_NoEquip",
+        "Text": "無法裝備"
+      },
+      "Txt_Shop_UI_ShopGuide": {
+        "SelfId": "Txt_Shop_UI_ShopGuide",
+        "Text": "出售物品"
+      },
+      "Txt_Shop_UI_BuyGuide": {
+        "SelfId": "Txt_Shop_UI_BuyGuide",
+        "Text": "選擇要買的物品"
+      },
+      "Txt_Shop_UI_SellGuide": {
+        "SelfId": "Txt_Shop_UI_SellGuide",
+        "Text": "選擇要賣的物品"
+      },
+      "Txt_Shop_UI_Total": {
+        "SelfId": "Txt_Shop_UI_Total",
+        "Text": "合計"
+      },
+      "Txt_Shop_UI_TotalPrice": {
+        "SelfId": "Txt_Shop_UI_TotalPrice",
+        "Text": "[0]"
+      },
+      "Txt_Shop_UI_NotForSell": {
+        "SelfId": "Txt_Shop_UI_NotForSell",
+        "Text": "無法出售"
+      },
+      "Txt_Shop_Message_Start_01_M": {
+        "SelfId": "Txt_Shop_Message_Start_01_M",
+        "Text": "這裡是{WORD}。\r\n有什麼能為你服務的嗎？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuySelect_01_M": {
+        "SelfId": "Txt_Shop_Message_BuySelect_01_M",
+        "Text": "想要買些什麼呢？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_Shotage_01_M": {
+        "SelfId": "Txt_Shop_Message_Shotage_01_M",
+        "Text": "很抱歉，客人你手邊的錢\r\n不夠用來買那個……"
+      },
+      "Txt_Shop_Message_BuySelectValue_01_M": {
+        "SelfId": "Txt_Shop_Message_BuySelectValue_01_M",
+        "Text": "要買幾個呢？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuySingle_01_M": {
+        "SelfId": "Txt_Shop_Message_BuySingle_01_M",
+        "Text": "{I_NAME}是吧？\r\n謝謝惠顧。"
+      },
+      "Txt_Shop_Message_BuyMultipul_01_M": {
+        "SelfId": "Txt_Shop_Message_BuyMultipul_01_M",
+        "Text": "{VALUE}個{I_NAME}是吧。\r\n謝謝惠顧。"
+      },
+      "Txt_Shop_Message_BuyUsefulBattle_01_M": {
+        "SelfId": "Txt_Shop_Message_BuyUsefulBattle_01_M",
+        "Text": "這件物品在戰鬥時\r\n當作道具使用也很划算喔。"
+      },
+      "Txt_Shop_Message_SelectBuyer_01_M": {
+        "SelfId": "Txt_Shop_Message_SelectBuyer_01_M",
+        "Text": "要交給哪一位呢？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_ConfirmSorting_01_M": {
+        "SelfId": "Txt_Shop_Message_ConfirmSorting_01_M",
+        "Text": "不過{ACTOR}\r\n似乎沒辦法持有更多物品了。\r\n要整理一下持有物品嗎？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_FinishSorting_01_M": {
+        "SelfId": "Txt_Shop_Message_FinishSorting_01_M",
+        "Text": "好的！已經整理好了。"
+      },
+      "Txt_Shop_Message_StopSorting_01_M": {
+        "SelfId": "Txt_Shop_Message_StopSorting_01_M",
+        "Text": "咦？\r\n可是{ACTOR}的持有物品\r\n全部都是重要的東西呢。"
+      },
+      "Txt_Shop_Message_SelectBuyerAgain_01_M": {
+        "SelfId": "Txt_Shop_Message_SelectBuyerAgain_01_M",
+        "Text": "要交給別人嗎？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuyBag_01_M": {
+        "SelfId": "Txt_Shop_Message_BuyBag_01_M",
+        "Text": "那就幫你放進\r\n那個{BAG}裡面囉。"
+      },
+      "Txt_Shop_Message_BagFull_01_M": {
+        "SelfId": "Txt_Shop_Message_BagFull_01_M",
+        "Text": "袋子裡好像已經裝滿了……"
+      },
+      "Txt_Shop_Message_UnableEquip_01_M": {
+        "SelfId": "Txt_Shop_Message_UnableEquip_01_M",
+        "Text": "咦？可是{ACTOR}\r\n似乎無法裝備這個物品，\r\n這樣沒關係嗎？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuyConfirmEquip_01_M": {
+        "SelfId": "Txt_Shop_Message_BuyConfirmEquip_01_M",
+        "Text": "要馬上裝備嗎？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SelectAccessorie_01_M": {
+        "SelfId": "Txt_Shop_Message_SelectAccessorie_01_M",
+        "Text": "要將飾品\r\n裝備在哪裡呢？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuyCurseLift_01_M": {
+        "SelfId": "Txt_Shop_Message_BuyCurseLift_01_M",
+        "Text": "咦！？那個{I_NAME}\r\n卸不下來耶！\r\n莫非是受到詛咒了？<KEY_WAIT>\r\n沒辦法。\r\n總之可以先收下東西嗎？"
+      },
+      "Txt_Shop_Message_BuySuccess_01_M": {
+        "SelfId": "Txt_Shop_Message_BuySuccess_01_M",
+        "Text": "好的，請收下吧，{ACTOR}。"
+      },
+      "Txt_Shop_Message_BuySuccess_Death_01_M": {
+        "SelfId": "Txt_Shop_Message_BuySuccess_Death_01_M",
+        "Text": "那麼，我就把東西\r\n放進{ACTOR}的棺木當中囉。"
+      },
+      "Txt_Shop_Message_BuyOverly_01_M": {
+        "SelfId": "Txt_Shop_Message_BuyOverly_01_M",
+        "Text": "超過持有數量上限的部份\r\n就幫你放進那個{BAG}裡囉。"
+      },
+      "Txt_Shop_Message_AdditionalBuy_01_M": {
+        "SelfId": "Txt_Shop_Message_AdditionalBuy_01_M",
+        "Text": "其他還需要什麼嗎？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SelectSeller_01_M": {
+        "SelfId": "Txt_Shop_Message_SelectSeller_01_M",
+        "Text": "要賣掉哪一位的持有物品呢？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_NoItem_Chara_01_M": {
+        "SelfId": "Txt_Shop_Message_NoItem_Chara_01_M",
+        "Text": "可是{ACTOR}身上\r\n好像沒有可以賣的東西。"
+      },
+      "Txt_Shop_Message_NoItem_Bag_01_M": {
+        "SelfId": "Txt_Shop_Message_NoItem_Bag_01_M",
+        "Text": "咦？那個{BAG}裡\r\n好像是空的唷。"
+      },
+      "Txt_Shop_Message_SellCanNot_01_M": {
+        "SelfId": "Txt_Shop_Message_SellCanNot_01_M",
+        "Text": "很抱歉，\r\n我們沒辦法收購那件物品。"
+      },
+      "Txt_Shop_Message_SellConfirmEquip_01_M": {
+        "SelfId": "Txt_Shop_Message_SellConfirmEquip_01_M",
+        "Text": "但那個好像有人正在裝備，\r\n確定要這麼做嗎？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_ConfirmLare_01_M": {
+        "SelfId": "Txt_Shop_Message_ConfirmLare_01_M",
+        "Text": "可是，賣掉之後\r\n可能就再也無法獲得這個物品了。\r\n沒關係嗎？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSelectValue_01_M": {
+        "SelfId": "Txt_Shop_Message_SellSelectValue_01_M",
+        "Text": "要賣幾個呢？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSingle_01_M": {
+        "SelfId": "Txt_Shop_Message_SellSingle_01_M",
+        "Text": "{I_NAME}是嗎？\r\n那我就用{VALUE}Ｇ買下，可以嗎？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellMultiple_01_M": {
+        "SelfId": "Txt_Shop_Message_SellMultiple_01_M",
+        "Text": "{VALUE}個{I_NAME}是嗎？\r\n那我就用{VALUE2}Ｇ買下，可以嗎？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSuccess_01_M": {
+        "SelfId": "Txt_Shop_Message_SellSuccess_01_M",
+        "Text": "謝謝惠顧。"
+      },
+      "Txt_Shop_Message_SellCancel_01_M": {
+        "SelfId": "Txt_Shop_Message_SellCancel_01_M",
+        "Text": "那真是太遺憾了……"
+      },
+      "Txt_Shop_Message_GoldFull_01_M": {
+        "SelfId": "Txt_Shop_Message_GoldFull_01_M",
+        "Text": "可是你已經無法帶更多的錢了。\r\n先在我們這裡買點東西如何呢？"
+      },
+      "Txt_Shop_Message_SellCurseLift_01_M": {
+        "SelfId": "Txt_Shop_Message_SellCurseLift_01_M",
+        "Text": "咦！？\r\n看來它好像被施加詛咒了呢。\r\n嗯～太遺憾了……"
+      },
+      "Txt_Shop_Message_AdditionalSell_01_M": {
+        "SelfId": "Txt_Shop_Message_AdditionalSell_01_M",
+        "Text": "還想賣些其他東西嗎？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_AdditionalShop_01_M": {
+        "SelfId": "Txt_Shop_Message_AdditionalShop_01_M",
+        "Text": "還有什麼事嗎？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_Finish_01_M": {
+        "SelfId": "Txt_Shop_Message_Finish_01_M",
+        "Text": "那麼，期待客人下次再度光臨。"
+      },
+      "Txt_Shop_Message_ConfirmGoldSingle_01_M": {
+        "SelfId": "Txt_Shop_Message_ConfirmGoldSingle_01_M",
+        "Text": "這樣是{VALUE}Ｇ，\r\n可以嗎？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_ConfirmGoldMultiple_01_M": {
+        "SelfId": "Txt_Shop_Message_ConfirmGoldMultiple_01_M",
+        "Text": "總共是{VALUE}Ｇ，\r\n這樣可以嗎？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSelect_01_M": {
+        "SelfId": "Txt_Shop_Message_SellSelect_01_M",
+        "Text": "要賣掉哪一樣呢？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_Start_01_F": {
+        "SelfId": "Txt_Shop_Message_Start_01_F",
+        "Text": "這裡是{WORD}。\r\n有什麼能為你服務的嗎？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuySelect_01_F": {
+        "SelfId": "Txt_Shop_Message_BuySelect_01_F",
+        "Text": "想要買些什麼呢？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_Shotage_01_F": {
+        "SelfId": "Txt_Shop_Message_Shotage_01_F",
+        "Text": "很抱歉，客人你手邊的錢\r\n不夠用來買那個……"
+      },
+      "Txt_Shop_Message_BuySelectValue_01_F": {
+        "SelfId": "Txt_Shop_Message_BuySelectValue_01_F",
+        "Text": "要買幾個呢？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuySingle_01_F": {
+        "SelfId": "Txt_Shop_Message_BuySingle_01_F",
+        "Text": "{I_NAME}是吧？\r\n謝謝惠顧。"
+      },
+      "Txt_Shop_Message_BuyMultipul_01_F": {
+        "SelfId": "Txt_Shop_Message_BuyMultipul_01_F",
+        "Text": "{VALUE}個{I_NAME}是吧。\r\n謝謝惠顧。"
+      },
+      "Txt_Shop_Message_BuyUsefulBattle_01_F": {
+        "SelfId": "Txt_Shop_Message_BuyUsefulBattle_01_F",
+        "Text": "這件物品在戰鬥時\r\n當作道具使用也很划算喔。"
+      },
+      "Txt_Shop_Message_SelectBuyer_01_F": {
+        "SelfId": "Txt_Shop_Message_SelectBuyer_01_F",
+        "Text": "要交給哪一位呢？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_ConfirmSorting_01_F": {
+        "SelfId": "Txt_Shop_Message_ConfirmSorting_01_F",
+        "Text": "不過{ACTOR}\r\n似乎沒辦法持有更多物品了。\r\n要整理一下持有物品嗎？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_FinishSorting_01_F": {
+        "SelfId": "Txt_Shop_Message_FinishSorting_01_F",
+        "Text": "好的！已經整理好了。"
+      },
+      "Txt_Shop_Message_StopSorting_01_F": {
+        "SelfId": "Txt_Shop_Message_StopSorting_01_F",
+        "Text": "咦？\r\n可是{ACTOR}的持有物品\r\n全部都是重要的東西呢。"
+      },
+      "Txt_Shop_Message_SelectBuyerAgain_01_F": {
+        "SelfId": "Txt_Shop_Message_SelectBuyerAgain_01_F",
+        "Text": "要交給別人嗎？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuyBag_01_F": {
+        "SelfId": "Txt_Shop_Message_BuyBag_01_F",
+        "Text": "那就幫你放進\r\n那個{BAG}裡面囉。"
+      },
+      "Txt_Shop_Message_BagFull_01_F": {
+        "SelfId": "Txt_Shop_Message_BagFull_01_F",
+        "Text": "袋子裡好像已經裝滿了……"
+      },
+      "Txt_Shop_Message_UnableEquip_01_F": {
+        "SelfId": "Txt_Shop_Message_UnableEquip_01_F",
+        "Text": "咦？可是{ACTOR}\r\n似乎無法裝備這個物品，\r\n這樣沒關係嗎？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuyConfirmEquip_01_F": {
+        "SelfId": "Txt_Shop_Message_BuyConfirmEquip_01_F",
+        "Text": "要馬上裝備嗎？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SelectAccessorie_01_F": {
+        "SelfId": "Txt_Shop_Message_SelectAccessorie_01_F",
+        "Text": "要將飾品\r\n裝備在哪裡呢？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuyCurseLift_01_F": {
+        "SelfId": "Txt_Shop_Message_BuyCurseLift_01_F",
+        "Text": "咦！？那個{I_NAME}\r\n卸不下來耶！\r\n莫非是受到詛咒了？<KEY_WAIT>\r\n沒辦法。\r\n總之可以先收下東西嗎？"
+      },
+      "Txt_Shop_Message_BuySuccess_01_F": {
+        "SelfId": "Txt_Shop_Message_BuySuccess_01_F",
+        "Text": "好的，請收下吧，{ACTOR}。"
+      },
+      "Txt_Shop_Message_BuySuccess_Death_01_F": {
+        "SelfId": "Txt_Shop_Message_BuySuccess_Death_01_F",
+        "Text": "那麼，我就把東西\r\n放進{ACTOR}的棺木當中囉。"
+      },
+      "Txt_Shop_Message_BuyOverly_01_F": {
+        "SelfId": "Txt_Shop_Message_BuyOverly_01_F",
+        "Text": "超過持有數量上限的部份\r\n就幫你放進那個{BAG}裡囉。"
+      },
+      "Txt_Shop_Message_AdditionalBuy_01_F": {
+        "SelfId": "Txt_Shop_Message_AdditionalBuy_01_F",
+        "Text": "其他還需要什麼嗎？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SelectSeller_01_F": {
+        "SelfId": "Txt_Shop_Message_SelectSeller_01_F",
+        "Text": "要賣掉哪一位的持有物品呢？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_NoItem_Chara_01_F": {
+        "SelfId": "Txt_Shop_Message_NoItem_Chara_01_F",
+        "Text": "可是{ACTOR}身上\r\n好像沒有可以賣的東西。"
+      },
+      "Txt_Shop_Message_NoItem_Bag_01_F": {
+        "SelfId": "Txt_Shop_Message_NoItem_Bag_01_F",
+        "Text": "咦？那個{BAG}裡\r\n好像是空的唷。"
+      },
+      "Txt_Shop_Message_SellCanNot_01_F": {
+        "SelfId": "Txt_Shop_Message_SellCanNot_01_F",
+        "Text": "很抱歉，\r\n我們沒辦法收購那件物品。"
+      },
+      "Txt_Shop_Message_SellConfirmEquip_01_F": {
+        "SelfId": "Txt_Shop_Message_SellConfirmEquip_01_F",
+        "Text": "但那個好像有人正在裝備，\r\n確定要這麼做嗎？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_ConfirmLare_01_F": {
+        "SelfId": "Txt_Shop_Message_ConfirmLare_01_F",
+        "Text": "可是，賣掉之後\r\n可能就再也無法獲得這個物品了。\r\n沒關係嗎？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSelectValue_01_F": {
+        "SelfId": "Txt_Shop_Message_SellSelectValue_01_F",
+        "Text": "要賣幾個呢？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSingle_01_F": {
+        "SelfId": "Txt_Shop_Message_SellSingle_01_F",
+        "Text": "{I_NAME}是嗎？\r\n那我就用{VALUE}Ｇ買下，可以嗎？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellMultiple_01_F": {
+        "SelfId": "Txt_Shop_Message_SellMultiple_01_F",
+        "Text": "{VALUE}個{I_NAME}是嗎？\r\n那我就用{VALUE2}Ｇ買下，可以嗎？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSuccess_01_F": {
+        "SelfId": "Txt_Shop_Message_SellSuccess_01_F",
+        "Text": "謝謝惠顧。"
+      },
+      "Txt_Shop_Message_SellCancel_01_F": {
+        "SelfId": "Txt_Shop_Message_SellCancel_01_F",
+        "Text": "那真是太遺憾了……"
+      },
+      "Txt_Shop_Message_GoldFull_01_F": {
+        "SelfId": "Txt_Shop_Message_GoldFull_01_F",
+        "Text": "可是你已經無法帶更多的錢了。\r\n先在我們這裡買點東西如何呢？"
+      },
+      "Txt_Shop_Message_SellCurseLift_01_F": {
+        "SelfId": "Txt_Shop_Message_SellCurseLift_01_F",
+        "Text": "咦！？\r\n看來它好像被施加詛咒了呢。\r\n嗯～太遺憾了……"
+      },
+      "Txt_Shop_Message_AdditionalSell_01_F": {
+        "SelfId": "Txt_Shop_Message_AdditionalSell_01_F",
+        "Text": "還想賣些其他東西嗎？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_AdditionalShop_01_F": {
+        "SelfId": "Txt_Shop_Message_AdditionalShop_01_F",
+        "Text": "還有什麼事嗎？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_Finish_01_F": {
+        "SelfId": "Txt_Shop_Message_Finish_01_F",
+        "Text": "那麼，期待客人下次再度光臨。"
+      },
+      "Txt_Shop_Message_ConfirmGoldSingle_01_F": {
+        "SelfId": "Txt_Shop_Message_ConfirmGoldSingle_01_F",
+        "Text": "這樣是{VALUE}Ｇ，\r\n可以嗎？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_ConfirmGoldMultiple_01_F": {
+        "SelfId": "Txt_Shop_Message_ConfirmGoldMultiple_01_F",
+        "Text": "總共是{VALUE}Ｇ，\r\n這樣可以嗎？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSelect_01_F": {
+        "SelfId": "Txt_Shop_Message_SellSelect_01_F",
+        "Text": "要賣掉哪一樣呢？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_Start_02": {
+        "SelfId": "Txt_Shop_Message_Start_02",
+        "Text": "這裡是{WORD}。\r\n你有什麼事？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuySelect_02": {
+        "SelfId": "Txt_Shop_Message_BuySelect_02",
+        "Text": "要買什麼？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_Shotage_02": {
+        "SelfId": "Txt_Shop_Message_Shotage_02",
+        "Text": "喔，可惜你手邊的錢\r\n好像不夠呢。"
+      },
+      "Txt_Shop_Message_BuySelectValue_02": {
+        "SelfId": "Txt_Shop_Message_BuySelectValue_02",
+        "Text": "你要買幾個？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuySingle_02": {
+        "SelfId": "Txt_Shop_Message_BuySingle_02",
+        "Text": "{I_NAME}是吧？\r\n謝謝惠顧。"
+      },
+      "Txt_Shop_Message_BuyMultipul_02": {
+        "SelfId": "Txt_Shop_Message_BuyMultipul_02",
+        "Text": "{VALUE}個{I_NAME}對吧。\r\n謝謝惠顧。"
+      },
+      "Txt_Shop_Message_BuyUsefulBattle_02": {
+        "SelfId": "Txt_Shop_Message_BuyUsefulBattle_02",
+        "Text": "這件物品在戰鬥時\r\n當作道具使用也有特別效果唷。"
+      },
+      "Txt_Shop_Message_SelectBuyer_02": {
+        "SelfId": "Txt_Shop_Message_SelectBuyer_02",
+        "Text": "要交給誰來拿？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_ConfirmSorting_02": {
+        "SelfId": "Txt_Shop_Message_ConfirmSorting_02",
+        "Text": "啊？抱歉啊，{ACTOR}\r\n似乎沒辦法持有更多物品了。\r\n要整理一下持有物品嗎？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_FinishSorting_02": {
+        "SelfId": "Txt_Shop_Message_FinishSorting_02",
+        "Text": "好！已經整理好囉。"
+      },
+      "Txt_Shop_Message_StopSorting_02": {
+        "SelfId": "Txt_Shop_Message_StopSorting_02",
+        "Text": "咦？可是{ACTOR}的\r\n持有物品全都是些重要的東西，\r\n我可不敢隨便整理啊。"
+      },
+      "Txt_Shop_Message_SelectBuyerAgain_02": {
+        "SelfId": "Txt_Shop_Message_SelectBuyerAgain_02",
+        "Text": "要交給其他人嗎？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuyBag_02": {
+        "SelfId": "Txt_Shop_Message_BuyBag_02",
+        "Text": "好，那就幫你放進那個\r\n{BAG}裡面囉！"
+      },
+      "Txt_Shop_Message_BagFull_02": {
+        "SelfId": "Txt_Shop_Message_BagFull_02",
+        "Text": "我是很想，但袋子都裝滿了……"
+      },
+      "Txt_Shop_Message_UnableEquip_02": {
+        "SelfId": "Txt_Shop_Message_UnableEquip_02",
+        "Text": "{ACTOR}無法裝備這個物品，\r\n這樣沒關係嗎？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuyConfirmEquip_02": {
+        "SelfId": "Txt_Shop_Message_BuyConfirmEquip_02",
+        "Text": "要直接在這裝備嗎？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SelectAccessorie_02": {
+        "SelfId": "Txt_Shop_Message_SelectAccessorie_02",
+        "Text": "你要裝備在哪裡？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuyCurseLift_02": {
+        "SelfId": "Txt_Shop_Message_BuyCurseLift_02",
+        "Text": "哇，嚇我一跳！\r\n那個{I_NAME}因為詛咒的關係，\r\n看樣子沒辦法卸下啊。<KEY_WAIT>\r\n真沒辦法……\r\n總之先收下這個吧。"
+      },
+      "Txt_Shop_Message_BuySuccess_02": {
+        "SelfId": "Txt_Shop_Message_BuySuccess_02",
+        "Text": "拿去吧，{ACTOR}！"
+      },
+      "Txt_Shop_Message_BuySuccess_Death_02": {
+        "SelfId": "Txt_Shop_Message_BuySuccess_Death_02",
+        "Text": "那麼，我就把東西\r\n放進{ACTOR}的棺木當中囉。"
+      },
+      "Txt_Shop_Message_BuyOverly_02": {
+        "SelfId": "Txt_Shop_Message_BuyOverly_02",
+        "Text": "超過持有數量上限的部份\r\n就幫你放進那個{BAG}裡囉。"
+      },
+      "Txt_Shop_Message_AdditionalBuy_02": {
+        "SelfId": "Txt_Shop_Message_AdditionalBuy_02",
+        "Text": "還要買什麼嗎？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SelectSeller_02": {
+        "SelfId": "Txt_Shop_Message_SelectSeller_02",
+        "Text": "誰要賣東西給我呀？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_NoItem_Chara_02": {
+        "SelfId": "Txt_Shop_Message_NoItem_Chara_02",
+        "Text": "咦？可是{ACTOR}身上\r\n什麼都沒有喔。"
+      },
+      "Txt_Shop_Message_NoItem_Bag_02": {
+        "SelfId": "Txt_Shop_Message_NoItem_Bag_02",
+        "Text": "咦？可是那個{BAG}裡\r\n什麼都沒有啊。"
+      },
+      "Txt_Shop_Message_SellCanNot_02": {
+        "SelfId": "Txt_Shop_Message_SellCanNot_02",
+        "Text": "不好意思，\r\n我們店裡沒辦法收購那樣東西。"
+      },
+      "Txt_Shop_Message_SellConfirmEquip_02": {
+        "SelfId": "Txt_Shop_Message_SellConfirmEquip_02",
+        "Text": "但那個好像有人正在裝備，\r\n你確定嗎？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_ConfirmLare_02": {
+        "SelfId": "Txt_Shop_Message_ConfirmLare_02",
+        "Text": "可是，賣掉之後\r\n可能就再也無法獲得這個物品了。\r\n真的可以嗎？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSelectValue_02": {
+        "SelfId": "Txt_Shop_Message_SellSelectValue_02",
+        "Text": "你要賣幾個？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSingle_02": {
+        "SelfId": "Txt_Shop_Message_SellSingle_02",
+        "Text": "賣出{I_NAME}對嗎？\r\n我出{VALUE}Ｇ買下，\r\n這樣可以嗎？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellMultiple_02": {
+        "SelfId": "Txt_Shop_Message_SellMultiple_02",
+        "Text": "賣出{VALUE}個{I_NAME}對嗎？\r\n我出{VALUE2}Ｇ買下，\r\n這樣可以嗎？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSuccess_02": {
+        "SelfId": "Txt_Shop_Message_SellSuccess_02",
+        "Text": "好！就這樣成交。"
+      },
+      "Txt_Shop_Message_SellCancel_02": {
+        "SelfId": "Txt_Shop_Message_SellCancel_02",
+        "Text": "那真是遺憾啊。"
+      },
+      "Txt_Shop_Message_GoldFull_02": {
+        "SelfId": "Txt_Shop_Message_GoldFull_02",
+        "Text": "哎呀！雖然我是想買下，\r\n但是你好像沒辦法帶更多的錢了。"
+      },
+      "Txt_Shop_Message_SellCurseLift_02": {
+        "SelfId": "Txt_Shop_Message_SellCurseLift_02",
+        "Text": "嗚哇！真讓人驚訝！\r\n雖然非常想買下它，\r\n但因為詛咒的關係，看樣子沒辦法卸下啊。"
+      },
+      "Txt_Shop_Message_AdditionalSell_02": {
+        "SelfId": "Txt_Shop_Message_AdditionalSell_02",
+        "Text": "還要賣什麼嗎？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_AdditionalShop_02": {
+        "SelfId": "Txt_Shop_Message_AdditionalShop_02",
+        "Text": "還有其他需要的嗎？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_Finish_02": {
+        "SelfId": "Txt_Shop_Message_Finish_02",
+        "Text": "下次再來喔！"
+      },
+      "Txt_Shop_Message_ConfirmGoldSingle_02": {
+        "SelfId": "Txt_Shop_Message_ConfirmGoldSingle_02",
+        "Text": "這樣是{VALUE}Ｇ，\r\n沒問題吧？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_ConfirmGoldMultiple_02": {
+        "SelfId": "Txt_Shop_Message_ConfirmGoldMultiple_02",
+        "Text": "總共是{VALUE}Ｇ，\r\n沒問題吧？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSelect_02": {
+        "SelfId": "Txt_Shop_Message_SellSelect_02",
+        "Text": "你要賣哪個？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_Start_01_Smith": {
+        "SelfId": "Txt_Shop_Message_Start_01_Smith",
+        "Text": "這裡是{WORD}。\r\n有什麼能為你服務的嗎？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuySelect_01_Smith": {
+        "SelfId": "Txt_Shop_Message_BuySelect_01_Smith",
+        "Text": "想要買些什麼呢？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_Shotage_01_Smith": {
+        "SelfId": "Txt_Shop_Message_Shotage_01_Smith",
+        "Text": "很抱歉，客人你手邊的錢\r\n不夠用來買那個……"
+      },
+      "Txt_Shop_Message_BuySelectValue_01_Smith": {
+        "SelfId": "Txt_Shop_Message_BuySelectValue_01_Smith",
+        "Text": "要買幾個呢？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuySingle_01_Smith": {
+        "SelfId": "Txt_Shop_Message_BuySingle_01_Smith",
+        "Text": "{I_NAME}是吧？\r\n謝謝惠顧。"
+      },
+      "Txt_Shop_Message_BuyMultipul_01_Smith": {
+        "SelfId": "Txt_Shop_Message_BuyMultipul_01_Smith",
+        "Text": "{VALUE}個{I_NAME}是吧？\r\n謝謝惠顧。"
+      },
+      "Txt_Shop_Message_BuyUsefulBattle_01_Smith": {
+        "SelfId": "Txt_Shop_Message_BuyUsefulBattle_01_Smith",
+        "Text": "這件物品在戰鬥時\r\n當作道具使用也很划算喔。"
+      },
+      "Txt_Shop_Message_SelectBuyer_01_Smith": {
+        "SelfId": "Txt_Shop_Message_SelectBuyer_01_Smith",
+        "Text": "要交給哪一位呢？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_ConfirmSorting_01_Smith": {
+        "SelfId": "Txt_Shop_Message_ConfirmSorting_01_Smith",
+        "Text": "不過{ACTOR}\r\n似乎沒辦法持有更多物品了。\r\n要整理一下持有物品嗎？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_FinishSorting_01_Smith": {
+        "SelfId": "Txt_Shop_Message_FinishSorting_01_Smith",
+        "Text": "好的！已經整理好了。"
+      },
+      "Txt_Shop_Message_StopSorting_01_Smith": {
+        "SelfId": "Txt_Shop_Message_StopSorting_01_Smith",
+        "Text": "咦？\r\n可是{ACTOR}的持有物品\r\n全部都是重要的東西呢。"
+      },
+      "Txt_Shop_Message_SelectBuyerAgain_01_Smith": {
+        "SelfId": "Txt_Shop_Message_SelectBuyerAgain_01_Smith",
+        "Text": "要交給別人嗎？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuyBag_01_Smith": {
+        "SelfId": "Txt_Shop_Message_BuyBag_01_Smith",
+        "Text": "那就幫你放進\r\n那個{BAG}裡面囉。"
+      },
+      "Txt_Shop_Message_BagFull_01_Smith": {
+        "SelfId": "Txt_Shop_Message_BagFull_01_Smith",
+        "Text": "袋子裡好像已經裝滿了……"
+      },
+      "Txt_Shop_Message_UnableEquip_01_Smith": {
+        "SelfId": "Txt_Shop_Message_UnableEquip_01_Smith",
+        "Text": "咦？可是{ACTOR}\r\n似乎無法裝備這個物品，\r\n這樣沒關係嗎？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuyConfirmEquip_01_Smith": {
+        "SelfId": "Txt_Shop_Message_BuyConfirmEquip_01_Smith",
+        "Text": "要馬上裝備嗎？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SelectAccessorie_01_Smith": {
+        "SelfId": "Txt_Shop_Message_SelectAccessorie_01_Smith",
+        "Text": "要將飾品\r\n裝備在哪裡呢？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuyCurseLift_01_Smith": {
+        "SelfId": "Txt_Shop_Message_BuyCurseLift_01_Smith",
+        "Text": "咦！？那個{I_NAME}卸不下來耶！\r\n莫非是受到詛咒了？<KEY_WAIT>\r\n沒辦法，\r\n總之可以先收下東西嗎？"
+      },
+      "Txt_Shop_Message_BuySuccess_01_Smith": {
+        "SelfId": "Txt_Shop_Message_BuySuccess_01_Smith",
+        "Text": "好的，請收下吧，{ACTOR}。"
+      },
+      "Txt_Shop_Message_BuySuccess_Death_01_Smith": {
+        "SelfId": "Txt_Shop_Message_BuySuccess_Death_01_Smith",
+        "Text": "那麼，我就把東西\r\n放進{ACTOR}的棺木當中囉。"
+      },
+      "Txt_Shop_Message_BuyOverly_01_Smith": {
+        "SelfId": "Txt_Shop_Message_BuyOverly_01_Smith",
+        "Text": "超過持有數量上限的部份\r\n就幫你放進那個{BAG}裡囉。"
+      },
+      "Txt_Shop_Message_AdditionalBuy_01_Smith": {
+        "SelfId": "Txt_Shop_Message_AdditionalBuy_01_Smith",
+        "Text": "其他還需要什麼嗎？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SelectSeller_01_Smith": {
+        "SelfId": "Txt_Shop_Message_SelectSeller_01_Smith",
+        "Text": "要賣掉哪一位的持有物品呢？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_NoItem_Chara_01_Smith": {
+        "SelfId": "Txt_Shop_Message_NoItem_Chara_01_Smith",
+        "Text": "可是{ACTOR}身上\r\n好像沒有可以賣的東西。"
+      },
+      "Txt_Shop_Message_NoItem_Bag_01_Smith": {
+        "SelfId": "Txt_Shop_Message_NoItem_Bag_01_Smith",
+        "Text": "咦？那個{BAG}裡\r\n好像是空的唷。"
+      },
+      "Txt_Shop_Message_SellCanNot_01_Smith": {
+        "SelfId": "Txt_Shop_Message_SellCanNot_01_Smith",
+        "Text": "很抱歉，\r\n我們沒辦法收購那件物品。"
+      },
+      "Txt_Shop_Message_SellConfirmEquip_01_Smith": {
+        "SelfId": "Txt_Shop_Message_SellConfirmEquip_01_Smith",
+        "Text": "但好像有人正在裝備那個，\r\n確定要這麼做嗎？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_ConfirmLare_01_Smith": {
+        "SelfId": "Txt_Shop_Message_ConfirmLare_01_Smith",
+        "Text": "可是，賣掉之後\r\n可能就再也無法獲得這個物品了。\r\n沒關係嗎？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSelectValue_01_Smith": {
+        "SelfId": "Txt_Shop_Message_SellSelectValue_01_Smith",
+        "Text": "要賣幾個呢？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSingle_01_Smith": {
+        "SelfId": "Txt_Shop_Message_SellSingle_01_Smith",
+        "Text": "{I_NAME}是嗎？\r\n那我就用{VALUE}Ｇ買下，可以嗎？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellMultiple_01_Smith": {
+        "SelfId": "Txt_Shop_Message_SellMultiple_01_Smith",
+        "Text": "{VALUE}個{I_NAME}是嗎？\r\n那我就用{VALUE2}Ｇ買下，可以嗎？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSuccess_01_Smith": {
+        "SelfId": "Txt_Shop_Message_SellSuccess_01_Smith",
+        "Text": "謝謝惠顧。"
+      },
+      "Txt_Shop_Message_SellCancel_01_Smith": {
+        "SelfId": "Txt_Shop_Message_SellCancel_01_Smith",
+        "Text": "那真是太遺憾了……"
+      },
+      "Txt_Shop_Message_GoldFull_01_Smith": {
+        "SelfId": "Txt_Shop_Message_GoldFull_01_Smith",
+        "Text": "可是你已經無法帶更多的錢了。\r\n先在我們這裡買點東西如何呢？"
+      },
+      "Txt_Shop_Message_SellCurseLift_01_Smith": {
+        "SelfId": "Txt_Shop_Message_SellCurseLift_01_Smith",
+        "Text": "咦！？\r\n看來它好像被施加詛咒了呢。\r\n嗯～太遺憾了……"
+      },
+      "Txt_Shop_Message_AdditionalSell_01_Smith": {
+        "SelfId": "Txt_Shop_Message_AdditionalSell_01_Smith",
+        "Text": "還想賣些其他東西嗎？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_AdditionalShop_01_Smith": {
+        "SelfId": "Txt_Shop_Message_AdditionalShop_01_Smith",
+        "Text": "還有什麼事嗎？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_Finish_01_Smith": {
+        "SelfId": "Txt_Shop_Message_Finish_01_Smith",
+        "Text": "那麼，期待客人下次再度光臨。"
+      },
+      "Txt_Shop_Message_ConfirmGoldSingle_01_Smith": {
+        "SelfId": "Txt_Shop_Message_ConfirmGoldSingle_01_Smith",
+        "Text": "這樣是{VALUE}Ｇ，\r\n可以嗎？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_ConfirmGoldMultiple_01_Smith": {
+        "SelfId": "Txt_Shop_Message_ConfirmGoldMultiple_01_Smith",
+        "Text": "總共是{VALUE}Ｇ，\r\n這樣可以嗎？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSelect_01_Smith": {
+        "SelfId": "Txt_Shop_Message_SellSelect_01_Smith",
+        "Text": "要賣掉哪一樣呢？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_Start_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_Start_01_Burg_M",
+        "Text": "這裡是{WORD}。\r\n有什麼能為你服務的嗎？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuySelect_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_BuySelect_01_Burg_M",
+        "Text": "想要買些什麼呢？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_Shotage_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_Shotage_01_Burg_M",
+        "Text": "很抱歉，客人你手邊的錢\r\n不夠用來買那個……"
+      },
+      "Txt_Shop_Message_BuySelectValue_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_BuySelectValue_01_Burg_M",
+        "Text": "要買幾個呢？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuySingle_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_BuySingle_01_Burg_M",
+        "Text": "{I_NAME}是吧？\r\n謝謝惠顧。"
+      },
+      "Txt_Shop_Message_BuyMultipul_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_BuyMultipul_01_Burg_M",
+        "Text": "{VALUE}個{I_NAME}是吧？\r\n謝謝惠顧。"
+      },
+      "Txt_Shop_Message_BuyUsefulBattle_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_BuyUsefulBattle_01_Burg_M",
+        "Text": "這件物品在戰鬥時\r\n當作道具使用也很划算喔。"
+      },
+      "Txt_Shop_Message_SelectBuyer_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_SelectBuyer_01_Burg_M",
+        "Text": "要交給哪一位呢？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_ConfirmSorting_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_ConfirmSorting_01_Burg_M",
+        "Text": "不過{ACTOR}\r\n似乎沒辦法持有更多物品了。\r\n要整理一下持有物品嗎？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_FinishSorting_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_FinishSorting_01_Burg_M",
+        "Text": "好的！\r\n已經整理好了。"
+      },
+      "Txt_Shop_Message_StopSorting_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_StopSorting_01_Burg_M",
+        "Text": "咦？\r\n可是{ACTOR}的持有物品\r\n全部都是重要的東西呢。"
+      },
+      "Txt_Shop_Message_SelectBuyerAgain_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_SelectBuyerAgain_01_Burg_M",
+        "Text": "要交給別人嗎？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuyBag_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_BuyBag_01_Burg_M",
+        "Text": "那就幫你放進\r\n那個{BAG}裡面囉。"
+      },
+      "Txt_Shop_Message_BagFull_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_BagFull_01_Burg_M",
+        "Text": "袋子裡好像已經裝滿了……"
+      },
+      "Txt_Shop_Message_UnableEquip_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_UnableEquip_01_Burg_M",
+        "Text": "咦？可是{ACTOR}\r\n似乎無法裝備這個物品，\r\n這樣沒關係嗎？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuyConfirmEquip_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_BuyConfirmEquip_01_Burg_M",
+        "Text": "要馬上裝備嗎？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SelectAccessorie_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_SelectAccessorie_01_Burg_M",
+        "Text": "要將飾品\r\n裝備在哪裡呢？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuyCurseLift_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_BuyCurseLift_01_Burg_M",
+        "Text": "咦！？那個{I_NAME}卸不下來耶！\r\n莫非是受到詛咒了？<KEY_WAIT>\r\n沒辦法，\r\n總之可以先收下東西嗎？"
+      },
+      "Txt_Shop_Message_BuySuccess_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_BuySuccess_01_Burg_M",
+        "Text": "好的，請收下吧，{ACTOR}。"
+      },
+      "Txt_Shop_Message_BuySuccess_Death_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_BuySuccess_Death_01_Burg_M",
+        "Text": "那麼，我就把東西\r\n放進{ACTOR}的棺木當中囉。"
+      },
+      "Txt_Shop_Message_BuyOverly_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_BuyOverly_01_Burg_M",
+        "Text": "超過持有數量上限的部份\r\n就幫你放進那個{BAG}裡囉。"
+      },
+      "Txt_Shop_Message_AdditionalBuy_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_AdditionalBuy_01_Burg_M",
+        "Text": "其他還需要什麼嗎？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SelectSeller_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_SelectSeller_01_Burg_M",
+        "Text": "要賣掉哪一位的持有物品呢？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_NoItem_Chara_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_NoItem_Chara_01_Burg_M",
+        "Text": "可是{ACTOR}身上\r\n好像沒有可以賣的東西。"
+      },
+      "Txt_Shop_Message_NoItem_Bag_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_NoItem_Bag_01_Burg_M",
+        "Text": "咦？那個{BAG}裡\r\n好像是空的唷。"
+      },
+      "Txt_Shop_Message_SellCanNot_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_SellCanNot_01_Burg_M",
+        "Text": "很抱歉，\r\n我們沒辦法收購那件物品。"
+      },
+      "Txt_Shop_Message_SellConfirmEquip_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_SellConfirmEquip_01_Burg_M",
+        "Text": "但好像有人正在裝備那個，\r\n確定要這麼做嗎？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_ConfirmLare_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_ConfirmLare_01_Burg_M",
+        "Text": "可是，賣掉之後\r\n可能就再也無法獲得這個物品了。\r\n沒關係嗎？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSelectValue_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_SellSelectValue_01_Burg_M",
+        "Text": "要賣幾個呢？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSingle_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_SellSingle_01_Burg_M",
+        "Text": "{I_NAME}是嗎？\r\n那我就用{VALUE}Ｇ買下，可以嗎？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellMultiple_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_SellMultiple_01_Burg_M",
+        "Text": "{VALUE}個{I_NAME}是嗎？\r\n那我就用{VALUE2}Ｇ買下，可以嗎？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSuccess_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_SellSuccess_01_Burg_M",
+        "Text": "謝謝惠顧。"
+      },
+      "Txt_Shop_Message_SellCancel_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_SellCancel_01_Burg_M",
+        "Text": "那真是太遺憾了……"
+      },
+      "Txt_Shop_Message_GoldFull_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_GoldFull_01_Burg_M",
+        "Text": "可是你已經無法帶更多的錢了。\r\n先在我們這裡買點東西如何呢？"
+      },
+      "Txt_Shop_Message_SellCurseLift_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_SellCurseLift_01_Burg_M",
+        "Text": "咦！？\r\n看來它好像被施加詛咒了呢。\r\n嗯～太遺憾了……"
+      },
+      "Txt_Shop_Message_AdditionalSell_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_AdditionalSell_01_Burg_M",
+        "Text": "還想賣些其他東西嗎？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_AdditionalShop_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_AdditionalShop_01_Burg_M",
+        "Text": "還有什麼事嗎？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_Finish_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_Finish_01_Burg_M",
+        "Text": "那麼，期待客人下次再度光臨。"
+      },
+      "Txt_Shop_Message_ConfirmGoldSingle_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_ConfirmGoldSingle_01_Burg_M",
+        "Text": "這樣是{VALUE}Ｇ，\r\n可以嗎？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_ConfirmGoldMultiple_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_ConfirmGoldMultiple_01_Burg_M",
+        "Text": "總共是{VALUE}Ｇ，\r\n這樣可以嗎？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSelect_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_SellSelect_01_Burg_M",
+        "Text": "要賣掉哪一樣呢？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_Start_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_Start_01_Burg_F",
+        "Text": "這裡是{WORD}。\r\n有什麼能為你服務的嗎？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuySelect_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_BuySelect_01_Burg_F",
+        "Text": "想要買些什麼呢？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_Shotage_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_Shotage_01_Burg_F",
+        "Text": "很抱歉，客人你手邊的錢\r\n不夠用來買那個……"
+      },
+      "Txt_Shop_Message_BuySelectValue_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_BuySelectValue_01_Burg_F",
+        "Text": "要買幾個呢？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuySingle_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_BuySingle_01_Burg_F",
+        "Text": "{I_NAME}是吧？\r\n謝謝惠顧。"
+      },
+      "Txt_Shop_Message_BuyMultipul_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_BuyMultipul_01_Burg_F",
+        "Text": "{VALUE}個{I_NAME}是吧？\r\n謝謝惠顧。"
+      },
+      "Txt_Shop_Message_BuyUsefulBattle_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_BuyUsefulBattle_01_Burg_F",
+        "Text": "這件物品在戰鬥時\r\n當作道具使用也很划算喔。"
+      },
+      "Txt_Shop_Message_SelectBuyer_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_SelectBuyer_01_Burg_F",
+        "Text": "要交給哪一位呢？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_ConfirmSorting_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_ConfirmSorting_01_Burg_F",
+        "Text": "不過{ACTOR}\r\n似乎沒辦法持有更多物品了。\r\n要整理一下持有物品嗎？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_FinishSorting_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_FinishSorting_01_Burg_F",
+        "Text": "好的！\r\n已經整理好了。"
+      },
+      "Txt_Shop_Message_StopSorting_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_StopSorting_01_Burg_F",
+        "Text": "咦？\r\n可是{ACTOR}的持有物品\r\n全部都是重要的東西呢。"
+      },
+      "Txt_Shop_Message_SelectBuyerAgain_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_SelectBuyerAgain_01_Burg_F",
+        "Text": "要交給別人嗎？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuyBag_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_BuyBag_01_Burg_F",
+        "Text": "那就幫你放進\r\n那個{BAG}裡面囉。"
+      },
+      "Txt_Shop_Message_BagFull_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_BagFull_01_Burg_F",
+        "Text": "袋子裡好像已經裝滿了……"
+      },
+      "Txt_Shop_Message_UnableEquip_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_UnableEquip_01_Burg_F",
+        "Text": "咦？可是{ACTOR}\r\n似乎無法裝備這個物品，\r\n這樣沒關係嗎？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuyConfirmEquip_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_BuyConfirmEquip_01_Burg_F",
+        "Text": "要馬上裝備嗎？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SelectAccessorie_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_SelectAccessorie_01_Burg_F",
+        "Text": "要將飾品\r\n裝備在哪裡呢？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuyCurseLift_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_BuyCurseLift_01_Burg_F",
+        "Text": "咦！？那個{I_NAME}卸不下來耶！\r\n莫非是受到詛咒了？<KEY_WAIT>\r\n沒辦法，\r\n總之可以先收下東西嗎？"
+      },
+      "Txt_Shop_Message_BuySuccess_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_BuySuccess_01_Burg_F",
+        "Text": "好的，請收下吧，{ACTOR}。"
+      },
+      "Txt_Shop_Message_BuySuccess_Death_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_BuySuccess_Death_01_Burg_F",
+        "Text": "那麼，我就把東西\r\n放進{ACTOR}的棺木當中囉。"
+      },
+      "Txt_Shop_Message_BuyOverly_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_BuyOverly_01_Burg_F",
+        "Text": "超過持有數量上限的部份\r\n就幫你放進那個{BAG}裡囉。"
+      },
+      "Txt_Shop_Message_AdditionalBuy_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_AdditionalBuy_01_Burg_F",
+        "Text": "其他還需要什麼嗎？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SelectSeller_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_SelectSeller_01_Burg_F",
+        "Text": "要賣掉哪一位的持有物品呢？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_NoItem_Chara_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_NoItem_Chara_01_Burg_F",
+        "Text": "可是{ACTOR}身上\r\n好像沒有可以賣的東西。"
+      },
+      "Txt_Shop_Message_NoItem_Bag_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_NoItem_Bag_01_Burg_F",
+        "Text": "咦？那個{BAG}裡\r\n好像是空的唷。"
+      },
+      "Txt_Shop_Message_SellCanNot_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_SellCanNot_01_Burg_F",
+        "Text": "很抱歉，\r\n我們沒辦法收購那件物品。"
+      },
+      "Txt_Shop_Message_SellConfirmEquip_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_SellConfirmEquip_01_Burg_F",
+        "Text": "但好像有人正在裝備那個，\r\n確定要這麼做嗎？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_ConfirmLare_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_ConfirmLare_01_Burg_F",
+        "Text": "可是，賣掉之後\r\n可能就再也無法獲得這個物品了。\r\n沒關係嗎？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSelectValue_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_SellSelectValue_01_Burg_F",
+        "Text": "要賣幾個呢？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSingle_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_SellSingle_01_Burg_F",
+        "Text": "{I_NAME}是嗎？\r\n那我就用{VALUE}Ｇ買下，可以嗎？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellMultiple_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_SellMultiple_01_Burg_F",
+        "Text": "{VALUE}個{I_NAME}是嗎？\r\n那我就用{VALUE2}Ｇ買下，可以嗎？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSuccess_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_SellSuccess_01_Burg_F",
+        "Text": "謝謝惠顧。"
+      },
+      "Txt_Shop_Message_SellCancel_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_SellCancel_01_Burg_F",
+        "Text": "那真是太遺憾了……"
+      },
+      "Txt_Shop_Message_GoldFull_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_GoldFull_01_Burg_F",
+        "Text": "可是你已經無法帶更多的錢了。\r\n先在我們這裡買點東西如何呢？"
+      },
+      "Txt_Shop_Message_SellCurseLift_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_SellCurseLift_01_Burg_F",
+        "Text": "咦！？\r\n看來它好像被施加詛咒了呢。\r\n嗯～太遺憾了……"
+      },
+      "Txt_Shop_Message_AdditionalSell_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_AdditionalSell_01_Burg_F",
+        "Text": "還想賣些其他東西嗎？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_AdditionalShop_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_AdditionalShop_01_Burg_F",
+        "Text": "還有什麼事嗎？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_Finish_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_Finish_01_Burg_F",
+        "Text": "那麼，期待客人下次再度光臨。"
+      },
+      "Txt_Shop_Message_ConfirmGoldSingle_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_ConfirmGoldSingle_01_Burg_F",
+        "Text": "這樣是{VALUE}Ｇ，\r\n可以嗎？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_ConfirmGoldMultiple_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_ConfirmGoldMultiple_01_Burg_F",
+        "Text": "總共是{VALUE}Ｇ，\r\n這樣可以嗎？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSelect_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_SellSelect_01_Burg_F",
+        "Text": "要賣掉哪一樣呢？<NO_INPUT>"
+      },
+      "Txt_Shop_SCAM_Message_Top": {
+        "SelfId": "Txt_Shop_SCAM_Message_Top",
+        "Text": "喔喔！我的朋友！\r\n等您很久了。\r\n要看看我出售的東西嗎？<NO_INPUT>"
+      },
+      "Txt_Shop_SCAM_Message_SelectNo": {
+        "SelfId": "Txt_Shop_SCAM_Message_SelectNo",
+        "Text": "哎呀，別這麼說，\r\n請來看看嘛。<NO_INPUT>"
+      },
+      "Txt_Shop_SCAM_Message_CancelBuy": {
+        "SelfId": "Txt_Shop_SCAM_Message_CancelBuy",
+        "Text": "咦？不滿意嗎？\r\n那真是遺憾了。\r\n下次一定要再來啊。"
+      },
+      "Txt_Shop_SCAM_Message_ConfirmBuy_01": {
+        "SelfId": "Txt_Shop_SCAM_Message_ConfirmBuy_01",
+        "Text": "喔喔！您真有眼光！\r\n售價{VALUE}Ｇ，\r\n是否要購買呢？<NO_INPUT>"
+      },
+      "Txt_Shop_SCAM_Message_ConfirmBuy_02": {
+        "SelfId": "Txt_Shop_SCAM_Message_ConfirmBuy_02",
+        "Text": "喔喔，這位客人，\r\n您真會買東西呢。\r\n我敗給您了。<KEY_WAIT>\r\n那麼，算您{VALUE}Ｇ好了。\r\n這樣就可以了吧？<NO_INPUT>"
+      },
+      "Txt_Shop_SCAM_Message_ConfirmBuy_03": {
+        "SelfId": "Txt_Shop_SCAM_Message_ConfirmBuy_03",
+        "Text": "喔喔，您真是個過分的人！\r\n這不是逼我跳樓嗎？\r\n我明白了。<KEY_WAIT>\r\n那麼，算您{VALUE}Ｇ好了。\r\n這樣就可以了吧？<NO_INPUT>"
+      },
+      "Txt_Shop_SCAM_Message_ConfirmBuy_04": {
+        "SelfId": "Txt_Shop_SCAM_Message_ConfirmBuy_04",
+        "Text": "喔喔，要是再降價的話，\r\n我就要虧大錢了！\r\n但您是朋友！<KEY_WAIT>\r\n那麼，算您{VALUE}Ｇ好了。\r\n這樣可以嗎？<NO_INPUT>"
+      },
+      "Txt_Shop_SCAM_Message_CancelBuy_02": {
+        "SelfId": "Txt_Shop_SCAM_Message_CancelBuy_02",
+        "Text": "這樣啊，真遺憾。\r\n下次一定要再來啊。"
+      },
+      "Txt_Shop_SCAM_Message_Shotage": {
+        "SelfId": "Txt_Shop_SCAM_Message_Shotage",
+        "Text": "喔喔！\r\n可是您的錢不夠！\r\n下次一定要再來啊。"
+      },
+      "Txt_Shop_SCAM_Message_BuySuccess": {
+        "SelfId": "Txt_Shop_SCAM_Message_BuySuccess",
+        "Text": "喔喔！您願意買是嗎？\r\n我們的友誼天長地久！\r\n下次一定要再來啊。"
+      },
+      "Txt_Shop_Store_Name_Weapon": {
+        "SelfId": "Txt_Shop_Store_Name_Weapon",
+        "Text": "武器店"
+      },
+      "Txt_Shop_Store_Name_Armor": {
+        "SelfId": "Txt_Shop_Store_Name_Armor",
+        "Text": "防具店"
+      },
+      "Txt_Shop_Store_Name_WeaponArmor": {
+        "SelfId": "Txt_Shop_Store_Name_WeaponArmor",
+        "Text": "武器防具店"
+      },
+      "Txt_Shop_Store_Name_Item": {
+        "SelfId": "Txt_Shop_Store_Name_Item",
+        "Text": "道具店"
+      }
+    }
+  }
+]

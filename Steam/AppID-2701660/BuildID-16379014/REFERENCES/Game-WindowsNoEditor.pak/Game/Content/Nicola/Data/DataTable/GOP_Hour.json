@@ -1,0 +1,184 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Hour",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_HourTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "HOUR_Hour00": {
+        "SelfId": "HOUR_Hour00",
+        "InGameHour": 0,
+        "MapTimeFrame": "EMapTimeFrame::NIGHT",
+        "FieldTimeFrame": "EFieldTimeFrame::F_MIDNIGHT",
+        "TimeUntilNextHour": 10.0
+      },
+      "HOUR_Hour01": {
+        "SelfId": "HOUR_Hour01",
+        "InGameHour": 1,
+        "MapTimeFrame": "EMapTimeFrame::NIGHT",
+        "FieldTimeFrame": "EFieldTimeFrame::F_EARLYMONING",
+        "TimeUntilNextHour": 10.0
+      },
+      "HOUR_Hour02": {
+        "SelfId": "HOUR_Hour02",
+        "InGameHour": 2,
+        "MapTimeFrame": "EMapTimeFrame::NIGHT",
+        "FieldTimeFrame": "EFieldTimeFrame::F_EARLYMONING",
+        "TimeUntilNextHour": 10.0
+      },
+      "HOUR_Hour03": {
+        "SelfId": "HOUR_Hour03",
+        "InGameHour": 3,
+        "MapTimeFrame": "EMapTimeFrame::NIGHT",
+        "FieldTimeFrame": "EFieldTimeFrame::F_EARLYMONING",
+        "TimeUntilNextHour": 10.0
+      },
+      "HOUR_Hour04": {
+        "SelfId": "HOUR_Hour04",
+        "InGameHour": 4,
+        "MapTimeFrame": "EMapTimeFrame::DAYTIME",
+        "FieldTimeFrame": "EFieldTimeFrame::F_MORNING",
+        "TimeUntilNextHour": 10.0
+      },
+      "HOUR_Hour05": {
+        "SelfId": "HOUR_Hour05",
+        "InGameHour": 5,
+        "MapTimeFrame": "EMapTimeFrame::DAYTIME",
+        "FieldTimeFrame": "EFieldTimeFrame::F_MORNING",
+        "TimeUntilNextHour": 10.0
+      },
+      "HOUR_Hour06": {
+        "SelfId": "HOUR_Hour06",
+        "InGameHour": 6,
+        "MapTimeFrame": "EMapTimeFrame::DAYTIME",
+        "FieldTimeFrame": "EFieldTimeFrame::F_MORNING",
+        "TimeUntilNextHour": 10.0
+      },
+      "HOUR_Hour07": {
+        "SelfId": "HOUR_Hour07",
+        "InGameHour": 7,
+        "MapTimeFrame": "EMapTimeFrame::DAYTIME",
+        "FieldTimeFrame": "EFieldTimeFrame::F_NOON",
+        "TimeUntilNextHour": 10.0
+      },
+      "HOUR_Hour08": {
+        "SelfId": "HOUR_Hour08",
+        "InGameHour": 8,
+        "MapTimeFrame": "EMapTimeFrame::DAYTIME",
+        "FieldTimeFrame": "EFieldTimeFrame::F_NOON",
+        "TimeUntilNextHour": 10.0
+      },
+      "HOUR_Hour09": {
+        "SelfId": "HOUR_Hour09",
+        "InGameHour": 9,
+        "MapTimeFrame": "EMapTimeFrame::DAYTIME",
+        "FieldTimeFrame": "EFieldTimeFrame::F_NOON",
+        "TimeUntilNextHour": 10.0
+      },
+      "HOUR_Hour10": {
+        "SelfId": "HOUR_Hour10",
+        "InGameHour": 10,
+        "MapTimeFrame": "EMapTimeFrame::DAYTIME",
+        "FieldTimeFrame": "EFieldTimeFrame::F_NOON",
+        "TimeUntilNextHour": 10.0
+      },
+      "HOUR_Hour11": {
+        "SelfId": "HOUR_Hour11",
+        "InGameHour": 11,
+        "MapTimeFrame": "EMapTimeFrame::DAYTIME",
+        "FieldTimeFrame": "EFieldTimeFrame::F_NOON",
+        "TimeUntilNextHour": 10.0
+      },
+      "HOUR_Hour12": {
+        "SelfId": "HOUR_Hour12",
+        "InGameHour": 12,
+        "MapTimeFrame": "EMapTimeFrame::DAYTIME",
+        "FieldTimeFrame": "EFieldTimeFrame::F_NOON",
+        "TimeUntilNextHour": 10.0
+      },
+      "HOUR_Hour13": {
+        "SelfId": "HOUR_Hour13",
+        "InGameHour": 13,
+        "MapTimeFrame": "EMapTimeFrame::DAYTIME",
+        "FieldTimeFrame": "EFieldTimeFrame::F_AFTERNOON",
+        "TimeUntilNextHour": 10.0
+      },
+      "HOUR_Hour14": {
+        "SelfId": "HOUR_Hour14",
+        "InGameHour": 14,
+        "MapTimeFrame": "EMapTimeFrame::DAYTIME",
+        "FieldTimeFrame": "EFieldTimeFrame::F_AFTERNOON",
+        "TimeUntilNextHour": 10.0
+      },
+      "HOUR_Hour15": {
+        "SelfId": "HOUR_Hour15",
+        "InGameHour": 15,
+        "MapTimeFrame": "EMapTimeFrame::DAYTIME",
+        "FieldTimeFrame": "EFieldTimeFrame::F_AFTERNOON",
+        "TimeUntilNextHour": 10.0
+      },
+      "HOUR_Hour16": {
+        "SelfId": "HOUR_Hour16",
+        "InGameHour": 16,
+        "MapTimeFrame": "EMapTimeFrame::EVENING",
+        "FieldTimeFrame": "EFieldTimeFrame::F_EVENING",
+        "TimeUntilNextHour": 10.0
+      },
+      "HOUR_Hour17": {
+        "SelfId": "HOUR_Hour17",
+        "InGameHour": 17,
+        "MapTimeFrame": "EMapTimeFrame::EVENING",
+        "FieldTimeFrame": "EFieldTimeFrame::F_EVENING",
+        "TimeUntilNextHour": 10.0
+      },
+      "HOUR_Hour18": {
+        "SelfId": "HOUR_Hour18",
+        "InGameHour": 18,
+        "MapTimeFrame": "EMapTimeFrame::EVENING",
+        "FieldTimeFrame": "EFieldTimeFrame::F_EVENING",
+        "TimeUntilNextHour": 10.0
+      },
+      "HOUR_Hour19": {
+        "SelfId": "HOUR_Hour19",
+        "InGameHour": 19,
+        "MapTimeFrame": "EMapTimeFrame::NIGHT",
+        "FieldTimeFrame": "EFieldTimeFrame::F_NIGHT",
+        "TimeUntilNextHour": 10.0
+      },
+      "HOUR_Hour20": {
+        "SelfId": "HOUR_Hour20",
+        "InGameHour": 20,
+        "MapTimeFrame": "EMapTimeFrame::NIGHT",
+        "FieldTimeFrame": "EFieldTimeFrame::F_NIGHT",
+        "TimeUntilNextHour": 10.0
+      },
+      "HOUR_Hour21": {
+        "SelfId": "HOUR_Hour21",
+        "InGameHour": 21,
+        "MapTimeFrame": "EMapTimeFrame::NIGHT",
+        "FieldTimeFrame": "EFieldTimeFrame::F_NIGHT",
+        "TimeUntilNextHour": 10.0
+      },
+      "HOUR_Hour22": {
+        "SelfId": "HOUR_Hour22",
+        "InGameHour": 22,
+        "MapTimeFrame": "EMapTimeFrame::NIGHT",
+        "FieldTimeFrame": "EFieldTimeFrame::F_MIDNIGHT",
+        "TimeUntilNextHour": 10.0
+      },
+      "HOUR_Hour23": {
+        "SelfId": "HOUR_Hour23",
+        "InGameHour": 23,
+        "MapTimeFrame": "EMapTimeFrame::NIGHT",
+        "FieldTimeFrame": "EFieldTimeFrame::F_MIDNIGHT",
+        "TimeUntilNextHour": 10.0
+      }
+    }
+  }
+]

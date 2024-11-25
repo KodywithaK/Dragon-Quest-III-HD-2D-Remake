@@ -1,0 +1,120 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_JobChange",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_JobChange_UI_JobGuide": {
+        "SelfId": "Txt_JobChange_UI_JobGuide",
+        "Text": "Choisir une vocation"
+      },
+      "Txt_JobChange_Message_Start": {
+        "SelfId": "Txt_JobChange_Message_Start",
+        "Text": "Bienvenue au temple des vocations, où ceux en quête d'une nouvelle voie trouvent leur chemin.\r\nAspirez-vous à une autre vocation?"
+      },
+      "Txt_JobChange_Message_Reject": {
+        "SelfId": "Txt_JobChange_Message_Reject",
+        "Text": "Je vois. Vous ne souhaitez pas changer.\r\nJe ne vous en tiendrai pas rigueur."
+      },
+      "Txt_JobChange_Message_CharaSelect": {
+        "SelfId": "Txt_JobChange_Message_CharaSelect",
+        "Text": "<IfSolo(Vous souhaitez donc,Qui souhaite)> prendre un nouveau départ dans la vie?"
+      },
+      "Txt_JobChange_Message_Error_Death": {
+        "SelfId": "Txt_JobChange_Message_Error_Death",
+        "Text": "<IfGender_LEADER(Idiot,Idiote,)>! Me croyez-vous capable d'un tel miracle?<!>\r\n{ACTOR} est <IfGender_ACTOR(mort,morte,)>!<KEY_WAIT>\r\nJe ne puis donner de nouvelle vocation à un corps inerte!"
+      },
+      "Txt_JobChange_Message_Error_Hero": {
+        "SelfId": "Txt_JobChange_Message_Error_Hero",
+        "Text": "Imbécile!\r\nOn ne quitte pas sa position <IfGender_HERO(de héros,d'héroïne,)>!\r\nQui ira sauver le monde à votre place?<!>"
+      },
+      "Txt_JobChange_Message_Error_LV": {
+        "SelfId": "Txt_JobChange_Message_Error_LV",
+        "Text": "Mais vous n'êtes encore qu'<IfGender_ACTOR(un <SglM_WORD> amateur,une <SglF_WORD> amatrice,)>, {ACTOR}...<KEY_WAIT>\r\nComment osez-vous imaginer avoir assez d'expérience pour changer de vocation?<!> Enfin!"
+      },
+      "Txt_JobChange_Message_JobSelect": {
+        "SelfId": "Txt_JobChange_Message_JobSelect",
+        "Text": "Très bien.\r\nQuelle voie souhaitez-vous donc suivre, {ACTOR}?"
+      },
+      "Txt_JobChange_Message_JocConfirm": {
+        "SelfId": "Txt_JobChange_Message_JocConfirm",
+        "Text": "<IfGender_ACTOR(Un <SglM_WORD>,Une <SglF_WORD>,)> est donc votre choix, {ACTOR}?"
+      },
+      "Txt_JobChange_Message_JocDuplication": {
+        "SelfId": "Txt_JobChange_Message_JocDuplication",
+        "Text": "Hum? Mais un instant...\r\nVous suivez déjà cette voie, {ACTOR}."
+      },
+      "Txt_JobChange_Message_JobChangeConfirm": {
+        "SelfId": "Txt_JobChange_Message_JobChangeConfirm",
+        "Text": "Avez-vous la certitude de vouloir repartir du niveau 1 pour une nouvelle carrière?"
+      },
+      "Txt_JobChange_Message_JobChangeStart": {
+        "SelfId": "Txt_JobChange_Message_JobChangeStart",
+        "Text": "Ô grandeur céleste! Veuillez octroyer votre pardon à {ACTOR}\r\npour qu'<IfGender_ACTOR(il,elle,)> puisse emprunter une nouvelle voie!"
+      },
+      "Txt_JobChange_Message_JobChangeFinish": {
+        "SelfId": "Txt_JobChange_Message_JobChangeFinish",
+        "Text": "Voilà. Félicitations, {ACTOR}, vous êtes désormais <IfGender_ACTOR(un <SglM_WORD>,une <SglF_WORD>,)>!<KEY_WAIT>\r\nVotre équipement a été modifié pour convenir à votre nouvelle vocation."
+      },
+      "Txt_JobChange_Message_JobChangeCancel": {
+        "SelfId": "Txt_JobChange_Message_JobChangeCancel",
+        "Text": "Vous avez changé d'avis?\r\nSi cela est votre décision..."
+      },
+      "Txt_JobChange_Message_AddJobChangeConfirm": {
+        "SelfId": "Txt_JobChange_Message_AddJobChangeConfirm",
+        "Text": "Y a-t-il quelqu'un d'autre désirant prendre un nouveau chemin?"
+      },
+      "Txt_JobChange_Message_Finish": {
+        "SelfId": "Txt_JobChange_Message_Finish",
+        "Text": "Très bien.\r\nSuivez votre route et que les cieux veillent sur vous!"
+      },
+      "Txt_JobChange_Message_Flavor_00": {
+        "SelfId": "Txt_JobChange_Message_Flavor_00",
+        "Text": "{ACTOR}, vous désirez donc devenir <IfGender_ACTOR(un <SglM_WORD>,une <SglF_WORD>,)>? Très bien.\r\nVotre âme <IfVowel_WORD2(d',de )><IfGender_ACTOR(<SglM_WORD2>,<SglF_WORD2>,)> s'en voit ravie."
+      },
+      "Txt_JobChange_Message_Flavor_01": {
+        "SelfId": "Txt_JobChange_Message_Flavor_01",
+        "Text": "<IfGender_ACTOR(Un <SglM_WORD>,Une <SglF_WORD>,)>?<!>\r\nCe n'est clairement pas un chemin que je recommanderais à <IfGender_ACTOR(un <SglM_WORD2>,une <SglF_WORD2>,)>.\r\nMais si c'est votre choix..."
+      },
+      "Txt_JobChange_Message_Flavor_02": {
+        "SelfId": "Txt_JobChange_Message_Flavor_02",
+        "Text": "Hum... <IfGender_ACTOR(Un <SglM_WORD>,une <SglF_WORD>,)> qui veut devenir <IfGender_ACTOR(un <SglM_WORD2>,une <SglF_WORD2>,)>?<!>\r\nLaissez-moi rire!"
+      },
+      "Txt_JobChange_Message_Flavor_03": {
+        "SelfId": "Txt_JobChange_Message_Flavor_03",
+        "Text": "Très bien!\r\nNotre <IfGender_ACTOR(<SglM_WORD>,<SglF_WORD>,)> a finalement trouvé sa voie! Mes félicitations, {ACTOR}!"
+      },
+      "Txt_JobChange_Message_Flavor_04": {
+        "SelfId": "Txt_JobChange_Message_Flavor_04",
+        "Text": "Je vois... Notre {ACTOR} <IfGender_ACTOR(<SglM_WORD>,<SglF_WORD>,)> souhaite donc devenir <IfGender_ACTOR(un <SglM_WORD2>,une <SglF_WORD2>,)>...<KEY_WAIT>\r\nEst-ce par esprit de rébellion envers la société?\r\nEnfin, vous êtes libre de faire comme bon vous semble..."
+      },
+      "Txt_JobChange_Message_Flavor_05": {
+        "SelfId": "Txt_JobChange_Message_Flavor_05",
+        "Text": "Hum... Notre {ACTOR} <IfGender_ACTOR(<SglM_WORD>,<SglF_WORD>,)> souhaite donc devenir <IfGender_ACTOR(un <SglM_WORD2>,une <SglF_WORD2>,)>...<KEY_WAIT>\r\nCe chemin sera semé d'embuches.\r\nMais je ne peux pas vous en empêcher..."
+      },
+      "Txt_JobChange_Message_Flavor_06": {
+        "SelfId": "Txt_JobChange_Message_Flavor_06",
+        "Text": "Ho ho ho ho!<KEY_WAIT>\r\nNotre {ACTOR} <IfGender_ACTOR(<SglM_WORD>,<SglF_WORD>,)> se voit bien en <IfGender_ACTOR(<SglM_WORD2>,<SglF_WORD2>,)>...<KEY_WAIT> alors... Ha ha ha!\r\nJe suis très friand de ce genre d'humour!"
+      },
+      "Txt_JobChange_Message_Flavor_07": {
+        "SelfId": "Txt_JobChange_Message_Flavor_07",
+        "Text": "Brillant! C'est un choix idéal pour tout <IfGender_ACTOR(<SglM_WORD>,<SglF_WORD>,)> qui se respecte!\r\nC'est bien vu, {ACTOR}! Bien vu!"
+      },
+      "Txt_JobChange_Message_Flavor_08": {
+        "SelfId": "Txt_JobChange_Message_Flavor_08",
+        "Text": "Notre {ACTOR} <IfGender_ACTOR(<SglM_WORD>,<SglF_WORD>,)> désire donc devenir <IfGender_ACTOR(un <SglM_WORD2>,une <SglF_WORD2>,)>...?\r\nQuel parcours prodigieux, vous avez accompli!"
+      },
+      "Txt_JobChange_Message_Use_WORDS_OF_WISDOM": {
+        "SelfId": "Txt_JobChange_Message_Use_WORDS_OF_WISDOM",
+        "Text": "Vous désirez donc devenir <IfGender_ACTOR(un,une,)> sage? Vous devez tout d'abord lire «La Voix de la sagesse».<KEY_WAIT>\r\nCe livre ne pourra être lu qu'une seule fois, ne l'oubliez pas!\r\nSouhaitez-vous continuer malgré tout?"
+      }
+    }
+  }
+]

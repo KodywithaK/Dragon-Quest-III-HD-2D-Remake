@@ -1,0 +1,120 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_JobChange",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_JobChange_UI_JobGuide": {
+        "SelfId": "Txt_JobChange_UI_JobGuide",
+        "Text": "しょくぎょうをせんたく"
+      },
+      "Txt_JobChange_Message_Start": {
+        "SelfId": "Txt_JobChange_Message_Start",
+        "Text": "ここは　てんしょくをつかさどる\r\nダーマのしんでん。しょくぎょうを\r\nかえたいものが　くるところじゃ。<KEY_WAIT>\r\nてんしょくを　ごきぼうか？"
+      },
+      "Txt_JobChange_Message_Reject": {
+        "SelfId": "Txt_JobChange_Message_Reject",
+        "Text": "そうか。てんしょくを　せぬのじゃな？\r\nまあ　それも　よかろう。"
+      },
+      "Txt_JobChange_Message_CharaSelect": {
+        "SelfId": "Txt_JobChange_Message_CharaSelect",
+        "Text": "どなたの　しょくぎょうを\r\nかえたいのじゃ？"
+      },
+      "Txt_JobChange_Message_Error_Death": {
+        "SelfId": "Txt_JobChange_Message_Error_Death",
+        "Text": "たわけが！　{ACTOR}は\r\nいま　しんでおるでは　ないか！<KEY_WAIT>\r\nいくら　わしでも　しんでおるものを\r\nてんしょく　させることは　できんぞ。"
+      },
+      "Txt_JobChange_Message_Error_Hero": {
+        "SelfId": "Txt_JobChange_Message_Error_Hero",
+        "Text": "おろかものめ！\r\nゆうしゃを　やめたいというのか？\r\nそれだけは　ならんっ！"
+      },
+      "Txt_JobChange_Message_Error_LV": {
+        "SelfId": "Txt_JobChange_Message_Error_LV",
+        "Text": "なんと　{ACTOR}は\r\nまだ　いちにんまえの　{WORD}に\r\nなっていないというに……。<KEY_WAIT>\r\nみじゅくものの　ぶんざいで\r\nもう　しょくをかえたいとは\r\nなにごとじゃ！"
+      },
+      "Txt_JobChange_Message_JobSelect": {
+        "SelfId": "Txt_JobChange_Message_JobSelect",
+        "Text": "{ACTOR}が　なりたいのは\r\nどの　しょくぎょう　じゃな？"
+      },
+      "Txt_JobChange_Message_JocConfirm": {
+        "SelfId": "Txt_JobChange_Message_JocConfirm",
+        "Text": "{ACTOR}は　{WORD}に\r\nなりたいと　もうすか？"
+      },
+      "Txt_JobChange_Message_JocDuplication": {
+        "SelfId": "Txt_JobChange_Message_JocDuplication",
+        "Text": "うん？　しかし　{ACTOR}は\r\nもう　それに　なっているぞ。"
+      },
+      "Txt_JobChange_Message_JobChangeConfirm": {
+        "SelfId": "Txt_JobChange_Message_JobChangeConfirm",
+        "Text": "いちど　レベル１にもどり\r\nしゅぎょうを　しなおすかくごも\r\nおありじゃな？"
+      },
+      "Txt_JobChange_Message_JobChangeStart": {
+        "SelfId": "Txt_JobChange_Message_JobChangeStart",
+        "Text": "おお　かみよ　{ACTOR}が\r\nあらたなしょくに　つくことを　なにとぞ\r\nおゆるしください！"
+      },
+      "Txt_JobChange_Message_JobChangeFinish": {
+        "SelfId": "Txt_JobChange_Message_JobChangeFinish",
+        "Text": "よろしい。では　いまから\r\n{ACTOR}は　{WORD}じゃ！<KEY_WAIT>\r\n{ACTOR}の　そうびは　あたらしい\r\nしょくぎょうの　ものに　かえておいたからな。"
+      },
+      "Txt_JobChange_Message_JobChangeCancel": {
+        "SelfId": "Txt_JobChange_Message_JobChangeCancel",
+        "Text": "ふむ…　やめると　もうすか？\r\nそれも　よろしかろう。"
+      },
+      "Txt_JobChange_Message_AddJobChangeConfirm": {
+        "SelfId": "Txt_JobChange_Message_AddJobChangeConfirm",
+        "Text": "ほかにも　てんしょくしたい　ものは\r\nおるかな？"
+      },
+      "Txt_JobChange_Message_Finish": {
+        "SelfId": "Txt_JobChange_Message_Finish",
+        "Text": "では　ゆくがよい。"
+      },
+      "Txt_JobChange_Message_Flavor_00": {
+        "SelfId": "Txt_JobChange_Message_Flavor_00",
+        "Text": "{WORD}に　なりたいとは\r\nさすが　{ACTOR}は　ねっからの\r\n{WORD2}じゃのう。"
+      },
+      "Txt_JobChange_Message_Flavor_01": {
+        "SelfId": "Txt_JobChange_Message_Flavor_01",
+        "Text": "しかし　{WORD}とは……\r\n{ACTOR}は　なんという\r\n{WORD2}じゃ。まあ　よい…"
+      },
+      "Txt_JobChange_Message_Flavor_02": {
+        "SelfId": "Txt_JobChange_Message_Flavor_02",
+        "Text": "ふむ。{WORD}の　ぶんざいで\r\n{WORD2}に　なりたいとは。\r\nけっこう　わらかしてくれるぞ。"
+      },
+      "Txt_JobChange_Message_Flavor_03": {
+        "SelfId": "Txt_JobChange_Message_Flavor_03",
+        "Text": "そうか！　さすが　{WORD}\r\nせいかくだけの　ことは　あるのう。\r\n{ACTOR}を　すこし　みなおしたぞ。"
+      },
+      "Txt_JobChange_Message_Flavor_04": {
+        "SelfId": "Txt_JobChange_Message_Flavor_04",
+        "Text": "そうか…　{ACTOR}ほどの\r\n{WORD}が　{WORD2}に\r\nなりたいとはな。<KEY_WAIT>\r\nこれも　よのなかが　いけないから　かの。\r\nまあ　どうしても　というなら\r\nそれも　しかたあるまい。"
+      },
+      "Txt_JobChange_Message_Flavor_05": {
+        "SelfId": "Txt_JobChange_Message_Flavor_05",
+        "Text": "ふむ…。{ACTOR}みたいな\r\n{WORD}が　{WORD2}に\r\nなるとは…。<KEY_WAIT>\r\nちょっと　たいへんそうな　きもするが\r\nそれも　しかたあるまい。"
+      },
+      "Txt_JobChange_Message_Flavor_06": {
+        "SelfId": "Txt_JobChange_Message_Flavor_06",
+        "Text": "ふぁっ　ふぁっ　ふぁっ。<KEY_WAIT>\r\n{WORD}の　くせに　{WORD2}に\r\nなりたいとは　ウケねらいかの？　まあ　よい…。"
+      },
+      "Txt_JobChange_Message_Flavor_07": {
+        "SelfId": "Txt_JobChange_Message_Flavor_07",
+        "Text": "おお！　{WORD}の\r\n{ACTOR}には　てんしょく　ともいえる\r\nナイスチョイスじゃのう。"
+      },
+      "Txt_JobChange_Message_Flavor_08": {
+        "SelfId": "Txt_JobChange_Message_Flavor_08",
+        "Text": "{WORD}の　{ACTOR}が\r\n{WORD2}に　なりたいとは\r\nずいぶん　せいちょう　したものよ　のう。"
+      },
+      "Txt_JobChange_Message_Use_WORDS_OF_WISDOM": {
+        "SelfId": "Txt_JobChange_Message_Use_WORDS_OF_WISDOM",
+        "Text": "けんじゃに　なるためには\r\nその　さとりのしょを\r\nよみこまねば　なるまい。<KEY_WAIT>\r\nさとりのしょは　もう　つかえなくなるが…\r\nよいかの？"
+      }
+    }
+  }
+]

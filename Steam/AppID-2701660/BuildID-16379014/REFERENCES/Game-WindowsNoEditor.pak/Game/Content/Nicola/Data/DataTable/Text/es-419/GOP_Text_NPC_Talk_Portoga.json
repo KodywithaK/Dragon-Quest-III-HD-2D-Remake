@@ -1,0 +1,880 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_NPC_Talk_Portoga",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Talk_Portoga_Out_SUB_0_ACTOR_0110_010_1": {
+        "SelfId": "Txt_Talk_Portoga_Out_SUB_0_ACTOR_0110_010_1",
+        "Text": "*: ¡Olá! ¡Te damos la bienvenida a Portoga!"
+      },
+      "Txt_Talk_Portoga_Out_SUB_0_ACTOR_0210_010_1": {
+        "SelfId": "Txt_Talk_Portoga_Out_SUB_0_ACTOR_0210_010_1",
+        "Text": "*: ♪ Oh, este es un lugar donde las parejas jóvenes suelen hospedarse<...>\r\nY aunque algunas de ellas no van a durar, ¡otras deciden que van a casarse! ♪"
+      },
+      "Txt_Talk_Portoga_Out_SUB_0_ACTOR_0210_010_2": {
+        "SelfId": "Txt_Talk_Portoga_Out_SUB_0_ACTOR_0210_010_2",
+        "Text": "*: ♪ Había una vez dos amantes que venían casi cada día<...>\r\n¿En dónde están ahora esos rostros que entonces sonreían? ♪"
+      },
+      "Txt_Talk_Portoga_Out_SUB_0_ACTOR_0220_020_1": {
+        "SelfId": "Txt_Talk_Portoga_Out_SUB_0_ACTOR_0220_020_1",
+        "Text": "*: ♪ Oh, al contemplar el mar nadie creería<...>\r\nQue sus corrientes mounstruos traerían<...> ♪"
+      },
+      "Txt_Talk_Portoga_Out_SUB_0_ACTOR_0220_020_2": {
+        "SelfId": "Txt_Talk_Portoga_Out_SUB_0_ACTOR_0220_020_2",
+        "Text": "*: ♪ A veces parece una ilusión<...> ♪"
+      },
+      "Txt_Talk_Portoga_Out_SUB_0_ACTOR_0220_020_3": {
+        "SelfId": "Txt_Talk_Portoga_Out_SUB_0_ACTOR_0220_020_3",
+        "Text": "*: ♪ ¿Será que somos el diseño de un soñador? ♪\r\n¡Rayos! ¡Discúlpame, <IfGender_LEADER(amigo, amiga,)>! ¡A veces mi imaginación se apodera de mí!"
+      },
+      "Txt_Talk_Portoga_Out_SUB_0_ACTOR_0210_030_1": {
+        "SelfId": "Txt_Talk_Portoga_Out_SUB_0_ACTOR_0210_030_1",
+        "Text": "*: ♪ Oh, el héroe mató al repugnante Archivillano<...>\r\n¡Y rompió la maldición que impedía el sueño de amor lejano! ♪"
+      },
+      "Txt_Talk_Portoga_Out_SUB_0_ACTOR_0210_030_2": {
+        "SelfId": "Txt_Talk_Portoga_Out_SUB_0_ACTOR_0210_030_2",
+        "Text": "*: ♪ Una vez más pasean por el muelle silencioso<...>\r\n¡E intercambian palabras de amor, dichosos! ♪"
+      },
+      "Txt_Talk_Portoga_Out_SUB_0_ACTOR_0210_030_3": {
+        "SelfId": "Txt_Talk_Portoga_Out_SUB_0_ACTOR_0210_030_3",
+        "Text": "*: ¿Pero por qué los monstruos siguen vagando por la tierra, <IfGender_LEADER(amigo mío,amiga mía,)>? Me temo que nuestros problemas aún no terminan<...>"
+      },
+      "Txt_Talk_Portoga_Out_SUB_0_ACTOR_0310_010_1": {
+        "SelfId": "Txt_Talk_Portoga_Out_SUB_0_ACTOR_0310_010_1",
+        "Text": "*: (Relincho)"
+      },
+      "Txt_Talk_Portoga_Out_SUB_0_ACTOR_0420_010_1": {
+        "SelfId": "Txt_Talk_Portoga_Out_SUB_0_ACTOR_0420_010_1",
+        "Text": "Oh, mi querida Sabrina<...> Meu amor<...> Mi verdadero amor<...> Estamos condenados a no volver a hablar<...> A no vernos nunca<...>"
+      },
+      "Txt_Talk_Portoga_Out_SUB_0_ACTOR_0420_010_2": {
+        "SelfId": "Txt_Talk_Portoga_Out_SUB_0_ACTOR_0420_010_2",
+        "Text": "¿La has visto, <IfGender_LEADER(amigo,amiga,)>? ¿Has visto a mi Sabrina?"
+      },
+      "Txt_Talk_Portoga_Out_SUB_0_ACTOR_0420_010_3": {
+        "SelfId": "Txt_Talk_Portoga_Out_SUB_0_ACTOR_0420_010_3",
+        "Text": "Por favor, dile<...> ¡Dile que su Carlos aún la ama y siempre lo hará!"
+      },
+      "Txt_Talk_Portoga_Out_SUB_0_ACTOR_0420_010_4": {
+        "SelfId": "Txt_Talk_Portoga_Out_SUB_0_ACTOR_0420_010_4",
+        "Text": "Qué pena<...> Me pregunto cómo estará<...> Aah, meu amor<...> Suspiro por ti<...>"
+      },
+      "Txt_Talk_Portoga_Out_SUB_0_ACTOR_0410_020_1": {
+        "SelfId": "Txt_Talk_Portoga_Out_SUB_0_ACTOR_0410_020_1",
+        "Text": "¡Ver el rostro de mi amada una vez más me da felicidad! ¡Meu amor!"
+      },
+      "Txt_Talk_Portoga_Out_SUB_0_ACTOR_0410_020_2": {
+        "SelfId": "Txt_Talk_Portoga_Out_SUB_0_ACTOR_0410_020_2",
+        "Text": "Y dicen que se debe a ti. Gracias, <IfGender_LEADER(amigo,amiga,)>. Obrigado. Desde el fondo de mi corazón."
+      },
+      "Txt_Talk_Portoga_Out_SUB_0_ACTOR_0410_020_3": {
+        "SelfId": "Txt_Talk_Portoga_Out_SUB_0_ACTOR_0410_020_3",
+        "Text": "Antes me sentía muy orgulloso de mis habilidades con la espada, desafiaba a los monstruos y demostraba mi destreza."
+      },
+      "Txt_Talk_Portoga_Out_SUB_0_ACTOR_0410_020_4": {
+        "SelfId": "Txt_Talk_Portoga_Out_SUB_0_ACTOR_0410_020_4",
+        "Text": "Pero, por más que lo intenté, no pude acercarme al Archivillano e involucré a mi amada en mi venganza."
+      },
+      "Txt_Talk_Portoga_Out_SUB_0_ACTOR_0410_020_5": {
+        "SelfId": "Txt_Talk_Portoga_Out_SUB_0_ACTOR_0410_020_5",
+        "Text": "¿Qué clase de guerrero no puede proteger a la mujer que ama?"
+      },
+      "Txt_Talk_Portoga_Out_SUB_0_ACTOR_0410_020_6": {
+        "SelfId": "Txt_Talk_Portoga_Out_SUB_0_ACTOR_0410_020_6",
+        "Text": "Eres <IfGender_LEADER(un héroe,una heroína,)> de verdad. Ahora sé lo que significa esa palabra. Es un título que no merezco. Tienes todo mi respeto."
+      },
+      "Txt_Talk_Portoga_Out_SUB_0_ACTOR_0510_010_1": {
+        "SelfId": "Txt_Talk_Portoga_Out_SUB_0_ACTOR_0510_010_1",
+        "Text": "*: ¿Necesitas un bote? Entonces habla con el rey. ¡Vaza! ¡Déjame en paz!"
+      },
+      "Txt_Talk_Portoga_Out_SUB_0_ACTOR_0510_020_1": {
+        "SelfId": "Txt_Talk_Portoga_Out_SUB_0_ACTOR_0510_020_1",
+        "Text": "*: ¿Eh? ¿Conseguiste un bote? Me alegra. ¡Ahora, vaza! ¡Déjame!"
+      },
+      "Txt_Talk_Portoga_Out_SUB_0_ACTOR_0510_030_1": {
+        "SelfId": "Txt_Talk_Portoga_Out_SUB_0_ACTOR_0510_030_1",
+        "Text": "*: ¿Conseguiste la llave maestra y puedes abrir cualquier puerta?"
+      },
+      "Txt_Talk_Portoga_Out_SUB_0_ACTOR_0510_030_2": {
+        "SelfId": "Txt_Talk_Portoga_Out_SUB_0_ACTOR_0510_030_2",
+        "Text": "*: Me alegro por ti. ¡Ahora, déjame en paz! ¡Vaza!"
+      },
+      "Txt_Talk_Portoga_Out_SUB_0_ACTOR_0510_040_1": {
+        "SelfId": "Txt_Talk_Portoga_Out_SUB_0_ACTOR_0510_040_1",
+        "Text": "*: ¿Hiciste que Ramia, el Aveterna, renaciera?"
+      },
+      "Txt_Talk_Portoga_Out_SUB_0_ACTOR_0510_040_2": {
+        "SelfId": "Txt_Talk_Portoga_Out_SUB_0_ACTOR_0510_040_2",
+        "Text": "*: Me alegro por ti. ¡Ahora, déjame en paz! ¡Vaza!"
+      },
+      "Txt_Talk_Portoga_Out_SUB_0_ACTOR_0510_050_1": {
+        "SelfId": "Txt_Talk_Portoga_Out_SUB_0_ACTOR_0510_050_1",
+        "Text": "*: ¿Derrotaste al Archivillano Baramos? Caramba, si es cierto, ¡es una gran noticia! Tienes mi agradecimiento, <IfGender_LEADER(forastero,forastera,)>."
+      },
+      "Txt_Talk_Portoga_Out_SUB_0_ACTOR_0610_010_1": {
+        "SelfId": "Txt_Talk_Portoga_Out_SUB_0_ACTOR_0610_010_1",
+        "Text": "*: El rey de nuestro país es amante del sabor picante de la pimienta negra. Hay países del sureste donde se puede comprar más barata."
+      },
+      "Txt_Talk_Portoga_Out_SUB_0_ACTOR_0610_010_2": {
+        "SelfId": "Txt_Talk_Portoga_Out_SUB_0_ACTOR_0610_010_2",
+        "Text": "*: Pero no creo que haya alguien capaz de emprender un viaje así solo por las especias."
+      },
+      "Txt_Talk_Portoga_Out_SUB_0_ACTOR_0610_010_3": {
+        "SelfId": "Txt_Talk_Portoga_Out_SUB_0_ACTOR_0610_010_3",
+        "Text": "*: ¡Caramba! ¿Regresaste del este con pimienta negra? ¿De verdad?"
+      },
+      "Txt_Talk_Portoga_Out_SUB_0_ACTOR_0610_010_4": {
+        "SelfId": "Txt_Talk_Portoga_Out_SUB_0_ACTOR_0610_010_4",
+        "Text": "*: ¿Por qué mientes?"
+      },
+      "Txt_Talk_Portoga_Out_SUB_0_ACTOR_0610_010_5": {
+        "SelfId": "Txt_Talk_Portoga_Out_SUB_0_ACTOR_0610_010_5",
+        "Text": "*: ¡Entonces, llévasela al rey de inmediato! Estará muy agradecido contigo."
+      },
+      "Txt_Talk_Portoga_Out_SUB_0_ACTOR_0610_020_1": {
+        "SelfId": "Txt_Talk_Portoga_Out_SUB_0_ACTOR_0610_020_1",
+        "Text": "*: Al otro lado de los océanos hay monstruos aún más temibles que los que asolan esta tierra."
+      },
+      "Txt_Talk_Portoga_Out_SUB_0_ACTOR_0610_020_2": {
+        "SelfId": "Txt_Talk_Portoga_Out_SUB_0_ACTOR_0610_020_2",
+        "Text": "*: Antes de partir hacia los confines de los mares, es preferible ir al faro que está al sur de este lugar."
+      },
+      "Txt_Talk_Portoga_Out_SUB_0_ACTOR_0610_030_1": {
+        "SelfId": "Txt_Talk_Portoga_Out_SUB_0_ACTOR_0610_030_1",
+        "Text": "*: El rey de nuestro país es amante del sabor picante de la pimienta negra."
+      },
+      "Txt_Talk_Portoga_Out_SUB_0_ACTOR_0610_030_2": {
+        "SelfId": "Txt_Talk_Portoga_Out_SUB_0_ACTOR_0610_030_2",
+        "Text": "*: Hace poco se establecieron rutas comerciales con los países lejanos de Oriente, donde se cultiva."
+      },
+      "Txt_Talk_Portoga_Out_SUB_0_ACTOR_0710_010_1": {
+        "SelfId": "Txt_Talk_Portoga_Out_SUB_0_ACTOR_0710_010_1",
+        "Text": "*: Con un bote a tu mando podrás navegar por el mundo y conseguir más cargamento exótico. Solo imagina<...>"
+      },
+      "Txt_Talk_Portoga_Out_SUB_0_ACTOR_0720_010_1": {
+        "SelfId": "Txt_Talk_Portoga_Out_SUB_0_ACTOR_0720_010_1",
+        "Text": "*: Zzz<...> Zzz<...>"
+      },
+      "Txt_Talk_Portoga_Out_SUB_0_ACTOR_0710_020_1": {
+        "SelfId": "Txt_Talk_Portoga_Out_SUB_0_ACTOR_0710_020_1",
+        "Text": "*: ¿Es cierto que el imponente navío atracado en el puerto es tuyo? ¡Vaya! Qué envidia<...>"
+      },
+      "Txt_Talk_Portoga_Out_SUB_0_ACTOR_0820_010_1": {
+        "SelfId": "Txt_Talk_Portoga_Out_SUB_0_ACTOR_0820_010_1",
+        "Text": "*: Lo siento, pero Su Real Majestad se ha retirado por hoy."
+      },
+      "Txt_Talk_Portoga_Out_SUB_0_ACTOR_0920_010_1": {
+        "SelfId": "Txt_Talk_Portoga_Out_SUB_0_ACTOR_0920_010_1",
+        "Text": "*: Por favor, regresa mañana."
+      },
+      "Txt_Talk_Portoga_Out_SUB_0_ACTOR_1010_010_1": {
+        "SelfId": "Txt_Talk_Portoga_Out_SUB_0_ACTOR_1010_010_1",
+        "Text": "¡Oh, Carlos, mi Carlos! Verte de nuevo es<...> ¡Es un milagro! ¡Obrigada, <IfGender_LEADER(viajero,viajera,)>! Gracias. ¡Muchas gracias!"
+      },
+      "Txt_Talk_Portoga_Out_SUB_0_ACTOR_1010_010_2": {
+        "SelfId": "Txt_Talk_Portoga_Out_SUB_0_ACTOR_1010_010_2",
+        "Text": "¡Caramba! Casi se me olvida. Quisiera darte esto. Se conoce como <66>Espada de la sirena<99>."
+      },
+      "Txt_Talk_Portoga_Out_SUB_0_ACTOR_1010_010_3": {
+        "SelfId": "Txt_Talk_Portoga_Out_SUB_0_ACTOR_1010_010_3",
+        "Text": "Se ha transmitido a través de mi familia durante muchas generaciones."
+      },
+      "Txt_Talk_Portoga_Out_SUB_0_ACTOR_1010_010_5": {
+        "SelfId": "Txt_Talk_Portoga_Out_SUB_0_ACTOR_1010_010_5",
+        "Text": "¡<Cap>{LEADER} recibió <DefSgl_I_NAME>!"
+      },
+      "Txt_Talk_Portoga_Out_SUB_0_ACTOR_1010_010_7": {
+        "SelfId": "Txt_Talk_Portoga_Out_SUB_0_ACTOR_1010_010_7",
+        "Text": "Estoy segura de que te será muy útil en tu misión."
+      },
+      "Txt_Talk_Portoga_Out_SUB_0_ACTOR_1010_010_8": {
+        "SelfId": "Txt_Talk_Portoga_Out_SUB_0_ACTOR_1010_010_8",
+        "Text": "Ahora, por favor, debes disculparme. Quisiera seguir hablando con Carlos, mi amado. Adeus por ahora, <IfGender_LEADER(viajero,viajera,)>."
+      },
+      "Txt_Talk_Portoga_Out_SUB_0_ACTOR_1110_010_1": {
+        "SelfId": "Txt_Talk_Portoga_Out_SUB_0_ACTOR_1110_010_1",
+        "Text": "*: Este es <IfSolo(tu,su)> barco, pero <IfSolo(ten,tengan)> cuidado en el océano<...> Es hogar de criaturas hostiles."
+      },
+      "Txt_Talk_Portoga_Out_SUB_0_ACTOR_1110_010_2": {
+        "SelfId": "Txt_Talk_Portoga_Out_SUB_0_ACTOR_1110_010_2",
+        "Text": "*: En lugar de navegar hacia donde <IfSolo(te,les)> lleve <IfSolo(tu,su)> corazón, <IfSolo(te,les)> sugiero que primero <IfSolo(te dirijas,se dirijan)> al faro que hay al sur de aquí."
+      },
+      "Txt_Talk_Portoga_Out_SUB_0_ACTOR_1110_010_3": {
+        "SelfId": "Txt_Talk_Portoga_Out_SUB_0_ACTOR_1110_010_3",
+        "Text": "*: Es un lugar donde se reúnen muchos viajeros. Quizá <IfSolo(descubras,descubran)> algo útil ahí."
+      },
+      "Txt_Talk_Portoga_Out_SUB_0_ACTOR_1110_010_4": {
+        "SelfId": "Txt_Talk_Portoga_Out_SUB_0_ACTOR_1110_010_4",
+        "Text": "*: Este es <IfSolo(tu,su)> bote, pero <IfSolo(ten,tengan)> cuidado ahí fuera. El océano alberga muchas criaturas hostiles."
+      },
+      "Txt_Talk_Portoga_Out_SUB_0_ACTOR_1110_010_5": {
+        "SelfId": "Txt_Talk_Portoga_Out_SUB_0_ACTOR_1110_010_5",
+        "Text": "*: En lugar de navegar hacia donde <IfSolo(te,les)> lleve <IfSolo(tu,su)> corazón, <IfSolo(te,les)> sugiero que primero <IfSolo(te dirijas,se dirijan)> al faro que hay al sur de aquí."
+      },
+      "Txt_Talk_Portoga_Out_SUB_0_ACTOR_1110_010_6": {
+        "SelfId": "Txt_Talk_Portoga_Out_SUB_0_ACTOR_1110_010_6",
+        "Text": "*: Es un lugar donde se reúnen muchos viajeros. Quizá <IfSolo(descubras,descubran)> algo útil ahí."
+      },
+      "Txt_Talk_Portoga_Out_SUB_0_VOLUME_1210_010_1": {
+        "SelfId": "Txt_Talk_Portoga_Out_SUB_0_VOLUME_1210_010_1",
+        "Text": "Glup<...>"
+      },
+      "Txt_Talk_Portoga_Out_SUB_0_VOLUME_1210_010_2": {
+        "SelfId": "Txt_Talk_Portoga_Out_SUB_0_VOLUME_1210_010_2",
+        "Text": "{LEADER} tranquiliza al monstruo con una voz relajante y le habla sobre la reserva de monstruos de Moncho<...>"
+      },
+      "Txt_Talk_Portoga_Out_SUB_0_VOLUME_1210_010_3": {
+        "SelfId": "Txt_Talk_Portoga_Out_SUB_0_VOLUME_1210_010_3",
+        "Text": "Gluuup<...>"
+      },
+      "Txt_Talk_Portoga_Out_SUB_0_ACTOR_1310_010_1": {
+        "SelfId": "Txt_Talk_Portoga_Out_SUB_0_ACTOR_1310_010_1",
+        "Text": "*: ¿Ya oíste hablar de un anciano en el continente occidental que quiere construir su propia ciudad? Qué locura<...>"
+      },
+      "Txt_Talk_Portoga_Out_SUB_0_ACTOR_1310_020_1": {
+        "SelfId": "Txt_Talk_Portoga_Out_SUB_0_ACTOR_1310_020_1",
+        "Text": "*: ¡Parece que, después de todo, ese vejestorio del continente occidental construyó la maldita ciudad! Cruza los dedos para que la gente decida mudarse ahí<...>"
+      },
+      "Txt_Talk_Portoga_Out_SUB_0_ACTOR_1410_010_1": {
+        "SelfId": "Txt_Talk_Portoga_Out_SUB_0_ACTOR_1410_010_1",
+        "Text": "*: Hablas del asentamiento cerca de la costa, ¿no?"
+      },
+      "Txt_Talk_Portoga_Out_SUB_0_ACTOR_1410_010_2": {
+        "SelfId": "Txt_Talk_Portoga_Out_SUB_0_ACTOR_1410_010_2",
+        "Text": "*: Ah, no me imagino irme a vivir ahí."
+      },
+      "Txt_Talk_Portoga_Out_SUB_0_ACTOR_1410_020_1": {
+        "SelfId": "Txt_Talk_Portoga_Out_SUB_0_ACTOR_1410_020_1",
+        "Text": "*: De hecho, supe que algunas personas ya se están mudando para allá. Sin embargo, una vida allá não llama minha atenção<...>"
+      },
+      "Txt_Talk_Portoga_Inn_SUB_0_ACTOR_0310_010_1": {
+        "SelfId": "Txt_Talk_Portoga_Inn_SUB_0_ACTOR_0310_010_1",
+        "Text": "*: Un solo grano de pimienta es un grano de oro."
+      },
+      "Txt_Talk_Portoga_Inn_SUB_0_ACTOR_0310_010_2": {
+        "SelfId": "Txt_Talk_Portoga_Inn_SUB_0_ACTOR_0310_010_2",
+        "Text": "*: Aquí no tenemos nada tan valioso. En fin, hablemos de negocios. Ejem<...>"
+      },
+      "Txt_Talk_Portoga_Inn_SUB_0_ACTOR_0410_010_1": {
+        "SelfId": "Txt_Talk_Portoga_Inn_SUB_0_ACTOR_0410_010_1",
+        "Text": "*: Quisiera probar la magia ardiente de la pimienta negra una sola vez antes de morir<...> Eso significaría haber vivido de verdad<...>"
+      },
+      "Txt_Talk_Portoga_Inn_SUB_0_ACTOR_0410_020_1": {
+        "SelfId": "Txt_Talk_Portoga_Inn_SUB_0_ACTOR_0410_020_1",
+        "Text": "*: Anoche, Su Majestad vino a verme en secreto y me obsequió una valiosa pimienta negra."
+      },
+      "Txt_Talk_Portoga_Inn_SUB_0_ACTOR_0410_020_2": {
+        "SelfId": "Txt_Talk_Portoga_Inn_SUB_0_ACTOR_0410_020_2",
+        "Text": "*: Pero es demasiado valiosa para probarla. Ay, ¡no sé qué hacer con ella!"
+      },
+      "Txt_Talk_Portoga_Inn_SUB_0_ACTOR_0410_030_1": {
+        "SelfId": "Txt_Talk_Portoga_Inn_SUB_0_ACTOR_0410_030_1",
+        "Text": "*: Nadie me cree, pero aunque nací en una ciudad de botes, nunca he pisado uno<...>"
+      },
+      "Txt_Talk_Portoga_Inn_SUB_0_ACTOR_0410_030_2": {
+        "SelfId": "Txt_Talk_Portoga_Inn_SUB_0_ACTOR_0410_030_2",
+        "Text": "*: Me temo que a alguien como yo no le iría bien en un viaje repleto de monstruos y otros peligros del océano<...>"
+      },
+      "Txt_Talk_Portoga_Inn_SUB_0_ACTOR_0410_030_3": {
+        "SelfId": "Txt_Talk_Portoga_Inn_SUB_0_ACTOR_0410_030_3",
+        "Text": "*: Pero un día me gustaría intentarlo, solo para saber<...> Aah, o mar<...> El mar<...> El romance<...>"
+      },
+      "Txt_Talk_Portoga_Inn_SUB_0_ACTOR_0520_010_1": {
+        "SelfId": "Txt_Talk_Portoga_Inn_SUB_0_ACTOR_0520_010_1",
+        "Text": "*: ¿M-mami<...>? Zzz<...>"
+      },
+      "Txt_Talk_Portoga_Inn_SUB_0_ACTOR_0620_010_1": {
+        "SelfId": "Txt_Talk_Portoga_Inn_SUB_0_ACTOR_0620_010_1",
+        "Text": "*: Zzz<...> Zzz<...> ¡Ah! ¡Monstruos! ¡Ja! Zzz<...>"
+      },
+      "Txt_Talk_Portoga_Inn_SUB_0_ACTOR_0710_010_1": {
+        "SelfId": "Txt_Talk_Portoga_Inn_SUB_0_ACTOR_0710_010_1",
+        "Text": "*: Mi abuela me dijo una vez que había un lugar especial al noroeste de Portoga."
+      },
+      "Txt_Talk_Portoga_Inn_SUB_0_ACTOR_0710_010_2": {
+        "SelfId": "Txt_Talk_Portoga_Inn_SUB_0_ACTOR_0710_010_2",
+        "Text": "*: Me pregunto qué habrá en ese lugar tan especial al noroeste<...> Mi abuela nunca me lo reveló."
+      },
+      "Txt_Talk_Portoga_Room01_1F_SUB_0_ACTOR_0110_010_1": {
+        "SelfId": "Txt_Talk_Portoga_Room01_1F_SUB_0_ACTOR_0110_010_1",
+        "Text": "Olá. Soy Sabrina. Aaah, estaba soñando despierta con mi amado<...>"
+      },
+      "Txt_Talk_Portoga_Room01_1F_SUB_0_ACTOR_0110_010_2": {
+        "SelfId": "Txt_Talk_Portoga_Room01_1F_SUB_0_ACTOR_0110_010_2",
+        "Text": "Las noches<...> son tan largas<...> tan solitarias sin mi querido Carlos<...>"
+      },
+      "Txt_Talk_Portoga_Room01_1F_SUB_0_ACTOR_0110_020_1": {
+        "SelfId": "Txt_Talk_Portoga_Room01_1F_SUB_0_ACTOR_0110_020_1",
+        "Text": "Olá. Soy Sabrina. Aaah, me preguntaba cuánto tiempo habría soñando despierta con mi amado<...>"
+      },
+      "Txt_Talk_Portoga_Room01_1F_SUB_0_ACTOR_0110_020_2": {
+        "SelfId": "Txt_Talk_Portoga_Room01_1F_SUB_0_ACTOR_0110_020_2",
+        "Text": "Y qué pronto olvidaré su hermoso rostro por completo<...>"
+      },
+      "Txt_Talk_Portoga_Room01_1F_SUB_0_ACTOR_0110_020_3": {
+        "SelfId": "Txt_Talk_Portoga_Room01_1F_SUB_0_ACTOR_0110_020_3",
+        "Text": "Y las noches<...> Ay, las noches son tan largas<...> Tan solitarias sin mi querido Carlos<...>"
+      },
+      "Txt_Talk_Portoga_Room01_1F_SUB_0_ACTOR_0220_010_1": {
+        "SelfId": "Txt_Talk_Portoga_Room01_1F_SUB_0_ACTOR_0220_010_1",
+        "Text": "*: ¡Miau!"
+      },
+      "Txt_Talk_Portoga_Room01_1F_SUB_0_ACTOR_0220_020_1": {
+        "SelfId": "Txt_Talk_Portoga_Room01_1F_SUB_0_ACTOR_0220_020_1",
+        "Text": "*: Miauuu<...> Miauuu<...>"
+      },
+      "Txt_Talk_Portoga_Room01_1F_SUB_0_ACTOR_0320_010_1": {
+        "SelfId": "Txt_Talk_Portoga_Room01_1F_SUB_0_ACTOR_0320_010_1",
+        "Text": "*: Mmm<...> Papai<...> No puedo dormir<...>"
+      },
+      "Txt_Talk_Portoga_Room01_1F_SUB_0_ACTOR_0320_020_1": {
+        "SelfId": "Txt_Talk_Portoga_Room01_1F_SUB_0_ACTOR_0320_020_1",
+        "Text": "*: ¡Uaaaaaarrrghhh! ¡Ngh! Mm<...>"
+      },
+      "Txt_Talk_Portoga_Room01_1F_SUB_0_ACTOR_0320_030_1": {
+        "SelfId": "Txt_Talk_Portoga_Room01_1F_SUB_0_ACTOR_0320_030_1",
+        "Text": "*: Mmm<...> Papai<...> No puedo dormir<...>"
+      },
+      "Txt_Talk_Portoga_Room01_1F_SUB_0_ACTOR_0420_010_1": {
+        "SelfId": "Txt_Talk_Portoga_Room01_1F_SUB_0_ACTOR_0420_010_1",
+        "Text": "*: Rrrnnnggg<...> Nnngh<...> Gruarg<...>"
+      },
+      "Txt_Talk_Portoga_Room01_1F_SUB_0_ACTOR_0420_020_1": {
+        "SelfId": "Txt_Talk_Portoga_Room01_1F_SUB_0_ACTOR_0420_020_1",
+        "Text": "*: Urgh, últimamente no puedo dormir<...>"
+      },
+      "Txt_Talk_Portoga_Room01_1F_SUB_0_ACTOR_0420_020_2": {
+        "SelfId": "Txt_Talk_Portoga_Room01_1F_SUB_0_ACTOR_0420_020_2",
+        "Text": "*: Quizá sea porque el gato de la habitación de al lado llora con tanta agonía<...> <66>Miauuu<...><99> Qué triste<...>"
+      },
+      "Txt_Talk_Portoga_Room01_1F_SUB_0_ACTOR_0420_030_1": {
+        "SelfId": "Txt_Talk_Portoga_Room01_1F_SUB_0_ACTOR_0420_030_1",
+        "Text": "*: Rrrnnnggg<...> Nnngh<...> Gruarg<...>"
+      },
+      "Txt_Talk_Portoga_Room02_B1F_SUB_0_ACTOR_0110_010_1": {
+        "SelfId": "Txt_Talk_Portoga_Room02_B1F_SUB_0_ACTOR_0110_010_1",
+        "Text": "*: Bem-vindo, hijo de la Deusa. Quédate un rato y te contaré una historia<...> Érase una vez un valiente soldado y una joven y bella doncella."
+      },
+      "Txt_Talk_Portoga_Room02_B1F_SUB_0_ACTOR_0110_010_2": {
+        "SelfId": "Txt_Talk_Portoga_Room02_B1F_SUB_0_ACTOR_0110_010_2",
+        "Text": "*: Los dos contemplaban el mar y soñaban con un mundo pacífico."
+      },
+      "Txt_Talk_Portoga_Room02_B1F_SUB_0_ACTOR_0110_010_3": {
+        "SelfId": "Txt_Talk_Portoga_Room02_B1F_SUB_0_ACTOR_0110_010_3",
+        "Text": "*: Pero, al ver esto, el Archivillano Baramos se enfureció y lanzó una maldición sobre los jóvenes enamorados."
+      },
+      "Txt_Talk_Portoga_Room02_B1F_SUB_0_ACTOR_0110_010_4": {
+        "SelfId": "Txt_Talk_Portoga_Room02_B1F_SUB_0_ACTOR_0110_010_4",
+        "Text": "*: Su historia es verdaderamente trágica<...>"
+      },
+      "Txt_Talk_Portoga_Room02_B1F_SUB_0_ACTOR_0110_020_1": {
+        "SelfId": "Txt_Talk_Portoga_Room02_B1F_SUB_0_ACTOR_0110_020_1",
+        "Text": "*: Me retiro<...> de la vida. Quería cortar los lazos de tristeza y deseo que me ataban al mundo."
+      },
+      "Txt_Talk_Portoga_Room02_B1F_SUB_0_ACTOR_0110_020_2": {
+        "SelfId": "Txt_Talk_Portoga_Room02_B1F_SUB_0_ACTOR_0110_020_2",
+        "Text": "*: Pero, por mucho que lo intentase, no podía dejar de sentirme afectado por la trágica historia de los dos enamorados separados por el destino."
+      },
+      "Txt_Talk_Portoga_Room02_B1F_SUB_0_ACTOR_0110_020_3": {
+        "SelfId": "Txt_Talk_Portoga_Room02_B1F_SUB_0_ACTOR_0110_020_3",
+        "Text": "*: ¡Hiciste algo increíble, <IfGender_LEADER(viajero,viajera,)>! No solo tranquilizaste sus corazones, sino también el mío."
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_010_1": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_010_1",
+        "Text": "Se dice que en las tierras del este crece mucha pimienta."
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_010_2": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_010_2",
+        "Text": "Viaja hasta allá, <IfGender_LEADER(aventurero,aventurera,)>, y tráeme noticias de lo que encuentres."
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_010_3": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_010_3",
+        "Text": "Si traes la preciada pimienta, te honraré como <IfGender_LEADER(héroe,heroína,)> y te entregaré mi propio buque insignia como premio."
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_010_4": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_010_4",
+        "Text": "Enséñale esta carta al enano Nordy, que habita en el túnel que conduce hacia el este. Él te concederá el paso."
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_010_5": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_010_5",
+        "Text": "¡{LEADER} recibe <DefSgl_I_NAME>!"
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_010_6": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_010_6",
+        "Text": "Eres la segunda persona para la que escribo una misiva de este tipo. La primera, si no me falla la memoria, fue un guerrero de Aliahan<...>"
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_010_7": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_010_7",
+        "Text": "Cuando le pregunté por qué necesitaba una carta así, se negó a decírmelo. Lo único que me dijo fue que su viaje era de suma importancia."
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_010_8": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_010_8",
+        "Text": "Normalmente, lo habría echado por semejante insolencia, pero su determinación me tocó las fibras más profundas."
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_010_9": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_010_9",
+        "Text": "Supe en ese mismo instante que decía la verdad. ¿Quién habría sido yo para interponerme en su camino?"
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_010_10": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_010_10",
+        "Text": "Ay, pero estoy divagando; eso ya es pasado."
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_010_11": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_010_11",
+        "Text": "Ahora, vete, ¡y que la Diosa guarde y bendiga tu viaje! Muestra la carta al enano Nordy y te dejará pasar."
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_030_1": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_030_1",
+        "Text": "Vaya, pero si eres tú a quien le encargué que viajara al este y regresara con la preciada pimienta."
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_030_2": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_030_2",
+        "Text": "¿Entonces? ¿Supongo que fracasaste en tu misión?"
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_030_3": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_030_3",
+        "Text": "<...> ¡Caramba! ¡Parece que no!"
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_030_4": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_030_4",
+        "Text": "¡Aah, preciosa, picante y negra pimienta! ¡El mayor tesoro de oriente!"
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_030_5": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_030_5",
+        "Text": "Muy buen trabajo, {LEADER}. Excelente. No dudo de que tu viaje estuvo plagado de peligros a cada paso."
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_030_6": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_030_6",
+        "Text": "Esa valentía solo la poseen los verdaderos héroes."
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_030_7": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_030_7",
+        "Text": "Que no se diga que no soy un hombre de palabra. El barco es tuyo."
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_030_7_1": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_030_7_1",
+        "Text": "Bueno, a partir de mañana. ¡Porque hoy tendremos un banquete en tu honor!"
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_030_7_2": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_030_7_2",
+        "Text": "Oigan, vasallos, la pimienta ya está aquí. ¡Ya saben qué hacer!"
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_030_7_3": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_030_7_3",
+        "Text": "El rey de Portoga se sintió más que feliz con esta pimienta exquisita."
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_030_7_4": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_030_7_4",
+        "Text": "Aquellas personas que tuvieron la fortuna de encontrarse dentro del castillo esa noche pudieron deleitarse con los platillos más ricos, elaborados todos con ese sabroso ingrediente."
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_030_7_5": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_030_7_5",
+        "Text": "Entonces, poco después<...>"
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_030_7_6": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_030_7_6",
+        "Text": "Hermosa mañana, ¿no? ¡Hasta dan ganas de izar velas, levar anclas, y hacerse a la mar!"
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_030_7_7": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_030_7_7",
+        "Text": "Dime, ¿anoche pudiste ver tu barco ideal en tus sueños?"
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_030_7_8": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_030_7_8",
+        "Text": "Te aseguro que este se encuentra en condiciones más que perfectas. Podrías zarpar hoy mismo, si fuera esa tu voluntad."
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_030_8": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_030_8",
+        "Text": "Pero cuídate."
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_030_9": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_030_9",
+        "Text": "Últimamente, me han llegado noticias de que las cosas en Jipang y Manoza están complicadas. Me temo que algo malo está a punto de suceder<...>"
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_030_10": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_030_10",
+        "Text": "Viaja con precaución. Si no estás <IfGender_LEADER(seguro,segura,)> de cuál es tu barco, habla con el soldado del puerto. Debería serte de ayuda."
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_060_1": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_060_1",
+        "Text": "¿Mm? ¿Qué pasa?"
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_060_2": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_060_2",
+        "Text": "Enséñale esta carta al enano Nordy, que habita en el túnel que conduce hacia el este, cerca de Asham. Él te concederá el paso."
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_060_3": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_060_3",
+        "Text": "Ahora, márchate, {LEADER}. ¡Ya quiero probar esa deliciosa pimienta que traerás cuando regreses!"
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_070_1": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_070_1",
+        "Text": "¿Mm? ¿Qué pasa?"
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_070_2": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_070_2",
+        "Text": "¡Según me han contado, en Baharata, una ciudad situada a orillas de un río en el este, la pimienta crece de los árboles!"
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_070_3": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_070_3",
+        "Text": "Ahora, márchate, {LEADER}. ¡Ya quiero probar esa deliciosa pimienta que traerás cuando regreses!"
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_080_1": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_080_1",
+        "Text": "¿Mm? ¿Qué pasa?"
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_080_2": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_080_2",
+        "Text": "¿Qué? ¿Encontraste a un mercader que comerciaba con pimienta, pero no está comerciando en este momento, así que vuelves con las manos vacías? ¡Aayy!"
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_080_3": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_080_3",
+        "Text": "Mmm, estoy seguro de que el hombre debe tener sus razones<...> ¿No hay nada que puedas hacer para que el mercader vuelva a vender su mercancía?"
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_080_4": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_080_4",
+        "Text": "Ahora, márchate, {LEADER}. ¡Ya quiero probar esa deliciosa pimienta que traerás cuando regreses!"
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_090_1": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_090_1",
+        "Text": "Aayy, preciosa pimienta, con su aroma tan irresistible<...> Realmente no sé cómo agradecerte que me la hayas traído. Pero no podemos detenernos en tales delicias para siempre<...>"
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_090_2": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_090_2",
+        "Text": "¿Conoces el faro cercano a la costa, en la masa de tierra al sur de Portoga?"
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_090_3": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_090_3",
+        "Text": "Es una parada popular para los viajeros marítimos. Nunca se sabe, quizá oigas algo útil si decides hacer una parada ahí."
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_100_1": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_100_1",
+        "Text": "Aayy, preciosa pimienta, con su aroma tan irresistible<...> Realmente no sé cómo agradecerte que me la hayas traído. Pero no podemos detenernos en tales delicias para siempre<...>"
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_100_2": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_100_2",
+        "Text": "¿Has oído hablar del reino de Jipang? Es un minúsculo islote, aún más al este que Baharata."
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_100_3": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_100_3",
+        "Text": "Hace unos años, corrió el rumor de que ahí había un monstruo terrível. Uno al que le gusta la carne joven<...>"
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_100_4": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_100_4",
+        "Text": "Y por si eso no fuera suficientemente espantoso, ¡se dice que la bestia solo acepta jovencitas como sacrificio! Aayy, solo de pensarlo<...>"
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_100_5": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_100_5",
+        "Text": "Solo espero que sea un cuento para asustar a los niños y que no hagan travesuras<...>"
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_110_1": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_110_1",
+        "Text": "Aaay, preciosa pimienta, con su aroma tan irresistible<...> Realmente no sé cómo agradecerte que me la hayas traído. Pero no podemos detenernos en tales delicias para siempre<...>"
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_110_2": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_110_2",
+        "Text": "Si alguna vez tú o tus amigos llegan a las tierras al sur de Portoga, te recomiendo que visiten la aldea de Theddon."
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_110_3": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_110_3",
+        "Text": "Es un pequeño asentamiento cerca del delta de un río. Aunque, por alguna razón, hace años que no recibimos visitantes de esa región<...>"
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_110_4": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_110_4",
+        "Text": "Hubo un tiempo en el que numerosos mercaderes pasaban por esa aldea todo el tiempo. Hoy en día ya no es aquel centro de comercio bullicioso y abarrotado que solía ser, pero igual puedes pasar por ahí a descansar un rato."
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_120_1": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_120_1",
+        "Text": "Aayy, preciosa pimienta, con su aroma tan irresistible<...> Realmente no sé cómo agradecerte que me la hayas traído. Pero no podemos detenernos en tales delicias para siempre<...>"
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_120_2": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_120_2",
+        "Text": "¿Has navegado alguna vez hacia el sur desde Baharata? Si alguna vez te animas a hacerlo, podrías llegar a una isla que alberga un pueblo llamado Lanson."
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_120_3": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_120_3",
+        "Text": "¡Se dice que ahí se encuentra un maravilloso método para hacerse invisible!"
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_120_4": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_120_4",
+        "Text": "Todo tipo de bromas serían posibles con algo así<...> ¡Si es que existe, claro!"
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_120_5": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_120_5",
+        "Text": "Resulta que sé que el rey de Romaria mataría por una habilidad así. ¡Él podría salir del castillo cuando quisiera! De hecho, a mí tampoco me importaría tomarme un descanso de vez en cuando<...>"
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_130_1": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_130_1",
+        "Text": "Aayy, preciosa pimienta, con su aroma tan irresistible<...> Realmente no sé cómo agradecerte que me la hayas traído. Pero no podemos detenernos en tales delicias para siempre<...>"
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_130_2": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_130_2",
+        "Text": "¿Conoces el reino de Edina? Se encuentra al noroeste de nuestra nación."
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_130_3": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_130_3",
+        "Text": "Es un lugar próspero y bendecido con todo tipo de rarezas, pero no puedo decir que te recomiende visitarlo."
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_130_4": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_130_4",
+        "Text": "Consideran a todos los forasteros como unos pueblerinos chiflados y radicales. Imagino que sería una experiencia de lo más desagradable para ti."
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_140_1": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_140_1",
+        "Text": "Aayy, preciosa pimienta, con su aroma tan irresistible<...> Realmente no sé cómo agradecerte que me la hayas traído. Pero no podemos detenernos en tales delicias para siempre<...>"
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_140_2": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_140_2",
+        "Text": "¿Has navegado alguna vez hacia el sur desde Baharata? Si alguna vez te animas a hacerlo, podrías llegar a una isla que alberga un pueblo llamado Lanson."
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_140_3": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_140_3",
+        "Text": "Resulta que hace poco oí que el santuario cercano a la aldea alberga un tesoro más que brillante."
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_140_4": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_140_4",
+        "Text": "Fascinante, ¿no? Puede que sea una aldea pequeña y remota, ¡pero parece ofrecer innumerables atractivos! Aayy, espero poder viajar ahí algún día<...>"
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_150_1": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_150_1",
+        "Text": "Aayy, preciosa pimienta, con su aroma tan irresistible<...> Realmente no sé cómo agradecerte que me la hayas traído. Pero no podemos detenernos en tales delicias para siempre<...>"
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_150_2": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_150_2",
+        "Text": "¿Has oído hablar de Manoza, el reino del continente situado al suroeste? ¡Su rey es un hombre verdaderamente admirável!"
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_150_3": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_150_3",
+        "Text": "<...> Bueno, al menos solía serlo. Ya tiene tiempo que no escucho noticias suyas que no sean preocupantes<...>"
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_150_4": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_150_4",
+        "Text": "Si por casualidad você llega a ir a Manoza, tome cuidado."
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_160_1": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_160_1",
+        "Text": "Aayy, preciosa pimienta, con su aroma tan irresistible<...> Realmente no sé cómo agradecerte que me la hayas traído. Pero no podemos detenernos en tales delicias para siempre<...>"
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_160_2": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_160_2",
+        "Text": "Apenas puedo creer que duas grandes terras, Jipang y Manoza, ¡hayan sido tomadas por tales desalmados!"
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_160_3": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_160_3",
+        "Text": "Pero el terror no acaba ahí. Os marinheiros del puerto hablan en voz baja de un barco fantasma; dicen que está condenado a vagar por los mares por toda la eternidad."
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_160_4": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_160_4",
+        "Text": "Al parecer, fue avistado por última vez al sureste de Romaria. ¡Que la Diosa nos cuide!"
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_170_1": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_170_1",
+        "Text": "Aayy, preciosa pimienta, con su aroma tan irresistible<...> Realmente no sé cómo agradecerte que me la hayas traído. Pero no podemos detenernos en tales delicias para siempre<...>"
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_170_2": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_170_2",
+        "Text": "Últimamente pienso que hay dos cosas que arruinarían cualquier travesía: los monstruos y los piratas. Aunque estoy seguro de que podrías manejar ambas dificultades sin problemas, <IfGender_LEADER(meu amigo,amiga minha,)>."
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_170_3": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_170_3",
+        "Text": "En cualquier caso, es un tema me había estado rondando por la cabeza; a veces oigo hablar de barcos a los que saquean cerca del continente que está al suroeste de Portoga."
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_170_4": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_170_4",
+        "Text": "Aayy, la guarida de los piratas debe estar en algún lugar de esa zona. Mantente alerta si piensas navegar por esas aguas."
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_180_1": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_180_1",
+        "Text": "Aayy, preciosa pimienta, con su aroma tan irresistible<...> Realmente no sé cómo agradecerte que me la hayas traído. Pero no podemos detenernos en tales delicias para siempre<...>"
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_180_2": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_180_2",
+        "Text": "¿Has oído que alguien intenta fundar una nueva ciudad en el continente del oeste? Parece que la zona está poco poblada y es extremadamente remota."
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_180_3": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_180_3",
+        "Text": "Quizá si tuvieran a mano a un hábil comerciante, el proceso podría hacerse mucho más fluido<...> ¿Por qué no vas y echas un vistazo tú <IfGender_LEADER(mismo,misma,)>? ¡Me encantaría saber cómo progresa su trabajo!"
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_190_1": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_190_1",
+        "Text": "Aayy, preciosa pimienta, con su aroma tan irresistible<...> Realmente no sé cómo agradecerte que me la hayas traído. Pero no podemos detenernos en tales delicias para siempre<...>"
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_190_2": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_190_2",
+        "Text": "Parece que se fundó una nueva ciudad en el continente al oeste de nosotros. Por desgracia, no hay mucho que hacer ahí por el momento."
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_190_3": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_190_3",
+        "Text": "Pero dicen que el mercader a cargo del lugar es extremadamente ingenioso. Tal vez você debería visitar, si tienes tiempo."
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_200_1": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_200_1",
+        "Text": "Aayy, preciosa pimienta, con su aroma tan irresistible<...> Realmente no sé cómo agradecerte que me la hayas traído. Pero no podemos detenernos en tales delicias para siempre<...>"
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_200_2": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_200_2",
+        "Text": "¡Los informes afirman que la nueva ciudad del continente del oeste ha crecido mucho!"
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_200_3": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_200_3",
+        "Text": "Aayy, incluso han estado comprando todo tipo de joyas raras. Es muy curioso que una ciudad pueda experimentar un crecimiento tan rápido, ¿no?"
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_200_4": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_200_4",
+        "Text": "Además, también tiene un nombre de lo más peculiar<...> {MERCHANT}burgo, me parece. Con el tiempo, podría convertirse en un puerto comercial que rivalice incluso con nuestro belo Portoga."
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_210_1": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_210_1",
+        "Text": "La pimienta negra tiene una fragancia de lo más irresistible, pero ay de aquel que la inhale accidentalmente<...> Sniff<...>"
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_210_2": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_210_2",
+        "Text": "Ah, pero olvidé decirte<...> el enano, Nordy, preguntó por ti. Quiere saber si te encuentras bien."
+      },
+      "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_210_3": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_MAIN_0_ACTOR_0110_210_3",
+        "Text": "No pongas cara de sorpresa. Puede parecer un cascarrabias, pero es un alma bondadosa. Deberías pasar a verlo; bueno, si tienes ganas."
+      },
+      "Txt_Talk_Portoga_Castle_1F_SUB_0_ACTOR_0210_020_1": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_SUB_0_ACTOR_0210_020_1",
+        "Text": "El rey es un hombre de palabra, eso te lo aseguro."
+      },
+      "Txt_Talk_Portoga_Castle_1F_SUB_0_ACTOR_0210_020_2": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_SUB_0_ACTOR_0210_020_2",
+        "Text": "Si pudieras traerle pimienta negra de las tierras del este, ¡es casi un hecho que te recompensará con un barco para hacerte a la mar!"
+      },
+      "Txt_Talk_Portoga_Castle_1F_SUB_0_ACTOR_0210_030_1": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_SUB_0_ACTOR_0210_030_1",
+        "Text": "Portoga es un bullicioso centro de comercio donde atracan barcos de todas partes. Esto permite que un sinfín de noticias llegue a oídos del rey."
+      },
+      "Txt_Talk_Portoga_Castle_1F_SUB_0_ACTOR_0210_030_2": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_SUB_0_ACTOR_0210_030_2",
+        "Text": "Si alguna vez te encuentras perdido, te recomiendo encarecidamente que hables con Su Majestad."
+      },
+      "Txt_Talk_Portoga_Castle_1F_SUB_0_ACTOR_0210_040_1": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_SUB_0_ACTOR_0210_040_1",
+        "Text": "¡Un placer! ¿Cómo va tu viaje?"
+      },
+      "Txt_Talk_Portoga_Castle_1F_SUB_0_ACTOR_0210_040_2": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_SUB_0_ACTOR_0210_040_2",
+        "Text": "Me complace mucho que nuestro navío siga siéndote de utilidad."
+      },
+      "Txt_Talk_Portoga_Castle_1F_SUB_0_ACTOR_0310_010_1": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_SUB_0_ACTOR_0310_010_1",
+        "Text": "*: Yo soy quien siempre dice verdades. ¿Deseas escuchar una?"
+      },
+      "Txt_Talk_Portoga_Castle_1F_SUB_0_ACTOR_0310_010_2": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_SUB_0_ACTOR_0310_010_2",
+        "Text": "*: ¡A mentiroso, boa mémoria!\r\n¡Un mentiroso necesita una buena memoria! ¡Je, je, je!"
+      },
+      "Txt_Talk_Portoga_Castle_1F_SUB_0_ACTOR_0310_010_3": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_SUB_0_ACTOR_0310_010_3",
+        "Text": "*: ¿No quieres? Qué pena."
+      },
+      "Txt_Talk_Portoga_Castle_1F_SUB_0_ACTOR_0410_010_1": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_SUB_0_ACTOR_0410_010_1",
+        "Text": "*: Hoy solo se habla de explorar las tierras del este. Pero esa idea me parece aterradora."
+      },
+      "Txt_Talk_Portoga_Castle_1F_SUB_0_ACTOR_0410_010_2": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_SUB_0_ACTOR_0410_010_2",
+        "Text": "*: Después de todo, ¿los habitantes de esa región no son unos bárbaros?"
+      },
+      "Txt_Talk_Portoga_Castle_1F_SUB_0_ACTOR_0410_020_1": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_SUB_0_ACTOR_0410_020_1",
+        "Text": "*: El viajero mercante me habla de un río en el este cuyas aguas son capaces de restaurar la juventud y la belleza."
+      },
+      "Txt_Talk_Portoga_Castle_1F_SUB_0_ACTOR_0410_020_2": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_SUB_0_ACTOR_0410_020_2",
+        "Text": "*: ¡Cómo anhelo ir ahí y ver tal maravilla!"
+      },
+      "Txt_Talk_Portoga_Castle_1F_SUB_0_ACTOR_0510_010_1": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_SUB_0_ACTOR_0510_010_1",
+        "Text": "*: En las tierras del este, hay un gran santuario al que viajan peregrinos de todo el mundo para cambiar su vocación."
+      },
+      "Txt_Talk_Portoga_Castle_1F_SUB_0_ACTOR_0510_010_2": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_SUB_0_ACTOR_0510_010_2",
+        "Text": "*: Ay, si tan solo pudiera visitar un lugar así<...>"
+      },
+      "Txt_Talk_Portoga_Castle_1F_SUB_0_ACTOR_0610_010_1": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_SUB_0_ACTOR_0610_010_1",
+        "Text": "*: Por orden de Su Majestad, establecí un intercambio de pimienta negra entre Portoga y Baharata."
+      },
+      "Txt_Talk_Portoga_Castle_1F_SUB_0_ACTOR_0610_010_2": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_SUB_0_ACTOR_0610_010_2",
+        "Text": "*: Pero los monstruos por allá son horribles y el camino es muy largo, se siente como si tomara un siglo atravesar la ruta mercante<...>"
+      },
+      "Txt_Talk_Portoga_Castle_1F_SUB_0_ACTOR_0610_010_3": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_SUB_0_ACTOR_0610_010_3",
+        "Text": "*: Pero mi amor por los viajes y las aventuras nunca se agota, ¡así que seguiré adelante! ¡Lo llevo en la sangre y es lo que mueve mi corazón! Je, je, je."
+      },
+      "Txt_Talk_Portoga_Castle_1F_SUB_0_ACTOR_0710_010_1": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_SUB_0_ACTOR_0710_010_1",
+        "Text": "*: Muchos han intentado ir al este, pero han muerto en el intento. Que la Diosa los tenga en su gloria. Cuídate, <IfGender_LEADER(viajero,viajera,)>."
+      },
+      "Txt_Talk_Portoga_Castle_1F_SUB_0_ACTOR_0710_020_1": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_SUB_0_ACTOR_0710_020_1",
+        "Text": "*: ¡Eres <IfGender_LEADER(un verdadero héroe,una verdadera heroína,)>, <IfGender_LEADER(amigo,amiga,)>! ¡Te admiro mucho!"
+      },
+      "Txt_Talk_Portoga_Castle_1F_SUB_0_ACTOR_0710_030_1": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_SUB_0_ACTOR_0710_030_1",
+        "Text": "*: El amor de Su Majestad por la pimienta<...> ¡es enorme!"
+      },
+      "Txt_Talk_Portoga_Castle_1F_SUB_0_ACTOR_0810_010_1": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_SUB_0_ACTOR_0810_010_1",
+        "Text": "*: Aunque nuestro reino sea pequeño, nuestro rey es un gran hombre. Por favor, muestra respeto ante él."
+      },
+      "Txt_Talk_Portoga_Castle_1F_SUB_0_ACTOR_0910_010_1": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_SUB_0_ACTOR_0910_010_1",
+        "Text": "*: ¡Olá! Te damos la bienvenida al castillo de Portoga."
+      },
+      "Txt_Talk_Portoga_Castle_1F_SUB_0_ACTOR_1010_010_1": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_SUB_0_ACTOR_1010_010_1",
+        "Text": "Si cuentas con <DefSgl_I_NAME>, entonces deberías poder abrir todas as portas do mundo."
+      },
+      "Txt_Talk_Portoga_Castle_1F_SUB_0_ACTOR_1010_010_2": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_SUB_0_ACTOR_1010_010_2",
+        "Text": "Probablemente también podrías entrar en las salas del tesoro de los castelos do reino<...>"
+      },
+      "Txt_Talk_Portoga_Castle_1F_SUB_0_ACTOR_1010_010_3": {
+        "SelfId": "Txt_Talk_Portoga_Castle_1F_SUB_0_ACTOR_1010_010_3",
+        "Text": "Ah, pero olvida lo que eu disse. Estaba pensando en voz alta. Ah, lo qué daría por obtener uma chave como esa<...>"
+      },
+      "Txt_Talk_Portoga_Castle_DreamSpace_MAIN_0_SCENE_0010_010_1": {
+        "SelfId": "Txt_Talk_Portoga_Castle_DreamSpace_MAIN_0_SCENE_0010_010_1",
+        "Text": "¿Puedes escucharme?"
+      },
+      "Txt_Talk_Portoga_Castle_DreamSpace_MAIN_0_SCENE_0010_010_2": {
+        "SelfId": "Txt_Talk_Portoga_Castle_DreamSpace_MAIN_0_SCENE_0010_010_2",
+        "Text": "Debes dar el siguiente paso en tu travesía. El mar te llama."
+      },
+      "Txt_Talk_Portoga_Castle_DreamSpace_MAIN_0_SCENE_0010_010_3": {
+        "SelfId": "Txt_Talk_Portoga_Castle_DreamSpace_MAIN_0_SCENE_0010_010_3",
+        "Text": "Claro que será un viaje lleno de peligros, empezando por las aguas inclementes del océano."
+      },
+      "Txt_Talk_Portoga_Castle_DreamSpace_MAIN_0_SCENE_0010_010_4": {
+        "SelfId": "Txt_Talk_Portoga_Castle_DreamSpace_MAIN_0_SCENE_0010_010_4",
+        "Text": "Pero tienes que seguir adelante, necesitas recolectar los orbes esparcidos por todo el reino."
+      },
+      "Txt_Talk_Portoga_Castle_DreamSpace_MAIN_0_SCENE_0010_010_5": {
+        "SelfId": "Txt_Talk_Portoga_Castle_DreamSpace_MAIN_0_SCENE_0010_010_5",
+        "Text": "Explora el mundo, ayuda a quienes lo necesiten, pero no le des la mano a quien solo busque hacer daño."
+      },
+      "Txt_Talk_Portoga_Castle_DreamSpace_MAIN_0_SCENE_0010_010_6": {
+        "SelfId": "Txt_Talk_Portoga_Castle_DreamSpace_MAIN_0_SCENE_0010_010_6",
+        "Text": "Sigue el camino de la justicia y así encontrarás los orbes."
+      },
+      "Txt_Talk_Portoga_Castle_DreamSpace_MAIN_0_SCENE_0010_010_7": {
+        "SelfId": "Txt_Talk_Portoga_Castle_DreamSpace_MAIN_0_SCENE_0010_010_7",
+        "Text": "Por ahora, descansa. Te espera mucho que hacer mañana<...>"
+      }
+    }
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_NPC_Talk_GaraiHouse",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Talk_GaraiHouse_Out_SUB_0_VOLUME_0010_010_1": {
+        "SelfId": "Txt_Talk_GaraiHouse_Out_SUB_0_VOLUME_0010_010_1",
+        "Text": "(slurp?)"
+      },
+      "Txt_Talk_GaraiHouse_Out_SUB_0_VOLUME_0010_010_2": {
+        "SelfId": "Txt_Talk_GaraiHouse_Out_SUB_0_VOLUME_0010_010_2",
+        "Text": "{LEADER} calme le monstre de sa voix apaisante et lui parle de papi monstre..."
+      },
+      "Txt_Talk_GaraiHouse_Out_SUB_0_VOLUME_0010_010_3": {
+        "SelfId": "Txt_Talk_GaraiHouse_Out_SUB_0_VOLUME_0010_010_3",
+        "Text": "(sluuurp!)"
+      },
+      "Txt_Talk_GaraiHouse_1F_SUB_0_ACTOR_0120_010_1": {
+        "SelfId": "Txt_Talk_GaraiHouse_1F_SUB_0_ACTOR_0120_010_1",
+        "Text": "*: Las!\r\nBien qu'il soit mon fils, Galen me fait traverser les pires épreuves."
+      },
+      "Txt_Talk_GaraiHouse_1F_SUB_0_ACTOR_0120_010_2": {
+        "SelfId": "Txt_Talk_GaraiHouse_1F_SUB_0_ACTOR_0120_010_2",
+        "Text": "*: Il y a de cela bien des lunes, il quitta tout ici, son foyer, et partit par les chemins; la teste vide, le cœur plein, et une chanson aux lèvres."
+      },
+      "Txt_Talk_GaraiHouse_1F_SUB_0_ACTOR_0110_010_1": {
+        "SelfId": "Txt_Talk_GaraiHouse_1F_SUB_0_ACTOR_0110_010_1",
+        "Text": "*: Dis-tu vray, <IfGender_LEADER(estranger,estrangère,)>?\r\nMon Galen, mon fils... il sera bientost de retour?\r\nQuelles merveilleuses nouvelles tu me portes là!"
+      },
+      "Txt_Talk_GaraiHouse_1F_SUB_0_ACTOR_0220_010_1": {
+        "SelfId": "Txt_Talk_GaraiHouse_1F_SUB_0_ACTOR_0220_010_1",
+        "Text": "*: Tu recherches la lyre de l'ire, <IfGender_LEADER(estranger,estrangère,)>?\r\nAlors, pars en queste de mon fils, Galen.\r\nTu la trouveras avec lui, si je ne fais point erreur."
+      },
+      "Txt_Talk_GaraiHouse_1F_SUB_0_ACTOR_0210_010_1": {
+        "SelfId": "Txt_Talk_GaraiHouse_1F_SUB_0_ACTOR_0210_010_1",
+        "Text": "*: Enfin, notre monde connoist la paix, et mesme mon fils Galen pense à l'avenir.\r\nArriverons-nous au bout de nos surprises?"
+      },
+      "Txt_Talk_GaraiHouse_1F_SUB_0_ACTOR_0210_010_2": {
+        "SelfId": "Txt_Talk_GaraiHouse_1F_SUB_0_ACTOR_0210_010_2",
+        "Text": "*: Tout cela, nous te le devons, <IfGender_LEADER(estranger,estrangère,)>.\r\nNous avons une dette envers toi."
+      }
+    }
+  }
+]

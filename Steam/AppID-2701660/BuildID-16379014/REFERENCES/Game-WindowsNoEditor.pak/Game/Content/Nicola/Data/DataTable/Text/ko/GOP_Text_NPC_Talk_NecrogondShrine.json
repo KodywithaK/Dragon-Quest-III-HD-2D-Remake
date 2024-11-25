@@ -1,0 +1,64 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_NPC_Talk_NecrogondShrine",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Talk_NecrogondShrine_House_MAIN_0_ACTOR_0110_010_1": {
+        "SelfId": "Txt_Talk_NecrogondShrine_House_MAIN_0_ACTOR_0110_010_1",
+        "Text": "아니! 여기까지\r\n오는 자가 있다니!"
+      },
+      "Txt_Talk_NecrogondShrine_House_MAIN_0_ACTOR_0110_010_2": {
+        "SelfId": "Txt_Talk_NecrogondShrine_House_MAIN_0_ACTOR_0110_010_2",
+        "Text": "자, 이 {I_NAME}<IfKRVowel_I_NAME(를,을)> 주겠네!"
+      },
+      "Txt_Talk_NecrogondShrine_House_MAIN_0_ACTOR_0110_010_3": {
+        "SelfId": "Txt_Talk_NecrogondShrine_House_MAIN_0_ACTOR_0110_010_3",
+        "Text": "{LEADER}<IfKRVowel_LEADER(는,은)> {I_NAME}<IfKRVowel_I_NAME(를,을)> 받았다!"
+      },
+      "Txt_Talk_NecrogondShrine_House_MAIN_0_ACTOR_0110_010_4": {
+        "SelfId": "Txt_Talk_NecrogondShrine_House_MAIN_0_ACTOR_0110_010_4",
+        "Text": "그대라면 틀림없이 마왕을\r\n물리칠 수 있겠지!"
+      },
+      "Txt_Talk_NecrogondShrine_House_MAIN_0_ACTOR_0110_010_5": {
+        "SelfId": "Txt_Talk_NecrogondShrine_House_MAIN_0_ACTOR_0110_010_5",
+        "Text": "전설의 불사조 라미아도\r\n그대들의 도움이 되어 줄 걸세."
+      },
+      "Txt_Talk_NecrogondShrine_House_MAIN_0_ACTOR_0110_030_1": {
+        "SelfId": "Txt_Talk_NecrogondShrine_House_MAIN_0_ACTOR_0110_030_1",
+        "Text": "마왕 바라모스는\r\n그대들의 손에 의해 사라졌다!"
+      },
+      "Txt_Talk_NecrogondShrine_House_MAIN_0_ACTOR_0110_030_2": {
+        "SelfId": "Txt_Talk_NecrogondShrine_House_MAIN_0_ACTOR_0110_030_2",
+        "Text": "하나 지하 깊은 곳에서 느껴지는\r\n이 사악한 파동은 대체..."
+      },
+      "Txt_Talk_NecrogondShrine_Out_SUB_0_VOLUME_0110_010_1": {
+        "SelfId": "Txt_Talk_NecrogondShrine_Out_SUB_0_VOLUME_0110_010_1",
+        "Text": "큐루루..."
+      },
+      "Txt_Talk_NecrogondShrine_Out_SUB_0_VOLUME_0110_010_2": {
+        "SelfId": "Txt_Talk_NecrogondShrine_Out_SUB_0_VOLUME_0110_010_2",
+        "Text": "{LEADER}<IfKRVowel_LEADER(는,은)> 마물을 달래서\r\n몬스터 영감님에 대해 알려 줬다."
+      },
+      "Txt_Talk_NecrogondShrine_Out_SUB_0_VOLUME_0110_010_3": {
+        "SelfId": "Txt_Talk_NecrogondShrine_Out_SUB_0_VOLUME_0110_010_3",
+        "Text": "큐루룽♪"
+      },
+      "Txt_Talk_NecrogondShrine_Out_SUB_0_ACTOR_0210_010_1": {
+        "SelfId": "Txt_Talk_NecrogondShrine_Out_SUB_0_ACTOR_0210_010_1",
+        "Text": "이런 소문을 들은 적 있으세요?\r\n이 세계 어딘가에 슬라임들이\r\n한가득 모이는 장소가 있다고."
+      },
+      "Txt_Talk_NecrogondShrine_Out_SUB_0_ACTOR_0210_010_2": {
+        "SelfId": "Txt_Talk_NecrogondShrine_Out_SUB_0_ACTOR_0210_010_2",
+        "Text": "마물이 모인다니\r\n무시무시한 이야기지만 슬라임이라면\r\n대응할 수 있을 것 같은 기분이 들어요."
+      }
+    }
+  }
+]

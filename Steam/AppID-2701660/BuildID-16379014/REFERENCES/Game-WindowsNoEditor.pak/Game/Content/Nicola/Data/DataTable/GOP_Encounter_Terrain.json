@@ -1,0 +1,114 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Encounter_Terrain",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Encounter_TerrainTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "ENCOUNTER_TERRAIN_COMMON": {
+        "SelfId": "ENCOUNTER_TERRAIN_COMMON",
+        "MapId_Plain": "MAPLIST_BATTLE_PLAIN00",
+        "MapId_Bush": "MAPLIST_BATTLE_PLAIN00",
+        "MapId_Forest": "MAPLIST_BATTLE_FOREST00",
+        "MapId_Mountain": "MAPLIST_BATTLE_MOUNTAIN00",
+        "MapId_Sand": "MAPLIST_BATTLE_DESERT00",
+        "MapId_PoisonSwamp": "MAPLIST_BATTLE_POISONSWAMP00",
+        "MapId_Road": "MAPLIST_BATTLE_PLAIN00",
+        "MapId_Snow": "MAPLIST_BATTLE_SNOWFIELD01",
+        "MapId_Beach": "MAPLIST_BATTLE_BEACH00",
+        "MapId_River": "MAPLIST_BATTLE_RIVER00",
+        "MapId_Sea": "MAPLIST_BATTLE_SEA00"
+      },
+      "ENCOUNTER_TERRAIN_OSEAN": {
+        "SelfId": "ENCOUNTER_TERRAIN_OSEAN",
+        "MapId_Plain": "MAPLIST_BATTLE_PLAIN00",
+        "MapId_Bush": "MAPLIST_BATTLE_PLAIN00",
+        "MapId_Forest": "MAPLIST_BATTLE_FOREST00",
+        "MapId_Mountain": "MAPLIST_BATTLE_MOUNTAIN00",
+        "MapId_Sand": "MAPLIST_BATTLE_DESERT00",
+        "MapId_PoisonSwamp": "MAPLIST_BATTLE_POISONSWAMP00",
+        "MapId_Road": "MAPLIST_BATTLE_PLAIN00",
+        "MapId_Snow": "MAPLIST_BATTLE_SNOWFIELD01",
+        "MapId_Beach": "MAPLIST_BATTLE_BEACH00",
+        "MapId_River": "MAPLIST_BATTLE_RIVER00",
+        "MapId_Sea": "MAPLIST_BATTLE_SEA00"
+      },
+      "ENCOUNTER_TERRAIN_NORTH": {
+        "SelfId": "ENCOUNTER_TERRAIN_NORTH",
+        "MapId_Plain": "MAPLIST_BATTLE_PLAIN00",
+        "MapId_Bush": "MAPLIST_BATTLE_PLAIN00",
+        "MapId_Forest": "MAPLIST_BATTLE_FOREST01",
+        "MapId_Mountain": "MAPLIST_BATTLE_MOUNTAIN00",
+        "MapId_Sand": "MAPLIST_BATTLE_DESERT00",
+        "MapId_PoisonSwamp": "MAPLIST_BATTLE_POISONSWAMP00",
+        "MapId_Road": "MAPLIST_BATTLE_PLAIN00",
+        "MapId_Snow": "MAPLIST_BATTLE_SNOWFIELD01",
+        "MapId_Beach": "MAPLIST_BATTLE_BEACH00",
+        "MapId_River": "MAPLIST_BATTLE_RIVER00",
+        "MapId_Sea": "MAPLIST_BATTLE_SEA01"
+      },
+      "ENCOUNTER_TERRAIN_NORTH_OSEAN": {
+        "SelfId": "ENCOUNTER_TERRAIN_NORTH_OSEAN",
+        "MapId_Plain": "MAPLIST_BATTLE_PLAIN00",
+        "MapId_Bush": "MAPLIST_BATTLE_PLAIN00",
+        "MapId_Forest": "MAPLIST_BATTLE_FOREST01",
+        "MapId_Mountain": "MAPLIST_BATTLE_MOUNTAIN00",
+        "MapId_Sand": "MAPLIST_BATTLE_DESERT00",
+        "MapId_PoisonSwamp": "MAPLIST_BATTLE_POISONSWAMP00",
+        "MapId_Road": "MAPLIST_BATTLE_PLAIN00",
+        "MapId_Snow": "MAPLIST_BATTLE_SNOWFIELD01",
+        "MapId_Beach": "MAPLIST_BATTLE_BEACH00",
+        "MapId_River": "MAPLIST_BATTLE_RIVER00",
+        "MapId_Sea": "MAPLIST_BATTLE_SEA01"
+      },
+      "ENCOUNTER_TERRAIN_JUNGLE": {
+        "SelfId": "ENCOUNTER_TERRAIN_JUNGLE",
+        "MapId_Plain": "MAPLIST_BATTLE_PLAIN00",
+        "MapId_Bush": "MAPLIST_BATTLE_PLAIN00",
+        "MapId_Forest": "MAPLIST_BATTLE_FOREST02",
+        "MapId_Mountain": "MAPLIST_BATTLE_MOUNTAIN00",
+        "MapId_Sand": "MAPLIST_BATTLE_DESERT00",
+        "MapId_PoisonSwamp": "MAPLIST_BATTLE_POISONSWAMP00",
+        "MapId_Road": "MAPLIST_BATTLE_PLAIN00",
+        "MapId_Snow": "MAPLIST_BATTLE_SNOWFIELD01",
+        "MapId_Beach": "MAPLIST_BATTLE_BEACH00",
+        "MapId_River": "MAPLIST_BATTLE_RIVER00",
+        "MapId_Sea": "MAPLIST_BATTLE_SEA01"
+      },
+      "ENCOUNTER_TERRAIN_ANTARCTIC": {
+        "SelfId": "ENCOUNTER_TERRAIN_ANTARCTIC",
+        "MapId_Plain": "MAPLIST_BATTLE_PLAIN00",
+        "MapId_Bush": "MAPLIST_BATTLE_PLAIN00",
+        "MapId_Forest": "MAPLIST_BATTLE_FOREST02",
+        "MapId_Mountain": "MAPLIST_BATTLE_MOUNTAIN00",
+        "MapId_Sand": "MAPLIST_BATTLE_DESERT00",
+        "MapId_PoisonSwamp": "MAPLIST_BATTLE_POISONSWAMP00",
+        "MapId_Road": "MAPLIST_BATTLE_PLAIN00",
+        "MapId_Snow": "MAPLIST_BATTLE_SNOWFIELD00",
+        "MapId_Beach": "MAPLIST_BATTLE_BEACH00",
+        "MapId_River": "MAPLIST_BATTLE_RIVER00",
+        "MapId_Sea": "MAPLIST_BATTLE_SEA01"
+      },
+      "ENCOUNTER_TERRAIN_UNDERGROUND": {
+        "SelfId": "ENCOUNTER_TERRAIN_UNDERGROUND",
+        "MapId_Plain": "MAPLIST_BATTLE_PLAIN50",
+        "MapId_Bush": "MAPLIST_BATTLE_PLAIN50",
+        "MapId_Forest": "MAPLIST_BATTLE_FOREST50",
+        "MapId_Mountain": "MAPLIST_BATTLE_MOUNTAIN50",
+        "MapId_Sand": "MAPLIST_BATTLE_DESERT50",
+        "MapId_PoisonSwamp": "MAPLIST_BATTLE_POISONSWAMP50",
+        "MapId_Road": "MAPLIST_BATTLE_PLAIN50",
+        "MapId_Snow": "MAPLIST_BATTLE_PLAIN50",
+        "MapId_Beach": "MAPLIST_BATTLE_PLAIN50",
+        "MapId_River": "MAPLIST_BATTLE_RIVER50",
+        "MapId_Sea": "MAPLIST_BATTLE_SEA50"
+      }
+    }
+  }
+]

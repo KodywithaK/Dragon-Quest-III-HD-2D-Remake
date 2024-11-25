@@ -1,0 +1,132 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_Bank",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Bank_UI_TOP_01": {
+        "SelfId": "Txt_Bank_UI_TOP_01",
+        "Text": "存入"
+      },
+      "Txt_Bank_UI_TOP_02": {
+        "SelfId": "Txt_Bank_UI_TOP_02",
+        "Text": "提領"
+      },
+      "Txt_Bank_UI_TOP_03": {
+        "SelfId": "Txt_Bank_UI_TOP_03",
+        "Text": "放棄"
+      },
+      "Txt_Bank_UI_SelectGoldMenu_01": {
+        "SelfId": "Txt_Bank_UI_SelectGoldMenu_01",
+        "Text": "持有金額"
+      },
+      "Txt_Bank_UI_SelectGoldMenu_02": {
+        "SelfId": "Txt_Bank_UI_SelectGoldMenu_02",
+        "Text": "存款金額"
+      },
+      "Txt_Bank_UI_Gold": {
+        "SelfId": "Txt_Bank_UI_Gold",
+        "Text": "{0}"
+      },
+      "Txt_Bank_UI_BalanceGold": {
+        "SelfId": "Txt_Bank_UI_BalanceGold",
+        "Text": "{0}"
+      },
+      "Txt_Bank_UI_SelectGold": {
+        "SelfId": "Txt_Bank_UI_SelectGold",
+        "Text": "{0}"
+      },
+      "Txt_Bank_UI_Max": {
+        "SelfId": "Txt_Bank_UI_Max",
+        "Text": "全部"
+      },
+      "Txt_Bank_Message_Start_Bar": {
+        "SelfId": "Txt_Bank_Message_Start_Bar",
+        "Text": "歡迎來到愛與信任的金幣銀行。"
+      },
+      "Txt_Bank_Message_First_01_Bar": {
+        "SelfId": "Txt_Bank_Message_First_01_Bar",
+        "Text": "我們會保護大家最重要的財產\r\n不受怪物們侵害。"
+      },
+      "Txt_Bank_Message_First_02_Bar": {
+        "SelfId": "Txt_Bank_Message_First_02_Bar",
+        "Text": "存入與領出都以\r\n100Ｇ為單位\r\n為您受理。"
+      },
+      "Txt_Bank_Message_First_03_Bar": {
+        "SelfId": "Txt_Bank_Message_First_03_Bar",
+        "Text": "當然，本行絕對不收\r\n任何手續費！"
+      },
+      "Txt_Bank_Message_First_04_Bar": {
+        "SelfId": "Txt_Bank_Message_First_04_Bar",
+        "Text": "{LEADER}，\r\n有什麼能為您服務的嗎？<NO_INPUT>"
+      },
+      "Txt_Bank_Message_TopBalance_Bar": {
+        "SelfId": "Txt_Bank_Message_TopBalance_Bar",
+        "Text": "{LEADER}目前在本行存有\r\n{VALUE}Ｇ。\r\n請問今天有什麼事嗎？<NO_INPUT>"
+      },
+      "Txt_Bank_Message_TopNoBalance_Bar": {
+        "SelfId": "Txt_Bank_Message_TopNoBalance_Bar",
+        "Text": "目前{LEADER}在本行\r\n沒有存款。\r\n請問今天有什麼事嗎？<NO_INPUT>"
+      },
+      "Txt_Bank_Message_TopBalanceAgain_Bar": {
+        "SelfId": "Txt_Bank_Message_TopBalanceAgain_Bar",
+        "Text": "{LEADER}目前在本行存有\r\n{VALUE}Ｇ。\r\n請問還有其他事嗎？<NO_INPUT>"
+      },
+      "Txt_Bank_Message_TopNoBalanceAgain_Bar": {
+        "SelfId": "Txt_Bank_Message_TopNoBalanceAgain_Bar",
+        "Text": "目前{LEADER}在本行\r\n沒有存款。\r\n請問還有其他事嗎？<NO_INPUT>"
+      },
+      "Txt_Bank_Message_GoldShortage_Bar": {
+        "SelfId": "Txt_Bank_Message_GoldShortage_Bar",
+        "Text": "很抱歉，\r\n客人您目前手邊的錢\r\n似乎不夠用來存入。"
+      },
+      "Txt_Bank_Message_DepositCannot_Bar": {
+        "SelfId": "Txt_Bank_Message_DepositCannot_Bar",
+        "Text": "客人，很抱歉，\r\n我們行裡的金庫已經滿了，\r\n無法再接受更多存款。"
+      },
+      "Txt_Bank_Message_DepositTop_Bar": {
+        "SelfId": "Txt_Bank_Message_DepositTop_Bar",
+        "Text": "本行接受\r\n以100Ｇ為單位存款。\r\n請問要存多少呢？<NO_INPUT>"
+      },
+      "Txt_Bank_Message_Deposit_Bar": {
+        "SelfId": "Txt_Bank_Message_Deposit_Bar",
+        "Text": "{VALUE}Ｇ沒錯吧？\r\n那麼，就由本行負責為您保管。"
+      },
+      "Txt_Bank_Message_GoldMax_Bar": {
+        "SelfId": "Txt_Bank_Message_GoldMax_Bar",
+        "Text": "您拿不了那麼多錢哦。"
+      },
+      "Txt_Bank_Message_WithdrawCannot_Bar": {
+        "SelfId": "Txt_Bank_Message_WithdrawCannot_Bar",
+        "Text": "咦？可是客人您\r\n在本行連1Ｇ的存款都沒有啊……"
+      },
+      "Txt_Bank_Message_WithdrawTop_Bar": {
+        "SelfId": "Txt_Bank_Message_WithdrawTop_Bar",
+        "Text": "現在您在本行存有\r\n{VALUE}Ｇ。\r\n要領出多少呢？<NO_INPUT>"
+      },
+      "Txt_Bank_Message_Withdraw_Bar": {
+        "SelfId": "Txt_Bank_Message_Withdraw_Bar",
+        "Text": "{VALUE}Ｇ沒錯吧？\r\n來，請收下。"
+      },
+      "Txt_Bank_Message_Cancel_Bar": {
+        "SelfId": "Txt_Bank_Message_Cancel_Bar",
+        "Text": "要取消交易是嗎？"
+      },
+      "Txt_Bank_Message_FinishBalance_Bar": {
+        "SelfId": "Txt_Bank_Message_FinishBalance_Bar",
+        "Text": "目前存有\r\n{VALUE}Ｇ。\r\n謝謝您。"
+      },
+      "Txt_Bank_Message_FinishNoBalance_Bar": {
+        "SelfId": "Txt_Bank_Message_FinishNoBalance_Bar",
+        "Text": "目前{LEADER}\r\n在本行沒有存款。\r\n期待您再次光臨。"
+      }
+    }
+  }
+]

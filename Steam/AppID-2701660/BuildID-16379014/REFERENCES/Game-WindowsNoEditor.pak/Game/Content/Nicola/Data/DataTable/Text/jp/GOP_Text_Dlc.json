@@ -1,0 +1,68 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_Dlc",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Dlc_Eary_Reserved": {
+        "SelfId": "Txt_Dlc_Eary_Reserved",
+        "Text": "しあわせ旅セット"
+      },
+      "Txt_Dlc_Fast_GuideBook": {
+        "SelfId": "Txt_Dlc_Fast_GuideBook",
+        "Text": "冒険アクセサリーセット"
+      },
+      "Txt_Dlc_Sqex_GuideBook": {
+        "SelfId": "Txt_Dlc_Sqex_GuideBook",
+        "Text": "伝説のイメチェンセット"
+      },
+      "Txt_Dlc_Lawson_Collabo": {
+        "SelfId": "Txt_Dlc_Lawson_Collabo",
+        "Text": "戦士の心得セット"
+      },
+      "Txt_Dlc_Amazon_Collabo": {
+        "SelfId": "Txt_Dlc_Amazon_Collabo",
+        "Text": "魔法使いのたしなみセット"
+      },
+      "Txt_Dlc_Open_Treasure": {
+        "SelfId": "Txt_Dlc_Open_Treasure",
+        "Text": "{LEADER}は　<RUBY>特典宝箱[とくてんたからばこ]を　<RUBY>開[あ]けた！"
+      },
+      "Txt_Dlc_Not_Open_Treasure_1": {
+        "SelfId": "Txt_Dlc_Not_Open_Treasure_1",
+        "Text": "{LEADER}は\r\n<RUBY>特典宝箱[とくてんたからばこ]を　<RUBY>開[あ]けようとした。"
+      },
+      "Txt_Dlc_Not_Open_Treasure_2": {
+        "SelfId": "Txt_Dlc_Not_Open_Treasure_2",
+        "Text": "しかし　<RUBY>今[いま]は<RUBY>開[あ]かないようだ。"
+      },
+      "Txt_Dlc_Not_Open_Treasure_3": {
+        "SelfId": "Txt_Dlc_Not_Open_Treasure_3",
+        "Text": "※この<RUBY>宝箱[たからばこ]では　<RUBY>予約特典[よやくとくてん]や<RUBY>購入特典[こうにゅうとくてん]などの\r\n　アイテムの<RUBY>受[う]け<RUBY>取[と]りが<RUBY>可能[かのう]です。"
+      },
+      "Txt_Dlc_Not_Open_Treasure_4": {
+        "SelfId": "Txt_Dlc_Not_Open_Treasure_4",
+        "Text": "※<RUBY>詳細[しょうさい]については　<RUBY>各種[かくしゅ]ストアの<RUBY>販売[はんばい]ページや\r\n　<RUBY>特典[とくてん]コードの<RUBY>案内[あんない]を　ご<RUBY>参照[さんしょう]ください。"
+      },
+      "Txt_Dlc_Dlc_Choice": {
+        "SelfId": "Txt_Dlc_Dlc_Choice",
+        "Text": "<RUBY>受[う]け<RUBY>取[と]る『<RUBY>特典[とくてん]アイテム』を　<RUBY>選択[せんたく]してください。<NO_INPUT>"
+      },
+      "Txt_Dlc_Confirm_Receipt": {
+        "SelfId": "Txt_Dlc_Confirm_Receipt",
+        "Text": "{WORD}を　<RUBY>受[う]け<RUBY>取[と]りますか？\r\n※<RUBY>仲間[なかま]の<RUBY>持[も]ち<RUBY>物[もの]がいっぱいで　<RUBY>所持数[しょじすう]が９９９<RUBY>個[こ]を\r\n　<RUBY>超[こ]えるものは<RUBY>破棄[はき]されます。"
+      },
+      "Txt_Dlc_Get_Item": {
+        "SelfId": "Txt_Dlc_Get_Item",
+        "Text": "{LEADER}は\r\n{WORD}を　<RUBY>手[て]にいれた。"
+      }
+    }
+  }
+]

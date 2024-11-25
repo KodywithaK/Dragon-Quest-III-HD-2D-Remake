@@ -1,0 +1,106 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Event_HolyShrine",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Event_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "EVENT_HolyShrine_HolyShrine_2F_Priest_01_L3_4": {
+        "SelfId": "EVENT_HolyShrine_HolyShrine_2F_Priest_01_L3_4",
+        "EventID": "HolyShrine_2F_MAIN_0_ACTOR_0120_010",
+        "TriggerType": "EEventTriggerType::ACTOR",
+        "TriggerID": "HolyShrine_2F_Priest_01_L3",
+        "EventPriority": 4,
+        "ProgressLower": 0,
+        "ProgressUpper": 30,
+        "StartFlagName1": "FE857",
+        "IsTrueCondition1": false,
+        "IsAndOperation": false,
+        "StartFlagName2": "None",
+        "IsTrueCondition2": false,
+        "ScenarioProgress": 0
+      },
+      "EVENT_HolyShrine_HolyShrine_2F_Priest_01_L3_3": {
+        "SelfId": "EVENT_HolyShrine_HolyShrine_2F_Priest_01_L3_3",
+        "EventID": "HolyShrine_2F_MAIN_0_ACTOR_0120_020",
+        "TriggerType": "EEventTriggerType::ACTOR",
+        "TriggerID": "HolyShrine_2F_Priest_01_L3",
+        "EventPriority": 3,
+        "ProgressLower": 0,
+        "ProgressUpper": 30,
+        "StartFlagName1": "FE857",
+        "IsTrueCondition1": true,
+        "IsAndOperation": false,
+        "StartFlagName2": "None",
+        "IsTrueCondition2": false,
+        "ScenarioProgress": 0
+      },
+      "EVENT_HolyShrine_HolyShrine_2F_Priest_01_L3_2": {
+        "SelfId": "EVENT_HolyShrine_HolyShrine_2F_Priest_01_L3_2",
+        "EventID": "HolyShrine_2F_MAIN_0_ACTOR_0120_030",
+        "TriggerType": "EEventTriggerType::ACTOR",
+        "TriggerID": "HolyShrine_2F_Priest_01_L3",
+        "EventPriority": 2,
+        "ProgressLower": 0,
+        "ProgressUpper": 30,
+        "StartFlagName1": "None",
+        "IsTrueCondition1": false,
+        "IsAndOperation": false,
+        "StartFlagName2": "None",
+        "IsTrueCondition2": false,
+        "ScenarioProgress": 0
+      },
+      "EVENT_HolyShrine_HolyShrine_2F_Priest_01_L3_1": {
+        "SelfId": "EVENT_HolyShrine_HolyShrine_2F_Priest_01_L3_1",
+        "EventID": "HolyShrine_2F_MAIN_0_ACTOR_0120_040",
+        "TriggerType": "EEventTriggerType::ACTOR",
+        "TriggerID": "HolyShrine_2F_Priest_01_L3",
+        "EventPriority": 1,
+        "ProgressLower": 0,
+        "ProgressUpper": 30,
+        "StartFlagName1": "FE88",
+        "IsTrueCondition1": true,
+        "IsAndOperation": false,
+        "StartFlagName2": "None",
+        "IsTrueCondition2": false,
+        "ScenarioProgress": 0
+      },
+      "EVENT_HolyShrine_HolyShrine_2F_Priest_01_L1_0": {
+        "SelfId": "EVENT_HolyShrine_HolyShrine_2F_Priest_01_L1_0",
+        "EventID": "HolyShrine_2F_MAIN_0_ACTOR_0110_010",
+        "TriggerType": "EEventTriggerType::ACTOR",
+        "TriggerID": "HolyShrine_2F_Priest_01_L1",
+        "EventPriority": 0,
+        "ProgressLower": 0,
+        "ProgressUpper": 30,
+        "StartFlagName1": "FE91",
+        "IsTrueCondition1": true,
+        "IsAndOperation": false,
+        "StartFlagName2": "None",
+        "IsTrueCondition2": false,
+        "ScenarioProgress": 0
+      },
+      "EVENT_HolyShrine_HolyShrine_2F_SHESLIME_00_L3_0": {
+        "SelfId": "EVENT_HolyShrine_HolyShrine_2F_SHESLIME_00_L3_0",
+        "EventID": "HolyShrine_2F_SUB_0_MBR_SCOUT_0210_010",
+        "TriggerType": "EEventTriggerType::MBR_SCOUT",
+        "TriggerID": "HolyShrine_2F_SHESLIME_00_L3",
+        "EventPriority": 0,
+        "ProgressLower": 0,
+        "ProgressUpper": 30,
+        "StartFlagName1": "None",
+        "IsTrueCondition1": false,
+        "IsAndOperation": false,
+        "StartFlagName2": "None",
+        "IsTrueCondition2": false,
+        "ScenarioProgress": 0
+      }
+    }
+  }
+]

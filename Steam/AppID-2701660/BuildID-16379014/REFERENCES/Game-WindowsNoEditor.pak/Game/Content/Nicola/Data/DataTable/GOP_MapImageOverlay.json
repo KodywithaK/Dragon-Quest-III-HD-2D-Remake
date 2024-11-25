@@ -1,0 +1,115 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_MapImageOverlay",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_MapImageOverlayTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "MAPIMAGEOVERLAY_IZANAICAVE_B1": {
+        "SelfId": "MAPIMAGEOVERLAY_IZANAICAVE_B1",
+        "MapImage": {
+          "AssetPathName": "/Game/Nicola/UI/Map/Texture/ImageMap/TownDungeon/T_UI_Map_Dungeon_IzanaiCave_01.T_UI_Map_Dungeon_IzanaiCave_01",
+          "SubPathString": ""
+        },
+        "DispTriggerProgressID": "EGOPEnumProgressType::MAIN_IZANAICAVE_BreakWall",
+        "HideTriggerProgressID": "EGOPEnumProgressType::NONE"
+      },
+      "MAPIMAGEOVERLAY_ISIS_CASTLE": {
+        "SelfId": "MAPIMAGEOVERLAY_ISIS_CASTLE",
+        "MapImage": {
+          "AssetPathName": "/Game/Nicola/UI/Map/Texture/ImageMap/TownDungeon/T_UI_Map_Town_Isis_01.T_UI_Map_Town_Isis_01",
+          "SubPathString": ""
+        },
+        "DispTriggerProgressID": "EGOPEnumProgressType::MAIN_ISIS_ArriveSecret",
+        "HideTriggerProgressID": "EGOPEnumProgressType::NONE"
+      },
+      "MAPIMAGEOVERLAY_PYRAMID_OUT": {
+        "SelfId": "MAPIMAGEOVERLAY_PYRAMID_OUT",
+        "MapImage": {
+          "AssetPathName": "/Game/Nicola/UI/Map/Texture/ImageMap/TownDungeon/T_UI_Map_Dungeon_Pyramid_00.T_UI_Map_Dungeon_Pyramid_00",
+          "SubPathString": ""
+        },
+        "DispTriggerProgressID": "EGOPEnumProgressType::MAIN_PYRAMID_ArriveB1F",
+        "HideTriggerProgressID": "EGOPEnumProgressType::NONE"
+      },
+      "MAPIMAGEOVERLAY_PYRAMID_B1": {
+        "SelfId": "MAPIMAGEOVERLAY_PYRAMID_B1",
+        "MapImage": {
+          "AssetPathName": "/Game/Nicola/UI/Map/Texture/ImageMap/TownDungeon/T_UI_Map_Dungeon_Pyramid_06.T_UI_Map_Dungeon_Pyramid_06",
+          "SubPathString": ""
+        },
+        "DispTriggerProgressID": "EGOPEnumProgressType::MAIN_PYRAMID_FindB2FRoot",
+        "HideTriggerProgressID": "EGOPEnumProgressType::NONE"
+      },
+      "MAPIMAGEOVERLAY_PYRAMID_TOP": {
+        "SelfId": "MAPIMAGEOVERLAY_PYRAMID_TOP",
+        "MapImage": {
+          "AssetPathName": "/Game/Nicola/UI/Map/Texture/ImageMap/TownDungeon/T_UI_Map_Dungeon_Pyramid_00.T_UI_Map_Dungeon_Pyramid_00",
+          "SubPathString": ""
+        },
+        "DispTriggerProgressID": "EGOPEnumProgressType::NONE",
+        "HideTriggerProgressID": "EGOPEnumProgressType::NONE"
+      },
+      "MAPIMAGEOVERLAY_NORUDCAVE": {
+        "SelfId": "MAPIMAGEOVERLAY_NORUDCAVE",
+        "MapImage": {
+          "AssetPathName": "/Game/Nicola/UI/Map/Texture/ImageMap/TownDungeon/T_UI_Map_H07_NorudCave_00.T_UI_Map_H07_NorudCave_00",
+          "SubPathString": ""
+        },
+        "DispTriggerProgressID": "EGOPEnumProgressType::MAIN_NORUDCAVE_OpenCave",
+        "HideTriggerProgressID": "EGOPEnumProgressType::NONE"
+      },
+      "MAPIMAGEOVERLAY_JIPANG_WELL": {
+        "SelfId": "MAPIMAGEOVERLAY_JIPANG_WELL",
+        "MapImage": {
+          "AssetPathName": "/Game/Nicola/UI/Map/Texture/ImageMap/TownDungeon/T_UI_Map_Town_Jipang_03.T_UI_Map_Town_Jipang_03",
+          "SubPathString": ""
+        },
+        "DispTriggerProgressID": "EGOPEnumProgressType::MAIN_Xenlon_NewMBR",
+        "HideTriggerProgressID": "EGOPEnumProgressType::NONE"
+      },
+      "MAPIMAGEOVERLAY_GAIANAVEL_B3": {
+        "SelfId": "MAPIMAGEOVERLAY_GAIANAVEL_B3",
+        "MapImage": {
+          "AssetPathName": "/Game/Nicola/UI/Map/Texture/ImageMap/TownDungeon/T_UI_Map_Dungeon_GaiaNavel_05.T_UI_Map_Dungeon_GaiaNavel_05",
+          "SubPathString": ""
+        },
+        "DispTriggerProgressID": "EGOPEnumProgressType::MAIN_GAIANAVEL_CheckStatue",
+        "HideTriggerProgressID": "EGOPEnumProgressType::NONE"
+      },
+      "MAPIMAGEOVERLAY_GAIANAVEL_B4": {
+        "SelfId": "MAPIMAGEOVERLAY_GAIANAVEL_B4",
+        "MapImage": {
+          "AssetPathName": "/Game/Nicola/UI/Map/Texture/ImageMap/TownDungeon/T_UI_Map_Dungeon_GaiaNavel_06.T_UI_Map_Dungeon_GaiaNavel_06",
+          "SubPathString": ""
+        },
+        "DispTriggerProgressID": "EGOPEnumProgressType::MAIN_GAIANAVEL_GetBlueMetal",
+        "HideTriggerProgressID": "EGOPEnumProgressType::NONE"
+      },
+      "MAPIMAGEOVERLAY_PiratesBase": {
+        "SelfId": "MAPIMAGEOVERLAY_PiratesBase",
+        "MapImage": {
+          "AssetPathName": "/Game/Nicola/UI/Map/Texture/ImageMap/TownDungeon/T_UI_Map_Town_PiratesBase_00.T_UI_Map_Town_PiratesBase_00",
+          "SubPathString": ""
+        },
+        "DispTriggerProgressID": "EGOPEnumProgressType::MAIN_PIRATESBASE_MoveStatue",
+        "HideTriggerProgressID": "EGOPEnumProgressType::NONE"
+      },
+      "MAPIMAGEOVERLAY_ZomaCastle": {
+        "SelfId": "MAPIMAGEOVERLAY_ZomaCastle",
+        "MapImage": {
+          "AssetPathName": "/Game/Nicola/UI/Map/Texture/ImageMap/TownDungeon/T_UI_Map_Dungeon_ZomaCastle_00.T_UI_Map_Dungeon_ZomaCastle_00",
+          "SubPathString": ""
+        },
+        "DispTriggerProgressID": "EGOPEnumProgressType::MAIN_ZOMACASTLE_FindSecretStair",
+        "HideTriggerProgressID": "EGOPEnumProgressType::NONE"
+      }
+    }
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "CameraShakeAssetTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'CameraShakeAssetTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "ShakeNormal": {
+        "CameraShake": {
+          "AssetPathName": "/Game/Nicola/Data/CameraShake/CS_Normal.CS_Normal_C",
+          "SubPathString": ""
+        }
+      },
+      "ShakeMiddle": {
+        "CameraShake": {
+          "AssetPathName": "/Game/Nicola/Data/CameraShake/CS_Middle.CS_Middle_C",
+          "SubPathString": ""
+        }
+      },
+      "ShakeLarge": {
+        "CameraShake": {
+          "AssetPathName": "/Game/Nicola/Data/CameraShake/CS_Large.CS_Large_C",
+          "SubPathString": ""
+        }
+      },
+      "CS_Hit_Normal": {
+        "CameraShake": {
+          "AssetPathName": "/Game/Nicola/Data/CameraShake/CS_Middle.CS_Middle_C",
+          "SubPathString": ""
+        }
+      },
+      "CS_Hit_Large": {
+        "CameraShake": {
+          "AssetPathName": "/Game/Nicola/Data/CameraShake/CS_Middle.CS_Middle_C",
+          "SubPathString": ""
+        }
+      },
+      "Middle": {
+        "CameraShake": {
+          "AssetPathName": "/Game/Nicola/Data/CameraShake/CS_Middle.CS_Middle_C",
+          "SubPathString": ""
+        }
+      },
+      "Middle_Loop": {
+        "CameraShake": {
+          "AssetPathName": "/Game/Nicola/Data/CameraShake/CS_Middle.CS_Middle_C",
+          "SubPathString": ""
+        }
+      },
+      "Event_Small": {
+        "CameraShake": {
+          "AssetPathName": "/Game/Nicola/Data/CameraShake/CS_Event_Small.CS_Event_Small_C",
+          "SubPathString": ""
+        }
+      },
+      "Event_Middle": {
+        "CameraShake": {
+          "AssetPathName": "/Game/Nicola/Data/CameraShake/CS_Event_Middle.CS_Event_Middle_C",
+          "SubPathString": ""
+        }
+      },
+      "Event_Large": {
+        "CameraShake": {
+          "AssetPathName": "/Game/Nicola/Data/CameraShake/CS_Event_Large.CS_Event_Large_C",
+          "SubPathString": ""
+        }
+      },
+      "Event_Small_Long": {
+        "CameraShake": {
+          "AssetPathName": "/Game/Nicola/Data/CameraShake/CS_Event_Small_Long.CS_Event_Small_Long_C",
+          "SubPathString": ""
+        }
+      }
+    }
+  }
+]

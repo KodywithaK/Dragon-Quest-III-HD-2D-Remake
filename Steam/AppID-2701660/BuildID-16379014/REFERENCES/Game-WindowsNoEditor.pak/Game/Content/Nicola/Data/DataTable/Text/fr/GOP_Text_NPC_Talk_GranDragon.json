@@ -1,0 +1,456 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_NPC_Talk_GranDragon",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Talk_GranDragon_02_Pay_SUB_0_ACTOR_0110_010_1": {
+        "SelfId": "Txt_Talk_GranDragon_02_Pay_SUB_0_ACTOR_0110_010_1",
+        "Text": "*: Est-ce que par hasard vous auriez <IndefSgl_I_NAME>?"
+      },
+      "Txt_Talk_GranDragon_02_Pay_SUB_0_ACTOR_0110_010_2": {
+        "SelfId": "Txt_Talk_GranDragon_02_Pay_SUB_0_ACTOR_0110_010_2",
+        "Text": "*: Je n'en ai besoin que de {VALUE}... Accepteriez-vous de m'en faire don?"
+      },
+      "Txt_Talk_GranDragon_02_Pay_SUB_0_ACTOR_0110_010_3": {
+        "SelfId": "Txt_Talk_GranDragon_02_Pay_SUB_0_ACTOR_0110_010_3",
+        "Text": "*: Vraiment? Merci infiniment!"
+      },
+      "Txt_Talk_GranDragon_02_Pay_SUB_0_ACTOR_0110_010_4": {
+        "SelfId": "Txt_Talk_GranDragon_02_Pay_SUB_0_ACTOR_0110_010_4",
+        "Text": "{LEADER} donne au superviseur ce qu'il attend!"
+      },
+      "Txt_Talk_GranDragon_02_Pay_SUB_0_ACTOR_0110_010_5": {
+        "SelfId": "Txt_Talk_GranDragon_02_Pay_SUB_0_ACTOR_0110_010_5",
+        "Text": "*: Encore merci.\r\nCela compte beaucoup plus pour moi que vous ne pourriez jamais l'imaginer."
+      },
+      "Txt_Talk_GranDragon_02_Pay_SUB_0_ACTOR_0110_010_6": {
+        "SelfId": "Txt_Talk_GranDragon_02_Pay_SUB_0_ACTOR_0110_010_6",
+        "Text": "*: Vraiment? Merci infini..."
+      },
+      "Txt_Talk_GranDragon_02_Pay_SUB_0_ACTOR_0110_010_7": {
+        "SelfId": "Txt_Talk_GranDragon_02_Pay_SUB_0_ACTOR_0110_010_7",
+        "Text": "*: Mais vous n'en avez pas assez!\r\nRevenez me voir lorsque vous aurez réuni le montant demandé."
+      },
+      "Txt_Talk_GranDragon_02_Pay_SUB_0_ACTOR_0110_010_8": {
+        "SelfId": "Txt_Talk_GranDragon_02_Pay_SUB_0_ACTOR_0110_010_8",
+        "Text": "*: Au fait..."
+      },
+      "Txt_Talk_GranDragon_02_Pay_SUB_0_ACTOR_0110_010_9": {
+        "SelfId": "Txt_Talk_GranDragon_02_Pay_SUB_0_ACTOR_0110_010_9",
+        "Text": "*: Je vois...\r\nRevenez me voir si vous changez d'avis.\r\nJe vous attendrai."
+      },
+      "Txt_Talk_GranDragon_02_Pay_SUB_0_ACTOR_0110_010_10": {
+        "SelfId": "Txt_Talk_GranDragon_02_Pay_SUB_0_ACTOR_0110_010_10",
+        "Text": "*: Félicitations! Vous avez surmonté ce défi.\r\nPermettez-moi de vous octroyer une récompense pour cette prouesse..."
+      },
+      "Txt_Talk_GranDragon_02_Pay_SUB_0_ACTOR_0110_010_11": {
+        "SelfId": "Txt_Talk_GranDragon_02_Pay_SUB_0_ACTOR_0110_010_11",
+        "Text": "*: J'ai allumé mon piédestal, preuve de votre succès.\r\nMais d'autres défis vous attendent encore."
+      },
+      "Txt_Talk_GranDragon_02_Pay_SUB_0_ACTOR_0110_010_12": {
+        "SelfId": "Txt_Talk_GranDragon_02_Pay_SUB_0_ACTOR_0110_010_12",
+        "Text": "*: J'ai allumé mon piédestal, preuve de votre succès.\r\nIl ne vous reste maintenant plus qu'un défi à relever."
+      },
+      "Txt_Talk_GranDragon_02_Pay_SUB_0_ACTOR_0110_010_13": {
+        "SelfId": "Txt_Talk_GranDragon_02_Pay_SUB_0_ACTOR_0110_010_13",
+        "Text": "*: Magnifique! Vous avez réussi à triompher du dernier défi.\r\nVous avez véritablement comblé toutes nos attentes."
+      },
+      "Txt_Talk_GranDragon_03_Protecting_SUB_0_ACTOR_0110_010_1": {
+        "SelfId": "Txt_Talk_GranDragon_03_Protecting_SUB_0_ACTOR_0110_010_1",
+        "Text": "*: Dans ce monde vivent des monstres qui ont perdu l'agressivité débridée qui les rendait jadis si redoutables.\r\nPensez-vous pouvoir les sauver d'une vie d'ostracisation?"
+      },
+      "Txt_Talk_GranDragon_03_Protecting_SUB_0_ACTOR_0110_010_2": {
+        "SelfId": "Txt_Talk_GranDragon_03_Protecting_SUB_0_ACTOR_0110_010_2",
+        "Text": "*: Hmm...\r\nJe vois que vous n'avez recueilli que {VALUE}<nbsp><IfFRSing_VALUE(monstre,monstres)> jusqu'à présent."
+      },
+      "Txt_Talk_GranDragon_03_Protecting_SUB_0_ACTOR_0110_010_3": {
+        "SelfId": "Txt_Talk_GranDragon_03_Protecting_SUB_0_ACTOR_0110_010_3",
+        "Text": "*: Revenez me voir lorsque vous aurez recueilli au moins 100<nbsp>monstres."
+      },
+      "Txt_Talk_GranDragon_03_Protecting_SUB_0_ACTOR_0110_010_4": {
+        "SelfId": "Txt_Talk_GranDragon_03_Protecting_SUB_0_ACTOR_0110_010_4",
+        "Text": "*: Incroyable!\r\nVous avez recueilli {VALUE}<nbsp>monstres!"
+      },
+      "Txt_Talk_GranDragon_03_Protecting_SUB_0_ACTOR_0110_010_5": {
+        "SelfId": "Txt_Talk_GranDragon_03_Protecting_SUB_0_ACTOR_0110_010_5",
+        "Text": "*: Vous avez prouvé que vous aviez un cœur pur et généreux."
+      },
+      "Txt_Talk_GranDragon_03_Protecting_SUB_0_ACTOR_0110_010_6": {
+        "SelfId": "Txt_Talk_GranDragon_03_Protecting_SUB_0_ACTOR_0110_010_6",
+        "Text": "*: Permettez-moi de célébrer cet accomplissement mémorable..."
+      },
+      "Txt_Talk_GranDragon_03_Protecting_SUB_0_ACTOR_0110_010_7": {
+        "SelfId": "Txt_Talk_GranDragon_03_Protecting_SUB_0_ACTOR_0110_010_7",
+        "Text": "*: J'ai allumé mon piédestal, preuve de votre succès.\r\nMais d'autres défis vous attendent encore."
+      },
+      "Txt_Talk_GranDragon_03_Protecting_SUB_0_ACTOR_0110_010_8": {
+        "SelfId": "Txt_Talk_GranDragon_03_Protecting_SUB_0_ACTOR_0110_010_8",
+        "Text": "*: J'ai allumé mon piédestal, preuve de votre succès.\r\nIl ne vous reste maintenant plus qu'un défi à relever."
+      },
+      "Txt_Talk_GranDragon_03_Protecting_SUB_0_ACTOR_0110_010_9": {
+        "SelfId": "Txt_Talk_GranDragon_03_Protecting_SUB_0_ACTOR_0110_010_9",
+        "Text": "*: Magnifique! Vous avez réussi à triompher du dernier défi.\r\nVous avez véritablement comblé toutes nos attentes."
+      },
+      "Txt_Talk_GranDragon_04_Appreciation_SUB_0_ACTOR_0110_010_1": {
+        "SelfId": "Txt_Talk_GranDragon_04_Appreciation_SUB_0_ACTOR_0110_010_1",
+        "Text": "*: Avez-vous entendu la légende de l'épée forgée dans de l'orichalque?\r\nSi c'était avéré, j'aimerais vraiment la voir."
+      },
+      "Txt_Talk_GranDragon_04_Appreciation_SUB_0_ACTOR_0110_010_2": {
+        "SelfId": "Txt_Talk_GranDragon_04_Appreciation_SUB_0_ACTOR_0110_010_2",
+        "Text": "*: Une légende parle d'un heaume conçu à partir du zénithium le plus pur.\r\nSi seulement je pouvais le voir, juste une fois..."
+      },
+      "Txt_Talk_GranDragon_04_Appreciation_SUB_0_ACTOR_0110_010_3": {
+        "SelfId": "Txt_Talk_GranDragon_04_Appreciation_SUB_0_ACTOR_0110_010_3",
+        "Text": "*: Parmi toutes les légendes sur des armes que j'ai entendues, celle parlant d'un fouet qui pourrait être obtenu grâce aux mini médailles se démarque vraiment du lot. Oh, comme j'aimerais le contempler..."
+      },
+      "Txt_Talk_GranDragon_04_Appreciation_SUB_0_ACTOR_0110_010_4": {
+        "SelfId": "Txt_Talk_GranDragon_04_Appreciation_SUB_0_ACTOR_0110_010_4",
+        "Text": "*: On dit qu'un bâton très particulier pourrait être obtenu dans un endroit où des monstres amicaux donnent tout ce qu'ils ont.\r\nJ'aimerais tant pouvoir le voir, ne serait-ce qu'un instant."
+      },
+      "Txt_Talk_GranDragon_04_Appreciation_SUB_0_ACTOR_0110_010_5": {
+        "SelfId": "Txt_Talk_GranDragon_04_Appreciation_SUB_0_ACTOR_0110_010_5",
+        "Text": "*: Pardon? Vous dites que vous avez quelque chose qui correspond à cette description? Montrez-moi, je vous en prie!"
+      },
+      "Txt_Talk_GranDragon_04_Appreciation_SUB_0_ACTOR_0110_010_6": {
+        "SelfId": "Txt_Talk_GranDragon_04_Appreciation_SUB_0_ACTOR_0110_010_6",
+        "Text": "*: Oui... Oui!\r\nC'est bien l'épée de la légende!"
+      },
+      "Txt_Talk_GranDragon_04_Appreciation_SUB_0_ACTOR_0110_010_7": {
+        "SelfId": "Txt_Talk_GranDragon_04_Appreciation_SUB_0_ACTOR_0110_010_7",
+        "Text": "*: Oui... Oui!\r\nC'est bien le heaume de la légende!"
+      },
+      "Txt_Talk_GranDragon_04_Appreciation_SUB_0_ACTOR_0110_010_8": {
+        "SelfId": "Txt_Talk_GranDragon_04_Appreciation_SUB_0_ACTOR_0110_010_8",
+        "Text": "*: Oui... Oui!\r\nC'est bien le fouet de la légende!"
+      },
+      "Txt_Talk_GranDragon_04_Appreciation_SUB_0_ACTOR_0110_010_9": {
+        "SelfId": "Txt_Talk_GranDragon_04_Appreciation_SUB_0_ACTOR_0110_010_9",
+        "Text": "*: Oui... Oui!\r\nC'est bien le bâton de la légende!"
+      },
+      "Txt_Talk_GranDragon_04_Appreciation_SUB_0_ACTOR_0110_010_10": {
+        "SelfId": "Txt_Talk_GranDragon_04_Appreciation_SUB_0_ACTOR_0110_010_10",
+        "Text": "*: Et maintenant...?\r\nAh, oui!"
+      },
+      "Txt_Talk_GranDragon_04_Appreciation_SUB_0_ACTOR_0110_010_11": {
+        "SelfId": "Txt_Talk_GranDragon_04_Appreciation_SUB_0_ACTOR_0110_010_11",
+        "Text": "*: Incroyable... Vous m'avez montré tous les artéfacts que je rêvais de voir!\r\nLes Cieux me sourient!"
+      },
+      "Txt_Talk_GranDragon_04_Appreciation_SUB_0_ACTOR_0110_010_12": {
+        "SelfId": "Txt_Talk_GranDragon_04_Appreciation_SUB_0_ACTOR_0110_010_12",
+        "Text": "*: Évidemment, il serait impoli de ma part de ne pas vous récompenser pour vos efforts spectaculaires..."
+      },
+      "Txt_Talk_GranDragon_04_Appreciation_SUB_0_ACTOR_0110_010_13": {
+        "SelfId": "Txt_Talk_GranDragon_04_Appreciation_SUB_0_ACTOR_0110_010_13",
+        "Text": "*: J'ai allumé mon piédestal, preuve de votre succès.\r\nMais d'autres défis vous attendent encore."
+      },
+      "Txt_Talk_GranDragon_04_Appreciation_SUB_0_ACTOR_0110_010_14": {
+        "SelfId": "Txt_Talk_GranDragon_04_Appreciation_SUB_0_ACTOR_0110_010_14",
+        "Text": "*: J'ai allumé mon piédestal, preuve de votre succès.\r\nIl ne vous reste maintenant plus qu'un défi à relever."
+      },
+      "Txt_Talk_GranDragon_04_Appreciation_SUB_0_ACTOR_0110_010_15": {
+        "SelfId": "Txt_Talk_GranDragon_04_Appreciation_SUB_0_ACTOR_0110_010_15",
+        "Text": "*: Ainsi, vous avez vaincu le grand dragon et surmonté l'ultime défi.\r\nQuelle prouesse extraordinaire!"
+      },
+      "Txt_Talk_GranDragon_05_Weapon1_SUB_0_VOLUME_0010_010_1": {
+        "SelfId": "Txt_Talk_GranDragon_05_Weapon1_SUB_0_VOLUME_0010_010_1",
+        "Text": "*: Une épreuve qui testera votre maîtrise des griffes et des boomerangs vous attend.\r\nPour y parvenir, vous devrez vous armer convenablement."
+      },
+      "Txt_Talk_GranDragon_05_Weapon1_SUB_0_ACTOR_0110_010_1": {
+        "SelfId": "Txt_Talk_GranDragon_05_Weapon1_SUB_0_ACTOR_0110_010_1",
+        "Text": "*: Bienvenue!\r\nJe suis le superviseur de cette épreuve."
+      },
+      "Txt_Talk_GranDragon_05_Weapon1_SUB_0_ACTOR_0110_010_2": {
+        "SelfId": "Txt_Talk_GranDragon_05_Weapon1_SUB_0_ACTOR_0110_010_2",
+        "Text": "*: Pour surmonter cette épreuve, vous devrez prouver votre valeur sur le champ de bataille! En garde!"
+      },
+      "Txt_Talk_GranDragon_05_Weapon1_SUB_0_ACTOR_0110_020_1": {
+        "SelfId": "Txt_Talk_GranDragon_05_Weapon1_SUB_0_ACTOR_0110_020_1",
+        "Text": "*: Excellent!\r\nVous avez prouvé votre talent.\r\nPermettez-moi de vous octroyer une récompense pour votre prouesse..."
+      },
+      "Txt_Talk_GranDragon_05_Weapon1_SUB_0_ACTOR_0110_020_2": {
+        "SelfId": "Txt_Talk_GranDragon_05_Weapon1_SUB_0_ACTOR_0110_020_2",
+        "Text": "*: J'ai allumé mon piédestal, preuve de votre succès.\r\nMais d'autres défis vous attendent encore."
+      },
+      "Txt_Talk_GranDragon_05_Weapon1_SUB_0_ACTOR_0110_020_3": {
+        "SelfId": "Txt_Talk_GranDragon_05_Weapon1_SUB_0_ACTOR_0110_020_3",
+        "Text": "*: J'ai allumé mon piédestal, preuve de votre succès.\r\nIl ne vous reste maintenant plus qu'un défi à relever."
+      },
+      "Txt_Talk_GranDragon_05_Weapon1_SUB_0_ACTOR_0110_020_4": {
+        "SelfId": "Txt_Talk_GranDragon_05_Weapon1_SUB_0_ACTOR_0110_020_4",
+        "Text": "*: Un grand bravo!\r\nVous avez surmonté l'ultime épreuve!\r\nJe n'ai jamais douté que vous y parviendriez."
+      },
+      "Txt_Talk_GranDragon_06_Weapon2_SUB_0_VOLUME_0010_010_1": {
+        "SelfId": "Txt_Talk_GranDragon_06_Weapon2_SUB_0_VOLUME_0010_010_1",
+        "Text": "*: Une épreuve qui testera votre maîtrise des haches et des bâtons vous attend.\r\nPour y parvenir, vous devrez vous armer convenablement."
+      },
+      "Txt_Talk_GranDragon_06_Weapon2_SUB_0_ACTOR_0110_010_1": {
+        "SelfId": "Txt_Talk_GranDragon_06_Weapon2_SUB_0_ACTOR_0110_010_1",
+        "Text": "*: Bienvenue!\r\nJe suis le superviseur de cette épreuve."
+      },
+      "Txt_Talk_GranDragon_06_Weapon2_SUB_0_ACTOR_0110_010_2": {
+        "SelfId": "Txt_Talk_GranDragon_06_Weapon2_SUB_0_ACTOR_0110_010_2",
+        "Text": "*: Pour surmonter cette épreuve, vous devrez prouver votre valeur sur le champ de bataille!\r\nEn garde!"
+      },
+      "Txt_Talk_GranDragon_06_Weapon2_SUB_0_ACTOR_0110_020_1": {
+        "SelfId": "Txt_Talk_GranDragon_06_Weapon2_SUB_0_ACTOR_0110_020_1",
+        "Text": "*: Excellent! Vous avez prouvé votre talent.\r\nPermettez-moi de vous octroyer une récompense pour votre prouesse..."
+      },
+      "Txt_Talk_GranDragon_06_Weapon2_SUB_0_ACTOR_0110_020_2": {
+        "SelfId": "Txt_Talk_GranDragon_06_Weapon2_SUB_0_ACTOR_0110_020_2",
+        "Text": "*: J'ai allumé mon piédestal, preuve de votre succès.\r\nMais d'autres défis vous attendent encore."
+      },
+      "Txt_Talk_GranDragon_06_Weapon2_SUB_0_ACTOR_0110_020_3": {
+        "SelfId": "Txt_Talk_GranDragon_06_Weapon2_SUB_0_ACTOR_0110_020_3",
+        "Text": "*: J'ai allumé mon piédestal, preuve de votre succès.\r\nIl ne vous reste maintenant plus qu'un défi à relever."
+      },
+      "Txt_Talk_GranDragon_06_Weapon2_SUB_0_ACTOR_0110_020_4": {
+        "SelfId": "Txt_Talk_GranDragon_06_Weapon2_SUB_0_ACTOR_0110_020_4",
+        "Text": "*: Un grand bravo!\r\nVous avez surmonté l'ultime épreuve!\r\nJe n'ai jamais douté que vous y parviendriez."
+      },
+      "Txt_Talk_GranDragon_07_Snake_SUB_0_VOLUME_0010_010_1": {
+        "SelfId": "Txt_Talk_GranDragon_07_Snake_SUB_0_VOLUME_0010_010_1",
+        "Text": "Un être mortel?\r\nEh bien, en voilà une surprise."
+      },
+      "Txt_Talk_GranDragon_07_Snake_SUB_0_VOLUME_0010_010_2": {
+        "SelfId": "Txt_Talk_GranDragon_07_Snake_SUB_0_VOLUME_0010_010_2",
+        "Text": "On me nomme le Grand Dragon et je suis le maître de ces lieux."
+      },
+      "Txt_Talk_GranDragon_07_Snake_SUB_0_VOLUME_0010_010_3": {
+        "SelfId": "Txt_Talk_GranDragon_07_Snake_SUB_0_VOLUME_0010_010_3",
+        "Text": "Je me demande depuis combien de lunes aucun humain ne s'était aventuré jusqu'ici..."
+      },
+      "Txt_Talk_GranDragon_07_Snake_SUB_0_VOLUME_0010_010_4": {
+        "SelfId": "Txt_Talk_GranDragon_07_Snake_SUB_0_VOLUME_0010_010_4",
+        "Text": "Le temps n'a plus la moindre importance depuis que je passe mes jours à dormir."
+      },
+      "Txt_Talk_GranDragon_07_Snake_SUB_0_VOLUME_0010_010_5": {
+        "SelfId": "Txt_Talk_GranDragon_07_Snake_SUB_0_VOLUME_0010_010_5",
+        "Text": "Le fait que vous ayez jugé utile de me réveiller ne peut signifier qu'une chose:\r\nvous souhaitez tester votre force."
+      },
+      "Txt_Talk_GranDragon_07_Snake_SUB_0_VOLUME_0010_010_6": {
+        "SelfId": "Txt_Talk_GranDragon_07_Snake_SUB_0_VOLUME_0010_010_6",
+        "Text": "Êtes-vous <IfGender_LEADER(prêt,prête,)> à combattre?"
+      },
+      "Txt_Talk_GranDragon_07_Snake_SUB_0_VOLUME_0010_010_7": {
+        "SelfId": "Txt_Talk_GranDragon_07_Snake_SUB_0_VOLUME_0010_010_7",
+        "Text": "Excellent!\r\nEn garde!"
+      },
+      "Txt_Talk_GranDragon_07_Snake_SUB_0_VOLUME_0010_010_8": {
+        "SelfId": "Txt_Talk_GranDragon_07_Snake_SUB_0_VOLUME_0010_010_8",
+        "Text": "Très bien.\r\nSavoir reconnaître ses lacunes est une preuve de sagesse. Revenez quand vous serez suffisamment <IfGender_LEADER(préparé,préparée,)>."
+      },
+      "Txt_Talk_GranDragon_07_Snake_SUB_0_VOLUME_0010_010_9": {
+        "SelfId": "Txt_Talk_GranDragon_07_Snake_SUB_0_VOLUME_0010_010_9",
+        "Text": "Ainsi, vous êtes <IfGender_LEADER(revenu,revenue,)>.\r\nPuis-je vous demander pourquoi?"
+      },
+      "Txt_Talk_GranDragon_07_Snake_SUB_0_VOLUME_0010_010_10": {
+        "SelfId": "Txt_Talk_GranDragon_07_Snake_SUB_0_VOLUME_0010_010_10",
+        "Text": "Souhaitez-vous combattre, finalement?"
+      },
+      "Txt_Talk_GranDragon_07_Snake_SUB_0_VOLUME_0010_010_12": {
+        "SelfId": "Txt_Talk_GranDragon_07_Snake_SUB_0_VOLUME_0010_010_12",
+        "Text": "Ainsi, vous êtes <IfGender_LEADER(revenu,revenue,)>.\r\nPuis-je vous demander pourquoi?"
+      },
+      "Txt_Talk_GranDragon_07_Snake_SUB_0_VOLUME_0010_010_13": {
+        "SelfId": "Txt_Talk_GranDragon_07_Snake_SUB_0_VOLUME_0010_010_13",
+        "Text": "Souhaitez-vous combattre à nouveau?"
+      },
+      "Txt_Talk_GranDragon_07_Snake_SUB_0_VOLUME_0010_010_14": {
+        "SelfId": "Txt_Talk_GranDragon_07_Snake_SUB_0_VOLUME_0010_010_14",
+        "Text": "Excellent!\r\nEn garde!"
+      },
+      "Txt_Talk_GranDragon_07_Snake_SUB_0_VOLUME_0010_010_15": {
+        "SelfId": "Txt_Talk_GranDragon_07_Snake_SUB_0_VOLUME_0010_010_15",
+        "Text": "Très bien. Savoir reconnaître ses lacunes est une preuve de sagesse.\r\nRevenez quand vous serez suffisamment <IfGender_LEADER(préparé,préparée,)>."
+      },
+      "Txt_Talk_GranDragon_07_Snake_SUB_0_VOLUME_0010_010_16": {
+        "SelfId": "Txt_Talk_GranDragon_07_Snake_SUB_0_VOLUME_0010_010_16",
+        "Text": "Ainsi, vous êtes <IfGender_LEADER(revenu,revenue,)>.\r\nPuis-je vous demander pourquoi?"
+      },
+      "Txt_Talk_GranDragon_07_Snake_SUB_0_VOLUME_0010_010_17": {
+        "SelfId": "Txt_Talk_GranDragon_07_Snake_SUB_0_VOLUME_0010_010_17",
+        "Text": "Souhaitez-vous combattre à nouveau?"
+      },
+      "Txt_Talk_GranDragon_07_Snake_SUB_0_BATTLE_END_0010_020_1": {
+        "SelfId": "Txt_Talk_GranDragon_07_Snake_SUB_0_BATTLE_END_0010_020_1",
+        "Text": "Vous m'avez vaincu, je dois bien l'admettre.\r\nIl vous a cependant fallu un nombre peu glorieux de {VALUE} tours pour y arriver..."
+      },
+      "Txt_Talk_GranDragon_07_Snake_SUB_0_BATTLE_END_0010_020_2": {
+        "SelfId": "Txt_Talk_GranDragon_07_Snake_SUB_0_BATTLE_END_0010_020_2",
+        "Text": "Avant de me plonger dans mon profond sommeil, j'ai rencontré un homme qui en avait plus dans le ventre que vous..."
+      },
+      "Txt_Talk_GranDragon_07_Snake_SUB_0_BATTLE_END_0010_020_3": {
+        "SelfId": "Txt_Talk_GranDragon_07_Snake_SUB_0_BATTLE_END_0010_020_3",
+        "Text": "Revenez me voir quand vous aurez augmenté votre niveau."
+      },
+      "Txt_Talk_GranDragon_07_Snake_SUB_0_BATTLE_END_0010_020_4": {
+        "SelfId": "Txt_Talk_GranDragon_07_Snake_SUB_0_BATTLE_END_0010_020_4",
+        "Text": "Vous avez de la chance, je ne risque pas de me rendormir de sitôt.\r\nJe serai prêt à vous tester de nouveau si vous vous présentez à moi!"
+      },
+      "Txt_Talk_GranDragon_07_Snake_SUB_0_BATTLE_END_0010_020_5": {
+        "SelfId": "Txt_Talk_GranDragon_07_Snake_SUB_0_BATTLE_END_0010_020_5",
+        "Text": "Au revoir!"
+      },
+      "Txt_Talk_GranDragon_07_Snake_SUB_0_BATTLE_END_0010_020_6": {
+        "SelfId": "Txt_Talk_GranDragon_07_Snake_SUB_0_BATTLE_END_0010_020_6",
+        "Text": "Vous m'avez vaincu en {VALUE}<nbsp>tours... Impressionnant."
+      },
+      "Txt_Talk_GranDragon_07_Snake_SUB_0_BATTLE_END_0010_020_7": {
+        "SelfId": "Txt_Talk_GranDragon_07_Snake_SUB_0_BATTLE_END_0010_020_7",
+        "Text": "De tout temps, la force et la fortitude des humains n'ont jamais cessé de m'impressionner."
+      },
+      "Txt_Talk_GranDragon_07_Snake_SUB_0_BATTLE_END_0010_020_8": {
+        "SelfId": "Txt_Talk_GranDragon_07_Snake_SUB_0_BATTLE_END_0010_020_8",
+        "Text": "Je ne m'étais pas autant amusé depuis...\r\nEn fait, je ne me souviens pas avoir jamais autant apprécié un combat."
+      },
+      "Txt_Talk_GranDragon_07_Snake_SUB_0_BATTLE_END_0010_020_9": {
+        "SelfId": "Txt_Talk_GranDragon_07_Snake_SUB_0_BATTLE_END_0010_020_9",
+        "Text": "Pour célébrer votre grande victoire, laissez-moi vous décerner cette médaille."
+      },
+      "Txt_Talk_GranDragon_07_Snake_SUB_0_BATTLE_END_0010_020_10": {
+        "SelfId": "Txt_Talk_GranDragon_07_Snake_SUB_0_BATTLE_END_0010_020_10",
+        "Text": "{LEADER} obtient <DefSgl_I_NAME>!"
+      },
+      "Txt_Talk_GranDragon_07_Snake_SUB_0_BATTLE_END_0010_020_11": {
+        "SelfId": "Txt_Talk_GranDragon_07_Snake_SUB_0_BATTLE_END_0010_020_11",
+        "Text": "Félicitations et au revoir!"
+      },
+      "Txt_Talk_GranDragon_07_Snake_SUB_0_BATTLE_END_0010_020_12": {
+        "SelfId": "Txt_Talk_GranDragon_07_Snake_SUB_0_BATTLE_END_0010_020_12",
+        "Text": "Fabuleux!"
+      },
+      "Txt_Talk_GranDragon_07_Snake_SUB_0_BATTLE_END_0010_020_13": {
+        "SelfId": "Txt_Talk_GranDragon_07_Snake_SUB_0_BATTLE_END_0010_020_13",
+        "Text": "Je n'aurais jamais cru être défait en à peine {VALUE}<nbsp><IfSing_VALUE(tour,tours)>."
+      },
+      "Txt_Talk_GranDragon_07_Snake_SUB_0_BATTLE_END_0010_020_14": {
+        "SelfId": "Txt_Talk_GranDragon_07_Snake_SUB_0_BATTLE_END_0010_020_14",
+        "Text": "Vous n'avez plus rien à faire pour me prouver votre force."
+      },
+      "Txt_Talk_GranDragon_07_Snake_SUB_0_BATTLE_END_0010_020_15": {
+        "SelfId": "Txt_Talk_GranDragon_07_Snake_SUB_0_BATTLE_END_0010_020_15",
+        "Text": "D'après ce que j'ai pu voir, votre puissance est incontestablement la plus grande parmi tous les humains à avoir jamais foulé cette terre."
+      },
+      "Txt_Talk_GranDragon_07_Snake_SUB_0_BATTLE_END_0010_020_16": {
+        "SelfId": "Txt_Talk_GranDragon_07_Snake_SUB_0_BATTLE_END_0010_020_16",
+        "Text": "Bien que vaincu, je suis pleinement satisfait."
+      },
+      "Txt_Talk_GranDragon_07_Snake_SUB_0_BATTLE_END_0010_020_17": {
+        "SelfId": "Txt_Talk_GranDragon_07_Snake_SUB_0_BATTLE_END_0010_020_17",
+        "Text": "Votre puissance m'a donné une leçon d'humilité, mais hélas, ces combats m'ont fatigué... (bâillement)"
+      },
+      "Txt_Talk_GranDragon_07_Snake_SUB_0_BATTLE_END_0010_020_18": {
+        "SelfId": "Txt_Talk_GranDragon_07_Snake_SUB_0_BATTLE_END_0010_020_18",
+        "Text": "Zzz... Zzz..."
+      },
+      "Txt_Talk_GranDragon_07_Snake_SUB_0_BATTLE_END_0010_020_19": {
+        "SelfId": "Txt_Talk_GranDragon_07_Snake_SUB_0_BATTLE_END_0010_020_19",
+        "Text": "Le grand dragon semble endormi!"
+      },
+      "Txt_Talk_GranDragon_07_Snake_SUB_0_BATTLE_END_0010_020_20": {
+        "SelfId": "Txt_Talk_GranDragon_07_Snake_SUB_0_BATTLE_END_0010_020_20",
+        "Text": "Fabuleux!"
+      },
+      "Txt_Talk_GranDragon_07_Snake_SUB_0_BATTLE_END_0010_020_21": {
+        "SelfId": "Txt_Talk_GranDragon_07_Snake_SUB_0_BATTLE_END_0010_020_21",
+        "Text": "Je n'aurais jamais cru être défait en à peine {VALUE}<nbsp><IfSing_VALUE(tour,tours)>."
+      },
+      "Txt_Talk_GranDragon_07_Snake_SUB_0_BATTLE_END_0010_020_22": {
+        "SelfId": "Txt_Talk_GranDragon_07_Snake_SUB_0_BATTLE_END_0010_020_22",
+        "Text": "Vous n'avez plus rien à faire pour me prouver votre force."
+      },
+      "Txt_Talk_GranDragon_07_Snake_SUB_0_BATTLE_END_0010_020_23": {
+        "SelfId": "Txt_Talk_GranDragon_07_Snake_SUB_0_BATTLE_END_0010_020_23",
+        "Text": "D'après ce que j'ai pu voir, votre puissance est incontestablement la plus grande parmi tous les humains à avoir jamais foulé cette terre."
+      },
+      "Txt_Talk_GranDragon_07_Snake_SUB_0_BATTLE_END_0010_020_24": {
+        "SelfId": "Txt_Talk_GranDragon_07_Snake_SUB_0_BATTLE_END_0010_020_24",
+        "Text": "Bien que vaincu, je suis pleinement satisfait."
+      },
+      "Txt_Talk_GranDragon_07_Snake_SUB_0_BATTLE_END_0010_020_25": {
+        "SelfId": "Txt_Talk_GranDragon_07_Snake_SUB_0_BATTLE_END_0010_020_25",
+        "Text": "Pour célébrer votre grande victoire, laissez-moi vous décerner cette médaille."
+      },
+      "Txt_Talk_GranDragon_07_Snake_SUB_0_BATTLE_END_0010_020_26": {
+        "SelfId": "Txt_Talk_GranDragon_07_Snake_SUB_0_BATTLE_END_0010_020_26",
+        "Text": "{LEADER} obtient <DefSgl_I_NAME>!"
+      },
+      "Txt_Talk_GranDragon_07_Snake_SUB_0_BATTLE_END_0010_020_27": {
+        "SelfId": "Txt_Talk_GranDragon_07_Snake_SUB_0_BATTLE_END_0010_020_27",
+        "Text": "Votre puissance m'a donné une leçon d'humilité, mais hélas, ces combats m'ont fatigué... (bâillement)"
+      },
+      "Txt_Talk_GranDragon_07_Snake_SUB_0_BATTLE_END_0010_020_28": {
+        "SelfId": "Txt_Talk_GranDragon_07_Snake_SUB_0_BATTLE_END_0010_020_28",
+        "Text": "Zzz... Zzz..."
+      },
+      "Txt_Talk_GranDragon_07_Snake_SUB_0_BATTLE_END_0010_020_29": {
+        "SelfId": "Txt_Talk_GranDragon_07_Snake_SUB_0_BATTLE_END_0010_020_29",
+        "Text": "Le grand dragon semble endormi!"
+      },
+      "Txt_Talk_GranDragon_MBR_Slime_SUB_0_VOLUME_0010_010_1": {
+        "SelfId": "Txt_Talk_GranDragon_MBR_Slime_SUB_0_VOLUME_0010_010_1",
+        "Text": "(slurp)"
+      },
+      "Txt_Talk_GranDragon_MBR_Slime_SUB_0_VOLUME_0010_010_2": {
+        "SelfId": "Txt_Talk_GranDragon_MBR_Slime_SUB_0_VOLUME_0010_010_2",
+        "Text": "{LEADER} calme le monstre de sa voix apaisante et lui parle de papi monstre..."
+      },
+      "Txt_Talk_GranDragon_MBR_Slime_SUB_0_VOLUME_0010_010_3": {
+        "SelfId": "Txt_Talk_GranDragon_MBR_Slime_SUB_0_VOLUME_0010_010_3",
+        "Text": "Ho ho! Sluper!"
+      },
+      "Txt_Talk_GranDragon_MBR_Greatkeeper_SUB_0_VOLUME_0010_010_1": {
+        "SelfId": "Txt_Talk_GranDragon_MBR_Greatkeeper_SUB_0_VOLUME_0010_010_1",
+        "Text": "Tout... ce qui brille... n'est pas d'or..."
+      },
+      "Txt_Talk_GranDragon_MBR_Greatkeeper_SUB_0_VOLUME_0010_010_2": {
+        "SelfId": "Txt_Talk_GranDragon_MBR_Greatkeeper_SUB_0_VOLUME_0010_010_2",
+        "Text": "{LEADER} calme le monstre de sa voix apaisante et lui parle de papi monstre..."
+      },
+      "Txt_Talk_GranDragon_MBR_Greatkeeper_SUB_0_VOLUME_0010_010_3": {
+        "SelfId": "Txt_Talk_GranDragon_MBR_Greatkeeper_SUB_0_VOLUME_0010_010_3",
+        "Text": "Une... occasion en or..."
+      },
+      "Txt_Talk_GranDragon_MBR_Baramonster_SUB_0_VOLUME_0010_010_1": {
+        "SelfId": "Txt_Talk_GranDragon_MBR_Baramonster_SUB_0_VOLUME_0010_010_1",
+        "Text": "Hmm?"
+      },
+      "Txt_Talk_GranDragon_MBR_Baramonster_SUB_0_VOLUME_0010_010_2": {
+        "SelfId": "Txt_Talk_GranDragon_MBR_Baramonster_SUB_0_VOLUME_0010_010_2",
+        "Text": "{LEADER} calme le monstre de sa voix apaisante et lui parle de papi monstre..."
+      },
+      "Txt_Talk_GranDragon_MBR_Baramonster_SUB_0_VOLUME_0010_010_3": {
+        "SelfId": "Txt_Talk_GranDragon_MBR_Baramonster_SUB_0_VOLUME_0010_010_3",
+        "Text": "Oh..."
+      },
+      "Txt_Talk_GranDragon_MBR_Xenlon_SUB_0_VOLUME_0010_010_1": {
+        "SelfId": "Txt_Talk_GranDragon_MBR_Xenlon_SUB_0_VOLUME_0010_010_1",
+        "Text": "Tiens, tiens, ne serait-ce pas {LEADER} l'extraordinaire?"
+      },
+      "Txt_Talk_GranDragon_MBR_Xenlon_SUB_0_VOLUME_0010_010_2": {
+        "SelfId": "Txt_Talk_GranDragon_MBR_Xenlon_SUB_0_VOLUME_0010_010_2",
+        "Text": "S'il y avait bien une personne capable d'atteindre cet endroit, c'était toi, je suppose."
+      },
+      "Txt_Talk_GranDragon_MBR_Xenlon_SUB_0_VOLUME_0010_010_3": {
+        "SelfId": "Txt_Talk_GranDragon_MBR_Xenlon_SUB_0_VOLUME_0010_010_3",
+        "Text": "{LEADER} parle à Xenlon de papi monstre..."
+      },
+      "Txt_Talk_GranDragon_MBR_Xenlon_SUB_0_VOLUME_0010_010_4": {
+        "SelfId": "Txt_Talk_GranDragon_MBR_Xenlon_SUB_0_VOLUME_0010_010_4",
+        "Text": "Ah, tu as donc besoin de ma force?\r\nEn voilà, une proposition intrigante..."
+      },
+      "Txt_Talk_GranDragon_MBR_Xenlon_SUB_0_VOLUME_0010_010_5": {
+        "SelfId": "Txt_Talk_GranDragon_MBR_Xenlon_SUB_0_VOLUME_0010_010_5",
+        "Text": "Très bien! Te récompenser d'être <IfGender_LEADER(arrivé,arrivée,)> jusqu'ici n'est que justice, après tout.\r\nJe me joindrai à toi dans cette quête des plus futiles."
+      }
+    }
+  }
+]

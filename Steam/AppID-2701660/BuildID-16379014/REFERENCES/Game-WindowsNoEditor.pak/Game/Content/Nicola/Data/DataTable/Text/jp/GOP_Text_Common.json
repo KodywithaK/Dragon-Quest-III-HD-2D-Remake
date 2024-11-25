@@ -1,0 +1,928 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_Common",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Common_Choice_YES": {
+        "SelfId": "Txt_Common_Choice_YES",
+        "Text": "はい"
+      },
+      "Txt_Common_Choice_NO": {
+        "SelfId": "Txt_Common_Choice_NO",
+        "Text": "いいえ"
+      },
+      "Txt_Common_Choice_EVENT_01": {
+        "SelfId": "Txt_Common_Choice_EVENT_01",
+        "Text": "とぼける"
+      },
+      "Txt_Common_Choice_EVENT_02": {
+        "SelfId": "Txt_Common_Choice_EVENT_02",
+        "Text": "……"
+      },
+      "Txt_Common_DATA_DialogNotifyStorageLackOnSystemDataSave": {
+        "SelfId": "Txt_Common_DATA_DialogNotifyStorageLackOnSystemDataSave",
+        "Text": "システムデータを　<RUBY>作[つく]るための\r\n<RUBY>空[あ]き<RUBY>容量[ようりょう]が　<RUBY>足[た]りません。"
+      },
+      "Txt_Common_DATA_DialogNotifyStorageLackOnGameDataSave": {
+        "SelfId": "Txt_Common_DATA_DialogNotifyStorageLackOnGameDataSave",
+        "Text": "<RUBY>冒険[ぼうけん]の<RUBY>書[しょ]を　<RUBY>作[つく]るための\r\n<RUBY>空[あ]き<RUBY>容量[ようりょう]が　<RUBY>足[た]りません。"
+      },
+      "Txt_Common_DATA_DialogNotifyBrokenSystemDataSave": {
+        "SelfId": "Txt_Common_DATA_DialogNotifyBrokenSystemDataSave",
+        "Text": "システムデータが　<RUBY>破損[はそん]しています。\r\nシステムデータを　<RUBY>初期化[しょきか]します。"
+      },
+      "Txt_Common_DATA_DialogNotifyBrokenGameDataSave": {
+        "SelfId": "Txt_Common_DATA_DialogNotifyBrokenGameDataSave",
+        "Text": "おきのどくですが\r\n<RUBY>冒険[ぼうけん]の<RUBY>書[しょ]{VALUE}は　\r\n<RUBY>消[き]えてしまいました。"
+      },
+      "Txt_Common_DATA_DialogNotifyFailCreateGameData": {
+        "SelfId": "Txt_Common_DATA_DialogNotifyFailCreateGameData",
+        "Text": "<RUBY>冒険[ぼうけん]の<RUBY>書[しょ]の　<RUBY>作成[さくせい]に\r\n<RUBY>失敗[しっぱい]しました。\r\nタイトル<RUBY>画面[がめん]に<RUBY>戻[もど]ります。"
+      },
+      "Txt_Common_DATA_DialogNotifyBrokenAutoSave": {
+        "SelfId": "Txt_Common_DATA_DialogNotifyBrokenAutoSave",
+        "Text": "ドラゴンクエストⅢの\r\nセーブデータが　<RUBY>破損[はそん]しているため\r\nオートセーブが　できません。"
+      },
+      "Txt_Common_DATA_DialogNotifyBrokenAutoSave_PS5": {
+        "SelfId": "Txt_Common_DATA_DialogNotifyBrokenAutoSave_PS5",
+        "Text": "ドラゴンクエストⅢの\r\nセーブデータが　<RUBY>破損[はそん]しているため\r\nオートセーブが　できません。"
+      },
+      "Txt_Common_DATA_DialogNotifyBrokenAutoSave_02": {
+        "SelfId": "Txt_Common_DATA_DialogNotifyBrokenAutoSave_02",
+        "Text": "おきのどくですが\r\nオートセーブは\r\n<RUBY>消[き]えてしまいました。"
+      },
+      "Txt_Common_DATA_DialogNotifyBrokenInterruptedSave": {
+        "SelfId": "Txt_Common_DATA_DialogNotifyBrokenInterruptedSave",
+        "Text": "おきのどくですが\r\n<RUBY>中断[ちゅうだん]の<RUBY>書[しょ]は\r\n<RUBY>消[き]えてしまいました。"
+      },
+      "Txt_Common_TITLEDEMO_UI_Menu_01": {
+        "SelfId": "Txt_Common_TITLEDEMO_UI_Menu_01",
+        "Text": "冒険をはじめる"
+      },
+      "Txt_Common_TITLEDEMO_UI_Menu_02": {
+        "SelfId": "Txt_Common_TITLEDEMO_UI_Menu_02",
+        "Text": "ゲームを終了する"
+      },
+      "Txt_Common_TITLEDEMO_UI_Copyright": {
+        "SelfId": "Txt_Common_TITLEDEMO_UI_Copyright",
+        "Text": "© ARMOR PROJECT/BIRD STUDIO/SPIKE CHUNSOFT/SQUARE ENIX\r\n© SUGIYAMA KOBO\r\n℗ SUGIYAMA KOBO"
+      },
+      "Txt_Common_TITLEDEMO_UI_Gamertag": {
+        "SelfId": "Txt_Common_TITLEDEMO_UI_Gamertag",
+        "Text": "{0}"
+      },
+      "Txt_Common_TITLEDEMO_UI_Ver": {
+        "SelfId": "Txt_Common_TITLEDEMO_UI_Ver",
+        "Text": "Ver.{0}"
+      },
+      "Txt_Common_TITLE_UI_Menu_01": {
+        "SelfId": "Txt_Common_TITLE_UI_Menu_01",
+        "Text": "冒険をする"
+      },
+      "Txt_Common_TITLE_UI_Menu_02": {
+        "SelfId": "Txt_Common_TITLE_UI_Menu_02",
+        "Text": "中断した冒険を再開"
+      },
+      "Txt_Common_TITLE_UI_Menu_03": {
+        "SelfId": "Txt_Common_TITLE_UI_Menu_03",
+        "Text": "オートセーブからの再開"
+      },
+      "Txt_Common_TITLE_UI_SaveMenu_01": {
+        "SelfId": "Txt_Common_TITLE_UI_SaveMenu_01",
+        "Text": "冒険の書をえらぶ"
+      },
+      "Txt_Common_TITLE_UI_SaveMenu_02": {
+        "SelfId": "Txt_Common_TITLE_UI_SaveMenu_02",
+        "Text": "冒険の書をつくる"
+      },
+      "Txt_Common_TITLE_UI_SaveMenu_03": {
+        "SelfId": "Txt_Common_TITLE_UI_SaveMenu_03",
+        "Text": "冒険の書を消す"
+      },
+      "Txt_Common_TITLE_UI_DataElement_01": {
+        "SelfId": "Txt_Common_TITLE_UI_DataElement_01",
+        "Text": "{0}"
+      },
+      "Txt_Common_TITLE_UI_DataElement_02": {
+        "SelfId": "Txt_Common_TITLE_UI_DataElement_02",
+        "Text": "{0}"
+      },
+      "Txt_Common_TITLE_UI_DataElement_03": {
+        "SelfId": "Txt_Common_TITLE_UI_DataElement_03",
+        "Text": "{0}"
+      },
+      "Txt_Common_TITLE_UI_DataElement_04": {
+        "SelfId": "Txt_Common_TITLE_UI_DataElement_04",
+        "Text": "{0}"
+      },
+      "Txt_Common_TITLE_UI_DataElement_05": {
+        "SelfId": "Txt_Common_TITLE_UI_DataElement_05",
+        "Text": "プレイ時間"
+      },
+      "Txt_Common_TITLE_UI_DataElement_06": {
+        "SelfId": "Txt_Common_TITLE_UI_DataElement_06",
+        "Text": "{0}：{1}"
+      },
+      "Txt_Common_TITLE_UI_DataElement_07": {
+        "SelfId": "Txt_Common_TITLE_UI_DataElement_07",
+        "Text": "記録日時"
+      },
+      "Txt_Common_TITLE_UI_DataElement_08": {
+        "SelfId": "Txt_Common_TITLE_UI_DataElement_08",
+        "Text": "{0} {1}：{2}"
+      },
+      "Txt_Common_TITLE_UI_DataElement_09": {
+        "SelfId": "Txt_Common_TITLE_UI_DataElement_09",
+        "Text": "{0}/{1}/{2}"
+      },
+      "Txt_Common_TITLE_UI_ROTO": {
+        "SelfId": "Txt_Common_TITLE_UI_ROTO",
+        "Text": "{0}．ロト"
+      },
+      "Txt_Common_TITLE_UI_SaveSelectGuide": {
+        "SelfId": "Txt_Common_TITLE_UI_SaveSelectGuide",
+        "Text": "冒険の書を　選んでください。"
+      },
+      "Txt_Common_TITLE_UI_InterruptedSaveGuide": {
+        "SelfId": "Txt_Common_TITLE_UI_InterruptedSaveGuide",
+        "Text": "現在の中断セーブ"
+      },
+      "Txt_Common_TITLE_UI_AutoSaveGuide": {
+        "SelfId": "Txt_Common_TITLE_UI_AutoSaveGuide",
+        "Text": "現在のオートセーブ"
+      },
+      "Txt_Common_TITLE_UI_Unused": {
+        "SelfId": "Txt_Common_TITLE_UI_Unused",
+        "Text": "この冒険の書は　使用されていません。"
+      },
+      "Txt_Common_TITLE_UI_Delete": {
+        "SelfId": "Txt_Common_TITLE_UI_Delete",
+        "Text": "記録を消す　冒険の書を　選んでください。"
+      },
+      "Txt_Common_TITLE_UI_Create": {
+        "SelfId": "Txt_Common_TITLE_UI_Create",
+        "Text": "なんばんの冒険の書を　作りますか？"
+      },
+      "Txt_Common_TITLE_UI_HiraganaConfig": {
+        "SelfId": "Txt_Common_TITLE_UI_HiraganaConfig",
+        "Text": "ひらがなモード"
+      },
+      "Txt_Common_TITLE_UI_GuideConfig": {
+        "SelfId": "Txt_Common_TITLE_UI_GuideConfig",
+        "Text": "目的地マーカー"
+      },
+      "Txt_Common_TITLE_UI_Confirm_ON": {
+        "SelfId": "Txt_Common_TITLE_UI_Confirm_ON",
+        "Text": "オン"
+      },
+      "Txt_Common_TITLE_UI_Confirm_OFF": {
+        "SelfId": "Txt_Common_TITLE_UI_Confirm_OFF",
+        "Text": "オフ"
+      },
+      "Txt_Common_TITLE_Message_SelectGameSave": {
+        "SelfId": "Txt_Common_TITLE_Message_SelectGameSave",
+        "Text": "<RUBY>冒険[ぼうけん]の<RUBY>書[しょ]を　<RUBY>選[えら]んでください。<NO_INPUT>"
+      },
+      "Txt_Common_TITLE_Message_OverwriteNewGameSave": {
+        "SelfId": "Txt_Common_TITLE_Message_OverwriteNewGameSave",
+        "Text": "すでに　<RUBY>冒険[ぼうけん]の<RUBY>書[しょ]に　<RUBY>記録[きろく]があります。\r\n<RUBY>他[ほか]の<RUBY>冒険[ぼうけん]の<RUBY>書[しょ]を　<RUBY>選[えら]んでください。<NO_INPUT>"
+      },
+      "Txt_Common_TITLE_Message_DeleteGameSave": {
+        "SelfId": "Txt_Common_TITLE_Message_DeleteGameSave",
+        "Text": "<RUBY>冒険[ぼうけん]の<RUBY>書[しょ]{VALUE}を\r\n<RUBY>消[け]しても　よろしいですか？<NO_INPUT>"
+      },
+      "Txt_Common_TITLE_Message_DeleteGameSaveConfirm": {
+        "SelfId": "Txt_Common_TITLE_Message_DeleteGameSaveConfirm",
+        "Text": "いちど<RUBY>消[け]した　<RUBY>冒険[ぼうけん]の<RUBY>書[しょ]は　もとに<RUBY>戻[もど]せません。\r\n<RUBY>本当[ほんとう]に　よろしいですか？<NO_INPUT>"
+      },
+      "Txt_Common_TITLE_Message_Deleting": {
+        "SelfId": "Txt_Common_TITLE_Message_Deleting",
+        "Text": "<RUBY>冒険[ぼうけん]の<RUBY>書[しょ]{VALUE}の<RUBY>記録[きろく]を　<RUBY>消[け]しています……。"
+      },
+      "Txt_Common_TITLE_Message_DeletionComplete": {
+        "SelfId": "Txt_Common_TITLE_Message_DeletionComplete",
+        "Text": "<RUBY>冒険[ぼうけん]の<RUBY>書[しょ]{VALUE}の<RUBY>記録[きろく]を　<RUBY>消[け]しました。"
+      },
+      "Txt_Common_TITLE_Message_ConfirmLoadGameSave": {
+        "SelfId": "Txt_Common_TITLE_Message_ConfirmLoadGameSave",
+        "Text": "このデータで　<RUBY>冒険[ぼうけん]を<RUBY>始[はじ]めますか？<NO_INPUT>"
+      },
+      "Txt_Common_TITLE_Message_ConfirmLoadInterruptedSave": {
+        "SelfId": "Txt_Common_TITLE_Message_ConfirmLoadInterruptedSave",
+        "Text": "このデータで　<RUBY>冒険[ぼうけん]を<RUBY>始[はじ]めますか？\r\n※<RUBY>冒険[ぼうけん]を<RUBY>再開[さいかい]すると　<RUBY>中断[ちゅうだん]セーブは<RUBY>消去[しょうきょ]されます。<NO_INPUT>"
+      },
+      "Txt_Common_TITLE_Message_SaveExist": {
+        "SelfId": "Txt_Common_TITLE_Message_SaveExist",
+        "Text": "これ<RUBY>以上[いじょう]　<RUBY>冒険[ぼうけん]の<RUBY>書[しょ]を　<RUBY>作[つく]れません。\r\n<RUBY>冒険[ぼうけん]の<RUBY>書[しょ]を　<RUBY>新[あたら]しく<RUBY>作[つく]りたい<RUBY>場合[ばあい]は\r\n<RUBY>先[さき]に　いずれかの<RUBY>冒険[ぼうけん]の<RUBY>書[しょ]を　<RUBY>消[け]してください。"
+      },
+      "Txt_Common_TITLE_Message_NameEntry": {
+        "SelfId": "Txt_Common_TITLE_Message_NameEntry",
+        "Text": "<RUBY>名前[なまえ]を　<RUBY>決[き]めてください。<NO_INPUT>"
+      },
+      "Txt_Common_TITLE_Message_NameNG": {
+        "SelfId": "Txt_Common_TITLE_Message_NameNG",
+        "Text": "その<RUBY>名前[なまえ]は　<RUBY>使[つか]えません！\r\nちがう<RUBY>名前[なまえ]を　<RUBY>入[い]れてください。"
+      },
+      "Txt_Common_TITLE_Message_NameConfirm": {
+        "SelfId": "Txt_Common_TITLE_Message_NameConfirm",
+        "Text": "『{ACTOR}』で　よろしいですか？<NO_INPUT>"
+      },
+      "Txt_Common_TITLE_Message_StyleSelect": {
+        "SelfId": "Txt_Common_TITLE_Message_StyleSelect",
+        "Text": "あなたのキャラの\r\nスタイルを　<RUBY>選択[せんたく]してください。<NO_INPUT>"
+      },
+      "Txt_Common_TITLE_Message_HeroConfirm": {
+        "SelfId": "Txt_Common_TITLE_Message_HeroConfirm",
+        "Text": "これで　よろしいですか？<NO_INPUT>"
+      },
+      "Txt_Common_TITLE_Message_VoiceSelect": {
+        "SelfId": "Txt_Common_TITLE_Message_VoiceSelect",
+        "Text": "ボイスの<RUBY>言語[げんご]を　<RUBY>選択[せんたく]してください。<NO_INPUT>"
+      },
+      "Txt_Common_TITLE_Message_HiraganaConfig": {
+        "SelfId": "Txt_Common_TITLE_Message_HiraganaConfig",
+        "Text": "『ひらがなモード』を　せっていしますか？\r\nせっていすると　すべてのかんじが\r\nひらがなで　ひょうじされるようになります。<NO_INPUT>"
+      },
+      "Txt_Common_TITLE_Message_HiraganaON": {
+        "SelfId": "Txt_Common_TITLE_Message_HiraganaON",
+        "Text": "ひらがなモードを　<RUBY>設定[せってい]しました。\r\n※「システム<RUBY>設定[せってい]」で　いつでも　<RUBY>変更[へんこう]できます。"
+      },
+      "Txt_Common_TITLE_Message_HiraganaOFF": {
+        "SelfId": "Txt_Common_TITLE_Message_HiraganaOFF",
+        "Text": "ひらがなモードを　<RUBY>無効[むこう]にしました。\r\n※「システム<RUBY>設定[せってい]」で　いつでも　<RUBY>変更[へんこう]できます。"
+      },
+      "Txt_Common_TITLE_Message_GuideConfig": {
+        "SelfId": "Txt_Common_TITLE_Message_GuideConfig",
+        "Text": "『<RUBY>目的地[もくてきち]マーカー』を　<RUBY>表示[ひょうじ]しますか？\r\n有効にすると　<RUBY>目的地[もくてきち]がマップ<RUBY>上[うえ]に\r\n<RUBY>表示[ひょうじ]されるようになります。<NO_INPUT>"
+      },
+      "Txt_Common_TITLE_Message_GuideON": {
+        "SelfId": "Txt_Common_TITLE_Message_GuideON",
+        "Text": "『<RUBY>目的地[もくてきち]マーカー』を　<RUBY>設定[せってい]しました。\r\n※「システム<RUBY>設定[せってい]」で　いつでも　<RUBY>変更[へんこう]できます。"
+      },
+      "Txt_Common_TITLE_Message_GuideOFF": {
+        "SelfId": "Txt_Common_TITLE_Message_GuideOFF",
+        "Text": "『<RUBY>目的地[もくてきち]マーカー』を　<RUBY>無効[むこう]にしました。\r\n※「システム<RUBY>設定[せってい]」で　いつでも　<RUBY>変更[へんこう]できます。"
+      },
+      "Txt_Common_TITLE_Message_GamemodeConfig": {
+        "SelfId": "Txt_Common_TITLE_Message_GamemodeConfig",
+        "Text": "『ゲームモード』を　<RUBY>選択[せんたく]してください。\r\n※「システム<RUBY>設定[せってい]」で　いつでも　<RUBY>変更[へんこう]できます。<NO_INPUT>"
+      },
+      "Txt_Common_TITLE_Message_PlayingConfigConfirm": {
+        "SelfId": "Txt_Common_TITLE_Message_PlayingConfigConfirm",
+        "Text": "この<RUBY>設定[せってい]で　<RUBY>冒険[ぼうけん]をはじめます\r\nよろしいですか？\r\n※「システム<RUBY>設定[せってい]」で　いつでも　<RUBY>変更[へんこう]できます。<NO_INPUT>"
+      },
+      "Txt_Common_ED_Message_Save": {
+        "SelfId": "Txt_Common_ED_Message_Save",
+        "Text": "ここまでの<RUBY>冒険[ぼうけん]を　<RUBY>記録[きろく]します。\r\nなんばんの<RUBY>冒険[ぼうけん]の<RUBY>書[しょ]に　<RUBY>記録[きろく]しますか？<NO_INPUT>"
+      },
+      "Txt_Common_ED_Message_SaveConfirm": {
+        "SelfId": "Txt_Common_ED_Message_SaveConfirm",
+        "Text": "{WORD}　Ｌｖ{VALUE}　に\r\n<RUBY>上書[うわが]きしてしまいますが\r\nそれでも　よろしいですか？<NO_INPUT>"
+      },
+      "Txt_Common_ED_Message_SaveFinish": {
+        "SelfId": "Txt_Common_ED_Message_SaveFinish",
+        "Text": "<RUBY>冒険[ぼうけん]の<RUBY>書[しょ]に　<RUBY>記録[きろく]しました。"
+      },
+      "Txt_Common_KEYBOARD_Hiragana": {
+        "SelfId": "Txt_Common_KEYBOARD_Hiragana",
+        "Text": "かな"
+      },
+      "Txt_Common_KEYBOARD_Katakana": {
+        "SelfId": "Txt_Common_KEYBOARD_Katakana",
+        "Text": "カナ"
+      },
+      "Txt_Common_KEYBOARD_Back": {
+        "SelfId": "Txt_Common_KEYBOARD_Back",
+        "Text": "もどる"
+      },
+      "Txt_Common_KEYBOARD_END": {
+        "SelfId": "Txt_Common_KEYBOARD_END",
+        "Text": "おわる"
+      },
+      "Txt_Common_KEYBOARD_NOINPUT": {
+        "SelfId": "Txt_Common_KEYBOARD_NOINPUT",
+        "Text": "<RUBY>名前[なまえ]が　<RUBY>入力[にゅうりょく]されていません。"
+      },
+      "Txt_Common_NGNAME_ROTO_K": {
+        "SelfId": "Txt_Common_NGNAME_ROTO_K",
+        "Text": "ロト"
+      },
+      "Txt_Common_NGNAME_ROTO_H": {
+        "SelfId": "Txt_Common_NGNAME_ROTO_H",
+        "Text": "ろと"
+      },
+      "Txt_Common_LANGUAGE_JP": {
+        "SelfId": "Txt_Common_LANGUAGE_JP",
+        "Text": "日本語"
+      },
+      "Txt_Common_LANGUAGE_EN": {
+        "SelfId": "Txt_Common_LANGUAGE_EN",
+        "Text": "英語"
+      },
+      "Txt_Common_LANGUAGE_TW": {
+        "SelfId": "Txt_Common_LANGUAGE_TW",
+        "Text": "繁体字(台湾)"
+      },
+      "Txt_Common_LANGUAGE_CN": {
+        "SelfId": "Txt_Common_LANGUAGE_CN",
+        "Text": "簡体字"
+      },
+      "Txt_Common_LANGUAGE_KO": {
+        "SelfId": "Txt_Common_LANGUAGE_KO",
+        "Text": "韓国語"
+      },
+      "Txt_Common_LANGUAGE_FR": {
+        "SelfId": "Txt_Common_LANGUAGE_FR",
+        "Text": "フランス語"
+      },
+      "Txt_Common_LANGUAGE_IT": {
+        "SelfId": "Txt_Common_LANGUAGE_IT",
+        "Text": "イタリア語"
+      },
+      "Txt_Common_LANGUAGE_DE": {
+        "SelfId": "Txt_Common_LANGUAGE_DE",
+        "Text": "ドイツ語"
+      },
+      "Txt_Common_LANGUAGE_ES": {
+        "SelfId": "Txt_Common_LANGUAGE_ES",
+        "Text": "スペイン語"
+      },
+      "Txt_Common_LANGUAGE_ES-419": {
+        "SelfId": "Txt_Common_LANGUAGE_ES-419",
+        "Text": "メキシカンスペイン語"
+      },
+      "Txt_Common_BIRTHDAY_Month_Guide": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_Guide",
+        "Text": "なんがつうまれ？"
+      },
+      "Txt_Common_BIRTHDAY_Day_Guide": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Guide",
+        "Text": "なんにちうまれ？"
+      },
+      "Txt_Common_BIRTHDAY_Month_01": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_01",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_Common_BIRTHDAY_Month_02": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_02",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_Common_BIRTHDAY_Month_03": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_03",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_Common_BIRTHDAY_Month_04": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_04",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_Common_BIRTHDAY_Month_05": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_05",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_Common_BIRTHDAY_Month_06": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_06",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_Common_BIRTHDAY_Month_07": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_07",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_Common_BIRTHDAY_Month_08": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_08",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_Common_BIRTHDAY_Month_09": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_09",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_Common_BIRTHDAY_Month_10": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_10",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_Common_BIRTHDAY_Month_11": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_11",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_Common_BIRTHDAY_Month_12": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_12",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_Common_BIRTHDAY_Day_01": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_01",
+        "Text": "１<RUBY>日[にち]"
+      },
+      "Txt_Common_BIRTHDAY_Day_02": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_02",
+        "Text": "２<RUBY>日[にち]"
+      },
+      "Txt_Common_BIRTHDAY_Day_03": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_03",
+        "Text": "３<RUBY>日[にち]"
+      },
+      "Txt_Common_BIRTHDAY_Day_04": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_04",
+        "Text": "４<RUBY>日[にち]"
+      },
+      "Txt_Common_BIRTHDAY_Day_05": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_05",
+        "Text": "５<RUBY>日[にち]"
+      },
+      "Txt_Common_BIRTHDAY_Day_06": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_06",
+        "Text": "６<RUBY>日[にち]"
+      },
+      "Txt_Common_BIRTHDAY_Day_07": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_07",
+        "Text": "７<RUBY>日[にち]"
+      },
+      "Txt_Common_BIRTHDAY_Day_08": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_08",
+        "Text": "８<RUBY>日[にち]"
+      },
+      "Txt_Common_BIRTHDAY_Day_09": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_09",
+        "Text": "９<RUBY>日[にち]"
+      },
+      "Txt_Common_BIRTHDAY_Day_10": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_10",
+        "Text": "１０<RUBY>日[にち]"
+      },
+      "Txt_Common_BIRTHDAY_Day_11": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_11",
+        "Text": "１１<RUBY>日[にち]"
+      },
+      "Txt_Common_BIRTHDAY_Day_12": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_12",
+        "Text": "１２<RUBY>日[にち]"
+      },
+      "Txt_Common_BIRTHDAY_Day_13": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_13",
+        "Text": "１３<RUBY>日[にち]"
+      },
+      "Txt_Common_BIRTHDAY_Day_14": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_14",
+        "Text": "１４<RUBY>日[にち]"
+      },
+      "Txt_Common_BIRTHDAY_Day_15": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_15",
+        "Text": "１５<RUBY>日[にち]"
+      },
+      "Txt_Common_BIRTHDAY_Day_16": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_16",
+        "Text": "１６<RUBY>日[にち]"
+      },
+      "Txt_Common_BIRTHDAY_Day_17": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_17",
+        "Text": "１７<RUBY>日[にち]"
+      },
+      "Txt_Common_BIRTHDAY_Day_18": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_18",
+        "Text": "１８<RUBY>日[にち]"
+      },
+      "Txt_Common_BIRTHDAY_Day_19": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_19",
+        "Text": "１９<RUBY>日[にち]"
+      },
+      "Txt_Common_BIRTHDAY_Day_20": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_20",
+        "Text": "２０<RUBY>日[にち]"
+      },
+      "Txt_Common_BIRTHDAY_Day_21": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_21",
+        "Text": "２１<RUBY>日[にち]"
+      },
+      "Txt_Common_BIRTHDAY_Day_22": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_22",
+        "Text": "２２<RUBY>日[にち]"
+      },
+      "Txt_Common_BIRTHDAY_Day_23": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_23",
+        "Text": "２３<RUBY>日[にち]"
+      },
+      "Txt_Common_BIRTHDAY_Day_24": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_24",
+        "Text": "２４<RUBY>日[にち]"
+      },
+      "Txt_Common_BIRTHDAY_Day_25": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_25",
+        "Text": "２５<RUBY>日[にち]"
+      },
+      "Txt_Common_BIRTHDAY_Day_26": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_26",
+        "Text": "２６<RUBY>日[にち]"
+      },
+      "Txt_Common_BIRTHDAY_Day_27": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_27",
+        "Text": "２７<RUBY>日[にち]"
+      },
+      "Txt_Common_BIRTHDAY_Day_28": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_28",
+        "Text": "２８<RUBY>日[にち]"
+      },
+      "Txt_Common_BIRTHDAY_Day_29": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_29",
+        "Text": "２９<RUBY>日[にち]"
+      },
+      "Txt_Common_BIRTHDAY_Day_30": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_30",
+        "Text": "３０<RUBY>日[にち]"
+      },
+      "Txt_Common_BIRTHDAY_Day_31": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_31",
+        "Text": "３１<RUBY>日[にち]"
+      },
+      "Txt_Common_BIRTHDAY_Month_Number_01": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_Number_01",
+        "Text": "１"
+      },
+      "Txt_Common_BIRTHDAY_Month_Number_02": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_Number_02",
+        "Text": "２"
+      },
+      "Txt_Common_BIRTHDAY_Month_Number_03": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_Number_03",
+        "Text": "３"
+      },
+      "Txt_Common_BIRTHDAY_Month_Number_04": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_Number_04",
+        "Text": "４"
+      },
+      "Txt_Common_BIRTHDAY_Month_Number_05": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_Number_05",
+        "Text": "５"
+      },
+      "Txt_Common_BIRTHDAY_Month_Number_06": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_Number_06",
+        "Text": "６"
+      },
+      "Txt_Common_BIRTHDAY_Month_Number_07": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_Number_07",
+        "Text": "７"
+      },
+      "Txt_Common_BIRTHDAY_Month_Number_08": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_Number_08",
+        "Text": "８"
+      },
+      "Txt_Common_BIRTHDAY_Month_Number_09": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_Number_09",
+        "Text": "９"
+      },
+      "Txt_Common_BIRTHDAY_Month_Number_10": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_Number_10",
+        "Text": "１０"
+      },
+      "Txt_Common_BIRTHDAY_Month_Number_11": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_Number_11",
+        "Text": "１１"
+      },
+      "Txt_Common_BIRTHDAY_Month_Number_12": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_Number_12",
+        "Text": "１２"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_01": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_01",
+        "Text": "１"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_02": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_02",
+        "Text": "２"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_03": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_03",
+        "Text": "３"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_04": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_04",
+        "Text": "４"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_05": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_05",
+        "Text": "５"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_06": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_06",
+        "Text": "６"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_07": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_07",
+        "Text": "７"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_08": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_08",
+        "Text": "８"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_09": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_09",
+        "Text": "９"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_10": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_10",
+        "Text": "１０"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_11": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_11",
+        "Text": "１１"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_12": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_12",
+        "Text": "１２"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_13": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_13",
+        "Text": "１３"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_14": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_14",
+        "Text": "１４"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_15": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_15",
+        "Text": "１５"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_16": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_16",
+        "Text": "１６"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_17": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_17",
+        "Text": "１７"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_18": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_18",
+        "Text": "１８"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_19": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_19",
+        "Text": "１９"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_20": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_20",
+        "Text": "２０"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_21": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_21",
+        "Text": "２１"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_22": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_22",
+        "Text": "２２"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_23": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_23",
+        "Text": "２３"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_24": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_24",
+        "Text": "２４"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_25": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_25",
+        "Text": "２５"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_26": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_26",
+        "Text": "２６"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_27": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_27",
+        "Text": "２７"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_28": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_28",
+        "Text": "２８"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_29": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_29",
+        "Text": "２９"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_30": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_30",
+        "Text": "３０"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_31": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_31",
+        "Text": "３１"
+      },
+      "Txt_Common_STAR_SIGNS_01": {
+        "SelfId": "Txt_Common_STAR_SIGNS_01",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_Common_STAR_SIGNS_02": {
+        "SelfId": "Txt_Common_STAR_SIGNS_02",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_Common_STAR_SIGNS_03": {
+        "SelfId": "Txt_Common_STAR_SIGNS_03",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_Common_STAR_SIGNS_04": {
+        "SelfId": "Txt_Common_STAR_SIGNS_04",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_Common_STAR_SIGNS_05": {
+        "SelfId": "Txt_Common_STAR_SIGNS_05",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_Common_STAR_SIGNS_06": {
+        "SelfId": "Txt_Common_STAR_SIGNS_06",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_Common_STAR_SIGNS_07": {
+        "SelfId": "Txt_Common_STAR_SIGNS_07",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_Common_STAR_SIGNS_08": {
+        "SelfId": "Txt_Common_STAR_SIGNS_08",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_Common_STAR_SIGNS_09": {
+        "SelfId": "Txt_Common_STAR_SIGNS_09",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_Common_STAR_SIGNS_10": {
+        "SelfId": "Txt_Common_STAR_SIGNS_10",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_Common_STAR_SIGNS_11": {
+        "SelfId": "Txt_Common_STAR_SIGNS_11",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_Common_STAR_SIGNS_12": {
+        "SelfId": "Txt_Common_STAR_SIGNS_12",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_Common_SAVE_Message_Saving_Switch": {
+        "SelfId": "Txt_Common_SAVE_Message_Saving_Switch",
+        "Text": "<RUBY>冒険[ぼうけん]の<RUBY>書[しょ]に　<RUBY>記録[きろく]しています。\r\nNintendo Switch™の<RUBY>電源[でんげん]を\r\n<RUBY>切[き]らないでください。<NO_INPUT> "
+      },
+      "Txt_Common_SAVE_Message_Saving_PS5": {
+        "SelfId": "Txt_Common_SAVE_Message_Saving_PS5",
+        "Text": "<RUBY>冒険[ぼうけん]の<RUBY>書[しょ]に　<RUBY>記録[きろく]しています。\r\nPlayStation®5の<RUBY>電源[でんげん]を\r\n<RUBY>切[き]らないでください。<NO_INPUT> "
+      },
+      "Txt_Common_SAVE_Message_Saving_Xbox": {
+        "SelfId": "Txt_Common_SAVE_Message_Saving_Xbox",
+        "Text": "<RUBY>冒険[ぼうけん]の<RUBY>書[しょ]に　<RUBY>記録[きろく]しています。\r\nXboxの<RUBY>電源[でんげん]を\r\n<RUBY>切[き]らないでください。<NO_INPUT> "
+      },
+      "Txt_Common_SAVE_Message_Saving_PC": {
+        "SelfId": "Txt_Common_SAVE_Message_Saving_PC",
+        "Text": "<RUBY>冒険[ぼうけん]の<RUBY>書[しょ]に　<RUBY>記録[きろく]しています。<NO_INPUT> "
+      },
+      "Txt_Common_SAVE_Message_ReturnTitle": {
+        "SelfId": "Txt_Common_SAVE_Message_ReturnTitle",
+        "Text": "お<RUBY>疲[つか]れさまでした。\r\nＡボタンで　タイトルに　<RUBY>戻[もど]ります。"
+      },
+      "Txt_Common_SAVE_Message_ReturnTitle_PS5": {
+        "SelfId": "Txt_Common_SAVE_Message_ReturnTitle_PS5",
+        "Text": "お<RUBY>疲[つか]れさまでした。\r\n×ボタンで　タイトルに　<RUBY>戻[もど]ります。"
+      },
+      "Txt_Common_SAVE_Message_ReturnTitle_Xbox": {
+        "SelfId": "Txt_Common_SAVE_Message_ReturnTitle_Xbox",
+        "Text": "お<RUBY>疲[つか]れさまでした。\r\nＡボタンで　タイトルに　<RUBY>戻[もど]ります。"
+      },
+      "Txt_Common_SAVE_Message_ReturnTitle_PC": {
+        "SelfId": "Txt_Common_SAVE_Message_ReturnTitle_PC",
+        "Text": "お<RUBY>疲[つか]れさまでした。\r\n<RUBY>決定[けってい]ボタンで　タイトルに　<RUBY>戻[もど]ります。"
+      },
+      "Txt_Common_Xenlon_Wish_01": {
+        "SelfId": "Txt_Common_Xenlon_Wish_01",
+        "Text": "新しいバトルロードで　遊びたい"
+      },
+      "Txt_Common_Xenlon_Wish_02": {
+        "SelfId": "Txt_Common_Xenlon_Wish_02",
+        "Text": "父オルテガを　生き返らせたい"
+      },
+      "Txt_Common_Xenlon_Wish_03": {
+        "SelfId": "Txt_Common_Xenlon_Wish_03",
+        "Text": "勇者も　おしゃれが　したい"
+      },
+      "Txt_Common_Xenlon_Wish_04": {
+        "SelfId": "Txt_Common_Xenlon_Wish_04",
+        "Text": "強い武器が　欲しい"
+      },
+      "Txt_Common_Xenlon_Wish_05": {
+        "SelfId": "Txt_Common_Xenlon_Wish_05",
+        "Text": "エッチな本が　よみたい"
+      },
+      "Txt_Common_Xenlon_Wish_06": {
+        "SelfId": "Txt_Common_Xenlon_Wish_06",
+        "Text": "すごくエッチな本が　よみたい"
+      },
+      "Txt_Common_Xenlon_Wish_07": {
+        "SelfId": "Txt_Common_Xenlon_Wish_07",
+        "Text": ""
+      },
+      "Txt_Common_Event_Control_Skip": {
+        "SelfId": "Txt_Common_Event_Control_Skip",
+        "Text": "スキップ"
+      },
+      "Txt_Common_Event_Control_FastForward": {
+        "SelfId": "Txt_Common_Event_Control_FastForward",
+        "Text": "早送り"
+      },
+      "Txt_Common_Event_Control_FastForward_Now": {
+        "SelfId": "Txt_Common_Event_Control_FastForward_Now",
+        "Text": "早送り中"
+      },
+      "Txt_Common_SoftwareKeyboard_EntryName": {
+        "SelfId": "Txt_Common_SoftwareKeyboard_EntryName",
+        "Text": "名前を入れてください"
+      },
+      "Txt_Common_SoftwareKeyboard_OK": {
+        "SelfId": "Txt_Common_SoftwareKeyboard_OK",
+        "Text": "決定"
+      },
+      "Txt_Common_Xbox_System_Disconnect_Controller": {
+        "SelfId": "Txt_Common_Xbox_System_Disconnect_Controller",
+        "Text": "コントローラーが　<RUBY>取[と]り<RUBY>外[はず]されたため\r\n<RUBY>本[ほん]タイトルのプレイを　<RUBY>続行[ぞっこう]することができません\r\nコントローラーを　<RUBY>接続[せつぞく]してください。"
+      },
+      "Txt_Common_Xbox_System_Account_Logout": {
+        "SelfId": "Txt_Common_Xbox_System_Account_Logout",
+        "Text": "アカウントが　サインアウトされたため\r\nタイトル<RUBY>画面[がめん]へ　<RUBY>戻[もど]ります。"
+      },
+      "Txt_Common_Xbox_System_Account_Change": {
+        "SelfId": "Txt_Common_Xbox_System_Account_Change",
+        "Text": "アカウントが　<RUBY>変更[へんこう]されたため\r\nタイトル<RUBY>画面[がめん]へ　<RUBY>戻[もど]ります。"
+      },
+      "Txt_Common_Xbox_System_Title_NoLogin": {
+        "SelfId": "Txt_Common_Xbox_System_Title_NoLogin",
+        "Text": "プレイするアカウントを　<RUBY>選択[せんたく]してください。"
+      },
+      "Txt_Common_WindowName_Steam": {
+        "SelfId": "Txt_Common_WindowName_Steam",
+        "Text": "ドラゴンクエストⅢ　そして伝説へ…"
+      },
+      "Txt_Common_WindowName_WinGDK": {
+        "SelfId": "Txt_Common_WindowName_WinGDK",
+        "Text": "ドラゴンクエストⅢ　そして伝説へ…"
+      },
+      "Txt_Common_PS5_SAVE_TITLE_01": {
+        "SelfId": "Txt_Common_PS5_SAVE_TITLE_01",
+        "Text": "冒険の書 ０１"
+      },
+      "Txt_Common_PS5_SAVE_TITLE_02": {
+        "SelfId": "Txt_Common_PS5_SAVE_TITLE_02",
+        "Text": "冒険の書 ０２"
+      },
+      "Txt_Common_PS5_SAVE_TITLE_03": {
+        "SelfId": "Txt_Common_PS5_SAVE_TITLE_03",
+        "Text": "冒険の書 ０３"
+      },
+      "Txt_Common_PS5_SAVE_TITLE_04": {
+        "SelfId": "Txt_Common_PS5_SAVE_TITLE_04",
+        "Text": "冒険の書 ０４"
+      },
+      "Txt_Common_PS5_SAVE_TITLE_05": {
+        "SelfId": "Txt_Common_PS5_SAVE_TITLE_05",
+        "Text": "冒険の書 ０５"
+      },
+      "Txt_Common_PS5_SAVE_TITLE_06": {
+        "SelfId": "Txt_Common_PS5_SAVE_TITLE_06",
+        "Text": "冒険の書 ０６"
+      },
+      "Txt_Common_PS5_SAVE_TITLE_07": {
+        "SelfId": "Txt_Common_PS5_SAVE_TITLE_07",
+        "Text": "冒険の書 ０７"
+      },
+      "Txt_Common_PS5_SAVE_TITLE_08": {
+        "SelfId": "Txt_Common_PS5_SAVE_TITLE_08",
+        "Text": "冒険の書 ０８"
+      },
+      "Txt_Common_PS5_SAVE_TITLE_09": {
+        "SelfId": "Txt_Common_PS5_SAVE_TITLE_09",
+        "Text": "冒険の書 ０９"
+      },
+      "Txt_Common_PS5_SAVE_TITLE_Auto": {
+        "SelfId": "Txt_Common_PS5_SAVE_TITLE_Auto",
+        "Text": "オートセーブデータ"
+      },
+      "Txt_Common_PS5_SAVE_TITLE_Interruption": {
+        "SelfId": "Txt_Common_PS5_SAVE_TITLE_Interruption",
+        "Text": "中断セーブデータ"
+      },
+      "Txt_Common_PS5_SAVE_TITLE_SUB": {
+        "SelfId": "Txt_Common_PS5_SAVE_TITLE_SUB",
+        "Text": "システムデータ"
+      },
+      "Txt_Common_PS5_SAVE_TITLE_SUB_2": {
+        "SelfId": "Txt_Common_PS5_SAVE_TITLE_SUB_2",
+        "Text": "セーブデータ"
+      },
+      "Txt_Common_PS5_SAVE_EXPLAIN": {
+        "SelfId": "Txt_Common_PS5_SAVE_EXPLAIN",
+        "Text": "これはドラゴンクエストⅢのシステムデータです。"
+      },
+      "Txt_Common_PS5_SAVE_EXPLAIN_2": {
+        "SelfId": "Txt_Common_PS5_SAVE_EXPLAIN_2",
+        "Text": "これはドラゴンクエストⅢのセーブデータです。"
+      }
+    }
+  }
+]

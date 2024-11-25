@@ -1,0 +1,76 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Event_DreamWaterFall",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Event_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "EVENT_DreamWaterFall_MAPLIST_S09R0103_0": {
+        "SelfId": "EVENT_DreamWaterFall_MAPLIST_S09R0103_0",
+        "EventID": "DreamWaterFall_DreamSpace_MAIN_0_SCENE_0010_010",
+        "TriggerType": "EEventTriggerType::SCENE",
+        "TriggerID": "MAPLIST_S09R0103",
+        "EventPriority": 0,
+        "ProgressLower": 0,
+        "ProgressUpper": 30,
+        "StartFlagName1": "None",
+        "IsTrueCondition1": false,
+        "IsAndOperation": false,
+        "StartFlagName2": "None",
+        "IsTrueCondition2": false,
+        "ScenarioProgress": 0
+      },
+      "EVENT_DreamWaterFall_MAPLIST_S09R0101_0": {
+        "SelfId": "EVENT_DreamWaterFall_MAPLIST_S09R0101_0",
+        "EventID": "DreamWaterFall_Cliff_MAIN_0_SCENE_0010_010",
+        "TriggerType": "EEventTriggerType::SCENE",
+        "TriggerID": "MAPLIST_S09R0101",
+        "EventPriority": 0,
+        "ProgressLower": 0,
+        "ProgressUpper": 30,
+        "StartFlagName1": "None",
+        "IsTrueCondition1": false,
+        "IsAndOperation": false,
+        "StartFlagName2": "None",
+        "IsTrueCondition2": false,
+        "ScenarioProgress": 0
+      },
+      "EVENT_DreamWaterFall_DreamWaterFall_Cliff_Faerie_1_0": {
+        "SelfId": "EVENT_DreamWaterFall_DreamWaterFall_Cliff_Faerie_1_0",
+        "EventID": "DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010",
+        "TriggerType": "EEventTriggerType::VOLUME",
+        "TriggerID": "DreamWaterFall_Cliff_Faerie_1",
+        "EventPriority": 0,
+        "ProgressLower": 0,
+        "ProgressUpper": 30,
+        "StartFlagName1": "None",
+        "IsTrueCondition1": false,
+        "IsAndOperation": false,
+        "StartFlagName2": "None",
+        "IsTrueCondition2": false,
+        "ScenarioProgress": 0
+      },
+      "EVENT_DreamWaterFall_MAPLIST_S09R0102_0": {
+        "SelfId": "EVENT_DreamWaterFall_MAPLIST_S09R0102_0",
+        "EventID": "DreamWaterFall_Forest_MAIN_0_SCENE_0010_010",
+        "TriggerType": "EEventTriggerType::SCENE",
+        "TriggerID": "MAPLIST_S09R0102",
+        "EventPriority": 0,
+        "ProgressLower": 0,
+        "ProgressUpper": 30,
+        "StartFlagName1": "None",
+        "IsTrueCondition1": false,
+        "IsAndOperation": false,
+        "StartFlagName2": "None",
+        "IsTrueCondition2": false,
+        "ScenarioProgress": 0
+      }
+    }
+  }
+]

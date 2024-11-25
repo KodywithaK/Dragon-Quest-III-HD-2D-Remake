@@ -1,0 +1,940 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_NPC_Talk_Common",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Talk_Common_FAILURE_1": {
+        "SelfId": "Txt_Talk_Common_FAILURE_1",
+        "Text": "그러나 아무 일도 일어나지 않았다."
+      },
+      "Txt_Talk_Common_MAIN_0_SCENE_0010_010_1": {
+        "SelfId": "Txt_Talk_Common_MAIN_0_SCENE_0010_010_1",
+        "Text": "슬슬 {MERCHANT}의 상태를 확인해 보자."
+      },
+      "Txt_Talk_Common_Rainbow_Bridge_FieldEvent_01_1": {
+        "SelfId": "Txt_Talk_Common_Rainbow_Bridge_FieldEvent_01_1",
+        "Text": "절벽이 있다."
+      },
+      "Txt_Talk_Common_Rainbow_Bridge_FieldEvent_01_2": {
+        "SelfId": "Txt_Talk_Common_Rainbow_Bridge_FieldEvent_01_2",
+        "Text": "이대로는 도저히\r\n앞으로 나아갈 수 없다."
+      },
+      "Txt_Talk_Common_Rainbow_Bridge_FieldEvent_01_3": {
+        "SelfId": "Txt_Talk_Common_Rainbow_Bridge_FieldEvent_01_3",
+        "Text": "{I_NAME}<IfKRVowel_I_NAME(를,을)> 사용하시겠습니까?"
+      },
+      "Txt_Talk_Common_TREASURE_1": {
+        "SelfId": "Txt_Talk_Common_TREASURE_1",
+        "Text": "{LEADER}<IfKRVowel_LEADER(는,은)> 보물 상자를 열었다!"
+      },
+      "Txt_Talk_Common_TREASURE_2": {
+        "SelfId": "Txt_Talk_Common_TREASURE_2",
+        "Text": "그러나 보물 상자는 텅 비어 있었다......"
+      },
+      "Txt_Talk_Common_TREASURE_3": {
+        "SelfId": "Txt_Talk_Common_TREASURE_3",
+        "Text": "{LEADER}<IfKRVowel_LEADER(는,은)> 보물 상자를 살펴보았다."
+      },
+      "Txt_Talk_Common_TREASURE_5": {
+        "SelfId": "Txt_Talk_Common_TREASURE_5",
+        "Text": "놀랍게도!\r\n{I_NAME}<IfKRVowel_I_NAME(를,을)> 발견했다!"
+      },
+      "Txt_Talk_Common_TREASURE_7": {
+        "SelfId": "Txt_Talk_Common_TREASURE_7",
+        "Text": "{I_NAME}<IfKRVowel_I_NAME(를,을)>\r\n{BAG}에 넣었다."
+      },
+      "Txt_Talk_Common_TREASURE_8": {
+        "SelfId": "Txt_Talk_Common_TREASURE_8",
+        "Text": "{LEADER}<IfKRVowel_LEADER(는,은)> {VALUE}골드를 획득했다."
+      },
+      "Txt_Talk_Common_TREASURE_9": {
+        "SelfId": "Txt_Talk_Common_TREASURE_9",
+        "Text": "보물 상자의 정체는\r\n{WORD}<IfKRVowel_WORD(였,이었)>다!"
+      },
+      "Txt_Talk_Common_TREASURE_11": {
+        "SelfId": "Txt_Talk_Common_TREASURE_11",
+        "Text": "{LEADER}<IfKRVowel_LEADER(는,은)>\r\n{I_NAME}<IfKRVowel_I_NAME(를,을)> 획득했다."
+      },
+      "Txt_Talk_Common_STORAGE_4": {
+        "SelfId": "Txt_Talk_Common_STORAGE_4",
+        "Text": "특별히 아무것도 발견하지 못했다."
+      },
+      "Txt_Talk_Common_POT_1": {
+        "SelfId": "Txt_Talk_Common_POT_1",
+        "Text": "{LEADER}<IfKRVowel_LEADER(는,은)> 항아리 안을\r\n들여다보았다."
+      },
+      "Txt_Talk_Common_BOOKSHELF_1": {
+        "SelfId": "Txt_Talk_Common_BOOKSHELF_1",
+        "Text": "{LEADER}<IfKRVowel_LEADER(는,은)> 책장을 살펴보았다."
+      },
+      "Txt_Talk_Common_BARREL_1": {
+        "SelfId": "Txt_Talk_Common_BARREL_1",
+        "Text": "{LEADER}<IfKRVowel_LEADER(는,은)> 나무통 속을\r\n들여다보았다."
+      },
+      "Txt_Talk_Common_GROUND_1": {
+        "SelfId": "Txt_Talk_Common_GROUND_1",
+        "Text": "{LEADER}<IfKRVowel_LEADER(는,은)> 발밑을 살펴보았다!"
+      },
+      "Txt_Talk_Common_BAG_1": {
+        "SelfId": "Txt_Talk_Common_BAG_1",
+        "Text": "{LEADER}<IfKRVowel_LEADER(는,은)>\r\n주머니를 들여다보았다."
+      },
+      "Txt_Talk_Common_BAG_2": {
+        "SelfId": "Txt_Talk_Common_BAG_2",
+        "Text": "그러나 아무것도 발견하지 못했다."
+      },
+      "Txt_Talk_Common_WOODBOX_1": {
+        "SelfId": "Txt_Talk_Common_WOODBOX_1",
+        "Text": "{LEADER}<IfKRVowel_LEADER(는,은)> 나무 상자를 열었다!"
+      },
+      "Txt_Talk_Common_SHINE_1": {
+        "SelfId": "Txt_Talk_Common_SHINE_1",
+        "Text": "{I_NAME}<IfKRVowel_I_NAME(를,을)> 획득했다."
+      },
+      "Txt_Talk_Common_SHINE_2": {
+        "SelfId": "Txt_Talk_Common_SHINE_2",
+        "Text": "{I_NAME}<IfKRVowel_I_NAME(를,을)> {VALUE}개 획득했다."
+      },
+      "Txt_Talk_Common_SHINE_3": {
+        "SelfId": "Txt_Talk_Common_SHINE_3",
+        "Text": "{VALUE}골드를 획득했다."
+      },
+      "Txt_Talk_Common_Fireplace_1": {
+        "SelfId": "Txt_Talk_Common_Fireplace_1",
+        "Text": "난로 안에서 불이 타오르고 있다.\r\n아주 따뜻하다."
+      },
+      "Txt_Talk_Common_Well_1": {
+        "SelfId": "Txt_Talk_Common_Well_1",
+        "Text": "{LEADER}<IfKRVowel_LEADER(는,은)> 우물 안을\r\n들여다보았다."
+      },
+      "Txt_Talk_Common_Ozabuton_1": {
+        "SelfId": "Txt_Talk_Common_Ozabuton_1",
+        "Text": "뭔가 푹신푹신하다.\r\n방석이라 하는 물건 같다."
+      },
+      "Txt_Talk_Common_Shield_1": {
+        "SelfId": "Txt_Talk_Common_Shield_1",
+        "Text": "방패가 장식되어 있다."
+      },
+      "Txt_Talk_Common_Spear_2": {
+        "SelfId": "Txt_Talk_Common_Spear_2",
+        "Text": "창이 장식되어 있다."
+      },
+      "Txt_Talk_Common_Axe_1": {
+        "SelfId": "Txt_Talk_Common_Axe_1",
+        "Text": "도끼가 장식되어 있다."
+      },
+      "Txt_Talk_Common_Sword_1": {
+        "SelfId": "Txt_Talk_Common_Sword_1",
+        "Text": "검이 장식되어 있다."
+      },
+      "Txt_Talk_Common_Mirror_1": {
+        "SelfId": "Txt_Talk_Common_Mirror_1",
+        "Text": "{LEADER}<IfKRVowel_LEADER(는,은)> 거울을 들여다보았다."
+      },
+      "Txt_Talk_Common_Mirror_2": {
+        "SelfId": "Txt_Talk_Common_Mirror_2",
+        "Text": "피곤한 얼굴이 비친다."
+      },
+      "Txt_Talk_Common_Mirror_3": {
+        "SelfId": "Txt_Talk_Common_Mirror_3",
+        "Text": "난 역시 예쁜걸?\r\n{LEADER}<IfKRVowel_LEADER(는,은)> 살짝 안심했다."
+      },
+      "Txt_Talk_Common_Mirror_4": {
+        "SelfId": "Txt_Talk_Common_Mirror_4",
+        "Text": "역시 난 은근히 잘생겼군.\r\n{LEADER}<IfKRVowel_LEADER(는,은)> 우쭐해졌다."
+      },
+      "Txt_Talk_Common_Mirror_5": {
+        "SelfId": "Txt_Talk_Common_Mirror_5",
+        "Text": "약간 늠름해진 것 같은\r\n기분이 들었다."
+      },
+      "Txt_Talk_Common_Mirror_6": {
+        "SelfId": "Txt_Talk_Common_Mirror_6",
+        "Text": "거기에는 말끔한 얼굴이 비쳤다."
+      },
+      "Txt_Talk_Common_Mirror_7": {
+        "SelfId": "Txt_Talk_Common_Mirror_7",
+        "Text": "머리카락이 약간 흐트러져 있다.\r\n{LEADER}<IfKRVowel_LEADER(는,은)> 머리를 쓸어 올렸다."
+      },
+      "Txt_Talk_Common_Mirror_8": {
+        "SelfId": "Txt_Talk_Common_Mirror_8",
+        "Text": "그리고 싱긋 웃어 보았다."
+      },
+      "Txt_Talk_Common_Mirror_9": {
+        "SelfId": "Txt_Talk_Common_Mirror_9",
+        "Text": "그리고 살짝 거만한 포즈를\r\n취해 보았다."
+      },
+      "Txt_Talk_Common_Mirror_10": {
+        "SelfId": "Txt_Talk_Common_Mirror_10",
+        "Text": "이봐, {LEADER}.\r\n뭐 하는 거야?\r\n어서 가자고."
+      },
+      "Txt_Talk_Common_Mirror_11": {
+        "SelfId": "Txt_Talk_Common_Mirror_11",
+        "Text": "자꾸만 히죽거리는 얼굴이 비친다."
+      },
+      "Txt_Talk_Common_LockedDoor_1": {
+        "SelfId": "Txt_Talk_Common_LockedDoor_1",
+        "Text": "문에는 자물쇠가 걸려 있다!"
+      },
+      "Txt_Talk_Common_LockedDoor_2": {
+        "SelfId": "Txt_Talk_Common_LockedDoor_2",
+        "Text": "문에는 자물쇠가 걸려 있다!\r\n가지고 있는 열쇠로는 열 수 없었다."
+      },
+      "Txt_Talk_Common_Yggdrasil_1": {
+        "SelfId": "Txt_Talk_Common_Yggdrasil_1",
+        "Text": "{LEADER}<IfKRVowel_LEADER(는,은)> 눈앞의 나무를 조사했다."
+      },
+      "Txt_Talk_Common_Yggdrasil_2": {
+        "SelfId": "Txt_Talk_Common_Yggdrasil_2",
+        "Text": "아직 잎이 돋아나지 않은 듯하다."
+      },
+      "Txt_Talk_Common_Corpse_1": {
+        "SelfId": "Txt_Talk_Common_Corpse_1",
+        "Text": "반응이 없다.\r\n그냥 시체인 것 같다......"
+      },
+      "Txt_Talk_Common_Lancel_1": {
+        "SelfId": "Txt_Talk_Common_Lancel_1",
+        "Text": "{LEADER}<IfKRVowel_LEADER(는,은)> {WORD}에게 말을 걸었다.\r\n하지만 대답은 없었다."
+      },
+      "Txt_Talk_Common_Animal_3": {
+        "SelfId": "Txt_Talk_Common_Animal_3",
+        "Text": "냐앙~"
+      },
+      "Txt_Talk_Common_Animal_4": {
+        "SelfId": "Txt_Talk_Common_Animal_4",
+        "Text": "갸르르......"
+      },
+      "Txt_Talk_Common_Animal_5": {
+        "SelfId": "Txt_Talk_Common_Animal_5",
+        "Text": "후우!"
+      },
+      "Txt_Talk_Common_Animal_6": {
+        "SelfId": "Txt_Talk_Common_Animal_6",
+        "Text": "냐앙~"
+      },
+      "Txt_Talk_Common_Animal_10": {
+        "SelfId": "Txt_Talk_Common_Animal_10",
+        "Text": "히힝!"
+      },
+      "Txt_Talk_Common_Animal_13": {
+        "SelfId": "Txt_Talk_Common_Animal_13",
+        "Text": "부르르르르!"
+      },
+      "Txt_Talk_Common_Kiesari_1": {
+        "SelfId": "Txt_Talk_Common_Kiesari_1",
+        "Text": "어? 뭐지?"
+      },
+      "Txt_Talk_Common_Kiesari_2": {
+        "SelfId": "Txt_Talk_Common_Kiesari_2",
+        "Text": "어라, 내가 잘못 들었나?"
+      },
+      "Txt_Talk_Common_Kiesari_3": {
+        "SelfId": "Txt_Talk_Common_Kiesari_3",
+        "Text": "으앗, 이렇게 갑자기 말을 걸면......\r\n어? 아무도 없잖아?"
+      },
+      "Txt_Talk_Common_Kiesari_4": {
+        "SelfId": "Txt_Talk_Common_Kiesari_4",
+        "Text": "응? 무슨 소리가 들린 것 같았는데\r\n기분 탓인가......"
+      },
+      "Txt_Talk_Common_Kiesari_5": {
+        "SelfId": "Txt_Talk_Common_Kiesari_5",
+        "Text": "으엇!?\r\n방금 들린 소리는 뭐지?"
+      },
+      "Txt_Talk_Common_Kiesari_6": {
+        "SelfId": "Txt_Talk_Common_Kiesari_6",
+        "Text": "흐아!"
+      },
+      "Txt_Talk_Common_Kiesari_7": {
+        "SelfId": "Txt_Talk_Common_Kiesari_7",
+        "Text": "아무도 없는데\r\n소리가 들리다니!?"
+      },
+      "Txt_Talk_Common_Kiesari_8": {
+        "SelfId": "Txt_Talk_Common_Kiesari_8",
+        "Text": "오오, 신이시여. 당신이십니까?"
+      },
+      "Txt_Talk_Common_Kiesari_9": {
+        "SelfId": "Txt_Talk_Common_Kiesari_9",
+        "Text": "어라? 방금 사람 목소리가......\r\n으음, 많이 피곤했나."
+      },
+      "Txt_Talk_Common_Kiesari_10": {
+        "SelfId": "Txt_Talk_Common_Kiesari_10",
+        "Text": "어라? 뭐지?\r\n잘못 들었나?"
+      },
+      "Txt_Talk_Common_Kiesari_11": {
+        "SelfId": "Txt_Talk_Common_Kiesari_11",
+        "Text": "윽, 누구냐!\r\n숨지 말고 나와라!"
+      },
+      "Txt_Talk_Common_Kiesari_12": {
+        "SelfId": "Txt_Talk_Common_Kiesari_12",
+        "Text": "으앗, 뭐야? 뭐야?\r\n무슨 일이 일어난 거야?"
+      },
+      "Txt_Talk_Common_Kiesari_13": {
+        "SelfId": "Txt_Talk_Common_Kiesari_13",
+        "Text": "으윽, 살기가 느껴지는걸!"
+      },
+      "Txt_Talk_Common_Kiesari_14": {
+        "SelfId": "Txt_Talk_Common_Kiesari_14",
+        "Text": "어... 기분 탓인가?"
+      },
+      "Txt_Talk_Common_Kiesari_15": {
+        "SelfId": "Txt_Talk_Common_Kiesari_15",
+        "Text": "네?\r\n누가 저 불렀나요?"
+      },
+      "Txt_Talk_Common_Kiesari_16": {
+        "SelfId": "Txt_Talk_Common_Kiesari_16",
+        "Text": "아~무~도 없어~\r\n라라라~♪"
+      },
+      "Txt_Talk_Common_Kiesari_17": {
+        "SelfId": "Txt_Talk_Common_Kiesari_17",
+        "Text": "이상하네. 방금 누가\r\n나한테 말을 건 것 같았는데."
+      },
+      "Txt_Talk_Common_Kiesari_18": {
+        "SelfId": "Txt_Talk_Common_Kiesari_18",
+        "Text": "쳇, 급기야 환청이 들리는군.\r\n이런 곳에 오래 있으면\r\n머리가 이상해질 법도 하지......"
+      },
+      "Txt_Talk_Common_Kiesari_19": {
+        "SelfId": "Txt_Talk_Common_Kiesari_19",
+        "Text": "누구냐!?"
+      },
+      "Txt_Talk_Common_Kiesari_20": {
+        "SelfId": "Txt_Talk_Common_Kiesari_20",
+        "Text": "이상하네.\r\n아무도 없잖아?"
+      },
+      "Txt_Talk_Common_Kiesari_21": {
+        "SelfId": "Txt_Talk_Common_Kiesari_21",
+        "Text": "모습을 바꿔도\r\n우리는 알 수 있습니다."
+      },
+      "Txt_Talk_Common_Kiesari_22": {
+        "SelfId": "Txt_Talk_Common_Kiesari_22",
+        "Text": "어, 뭐지?"
+      },
+      "Txt_Talk_Common_Kiesari_23": {
+        "SelfId": "Txt_Talk_Common_Kiesari_23",
+        "Text": "음? 아무도 없는데, 이상하구먼."
+      },
+      "Txt_Talk_Common_Kiesari_24": {
+        "SelfId": "Txt_Talk_Common_Kiesari_24",
+        "Text": "으앗! 깜짝이야."
+      },
+      "Txt_Talk_Common_Kiesari_25": {
+        "SelfId": "Txt_Talk_Common_Kiesari_25",
+        "Text": "방금 진짜 소리 들렸다.\r\n우리 거짓말 안 한다."
+      },
+      "Txt_Talk_Common_Kiesari_26": {
+        "SelfId": "Txt_Talk_Common_Kiesari_26",
+        "Text": "응? 누가 무슨 말 했나?"
+      },
+      "Txt_Talk_Common_Kiesari_27": {
+        "SelfId": "Txt_Talk_Common_Kiesari_27",
+        "Text": "아무도 안 보인다.\r\n거기 누구 있나?"
+      },
+      "Txt_Talk_Common_Kiesari_28": {
+        "SelfId": "Txt_Talk_Common_Kiesari_28",
+        "Text": "방금 뭐야?\r\n혹시 유령?\r\n꺄악~!"
+      },
+      "Txt_Talk_Common_Kiesari_29": {
+        "SelfId": "Txt_Talk_Common_Kiesari_29",
+        "Text": "꺄!\r\n방금 들린 소리 뭐야?"
+      },
+      "Txt_Talk_Common_Kiesari_30": {
+        "SelfId": "Txt_Talk_Common_Kiesari_30",
+        "Text": "...어머?\r\n누가 나 불렀어?"
+      },
+      "Txt_Talk_Common_Kiesari_31": {
+        "SelfId": "Txt_Talk_Common_Kiesari_31",
+        "Text": "이상하네. 아무도 없잖아?"
+      },
+      "Txt_Talk_Common_Kiesari_32": {
+        "SelfId": "Txt_Talk_Common_Kiesari_32",
+        "Text": "꺅! 누구야?\r\n뭐 하는 거야!?"
+      },
+      "Txt_Talk_Common_Kiesari_33": {
+        "SelfId": "Txt_Talk_Common_Kiesari_33",
+        "Text": "......귀가 안 좋아졌나?\r\n아니면 눈이......"
+      },
+      "Txt_Talk_Common_Kiesari_34": {
+        "SelfId": "Txt_Talk_Common_Kiesari_34",
+        "Text": "이상하네요......\r\n분명 누군가의 목소리가\r\n들린 것 같았는데......"
+      },
+      "Txt_Talk_Common_Kiesari_35": {
+        "SelfId": "Txt_Talk_Common_Kiesari_35",
+        "Text": "누구세요?\r\n누가 거기 숨어 계신 건가요?"
+      },
+      "Txt_Talk_Common_Kiesari_36": {
+        "SelfId": "Txt_Talk_Common_Kiesari_36",
+        "Text": "넵!"
+      },
+      "Txt_Talk_Common_Kiesari_37": {
+        "SelfId": "Txt_Talk_Common_Kiesari_37",
+        "Text": "......?"
+      },
+      "Txt_Talk_Common_Kiesari_38": {
+        "SelfId": "Txt_Talk_Common_Kiesari_38",
+        "Text": "거기 있는 건 누구야?"
+      },
+      "Txt_Talk_Common_Kiesari_39": {
+        "SelfId": "Txt_Talk_Common_Kiesari_39",
+        "Text": "이상하네. 환청인가?"
+      },
+      "Txt_Talk_Common_Kiesari_40": {
+        "SelfId": "Txt_Talk_Common_Kiesari_40",
+        "Text": "누군가 거기 있나 보군요.\r\n사람의 기운이 느껴집니다."
+      },
+      "Txt_Talk_Common_Kiesari_41": {
+        "SelfId": "Txt_Talk_Common_Kiesari_41",
+        "Text": "뭐야, 지금 이 소린!\r\n서...설마......"
+      },
+      "Txt_Talk_Common_Kiesari_42": {
+        "SelfId": "Txt_Talk_Common_Kiesari_42",
+        "Text": "어라, 어디서 사람 소리가......\r\n별 이상한 일도 다 있네......"
+      },
+      "Txt_Talk_Common_Kiesari_43": {
+        "SelfId": "Txt_Talk_Common_Kiesari_43",
+        "Text": "방금 뭔가 들렸다.\r\n하지만 아무도 없다. 이상하다."
+      },
+      "Txt_Talk_Common_Kiesari_44": {
+        "SelfId": "Txt_Talk_Common_Kiesari_44",
+        "Text": "방금 그 목소리 뭐야?"
+      },
+      "Txt_Talk_Common_Kiesari_45": {
+        "SelfId": "Txt_Talk_Common_Kiesari_45",
+        "Text": "아름다움이란 뭘까......"
+      },
+      "Txt_Talk_Common_Kiesari_46": {
+        "SelfId": "Txt_Talk_Common_Kiesari_46",
+        "Text": "앗, 내가 이런 혼잣말을 하다니."
+      },
+      "Txt_Talk_Common_Kiesari_47": {
+        "SelfId": "Txt_Talk_Common_Kiesari_47",
+        "Text": "뭐야? 게 누구 있나?\r\n시끄럽구먼!"
+      },
+      "Txt_Talk_Common_Kiesari_48": {
+        "SelfId": "Txt_Talk_Common_Kiesari_48",
+        "Text": "아앗! 방금 신의 목소리가\r\n들린 것 같은데......"
+      },
+      "Txt_Talk_Common_Kiesari_49": {
+        "SelfId": "Txt_Talk_Common_Kiesari_49",
+        "Text": "이곳은 루이다 주점이야.\r\n모험자들이......"
+      },
+      "Txt_Talk_Common_Kiesari_50": {
+        "SelfId": "Txt_Talk_Common_Kiesari_50",
+        "Text": "......어, 뭐야?\r\n아무도 없잖아?"
+      },
+      "Txt_Talk_Common_Kiesari_51": {
+        "SelfId": "Txt_Talk_Common_Kiesari_51",
+        "Text": "휴...... 그 애는\r\n지금쯤 뭘 하고 있을까......"
+      },
+      "Txt_Talk_Common_Kiesari_52": {
+        "SelfId": "Txt_Talk_Common_Kiesari_52",
+        "Text": "후우."
+      },
+      "Txt_Talk_Common_Kiesari_53": {
+        "SelfId": "Txt_Talk_Common_Kiesari_53",
+        "Text": "그르르르르."
+      },
+      "Txt_Talk_Common_Kiesari_54": {
+        "SelfId": "Txt_Talk_Common_Kiesari_54",
+        "Text": "부르르르르."
+      },
+      "Txt_Talk_Common_Kiesari_55": {
+        "SelfId": "Txt_Talk_Common_Kiesari_55",
+        "Text": "안 보여! 안 보인다고!"
+      },
+      "Txt_Talk_Common_Kiesari_56": {
+        "SelfId": "Txt_Talk_Common_Kiesari_56",
+        "Text": "그래도 계속 모습을 숨길 작정인가?\r\n이 몸한테는 다 보인다고."
+      },
+      "Txt_Talk_Common_Kiesari_57": {
+        "SelfId": "Txt_Talk_Common_Kiesari_57",
+        "Text": "피키잇?"
+      },
+      "Txt_Talk_Common_Kiesari_58": {
+        "SelfId": "Txt_Talk_Common_Kiesari_58",
+        "Text": "흐아!"
+      },
+      "Txt_Talk_Common_Kiesari_59": {
+        "SelfId": "Txt_Talk_Common_Kiesari_59",
+        "Text": "그르르르르."
+      },
+      "Txt_Talk_Common_Kiesari_60": {
+        "SelfId": "Txt_Talk_Common_Kiesari_60",
+        "Text": "......귀가 안 좋아졌나?\r\n아니면 눈이......"
+      },
+      "Txt_Talk_Common_Kiesari_61": {
+        "SelfId": "Txt_Talk_Common_Kiesari_61",
+        "Text": "응? 무슨 소리가 들린 것 같았는데\r\n기분 탓인가......"
+      },
+      "Txt_Talk_Common_Kiesari_62": {
+        "SelfId": "Txt_Talk_Common_Kiesari_62",
+        "Text": "쳇, 급기야 환청이 들리는군.\r\n이런 곳에 오래 있으면\r\n머리가 이상해질 법도 하지......"
+      },
+      "Txt_Talk_Common_Kiesari_63": {
+        "SelfId": "Txt_Talk_Common_Kiesari_63",
+        "Text": "거기 있는 건 누구야?"
+      },
+      "Txt_Talk_Common_Kiesari_64": {
+        "SelfId": "Txt_Talk_Common_Kiesari_64",
+        "Text": "이상하네. 환청인가?"
+      },
+      "Txt_Talk_Common_Kiesari_65": {
+        "SelfId": "Txt_Talk_Common_Kiesari_65",
+        "Text": "어라, 내가 잘못 들었나?"
+      },
+      "Txt_Talk_Common_Kiesari_66": {
+        "SelfId": "Txt_Talk_Common_Kiesari_66",
+        "Text": "꺄!\r\n방금 들린 소리 뭐야?"
+      },
+      "Txt_Talk_Common_Kiesari_67": {
+        "SelfId": "Txt_Talk_Common_Kiesari_67",
+        "Text": "피키잇?"
+      },
+      "Txt_Talk_Common_Kiesari_68": {
+        "SelfId": "Txt_Talk_Common_Kiesari_68",
+        "Text": "어라, 어디서 사람 소리가......\r\n별 이상한 일도 다 있네......"
+      },
+      "Txt_Talk_Common_Kiesari_69": {
+        "SelfId": "Txt_Talk_Common_Kiesari_69",
+        "Text": "부르르르르."
+      },
+      "Txt_Talk_Common_Kiesari_70": {
+        "SelfId": "Txt_Talk_Common_Kiesari_70",
+        "Text": "어, 뭐지?"
+      },
+      "Txt_Talk_Common_Kiesari_71": {
+        "SelfId": "Txt_Talk_Common_Kiesari_71",
+        "Text": "누구냐!?"
+      },
+      "Txt_Talk_Common_Kiesari_72": {
+        "SelfId": "Txt_Talk_Common_Kiesari_72",
+        "Text": "이상하네.\r\n아무도 없잖아?"
+      },
+      "Txt_Talk_Common_Kiesari_73": {
+        "SelfId": "Txt_Talk_Common_Kiesari_73",
+        "Text": "아~무~도 없어~\r\n라라라~♪"
+      },
+      "Txt_Talk_Common_Kiesari_74": {
+        "SelfId": "Txt_Talk_Common_Kiesari_74",
+        "Text": "그래도 계속 모습을 숨길 작정인가?\r\n이 몸한테는 다 보인다고."
+      },
+      "Txt_Talk_Common_Kiesari_75": {
+        "SelfId": "Txt_Talk_Common_Kiesari_75",
+        "Text": "으엇!?\r\n방금 들린 소리는 뭐지?"
+      },
+      "Txt_Talk_Common_Monster_1": {
+        "SelfId": "Txt_Talk_Common_Monster_1",
+        "Text": "너 누구야?"
+      },
+      "Txt_Talk_Common_Monster_2": {
+        "SelfId": "Txt_Talk_Common_Monster_2",
+        "Text": "엄마야! 이게 뭐야!"
+      },
+      "Txt_Talk_Common_Monster_3": {
+        "SelfId": "Txt_Talk_Common_Monster_3",
+        "Text": "우왓, 괴, 괴물이다!"
+      },
+      "Txt_Talk_Common_Monster_4": {
+        "SelfId": "Txt_Talk_Common_Monster_4",
+        "Text": "으아아아아......"
+      },
+      "Txt_Talk_Common_Monster_5": {
+        "SelfId": "Txt_Talk_Common_Monster_5",
+        "Text": "오오옷.\r\n이 괴물은 뭐야!"
+      },
+      "Txt_Talk_Common_Monster_6": {
+        "SelfId": "Txt_Talk_Common_Monster_6",
+        "Text": "히이익!\r\n목숨만은 살려 주십시오!"
+      },
+      "Txt_Talk_Common_Monster_7": {
+        "SelfId": "Txt_Talk_Common_Monster_7",
+        "Text": "이 괴물이!\r\n여기서 물러가지 않으면\r\n천벌이 내릴 게야."
+      },
+      "Txt_Talk_Common_Monster_8": {
+        "SelfId": "Txt_Talk_Common_Monster_8",
+        "Text": "오옷, 왜 마물이 여기에!\r\n부...붙잡아서 연구 대상으로!"
+      },
+      "Txt_Talk_Common_Monster_9": {
+        "SelfId": "Txt_Talk_Common_Monster_9",
+        "Text": "윽, 뭐야 이 녀석?\r\n덤빌 테면 덤벼 봐."
+      },
+      "Txt_Talk_Common_Monster_10": {
+        "SelfId": "Txt_Talk_Common_Monster_10",
+        "Text": "이 괴물 놈아!\r\n썩 물러나지 않으면\r\n베어 버릴 테다!"
+      },
+      "Txt_Talk_Common_Monster_11": {
+        "SelfId": "Txt_Talk_Common_Monster_11",
+        "Text": "뭐야 넌?\r\n마음껏 덤벼 보라고!"
+      },
+      "Txt_Talk_Common_Monster_12": {
+        "SelfId": "Txt_Talk_Common_Monster_12",
+        "Text": "오, 한판 붙어 볼 테냐?\r\n상대해 주지!"
+      },
+      "Txt_Talk_Common_Monster_13": {
+        "SelfId": "Txt_Talk_Common_Monster_13",
+        "Text": "으왓!"
+      },
+      "Txt_Talk_Common_Monster_14": {
+        "SelfId": "Txt_Talk_Common_Monster_14",
+        "Text": "괴, 괴, 괴물이다~!\r\n도~와~줘~"
+      },
+      "Txt_Talk_Common_Monster_15": {
+        "SelfId": "Txt_Talk_Common_Monster_15",
+        "Text": "왜 괴물이 이런 곳에!"
+      },
+      "Txt_Talk_Common_Monster_16": {
+        "SelfId": "Txt_Talk_Common_Monster_16",
+        "Text": "크엑, 마물이!\r\n사, 살려 줘."
+      },
+      "Txt_Talk_Common_Monster_17": {
+        "SelfId": "Txt_Talk_Common_Monster_17",
+        "Text": "이 괴물 녀석,\r\n해치워 버릴까."
+      },
+      "Txt_Talk_Common_Monster_18": {
+        "SelfId": "Txt_Talk_Common_Monster_18",
+        "Text": "어라? 자네는......"
+      },
+      "Txt_Talk_Common_Monster_19": {
+        "SelfId": "Txt_Talk_Common_Monster_19",
+        "Text": "무슨 일인가?\r\n그런 모습으로?"
+      },
+      "Txt_Talk_Common_Monster_20": {
+        "SelfId": "Txt_Talk_Common_Monster_20",
+        "Text": "엄마야~!"
+      },
+      "Txt_Talk_Common_Monster_21": {
+        "SelfId": "Txt_Talk_Common_Monster_21",
+        "Text": "히이익!\r\n까, 깜짝이야!"
+      },
+      "Txt_Talk_Common_Monster_22": {
+        "SelfId": "Txt_Talk_Common_Monster_22",
+        "Text": "우왓, 너 뭐야?\r\n괴물?"
+      },
+      "Txt_Talk_Common_Monster_23": {
+        "SelfId": "Txt_Talk_Common_Monster_23",
+        "Text": "으엇,\r\n괴물이 등장했군."
+      },
+      "Txt_Talk_Common_Monster_24": {
+        "SelfId": "Txt_Talk_Common_Monster_24",
+        "Text": "괴물이다! 괴물이야!\r\n살려 줘! 살려 줘!"
+      },
+      "Txt_Talk_Common_Monster_25": {
+        "SelfId": "Txt_Talk_Common_Monster_25",
+        "Text": "너 뭐 하러 왔어?\r\n마을에서 나가."
+      },
+      "Txt_Talk_Common_Monster_26": {
+        "SelfId": "Txt_Talk_Common_Monster_26",
+        "Text": "으앙~ 무서워~"
+      },
+      "Txt_Talk_Common_Monster_27": {
+        "SelfId": "Txt_Talk_Common_Monster_27",
+        "Text": "꺄아~ 마, 마물이다!\r\n사람 살려~!"
+      },
+      "Txt_Talk_Common_Monster_28": {
+        "SelfId": "Txt_Talk_Common_Monster_28",
+        "Text": "히익!"
+      },
+      "Txt_Talk_Common_Monster_29": {
+        "SelfId": "Txt_Talk_Common_Monster_29",
+        "Text": "안 돼!\r\n여기는 인간 전용이야."
+      },
+      "Txt_Talk_Common_Monster_30": {
+        "SelfId": "Txt_Talk_Common_Monster_30",
+        "Text": "나, 날 잡아먹어도\r\n맛이 없어!"
+      },
+      "Txt_Talk_Common_Monster_31": {
+        "SelfId": "Txt_Talk_Common_Monster_31",
+        "Text": "뭐예요, 당신은!\r\n거기 누구 없나요! 병사를 불러 줘요!"
+      },
+      "Txt_Talk_Common_Monster_32": {
+        "SelfId": "Txt_Talk_Common_Monster_32",
+        "Text": "엄마야~!\r\n사람 살려~!"
+      },
+      "Txt_Talk_Common_Monster_33": {
+        "SelfId": "Txt_Talk_Common_Monster_33",
+        "Text": "미안해, 용서해 줘!\r\n잡아먹지 마!"
+      },
+      "Txt_Talk_Common_Monster_34": {
+        "SelfId": "Txt_Talk_Common_Monster_34",
+        "Text": "어머~!"
+      },
+      "Txt_Talk_Common_Monster_35": {
+        "SelfId": "Txt_Talk_Common_Monster_35",
+        "Text": "이곳은 당신들이\r\n올 만한 곳이 아닙니다.\r\n나가 주십시오!"
+      },
+      "Txt_Talk_Common_Monster_36": {
+        "SelfId": "Txt_Talk_Common_Monster_36",
+        "Text": "이 괴물이!\r\n이곳이 우리의 아지트라는 걸 알고\r\n들어온 거냐!"
+      },
+      "Txt_Talk_Common_Monster_37": {
+        "SelfId": "Txt_Talk_Common_Monster_37",
+        "Text": "어엇!\r\n못 본 척 가주세요~!"
+      },
+      "Txt_Talk_Common_Monster_38": {
+        "SelfId": "Txt_Talk_Common_Monster_38",
+        "Text": "괴물 무서워!\r\n괴물 싫어!"
+      },
+      "Txt_Talk_Common_Monster_39": {
+        "SelfId": "Txt_Talk_Common_Monster_39",
+        "Text": "수우 신이시여! 도와주세요!"
+      },
+      "Txt_Talk_Common_Monster_40": {
+        "SelfId": "Txt_Talk_Common_Monster_40",
+        "Text": "병사들은? 병사들은\r\n뭘 하고 있는 거죠!\r\n이 마물을 쫓아 주세요."
+      },
+      "Txt_Talk_Common_Monster_41": {
+        "SelfId": "Txt_Talk_Common_Monster_41",
+        "Text": "뭐야? 너희들 따윈\r\n하나도 안 무서워.\r\n썩 꺼져!"
+      },
+      "Txt_Talk_Common_Monster_42": {
+        "SelfId": "Txt_Talk_Common_Monster_42",
+        "Text": "오오, 신이시여......\r\n가엾은 신의 자식을\r\n구원해 주소서!"
+      },
+      "Txt_Talk_Common_Monster_43": {
+        "SelfId": "Txt_Talk_Common_Monster_43",
+        "Text": "뭐야, 너희들!\r\n여긴 강한 사람들이\r\n엄청 많거든!"
+      },
+      "Txt_Talk_Common_Monster_44": {
+        "SelfId": "Txt_Talk_Common_Monster_44",
+        "Text": "아아, 여보!\r\n저를 지켜 줘요......"
+      },
+      "Txt_Talk_Common_Monster_45": {
+        "SelfId": "Txt_Talk_Common_Monster_45",
+        "Text": "하아악~!"
+      },
+      "Txt_Talk_Common_Monster_46": {
+        "SelfId": "Txt_Talk_Common_Monster_46",
+        "Text": "그르르르릉."
+      },
+      "Txt_Talk_Common_Monster_47": {
+        "SelfId": "Txt_Talk_Common_Monster_47",
+        "Text": "이~히히히히~힝!"
+      },
+      "Txt_Talk_Common_Monster_48": {
+        "SelfId": "Txt_Talk_Common_Monster_48",
+        "Text": "뭐야, 마물이잖아......"
+      },
+      "Txt_Talk_Common_Monster_49": {
+        "SelfId": "Txt_Talk_Common_Monster_49",
+        "Text": "모습을 바꿔서\r\n날 방심시킬 작정인가?\r\n그 방법은 안 통한다구."
+      },
+      "Txt_Talk_Common_Monster_50": {
+        "SelfId": "Txt_Talk_Common_Monster_50",
+        "Text": "피키잇~!"
+      },
+      "Txt_Talk_Common_Monster_51": {
+        "SelfId": "Txt_Talk_Common_Monster_51",
+        "Text": "히이익!\r\n목숨만은 살려 주십시오!"
+      },
+      "Txt_Talk_Common_Monster_52": {
+        "SelfId": "Txt_Talk_Common_Monster_52",
+        "Text": "그르르르릉."
+      },
+      "Txt_Talk_Common_Monster_53": {
+        "SelfId": "Txt_Talk_Common_Monster_53",
+        "Text": "나, 날 잡아먹어도\r\n맛이 없어!"
+      },
+      "Txt_Talk_Common_Monster_54": {
+        "SelfId": "Txt_Talk_Common_Monster_54",
+        "Text": "으아아아아......"
+      },
+      "Txt_Talk_Common_Monster_55": {
+        "SelfId": "Txt_Talk_Common_Monster_55",
+        "Text": "크엑, 마물이!\r\n사, 살려 줘."
+      },
+      "Txt_Talk_Common_Monster_56": {
+        "SelfId": "Txt_Talk_Common_Monster_56",
+        "Text": "어머~!"
+      },
+      "Txt_Talk_Common_Monster_57": {
+        "SelfId": "Txt_Talk_Common_Monster_57",
+        "Text": "엄마야! 이게 뭐야!"
+      },
+      "Txt_Talk_Common_Monster_58": {
+        "SelfId": "Txt_Talk_Common_Monster_58",
+        "Text": "어라? 자네는......"
+      },
+      "Txt_Talk_Common_Monster_59": {
+        "SelfId": "Txt_Talk_Common_Monster_59",
+        "Text": "무슨 일인가?\r\n그런 모습으로?"
+      },
+      "Txt_Talk_Common_Monster_60": {
+        "SelfId": "Txt_Talk_Common_Monster_60",
+        "Text": "꺄아~ 마, 마물이다!\r\n사람 살려~!"
+      },
+      "Txt_Talk_Common_Monster_61": {
+        "SelfId": "Txt_Talk_Common_Monster_61",
+        "Text": "피키잇~!"
+      },
+      "Txt_Talk_Common_Monster_62": {
+        "SelfId": "Txt_Talk_Common_Monster_62",
+        "Text": "어엇!\r\n못 본 척 가주세요~!"
+      },
+      "Txt_Talk_Common_Monster_63": {
+        "SelfId": "Txt_Talk_Common_Monster_63",
+        "Text": "이~히히히히~힝!"
+      },
+      "Txt_Talk_Common_Monster_64": {
+        "SelfId": "Txt_Talk_Common_Monster_64",
+        "Text": "엄마야~!"
+      },
+      "Txt_Talk_Common_Monster_65": {
+        "SelfId": "Txt_Talk_Common_Monster_65",
+        "Text": "이 괴물 녀석,\r\n해치워 버릴까."
+      },
+      "Txt_Talk_Common_Monster_66": {
+        "SelfId": "Txt_Talk_Common_Monster_66",
+        "Text": "괴, 괴, 괴물이다~!\r\n도~와~줘~"
+      },
+      "Txt_Talk_Common_Monster_67": {
+        "SelfId": "Txt_Talk_Common_Monster_67",
+        "Text": "모습을 바꿔서\r\n날 방심시킬 작정인가?\r\n그 방법은 안 통한다구."
+      },
+      "Txt_Talk_Common_Monster_68": {
+        "SelfId": "Txt_Talk_Common_Monster_68",
+        "Text": "오오옷.\r\n이 괴물은 뭐야!"
+      },
+      "Txt_Talk_Common_Slime_1": {
+        "SelfId": "Txt_Talk_Common_Slime_1",
+        "Text": "앗, 슬라임이다!"
+      },
+      "Txt_Talk_Common_Slime_2": {
+        "SelfId": "Txt_Talk_Common_Slime_2",
+        "Text": "훗, 뭐야? 슬라임이잖아?\r\n어서 저쪽으로 꺼져."
+      },
+      "Txt_Talk_Common_Slime_3": {
+        "SelfId": "Txt_Talk_Common_Slime_3",
+        "Text": "앗, 나 알아.\r\n슬라임, 슬라임."
+      },
+      "Txt_Talk_Common_Slime_4": {
+        "SelfId": "Txt_Talk_Common_Slime_4",
+        "Text": "우와~ 슬라임이다~\r\n뽀용뽀용~"
+      },
+      "Txt_Talk_Common_Slime_5": {
+        "SelfId": "Txt_Talk_Common_Slime_5",
+        "Text": "꺄아~! 귀여워~!"
+      },
+      "Txt_Talk_Common_Slime_6": {
+        "SelfId": "Txt_Talk_Common_Slime_6",
+        "Text": "어라, 이런 곳에 슬라임이......\r\n길을 잃었나 보네."
+      },
+      "Txt_Talk_Common_Slime_7": {
+        "SelfId": "Txt_Talk_Common_Slime_7",
+        "Text": "어머, 어서 와. 하지만 미안해.\r\n슬라임의 동료는 여긴 없어."
+      },
+      "Txt_Talk_Common_Slime_8": {
+        "SelfId": "Txt_Talk_Common_Slime_8",
+        "Text": "여어, 안녕.\r\n뽀용뽀용 뽀요용."
+      },
+      "Txt_Talk_Common_Slime_9": {
+        "SelfId": "Txt_Talk_Common_Slime_9",
+        "Text": "꺄아~! 귀여워~!"
+      },
+      "Txt_Talk_Common_Slime_10": {
+        "SelfId": "Txt_Talk_Common_Slime_10",
+        "Text": "여어, 안녕.\r\n뽀용뽀용 뽀요용."
+      },
+      "Txt_Talk_Common_ZomaBattle_1": {
+        "SelfId": "Txt_Talk_Common_ZomaBattle_1",
+        "Text": "호오.......\r\n내 방어벽을 없애는 방법을\r\n알고 있었을 줄이야."
+      },
+      "Txt_Talk_Common_ZomaBattle_2": {
+        "SelfId": "Txt_Talk_Common_ZomaBattle_2",
+        "Text": "하나 부질없는 짓이다.......\r\n자, 내 손아귀 안에서\r\n발버둥 치며 괴로워하도록 해라."
+      },
+      "Txt_Talk_Common_Field_MAIN_0_SCENE_0030_010_1": {
+        "SelfId": "Txt_Talk_Common_Field_MAIN_0_SCENE_0030_010_1",
+        "Text": "하늘 위쪽에서 무언가가\r\n닫히는 듯한 소리가 났다......."
+      },
+      "Txt_Talk_Common_Field_MAIN_0_SCENE_0030_010_2": {
+        "SelfId": "Txt_Talk_Common_Field_MAIN_0_SCENE_0030_010_2",
+        "Text": "놀랍게도 {WORD}<IfKRVowel_WORD(는,은)> 되살아났다!"
+      },
+      "Txt_Talk_Common_MBR_Escape_Sound": {
+        "SelfId": "Txt_Talk_Common_MBR_Escape_Sound",
+        "Text": "발소리를 눈치채고\r\n마물이 도망친 듯하다."
+      },
+      "Txt_Talk_Common_MBR_Escape_Smell": {
+        "SelfId": "Txt_Talk_Common_MBR_Escape_Smell",
+        "Text": "사람의 냄새를 눈치채고\r\n마물이 도망친 듯하다."
+      },
+      "Txt_Talk_Common_MBR_Escape_Look": {
+        "SelfId": "Txt_Talk_Common_MBR_Escape_Look",
+        "Text": "일행의 모습을 눈치채고\r\n마물이 도망친 듯하다."
+      },
+      "Txt_Talk_Common_MBR_Entry_1": {
+        "SelfId": "Txt_Talk_Common_MBR_Entry_1",
+        "Text": "마물들의 뜨거운 공연......\r\n몬스터 배틀 로드에 잘 오셨습니다.<KEY_WAIT>\r\n현재 개최 중인 랭크는...\r\n음? {LEADER} 님이 참가하실 수 있는 랭크가\r\n여기에는 없네요."
+      },
+      "Txt_Talk_Common_MBR_Entry_2": {
+        "SelfId": "Txt_Talk_Common_MBR_Entry_2",
+        "Text": "로마리아의 배틀 로드에\r\n아직 돌파하지 않은 랭크가 있는 듯하군요.\r\n그걸 도전해 주세요."
+      },
+      "Txt_Talk_Common_MBR_Entry_3": {
+        "SelfId": "Txt_Talk_Common_MBR_Entry_3",
+        "Text": "이시스의 배틀 로드에\r\n아직 돌파하지 않은 랭크가 있는 듯하군요.\r\n그걸 도전해 주세요."
+      },
+      "Txt_Talk_Common_MBR_Entry_4": {
+        "SelfId": "Txt_Talk_Common_MBR_Entry_4",
+        "Text": "사만오사의 배틀 로드에\r\n아직 돌파하지 않은 랭크가 있는 듯하군요.\r\n그걸 도전해 주세요."
+      },
+      "Txt_Talk_Common_MBR_Entry_5": {
+        "SelfId": "Txt_Talk_Common_MBR_Entry_5",
+        "Text": "멜키드의 배틀 로드에\r\n아직 돌파하지 않은 랭크가 있는 듯하군요.\r\n그걸 도전해 주세요."
+      },
+      "Txt_Talk_Common_Field_SignBoard_1": {
+        "SelfId": "Txt_Talk_Common_Field_SignBoard_1",
+        "Text": "↑레베\r\n\r\n↓곶의 동굴"
+      },
+      "Txt_Talk_Common_Field_SignBoard_2": {
+        "SelfId": "Txt_Talk_Common_Field_SignBoard_2",
+        "Text": "↑카자브\r\n←관문\r\n→앗살람"
+      },
+      "Txt_Talk_Common_Field_SignBoard_3": {
+        "SelfId": "Txt_Talk_Common_Field_SignBoard_3",
+        "Text": "↑노아닐\r\n\r\n←샹파니 탑"
+      },
+      "Txt_Talk_Common_Field_SignBoard_4": {
+        "SelfId": "Txt_Talk_Common_Field_SignBoard_4",
+        "Text": "→동굴\r\n↓바로 앞 앗살람\r\n남서쪽 이시스"
+      },
+      "Txt_Talk_Common_Field_SignBoard_5": {
+        "SelfId": "Txt_Talk_Common_Field_SignBoard_5",
+        "Text": "이 앞 사막\r\n남서쪽 이시스\r\n서쪽 피라미드"
+      },
+      "Txt_Talk_Common_Field_SignBoard_6": {
+        "SelfId": "Txt_Talk_Common_Field_SignBoard_6",
+        "Text": "북쪽 올리비아의 곶\r\n\r\n남동쪽 바하라타"
+      },
+      "Txt_Talk_Common_Field_SignBoard_7": {
+        "SelfId": "Txt_Talk_Common_Field_SignBoard_7",
+        "Text": "↑다마 신전\r\n\r\n←동굴"
+      },
+      "Txt_Talk_Common_Field_SignBoard_8": {
+        "SelfId": "Txt_Talk_Common_Field_SignBoard_8",
+        "Text": "북쪽 가루나 탑\r\n\r\n남동쪽 여행자의 여관"
+      },
+      "Txt_Talk_Common_Field_SignBoard_9": {
+        "SelfId": "Txt_Talk_Common_Field_SignBoard_9",
+        "Text": "↑무올\r\n\r\n↓여행자의 여관"
+      },
+      "Txt_Talk_Common_Field_SignBoard_10": {
+        "SelfId": "Txt_Talk_Common_Field_SignBoard_10",
+        "Text": "↑여행자의 성소\r\n\r\n→강 너머 테돈"
+      },
+      "Txt_Talk_Common_Field_SignBoard_11": {
+        "SelfId": "Txt_Talk_Common_Field_SignBoard_11",
+        "Text": "↑강 너머 수우\r\n\r\n←서쪽 산 너머 아프의 탑"
+      },
+      "Txt_Talk_Common_shortcut_1": {
+        "SelfId": "Txt_Talk_Common_shortcut_1",
+        "Text": "이곳에서 입구로 이동할 수 있을 듯하다.\r\n이동하시겠습니까?"
+      }
+    }
+  }
+]

@@ -1,0 +1,76 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_Medal",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Medal_UI_ItemName": {
+        "SelfId": "Txt_Medal_UI_ItemName",
+        "Text": "{0}"
+      },
+      "Txt_Medal_UI_ItemDetail": {
+        "SelfId": "Txt_Medal_UI_ItemDetail",
+        "Text": "{0}"
+      },
+      "Txt_Medal_UI_RequiredMedal": {
+        "SelfId": "Txt_Medal_UI_RequiredMedal",
+        "Text": "{0}"
+      },
+      "Txt_Medal_UI_ListGuide": {
+        "SelfId": "Txt_Medal_UI_ListGuide",
+        "Text": "賞品を見る"
+      },
+      "Txt_Medal_Message_Start": {
+        "SelfId": "Txt_Medal_Message_Start",
+        "Text": "よくぞ<RUBY>来[き]た！　わしは　<RUBY>世界中[せかいじゅう]の\r\nちいさなメダルを　<RUBY>集[あつ]めている\r\nおじさんじゃ。"
+      },
+      "Txt_Medal_Message_First": {
+        "SelfId": "Txt_Medal_Message_First",
+        "Text": "もし　メダルを　<RUBY>見[み]つけてきた<RUBY>者[もの]には\r\nわしの　なけなしの　ほうびを\r\nとらせよう！"
+      },
+      "Txt_Medal_Message_First_Medal": {
+        "SelfId": "Txt_Medal_Message_First_Medal",
+        "Text": "ん？　なんと　メダルを<RUBY>持[も]ってきたか！\r\nどれ　おじさんが　あずかろう！"
+      },
+      "Txt_Medal_Message_Confirm_Medal": {
+        "SelfId": "Txt_Medal_Message_Confirm_Medal",
+        "Text": "ふむ。これまでに　{LEADER}が\r\n<RUBY>持[も]ってきたメダルは　<RUBY>全部[ぜんぶ]で\r\n{VALUE}<RUBY>枚[まい]だな。"
+      },
+      "Txt_Medal_Message_HandoverMedal": {
+        "SelfId": "Txt_Medal_Message_HandoverMedal",
+        "Text": "ほほう。メダルを<RUBY>持[も]ってきたか。\r\nどれ　おじさんが　あずかろう！"
+      },
+      "Txt_Medal_Message_Prize": {
+        "SelfId": "Txt_Medal_Message_Prize",
+        "Text": "よし！　これで　{LEADER}は\r\nメダルを　{VALUE}<RUBY>枚[まい]　<RUBY>集[あつ]めたので\r\nほうびに　{I_NAME}を　あたえよう！"
+      },
+      "Txt_Medal_Message_GetPrize": {
+        "SelfId": "Txt_Medal_Message_GetPrize",
+        "Text": "{LEADER}は\r\n{I_NAME}を　うけとった！"
+      },
+      "Txt_Medal_Message_Confirm": {
+        "SelfId": "Txt_Medal_Message_Confirm",
+        "Text": "{LEADER}からは　げんざい\r\n{VALUE}<RUBY>枚[まい]のメダルを\r\nあずかっておる。"
+      },
+      "Txt_Medal_Message_NextPrize": {
+        "SelfId": "Txt_Medal_Message_NextPrize",
+        "Text": "これが　{VALUE}<RUBY>枚[まい]に　なったときは\r\n{I_NAME}を　あたえよう。\r\nがんばって　<RUBY>集[あつ]めるのじゃぞ！"
+      },
+      "Txt_Medal_Message_MedalComplete": {
+        "SelfId": "Txt_Medal_Message_MedalComplete",
+        "Text": "{LEADER}！　よくぞ　{VALUE}<RUBY>枚[まい]も\r\nメダルを　<RUBY>集[あつ]めてくれた！<KEY_WAIT>\r\nこれで　わしからの　ほうびの<RUBY>品[しな]も\r\nおしまいじゃ。\r\n<KEY_WAIT>\r\nこれからも　その<RUBY>探究心[たんきゅうしん]を\r\n<RUBY>忘[わす]れずに　<RUBY>世界中[せかいじゅう]の<RUBY>人[ひと]びとのため\r\nがんばってくれい。<KEY_WAIT>\r\nわしも　かげながら\r\nおうえん　しておるぞ！\r\n"
+      },
+      "Txt_Medal_Message_GetPrizeFailere": {
+        "SelfId": "Txt_Medal_Message_GetPrizeFailere",
+        "Text": "と<RUBY>思[おも]ったが　<RUBY>持[も]ち<RUBY>切[き]れない　ようじゃのう…\r\n<RUBY>持[も]てるようになってから　また　<RUBY>来[く]るがいい。"
+      }
+    }
+  }
+]

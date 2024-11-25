@@ -1,0 +1,516 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_Registration",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Registration_UI_Warrior_Info": {
+        "SelfId": "Txt_Registration_UI_Warrior_Info",
+        "Text": "I guerrieri impugnano armi possenti e sfruttano forza e vigore fisico per infliggere danni e proteggere gli alleati."
+      },
+      "Txt_Registration_UI_Mage_Info": {
+        "SelfId": "Txt_Registration_UI_Mage_Info",
+        "Text": "Abili lanciatori di incantesimi, i maghi sfruttano la loro competenza nella magia per avere la meglio sugli avversari."
+      },
+      "Txt_Registration_UI_Priest_Info": {
+        "SelfId": "Txt_Registration_UI_Priest_Info",
+        "Text": "Insuperabili nel fornire supporto al gruppo, i sacerdoti possono lanciare incantesimi curativi, ma sanno anche come impugnare un'arma."
+      },
+      "Txt_Registration_UI_MartialArtist_Info": {
+        "SelfId": "Txt_Registration_UI_MartialArtist_Info",
+        "Text": "Maestri nel combattimento corpo a corpo, i lottatori sono estremamente agili e infliggono colpi critici tanto per divertirsi."
+      },
+      "Txt_Registration_UI_Merchant_Info": {
+        "SelfId": "Txt_Registration_UI_Merchant_Info",
+        "Text": "Esperti nell'arte del commercio, i mercanti si rendono utili raccogliendo monete d'oro e valutando gli oggetti."
+      },
+      "Txt_Registration_UI_Gadabout_Info": {
+        "SelfId": "Txt_Registration_UI_Gadabout_Info",
+        "Text": "L'anima del gruppo. Con i giullari, tra stranezze e buffonerie, tutto può succedere."
+      },
+      "Txt_Registration_UI_Sage_Info": {
+        "SelfId": "Txt_Registration_UI_Sage_Info",
+        "Text": "Individui che non hanno quasi più nulla da imparare. I saggi possono usare tutti gli incantesimi specifici di maghi e sacerdoti."
+      },
+      "Txt_Registration_UI_Thief_Info": {
+        "SelfId": "Txt_Registration_UI_Thief_Info",
+        "Text": "Furtivi e sfuggenti. Le specialità dei ladri sono fiutare i tesori ed evitare i nemici nelle segrete."
+      },
+      "Txt_Registration_UI_MonsterTamer_Info": {
+        "SelfId": "Txt_Registration_UI_MonsterTamer_Info",
+        "Text": "Individui stravaganti che rubano le mosse ai loro amici mostri, i domamostri sfruttano uno stile di combattimento davvero inimitabile."
+      },
+      "Txt_Registration_UI_JpbSelect_Guide": {
+        "SelfId": "Txt_Registration_UI_JpbSelect_Guide",
+        "Text": "Scegli una vocazione."
+      },
+      "Txt_Registration_UI_Style_Menu_01": {
+        "SelfId": "Txt_Registration_UI_Style_Menu_01",
+        "Text": "Aspetto A"
+      },
+      "Txt_Registration_UI_Style_Menu_02": {
+        "SelfId": "Txt_Registration_UI_Style_Menu_02",
+        "Text": "Aspetto B"
+      },
+      "Txt_Registration_UI_HairSelect_Guide": {
+        "SelfId": "Txt_Registration_UI_HairSelect_Guide",
+        "Text": "Scegli un colore di capelli."
+      },
+      "Txt_Registration_UI_SeedUseSelect_01": {
+        "SelfId": "Txt_Registration_UI_SeedUseSelect_01",
+        "Text": "Lo faccio io"
+      },
+      "Txt_Registration_UI_SeedUseSelect_02": {
+        "SelfId": "Txt_Registration_UI_SeedUseSelect_02",
+        "Text": "Lascio fare a te"
+      },
+      "Txt_Registration_UI_Seed_Guide": {
+        "SelfId": "Txt_Registration_UI_Seed_Guide",
+        "Text": "Ancora {0} a disposizione"
+      },
+      "Txt_Registration_UI_Personality_Blank": {
+        "SelfId": "Txt_Registration_UI_Personality_Blank",
+        "Text": "???"
+      },
+      "Txt_Registration_UI_VoiceSelect_Guide": {
+        "SelfId": "Txt_Registration_UI_VoiceSelect_Guide",
+        "Text": "Scegli una voce."
+      },
+      "Txt_Registration_UI_VoiceSample_Guide": {
+        "SelfId": "Txt_Registration_UI_VoiceSample_Guide",
+        "Text": "Ascolta"
+      },
+      "Txt_Registration_UI_VoicePattern_01_M": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_01_M",
+        "Text": "Zelante"
+      },
+      "Txt_Registration_UI_VoicePattern_02_M": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_02_M",
+        "Text": "Impertinente"
+      },
+      "Txt_Registration_UI_VoicePattern_03_M": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_03_M",
+        "Text": "Timorosa"
+      },
+      "Txt_Registration_UI_VoicePattern_04_M": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_04_M",
+        "Text": "Risoluta"
+      },
+      "Txt_Registration_UI_VoicePattern_05_M": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_05_M",
+        "Text": "Entusiasta"
+      },
+      "Txt_Registration_UI_VoicePattern_06_M": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_06_M",
+        "Text": "Buffa"
+      },
+      "Txt_Registration_UI_VoicePattern_07_M": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_07_M",
+        "Text": "Caparbia"
+      },
+      "Txt_Registration_UI_VoicePattern_08_M": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_08_M",
+        "Text": "Dolce"
+      },
+      "Txt_Registration_UI_VoicePattern_09_M": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_09_M",
+        "Text": "Aggressiva"
+      },
+      "Txt_Registration_UI_VoicePattern_01_F": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_01_F",
+        "Text": "Infantile"
+      },
+      "Txt_Registration_UI_VoicePattern_02_F": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_02_F",
+        "Text": "Timida"
+      },
+      "Txt_Registration_UI_VoicePattern_03_F": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_03_F",
+        "Text": "Selvaggia"
+      },
+      "Txt_Registration_UI_VoicePattern_04_F": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_04_F",
+        "Text": "Riservata"
+      },
+      "Txt_Registration_UI_VoicePattern_05_F": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_05_F",
+        "Text": "Decisa"
+      },
+      "Txt_Registration_UI_VoicePattern_06_F": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_06_F",
+        "Text": "Giovane"
+      },
+      "Txt_Registration_UI_VoicePattern_07_F": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_07_F",
+        "Text": "Elegante"
+      },
+      "Txt_Registration_UI_VoicePattern_08_F": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_08_F",
+        "Text": "Seria"
+      },
+      "Txt_Registration_UI_VoicePattern_09_F": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_09_F",
+        "Text": "Suadente"
+      },
+      "Txt_Registration_UI_DeleteGuide": {
+        "SelfId": "Txt_Registration_UI_DeleteGuide",
+        "Text": "Scegli chi lasciare."
+      },
+      "Txt_Registration_Message_Start": {
+        "SelfId": "Txt_Registration_Message_Start",
+        "Text": "*: Ti do il benvenuto all'Associazione Membri Intrepidi per Compagnie Itineranti! Con AMICI riuscirai senza dubbio a creare una squadra vincente!"
+      },
+      "Txt_Registration_Message_First": {
+        "SelfId": "Txt_Registration_Message_First",
+        "Text": "*: Siamo qui per aiutarti ad aggiungere alla tua rosa gli avventurieri più talentuosi in circolazione!<KEY_WAIT>\r\n*: Basta che tu ci dica di cosa hai bisogno, e noi faremo arrivare un professionista qualificato direttamente allo sportello dell'Organizzagruppo!"
+      },
+      "Txt_Registration_Message_Top": {
+        "SelfId": "Txt_Registration_Message_Top",
+        "Text": "*: Allora, vuoi rimpolpare la tua rosa con delle nuove leve?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_NameSelect": {
+        "SelfId": "Txt_Registration_Message_NameSelect",
+        "Text": "*: E che tipo di persona stai cercando, esattamente? Inizia col darmi un nome, poi penseremo al resto.<NO_INPUT>"
+      },
+      "Txt_Registration_Message_JobSelect": {
+        "SelfId": "Txt_Registration_Message_JobSelect",
+        "Text": "*: Molto bene. Quale vocazione vorresti che avesse?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_StyleSelect": {
+        "SelfId": "Txt_Registration_Message_StyleSelect",
+        "Text": "*: Posso chiederti qualche altro dettaglio?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_LooksSelect": {
+        "SelfId": "Txt_Registration_Message_LooksSelect",
+        "Text": "*: Bene. E riguardo al suo aspetto?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_HairColorSelect": {
+        "SelfId": "Txt_Registration_Message_HairColorSelect",
+        "Text": "*: D'accordo. Colore di capelli?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_Confirm_01": {
+        "SelfId": "Txt_Registration_Message_Confirm_01",
+        "Text": "*: Ah-ha! Credo di avere ciò che fa al caso tuo. Ti sembra che questa persona possa essere una buona aggiunta al tuo gruppo?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_UseSeedFirst": {
+        "SelfId": "Txt_Registration_Message_UseSeedFirst",
+        "Text": "*: È il tuo giorno fortunato, {LEADER}!<KEY_WAIT>\r\n*: Come parte del Programma speciale per avventurieri di Sua Maestà, hai diritto agli Straordinari ed Efficaci Mezzi d'Istruzione!<KEY_WAIT>\r\n*: Prendono la forma di cinque SEMI, o <66>semi<99>, in grado di migliorare le caratteristiche, rendendo i membri del tuo gruppo decisamente più potenti!<KEY_WAIT>\r\n*: Puoi scegliere i semi in autonomia, o lasciare che sia io a sceglierli per te sfruttando la mia esperienza.<KEY_WAIT>\r\n*: Quando sei tu a scegliere, puoi selezionare fino a cinque semi a scelta per ogni nuovo amico. Ma se farai scegliere a me, ti fornirò un servizio completo e assegnerò i semi come più ritengo opportuno."
+      },
+      "Txt_Registration_Message_UseSeedSelect": {
+        "SelfId": "Txt_Registration_Message_UseSeedSelect",
+        "Text": "*: Allora, come vuoi distribuire i semi che spettano a {WORD}?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_UseSeedStart": {
+        "SelfId": "Txt_Registration_Message_UseSeedStart",
+        "Text": "*: Ne hai ancora {VALUE} da usare.\r\nPensaci bene!"
+      },
+      "Txt_Registration_Message_UseSeedAuto": {
+        "SelfId": "Txt_Registration_Message_UseSeedAuto",
+        "Text": "*: Eccellente.\r\nCi penso io!"
+      },
+      "Txt_Registration_Message_Confirm_02": {
+        "SelfId": "Txt_Registration_Message_Confirm_02",
+        "Text": "*: Quindi stai cercando qualcuno come {WORD}?"
+      },
+      "Txt_Registration_Message_VoiceSelect": {
+        "SelfId": "Txt_Registration_Message_VoiceSelect",
+        "Text": "*: E infine, la voce. Hai in mente qualcosa di particolare?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_FinishConfirm": {
+        "SelfId": "Txt_Registration_Message_FinishConfirm",
+        "Text": "*: Se te ne vai ora, non si unirà effettivamente al tuo gruppo. Vuoi interrompere comunque?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_Confirm_03": {
+        "SelfId": "Txt_Registration_Message_Confirm_03",
+        "Text": "*: Quindi recluterai {WORD}.\r\nPer te va bene?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_AddBarMember": {
+        "SelfId": "Txt_Registration_Message_AddBarMember",
+        "Text": "*: Magnifico. {WORD} dovrebbe essere al piano di sotto che ti aspetta."
+      },
+      "Txt_Registration_Message_RegistrationCancel": {
+        "SelfId": "Txt_Registration_Message_RegistrationCancel",
+        "Text": "*: Oh. Che peccato."
+      },
+      "Txt_Registration_Message_AddRegistrationConfirm": {
+        "SelfId": "Txt_Registration_Message_AddRegistrationConfirm",
+        "Text": "*: Hai intenzione di reclutare qualcun altro quest'oggi?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_UseSeedAutoFinish": {
+        "SelfId": "Txt_Registration_Message_UseSeedAutoFinish",
+        "Text": "*: Ecco fatto...\r\nAbbiamo finito!"
+      },
+      "Txt_Registration_Message_BarMemberMax": {
+        "SelfId": "Txt_Registration_Message_BarMemberMax",
+        "Text": "*: Temo che dovrai dire addio a un membro della rosa se hai intenzione di reclutare qualcun altro. Per te va bene?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_DeleteBarMemberSelect": {
+        "SelfId": "Txt_Registration_Message_DeleteBarMemberSelect",
+        "Text": "*: Dunque, a quale membro della squadra pensi che... ehm... farebbe bene una nuova sfida?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_DeleteBarMemberConfirm": {
+        "SelfId": "Txt_Registration_Message_DeleteBarMemberConfirm",
+        "Text": "*: Quindi dirai addio a {WORD}, giusto? Confermi? Guarda che non potrai tornare sui tuoi passi...<NO_INPUT>"
+      },
+      "Txt_Registration_Message_DeleteBarMemberFinish": {
+        "SelfId": "Txt_Registration_Message_DeleteBarMemberFinish",
+        "Text": "*: Beh, dire addio a qualcuno è sempre triste, ma sarà sicuramente un bene per la crescita personale di {WORD}.<KEY_WAIT>\r\n*: E non preoccuparti, ci siamo premurati di recuperare tutti gli oggetti in suo possesso prima che lasciasse il nostro ufficio. Ora dovrebbero essere al sicuro nella tua borsa.<KEY_WAIT>\r\n*: E adesso che {WORD} non c'è più, si è liberato un posto nella tua rosa e puoi reclutare un nuovo avventuriero di talento!"
+      },
+      "Txt_Registration_Message_DeleteBarMemberCancel": {
+        "SelfId": "Txt_Registration_Message_DeleteBarMemberCancel",
+        "Text": "*: Hai cambiato idea, vero?\r\nBeh, non si può mai sapere... Potrebbe essere meglio così."
+      },
+      "Txt_Registration_Message_NameError_Duplication": {
+        "SelfId": "Txt_Registration_Message_NameError_Duplication",
+        "Text": "*: Oh, che strano... Credo che questa persona sia già nella tua squadra. Vuoi che cerchiamo un altro candidato per te?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_NameError_Ban": {
+        "SelfId": "Txt_Registration_Message_NameError_Ban",
+        "Text": "*: Mi dispiace, ma non abbiamo nessuno con quel nome in lista.<KEY_WAIT>\r\n*: Vuoi che cerchiamo un altro candidato per te?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_NameError_Roto": {
+        "SelfId": "Txt_Registration_Message_NameError_Roto",
+        "Text": "*: E-Erdrick?! Hai proprio detto Erdrick, vero? Sono davvero spiacente... Ma <66>Erdrick<99> non è un semplice nome, sai, è un titolo.<KEY_WAIT>\r\n*: In realtà significa <66>terra-dimora<99> nella lingua degli antichi.<KEY_WAIT>\r\n*: Quindi chiamare qualcuno Erdrick, equivale letteralmente a riconoscerlo come rappresentante scelto di quella terra, il suo campione.<KEY_WAIT>\r\n*: Inutile dire che solo i più grandi eroi possono portare questo titolo e mi è proibito cercare tali campioni. Farlo metterebbe a rischio il mio lavoro!"
+      },
+      "Txt_Registration_Message_RegistrationFinish": {
+        "SelfId": "Txt_Registration_Message_RegistrationFinish",
+        "Text": "*: Torna da me tutte le volte che vorrai degli avventurieri di prima scelta. Ti saluto!"
+      },
+      "Txt_Registration_Message_Personality_01": {
+        "SelfId": "Txt_Registration_Message_Personality_01",
+        "Text": "*: Sembra avere proprio la stoffa da <IfGender_ACTOR(<SglM_WORD>,<SglF_WORD>,)> eh?<KEY_WAIT>\r\n*: Queste persone migliorano assai velocemente la forza, mentre fanno fatica a migliorare la propria saggezza."
+      },
+      "Txt_Registration_Message_Personality_02": {
+        "SelfId": "Txt_Registration_Message_Personality_02",
+        "Text": "*: Sembra avere proprio la stoffa da <IfGender_ACTOR(<SglM_WORD>,<SglF_WORD>,)>, eh?<KEY_WAIT>\r\n*: Queste persone migliorano assai velocemente la forza, mentre fanno fatica a migliorare l'agilità, la fortuna e la saggezza."
+      },
+      "Txt_Registration_Message_Personality_03": {
+        "SelfId": "Txt_Registration_Message_Personality_03",
+        "Text": "*: Sembra avere proprio la stoffa da <IfGender_ACTOR(<SglM_WORD>,<SglF_WORD>,)>, eh?<KEY_WAIT>\r\n*: Queste persone migliorano velocemente la forza, mentre la loro resistenza aumenta poco più velocemente della norma. Tuttavia, fanno fatica a migliorare la saggezza e la fortuna."
+      },
+      "Txt_Registration_Message_Personality_04": {
+        "SelfId": "Txt_Registration_Message_Personality_04",
+        "Text": "*: Sembra avere proprio la stoffa da <IfGender_ACTOR(<SglM_WORD>,<SglF_WORD>,)>, eh?<KEY_WAIT>\r\n*: Queste persone migliorano assai velocemente la forza, mentre la loro resistenza aumenta poco più velocemente della norma."
+      },
+      "Txt_Registration_Message_Personality_05": {
+        "SelfId": "Txt_Registration_Message_Personality_05",
+        "Text": "*: Sembra avere proprio la stoffa da <IfGender_ACTOR(<SglM_WORD>,<SglF_WORD>,)>, eh?<KEY_WAIT>\r\n*: Queste persone migliorano assai velocemente la resistenza, mentre la loro forza e il loro vigore aumentano poco più velocemente della norma. Tuttavia, fanno fatica a migliorare la saggezza e agilità."
+      },
+      "Txt_Registration_Message_Personality_06": {
+        "SelfId": "Txt_Registration_Message_Personality_06",
+        "Text": "*: Sembra avere proprio la stoffa da <IfGender_ACTOR(<SglM_WORD>,<SglF_WORD>,)>, eh?<KEY_WAIT>\r\n*: Queste persone migliorano velocemente la resistenza e la forza, mentre fanno fatica a migliorare la propria fortuna."
+      },
+      "Txt_Registration_Message_Personality_07": {
+        "SelfId": "Txt_Registration_Message_Personality_07",
+        "Text": "*: Sembra avere proprio la stoffa da <IfGender_ACTOR(<SglM_WORD>,<SglF_WORD>,)>, eh?<KEY_WAIT>\r\n*: Queste persone migliorano velocemente la forza e l'agilità."
+      },
+      "Txt_Registration_Message_Personality_08": {
+        "SelfId": "Txt_Registration_Message_Personality_08",
+        "Text": "*: Sembra avere proprio la stoffa da <IfGender_ACTOR(<SglM_WORD>,<SglF_WORD>,)>, eh?<KEY_WAIT>\r\n*: Queste persone migliorano velocemente l'agilità e il vigore, mentre fanno fatica a migliorare la propria resistenza."
+      },
+      "Txt_Registration_Message_Personality_09": {
+        "SelfId": "Txt_Registration_Message_Personality_09",
+        "Text": "*: Sembra avere proprio la stoffa da <IfGender_ACTOR(<SglM_WORD>,<SglF_WORD>,)>, eh?<KEY_WAIT>\r\n*: Queste persone migliorano velocemente il vigore e la forza."
+      },
+      "Txt_Registration_Message_Personality_10": {
+        "SelfId": "Txt_Registration_Message_Personality_10",
+        "Text": "*: Sembra avere proprio la stoffa da <IfGender_ACTOR(<SglM_WORD>,<SglF_WORD>,)>, eh?<KEY_WAIT>\r\n*: Queste persone migliorano velocemente l'agilità."
+      },
+      "Txt_Registration_Message_Personality_11": {
+        "SelfId": "Txt_Registration_Message_Personality_11",
+        "Text": "*: Sembra avere proprio la stoffa da <IfGender_ACTOR(<SglM_WORD>,<SglF_WORD>,)>, eh?<KEY_WAIT>\r\n*: Queste persone migliorano velocemente l'agilità, mentre il loro vigore aumenta poco più velocemente della norma."
+      },
+      "Txt_Registration_Message_Personality_12": {
+        "SelfId": "Txt_Registration_Message_Personality_12",
+        "Text": "*: Sembra avere proprio la stoffa da <IfGender_ACTOR(<SglM_WORD>,<SglF_WORD>,)>, eh?<KEY_WAIT>\r\n*: Queste persone migliorano la resistenza e il vigore poco più velocemente della norma, mentre fanno fatica a migliorare l'agilità."
+      },
+      "Txt_Registration_Message_Personality_13": {
+        "SelfId": "Txt_Registration_Message_Personality_13",
+        "Text": "*: Sembra avere proprio la stoffa da <IfGender_ACTOR(<SglM_WORD>,<SglF_WORD>,)>, eh?<KEY_WAIT>\r\n*: Queste persone migliorano la fortuna poco più velocemente della norma, mentre fanno fatica a migliorare la saggezza."
+      },
+      "Txt_Registration_Message_Personality_14": {
+        "SelfId": "Txt_Registration_Message_Personality_14",
+        "Text": "*: Sembra avere proprio la stoffa da <IfGender_ACTOR(<SglM_WORD>,<SglF_WORD>,)>, eh?<KEY_WAIT>\r\n*: Queste persone migliorano velocemente la resistenza e il vigore, mentre fanno fatica a migliorare l'agilità, la saggezza e la fortuna."
+      },
+      "Txt_Registration_Message_Personality_15": {
+        "SelfId": "Txt_Registration_Message_Personality_15",
+        "Text": "*: Sembra avere proprio la stoffa da <IfGender_ACTOR(<SglM_WORD>,<SglF_WORD>,)>, eh?<KEY_WAIT>\r\n*: Queste persone migliorano assai velocemente la fortuna, mentre la loro saggezza aumenta poco più velocemente della norma. Tuttavia, fanno fatica a migliorare la resistenza."
+      },
+      "Txt_Registration_Message_Personality_16": {
+        "SelfId": "Txt_Registration_Message_Personality_16",
+        "Text": "*: Sembra avere proprio la stoffa da <IfGender_ACTOR(<SglM_WORD>,<SglF_WORD>,)>, eh?<KEY_WAIT>\r\n*: Queste persone migliorano le loro caratteristiche in modo equilibrato."
+      },
+      "Txt_Registration_Message_Personality_17": {
+        "SelfId": "Txt_Registration_Message_Personality_17",
+        "Text": "*: Sembra avere proprio la stoffa da <IfGender_ACTOR(<SglM_WORD>,<SglF_WORD>,)>, eh?<KEY_WAIT>\r\n*: Queste persone migliorano le loro caratteristiche in modo equilibrato."
+      },
+      "Txt_Registration_Message_Personality_18": {
+        "SelfId": "Txt_Registration_Message_Personality_18",
+        "Text": "*: Sembra avere proprio la stoffa da <IfGender_ACTOR(<SglM_WORD>,<SglF_WORD>,)>, eh?<KEY_WAIT>\r\n*: Queste persone migliorano assai velocemente l'agilità."
+      },
+      "Txt_Registration_Message_Personality_19": {
+        "SelfId": "Txt_Registration_Message_Personality_19",
+        "Text": "*: Sembra avere proprio la stoffa da <IfGender_ACTOR(<SglM_WORD>,<SglF_WORD>,)>, eh?<KEY_WAIT>\r\n*: Queste persone migliorano velocemente l'agilità."
+      },
+      "Txt_Registration_Message_Personality_20": {
+        "SelfId": "Txt_Registration_Message_Personality_20",
+        "Text": "*: Sembra avere proprio la stoffa da <IfGender_ACTOR(<SglM_WORD>,<SglF_WORD>,)>, eh?<KEY_WAIT>\r\n*: Queste persone migliorano velocemente la saggezza, mentre la loro resistenza e agilità aumentano poco più velocemente della norma."
+      },
+      "Txt_Registration_Message_Personality_21": {
+        "SelfId": "Txt_Registration_Message_Personality_21",
+        "Text": "*: Sembra avere proprio la stoffa da <IfGender_ACTOR(<SglM_WORD>,<SglF_WORD>,)>, eh?<KEY_WAIT>\r\n*: Queste persone migliorano assai velocemente la saggezza, mentre la loro agilità aumenta poco più velocemente della norma."
+      },
+      "Txt_Registration_Message_Personality_22": {
+        "SelfId": "Txt_Registration_Message_Personality_22",
+        "Text": "*: Sembra avere proprio la stoffa da <IfGender_ACTOR(<SglM_WORD>,<SglF_WORD>,)>, eh?<KEY_WAIT>\r\n*: Queste persone migliorano assai velocemente la fortuna e velocemente l'agilità. Tuttavia, fanno fatica a migliorare la forza e il vigore."
+      },
+      "Txt_Registration_Message_Personality_23": {
+        "SelfId": "Txt_Registration_Message_Personality_23",
+        "Text": "*: Sembra avere proprio la stoffa da <IfGender_ACTOR(<SglM_WORD>,<SglF_WORD>,)>, eh?<KEY_WAIT>\r\n*: Queste persone aumentano la forza, la resistenza e l'agilità poco più velocemente della norma."
+      },
+      "Txt_Registration_Message_Personality_24": {
+        "SelfId": "Txt_Registration_Message_Personality_24",
+        "Text": "*: Sembra avere proprio la stoffa da <IfGender_ACTOR(<SglM_WORD>,<SglF_WORD>,)>, eh?<KEY_WAIT>\r\n*: Queste persone aumentano l'agilità poco più velocemente della norma."
+      },
+      "Txt_Registration_Message_Personality_25": {
+        "SelfId": "Txt_Registration_Message_Personality_25",
+        "Text": "*: Sembra avere proprio la stoffa da <IfGender_ACTOR(<SglM_WORD>,<SglF_WORD>,)>, eh?<KEY_WAIT>\r\n*: Queste persone migliorano velocemente la fortuna, mentre la loro saggezza aumenta poco più velocemente della norma. Tuttavia, fanno fatica a migliorare la resistenza."
+      },
+      "Txt_Registration_Message_Personality_26": {
+        "SelfId": "Txt_Registration_Message_Personality_26",
+        "Text": "*: Sembra avere proprio la stoffa da <IfGender_ACTOR(<SglM_WORD>,<SglF_WORD>,)>, eh?<KEY_WAIT>\r\n*: Queste persone aumentano la saggezza e la fortuna poco più velocemente della norma."
+      },
+      "Txt_Registration_Message_Personality_27": {
+        "SelfId": "Txt_Registration_Message_Personality_27",
+        "Text": "*: Sembra avere proprio la stoffa da <IfGender_ACTOR(<SglM_WORD>,<SglF_WORD>,)>, eh?<KEY_WAIT>\r\n*: Queste persone migliorano assai velocemente il vigore e la resistenza, mentre fanno fatica a migliorare la propria fortuna."
+      },
+      "Txt_Registration_Message_Personality_28": {
+        "SelfId": "Txt_Registration_Message_Personality_28",
+        "Text": "*: Sembra avere proprio la stoffa da <IfGender_ACTOR(<SglM_WORD>,<SglF_WORD>,)>, eh?<KEY_WAIT>\r\n*: Queste persone migliorano assai velocemente la resistenza e il vigore."
+      },
+      "Txt_Registration_Message_Personality_29": {
+        "SelfId": "Txt_Registration_Message_Personality_29",
+        "Text": "*: Sembra avere proprio la stoffa da <IfGender_ACTOR(<SglM_WORD>,<SglF_WORD>,)>, eh?<KEY_WAIT>\r\n*: Queste persone migliorano velocemente il vigore."
+      },
+      "Txt_Registration_Message_Personality_30": {
+        "SelfId": "Txt_Registration_Message_Personality_30",
+        "Text": "*: Sembra avere proprio la stoffa da <IfGender_ACTOR(<SglM_WORD>,<SglF_WORD>,)>, eh?<KEY_WAIT>\r\n*: Queste persone migliorano velocemente la resistenza e il vigore, mentre fanno fatica a migliorare la propria fortuna."
+      },
+      "Txt_Registration_Message_Personality_31": {
+        "SelfId": "Txt_Registration_Message_Personality_31",
+        "Text": "*: Sembra avere proprio la stoffa da <IfGender_ACTOR(<SglM_WORD>,<SglF_WORD>,)>, eh?<KEY_WAIT>\r\n*: Queste persone migliorano velocemente la forza, mentre la loro resistenza e vigore aumentano poco più velocemente della norma."
+      },
+      "Txt_Registration_Message_Personality_32": {
+        "SelfId": "Txt_Registration_Message_Personality_32",
+        "Text": "*: Sembra avere proprio la stoffa da <IfGender_ACTOR(<SglM_WORD>,<SglF_WORD>,)>, eh?<KEY_WAIT>\r\n*: Queste persone aumentano il loro vigore poco più velocemente della norma."
+      },
+      "Txt_Registration_Message_Personality_33": {
+        "SelfId": "Txt_Registration_Message_Personality_33",
+        "Text": "*: Sembra avere proprio la stoffa da <IfGender_ACTOR(<SglM_WORD>,<SglF_WORD>,)>, eh?<KEY_WAIT>\r\n*: Queste persone migliorano velocemente il vigore, mentre la loro fortuna aumenta poco più velocemente della norma. Tuttavia, fanno fatica a migliorare resistenza e saggezza."
+      },
+      "Txt_Registration_Message_Personality_34": {
+        "SelfId": "Txt_Registration_Message_Personality_34",
+        "Text": "*: Sembra avere proprio la stoffa da <IfGender_ACTOR(<SglM_WORD>,<SglF_WORD>,)>, eh?<KEY_WAIT>\r\n*: Queste persone migliorano assai velocemente la saggezza."
+      },
+      "Txt_Registration_Message_Personality_35": {
+        "SelfId": "Txt_Registration_Message_Personality_35",
+        "Text": "*: Sembra avere proprio la stoffa da <IfGender_ACTOR(<SglM_WORD>,<SglF_WORD>,)>, eh?<KEY_WAIT>\r\n*: Queste persone migliorano velocemente la saggezza, mentre la loro resistenza aumenta poco più velocemente della norma."
+      },
+      "Txt_Registration_Message_Personality_36": {
+        "SelfId": "Txt_Registration_Message_Personality_36",
+        "Text": "*: Sembra avere proprio la stoffa da <IfGender_ACTOR(<SglM_WORD>,<SglF_WORD>,)>, eh?<KEY_WAIT>\r\n*: Queste persone aumentano l'agilità e la saggezza poco più velocemente della norma."
+      },
+      "Txt_Registration_Message_Personality_37": {
+        "SelfId": "Txt_Registration_Message_Personality_37",
+        "Text": "*: Sembra avere proprio la stoffa da <IfGender_ACTOR(<SglM_WORD>,<SglF_WORD>,)>, eh?<KEY_WAIT>\r\n*: Queste persone aumentano la fortuna poco più velocemente della norma."
+      },
+      "Txt_Registration_Message_Personality_38": {
+        "SelfId": "Txt_Registration_Message_Personality_38",
+        "Text": "*: Sembra avere proprio la stoffa da <IfGender_ACTOR(<SglM_WORD>,<SglF_WORD>,)>, eh?<KEY_WAIT>\r\n*: Queste persone migliorano assai velocemente la fortuna, mentre la loro agilità aumenta poco più velocemente della norma."
+      },
+      "Txt_Registration_Message_Personality_39": {
+        "SelfId": "Txt_Registration_Message_Personality_39",
+        "Text": "*: Sembra avere proprio la stoffa da <IfGender_ACTOR(<SglM_WORD>,<SglF_WORD>,)>, eh?<KEY_WAIT>\r\n*: Queste persone migliorano assai velocemente la fortuna."
+      },
+      "Txt_Registration_Message_Personality_40": {
+        "SelfId": "Txt_Registration_Message_Personality_40",
+        "Text": "*: Sembra avere proprio la stoffa da <IfGender_ACTOR(<SglM_WORD>,<SglF_WORD>,)>, eh?<KEY_WAIT>\r\n*: Queste persone migliorano velocemente l'agilità, mentre fanno fatica a migliorare saggezza e fortuna."
+      },
+      "Txt_Registration_Message_Personality_41": {
+        "SelfId": "Txt_Registration_Message_Personality_41",
+        "Text": "*: Sembra avere proprio la stoffa da <IfGender_ACTOR(<SglM_WORD>,<SglF_WORD>,)>, eh?<KEY_WAIT>\r\n*: Queste persone migliorano velocemente la resistenza e il vigore, mentre fanno fatica a migliorare la propria fortuna."
+      },
+      "Txt_Registration_Message_Personality_42": {
+        "SelfId": "Txt_Registration_Message_Personality_42",
+        "Text": "*: Sembra avere proprio la stoffa da <IfGender_ACTOR(<SglM_WORD>,<SglF_WORD>,)>, eh?<KEY_WAIT>\r\n*: Queste persone migliorano velocemente la saggezza e la fortuna, mentre fanno fatica a migliorare la propria agilità."
+      },
+      "Txt_Registration_Message_Personality_43": {
+        "SelfId": "Txt_Registration_Message_Personality_43",
+        "Text": "*: Sembra avere proprio la stoffa da <IfGender_ACTOR(<SglM_WORD>,<SglF_WORD>,)>, eh?<KEY_WAIT>\r\n*: Queste persone migliorano velocemente l'agilità, mentre aumentano la saggezza e la fortuna poco più velocemente della norma."
+      },
+      "Txt_Registration_Message_Personality_44": {
+        "SelfId": "Txt_Registration_Message_Personality_44",
+        "Text": "*: Sembra avere proprio la stoffa da <IfGender_ACTOR(<SglM_WORD>,<SglF_WORD>,)>, eh?<KEY_WAIT>\r\n*: Queste persone migliorano velocemente il vigore, mentre la loro saggezza aumenta poco più velocemente della norma. Tuttavia, fanno fatica a migliorare l'agilità."
+      },
+      "Txt_Registration_Message_Personality_45": {
+        "SelfId": "Txt_Registration_Message_Personality_45",
+        "Text": "*: Sembra avere proprio la stoffa da <IfGender_ACTOR(<SglM_WORD>,<SglF_WORD>,)>, eh?<KEY_WAIT>\r\n*: Queste persone migliorano le loro caratteristiche in modo equilibrato."
+      },
+      "Txt_Registration_Message_Personality_46": {
+        "SelfId": "Txt_Registration_Message_Personality_46",
+        "Text": "*: Sembra avere proprio la stoffa da <IfGender_ACTOR(<SglM_WORD>,<SglF_WORD>,)>, eh?<KEY_WAIT>\r\n*: Queste persone migliorano velocemente l'agilità e la fortuna e tutte le altre caratteristiche in modo equilibrato."
+      },
+      "Txt_Registration_Message_DeleteBarMemberError_Hero": {
+        "SelfId": "Txt_Registration_Message_DeleteBarMemberError_Hero",
+        "Text": "*: Cos...?! <Cap>{HERO}?!<KEY_WAIT>\r\n*: Ah ah ah... Forza, non scherziamo. Non puoi chiedere all'eroe del momento di alzare i tacchi!"
+      },
+      "Txt_Registration_Message_DeleteBarMemberError_Mer": {
+        "SelfId": "Txt_Registration_Message_DeleteBarMemberError_Mer",
+        "Text": "*: Sono davvero desolato, ma, per motivi contrattuali, temo di non poter chiedere a quella persona di andarsene..."
+      },
+      "Txt_Registration_Message_AddPartyMember_Confirm": {
+        "SelfId": "Txt_Registration_Message_AddPartyMember_Confirm",
+        "Text": "*: Bene. E questa è fatta. Vuoi che {WORD} ti accompagni?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_PartyMemberMAX": {
+        "SelfId": "Txt_Registration_Message_PartyMemberMAX",
+        "Text": "*: Ah, c'è un piccolo problema: il tuo gruppo è al completo.<KEY_WAIT>\r\n*: Vuoi che qualcuno resti qui da noi per un po'?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_DropOffConfirm": {
+        "SelfId": "Txt_Registration_Message_DropOffConfirm",
+        "Text": "*: Benissimo! Chi di voi si è meritato un po' di sano riposo?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_DropOffError": {
+        "SelfId": "Txt_Registration_Message_DropOffError",
+        "Text": "*: Ah, sono spiacente, ma questo membro deve restare nel tuo gruppo."
+      },
+      "Txt_Registration_Message_DropOffFinish": {
+        "SelfId": "Txt_Registration_Message_DropOffFinish",
+        "Text": "*: D'accordo. So che non è facile, ma sono sicuro che tu e {WORD} vi rivedrete presto!<KEY_WAIT>\r\n*: Metto gli oggetti e l'equipaggiamento di {WORD} nella tua borsa."
+      },
+      "Txt_Registration_Message_PickUp": {
+        "SelfId": "Txt_Registration_Message_PickUp",
+        "Text": "{WORD} si unisce al gruppo!"
+      },
+      "Txt_Registration_Message_AutoSeedUse": {
+        "SelfId": "Txt_Registration_Message_AutoSeedUse",
+        "Text": "<Cap><DefSgl_TARGET> vede la statistica {WORD} aumentare di {VALUE}!<WAIT>[1]<NO_INPUT>"
+      },
+      "Txt_Registration_Start": {
+        "SelfId": "Txt_Registration_Start",
+        "Text": "*: Ti do il benvenuto all'Associazione Membri Intrepidi per Compagnie Itineranti! Con AMICI riuscirai senza dubbio a creare una squadra vincente!"
+      },
+      "Txt_Registration_First": {
+        "SelfId": "Txt_Registration_First",
+        "Text": "*: Siamo qui per aiutarti ad aggiungere alla tua rosa gli avventurieri più talentuosi in circolazione!"
+      }
+    }
+  }
+]

@@ -1,0 +1,151 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Event_NecrogondShrine",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Event_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "EVENT_NecrogondShrine_NecrogondShrine_House_Minister_01_1_0": {
+        "SelfId": "EVENT_NecrogondShrine_NecrogondShrine_House_Minister_01_1_0",
+        "EventID": "NecrogondShrine_House_MAIN_0_VOLUME_0110_010",
+        "TriggerType": "EEventTriggerType::VOLUME",
+        "TriggerID": "NecrogondShrine_House_Minister_01_1",
+        "EventPriority": 0,
+        "ProgressLower": 0,
+        "ProgressUpper": 30,
+        "StartFlagName1": "FE78",
+        "IsTrueCondition1": false,
+        "IsAndOperation": false,
+        "StartFlagName2": "None",
+        "IsTrueCondition2": false,
+        "ScenarioProgress": 0
+      },
+      "EVENT_NecrogondShrine_NecrogondShrine_House_Minister_01_L1_1": {
+        "SelfId": "EVENT_NecrogondShrine_NecrogondShrine_House_Minister_01_L1_1",
+        "EventID": "NecrogondShrine_House_MAIN_0_ACTOR_0110_020",
+        "TriggerType": "EEventTriggerType::ACTOR",
+        "TriggerID": "NecrogondShrine_House_Minister_01_L1",
+        "EventPriority": 1,
+        "ProgressLower": 0,
+        "ProgressUpper": 30,
+        "StartFlagName1": "FE78",
+        "IsTrueCondition1": true,
+        "IsAndOperation": false,
+        "StartFlagName2": "None",
+        "IsTrueCondition2": false,
+        "ScenarioProgress": 0
+      },
+      "EVENT_NecrogondShrine_NecrogondShrine_House_Minister_01_L3_1": {
+        "SelfId": "EVENT_NecrogondShrine_NecrogondShrine_House_Minister_01_L3_1",
+        "EventID": "NecrogondShrine_House_MAIN_0_ACTOR_0110_020",
+        "TriggerType": "EEventTriggerType::ACTOR",
+        "TriggerID": "NecrogondShrine_House_Minister_01_L3",
+        "EventPriority": 1,
+        "ProgressLower": 0,
+        "ProgressUpper": 30,
+        "StartFlagName1": "FE78",
+        "IsTrueCondition1": true,
+        "IsAndOperation": false,
+        "StartFlagName2": "None",
+        "IsTrueCondition2": false,
+        "ScenarioProgress": 0
+      },
+      "EVENT_NecrogondShrine_NecrogondShrine_House_Minister_01_L1_0": {
+        "SelfId": "EVENT_NecrogondShrine_NecrogondShrine_House_Minister_01_L1_0",
+        "EventID": "NecrogondShrine_House_MAIN_0_ACTOR_0110_030",
+        "TriggerType": "EEventTriggerType::ACTOR",
+        "TriggerID": "NecrogondShrine_House_Minister_01_L1",
+        "EventPriority": 0,
+        "ProgressLower": 0,
+        "ProgressUpper": 30,
+        "StartFlagName1": "FE164",
+        "IsTrueCondition1": true,
+        "IsAndOperation": false,
+        "StartFlagName2": "None",
+        "IsTrueCondition2": false,
+        "ScenarioProgress": 0
+      },
+      "EVENT_NecrogondShrine_NecrogondShrine_House_Minister_01_L3_0": {
+        "SelfId": "EVENT_NecrogondShrine_NecrogondShrine_House_Minister_01_L3_0",
+        "EventID": "NecrogondShrine_House_MAIN_0_ACTOR_0110_030",
+        "TriggerType": "EEventTriggerType::ACTOR",
+        "TriggerID": "NecrogondShrine_House_Minister_01_L3",
+        "EventPriority": 0,
+        "ProgressLower": 0,
+        "ProgressUpper": 30,
+        "StartFlagName1": "FE164",
+        "IsTrueCondition1": true,
+        "IsAndOperation": false,
+        "StartFlagName2": "None",
+        "IsTrueCondition2": false,
+        "ScenarioProgress": 0
+      },
+      "EVENT_NecrogondShrine_NecrogondShrine_Out_SHELLSLIME_00_L2_0": {
+        "SelfId": "EVENT_NecrogondShrine_NecrogondShrine_Out_SHELLSLIME_00_L2_0",
+        "EventID": "NecrogondShrine_Out_SUB_0_MBR_SCOUT_0110_010",
+        "TriggerType": "EEventTriggerType::MBR_SCOUT",
+        "TriggerID": "NecrogondShrine_Out_SHELLSLIME_00_L2",
+        "EventPriority": 0,
+        "ProgressLower": 0,
+        "ProgressUpper": 30,
+        "StartFlagName1": "None",
+        "IsTrueCondition1": false,
+        "IsAndOperation": false,
+        "StartFlagName2": "None",
+        "IsTrueCondition2": false,
+        "ScenarioProgress": 0
+      },
+      "EVENT_NecrogondShrine_NecrogondShrine_Out_SHELLSLIME_00_L3_0": {
+        "SelfId": "EVENT_NecrogondShrine_NecrogondShrine_Out_SHELLSLIME_00_L3_0",
+        "EventID": "NecrogondShrine_Out_SUB_0_MBR_SCOUT_0110_010",
+        "TriggerType": "EEventTriggerType::MBR_SCOUT",
+        "TriggerID": "NecrogondShrine_Out_SHELLSLIME_00_L3",
+        "EventPriority": 0,
+        "ProgressLower": 0,
+        "ProgressUpper": 30,
+        "StartFlagName1": "None",
+        "IsTrueCondition1": false,
+        "IsAndOperation": false,
+        "StartFlagName2": "None",
+        "IsTrueCondition2": false,
+        "ScenarioProgress": 0
+      },
+      "EVENT_NecrogondShrine_NecrogondShrine_House_Princess_01_L1_0": {
+        "SelfId": "EVENT_NecrogondShrine_NecrogondShrine_House_Princess_01_L1_0",
+        "EventID": "NecrogondShrine_Out_SUB_0_ACTOR_0210_010",
+        "TriggerType": "EEventTriggerType::ACTOR",
+        "TriggerID": "NecrogondShrine_House_Princess_01_L1",
+        "EventPriority": 0,
+        "ProgressLower": 0,
+        "ProgressUpper": 30,
+        "StartFlagName1": "None",
+        "IsTrueCondition1": false,
+        "IsAndOperation": false,
+        "StartFlagName2": "None",
+        "IsTrueCondition2": false,
+        "ScenarioProgress": 0
+      },
+      "EVENT_NecrogondShrine_NecrogondShrine_House_Princess_01_L3_0": {
+        "SelfId": "EVENT_NecrogondShrine_NecrogondShrine_House_Princess_01_L3_0",
+        "EventID": "NecrogondShrine_Out_SUB_0_ACTOR_0210_010",
+        "TriggerType": "EEventTriggerType::ACTOR",
+        "TriggerID": "NecrogondShrine_House_Princess_01_L3",
+        "EventPriority": 0,
+        "ProgressLower": 0,
+        "ProgressUpper": 30,
+        "StartFlagName1": "None",
+        "IsTrueCondition1": false,
+        "IsAndOperation": false,
+        "StartFlagName2": "None",
+        "IsTrueCondition2": false,
+        "ScenarioProgress": 0
+      }
+    }
+  }
+]

@@ -1,0 +1,520 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_BattleRoadMenu",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_MBR_Rank_H": {
+        "SelfId": "Txt_MBR_Rank_H",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_MBR_Rank_G": {
+        "SelfId": "Txt_MBR_Rank_G",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_MBR_Rank_F": {
+        "SelfId": "Txt_MBR_Rank_F",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_MBR_Rank_E": {
+        "SelfId": "Txt_MBR_Rank_E",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_MBR_Rank_D": {
+        "SelfId": "Txt_MBR_Rank_D",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_MBR_Rank_C": {
+        "SelfId": "Txt_MBR_Rank_C",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_MBR_Rank_B": {
+        "SelfId": "Txt_MBR_Rank_B",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_MBR_Rank_A": {
+        "SelfId": "Txt_MBR_Rank_A",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_MBR_Rank_S": {
+        "SelfId": "Txt_MBR_Rank_S",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_MBR_Rank_SS": {
+        "SelfId": "Txt_MBR_Rank_SS",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_MBR_Rank_SSS": {
+        "SelfId": "Txt_MBR_Rank_SSS",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_MBR_Window_UI_Status_LV": {
+        "SelfId": "Txt_MBR_Window_UI_Status_LV",
+        "Text": "Ｌｖ"
+      },
+      "Txt_MBR_Window_UI_Status_NAME": {
+        "SelfId": "Txt_MBR_Window_UI_Status_NAME",
+        "Text": "なまえ"
+      },
+      "Txt_MBR_Window_UI_Status_MAX_HP": {
+        "SelfId": "Txt_MBR_Window_UI_Status_MAX_HP",
+        "Text": "さいだいＨＰ"
+      },
+      "Txt_MBR_Window_UI_Status_MAX_MP": {
+        "SelfId": "Txt_MBR_Window_UI_Status_MAX_MP",
+        "Text": "さいだいＭＰ"
+      },
+      "Txt_MBR_Window_UI_Status_PARAM_01": {
+        "SelfId": "Txt_MBR_Window_UI_Status_PARAM_01",
+        "Text": "こうげきりょく"
+      },
+      "Txt_MBR_Window_UI_Status_PARAM_02": {
+        "SelfId": "Txt_MBR_Window_UI_Status_PARAM_02",
+        "Text": "しゅびりょく"
+      },
+      "Txt_MBR_Window_UI_Status_PARAM_03": {
+        "SelfId": "Txt_MBR_Window_UI_Status_PARAM_03",
+        "Text": "すばやさ"
+      },
+      "Txt_MBR_Window_UI_Status_PARAM_04": {
+        "SelfId": "Txt_MBR_Window_UI_Status_PARAM_04",
+        "Text": "かしこさ"
+      },
+      "Txt_MBR_Window_UI_Status_PARAM_05": {
+        "SelfId": "Txt_MBR_Window_UI_Status_PARAM_05",
+        "Text": "うんのよさ"
+      },
+      "Txt_MBR_Window_UI_Same_Species": {
+        "SelfId": "Txt_MBR_Window_UI_Same_Species",
+        "Text": "おなじしゅぞくのなかま"
+      },
+      "Txt_MBR_Window_UI_Species_Power": {
+        "SelfId": "Txt_MBR_Window_UI_Species_Power",
+        "Text": "しゅぞくのちから"
+      },
+      "Txt_MBR_Window_UI_Sort_Order": {
+        "SelfId": "Txt_MBR_Window_UI_Sort_Order",
+        "Text": "ならび"
+      },
+      "Txt_MBR_Window_UI_Sort_Level": {
+        "SelfId": "Txt_MBR_Window_UI_Sort_Level",
+        "Text": "レベルじゅん"
+      },
+      "Txt_MBR_Window_UI_Sort_Species": {
+        "SelfId": "Txt_MBR_Window_UI_Sort_Species",
+        "Text": "ＩＤじゅん"
+      },
+      "Txt_MBR_Window_UI_Sort_ABC": {
+        "SelfId": "Txt_MBR_Window_UI_Sort_ABC",
+        "Text": "５０おんじゅん"
+      },
+      "Txt_MBR_Window_UI_Magic_Unknown": {
+        "SelfId": "Txt_MBR_Window_UI_Magic_Unknown",
+        "Text": "？？？"
+      },
+      "Txt_MBR_Window_UI_Indi_Unknown": {
+        "SelfId": "Txt_MBR_Window_UI_Indi_Unknown",
+        "Text": "？？？"
+      },
+      "Txt_MBR_Window_UI_Species_Solo": {
+        "SelfId": "Txt_MBR_Window_UI_Species_Solo",
+        "Text": "なし"
+      },
+      "Txt_MBR_Window_UI_Reward_Mask": {
+        "SelfId": "Txt_MBR_Window_UI_Reward_Mask",
+        "Text": "？？？"
+      },
+      "Txt_MBR_Window_UI_Reward_First": {
+        "SelfId": "Txt_MBR_Window_UI_Reward_First",
+        "Text": "はつクリアしょうひん"
+      },
+      "Txt_MBR_Window_UI_Disp_Disp": {
+        "SelfId": "Txt_MBR_Window_UI_Disp_Disp",
+        "Text": "ひょうじ"
+      },
+      "Txt_MBR_Window_UI_Disp_Status": {
+        "SelfId": "Txt_MBR_Window_UI_Disp_Status",
+        "Text": "つよさ"
+      },
+      "Txt_MBR_Window_UI_Disp_Magic": {
+        "SelfId": "Txt_MBR_Window_UI_Disp_Magic",
+        "Text": "こうどう"
+      },
+      "Txt_MBR_Window_UI_Member_Decide": {
+        "SelfId": "Txt_MBR_Window_UI_Member_Decide",
+        "Text": "メンバーけってい"
+      },
+      "Txt_MBR_Info_UI_Quit": {
+        "SelfId": "Txt_MBR_Info_UI_Quit",
+        "Text": "やめる"
+      },
+      "Txt_MBR_Info_UI_Guide": {
+        "SelfId": "Txt_MBR_Info_UI_Guide",
+        "Text": "ききたいことを　せんたく"
+      },
+      "Txt_MBR_Info_UI_Question_01": {
+        "SelfId": "Txt_MBR_Info_UI_Question_01",
+        "Text": "どんなまものなら　ほごできる？"
+      },
+      "Txt_MBR_Info_UI_Question_02": {
+        "SelfId": "Txt_MBR_Info_UI_Question_02",
+        "Text": "ちかづくと　にげてしまう　まものって……"
+      },
+      "Txt_MBR_Info_UI_Question_03": {
+        "SelfId": "Txt_MBR_Info_UI_Question_03",
+        "Text": "まものをみつけるコツ　ってある？"
+      },
+      "Txt_MBR_Info_UI_Question_04": {
+        "SelfId": "Txt_MBR_Info_UI_Question_04",
+        "Text": "バトルロードってなに？"
+      },
+      "Txt_MBR_Info_UI_Question_05": {
+        "SelfId": "Txt_MBR_Info_UI_Question_05",
+        "Text": "バトルロードに　ちょうせんするには……"
+      },
+      "Txt_MBR_Info_UI_Question_06": {
+        "SelfId": "Txt_MBR_Info_UI_Question_06",
+        "Text": "バトルロードで　まけたら？"
+      },
+      "Txt_MBR_Zoo_UI_Guide": {
+        "SelfId": "Txt_MBR_Zoo_UI_Guide",
+        "Text": "モンスターをせんたく"
+      },
+      "Txt_MBR_Entry_UI_Rank_Guide": {
+        "SelfId": "Txt_MBR_Entry_UI_Rank_Guide",
+        "Text": "ランクをせんたく"
+      },
+      "Txt_MBR_Entry_UI_Monster_Guide": {
+        "SelfId": "Txt_MBR_Entry_UI_Monster_Guide",
+        "Text": "モンスターをせんたく"
+      },
+      "Txt_MBR_Entry_UI_Monster_Remove": {
+        "SelfId": "Txt_MBR_Entry_UI_Monster_Remove",
+        "Text": "はずす"
+      },
+      "Txt_MBR_Entry_UI_Monster_Return": {
+        "SelfId": "Txt_MBR_Entry_UI_Monster_Return",
+        "Text": "もどる"
+      },
+      "Txt_MBR_Entry_UI_Entry_Yes": {
+        "SelfId": "Txt_MBR_Entry_UI_Entry_Yes",
+        "Text": "はい"
+      },
+      "Txt_MBR_Entry_UI_Entry_No": {
+        "SelfId": "Txt_MBR_Entry_UI_Entry_No",
+        "Text": "メンバーをかえる"
+      },
+      "Txt_MBR_Entry_UI_FightMoney": {
+        "SelfId": "Txt_MBR_Entry_UI_FightMoney",
+        "Text": "しょうきん"
+      },
+      "Txt_MBR_Invitation_UI_MonsterInfo": {
+        "SelfId": "Txt_MBR_Invitation_UI_MonsterInfo",
+        "Text": "ほごしたモンスター"
+      },
+      "Txt_MBR_Invitation_UI_MonsterTamer_003": {
+        "SelfId": "Txt_MBR_Invitation_UI_MonsterTamer_003",
+        "Text": "モンスターと　こころを　かよわせはじめた。"
+      },
+      "Txt_MBR_Invitation_UI_MonsterTamer_010": {
+        "SelfId": "Txt_MBR_Invitation_UI_MonsterTamer_010",
+        "Text": "モンスターのきもちを　すこし　りかいした"
+      },
+      "Txt_MBR_Invitation_UI_MonsterTamer_030": {
+        "SelfId": "Txt_MBR_Invitation_UI_MonsterTamer_030",
+        "Text": "モンスターのきもちを　もっと　りかいした。"
+      },
+      "Txt_MBR_Invitation_UI_MonsterTamer_050": {
+        "SelfId": "Txt_MBR_Invitation_UI_MonsterTamer_050",
+        "Text": "モンスターのきもちを　かなり　りかいした。"
+      },
+      "Txt_MBR_Invitation_UI_MonsterTamer_080": {
+        "SelfId": "Txt_MBR_Invitation_UI_MonsterTamer_080",
+        "Text": "モンスターと　こころを　かよわせた。"
+      },
+      "Txt_MBR_Invitation_UI_MonsterTamer_100": {
+        "SelfId": "Txt_MBR_Invitation_UI_MonsterTamer_100",
+        "Text": "モンスターと　しんらいかんけいが　むすばれた。"
+      },
+      "Txt_MBR_Info_Msg_Start_01": {
+        "SelfId": "Txt_MBR_Info_Msg_Start_01",
+        "Text": "いらっしゃいませ～！\r\nここは　あんないじょです。"
+      },
+      "Txt_MBR_Info_Msg_Start_02": {
+        "SelfId": "Txt_MBR_Info_Msg_Start_02",
+        "Text": "いらっしゃいませ～！\r\nここでは　まものたちの　ほごのほうほうや\r\nバトルロードについて　ごあんないしておりま～す。"
+      },
+      "Txt_MBR_Info_Msg_Top_01": {
+        "SelfId": "Txt_MBR_Info_Msg_Top_01",
+        "Text": "どんな　ごようでしょうか～？<NO_INPUT>"
+      },
+      "Txt_MBR_Info_Msg_Top_02": {
+        "SelfId": "Txt_MBR_Info_Msg_Top_02",
+        "Text": "どんな　ごようでしょうか～？<NO_INPUT>"
+      },
+      "Txt_MBR_Info_Msg_Quit": {
+        "SelfId": "Txt_MBR_Info_Msg_Quit",
+        "Text": "また　いつでも　おこしくださいませ～。"
+      },
+      "Txt_MBR_Info_Msg_Answer_01": {
+        "SelfId": "Txt_MBR_Info_Msg_Answer_01",
+        "Text": "それは　ですねえ～\r\nおとなしくしてるこを　みつけたら　ちかづいて\r\nヨシヨシして　あげれば　だいじょうぶです～！<KEY_WAIT>\r\nモンスターじいさんが　みとめられた　かたなら\r\nきっと　まものたちも　こころを\r\nひらいてくれます～！<KEY_WAIT>\r\nましょうが　きえたこたちは　そのばから\r\nじっーと　うごきませんから……　みかけたら\r\nちゃんとほごして　あげてくださいね～！"
+      },
+      "Txt_MBR_Info_Msg_Answer_02": {
+        "SelfId": "Txt_MBR_Info_Msg_Answer_02",
+        "Text": "それは　けいかいしんが　つよいこですね～！\r\nひとのあしおととか　においとかに　ビックリして\r\nちかづくまえに　にげちゃうんです～。<KEY_WAIT>\r\nですから　じぶんのあしおとを　けしたり\r\nまもののすきな　においを　だしてあげると\r\nそういうこたちも　にげないでくれます～！<KEY_WAIT>\r\nたとえば……　とうぞくさんとか\r\nしずかに　いどう　できますよねぇ～。\r\nレッツ　トライです～！"
+      },
+      "Txt_MBR_Info_Msg_Answer_03": {
+        "SelfId": "Txt_MBR_Info_Msg_Answer_03",
+        "Text": "そうですねえ……\r\nたとえば　そのこごとに\r\nよくかつどうする　じこくが　あったりします～。<KEY_WAIT>\r\nひるに　かっぱつにかつどうするこ　もいれば\r\nよるだけ　げんきになるこ　もいるみたいなので\r\nいろんなじこくで　ぼうけんして　みましょう～！<KEY_WAIT>\r\nゆうがただけ　ひょっこりでてくる\r\nなんてこ　もいるかもですね～！　やどやなら\r\nしゅっぱつをよるに　することもできますよ～。"
+      },
+      "Txt_MBR_Info_Msg_Answer_04": {
+        "SelfId": "Txt_MBR_Info_Msg_Answer_04",
+        "Text": "ふっふっふ……　よくぞきいてくれました～！\r\nバトルロードとは！　ほごされて\r\nあたらしいせいかつを　はじめた　まものたちが～<KEY_WAIT>\r\nけんこうと　ひびのはりあいを\r\nもとめて　みんなで　あせとしるをながす\r\nたたかいの　でんどうです～！<KEY_WAIT>\r\n……たまに　ザ・モンスター・バトルロードって\r\nまちがってよぶ　おじいちゃんが　いるんですけど\r\nザは　つかないのが　せいしきです～。<KEY_WAIT>\r\nまものたちを　たくさん\r\nほごしてあげて　いろんなこを\r\nしゅつじょうさせて　あげてくださ～い。<KEY_WAIT>\r\nさいしょは　かてなかったとしても\r\nまもののおともだちが　ふえれば\r\nきっと　かちあがれるように　なりますよ～！"
+      },
+      "Txt_MBR_Info_Msg_Answer_05": {
+        "SelfId": "Txt_MBR_Info_Msg_Answer_05",
+        "Text": "うけつけから　もうしこめば\r\nいつでも　しゅつじょう　できますよ～。<KEY_WAIT>\r\nさんかひは　ひつようになりますが\r\nかてばかつほど　しょうきんも　ふえていきます～。\r\nがんばって　かせいじゃって　くださ～い！<KEY_WAIT>\r\nバトルロードじょうは　ここだけじゃなく\r\nせかいじゅうに　つくられています～。\r\nばしょごとにランクが　あるんですよ～。<KEY_WAIT>\r\nさいしょは　Ｈランクからはじまって\r\nそのランクのぜんしあいを　かちぬいたら\r\nつぎのランクに　ちょうせん　できますよ～！"
+      },
+      "Txt_MBR_Info_Msg_Answer_06": {
+        "SelfId": "Txt_MBR_Info_Msg_Answer_06",
+        "Text": "まけちゃったら　そこで　はいたいとなります～。\r\nでも　それまでに　かちぬいた　かいすうによって\r\nしょうきんが　はらわれますので　あんしんです～。<KEY_WAIT>\r\nくじけないで　なんどでも　いどんでください～！<KEY_WAIT>\r\nまけても　うけつけに　もどってくるだけなので\r\nなにか　おおきくそんをすることは　ないですよ～。\r\nまものたちも　かいふくするので　ごしんぱいなく～！"
+      },
+      "Txt_MBR_Zoo_Msg_Start_01": {
+        "SelfId": "Txt_MBR_Zoo_Msg_Start_01",
+        "Text": "よくきたのう。\r\nモンスターたちは　かわらず\r\nげんきに　すごしておるぞ。"
+      },
+      "Txt_MBR_Zoo_Msg_Start_02": {
+        "SelfId": "Txt_MBR_Zoo_Msg_Start_02",
+        "Text": "おお　おぬしか！　よくきたのう。\r\nあれいこうも　モンスターたちを　きにかけて\r\nくれているようで　ありがたいかぎりよ。"
+      },
+      "Txt_MBR_Zoo_Msg_Top_01": {
+        "SelfId": "Txt_MBR_Zoo_Msg_Top_01",
+        "Text": "せっかくじゃ\r\nようすをみていって　やってくれ。<NO_INPUT>"
+      },
+      "Txt_MBR_Zoo_Msg_Top_02": {
+        "SelfId": "Txt_MBR_Zoo_Msg_Top_02",
+        "Text": "まだ　ようすをみたい\r\nモンスターは　いるかの？<NO_INPUT>"
+      },
+      "Txt_MBR_Zoo_Msg_Top_03": {
+        "SelfId": "Txt_MBR_Zoo_Msg_Top_03",
+        "Text": "まさか　わしらにかってしまうとはのう……\r\nみごとじゃったぞ！"
+      },
+      "Txt_MBR_Zoo_Msg_Quit": {
+        "SelfId": "Txt_MBR_Zoo_Msg_Quit",
+        "Text": "また　いつでも　くるがよい。\r\nまっておるぞ！"
+      },
+      "Txt_MBR_Zoo_Msg_Achieve_Reward_01": {
+        "SelfId": "Txt_MBR_Zoo_Msg_Achieve_Reward_01",
+        "Text": "おお　まっておったぞ。<KEY_WAIT>\r\nおぬしに　ほごしてもらった　モンスターのかずが\r\n{VALUE}たいいじょうに　なってのう。\r\nれいをしたいと　おもっておったのじゃ。<KEY_WAIT>\r\nどうか　これからも　モンスターたちを\r\nきにかけてやってくれ。\r\nたのんだぞ。"
+      },
+      "Txt_MBR_Zoo_Msg_Achieve_Reward_02": {
+        "SelfId": "Txt_MBR_Zoo_Msg_Achieve_Reward_02",
+        "Text": "おお　よくきてくれた。<KEY_WAIT>\r\nおぬしが　ほごしたモンスターのかずが\r\n{VALUE}たいに　なったでな。\r\nかおぶれが　ゆたかになってきたのう。<KEY_WAIT>\r\nわずかじゃが　わしからの　ねぎらいじゃ！\r\nこれからも　モンスターたちを　よろしくな。"
+      },
+      "Txt_MBR_Zoo_Msg_Achieve_Reward_03": {
+        "SelfId": "Txt_MBR_Zoo_Msg_Achieve_Reward_03",
+        "Text": "おお　おぬしか！\r\nよいところに　きてくれた。<KEY_WAIT>\r\nおぬしがほごしたモンスターたちが\r\n{VALUE}たいに　なったぞ。<KEY_WAIT>\r\nきづけば　あっというま……\r\nおおじょたいに　なったものじゃ。<KEY_WAIT>\r\nこれほど　おおくのモンスタ―を　みつけられるのは\r\nおぬしくらいじゃろう。こんごもきたいしておるぞ？<KEY_WAIT>\r\nささやかじゃが　おぬしのたびに　やくだててくれ。"
+      },
+      "Txt_MBR_Zoo_Msg_Achieve_Reward_04": {
+        "SelfId": "Txt_MBR_Zoo_Msg_Achieve_Reward_04",
+        "Text": "おお　おぬしか！　まっておったぞ。<KEY_WAIT>\r\nおぬしがほごしたモンスターたちがな\r\nついに　{VALUE}たいになったのじゃ！　<KEY_WAIT>\r\nここまでふえるとは\r\nしょうじき　そうぞうしておらんかったよ。<KEY_WAIT>\r\nモンスターたちも　みな　すこやかにくらしておる。　\r\nわしも　うれしいかぎりじゃ。　<KEY_WAIT>\r\nそれで　おぬしのがんばりに　むくいたくての。\r\nとくべつなしなをよういした。もっていってくれ！　\r\nたびのぶじをいのっておるぞ。"
+      },
+      "Txt_MBR_Zoo_Msg_Achieve_Reward_05": {
+        "SelfId": "Txt_MBR_Zoo_Msg_Achieve_Reward_05",
+        "Text": "……おお　おぬしか。\r\nおぬしはすごいヤツじゃな。\r\nあらためて　おそれいったぞ。<KEY_WAIT>\r\nと　いうのもな……。\r\nおぬしがほごしたモンスターたちが\r\nなんと　{VALUE}たいになったのじゃ。<KEY_WAIT>\r\nどれほど　せかいをあるきまわれば\r\nこれだけのモンスターを　みつけることができるのか……\r\nこのモンスターじいさんにも　そうぞうがつかんぞ。<KEY_WAIT>\r\nあらためて　れいをいわせてくれ。\r\nスラリンにあった　あのひ……\r\nおぬしにこえをかけた　わしのかんは　ただしかった！<KEY_WAIT>\r\nおぬしこそ　しんのモンスターマスターじゃ！\r\nほんとうに　ありがとう！！<KEY_WAIT>\r\nおぬしのたびに　やくだつかは　もうわからぬが\r\nわしのおきにいりのしなをやろう。\r\nなーに　きにせんでよい。スパッともっていってくれ！<KEY_WAIT>\r\nモンスターたちのくらしは　これからもつづく。\r\nきがむいたら　またいつでもたずねてきてくれ。"
+      },
+      "Txt_MBR_Zoo_Msg_Reward_A1": {
+        "SelfId": "Txt_MBR_Zoo_Msg_Reward_A1",
+        "Text": "{LEADER}は\r\n{WORD}を　{VALUE}こ\r\nモンスターじいさんから　うけとった！"
+      },
+      "Txt_MBR_Zoo_Msg_Reward_A2": {
+        "SelfId": "Txt_MBR_Zoo_Msg_Reward_A2",
+        "Text": "{LEADER}は\r\n{WORD}を　{VALUE}こ\r\n{WORD2}を　{VALUE2}こ"
+      },
+      "Txt_MBR_Zoo_Msg_Reward_B0": {
+        "SelfId": "Txt_MBR_Zoo_Msg_Reward_B0",
+        "Text": "モンスターじいさんから　うけとった！"
+      },
+      "Txt_MBR_Zoo_Msg_Reward_B1": {
+        "SelfId": "Txt_MBR_Zoo_Msg_Reward_B1",
+        "Text": "{WORD}を　{VALUE}こ\r\nモンスターじいさんから　うけとった！"
+      },
+      "Txt_MBR_Zoo_Msg_Reward_B2": {
+        "SelfId": "Txt_MBR_Zoo_Msg_Reward_B2",
+        "Text": "{WORD}を　{VALUE}こ\r\n{WORD2}を　{VALUE2}こ\r\nモンスターじいさんから　うけとった！"
+      },
+      "Txt_MBR_Zoo_Msg_Reward_B3": {
+        "SelfId": "Txt_MBR_Zoo_Msg_Reward_B3",
+        "Text": "{WORD}を　{VALUE}こ\r\n{WORD2}を　{VALUE2}こ\r\n{WORD3}を　{VALUE3}こ"
+      },
+      "Txt_MBR_Zoo_Msg_Reward_Excess": {
+        "SelfId": "Txt_MBR_Zoo_Msg_Reward_Excess",
+        "Text": "なんと！　もちきれんようじゃ。\r\nすまんが　もちきれんおれいは\r\nあきらめてくれぃ。"
+      },
+      "Txt_MBR_Entry_Msg_Start_01": {
+        "SelfId": "Txt_MBR_Entry_Msg_Start_01",
+        "Text": "まものたちの　あつききょうえん……\r\nモンスター・バトルロードへ　ようこそ。"
+      },
+      "Txt_MBR_Entry_Msg_Start_02": {
+        "SelfId": "Txt_MBR_Entry_Msg_Start_02",
+        "Text": "ようこそ　ここは　モンスターたちがきそい\r\nきずなをはぐくむ　たたかいのでんどう。\r\nモンスター・バトルロードです！\r\n<KEY_WAIT>\r\nここでは　あつめたまものたちを\r\nたたかわせることが　できます。"
+      },
+      "Txt_MBR_Entry_Msg_Rank_01": {
+        "SelfId": "Txt_MBR_Entry_Msg_Rank_01",
+        "Text": "ただいま　かいさいされている\r\nバトルランクは　こちらになります。\r\nしゅつじょうしますか？<NO_INPUT>"
+      },
+      "Txt_MBR_Entry_Msg_Rank_02": {
+        "SelfId": "Txt_MBR_Entry_Msg_Rank_02",
+        "Text": "ただいま　かいさいされている\r\nバトルランクは　こちらになります。\r\nしゅつじょう　しますか？<NO_INPUT>"
+      },
+      "Txt_MBR_Entry_Msg_Rank_Entry": {
+        "SelfId": "Txt_MBR_Entry_Msg_Rank_Entry",
+        "Text": "それでは　さんかひを　いただきます。"
+      },
+      "Txt_MBR_Entry_Msg_Rank_Err_Entry": {
+        "SelfId": "Txt_MBR_Entry_Msg_Rank_Err_Entry",
+        "Text": "ざんねんですが\r\nおきゃくさまが　しゅつじょうできるランクは\r\nないようですね…。"
+      },
+      "Txt_MBR_Entry_Msg_Rank_Err_Rank": {
+        "SelfId": "Txt_MBR_Entry_Msg_Rank_Err_Rank",
+        "Text": "おきゃくさまは　まだそのランクに\r\nしゅつじょうすることは　できないようです。"
+      },
+      "Txt_MBR_Entry_Msg_Rank_Err_Money": {
+        "SelfId": "Txt_MBR_Entry_Msg_Rank_Err_Money",
+        "Text": "もうしわけありません。\r\nさんかひが　たりないようです。"
+      },
+      "Txt_MBR_Entry_Msg_Party_01": {
+        "SelfId": "Txt_MBR_Entry_Msg_Party_01",
+        "Text": "しゅつじょうメンバーは　これでよろしいですか？\r\nメンバーわくをえらんで　ほかのモンスターに\r\nいれかえることも　できます。<NO_INPUT>"
+      },
+      "Txt_MBR_Entry_Msg_Party_02": {
+        "SelfId": "Txt_MBR_Entry_Msg_Party_02",
+        "Text": "しゅつじょうメンバーは　これでよろしいですか？\r\nいれかえたいばあいは　メンバーわくを\r\nえらんでください。<NO_INPUT>"
+      },
+      "Txt_MBR_Entry_Msg_Party_Empty": {
+        "SelfId": "Txt_MBR_Entry_Msg_Party_Empty",
+        "Text": "あら？　パーティに　だれもいないようですね。\r\nしゅつじょうモンスターを　とうろくしましょう！\r\nまずは　メンバーわくを　えらんでください。<NO_INPUT>"
+      },
+      "Txt_MBR_Entry_Msg_Monster_01": {
+        "SelfId": "Txt_MBR_Entry_Msg_Monster_01",
+        "Text": "どのモンスターを　しゅつじょうさせますか？<NO_INPUT>"
+      },
+      "Txt_MBR_Entry_Msg_Entry_Confirm": {
+        "SelfId": "Txt_MBR_Entry_Msg_Entry_Confirm",
+        "Text": "うけたまわりました。\r\nまもなく　トーナメントが　はじまります。\r\nじゅんびは　よろしいですか？<NO_INPUT>"
+      },
+      "Txt_MBR_Entry_Msg_Entry_Err_Party": {
+        "SelfId": "Txt_MBR_Entry_Msg_Entry_Err_Party",
+        "Text": "あら？　しゅつじょうメンバーが\r\nだれもいないようですね。メンバーわくをえらんで\r\nモンスターを　いれてください。"
+      },
+      "Txt_MBR_Entry_Msg_Quit_01": {
+        "SelfId": "Txt_MBR_Entry_Msg_Quit_01",
+        "Text": "またのごらいじょう\r\nこころより　おまちしております。"
+      },
+      "Txt_MBR_Entry_Msg_Quit_02": {
+        "SelfId": "Txt_MBR_Entry_Msg_Quit_02",
+        "Text": "またのごらいじょう\r\nこころより　おまちしております。"
+      },
+      "Txt_MBR_Entry_Msg_Start_Match": {
+        "SelfId": "Txt_MBR_Entry_Msg_Start_Match",
+        "Text": "これより　バトルロード　{WORD}を\r\nかいしします。ちょうせんしゃのかたは\r\nとうぎじょうへ　おすすみください！"
+      },
+      "Txt_MBR_Entry_Msg_Result_Top": {
+        "SelfId": "Txt_MBR_Entry_Msg_Result_Top",
+        "Text": "おつかれさまでした。"
+      },
+      "Txt_MBR_Entry_Msg_Result_Lose": {
+        "SelfId": "Txt_MBR_Entry_Msg_Result_Lose",
+        "Text": "すばらしい　しあいでしたが\r\nざんねんながら　とちゅうはいたいと　なります。"
+      },
+      "Txt_MBR_Entry_Msg_Result_Win_01": {
+        "SelfId": "Txt_MBR_Entry_Msg_Result_Win_01",
+        "Text": "バトルロード　{WORD}　かちぬきとなります！"
+      },
+      "Txt_MBR_Entry_Msg_Result_Win_02": {
+        "SelfId": "Txt_MBR_Entry_Msg_Result_Win_02",
+        "Text": "{VALUE}せん　かちぬかれましたので\r\nしょうきん　{VALUE2}ゴールドを　おわたしします。"
+      },
+      "Txt_MBR_Entry_Msg_Result_Win_03": {
+        "SelfId": "Txt_MBR_Entry_Msg_Result_Win_03",
+        "Text": "バトルロード　{WORD}とっぱ　\r\nおめでとうございます！\r\nみるものをあつくさせる　みごとなしあいでした。<KEY_WAIT>\r\nはじめて　{WORD}を　かちぬかれましたので\r\nしょうきん　{VALUE}ゴールドと\r\nしょうひんを　おおくりします！"
+      },
+      "Txt_MBR_Entry_Msg_Result_Win_04": {
+        "SelfId": "Txt_MBR_Entry_Msg_Result_Win_04",
+        "Text": "もちきれない　しょうきんは\r\nもうしわけございませんが　おわたしできません。"
+      },
+      "Txt_MBR_Entry_Msg_Reward_A1": {
+        "SelfId": "Txt_MBR_Entry_Msg_Reward_A1",
+        "Text": "{LEADER}は\r\n{WORD}を　{VALUE}こ\r\nしょうひんとして　うけとった！"
+      },
+      "Txt_MBR_Entry_Msg_Reward_A2": {
+        "SelfId": "Txt_MBR_Entry_Msg_Reward_A2",
+        "Text": "{LEADER}は\r\n{WORD}を　{VALUE}こ\r\n{WORD2}を　{VALUE2}こ"
+      },
+      "Txt_MBR_Entry_Msg_Reward_B0": {
+        "SelfId": "Txt_MBR_Entry_Msg_Reward_B0",
+        "Text": "しょうひんとして　うけとった！"
+      },
+      "Txt_MBR_Entry_Msg_Reward_B1": {
+        "SelfId": "Txt_MBR_Entry_Msg_Reward_B1",
+        "Text": "{WORD}を　{VALUE}こ\r\nしょうひんとして　うけとった！"
+      },
+      "Txt_MBR_Entry_Msg_Reward_B2": {
+        "SelfId": "Txt_MBR_Entry_Msg_Reward_B2",
+        "Text": "{WORD}を　{VALUE}こ\r\n{WORD2}を　{VALUE2}こ\r\nしょうひんとして　うけとった！"
+      },
+      "Txt_MBR_Entry_Msg_Reward_B3": {
+        "SelfId": "Txt_MBR_Entry_Msg_Reward_B3",
+        "Text": "{WORD}を　{VALUE}こ\r\n{WORD2}を　{VALUE2}こ\r\n{WORD3}を　{VALUE3}こ"
+      },
+      "Txt_MBR_Entry_Msg_Reward_Excess": {
+        "SelfId": "Txt_MBR_Entry_Msg_Reward_Excess",
+        "Text": "もきちれない　しょうひんは\r\nもうしわけございませんが　おわたしできません。"
+      },
+      "Txt_MBR_Invitation_Msg_Success_010": {
+        "SelfId": "Txt_MBR_Invitation_Msg_Success_010",
+        "Text": "まものは　うれしそうに\r\nモンスターじいさんのところへ\r\nむかっていった！"
+      },
+      "Txt_MBR_Invitation_Msg_Success_020": {
+        "SelfId": "Txt_MBR_Invitation_Msg_Success_020",
+        "Text": "まものは　おどりながら\r\nモンスターじいさんのところへ\r\nはしっていった！"
+      },
+      "Txt_MBR_Invitation_Msg_Success_030": {
+        "SelfId": "Txt_MBR_Invitation_Msg_Success_030",
+        "Text": "まものは　ゆっくりと\r\nモンスターじいさんのところへ\r\nむかっていった！"
+      },
+      "Txt_MBR_Invitation_Msg_Success_040": {
+        "SelfId": "Txt_MBR_Invitation_Msg_Success_040",
+        "Text": "まものは　きあいをいれて\r\nモンスターじいさんのところへ\r\nはしっていった！"
+      },
+      "Txt_MBR_Invitation_Msg_Success_050": {
+        "SelfId": "Txt_MBR_Invitation_Msg_Success_050",
+        "Text": "しんりゅうは　ふかくうなずいて\r\nモンスターじいさんのところへ　むかった。"
+      },
+      "Txt_MBR_Invitation_Msg_Named": {
+        "SelfId": "Txt_MBR_Invitation_Msg_Named",
+        "Text": "モンスターは　ぶじにほごされ\r\n{ACTOR}と　めいめいされた！"
+      },
+      "Txt_MBR_Invitation_Msg_StatusUp": {
+        "SelfId": "Txt_MBR_Invitation_Msg_StatusUp",
+        "Text": "{M_NAME}の　なかまがふえて\r\n{ACTOR}たちの　きずながふかまった！<KEY_WAIT>\r\n{ACTOR}が　さらにつよくなった！！"
+      },
+      "Txt_MBR_Invitation_Msg_ZooPrize": {
+        "SelfId": "Txt_MBR_Invitation_Msg_ZooPrize",
+        "Text": "ほごしたモンスターのかずが　{VALUE}たいになった。\r\n<KEY_WAIT>\r\nモンスターじいさんと　モンスターたちのようすを\r\nみにいってみよう。"
+      },
+      "Txt_MBR_Invitation_Msg_MonsterTamer": {
+        "SelfId": "Txt_MBR_Invitation_Msg_MonsterTamer",
+        "Text": "ほごしたモンスターのかずが　{VALUE}たいになった。\r\n<KEY_WAIT>\r\nモンスターへの　りかいが　さらにふかまった。"
+      }
+    }
+  }
+]

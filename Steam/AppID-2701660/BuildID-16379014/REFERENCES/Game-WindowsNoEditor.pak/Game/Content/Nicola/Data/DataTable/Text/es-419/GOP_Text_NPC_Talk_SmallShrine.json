@@ -1,0 +1,52 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_NPC_Talk_SmallShrine",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Talk_SmallShrine_B1F_SUB_0_ACTOR_0110_010_1": {
+        "SelfId": "Txt_Talk_SmallShrine_B1F_SUB_0_ACTOR_0110_010_1",
+        "Text": "*: ¡Hola, <IfGender_LEADER(jovencito,jovencita,)>! ¿De casualidad no traerás entre tus cosas una bola demoledora?"
+      },
+      "Txt_Talk_SmallShrine_B1F_SUB_0_ACTOR_0110_010_2": {
+        "SelfId": "Txt_Talk_SmallShrine_B1F_SUB_0_ACTOR_0110_010_2",
+        "Text": "*: Ni modo, bueno, ¡¿pero qué estás esperando?! ¡Empieza a recorrer el Túnel de la Promesa! Está cerca de un manantial<...> creo<...>"
+      },
+      "Txt_Talk_SmallShrine_B1F_SUB_0_ACTOR_0110_010_3": {
+        "SelfId": "Txt_Talk_SmallShrine_B1F_SUB_0_ACTOR_0110_010_3",
+        "Text": "*: ¡¿No?! ¡¿En qué estabas pensando, <IfGender_LEADER(muchacho,muchacha,)>?! ¡Vuelve a la Ribera y busca una!"
+      },
+      "Txt_Talk_SmallShrine_B1F_SUB_0_ACTOR_0110_020_1": {
+        "SelfId": "Txt_Talk_SmallShrine_B1F_SUB_0_ACTOR_0110_020_1",
+        "Text": "*: Como su nombre te da a entender, el Túnel de la Promesa te conduce a tierras nuevas."
+      },
+      "Txt_Talk_SmallShrine_B1F_SUB_0_ACTOR_0110_020_2": {
+        "SelfId": "Txt_Talk_SmallShrine_B1F_SUB_0_ACTOR_0110_020_2",
+        "Text": "*: Lo que hagas en ese nuevo entorno al que te llevará<...> ¡depende completamente de ti!"
+      },
+      "Txt_Talk_SmallShrine_B1F_SearchObj_BookShelf_1": {
+        "SelfId": "Txt_Talk_SmallShrine_B1F_SearchObj_BookShelf_1",
+        "Text": "Es un libro que trata de bumeranes y látigos. ¿Quieres leerlo?"
+      },
+      "Txt_Talk_SmallShrine_B1F_SearchObj_BookShelf_2": {
+        "SelfId": "Txt_Talk_SmallShrine_B1F_SearchObj_BookShelf_2",
+        "Text": "<66>Los látigos y los bumeranes permiten lanzar ataques contra varios enemigos a la vez<99>."
+      },
+      "Txt_Talk_SmallShrine_B1F_SearchObj_BookShelf_3": {
+        "SelfId": "Txt_Talk_SmallShrine_B1F_SearchObj_BookShelf_3",
+        "Text": "<66>Los látigos sirven para golpear grupos de objetivos, mientras que un búmeran lastimará a todos los rivales con los que se tope<99>."
+      },
+      "Txt_Talk_SmallShrine_B1F_SearchObj_BookShelf_4": {
+        "SelfId": "Txt_Talk_SmallShrine_B1F_SearchObj_BookShelf_4",
+        "Text": "<66>Aunque el ataque de estas armas parezca limitado, con una buena estrategia pueden otorgar muchas ventajas<99>."
+      }
+    }
+  }
+]

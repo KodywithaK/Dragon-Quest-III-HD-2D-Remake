@@ -1,0 +1,48 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_NPC_Talk_GarunaTower",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Talk_GarunaTower_1F_SUB_0_ACTOR_0110_010_1": {
+        "SelfId": "Txt_Talk_GarunaTower_1F_SUB_0_ACTOR_0110_010_1",
+        "Text": "*: La vida es un constante peregrinar en busca de sabiduría y verdad. Así que, <IfGender_LEADER(bienvenido,bienvenida,)>, <IfGender_LEADER(peregrino,peregrina,)>, a la Torre de la Eminencia."
+      },
+      "Txt_Talk_GarunaTower_1F_SUB_0_ACTOR_0210_010_1": {
+        "SelfId": "Txt_Talk_GarunaTower_1F_SUB_0_ACTOR_0210_010_1",
+        "Text": "*: Al parecer, existe un libro en algún lugar de esta torre, titulado <66>Sabias Palabras<99>."
+      },
+      "Txt_Talk_GarunaTower_1F_SUB_0_ACTOR_0210_010_2": {
+        "SelfId": "Txt_Talk_GarunaTower_1F_SUB_0_ACTOR_0210_010_2",
+        "Text": "*: Si lo que se dice es verdad, ¡con solo leerlo me puedo convertir en una sabia!"
+      },
+      "Txt_Talk_GarunaTower_1F_SUB_0_ACTOR_0310_010_1": {
+        "SelfId": "Txt_Talk_GarunaTower_1F_SUB_0_ACTOR_0310_010_1",
+        "Text": "*: Ommm<...> <...>"
+      },
+      "Txt_Talk_GarunaTower_1F_SUB_0_ACTOR_0310_010_2": {
+        "SelfId": "Txt_Talk_GarunaTower_1F_SUB_0_ACTOR_0310_010_2",
+        "Text": "*: ¡Oye! Déjame en paz, ¿quieres? ¡Intento meditar!"
+      },
+      "Txt_Talk_GarunaTower_2F_SUB_0_VOLUME_0410_010_1": {
+        "SelfId": "Txt_Talk_GarunaTower_2F_SUB_0_VOLUME_0410_010_1",
+        "Text": "Miau<...>"
+      },
+      "Txt_Talk_GarunaTower_2F_SUB_0_VOLUME_0410_010_2": {
+        "SelfId": "Txt_Talk_GarunaTower_2F_SUB_0_VOLUME_0410_010_2",
+        "Text": "{LEADER} tranquiliza al monstruo con una voz relajante y le habla sobre la reserva de monstruos de Moncho<...>"
+      },
+      "Txt_Talk_GarunaTower_2F_SUB_0_VOLUME_0410_010_3": {
+        "SelfId": "Txt_Talk_GarunaTower_2F_SUB_0_VOLUME_0410_010_3",
+        "Text": "¡Miautástico!"
+      }
+    }
+  }
+]

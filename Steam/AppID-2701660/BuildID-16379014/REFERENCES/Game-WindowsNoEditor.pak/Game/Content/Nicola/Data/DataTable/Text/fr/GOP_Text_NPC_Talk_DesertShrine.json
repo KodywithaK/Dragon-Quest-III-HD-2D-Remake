@@ -1,0 +1,32 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_NPC_Talk_DesertShrine",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Talk_DesertShrine_1F_SUB_0_ACTOR_0110_010_1": {
+        "SelfId": "Txt_Talk_DesertShrine_1F_SUB_0_ACTOR_0110_010_1",
+        "Text": "*: Vous êtes à la recherche de la clef magique, <IfGender_LEADER(voyageur,voyageuse,)>?"
+      },
+      "Txt_Talk_DesertShrine_1F_SUB_0_ACTOR_0110_010_2": {
+        "SelfId": "Txt_Talk_DesertShrine_1F_SUB_0_ACTOR_0110_010_2",
+        "Text": "*: C'est au fin fond de la pyramide au nord du désert que vous trouverez la clef. Mais, prenez garde: c'est un endroit extrêmement dangereux, truffé de pièges mortels."
+      },
+      "Txt_Talk_DesertShrine_1F_SUB_0_ACTOR_0110_010_3": {
+        "SelfId": "Txt_Talk_DesertShrine_1F_SUB_0_ACTOR_0110_010_3",
+        "Text": "*: Avant d'y entrer, il vous faudra chercher à Ibis des informations concernant ses différents mécanismes. Cherchez une grande oasis à l'ouest, c'est là que vous trouverez la ville."
+      },
+      "Txt_Talk_DesertShrine_1F_SUB_0_ACTOR_0110_010_4": {
+        "SelfId": "Txt_Talk_DesertShrine_1F_SUB_0_ACTOR_0110_010_4",
+        "Text": "*: Je ne vous dirai pas ce que vous ne souhaitez pas entendre..."
+      }
+    }
+  }
+]

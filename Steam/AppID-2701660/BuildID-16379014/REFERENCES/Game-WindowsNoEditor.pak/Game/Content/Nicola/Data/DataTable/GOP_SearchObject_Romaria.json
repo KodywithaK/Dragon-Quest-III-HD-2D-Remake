@@ -1,0 +1,368 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_SearchObject_Romaria",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_SearchObject_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "SEARCH_Romaria_Out_GROUND_0": {
+        "SelfId": "SEARCH_Romaria_Out_GROUND_0",
+        "ObjectType": "ESearchObjectType::GROUND",
+        "ItemId": "ITEM_USE_ITEM_PRIMMS_PRIMER",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Romaria_Out_GROUND_0"
+      },
+      "SEARCH_Romaria_Out_GROUND_1": {
+        "SelfId": "SEARCH_Romaria_Out_GROUND_1",
+        "ObjectType": "ESearchObjectType::GROUND",
+        "ItemId": "ITEM_EQUIP_WEAPON_CYPRESS_STICK",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Romaria_Out_GROUND_1"
+      },
+      "SEARCH_Romaria_Out_POT_0": {
+        "SelfId": "SEARCH_Romaria_Out_POT_0",
+        "ObjectType": "ESearchObjectType::POT",
+        "ItemId": "None",
+        "ItemNum": 0,
+        "Gold": 43,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Romaria_Out_POT_0"
+      },
+      "SEARCH_Romaria_Out_POT_1": {
+        "SelfId": "SEARCH_Romaria_Out_POT_1",
+        "ObjectType": "ESearchObjectType::POT",
+        "ItemId": "None",
+        "ItemNum": 0,
+        "Gold": 113,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Romaria_Out_POT_1"
+      },
+      "SEARCH_Romaria_Out_BARREL_0": {
+        "SelfId": "SEARCH_Romaria_Out_BARREL_0",
+        "ObjectType": "ESearchObjectType::BARREL",
+        "ItemId": "ITEM_USE_ITEM_SEED_OF_LUCK",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Romaria_Out_BARREL_0"
+      },
+      "SEARCH_Romaria_Out_BARREL_1": {
+        "SelfId": "SEARCH_Romaria_Out_BARREL_1",
+        "ObjectType": "ESearchObjectType::BARREL",
+        "ItemId": "ITEM_USE_ITEM_CHIMERA_WING",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Romaria_Out_BARREL_1"
+      },
+      "SEARCH_Romaria_Out_BARREL_2": {
+        "SelfId": "SEARCH_Romaria_Out_BARREL_2",
+        "ObjectType": "ESearchObjectType::BARREL",
+        "ItemId": "ITEM_USE_ITEM_MEDICAL_HERB",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Romaria_Out_BARREL_2"
+      },
+      "SEARCH_Romaria_Inn_1F_DRAWER_0": {
+        "SelfId": "SEARCH_Romaria_Inn_1F_DRAWER_0",
+        "ObjectType": "ESearchObjectType::DRAWER",
+        "ItemId": "ITEM_USE_ITEM_MOONWORT_BULB",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Romaria_Inn_1F_DRAWER_0"
+      },
+      "SEARCH_Romaria_Inn_1F_EVENT_0": {
+        "SelfId": "SEARCH_Romaria_Inn_1F_EVENT_0",
+        "ObjectType": "ESearchObjectType::EVENT",
+        "ItemId": "None",
+        "ItemNum": 0,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": false,
+        "OverrideScriptName": "Romaria_Inn_1F_EVENT_00",
+        "FlagName": "EGOPEnumSearchType::NONE"
+      },
+      "SEARCH_Romaria_Inn_2F_DRAWER_0": {
+        "SelfId": "SEARCH_Romaria_Inn_2F_DRAWER_0",
+        "ObjectType": "ESearchObjectType::DRAWER",
+        "ItemId": "ITEM_EQUIP_ARMOR_LEATHER_ARMOUR",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Romaria_Inn_2F_DRAWER_0"
+      },
+      "SEARCH_Romaria_House_DRAWER_0": {
+        "SelfId": "SEARCH_Romaria_House_DRAWER_0",
+        "ObjectType": "ESearchObjectType::DRAWER",
+        "ItemId": "ITEM_EQUIP_HELMET_TURBAN",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Romaria_House_DRAWER_0"
+      },
+      "SEARCH_Romaria_House_POT_0": {
+        "SelfId": "SEARCH_Romaria_House_POT_0",
+        "ObjectType": "ESearchObjectType::POT",
+        "ItemId": "ITEM_SMALL_MEDAL",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Romaria_House_POT_0"
+      },
+      "SEARCH_Romaria_Church_DRAWER_0": {
+        "SelfId": "SEARCH_Romaria_Church_DRAWER_0",
+        "ObjectType": "ESearchObjectType::DRAWER",
+        "ItemId": "ITEM_EQUIP_ACCESSORY_RESTLESS_HEART",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Romaria_Church_DRAWER_0"
+      },
+      "SEARCH_Romaria_Church_BOOKSHELF_0": {
+        "SelfId": "SEARCH_Romaria_Church_BOOKSHELF_0",
+        "ObjectType": "ESearchObjectType::BOOKSHELF",
+        "ItemId": "ITEM_USE_ITEM_SMART_BOOK",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Romaria_Church_BOOKSHELF_0"
+      },
+      "SEARCH_Romaria_Shop_POT_0": {
+        "SelfId": "SEARCH_Romaria_Shop_POT_0",
+        "ObjectType": "ESearchObjectType::POT",
+        "ItemId": "ITEM_USE_ITEM_MEDICAL_HERB",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Romaria_Shop_POT_0"
+      },
+      "SEARCH_Romaria_BattleRoad_POT_0": {
+        "SelfId": "SEARCH_Romaria_BattleRoad_POT_0",
+        "ObjectType": "ESearchObjectType::POT",
+        "ItemId": "None",
+        "ItemNum": 0,
+        "Gold": 135,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Romaria_BattleRoad_POT_0"
+      },
+      "SEARCH_Romaria_BattleRoad_BARREL_0": {
+        "SelfId": "SEARCH_Romaria_BattleRoad_BARREL_0",
+        "ObjectType": "ESearchObjectType::BARREL",
+        "ItemId": "ITEM_USE_ITEM_SEED_OF_PROTECTION",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Romaria_BattleRoad_BARREL_0"
+      },
+      "SEARCH_Romaria_Castle_1F_GROUND_0": {
+        "SelfId": "SEARCH_Romaria_Castle_1F_GROUND_0",
+        "ObjectType": "ESearchObjectType::GROUND",
+        "ItemId": "ITEM_SMALL_MEDAL",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Romaria_Castle_1F_GROUND_0"
+      },
+      "SEARCH_Romaria_Castle_1F_GROUND_1": {
+        "SelfId": "SEARCH_Romaria_Castle_1F_GROUND_1",
+        "ObjectType": "ESearchObjectType::GROUND",
+        "ItemId": "ITEM_USE_ITEM_TANGLEWEB",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Romaria_Castle_1F_GROUND_1"
+      },
+      "SEARCH_Romaria_Castle_1F_POT_0": {
+        "SelfId": "SEARCH_Romaria_Castle_1F_POT_0",
+        "ObjectType": "ESearchObjectType::POT",
+        "ItemId": "ITEM_USE_ITEM_DEDAZZLE_GRASS",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Romaria_Castle_1F_POT_0"
+      },
+      "SEARCH_Romaria_Castle_1F_POT_1": {
+        "SelfId": "SEARCH_Romaria_Castle_1F_POT_1",
+        "ObjectType": "ESearchObjectType::POT",
+        "ItemId": "None",
+        "ItemNum": 0,
+        "Gold": 52,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Romaria_Castle_1F_POT_1"
+      },
+      "SEARCH_Romaria_Castle_1F_POT_2": {
+        "SelfId": "SEARCH_Romaria_Castle_1F_POT_2",
+        "ObjectType": "ESearchObjectType::POT",
+        "ItemId": "None",
+        "ItemNum": 0,
+        "Gold": 26,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Romaria_Castle_1F_POT_2"
+      },
+      "SEARCH_Romaria_Castle_1F_POT_3": {
+        "SelfId": "SEARCH_Romaria_Castle_1F_POT_3",
+        "ObjectType": "ESearchObjectType::POT",
+        "ItemId": "ITEM_USE_ITEM_CHIMERA_WING",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Romaria_Castle_1F_POT_3"
+      },
+      "SEARCH_Romaria_Castle_1F_BARREL_0": {
+        "SelfId": "SEARCH_Romaria_Castle_1F_BARREL_0",
+        "ObjectType": "ESearchObjectType::BARREL",
+        "ItemId": "ITEM_USE_ITEM_SEED_OF_AGILITY",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Romaria_Castle_1F_BARREL_0"
+      },
+      "SEARCH_Romaria_Castle_2F_GROUND_0": {
+        "SelfId": "SEARCH_Romaria_Castle_2F_GROUND_0",
+        "ObjectType": "ESearchObjectType::GROUND",
+        "ItemId": "ITEM_USE_ITEM_WHISPERING_NECTAR",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Romaria_Castle_2F_GROUND_0"
+      },
+      "SEARCH_Romaria_Castle_2F_POT_0": {
+        "SelfId": "SEARCH_Romaria_Castle_2F_POT_0",
+        "ObjectType": "ESearchObjectType::POT",
+        "ItemId": "ITEM_USE_ITEM_SEED_OF_STRENGTH",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Romaria_Castle_2F_POT_0"
+      },
+      "SEARCH_Romaria_Castle_2F_POT_1": {
+        "SelfId": "SEARCH_Romaria_Castle_2F_POT_1",
+        "ObjectType": "ESearchObjectType::POT",
+        "ItemId": "None",
+        "ItemNum": 0,
+        "Gold": 14,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Romaria_Castle_2F_POT_1"
+      },
+      "SEARCH_Romaria_Castle_4F_A_BOOKSHELF_0": {
+        "SelfId": "SEARCH_Romaria_Castle_4F_A_BOOKSHELF_0",
+        "ObjectType": "ESearchObjectType::BOOKSHELF",
+        "ItemId": "ITEM_USE_ITEM_CHEATER_BOOK",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Romaria_Castle_4F_A_BOOKSHELF_0"
+      },
+      "SEARCH_Romaria_Castle_4F_A_DRAWER_0": {
+        "SelfId": "SEARCH_Romaria_Castle_4F_A_DRAWER_0",
+        "ObjectType": "ESearchObjectType::DRAWER",
+        "ItemId": "ITEM_EQUIP_ARMOR_LEATHER_CAPE",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Romaria_Castle_4F_A_DRAWER_0"
+      },
+      "SEARCH_Romaria_Castle_4F_B_GROUND_0": {
+        "SelfId": "SEARCH_Romaria_Castle_4F_B_GROUND_0",
+        "ObjectType": "ESearchObjectType::GROUND",
+        "ItemId": "ITEM_SMALL_MEDAL",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Romaria_Castle_4F_B_GROUND_0"
+      },
+      "SEARCH_Romaria_Castle_B1_TREASURE_NORMAL_0": {
+        "SelfId": "SEARCH_Romaria_Castle_B1_TREASURE_NORMAL_0",
+        "ObjectType": "ESearchObjectType::TREASURE_NORMAL",
+        "ItemId": "ITEM_EQUIP_WEAPON_ASSASSINS_DAGGER",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Romaria_Castle_B1_TREASURE_NORMAL_0"
+      },
+      "SEARCH_Romaria_Castle_B1_TREASURE_NORMAL_1": {
+        "SelfId": "SEARCH_Romaria_Castle_B1_TREASURE_NORMAL_1",
+        "ObjectType": "ESearchObjectType::TREASURE_NORMAL",
+        "ItemId": "ITEM_EQUIP_SHIELD_TEMPEST_SHIELD",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Romaria_Castle_B1_TREASURE_NORMAL_1"
+      }
+    }
+  }
+]

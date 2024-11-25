@@ -1,0 +1,564 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_Information",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Information_TITLE_AUTOSAVE": {
+        "SelfId": "Txt_Information_TITLE_AUTOSAVE",
+        "Text": "オートセーブ"
+      },
+      "Txt_Information_TITLE_DASH": {
+        "SelfId": "Txt_Information_TITLE_DASH",
+        "Text": "ダッシュ"
+      },
+      "Txt_Information_TITLE_EQUIP": {
+        "SelfId": "Txt_Information_TITLE_EQUIP",
+        "Text": "そうび"
+      },
+      "Txt_Information_TITLE_BAR": {
+        "SelfId": "Txt_Information_TITLE_BAR",
+        "Text": "仲間の探し方"
+      },
+      "Txt_Information_TITLE_BAR_REPLACE": {
+        "SelfId": "Txt_Information_TITLE_BAR_REPLACE",
+        "Text": "仲間の入れ替え・とうろく"
+      },
+      "Txt_Information_TITLE_HELP": {
+        "SelfId": "Txt_Information_TITLE_HELP",
+        "Text": "おたすけ機能"
+      },
+      "Txt_Information_TITLE_HELP_HOST": {
+        "SelfId": "Txt_Information_TITLE_HELP_HOST",
+        "Text": "たすけにだす"
+      },
+      "Txt_Information_TITLE_HELP_CLIENT": {
+        "SelfId": "Txt_Information_TITLE_HELP_CLIENT",
+        "Text": "たすけをよぶ"
+      },
+      "Txt_Information_TITLE_SHOP": {
+        "SelfId": "Txt_Information_TITLE_SHOP",
+        "Text": "お店"
+      },
+      "Txt_Information_TITLE_CHURCH": {
+        "SelfId": "Txt_Information_TITLE_CHURCH",
+        "Text": "セーブ"
+      },
+      "Txt_Information_TITLE_INN": {
+        "SelfId": "Txt_Information_TITLE_INN",
+        "Text": "回復について"
+      },
+      "Txt_Information_TITLE_MAPMENU": {
+        "SelfId": "Txt_Information_TITLE_MAPMENU",
+        "Text": "地図"
+      },
+      "Txt_Information_TITLE_DESTINATION": {
+        "SelfId": "Txt_Information_TITLE_DESTINATION",
+        "Text": "旅の目的地"
+      },
+      "Txt_Information_TITLE_MEMORY": {
+        "SelfId": "Txt_Information_TITLE_MEMORY",
+        "Text": "会話を記憶する"
+      },
+      "Txt_Information_TITLE_INFORMATION": {
+        "SelfId": "Txt_Information_TITLE_INFORMATION",
+        "Text": "旅の心得"
+      },
+      "Txt_Information_TITLE_FULL_RECOVERY": {
+        "SelfId": "Txt_Information_TITLE_FULL_RECOVERY",
+        "Text": "まんたん・ほぼまんたん"
+      },
+      "Txt_Information_TITLE_SHIP": {
+        "SelfId": "Txt_Information_TITLE_SHIP",
+        "Text": "船の乗り方・降り方"
+      },
+      "Txt_Information_TITLE_RAMIA": {
+        "SelfId": "Txt_Information_TITLE_RAMIA",
+        "Text": "ラーミア"
+      },
+      "Txt_Information_TITLE_JOB_CHANGE": {
+        "SelfId": "Txt_Information_TITLE_JOB_CHANGE",
+        "Text": "転職のすすめ　その１"
+      },
+      "Txt_Information_TITLE_JOB_CHANGE_RECOMMEND": {
+        "SelfId": "Txt_Information_TITLE_JOB_CHANGE_RECOMMEND",
+        "Text": "転職のすすめ　その２"
+      },
+      "Txt_Information_TITLE_JOB_CHANGE_RECOMMEND_3": {
+        "SelfId": "Txt_Information_TITLE_JOB_CHANGE_RECOMMEND_3",
+        "Text": "転職のすすめ　その３"
+      },
+      "Txt_Information_TITLE_TIME_FLOW": {
+        "SelfId": "Txt_Information_TITLE_TIME_FLOW",
+        "Text": "時間による変化"
+      },
+      "Txt_Information_TITLE_STRATEGY": {
+        "SelfId": "Txt_Information_TITLE_STRATEGY",
+        "Text": "さくせんがえ"
+      },
+      "Txt_Information_TITLE_STRATEGY_LIST": {
+        "SelfId": "Txt_Information_TITLE_STRATEGY_LIST",
+        "Text": "さくせんの種類"
+      },
+      "Txt_Information_TITLE_WEAK_RESIST": {
+        "SelfId": "Txt_Information_TITLE_WEAK_RESIST",
+        "Text": "技の効きやすさ"
+      },
+      "Txt_Information_TITLE_PERSONALITY": {
+        "SelfId": "Txt_Information_TITLE_PERSONALITY",
+        "Text": "性格"
+      },
+      "Txt_Information_TITLE_PERSONALITY_STATUS_1": {
+        "SelfId": "Txt_Information_TITLE_PERSONALITY_STATUS_1",
+        "Text": "性格とつよさ　その１"
+      },
+      "Txt_Information_TITLE_PERSONALITY_STATUS_2": {
+        "SelfId": "Txt_Information_TITLE_PERSONALITY_STATUS_2",
+        "Text": "性格とつよさ　その２"
+      },
+      "Txt_Information_TITLE_PERSONALITY_STATUS_3": {
+        "SelfId": "Txt_Information_TITLE_PERSONALITY_STATUS_3",
+        "Text": "性格とつよさ　その３"
+      },
+      "Txt_Information_TITLE_PERSONALITY_STATUS_4": {
+        "SelfId": "Txt_Information_TITLE_PERSONALITY_STATUS_4",
+        "Text": "性格とつよさ　その４"
+      },
+      "Txt_Information_TITLE_PERSONALITY_STATUS_5": {
+        "SelfId": "Txt_Information_TITLE_PERSONALITY_STATUS_5",
+        "Text": "性格とつよさ　その５"
+      },
+      "Txt_Information_TITLE_PERSONALITY_STATUS_6": {
+        "SelfId": "Txt_Information_TITLE_PERSONALITY_STATUS_6",
+        "Text": "性格とつよさ　その６"
+      },
+      "Txt_Information_TITLE_PERSONALITY_STATUS_7": {
+        "SelfId": "Txt_Information_TITLE_PERSONALITY_STATUS_7",
+        "Text": "性格とつよさ　その７"
+      },
+      "Txt_Information_TITLE_PERSONALITY_STATUS_8": {
+        "SelfId": "Txt_Information_TITLE_PERSONALITY_STATUS_8",
+        "Text": "性格とつよさ　その８"
+      },
+      "Txt_Information_TITLE_PERSONALITY_STATUS_9": {
+        "SelfId": "Txt_Information_TITLE_PERSONALITY_STATUS_9",
+        "Text": "性格とつよさ　その９"
+      },
+      "Txt_Information_TITLE_PERSONALITY_STATUS_10": {
+        "SelfId": "Txt_Information_TITLE_PERSONALITY_STATUS_10",
+        "Text": "性格とつよさ　その１０"
+      },
+      "Txt_Information_TITLE_PERSONALITY_STATUS_11": {
+        "SelfId": "Txt_Information_TITLE_PERSONALITY_STATUS_11",
+        "Text": "性格とつよさ　その１１"
+      },
+      "Txt_Information_TITLE_PERSONALITY_STATUS_12": {
+        "SelfId": "Txt_Information_TITLE_PERSONALITY_STATUS_12",
+        "Text": "性格とつよさ　その１２"
+      },
+      "Txt_Information_TITLE_PERSONALITY_STATUS_13": {
+        "SelfId": "Txt_Information_TITLE_PERSONALITY_STATUS_13",
+        "Text": "性格とつよさ　その１３"
+      },
+      "Txt_Information_TITLE_RUN_AWAY": {
+        "SelfId": "Txt_Information_TITLE_RUN_AWAY",
+        "Text": "にげる"
+      },
+      "Txt_Information_TITLE_CURSE": {
+        "SelfId": "Txt_Information_TITLE_CURSE",
+        "Text": "呪いのそうび"
+      },
+      "Txt_Information_TITLE_ACCESSORY_PERSONALITY": {
+        "SelfId": "Txt_Information_TITLE_ACCESSORY_PERSONALITY",
+        "Text": "アクセサリーと性格"
+      },
+      "Txt_Information_TITLE_MEDAL": {
+        "SelfId": "Txt_Information_TITLE_MEDAL",
+        "Text": "ちいさなメダル"
+      },
+      "Txt_Information_TITLE_INVENTORY": {
+        "SelfId": "Txt_Information_TITLE_INVENTORY",
+        "Text": "バトル中に道具を使うには"
+      },
+      "Txt_Information_TITLE_SYSTEM": {
+        "SelfId": "Txt_Information_TITLE_SYSTEM",
+        "Text": "システム設定"
+      },
+      "Txt_Information_TITLE_KEY": {
+        "SelfId": "Txt_Information_TITLE_KEY",
+        "Text": "カギのかかったとびら"
+      },
+      "Txt_Information_TITLE_RULER": {
+        "SelfId": "Txt_Information_TITLE_RULER",
+        "Text": "一瞬で移動するには"
+      },
+      "Txt_Information_TITLE_STATUS_LIST_1": {
+        "SelfId": "Txt_Information_TITLE_STATUS_LIST_1",
+        "Text": "パラメータについて　その１"
+      },
+      "Txt_Information_TITLE_STATUS_LIST_2": {
+        "SelfId": "Txt_Information_TITLE_STATUS_LIST_2",
+        "Text": "パラメータについて　その２"
+      },
+      "Txt_Information_TITLE_CHANGE_STATUS": {
+        "SelfId": "Txt_Information_TITLE_CHANGE_STATUS",
+        "Text": "状態変化"
+      },
+      "Txt_Information_TITLE_BAD_STATUS_LIST": {
+        "SelfId": "Txt_Information_TITLE_BAD_STATUS_LIST",
+        "Text": "状態変化のアイコン　その１"
+      },
+      "Txt_Information_TITLE_BAD_STATUS_LIST_2": {
+        "SelfId": "Txt_Information_TITLE_BAD_STATUS_LIST_2",
+        "Text": "状態変化のアイコン　その２"
+      },
+      "Txt_Information_TITLE_BAD_STATUS_LIST_3": {
+        "SelfId": "Txt_Information_TITLE_BAD_STATUS_LIST_3",
+        "Text": "状態異常のアイコン　その１"
+      },
+      "Txt_Information_TITLE_BAD_STATUS_LIST_4": {
+        "SelfId": "Txt_Information_TITLE_BAD_STATUS_LIST_4",
+        "Text": "状態異常のアイコン　その２"
+      },
+      "Txt_Information_TITLE_POISON_PARALYSE": {
+        "SelfId": "Txt_Information_TITLE_POISON_PARALYSE",
+        "Text": "どくとマヒについて"
+      },
+      "Txt_Information_TITLE_OVERLAP": {
+        "SelfId": "Txt_Information_TITLE_OVERLAP",
+        "Text": "つよさ変化の重ねがけ"
+      },
+      "Txt_Information_TITLE_BATTLEROAD": {
+        "SelfId": "Txt_Information_TITLE_BATTLEROAD",
+        "Text": "バトルロード"
+      },
+      "Txt_Information_TITLE_BATTLEROAD_BATTLE": {
+        "SelfId": "Txt_Information_TITLE_BATTLEROAD_BATTLE",
+        "Text": "バトルロードでの戦い方"
+      },
+      "Txt_Information_TITLE_BREED_MONSTER": {
+        "SelfId": "Txt_Information_TITLE_BREED_MONSTER",
+        "Text": "モンスターの保護　その１"
+      },
+      "Txt_Information_TITLE_BREED_MONSTER_2": {
+        "SelfId": "Txt_Information_TITLE_BREED_MONSTER_2",
+        "Text": "モンスターの保護　その２"
+      },
+      "Txt_Information_TITLE_PUZZLE": {
+        "SelfId": "Txt_Information_TITLE_PUZZLE",
+        "Text": "エジンベアのパズル"
+      },
+      "Txt_Information_TITLE_WIPEOUT": {
+        "SelfId": "Txt_Information_TITLE_WIPEOUT",
+        "Text": "ぜんめつ"
+      },
+      "Txt_Information_TITLE_PICK": {
+        "SelfId": "Txt_Information_TITLE_PICK",
+        "Text": "フィールドのキラキラ"
+      },
+      "Txt_Information_TITLE_SECRET_AREA": {
+        "SelfId": "Txt_Information_TITLE_SECRET_AREA",
+        "Text": "ひみつの場所"
+      },
+      "Txt_Information_TITLE_CLEAR": {
+        "SelfId": "Txt_Information_TITLE_CLEAR",
+        "Text": "クリア後のおたのしみ"
+      },
+      "Txt_Information_TITLE_GAMEMODE": {
+        "SelfId": "Txt_Information_TITLE_GAMEMODE",
+        "Text": "ゲームモードについて"
+      },
+      "Txt_Information_TITLE_FIELDMENU": {
+        "SelfId": "Txt_Information_TITLE_FIELDMENU",
+        "Text": "メニュー"
+      },
+      "Txt_Information_TEXT_AUTOSAVE": {
+        "SelfId": "Txt_Information_TEXT_AUTOSAVE",
+        "Text": "町やダンジョンへ　移動したときなど\r\n冒険中に　オートセーブをすることがあります。\r\n\r\nセーブアイコンが出ているあいだは\r\n電源を切らないでください。"
+      },
+      "Txt_Information_TEXT_DASH": {
+        "SelfId": "Txt_Information_TEXT_DASH",
+        "Text": "移動中に<IMG_BUTTON>[Dash]を押しているあいだ\r\n『ダッシュ』ができます。"
+      },
+      "Txt_Information_TEXT_EQUIP": {
+        "SelfId": "Txt_Information_TEXT_EQUIP",
+        "Text": "装備品は　持っているだけでは　効果がありません。\r\n\r\nメニュー画面の『そうび』で　身につけることで\r\nキャラクターを　強くすることができます。"
+      },
+      "Txt_Information_TEXT_BAR": {
+        "SelfId": "Txt_Information_TEXT_BAR",
+        "Text": "アリアハンの　ルイーダの酒場では\r\n仲間を　増やすことができます。\r\n\r\n冒険の旅には　危険がつきもの。\r\n頼りになる仲間を　見つけに行きましょう。"
+      },
+      "Txt_Information_TEXT_BAR_REPLACE": {
+        "SelfId": "Txt_Information_TEXT_BAR_REPLACE",
+        "Text": "アリアハンの酒場の　１階にいる　ルイーダに話しかけると\r\n旅に連れて行く仲間を　入れ替えることができます。\r\n\r\nまた　２階にある　とうろく所では\r\n仲間を　新しく作成することができます。"
+      },
+      "Txt_Information_TEXT_HELP": {
+        "SelfId": "Txt_Information_TEXT_HELP",
+        "Text": "アリアハンの酒場で　\r\n同じセーブデータにある　他の冒険の書と\r\n『おたすけキャラ』の　貸し借りができます。\r\n　\r\n詳しく知りたい人は　旅の心得の\r\n『たすけにだす』と『たすけをよぶ』を\r\n確認しましょう。"
+      },
+      "Txt_Information_TEXT_HELP_PS5": {
+        "SelfId": "Txt_Information_TEXT_HELP_PS5",
+        "Text": "アリアハンの酒場で　\r\n同じセーブデータにある　他の冒険の書と\r\n『おたすけキャラ』の　貸し借りができます。\r\n　\r\n詳しく知りたい人は　旅の心得の\r\n『たすけにだす』と『たすけをよぶ』を\r\n確認しましょう。"
+      },
+      "Txt_Information_TEXT_HELP_HOST": {
+        "SelfId": "Txt_Information_TEXT_HELP_HOST",
+        "Text": "主人公以外の仲間を　おたすけキャラとして\r\nとうろくすることで　他の冒険の書で　そのキャラを呼び出して\r\nパーティに加えることが　できるようになります。\r\n\r\nおたすけキャラの　レベルやそうびは\r\nとうろくした時点のもので　固定されます。"
+      },
+      "Txt_Information_TEXT_HELP_CLIENT": {
+        "SelfId": "Txt_Information_TEXT_HELP_CLIENT",
+        "Text": "他の冒険の書でとうろくされた　おたすけキャラを\r\n１人だけ　パーティに加えることができます。\r\n\r\nおたすけキャラは　以下の特徴があります。\r\n・レベルが上がりません。\r\n・装備品を変更できません。"
+      },
+      "Txt_Information_TEXT_SHOP": {
+        "SelfId": "Txt_Information_TEXT_SHOP",
+        "Text": "町には　お金を使って　買い物ができる\r\n『武器と防具の店』や『道具屋』があります。\r\n\r\nそれぞれの町で　品揃えが変わるので　\r\nお店を見つけたら　積極的に　チェックしましょう。"
+      },
+      "Txt_Information_TEXT_CHURCH": {
+        "SelfId": "Txt_Information_TEXT_CHURCH",
+        "Text": "教会や　シスターに　おいのりをすることで\r\nそこまでの冒険を『記録（セーブ）』することができます。　\r\n\r\nオートセーブは　自動で上書きされていくため\r\nおいのりセーブも　活用することを　オススメします。\r\n\r\nセーブデータは　最大で9個まで　作成できます。"
+      },
+      "Txt_Information_TEXT_CHURCH_PS5": {
+        "SelfId": "Txt_Information_TEXT_CHURCH_PS5",
+        "Text": "教会や　シスターに　おいのりをすることで\r\nそこまでの冒険を『記録（セーブ）』することができます。　\r\n\r\nオートセーブは　自動で上書きされていくため\r\nおいのりセーブも　活用することを　オススメします。\r\n\r\nセーブデータは　最大で9個まで　作成できます。"
+      },
+      "Txt_Information_TEXT_INN": {
+        "SelfId": "Txt_Information_TEXT_INN",
+        "Text": "宿屋で『休む』か『泊まる』を行うと\r\nＨＰとＭＰが　完全に回復します。\r\nたたかいで　キズついた時は　宿屋へ行きましょう。\r\n\r\nただし　しんでしまった仲間は　回復できないので\r\nその時は　教会やシスターに　頼んで\r\nいきかえらせて　もらいましょう。"
+      },
+      "Txt_Information_TEXT_MAPMENU": {
+        "SelfId": "Txt_Information_TEXT_MAPMENU",
+        "Text": "<IMG_BUTTON>[Map]を押すと『地図』を開くことができます。\r\n　\r\n現在地や　まわりの地形を　確認できるので\r\n迷ってしまったら　まずは地図を見てみましょう。"
+      },
+      "Txt_Information_TEXT_DESTINATION": {
+        "SelfId": "Txt_Information_TEXT_DESTINATION",
+        "Text": "システム設定の『目的地マーカー』をオンにすると\r\n地図上で　次の目的地が　表示されるようになります。\r\n　\r\n『目的ガイドテキスト』をオンにすると\r\n次の目的地の　ヒントが\r\nメニューに　表示されるようになります。"
+      },
+      "Txt_Information_TEXT_MEMORY": {
+        "SelfId": "Txt_Information_TEXT_MEMORY",
+        "Text": "会話中か　会話直後に　<IMG_BUTTON>[Memory]を押すと\r\nその会話を『記憶する』ことができます。\r\n\r\n記憶した会話は　メニューの『おもいで』から\r\nいつでも　見ることができます。"
+      },
+      "Txt_Information_TEXT_INFORMATION": {
+        "SelfId": "Txt_Information_TEXT_INFORMATION",
+        "Text": "メニュー画面の『さくせん』のなかにある『旅の心得』は\r\n操作方法や　冒険の進め方が　まとめてあります。\r\n\r\n旅を進めると　項目が増えていくので\r\n分からないことが出てきたら　チェックしましょう。"
+      },
+      "Txt_Information_TEXT_FULL_RECOVERY": {
+        "SelfId": "Txt_Information_TEXT_FULL_RECOVERY",
+        "Text": "『さくせん』のなかにある『まんたん』を選ぶと　\r\n効率よく　回復呪文を使い\r\n全員のＨＰを　自動で完全回復できます。\r\n\r\n『ほぼまんたん』は　完全回復にならない代わりに\r\nＭＰの節約ができます。"
+      },
+      "Txt_Information_TEXT_SHIP": {
+        "SelfId": "Txt_Information_TEXT_SHIP",
+        "Text": "船に乗って　新たな冒険の地へ　向かいましょう！\r\n\r\n・船から降りるには　陸に近づいて　<IMG_BUTTON>[Talk]を押します。\r\n・船に乗り込むには　船に近づいて　<IMG_BUTTON>[Talk]を押します。"
+      },
+      "Txt_Information_TEXT_RAMIA": {
+        "SelfId": "Txt_Information_TEXT_RAMIA",
+        "Text": "ラーミアに乗って　今まで行けなかった場所を　探索しましょう！\r\n\r\n・ラーミアに乗るには　<IMG_BUTTON>[Talk]を押します。\r\n・地上に降りるには　<IMG_BUTTON>[Talk]を押します。\r\n・着陸位置の調整には　<IMG_BUTTON>[Target_Lamia]を動かします。\r\n・低空飛行するには　<IMG_BUTTON>[Dash_Lamia]を押します。"
+      },
+      "Txt_Information_TEXT_JOB_CHANGE": {
+        "SelfId": "Txt_Information_TEXT_JOB_CHANGE",
+        "Text": "主人公以外の仲間は　レベル２０以上になると\r\nダーマ神殿で　ほかの職業に　転職できます。\r\n\r\n転職すると　レベルが１になってしまいますが\r\n呪文と特技は　忘れることなく　そのまま引き継がれます。\r\n\r\nいろんな職業を　経験することで\r\n使える技が　どんどん増えていくため\r\nバトルが　有利になっていきます。"
+      },
+      "Txt_Information_TEXT_JOB_CHANGE_RECOMMEND": {
+        "SelfId": "Txt_Information_TEXT_JOB_CHANGE_RECOMMEND",
+        "Text": "転職すると　レベルが１になってしまいますが\r\nちから　みのまもり　すばやさなどの　つよさのステータスは\r\n今の約半分の数値を　引き継ぎます。\r\n\r\nつまり　アリアハンの　酒場で出会ったときより　\r\n強い状態のレベル１から　育てることができます。"
+      },
+      "Txt_Information_TEXT_JOB_CHANGE_RECOMMEND_3": {
+        "SelfId": "Txt_Information_TEXT_JOB_CHANGE_RECOMMEND_3",
+        "Text": "転職すると　レベルアップのために\r\n必要な経験値も　リセットされているので\r\n少しバトルをするだけで　レベルがどんどん上がっていきます。\r\n　\r\n転職前の　つよさの半分を　\r\n引き継いだ状態から　スタートしているので\r\n転職をしないまま　育てるよりも\r\n格段に強く　成長させることができます。\r\n　\r\nドンドン転職して　最強の仲間を　育てましょう！"
+      },
+      "Txt_Information_TEXT_TIME_FLOW": {
+        "SelfId": "Txt_Information_TEXT_TIME_FLOW",
+        "Text": "フィールドにいると　昼から夕方　そして夜へと\r\n時間帯が変化していき　遭遇するモンスターも　変わります。\r\n　\r\nタウンも　時間帯によって　\r\n人々や　施設のようすが　変わることがあります。"
+      },
+      "Txt_Information_TEXT_STRATEGY": {
+        "SelfId": "Txt_Information_TEXT_STRATEGY",
+        "Text": "『さくせんがえ』では　主人公や仲間たちの\r\nバトルでの戦い方を　設定できます。\r\n　\r\n『めいれいさせろ』では\r\n自分で細かく　行動を選ぶことが出来ます\r\n　\r\nそれ以外のさくせんでは　その方針に従って\r\nオートで　行動してくれます。"
+      },
+      "Txt_Information_TEXT_STRATEGY_LIST": {
+        "SelfId": "Txt_Information_TEXT_STRATEGY_LIST",
+        "Text": "『ガンガンいこうぜ』\r\n………呪文や　特技を　積極的に使って　攻撃します。\r\n\r\n『バッチリがんばれ』\r\n………状況に合わせて　バランスよく　行動します。\r\n\r\n『おれにまかせろ』\r\n………主人公は攻撃中心になり　仲間はそのサポートに回ります。\r\n\r\n『ＭＰつかうな』\r\n………呪文や　特技を使わず　ＭＰを節約します。\r\n\r\n『いのちだいじに』\r\n………攻撃よりも　味方の回復や蘇生を　優先します。\r\n\r\n『めいれいさせろ』\r\n………どんな行動をさせるか　指示を出せるようになります。"
+      },
+      "Txt_Information_TEXT_PERSONALITY": {
+        "SelfId": "Txt_Information_TEXT_PERSONALITY",
+        "Text": "主人公や仲間たちには　それぞれ『性格』があります。\r\n性格によって　成長しやすい能力が　変わります。\r\n \r\n性格を変えることができる　道具やそうびも　存在します。"
+      },
+      "Txt_Information_TEXT_PERSONALITY_STATUS_1": {
+        "SelfId": "Txt_Information_TEXT_PERSONALITY_STATUS_1",
+        "Text": "『あたまでっかち』\r\nかしこさが　上がりやすく\r\nみのまもりが　少し上がりやすい。\r\n\r\n『あまえんぼう』\r\nうんのよさが　少し上がりやすい。\r\n\r\n『いくじなし』\r\nかしこさと　うんのよさが　上がりやすい。\r\nすばやさが　上がりにくい。\r\n\r\n『いっぴきおおかみ』\r\nみのまもりと　たいりょくが　上がりやすい。\r\nうんのよさが　上がりにくい。"
+      },
+      "Txt_Information_TEXT_PERSONALITY_STATUS_2": {
+        "SelfId": "Txt_Information_TEXT_PERSONALITY_STATUS_2",
+        "Text": "『いのちしらず』\r\nすばやさと　たいりょくが　上がりやすい。\r\nみのまもりが　上がりにくい。\r\n\r\n『うっかりもの』\r\nすばやさが　上がりやすい。\r\nかしこさと　うんのよさが　上がりにくい。\r\n\r\n『おおぐらい』\r\nみのまもりが　とても上がりやすく\r\nちからと　たいりょくが　少し上がりやすい。\r\nかしこさと　すばやさが　上がりにくい。"
+      },
+      "Txt_Information_TEXT_PERSONALITY_STATUS_3": {
+        "SelfId": "Txt_Information_TEXT_PERSONALITY_STATUS_3",
+        "Text": "『おせっかい』\r\nたいりょくが　少し上がりやすい。\r\n\r\n『おちょうしもの』\r\nすばやさが　上がりやすく\r\nかしこさと　うんのよさが　少し上がりやすい。\r\n\r\n『おっちょこちょい』\r\nすばやさが　上がりやすい。\r\n\r\n『がんこもの』\r\nみのまもりと　たいりょくが　上がりやすい。\r\nすばやさと　かしこさと　うんのよさが　上がりにくい。"
+      },
+      "Txt_Information_TEXT_PERSONALITY_STATUS_4": {
+        "SelfId": "Txt_Information_TEXT_PERSONALITY_STATUS_4",
+        "Text": "『がんばりや』\r\nちからが　上がりやすく\r\nみのまもりと　たいりょくが　少し上がりやすい。\r\n\r\n『きれもの』\r\nかしこさが　とても上がりやすく\r\nすばやさが　上がりやすい。\r\n\r\n『くろうにん』\r\nみのまもりと　たいりょくが　上がりやすい。\r\nうんのよさが　上がりにくい。"
+      },
+      "Txt_Information_TEXT_PERSONALITY_STATUS_5": {
+        "SelfId": "Txt_Information_TEXT_PERSONALITY_STATUS_5",
+        "Text": "『ごうけつ』\r\nちからが　とても上がりやすい。\r\nすばやさと　かしこさと　うんのよさが　上がりにくい。\r\n\r\n『さびしがりや』\r\nかしこさと　うんのよさが　少し上がりやすい。\r\n\r\n『しあわせもの』\r\nうんのよさが　とても上がりやすい。\r\n\r\n『しょうじきもの』\r\nバランスよく　上がる。"
+      },
+      "Txt_Information_TEXT_PERSONALITY_STATUS_6": {
+        "SelfId": "Txt_Information_TEXT_PERSONALITY_STATUS_6",
+        "Text": "『ずのうめいせき』\r\nかしこさが　とても上がりやすい。\r\n\r\n『すばしっこい』\r\nすばやさが　上がりやすい。\r\n\r\n『セクシーギャル』\r\nすばやさと　うんのよさが　上がりやすく\r\n他のつよさも　バランスよく　上がる。\r\n\r\n『せけんしらず』\r\nうんのよさが　少し上がりやすい。\r\nかしこさが　上がりにくい。"
+      },
+      "Txt_Information_TEXT_PERSONALITY_STATUS_7": {
+        "SelfId": "Txt_Information_TEXT_PERSONALITY_STATUS_7",
+        "Text": "『タフネス』\r\nたいりょくと　みのまもりが　とても上がりやすい。\r\nうんのよさが　上がりにくい。\r\n\r\n『ちからじまん』\r\nちからが　とても上がりやすい。\r\nかしこさが　上がりにくい。\r\n\r\n『つよき』\r\nちからが　とても上がりやすく\r\nみのまもりが　少し上がりやすい。\r\n\r\n『てつじん』\r\nみのまもりと　たいりょくが　とても上がりやすい。"
+      },
+      "Txt_Information_TEXT_PERSONALITY_STATUS_8": {
+        "SelfId": "Txt_Information_TEXT_PERSONALITY_STATUS_8",
+        "Text": "『でんこうせっか』\r\nすばやさが　とても上がりやすい。\r\n\r\n『なきむし』\r\nうんのよさが　上がりやすく\r\nかしこさが　少し上がりやすい。\r\nみのまもりが　上がりにくい。\r\n\r\n『なまけもの』\r\nたいりょくが　上がりやすく\r\nうんのよさが　少し上がりやすい。\r\nみのまもりと　かしこさが　上がりにくい。"
+      },
+      "Txt_Information_TEXT_PERSONALITY_STATUS_9": {
+        "SelfId": "Txt_Information_TEXT_PERSONALITY_STATUS_9",
+        "Text": "『ぬけめがない』\r\nかしこさが　上がりやすく\r\nみのまもりと　すばやさが　少し上がりやすい。\r\n\r\n『ねっけつ』\r\nみのまもりと　ちからが　上がりやすい。\r\nうんのよさが　上がりにくい。\r\n\r\n『のんきもの』\r\nみのまもりと　たいりょくが　少し上がりやすい。\r\nすばやさが　上がりにくい。"
+      },
+      "Txt_Information_TEXT_PERSONALITY_STATUS_10": {
+        "SelfId": "Txt_Information_TEXT_PERSONALITY_STATUS_10",
+        "Text": "『ひっこみじあん』\r\nたいりょくが　上がりやすく\r\nかしこさが　少し上がりやすい。\r\nすばやさが　上がりにくい。\r\n\r\n『ひねくれもの』\r\nうんのよさが　とても上がりやすく\r\nすばやさが　上がりやすい。\r\nちからと　たいりょくが　上がりにくい。\r\n\r\n『ふつう』\r\nバランスよく　上がる。"
+      },
+      "Txt_Information_TEXT_PERSONALITY_STATUS_11": {
+        "SelfId": "Txt_Information_TEXT_PERSONALITY_STATUS_11",
+        "Text": "『ブルジョワ』\r\nうんのよさが　とても上がりやすく\r\nかしこさが　少し上がりやすい。\r\nみのまもりが　上がりにくい。\r\n\r\n『へこたれない』\r\nたいりょくが　上がりやすい。\r\n\r\n『まけずぎらい』\r\nすばやさと　たいりょくが　少し上がりやすい。\r\n\r\n『みえっぱり』\r\nちからと　みのまもりと　すばやさが　少し上がりやすい。"
+      },
+      "Txt_Information_TEXT_PERSONALITY_STATUS_12": {
+        "SelfId": "Txt_Information_TEXT_PERSONALITY_STATUS_12",
+        "Text": "『むっつりスケべ』\r\nたいりょくと　ちからが　上がりやすい。\r\n\r\n『やさしいひと』\r\nバランスよく　上がる。\r\n\r\n『ラッキーパーソン』\r\nうんのよさが　とても上がりやすく\r\nすばやさが　少し上がりやすい。\r\n\r\n『らんぼうもの』\r\nちからが　上がりやすく\r\nみのまもりが　少し上がりやすい。\r\nかしこさと　うんのよさが　上がりにくい。"
+      },
+      "Txt_Information_TEXT_PERSONALITY_STATUS_13": {
+        "SelfId": "Txt_Information_TEXT_PERSONALITY_STATUS_13",
+        "Text": "『ロマンチスト』\r\nすばやさと　かしこさが　少し上がりやすい。\r\n\r\n『わんぱく』\r\nちからと　すばやさが　上がりやすい。\r\n\r\n『わがまま』\r\nすばやさが　少し上がりやすい。"
+      },
+      "Txt_Information_TEXT_RUN_AWAY": {
+        "SelfId": "Txt_Information_TEXT_RUN_AWAY",
+        "Text": "モンスターとの戦いは　逃げることができます。\r\n強い敵に出会ってしまったら　逃げることも　作戦のうちです。\r\n\r\nただし　まわりこまれて　失敗することがあります。\r\n失敗した場合は　少しの間　全員行動することができません。\r\n\r\n失敗するごとに　逃げられる確率は　上がるので\r\nピンチの場合でも　諦めずに　トライしましょう。"
+      },
+      "Txt_Information_TEXT_CURSE": {
+        "SelfId": "Txt_Information_TEXT_CURSE",
+        "Text": "装備品の中には　身に着けると　呪われてしまうものがあります。\r\n呪われると　バトルなどで　悪い効果が　発揮されたり\r\n性格が　変わってしまうことが　あります。\r\n\r\n呪われたそうびは　外すことができないので\r\n教会で　呪いを解いてもらいましょう。"
+      },
+      "Txt_Information_TEXT_ACCESSORY_PERSONALITY": {
+        "SelfId": "Txt_Information_TEXT_ACCESSORY_PERSONALITY",
+        "Text": "アクセサリーの中には『性格』を変える効果を　\r\n持つものがあります。\r\n\r\nアクセサリーの枠は　\r\n『メイン』と『サブ』の　２つが存在しますが\r\n性格変更の効果が　発動するのは\r\nメインで　そうびしているものだけです。\r\n\r\nただし　呪われたアクセサリーは『サブ』でそうびしても\r\n呪いの効果が　発動してしまうので　注意しましょう。"
+      },
+      "Txt_Information_TEXT_MEDAL": {
+        "SelfId": "Txt_Information_TEXT_MEDAL",
+        "Text": "冒険中に『ちいさなメダル』を\r\n見つけることがあります。\r\n　\r\n集めることで　さまざまな景品を　もらえるので\r\nたくさん集めたら　アリアハンの井戸の底にいる\r\n『メダルおじさん』に　渡しましょう。"
+      },
+      "Txt_Information_TEXT_INVENTORY": {
+        "SelfId": "Txt_Information_TEXT_INVENTORY",
+        "Text": "バトル中も　道具を使うことが　できますが\r\n『どうぐぶくろ』や『そうびぶくろ』の中にあるものは\r\n使うことができません。\r\n\r\nバトルで使いたいものは　ふくろの中から出して\r\nキャラに持たせておくように　しましょう。"
+      },
+      "Txt_Information_TEXT_SYSTEM": {
+        "SelfId": "Txt_Information_TEXT_SYSTEM",
+        "Text": "『さくせん』の『システム設定』では\r\nサウンドや画面表示など\r\nゲーム内のさまざまな設定を　変えることができます。"
+      },
+      "Txt_Information_TEXT_KEY": {
+        "SelfId": "Txt_Information_TEXT_KEY",
+        "Text": "この世界には　カギのかかった　とびらがあります。\r\n　\r\n『とうぞくのかぎ』では\r\n赤いとびらを　開けることができます。"
+      },
+      "Txt_Information_TEXT_RULER": {
+        "SelfId": "Txt_Information_TEXT_RULER",
+        "Text": "『キメラのつばさ』や『ルーラ』を使えば\r\n今まで訪れたことがある　町や城　ダンジョンなどに\r\n一瞬で移動することができます。\r\n\r\n建物の中や　天井がある場所で使っても\r\n頭をぶつけたりせずに　ちゃんと移動できます。"
+      },
+      "Txt_Information_TEXT_STATUS_LIST_1": {
+        "SelfId": "Txt_Information_TEXT_STATUS_LIST_1",
+        "Text": "『ＨＰ』\r\n　ダメージを受けるたびに減っていき　\r\n　ゼロになると　戦闘不能になる。\r\n\r\n『ＭＰ』\r\n　呪文や特技を使うときに　消費する。\r\n　ＭＰが足りなければ　その呪文や特技は使えない。\r\n\r\n『こうげき力』\r\n　そのキャラの　ちからに　装備品の強さを　加えた数値。\r\n　高ければ高いほど　素手や武器を使った\r\n　物理攻撃で　与えるダメージが　増える。\r\n\r\n『しゅび力』\r\n　そのキャラの　みのまもりに　装備品の強さを　加えた数値。\r\n　この数値が高いと　物理攻撃で受ける　ダメージが減る。"
+      },
+      "Txt_Information_TEXT_STATUS_LIST_2": {
+        "SelfId": "Txt_Information_TEXT_STATUS_LIST_2",
+        "Text": "『ちから』\r\n　物理攻撃が　強くなる。\r\n\r\n『みのまもり』\r\n　物理攻撃で受ける　ダメージが減る。\r\n\r\n『すばやさ』\r\n　バトル中に　先に行動しやすくなる。\r\n\r\n『たいりょく』\r\n　レベルアップ時に　ＨＰが増えやすくなる。\r\n\r\n『かしこさ』\r\n　呪文の威力が　アップする。\r\n　レベルアップ時に　ＭＰも増えやすくなる。\r\n\r\n『うんのよさ』\r\n　状態異常に　掛かりにくくなる。\r\n　物理攻撃で与える　ダメージが増えやすくなり\r\n　会心の一撃も　出やすくなる。"
+      },
+      "Txt_Information_TEXT_WEAK_RESIST": {
+        "SelfId": "Txt_Information_TEXT_WEAK_RESIST",
+        "Text": "モンスターの種類によって\r\n呪文や特技に　効きやすさがあります。\r\n\r\n例えば　カエルの姿の敵には\r\n氷を使った攻撃が　よく効きます。\r\n\r\nよく効いている場合は　赤に\r\nあまり効いていない場合は　青に\r\nダメージの数字の　色が変化します。"
+      },
+      "Txt_Information_TEXT_CHANGE_STATUS": {
+        "SelfId": "Txt_Information_TEXT_CHANGE_STATUS",
+        "Text": "バトル中に　つよさなどが　変化している場合\r\nアイコンが表示されます。\r\n\r\n詳しく知りたい人は　旅の心得の\r\n『状態変化のアイコン』を　確認しましょう。"
+      },
+      "Txt_Information_TEXT_BAD_STATUS_LIST": {
+        "SelfId": "Txt_Information_TEXT_BAD_STATUS_LIST",
+        "Text": "<IMG_STATUS>[BAIKIRUTO]　こうげき力が　上がっている。\r\n\r\n<IMG_STATUS>[POWER_DOWN]　こうげき力が　下がっている。\r\n\r\n<IMG_STATUS>[DEFENSE_UP]　しゅび力が　上がっている。\r\n\r\n<IMG_STATUS>[DEFENSE_DOWN]　しゅび力が　下がっている。\r\n\r\n<IMG_STATUS>[SPEED_UP]　すばやさが　上がっている。\r\n\r\n<IMG_STATUS>[SPEED_DOWN]　すばやさが　下がっている。\r\n\r\n<IMG_STATUS>[SPELL_ATTACK_UP]　次のターンに使う　呪文攻撃の威力が上がる。\r\n\r\n<IMG_STATUS>[SPELL_WEAKNESS]　敵から受ける呪文攻撃に　弱くなっている。"
+      },
+      "Txt_Information_TEXT_BAD_STATUS_LIST_2": {
+        "SelfId": "Txt_Information_TEXT_BAD_STATUS_LIST_2",
+        "Text": "<IMG_STATUS>[MAHOKANTA]　敵からの呪文を　はねかえす。\r\n\r\n<IMG_STATUS>[STUN]　行動できない。\r\n\r\n<IMG_STATUS>[BEAST]　１ターンに２回　行動できるようになる。\r\n\r\n<IMG_STATUS>[COUNTER_BREATH]　１回だけ　ブレス系の攻撃を　はねかえす。\r\n\r\n<IMG_STATUS>[BUILD_UP_STRENGTH]　次に行う攻撃が　強くなる。\r\n\r\n<IMG_STATUS>[NO_DAMAGE]　敵の攻撃を　かわしやすくなる。\r\n\r\n<IMG_STATUS>[AUTO_HEAL_MP]　毎ターン　ＭＰを回復する。"
+      },
+      "Txt_Information_TEXT_BAD_STATUS_LIST_3": {
+        "SelfId": "Txt_Information_TEXT_BAD_STATUS_LIST_3",
+        "Text": "<IMG_STATUS>[POISON]『どく』\r\n　フィールドを移動する時に　ダメージを受ける。\r\n\r\n<IMG_STATUS>[PARALYZE]『マヒ』\r\n　バトル中　しばらく行動できなくなる。\r\n　バトルが終わっても　治らない。\r\n\r\n<IMG_STATUS>[SLEEP]『眠り』\r\n　自分のターンに　行動できなくなる。\r\n　ダメージを受けると　治ることがある。"
+      },
+      "Txt_Information_TEXT_BAD_STATUS_LIST_4": {
+        "SelfId": "Txt_Information_TEXT_BAD_STATUS_LIST_4",
+        "Text": "<IMG_STATUS>[CONFUSION]『混乱』\r\n　味方を　攻撃するようになってしまう。\r\n\r\n<IMG_STATUS>[MANUSA]『幻惑』\r\n　通常攻撃が　失敗しやすくなってしまう。\r\n　ただし　呪文などの攻撃は　影響を受けない。\r\n\r\n<IMG_STATUS>[MAHOTON]『呪文封印』\r\n　呪文が　使えなくなる。"
+      },
+      "Txt_Information_TEXT_POISON_PARALYSE": {
+        "SelfId": "Txt_Information_TEXT_POISON_PARALYSE",
+        "Text": "どくや　マヒは　バトルが終わっても治りません。\r\n道具や呪文で　早めに治しましょう。\r\n\r\nただし　マヒは　しばらく歩くと　治ることがあります。\r\n"
+      },
+      "Txt_Information_TEXT_OVERLAP": {
+        "SelfId": "Txt_Information_TEXT_OVERLAP",
+        "Text": "つよさを変化させる　呪文や特技には\r\n重ねがけができるものが　あります。\r\n\r\n重ねがけによって　効果がどんどん大きくなります。"
+      },
+      "Txt_Information_TEXT_BATTLEROAD": {
+        "SelfId": "Txt_Information_TEXT_BATTLEROAD",
+        "Text": "魔物たちを競わせる　モンスター・バトルロードが　\r\n世界各地で　開催されています。\r\n\r\n参加して勝ち抜くと　賞金や景品を　もらえます。\r\n詳しい説明は　バトルロード場の中にある\r\n案内所で　聞くことができます。\r\n\r\nまずは　ロマリアの　低ランクの大会から　挑戦しましょう！"
+      },
+      "Txt_Information_TEXT_BATTLEROAD_BATTLE": {
+        "SelfId": "Txt_Information_TEXT_BATTLEROAD_BATTLE",
+        "Text": "バトルロードでは　モンスターに\r\n具体的な指示を　出すことができません。\r\n\r\nモンスターたちは『さくせん』に応じて\r\n自分たちで判断して　戦います。\r\n\r\n状況に合わせて　モンスターたちの『さくせん』を\r\nこまめに変えるのが　勝利のコツです。"
+      },
+      "Txt_Information_TEXT_BREED_MONSTER": {
+        "SelfId": "Txt_Information_TEXT_BREED_MONSTER",
+        "Text": "町や　ダンジョンなどにいる　\r\n魔性が消えたモンスターは　人を襲いません。\r\n近づいて　話しかけると　保護することができます。\r\n\r\nただし　そういったモンスターの中には\r\n人間の姿を見て　逃げ出すものも　います。\r\n\r\n逃げられてしまったときは　ヒントメッセージを参考に\r\nアイテムやとくぎを　使ってから　近づいてみましょう。"
+      },
+      "Txt_Information_TEXT_BREED_MONSTER_2": {
+        "SelfId": "Txt_Information_TEXT_BREED_MONSTER_2",
+        "Text": "保護したモンスターの数が　増えていくと　\r\nモンスターじいさんから　お礼がもらえます。\r\n気が向いたら　バトルロード会場へ　会いに行ってみましょう。\r\n\r\nさらに『まもの使い』の職業は　\r\n保護したモンスターが　増えれば増えるほど\r\n彼らと心を通わし　新しい特技を　覚えていきます。"
+      },
+      "Txt_Information_TEXT_PUZZLE": {
+        "SelfId": "Txt_Information_TEXT_PUZZLE",
+        "Text": "紋章の描かれた３つの床に　岩を運ぶことで\r\n先に進めるようになります。\r\n\r\nただし　水の上に　岩を押してしまうと\r\n岩が沈んで無くなってしまうので　気をつけましょう。\r\n\r\n<IMG_BUTTON>[Puzzle_Reset]を押すと　状態をリセットして\r\n最初から　やり直すことができます。"
+      },
+      "Txt_Information_TEXT_WIPEOUT": {
+        "SelfId": "Txt_Information_TEXT_WIPEOUT",
+        "Text": "ぜんめつして　最後においのりした場所まで戻ると\r\n経験値や手に入れたアイテムは　引き継がれますが\r\n所持金が　半分になってしまいます。\r\n\r\nオートセーブされた場所まで戻ると\r\n経験値や所持金も　その時点の状態まで巻き戻ります。\r\n\r\nゴールド銀行に預けたお金は\r\nぜんめつしても　減ったりすることは　ありません。\r\n心配な人は　預けておくと　いいでしょう。"
+      },
+      "Txt_Information_TEXT_PICK": {
+        "SelfId": "Txt_Information_TEXT_PICK",
+        "Text": "フィールドで　キラキラ光っている場所を　調べると\r\nアイテムやゴールドなどが　手に入ります。\r\n\r\n積極的に　探してみましょう。"
+      },
+      "Txt_Information_TEXT_SECRET_AREA": {
+        "SelfId": "Txt_Information_TEXT_SECRET_AREA",
+        "Text": "フィールドの　様々なところに\r\n『ひみつの場所』と呼ばれる\r\n隠しマップが　存在します。\r\n\r\nよく見ると　周りの景色と\r\n少し違う見た目に　なっているのが　特徴です。\r\n　\r\n冒険に役立つアイテムや　ゴールドが手に入ったり\r\nここでしか　見つからない　何かがいるかも？"
+      },
+      "Txt_Information_TEXT_CLEAR": {
+        "SelfId": "Txt_Information_TEXT_CLEAR",
+        "Text": "ゲームをクリアしたことで\r\n『竜の女王の城』に　天界への道が　開かれました。\r\n\r\n天界では　願いを叶えてくれる存在が\r\nあなたの挑戦を　待っています。\r\n\r\n天界のモンスターたちは　とても強力なので\r\nしっかり準備をして　向かいましょう。"
+      },
+      "Txt_Information_TEXT_GAMEMODE": {
+        "SelfId": "Txt_Information_TEXT_GAMEMODE",
+        "Text": "システム設定の『ゲームモード設定』で\r\n以下のモードが　いつでも　切り替えできます。\r\n\r\n『楽ちんプレイ』\r\n・どれだけダメージを受けても　戦闘不能になりません。\r\n・敵へ与える　ダメージが増えます。\r\n・一部のボスのＨＰが　自動回復しなくなります。\r\n\r\n『バッチリ冒険』\r\n・オススメのバランスで　遊ぶことができます。\r\n\r\n『いばらの道だぜ』\r\n・すべてのボスのＨＰが　増えます。\r\n・敵から受ける　ダメージが増えます。\r\n・戦闘で入手する　経験値とゴールドが　減ります。\r\n・敵の弱点をついても　与えるダメージが　増えにくくなります。\r\n\r\n※討伐モンスターリスト内の　経験値とゴールドに関する項目には\r\n『いばらの道だぜ』の設定によって減少した分は反映されません。"
+      },
+      "Txt_Information_TEXT_FIELDMENU": {
+        "SelfId": "Txt_Information_TEXT_FIELDMENU",
+        "Text": "<IMG_BUTTON>[FieldMenu]を押すと\r\nメニュー画面を　開くことができます。"
+      },
+      "Txt_Information_GUIDE_CLOSE": {
+        "SelfId": "Txt_Information_GUIDE_CLOSE",
+        "Text": "閉じる"
+      }
+    }
+  }
+]

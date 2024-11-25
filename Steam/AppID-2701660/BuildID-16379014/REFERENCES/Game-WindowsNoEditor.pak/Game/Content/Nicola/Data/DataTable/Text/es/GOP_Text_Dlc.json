@@ -1,0 +1,68 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_Dlc",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Dlc_Eary_Reserved": {
+        "SelfId": "Txt_Dlc_Eary_Reserved",
+        "Text": "Lote <66>viandante feliz<99>"
+      },
+      "Txt_Dlc_Fast_GuideBook": {
+        "SelfId": "Txt_Dlc_Fast_GuideBook",
+        "Text": "Lote <66>accesorios aventureros<99>"
+      },
+      "Txt_Dlc_Sqex_GuideBook": {
+        "SelfId": "Txt_Dlc_Sqex_GuideBook",
+        "Text": "Lote <66>cambio de imagen<99>"
+      },
+      "Txt_Dlc_Lawson_Collabo": {
+        "SelfId": "Txt_Dlc_Lawson_Collabo",
+        "Text": "Lote <66>iniciación guerrera<99>"
+      },
+      "Txt_Dlc_Amazon_Collabo": {
+        "SelfId": "Txt_Dlc_Amazon_Collabo",
+        "Text": "Lote <66>iniciación mágica<99>"
+      },
+      "Txt_Dlc_Open_Treasure": {
+        "SelfId": "Txt_Dlc_Open_Treasure",
+        "Text": "{LEADER} abre el cofre del tesoro especial."
+      },
+      "Txt_Dlc_Not_Open_Treasure_1": {
+        "SelfId": "Txt_Dlc_Not_Open_Treasure_1",
+        "Text": "{LEADER} intenta abrir el cofre del tesoro especial."
+      },
+      "Txt_Dlc_Not_Open_Treasure_2": {
+        "SelfId": "Txt_Dlc_Not_Open_Treasure_2",
+        "Text": "Sin embargo, parece que ahora mismo no se puede abrir."
+      },
+      "Txt_Dlc_Not_Open_Treasure_3": {
+        "SelfId": "Txt_Dlc_Not_Open_Treasure_3",
+        "Text": "Puedes recibir varios objetos de este cofre en caso de haber reservado o comprado el juego a través de determinadas tiendas."
+      },
+      "Txt_Dlc_Not_Open_Treasure_4": {
+        "SelfId": "Txt_Dlc_Not_Open_Treasure_4",
+        "Text": "Para más información, visita la página web de la tienda donde adquiriste\r\nDRAGON QUEST III HD-2D Remake o consulta las instrucciones para obtener los objetos de bonificación."
+      },
+      "Txt_Dlc_Dlc_Choice": {
+        "SelfId": "Txt_Dlc_Dlc_Choice",
+        "Text": "Elige los objetos de bonificación que prefieras.<NO_INPUT>"
+      },
+      "Txt_Dlc_Confirm_Receipt": {
+        "SelfId": "Txt_Dlc_Confirm_Receipt",
+        "Text": "¿Seguro que quieres <IndefSgl_WORD>?\r\n(No podrás recibir ningún artículo del que ya poseas 999 unidades en tu inventario en caso de que los miembros de tu grupo no puedan llevar más objetos)."
+      },
+      "Txt_Dlc_Get_Item": {
+        "SelfId": "Txt_Dlc_Get_Item",
+        "Text": "{LEADER} obtiene <IndefSgl_WORD>."
+      }
+    }
+  }
+]

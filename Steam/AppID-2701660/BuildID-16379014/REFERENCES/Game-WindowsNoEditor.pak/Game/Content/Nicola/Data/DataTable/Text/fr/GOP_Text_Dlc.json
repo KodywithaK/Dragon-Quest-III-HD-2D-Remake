@@ -1,0 +1,68 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_Dlc",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Dlc_Eary_Reserved": {
+        "SelfId": "Txt_Dlc_Eary_Reserved",
+        "Text": "Pack voyage serein"
+      },
+      "Txt_Dlc_Fast_GuideBook": {
+        "SelfId": "Txt_Dlc_Fast_GuideBook",
+        "Text": "Pack pratique de l'aventurier"
+      },
+      "Txt_Dlc_Sqex_GuideBook": {
+        "SelfId": "Txt_Dlc_Sqex_GuideBook",
+        "Text": "Pack relooking de légende"
+      },
+      "Txt_Dlc_Lawson_Collabo": {
+        "SelfId": "Txt_Dlc_Lawson_Collabo",
+        "Text": "Pack essentiel pour guerrier"
+      },
+      "Txt_Dlc_Amazon_Collabo": {
+        "SelfId": "Txt_Dlc_Amazon_Collabo",
+        "Text": "Pack essentiel pour mage"
+      },
+      "Txt_Dlc_Open_Treasure": {
+        "SelfId": "Txt_Dlc_Open_Treasure",
+        "Text": "{LEADER} ouvre le coffre."
+      },
+      "Txt_Dlc_Not_Open_Treasure_1": {
+        "SelfId": "Txt_Dlc_Not_Open_Treasure_1",
+        "Text": "{LEADER} essaie d'ouvrir le coffre."
+      },
+      "Txt_Dlc_Not_Open_Treasure_2": {
+        "SelfId": "Txt_Dlc_Not_Open_Treasure_2",
+        "Text": "Mais il est verrouillé."
+      },
+      "Txt_Dlc_Not_Open_Treasure_3": {
+        "SelfId": "Txt_Dlc_Not_Open_Treasure_3",
+        "Text": "Vous pouvez récupérer les objets bonus de précommande ou d'achat dans certaines boutiques de ce coffre."
+      },
+      "Txt_Dlc_Not_Open_Treasure_4": {
+        "SelfId": "Txt_Dlc_Not_Open_Treasure_4",
+        "Text": "Pour plus de détails, veuillez consulter le site où vous avez acheté\r\nDRAGON QUEST III HD-2D Remake ou lire les instructions pour les objets bonus."
+      },
+      "Txt_Dlc_Dlc_Choice": {
+        "SelfId": "Txt_Dlc_Dlc_Choice",
+        "Text": "Sélectionnez le pack que vous souhaitez obtenir.<NO_INPUT>"
+      },
+      "Txt_Dlc_Confirm_Receipt": {
+        "SelfId": "Txt_Dlc_Confirm_Receipt",
+        "Text": "Souhaitez-vous vraiment obtenir <IndefSgl_WORD>?\r\n(Si vos compagnons n'ont plus de place dans leurs affaires et que vous avez plus de 999 exemplaires d'un des objets du pack, il sera supprimé.)"
+      },
+      "Txt_Dlc_Get_Item": {
+        "SelfId": "Txt_Dlc_Get_Item",
+        "Text": "{LEADER} obtient <IndefSgl_WORD>."
+      }
+    }
+  }
+]

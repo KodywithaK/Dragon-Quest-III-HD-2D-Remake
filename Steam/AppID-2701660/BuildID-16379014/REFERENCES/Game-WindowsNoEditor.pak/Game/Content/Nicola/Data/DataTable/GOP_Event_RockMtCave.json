@@ -1,0 +1,31 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Event_RockMtCave",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Event_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "EVENT_RockMtCave_RockMtCave_B2FA_ARMFUL_00_L3_0": {
+        "SelfId": "EVENT_RockMtCave_RockMtCave_B2FA_ARMFUL_00_L3_0",
+        "EventID": "RockMtCave_B2FA_SUB_0_MBR_SCOUT_0010_010",
+        "TriggerType": "EEventTriggerType::MBR_SCOUT",
+        "TriggerID": "RockMtCave_B2FA_ARMFUL_00_L3",
+        "EventPriority": 0,
+        "ProgressLower": 0,
+        "ProgressUpper": 30,
+        "StartFlagName1": "None",
+        "IsTrueCondition1": false,
+        "IsAndOperation": false,
+        "StartFlagName2": "None",
+        "IsTrueCondition2": false,
+        "ScenarioProgress": 0
+      }
+    }
+  }
+]

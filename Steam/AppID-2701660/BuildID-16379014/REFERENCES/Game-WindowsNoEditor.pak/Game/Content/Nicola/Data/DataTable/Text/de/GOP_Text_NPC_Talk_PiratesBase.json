@@ -1,0 +1,376 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_NPC_Talk_PiratesBase",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Talk_PiratesBase_Out_SUB_0_ACTOR_0110_010_1": {
+        "SelfId": "Txt_Talk_PiratesBase_Out_SUB_0_ACTOR_0110_010_1",
+        "Text": "*: Das Gebäude da vorne ist das Versteck einer Gruppe blutrünstiger Piraten. Wenn ich <IfSolo(du,ihr)> wäre, würde ich mich davon fernhalten<nbsp>..."
+      },
+      "Txt_Talk_PiratesBase_B1F_SUB_0_ACTOR_0110_010_1": {
+        "SelfId": "Txt_Talk_PiratesBase_B1F_SUB_0_ACTOR_0110_010_1",
+        "Text": "*: Die Piraten kommen abends zurück und teilen ihre Beute auf. Am besten <IfSolo(bist du,seid ihr)> dann ganz weit weg<nbsp>..."
+      },
+      "Txt_Talk_PiratesBase_B1F_SUB_0_ACTOR_0110_010_2": {
+        "SelfId": "Txt_Talk_PiratesBase_B1F_SUB_0_ACTOR_0110_010_2",
+        "Text": "*: Andererseits <IfSolo(scheinst du,scheint ihr)> zu wissen, was <IfSolo(du,ihr)> tut. Vielleicht machen die Piraten <IfSolo(dich,euch)> ja doch nicht sofort fertig."
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_0120_010_1": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_0120_010_1",
+        "Text": "*: Kugeln, sagst du? Arrr, meine alten Seemannsknochen sagen mir, dass wir so was vor <9>ner Weile von irgend <9>nem Unglücksraben geraubt haben<nbsp>..."
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_0120_010_2": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_0120_010_2",
+        "Text": "*: Wenn ich jetzt meinen von Grog vernebelten, löchrigen Eimer eines Verstandes dazu bringen könnte, sich dran zu erinnern, wo wir die verstaut haben<nbsp>..."
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_0120_020_1": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_0120_020_1",
+        "Text": "*: Da brat mir doch einer <9>nen Storch! Diese Kugel, die wir vor einiger Zeit geraubt haben! Versuchst du etwa, mit unserer Beute Reißaus zu nehmen, du hinterlistiger Köter?"
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_0120_020_2": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_0120_020_2",
+        "Text": "*: Die is<9> für uns nicht mehr wert als ein oder zwei Dublonen, <IfGender_LEADER(Matrose,Matrosin,)>. Reiß dir das staubige Ding ruhig unter den Nagel!"
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_0120_020_3": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_0120_020_3",
+        "Text": "*: Arrr, wer <9>ne echte Seefahrerseele hat, weiß, dass da draußen auf dem Meer alles möglich ist."
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_0120_020_4": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_0120_020_4",
+        "Text": "*: Vielleicht findet man eine noch unentdeckte Insel oder man befindet sich auf einmal Bug an Bug mit <9>nem verdammten Geisterschiff. Aye, alles ist möglich<nbsp>..."
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_0220_010_1": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_0220_010_1",
+        "Text": "*: Und wer <IfSolo(bist du,seid ihr)>, <IfSolo(Matrose,Matrosen)>? Arrr, <IfSolo(du bist also die beherzte Seele,ihr seid also die beherzten Seelen)>, die uns von unserem Erzfeind befreien <IfSolo(will,wollen)>?"
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_0220_010_2": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_0220_010_2",
+        "Text": "*: Von <IfSolo(dir,euch)> wird auf allen sieben Meeren gesprochen! Und wir stehen geschlossen hinter <IfSolo(dir,euch)>!"
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_0220_010_3": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_0220_010_3",
+        "Text": "*: Aye, was unser ist, <IfSolo(ist auch dein,ist auch euer)>! <IfSolo(Fühl dich,Fühlt euch)> wie zu Hause, aye? Arrr, das ist die Gastfreundschaft der Piraten!"
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_0220_020_1": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_0220_020_1",
+        "Text": "*: Ahoi, <IfSolo(<IfGender_LEADER(Matrose,Matrosin,)>,Matrosen)>! Glückwünsche sind angebracht! <IfSolo(Hast,Habt)> den Erzfeind besiegt, aye?"
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_0220_020_2": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_0220_020_2",
+        "Text": "*: Wie war das? Woher Grog gurgelnde Seehunde wie wir davon wissen?"
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_0220_020_3": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_0220_020_3",
+        "Text": "*: Tja, davon sprechen sie gerade alle, in jeder Stadt, jedem Dorf und jedem Schurkenunterschlupf diesseits von Lozamii!"
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_0320_010_1": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_0320_010_1",
+        "Text": "*: Schlottern dir etwa die Knie, <IfGender_LEADER(Kleiner,Kleine,)>? Keine Sorge, wir stehlen nur von denen, die es verdienen! Wir sind ehrenwerte Kerle, vergiss das nicht!"
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_0320_020_1": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_0320_020_1",
+        "Text": "*: Arrr, da draußen warten mehr Bösewichte darauf, auf die gute alte Piratenart geentert zu werden, als du dir vorstellen kannst!"
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_0320_020_2": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_0320_020_2",
+        "Text": "*: Man kann kaum den Anker auswerfen, ohne irgend <9>nen Schurken damit direkt auf die Rübe zu treffen!\r\nIch wette, wir haben noch <9>nen Haufen Arbeit vor uns!"
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_0420_010_1": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_0420_010_1",
+        "Text": "*: Das hier ist die Kajüte des Käpt<9>ns.\r\nBesuche nur mit Termin!"
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_0520_010_1": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_0520_010_1",
+        "Text": "*: Es ist noch gar nicht so lange her, dass wir das Geisterschiff auf Steuerbord gesichtet haben<nbsp>... Beim Klabautermann, unsere Gesichter waren bleich und die Hosen voll Bilgewasser, als wir es erblickten!"
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_0520_020_1": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_0520_020_1",
+        "Text": "*: *Schnaub*<nbsp>... Ngh! (Keuch)"
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_0620_010_1": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_0620_010_1",
+        "Text": "*: Kannst mich hier und jetzt kielholen, wenn uns der alte Bootmannsknochen nicht direkt zu <9>nem verdammten Geisterschiff geführt hat!"
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_0620_010_2": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_0620_010_2",
+        "Text": "*: Das Ding bedeutet nix Gutes, also sind wir<9>s direkt losgeworden. Haben<9>s dem durchgeknallten, alten Eremiten auf <9>ner Insel weit im Norden gegeben<nbsp>..."
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_0620_020_1": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_0620_020_1",
+        "Text": "*: Der Boss ist <9>n guter Käpt<9>n und <9>ne noch bessere Seefahrerin, aber bevor ich bei der <9>ne Standpauke riskiere, geh ich lieber über die Planke!"
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_0720_010_1": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_0720_010_1",
+        "Text": "*: Verflucht seist du, du knausriger Hund! Mach mir <9>nen besseren Preis! Mein schlimmster Feind würde mir mehr zahlen!"
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_0720_010_2": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_0720_010_2",
+        "Text": "*: Geplündert oder nicht, <9>n Kupferschwert ist mehr wert als sieben mickrige Goldmünzen! Verdammt seist du, du knauseriger Pfennigfuchser!"
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_0720_020_1": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_0720_020_1",
+        "Text": "*: Fünfhundert, so sieht<9>s aus! Und das für <9>ne Eisenlanze, die du in diesem Leben nie wieder finden wirst! Du weißt ganz genau, dass sie doppelt so viel wert ist!"
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_0720_020_2": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_0720_020_2",
+        "Text": "*: Arrr, du hast nicht unrecht, <IfGender_LEADER(Matrose,Matrosin,)>."
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_0720_020_3": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_0720_020_3",
+        "Text": "*: Arrr, das ist wahr, <IfGender_LEADER(Matrose,Matrosin,)>, das ist wahr<nbsp>..."
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_0820_010_1": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_0820_010_1",
+        "Text": "*: Tut mir leid, das hier ist rein<nbsp>... geschäftlich. Wenn du uns etwas Privatsphäre gönnen würdest<nbsp>...?"
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_0820_020_1": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_0820_020_1",
+        "Text": "*: Ich gebe dir fünfhundert dafür. Keinen Groschen mehr."
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_0920_010_1": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_0920_010_1",
+        "Text": "*: Aus Aliahan, wie? Arrr, das ist <9>n feiner Ort, keine Frage! Da hatten wir früher oft Landgang."
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_010_1": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_010_1",
+        "Text": "Findst<9>es wohl komisch, dass so ein schmächtiges Mädel wie ich der Boss einer ganzen Bande von blutrünstigen Seehunden ist, nich<9>?"
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_010_2": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_010_2",
+        "Text": "Hast doch keine Angst, zu sagen, was du denkst, oder, <IfGender_LEADER(Matrose,Matrosin,)>?<nbsp>... Haharrr! Ganz schön dreist<nbsp><--> das gefällt mir!"
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_010_3": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_010_3",
+        "Text": "Aber sag mir: Hast du je von <9>ner Insel südwestlich dieser Gewässer gehört, die sich Lozamii nennt?"
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_010_4": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_010_4",
+        "Text": "Hahaharrr! Natürlich nicht! Keine einsame Seele außer uns Piraten hat je von dem verfluchten Ort gehört!"
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_010_5": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_010_5",
+        "Text": "Dachte, vielleicht willste was darüber wissen, wo du doch unterwegs bist, um die Welt zu retten und alles<nbsp>... Das ist doch dein Plan, oder nicht?"
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_010_6": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_010_6",
+        "Text": "Du segelst also nur um des Segelns willen? Na, das ist doch auch <9>ne feine Sache!"
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_010_7": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_010_7",
+        "Text": "Also ist es wahr, was diese lallenden Landzungen erzählen? Tja, ich glaub ja eher, dass du auf Grund laufen wirst, Schätzchen<nbsp>..."
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_010_8": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_010_8",
+        "Text": "Aber wenn du<9>s schaffst, den alten Erzfeind auf den Meeresboden zu schicken, komm zurück und ich gratuliere dir höchstpersönlich!"
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_010_9": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_010_9",
+        "Text": "Garrr! Halt! Versuch dich nicht bei mir einzuschleimen, du räudiger Köter! Ich hab keine Zeit für Speichellecker!"
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_020_1": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_020_1",
+        "Text": "Ich hab die Nachricht gehört, du <IfGender_LEADER(größter,größte,)> aller Haudegen, aye. Hast den Erzfeind also endlich erledigt, hm? Bravo!"
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_020_2": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_020_2",
+        "Text": "Du bist so hartnäckig wie ich, standhaft im Angesicht der zahllosen Männer, die schworen, ich würde ihnen niemals ebenbürtig sein!"
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_020_3": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_020_3",
+        "Text": "Arrr, die Pest in die Gurgel von ihnen allen! Muskelkraft ist nicht der einzige Weg, wie man in dieser Welt gewinnt, das wissen wir beide nur zu gut, <IfGender_LEADER(Matrose,Matrosin,)>!"
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_020_6": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_020_6",
+        "Text": "Arrr, wir sind verwandte Seelen, du und ich. Leistest du mir heute Abend am Tisch des Käpt<9>ns Gesellschaft?"
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_020_7": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_020_7",
+        "Text": "Ich kann nicht versprechen, dass ich mich nach ein paar Krügen noch an meine guten Manieren erinnere, aber ich hab das Gefühl, das geht dir ähnlich. Also, leistest du mir Gesellschaft?"
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_020_8": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_020_8",
+        "Text": "Nein? Arrr, und ich hab mich schon so auf <9>ne Nacht voller Tanz, Trunk und Teufelei gefreut! Du hast mich tief verletzt, <IfGender_HERO(Matrose,Matrosin,)>!"
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_020_9": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_020_9",
+        "Text": "Ja? Aber natürlich kommst du! Jaharrr! Nun, dann lass uns loslegen, aye?"
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_020_10": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_020_10",
+        "Text": "HÖRT ZU, IHR RÄUDIGEN HUNDE<nbsp><--> HEUTE NACHT WIRD GEFEIERT! BRINGT DEN GROG!"
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_020_11": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_020_11",
+        "Text": "*: Aye-Aye, Käpt<9>n!"
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_020_12": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_020_12",
+        "Text": "Immer ruhig mit den wilden Seepferdchen, {HERO}. Für dich gibt's was anderes, um die junge Kehle zu befeuchten."
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_020_13": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_020_13",
+        "Text": "Also gut, möge das Piratengelage beginnen!"
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_020_14": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_020_14",
+        "Text": "Und so ließen {HERO} und die Kapitänin bis in die frühen Morgenstunden die Planken beben<nbsp>..."
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_020_15": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_020_15",
+        "Text": "Die furchteinflößende Piratin erzählte, wie sie ihr Handwerk von ihrem noch furchteinflößenderen Vater erlernt hatte<nbsp>..."
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_020_16": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_020_16",
+        "Text": "Und wie stolz sie darauf war, Männer mit ihren eigenen Waffen zu schlagen<nbsp>..."
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_020_17": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_020_17",
+        "Text": "Sie gab {HERO} sogar einen Rat<nbsp>..."
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_020_18": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_020_18",
+        "Text": "... Weißt du, ich hab da so <9>ne Angewohnheit, um auf Zack zu bleiben und das schreckenerregende Vermächtnis meines Vaters fortführen zu können."
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_020_19": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_020_19",
+        "Text": "Jeden Tag stelle ich sicher, dass ich <9>nen Kerl in irgendwas aussteche. Ganz egal, ob ich <9>ne Frau bin oder nicht!"
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_020_20": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_020_20",
+        "Text": "Und in dir spüre ich das gleiche Feuer, <IfGender_HERO(Matrose,Matrosin,)><nbsp><--> dieselbe Entschlossenheit, sich nicht von treulosen Hunden schlagen zu lassen! Hab ich recht?"
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_020_21": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_020_21",
+        "Text": "MEHR GROG, VERFLUCHT! BRINGT UNS MEHR GROG, IHR MADIGEN WÜRMER!"
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_020_22": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_020_22",
+        "Text": "Nun, vielleicht<nbsp>... bist du doch nicht ganz die {WORD}, für die ich dich gehalten hab<nbsp>..."
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_020_23": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_020_23",
+        "Text": "...<nbsp>Meinst du das ernst? Du willst dem gleichen Pfad wie ich folgen?"
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_020_24": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_020_24",
+        "Text": "Ja? Arrr, das ist Musik in meinen Ohren! Mit einem Kraftpaket wie dir legt sich keiner an. <IfGender_HERO(Ein wahrer Pirat,Eine wahre Piratenbraut,)><nbsp><--> ein Geschöpf der Meere!"
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_020_25": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_020_25",
+        "Text": "Verstehe, verstehe<nbsp>... Du zeigst es den Hunden auf deine ganz eigene Art und Weise, wette ich. Alle Achtung!"
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_020_26": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_020_26",
+        "Text": "... ..."
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_020_27": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_020_27",
+        "Text": "Du denkst jetzt nicht darüber nach, sie zu verführen, um sie dir gefügig zu machen, oder? Manchmal hab ich schon selbst darüber nachgedacht<nbsp>..."
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_020_28": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_020_28",
+        "Text": "Du hast dich also entscheiden, den Teigbirnen die Augen zu verdrehen, hm? Hahaharrr! Aye, alle gehen sie arglos in das Netz der Sirene, was?"
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_020_29": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_020_29",
+        "Text": "Nun, solange du den Landratten und Leichtmatrosen dieser Welt heiße Ohren verpasst, wünsch ich dir viel Erfolg!"
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_020_30": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_020_30",
+        "Text": "Hehe<nbsp>... Du bist um einiges einfallsreicher, als du aussiehst, <IfGender_HERO(Matrose,Matrosin,)><nbsp>..."
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_020_31": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_020_31",
+        "Text": "Nein? Schade<nbsp>... Ich hätte gutes Geld bezahlt, um zu sehen, wie du die armseligen Narren um den kleinen Finger wickelst<nbsp>..."
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_020_32": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_020_32",
+        "Text": "Nun, wir müssen alle unsere eigenen Wege im Leben gehen, schätz ich<nbsp>... Harrr! Aber was rede ich da?! Ich hab wohl schon einen sitzen!"
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_020_33": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_020_33",
+        "Text": "Ach ja? Und du bist trotzdem so weit gekommen? Verblüffend. Du bist ja echt was Besonderes, Matrosin<nbsp>..."
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_020_34": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_020_34",
+        "Text": "Und so redeten {HERO} und die Kapitänin gesellig die ganze Nacht hindurch bis zum Morgengrauen<nbsp>..."
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_020_35": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_020_35",
+        "Text": "Und bevor sie sich versahen, war das Morgengrauen angebrochen. Also gingen sie ins Bett und schliefen, bis die Sonne schon hoch am Himmel stand!"
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_020_36": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_020_36",
+        "Text": "Arrr, guten Morgen, <IfGender_HERO(Matrose,Matrosin,)>! Was für ein schunkelig-schöner Abend gestern mit dir! Das sollten wir bald mal wieder tun, yaaarrr!"
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_030_1": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_030_1",
+        "Text": "Möge der Wind immer stark in deine Segel wehen, {HERO}. Ich steh immer hinter dir!"
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_030_2": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_030_2",
+        "Text": "Ahoi, {MOST_HEROIC}! Wie läuft die Reise durchs Leben, <IfGender_LEADER(Matrose,Matrosin,)>?"
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_030_3": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1020_030_3",
+        "Text": "Das letzte Mal haben wir <9>n Fass angeschlagen und uns Geschichten über unsere Reisen erzählt!"
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1120_010_1": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1120_010_1",
+        "Text": "*: Ich würd mir die Fahrt zu Olivias Kap an deiner Stelle sparen. Da schippert niemand vorbei<nbsp><--> alle hören <9>ne unheimliche Stimme und werden vom Kurs abgebracht."
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1120_010_2": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1120_010_2",
+        "Text": "*: Du willst trotzdem hin, hm? Na gut, es liegt nördlich von Asham, wenn du unbedingt deine Zeit verschwenden willst."
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1120_010_3": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1120_010_3",
+        "Text": "*: Wenn du mit dem Schiff hinwillst, musst du den Weg über die nördlichen Meere nehmen. Landratten sind dort auf jeden Fall eher Mangelware, so viel steht fest, arrr."
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_VOLUME_1210_010_1": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_VOLUME_1210_010_1",
+        "Text": "Fiep!"
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_VOLUME_1210_010_2": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_VOLUME_1210_010_2",
+        "Text": "<Cap>{LEADER} besänftigt das Monster mit ruhiger Stimme und erzählt ihm von Montys Monstermanege ..."
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_VOLUME_1210_010_3": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_VOLUME_1210_010_3",
+        "Text": "Jiihihihihi!"
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1310_010_1": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1310_010_1",
+        "Text": "*: Jetzt sag nicht, dass die Schminke schon wieder verlaufen ist, nachdem ich mir solche Mühe gegeben habe!"
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1310_010_2": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1310_010_2",
+        "Text": "Der Spiegel des Ra beginnt zu leuchten<nbsp>..."
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1310_010_3": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1310_010_3",
+        "Text": "... und enthüllt die wahre Gestalt des Wesens vor dir!"
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1310_010_4": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1310_010_4",
+        "Text": "Hmm<nbsp>..."
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1310_010_5": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1310_010_5",
+        "Text": "<Cap>{LEADER} besänftigt das Monster mit ruhiger Stimme und erzählt ihm von Montys Monstermanege<nbsp>..."
+      },
+      "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1310_010_6": {
+        "SelfId": "Txt_Talk_PiratesBase_1F_SUB_0_ACTOR_1310_010_6",
+        "Text": "Jetzt siehst du mich, und jetzt nicht mehr!"
+      }
+    }
+  }
+]

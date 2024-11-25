@@ -1,0 +1,132 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_Bank",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Bank_UI_TOP_01": {
+        "SelfId": "Txt_Bank_UI_TOP_01",
+        "Text": "あずける"
+      },
+      "Txt_Bank_UI_TOP_02": {
+        "SelfId": "Txt_Bank_UI_TOP_02",
+        "Text": "ひきだす"
+      },
+      "Txt_Bank_UI_TOP_03": {
+        "SelfId": "Txt_Bank_UI_TOP_03",
+        "Text": "やめる"
+      },
+      "Txt_Bank_UI_SelectGoldMenu_01": {
+        "SelfId": "Txt_Bank_UI_SelectGoldMenu_01",
+        "Text": "所持額"
+      },
+      "Txt_Bank_UI_SelectGoldMenu_02": {
+        "SelfId": "Txt_Bank_UI_SelectGoldMenu_02",
+        "Text": "預金額"
+      },
+      "Txt_Bank_UI_Gold": {
+        "SelfId": "Txt_Bank_UI_Gold",
+        "Text": "{0}"
+      },
+      "Txt_Bank_UI_BalanceGold": {
+        "SelfId": "Txt_Bank_UI_BalanceGold",
+        "Text": "{0}"
+      },
+      "Txt_Bank_UI_SelectGold": {
+        "SelfId": "Txt_Bank_UI_SelectGold",
+        "Text": "{0}"
+      },
+      "Txt_Bank_UI_Max": {
+        "SelfId": "Txt_Bank_UI_Max",
+        "Text": "全部"
+      },
+      "Txt_Bank_Message_Start_Bar": {
+        "SelfId": "Txt_Bank_Message_Start_Bar",
+        "Text": "<RUBY>愛[あい]と<RUBY>信頼[しんらい]の　\r\nゴールド<RUBY>銀行[ぎんこう]へようこそ。"
+      },
+      "Txt_Bank_Message_First_01_Bar": {
+        "SelfId": "Txt_Bank_Message_First_01_Bar",
+        "Text": "みなさまの　たいせつな　お<RUBY>金[かね]を\r\n<RUBY>魔物[まもの]などから　お<RUBY>守[まも]りします。"
+      },
+      "Txt_Bank_Message_First_02_Bar": {
+        "SelfId": "Txt_Bank_Message_First_02_Bar",
+        "Text": "お<RUBY>預[あず]かりも　お<RUBY>引[ひ]き<RUBY>出[だ]しも\r\n１００ゴールド<RUBY>単位[たんい]で　うけたまわります。"
+      },
+      "Txt_Bank_Message_First_03_Bar": {
+        "SelfId": "Txt_Bank_Message_First_03_Bar",
+        "Text": "もちろん　<RUBY>手数料[てすうりょう]などは\r\nいっさい　いただきません！"
+      },
+      "Txt_Bank_Message_First_04_Bar": {
+        "SelfId": "Txt_Bank_Message_First_04_Bar",
+        "Text": "{LEADER}さまは\r\nどんな　ご<RUBY>用[よう]でしょう？<NO_INPUT>"
+      },
+      "Txt_Bank_Message_TopBalance_Bar": {
+        "SelfId": "Txt_Bank_Message_TopBalance_Bar",
+        "Text": "{LEADER}さまからは\r\n<RUBY>現在[げんざい]　{VALUE}ゴールド　お<RUBY>預[あず]かりしています。\r\nご<RUBY>用[よう]は　なんでしょう？<NO_INPUT>"
+      },
+      "Txt_Bank_Message_TopNoBalance_Bar": {
+        "SelfId": "Txt_Bank_Message_TopNoBalance_Bar",
+        "Text": "<RUBY>現在[げんざい]は　{LEADER}さまからの\r\nお<RUBY>預[あず]かり<RUBY>金[きん]は　ございません。\r\nご<RUBY>用[よう]は　なんでしょう？<NO_INPUT>"
+      },
+      "Txt_Bank_Message_TopBalanceAgain_Bar": {
+        "SelfId": "Txt_Bank_Message_TopBalanceAgain_Bar",
+        "Text": "{LEADER}さまからは\r\n<RUBY>現在[げんざい]　{VALUE}ゴールド　お<RUBY>預[あず]かりしています。\r\n<RUBY>他[ほか]にご<RUBY>用[よう]はありますか？<NO_INPUT>"
+      },
+      "Txt_Bank_Message_TopNoBalanceAgain_Bar": {
+        "SelfId": "Txt_Bank_Message_TopNoBalanceAgain_Bar",
+        "Text": "<RUBY>現在[げんざい]は　{LEADER}さまからの\r\nお<RUBY>預[あず]かり<RUBY>金[きん]は　ございません。\r\n<RUBY>他[ほか]に　ご<RUBY>用[よう]はありますか？<NO_INPUT>"
+      },
+      "Txt_Bank_Message_GoldShortage_Bar": {
+        "SelfId": "Txt_Bank_Message_GoldShortage_Bar",
+        "Text": "<RUBY>失礼[しつれい]ですが\r\nお<RUBY>客[きゃく]さまは　いま　それほど\r\nおもちではないようです。"
+      },
+      "Txt_Bank_Message_DepositCannot_Bar": {
+        "SelfId": "Txt_Bank_Message_DepositCannot_Bar",
+        "Text": "お<RUBY>客[きゃく]さま　<RUBY>申[もう]しわけありませんが\r\nわたくしどもの<RUBY>金庫[きんこ]が　いっぱいで\r\nこれ<RUBY>以上[いじょう]　お<RUBY>預[あず]かりできません。"
+      },
+      "Txt_Bank_Message_DepositTop_Bar": {
+        "SelfId": "Txt_Bank_Message_DepositTop_Bar",
+        "Text": "ご<RUBY>入金[にゅうきん]は　１００ゴールド<RUBY>単位[たんい]で\r\nうけたまわります。\r\nいくら　お<RUBY>預[あず]かりしましょうか？<NO_INPUT>"
+      },
+      "Txt_Bank_Message_Deposit_Bar": {
+        "SelfId": "Txt_Bank_Message_Deposit_Bar",
+        "Text": "{VALUE}ゴールドですね。\r\nでは　<RUBY>責任[せきにん]をもって　お<RUBY>預[あず]かりいたします。"
+      },
+      "Txt_Bank_Message_GoldMax_Bar": {
+        "SelfId": "Txt_Bank_Message_GoldMax_Bar",
+        "Text": "そんなに　たくさん　もてませんよ。"
+      },
+      "Txt_Bank_Message_WithdrawCannot_Bar": {
+        "SelfId": "Txt_Bank_Message_WithdrawCannot_Bar",
+        "Text": "えっ？　お<RUBY>客[きゃく]さまのお<RUBY>金[かね]は\r\n１ゴールドも　お<RUBY>預[あず]かりしていませんが……。"
+      },
+      "Txt_Bank_Message_WithdrawTop_Bar": {
+        "SelfId": "Txt_Bank_Message_WithdrawTop_Bar",
+        "Text": "<RUBY>現在[げんざい]　{VALUE}ゴールド\r\nお<RUBY>預[あず]かりしていますが\r\nいくら　お<RUBY>引[ひ]き<RUBY>出[だ]し　いたしますか？<NO_INPUT>"
+      },
+      "Txt_Bank_Message_Withdraw_Bar": {
+        "SelfId": "Txt_Bank_Message_Withdraw_Bar",
+        "Text": "{VALUE}ゴールドですね。\r\nはい　どうぞ。"
+      },
+      "Txt_Bank_Message_Cancel_Bar": {
+        "SelfId": "Txt_Bank_Message_Cancel_Bar",
+        "Text": "おやめに　なるのですね。"
+      },
+      "Txt_Bank_Message_FinishBalance_Bar": {
+        "SelfId": "Txt_Bank_Message_FinishBalance_Bar",
+        "Text": "<RUBY>現在[げんざい]　{VALUE}ゴールド\r\nお<RUBY>預[あず]かりしています。\r\nありがとうございました。"
+      },
+      "Txt_Bank_Message_FinishNoBalance_Bar": {
+        "SelfId": "Txt_Bank_Message_FinishNoBalance_Bar",
+        "Text": "<RUBY>現在[げんざい]は　{LEADER}さまからの\r\nお<RUBY>預[あず]かり<RUBY>金[きん]は　ございません。\r\nまたのご<RUBY>利用[りよう]を　おまちしています。"
+      }
+    }
+  }
+]

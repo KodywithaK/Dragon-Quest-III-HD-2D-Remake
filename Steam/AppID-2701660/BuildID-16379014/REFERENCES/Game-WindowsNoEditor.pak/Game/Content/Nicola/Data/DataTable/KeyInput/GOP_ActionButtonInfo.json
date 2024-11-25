@@ -1,0 +1,378 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_ActionButtonInfo",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'NicolaActionButtonInfo'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Up": {
+        "action": "ENicolaAction::Up",
+        "developmentOnly": false,
+        "buttons": [
+          "ENicolaButton::Up",
+          "ENicolaButton::StickL_Up"
+        ],
+        "opCode": "ENicolaButtonOp::OR",
+        "pushSec": 0.0
+      },
+      "Down": {
+        "action": "ENicolaAction::Down",
+        "developmentOnly": false,
+        "buttons": [
+          "ENicolaButton::Down",
+          "ENicolaButton::StickL_Down"
+        ],
+        "opCode": "ENicolaButtonOp::OR",
+        "pushSec": 0.0
+      },
+      "Left": {
+        "action": "ENicolaAction::Left",
+        "developmentOnly": false,
+        "buttons": [
+          "ENicolaButton::Left",
+          "ENicolaButton::StickL_Left"
+        ],
+        "opCode": "ENicolaButtonOp::OR",
+        "pushSec": 0.0
+      },
+      "Right": {
+        "action": "ENicolaAction::Right",
+        "developmentOnly": false,
+        "buttons": [
+          "ENicolaButton::Right",
+          "ENicolaButton::StickL_Right"
+        ],
+        "opCode": "ENicolaButtonOp::OR",
+        "pushSec": 0.0
+      },
+      "UpBtnOnly": {
+        "action": "ENicolaAction::UpBtnOnly",
+        "developmentOnly": false,
+        "buttons": [
+          "ENicolaButton::Up"
+        ],
+        "opCode": "ENicolaButtonOp::None",
+        "pushSec": 0.0
+      },
+      "DownBtnOnly": {
+        "action": "ENicolaAction::DownBtnOnly",
+        "developmentOnly": false,
+        "buttons": [
+          "ENicolaButton::Down"
+        ],
+        "opCode": "ENicolaButtonOp::None",
+        "pushSec": 0.0
+      },
+      "LeftBtnOnly": {
+        "action": "ENicolaAction::LeftBtnOnly",
+        "developmentOnly": false,
+        "buttons": [
+          "ENicolaButton::Left"
+        ],
+        "opCode": "ENicolaButtonOp::None",
+        "pushSec": 0.0
+      },
+      "RightBtnOnly": {
+        "action": "ENicolaAction::RightBtnOnly",
+        "developmentOnly": false,
+        "buttons": [
+          "ENicolaButton::Right"
+        ],
+        "opCode": "ENicolaButtonOp::None",
+        "pushSec": 0.0
+      },
+      "Search": {
+        "action": "ENicolaAction::Search",
+        "developmentOnly": false,
+        "buttons": [
+          "ENicolaButton::RRight",
+          "ENicolaButton::LShoulder"
+        ],
+        "opCode": "ENicolaButtonOp::OR",
+        "pushSec": 0.0
+      },
+      "Dash": {
+        "action": "ENicolaAction::Dash",
+        "developmentOnly": false,
+        "buttons": [
+          "ENicolaButton::LTrigger",
+          "ENicolaButton::RTrigger",
+          "ENicolaButton::RDown"
+        ],
+        "opCode": "ENicolaButtonOp::OR",
+        "pushSec": 0.0
+      },
+      "DashHuman": {
+        "action": "ENicolaAction::DashHuman",
+        "developmentOnly": false,
+        "buttons": [
+          "ENicolaButton::RDown"
+        ],
+        "opCode": "ENicolaButtonOp::None",
+        "pushSec": 0.0
+      },
+      "Ride": {
+        "action": "ENicolaAction::Ride",
+        "developmentOnly": false,
+        "buttons": [
+          "ENicolaButton::RRight",
+          "ENicolaButton::LShoulder"
+        ],
+        "opCode": "ENicolaButtonOp::OR",
+        "pushSec": 0.0
+      },
+      "Landing": {
+        "action": "ENicolaAction::Landing",
+        "developmentOnly": false,
+        "buttons": [
+          "ENicolaButton::RRight",
+          "ENicolaButton::LShoulder"
+        ],
+        "opCode": "ENicolaButtonOp::OR",
+        "pushSec": 0.0
+      },
+      "TargetMarkerReset": {
+        "action": "ENicolaAction::TargetMarkerReset",
+        "developmentOnly": false,
+        "buttons": [
+          "ENicolaButton::StickR_Button"
+        ],
+        "opCode": "ENicolaButtonOp::None",
+        "pushSec": 0.0
+      },
+      "Decide": {
+        "action": "ENicolaAction::Decide",
+        "developmentOnly": true,
+        "buttons": [
+          "ENicolaButton::RRight"
+        ],
+        "opCode": "ENicolaButtonOp::None",
+        "pushSec": 0.0
+      },
+      "Cancel": {
+        "action": "ENicolaAction::Cancel",
+        "developmentOnly": true,
+        "buttons": [
+          "ENicolaButton::RDown"
+        ],
+        "opCode": "ENicolaButtonOp::None",
+        "pushSec": 0.0
+      },
+      "CameraZoomIn": {
+        "action": "ENicolaAction::CameraZoomIn",
+        "developmentOnly": true,
+        "buttons": [
+          "ENicolaButton::RShoulder"
+        ],
+        "opCode": "ENicolaButtonOp::None",
+        "pushSec": 0.0
+      },
+      "CameraZoomOut": {
+        "action": "ENicolaAction::CameraZoomOut",
+        "developmentOnly": true,
+        "buttons": [
+          "ENicolaButton::LShoulder"
+        ],
+        "opCode": "ENicolaButtonOp::None",
+        "pushSec": 0.0
+      },
+      "CameraReset": {
+        "action": "ENicolaAction::CameraReset",
+        "developmentOnly": true,
+        "buttons": [
+          "ENicolaButton::StickR_Button"
+        ],
+        "opCode": "ENicolaButtonOp::None",
+        "pushSec": 0.0
+      },
+      "CameraFOVWiden": {
+        "action": "ENicolaAction::CameraFOVWiden",
+        "developmentOnly": true,
+        "buttons": [
+          "ENicolaButton::Down"
+        ],
+        "opCode": "ENicolaButtonOp::None",
+        "pushSec": 0.0
+      },
+      "CameraFOVNarrow": {
+        "action": "ENicolaAction::CameraFOVNarrow",
+        "developmentOnly": true,
+        "buttons": [
+          "ENicolaButton::Up"
+        ],
+        "opCode": "ENicolaButtonOp::None",
+        "pushSec": 0.0
+      },
+      "DebugMenu": {
+        "action": "ENicolaAction::DebugMenu",
+        "developmentOnly": true,
+        "buttons": [
+          "ENicolaButton::LTrigger",
+          "ENicolaButton::RTrigger"
+        ],
+        "opCode": "ENicolaButtonOp::AND",
+        "pushSec": 1.0
+      },
+      "DebugConsole": {
+        "action": "ENicolaAction::DebugConsole",
+        "developmentOnly": true,
+        "buttons": [
+          "ENicolaButton::RShoulder",
+          "ENicolaButton::SpecialRight"
+        ],
+        "opCode": "ENicolaButtonOp::AND",
+        "pushSec": 1.0
+      },
+      "DebugSuperDash1": {
+        "action": "ENicolaAction::DebugSuperDash1",
+        "developmentOnly": true,
+        "buttons": [
+          "ENicolaButton::RDown"
+        ],
+        "opCode": "ENicolaButtonOp::None",
+        "pushSec": 0.0
+      },
+      "DebugFly": {
+        "action": "ENicolaAction::DebugFly",
+        "developmentOnly": true,
+        "buttons": [
+          "ENicolaButton::RShoulder"
+        ],
+        "opCode": "ENicolaButtonOp::None",
+        "pushSec": 0.0
+      },
+      "SoundTestStopSound": {
+        "action": "ENicolaAction::SoundTestStopSound",
+        "developmentOnly": true,
+        "buttons": [
+          "ENicolaButton::RUp"
+        ],
+        "opCode": "ENicolaButtonOp::None",
+        "pushSec": 0.0
+      },
+      "SoundSuperVisionVolumeRateUpCurrentFocus": {
+        "action": "ENicolaAction::SoundSuperVisionVolumeRateUpCurrentFocus",
+        "developmentOnly": false,
+        "buttons": [
+          "ENicolaButton::Right"
+        ],
+        "opCode": "ENicolaButtonOp::None",
+        "pushSec": 0.0
+      },
+      "SoundSuperVisionVolumeRateDownCurrentFocus": {
+        "action": "ENicolaAction::SoundSuperVisionVolumeRateDownCurrentFocus",
+        "developmentOnly": false,
+        "buttons": [
+          "ENicolaButton::Left"
+        ],
+        "opCode": "ENicolaButtonOp::None",
+        "pushSec": 0.0
+      },
+      "SoundSuperVisionStartPositionAdd": {
+        "action": "ENicolaAction::SoundSuperVisionStartPositionAdd",
+        "developmentOnly": false,
+        "buttons": [
+          "ENicolaButton::RShoulder"
+        ],
+        "opCode": "ENicolaButtonOp::None",
+        "pushSec": 0.0
+      },
+      "SoundSuperVisionStartPositionSub": {
+        "action": "ENicolaAction::SoundSuperVisionStartPositionSub",
+        "developmentOnly": false,
+        "buttons": [
+          "ENicolaButton::LShoulder"
+        ],
+        "opCode": "ENicolaButtonOp::None",
+        "pushSec": 0.0
+      },
+      "SoundSuperVisionPlayCurrentFocus": {
+        "action": "ENicolaAction::SoundSuperVisionPlayCurrentFocus",
+        "developmentOnly": false,
+        "buttons": [
+          "ENicolaButton::RUp"
+        ],
+        "opCode": "ENicolaButtonOp::None",
+        "pushSec": 0.0
+      },
+      "SoundSuperVisionHoldCurrentFocus": {
+        "action": "ENicolaAction::SoundSuperVisionHoldCurrentFocus",
+        "developmentOnly": false,
+        "buttons": [
+          "ENicolaButton::RTrigger"
+        ],
+        "opCode": "ENicolaButtonOp::None",
+        "pushSec": 0.0
+      },
+      "SoundSuperVisionStopCurrentPlaying": {
+        "action": "ENicolaAction::SoundSuperVisionStopCurrentPlaying",
+        "developmentOnly": false,
+        "buttons": [
+          "ENicolaButton::RLeft"
+        ],
+        "opCode": "ENicolaButtonOp::None",
+        "pushSec": 0.0
+      },
+      "SoundSuperVisionTogglePlayStateHolding": {
+        "action": "ENicolaAction::SoundSuperVisionTogglePlayStateHolding",
+        "developmentOnly": false,
+        "buttons": [
+          "ENicolaButton::LTrigger"
+        ],
+        "opCode": "ENicolaButtonOp::None",
+        "pushSec": 0.0
+      },
+      "SoundSuperVisionSaveEdit": {
+        "action": "ENicolaAction::SoundSuperVisionSaveEdit",
+        "developmentOnly": false,
+        "buttons": [
+          "ENicolaButton::SpecialRight"
+        ],
+        "opCode": "ENicolaButtonOp::None",
+        "pushSec": 0.0
+      },
+      "SoundSuperVisionReloadSetting": {
+        "action": "ENicolaAction::SoundSuperVisionReloadSetting",
+        "developmentOnly": false,
+        "buttons": [
+          "ENicolaButton::StickR_Button"
+        ],
+        "opCode": "ENicolaButtonOp::None",
+        "pushSec": 0.0
+      },
+      "SoundSuperVisionDisposeEdit": {
+        "action": "ENicolaAction::SoundSuperVisionDisposeEdit",
+        "developmentOnly": false,
+        "buttons": [
+          "ENicolaButton::StickL_Button"
+        ],
+        "opCode": "ENicolaButtonOp::None",
+        "pushSec": 0.0
+      },
+      "DebugSuperDash2": {
+        "action": "ENicolaAction::DebugSuperDash2",
+        "developmentOnly": true,
+        "buttons": [
+          "ENicolaButton::RTrigger"
+        ],
+        "opCode": "ENicolaButtonOp::None",
+        "pushSec": 0.0
+      },
+      "DebugSuperDash3": {
+        "action": "ENicolaAction::DebugSuperDash3",
+        "developmentOnly": true,
+        "buttons": [
+          "ENicolaButton::LTrigger"
+        ],
+        "opCode": "ENicolaButtonOp::None",
+        "pushSec": 0.0
+      }
+    }
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_SearchObject_HobbitShrine",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_SearchObject_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "SEARCH_HobbitShrine_1F_GROUND_0": {
+        "SelfId": "SEARCH_HobbitShrine_1F_GROUND_0",
+        "ObjectType": "ESearchObjectType::GROUND",
+        "ItemId": "ITEM_EQUIP_WEAPON_BATTLEAXE",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_HobbitShrine_1F_GROUND_0"
+      },
+      "SEARCH_HobbitShrine_1F_BARREL_0": {
+        "SelfId": "SEARCH_HobbitShrine_1F_BARREL_0",
+        "ObjectType": "ESearchObjectType::BARREL",
+        "ItemId": "ITEM_USE_ITEM_SEED_OF_RESILIENCE",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_HobbitShrine_1F_BARREL_0"
+      }
+    }
+  }
+]

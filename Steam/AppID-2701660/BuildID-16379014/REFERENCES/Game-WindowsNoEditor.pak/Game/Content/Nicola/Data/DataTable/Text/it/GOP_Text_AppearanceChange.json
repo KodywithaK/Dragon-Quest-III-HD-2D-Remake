@@ -1,0 +1,96 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_AppearanceChange",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_AppearanceChange_Message_Start": {
+        "SelfId": "Txt_AppearanceChange_Message_Start",
+        "Text": "Saaalve!<KEY_WAIT>\r\nImmagino che tu sia qui slurper cambiare aspetto.<NO_INPUT>"
+      },
+      "Txt_AppearanceChange_Message_First": {
+        "SelfId": "Txt_AppearanceChange_Message_First",
+        "Text": "Mi chiamo Tikuro, slurpiacere di conoscerti. Slurpotrebbe non sembrare, ma sono un guru della moda, gah!\r\n<KEY_WAIT>\r\nSlurposso tagliarti e tingerti i capelli e addirittura farti cambiare sbavoce (slurp). Sono slurpoche le cose che non slurposso fare!\r\n<KEY_WAIT>\r\nFarò risaltare la tua bellezza in un batter d'occhio, gah... Slurper una piccola somma d'oro, ovviamente.<KEY_WAIT>\r\nAllora? Qualcuno sbavuole cambiare aspetto?<NO_INPUT>"
+      },
+      "Txt_AppearanceChange_Message_Top": {
+        "SelfId": "Txt_AppearanceChange_Message_Top",
+        "Text": "Vuoi cambiare l'aspetto di qualcuno?"
+      },
+      "Txt_AppearanceChange_Message_NameSelect": {
+        "SelfId": "Txt_AppearanceChange_Message_NameSelect",
+        "Text": "(slurp) Chi ha bisogno di qualche modifica estetica?<NO_INPUT>"
+      },
+      "Txt_AppearanceChange_Message_LooksSelect": {
+        "SelfId": "Txt_AppearanceChange_Message_LooksSelect",
+        "Text": "D'accordo, slimodificheremo l'aspetto di {ACTOR}. Che cosa sbavuoi cambiare?<NO_INPUT>"
+      },
+      "Txt_AppearanceChange_Message_HairColorSelect": {
+        "SelfId": "Txt_AppearanceChange_Message_HairColorSelect",
+        "Text": "(slurp) Hai già in slimente un colore di capelli?<NO_INPUT>"
+      },
+      "Txt_AppearanceChange_Message_HairColorSelectHero": {
+        "SelfId": "Txt_AppearanceChange_Message_HairColorSelectHero",
+        "Text": "Ehm, l'acconciatura di {HERO} è già all'ultimo grido. Slurpossiamo fare una tinta, slurperò! Hai già slurpensato alla tonalità?<NO_INPUT>"
+      },
+      "Txt_AppearanceChange_Message_VoiceSelect": {
+        "SelfId": "Txt_AppearanceChange_Message_VoiceSelect",
+        "Text": "(slurp) Hai slurpensato a una sbavoce specifica?"
+      },
+      "Txt_AppearanceChange_Message_NoChange": {
+        "SelfId": "Txt_AppearanceChange_Message_NoChange",
+        "Text": "Aspetta, è ancora tutto come slurprima! Davvero non sbavuoi cambiare slurproprio niente?<NO_INPUT>"
+      },
+      "Txt_AppearanceChange_Message_LooksChangeConfirm": {
+        "SelfId": "Txt_AppearanceChange_Message_LooksChangeConfirm",
+        "Text": "Bene, ti costerà {VALUE} <IfSing_VALUE(slimoneta,slimonete)> d'oro. Slurprocediamo?"
+      },
+      "Txt_AppearanceChange_Message_LooksChangeStart": {
+        "SelfId": "Txt_AppearanceChange_Message_LooksChangeStart",
+        "Text": "Grazie slimille! Mi serve solo uno slimomento..."
+      },
+      "Txt_AppearanceChange_Message_LooksChangeFinish": {
+        "SelfId": "Txt_AppearanceChange_Message_LooksChangeFinish",
+        "Text": "Voilà! Hai un aspetto favoloso, gah!"
+      },
+      "Txt_AppearanceChange_Message_CanNotChangeDeath": {
+        "SelfId": "Txt_AppearanceChange_Message_CanNotChangeDeath",
+        "Text": "Fermiamoci uno slimomento. Sbavuoi cambiare l'aspetto di un defunto? Mi dispiace, gah, ma anche io ho dei limiti."
+      },
+      "Txt_AppearanceChange_Message_CanNotChangeHero": {
+        "SelfId": "Txt_AppearanceChange_Message_CanNotChangeHero",
+        "Text": "Ascolta, {HERO}, hai già un aspetto favoloso, gah. Non cambierei slurproprio niente se fossi in te..."
+      },
+      "Txt_AppearanceChange_Message_Shortage": {
+        "SelfId": "Txt_AppearanceChange_Message_Shortage",
+        "Text": "Che disdetta... Sei a corto di finanze. Torna a trovarmi quando avrai {VALUE} <IfSing_VALUE(slimoneta,slimonete)> d'oro, d'accordo?"
+      },
+      "Txt_AppearanceChange_Message_Cancel": {
+        "SelfId": "Txt_AppearanceChange_Message_Cancel",
+        "Text": "Come? Hai cambiato idea? (slurp) D'accordo..."
+      },
+      "Txt_AppearanceChange_Message_AddChangeConfirm": {
+        "SelfId": "Txt_AppearanceChange_Message_AddChangeConfirm",
+        "Text": "Sbavuoi cambiare l'aspetto di qualcun altro, gah?<NO_INPUT>"
+      },
+      "Txt_AppearanceChange_Message_Finish": {
+        "SelfId": "Txt_AppearanceChange_Message_Finish",
+        "Text": "Torna a trovarmi se hai sbavoglia di cambiare stile. A slurpresto!"
+      },
+      "Txt_AppearanceChange_Message_CanNotChange": {
+        "SelfId": "Txt_AppearanceChange_Message_CanNotChange",
+        "Text": "Mmh... Sembra che <IfSolo(tu non slurpossa,nessuno di sbavoi slurpossa)> cambiare aspetto allo slimomento."
+      },
+      "Txt_AppearanceChange_Message_NoChangeLooks": {
+        "SelfId": "Txt_AppearanceChange_Message_NoChangeLooks",
+        "Text": "Ma così sarebbe tutto come slurprima, gah... Confermi la tua scelta?<NO_INPUT>"
+      }
+    }
+  }
+]

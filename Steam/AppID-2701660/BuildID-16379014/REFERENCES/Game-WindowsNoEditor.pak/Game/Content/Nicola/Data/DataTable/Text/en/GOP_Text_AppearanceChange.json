@@ -1,0 +1,96 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_AppearanceChange",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_AppearanceChange_Message_Start": {
+        "SelfId": "Txt_AppearanceChange_Message_Start",
+        "Text": "Gooreetings!<KEY_WAIT>\r\nI suppooze you're here to change your appearance.<NO_INPUT>"
+      },
+      "Txt_AppearanceChange_Message_First": {
+        "SelfId": "Txt_AppearanceChange_Message_First",
+        "Text": "My name's Healizah, by the way. I might not look it, but I'm a fashion gooru!\r\n<KEY_WAIT>\r\nI can cut your hair and dye it, even change your voice. (slurp) There's not much I can't do!\r\n<KEY_WAIT>\r\nI'll have you looking your best in no slime<--->for a nominal sum of goold coins, of course.<KEY_WAIT>\r\nSo how about it? Is there someone whooze appearance you'd like to change?<NO_INPUT>"
+      },
+      "Txt_AppearanceChange_Message_Top": {
+        "SelfId": "Txt_AppearanceChange_Message_Top",
+        "Text": "Is there someone whooze appearance you'd like to change?"
+      },
+      "Txt_AppearanceChange_Message_NameSelect": {
+        "SelfId": "Txt_AppearanceChange_Message_NameSelect",
+        "Text": "(slurp) So who needs a makeover?<NO_INPUT>"
+      },
+      "Txt_AppearanceChange_Message_LooksSelect": {
+        "SelfId": "Txt_AppearanceChange_Message_LooksSelect",
+        "Text": "Okay, you're gooing to change {ACTOR}'s appearance. How do you want <IfGender_ACTOR(him,her,it)> to look?<NO_INPUT>"
+      },
+      "Txt_AppearanceChange_Message_HairColorSelect": {
+        "SelfId": "Txt_AppearanceChange_Message_HairColorSelect",
+        "Text": "(slurp) Do you have a hair colour in mind?<NO_INPUT>"
+      },
+      "Txt_AppearanceChange_Message_HairColorSelectHero": {
+        "SelfId": "Txt_AppearanceChange_Message_HairColorSelectHero",
+        "Text": "Erm, {HERO}'s hairstyle is already the height of fashion. I can dye it, though! Any goo colours in mind?<NO_INPUT>"
+      },
+      "Txt_AppearanceChange_Message_VoiceSelect": {
+        "SelfId": "Txt_AppearanceChange_Message_VoiceSelect",
+        "Text": "(slurp) Do you have a particular voice in mind?"
+      },
+      "Txt_AppearanceChange_Message_NoChange": {
+        "SelfId": "Txt_AppearanceChange_Message_NoChange",
+        "Text": "Hold on, everything's like it was when you walked in here! Are you sure you're not gooing to change anything?<NO_INPUT>"
+      },
+      "Txt_AppearanceChange_Message_LooksChangeConfirm": {
+        "SelfId": "Txt_AppearanceChange_Message_LooksChangeConfirm",
+        "Text": "Okay, this look will cost {VALUE} goold <IfSing_VALUE(coin,coins)>. Is that alright?"
+      },
+      "Txt_AppearanceChange_Message_LooksChangeStart": {
+        "SelfId": "Txt_AppearanceChange_Message_LooksChangeStart",
+        "Text": "Thank you jelly much! Now, just a moment, please..."
+      },
+      "Txt_AppearanceChange_Message_LooksChangeFinish": {
+        "SelfId": "Txt_AppearanceChange_Message_LooksChangeFinish",
+        "Text": "Ta-da! You look splooper!"
+      },
+      "Txt_AppearanceChange_Message_CanNotChangeDeath": {
+        "SelfId": "Txt_AppearanceChange_Message_CanNotChangeDeath",
+        "Text": "Stop. Just stop. You want to change the appearance of a dead gooman? Sorry, that's a line I refooze to cross."
+      },
+      "Txt_AppearanceChange_Message_CanNotChangeHero": {
+        "SelfId": "Txt_AppearanceChange_Message_CanNotChangeHero",
+        "Text": "Look, {HERO}, you're a goo-looking <IfGender_HERO(lad,lass,)>. I really wouldn't change a thing if I were you..."
+      },
+      "Txt_AppearanceChange_Message_Shortage": {
+        "SelfId": "Txt_AppearanceChange_Message_Shortage",
+        "Text": "Oh dear... You, my friend, are broke. Come back when you've saved up {VALUE} goold <IfSing_VALUE(coin,coins)>, okay?"
+      },
+      "Txt_AppearanceChange_Message_Cancel": {
+        "SelfId": "Txt_AppearanceChange_Message_Cancel",
+        "Text": "...Eh? You've changed your mind? (slurp) Okay..."
+      },
+      "Txt_AppearanceChange_Message_AddChangeConfirm": {
+        "SelfId": "Txt_AppearanceChange_Message_AddChangeConfirm",
+        "Text": "Anyone else whooze appearance you'd like to change?<NO_INPUT>"
+      },
+      "Txt_AppearanceChange_Message_Finish": {
+        "SelfId": "Txt_AppearanceChange_Message_Finish",
+        "Text": "Drop by whenever you feel like trying a new look. Goobye!"
+      },
+      "Txt_AppearanceChange_Message_CanNotChange": {
+        "SelfId": "Txt_AppearanceChange_Message_CanNotChange",
+        "Text": "Hmm... Sorry, it seems <IfSolo(you can't,none of you can)> change your appearance right now."
+      },
+      "Txt_AppearanceChange_Message_NoChangeLooks": {
+        "SelfId": "Txt_AppearanceChange_Message_NoChangeLooks",
+        "Text": "But that's the same look as before... Are you sure you want to goo with this?<NO_INPUT>"
+      }
+    }
+  }
+]

@@ -1,0 +1,96 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_NPC_Talk_BaramosCastle",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Talk_BaramosCastle_1FE_SUB_0_ACTOR_0110_010_1": {
+        "SelfId": "Txt_Talk_BaramosCastle_1FE_SUB_0_ACTOR_0110_010_1",
+        "Text": "Non risponde.\r\nÈ solo un cadavere."
+      },
+      "Txt_Talk_BaramosCastle_B1A_SUB_0_ACTOR_0110_010_1": {
+        "SelfId": "Txt_Talk_BaramosCastle_B1A_SUB_0_ACTOR_0110_010_1",
+        "Text": "Non risponde.\r\nÈ solo un cadavere."
+      },
+      "Txt_Talk_BaramosCastle_B1D_MAIN_0_VOLUME_0110_010_1": {
+        "SelfId": "Txt_Talk_BaramosCastle_B1D_MAIN_0_VOLUME_0110_010_1",
+        "Text": "Dunque, alla fine hai trovato il modo di arrivare qui."
+      },
+      "Txt_Talk_BaramosCastle_B1D_MAIN_0_VOLUME_0110_010_2": {
+        "SelfId": "Txt_Talk_BaramosCastle_B1D_MAIN_0_VOLUME_0110_010_2",
+        "Text": "Sai bene che opporsi al potente Padramos significa gettare via la propria vita. Eppure ora sei qui."
+      },
+      "Txt_Talk_BaramosCastle_B1D_MAIN_0_VOLUME_0110_010_3": {
+        "SelfId": "Txt_Talk_BaramosCastle_B1D_MAIN_0_VOLUME_0110_010_3",
+        "Text": "Una decisione che rimpiangerai."
+      },
+      "Txt_Talk_BaramosCastle_B1D_MAIN_0_VOLUME_0110_010_4": {
+        "SelfId": "Txt_Talk_BaramosCastle_B1D_MAIN_0_VOLUME_0110_010_4",
+        "Text": "Ma non per molto... perché ti ridurrò a brandelli e divorerò le tue interiora!"
+      },
+      "Txt_Talk_BaramosCastle_B1D_MAIN_0_VOLUME_0110_010_5": {
+        "SelfId": "Txt_Talk_BaramosCastle_B1D_MAIN_0_VOLUME_0110_010_5",
+        "Text": "<IfGender_LEADER(Sciocco,Sciocca,)>! Sei <IfGender_LEADER(stato schiacciato,stata schiacciata,)> per mano di Padramos e torni comunque a sfidarmi?"
+      },
+      "Txt_Talk_BaramosCastle_B1D_MAIN_0_VOLUME_0110_010_6": {
+        "SelfId": "Txt_Talk_BaramosCastle_B1D_MAIN_0_VOLUME_0110_010_6",
+        "Text": "La tua ottusità deve pur avere un limite."
+      },
+      "Txt_Talk_BaramosCastle_B1D_MAIN_0_VOLUME_0110_010_7": {
+        "SelfId": "Txt_Talk_BaramosCastle_B1D_MAIN_0_VOLUME_0110_010_7",
+        "Text": "No? E sia. Sarò lieto di farti sprofondare nell'oblio ancora e ancora."
+      },
+      "Txt_Talk_BaramosCastle_B1D_MAIN_0_VOLUME_0110_010_8": {
+        "SelfId": "Txt_Talk_BaramosCastle_B1D_MAIN_0_VOLUME_0110_010_8",
+        "Text": "Conoscerai il vero potere di Padramos! Ti distruggerò!"
+      },
+      "Txt_Talk_BaramosCastle_B1D_MAIN_0_BATTLE_END_0110_020_1": {
+        "SelfId": "Txt_Talk_BaramosCastle_B1D_MAIN_0_BATTLE_END_0110_020_1",
+        "Text": "Nnngh... Tu... Come...? Io ti maledico..."
+      },
+      "Txt_Talk_BaramosCastle_B1D_MAIN_0_BATTLE_END_0110_020_2": {
+        "SelfId": "Txt_Talk_BaramosCastle_B1D_MAIN_0_BATTLE_END_0110_020_2",
+        "Text": "Questa... non è la fine... Non mi arrenderò... tanto facilmente!"
+      },
+      "Txt_Talk_BaramosCastle_B1D_MAIN_0_BATTLE_END_0110_020_3": {
+        "SelfId": "Txt_Talk_BaramosCastle_B1D_MAIN_0_BATTLE_END_0110_020_3",
+        "Text": "Una luce calda si diffonde per la stanza..."
+      },
+      "Txt_Talk_BaramosCastle_B1D_MAIN_0_BATTLE_END_0110_020_6": {
+        "SelfId": "Txt_Talk_BaramosCastle_B1D_MAIN_0_BATTLE_END_0110_020_6",
+        "Text": "Una voce familiare si rivolge <IfSolo(a {LEADER},al gruppo)>..."
+      },
+      "Txt_Talk_BaramosCastle_B1D_MAIN_0_BATTLE_END_0110_020_7": {
+        "SelfId": "Txt_Talk_BaramosCastle_B1D_MAIN_0_BATTLE_END_0110_020_7",
+        "Text": "<IfSolo(Hai,Avete)> finalmente sconfitto l'Ultrademone..."
+      },
+      "Txt_Talk_BaramosCastle_B1D_MAIN_0_BATTLE_END_0110_020_8": {
+        "SelfId": "Txt_Talk_BaramosCastle_B1D_MAIN_0_BATTLE_END_0110_020_8",
+        "Text": "<IfSolo(Hai,Avete)> portato a termine l'incarico, con onore..."
+      },
+      "Txt_Talk_BaramosCastle_B1D_MAIN_0_BATTLE_END_0110_020_9": {
+        "SelfId": "Txt_Talk_BaramosCastle_B1D_MAIN_0_BATTLE_END_0110_020_9",
+        "Text": "Adesso, <IfSolo(torna,tornate)> da loro...\r\n<IfSolo(Torna da chi ti vuole bene...,Tornate da chi vi vuole bene...)>\r\n<IfSolo(Ti,Vi)> stanno aspettando..."
+      },
+      "Txt_Talk_BaramosCastle_Out_SUB_0_VOLUME_0010_010_1": {
+        "SelfId": "Txt_Talk_BaramosCastle_Out_SUB_0_VOLUME_0010_010_1",
+        "Text": "..."
+      },
+      "Txt_Talk_BaramosCastle_Out_SUB_0_VOLUME_0010_010_2": {
+        "SelfId": "Txt_Talk_BaramosCastle_Out_SUB_0_VOLUME_0010_010_2",
+        "Text": "{LEADER} calma il mostro con voce suadente e gli parla del serraglio di mostri di Mister Muster..."
+      },
+      "Txt_Talk_BaramosCastle_Out_SUB_0_VOLUME_0010_010_3": {
+        "SelfId": "Txt_Talk_BaramosCastle_Out_SUB_0_VOLUME_0010_010_3",
+        "Text": "Geh eh eh..."
+      }
+    }
+  }
+]

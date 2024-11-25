@@ -1,0 +1,120 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_Rename",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Rename_Message_Start": {
+        "SelfId": "Txt_Rename_Message_Start",
+        "Text": "Soy la humilde sierva de Apelo, el dios que da nombre a todo cuanto existe.<KEY_WAIT>\r\n¿<IfSolo(Deseas adoptar un nuevo apelativo,Deseas un nuevo apelativo para ti o para alguien que te acompañe)>?<KEY_WAIT>\r\n... ¿Y bien?<NO_INPUT>"
+      },
+      "Txt_Rename_Message_Top": {
+        "SelfId": "Txt_Rename_Message_Top",
+        "Text": "Ya veo. ¿Y la persona en cuestión es...?<NO_INPUT>"
+      },
+      "Txt_Rename_Message_NameSelect": {
+        "SelfId": "Txt_Rename_Message_NameSelect",
+        "Text": "Conque buscas cambiar de nombre, {WORD}... ¿Cómo te gustaría llamarte a partir de ahora?<NO_INPUT>"
+      },
+      "Txt_Rename_Message_NameDeside": {
+        "SelfId": "Txt_Rename_Message_NameDeside",
+        "Text": "Entiendo. Tu nombre pasará a ser {NAME}. ¿Seguro que es lo que quieres?<NO_INPUT>"
+      },
+      "Txt_Rename_Message_NameChangeStart": {
+        "SelfId": "Txt_Rename_Message_NameChangeStart",
+        "Text": "Entonces, por el poder que me ha sido otorgado, ¡ruego humildemente a nuestro señor Apelo que obre el milagro de la transapelación!"
+      },
+      "Txt_Rename_Message_NameChangeFinish": {
+        "SelfId": "Txt_Rename_Message_NameChangeFinish",
+        "Text": "Se ha producido el cambio. {WORD} es ahora {NAME}. ¡Alabado sea Apelo!"
+      },
+      "Txt_Rename_Message_AddNameChangeConfirm": {
+        "SelfId": "Txt_Rename_Message_AddNameChangeConfirm",
+        "Text": "¿Alguien más que quiera someterse a la transapelación?<NO_INPUT>"
+      },
+      "Txt_Rename_Message_Finish": {
+        "SelfId": "Txt_Rename_Message_Finish",
+        "Text": "Muy bien. Si en cualquier momento <IfSolo(te,os)> asaltara la necesidad de cambiar de nombre, no <IfSolo(dudes,dudéis)> en volver a visitarme."
+      },
+      "Txt_Rename_Message_NameSelectAgain": {
+        "SelfId": "Txt_Rename_Message_NameSelectAgain",
+        "Text": "¿Deseas que se te conozca por un nombre distinto?"
+      },
+      "Txt_Rename_Message_CanNotChangeDeath": {
+        "SelfId": "Txt_Rename_Message_CanNotChangeDeath",
+        "Text": "Mmm, ¿dices que quieres cambiar el nombre de alguien que ha muerto? Me temo que no lo puedo consentir."
+      },
+      "Txt_Rename_Message_Cancel": {
+        "SelfId": "Txt_Rename_Message_Cancel",
+        "Text": "¿Mmm? ¿Al final prefieres no cambiar de nombre? Muy bien..."
+      },
+      "Txt_Rename_Message_NameError_Ban": {
+        "SelfId": "Txt_Rename_Message_NameError_Ban",
+        "Text": "Nuestro señor Apelo ha hablado...\r\ny ha decretado que el nombre que has solicitado es inadmisible.<KEY_WAIT>\r\nElige uno diferente...<NO_INPUT>"
+      },
+      "Txt_Rename_Message_OriginName": {
+        "SelfId": "Txt_Rename_Message_OriginName",
+        "Text": "¿Quieres recuperar tu nombre original? Entiendo...<KEY_WAIT>\r\nSupongo que resulta apropiado respetar lo que nos dieron nuestros padres. Muy bien...<KEY_WAIT>\r\n{WORD}, volverás a llamarte {NAME}. ¿Seguro que es lo que quieres?<NO_INPUT>"
+      },
+      "Txt_Rename_Message_OriginNameChangeStart": {
+        "SelfId": "Txt_Rename_Message_OriginNameChangeStart",
+        "Text": "¡Mi señor Apelo! ¡Que vuelva lo que una vez fue! ¡Haz que {WORD} reciba de nuevo el apelativo de {NAME}!"
+      },
+      "Txt_Rename_Message_OriginNameChangeFinish": {
+        "SelfId": "Txt_Rename_Message_OriginNameChangeFinish",
+        "Text": "¡Regocíjate, pues tu nombre vuelve a ser {NAME}!\r\n¡Alabado sea nuestro señor Apelo!"
+      },
+      "Txt_Rename_Message_BadNameFinalConfirm": {
+        "SelfId": "Txt_Rename_Message_BadNameFinalConfirm",
+        "Text": "¿No temes la ira del que todo lo nombra? No puedo protegerte de su furia. ¿Estás <IfGender_LEADER(seguro,segura,)>?<NO_INPUT>"
+      },
+      "Txt_Rename_Message_BadNameChangeStart": {
+        "SelfId": "Txt_Rename_Message_BadNameChangeStart",
+        "Text": "Entonces, por el poder que me ha sido otorgado, ¡ruego a nuestro señor Apelo que otorgue el nombre {NAME} a su sier...!"
+      },
+      "Txt_Rename_Message_BadNameChangeFinish": {
+        "SelfId": "Txt_Rename_Message_BadNameChangeFinish",
+        "Text": "¡¿Ves?! ¡Te he dicho que no iba a poder protegerte de su furia!<KEY_WAIT>\r\n¡Ahora estás <IfGender_LEADER(condenado,condenada,)> a llamarte {NAME} por los siglos de los siglos!"
+      },
+      "Txt_Rename_Message_BadName": {
+        "SelfId": "Txt_Rename_Message_BadName",
+        "Text": "¿{NAME}? ¿Acaso te mofas de la sagrada institución del nombramiento?<NO_INPUT>"
+      },
+      "Txt_Rename_Message_BadNameConfirm": {
+        "SelfId": "Txt_Rename_Message_BadNameConfirm",
+        "Text": "¿Dices que no se trata de una burla y que deseas llamarte así de verdad?<NO_INPUT>"
+      },
+      "Txt_Rename_Message_BadNameCancel": {
+        "SelfId": "Txt_Rename_Message_BadNameCancel",
+        "Text": "Entonces, te ruego que elijas otro nombre. Bueno, {WORD}, ¿cómo querrías llamarte?<NO_INPUT>"
+      },
+      "Txt_Rename_Message_CanNotNameChange": {
+        "SelfId": "Txt_Rename_Message_CanNotNameChange",
+        "Text": "Pero ¡¿qué has hecho?! ¡El nombre que has elegido ha despertado la cólera de nuestro señor Apelo! ¡Ya no podrás volver a cambiártelo!<KEY_WAIT>\r\nA menos que pagues una pequeña suma para aplacar su ira, claro está. En concreto... {VALUE} moneda<IfSing_VALUE(,s)> de oro.<KEY_WAIT>\r\n¿Te parece razonable?<NO_INPUT>"
+      },
+      "Txt_Rename_Message_PenaltyCancel": {
+        "SelfId": "Txt_Rename_Message_PenaltyCancel",
+        "Text": "Entonces, lamento decirte que tu nombre será el mismo para toda la eternidad..."
+      },
+      "Txt_Rename_Message_PenaltyPay": {
+        "SelfId": "Txt_Rename_Message_PenaltyPay",
+        "Text": "{LEADER} desembolsa {VALUE} <IfSing_VALUE(moneda,monedas)> de oro."
+      },
+      "Txt_Rename_Message_CanNameChange": {
+        "SelfId": "Txt_Rename_Message_CanNameChange",
+        "Text": "Alabado sea Apelo.\r\n¿Y bien? ¿Cómo deseas llamarte a partir de ahora, {WORD}?<NO_INPUT>"
+      },
+      "Txt_Rename_Message_PenaltyShotage": {
+        "SelfId": "Txt_Rename_Message_PenaltyShotage",
+        "Text": "Quizá te parezca un precio razonable, pero ahora mismo escapa a tus posibilidades. Me temo que vas a tener que seguir llevando tu nombre actual."
+      }
+    }
+  }
+]

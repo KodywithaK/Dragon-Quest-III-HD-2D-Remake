@@ -1,0 +1,928 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_Common",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Common_Choice_YES": {
+        "SelfId": "Txt_Common_Choice_YES",
+        "Text": "はい"
+      },
+      "Txt_Common_Choice_NO": {
+        "SelfId": "Txt_Common_Choice_NO",
+        "Text": "いいえ"
+      },
+      "Txt_Common_Choice_EVENT_01": {
+        "SelfId": "Txt_Common_Choice_EVENT_01",
+        "Text": "とぼける"
+      },
+      "Txt_Common_Choice_EVENT_02": {
+        "SelfId": "Txt_Common_Choice_EVENT_02",
+        "Text": "……"
+      },
+      "Txt_Common_DATA_DialogNotifyStorageLackOnSystemDataSave": {
+        "SelfId": "Txt_Common_DATA_DialogNotifyStorageLackOnSystemDataSave",
+        "Text": "システムデータを　つくるための\r\nあき　ようりょうが　たりません。"
+      },
+      "Txt_Common_DATA_DialogNotifyStorageLackOnGameDataSave": {
+        "SelfId": "Txt_Common_DATA_DialogNotifyStorageLackOnGameDataSave",
+        "Text": "ぼうけんのしょを　つくるための\r\nあき　ようりょうが　たりません。"
+      },
+      "Txt_Common_DATA_DialogNotifyBrokenSystemDataSave": {
+        "SelfId": "Txt_Common_DATA_DialogNotifyBrokenSystemDataSave",
+        "Text": "システムデータが　はそんしています。\r\nシステムデータを　しょきか　します。"
+      },
+      "Txt_Common_DATA_DialogNotifyBrokenGameDataSave": {
+        "SelfId": "Txt_Common_DATA_DialogNotifyBrokenGameDataSave",
+        "Text": "おきのどくですが\r\nぼうけんのしょ{VALUE}は　\r\nきえてしまいました。"
+      },
+      "Txt_Common_DATA_DialogNotifyFailCreateGameData": {
+        "SelfId": "Txt_Common_DATA_DialogNotifyFailCreateGameData",
+        "Text": "ぼうけんのしょの　さくせいに\r\nしっぱいしました。\r\nタイトルがめんにもどります。"
+      },
+      "Txt_Common_DATA_DialogNotifyBrokenAutoSave": {
+        "SelfId": "Txt_Common_DATA_DialogNotifyBrokenAutoSave",
+        "Text": "ドラゴンクエストⅢの\r\nセーブデータが　はそんしているため\r\nオートセーブが　できません。"
+      },
+      "Txt_Common_DATA_DialogNotifyBrokenAutoSave_PS5": {
+        "SelfId": "Txt_Common_DATA_DialogNotifyBrokenAutoSave_PS5",
+        "Text": "ドラゴンクエストⅢの\r\nセーブデータが　はそんしているため\r\nオートセーブが　できません。"
+      },
+      "Txt_Common_DATA_DialogNotifyBrokenAutoSave_02": {
+        "SelfId": "Txt_Common_DATA_DialogNotifyBrokenAutoSave_02",
+        "Text": "おきのどくですが\r\nオートセーブは\r\nきえてしまいました。"
+      },
+      "Txt_Common_DATA_DialogNotifyBrokenInterruptedSave": {
+        "SelfId": "Txt_Common_DATA_DialogNotifyBrokenInterruptedSave",
+        "Text": "おきのどくですが\r\nちゅうだんのしょは\r\nきえてしまいました。"
+      },
+      "Txt_Common_TITLEDEMO_UI_Menu_01": {
+        "SelfId": "Txt_Common_TITLEDEMO_UI_Menu_01",
+        "Text": "ぼうけんをはじめる"
+      },
+      "Txt_Common_TITLEDEMO_UI_Menu_02": {
+        "SelfId": "Txt_Common_TITLEDEMO_UI_Menu_02",
+        "Text": "ゲームをしゅうりょうする"
+      },
+      "Txt_Common_TITLEDEMO_UI_Copyright": {
+        "SelfId": "Txt_Common_TITLEDEMO_UI_Copyright",
+        "Text": "© ARMOR PROJECT/BIRD STUDIO/SPIKE CHUNSOFT/SQUARE ENIX\r\n© SUGIYAMA KOBO\r\n℗ SUGIYAMA KOBO"
+      },
+      "Txt_Common_TITLEDEMO_UI_Gamertag": {
+        "SelfId": "Txt_Common_TITLEDEMO_UI_Gamertag",
+        "Text": "{0}"
+      },
+      "Txt_Common_TITLEDEMO_UI_Ver": {
+        "SelfId": "Txt_Common_TITLEDEMO_UI_Ver",
+        "Text": "Ver.{0}"
+      },
+      "Txt_Common_TITLE_UI_Menu_01": {
+        "SelfId": "Txt_Common_TITLE_UI_Menu_01",
+        "Text": "ぼうけんをする"
+      },
+      "Txt_Common_TITLE_UI_Menu_02": {
+        "SelfId": "Txt_Common_TITLE_UI_Menu_02",
+        "Text": "ちゅうだんしたぼうけんをさいかい"
+      },
+      "Txt_Common_TITLE_UI_Menu_03": {
+        "SelfId": "Txt_Common_TITLE_UI_Menu_03",
+        "Text": "オートセーブからのさいかい"
+      },
+      "Txt_Common_TITLE_UI_SaveMenu_01": {
+        "SelfId": "Txt_Common_TITLE_UI_SaveMenu_01",
+        "Text": "ぼうけんのしょをえらぶ"
+      },
+      "Txt_Common_TITLE_UI_SaveMenu_02": {
+        "SelfId": "Txt_Common_TITLE_UI_SaveMenu_02",
+        "Text": "ぼうけんのしょをつくる"
+      },
+      "Txt_Common_TITLE_UI_SaveMenu_03": {
+        "SelfId": "Txt_Common_TITLE_UI_SaveMenu_03",
+        "Text": "ぼうけんのしょをけす"
+      },
+      "Txt_Common_TITLE_UI_DataElement_01": {
+        "SelfId": "Txt_Common_TITLE_UI_DataElement_01",
+        "Text": "{0}"
+      },
+      "Txt_Common_TITLE_UI_DataElement_02": {
+        "SelfId": "Txt_Common_TITLE_UI_DataElement_02",
+        "Text": "{0}"
+      },
+      "Txt_Common_TITLE_UI_DataElement_03": {
+        "SelfId": "Txt_Common_TITLE_UI_DataElement_03",
+        "Text": "{0}"
+      },
+      "Txt_Common_TITLE_UI_DataElement_04": {
+        "SelfId": "Txt_Common_TITLE_UI_DataElement_04",
+        "Text": "{0}"
+      },
+      "Txt_Common_TITLE_UI_DataElement_05": {
+        "SelfId": "Txt_Common_TITLE_UI_DataElement_05",
+        "Text": "プレイじかん"
+      },
+      "Txt_Common_TITLE_UI_DataElement_06": {
+        "SelfId": "Txt_Common_TITLE_UI_DataElement_06",
+        "Text": "{0}：{1}"
+      },
+      "Txt_Common_TITLE_UI_DataElement_07": {
+        "SelfId": "Txt_Common_TITLE_UI_DataElement_07",
+        "Text": "きろくにちじ"
+      },
+      "Txt_Common_TITLE_UI_DataElement_08": {
+        "SelfId": "Txt_Common_TITLE_UI_DataElement_08",
+        "Text": "{0} {1}：{2}"
+      },
+      "Txt_Common_TITLE_UI_DataElement_09": {
+        "SelfId": "Txt_Common_TITLE_UI_DataElement_09",
+        "Text": "{0}/{1}/{2}"
+      },
+      "Txt_Common_TITLE_UI_ROTO": {
+        "SelfId": "Txt_Common_TITLE_UI_ROTO",
+        "Text": "{0}．ロト"
+      },
+      "Txt_Common_TITLE_UI_SaveSelectGuide": {
+        "SelfId": "Txt_Common_TITLE_UI_SaveSelectGuide",
+        "Text": "ぼうけんのしょを　えらんでください。"
+      },
+      "Txt_Common_TITLE_UI_InterruptedSaveGuide": {
+        "SelfId": "Txt_Common_TITLE_UI_InterruptedSaveGuide",
+        "Text": "げんざいのちゅうだんセーブ"
+      },
+      "Txt_Common_TITLE_UI_AutoSaveGuide": {
+        "SelfId": "Txt_Common_TITLE_UI_AutoSaveGuide",
+        "Text": "げんざいのオートセーブ"
+      },
+      "Txt_Common_TITLE_UI_Unused": {
+        "SelfId": "Txt_Common_TITLE_UI_Unused",
+        "Text": "このぼうけんのしょは　しようされていません。"
+      },
+      "Txt_Common_TITLE_UI_Delete": {
+        "SelfId": "Txt_Common_TITLE_UI_Delete",
+        "Text": "きろくをけす　ぼうけんのしょを　えらんでください。"
+      },
+      "Txt_Common_TITLE_UI_Create": {
+        "SelfId": "Txt_Common_TITLE_UI_Create",
+        "Text": "なんばんのぼうけんのしょを　つくりますか？"
+      },
+      "Txt_Common_TITLE_UI_HiraganaConfig": {
+        "SelfId": "Txt_Common_TITLE_UI_HiraganaConfig",
+        "Text": "ひらがなモード"
+      },
+      "Txt_Common_TITLE_UI_GuideConfig": {
+        "SelfId": "Txt_Common_TITLE_UI_GuideConfig",
+        "Text": "もくてきちマーカー"
+      },
+      "Txt_Common_TITLE_UI_Confirm_ON": {
+        "SelfId": "Txt_Common_TITLE_UI_Confirm_ON",
+        "Text": "オン"
+      },
+      "Txt_Common_TITLE_UI_Confirm_OFF": {
+        "SelfId": "Txt_Common_TITLE_UI_Confirm_OFF",
+        "Text": "オフ"
+      },
+      "Txt_Common_TITLE_Message_SelectGameSave": {
+        "SelfId": "Txt_Common_TITLE_Message_SelectGameSave",
+        "Text": "ぼうけんのしょを　えらんでください。<NO_INPUT>"
+      },
+      "Txt_Common_TITLE_Message_OverwriteNewGameSave": {
+        "SelfId": "Txt_Common_TITLE_Message_OverwriteNewGameSave",
+        "Text": "すでに　ぼうけんのしょに　きろくがあります。\r\nほかのぼうけんのしょを　えらんでください。<NO_INPUT>"
+      },
+      "Txt_Common_TITLE_Message_DeleteGameSave": {
+        "SelfId": "Txt_Common_TITLE_Message_DeleteGameSave",
+        "Text": "ぼうけんのしょ{VALUE}を\r\nけしても　よろしいですか？<NO_INPUT>"
+      },
+      "Txt_Common_TITLE_Message_DeleteGameSaveConfirm": {
+        "SelfId": "Txt_Common_TITLE_Message_DeleteGameSaveConfirm",
+        "Text": "いちどけした　ぼうけんのしょは　もとにもどせません。\r\nほんとうに　よろしいですか？<NO_INPUT>"
+      },
+      "Txt_Common_TITLE_Message_Deleting": {
+        "SelfId": "Txt_Common_TITLE_Message_Deleting",
+        "Text": "ぼうけんのしょ{VALUE}のきろくを　けしています……。"
+      },
+      "Txt_Common_TITLE_Message_DeletionComplete": {
+        "SelfId": "Txt_Common_TITLE_Message_DeletionComplete",
+        "Text": "ぼうけんのしょ{VALUE}のきろくを　けしました。"
+      },
+      "Txt_Common_TITLE_Message_ConfirmLoadGameSave": {
+        "SelfId": "Txt_Common_TITLE_Message_ConfirmLoadGameSave",
+        "Text": "このデータで　ぼうけんをはじめますか？<NO_INPUT>"
+      },
+      "Txt_Common_TITLE_Message_ConfirmLoadInterruptedSave": {
+        "SelfId": "Txt_Common_TITLE_Message_ConfirmLoadInterruptedSave",
+        "Text": "このデータで　ぼうけんをはじめますか？\r\n※ぼうけんをさいかいすると　\r\nちゅうだんセーブはしょうきょされます。<NO_INPUT>"
+      },
+      "Txt_Common_TITLE_Message_SaveExist": {
+        "SelfId": "Txt_Common_TITLE_Message_SaveExist",
+        "Text": "これいじょう　ぼうけんのしょを　つくれません。\r\nぼうけんのしょを　あらたしくつくりたいばあいは\r\nさきに　いずれかのぼうけんのしょを　けしてください。"
+      },
+      "Txt_Common_TITLE_Message_NameEntry": {
+        "SelfId": "Txt_Common_TITLE_Message_NameEntry",
+        "Text": "なまえを　きめてください。<NO_INPUT>"
+      },
+      "Txt_Common_TITLE_Message_NameNG": {
+        "SelfId": "Txt_Common_TITLE_Message_NameNG",
+        "Text": "そのなまえは　つかえません！\r\nちがうなまえを　いれてください。"
+      },
+      "Txt_Common_TITLE_Message_NameConfirm": {
+        "SelfId": "Txt_Common_TITLE_Message_NameConfirm",
+        "Text": "『{ACTOR}』で　よろしいですか？<NO_INPUT>"
+      },
+      "Txt_Common_TITLE_Message_StyleSelect": {
+        "SelfId": "Txt_Common_TITLE_Message_StyleSelect",
+        "Text": "あなたのキャラの\r\nスタイルを　せんたくしてください。<NO_INPUT>"
+      },
+      "Txt_Common_TITLE_Message_HeroConfirm": {
+        "SelfId": "Txt_Common_TITLE_Message_HeroConfirm",
+        "Text": "これで　よろしいですか？<NO_INPUT>"
+      },
+      "Txt_Common_TITLE_Message_VoiceSelect": {
+        "SelfId": "Txt_Common_TITLE_Message_VoiceSelect",
+        "Text": "ボイスのげんごを　せんたくしてください。<NO_INPUT>"
+      },
+      "Txt_Common_TITLE_Message_HiraganaConfig": {
+        "SelfId": "Txt_Common_TITLE_Message_HiraganaConfig",
+        "Text": "『ひらがなモード』を　せっていしますか？\r\nせっていすると　すべてのかんじが\r\nひらがなで　ひょうじされるようになります。<NO_INPUT>"
+      },
+      "Txt_Common_TITLE_Message_HiraganaON": {
+        "SelfId": "Txt_Common_TITLE_Message_HiraganaON",
+        "Text": "ひらがなモードを　せっていしました。\r\n※「システムせってい」で　いつでも　へんこうできます。"
+      },
+      "Txt_Common_TITLE_Message_HiraganaOFF": {
+        "SelfId": "Txt_Common_TITLE_Message_HiraganaOFF",
+        "Text": "ひらがなモードを　むこうにしました。\r\n※「システムせってい」で　いつでも　へんこうできます。"
+      },
+      "Txt_Common_TITLE_Message_GuideConfig": {
+        "SelfId": "Txt_Common_TITLE_Message_GuideConfig",
+        "Text": "『もくてきちマーカー』を　ひょうじしますか？\r\nゆうこうにすると　もくてきちがマップじょうに\r\nひょうじされるようになります。<NO_INPUT>"
+      },
+      "Txt_Common_TITLE_Message_GuideON": {
+        "SelfId": "Txt_Common_TITLE_Message_GuideON",
+        "Text": "『もくてきちマーカー』を　せっていしました。\r\n※「システムせってい」で　いつでも　へんこうできます。"
+      },
+      "Txt_Common_TITLE_Message_GuideOFF": {
+        "SelfId": "Txt_Common_TITLE_Message_GuideOFF",
+        "Text": "『もくてきちマーカー』を　むこうにしました。\r\n※「システムせってい」で　いつでも　へんこうできます。"
+      },
+      "Txt_Common_TITLE_Message_GamemodeConfig": {
+        "SelfId": "Txt_Common_TITLE_Message_GamemodeConfig",
+        "Text": "『ゲームモード』を　せんたくしてください。\r\n※「システムせってい」で　いつでも　へんこうできます。<NO_INPUT>"
+      },
+      "Txt_Common_TITLE_Message_PlayingConfigConfirm": {
+        "SelfId": "Txt_Common_TITLE_Message_PlayingConfigConfirm",
+        "Text": "このせっていで　ぼうけんをはじめます\r\nよろしいですか？\r\n※「システムせってい」で　いつでも　へんこうできます。<NO_INPUT>"
+      },
+      "Txt_Common_ED_Message_Save": {
+        "SelfId": "Txt_Common_ED_Message_Save",
+        "Text": "ここまでのぼうけんを　きろくします。\r\nなんばんのぼうけんのしょに　きろくしますか？<NO_INPUT>"
+      },
+      "Txt_Common_ED_Message_SaveConfirm": {
+        "SelfId": "Txt_Common_ED_Message_SaveConfirm",
+        "Text": "{WORD}　Ｌｖ{VALUE}　に\r\nうわがきしてしまいますが\r\nそれでも　よろしいですか？<NO_INPUT>"
+      },
+      "Txt_Common_ED_Message_SaveFinish": {
+        "SelfId": "Txt_Common_ED_Message_SaveFinish",
+        "Text": "ぼうけんのしょに　きろくしました。"
+      },
+      "Txt_Common_KEYBOARD_Hiragana": {
+        "SelfId": "Txt_Common_KEYBOARD_Hiragana",
+        "Text": "かな"
+      },
+      "Txt_Common_KEYBOARD_Katakana": {
+        "SelfId": "Txt_Common_KEYBOARD_Katakana",
+        "Text": "カナ"
+      },
+      "Txt_Common_KEYBOARD_Back": {
+        "SelfId": "Txt_Common_KEYBOARD_Back",
+        "Text": "もどる"
+      },
+      "Txt_Common_KEYBOARD_END": {
+        "SelfId": "Txt_Common_KEYBOARD_END",
+        "Text": "おわる"
+      },
+      "Txt_Common_KEYBOARD_NOINPUT": {
+        "SelfId": "Txt_Common_KEYBOARD_NOINPUT",
+        "Text": "なまえが　にゅうりょくされていません。"
+      },
+      "Txt_Common_NGNAME_ROTO_K": {
+        "SelfId": "Txt_Common_NGNAME_ROTO_K",
+        "Text": "ロト"
+      },
+      "Txt_Common_NGNAME_ROTO_H": {
+        "SelfId": "Txt_Common_NGNAME_ROTO_H",
+        "Text": "ろと"
+      },
+      "Txt_Common_LANGUAGE_JP": {
+        "SelfId": "Txt_Common_LANGUAGE_JP",
+        "Text": "にほんご"
+      },
+      "Txt_Common_LANGUAGE_EN": {
+        "SelfId": "Txt_Common_LANGUAGE_EN",
+        "Text": "えいご"
+      },
+      "Txt_Common_LANGUAGE_TW": {
+        "SelfId": "Txt_Common_LANGUAGE_TW",
+        "Text": "はんたいじ(たいわん)"
+      },
+      "Txt_Common_LANGUAGE_CN": {
+        "SelfId": "Txt_Common_LANGUAGE_CN",
+        "Text": "かんたいじ"
+      },
+      "Txt_Common_LANGUAGE_KO": {
+        "SelfId": "Txt_Common_LANGUAGE_KO",
+        "Text": "かんこくご"
+      },
+      "Txt_Common_LANGUAGE_FR": {
+        "SelfId": "Txt_Common_LANGUAGE_FR",
+        "Text": "フランスご"
+      },
+      "Txt_Common_LANGUAGE_IT": {
+        "SelfId": "Txt_Common_LANGUAGE_IT",
+        "Text": "イタリアご"
+      },
+      "Txt_Common_LANGUAGE_DE": {
+        "SelfId": "Txt_Common_LANGUAGE_DE",
+        "Text": "ドイツご"
+      },
+      "Txt_Common_LANGUAGE_ES": {
+        "SelfId": "Txt_Common_LANGUAGE_ES",
+        "Text": "スペインご"
+      },
+      "Txt_Common_LANGUAGE_ES-419": {
+        "SelfId": "Txt_Common_LANGUAGE_ES-419",
+        "Text": "メキシカンスペインご"
+      },
+      "Txt_Common_BIRTHDAY_Month_Guide": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_Guide",
+        "Text": "なんがつうまれ？"
+      },
+      "Txt_Common_BIRTHDAY_Day_Guide": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Guide",
+        "Text": "なんにちうまれ？"
+      },
+      "Txt_Common_BIRTHDAY_Month_01": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_01",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_Common_BIRTHDAY_Month_02": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_02",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_Common_BIRTHDAY_Month_03": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_03",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_Common_BIRTHDAY_Month_04": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_04",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_Common_BIRTHDAY_Month_05": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_05",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_Common_BIRTHDAY_Month_06": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_06",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_Common_BIRTHDAY_Month_07": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_07",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_Common_BIRTHDAY_Month_08": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_08",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_Common_BIRTHDAY_Month_09": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_09",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_Common_BIRTHDAY_Month_10": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_10",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_Common_BIRTHDAY_Month_11": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_11",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_Common_BIRTHDAY_Month_12": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_12",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_Common_BIRTHDAY_Day_01": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_01",
+        "Text": "１にち"
+      },
+      "Txt_Common_BIRTHDAY_Day_02": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_02",
+        "Text": "２にち"
+      },
+      "Txt_Common_BIRTHDAY_Day_03": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_03",
+        "Text": "３にち"
+      },
+      "Txt_Common_BIRTHDAY_Day_04": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_04",
+        "Text": "４にち"
+      },
+      "Txt_Common_BIRTHDAY_Day_05": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_05",
+        "Text": "５にち"
+      },
+      "Txt_Common_BIRTHDAY_Day_06": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_06",
+        "Text": "６にち"
+      },
+      "Txt_Common_BIRTHDAY_Day_07": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_07",
+        "Text": "７にち"
+      },
+      "Txt_Common_BIRTHDAY_Day_08": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_08",
+        "Text": "８にち"
+      },
+      "Txt_Common_BIRTHDAY_Day_09": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_09",
+        "Text": "９にち"
+      },
+      "Txt_Common_BIRTHDAY_Day_10": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_10",
+        "Text": "１０にち"
+      },
+      "Txt_Common_BIRTHDAY_Day_11": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_11",
+        "Text": "１１にち"
+      },
+      "Txt_Common_BIRTHDAY_Day_12": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_12",
+        "Text": "１２にち"
+      },
+      "Txt_Common_BIRTHDAY_Day_13": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_13",
+        "Text": "１３にち"
+      },
+      "Txt_Common_BIRTHDAY_Day_14": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_14",
+        "Text": "１４にち"
+      },
+      "Txt_Common_BIRTHDAY_Day_15": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_15",
+        "Text": "１５にち"
+      },
+      "Txt_Common_BIRTHDAY_Day_16": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_16",
+        "Text": "１６にち"
+      },
+      "Txt_Common_BIRTHDAY_Day_17": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_17",
+        "Text": "１７にち"
+      },
+      "Txt_Common_BIRTHDAY_Day_18": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_18",
+        "Text": "１８にち"
+      },
+      "Txt_Common_BIRTHDAY_Day_19": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_19",
+        "Text": "１９にち"
+      },
+      "Txt_Common_BIRTHDAY_Day_20": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_20",
+        "Text": "２０にち"
+      },
+      "Txt_Common_BIRTHDAY_Day_21": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_21",
+        "Text": "２１にち"
+      },
+      "Txt_Common_BIRTHDAY_Day_22": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_22",
+        "Text": "２２にち"
+      },
+      "Txt_Common_BIRTHDAY_Day_23": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_23",
+        "Text": "２３にち"
+      },
+      "Txt_Common_BIRTHDAY_Day_24": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_24",
+        "Text": "２４にち"
+      },
+      "Txt_Common_BIRTHDAY_Day_25": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_25",
+        "Text": "２５にち"
+      },
+      "Txt_Common_BIRTHDAY_Day_26": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_26",
+        "Text": "２６にち"
+      },
+      "Txt_Common_BIRTHDAY_Day_27": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_27",
+        "Text": "２７にち"
+      },
+      "Txt_Common_BIRTHDAY_Day_28": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_28",
+        "Text": "２８にち"
+      },
+      "Txt_Common_BIRTHDAY_Day_29": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_29",
+        "Text": "２９にち"
+      },
+      "Txt_Common_BIRTHDAY_Day_30": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_30",
+        "Text": "３０にち"
+      },
+      "Txt_Common_BIRTHDAY_Day_31": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_31",
+        "Text": "３１にち"
+      },
+      "Txt_Common_BIRTHDAY_Month_Number_01": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_Number_01",
+        "Text": "１"
+      },
+      "Txt_Common_BIRTHDAY_Month_Number_02": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_Number_02",
+        "Text": "２"
+      },
+      "Txt_Common_BIRTHDAY_Month_Number_03": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_Number_03",
+        "Text": "３"
+      },
+      "Txt_Common_BIRTHDAY_Month_Number_04": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_Number_04",
+        "Text": "４"
+      },
+      "Txt_Common_BIRTHDAY_Month_Number_05": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_Number_05",
+        "Text": "５"
+      },
+      "Txt_Common_BIRTHDAY_Month_Number_06": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_Number_06",
+        "Text": "６"
+      },
+      "Txt_Common_BIRTHDAY_Month_Number_07": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_Number_07",
+        "Text": "７"
+      },
+      "Txt_Common_BIRTHDAY_Month_Number_08": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_Number_08",
+        "Text": "８"
+      },
+      "Txt_Common_BIRTHDAY_Month_Number_09": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_Number_09",
+        "Text": "９"
+      },
+      "Txt_Common_BIRTHDAY_Month_Number_10": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_Number_10",
+        "Text": "１０"
+      },
+      "Txt_Common_BIRTHDAY_Month_Number_11": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_Number_11",
+        "Text": "１１"
+      },
+      "Txt_Common_BIRTHDAY_Month_Number_12": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_Number_12",
+        "Text": "１２"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_01": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_01",
+        "Text": "１"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_02": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_02",
+        "Text": "２"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_03": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_03",
+        "Text": "３"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_04": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_04",
+        "Text": "４"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_05": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_05",
+        "Text": "５"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_06": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_06",
+        "Text": "６"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_07": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_07",
+        "Text": "７"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_08": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_08",
+        "Text": "８"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_09": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_09",
+        "Text": "９"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_10": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_10",
+        "Text": "１０"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_11": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_11",
+        "Text": "１１"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_12": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_12",
+        "Text": "１２"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_13": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_13",
+        "Text": "１３"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_14": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_14",
+        "Text": "１４"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_15": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_15",
+        "Text": "１５"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_16": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_16",
+        "Text": "１６"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_17": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_17",
+        "Text": "１７"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_18": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_18",
+        "Text": "１８"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_19": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_19",
+        "Text": "１９"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_20": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_20",
+        "Text": "２０"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_21": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_21",
+        "Text": "２１"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_22": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_22",
+        "Text": "２２"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_23": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_23",
+        "Text": "２３"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_24": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_24",
+        "Text": "２４"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_25": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_25",
+        "Text": "２５"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_26": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_26",
+        "Text": "２６"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_27": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_27",
+        "Text": "２７"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_28": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_28",
+        "Text": "２８"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_29": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_29",
+        "Text": "２９"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_30": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_30",
+        "Text": "３０"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_31": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_31",
+        "Text": "３１"
+      },
+      "Txt_Common_STAR_SIGNS_01": {
+        "SelfId": "Txt_Common_STAR_SIGNS_01",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_Common_STAR_SIGNS_02": {
+        "SelfId": "Txt_Common_STAR_SIGNS_02",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_Common_STAR_SIGNS_03": {
+        "SelfId": "Txt_Common_STAR_SIGNS_03",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_Common_STAR_SIGNS_04": {
+        "SelfId": "Txt_Common_STAR_SIGNS_04",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_Common_STAR_SIGNS_05": {
+        "SelfId": "Txt_Common_STAR_SIGNS_05",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_Common_STAR_SIGNS_06": {
+        "SelfId": "Txt_Common_STAR_SIGNS_06",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_Common_STAR_SIGNS_07": {
+        "SelfId": "Txt_Common_STAR_SIGNS_07",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_Common_STAR_SIGNS_08": {
+        "SelfId": "Txt_Common_STAR_SIGNS_08",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_Common_STAR_SIGNS_09": {
+        "SelfId": "Txt_Common_STAR_SIGNS_09",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_Common_STAR_SIGNS_10": {
+        "SelfId": "Txt_Common_STAR_SIGNS_10",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_Common_STAR_SIGNS_11": {
+        "SelfId": "Txt_Common_STAR_SIGNS_11",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_Common_STAR_SIGNS_12": {
+        "SelfId": "Txt_Common_STAR_SIGNS_12",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_Common_SAVE_Message_Saving_Switch": {
+        "SelfId": "Txt_Common_SAVE_Message_Saving_Switch",
+        "Text": "ぼうけんのしょに　きろくしています。\r\nNintendo Switch™のでんげんを\r\nきらないでください。<NO_INPUT> "
+      },
+      "Txt_Common_SAVE_Message_Saving_PS5": {
+        "SelfId": "Txt_Common_SAVE_Message_Saving_PS5",
+        "Text": "ぼうけんのしょに　きろくしています。\r\nPlayStation®5のでんげんを\r\nきらないでください。<NO_INPUT> "
+      },
+      "Txt_Common_SAVE_Message_Saving_Xbox": {
+        "SelfId": "Txt_Common_SAVE_Message_Saving_Xbox",
+        "Text": "ぼうけんのしょに　きろくしています。\r\nXboxのでんげんを\r\nきらないでください。<NO_INPUT> "
+      },
+      "Txt_Common_SAVE_Message_Saving_PC": {
+        "SelfId": "Txt_Common_SAVE_Message_Saving_PC",
+        "Text": "ぼうけんのしょに　きろくしています。<NO_INPUT> "
+      },
+      "Txt_Common_SAVE_Message_ReturnTitle": {
+        "SelfId": "Txt_Common_SAVE_Message_ReturnTitle",
+        "Text": "おつかれさまでした。\r\nＡボタンで　タイトルに　もどります。"
+      },
+      "Txt_Common_SAVE_Message_ReturnTitle_PS5": {
+        "SelfId": "Txt_Common_SAVE_Message_ReturnTitle_PS5",
+        "Text": "おつかれさまでした。\r\n×ボタンで　タイトルに　もどります。"
+      },
+      "Txt_Common_SAVE_Message_ReturnTitle_Xbox": {
+        "SelfId": "Txt_Common_SAVE_Message_ReturnTitle_Xbox",
+        "Text": "おつかれさまでした。\r\nＡボタンで　タイトルに　もどります。"
+      },
+      "Txt_Common_SAVE_Message_ReturnTitle_PC": {
+        "SelfId": "Txt_Common_SAVE_Message_ReturnTitle_PC",
+        "Text": "おつかれさまでした。\r\nけっていボタンで　タイトルに　もどります。"
+      },
+      "Txt_Common_Xenlon_Wish_01": {
+        "SelfId": "Txt_Common_Xenlon_Wish_01",
+        "Text": "あたらしいバトルロードで　あそびたい"
+      },
+      "Txt_Common_Xenlon_Wish_02": {
+        "SelfId": "Txt_Common_Xenlon_Wish_02",
+        "Text": "ちちオルテガを　いきかえらせたい"
+      },
+      "Txt_Common_Xenlon_Wish_03": {
+        "SelfId": "Txt_Common_Xenlon_Wish_03",
+        "Text": "ゆうしゃも　おしゃれが　したい"
+      },
+      "Txt_Common_Xenlon_Wish_04": {
+        "SelfId": "Txt_Common_Xenlon_Wish_04",
+        "Text": "つよいぶきが　ほしい"
+      },
+      "Txt_Common_Xenlon_Wish_05": {
+        "SelfId": "Txt_Common_Xenlon_Wish_05",
+        "Text": "エッチなほんが　よみたい"
+      },
+      "Txt_Common_Xenlon_Wish_06": {
+        "SelfId": "Txt_Common_Xenlon_Wish_06",
+        "Text": "すごくエッチなほんが　よみたい"
+      },
+      "Txt_Common_Xenlon_Wish_07": {
+        "SelfId": "Txt_Common_Xenlon_Wish_07",
+        "Text": ""
+      },
+      "Txt_Common_Event_Control_Skip": {
+        "SelfId": "Txt_Common_Event_Control_Skip",
+        "Text": "スキップ"
+      },
+      "Txt_Common_Event_Control_FastForward": {
+        "SelfId": "Txt_Common_Event_Control_FastForward",
+        "Text": "はやおくり"
+      },
+      "Txt_Common_Event_Control_FastForward_Now": {
+        "SelfId": "Txt_Common_Event_Control_FastForward_Now",
+        "Text": "はやおくりちゅう"
+      },
+      "Txt_Common_SoftwareKeyboard_EntryName": {
+        "SelfId": "Txt_Common_SoftwareKeyboard_EntryName",
+        "Text": "なまえを　いれてください"
+      },
+      "Txt_Common_SoftwareKeyboard_OK": {
+        "SelfId": "Txt_Common_SoftwareKeyboard_OK",
+        "Text": "決定"
+      },
+      "Txt_Common_Xbox_System_Disconnect_Controller": {
+        "SelfId": "Txt_Common_Xbox_System_Disconnect_Controller",
+        "Text": "コントローラーが　とりはずされたため\r\nほんタイトルのプレイを　ぞっこうすることができません\r\nコントローラーを　せつぞくしてください。"
+      },
+      "Txt_Common_Xbox_System_Account_Logout": {
+        "SelfId": "Txt_Common_Xbox_System_Account_Logout",
+        "Text": "アカウントが　サインアウトされたため\r\nタイトルがめんへ　もどります。"
+      },
+      "Txt_Common_Xbox_System_Account_Change": {
+        "SelfId": "Txt_Common_Xbox_System_Account_Change",
+        "Text": "アカウントが　へんこうされたため\r\nタイトルがめんへ　もどります。"
+      },
+      "Txt_Common_Xbox_System_Title_NoLogin": {
+        "SelfId": "Txt_Common_Xbox_System_Title_NoLogin",
+        "Text": "プレイするアカウントを　せんたくしてください。"
+      },
+      "Txt_Common_WindowName_Steam": {
+        "SelfId": "Txt_Common_WindowName_Steam",
+        "Text": "ドラゴンクエストⅢ　そして伝説へ…"
+      },
+      "Txt_Common_WindowName_WinGDK": {
+        "SelfId": "Txt_Common_WindowName_WinGDK",
+        "Text": "ドラゴンクエストⅢ　そして伝説へ…"
+      },
+      "Txt_Common_PS5_SAVE_TITLE_01": {
+        "SelfId": "Txt_Common_PS5_SAVE_TITLE_01",
+        "Text": "冒険の書 ０１"
+      },
+      "Txt_Common_PS5_SAVE_TITLE_02": {
+        "SelfId": "Txt_Common_PS5_SAVE_TITLE_02",
+        "Text": "冒険の書 ０２"
+      },
+      "Txt_Common_PS5_SAVE_TITLE_03": {
+        "SelfId": "Txt_Common_PS5_SAVE_TITLE_03",
+        "Text": "冒険の書 ０３"
+      },
+      "Txt_Common_PS5_SAVE_TITLE_04": {
+        "SelfId": "Txt_Common_PS5_SAVE_TITLE_04",
+        "Text": "冒険の書 ０４"
+      },
+      "Txt_Common_PS5_SAVE_TITLE_05": {
+        "SelfId": "Txt_Common_PS5_SAVE_TITLE_05",
+        "Text": "冒険の書 ０５"
+      },
+      "Txt_Common_PS5_SAVE_TITLE_06": {
+        "SelfId": "Txt_Common_PS5_SAVE_TITLE_06",
+        "Text": "冒険の書 ０６"
+      },
+      "Txt_Common_PS5_SAVE_TITLE_07": {
+        "SelfId": "Txt_Common_PS5_SAVE_TITLE_07",
+        "Text": "冒険の書 ０７"
+      },
+      "Txt_Common_PS5_SAVE_TITLE_08": {
+        "SelfId": "Txt_Common_PS5_SAVE_TITLE_08",
+        "Text": "冒険の書 ０８"
+      },
+      "Txt_Common_PS5_SAVE_TITLE_09": {
+        "SelfId": "Txt_Common_PS5_SAVE_TITLE_09",
+        "Text": "冒険の書 ０９"
+      },
+      "Txt_Common_PS5_SAVE_TITLE_Auto": {
+        "SelfId": "Txt_Common_PS5_SAVE_TITLE_Auto",
+        "Text": "オートセーブデータ"
+      },
+      "Txt_Common_PS5_SAVE_TITLE_Interruption": {
+        "SelfId": "Txt_Common_PS5_SAVE_TITLE_Interruption",
+        "Text": "ちゅうだんセーブデータ"
+      },
+      "Txt_Common_PS5_SAVE_TITLE_SUB": {
+        "SelfId": "Txt_Common_PS5_SAVE_TITLE_SUB",
+        "Text": "システムデータ"
+      },
+      "Txt_Common_PS5_SAVE_TITLE_SUB_2": {
+        "SelfId": "Txt_Common_PS5_SAVE_TITLE_SUB_2",
+        "Text": "セーブデータ"
+      },
+      "Txt_Common_PS5_SAVE_EXPLAIN": {
+        "SelfId": "Txt_Common_PS5_SAVE_EXPLAIN",
+        "Text": "これはドラゴンクエストⅢのシステムデータです。"
+      },
+      "Txt_Common_PS5_SAVE_EXPLAIN_2": {
+        "SelfId": "Txt_Common_PS5_SAVE_EXPLAIN_2",
+        "Text": "これはドラゴンクエストⅢのセーブデータです。"
+      }
+    }
+  }
+]

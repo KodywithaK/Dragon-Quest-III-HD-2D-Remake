@@ -1,0 +1,792 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_BattleMenu",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_BattleMenu_Top_COMMAND_00": {
+        "SelfId": "Txt_BattleMenu_Top_COMMAND_00",
+        "Text": "たたかう"
+      },
+      "Txt_BattleMenu_Top_COMMAND_01": {
+        "SelfId": "Txt_BattleMenu_Top_COMMAND_01",
+        "Text": "さくせん"
+      },
+      "Txt_BattleMenu_Top_COMMAND_02": {
+        "SelfId": "Txt_BattleMenu_Top_COMMAND_02",
+        "Text": "にげる"
+      },
+      "Txt_BattleMenu_Top_MBR_COMMAND_00": {
+        "SelfId": "Txt_BattleMenu_Top_MBR_COMMAND_00",
+        "Text": "たたかう"
+      },
+      "Txt_BattleMenu_Top_MBR_COMMAND_01": {
+        "SelfId": "Txt_BattleMenu_Top_MBR_COMMAND_01",
+        "Text": "さくせん"
+      },
+      "Txt_BattleMenu_Top_MBR_COMMAND_02": {
+        "SelfId": "Txt_BattleMenu_Top_MBR_COMMAND_02",
+        "Text": "こうさんする"
+      },
+      "Txt_BattleMenu_Top_SPEED": {
+        "SelfId": "Txt_BattleMenu_Top_SPEED",
+        "Text": "バトルスピード"
+      },
+      "Txt_BattleMenu_Top_SPEED_Low": {
+        "SelfId": "Txt_BattleMenu_Top_SPEED_Low",
+        "Text": "ふつう"
+      },
+      "Txt_BattleMenu_Top_SPEED_Medium": {
+        "SelfId": "Txt_BattleMenu_Top_SPEED_Medium",
+        "Text": "はやい"
+      },
+      "Txt_BattleMenu_Top_SPEED_High": {
+        "SelfId": "Txt_BattleMenu_Top_SPEED_High",
+        "Text": "ちょうはやい"
+      },
+      "Txt_BattleMenu_Top_UI_OFF": {
+        "SelfId": "Txt_BattleMenu_Top_UI_OFF",
+        "Text": "ウィンドウＯＦＦ"
+      },
+      "Txt_BattleMenu_Top_MBR_MATCH_Count": {
+        "SelfId": "Txt_BattleMenu_Top_MBR_MATCH_Count",
+        "Text": "{0}せんめ"
+      },
+      "Txt_BattleMenu_Fight_COMMAND_00": {
+        "SelfId": "Txt_BattleMenu_Fight_COMMAND_00",
+        "Text": "こうげき"
+      },
+      "Txt_BattleMenu_Fight_COMMAND_01": {
+        "SelfId": "Txt_BattleMenu_Fight_COMMAND_01",
+        "Text": "じゅもん"
+      },
+      "Txt_BattleMenu_Fight_COMMAND_02": {
+        "SelfId": "Txt_BattleMenu_Fight_COMMAND_02",
+        "Text": "ぼうぎょ"
+      },
+      "Txt_BattleMenu_Fight_COMMAND_03": {
+        "SelfId": "Txt_BattleMenu_Fight_COMMAND_03",
+        "Text": "とくぎ"
+      },
+      "Txt_BattleMenu_Fight_COMMAND_04": {
+        "SelfId": "Txt_BattleMenu_Fight_COMMAND_04",
+        "Text": "どうぐ"
+      },
+      "Txt_BattleMenu_Fight_COMMAND_05": {
+        "SelfId": "Txt_BattleMenu_Fight_COMMAND_05",
+        "Text": "そうび"
+      },
+      "Txt_BattleMenu_Fight_TARGET_VALUE": {
+        "SelfId": "Txt_BattleMenu_Fight_TARGET_VALUE",
+        "Text": "{0}ひき"
+      },
+      "Txt_BattleMenu_Fight_UNKNOWN_MAGIC": {
+        "SelfId": "Txt_BattleMenu_Fight_UNKNOWN_MAGIC",
+        "Text": "？？？"
+      },
+      "Txt_BattleMenu_Fight_ITEMGUIDE": {
+        "SelfId": "Txt_BattleMenu_Fight_ITEMGUIDE",
+        "Text": "どの　どうぐを　つかう？"
+      },
+      "Txt_BattleMenu_Fight_EQUIPGUIDE": {
+        "SelfId": "Txt_BattleMenu_Fight_EQUIPGUIDE",
+        "Text": "どの　そうびに　かえる？"
+      },
+      "Txt_BattleMenu_Fight_SKILLGUIDE": {
+        "SelfId": "Txt_BattleMenu_Fight_SKILLGUIDE",
+        "Text": "どの　とくぎを　つかう？"
+      },
+      "Txt_BattleMenu_Fight_MAGICGUIDE": {
+        "SelfId": "Txt_BattleMenu_Fight_MAGICGUIDE",
+        "Text": "どの　じゅもんを　つかう？"
+      },
+      "Txt_BattleMenu_Fight_TACTICSGUIDE": {
+        "SelfId": "Txt_BattleMenu_Fight_TACTICSGUIDE",
+        "Text": "だれの　さくせんを　かえる？"
+      },
+      "Txt_BattleMenu_Fight_MBR_TACTICSGUIDE": {
+        "SelfId": "Txt_BattleMenu_Fight_MBR_TACTICSGUIDE",
+        "Text": "だれの　さくせんを　かえる？"
+      },
+      "Txt_BattleMenu_Fight_ACCESSORIEGUIDE": {
+        "SelfId": "Txt_BattleMenu_Fight_ACCESSORIEGUIDE",
+        "Text": "どこに　そうびする？"
+      },
+      "Txt_BattleMenu_Fight_NOSKILL": {
+        "SelfId": "Txt_BattleMenu_Fight_NOSKILL",
+        "Text": "まだ　たたかいの　とくぎを　おぼえていない"
+      },
+      "Txt_BattleMenu_Fight_NOMAGIC": {
+        "SelfId": "Txt_BattleMenu_Fight_NOMAGIC",
+        "Text": "まだ　たたかいの　じゅもんを　おぼえていない"
+      },
+      "Txt_BattleMenu_Fight_SKILLUNSKILLED": {
+        "SelfId": "Txt_BattleMenu_Fight_SKILLUNSKILLED",
+        "Text": "まだ　そのとくぎを　おぼえていない"
+      },
+      "Txt_BattleMenu_Fight_MAGICUNSKILLED": {
+        "SelfId": "Txt_BattleMenu_Fight_MAGICUNSKILLED",
+        "Text": "まだ　そのじゅもんを　おぼえていない"
+      },
+      "Txt_BattleMenu_Fight_SEALMAGIC": {
+        "SelfId": "Txt_BattleMenu_Fight_SEALMAGIC",
+        "Text": "しかし　じゅもんは　ふうじこめられている！"
+      },
+      "Txt_BattleMenu_Fight_NOITEM": {
+        "SelfId": "Txt_BattleMenu_Fight_NOITEM",
+        "Text": "たたかいにつかえる　どうぐを　もっていない"
+      },
+      "Txt_BattleMenu_Fight_NOEQUIP": {
+        "SelfId": "Txt_BattleMenu_Fight_NOEQUIP",
+        "Text": "そうびできる　そうびを　もっていない"
+      },
+      "Txt_BattleMenu_Fight_CANNOTEQUIP": {
+        "SelfId": "Txt_BattleMenu_Fight_CANNOTEQUIP",
+        "Text": "そうびできる　そうびを　もっていない"
+      },
+      "Txt_BattleMenu_Fight_LOSSMP": {
+        "SelfId": "Txt_BattleMenu_Fight_LOSSMP",
+        "Text": "ＭＰがたりない！"
+      },
+      "Txt_BattleMenu_Fight_NOEFFECT": {
+        "SelfId": "Txt_BattleMenu_Fight_NOEFFECT",
+        "Text": "このどうぐは　つかっても　こうかがない"
+      },
+      "Txt_BattleMenu_Fight_EQUIP": {
+        "SelfId": "Txt_BattleMenu_Fight_EQUIP",
+        "Text": "{I_NAME}を　そうびした"
+      },
+      "Txt_BattleMenu_Fight_UNEQUIP": {
+        "SelfId": "Txt_BattleMenu_Fight_UNEQUIP",
+        "Text": "{I_NAME}を　はずした"
+      },
+      "Txt_BattleMenu_Fight_EQUIPCANNOT": {
+        "SelfId": "Txt_BattleMenu_Fight_EQUIPCANNOT",
+        "Text": "{I_NAME}は　そうびできない"
+      },
+      "Txt_BattleMenu_Fight_CURSEUNEQUIP": {
+        "SelfId": "Txt_BattleMenu_Fight_CURSEUNEQUIP",
+        "Text": "のろいで　{I_NAME}が　からだから　はずれない！"
+      },
+      "Txt_BattleMenu_Fight_CURSEEQUIP": {
+        "SelfId": "Txt_BattleMenu_Fight_CURSEEQUIP",
+        "Text": "{ACTOR}は　のろわれてしまった！"
+      },
+      "Txt_BattleMenu_Fight_CANNOTResurre": {
+        "SelfId": "Txt_BattleMenu_Fight_CANNOTResurre",
+        "Text": "しかし　いまは　たすけるあいてがいない"
+      },
+      "Txt_BattleMenu_Fight_CANNOTKabau": {
+        "SelfId": "Txt_BattleMenu_Fight_CANNOTKabau",
+        "Text": "しかし　いまは　かばうあいてがいない"
+      },
+      "Txt_BattleMenu_Fight_SELFKabau": {
+        "SelfId": "Txt_BattleMenu_Fight_SELFKabau",
+        "Text": "じぶんを　かばうことは　できない"
+      },
+      "Txt_BattleMenu_Fight_CANNOTRUN": {
+        "SelfId": "Txt_BattleMenu_Fight_CANNOTRUN",
+        "Text": "このたたかいからは　にげられない！"
+      },
+      "Txt_BattleMenu_Fight_CANNOTRUN_02": {
+        "SelfId": "Txt_BattleMenu_Fight_CANNOTRUN_02",
+        "Text": "いまはにげることが　できない！"
+      },
+      "Txt_BattleMenu_Result_BeforeLevel": {
+        "SelfId": "Txt_BattleMenu_Result_BeforeLevel",
+        "Text": "{0}"
+      },
+      "Txt_BattleMenu_Result_AfterLevel": {
+        "SelfId": "Txt_BattleMenu_Result_AfterLevel",
+        "Text": "{0}"
+      },
+      "Txt_BattleMenu_Result_StatusChange": {
+        "SelfId": "Txt_BattleMenu_Result_StatusChange",
+        "Text": "{0}"
+      },
+      "Txt_BattleMenu_Result_GetMagic": {
+        "SelfId": "Txt_BattleMenu_Result_GetMagic",
+        "Text": "じゅもんを　おぼえた！"
+      },
+      "Txt_BattleMenu_Result_GetSkill": {
+        "SelfId": "Txt_BattleMenu_Result_GetSkill",
+        "Text": "とくぎを　おぼえた！"
+      },
+      "Txt_BattleMenu_Result_GetMagicSkill": {
+        "SelfId": "Txt_BattleMenu_Result_GetMagicSkill",
+        "Text": "じゅもんと　とくぎを　おぼえた！"
+      },
+      "Txt_BattleMenu_Retry_Menu01": {
+        "SelfId": "Txt_BattleMenu_Retry_Menu01",
+        "Text": "さいちょうせんする"
+      },
+      "Txt_BattleMenu_Retry_Menu02": {
+        "SelfId": "Txt_BattleMenu_Retry_Menu02",
+        "Text": "オートセーブから　さいかいする"
+      },
+      "Txt_BattleMenu_Retry_Menu03": {
+        "SelfId": "Txt_BattleMenu_Retry_Menu03",
+        "Text": "きょうかいから　さいかいする"
+      },
+      "Txt_BattleMenu_Retry_Menu04": {
+        "SelfId": "Txt_BattleMenu_Retry_Menu04",
+        "Text": "ぼうけんのしょの　せんたくにもどる"
+      },
+      "Txt_BattleMenu_Retry_Church": {
+        "SelfId": "Txt_BattleMenu_Retry_Church",
+        "Text": "ふっかつするばしょ"
+      },
+      "Txt_BattleMenu_Retry_Mapname": {
+        "SelfId": "Txt_BattleMenu_Retry_Mapname",
+        "Text": "{0}"
+      },
+      "Txt_BattleMenu_Retry_AfterGold_Topic": {
+        "SelfId": "Txt_BattleMenu_Retry_AfterGold_Topic",
+        "Text": "ふっかつごのゴールド"
+      },
+      "Txt_BattleMenu_Retry_Time": {
+        "SelfId": "Txt_BattleMenu_Retry_Time",
+        "Text": "げんざいのじこく"
+      },
+      "Txt_BattleMenu_Suffix_Multiple": {
+        "SelfId": "Txt_BattleMenu_Suffix_Multiple",
+        "Text": "たち"
+      },
+      "Txt_BattleMenu_Suffix_Various": {
+        "SelfId": "Txt_BattleMenu_Suffix_Various",
+        "Text": "まもののむれ"
+      },
+      "Txt_BattleMenu_Suffix_00": {
+        "SelfId": "Txt_BattleMenu_Suffix_00",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_BattleMenu_Suffix_01": {
+        "SelfId": "Txt_BattleMenu_Suffix_01",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_BattleMenu_Suffix_02": {
+        "SelfId": "Txt_BattleMenu_Suffix_02",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_BattleMenu_Suffix_03": {
+        "SelfId": "Txt_BattleMenu_Suffix_03",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_BattleMenu_Suffix_04": {
+        "SelfId": "Txt_BattleMenu_Suffix_04",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_BattleMenu_Suffix_05": {
+        "SelfId": "Txt_BattleMenu_Suffix_05",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_BattleMenu_Suffix_06": {
+        "SelfId": "Txt_BattleMenu_Suffix_06",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_BattleMenu_Suffix_07": {
+        "SelfId": "Txt_BattleMenu_Suffix_07",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_BattleMenu_Suffix_08": {
+        "SelfId": "Txt_BattleMenu_Suffix_08",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_BattleMenu_Suffix_09": {
+        "SelfId": "Txt_BattleMenu_Suffix_09",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_BattleMenu_Suffix_10": {
+        "SelfId": "Txt_BattleMenu_Suffix_10",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_BattleMenu_Suffix_11": {
+        "SelfId": "Txt_BattleMenu_Suffix_11",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_BattleMenu_Suffix_12": {
+        "SelfId": "Txt_BattleMenu_Suffix_12",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_BattleMenu_Suffix_13": {
+        "SelfId": "Txt_BattleMenu_Suffix_13",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_BattleMenu_Suffix_14": {
+        "SelfId": "Txt_BattleMenu_Suffix_14",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_BattleMenu_Suffix_15": {
+        "SelfId": "Txt_BattleMenu_Suffix_15",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_BattleMenu_Action_Damage": {
+        "SelfId": "Txt_BattleMenu_Action_Damage",
+        "Text": "{0}"
+      },
+      "Txt_BattleMenu_Action_Heal": {
+        "SelfId": "Txt_BattleMenu_Action_Heal",
+        "Text": "{0}"
+      },
+      "Txt_BattleMenu_Action_Miss": {
+        "SelfId": "Txt_BattleMenu_Action_Miss",
+        "Text": "ＭＩＳＳ"
+      },
+      "Txt_BattleMenu_Message_RunConfirm": {
+        "SelfId": "Txt_BattleMenu_Message_RunConfirm",
+        "Text": "このたたかいから　にげますか？"
+      },
+      "Txt_BattleMenu_Message_MBR_RunConfirm": {
+        "SelfId": "Txt_BattleMenu_Message_MBR_RunConfirm",
+        "Text": "こうさんすると　さんかひは\r\nもどってきませんよ！\r\nそれでも　よろしいですか？"
+      },
+      "Txt_BattleMenu_Message_SPHERE_OF_LIGHT": {
+        "SelfId": "Txt_BattleMenu_Message_SPHERE_OF_LIGHT",
+        "Text": "りゅうのじょおうから　たくされた\r\nひかりのたまが　つよいひかりをはなっている！\r\nひかりのたまを　つかいますか？"
+      },
+      "Txt_BattleMenu_Message_Deffence": {
+        "SelfId": "Txt_BattleMenu_Message_Deffence",
+        "Text": "{ACTOR}は　みをまもっている。"
+      },
+      "Txt_BattleMenu_Message_AppearSingle": {
+        "SelfId": "Txt_BattleMenu_Message_AppearSingle",
+        "Text": "{M_NAME}<IfSing_VALUE3(,たち)>が　あらわれた！"
+      },
+      "Txt_BattleMenu_Message_AppearVarious": {
+        "SelfId": "Txt_BattleMenu_Message_AppearVarious",
+        "Text": "まもののむれが　あらわれた！"
+      },
+      "Txt_BattleMenu_Message_FirstAttackSingle_01": {
+        "SelfId": "Txt_BattleMenu_Message_FirstAttackSingle_01",
+        "Text": "しかし　{M_NAME}<IfSing_VALUE3(,たち)>は\r\nおどろき　とまどっている！"
+      },
+      "Txt_BattleMenu_Message_FirstAttackVarious_01": {
+        "SelfId": "Txt_BattleMenu_Message_FirstAttackVarious_01",
+        "Text": "しかし　まもののむれは\r\nおどろき　とまどっている！"
+      },
+      "Txt_BattleMenu_Message_FirstAttackSingle_02": {
+        "SelfId": "Txt_BattleMenu_Message_FirstAttackSingle_02",
+        "Text": "しかし　{M_NAME}<IfSing_VALUE3(,たち)>は\r\nまだ　こちらに　きづいていない！"
+      },
+      "Txt_BattleMenu_Message_FirstAttackVarious_02": {
+        "SelfId": "Txt_BattleMenu_Message_FirstAttackVarious_02",
+        "Text": "しかし　まもののむれは\r\nまだ　こちらに　きづいていない！"
+      },
+      "Txt_BattleMenu_Message_FirstAttackedSingle_Hero": {
+        "SelfId": "Txt_BattleMenu_Message_FirstAttackedSingle_Hero",
+        "Text": "{M_NAME}<IfSing_VALUE3(,たち)>は\r\n{LEADER}<IfSolo(,たち)>が　みがまえるまえに\r\nおそいかかってきた！"
+      },
+      "Txt_BattleMenu_Message_FirstAttackedVarious_Hero": {
+        "SelfId": "Txt_BattleMenu_Message_FirstAttackedVarious_Hero",
+        "Text": "まもののむれは\r\n{LEADER}<IfSolo(,たち)>が　みがまえるまえに\r\nおそいかかってきた！"
+      },
+      "Txt_BattleMenu_Message_FirstAttackedSingle_02": {
+        "SelfId": "Txt_BattleMenu_Message_FirstAttackedSingle_02",
+        "Text": "{M_NAME}<IfSing_VALUE3(,たち)>は\r\nいきなり　おそいかかってきた"
+      },
+      "Txt_BattleMenu_Message_FirstAttackedVarious_02": {
+        "SelfId": "Txt_BattleMenu_Message_FirstAttackedVarious_02",
+        "Text": "まもののむれは\r\nいきなり　おそいかかってきた"
+      },
+      "Txt_BattleMenu_Message_RunChallenge_Hero": {
+        "SelfId": "Txt_BattleMenu_Message_RunChallenge_Hero",
+        "Text": "{LEADER}<IfSolo(,たち)>は　にげだした！"
+      },
+      "Txt_BattleMenu_Message_RunFailure": {
+        "SelfId": "Txt_BattleMenu_Message_RunFailure",
+        "Text": "しかし　まわりこまれてしまった！"
+      },
+      "Txt_BattleMenu_Message_DefeatSingle": {
+        "SelfId": "Txt_BattleMenu_Message_DefeatSingle",
+        "Text": "{M_NAME}<IfSing_VALUE3(,たち)>を　やっつけた！"
+      },
+      "Txt_BattleMenu_Message_DefeatVarious": {
+        "SelfId": "Txt_BattleMenu_Message_DefeatVarious",
+        "Text": "まもののむれを　やっつけた！"
+      },
+      "Txt_BattleMenu_Message_VanishSingle": {
+        "SelfId": "Txt_BattleMenu_Message_VanishSingle",
+        "Text": "{M_NAME}<IfSing_VALUE3(,たち)>は　いなくなった"
+      },
+      "Txt_BattleMenu_Message_VanishVarious": {
+        "SelfId": "Txt_BattleMenu_Message_VanishVarious",
+        "Text": "まもののむれは　いなくなった"
+      },
+      "Txt_BattleMenu_Message_Lose_Hero": {
+        "SelfId": "Txt_BattleMenu_Message_Lose_Hero",
+        "Text": "{LEADER}は　しんでしまった！<WAIT>[3]"
+      },
+      "Txt_BattleMenu_Message_Lose_Party": {
+        "SelfId": "Txt_BattleMenu_Message_Lose_Party",
+        "Text": "{LEADER}たちは　ぜんめつした…<WAIT>[3]"
+      },
+      "Txt_BattleMenu_Message_DamageSingle": {
+        "SelfId": "Txt_BattleMenu_Message_DamageSingle",
+        "Text": "{TARGET}に　{VALUE}のダメージ！"
+      },
+      "Txt_BattleMenu_Message_DamageMultiple": {
+        "SelfId": "Txt_BattleMenu_Message_DamageMultiple",
+        "Text": "{TARGET}たちに　へいきん{VALUE}のダメージ！"
+      },
+      "Txt_BattleMenu_Message_DamageContinuous": {
+        "SelfId": "Txt_BattleMenu_Message_DamageContinuous",
+        "Text": "{TARGET}に　ごうけい{VALUE}のダメージ！"
+      },
+      "Txt_BattleMenu_Message_DamagedSingle": {
+        "SelfId": "Txt_BattleMenu_Message_DamagedSingle",
+        "Text": "{TARGET}は　{VALUE}のダメージを　うけた！"
+      },
+      "Txt_BattleMenu_Message_DamagedMultiple": {
+        "SelfId": "Txt_BattleMenu_Message_DamagedMultiple",
+        "Text": "{TARGET}たちは\r\nへいきん{VALUE}のダメージを　うけた！"
+      },
+      "Txt_BattleMenu_Message_CriticalAttack": {
+        "SelfId": "Txt_BattleMenu_Message_CriticalAttack",
+        "Text": "かいしんの　いちげき！"
+      },
+      "Txt_BattleMenu_Message_CriticalAttacked": {
+        "SelfId": "Txt_BattleMenu_Message_CriticalAttacked",
+        "Text": "つうこんの　いちげき！"
+      },
+      "Txt_BattleMenu_Message_NONETARGET": {
+        "SelfId": "Txt_BattleMenu_Message_NONETARGET",
+        "Text": "しかし　あたらなかった"
+      },
+      "Txt_BattleMenu_Message_MISS": {
+        "SelfId": "Txt_BattleMenu_Message_MISS",
+        "Text": "ミス！　{TARGET}<IfSing_VALUE3(,たち)>に\r\nダメージを　あたえられない！"
+      },
+      "Txt_BattleMenu_Message_MISSED": {
+        "SelfId": "Txt_BattleMenu_Message_MISSED",
+        "Text": "ミス！　{TARGET}<IfSing_VALUE3(,たち)>は\r\nダメージを　うけない！"
+      },
+      "Txt_BattleMenu_Message_NOEFFECT": {
+        "SelfId": "Txt_BattleMenu_Message_NOEFFECT",
+        "Text": "{TARGET}<IfSing_VALUE3(,たち)>には　きかなかった！"
+      },
+      "Txt_BattleMenu_Message_NOEFFECTED": {
+        "SelfId": "Txt_BattleMenu_Message_NOEFFECTED",
+        "Text": "{TARGET}<IfSing_VALUE3(,たち)>には　きかなかった！"
+      },
+      "Txt_BattleMenu_Message_Avoid": {
+        "SelfId": "Txt_BattleMenu_Message_Avoid",
+        "Text": "{TARGET}<IfSing_VALUE3(,たち)>は\r\nすばやく　みをかわした！"
+      },
+      "Txt_BattleMenu_Message_Avoid_Enemy": {
+        "SelfId": "Txt_BattleMenu_Message_Avoid_Enemy",
+        "Text": "{TARGET}<IfSing_VALUE3(,たち)>は\r\nすばやく　みをかわした！"
+      },
+      "Txt_BattleMenu_Message_Death": {
+        "SelfId": "Txt_BattleMenu_Message_Death",
+        "Text": "{TARGET}<IfSing_VALUE3(,たち)>は　しんでしまった！"
+      },
+      "Txt_BattleMenu_Message_Defeat": {
+        "SelfId": "Txt_BattleMenu_Message_Defeat",
+        "Text": "{TARGET}<IfSing_VALUE3(,たち)>を　たおした！"
+      },
+      "Txt_BattleMenu_Message_SpecialResult_01": {
+        "SelfId": "Txt_BattleMenu_Message_SpecialResult_01",
+        "Text": "{M_NAME}<IfSing_VALUE3(,たち)>は　さっていった。"
+      },
+      "Txt_BattleMenu_Message_SpecialResult_02": {
+        "SelfId": "Txt_BattleMenu_Message_SpecialResult_02",
+        "Text": "{LEADER}<IfSolo(,たち)>は　つかれきって　しまった！"
+      },
+      "Txt_BattleMenu_Message_GetEXPGold_Party": {
+        "SelfId": "Txt_BattleMenu_Message_GetEXPGold_Party",
+        "Text": "それぞれ　{VALUE}ポイントの\r\nけいけんちをかくとく！\r\n{VALUE2}ゴールドを　てにいれた！"
+      },
+      "Txt_BattleMenu_Message_GetEXPGold_Hero": {
+        "SelfId": "Txt_BattleMenu_Message_GetEXPGold_Hero",
+        "Text": "{ACTOR}は　{VALUE}ポイントの\r\nけいけんちをかくとく！\r\n{VALUE2}ゴールドを　てにいれた！"
+      },
+      "Txt_BattleMenu_Message_GetEXP_Party": {
+        "SelfId": "Txt_BattleMenu_Message_GetEXP_Party",
+        "Text": "それぞれ　{VALUE}ポイントの\r\nけいけんちをかくとく！"
+      },
+      "Txt_BattleMenu_Message_GetEXP_Hero": {
+        "SelfId": "Txt_BattleMenu_Message_GetEXP_Hero",
+        "Text": "{ACTOR}は　{VALUE}ポイントの\r\nけいけんちをかくとく！"
+      },
+      "Txt_BattleMenu_Message_GetGold": {
+        "SelfId": "Txt_BattleMenu_Message_GetGold",
+        "Text": "{VALUE2}ゴールドを　てにいれた！"
+      },
+      "Txt_BattleMenu_Message_LevelUp": {
+        "SelfId": "Txt_BattleMenu_Message_LevelUp",
+        "Text": "{ACTOR}は　レべル{VALUE}に　あがった！"
+      },
+      "Txt_BattleMenu_Message_SkillGet": {
+        "SelfId": "Txt_BattleMenu_Message_SkillGet",
+        "Text": "{ACTOR}は\r\nまものとこころをかよわし　とくぎをおぼえた！"
+      },
+      "Txt_BattleMenu_Message_GetItem_01": {
+        "SelfId": "Txt_BattleMenu_Message_GetItem_01",
+        "Text": "{M_NAME}は\r\nたからばこを　おとしていった！"
+      },
+      "Txt_BattleMenu_Message_GetItem_02": {
+        "SelfId": "Txt_BattleMenu_Message_GetItem_02",
+        "Text": "{LEADER}<IfSolo(,たち)>は　たからばこを　あけた！"
+      },
+      "Txt_BattleMenu_Message_GetItem_03": {
+        "SelfId": "Txt_BattleMenu_Message_GetItem_03",
+        "Text": "なんと　{I_NAME}を　みつけた！"
+      },
+      "Txt_BattleMenu_Message_GetItem_04": {
+        "SelfId": "Txt_BattleMenu_Message_GetItem_04",
+        "Text": "{ACTOR}は　{I_NAME}を\r\nてにいれた！"
+      },
+      "Txt_BattleMenu_Message_GetItem_05": {
+        "SelfId": "Txt_BattleMenu_Message_GetItem_05",
+        "Text": "{I_NAME}を\r\n{BAG}にいれた！"
+      },
+      "Txt_BattleMenu_Message_GetItem_Thief": {
+        "SelfId": "Txt_BattleMenu_Message_GetItem_Thief",
+        "Text": "{ACTOR}は　{I_NAME}を\r\nぬすんでいた！"
+      },
+      "Txt_BattleMenu_Message_GetGold_Marchant": {
+        "SelfId": "Txt_BattleMenu_Message_GetGold_Marchant",
+        "Text": "{ACTOR}は\r\nさらに　{VALUE}ゴールドを　みつけた！"
+      },
+      "Txt_BattleMenu_Message_GetGold_Marchant_Multipul": {
+        "SelfId": "Txt_BattleMenu_Message_GetGold_Marchant_Multipul",
+        "Text": "{ACTOR}たちは\r\nさらに　{VALUE}ゴールドを　みつけた！"
+      },
+      "Txt_BattleMenu_Message_BASHIRURA": {
+        "SelfId": "Txt_BattleMenu_Message_BASHIRURA",
+        "Text": "{ACTOR}は　はしって　もどってきた！"
+      },
+      "Txt_BattleMenu_Message_BASHIRURA_Multipul": {
+        "SelfId": "Txt_BattleMenu_Message_BASHIRURA_Multipul",
+        "Text": "{ACTOR}たちは　はしって　もどってきた！"
+      },
+      "Txt_BattleMenu_Message_Sleep_": {
+        "SelfId": "Txt_BattleMenu_Message_Sleep_",
+        "Text": "{ACTOR}<IfSing_VALUE3(,たち)>は　ねむっている！"
+      },
+      "Txt_BattleMenu_Message_Sleep__Enemy": {
+        "SelfId": "Txt_BattleMenu_Message_Sleep__Enemy",
+        "Text": "{ACTOR}<IfSing_VALUE3(,たち)>は　ねむっている！"
+      },
+      "Txt_BattleMenu_Message_Sleep_Recover": {
+        "SelfId": "Txt_BattleMenu_Message_Sleep_Recover",
+        "Text": "{ACTOR}<IfSing_VALUE3(,たち)>は　めをさました！"
+      },
+      "Txt_BattleMenu_Message_Sleep_Recover_Enemy": {
+        "SelfId": "Txt_BattleMenu_Message_Sleep_Recover_Enemy",
+        "Text": "{ACTOR}<IfSing_VALUE3(,たち)>は　めをさました！"
+      },
+      "Txt_BattleMenu_Message_Sleep_Recover_Impact": {
+        "SelfId": "Txt_BattleMenu_Message_Sleep_Recover_Impact",
+        "Text": "{TARGET}<IfSing_VALUE3(,たち)>は\r\nしょうげきで　めをさました！"
+      },
+      "Txt_BattleMenu_Message_Sleep_Recover_Impact_Enemy": {
+        "SelfId": "Txt_BattleMenu_Message_Sleep_Recover_Impact_Enemy",
+        "Text": "{TARGET}<IfSing_VALUE3(,たち)>は\r\nしょうげきで　めをさました！"
+      },
+      "Txt_BattleMenu_Message_Sleep_Recover_Attacked": {
+        "SelfId": "Txt_BattleMenu_Message_Sleep_Recover_Attacked",
+        "Text": "{TARGET}<IfSing_VALUE3(,たち)>は　めをさました！"
+      },
+      "Txt_BattleMenu_Message_Sleep_Recover_Attacked_Enemy": {
+        "SelfId": "Txt_BattleMenu_Message_Sleep_Recover_Attacked_Enemy",
+        "Text": "{TARGET}<IfSing_VALUE3(,たち)>は　めをさました！"
+      },
+      "Txt_BattleMenu_Message_Sleep_Success_Enemy": {
+        "SelfId": "Txt_BattleMenu_Message_Sleep_Success_Enemy",
+        "Text": "{TARGET}<IfSing_VALUE3(,たち)>を\r\nねむらせた！"
+      },
+      "Txt_BattleMenu_Message_Sleep_Success_Friend": {
+        "SelfId": "Txt_BattleMenu_Message_Sleep_Success_Friend",
+        "Text": "{TARGET}<IfSing_VALUE3(,たち)>は\r\nねむってしまった！"
+      },
+      "Txt_BattleMenu_Message_Sleep_Failure": {
+        "SelfId": "Txt_BattleMenu_Message_Sleep_Failure",
+        "Text": "{TARGET}<IfSing_VALUE3(,たち)>は\r\nねむらなかった！"
+      },
+      "Txt_BattleMenu_Message_Sleep_Failure_Enemy": {
+        "SelfId": "Txt_BattleMenu_Message_Sleep_Failure_Enemy",
+        "Text": "{TARGET}<IfSing_VALUE3(,たち)>は\r\nねむらなかった！"
+      },
+      "Txt_BattleMenu_Message_Confusion": {
+        "SelfId": "Txt_BattleMenu_Message_Confusion",
+        "Text": "{ACTOR}<IfSing_VALUE3(,たち)>は\r\nこんらんしている！"
+      },
+      "Txt_BattleMenu_Message_Confusion_Enemy": {
+        "SelfId": "Txt_BattleMenu_Message_Confusion_Enemy",
+        "Text": "{ACTOR}<IfSing_VALUE3(,たち)>は\r\nこんらんしている！"
+      },
+      "Txt_BattleMenu_Message_Confusion_Success": {
+        "SelfId": "Txt_BattleMenu_Message_Confusion_Success",
+        "Text": "{TARGET}<IfSing_VALUE3(,たち)>は\r\nあたまが　こんらんした！"
+      },
+      "Txt_BattleMenu_Message_Confusion_Success_Enemy": {
+        "SelfId": "Txt_BattleMenu_Message_Confusion_Success_Enemy",
+        "Text": "{TARGET}<IfSing_VALUE3(,たち)>は\r\nあたまが　こんらんした！"
+      },
+      "Txt_BattleMenu_Message_Confusion_Recover": {
+        "SelfId": "Txt_BattleMenu_Message_Confusion_Recover",
+        "Text": "{TARGET}<IfSing_VALUE3(,たち)>は　われにかえった！"
+      },
+      "Txt_BattleMenu_Message_Confusion_Recover_Enemy": {
+        "SelfId": "Txt_BattleMenu_Message_Confusion_Recover_Enemy",
+        "Text": "{TARGET}<IfSing_VALUE3(,たち)>は　われにかえった！"
+      },
+      "Txt_BattleMenu_Message_Confusion_Recover_Impact": {
+        "SelfId": "Txt_BattleMenu_Message_Confusion_Recover_Impact",
+        "Text": "{TARGET}<IfSing_VALUE3(,たち)>は\r\nしょうげきで　われにかえった！"
+      },
+      "Txt_BattleMenu_Message_Confusion_Recover_Impact_Enemy": {
+        "SelfId": "Txt_BattleMenu_Message_Confusion_Recover_Impact_Enemy",
+        "Text": "{TARGET}<IfSing_VALUE3(,たち)>は\r\nしょうげきで　われにかえった！"
+      },
+      "Txt_BattleMenu_Message_Paralysis": {
+        "SelfId": "Txt_BattleMenu_Message_Paralysis",
+        "Text": "{ACTOR}<IfSing_VALUE3(,たち)>は\r\nからだがしびれて　うごけない！"
+      },
+      "Txt_BattleMenu_Message_Paralysis_Enemy": {
+        "SelfId": "Txt_BattleMenu_Message_Paralysis_Enemy",
+        "Text": "{TARGET}<IfSing_VALUE3(,たち)>は\r\nからだがしびれて　うごけない！"
+      },
+      "Txt_BattleMenu_Message_Paralysis_Success": {
+        "SelfId": "Txt_BattleMenu_Message_Paralysis_Success",
+        "Text": "{TARGET}<IfSing_VALUE3(,たち)>は\r\nしびれて　うごけなくなった！"
+      },
+      "Txt_BattleMenu_Message_Paralysis_Success_Enemy": {
+        "SelfId": "Txt_BattleMenu_Message_Paralysis_Success_Enemy",
+        "Text": "{TARGET}<IfSing_VALUE3(,たち)>は\r\nしびれて　うごけなくなった！"
+      },
+      "Txt_BattleMenu_Message_Paralysis_Avoid": {
+        "SelfId": "Txt_BattleMenu_Message_Paralysis_Avoid",
+        "Text": "{TARGET}<IfSing_VALUE3(,たち)>は\r\nいきを　かわした！"
+      },
+      "Txt_BattleMenu_Message_Paralysis_Avoid_Enemy": {
+        "SelfId": "Txt_BattleMenu_Message_Paralysis_Avoid_Enemy",
+        "Text": "{TARGET}<IfSing_VALUE3(,たち)>は\r\nいきを　かわした！"
+      },
+      "Txt_BattleMenu_Message_Paralysis_Recover": {
+        "SelfId": "Txt_BattleMenu_Message_Paralysis_Recover",
+        "Text": "{TARGET}<IfSing_VALUE3(,たち)>の\r\nからだのしびれが　きえた！"
+      },
+      "Txt_BattleMenu_Message_Paralysis_Recover_Enemy": {
+        "SelfId": "Txt_BattleMenu_Message_Paralysis_Recover_Enemy",
+        "Text": "{TARGET}<IfSing_VALUE3(,たち)>の\r\nからだのしびれが　きえた！"
+      },
+      "Txt_BattleMenu_Message_Poison_Success": {
+        "SelfId": "Txt_BattleMenu_Message_Poison_Success",
+        "Text": "{TARGET}<IfSing_VALUE3(,たち)>は\r\nどくに　おかされた！"
+      },
+      "Txt_BattleMenu_Message_Poison_Recover_01": {
+        "SelfId": "Txt_BattleMenu_Message_Poison_Recover_01",
+        "Text": "{TARGET}<IfSing_VALUE3(,たち)>の\r\nからだの　どくがきえた！"
+      },
+      "Txt_BattleMenu_Message_Poison_Recover_02_Enemy": {
+        "SelfId": "Txt_BattleMenu_Message_Poison_Recover_02_Enemy",
+        "Text": "{TARGET}<IfSing_VALUE3(,たち)>の\r\nからだにまわっている　どくがきえた！"
+      },
+      "Txt_BattleMenu_Message_Curse": {
+        "SelfId": "Txt_BattleMenu_Message_Curse",
+        "Text": "のろいで　からだが　うごかない！"
+      },
+      "Txt_BattleMenu_Message_Magic": {
+        "SelfId": "Txt_BattleMenu_Message_Magic",
+        "Text": "{ACTOR}は\r\n{S_NAME}を　となえた！"
+      },
+      "Txt_BattleMenu_Message_LackMP": {
+        "SelfId": "Txt_BattleMenu_Message_LackMP",
+        "Text": "しかし　ＭＰが　たりない！"
+      },
+      "Txt_BattleMenu_Message_MPDecrease": {
+        "SelfId": "Txt_BattleMenu_Message_MPDecrease",
+        "Text": "{TARGET}<IfSing_VALUE3(,たち)>のＭＰが\r\n{VALUE}さがった！"
+      },
+      "Txt_BattleMenu_Message_MPDecrease_Enemy": {
+        "SelfId": "Txt_BattleMenu_Message_MPDecrease_Enemy",
+        "Text": "{TARGET}<IfSing_VALUE3(,たち)>のＭＰが\r\n{VALUE}さがった！"
+      },
+      "Txt_BattleMenu_Message_MPHeal": {
+        "SelfId": "Txt_BattleMenu_Message_MPHeal",
+        "Text": "{TARGET}<IfSing_VALUE3(,たち)>の　ＭＰが　かいふくした！"
+      },
+      "Txt_BattleMenu_Message_Heal": {
+        "SelfId": "Txt_BattleMenu_Message_Heal",
+        "Text": "{TARGET}<IfSing_VALUE3(,たち)>の　キズが　かいふくした！"
+      },
+      "Txt_BattleMenu_Message_Heal_Enemy": {
+        "SelfId": "Txt_BattleMenu_Message_Heal_Enemy",
+        "Text": "{TARGET}<IfSing_VALUE3(,たち)>の　キズが　かいふくした！"
+      },
+      "Txt_BattleMenu_Message_UseItem_01": {
+        "SelfId": "Txt_BattleMenu_Message_UseItem_01",
+        "Text": "{ACTOR}は　{I_NAME}を\r\nつかった！"
+      },
+      "Txt_BattleMenu_Message_Invalid": {
+        "SelfId": "Txt_BattleMenu_Message_Invalid",
+        "Text": "しかし　なにも　おこらなかった！"
+      },
+      "Txt_BattleMenu_Message_Run": {
+        "SelfId": "Txt_BattleMenu_Message_Run",
+        "Text": "{TARGET}<IfSing_VALUE3(,たち)>はにげだした！"
+      },
+      "Txt_BattleMenu_Message_NoEffected_Asutoron_Enemy": {
+        "SelfId": "Txt_BattleMenu_Message_NoEffected_Asutoron_Enemy",
+        "Text": "{TARGET}<IfSing_VALUE3(,たち)>は　てつのかたまりとなり\r\nなにものも　うけつけない！"
+      },
+      "Txt_BattleMenu_MBR_Message_Win": {
+        "SelfId": "Txt_BattleMenu_MBR_Message_Win",
+        "Text": "あいてチームを　やっつけた！"
+      },
+      "Txt_BattleMenu_MBR_Message_Lose": {
+        "SelfId": "Txt_BattleMenu_MBR_Message_Lose",
+        "Text": "{MOST_HEROIC}のチームは　やられてしまった…"
+      },
+      "Txt_BattleMenu_MBR_Message_Surrender": {
+        "SelfId": "Txt_BattleMenu_MBR_Message_Surrender",
+        "Text": "{MOST_HEROIC}は　こうさんした…"
+      },
+      "Txt_BattleMenu_Retry_Message_Retry": {
+        "SelfId": "Txt_BattleMenu_Retry_Message_Retry",
+        "Text": "このせんとうが　はじまったじょうたいから\r\nさいかいします。"
+      },
+      "Txt_BattleMenu_Retry_Message_AutoSave": {
+        "SelfId": "Txt_BattleMenu_Retry_Message_AutoSave",
+        "Text": "さいごの　オートセーブから\r\nさいかいします。"
+      },
+      "Txt_BattleMenu_Retry_Message_AutoSaveNone": {
+        "SelfId": "Txt_BattleMenu_Retry_Message_AutoSaveNone",
+        "Text": "オートセーブが　ないため\r\nせんたくできません。"
+      },
+      "Txt_BattleMenu_Retry_Message_Church": {
+        "SelfId": "Txt_BattleMenu_Retry_Message_Church",
+        "Text": "さいごに　おいのりしたばしょから\r\nさいかいします。\r\n※{VALUE}ゴールドをうしないます。"
+      },
+      "Txt_BattleMenu_Retry_Message_BackTitle": {
+        "SelfId": "Txt_BattleMenu_Retry_Message_BackTitle",
+        "Text": "ぼうけんのしょを　えらぶがめんに　もどります。\r\n※セーブしていないところは　なくなり\r\nこのがめんには　もどれません。"
+      },
+      "Txt_BattleMenu_Retry_Message_Confirm": {
+        "SelfId": "Txt_BattleMenu_Retry_Message_Confirm",
+        "Text": "このほうほうで　ぼうけんをさいかいします。\r\nよろしいですか？<NO_INPUT>"
+      },
+      "Txt_BattleMenu_Retry_Message_BackConfirm": {
+        "SelfId": "Txt_BattleMenu_Retry_Message_BackConfirm",
+        "Text": "ぼうけんのしょを　えらぶがめんに　もどります。\r\nよろしいですか？\r\n※セーブしていないところは　なくなります。<NO_INPUT>"
+      },
+      "Txt_BattleMenu_Retry_Message_DataNone": {
+        "SelfId": "Txt_BattleMenu_Retry_Message_DataNone",
+        "Text": "オートセーブが　ないため\r\nせんたくできません。"
+      },
+      "Txt_BattleMenu_Retry_Message_DataBroken": {
+        "SelfId": "Txt_BattleMenu_Retry_Message_DataBroken",
+        "Text": "オートセーブが　よみこめませんでした。\r\nべつのほうほうを　せんたくしてください。"
+      }
+    }
+  }
+]

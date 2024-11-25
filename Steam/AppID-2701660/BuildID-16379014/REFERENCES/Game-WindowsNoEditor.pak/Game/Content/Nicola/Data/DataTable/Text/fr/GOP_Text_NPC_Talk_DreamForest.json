@@ -1,0 +1,60 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_NPC_Talk_DreamForest",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Talk_DreamForest_MAIN_0_ACTOR_0110_010_1": {
+        "SelfId": "Txt_Talk_DreamForest_MAIN_0_ACTOR_0110_010_1",
+        "Text": "*: Ho ho ho ho!\r\nTu m'as l'air un peu <IfGender_HERO(perdu,perdue,)>, <IfGender_HERO(gamin,gamine,)>!"
+      },
+      "Txt_Talk_DreamForest_MAIN_0_ACTOR_0110_010_2": {
+        "SelfId": "Txt_Talk_DreamForest_MAIN_0_ACTOR_0110_010_2",
+        "Text": "*: Si tu vas vers l'ouest, à gauche là-bas, tu finiras sûrement par sortir de cette forêt."
+      },
+      "Txt_Talk_DreamForest_MAIN_0_ACTOR_0110_010_3": {
+        "SelfId": "Txt_Talk_DreamForest_MAIN_0_ACTOR_0110_010_3",
+        "Text": "*: Dis-moi mon <IfGender_HERO(ami,amie,)>, si tu trouves un rocher en partant, pourrais-tu me l'apporter?"
+      },
+      "Txt_Talk_DreamForest_MAIN_0_ACTOR_0110_010_4": {
+        "SelfId": "Txt_Talk_DreamForest_MAIN_0_ACTOR_0110_010_4",
+        "Text": "*: Je te récompenserai!"
+      },
+      "Txt_Talk_DreamForest_MAIN_0_ACTOR_0110_020_1": {
+        "SelfId": "Txt_Talk_DreamForest_MAIN_0_ACTOR_0110_020_1",
+        "Text": "*: Pour rentrer chez toi, il faut que tu ailles à l'ouest!"
+      },
+      "Txt_Talk_DreamForest_MAIN_0_VOLUME_0010_010_1": {
+        "SelfId": "Txt_Talk_DreamForest_MAIN_0_VOLUME_0010_010_1",
+        "Text": "*: Oh ho ho! Tu en as trouvé un?\r\nC'est quelque chose! Tu viens de faire le bonheur d'un vieil homme!"
+      },
+      "Txt_Talk_DreamForest_MAIN_0_VOLUME_0010_010_2": {
+        "SelfId": "Txt_Talk_DreamForest_MAIN_0_VOLUME_0010_010_2",
+        "Text": "*: Voilà comme promis une belle récompense!\r\nLa jolie somme de... dix<nbsp>pièces d'or!"
+      },
+      "Txt_Talk_DreamForest_MAIN_0_VOLUME_0010_010_3": {
+        "SelfId": "Txt_Talk_DreamForest_MAIN_0_VOLUME_0010_010_3",
+        "Text": "{LEADER} obtient 10<nbsp>pièces d'or."
+      },
+      "Txt_Talk_DreamForest_MAIN_0_VOLUME_0010_020_1": {
+        "SelfId": "Txt_Talk_DreamForest_MAIN_0_VOLUME_0010_020_1",
+        "Text": "*: Eh bien!\r\nC'est le quarantième rocher que tu m'apportes!\r\nTu es inarrêtable!"
+      },
+      "Txt_Talk_DreamForest_MAIN_0_VOLUME_0010_020_2": {
+        "SelfId": "Txt_Talk_DreamForest_MAIN_0_VOLUME_0010_020_2",
+        "Text": "*: Tu sais quoi?\r\nPour te remercier, je vais te donner cinquante<nbsp>pièces d'or cette fois!"
+      },
+      "Txt_Talk_DreamForest_MAIN_0_VOLUME_0010_020_3": {
+        "SelfId": "Txt_Talk_DreamForest_MAIN_0_VOLUME_0010_020_3",
+        "Text": "{LEADER} obtient 50<nbsp>pièces d'or."
+      }
+    }
+  }
+]

@@ -1,0 +1,151 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Event_WestPort",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Event_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "EVENT_WestPort_WestPort_Out_Arakure_01_L3_0": {
+        "SelfId": "EVENT_WestPort_WestPort_Out_Arakure_01_L3_0",
+        "EventID": "WestPort_Out_MAIN_0_ACTOR_0120_010",
+        "TriggerType": "EEventTriggerType::ACTOR",
+        "TriggerID": "WestPort_Out_Arakure_01_L3",
+        "EventPriority": 0,
+        "ProgressLower": 0,
+        "ProgressUpper": 30,
+        "StartFlagName1": "FE80",
+        "IsTrueCondition1": false,
+        "IsAndOperation": false,
+        "StartFlagName2": "None",
+        "IsTrueCondition2": false,
+        "ScenarioProgress": 0
+      },
+      "EVENT_WestPort_WestPort_House_Arakure_01_L3_1": {
+        "SelfId": "EVENT_WestPort_WestPort_House_Arakure_01_L3_1",
+        "EventID": "WestPort_House_MAIN_0_ACTOR_0120_010",
+        "TriggerType": "EEventTriggerType::ACTOR",
+        "TriggerID": "WestPort_House_Arakure_01_L3",
+        "EventPriority": 1,
+        "ProgressLower": 0,
+        "ProgressUpper": 30,
+        "StartFlagName1": "FE80",
+        "IsTrueCondition1": false,
+        "IsAndOperation": false,
+        "StartFlagName2": "None",
+        "IsTrueCondition2": false,
+        "ScenarioProgress": 0
+      },
+      "EVENT_WestPort_WestPort_House_Arakure_01_L3_0": {
+        "SelfId": "EVENT_WestPort_WestPort_House_Arakure_01_L3_0",
+        "EventID": "WestPort_House_MAIN_0_ACTOR_0120_020",
+        "TriggerType": "EEventTriggerType::ACTOR",
+        "TriggerID": "WestPort_House_Arakure_01_L3",
+        "EventPriority": 0,
+        "ProgressLower": 0,
+        "ProgressUpper": 30,
+        "StartFlagName1": "FE80",
+        "IsTrueCondition1": true,
+        "IsAndOperation": false,
+        "StartFlagName2": "None",
+        "IsTrueCondition2": false,
+        "ScenarioProgress": 0
+      },
+      "EVENT_WestPort_WestPort_House_Arakure_01_L1_0": {
+        "SelfId": "EVENT_WestPort_WestPort_House_Arakure_01_L1_0",
+        "EventID": "WestPort_House_MAIN_0_ACTOR_0110_010",
+        "TriggerType": "EEventTriggerType::ACTOR",
+        "TriggerID": "WestPort_House_Arakure_01_L1",
+        "EventPriority": 0,
+        "ProgressLower": 0,
+        "ProgressUpper": 30,
+        "StartFlagName1": "FE91",
+        "IsTrueCondition1": true,
+        "IsAndOperation": false,
+        "StartFlagName2": "None",
+        "IsTrueCondition2": false,
+        "ScenarioProgress": 0
+      },
+      "EVENT_WestPort_MAPLIST_H21R0101_0": {
+        "SelfId": "EVENT_WestPort_MAPLIST_H21R0101_0",
+        "EventID": "WestPort_House_SUB_0_SCENE_0010_010",
+        "TriggerType": "EEventTriggerType::SCENE",
+        "TriggerID": "MAPLIST_H21R0101",
+        "EventPriority": 0,
+        "ProgressLower": 0,
+        "ProgressUpper": 30,
+        "StartFlagName1": "None",
+        "IsTrueCondition1": false,
+        "IsAndOperation": false,
+        "StartFlagName2": "None",
+        "IsTrueCondition2": false,
+        "ScenarioProgress": 0
+      },
+      "EVENT_WestPort_WestPort_Out_Boy_01_L3_1": {
+        "SelfId": "EVENT_WestPort_WestPort_Out_Boy_01_L3_1",
+        "EventID": "WestPort_Out_SUB_0_ACTOR_0220_010",
+        "TriggerType": "EEventTriggerType::ACTOR",
+        "TriggerID": "WestPort_Out_Boy_01_L3",
+        "EventPriority": 1,
+        "ProgressLower": 0,
+        "ProgressUpper": 30,
+        "StartFlagName1": "None",
+        "IsTrueCondition1": false,
+        "IsAndOperation": false,
+        "StartFlagName2": "None",
+        "IsTrueCondition2": false,
+        "ScenarioProgress": 0
+      },
+      "EVENT_WestPort_WestPort_Out_Boy_01_L1_0": {
+        "SelfId": "EVENT_WestPort_WestPort_Out_Boy_01_L1_0",
+        "EventID": "WestPort_Out_SUB_0_ACTOR_0210_010",
+        "TriggerType": "EEventTriggerType::ACTOR",
+        "TriggerID": "WestPort_Out_Boy_01_L1",
+        "EventPriority": 0,
+        "ProgressLower": 0,
+        "ProgressUpper": 30,
+        "StartFlagName1": "FE91",
+        "IsTrueCondition1": true,
+        "IsAndOperation": false,
+        "StartFlagName2": "None",
+        "IsTrueCondition2": false,
+        "ScenarioProgress": 0
+      },
+      "EVENT_WestPort_MAPLIST_H21F0101_0": {
+        "SelfId": "EVENT_WestPort_MAPLIST_H21F0101_0",
+        "EventID": "WestPort_Out_SUB_0_SCENE_0010_010",
+        "TriggerType": "EEventTriggerType::SCENE",
+        "TriggerID": "MAPLIST_H21F0101",
+        "EventPriority": 0,
+        "ProgressLower": 0,
+        "ProgressUpper": 30,
+        "StartFlagName1": "None",
+        "IsTrueCondition1": false,
+        "IsAndOperation": false,
+        "StartFlagName2": "None",
+        "IsTrueCondition2": false,
+        "ScenarioProgress": 0
+      },
+      "EVENT_WestPort_MAPLIST_H21R0102_0": {
+        "SelfId": "EVENT_WestPort_MAPLIST_H21R0102_0",
+        "EventID": "WestPort_Out_Main_03_SUB_0_SCENE_0010_010",
+        "TriggerType": "EEventTriggerType::SCENE",
+        "TriggerID": "MAPLIST_H21R0102",
+        "EventPriority": 0,
+        "ProgressLower": 0,
+        "ProgressUpper": 30,
+        "StartFlagName1": "None",
+        "IsTrueCondition1": false,
+        "IsAndOperation": false,
+        "StartFlagName2": "None",
+        "IsTrueCondition2": false,
+        "ScenarioProgress": 0
+      }
+    }
+  }
+]

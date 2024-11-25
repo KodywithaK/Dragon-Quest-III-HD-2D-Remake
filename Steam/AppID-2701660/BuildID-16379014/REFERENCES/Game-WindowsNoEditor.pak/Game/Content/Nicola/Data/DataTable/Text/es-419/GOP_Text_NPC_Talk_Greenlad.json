@@ -1,0 +1,96 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_NPC_Talk_Greenlad",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Talk_Greenlad_House_SUB_0_ACTOR_0110_010_1": {
+        "SelfId": "Txt_Talk_Greenlad_House_SUB_0_ACTOR_0110_010_1",
+        "Text": "*: ¡Qué emoción! ¡Hace no sé cuántos años que no veía a otra persona!"
+      },
+      "Txt_Talk_Greenlad_House_SUB_0_ACTOR_0110_010_2": {
+        "SelfId": "Txt_Talk_Greenlad_House_SUB_0_ACTOR_0110_010_2",
+        "Text": "*: Los últimos humanos que vi fueron unos piratas que dejaron ese hueso siniestro. Unos tipos algo raros<...>"
+      },
+      "Txt_Talk_Greenlad_House_SUB_0_ACTOR_0110_010_3": {
+        "SelfId": "Txt_Talk_Greenlad_House_SUB_0_ACTOR_0110_010_3",
+        "Text": "*: En fin, ya que <IfSolo(estás aquí,tú y tu equipo están aquí)>, ¿me <IfSolo(podrías,podrían)> ayudar con algo? ¿<IfSolo(Has,Han)> oído hablar del cetro de transformación?"
+      },
+      "Txt_Talk_Greenlad_House_SUB_0_ACTOR_0110_010_4": {
+        "SelfId": "Txt_Talk_Greenlad_House_SUB_0_ACTOR_0110_010_4",
+        "Text": "*: Ah, ¿sí? ¡Maravilloso! Bueno, en pocas palabras, ¡quiero tener esa cosa en mis manos! ¡Jo, jo, jo! ¡Sí, soy un tipo directo y al grano!"
+      },
+      "Txt_Talk_Greenlad_House_SUB_0_ACTOR_0110_010_5": {
+        "SelfId": "Txt_Talk_Greenlad_House_SUB_0_ACTOR_0110_010_5",
+        "Text": "*: ¿Ah, no? Es como una varita mágica que te ayuda a transformarte en lo que quieras. Lo último que supe es que estaba en manos de un rey en algún sitio llamado Manoza."
+      },
+      "Txt_Talk_Greenlad_House_SUB_0_ACTOR_0110_010_6": {
+        "SelfId": "Txt_Talk_Greenlad_House_SUB_0_ACTOR_0110_010_6",
+        "Text": "*: Si <IfSolo(tienes,tienen)> la <66>llave suprema<99>, <IfSolo(puedes,pueden)> llegar allá en un parpadeo a través del viejo teleportal<...>"
+      },
+      "Txt_Talk_Greenlad_House_SUB_0_ACTOR_0110_020_1": {
+        "SelfId": "Txt_Talk_Greenlad_House_SUB_0_ACTOR_0110_020_1",
+        "Text": "*: ¡Vaya, vaya! ¡Pero si es el cetro de transformación! ¡Un objeto que he buscado por incontables años!"
+      },
+      "Txt_Talk_Greenlad_House_SUB_0_ACTOR_0110_020_2": {
+        "SelfId": "Txt_Talk_Greenlad_House_SUB_0_ACTOR_0110_020_2",
+        "Text": "*: ¡<IfSolo(Dámelo,Dénmelo)>, por favor, lo necesito! A cambio, puedo <IfSolo(darte,darles)><...> mmm<...> ¡Ah, ya sé! ¡¿Qué <IfSolo(te,les)> parece este hueso de marinero?! ¿Sí?"
+      },
+      "Txt_Talk_Greenlad_House_SUB_0_ACTOR_0110_020_3": {
+        "SelfId": "Txt_Talk_Greenlad_House_SUB_0_ACTOR_0110_020_3",
+        "Text": "*: ¿En serio? ¡Ja, pero qué idio<...>! Ejem, quiero decir, ¡magnífico! Aquí <IfSolo(tienes,tienen)>. ¡Un hueso de marinero casi sin usar!"
+      },
+      "Txt_Talk_Greenlad_House_SUB_0_ACTOR_0110_020_4": {
+        "SelfId": "Txt_Talk_Greenlad_House_SUB_0_ACTOR_0110_020_4",
+        "Text": "{LEADER} pierde el cetro de transformación y obtiene el hueso de marinero."
+      },
+      "Txt_Talk_Greenlad_House_SUB_0_ACTOR_0110_020_5": {
+        "SelfId": "Txt_Talk_Greenlad_House_SUB_0_ACTOR_0110_020_5",
+        "Text": "*: ¡Ah, muchas gracias! ¡Muchas, muchísimas, infinitas gracias! ¡<IfSolo(Has,Han)> hecho muy feliz a un pobre anciano! ¡Jo, jo, jo!"
+      },
+      "Txt_Talk_Greenlad_House_SUB_0_ACTOR_0110_020_6": {
+        "SelfId": "Txt_Talk_Greenlad_House_SUB_0_ACTOR_0110_020_6",
+        "Text": "*: ¿No <IfSolo(quieres,quieren)> intercambiar? Bueno<...> Mmm<...> ¡Ni modo! ¡Jo, jo, jo! Jo."
+      },
+      "Txt_Talk_Greenlad_House_SUB_0_ACTOR_0110_030_1": {
+        "SelfId": "Txt_Talk_Greenlad_House_SUB_0_ACTOR_0110_030_1",
+        "Text": "*: ¡Hola! ¡¿Qué tal?! ¡Casi nunca recibo visitas en estos lares!"
+      },
+      "Txt_Talk_Greenlad_House_SUB_0_ACTOR_0110_030_2": {
+        "SelfId": "Txt_Talk_Greenlad_House_SUB_0_ACTOR_0110_030_2",
+        "Text": "*: ¡Ah, pero no <IfSolo(te asustes,se asusten)>! ¡Soy yo! ¡¿Me <IfSolo(recuerdas,recuerdan)>?!"
+      },
+      "Txt_Talk_Greenlad_House_SUB_0_ACTOR_0110_040_1": {
+        "SelfId": "Txt_Talk_Greenlad_House_SUB_0_ACTOR_0110_040_1",
+        "Text": "*: ¿Quién <IfSolo(te crees,se creen)>, metiéndose así en los hogares de los demás? ¡Vámonos, largo!"
+      },
+      "Txt_Talk_Greenlad_House_SUB_0_ACTOR_0110_050_1": {
+        "SelfId": "Txt_Talk_Greenlad_House_SUB_0_ACTOR_0110_050_1",
+        "Text": "*: ¡Hola! ¡¿Qué tal?! ¿Qué <IfSolo(opinas,opinan)> del nuevo look? ¡Me moría de ganas de <IfSolo(mostrarte,mostrarles)>!"
+      },
+      "Txt_Talk_Greenlad_House_SUB_0_ACTOR_0110_060_1": {
+        "SelfId": "Txt_Talk_Greenlad_House_SUB_0_ACTOR_0110_060_1",
+        "Text": "*: ¡Humanos! ¡Asquerosos, repugnantes engendros! ¡Me los comeré a todos! ¡Grrrr! ¡Ñam, ñam, ñam! (slurp)"
+      },
+      "Txt_Talk_Greenlad_Out_SUB_0_VOLUME_0010_010_1": {
+        "SelfId": "Txt_Talk_Greenlad_Out_SUB_0_VOLUME_0010_010_1",
+        "Text": "En serio hay días que me <IfSolo(exasperas,exasperan)><...>"
+      },
+      "Txt_Talk_Greenlad_Out_SUB_0_VOLUME_0010_010_2": {
+        "SelfId": "Txt_Talk_Greenlad_Out_SUB_0_VOLUME_0010_010_2",
+        "Text": "{LEADER} tranquiliza al monstruo con una voz relajante y le habla sobre la reserva de monstruos de Moncho<...>"
+      },
+      "Txt_Talk_Greenlad_Out_SUB_0_VOLUME_0010_010_3": {
+        "SelfId": "Txt_Talk_Greenlad_Out_SUB_0_VOLUME_0010_010_3",
+        "Text": "¡Maravillantástico! Echaré un vistazo."
+      }
+    }
+  }
+]

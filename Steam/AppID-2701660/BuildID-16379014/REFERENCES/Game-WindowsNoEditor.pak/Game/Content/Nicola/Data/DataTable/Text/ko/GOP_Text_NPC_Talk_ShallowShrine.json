@@ -1,0 +1,44 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_NPC_Talk_ShallowShrine",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Talk_ShallowShrine_B1F_SUB_0_ACTOR_0110_010_7": {
+        "SelfId": "Txt_Talk_ShallowShrine_B1F_SUB_0_ACTOR_0110_010_7",
+        "Text": "반응이 없다.\r\n그냥 시체인 것 같다......"
+      },
+      "Txt_Talk_ShallowShrine_B1F_SUB_0_VOLUME_0110_010_1": {
+        "SelfId": "Txt_Talk_ShallowShrine_B1F_SUB_0_VOLUME_0110_010_1",
+        "Text": "나는 오래전 이야기를 전하는 자."
+      },
+      "Txt_Talk_ShallowShrine_B1F_SUB_0_VOLUME_0110_010_2": {
+        "SelfId": "Txt_Talk_ShallowShrine_B1F_SUB_0_VOLUME_0110_010_2",
+        "Text": "이시스 사막의 남쪽, 산맥 건너편.\r\n네크로곤드 산속 깊은 곳에\r\n기아가 동굴이 있으니."
+      },
+      "Txt_Talk_ShallowShrine_B1F_SUB_0_VOLUME_0110_010_3": {
+        "SelfId": "Txt_Talk_ShallowShrine_B1F_SUB_0_VOLUME_0110_010_3",
+        "Text": "모든 재앙은\r\n그 동굴로부터 나올지니."
+      },
+      "Txt_Talk_ShallowShrine_Out_MAIN_0_SCENE_0110_010_1": {
+        "SelfId": "Txt_Talk_ShallowShrine_Out_MAIN_0_SCENE_0110_010_1",
+        "Text": "무언가가 바닷속에\r\n가라앉아 있는 것이 보인다..."
+      },
+      "Txt_Talk_ShallowShrine_Out_MAIN_0_SCENE_0110_010_2": {
+        "SelfId": "Txt_Talk_ShallowShrine_Out_MAIN_0_SCENE_0110_010_2",
+        "Text": "{I_NAME}<IfKRVowel_I_NAME(를,을)> 바다에 띄우시겠습니까?"
+      },
+      "Txt_Talk_ShallowShrine_Out_MAIN_0_SCENE_0110_010_3": {
+        "SelfId": "Txt_Talk_ShallowShrine_Out_MAIN_0_SCENE_0110_010_3",
+        "Text": "{LEADER}<IfKRVowel_LEADER(는,은)> {I_NAME}<IfKRVowel_I_NAME(를,을)>\r\n바다에 띄웠다."
+      }
+    }
+  }
+]

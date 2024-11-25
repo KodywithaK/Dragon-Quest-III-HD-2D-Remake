@@ -1,0 +1,516 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_Registration",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Registration_UI_Warrior_Info": {
+        "SelfId": "Txt_Registration_UI_Warrior_Info",
+        "Text": "擁有傲人力量與體力的職業\r\n能夠裝備強力的武器\r\n在戰鬥中擔任攻防的核心"
+      },
+      "Txt_Registration_UI_Mage_Info": {
+        "SelfId": "Txt_Registration_UI_Mage_Info",
+        "Text": "智力極高的咒文專家\r\n運用變化多端的\r\n攻擊咒文打倒敵人"
+      },
+      "Txt_Registration_UI_Priest_Info": {
+        "SelfId": "Txt_Registration_UI_Priest_Info",
+        "Text": "可使用恢復咒文治癒夥伴\r\n也能使用武器作戰\r\n是萬能的支援角色"
+      },
+      "Txt_Registration_UI_MartialArtist_Info": {
+        "SelfId": "Txt_Registration_UI_MartialArtist_Info",
+        "Text": "武術高手\r\n身手矯健\r\n擅長打出會心一擊"
+      },
+      "Txt_Registration_UI_Merchant_Info": {
+        "SelfId": "Txt_Registration_UI_Merchant_Info",
+        "Text": "憑藉賺錢及鑑定\r\n為隊伍做出貢獻的\r\n理財專家"
+      },
+      "Txt_Registration_UI_Gadabout_Info": {
+        "SelfId": "Txt_Registration_UI_Gadabout_Info",
+        "Text": "會自顧自玩樂的怪人\r\n其玩耍把戲或許會帶來\r\n意想不到的效果？"
+      },
+      "Txt_Registration_UI_Sage_Info": {
+        "SelfId": "Txt_Registration_UI_Sage_Info",
+        "Text": "已達悟道境界之人\r\n完美掌握魔法師\r\n與僧侶的咒文"
+      },
+      "Txt_Registration_UI_Thief_Info": {
+        "SelfId": "Txt_Registration_UI_Thief_Info",
+        "Text": "能巧妙地躲開敵人\r\n並尋找出寶物的\r\n迷宮探險專家"
+      },
+      "Txt_Registration_UI_MonsterTamer_Info": {
+        "SelfId": "Txt_Registration_UI_MonsterTamer_Info",
+        "Text": "熟知怪物的生態\r\n會學習牠們使用的技能\r\n以獨特的風格作戰"
+      },
+      "Txt_Registration_UI_JpbSelect_Guide": {
+        "SelfId": "Txt_Registration_UI_JpbSelect_Guide",
+        "Text": "選擇職業"
+      },
+      "Txt_Registration_UI_Style_Menu_01": {
+        "SelfId": "Txt_Registration_UI_Style_Menu_01",
+        "Text": "外觀Ａ"
+      },
+      "Txt_Registration_UI_Style_Menu_02": {
+        "SelfId": "Txt_Registration_UI_Style_Menu_02",
+        "Text": "外觀Ｂ"
+      },
+      "Txt_Registration_UI_HairSelect_Guide": {
+        "SelfId": "Txt_Registration_UI_HairSelect_Guide",
+        "Text": "選擇髮色"
+      },
+      "Txt_Registration_UI_SeedUseSelect_01": {
+        "SelfId": "Txt_Registration_UI_SeedUseSelect_01",
+        "Text": "自己決定"
+      },
+      "Txt_Registration_UI_SeedUseSelect_02": {
+        "SelfId": "Txt_Registration_UI_SeedUseSelect_02",
+        "Text": "委託辦理"
+      },
+      "Txt_Registration_UI_Seed_Guide": {
+        "SelfId": "Txt_Registration_UI_Seed_Guide",
+        "Text": "還可以使用{0}次"
+      },
+      "Txt_Registration_UI_Personality_Blank": {
+        "SelfId": "Txt_Registration_UI_Personality_Blank",
+        "Text": "？？？"
+      },
+      "Txt_Registration_UI_VoiceSelect_Guide": {
+        "SelfId": "Txt_Registration_UI_VoiceSelect_Guide",
+        "Text": "選擇聲音"
+      },
+      "Txt_Registration_UI_VoiceSample_Guide": {
+        "SelfId": "Txt_Registration_UI_VoiceSample_Guide",
+        "Text": "試聽聲音"
+      },
+      "Txt_Registration_UI_VoicePattern_01_M": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_01_M",
+        "Text": "老實"
+      },
+      "Txt_Registration_UI_VoicePattern_02_M": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_02_M",
+        "Text": "淘氣"
+      },
+      "Txt_Registration_UI_VoicePattern_03_M": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_03_M",
+        "Text": "膽小"
+      },
+      "Txt_Registration_UI_VoicePattern_04_M": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_04_M",
+        "Text": "冷酷"
+      },
+      "Txt_Registration_UI_VoicePattern_05_M": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_05_M",
+        "Text": "熱血"
+      },
+      "Txt_Registration_UI_VoicePattern_06_M": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_06_M",
+        "Text": "滑稽"
+      },
+      "Txt_Registration_UI_VoicePattern_07_M": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_07_M",
+        "Text": "頑固"
+      },
+      "Txt_Registration_UI_VoicePattern_08_M": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_08_M",
+        "Text": "溫和"
+      },
+      "Txt_Registration_UI_VoicePattern_09_M": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_09_M",
+        "Text": "壞心眼"
+      },
+      "Txt_Registration_UI_VoicePattern_01_F": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_01_F",
+        "Text": "可愛"
+      },
+      "Txt_Registration_UI_VoicePattern_02_F": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_02_F",
+        "Text": "內向"
+      },
+      "Txt_Registration_UI_VoicePattern_03_F": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_03_F",
+        "Text": "桀驁不馴"
+      },
+      "Txt_Registration_UI_VoicePattern_04_F": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_04_F",
+        "Text": "清純"
+      },
+      "Txt_Registration_UI_VoicePattern_05_F": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_05_F",
+        "Text": "執著"
+      },
+      "Txt_Registration_UI_VoicePattern_06_F": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_06_F",
+        "Text": "辣妹"
+      },
+      "Txt_Registration_UI_VoicePattern_07_F": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_07_F",
+        "Text": "高雅"
+      },
+      "Txt_Registration_UI_VoicePattern_08_F": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_08_F",
+        "Text": "豪邁"
+      },
+      "Txt_Registration_UI_VoicePattern_09_F": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_09_F",
+        "Text": "魅惑"
+      },
+      "Txt_Registration_UI_DeleteGuide": {
+        "SelfId": "Txt_Registration_UI_DeleteGuide",
+        "Text": "選擇要刪除的夥伴"
+      },
+      "Txt_Registration_Message_Start": {
+        "SelfId": "Txt_Registration_Message_Start",
+        "Text": "這裡是冒險者登記處。"
+      },
+      "Txt_Registration_Message_First": {
+        "SelfId": "Txt_Registration_Message_First",
+        "Text": "我會幫忙找出你想結為夥伴的人，\r\n將其登記在冒險者名冊上。<KEY_WAIT>\r\n只要有登記在名冊上，\r\n就可以在露伊達酒館中喚來那位夥伴囉。"
+      },
+      "Txt_Registration_Message_Top": {
+        "SelfId": "Txt_Registration_Message_Top",
+        "Text": "要將新人登記在名冊上嗎？<NO_INPUT>"
+      },
+      "Txt_Registration_Message_NameSelect": {
+        "SelfId": "Txt_Registration_Message_NameSelect",
+        "Text": "想要找什麼樣的人呢？\r\n首先請將名字告訴我。<NO_INPUT>"
+      },
+      "Txt_Registration_Message_JobSelect": {
+        "SelfId": "Txt_Registration_Message_JobSelect",
+        "Text": "再來請告訴我職業。<NO_INPUT>"
+      },
+      "Txt_Registration_Message_StyleSelect": {
+        "SelfId": "Txt_Registration_Message_StyleSelect",
+        "Text": "你要找\r\n什麼類型的人呢？<NO_INPUT>"
+      },
+      "Txt_Registration_Message_LooksSelect": {
+        "SelfId": "Txt_Registration_Message_LooksSelect",
+        "Text": "是什麼樣的\r\n外觀呢？<NO_INPUT>"
+      },
+      "Txt_Registration_Message_HairColorSelect": {
+        "SelfId": "Txt_Registration_Message_HairColorSelect",
+        "Text": "想要什麼樣的\r\n髮色呢？<NO_INPUT>"
+      },
+      "Txt_Registration_Message_Confirm_01": {
+        "SelfId": "Txt_Registration_Message_Confirm_01",
+        "Text": "依據你提出的條件，\r\n找到了這個人，可以嗎？<NO_INPUT>"
+      },
+      "Txt_Registration_Message_UseSeedFirst": {
+        "SelfId": "Txt_Registration_Message_UseSeedFirst",
+        "Text": "國王特別賞賜{LEADER}的夥伴\r\n一些獎勵品。<KEY_WAIT>\r\n在力量種子、速度種子等6類種子之中，\r\n能夠選擇一些用在夥伴身上。<KEY_WAIT>\r\n至於要選擇哪些種子，\r\n可由{LEADER}做決定，\r\n也可以交給我來選擇。<KEY_WAIT>\r\n由{LEADER}做決定時，\r\n當然可以隨意選擇喜歡的種子使用……<KEY_WAIT>\r\n但交給我來選擇時，\r\n就會依我當時的心情來選囉。"
+      },
+      "Txt_Registration_Message_UseSeedSelect": {
+        "SelfId": "Txt_Registration_Message_UseSeedSelect",
+        "Text": "那麼，給{WORD}的\r\n種子如何使用呢？<NO_INPUT>"
+      },
+      "Txt_Registration_Message_UseSeedStart": {
+        "SelfId": "Txt_Registration_Message_UseSeedStart",
+        "Text": "有{VALUE}個種子可以使用。\r\n那麼請選擇吧。"
+      },
+      "Txt_Registration_Message_UseSeedAuto": {
+        "SelfId": "Txt_Registration_Message_UseSeedAuto",
+        "Text": "這樣啊。\r\n那就請交給我吧。"
+      },
+      "Txt_Registration_Message_Confirm_02": {
+        "SelfId": "Txt_Registration_Message_Confirm_02",
+        "Text": "這位是，{WORD}\r\n你還滿意嗎？"
+      },
+      "Txt_Registration_Message_VoiceSelect": {
+        "SelfId": "Txt_Registration_Message_VoiceSelect",
+        "Text": "最後請聽聽看\r\n這個人的聲音。<NO_INPUT>"
+      },
+      "Txt_Registration_Message_FinishConfirm": {
+        "SelfId": "Txt_Registration_Message_FinishConfirm",
+        "Text": "若直接結束的話，\r\n此人將不會被登記到名冊上，\r\n確定要這麼做嗎？<NO_INPUT>"
+      },
+      "Txt_Registration_Message_Confirm_03": {
+        "SelfId": "Txt_Registration_Message_Confirm_03",
+        "Text": "那就將{WORD}登記上去了。\r\n確定要繼續嗎？<NO_INPUT>"
+      },
+      "Txt_Registration_Message_AddBarMember": {
+        "SelfId": "Txt_Registration_Message_AddBarMember",
+        "Text": "那麼，你現在前往露伊達酒館\r\n就能讓{WORD}加入成為夥伴。"
+      },
+      "Txt_Registration_Message_RegistrationCancel": {
+        "SelfId": "Txt_Registration_Message_RegistrationCancel",
+        "Text": "這樣啊。\r\n真是遺憾。"
+      },
+      "Txt_Registration_Message_AddRegistrationConfirm": {
+        "SelfId": "Txt_Registration_Message_AddRegistrationConfirm",
+        "Text": "還要將其他人登記在名冊上嗎？<NO_INPUT>"
+      },
+      "Txt_Registration_Message_UseSeedAutoFinish": {
+        "SelfId": "Txt_Registration_Message_UseSeedAutoFinish",
+        "Text": "那麼……這就結束了。"
+      },
+      "Txt_Registration_Message_BarMemberMax": {
+        "SelfId": "Txt_Registration_Message_BarMemberMax",
+        "Text": "還想再登記的話，\r\n必須先將某人從名冊中刪除才行，\r\n可以嗎？<NO_INPUT>"
+      },
+      "Txt_Registration_Message_DeleteBarMemberSelect": {
+        "SelfId": "Txt_Registration_Message_DeleteBarMemberSelect",
+        "Text": "要刪除誰呢？<NO_INPUT>"
+      },
+      "Txt_Registration_Message_DeleteBarMemberConfirm": {
+        "SelfId": "Txt_Registration_Message_DeleteBarMemberConfirm",
+        "Text": "要刪除{WORD}是吧？\r\n這樣做的話，可能就再也見不到了，\r\n可以嗎？<NO_INPUT>"
+      },
+      "Txt_Registration_Message_DeleteBarMemberFinish": {
+        "SelfId": "Txt_Registration_Message_DeleteBarMemberFinish",
+        "Text": "那麼，雖然很遺憾，\r\n但還是將{WORD}刪除了。<KEY_WAIT>\r\n{WORD}的持有物品全部都放入\r\n那個袋子裡了。<KEY_WAIT>\r\n接下來……\r\n這樣就可以登記新人了。"
+      },
+      "Txt_Registration_Message_DeleteBarMemberCancel": {
+        "SelfId": "Txt_Registration_Message_DeleteBarMemberCancel",
+        "Text": "哎呀，改變主意了是嗎。\r\n這樣或許比較好呢。"
+      },
+      "Txt_Registration_Message_NameError_Duplication": {
+        "SelfId": "Txt_Registration_Message_NameError_Duplication",
+        "Text": "咦？\r\n那個人已經登記過了耶。\r\n要找其他人嗎？<NO_INPUT>"
+      },
+      "Txt_Registration_Message_NameError_Ban": {
+        "SelfId": "Txt_Registration_Message_NameError_Ban",
+        "Text": "不好意思，\r\n無法找到叫那個名字的人。<KEY_WAIT>\r\n要找其他人嗎？<NO_INPUT>"
+      },
+      "Txt_Registration_Message_NameError_Roto": {
+        "SelfId": "Txt_Registration_Message_NameError_Roto",
+        "Text": "羅德！？\r\n是羅德嗎！？\r\n真是不勝惶恐！<KEY_WAIT>\r\n羅德這個詞，\r\n意思是近乎神的人。<KEY_WAIT>\r\n聽說只有真正的勇者\r\n才夠資格報上這個名號。<KEY_WAIT>\r\n即使是我，\r\n也找不到那樣的人呀。"
+      },
+      "Txt_Registration_Message_RegistrationFinish": {
+        "SelfId": "Txt_Registration_Message_RegistrationFinish",
+        "Text": "那麼，當你想要新夥伴時，\r\n歡迎再來。"
+      },
+      "Txt_Registration_Message_Personality_01": {
+        "SelfId": "Txt_Registration_Message_Personality_01",
+        "Text": "這個人\r\n可不是一般的{WORD}呢。\r\n<KEY_WAIT>\r\n力量應該極容易獲得提升，\r\n智力則難以獲得提升吧。"
+      },
+      "Txt_Registration_Message_Personality_02": {
+        "SelfId": "Txt_Registration_Message_Personality_02",
+        "Text": "這個人\r\n可不是一般的{WORD}呢。\r\n<KEY_WAIT>\r\n力量應該極容易獲得提升，\r\n速度和智力及幸運則難以獲得提升吧。"
+      },
+      "Txt_Registration_Message_Personality_03": {
+        "SelfId": "Txt_Registration_Message_Personality_03",
+        "Text": "這個人\r\n可不是一般的{WORD}呢。\r\n<KEY_WAIT>\r\n力量應該更容易獲得提升，\r\n耐力略微容易獲得提升，\r\n智力和幸運則難以獲得提升吧。"
+      },
+      "Txt_Registration_Message_Personality_04": {
+        "SelfId": "Txt_Registration_Message_Personality_04",
+        "Text": "這個人\r\n可不是一般的{WORD}呢。\r\n<KEY_WAIT>\r\n力量應該極容易獲得提升，\r\n耐力則略微容易獲得提升吧。"
+      },
+      "Txt_Registration_Message_Personality_05": {
+        "SelfId": "Txt_Registration_Message_Personality_05",
+        "Text": "這個人\r\n可不是一般的{WORD}呢。\r\n<KEY_WAIT>\r\n耐力應該極容易獲得提升，\r\n力量和體力略微容易獲得提升，\r\n智力和速度則難以獲得提升吧。"
+      },
+      "Txt_Registration_Message_Personality_06": {
+        "SelfId": "Txt_Registration_Message_Personality_06",
+        "Text": "這個人\r\n可不是一般的{WORD}呢。\r\n<KEY_WAIT>\r\n耐力和力量應該更容易獲得提升，\r\n幸運則難以獲得提升吧。"
+      },
+      "Txt_Registration_Message_Personality_07": {
+        "SelfId": "Txt_Registration_Message_Personality_07",
+        "Text": "這個人\r\n可不是一般的{WORD}呢。\r\n<KEY_WAIT>\r\n力量和速度應該更容易獲得提升吧。"
+      },
+      "Txt_Registration_Message_Personality_08": {
+        "SelfId": "Txt_Registration_Message_Personality_08",
+        "Text": "這個人\r\n可不是一般的{WORD}呢。\r\n<KEY_WAIT>\r\n速度和體力應該更容易獲得提升，\r\n耐力則難以獲得提升吧。"
+      },
+      "Txt_Registration_Message_Personality_09": {
+        "SelfId": "Txt_Registration_Message_Personality_09",
+        "Text": "這個人\r\n可不是一般的{WORD}呢。\r\n<KEY_WAIT>\r\n體力和力量應該更容易獲得提升吧。"
+      },
+      "Txt_Registration_Message_Personality_10": {
+        "SelfId": "Txt_Registration_Message_Personality_10",
+        "Text": "這個人\r\n可不是一般的{WORD}呢。\r\n<KEY_WAIT>\r\n速度應該更容易獲得提升吧。"
+      },
+      "Txt_Registration_Message_Personality_11": {
+        "SelfId": "Txt_Registration_Message_Personality_11",
+        "Text": "這個人\r\n可不是一般的{WORD}呢。\r\n<KEY_WAIT>\r\n速度和體力應該\r\n略微容易獲得提升吧。"
+      },
+      "Txt_Registration_Message_Personality_12": {
+        "SelfId": "Txt_Registration_Message_Personality_12",
+        "Text": "這個人\r\n可不是一般的{WORD}呢。\r\n<KEY_WAIT>\r\n耐力和體力應該\r\n略微容易獲得提升，\r\n速度則難以獲得提升吧。"
+      },
+      "Txt_Registration_Message_Personality_13": {
+        "SelfId": "Txt_Registration_Message_Personality_13",
+        "Text": "這個人\r\n可不是一般的{WORD}呢。\r\n<KEY_WAIT>\r\n幸運應該略微容易獲得提升，\r\n智力則難以獲得提升吧。"
+      },
+      "Txt_Registration_Message_Personality_14": {
+        "SelfId": "Txt_Registration_Message_Personality_14",
+        "Text": "這個人\r\n可不是一般的{WORD}呢。\r\n<KEY_WAIT>\r\n耐力和體力應該更容易獲得提升，\r\n速度和智力及幸運則難以獲得提升吧"
+      },
+      "Txt_Registration_Message_Personality_15": {
+        "SelfId": "Txt_Registration_Message_Personality_15",
+        "Text": "這個人\r\n可不是一般的{WORD}呢。\r\n<KEY_WAIT>\r\n幸運應該極容易獲得提升，\r\n智力略微容易獲得提升，\r\n耐力則難以獲得提升吧。"
+      },
+      "Txt_Registration_Message_Personality_16": {
+        "SelfId": "Txt_Registration_Message_Personality_16",
+        "Text": "這個人\r\n可不是一般的{WORD}呢。\r\n<KEY_WAIT>\r\n能力值應該會均衡提升吧。"
+      },
+      "Txt_Registration_Message_Personality_17": {
+        "SelfId": "Txt_Registration_Message_Personality_17",
+        "Text": "這個人\r\n可不是一般的{WORD}呢。\r\n<KEY_WAIT>\r\n能力值應該會均衡提升吧。"
+      },
+      "Txt_Registration_Message_Personality_18": {
+        "SelfId": "Txt_Registration_Message_Personality_18",
+        "Text": "這個人\r\n可不是一般的{WORD}呢。\r\n<KEY_WAIT>\r\n速度應該極容易獲得提升吧。"
+      },
+      "Txt_Registration_Message_Personality_19": {
+        "SelfId": "Txt_Registration_Message_Personality_19",
+        "Text": "這個人\r\n可不是一般的{WORD}呢。\r\n<KEY_WAIT>\r\n速度應該更容易獲得提升吧。"
+      },
+      "Txt_Registration_Message_Personality_20": {
+        "SelfId": "Txt_Registration_Message_Personality_20",
+        "Text": "這個人\r\n可不是一般的{WORD}呢。\r\n<KEY_WAIT>\r\n智力應該更容易獲得提升，\r\n耐力和速度則略微容易獲得提升吧。"
+      },
+      "Txt_Registration_Message_Personality_21": {
+        "SelfId": "Txt_Registration_Message_Personality_21",
+        "Text": "這個人\r\n可不是一般的{WORD}呢。\r\n<KEY_WAIT>\r\n智力應該極容易獲得提升，\r\n速度則更容易獲得提升吧。"
+      },
+      "Txt_Registration_Message_Personality_22": {
+        "SelfId": "Txt_Registration_Message_Personality_22",
+        "Text": "這個人\r\n可不是一般的{WORD}呢。\r\n<KEY_WAIT>\r\n幸運應該極容易獲得提升，\r\n速度更容易獲得提升，\r\n力量和體力則難以獲得提升吧。"
+      },
+      "Txt_Registration_Message_Personality_23": {
+        "SelfId": "Txt_Registration_Message_Personality_23",
+        "Text": "這個人\r\n可不是一般的{WORD}呢。\r\n<KEY_WAIT>\r\n力量和耐力及速度\r\n應該略微容易獲得提升吧。"
+      },
+      "Txt_Registration_Message_Personality_24": {
+        "SelfId": "Txt_Registration_Message_Personality_24",
+        "Text": "這個人\r\n可不是一般的{WORD}呢。\r\n<KEY_WAIT>\r\n速度應該略微容易獲得提升吧。"
+      },
+      "Txt_Registration_Message_Personality_25": {
+        "SelfId": "Txt_Registration_Message_Personality_25",
+        "Text": "這個人\r\n可不是一般的{WORD}呢。\r\n<KEY_WAIT>\r\n幸運應該更容易獲得提升，\r\n智力略微容易獲得提升，\r\n耐力則難以獲得提升吧。"
+      },
+      "Txt_Registration_Message_Personality_26": {
+        "SelfId": "Txt_Registration_Message_Personality_26",
+        "Text": "這個人\r\n可不是一般的{WORD}呢。\r\n<KEY_WAIT>\r\n智力和幸運應該\r\n略微容易獲得提升吧。"
+      },
+      "Txt_Registration_Message_Personality_27": {
+        "SelfId": "Txt_Registration_Message_Personality_27",
+        "Text": "這個人\r\n可不是一般的{WORD}呢。\r\n<KEY_WAIT>\r\n體力和耐力應該極容易獲得提升，\r\n幸運則難以獲得提升吧。"
+      },
+      "Txt_Registration_Message_Personality_28": {
+        "SelfId": "Txt_Registration_Message_Personality_28",
+        "Text": "這個人\r\n可不是一般的{WORD}呢。\r\n<KEY_WAIT>\r\n耐力和體力應該\r\n極容易獲得提升吧。"
+      },
+      "Txt_Registration_Message_Personality_29": {
+        "SelfId": "Txt_Registration_Message_Personality_29",
+        "Text": "這個人\r\n可不是一般的{WORD}呢。\r\n<KEY_WAIT>\r\n體力應該更容易獲得提升吧。"
+      },
+      "Txt_Registration_Message_Personality_30": {
+        "SelfId": "Txt_Registration_Message_Personality_30",
+        "Text": "這個人\r\n可不是一般的{WORD}呢。\r\n<KEY_WAIT>\r\n耐力和體力應該更容易獲得提升，\r\n幸運則難以獲得提升吧。"
+      },
+      "Txt_Registration_Message_Personality_31": {
+        "SelfId": "Txt_Registration_Message_Personality_31",
+        "Text": "這個人\r\n可不是一般的{WORD}呢。\r\n<KEY_WAIT>\r\n力量應該更容易獲得提升，\r\n耐力和體力則略微容易獲得提升吧。"
+      },
+      "Txt_Registration_Message_Personality_32": {
+        "SelfId": "Txt_Registration_Message_Personality_32",
+        "Text": "這個人\r\n可不是一般的{WORD}呢。\r\n<KEY_WAIT>\r\n體力應該略微容易獲得提升吧。"
+      },
+      "Txt_Registration_Message_Personality_33": {
+        "SelfId": "Txt_Registration_Message_Personality_33",
+        "Text": "這個人\r\n可不是一般的{WORD}呢。\r\n<KEY_WAIT>\r\n體力應該更容易獲得提升，\r\n幸運略微容易獲得提升，\r\n耐力和智力則難以獲得提升吧。"
+      },
+      "Txt_Registration_Message_Personality_34": {
+        "SelfId": "Txt_Registration_Message_Personality_34",
+        "Text": "這個人\r\n可不是一般的{WORD}呢。\r\n<KEY_WAIT>\r\n智力應該極容易獲得提升吧。"
+      },
+      "Txt_Registration_Message_Personality_35": {
+        "SelfId": "Txt_Registration_Message_Personality_35",
+        "Text": "這個人\r\n可不是一般的{WORD}呢。\r\n<KEY_WAIT>\r\n智力應該更容易獲得提升，\r\n耐力則略微容易獲得提升吧。"
+      },
+      "Txt_Registration_Message_Personality_36": {
+        "SelfId": "Txt_Registration_Message_Personality_36",
+        "Text": "這個人\r\n可不是一般的{WORD}呢。\r\n<KEY_WAIT>\r\n速度和智力應該\r\n略微容易獲得提升吧。"
+      },
+      "Txt_Registration_Message_Personality_37": {
+        "SelfId": "Txt_Registration_Message_Personality_37",
+        "Text": "這個人\r\n可不是一般的{WORD}呢。\r\n<KEY_WAIT>\r\n幸運應該略微容易獲得提升吧。"
+      },
+      "Txt_Registration_Message_Personality_38": {
+        "SelfId": "Txt_Registration_Message_Personality_38",
+        "Text": "這個人\r\n可不是一般的{WORD}呢。\r\n<KEY_WAIT>\r\n幸運應該極容易獲得提升，\r\n速度則略微容易獲得提升吧。"
+      },
+      "Txt_Registration_Message_Personality_39": {
+        "SelfId": "Txt_Registration_Message_Personality_39",
+        "Text": "這個人\r\n可不是一般的{WORD}呢。\r\n<KEY_WAIT>\r\n幸運應該極容易獲得提升吧。"
+      },
+      "Txt_Registration_Message_Personality_40": {
+        "SelfId": "Txt_Registration_Message_Personality_40",
+        "Text": "這個人\r\n可不是一般的{WORD}呢。\r\n<KEY_WAIT>\r\n速度應該更容易獲得提升，\r\n智力和幸運則難以獲得提升吧。"
+      },
+      "Txt_Registration_Message_Personality_41": {
+        "SelfId": "Txt_Registration_Message_Personality_41",
+        "Text": "這個人\r\n可不是一般的{WORD}呢。\r\n<KEY_WAIT>\r\n耐力和體力應該更容易獲得提升，\r\n幸運則難以獲得提升吧。"
+      },
+      "Txt_Registration_Message_Personality_42": {
+        "SelfId": "Txt_Registration_Message_Personality_42",
+        "Text": "這個人\r\n可不是一般的{WORD}呢。\r\n<KEY_WAIT>\r\n智力和幸運應該更容易獲得提升，\r\n速度則難以獲得提升吧。"
+      },
+      "Txt_Registration_Message_Personality_43": {
+        "SelfId": "Txt_Registration_Message_Personality_43",
+        "Text": "這個人\r\n可不是一般的{WORD}呢。\r\n<KEY_WAIT>\r\n速度應該更容易獲得提升，\r\n智力和幸運則略微容易獲得提升吧。"
+      },
+      "Txt_Registration_Message_Personality_44": {
+        "SelfId": "Txt_Registration_Message_Personality_44",
+        "Text": "這個人\r\n可不是一般的{WORD}呢。\r\n<KEY_WAIT>\r\n體力應該更容易獲得提升，\r\n智力略微容易獲得提升，\r\n速度則難以獲得提升吧。"
+      },
+      "Txt_Registration_Message_Personality_45": {
+        "SelfId": "Txt_Registration_Message_Personality_45",
+        "Text": "這個人\r\n可不是一般的{WORD}呢。\r\n<KEY_WAIT>\r\n能力值應該會均衡提升吧。"
+      },
+      "Txt_Registration_Message_Personality_46": {
+        "SelfId": "Txt_Registration_Message_Personality_46",
+        "Text": "這個人\r\n可不是一般的{WORD}呢。\r\n<KEY_WAIT>\r\n速度和幸運應該更容易獲得提升，\r\n其他能力值也會均衡提升吧。"
+      },
+      "Txt_Registration_Message_DeleteBarMemberError_Hero": {
+        "SelfId": "Txt_Registration_Message_DeleteBarMemberError_Hero",
+        "Text": "咦，{HERO}！？<KEY_WAIT>\r\n請不要開玩笑了。\r\n要把勇者大人刪除，\r\n這等可怕的事我可辦不到。"
+      },
+      "Txt_Registration_Message_DeleteBarMemberError_Mer": {
+        "SelfId": "Txt_Registration_Message_DeleteBarMemberError_Mer",
+        "Text": "不好意思，那個人無法刪除。"
+      },
+      "Txt_Registration_Message_AddPartyMember_Confirm": {
+        "SelfId": "Txt_Registration_Message_AddPartyMember_Confirm",
+        "Text": "已確實登記在冊。\r\n要直接帶{WORD}\r\n去冒險嗎？<NO_INPUT>"
+      },
+      "Txt_Registration_Message_PartyMemberMAX": {
+        "SelfId": "Txt_Registration_Message_PartyMemberMAX",
+        "Text": "但隊伍似乎無法\r\n再帶更多人了……<KEY_WAIT>\r\n要讓其中一位留在酒館待命嗎？<NO_INPUT>"
+      },
+      "Txt_Registration_Message_DropOffConfirm": {
+        "SelfId": "Txt_Registration_Message_DropOffConfirm",
+        "Text": "要讓哪一位留下來待命？<NO_INPUT>"
+      },
+      "Txt_Registration_Message_DropOffError": {
+        "SelfId": "Txt_Registration_Message_DropOffError",
+        "Text": "不好意思，\r\n那個人無法離隊。"
+      },
+      "Txt_Registration_Message_DropOffFinish": {
+        "SelfId": "Txt_Registration_Message_DropOffFinish",
+        "Text": "那這就請{WORD}離隊囉。<KEY_WAIT>\r\n持有裝備以外的\r\n道具都會幫你\r\n放進那個袋子裡。"
+      },
+      "Txt_Registration_Message_PickUp": {
+        "SelfId": "Txt_Registration_Message_PickUp",
+        "Text": "{WORD}加入成為夥伴了！"
+      },
+      "Txt_Registration_Message_AutoSeedUse": {
+        "SelfId": "Txt_Registration_Message_AutoSeedUse",
+        "Text": "{TARGET}的{WORD}\r\n提升{VALUE}點！\r\n<WAIT>[1]<NO_INPUT>"
+      },
+      "Txt_Registration_Start": {
+        "SelfId": "Txt_Registration_Start",
+        "Text": "這裡是冒險者登記處。"
+      },
+      "Txt_Registration_First": {
+        "SelfId": "Txt_Registration_First",
+        "Text": "我會幫你找出你想結為夥伴的人，\r\n將其登記在冒險者名冊上。"
+      }
+    }
+  }
+]

@@ -1,0 +1,151 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Event_RubissTower",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Event_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "EVENT_RubissTower_CommonTest_0": {
+        "SelfId": "EVENT_RubissTower_CommonTest_0",
+        "EventID": "Common_MAIN_0_VOLUME_0010_010",
+        "TriggerType": "EEventTriggerType::VOLUME",
+        "TriggerID": "CommonTest",
+        "EventPriority": 0,
+        "ProgressLower": 0,
+        "ProgressUpper": 30,
+        "StartFlagName1": "FE157",
+        "IsTrueCondition1": false,
+        "IsAndOperation": false,
+        "StartFlagName2": "None",
+        "IsTrueCondition2": false,
+        "ScenarioProgress": 0
+      },
+      "EVENT_RubissTower_RubissTower_1F_Entrance_Arakure_01_L1_0": {
+        "SelfId": "EVENT_RubissTower_RubissTower_1F_Entrance_Arakure_01_L1_0",
+        "EventID": "RubissTower_1F_Entrance_SUB_0_ACTOR_0110_010",
+        "TriggerType": "EEventTriggerType::ACTOR",
+        "TriggerID": "RubissTower_1F_Entrance_Arakure_01_L1",
+        "EventPriority": 0,
+        "ProgressLower": 0,
+        "ProgressUpper": 30,
+        "StartFlagName1": "None",
+        "IsTrueCondition1": false,
+        "IsAndOperation": false,
+        "StartFlagName2": "None",
+        "IsTrueCondition2": false,
+        "ScenarioProgress": 0
+      },
+      "EVENT_RubissTower_RubissTower_1F_Entrance_Oldman_01_L1_0": {
+        "SelfId": "EVENT_RubissTower_RubissTower_1F_Entrance_Oldman_01_L1_0",
+        "EventID": "RubissTower_1F_Entrance_SUB_0_ACTOR_0210_010",
+        "TriggerType": "EEventTriggerType::ACTOR",
+        "TriggerID": "RubissTower_1F_Entrance_Oldman_01_L1",
+        "EventPriority": 0,
+        "ProgressLower": 0,
+        "ProgressUpper": 30,
+        "StartFlagName1": "None",
+        "IsTrueCondition1": false,
+        "IsAndOperation": false,
+        "StartFlagName2": "None",
+        "IsTrueCondition2": false,
+        "ScenarioProgress": 0
+      },
+      "EVENT_RubissTower_RubissTower_1F_Arakure_01_L3_0": {
+        "SelfId": "EVENT_RubissTower_RubissTower_1F_Arakure_01_L3_0",
+        "EventID": "RubissTower_1F_SUB_0_ACTOR_0120_010",
+        "TriggerType": "EEventTriggerType::ACTOR",
+        "TriggerID": "RubissTower_1F_Arakure_01_L3",
+        "EventPriority": 0,
+        "ProgressLower": 0,
+        "ProgressUpper": 30,
+        "StartFlagName1": "None",
+        "IsTrueCondition1": false,
+        "IsAndOperation": false,
+        "StartFlagName2": "None",
+        "IsTrueCondition2": false,
+        "ScenarioProgress": 0
+      },
+      "EVENT_RubissTower_RubissTower_1FA_OldMan_01_L3_0": {
+        "SelfId": "EVENT_RubissTower_RubissTower_1FA_OldMan_01_L3_0",
+        "EventID": "RubissTower_1FA_SUB_0_ACTOR_0120_010",
+        "TriggerType": "EEventTriggerType::ACTOR",
+        "TriggerID": "RubissTower_1FA_OldMan_01_L3",
+        "EventPriority": 0,
+        "ProgressLower": 0,
+        "ProgressUpper": 30,
+        "StartFlagName1": "None",
+        "IsTrueCondition1": false,
+        "IsAndOperation": false,
+        "StartFlagName2": "None",
+        "IsTrueCondition2": false,
+        "ScenarioProgress": 0
+      },
+      "EVENT_RubissTower_RubissTower_1FA_MERMANIAC_01_L3_0": {
+        "SelfId": "EVENT_RubissTower_RubissTower_1FA_MERMANIAC_01_L3_0",
+        "EventID": "RubissTower_1FA_SUB_0_MBR_SCOUT_0210_010",
+        "TriggerType": "EEventTriggerType::MBR_SCOUT",
+        "TriggerID": "RubissTower_1FA_MERMANIAC_01_L3",
+        "EventPriority": 0,
+        "ProgressLower": 0,
+        "ProgressUpper": 30,
+        "StartFlagName1": "None",
+        "IsTrueCondition1": false,
+        "IsAndOperation": false,
+        "StartFlagName2": "None",
+        "IsTrueCondition2": false,
+        "ScenarioProgress": 0
+      },
+      "EVENT_RubissTower_RubissTower_1FC_CHIMAERA_00_L3_0": {
+        "SelfId": "EVENT_RubissTower_RubissTower_1FC_CHIMAERA_00_L3_0",
+        "EventID": "RubissTower_1FC_SUB_0_MBR_SCOUT_0010_010",
+        "TriggerType": "EEventTriggerType::MBR_SCOUT",
+        "TriggerID": "RubissTower_1FC_CHIMAERA_00_L3",
+        "EventPriority": 0,
+        "ProgressLower": 0,
+        "ProgressUpper": 30,
+        "StartFlagName1": "None",
+        "IsTrueCondition1": false,
+        "IsAndOperation": false,
+        "StartFlagName2": "None",
+        "IsTrueCondition2": false,
+        "ScenarioProgress": 0
+      },
+      "EVENT_RubissTower_RubissTower_5FA_Boss_0": {
+        "SelfId": "EVENT_RubissTower_RubissTower_5FA_Boss_0",
+        "EventID": "RubissTower_5FA_MAIN_0_VOLUME_0010_010",
+        "TriggerType": "EEventTriggerType::VOLUME",
+        "TriggerID": "RubissTower_5FA_Boss",
+        "EventPriority": 0,
+        "ProgressLower": 0,
+        "ProgressUpper": 30,
+        "StartFlagName1": "FE870",
+        "IsTrueCondition1": false,
+        "IsAndOperation": false,
+        "StartFlagName2": "None",
+        "IsTrueCondition2": false,
+        "ScenarioProgress": 0
+      },
+      "EVENT_RubissTower_BATTLE_EVENT_NEWBOSS_RUBIS_TOWER_1_0": {
+        "SelfId": "EVENT_RubissTower_BATTLE_EVENT_NEWBOSS_RUBIS_TOWER_1_0",
+        "EventID": "RubissTower_5FA_MAIN_0_BATTLE_END_0010_020",
+        "TriggerType": "EEventTriggerType::BATTLE_END",
+        "TriggerID": "BATTLE_EVENT_NEWBOSS_RUBIS_TOWER_1",
+        "EventPriority": 0,
+        "ProgressLower": 0,
+        "ProgressUpper": 30,
+        "StartFlagName1": "None",
+        "IsTrueCondition1": false,
+        "IsAndOperation": false,
+        "StartFlagName2": "None",
+        "IsTrueCondition2": false,
+        "ScenarioProgress": 0
+      }
+    }
+  }
+]

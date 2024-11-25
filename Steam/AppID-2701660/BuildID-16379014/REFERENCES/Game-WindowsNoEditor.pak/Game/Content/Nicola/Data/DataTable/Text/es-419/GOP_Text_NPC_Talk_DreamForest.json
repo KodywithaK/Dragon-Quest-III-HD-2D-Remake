@@ -1,0 +1,60 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_NPC_Talk_DreamForest",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Talk_DreamForest_MAIN_0_ACTOR_0110_010_1": {
+        "SelfId": "Txt_Talk_DreamForest_MAIN_0_ACTOR_0110_010_1",
+        "Text": "*: ¡Jo, jo, jo, jo!\r\n¡Pareces un poco <IfGender_HERO(perdido,perdida,)>, <IfGender_HERO(jovencito,jovencita,)>!"
+      },
+      "Txt_Talk_DreamForest_MAIN_0_ACTOR_0110_010_2": {
+        "SelfId": "Txt_Talk_DreamForest_MAIN_0_ACTOR_0110_010_2",
+        "Text": "*: Bueno, si te diriges al oeste, que es a la izquierda, seguro que encuentras la salida del bosque."
+      },
+      "Txt_Talk_DreamForest_MAIN_0_ACTOR_0110_010_3": {
+        "SelfId": "Txt_Talk_DreamForest_MAIN_0_ACTOR_0110_010_3",
+        "Text": "*: Oye, si te topas con una roca grande en tu camino de salida, ¿serías tan amable de empujarla hasta aquí, por favor?"
+      },
+      "Txt_Talk_DreamForest_MAIN_0_ACTOR_0110_010_4": {
+        "SelfId": "Txt_Talk_DreamForest_MAIN_0_ACTOR_0110_010_4",
+        "Text": "*: ¡Te compensaré muy bien por el esfuerzo!"
+      },
+      "Txt_Talk_DreamForest_MAIN_0_ACTOR_0110_020_1": {
+        "SelfId": "Txt_Talk_DreamForest_MAIN_0_ACTOR_0110_020_1",
+        "Text": "*: ¡El camino a casa es por el oeste, <IfGender_HERO(jovencito,jovencita,)>!"
+      },
+      "Txt_Talk_DreamForest_MAIN_0_VOLUME_0010_010_1": {
+        "SelfId": "Txt_Talk_DreamForest_MAIN_0_VOLUME_0010_010_1",
+        "Text": "*: ¡Oh, jo, jo! Así que encontraste una, ¿eh?\r\n¡Vaya cosa! ¡Hiciste muy feliz a este viejo!"
+      },
+      "Txt_Talk_DreamForest_MAIN_0_VOLUME_0010_010_2": {
+        "SelfId": "Txt_Talk_DreamForest_MAIN_0_VOLUME_0010_010_2",
+        "Text": "*: Ahora, como lo prometí, ¡una generosa recompensa!\r\nLa espléndida suma de<...> ¡Diez brillantes monedas de oro!"
+      },
+      "Txt_Talk_DreamForest_MAIN_0_VOLUME_0010_010_3": {
+        "SelfId": "Txt_Talk_DreamForest_MAIN_0_VOLUME_0010_010_3",
+        "Text": "{LEADER} obtiene 10 monedas de oro."
+      },
+      "Txt_Talk_DreamForest_MAIN_0_VOLUME_0010_020_1": {
+        "SelfId": "Txt_Talk_DreamForest_MAIN_0_VOLUME_0010_020_1",
+        "Text": "*: ¡Vaya! ¡Con esta ya son cuarenta rocas que me traes! ¡Eres toda una bestia de carga!"
+      },
+      "Txt_Talk_DreamForest_MAIN_0_VOLUME_0010_020_2": {
+        "SelfId": "Txt_Talk_DreamForest_MAIN_0_VOLUME_0010_020_2",
+        "Text": "*: Te diré algo, como regalo especial, ¡esta vez te daré cincuenta monedas de oro!"
+      },
+      "Txt_Talk_DreamForest_MAIN_0_VOLUME_0010_020_3": {
+        "SelfId": "Txt_Talk_DreamForest_MAIN_0_VOLUME_0010_020_3",
+        "Text": "{LEADER} obtiene 50 monedas de oro."
+      }
+    }
+  }
+]

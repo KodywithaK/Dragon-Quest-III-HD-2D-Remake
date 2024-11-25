@@ -1,0 +1,96 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_AppearanceChange",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_AppearanceChange_Message_Start": {
+        "SelfId": "Txt_AppearanceChange_Message_Start",
+        "Text": "よ。また　<RUBY>来[き]てくれたんだね。\r\n\r\n<KEY_WAIT>\r\nじゃ　サッソク　<RUBY>見[み]た<RUBY>目変[めか]えてく？<NO_INPUT>"
+      },
+      "Txt_AppearanceChange_Message_First": {
+        "SelfId": "Txt_AppearanceChange_Message_First",
+        "Text": "アタシ　ホミちょ。\r\nこう<RUBY>見[み]えて　ファッションデザイナーなんだ。\r\n<KEY_WAIT>\r\nその<RUBY>髪[かみ]　<RUBY>切[き]ったり　<RUBY>染[そ]めたり\r\nなんなら　<RUBY>声[こえ]も<RUBY>変[か]えたり　<RUBY>色々[いろいろ]できるよ。\r\n<KEY_WAIT>\r\nアンタも<RUBY>見[み]た<RUBY>目[め]　<RUBY>変[か]えたくない？\r\nだったら　アタシに<RUBY>任[まか]せなよ。\r\nま　ある<RUBY>程度[ていど]のゴールドは　もらうけどね。<KEY_WAIT>\r\nで……　サッソクだけど\r\n<RUBY>見[み]た<RUBY>目[め]を<RUBY>変[か]えたい<RUBY>人[ひと]とか　いる？<NO_INPUT>"
+      },
+      "Txt_AppearanceChange_Message_Top": {
+        "SelfId": "Txt_AppearanceChange_Message_Top",
+        "Text": "<RUBY>見[み]た<RUBY>目[め]を<RUBY>変[か]えたい<RUBY>人[ひと]とか　いる？"
+      },
+      "Txt_AppearanceChange_Message_NameSelect": {
+        "SelfId": "Txt_AppearanceChange_Message_NameSelect",
+        "Text": "<RUBY>誰[だれ]にしよっか？<NO_INPUT>"
+      },
+      "Txt_AppearanceChange_Message_LooksSelect": {
+        "SelfId": "Txt_AppearanceChange_Message_LooksSelect",
+        "Text": "{ACTOR}だね。\r\nどんな<RUBY>見[み]た<RUBY>目[め]に　<RUBY>変更[へんこう]すんの？<NO_INPUT>"
+      },
+      "Txt_AppearanceChange_Message_HairColorSelect": {
+        "SelfId": "Txt_AppearanceChange_Message_HairColorSelect",
+        "Text": "<RUBY>髪[かみ]の<RUBY>色[いろ]は　どうしよっか？<NO_INPUT>"
+      },
+      "Txt_AppearanceChange_Message_HairColorSelectHero": {
+        "SelfId": "Txt_AppearanceChange_Message_HairColorSelectHero",
+        "Text": "あー　{HERO}は　その<RUBY>髪型[かみがた]が\r\nイチバンいいよ。<RUBY>髪[かみ]の<RUBY>色[いろ]だけ　<RUBY>変[か]えよっか。\r\nどんな<RUBY>色[いろ]にする？<NO_INPUT>"
+      },
+      "Txt_AppearanceChange_Message_VoiceSelect": {
+        "SelfId": "Txt_AppearanceChange_Message_VoiceSelect",
+        "Text": "<RUBY>声[こえ]は　どうする？"
+      },
+      "Txt_AppearanceChange_Message_NoChange": {
+        "SelfId": "Txt_AppearanceChange_Message_NoChange",
+        "Text": "それじゃ　<RUBY>何[なに]も　<RUBY>変[か]わらなくない？\r\n<RUBY>変[か]えなくて　いいの？<NO_INPUT>"
+      },
+      "Txt_AppearanceChange_Message_LooksChangeConfirm": {
+        "SelfId": "Txt_AppearanceChange_Message_LooksChangeConfirm",
+        "Text": "オッケー　この<RUBY>見[み]た<RUBY>目[め]に　すんのね。\r\nじゃ　{VALUE}ゴールド　ヨロシクね。"
+      },
+      "Txt_AppearanceChange_Message_LooksChangeStart": {
+        "SelfId": "Txt_AppearanceChange_Message_LooksChangeStart",
+        "Text": "ほい　サンキュ。\r\nじゃあ　ちょっと<RUBY>待[ま]ってて～"
+      },
+      "Txt_AppearanceChange_Message_LooksChangeFinish": {
+        "SelfId": "Txt_AppearanceChange_Message_LooksChangeFinish",
+        "Text": "はい　<RUBY>終[お]わりっと。"
+      },
+      "Txt_AppearanceChange_Message_CanNotChangeDeath": {
+        "SelfId": "Txt_AppearanceChange_Message_CanNotChangeDeath",
+        "Text": "いやー……　さすがのアタシでも\r\n<RUBY>死[し]んじゃってる<RUBY>人[ひと]は　ちょいムズイかな……"
+      },
+      "Txt_AppearanceChange_Message_CanNotChangeHero": {
+        "SelfId": "Txt_AppearanceChange_Message_CanNotChangeHero",
+        "Text": "うーん…　{HERO}さあ。\r\nアンタ<RUBY>結構[けっこう]　イイ<RUBY>見[み]た<RUBY>目[め]してるんだよね。\r\nあんま　イジんない<RUBY>方[ほう]が　いいと<RUBY>思[おも]うな。"
+      },
+      "Txt_AppearanceChange_Message_Shortage": {
+        "SelfId": "Txt_AppearanceChange_Message_Shortage",
+        "Text": "でもアンタ　お<RUBY>金[かね]　ゼンゼン<RUBY>持[も]ってないね……\r\n{VALUE}ゴールドくらいは　もらいたいかな。"
+      },
+      "Txt_AppearanceChange_Message_Cancel": {
+        "SelfId": "Txt_AppearanceChange_Message_Cancel",
+        "Text": "ん　やめるの？\r\n<RUBY>了解[りょうかい]～。"
+      },
+      "Txt_AppearanceChange_Message_AddChangeConfirm": {
+        "SelfId": "Txt_AppearanceChange_Message_AddChangeConfirm",
+        "Text": "<RUBY>他[ほか]に<RUBY>変[か]えたい<RUBY>人[ひと]は　いる？<NO_INPUT>"
+      },
+      "Txt_AppearanceChange_Message_Finish": {
+        "SelfId": "Txt_AppearanceChange_Message_Finish",
+        "Text": "じゃね～\r\nまた　<RUBY>見[み]た<RUBY>目[め]を　<RUBY>変[か]えたくなったら\r\n<RUBY>気軽[きがる]に　<RUBY>来[き]てよ。"
+      },
+      "Txt_AppearanceChange_Message_CanNotChange": {
+        "SelfId": "Txt_AppearanceChange_Message_CanNotChange",
+        "Text": "んん…\r\nいま　<RUBY>見[み]た<RUBY>目[め]を　<RUBY>変[か]えられる<RUBY>人[ひと]は\r\nいないっぽいね。"
+      },
+      "Txt_AppearanceChange_Message_NoChangeLooks": {
+        "SelfId": "Txt_AppearanceChange_Message_NoChangeLooks",
+        "Text": "それじゃ　<RUBY>何[なに]も　<RUBY>変[か]わらなくない？\r\nこのまま<RUBY>続[つづ]けるの？<NO_INPUT>"
+      }
+    }
+  }
+]

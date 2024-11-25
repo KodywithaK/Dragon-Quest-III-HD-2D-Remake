@@ -1,0 +1,516 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_Registration",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Registration_UI_Warrior_Info": {
+        "SelfId": "Txt_Registration_UI_Warrior_Info",
+        "Text": "막강한 힘과 체력을 지닌 직업\r\n강력한 무기를 장비할 수 있어\r\n배틀에서 공수의 중심이 된다"
+      },
+      "Txt_Registration_UI_Mage_Info": {
+        "SelfId": "Txt_Registration_UI_Mage_Info",
+        "Text": "주문의 달인 총명함이\r\n높으며 다채로운 공격\r\n주문으로 적을 쓰러뜨린다"
+      },
+      "Txt_Registration_UI_Priest_Info": {
+        "SelfId": "Txt_Registration_UI_Priest_Info",
+        "Text": "회복 주문으로 아군을 치유하며\r\n무기를 들고 전투할 수도 있는\r\n만능 서포터"
+      },
+      "Txt_Registration_UI_MartialArtist_Info": {
+        "SelfId": "Txt_Registration_UI_MartialArtist_Info",
+        "Text": "무술 숙련자\r\n민첩한 몸놀림과\r\n회심의 일격이 특기"
+      },
+      "Txt_Registration_UI_Merchant_Info": {
+        "SelfId": "Txt_Registration_UI_Merchant_Info",
+        "Text": "골드 모으기나 감정으로\r\n파티에 공헌하는\r\n금전의 스페셜리스트"
+      },
+      "Txt_Registration_UI_Gadabout_Info": {
+        "SelfId": "Txt_Registration_UI_Gadabout_Info",
+        "Text": "멋대로 농땡이를 피우는 괴짜\r\n그 농땡이가 뜻밖의\r\n효과를 가져오기도?"
+      },
+      "Txt_Registration_UI_Sage_Info": {
+        "SelfId": "Txt_Registration_UI_Sage_Info",
+        "Text": "깨달음의 경지에 이른 자\r\n마법사와 승려의 주문을\r\n완벽하게 구사한다"
+      },
+      "Txt_Registration_UI_Thief_Info": {
+        "SelfId": "Txt_Registration_UI_Thief_Info",
+        "Text": "능숙하게 적을 피해\r\n보물을 찾아내는\r\n프로 던전 탐험가"
+      },
+      "Txt_Registration_UI_MonsterTamer_Info": {
+        "SelfId": "Txt_Registration_UI_MonsterTamer_Info",
+        "Text": "몬스터의 생태에 해박하며\r\n몬스터의 기술을 습득해\r\n독특한 스타일로 전투한다"
+      },
+      "Txt_Registration_UI_JpbSelect_Guide": {
+        "SelfId": "Txt_Registration_UI_JpbSelect_Guide",
+        "Text": "직업 선택"
+      },
+      "Txt_Registration_UI_Style_Menu_01": {
+        "SelfId": "Txt_Registration_UI_Style_Menu_01",
+        "Text": "외형 A"
+      },
+      "Txt_Registration_UI_Style_Menu_02": {
+        "SelfId": "Txt_Registration_UI_Style_Menu_02",
+        "Text": "외형 B"
+      },
+      "Txt_Registration_UI_HairSelect_Guide": {
+        "SelfId": "Txt_Registration_UI_HairSelect_Guide",
+        "Text": "머리색 선택"
+      },
+      "Txt_Registration_UI_SeedUseSelect_01": {
+        "SelfId": "Txt_Registration_UI_SeedUseSelect_01",
+        "Text": "스스로 결정하기"
+      },
+      "Txt_Registration_UI_SeedUseSelect_02": {
+        "SelfId": "Txt_Registration_UI_SeedUseSelect_02",
+        "Text": "등록소에 맡기기"
+      },
+      "Txt_Registration_UI_Seed_Guide": {
+        "SelfId": "Txt_Registration_UI_Seed_Guide",
+        "Text": "앞으로 {0}번 사용할 수 있습니다"
+      },
+      "Txt_Registration_UI_Personality_Blank": {
+        "SelfId": "Txt_Registration_UI_Personality_Blank",
+        "Text": "???"
+      },
+      "Txt_Registration_UI_VoiceSelect_Guide": {
+        "SelfId": "Txt_Registration_UI_VoiceSelect_Guide",
+        "Text": "목소리 선택"
+      },
+      "Txt_Registration_UI_VoiceSample_Guide": {
+        "SelfId": "Txt_Registration_UI_VoiceSample_Guide",
+        "Text": "목소리 듣기"
+      },
+      "Txt_Registration_UI_VoicePattern_01_M": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_01_M",
+        "Text": "순수한"
+      },
+      "Txt_Registration_UI_VoicePattern_02_M": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_02_M",
+        "Text": "장난꾸러기"
+      },
+      "Txt_Registration_UI_VoicePattern_03_M": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_03_M",
+        "Text": "겁쟁이"
+      },
+      "Txt_Registration_UI_VoicePattern_04_M": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_04_M",
+        "Text": "쿨한"
+      },
+      "Txt_Registration_UI_VoicePattern_05_M": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_05_M",
+        "Text": "열혈"
+      },
+      "Txt_Registration_UI_VoicePattern_06_M": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_06_M",
+        "Text": "익살스러운"
+      },
+      "Txt_Registration_UI_VoicePattern_07_M": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_07_M",
+        "Text": "완고한"
+      },
+      "Txt_Registration_UI_VoicePattern_08_M": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_08_M",
+        "Text": "온화한"
+      },
+      "Txt_Registration_UI_VoicePattern_09_M": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_09_M",
+        "Text": "심술쟁이"
+      },
+      "Txt_Registration_UI_VoicePattern_01_F": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_01_F",
+        "Text": "귀여운"
+      },
+      "Txt_Registration_UI_VoicePattern_02_F": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_02_F",
+        "Text": "소심함"
+      },
+      "Txt_Registration_UI_VoicePattern_03_F": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_03_F",
+        "Text": "덜렁이"
+      },
+      "Txt_Registration_UI_VoicePattern_04_F": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_04_F",
+        "Text": "청초한"
+      },
+      "Txt_Registration_UI_VoicePattern_05_F": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_05_F",
+        "Text": "외골수"
+      },
+      "Txt_Registration_UI_VoicePattern_06_F": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_06_F",
+        "Text": "걸리시"
+      },
+      "Txt_Registration_UI_VoicePattern_07_F": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_07_F",
+        "Text": "명랑한"
+      },
+      "Txt_Registration_UI_VoicePattern_08_F": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_08_F",
+        "Text": "시원시원한"
+      },
+      "Txt_Registration_UI_VoicePattern_09_F": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_09_F",
+        "Text": "요염한"
+      },
+      "Txt_Registration_UI_DeleteGuide": {
+        "SelfId": "Txt_Registration_UI_DeleteGuide",
+        "Text": "제외할 동료 선택"
+      },
+      "Txt_Registration_Message_Start": {
+        "SelfId": "Txt_Registration_Message_Start",
+        "Text": "이곳은 모험자들의 등록소입니다."
+      },
+      "Txt_Registration_Message_First": {
+        "SelfId": "Txt_Registration_Message_First",
+        "Text": "당신이 동료로 삼고 싶은 사람을 찾아내\r\n모험자 명부에 등록해 드리겠습니다.<KEY_WAIT>\r\n명부에 등록해 두면\r\n루이다 주점에서 그 사람을\r\n불러낼 수 있지요."
+      },
+      "Txt_Registration_Message_Top": {
+        "SelfId": "Txt_Registration_Message_Top",
+        "Text": "새로운 사람을 명부에\r\n등록하시겠습니까?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_NameSelect": {
+        "SelfId": "Txt_Registration_Message_NameSelect",
+        "Text": "어떤 사람을 원하십니까?\r\n우선은 이름을 알려 주세요.<NO_INPUT>"
+      },
+      "Txt_Registration_Message_JobSelect": {
+        "SelfId": "Txt_Registration_Message_JobSelect",
+        "Text": "다음은 직업을 가르쳐 주세요.<NO_INPUT>"
+      },
+      "Txt_Registration_Message_StyleSelect": {
+        "SelfId": "Txt_Registration_Message_StyleSelect",
+        "Text": "어떤 타입인 분을 찾고 계시나요?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_LooksSelect": {
+        "SelfId": "Txt_Registration_Message_LooksSelect",
+        "Text": "어떤 생김새를 하신 분인가요?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_HairColorSelect": {
+        "SelfId": "Txt_Registration_Message_HairColorSelect",
+        "Text": "어떤 머리색을 가진 분인가요?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_Confirm_01": {
+        "SelfId": "Txt_Registration_Message_Confirm_01",
+        "Text": "원하시는 조건으로 이 사람을\r\n찾았는데 괜찮으십니까?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_UseSeedFirst": {
+        "SelfId": "Txt_Registration_Message_UseSeedFirst",
+        "Text": "{LEADER} 님의 동료분께는\r\n폐하로부터 특별히 격려품이 지급됩니다.<KEY_WAIT>\r\n힘의 씨앗이나 민첩의 씨앗 등\r\n6종류의 씨앗 중 지급된 만큼\r\n동료에게 쓸 수 있습니다.<KEY_WAIT>\r\n어떻게 씨앗을 쓸지는 {LEADER} 님이\r\n정하셔도 되고, 제게 맡겨 주셔도 좋습니다.<KEY_WAIT>\r\n{LEADER} 님이 결정하실 경우\r\n물론 원하시는 씨앗을\r\n사용하시면 됩니다만......<KEY_WAIT>\r\n제게 맡겨 주실 경우\r\n그때의 제 기분에 따라\r\n알아서 배분해 드립니다."
+      },
+      "Txt_Registration_Message_UseSeedSelect": {
+        "SelfId": "Txt_Registration_Message_UseSeedSelect",
+        "Text": "그럼 {WORD} 님에게 쓸\r\n씨앗은 어떻게 하시겠습니까?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_UseSeedStart": {
+        "SelfId": "Txt_Registration_Message_UseSeedStart",
+        "Text": "사용할 수 있는 씨앗은 {VALUE}개입니다.\r\n개수만큼 사용하십시오."
+      },
+      "Txt_Registration_Message_UseSeedAuto": {
+        "SelfId": "Txt_Registration_Message_UseSeedAuto",
+        "Text": "그렇군요.\r\n그럼 제게 맡겨주십시오."
+      },
+      "Txt_Registration_Message_Confirm_02": {
+        "SelfId": "Txt_Registration_Message_Confirm_02",
+        "Text": "{WORD} 님으로 괜찮을까요?"
+      },
+      "Txt_Registration_Message_VoiceSelect": {
+        "SelfId": "Txt_Registration_Message_VoiceSelect",
+        "Text": "마지막으로 이분의 목소리를 들려주세요.<NO_INPUT>"
+      },
+      "Txt_Registration_Message_FinishConfirm": {
+        "SelfId": "Txt_Registration_Message_FinishConfirm",
+        "Text": "여기서 종료하면, 이 분은 등록되지 않습니다.\r\n종료하시겠습니까?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_Confirm_03": {
+        "SelfId": "Txt_Registration_Message_Confirm_03",
+        "Text": "그럼 {WORD} 님을\r\n등록하시겠습니까?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_AddBarMember": {
+        "SelfId": "Txt_Registration_Message_AddBarMember",
+        "Text": "이제 루이다 주점으로 가시면\r\n{WORD} 님을 동료로 삼을 수 있어요."
+      },
+      "Txt_Registration_Message_RegistrationCancel": {
+        "SelfId": "Txt_Registration_Message_RegistrationCancel",
+        "Text": "그렇습니까? 아쉽군요."
+      },
+      "Txt_Registration_Message_AddRegistrationConfirm": {
+        "SelfId": "Txt_Registration_Message_AddRegistrationConfirm",
+        "Text": "다른 사람도 명부에 등록하시겠습니까?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_UseSeedAutoFinish": {
+        "SelfId": "Txt_Registration_Message_UseSeedAutoFinish",
+        "Text": "자...... 끝났습니다."
+      },
+      "Txt_Registration_Message_BarMemberMax": {
+        "SelfId": "Txt_Registration_Message_BarMemberMax",
+        "Text": "이 이상 등록하려면\r\n누군가를 명부에서 제외해야 합니다.\r\n계속하시겠습니까?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_DeleteBarMemberSelect": {
+        "SelfId": "Txt_Registration_Message_DeleteBarMemberSelect",
+        "Text": "누구를 제외하시겠습니까?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_DeleteBarMemberConfirm": {
+        "SelfId": "Txt_Registration_Message_DeleteBarMemberConfirm",
+        "Text": "{WORD} 님을 제외하시겠습니까?\r\n두 번 다시 만나지 못할지도 모릅니다.\r\n계속하시겠습니까?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_DeleteBarMemberFinish": {
+        "SelfId": "Txt_Registration_Message_DeleteBarMemberFinish",
+        "Text": "그럼 아쉽지만\r\n{WORD} 님을 제외했습니다.<KEY_WAIT>\r\n{WORD} 님의 소지품은 모두\r\n그 주머니에 넣어 주셨다는군요.<KEY_WAIT>\r\n자... 이제 새로운 사람을\r\n등록할 수 있습니다."
+      },
+      "Txt_Registration_Message_DeleteBarMemberCancel": {
+        "SelfId": "Txt_Registration_Message_DeleteBarMemberCancel",
+        "Text": "어라, 생각이 바뀌셨나요?\r\n그것도 나쁘지 않죠."
+      },
+      "Txt_Registration_Message_NameError_Duplication": {
+        "SelfId": "Txt_Registration_Message_NameError_Duplication",
+        "Text": "으음? 그 사람은\r\n이미 등록되어 있습니다.\r\n다른 사람을 찾으시겠습니까?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_NameError_Ban": {
+        "SelfId": "Txt_Registration_Message_NameError_Ban",
+        "Text": "죄송하지만 그 이름을 가진 사람을\r\n찾을 수는 없습니다.<KEY_WAIT>\r\n다른 사람을 찾으시겠습니까?\r\n<NO_INPUT>"
+      },
+      "Txt_Registration_Message_NameError_Roto": {
+        "SelfId": "Txt_Registration_Message_NameError_Roto",
+        "Text": "로토!?\r\n로토라고요!?\r\n대단히 송구스럽습니다!<KEY_WAIT>\r\n로토란 신에 가까운 자라는\r\n의미를 지닌 말.\r\n<KEY_WAIT>\r\n진정한 용사만이 그 이름으로\r\n자신을 일컬을 수 있다고 들었습니다.\r\n<KEY_WAIT>\r\n설령 저라도 그 사람만큼은\r\n찾아낼 수가 없습니다."
+      },
+      "Txt_Registration_Message_RegistrationFinish": {
+        "SelfId": "Txt_Registration_Message_RegistrationFinish",
+        "Text": "그럼 새로운 동료가\r\n필요해지면 또 들러 주세요."
+      },
+      "Txt_Registration_Message_Personality_01": {
+        "SelfId": "Txt_Registration_Message_Personality_01",
+        "Text": "꽤나 {WORD} 성격인 것 같군요.\r\n<KEY_WAIT>\r\n힘이 아주 잘 오르고\r\n총명함이 더디게 오를 거예요."
+      },
+      "Txt_Registration_Message_Personality_02": {
+        "SelfId": "Txt_Registration_Message_Personality_02",
+        "Text": "꽤나 {WORD} 성격인 것 같군요.\r\n<KEY_WAIT>\r\n힘이 아주 잘 오르고\r\n민첩함과 총명함,\r\n운이 더디게 오를 거예요."
+      },
+      "Txt_Registration_Message_Personality_03": {
+        "SelfId": "Txt_Registration_Message_Personality_03",
+        "Text": "꽤나 {WORD} 성격인 것 같군요.\r\n<KEY_WAIT>\r\n힘이 잘 오르며 방어력이 조금 잘 오르고\r\n총명함과 운이 더디게 오를 거예요."
+      },
+      "Txt_Registration_Message_Personality_04": {
+        "SelfId": "Txt_Registration_Message_Personality_04",
+        "Text": "꽤나 {WORD} 성격인 것 같군요.\r\n<KEY_WAIT>\r\n힘이 아주 잘 오르고\r\n방어력이 조금 잘 오를 거예요."
+      },
+      "Txt_Registration_Message_Personality_05": {
+        "SelfId": "Txt_Registration_Message_Personality_05",
+        "Text": "꽤나 {WORD} 성격인 것 같군요.\r\n<KEY_WAIT>\r\n방어력이 아주 잘 오르며\r\n힘과 체력이 조금 잘 오르고\r\n총명함과 민첩함이 조금 더디게 오를 거예요."
+      },
+      "Txt_Registration_Message_Personality_06": {
+        "SelfId": "Txt_Registration_Message_Personality_06",
+        "Text": "꽤나 {WORD} 성격인 것 같군요.\r\n<KEY_WAIT>\r\n방어력과 힘이 잘 오르고\r\n운이 더디게 오를 거예요."
+      },
+      "Txt_Registration_Message_Personality_07": {
+        "SelfId": "Txt_Registration_Message_Personality_07",
+        "Text": "꽤나 {WORD} 성격인 것 같군요.\r\n<KEY_WAIT>\r\n힘과 민첩함이 잘 오를 거예요."
+      },
+      "Txt_Registration_Message_Personality_08": {
+        "SelfId": "Txt_Registration_Message_Personality_08",
+        "Text": "꽤나 {WORD} 성격인 것 같군요.\r\n<KEY_WAIT>\r\n민첩함과 체력이 잘 오르고\r\n방어력이 더디게 오를 거예요."
+      },
+      "Txt_Registration_Message_Personality_09": {
+        "SelfId": "Txt_Registration_Message_Personality_09",
+        "Text": "꽤나 {WORD} 성격인 것 같군요.\r\n<KEY_WAIT>\r\n체력과 힘이 잘 오를 거예요."
+      },
+      "Txt_Registration_Message_Personality_10": {
+        "SelfId": "Txt_Registration_Message_Personality_10",
+        "Text": "꽤나 {WORD} 성격인 것 같군요.\r\n<KEY_WAIT>\r\n민첩함이 잘 오를 거예요."
+      },
+      "Txt_Registration_Message_Personality_11": {
+        "SelfId": "Txt_Registration_Message_Personality_11",
+        "Text": "꽤나 {WORD} 성격인 것 같군요.\r\n<KEY_WAIT>\r\n민첩함과 체력이 조금 잘 오를 거예요."
+      },
+      "Txt_Registration_Message_Personality_12": {
+        "SelfId": "Txt_Registration_Message_Personality_12",
+        "Text": "꽤나 {WORD} 성격인 것 같군요.\r\n<KEY_WAIT>\r\n방어력과 체력이 조금 잘 오르고\r\n민첩함이 더디게 오를 거예요."
+      },
+      "Txt_Registration_Message_Personality_13": {
+        "SelfId": "Txt_Registration_Message_Personality_13",
+        "Text": "꽤나 {WORD} 성격인 것 같군요.\r\n<KEY_WAIT>\r\n운이 조금 잘 오르고\r\n총명함이 더디게 오를 거예요."
+      },
+      "Txt_Registration_Message_Personality_14": {
+        "SelfId": "Txt_Registration_Message_Personality_14",
+        "Text": "꽤나 {WORD} 성격인 것 같군요.\r\n<KEY_WAIT>\r\n방어력과 체력이 잘 오르고\r\n민첩함과 총명함,\r\n운이 더디게 오를 거예요."
+      },
+      "Txt_Registration_Message_Personality_15": {
+        "SelfId": "Txt_Registration_Message_Personality_15",
+        "Text": "꽤나 {WORD} 성격인 것 같군요.\r\n<KEY_WAIT>\r\n운이 아주 잘 오르며\r\n총명함이 조금 잘 오르고\r\n방어력이 더디게 오를 거예요."
+      },
+      "Txt_Registration_Message_Personality_16": {
+        "SelfId": "Txt_Registration_Message_Personality_16",
+        "Text": "꽤나 {WORD} 성격인 것 같군요.\r\n<KEY_WAIT>\r\n능력이 균형 있게 오를 거예요."
+      },
+      "Txt_Registration_Message_Personality_17": {
+        "SelfId": "Txt_Registration_Message_Personality_17",
+        "Text": "꽤나 {WORD} 성격인 것 같군요.\r\n<KEY_WAIT>\r\n능력이 균형 있게 오를 거예요."
+      },
+      "Txt_Registration_Message_Personality_18": {
+        "SelfId": "Txt_Registration_Message_Personality_18",
+        "Text": "꽤나 {WORD} 성격인 것 같군요.\r\n<KEY_WAIT>\r\n민첩함이 아주 잘 오를 거예요."
+      },
+      "Txt_Registration_Message_Personality_19": {
+        "SelfId": "Txt_Registration_Message_Personality_19",
+        "Text": "꽤나 {WORD} 성격인 것 같군요.\r\n<KEY_WAIT>\r\n민첩함이 잘 오를 거예요."
+      },
+      "Txt_Registration_Message_Personality_20": {
+        "SelfId": "Txt_Registration_Message_Personality_20",
+        "Text": "꽤나 {WORD} 성격인 것 같군요.\r\n<KEY_WAIT>\r\n총명함이 잘 오르고\r\n방어력과 민첩함이\r\n조금 잘 오를 거예요."
+      },
+      "Txt_Registration_Message_Personality_21": {
+        "SelfId": "Txt_Registration_Message_Personality_21",
+        "Text": "꽤나 {WORD} 성격인 것 같군요.\r\n<KEY_WAIT>\r\n총명함이 아주 잘 오르고\r\n민첩함이 잘 오를 거예요."
+      },
+      "Txt_Registration_Message_Personality_22": {
+        "SelfId": "Txt_Registration_Message_Personality_22",
+        "Text": "꽤나 {WORD} 성격인 것 같군요.\r\n<KEY_WAIT>\r\n운이 아주 잘 오르며\r\n민첩함이 잘 오르고\r\n힘과 체력이 더디게 오를 거예요."
+      },
+      "Txt_Registration_Message_Personality_23": {
+        "SelfId": "Txt_Registration_Message_Personality_23",
+        "Text": "꽤나 {WORD} 성격인 것 같군요.\r\n<KEY_WAIT>\r\n힘과 방어력,\r\n민첩함이 조금 잘 오를 거예요."
+      },
+      "Txt_Registration_Message_Personality_24": {
+        "SelfId": "Txt_Registration_Message_Personality_24",
+        "Text": "꽤나 {WORD} 성격인 것 같군요.\r\n<KEY_WAIT>\r\n민첩함이 조금 잘 오를 거예요."
+      },
+      "Txt_Registration_Message_Personality_25": {
+        "SelfId": "Txt_Registration_Message_Personality_25",
+        "Text": "꽤나 {WORD} 성격인 것 같군요.\r\n<KEY_WAIT>\r\n운이 잘 오르며\r\n총명함이 조금 잘 오르고\r\n방어력이 더디게 오를 거예요."
+      },
+      "Txt_Registration_Message_Personality_26": {
+        "SelfId": "Txt_Registration_Message_Personality_26",
+        "Text": "꽤나 {WORD} 성격인 것 같군요.\r\n<KEY_WAIT>\r\n총명함과 운이 조금 잘 오를 거예요."
+      },
+      "Txt_Registration_Message_Personality_27": {
+        "SelfId": "Txt_Registration_Message_Personality_27",
+        "Text": "꽤나 {WORD} 성격인 것 같군요.\r\n<KEY_WAIT>\r\n체력과 방어력이 아주 잘 오르고\r\n운이 더디게 오를 거예요."
+      },
+      "Txt_Registration_Message_Personality_28": {
+        "SelfId": "Txt_Registration_Message_Personality_28",
+        "Text": "꽤나 {WORD} 성격인 것 같군요.\r\n<KEY_WAIT>\r\n방어력과 체력이 아주 잘 오를 거예요."
+      },
+      "Txt_Registration_Message_Personality_29": {
+        "SelfId": "Txt_Registration_Message_Personality_29",
+        "Text": "꽤나 {WORD} 성격인 것 같군요.\r\n<KEY_WAIT>\r\n체력이 잘 오를 거예요."
+      },
+      "Txt_Registration_Message_Personality_30": {
+        "SelfId": "Txt_Registration_Message_Personality_30",
+        "Text": "꽤나 {WORD} 성격인 것 같군요.\r\n<KEY_WAIT>\r\n방어력과 체력이 잘 오르고\r\n운이 더디게 오를 거예요."
+      },
+      "Txt_Registration_Message_Personality_31": {
+        "SelfId": "Txt_Registration_Message_Personality_31",
+        "Text": "꽤나 {WORD} 성격인 것 같군요.\r\n<KEY_WAIT>\r\n힘이 잘 오르고\r\n방어력과 체력이\r\n조금 잘 오를 거예요."
+      },
+      "Txt_Registration_Message_Personality_32": {
+        "SelfId": "Txt_Registration_Message_Personality_32",
+        "Text": "꽤나 {WORD} 성격인 것 같군요.\r\n<KEY_WAIT>\r\n체력이 조금 잘 오를 거예요."
+      },
+      "Txt_Registration_Message_Personality_33": {
+        "SelfId": "Txt_Registration_Message_Personality_33",
+        "Text": "꽤나 {WORD} 성격인 것 같군요.\r\n<KEY_WAIT>\r\n체력이 잘 오르며\r\n운이 조금 잘 오르고\r\n방어력과 총명함이 더디게 오를 거예요."
+      },
+      "Txt_Registration_Message_Personality_34": {
+        "SelfId": "Txt_Registration_Message_Personality_34",
+        "Text": "꽤나 {WORD} 성격인 것 같군요.\r\n<KEY_WAIT>\r\n총명함이 아주 잘 오를 거예요."
+      },
+      "Txt_Registration_Message_Personality_35": {
+        "SelfId": "Txt_Registration_Message_Personality_35",
+        "Text": "꽤나 {WORD} 성격인 것 같군요.\r\n<KEY_WAIT>\r\n총명함이 잘 오르고\r\n방어력이 조금 잘 오를 거예요."
+      },
+      "Txt_Registration_Message_Personality_36": {
+        "SelfId": "Txt_Registration_Message_Personality_36",
+        "Text": "꽤나 {WORD} 성격인 것 같군요.\r\n<KEY_WAIT>\r\n민첩함과 총명함이\r\n조금 잘 오를 거예요."
+      },
+      "Txt_Registration_Message_Personality_37": {
+        "SelfId": "Txt_Registration_Message_Personality_37",
+        "Text": "꽤나 {WORD} 성격인 것 같군요.\r\n<KEY_WAIT>\r\n운이 조금 잘 오를 거예요."
+      },
+      "Txt_Registration_Message_Personality_38": {
+        "SelfId": "Txt_Registration_Message_Personality_38",
+        "Text": "꽤나 {WORD} 성격인 것 같군요.\r\n<KEY_WAIT>\r\n운이 아주 잘 오르고\r\n민첩함이 조금 잘 오를 거예요."
+      },
+      "Txt_Registration_Message_Personality_39": {
+        "SelfId": "Txt_Registration_Message_Personality_39",
+        "Text": "꽤나 {WORD} 성격인 것 같군요.\r\n<KEY_WAIT>\r\n운이 아주 잘 오를 거예요."
+      },
+      "Txt_Registration_Message_Personality_40": {
+        "SelfId": "Txt_Registration_Message_Personality_40",
+        "Text": "꽤나 {WORD} 성격인 것 같군요.\r\n<KEY_WAIT>\r\n민첩함이 잘 오르고\r\n총명함과 운이 더디게 오를 거예요."
+      },
+      "Txt_Registration_Message_Personality_41": {
+        "SelfId": "Txt_Registration_Message_Personality_41",
+        "Text": "꽤나 {WORD} 성격인 것 같군요.\r\n<KEY_WAIT>\r\n방어력과 체력이 잘 오르고\r\n운이 더디게 오를 거예요."
+      },
+      "Txt_Registration_Message_Personality_42": {
+        "SelfId": "Txt_Registration_Message_Personality_42",
+        "Text": "꽤나 {WORD} 성격인 것 같군요.\r\n<KEY_WAIT>\r\n총명함과 운이 잘 오르고\r\n민첩함이 더디게 오를 거예요."
+      },
+      "Txt_Registration_Message_Personality_43": {
+        "SelfId": "Txt_Registration_Message_Personality_43",
+        "Text": "꽤나 {WORD} 성격인 것 같군요.\r\n<KEY_WAIT>\r\n민첩함이 잘 오르고\r\n총명함과 운이 조금 잘 오를 거예요."
+      },
+      "Txt_Registration_Message_Personality_44": {
+        "SelfId": "Txt_Registration_Message_Personality_44",
+        "Text": "꽤나 {WORD} 성격인 것 같군요.\r\n<KEY_WAIT>\r\n체력이 잘 오르며\r\n총명함이 조금 잘 오르고\r\n민첩함이 더디게 오를 거예요."
+      },
+      "Txt_Registration_Message_Personality_45": {
+        "SelfId": "Txt_Registration_Message_Personality_45",
+        "Text": "꽤나 {WORD} 성격인 것 같군요.\r\n<KEY_WAIT>\r\n능력이 균형 있게 오를 거예요."
+      },
+      "Txt_Registration_Message_Personality_46": {
+        "SelfId": "Txt_Registration_Message_Personality_46",
+        "Text": "꽤나 {WORD} 성격인 것 같군요.\r\n<KEY_WAIT>\r\n민첩함과 운이 잘 오르고\r\n다른 능력치도 균형 있게 오를 거예요."
+      },
+      "Txt_Registration_Message_DeleteBarMemberError_Hero": {
+        "SelfId": "Txt_Registration_Message_DeleteBarMemberError_Hero",
+        "Text": "네, {HERO} 님을요!?<KEY_WAIT>\r\n그런 당치도 않은 말씀 마십시오.\r\n용사님을 빼라니...\r\n그런 무서운 일, 저는 못합니다."
+      },
+      "Txt_Registration_Message_DeleteBarMemberError_Mer": {
+        "SelfId": "Txt_Registration_Message_DeleteBarMemberError_Mer",
+        "Text": "죄송하지만 그 사람을 지울 수는 없습니다."
+      },
+      "Txt_Registration_Message_AddPartyMember_Confirm": {
+        "SelfId": "Txt_Registration_Message_AddPartyMember_Confirm",
+        "Text": "무사히 등록을 완료했습니다.\r\n{WORD} 님을 그대로\r\n모험에 데려가시겠어요?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_PartyMemberMAX": {
+        "SelfId": "Txt_Registration_Message_PartyMemberMAX",
+        "Text": "하지만 더 이상 동료를\r\n데려가기는 어려울 것 같군요...<KEY_WAIT>\r\n대신 다른 분께 주점에서\r\n대기해 달라고 할까요?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_DropOffConfirm": {
+        "SelfId": "Txt_Registration_Message_DropOffConfirm",
+        "Text": "어떤 분이 대기하시나요?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_DropOffError": {
+        "SelfId": "Txt_Registration_Message_DropOffError",
+        "Text": "죄송하지만\r\n그분은 파티에서 제외할 수 없습니다."
+      },
+      "Txt_Registration_Message_DropOffFinish": {
+        "SelfId": "Txt_Registration_Message_DropOffFinish",
+        "Text": "그럼 {WORD} 님을 제외하겠습니다.<KEY_WAIT>\r\n지니고 있던 장비 이외의\r\n도구는 그 주머니에 넣어 둘게요."
+      },
+      "Txt_Registration_Message_PickUp": {
+        "SelfId": "Txt_Registration_Message_PickUp",
+        "Text": "{WORD}<IfKRVowel_WORD(가,이)> 동료로 합류했다!"
+      },
+      "Txt_Registration_Message_AutoSeedUse": {
+        "SelfId": "Txt_Registration_Message_AutoSeedUse",
+        "Text": "{TARGET}의 {WORD}<IfKRVowel_WORD(가,이)>\r\n{VALUE} 올랐다!\r\n<WAIT>[1]<NO_INPUT>"
+      },
+      "Txt_Registration_Start": {
+        "SelfId": "Txt_Registration_Start",
+        "Text": "이곳은 모험자 등록소입니다."
+      },
+      "Txt_Registration_First": {
+        "SelfId": "Txt_Registration_First",
+        "Text": "당신이 동료로 삼고 싶은 사람을 찾아 모험자 명부에 등록해 드리겠습니다."
+      }
+    }
+  }
+]

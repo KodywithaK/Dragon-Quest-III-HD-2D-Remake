@@ -1,0 +1,82 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_SearchObject_GaraiHouse",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_SearchObject_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "SEARCH_GaraiHouse_Out_BARREL_0": {
+        "SelfId": "SEARCH_GaraiHouse_Out_BARREL_0",
+        "ObjectType": "ESearchObjectType::BARREL",
+        "ItemId": "ITEM_EQUIP_WEAPON_DIVINE_DAGGER",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_GaraiHouse_Out_BARREL_0"
+      },
+      "SEARCH_GaraiHouse_Out_POT_0": {
+        "SelfId": "SEARCH_GaraiHouse_Out_POT_0",
+        "ObjectType": "ESearchObjectType::POT",
+        "ItemId": "ITEM_USE_ITEM_DEDAZZLE_GRASS",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_GaraiHouse_Out_POT_0"
+      },
+      "SEARCH_GaraiHouse_1F_DRAWER_0": {
+        "SelfId": "SEARCH_GaraiHouse_1F_DRAWER_0",
+        "ObjectType": "ESearchObjectType::DRAWER",
+        "ItemId": "ITEM_EQUIP_ACCESSORY_DOH_HICAN",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_GaraiHouse_1F_DRAWER_0"
+      },
+      "SEARCH_GaraiHouse_1F_DRAWER_1": {
+        "SelfId": "SEARCH_GaraiHouse_1F_DRAWER_1",
+        "ObjectType": "ESearchObjectType::DRAWER",
+        "ItemId": "ITEM_SMALL_MEDAL",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_GaraiHouse_1F_DRAWER_1"
+      },
+      "SEARCH_GaraiHouse_B1F_TREASURE_NORMAL_0": {
+        "SelfId": "SEARCH_GaraiHouse_B1F_TREASURE_NORMAL_0",
+        "ObjectType": "ESearchObjectType::TREASURE_NORMAL",
+        "ItemId": "ITEM_EQUIP_WEAPON_SPIKED_STEEL_WHIP",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_GaraiHouse_B1F_TREASURE_NORMAL_0"
+      },
+      "SEARCH_GaraiHouse_B1F_EVENT_0": {
+        "SelfId": "SEARCH_GaraiHouse_B1F_EVENT_0",
+        "ObjectType": "ESearchObjectType::EVENT",
+        "ItemId": "ITEM_USE_ITEM_LYRE_OF_IRE",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "GaraiHouse_B1F_SilverHarp_0",
+        "FlagName": "EGOPEnumSearchType::SEARCH_GaraiHouse_B1F_EVENT_0"
+      }
+    }
+  }
+]

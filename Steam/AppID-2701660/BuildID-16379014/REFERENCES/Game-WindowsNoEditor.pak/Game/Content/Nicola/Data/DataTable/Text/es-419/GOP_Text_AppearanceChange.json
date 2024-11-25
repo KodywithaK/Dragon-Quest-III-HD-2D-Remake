@@ -1,0 +1,96 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_AppearanceChange",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_AppearanceChange_Message_Start": {
+        "SelfId": "Txt_AppearanceChange_Message_Start",
+        "Text": "¡Sagludops!<KEY_WAIT>\r\nImagino que viniste hasta aquí para modificar tu apariencia.<NO_INPUT>"
+      },
+      "Txt_AppearanceChange_Message_First": {
+        "SelfId": "Txt_AppearanceChange_Message_First",
+        "Text": "Por cierto, me llamo Curitzia. Quizá no lo parezca, ¡pero soy una gurú de la moda!\r\n<KEY_WAIT>\r\nPuedo teñirte el cabello y hasta cambiarte la voz. Glup. ¡Puedo hacer muchas cosas!\r\n<KEY_WAIT>\r\nTe dejaré radiante como limo brillante por una módica suma de monedas de oro. Glup.<KEY_WAIT>\r\n¿Qué dices? ¿Te animas? ¿Te glupstaría cambiar la apariencia de alguien?<NO_INPUT>"
+      },
+      "Txt_AppearanceChange_Message_Top": {
+        "SelfId": "Txt_AppearanceChange_Message_Top",
+        "Text": "¿Hay alguien cuya apariencia te gustaría cambiar?"
+      },
+      "Txt_AppearanceChange_Message_NameSelect": {
+        "SelfId": "Txt_AppearanceChange_Message_NameSelect",
+        "Text": "Glup. Bueno, ¿quién quiere un cambio de <66>glook<99>?<NO_INPUT>"
+      },
+      "Txt_AppearanceChange_Message_LooksSelect": {
+        "SelfId": "Txt_AppearanceChange_Message_LooksSelect",
+        "Text": "Así que vamos a cambiarle el <66>glook<99> a {ACTOR}. ¿Cómo vas a querer que luzca?<NO_INPUT>"
+      },
+      "Txt_AppearanceChange_Message_HairColorSelect": {
+        "SelfId": "Txt_AppearanceChange_Message_HairColorSelect",
+        "Text": "Glup. ¿Ya pensaste en algún color?<NO_INPUT>"
+      },
+      "Txt_AppearanceChange_Message_HairColorSelectHero": {
+        "SelfId": "Txt_AppearanceChange_Message_HairColorSelectHero",
+        "Text": "Mmm, el peinado de {HERO} es el último grito de la moda. ¡Pero puedo teñirlo de otro color! ¿Tienes algún color en mente?<NO_INPUT>"
+      },
+      "Txt_AppearanceChange_Message_VoiceSelect": {
+        "SelfId": "Txt_AppearanceChange_Message_VoiceSelect",
+        "Text": "Glup. ¿Estás buscando alglupna voz en particular?"
+      },
+      "Txt_AppearanceChange_Message_NoChange": {
+        "SelfId": "Txt_AppearanceChange_Message_NoChange",
+        "Text": "Oye, ¡pero todo quedó tal como estaba cuando llegaste hace un rato! ¿Entonces no vamos a cambiar nada?<NO_INPUT>"
+      },
+      "Txt_AppearanceChange_Message_LooksChangeConfirm": {
+        "SelfId": "Txt_AppearanceChange_Message_LooksChangeConfirm",
+        "Text": "Muy bien, este <66>glook<99> te costará {VALUE} <IfSing_VALUE(moneda,monedas)> de oro. ¿Estás de acuerdo?"
+      },
+      "Txt_AppearanceChange_Message_LooksChangeStart": {
+        "SelfId": "Txt_AppearanceChange_Message_LooksChangeStart",
+        "Text": "¡Glup, glup! ¡Muchas gracias! Ahora, solo espera un momento<...>"
+      },
+      "Txt_AppearanceChange_Message_LooksChangeFinish": {
+        "SelfId": "Txt_AppearanceChange_Message_LooksChangeFinish",
+        "Text": "¡Tarán! ¡Ese <66>glook<99> te queda gluptástico!"
+      },
+      "Txt_AppearanceChange_Message_CanNotChangeDeath": {
+        "SelfId": "Txt_AppearanceChange_Message_CanNotChangeDeath",
+        "Text": "A ver, a ver, a ver, ¿quieres cambiar el aspecto de un glupmano muerto? Perdón, pero no puedo hacer algo así."
+      },
+      "Txt_AppearanceChange_Message_CanNotChangeHero": {
+        "SelfId": "Txt_AppearanceChange_Message_CanNotChangeHero",
+        "Text": "Mira, {HERO}, en verdad eres <IfGender_HERO(muy apuesto,muy guapa,)>. Por eso, no te cambiaría nada, nadita, si fuera tú<...>"
+      },
+      "Txt_AppearanceChange_Message_Shortage": {
+        "SelfId": "Txt_AppearanceChange_Message_Shortage",
+        "Text": "Glups<...> parece que estás en quiebra, <IfGender_HERO(amigo mío,amiga mía,)>. Regresa cuando tengas {VALUE} <IfSing_VALUE(moneda,monedas)> de oro, ¿de acuerdo?"
+      },
+      "Txt_AppearanceChange_Message_Cancel": {
+        "SelfId": "Txt_AppearanceChange_Message_Cancel",
+        "Text": "Entonces<...> ¿cambiaste de opinión? Glup. Se vale<...>"
+      },
+      "Txt_AppearanceChange_Message_AddChangeConfirm": {
+        "SelfId": "Txt_AppearanceChange_Message_AddChangeConfirm",
+        "Text": "¿Te glupstaría cambiar la apariencia de alguien más?<NO_INPUT>"
+      },
+      "Txt_AppearanceChange_Message_Finish": {
+        "SelfId": "Txt_AppearanceChange_Message_Finish",
+        "Text": "Ven a verme cuando quieras cambiar de <66>glook<99>. ¡Hasta la próxima!"
+      },
+      "Txt_AppearanceChange_Message_CanNotChange": {
+        "SelfId": "Txt_AppearanceChange_Message_CanNotChange",
+        "Text": "Gluuups<...> Lo lamento, pero al parecer <IfSolo(no puedes,nadie de ustedes puede)> cambiar de <66>glook<99> por ahora."
+      },
+      "Txt_AppearanceChange_Message_NoChangeLooks": {
+        "SelfId": "Txt_AppearanceChange_Message_NoChangeLooks",
+        "Text": "Pero es el mismo <66>glook<99> que ya tenías<...> ¿Quieres verte así?<NO_INPUT>"
+      }
+    }
+  }
+]

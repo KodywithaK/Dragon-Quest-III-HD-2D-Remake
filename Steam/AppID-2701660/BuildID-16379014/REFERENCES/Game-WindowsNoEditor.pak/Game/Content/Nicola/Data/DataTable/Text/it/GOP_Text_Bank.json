@@ -1,0 +1,132 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_Bank",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Bank_UI_TOP_01": {
+        "SelfId": "Txt_Bank_UI_TOP_01",
+        "Text": "Versa"
+      },
+      "Txt_Bank_UI_TOP_02": {
+        "SelfId": "Txt_Bank_UI_TOP_02",
+        "Text": "Preleva"
+      },
+      "Txt_Bank_UI_TOP_03": {
+        "SelfId": "Txt_Bank_UI_TOP_03",
+        "Text": "Annulla"
+      },
+      "Txt_Bank_UI_SelectGoldMenu_01": {
+        "SelfId": "Txt_Bank_UI_SelectGoldMenu_01",
+        "Text": "Monete d'oro attuali"
+      },
+      "Txt_Bank_UI_SelectGoldMenu_02": {
+        "SelfId": "Txt_Bank_UI_SelectGoldMenu_02",
+        "Text": "Risparmi attuali"
+      },
+      "Txt_Bank_UI_Gold": {
+        "SelfId": "Txt_Bank_UI_Gold",
+        "Text": "{0}"
+      },
+      "Txt_Bank_UI_BalanceGold": {
+        "SelfId": "Txt_Bank_UI_BalanceGold",
+        "Text": "{0}"
+      },
+      "Txt_Bank_UI_SelectGold": {
+        "SelfId": "Txt_Bank_UI_SelectGold",
+        "Text": "{0}"
+      },
+      "Txt_Bank_UI_Max": {
+        "SelfId": "Txt_Bank_UI_Max",
+        "Text": "Tutte le monete d'oro"
+      },
+      "Txt_Bank_Message_Start_Bar": {
+        "SelfId": "Txt_Bank_Message_Start_Bar",
+        "Text": "*: Ti do il benvenuto nella Banca dell'Arcobaleno!"
+      },
+      "Txt_Bank_Message_First_01_Bar": {
+        "SelfId": "Txt_Bank_Message_First_01_Bar",
+        "Text": "*: Teniamo al sicuro i sudati risparmi dei nostri amati clienti!"
+      },
+      "Txt_Bank_Message_First_02_Bar": {
+        "SelfId": "Txt_Bank_Message_First_02_Bar",
+        "Text": "*: Accettiamo versamenti e prelievi in multipli di cento monete d'oro."
+      },
+      "Txt_Bank_Message_First_03_Bar": {
+        "SelfId": "Txt_Bank_Message_First_03_Bar",
+        "Text": "*: E naturalmente i nostri servizi sono completamente gratuiti!"
+      },
+      "Txt_Bank_Message_First_04_Bar": {
+        "SelfId": "Txt_Bank_Message_First_04_Bar",
+        "Text": "*: Allora, come posso esserti utile oggi, {LEADER}?<NO_INPUT>"
+      },
+      "Txt_Bank_Message_TopBalance_Bar": {
+        "SelfId": "Txt_Bank_Message_TopBalance_Bar",
+        "Text": "*: Il tuo saldo attuale è di {VALUE} <IfSing_VALUE(moneta d'oro,monete d'oro)>. Come posso esserti utile?<NO_INPUT>"
+      },
+      "Txt_Bank_Message_TopNoBalance_Bar": {
+        "SelfId": "Txt_Bank_Message_TopNoBalance_Bar",
+        "Text": "*: Al momento non hai monete d'oro sul tuo conto. Che cosa posso fare per te oggi?<NO_INPUT>"
+      },
+      "Txt_Bank_Message_TopBalanceAgain_Bar": {
+        "SelfId": "Txt_Bank_Message_TopBalanceAgain_Bar",
+        "Text": "*: Il tuo saldo attuale è di {VALUE} <IfSing_VALUE(moneta d'oro,monete d'oro)>. C'è altro che posso fare per te?<NO_INPUT>"
+      },
+      "Txt_Bank_Message_TopNoBalanceAgain_Bar": {
+        "SelfId": "Txt_Bank_Message_TopNoBalanceAgain_Bar",
+        "Text": "*: Al momento, non hai monete d'oro sul conto. C'è altro che posso fare per te?<NO_INPUT>"
+      },
+      "Txt_Bank_Message_GoldShortage_Bar": {
+        "SelfId": "Txt_Bank_Message_GoldShortage_Bar",
+        "Text": "*: Mi spiace, ma non hai abbastanza monete d'oro..."
+      },
+      "Txt_Bank_Message_DepositCannot_Bar": {
+        "SelfId": "Txt_Bank_Message_DepositCannot_Bar",
+        "Text": "*: Sono spiacente, ma il nostro caveau è pieno, quindi non possiamo accettare altri versamenti per il momento."
+      },
+      "Txt_Bank_Message_DepositTop_Bar": {
+        "SelfId": "Txt_Bank_Message_DepositTop_Bar",
+        "Text": "*: Accettiamo versamenti in multipli di cento monete d'oro. Quanto desideri versare?<NO_INPUT>"
+      },
+      "Txt_Bank_Message_Deposit_Bar": {
+        "SelfId": "Txt_Bank_Message_Deposit_Bar",
+        "Text": "*: {VALUE} monete d'oro? Benissimo. Le terremo al sicuro nel nostro caveau!"
+      },
+      "Txt_Bank_Message_GoldMax_Bar": {
+        "SelfId": "Txt_Bank_Message_GoldMax_Bar",
+        "Text": "*: Mi spiace, ma non puoi prelevare perché trasporti già una grande quantità di monete d'oro."
+      },
+      "Txt_Bank_Message_WithdrawCannot_Bar": {
+        "SelfId": "Txt_Bank_Message_WithdrawCannot_Bar",
+        "Text": "*: Mi spiace, ma non hai monete d'oro depositate da noi al momento."
+      },
+      "Txt_Bank_Message_WithdrawTop_Bar": {
+        "SelfId": "Txt_Bank_Message_WithdrawTop_Bar",
+        "Text": "*: Il tuo saldo attuale è di {VALUE} <IfSing_VALUE(moneta d'oro,monete d'oro)>. Quanto desideri prelevare oggi?<NO_INPUT>"
+      },
+      "Txt_Bank_Message_Withdraw_Bar": {
+        "SelfId": "Txt_Bank_Message_Withdraw_Bar",
+        "Text": "*: {VALUE} <IfSing_VALUE(moneta d'oro,monete d'oro)>? Con piacere!\r\nEcco a te!"
+      },
+      "Txt_Bank_Message_Cancel_Bar": {
+        "SelfId": "Txt_Bank_Message_Cancel_Bar",
+        "Text": "*: È tutto per oggi?"
+      },
+      "Txt_Bank_Message_FinishBalance_Bar": {
+        "SelfId": "Txt_Bank_Message_FinishBalance_Bar",
+        "Text": "*: Il tuo saldo attuale è di {VALUE} <IfSing_VALUE(moneta d'oro,monete d'oro)>. Grazie per aver scelto la Banca dell'Arcobaleno!"
+      },
+      "Txt_Bank_Message_FinishNoBalance_Bar": {
+        "SelfId": "Txt_Bank_Message_FinishNoBalance_Bar",
+        "Text": "*: Al momento non hai fondi depositati qui da noi, ma speriamo di poterti essere utili in futuro!"
+      }
+    }
+  }
+]

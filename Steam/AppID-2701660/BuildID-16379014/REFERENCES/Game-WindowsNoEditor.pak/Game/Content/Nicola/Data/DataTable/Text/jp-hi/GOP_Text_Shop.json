@@ -1,0 +1,1096 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_Shop",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Shop_UI_Top_01": {
+        "SelfId": "Txt_Shop_UI_Top_01",
+        "Text": "かいにきた"
+      },
+      "Txt_Shop_UI_Top_02": {
+        "SelfId": "Txt_Shop_UI_Top_02",
+        "Text": "うりにきた"
+      },
+      "Txt_Shop_UI_Top_03": {
+        "SelfId": "Txt_Shop_UI_Top_03",
+        "Text": "やめる"
+      },
+      "Txt_Shop_UI_NoEquip": {
+        "SelfId": "Txt_Shop_UI_NoEquip",
+        "Text": "そうびできない"
+      },
+      "Txt_Shop_UI_ShopGuide": {
+        "SelfId": "Txt_Shop_UI_ShopGuide",
+        "Text": "うっているもの"
+      },
+      "Txt_Shop_UI_BuyGuide": {
+        "SelfId": "Txt_Shop_UI_BuyGuide",
+        "Text": "かうものを　えらぶ"
+      },
+      "Txt_Shop_UI_SellGuide": {
+        "SelfId": "Txt_Shop_UI_SellGuide",
+        "Text": "うるものを　えらぶ"
+      },
+      "Txt_Shop_UI_Total": {
+        "SelfId": "Txt_Shop_UI_Total",
+        "Text": "ごうけい"
+      },
+      "Txt_Shop_UI_TotalPrice": {
+        "SelfId": "Txt_Shop_UI_TotalPrice",
+        "Text": "[0]"
+      },
+      "Txt_Shop_UI_NotForSell": {
+        "SelfId": "Txt_Shop_UI_NotForSell",
+        "Text": "うれない"
+      },
+      "Txt_Shop_Message_Start_01_M": {
+        "SelfId": "Txt_Shop_Message_Start_01_M",
+        "Text": "ここは　{WORD}です。\r\nどんなごようでしょう？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuySelect_01_M": {
+        "SelfId": "Txt_Shop_Message_BuySelect_01_M",
+        "Text": "どれを　おもとめですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_Shotage_01_M": {
+        "SelfId": "Txt_Shop_Message_Shotage_01_M",
+        "Text": "すみません　それを　かうには\r\nおカネがたりませんが……。"
+      },
+      "Txt_Shop_Message_BuySelectValue_01_M": {
+        "SelfId": "Txt_Shop_Message_BuySelectValue_01_M",
+        "Text": "いくつ\r\nかっていただけるの　でしょうか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuySingle_01_M": {
+        "SelfId": "Txt_Shop_Message_BuySingle_01_M",
+        "Text": "{I_NAME}ですね\r\nまいど　ありがとうございます。"
+      },
+      "Txt_Shop_Message_BuyMultipul_01_M": {
+        "SelfId": "Txt_Shop_Message_BuyMultipul_01_M",
+        "Text": "{I_NAME}　{VALUE}こ　ですね\r\nまいど　ありがとうございます。"
+      },
+      "Txt_Shop_Message_BuyUsefulBattle_01_M": {
+        "SelfId": "Txt_Shop_Message_BuyUsefulBattle_01_M",
+        "Text": "これは　たたかいのときに　どうぐとして\r\nつかってもおトクな　しなものですよ。"
+      },
+      "Txt_Shop_Message_SelectBuyer_01_M": {
+        "SelfId": "Txt_Shop_Message_SelectBuyer_01_M",
+        "Text": "どなたが　おもちに　なりますか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_ConfirmSorting_01_M": {
+        "SelfId": "Txt_Shop_Message_ConfirmSorting_01_M",
+        "Text": "でも　{ACTOR}さんは　\r\nそれいじょう　ものを　もてないようですよ\r\nもちものを　せいり　しましょうか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_FinishSorting_01_M": {
+        "SelfId": "Txt_Shop_Message_FinishSorting_01_M",
+        "Text": "はい！　せいりしましたよ。"
+      },
+      "Txt_Shop_Message_StopSorting_01_M": {
+        "SelfId": "Txt_Shop_Message_StopSorting_01_M",
+        "Text": "おや？\r\nでも　{ACTOR}さんの　もちものは\r\nたいせつなものばかりですね。"
+      },
+      "Txt_Shop_Message_SelectBuyerAgain_01_M": {
+        "SelfId": "Txt_Shop_Message_SelectBuyerAgain_01_M",
+        "Text": "べつのひとが　もちますか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuyBag_01_M": {
+        "SelfId": "Txt_Shop_Message_BuyBag_01_M",
+        "Text": "では　\r\nその　{BAG}のなかに　いれておきますね。"
+      },
+      "Txt_Shop_Message_BagFull_01_M": {
+        "SelfId": "Txt_Shop_Message_BagFull_01_M",
+        "Text": "ふくろのなかも　いっぱいのようですね…"
+      },
+      "Txt_Shop_Message_UnableEquip_01_M": {
+        "SelfId": "Txt_Shop_Message_UnableEquip_01_M",
+        "Text": "おや？\r\n{ACTOR}さんは　これをそうびできませんが\r\nそれでも　よろしいですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuyConfirmEquip_01_M": {
+        "SelfId": "Txt_Shop_Message_BuyConfirmEquip_01_M",
+        "Text": "さっそく　そうび　なさいますか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SelectAccessorie_01_M": {
+        "SelfId": "Txt_Shop_Message_SelectAccessorie_01_M",
+        "Text": "どちらにアクセサリーを\r\nおつけに　なられますか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuyCurseLift_01_M": {
+        "SelfId": "Txt_Shop_Message_BuyCurseLift_01_M",
+        "Text": "おや！？　その　{I_NAME}が\r\nはずれませんよ！　もしかして\r\nのろいが　かかっているのでは？<KEY_WAIT>\r\nしかたありません　とりあえず\r\nうけとって　いただけますか？"
+      },
+      "Txt_Shop_Message_BuySuccess_01_M": {
+        "SelfId": "Txt_Shop_Message_BuySuccess_01_M",
+        "Text": "はい　どうぞ　{ACTOR}さん。"
+      },
+      "Txt_Shop_Message_BuySuccess_Death_01_M": {
+        "SelfId": "Txt_Shop_Message_BuySuccess_Death_01_M",
+        "Text": "では　{ACTOR}さんの\r\nひつぎのなかに　いれておきますね。"
+      },
+      "Txt_Shop_Message_BuyOverly_01_M": {
+        "SelfId": "Txt_Shop_Message_BuyOverly_01_M",
+        "Text": "もちきれなかった　ぶんは\r\nその　{BAG}に　いれておきますね。"
+      },
+      "Txt_Shop_Message_AdditionalBuy_01_M": {
+        "SelfId": "Txt_Shop_Message_AdditionalBuy_01_M",
+        "Text": "ほかに　なにか　ひつようですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SelectSeller_01_M": {
+        "SelfId": "Txt_Shop_Message_SelectSeller_01_M",
+        "Text": "どなたの　もちものを\r\nうってくれますか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_NoItem_Chara_01_M": {
+        "SelfId": "Txt_Shop_Message_NoItem_Chara_01_M",
+        "Text": "{ACTOR}さんは　うれるものを\r\nなにも　もっていませんが。"
+      },
+      "Txt_Shop_Message_NoItem_Bag_01_M": {
+        "SelfId": "Txt_Shop_Message_NoItem_Bag_01_M",
+        "Text": "おや？　その　{BAG}のなかは\r\nからっぽ　みたいですよ。"
+      },
+      "Txt_Shop_Message_SellCanNot_01_M": {
+        "SelfId": "Txt_Shop_Message_SellCanNot_01_M",
+        "Text": "すみませんが　その　しなものは\r\nうちでは　かいとれません。"
+      },
+      "Txt_Shop_Message_SellConfirmEquip_01_M": {
+        "SelfId": "Txt_Shop_Message_SellConfirmEquip_01_M",
+        "Text": "しかし　それは　そうびちゅうのようですが\r\nいいんですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_ConfirmLare_01_M": {
+        "SelfId": "Txt_Shop_Message_ConfirmLare_01_M",
+        "Text": "でも　それを　うってしまうと\r\nもうにどと　てに　はいらないかも\r\nしれませんよ。いいんですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSelectValue_01_M": {
+        "SelfId": "Txt_Shop_Message_SellSelectValue_01_M",
+        "Text": "いくつ\r\nうっていただけるの　でしょうか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSingle_01_M": {
+        "SelfId": "Txt_Shop_Message_SellSingle_01_M",
+        "Text": "{I_NAME}ですね。\r\nそれなら　{VALUE}ゴールドで\r\nかいましょう。いいですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellMultiple_01_M": {
+        "SelfId": "Txt_Shop_Message_SellMultiple_01_M",
+        "Text": "{I_NAME}　{VALUE}こ　ですね。\r\nそれなら　{VALUE2}ゴールドで\r\nかいましょう。いいですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSuccess_01_M": {
+        "SelfId": "Txt_Shop_Message_SellSuccess_01_M",
+        "Text": "どうも　ありがとうございます。"
+      },
+      "Txt_Shop_Message_SellCancel_01_M": {
+        "SelfId": "Txt_Shop_Message_SellCancel_01_M",
+        "Text": "それは　ざんねんです……。"
+      },
+      "Txt_Shop_Message_GoldFull_01_M": {
+        "SelfId": "Txt_Shop_Message_GoldFull_01_M",
+        "Text": "でも　そんなに　おカネを　もてませんよ。\r\nどうです？　うちで　なにか\r\nかっていっては。"
+      },
+      "Txt_Shop_Message_SellCurseLift_01_M": {
+        "SelfId": "Txt_Shop_Message_SellCurseLift_01_M",
+        "Text": "おや！？　どうやら　のろいが\r\nかかっている　みたいですね。\r\nうーん　ざんねんです……。"
+      },
+      "Txt_Shop_Message_AdditionalSell_01_M": {
+        "SelfId": "Txt_Shop_Message_AdditionalSell_01_M",
+        "Text": "ほかに　なにか\r\nうってくれますか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_AdditionalShop_01_M": {
+        "SelfId": "Txt_Shop_Message_AdditionalShop_01_M",
+        "Text": "ほかに　ごようは　ありますか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_Finish_01_M": {
+        "SelfId": "Txt_Shop_Message_Finish_01_M",
+        "Text": "では　またの　おこしを\r\nおまちしています。"
+      },
+      "Txt_Shop_Message_ConfirmGoldSingle_01_M": {
+        "SelfId": "Txt_Shop_Message_ConfirmGoldSingle_01_M",
+        "Text": "{VALUE}ゴールドですが\r\nよろしいですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_ConfirmGoldMultiple_01_M": {
+        "SelfId": "Txt_Shop_Message_ConfirmGoldMultiple_01_M",
+        "Text": "ぜんぶで　{VALUE}ゴールドになりますが\r\nよろしいですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSelect_01_M": {
+        "SelfId": "Txt_Shop_Message_SellSelect_01_M",
+        "Text": "どれを　うってくれますか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_Start_01_F": {
+        "SelfId": "Txt_Shop_Message_Start_01_F",
+        "Text": "ここは　{WORD}です。\r\nどんなごようでしょう？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuySelect_01_F": {
+        "SelfId": "Txt_Shop_Message_BuySelect_01_F",
+        "Text": "どれを　おもとめですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_Shotage_01_F": {
+        "SelfId": "Txt_Shop_Message_Shotage_01_F",
+        "Text": "すみません　それを　かうには\r\nおカネがたりませんが……。"
+      },
+      "Txt_Shop_Message_BuySelectValue_01_F": {
+        "SelfId": "Txt_Shop_Message_BuySelectValue_01_F",
+        "Text": "いくつ\r\nかっていただけるの　でしょうか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuySingle_01_F": {
+        "SelfId": "Txt_Shop_Message_BuySingle_01_F",
+        "Text": "{I_NAME}ですね\r\nまいど　ありがとうございます。"
+      },
+      "Txt_Shop_Message_BuyMultipul_01_F": {
+        "SelfId": "Txt_Shop_Message_BuyMultipul_01_F",
+        "Text": "{I_NAME}　{VALUE}こ　ですね\r\nまいど　ありがとうございます。"
+      },
+      "Txt_Shop_Message_BuyUsefulBattle_01_F": {
+        "SelfId": "Txt_Shop_Message_BuyUsefulBattle_01_F",
+        "Text": "これは　たたかいのときに　どうぐとして\r\nつかってもおトクな　しなものですよ。"
+      },
+      "Txt_Shop_Message_SelectBuyer_01_F": {
+        "SelfId": "Txt_Shop_Message_SelectBuyer_01_F",
+        "Text": "どなたが　おもちに　なりますか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_ConfirmSorting_01_F": {
+        "SelfId": "Txt_Shop_Message_ConfirmSorting_01_F",
+        "Text": "でも　{ACTOR}さんは　\r\nそれいじょう　ものを　もてないようですよ\r\nもちものを　せいり　しましょうか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_FinishSorting_01_F": {
+        "SelfId": "Txt_Shop_Message_FinishSorting_01_F",
+        "Text": "はい！　せいりしましたよ。"
+      },
+      "Txt_Shop_Message_StopSorting_01_F": {
+        "SelfId": "Txt_Shop_Message_StopSorting_01_F",
+        "Text": "おや？\r\nでも　{ACTOR}さんの　もちものは\r\nたいせつなものばかりですね。"
+      },
+      "Txt_Shop_Message_SelectBuyerAgain_01_F": {
+        "SelfId": "Txt_Shop_Message_SelectBuyerAgain_01_F",
+        "Text": "べつのひとが　もちますか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuyBag_01_F": {
+        "SelfId": "Txt_Shop_Message_BuyBag_01_F",
+        "Text": "では　\r\nその　{BAG}のなかに　いれておきますね。"
+      },
+      "Txt_Shop_Message_BagFull_01_F": {
+        "SelfId": "Txt_Shop_Message_BagFull_01_F",
+        "Text": "ふくろのなかも　いっぱいのようですね…"
+      },
+      "Txt_Shop_Message_UnableEquip_01_F": {
+        "SelfId": "Txt_Shop_Message_UnableEquip_01_F",
+        "Text": "おや？\r\n{ACTOR}さんは　これをそうびできませんが\r\nそれでも　よろしいですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuyConfirmEquip_01_F": {
+        "SelfId": "Txt_Shop_Message_BuyConfirmEquip_01_F",
+        "Text": "さっそく　そうび　なさいますか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SelectAccessorie_01_F": {
+        "SelfId": "Txt_Shop_Message_SelectAccessorie_01_F",
+        "Text": "どちらにアクセサリーを\r\nおつけに　なられますか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuyCurseLift_01_F": {
+        "SelfId": "Txt_Shop_Message_BuyCurseLift_01_F",
+        "Text": "おや！？　その{I_NAME}が\r\nはずれませんよ！　もしかして\r\nのろいが　かかっているのでは？<KEY_WAIT>\r\nしかたありません　とりあえず\r\nうけとって　いただけますか？"
+      },
+      "Txt_Shop_Message_BuySuccess_01_F": {
+        "SelfId": "Txt_Shop_Message_BuySuccess_01_F",
+        "Text": "はい　どうぞ　{ACTOR}さん。"
+      },
+      "Txt_Shop_Message_BuySuccess_Death_01_F": {
+        "SelfId": "Txt_Shop_Message_BuySuccess_Death_01_F",
+        "Text": "では　{ACTOR}さんの\r\nひつぎのなかに　いれておきますね。"
+      },
+      "Txt_Shop_Message_BuyOverly_01_F": {
+        "SelfId": "Txt_Shop_Message_BuyOverly_01_F",
+        "Text": "もちきれなかった　ぶんは\r\nその　{BAG}に　いれておきますね。"
+      },
+      "Txt_Shop_Message_AdditionalBuy_01_F": {
+        "SelfId": "Txt_Shop_Message_AdditionalBuy_01_F",
+        "Text": "ほかに　なにか　ひつようですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SelectSeller_01_F": {
+        "SelfId": "Txt_Shop_Message_SelectSeller_01_F",
+        "Text": "どなたの　もちものを\r\nうってくれますか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_NoItem_Chara_01_F": {
+        "SelfId": "Txt_Shop_Message_NoItem_Chara_01_F",
+        "Text": "{ACTOR}さんは　うれるものを\r\nなにも　もっていませんが。"
+      },
+      "Txt_Shop_Message_NoItem_Bag_01_F": {
+        "SelfId": "Txt_Shop_Message_NoItem_Bag_01_F",
+        "Text": "おや？　その{BAG}のなかは\r\nからっぽ　みたいですよ。"
+      },
+      "Txt_Shop_Message_SellCanNot_01_F": {
+        "SelfId": "Txt_Shop_Message_SellCanNot_01_F",
+        "Text": "すみませんが　その　しなものは\r\nうちでは　かいとれません。"
+      },
+      "Txt_Shop_Message_SellConfirmEquip_01_F": {
+        "SelfId": "Txt_Shop_Message_SellConfirmEquip_01_F",
+        "Text": "しかし　それは　そうびちゅうのようですが\r\nいいんですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_ConfirmLare_01_F": {
+        "SelfId": "Txt_Shop_Message_ConfirmLare_01_F",
+        "Text": "でも　それを　うってしまうと\r\nもうにどと　てに　はいらないかも\r\nしれませんよ。いいんですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSelectValue_01_F": {
+        "SelfId": "Txt_Shop_Message_SellSelectValue_01_F",
+        "Text": "いくつ\r\nうっていただけるの　でしょうか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSingle_01_F": {
+        "SelfId": "Txt_Shop_Message_SellSingle_01_F",
+        "Text": "{I_NAME}ですね。\r\nそれなら　{VALUE}ゴールドで\r\nかいましょう。いいですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellMultiple_01_F": {
+        "SelfId": "Txt_Shop_Message_SellMultiple_01_F",
+        "Text": "{I_NAME}　{VALUE}こ　ですね。\r\nそれなら　{VALUE2}ゴールドで\r\nかいましょう。いいですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSuccess_01_F": {
+        "SelfId": "Txt_Shop_Message_SellSuccess_01_F",
+        "Text": "どうも　ありがとうございます。"
+      },
+      "Txt_Shop_Message_SellCancel_01_F": {
+        "SelfId": "Txt_Shop_Message_SellCancel_01_F",
+        "Text": "それは　ざんねんです……。"
+      },
+      "Txt_Shop_Message_GoldFull_01_F": {
+        "SelfId": "Txt_Shop_Message_GoldFull_01_F",
+        "Text": "でも　そんなに　おカネを　もてませんよ。\r\nどうです？　うちで　なにか\r\nかっていっては。"
+      },
+      "Txt_Shop_Message_SellCurseLift_01_F": {
+        "SelfId": "Txt_Shop_Message_SellCurseLift_01_F",
+        "Text": "おや！？　どうやら　のろいが\r\nかかっている　みたいですね。\r\nうーん　ざんねんです……。"
+      },
+      "Txt_Shop_Message_AdditionalSell_01_F": {
+        "SelfId": "Txt_Shop_Message_AdditionalSell_01_F",
+        "Text": "ほかに　なにか\r\nうってくれますか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_AdditionalShop_01_F": {
+        "SelfId": "Txt_Shop_Message_AdditionalShop_01_F",
+        "Text": "ほかに　ごようは　ありますか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_Finish_01_F": {
+        "SelfId": "Txt_Shop_Message_Finish_01_F",
+        "Text": "では　またの　おこしを\r\nおまちしています。"
+      },
+      "Txt_Shop_Message_ConfirmGoldSingle_01_F": {
+        "SelfId": "Txt_Shop_Message_ConfirmGoldSingle_01_F",
+        "Text": "{VALUE}ゴールドですが\r\nよろしいですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_ConfirmGoldMultiple_01_F": {
+        "SelfId": "Txt_Shop_Message_ConfirmGoldMultiple_01_F",
+        "Text": "ぜんぶで　{VALUE}ゴールドになりますが\r\nよろしいですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSelect_01_F": {
+        "SelfId": "Txt_Shop_Message_SellSelect_01_F",
+        "Text": "どれを　うってくれますか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_Start_02": {
+        "SelfId": "Txt_Shop_Message_Start_02",
+        "Text": "ここは　{WORD}だ。\r\nどんなようだい？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuySelect_02": {
+        "SelfId": "Txt_Shop_Message_BuySelect_02",
+        "Text": "なにを　かうかね？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_Shotage_02": {
+        "SelfId": "Txt_Shop_Message_Shotage_02",
+        "Text": "おっと　ざんねんだが\r\nおカネがたりないようだ。"
+      },
+      "Txt_Shop_Message_BuySelectValue_02": {
+        "SelfId": "Txt_Shop_Message_BuySelectValue_02",
+        "Text": "いくつ　かってくれるんだい？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuySingle_02": {
+        "SelfId": "Txt_Shop_Message_BuySingle_02",
+        "Text": "{I_NAME}だね。\r\nどうも　ありがとう。"
+      },
+      "Txt_Shop_Message_BuyMultipul_02": {
+        "SelfId": "Txt_Shop_Message_BuyMultipul_02",
+        "Text": "{I_NAME}　{VALUE}こ　だね。\r\nどうも　ありがとう。"
+      },
+      "Txt_Shop_Message_BuyUsefulBattle_02": {
+        "SelfId": "Txt_Shop_Message_BuyUsefulBattle_02",
+        "Text": "これは　たたかいのときに　どうぐとして\r\nつかっても　ちからをはっきするよ。"
+      },
+      "Txt_Shop_Message_SelectBuyer_02": {
+        "SelfId": "Txt_Shop_Message_SelectBuyer_02",
+        "Text": "だれが　もつかね？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_ConfirmSorting_02": {
+        "SelfId": "Txt_Shop_Message_ConfirmSorting_02",
+        "Text": "おや？　わるいが　{ACTOR}は\r\nそれいじょう　もてないみたいだ。\r\nもちものを　せいり　するかい？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_FinishSorting_02": {
+        "SelfId": "Txt_Shop_Message_FinishSorting_02",
+        "Text": "よし！　せいりしたぜ。"
+      },
+      "Txt_Shop_Message_StopSorting_02": {
+        "SelfId": "Txt_Shop_Message_StopSorting_02",
+        "Text": "おや？　しかし　{ACTOR}の\r\nもちものは　だいじなもの　ばかりで\r\nかってに　せいり　できないぞ。"
+      },
+      "Txt_Shop_Message_SelectBuyerAgain_02": {
+        "SelfId": "Txt_Shop_Message_SelectBuyerAgain_02",
+        "Text": "ほかのひとが　もつかね？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuyBag_02": {
+        "SelfId": "Txt_Shop_Message_BuyBag_02",
+        "Text": "じゃあ　その　{BAG}に\r\nいれておくぜ！"
+      },
+      "Txt_Shop_Message_BagFull_02": {
+        "SelfId": "Txt_Shop_Message_BagFull_02",
+        "Text": "と　おもったが　ふくろもいっぱいだな…"
+      },
+      "Txt_Shop_Message_UnableEquip_02": {
+        "SelfId": "Txt_Shop_Message_UnableEquip_02",
+        "Text": "{ACTOR}は\r\nこれを　そうびできないが\r\nそれでも　いいかね？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuyConfirmEquip_02": {
+        "SelfId": "Txt_Shop_Message_BuyConfirmEquip_02",
+        "Text": "ここで　そうび　していくかい？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SelectAccessorie_02": {
+        "SelfId": "Txt_Shop_Message_SelectAccessorie_02",
+        "Text": "どこに　つけるんだい？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuyCurseLift_02": {
+        "SelfId": "Txt_Shop_Message_BuyCurseLift_02",
+        "Text": "わっ　びっくりした！　その\r\n{I_NAME}は　のろいで\r\nはずれないようだぜ。<KEY_WAIT>\r\nしょうがないなあ…　とりあえず\r\nうけとって　おくれよ。"
+      },
+      "Txt_Shop_Message_BuySuccess_02": {
+        "SelfId": "Txt_Shop_Message_BuySuccess_02",
+        "Text": "ほらよっ　{ACTOR}さん！"
+      },
+      "Txt_Shop_Message_BuySuccess_Death_02": {
+        "SelfId": "Txt_Shop_Message_BuySuccess_Death_02",
+        "Text": "じゃあ　{ACTOR}の\r\nひつぎのなかに　いれておくよ。"
+      },
+      "Txt_Shop_Message_BuyOverly_02": {
+        "SelfId": "Txt_Shop_Message_BuyOverly_02",
+        "Text": "もちきれなかった　ぶんは\r\nその　{BAG}に　いれておくよ。"
+      },
+      "Txt_Shop_Message_AdditionalBuy_02": {
+        "SelfId": "Txt_Shop_Message_AdditionalBuy_02",
+        "Text": "ほかにも　かうかね？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SelectSeller_02": {
+        "SelfId": "Txt_Shop_Message_SelectSeller_02",
+        "Text": "だれが　うってくれるんだい？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_NoItem_Chara_02": {
+        "SelfId": "Txt_Shop_Message_NoItem_Chara_02",
+        "Text": "おや？　でも　{ACTOR}は\r\nなんにも　もってないぜ。"
+      },
+      "Txt_Shop_Message_NoItem_Bag_02": {
+        "SelfId": "Txt_Shop_Message_NoItem_Bag_02",
+        "Text": "おや？　その　{BAG}には\r\nなんにも　はいってないぜ。"
+      },
+      "Txt_Shop_Message_SellCanNot_02": {
+        "SelfId": "Txt_Shop_Message_SellCanNot_02",
+        "Text": "わるいが　それは　うちでは\r\nかいとれないなあ。"
+      },
+      "Txt_Shop_Message_SellConfirmEquip_02": {
+        "SelfId": "Txt_Shop_Message_SellConfirmEquip_02",
+        "Text": "しかし　それは　そうびちゅうのようだが\r\nいいのかい？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_ConfirmLare_02": {
+        "SelfId": "Txt_Shop_Message_ConfirmLare_02",
+        "Text": "しかし　それを　うっちまうと\r\nにどとてに　はいらないかも\r\nしれないぜ。いいのかい？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSelectValue_02": {
+        "SelfId": "Txt_Shop_Message_SellSelectValue_02",
+        "Text": "いくつ　うってくれるんだい？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSingle_02": {
+        "SelfId": "Txt_Shop_Message_SellSingle_02",
+        "Text": "{I_NAME}だね。\r\n{VALUE}ゴールドで\r\nひきとろう。いいかい？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellMultiple_02": {
+        "SelfId": "Txt_Shop_Message_SellMultiple_02",
+        "Text": "{I_NAME}　{VALUE}こ　だね。\r\n{VALUE2}ゴールドで\r\nひきとろう。いいかい？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSuccess_02": {
+        "SelfId": "Txt_Shop_Message_SellSuccess_02",
+        "Text": "よし！　たしかに　かいとったぜ。"
+      },
+      "Txt_Shop_Message_SellCancel_02": {
+        "SelfId": "Txt_Shop_Message_SellCancel_02",
+        "Text": "それは　ざんねんだな。"
+      },
+      "Txt_Shop_Message_GoldFull_02": {
+        "SelfId": "Txt_Shop_Message_GoldFull_02",
+        "Text": "おっと！　かいとりたいが\r\nそれいじょう　おカネを\r\nもてないみたいだぜっ。"
+      },
+      "Txt_Shop_Message_SellCurseLift_02": {
+        "SelfId": "Txt_Shop_Message_SellCurseLift_02",
+        "Text": "うわっと！　こいつは　おどろいた！\r\nかいとりたいのは　やまやまだが\r\nのろいで　はずれないようだぜ。"
+      },
+      "Txt_Shop_Message_AdditionalSell_02": {
+        "SelfId": "Txt_Shop_Message_AdditionalSell_02",
+        "Text": "ほかにも　うってくれるかい？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_AdditionalShop_02": {
+        "SelfId": "Txt_Shop_Message_AdditionalShop_02",
+        "Text": "ほかにも　ようは　あるかね？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_Finish_02": {
+        "SelfId": "Txt_Shop_Message_Finish_02",
+        "Text": "また　きてくれよなっ！"
+      },
+      "Txt_Shop_Message_ConfirmGoldSingle_02": {
+        "SelfId": "Txt_Shop_Message_ConfirmGoldSingle_02",
+        "Text": "{VALUE}ゴールドになるが\r\nいいかい？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_ConfirmGoldMultiple_02": {
+        "SelfId": "Txt_Shop_Message_ConfirmGoldMultiple_02",
+        "Text": "ぜんぶで　{VALUE}ゴールドになるが\r\nいいかい？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSelect_02": {
+        "SelfId": "Txt_Shop_Message_SellSelect_02",
+        "Text": "どれを　うってくれるんだい？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_Start_01_Smith": {
+        "SelfId": "Txt_Shop_Message_Start_01_Smith",
+        "Text": "ここは　{WORD}です。\r\nどんなごようでしょう？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuySelect_01_Smith": {
+        "SelfId": "Txt_Shop_Message_BuySelect_01_Smith",
+        "Text": "どれを　おもとめですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_Shotage_01_Smith": {
+        "SelfId": "Txt_Shop_Message_Shotage_01_Smith",
+        "Text": "すみません　それを　かうには\r\nおカネがたりませんが……。"
+      },
+      "Txt_Shop_Message_BuySelectValue_01_Smith": {
+        "SelfId": "Txt_Shop_Message_BuySelectValue_01_Smith",
+        "Text": "いくつ\r\nかっていただけるの　でしょうか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuySingle_01_Smith": {
+        "SelfId": "Txt_Shop_Message_BuySingle_01_Smith",
+        "Text": "{I_NAME}ですね\r\nまいど　ありがとうございます。"
+      },
+      "Txt_Shop_Message_BuyMultipul_01_Smith": {
+        "SelfId": "Txt_Shop_Message_BuyMultipul_01_Smith",
+        "Text": "{I_NAME}　{VALUE}こ　ですね\r\nまいど　ありがとうございます。"
+      },
+      "Txt_Shop_Message_BuyUsefulBattle_01_Smith": {
+        "SelfId": "Txt_Shop_Message_BuyUsefulBattle_01_Smith",
+        "Text": "これは　たたかいのときに　どうぐとして\r\nつかってもおトクな　しなものですよ。"
+      },
+      "Txt_Shop_Message_SelectBuyer_01_Smith": {
+        "SelfId": "Txt_Shop_Message_SelectBuyer_01_Smith",
+        "Text": "どなたが　おもちに　なりますか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_ConfirmSorting_01_Smith": {
+        "SelfId": "Txt_Shop_Message_ConfirmSorting_01_Smith",
+        "Text": "でも　{ACTOR}さんは　\r\nそれいじょう　ものを　もてないようですよ\r\nもちものを　せいり　しましょうか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_FinishSorting_01_Smith": {
+        "SelfId": "Txt_Shop_Message_FinishSorting_01_Smith",
+        "Text": "はい！　せいり　しましたよ。"
+      },
+      "Txt_Shop_Message_StopSorting_01_Smith": {
+        "SelfId": "Txt_Shop_Message_StopSorting_01_Smith",
+        "Text": "おや？\r\nでも　{ACTOR}さんの　もちものは\r\nたいせつなものばかりですね。"
+      },
+      "Txt_Shop_Message_SelectBuyerAgain_01_Smith": {
+        "SelfId": "Txt_Shop_Message_SelectBuyerAgain_01_Smith",
+        "Text": "べつのひとが　もちますか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuyBag_01_Smith": {
+        "SelfId": "Txt_Shop_Message_BuyBag_01_Smith",
+        "Text": "では　\r\nその　{BAG}のなかに　いれておきますね。"
+      },
+      "Txt_Shop_Message_BagFull_01_Smith": {
+        "SelfId": "Txt_Shop_Message_BagFull_01_Smith",
+        "Text": "ふくろのなかも　いっぱいのようですね…"
+      },
+      "Txt_Shop_Message_UnableEquip_01_Smith": {
+        "SelfId": "Txt_Shop_Message_UnableEquip_01_Smith",
+        "Text": "おや？\r\n{ACTOR}さんは　これをそうびできませんが\r\nそれでも　よろしいですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuyConfirmEquip_01_Smith": {
+        "SelfId": "Txt_Shop_Message_BuyConfirmEquip_01_Smith",
+        "Text": "さっそく　そうび　なさいますか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SelectAccessorie_01_Smith": {
+        "SelfId": "Txt_Shop_Message_SelectAccessorie_01_Smith",
+        "Text": "どちらにアクセサリーを\r\nおつけに　なられますか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuyCurseLift_01_Smith": {
+        "SelfId": "Txt_Shop_Message_BuyCurseLift_01_Smith",
+        "Text": "おや！？　その{I_NAME}が\r\nはずれませんよ！　もしかして\r\nのろいが　かかっているのでは？<KEY_WAIT>\r\nしかたありません　とりあえず\r\nうけとって　いただけますか？"
+      },
+      "Txt_Shop_Message_BuySuccess_01_Smith": {
+        "SelfId": "Txt_Shop_Message_BuySuccess_01_Smith",
+        "Text": "はい　どうぞ　{ACTOR}さん。"
+      },
+      "Txt_Shop_Message_BuySuccess_Death_01_Smith": {
+        "SelfId": "Txt_Shop_Message_BuySuccess_Death_01_Smith",
+        "Text": "では　{ACTOR}さんの\r\nひつぎのなかに　いれておきますね。"
+      },
+      "Txt_Shop_Message_BuyOverly_01_Smith": {
+        "SelfId": "Txt_Shop_Message_BuyOverly_01_Smith",
+        "Text": "もちきれなかった　ぶんは\r\nその　{BAG}に　いれておきますね。"
+      },
+      "Txt_Shop_Message_AdditionalBuy_01_Smith": {
+        "SelfId": "Txt_Shop_Message_AdditionalBuy_01_Smith",
+        "Text": "ほかに　なにか　ひつようですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SelectSeller_01_Smith": {
+        "SelfId": "Txt_Shop_Message_SelectSeller_01_Smith",
+        "Text": "どなたの　もちものを\r\nうってくれますか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_NoItem_Chara_01_Smith": {
+        "SelfId": "Txt_Shop_Message_NoItem_Chara_01_Smith",
+        "Text": "{ACTOR}さんは　うれるものを\r\nなにも　もっていませんが。"
+      },
+      "Txt_Shop_Message_NoItem_Bag_01_Smith": {
+        "SelfId": "Txt_Shop_Message_NoItem_Bag_01_Smith",
+        "Text": "おや？　その{BAG}のなかは\r\nからっぽ　みたいですよ。"
+      },
+      "Txt_Shop_Message_SellCanNot_01_Smith": {
+        "SelfId": "Txt_Shop_Message_SellCanNot_01_Smith",
+        "Text": "すみませんが　その　しなものは\r\nうちでは　かいとれません。"
+      },
+      "Txt_Shop_Message_SellConfirmEquip_01_Smith": {
+        "SelfId": "Txt_Shop_Message_SellConfirmEquip_01_Smith",
+        "Text": "しかし　それは　そうびちゅうのようですが\r\nいいんですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_ConfirmLare_01_Smith": {
+        "SelfId": "Txt_Shop_Message_ConfirmLare_01_Smith",
+        "Text": "でも　それを　うってしまうと\r\nもうにどと　てに　はいらないかも\r\nしれませんよ。いいんですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSelectValue_01_Smith": {
+        "SelfId": "Txt_Shop_Message_SellSelectValue_01_Smith",
+        "Text": "いくつ\r\nうっていただけるの　でしょうか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSingle_01_Smith": {
+        "SelfId": "Txt_Shop_Message_SellSingle_01_Smith",
+        "Text": "{I_NAME}ですね。\r\nそれなら　{VALUE}ゴールドで\r\nかいましょう。いいですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellMultiple_01_Smith": {
+        "SelfId": "Txt_Shop_Message_SellMultiple_01_Smith",
+        "Text": "{I_NAME}　{VALUE}こ　ですね。\r\nそれなら　{VALUE2}ゴールドで\r\nかいましょう。いいですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSuccess_01_Smith": {
+        "SelfId": "Txt_Shop_Message_SellSuccess_01_Smith",
+        "Text": "どうも　ありがとうございます。"
+      },
+      "Txt_Shop_Message_SellCancel_01_Smith": {
+        "SelfId": "Txt_Shop_Message_SellCancel_01_Smith",
+        "Text": "それは　ざんねんです……。"
+      },
+      "Txt_Shop_Message_GoldFull_01_Smith": {
+        "SelfId": "Txt_Shop_Message_GoldFull_01_Smith",
+        "Text": "でも　そんなに　おカネを　もてませんよ。\r\nどうです？　うちで　なにか\r\nかっていっては。"
+      },
+      "Txt_Shop_Message_SellCurseLift_01_Smith": {
+        "SelfId": "Txt_Shop_Message_SellCurseLift_01_Smith",
+        "Text": "おや！？　どうやら　のろいが\r\nかかっている　みたいですね。\r\nうーん　ざんねんです……。"
+      },
+      "Txt_Shop_Message_AdditionalSell_01_Smith": {
+        "SelfId": "Txt_Shop_Message_AdditionalSell_01_Smith",
+        "Text": "ほかに　なにか\r\nうってくれますか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_AdditionalShop_01_Smith": {
+        "SelfId": "Txt_Shop_Message_AdditionalShop_01_Smith",
+        "Text": "ほかに　ごようは　ありますか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_Finish_01_Smith": {
+        "SelfId": "Txt_Shop_Message_Finish_01_Smith",
+        "Text": "では　またの　おこしを\r\nおまちしています。"
+      },
+      "Txt_Shop_Message_ConfirmGoldSingle_01_Smith": {
+        "SelfId": "Txt_Shop_Message_ConfirmGoldSingle_01_Smith",
+        "Text": "{VALUE}ゴールドですが\r\nよろしいですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_ConfirmGoldMultiple_01_Smith": {
+        "SelfId": "Txt_Shop_Message_ConfirmGoldMultiple_01_Smith",
+        "Text": "ぜんぶで　{VALUE}ゴールドになりますが\r\nよろしいですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSelect_01_Smith": {
+        "SelfId": "Txt_Shop_Message_SellSelect_01_Smith",
+        "Text": "どれを　うってくれますか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_Start_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_Start_01_Burg_M",
+        "Text": "ここは　{WORD}です。\r\nどんなごようでしょう？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuySelect_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_BuySelect_01_Burg_M",
+        "Text": "どれを　おもとめですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_Shotage_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_Shotage_01_Burg_M",
+        "Text": "すみません　それを　かうには\r\nおカネがたりませんが……。"
+      },
+      "Txt_Shop_Message_BuySelectValue_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_BuySelectValue_01_Burg_M",
+        "Text": "いくつ\r\nかっていただけるの　でしょうか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuySingle_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_BuySingle_01_Burg_M",
+        "Text": "{I_NAME}ですね\r\nまいど　ありがとうございます。"
+      },
+      "Txt_Shop_Message_BuyMultipul_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_BuyMultipul_01_Burg_M",
+        "Text": "{I_NAME}　{VALUE}こ　ですね\r\nまいど　ありがとうございます。"
+      },
+      "Txt_Shop_Message_BuyUsefulBattle_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_BuyUsefulBattle_01_Burg_M",
+        "Text": "これは　たたかいのときに　どうぐとして\r\nつかってもおトクな　しなものですよ。"
+      },
+      "Txt_Shop_Message_SelectBuyer_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_SelectBuyer_01_Burg_M",
+        "Text": "どなたが　おもちに　なりますか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_ConfirmSorting_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_ConfirmSorting_01_Burg_M",
+        "Text": "でも　{ACTOR}さんは　\r\nそれいじょう　ものを　もてないようですよ\r\nもちものを　せいり　しましょうか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_FinishSorting_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_FinishSorting_01_Burg_M",
+        "Text": "はい！　せいり　しましたよ。"
+      },
+      "Txt_Shop_Message_StopSorting_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_StopSorting_01_Burg_M",
+        "Text": "おや？\r\nでも　{ACTOR}さんの　もちものは\r\nたいせつなものばかりですね。"
+      },
+      "Txt_Shop_Message_SelectBuyerAgain_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_SelectBuyerAgain_01_Burg_M",
+        "Text": "べつのひとが　もちますか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuyBag_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_BuyBag_01_Burg_M",
+        "Text": "では　\r\nその　{BAG}のなかに　いれておきますね。"
+      },
+      "Txt_Shop_Message_BagFull_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_BagFull_01_Burg_M",
+        "Text": "ふくろのなかも　いっぱいのようですね…"
+      },
+      "Txt_Shop_Message_UnableEquip_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_UnableEquip_01_Burg_M",
+        "Text": "おや？\r\n{ACTOR}さんは　これをそうびできませんが\r\nそれでも　よろしいですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuyConfirmEquip_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_BuyConfirmEquip_01_Burg_M",
+        "Text": "さっそく　そうび　なさいますか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SelectAccessorie_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_SelectAccessorie_01_Burg_M",
+        "Text": "どちらにアクセサリーを\r\nおつけに　なられますか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuyCurseLift_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_BuyCurseLift_01_Burg_M",
+        "Text": "おや！？　その{I_NAME}が\r\nはずれませんよ！　もしかして\r\nのろいが　かかっているのでは？<KEY_WAIT>\r\nしかたありません　とりあえず\r\nうけとって　いただけますか？"
+      },
+      "Txt_Shop_Message_BuySuccess_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_BuySuccess_01_Burg_M",
+        "Text": "はい　どうぞ　{ACTOR}さん。"
+      },
+      "Txt_Shop_Message_BuySuccess_Death_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_BuySuccess_Death_01_Burg_M",
+        "Text": "では　{ACTOR}さんの\r\nひつぎのなかに　いれておきますね。"
+      },
+      "Txt_Shop_Message_BuyOverly_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_BuyOverly_01_Burg_M",
+        "Text": "もちきれなかった　ぶんは\r\nその　{BAG}に　いれておきますね。"
+      },
+      "Txt_Shop_Message_AdditionalBuy_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_AdditionalBuy_01_Burg_M",
+        "Text": "ほかに　なにか　ひつようですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SelectSeller_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_SelectSeller_01_Burg_M",
+        "Text": "どなたの　もちものを\r\nうってくれますか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_NoItem_Chara_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_NoItem_Chara_01_Burg_M",
+        "Text": "{ACTOR}さんは　うれるものを\r\nなにも　もっていませんが。"
+      },
+      "Txt_Shop_Message_NoItem_Bag_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_NoItem_Bag_01_Burg_M",
+        "Text": "おや？　その{BAG}のなかは\r\nからっぽ　みたいですよ。"
+      },
+      "Txt_Shop_Message_SellCanNot_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_SellCanNot_01_Burg_M",
+        "Text": "すみませんが　その　しなものは\r\nうちでは　かいとれません。"
+      },
+      "Txt_Shop_Message_SellConfirmEquip_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_SellConfirmEquip_01_Burg_M",
+        "Text": "しかし　それは　そうびちゅうのようですが\r\nいいんですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_ConfirmLare_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_ConfirmLare_01_Burg_M",
+        "Text": "でも　それを　うってしまうと\r\nもうにどと　てに　はいらないかも\r\nしれませんよ。いいんですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSelectValue_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_SellSelectValue_01_Burg_M",
+        "Text": "いくつ\r\nうっていただけるの　でしょうか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSingle_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_SellSingle_01_Burg_M",
+        "Text": "{I_NAME}ですね。\r\nそれなら　{VALUE}ゴールドで\r\nかいましょう。いいですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellMultiple_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_SellMultiple_01_Burg_M",
+        "Text": "{I_NAME}　{VALUE}こ　ですね。\r\nそれなら　{VALUE2}ゴールドで\r\nかいましょう。いいですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSuccess_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_SellSuccess_01_Burg_M",
+        "Text": "どうも　ありがとうございます。"
+      },
+      "Txt_Shop_Message_SellCancel_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_SellCancel_01_Burg_M",
+        "Text": "それは　ざんねんです……。"
+      },
+      "Txt_Shop_Message_GoldFull_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_GoldFull_01_Burg_M",
+        "Text": "でも　そんなに　おカネを　もてませんよ。\r\nどうです？　うちで　なにか\r\nかっていっては。"
+      },
+      "Txt_Shop_Message_SellCurseLift_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_SellCurseLift_01_Burg_M",
+        "Text": "おや！？　どうやら　のろいが\r\nかかっている　みたいですね。\r\nうーん　ざんねんです……。"
+      },
+      "Txt_Shop_Message_AdditionalSell_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_AdditionalSell_01_Burg_M",
+        "Text": "ほかに　なにか\r\nうってくれますか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_AdditionalShop_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_AdditionalShop_01_Burg_M",
+        "Text": "ほかに　ごようは　ありますか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_Finish_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_Finish_01_Burg_M",
+        "Text": "では　またの　おこしを\r\nおまちしています。"
+      },
+      "Txt_Shop_Message_ConfirmGoldSingle_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_ConfirmGoldSingle_01_Burg_M",
+        "Text": "{VALUE}ゴールドですが\r\nよろしいですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_ConfirmGoldMultiple_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_ConfirmGoldMultiple_01_Burg_M",
+        "Text": "ぜんぶで　{VALUE}ゴールドになりますが\r\nよろしいですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSelect_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_SellSelect_01_Burg_M",
+        "Text": "どれを　うってくれますか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_Start_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_Start_01_Burg_F",
+        "Text": "ここは　{WORD}です。\r\nどんなごようでしょう？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuySelect_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_BuySelect_01_Burg_F",
+        "Text": "どれを　おもとめですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_Shotage_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_Shotage_01_Burg_F",
+        "Text": "すみません　それを　かうには\r\nおカネがたりませんが……。"
+      },
+      "Txt_Shop_Message_BuySelectValue_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_BuySelectValue_01_Burg_F",
+        "Text": "いくつ\r\nかっていただけるの　でしょうか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuySingle_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_BuySingle_01_Burg_F",
+        "Text": "{I_NAME}ですね\r\nまいど　ありがとうございます。"
+      },
+      "Txt_Shop_Message_BuyMultipul_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_BuyMultipul_01_Burg_F",
+        "Text": "{I_NAME}　{VALUE}こ　ですね\r\nまいど　ありがとうございます。"
+      },
+      "Txt_Shop_Message_BuyUsefulBattle_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_BuyUsefulBattle_01_Burg_F",
+        "Text": "これは　たたかいのときに　どうぐとして\r\nつかってもおトクな　しなものですよ。"
+      },
+      "Txt_Shop_Message_SelectBuyer_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_SelectBuyer_01_Burg_F",
+        "Text": "どなたが　おもちに　なりますか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_ConfirmSorting_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_ConfirmSorting_01_Burg_F",
+        "Text": "でも　{ACTOR}さんは　\r\nそれいじょう　ものを　もてないようですよ\r\nもちものを　せいり　しましょうか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_FinishSorting_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_FinishSorting_01_Burg_F",
+        "Text": "はい！　せいり　しましたよ。"
+      },
+      "Txt_Shop_Message_StopSorting_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_StopSorting_01_Burg_F",
+        "Text": "おや？\r\nでも　{ACTOR}さんの　もちものは\r\nたいせつな　ものばかりですね。"
+      },
+      "Txt_Shop_Message_SelectBuyerAgain_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_SelectBuyerAgain_01_Burg_F",
+        "Text": "べつのひとが　もちますか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuyBag_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_BuyBag_01_Burg_F",
+        "Text": "では　\r\nその　{BAG}のなかに　いれておきますね。"
+      },
+      "Txt_Shop_Message_BagFull_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_BagFull_01_Burg_F",
+        "Text": "ふくろのなかも　いっぱいのようですね…"
+      },
+      "Txt_Shop_Message_UnableEquip_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_UnableEquip_01_Burg_F",
+        "Text": "おや？\r\n{ACTOR}さんは　これをそうびできませんが\r\nそれでも　よろしいですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuyConfirmEquip_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_BuyConfirmEquip_01_Burg_F",
+        "Text": "さっそく　そうび　なさいますか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SelectAccessorie_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_SelectAccessorie_01_Burg_F",
+        "Text": "どちらにアクセサリーを\r\nおつけに　なられますか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuyCurseLift_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_BuyCurseLift_01_Burg_F",
+        "Text": "おや！？　その{I_NAME}が\r\nはずれませんよ！　もしかして\r\nのろいが　かかっているのでは？<KEY_WAIT>\r\nしかたありません　とりあえず\r\nうけとって　いただけますか？"
+      },
+      "Txt_Shop_Message_BuySuccess_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_BuySuccess_01_Burg_F",
+        "Text": "はい　どうぞ　{ACTOR}さん。"
+      },
+      "Txt_Shop_Message_BuySuccess_Death_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_BuySuccess_Death_01_Burg_F",
+        "Text": "では　{ACTOR}さんの\r\nひつぎのなかに　いれておきますね。"
+      },
+      "Txt_Shop_Message_BuyOverly_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_BuyOverly_01_Burg_F",
+        "Text": "もちきれなかった　ぶんは\r\nその　{BAG}に　いれておきますね。"
+      },
+      "Txt_Shop_Message_AdditionalBuy_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_AdditionalBuy_01_Burg_F",
+        "Text": "ほかに　なにか　ひつようですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SelectSeller_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_SelectSeller_01_Burg_F",
+        "Text": "どなたの　もちものを\r\nうってくれますか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_NoItem_Chara_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_NoItem_Chara_01_Burg_F",
+        "Text": "{ACTOR}さんは　うれるものを\r\nなにも　もっていませんが。"
+      },
+      "Txt_Shop_Message_NoItem_Bag_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_NoItem_Bag_01_Burg_F",
+        "Text": "おや？　その{BAG}のなかは\r\nからっぽ　みたいですよ。"
+      },
+      "Txt_Shop_Message_SellCanNot_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_SellCanNot_01_Burg_F",
+        "Text": "すみませんが　その　しなものは\r\nうちでは　かいとれません。"
+      },
+      "Txt_Shop_Message_SellConfirmEquip_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_SellConfirmEquip_01_Burg_F",
+        "Text": "しかし　それは　そうびちゅうのようですが\r\nいいんですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_ConfirmLare_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_ConfirmLare_01_Burg_F",
+        "Text": "でも　それを　うってしまうと\r\nもうにどと　てに　はいらないかも\r\nしれませんよ。いいんですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSelectValue_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_SellSelectValue_01_Burg_F",
+        "Text": "いくつ\r\nうっていただけるの　でしょうか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSingle_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_SellSingle_01_Burg_F",
+        "Text": "{I_NAME}ですね。\r\nそれなら　{VALUE}ゴールドで\r\nかいましょう。いいですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellMultiple_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_SellMultiple_01_Burg_F",
+        "Text": "{I_NAME}　{VALUE}こ　ですね。\r\nそれなら　{VALUE2}ゴールドで\r\nかいましょう。いいですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSuccess_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_SellSuccess_01_Burg_F",
+        "Text": "どうも　ありがとうございます。"
+      },
+      "Txt_Shop_Message_SellCancel_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_SellCancel_01_Burg_F",
+        "Text": "それは　ざんねんです……。"
+      },
+      "Txt_Shop_Message_GoldFull_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_GoldFull_01_Burg_F",
+        "Text": "でも　そんなに　おカネを　もてませんよ。\r\nどうです？　うちで　なにか\r\nかっていっては。"
+      },
+      "Txt_Shop_Message_SellCurseLift_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_SellCurseLift_01_Burg_F",
+        "Text": "おや！？　どうやら　のろいが\r\nかかっている　みたいですね。\r\nうーん　ざんねんです……。"
+      },
+      "Txt_Shop_Message_AdditionalSell_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_AdditionalSell_01_Burg_F",
+        "Text": "ほかに　なにか\r\nうってくれますか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_AdditionalShop_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_AdditionalShop_01_Burg_F",
+        "Text": "ほかに　ごようは　ありますか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_Finish_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_Finish_01_Burg_F",
+        "Text": "では　またの　おこしを\r\nおまちしています。"
+      },
+      "Txt_Shop_Message_ConfirmGoldSingle_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_ConfirmGoldSingle_01_Burg_F",
+        "Text": "{VALUE}ゴールドですが\r\nよろしいですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_ConfirmGoldMultiple_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_ConfirmGoldMultiple_01_Burg_F",
+        "Text": "ぜんぶで　{VALUE}ゴールドになりますが\r\nよろしいですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSelect_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_SellSelect_01_Burg_F",
+        "Text": "どれを　うってくれますか？<NO_INPUT>"
+      },
+      "Txt_Shop_SCAM_Message_Top": {
+        "SelfId": "Txt_Shop_SCAM_Message_Top",
+        "Text": "おお！　わたしの　ともだち！\r\nおまちしておりました。\r\nうってるものを　みますか？<NO_INPUT>"
+      },
+      "Txt_Shop_SCAM_Message_SelectNo": {
+        "SelfId": "Txt_Shop_SCAM_Message_SelectNo",
+        "Text": "まあ　そういわずに\r\nみていってくださいよ。<NO_INPUT>"
+      },
+      "Txt_Shop_SCAM_Message_CancelBuy": {
+        "SelfId": "Txt_Shop_SCAM_Message_CancelBuy",
+        "Text": "おや？　おきにめしませんでした？\r\nそれは　ざんねんです。\r\nまた　きっと　きてくださいね。"
+      },
+      "Txt_Shop_SCAM_Message_ConfirmBuy_01": {
+        "SelfId": "Txt_Shop_SCAM_Message_ConfirmBuy_01",
+        "Text": "おお！　おめがたかい！\r\n{VALUE}ゴールドですが\r\nおかいになりますよね？<NO_INPUT>"
+      },
+      "Txt_Shop_SCAM_Message_ConfirmBuy_02": {
+        "SelfId": "Txt_Shop_SCAM_Message_ConfirmBuy_02",
+        "Text": "おお　おきゃくさん\r\nとても　かいものじょうず。\r\nわたし　まいってしまいます。<KEY_WAIT>\r\nでは　{VALUE}ゴールドに\r\nいたしましょう。\r\nこれなら　いいでしょう？<NO_INPUT>"
+      },
+      "Txt_Shop_SCAM_Message_ConfirmBuy_03": {
+        "SelfId": "Txt_Shop_SCAM_Message_ConfirmBuy_03",
+        "Text": "おお　あなた　ひどいひと！\r\nわたしに　おみせやめろと　いいますか？\r\nわかりました。<KEY_WAIT>\r\nでは　{VALUE}ゴールドに\r\nいたしましょう。\r\nこれなら　いいでしょう？<NO_INPUT>"
+      },
+      "Txt_Shop_SCAM_Message_ConfirmBuy_04": {
+        "SelfId": "Txt_Shop_SCAM_Message_ConfirmBuy_04",
+        "Text": "おお　これいじょう　まけると\r\nわたし　おおぞんします！\r\nでも　あなた　ともだち！<KEY_WAIT>\r\nでは　{VALUE}ゴールドに\r\nいたしましょう。\r\nこれなら　いいですか？<NO_INPUT>"
+      },
+      "Txt_Shop_SCAM_Message_CancelBuy_02": {
+        "SelfId": "Txt_Shop_SCAM_Message_CancelBuy_02",
+        "Text": "そうですか。ざんねんです。\r\nまた　きっと　きてくださいね。"
+      },
+      "Txt_Shop_SCAM_Message_Shotage": {
+        "SelfId": "Txt_Shop_SCAM_Message_Shotage",
+        "Text": "おお！　でも\r\nおカネが　たりません！\r\nまた　きっと　きてくださいね。"
+      },
+      "Txt_Shop_SCAM_Message_BuySuccess": {
+        "SelfId": "Txt_Shop_SCAM_Message_BuySuccess",
+        "Text": "おお！　かってくれますか？\r\nわたしたち　いつまでも　ともだち！\r\nまた　きっと　きてくださいね。"
+      },
+      "Txt_Shop_Store_Name_Weapon": {
+        "SelfId": "Txt_Shop_Store_Name_Weapon",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_Shop_Store_Name_Armor": {
+        "SelfId": "Txt_Shop_Store_Name_Armor",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_Shop_Store_Name_WeaponArmor": {
+        "SelfId": "Txt_Shop_Store_Name_WeaponArmor",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_Shop_Store_Name_Item": {
+        "SelfId": "Txt_Shop_Store_Name_Item",
+        "Text": "!GOP_Text_Noun!"
+      }
+    }
+  }
+]

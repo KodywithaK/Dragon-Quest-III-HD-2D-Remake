@@ -1,0 +1,52 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_NPC_Talk_GaraiHouse",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Talk_GaraiHouse_Out_SUB_0_VOLUME_0010_010_1": {
+        "SelfId": "Txt_Talk_GaraiHouse_Out_SUB_0_VOLUME_0010_010_1",
+        "Text": "(Schlurf)?"
+      },
+      "Txt_Talk_GaraiHouse_Out_SUB_0_VOLUME_0010_010_2": {
+        "SelfId": "Txt_Talk_GaraiHouse_Out_SUB_0_VOLUME_0010_010_2",
+        "Text": "<Cap>{LEADER} besänftigt das Monster mit ruhiger Stimme und erzählt ihm von Montys Monstermanege ..."
+      },
+      "Txt_Talk_GaraiHouse_Out_SUB_0_VOLUME_0010_010_3": {
+        "SelfId": "Txt_Talk_GaraiHouse_Out_SUB_0_VOLUME_0010_010_3",
+        "Text": "(Schluuurf)!"
+      },
+      "Txt_Talk_GaraiHouse_1F_SUB_0_ACTOR_0120_010_1": {
+        "SelfId": "Txt_Talk_GaraiHouse_1F_SUB_0_ACTOR_0120_010_1",
+        "Text": "*: Galen mag mein Sohn sein, doch er ist auch eine schwere, mir auferlegte Prüfung."
+      },
+      "Txt_Talk_GaraiHouse_1F_SUB_0_ACTOR_0120_010_2": {
+        "SelfId": "Txt_Talk_GaraiHouse_1F_SUB_0_ACTOR_0120_010_2",
+        "Text": "*: Vor vielen Monden verließ er sein Zuhause und machte sich auf den Weg<nbsp><--> gedankenlos, leichten Herzens und mit einem Lied auf den Lippen."
+      },
+      "Txt_Talk_GaraiHouse_1F_SUB_0_ACTOR_0110_010_1": {
+        "SelfId": "Txt_Talk_GaraiHouse_1F_SUB_0_ACTOR_0110_010_1",
+        "Text": "*: Ist das wirklich wahr, <IfGender_LEADER(Fremder,Fremde,)>? Mein Galen, mein Sohn<nbsp>... kehrt bald zu mir zurück? Oh, welch frohe Kunde!"
+      },
+      "Txt_Talk_GaraiHouse_1F_SUB_0_ACTOR_0220_010_1": {
+        "SelfId": "Txt_Talk_GaraiHouse_1F_SUB_0_ACTOR_0220_010_1",
+        "Text": "*: Ihr seid auf der Suche nach der Harfe des Haders, <IfGender_LEADER(Fremder,Fremde,)>? Dann sprecht mit meinem Sohn Galen. Wenn ich nicht irre, befindet sie sich in seinem Besitz."
+      },
+      "Txt_Talk_GaraiHouse_1F_SUB_0_ACTOR_0210_010_1": {
+        "SelfId": "Txt_Talk_GaraiHouse_1F_SUB_0_ACTOR_0210_010_1",
+        "Text": "*: Endlich ist Frieden in unserer Welt eingekehrt und sogar mein Sohn Galen widmet seine Gedanken der Zukunft. Es geschehen noch Zeichen und Wunder!"
+      },
+      "Txt_Talk_GaraiHouse_1F_SUB_0_ACTOR_0210_010_2": {
+        "SelfId": "Txt_Talk_GaraiHouse_1F_SUB_0_ACTOR_0210_010_2",
+        "Text": "*: All das haben wir Euch zu verdanken, <IfGender_LEADER(Fremder,Fremde,)>.\r\nWir stehen in Eurer Schuld."
+      }
+    }
+  }
+]

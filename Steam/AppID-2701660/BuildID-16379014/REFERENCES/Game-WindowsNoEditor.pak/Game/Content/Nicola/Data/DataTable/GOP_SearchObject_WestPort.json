@@ -1,0 +1,60 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_SearchObject_WestPort",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_SearchObject_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "SEARCH_WestPort_Out_GROUND_0": {
+        "SelfId": "SEARCH_WestPort_Out_GROUND_0",
+        "ObjectType": "ESearchObjectType::GROUND",
+        "ItemId": "ITEM_USE_ITEM_MOONWORT_BULB",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_WestPort_Out_GROUND_0"
+      },
+      "SEARCH_WestPort_Out_GROUND_1": {
+        "SelfId": "SEARCH_WestPort_Out_GROUND_1",
+        "ObjectType": "ESearchObjectType::GROUND",
+        "ItemId": "ITEM_SMALL_MEDAL",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_WestPort_Out_GROUND_1"
+      },
+      "SEARCH_WestPort_Out_EVENT_1": {
+        "SelfId": "SEARCH_WestPort_Out_EVENT_1",
+        "ObjectType": "ESearchObjectType::EVENT",
+        "ItemId": "None",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": false,
+        "OverrideScriptName": "WestPort_Out_SearchEvent_ShipRamp",
+        "FlagName": "EGOPEnumSearchType::NONE"
+      },
+      "SEARCH_WestPort_House_DRAWER_0": {
+        "SelfId": "SEARCH_WestPort_House_DRAWER_0",
+        "ObjectType": "ESearchObjectType::DRAWER",
+        "ItemId": "ITEM_EQUIP_ARMOR_CHAIN_MAIL",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_WestPort_House_DRAWER_0"
+      }
+    }
+  }
+]

@@ -1,0 +1,96 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_AppearanceChange",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_AppearanceChange_Message_Start": {
+        "SelfId": "Txt_AppearanceChange_Message_Start",
+        "Text": "Modrige Grüße!<KEY_WAIT>\r\nIch nehme an, du bist hier, um dein Aussehen zu ändern? (Glucks)<NO_INPUT>"
+      },
+      "Txt_AppearanceChange_Message_First": {
+        "SelfId": "Txt_AppearanceChange_Message_First",
+        "Text": "Ich heiße übrigens Genesine. Kennst du den Spruch, <DE99>Kleider matschen Leute<DE66>? Als echte Modderschöpferin kann ich dir verschlickern: Er ist wahr!\r\n<KEY_WAIT>\r\nIch schneide und färbe deine Haare und kann dir sogar helfen, deine Stimme zu ändern (Glucks). Aus alt matscht neu!\r\n<KEY_WAIT>\r\nDanach bist du schlicker als schlick! Und ich matsche dir einen guten Preis<nbsp><--> großes Modderehrenwort!<KEY_WAIT>\r\nAlso, wie sieht<9>s aus, soll ich jemandem zu einem neuen, modrigen Ich verhelfen?<NO_INPUT>"
+      },
+      "Txt_AppearanceChange_Message_Top": {
+        "SelfId": "Txt_AppearanceChange_Message_Top",
+        "Text": "Soll ich jemandem zu einem neuen, modrigen Ich verhelfen?"
+      },
+      "Txt_AppearanceChange_Message_NameSelect": {
+        "SelfId": "Txt_AppearanceChange_Message_NameSelect",
+        "Text": "(Schlürf) Also, wer wünscht eine Modderberatung?<NO_INPUT>"
+      },
+      "Txt_AppearanceChange_Message_LooksSelect": {
+        "SelfId": "Txt_AppearanceChange_Message_LooksSelect",
+        "Text": "Also gut, {ACTOR} soll ein neues, schlickes Aussehen erhalten. Wie soll <IfGender_ACTOR(er,sie,es)> aussehen?<NO_INPUT>"
+      },
+      "Txt_AppearanceChange_Message_HairColorSelect": {
+        "SelfId": "Txt_AppearanceChange_Message_HairColorSelect",
+        "Text": "(Schlürf) Welche Haarfarbe darf es schleim?<NO_INPUT>"
+      },
+      "Txt_AppearanceChange_Message_HairColorSelectHero": {
+        "SelfId": "Txt_AppearanceChange_Message_HairColorSelectHero",
+        "Text": "(Blubber) Ähem, {HERO}<IfLastIsS_HERO(<9>,s)> Haarpracht hat mich von Anfang an trief beeindruckt! Wie wäre es stattdessen mit einer neuen Farbe?<NO_INPUT>"
+      },
+      "Txt_AppearanceChange_Message_VoiceSelect": {
+        "SelfId": "Txt_AppearanceChange_Message_VoiceSelect",
+        "Text": "(Schlürf) Was für eine Stimme darf es schleim?"
+      },
+      "Txt_AppearanceChange_Message_NoChange": {
+        "SelfId": "Txt_AppearanceChange_Message_NoChange",
+        "Text": "Warte, du hast nichts geändert. Glibber, dass alles so bleiben soll, wie es ist?<NO_INPUT>"
+      },
+      "Txt_AppearanceChange_Message_LooksChangeConfirm": {
+        "SelfId": "Txt_AppearanceChange_Message_LooksChangeConfirm",
+        "Text": "Für das neue Aussehen matsche ich dir ein gutes Angebot: <IfSing_VALUE(eine Goldmünze,{VALUE}<nbsp>Goldmünzen)>, einverstanden?"
+      },
+      "Txt_AppearanceChange_Message_LooksChangeStart": {
+        "SelfId": "Txt_AppearanceChange_Message_LooksChangeStart",
+        "Text": "Ausgezeichnet, dann matsche ich mich direkt ans Werk!"
+      },
+      "Txt_AppearanceChange_Message_LooksChangeFinish": {
+        "SelfId": "Txt_AppearanceChange_Message_LooksChangeFinish",
+        "Text": "Ta-daaa! Du siehst richtig schlick aus!"
+      },
+      "Txt_AppearanceChange_Message_CanNotChangeDeath": {
+        "SelfId": "Txt_AppearanceChange_Message_CanNotChangeDeath",
+        "Text": "Stopp! Für was für eine Modderschöpferin hältst du mich? Ich bin keine Totengräberin! Es tut mir schlicklich leid, aber ich kann das nicht matschen."
+      },
+      "Txt_AppearanceChange_Message_CanNotChangeHero": {
+        "SelfId": "Txt_AppearanceChange_Message_CanNotChangeHero",
+        "Text": "Hör zu, {HERO}. Wenn ich ein so <IfGender_HERO(schlicker Kerl,schlickes Mädel,)> wie du wäre, würde ich alles genau so belassen, wie es ist."
+      },
+      "Txt_AppearanceChange_Message_Shortage": {
+        "SelfId": "Txt_AppearanceChange_Message_Shortage",
+        "Text": "Oh weh, wie es schleimt, bist du ziemlich pleite, <IfGender_HERO(mein Freund,meine Gute,)>. Komm wieder, wenn du <IfSing_VALUE(eine Goldmünze,{VALUE}<nbsp>Goldmünzen)> hast. Dann steht dir deine bescheidene Modderschöpferin wieder voll und ganz zur Verfügung."
+      },
+      "Txt_AppearanceChange_Message_Cancel": {
+        "SelfId": "Txt_AppearanceChange_Message_Cancel",
+        "Text": "Hm? Du hast es dir anders überlegt? (Glucks) Also gut<nbsp>..."
+      },
+      "Txt_AppearanceChange_Message_AddChangeConfirm": {
+        "SelfId": "Txt_AppearanceChange_Message_AddChangeConfirm",
+        "Text": "(Schlürf) Wünscht noch jemand eine professionelle Modderberatung?<NO_INPUT>"
+      },
+      "Txt_AppearanceChange_Message_Finish": {
+        "SelfId": "Txt_AppearanceChange_Message_Finish",
+        "Text": "Du bist jederzeit willkommen, wenn du eine Modderberatung brauchst! Tschüss, hoffentlich trieft man sich bald mal wieder!"
+      },
+      "Txt_AppearanceChange_Message_CanNotChange": {
+        "SelfId": "Txt_AppearanceChange_Message_CanNotChange",
+        "Text": "Hm<nbsp>... Mir schleimt, <IfSolo(du kannst,ihr könnt)> momentan nichts an <IfSolo(deinem Erschleimungsbild,euren Erschleimungsbildern)> ändern."
+      },
+      "Txt_AppearanceChange_Message_NoChangeLooks": {
+        "SelfId": "Txt_AppearanceChange_Message_NoChangeLooks",
+        "Text": "(Schlürf) Aber du hast doch gar nichts am Erschleimungsbild geändert! Bist du dir sicher, dass alles so bleiben soll?<NO_INPUT>"
+      }
+    }
+  }
+]

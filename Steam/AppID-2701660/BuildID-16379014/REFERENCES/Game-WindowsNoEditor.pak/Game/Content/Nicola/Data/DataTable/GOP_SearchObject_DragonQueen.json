@@ -1,0 +1,60 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_SearchObject_DragonQueen",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_SearchObject_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "SEARCH_DragonQueen_back_GROUND_0": {
+        "SelfId": "SEARCH_DragonQueen_back_GROUND_0",
+        "ObjectType": "ESearchObjectType::GROUND",
+        "ItemId": "ITEM_SMALL_MEDAL",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_DragonQueen_back_GROUND_0"
+      },
+      "SEARCH_DragonQueen_1F_EVENT_0": {
+        "SelfId": "SEARCH_DragonQueen_1F_EVENT_0",
+        "ObjectType": "ESearchObjectType::EVENT",
+        "ItemId": "None",
+        "ItemNum": 0,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": false,
+        "OverrideScriptName": "DragonQueen_1F_QueensRoom_Door_01",
+        "FlagName": "EGOPEnumSearchType::NONE"
+      },
+      "SEARCH_DragonQueen_Queen_room_EVENT_0": {
+        "SelfId": "SEARCH_DragonQueen_Queen_room_EVENT_0",
+        "ObjectType": "ESearchObjectType::EVENT",
+        "ItemId": "None",
+        "ItemNum": 0,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": false,
+        "OverrideScriptName": "SEARCH_DragonQueen_Queen_room_EVENT_0",
+        "FlagName": "EGOPEnumSearchType::NONE"
+      },
+      "SEARCH_DragonQueen_Queen_room_GROUND_0": {
+        "SelfId": "SEARCH_DragonQueen_Queen_room_GROUND_0",
+        "ObjectType": "ESearchObjectType::GROUND",
+        "ItemId": "ITEM_EQUIP_ACCESSORY_CARE_RING",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_DragonQueen_Queen_room_GROUND_0"
+      }
+    }
+  }
+]

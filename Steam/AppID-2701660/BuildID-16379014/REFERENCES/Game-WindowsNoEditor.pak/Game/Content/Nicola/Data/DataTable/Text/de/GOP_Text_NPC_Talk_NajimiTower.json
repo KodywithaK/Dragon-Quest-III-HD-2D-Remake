@@ -1,0 +1,148 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_NPC_Talk_NajimiTower",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Talk_NajimiTower_Inn_SUB_0_ACTOR_0110_010_1": {
+        "SelfId": "Txt_Talk_NajimiTower_Inn_SUB_0_ACTOR_0110_010_1",
+        "Text": "*: <IfSolo(<IfGender_LEADER(Ein K-Kunde,Eine K-Kundin,)>,K-Kunden)>! Nach so langer Zeit! Wie froh ich bin, Euch zu sehen!"
+      },
+      "Txt_Talk_NajimiTower_Inn_SUB_0_ACTOR_0210_010_1": {
+        "SelfId": "Txt_Talk_NajimiTower_Inn_SUB_0_ACTOR_0210_010_1",
+        "Text": "*: Haste die alte Frau da am Treppenabsatz gesehen?\r\nHab nich<9> die leiseste Ahnung, was so eine an <9>nem Ort wie dem hier zu suchen hat<nbsp>..."
+      },
+      "Txt_Talk_NajimiTower_Inn_SUB_0_ACTOR_0210_010_2": {
+        "SelfId": "Txt_Talk_NajimiTower_Inn_SUB_0_ACTOR_0210_010_2",
+        "Text": "*: Weißte was, die alte Frau da an der Treppe<nbsp><--> die geht nie nach Hause, nich<9> ma<9> nachts! Ich will echt hoffen, dass die nich<9> <9>n Geist oder so was is<9><nbsp>..."
+      },
+      "Txt_Talk_NajimiTower_Inn_SUB_0_ACTOR_0210_010_3": {
+        "SelfId": "Txt_Talk_NajimiTower_Inn_SUB_0_ACTOR_0210_010_3",
+        "Text": "*: Kannste dich noch an die Frau erinnern, die immer bei der Treppe rumstand? Die hat die Biege gemacht. <9>N bisschen besser geht<9>s mir schon, jetz<9>, wo sie weg is<9>."
+      },
+      "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_010_1": {
+        "SelfId": "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_010_1",
+        "Text": "*: (Schnarch)<nbsp>..."
+      },
+      "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_010_2": {
+        "SelfId": "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_010_2",
+        "Text": "*: Oh, was<nbsp>... wer<nbsp>...? Ah! Ihr seid es. Wie ich sehe, habt Ihr es also endlich hierher geschafft<nbsp>..."
+      },
+      "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_010_3": {
+        "SelfId": "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_010_3",
+        "Text": "*: Sieh mal einer an! Ihr seid also endlich hier<nbsp>... oh weh! Ihr beehrt uns in himmlischer Holzoptik!"
+      },
+      "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_010_4": {
+        "SelfId": "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_010_4",
+        "Text": "*: Ich habe so oft davon geträumt, Euch diesen Schlüssel zu überreichen. Nur der Himmel weiß, warum<nbsp>..."
+      },
+      "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_010_5": {
+        "SelfId": "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_010_5",
+        "Text": "*: Aber es muss etwas bedeuten. Hier, nehmt schon<nbsp>... <DefSgl_NOM_ART_I_NAME>. Deswegen seid Ihr doch hier?"
+      },
+      "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_010_6": {
+        "SelfId": "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_010_6",
+        "Text": "*: Ich habe so oft davon geträumt, {HERO} diesen Schlüssel zu überreichen. Nur der Himmel weiß, warum<nbsp>..."
+      },
+      "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_010_7": {
+        "SelfId": "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_010_7",
+        "Text": "*: Aber es muss etwas bedeuten. Hier, nehmt schon<nbsp>... <DefSgl_NOM_ART_I_NAME>. Würdet Ihr ihn bitte an <IfGender_HERO(ihn,sie,)> überreichen?"
+      },
+      "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_010_8": {
+        "SelfId": "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_010_8",
+        "Text": "*: Oh, ich verstehe. Dieser Traum kann nicht in Erfüllung gehen<nbsp>... Die Ausnahme, die die Regel bestätigt, was?"
+      },
+      "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_010_9": {
+        "SelfId": "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_010_9",
+        "Text": "{MOST_HEROIC} erhält <DefSgl_ACC_ART_I_NAME>!"
+      },
+      "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_010_9_1": {
+        "SelfId": "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_010_9_1",
+        "Text": "*: Jetzt schlage ich vor, dass Ihr ihn direkt benutzt und einen Blick in das Haus mit der roten Tür in Vogt werft."
+      },
+      "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_010_9_2": {
+        "SelfId": "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_010_9_2",
+        "Text": "*: Und seid unbesorgt. Sein Bewohner liebt Besuch! Er wird es Euch nicht übel nehmen, wenn Ihr unangemeldet hereinspaziert."
+      },
+      "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_010_10": {
+        "SelfId": "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_010_10",
+        "Text": "*: Dann auf mit Euch. Ich kann hier nicht den ganzen Tag nur rumtrödeln<nbsp><--> Ich habe wichtige Sachen zu träumen!"
+      },
+      "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_010_11": {
+        "SelfId": "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_010_11",
+        "Text": "*: Wusstet Ihr, dass es auf dieser Welt ganz besondere Bücher gibt, deren Inhalt so tiefgründig ist, dass sie Eure Persönlichkeit verändern können?"
+      },
+      "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_010_12": {
+        "SelfId": "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_010_12",
+        "Text": "*: Öffnet sie besser mit Bedacht. Das rate ich Euch."
+      },
+      "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_010_13": {
+        "SelfId": "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_010_13",
+        "Text": "*: Hmm<nbsp>... Mmnmnmm<nbsp>... (Scharch)<nbsp>..."
+      },
+      "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_020_1": {
+        "SelfId": "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_020_1",
+        "Text": "*: Na, wenn das nicht {MOST_HEROIC} ist! Schön, Euch zu sehen! Hat sich der Schlüssel als hilfreich erwiesen?"
+      },
+      "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_020_2": {
+        "SelfId": "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_020_2",
+        "Text": "*: Hoho! Aber natürlich hat er das! Meine Träume weisen mir immer den rechten Weg!"
+      },
+      "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_020_3": {
+        "SelfId": "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_020_3",
+        "Text": "*: Hmm, das ist komisch<nbsp>... Dabei habe ich doch sichergestellt, dass alles genau so war wie im Traum<nbsp>..."
+      },
+      "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_020_4": {
+        "SelfId": "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_020_4",
+        "Text": "*: (Schnarch, schnarch)"
+      },
+      "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_020_5": {
+        "SelfId": "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_020_5",
+        "Text": "*: Wusstet Ihr, dass es auf dieser Welt ganz besondere Bücher gibt, deren Inhalt so tiefgründig ist, dass sie Eure Persönlichkeit verändern können?"
+      },
+      "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_020_6": {
+        "SelfId": "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_020_6",
+        "Text": "*: Öffnet sie besser mit Bedacht. Das rate ich Euch."
+      },
+      "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_020_7": {
+        "SelfId": "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_020_7",
+        "Text": "*: Hmm<nbsp>... Mmnmnmm<nbsp>... (Schnarch)<nbsp>..."
+      },
+      "Txt_Talk_NajimiTower_1F_SUB_0_ACTOR_0110_010_1": {
+        "SelfId": "Txt_Talk_NajimiTower_1F_SUB_0_ACTOR_0110_010_1",
+        "Text": "*: Was ich nicht alles geben würde, um mich einmal kurz in dieser gemütlichen kleinen Herberge ausruhen zu können<nbsp>..."
+      },
+      "Txt_Talk_NajimiTower_1F_SUB_0_ACTOR_0110_010_2": {
+        "SelfId": "Txt_Talk_NajimiTower_1F_SUB_0_ACTOR_0110_010_2",
+        "Text": "Der Spiegel des Ra beginnt zu leuchten<nbsp>..."
+      },
+      "Txt_Talk_NajimiTower_1F_SUB_0_ACTOR_0110_010_3": {
+        "SelfId": "Txt_Talk_NajimiTower_1F_SUB_0_ACTOR_0110_010_3",
+        "Text": "... und enthüllt die wahre Gestalt des Wesens vor dir!"
+      },
+      "Txt_Talk_NajimiTower_1F_SUB_0_ACTOR_0110_010_4": {
+        "SelfId": "Txt_Talk_NajimiTower_1F_SUB_0_ACTOR_0110_010_4",
+        "Text": "Jetzt steck ich wohl tief im Schlamassel<nbsp>..."
+      },
+      "Txt_Talk_NajimiTower_1F_SUB_0_ACTOR_0110_010_5": {
+        "SelfId": "Txt_Talk_NajimiTower_1F_SUB_0_ACTOR_0110_010_5",
+        "Text": "<Cap>{LEADER} besänftigt das Monster mit ruhiger Stimme und erzählt ihm von Montys Monstermanege<nbsp>..."
+      },
+      "Txt_Talk_NajimiTower_1F_SUB_0_ACTOR_0110_010_6": {
+        "SelfId": "Txt_Talk_NajimiTower_1F_SUB_0_ACTOR_0110_010_6",
+        "Text": "Giaaaahahaha!"
+      },
+      "Txt_Talk_NajimiTower_1F_SUB_0_ACTOR_0110_010_7": {
+        "SelfId": "Txt_Talk_NajimiTower_1F_SUB_0_ACTOR_0110_010_7",
+        "Text": "*: Oh, was tun mir die Knochen weh ..."
+      }
+    }
+  }
+]

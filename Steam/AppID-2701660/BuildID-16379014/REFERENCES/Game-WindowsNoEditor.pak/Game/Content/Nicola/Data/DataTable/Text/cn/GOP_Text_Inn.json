@@ -1,0 +1,124 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_Inn",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Inn_UI_Top_01": {
+        "SelfId": "Txt_Inn_UI_Top_01",
+        "Text": "住宿"
+      },
+      "Txt_Inn_UI_Top_02": {
+        "SelfId": "Txt_Inn_UI_Top_02",
+        "Text": "休息"
+      },
+      "Txt_Inn_UI_Top_03": {
+        "SelfId": "Txt_Inn_UI_Top_03",
+        "Text": "放弃"
+      },
+      "Txt_Inn_UI_Time_01": {
+        "SelfId": "Txt_Inn_UI_Time_01",
+        "Text": "到早上"
+      },
+      "Txt_Inn_UI_Time_02": {
+        "SelfId": "Txt_Inn_UI_Time_02",
+        "Text": "到中午"
+      },
+      "Txt_Inn_UI_Time_03": {
+        "SelfId": "Txt_Inn_UI_Time_03",
+        "Text": "到傍晚"
+      },
+      "Txt_Inn_UI_Time_04": {
+        "SelfId": "Txt_Inn_UI_Time_04",
+        "Text": "到夜晚"
+      },
+      "Txt_Inn_Message_Start_M": {
+        "SelfId": "Txt_Inn_Message_Start_M",
+        "Text": "您好。\r\n欢迎来到旅行者的旅店。"
+      },
+      "Txt_Inn_Message_StartNight_M": {
+        "SelfId": "Txt_Inn_Message_StartNight_M",
+        "Text": "欢迎来到旅行者的旅店。\r\n深夜来到这里\r\n真是辛苦了。"
+      },
+      "Txt_Inn_Message_TopNotRest_M": {
+        "SelfId": "Txt_Inn_Message_TopNotRest_M",
+        "Text": "一晚是{VALUE}金币，\r\n您要留宿吗？<NO_INPUT>"
+      },
+      "Txt_Inn_Message_Top_M": {
+        "SelfId": "Txt_Inn_Message_Top_M",
+        "Text": "您要住宿吗？\r\n还是稍微休息一会儿？\r\n无论哪种，我都收您{VALUE}金币。<NO_INPUT>"
+      },
+      "Txt_Inn_Message_Finish_M": {
+        "SelfId": "Txt_Inn_Message_Finish_M",
+        "Text": "再见了，旅行者。\r\n请下次再来。"
+      },
+      "Txt_Inn_Message_Cancel_M": {
+        "SelfId": "Txt_Inn_Message_Cancel_M",
+        "Text": "您改主意了是吗？\r\n那就请打起精神来吧。"
+      },
+      "Txt_Inn_Message_Shotage_M": {
+        "SelfId": "Txt_Inn_Message_Shotage_M",
+        "Text": "但是\r\n您的钱好像不够啊。"
+      },
+      "Txt_Inn_Message_Heal_M": {
+        "SelfId": "Txt_Inn_Message_Heal_M",
+        "Text": "那么\r\n请好好休息。"
+      },
+      "Txt_Inn_Message_FinishHeal_M": {
+        "SelfId": "Txt_Inn_Message_FinishHeal_M",
+        "Text": "早上好。\r\n请您慢走。"
+      },
+      "Txt_Inn_Message_FinishHealRest_M": {
+        "SelfId": "Txt_Inn_Message_FinishHealRest_M",
+        "Text": "您看起来休息得很好。\r\n祝您一路顺风。"
+      },
+      "Txt_Inn_Message_Start_F": {
+        "SelfId": "Txt_Inn_Message_Start_F",
+        "Text": "您好。\r\n欢迎来到旅行者的旅店。"
+      },
+      "Txt_Inn_Message_StartNight_F": {
+        "SelfId": "Txt_Inn_Message_StartNight_F",
+        "Text": "欢迎来到旅行者的旅店。\r\n深夜来到这里\r\n真是辛苦了。"
+      },
+      "Txt_Inn_Message_TopNotRest_F": {
+        "SelfId": "Txt_Inn_Message_TopNotRest_F",
+        "Text": "一晚是{VALUE}金币，\r\n您要留宿吗？<NO_INPUT>"
+      },
+      "Txt_Inn_Message_Top_F": {
+        "SelfId": "Txt_Inn_Message_Top_F",
+        "Text": "您要住宿吗？\r\n还是稍微休息一会儿呢？\r\n无论哪种，我都收您{VALUE}金币。<NO_INPUT>"
+      },
+      "Txt_Inn_Message_Finish_F": {
+        "SelfId": "Txt_Inn_Message_Finish_F",
+        "Text": "再见了，旅行者。\r\n请下次再来。"
+      },
+      "Txt_Inn_Message_Cancel_F": {
+        "SelfId": "Txt_Inn_Message_Cancel_F",
+        "Text": "您改主意了是吗？\r\n那就请打起精神来吧。"
+      },
+      "Txt_Inn_Message_Shotage_F": {
+        "SelfId": "Txt_Inn_Message_Shotage_F",
+        "Text": "但是\r\n您的钱好像不够啊。"
+      },
+      "Txt_Inn_Message_Heal_F": {
+        "SelfId": "Txt_Inn_Message_Heal_F",
+        "Text": "那么\r\n请好好休息。"
+      },
+      "Txt_Inn_Message_FinishHeal_F": {
+        "SelfId": "Txt_Inn_Message_FinishHeal_F",
+        "Text": "早上好。\r\n请您慢走。"
+      },
+      "Txt_Inn_Message_FinishHealRest_F": {
+        "SelfId": "Txt_Inn_Message_FinishHealRest_F",
+        "Text": "您看起来休息得很好呢。\r\n祝您一路顺风。"
+      }
+    }
+  }
+]

@@ -1,0 +1,928 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_Common",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Common_Choice_YES": {
+        "SelfId": "Txt_Common_Choice_YES",
+        "Text": "Yes"
+      },
+      "Txt_Common_Choice_NO": {
+        "SelfId": "Txt_Common_Choice_NO",
+        "Text": "No"
+      },
+      "Txt_Common_Choice_EVENT_01": {
+        "SelfId": "Txt_Common_Choice_EVENT_01",
+        "Text": "Play Dumb"
+      },
+      "Txt_Common_Choice_EVENT_02": {
+        "SelfId": "Txt_Common_Choice_EVENT_02",
+        "Text": "..."
+      },
+      "Txt_Common_DATA_DialogNotifyStorageLackOnSystemDataSave": {
+        "SelfId": "Txt_Common_DATA_DialogNotifyStorageLackOnSystemDataSave",
+        "Text": "There is not enough space to create system data."
+      },
+      "Txt_Common_DATA_DialogNotifyStorageLackOnGameDataSave": {
+        "SelfId": "Txt_Common_DATA_DialogNotifyStorageLackOnGameDataSave",
+        "Text": "Insufficient storage space. Your progress could not be recorded in an adventure log."
+      },
+      "Txt_Common_DATA_DialogNotifyBrokenSystemDataSave": {
+        "SelfId": "Txt_Common_DATA_DialogNotifyBrokenSystemDataSave",
+        "Text": "Your system data is corrupted.\r\nIt will be reset."
+      },
+      "Txt_Common_DATA_DialogNotifyBrokenGameDataSave": {
+        "SelfId": "Txt_Common_DATA_DialogNotifyBrokenGameDataSave",
+        "Text": "Unfortunately, Adventure Log {VALUE} seems to have been deleted."
+      },
+      "Txt_Common_DATA_DialogNotifyFailCreateGameData": {
+        "SelfId": "Txt_Common_DATA_DialogNotifyFailCreateGameData",
+        "Text": "The game has failed to create an adventure log. You will now be returned to the title screen..."
+      },
+      "Txt_Common_DATA_DialogNotifyBrokenAutoSave": {
+        "SelfId": "Txt_Common_DATA_DialogNotifyBrokenAutoSave",
+        "Text": "Alas, your saved data for DRAGON QUEST III HD-2D Remake has become corrupted and the autosave feature cannot be used."
+      },
+      "Txt_Common_DATA_DialogNotifyBrokenAutoSave_PS5": {
+        "SelfId": "Txt_Common_DATA_DialogNotifyBrokenAutoSave_PS5",
+        "Text": "Alas, your saved data for DRAGON QUEST III HD-2D Remake has become corrupted and the autosave feature cannot be used."
+      },
+      "Txt_Common_DATA_DialogNotifyBrokenAutoSave_02": {
+        "SelfId": "Txt_Common_DATA_DialogNotifyBrokenAutoSave_02",
+        "Text": "Alas, your autosave log appears to have been lost for all eternity..."
+      },
+      "Txt_Common_DATA_DialogNotifyBrokenInterruptedSave": {
+        "SelfId": "Txt_Common_DATA_DialogNotifyBrokenInterruptedSave",
+        "Text": "Alas, your quick save log appears to have been lost for all eternity..."
+      },
+      "Txt_Common_TITLEDEMO_UI_Menu_01": {
+        "SelfId": "Txt_Common_TITLEDEMO_UI_Menu_01",
+        "Text": "Venture Forth"
+      },
+      "Txt_Common_TITLEDEMO_UI_Menu_02": {
+        "SelfId": "Txt_Common_TITLEDEMO_UI_Menu_02",
+        "Text": "Exit Game"
+      },
+      "Txt_Common_TITLEDEMO_UI_Copyright": {
+        "SelfId": "Txt_Common_TITLEDEMO_UI_Copyright",
+        "Text": "© ARMOR PROJECT/BIRD STUDIO/SPIKE CHUNSOFT/SQUARE ENIX\r\n© SUGIYAMA KOBO\r\n℗ SUGIYAMA KOBO"
+      },
+      "Txt_Common_TITLEDEMO_UI_Gamertag": {
+        "SelfId": "Txt_Common_TITLEDEMO_UI_Gamertag",
+        "Text": "{0}"
+      },
+      "Txt_Common_TITLEDEMO_UI_Ver": {
+        "SelfId": "Txt_Common_TITLEDEMO_UI_Ver",
+        "Text": "Ver. {0}"
+      },
+      "Txt_Common_TITLE_UI_Menu_01": {
+        "SelfId": "Txt_Common_TITLE_UI_Menu_01",
+        "Text": "Venture Forth"
+      },
+      "Txt_Common_TITLE_UI_Menu_02": {
+        "SelfId": "Txt_Common_TITLE_UI_Menu_02",
+        "Text": "Continue from Quick Save"
+      },
+      "Txt_Common_TITLE_UI_Menu_03": {
+        "SelfId": "Txt_Common_TITLE_UI_Menu_03",
+        "Text": "Continue from Autosave"
+      },
+      "Txt_Common_TITLE_UI_SaveMenu_01": {
+        "SelfId": "Txt_Common_TITLE_UI_SaveMenu_01",
+        "Text": "Choose an Adventure Log"
+      },
+      "Txt_Common_TITLE_UI_SaveMenu_02": {
+        "SelfId": "Txt_Common_TITLE_UI_SaveMenu_02",
+        "Text": "Create a New Adventure Log"
+      },
+      "Txt_Common_TITLE_UI_SaveMenu_03": {
+        "SelfId": "Txt_Common_TITLE_UI_SaveMenu_03",
+        "Text": "Delete an Adventure Log"
+      },
+      "Txt_Common_TITLE_UI_DataElement_01": {
+        "SelfId": "Txt_Common_TITLE_UI_DataElement_01",
+        "Text": "{0}"
+      },
+      "Txt_Common_TITLE_UI_DataElement_02": {
+        "SelfId": "Txt_Common_TITLE_UI_DataElement_02",
+        "Text": "{0}"
+      },
+      "Txt_Common_TITLE_UI_DataElement_03": {
+        "SelfId": "Txt_Common_TITLE_UI_DataElement_03",
+        "Text": "{0}"
+      },
+      "Txt_Common_TITLE_UI_DataElement_04": {
+        "SelfId": "Txt_Common_TITLE_UI_DataElement_04",
+        "Text": "{0}"
+      },
+      "Txt_Common_TITLE_UI_DataElement_05": {
+        "SelfId": "Txt_Common_TITLE_UI_DataElement_05",
+        "Text": "Play Time:"
+      },
+      "Txt_Common_TITLE_UI_DataElement_06": {
+        "SelfId": "Txt_Common_TITLE_UI_DataElement_06",
+        "Text": "{0}:{1}"
+      },
+      "Txt_Common_TITLE_UI_DataElement_07": {
+        "SelfId": "Txt_Common_TITLE_UI_DataElement_07",
+        "Text": "Saved On:"
+      },
+      "Txt_Common_TITLE_UI_DataElement_08": {
+        "SelfId": "Txt_Common_TITLE_UI_DataElement_08",
+        "Text": "{0}    {1}:{2}"
+      },
+      "Txt_Common_TITLE_UI_DataElement_09": {
+        "SelfId": "Txt_Common_TITLE_UI_DataElement_09",
+        "Text": "{2}/{1}/{0}"
+      },
+      "Txt_Common_TITLE_UI_ROTO": {
+        "SelfId": "Txt_Common_TITLE_UI_ROTO",
+        "Text": "{0}/Erdrick"
+      },
+      "Txt_Common_TITLE_UI_SaveSelectGuide": {
+        "SelfId": "Txt_Common_TITLE_UI_SaveSelectGuide",
+        "Text": "Select an adventure log."
+      },
+      "Txt_Common_TITLE_UI_InterruptedSaveGuide": {
+        "SelfId": "Txt_Common_TITLE_UI_InterruptedSaveGuide",
+        "Text": "Current Quick Save"
+      },
+      "Txt_Common_TITLE_UI_AutoSaveGuide": {
+        "SelfId": "Txt_Common_TITLE_UI_AutoSaveGuide",
+        "Text": "Current Autosave"
+      },
+      "Txt_Common_TITLE_UI_Unused": {
+        "SelfId": "Txt_Common_TITLE_UI_Unused",
+        "Text": "Currently Unused"
+      },
+      "Txt_Common_TITLE_UI_Delete": {
+        "SelfId": "Txt_Common_TITLE_UI_Delete",
+        "Text": "Please select the adventure log you wish to delete."
+      },
+      "Txt_Common_TITLE_UI_Create": {
+        "SelfId": "Txt_Common_TITLE_UI_Create",
+        "Text": "Which slot would you like to use?"
+      },
+      "Txt_Common_TITLE_UI_HiraganaConfig": {
+        "SelfId": "Txt_Common_TITLE_UI_HiraganaConfig",
+        "Text": "Txt_Common_TITLE_UI_HiraganaConfig"
+      },
+      "Txt_Common_TITLE_UI_GuideConfig": {
+        "SelfId": "Txt_Common_TITLE_UI_GuideConfig",
+        "Text": "Objective Marker"
+      },
+      "Txt_Common_TITLE_UI_Confirm_ON": {
+        "SelfId": "Txt_Common_TITLE_UI_Confirm_ON",
+        "Text": "On"
+      },
+      "Txt_Common_TITLE_UI_Confirm_OFF": {
+        "SelfId": "Txt_Common_TITLE_UI_Confirm_OFF",
+        "Text": "Off"
+      },
+      "Txt_Common_TITLE_Message_SelectGameSave": {
+        "SelfId": "Txt_Common_TITLE_Message_SelectGameSave",
+        "Text": "Please select an adventure log.<NO_INPUT>"
+      },
+      "Txt_Common_TITLE_Message_OverwriteNewGameSave": {
+        "SelfId": "Txt_Common_TITLE_Message_OverwriteNewGameSave",
+        "Text": "That slot is already in use. Please choose a different one.<NO_INPUT>"
+      },
+      "Txt_Common_TITLE_Message_DeleteGameSave": {
+        "SelfId": "Txt_Common_TITLE_Message_DeleteGameSave",
+        "Text": "Are you sure you want to delete the adventure log in Slot {VALUE}?<NO_INPUT>"
+      },
+      "Txt_Common_TITLE_Message_DeleteGameSaveConfirm": {
+        "SelfId": "Txt_Common_TITLE_Message_DeleteGameSaveConfirm",
+        "Text": "If you delete an adventure log, you won't be able to get it back. Are you sure?<NO_INPUT>"
+      },
+      "Txt_Common_TITLE_Message_Deleting": {
+        "SelfId": "Txt_Common_TITLE_Message_Deleting",
+        "Text": "Deleting Adventure Log {VALUE}..."
+      },
+      "Txt_Common_TITLE_Message_DeletionComplete": {
+        "SelfId": "Txt_Common_TITLE_Message_DeletionComplete",
+        "Text": "Adventure Log {VALUE} has been deleted."
+      },
+      "Txt_Common_TITLE_Message_ConfirmLoadGameSave": {
+        "SelfId": "Txt_Common_TITLE_Message_ConfirmLoadGameSave",
+        "Text": "Are you sure you want to return to this adventure?<NO_INPUT>"
+      },
+      "Txt_Common_TITLE_Message_ConfirmLoadInterruptedSave": {
+        "SelfId": "Txt_Common_TITLE_Message_ConfirmLoadInterruptedSave",
+        "Text": "Are you sure you want to return to this adventure?\r\nDoing so will delete your current quick save log.<NO_INPUT>"
+      },
+      "Txt_Common_TITLE_Message_SaveExist": {
+        "SelfId": "Txt_Common_TITLE_Message_SaveExist",
+        "Text": "You can't create any more adventure logs. To make a new one, you'll need to delete an existing one first."
+      },
+      "Txt_Common_TITLE_Message_NameEntry": {
+        "SelfId": "Txt_Common_TITLE_Message_NameEntry",
+        "Text": "Please decide upon a name.<NO_INPUT>"
+      },
+      "Txt_Common_TITLE_Message_NameNG": {
+        "SelfId": "Txt_Common_TITLE_Message_NameNG",
+        "Text": "Sorry, but that name is not allowed. Please choose a different name."
+      },
+      "Txt_Common_TITLE_Message_NameConfirm": {
+        "SelfId": "Txt_Common_TITLE_Message_NameConfirm",
+        "Text": "Are you happy to proceed with the name <6>{ACTOR}<9>?<NO_INPUT>"
+      },
+      "Txt_Common_TITLE_Message_StyleSelect": {
+        "SelfId": "Txt_Common_TITLE_Message_StyleSelect",
+        "Text": "How do you want your character to look?<NO_INPUT>"
+      },
+      "Txt_Common_TITLE_Message_HeroConfirm": {
+        "SelfId": "Txt_Common_TITLE_Message_HeroConfirm",
+        "Text": "Are you happy with your choice? You would play as a hero with appearance A and a heroine with appearance B.<NO_INPUT>"
+      },
+      "Txt_Common_TITLE_Message_VoiceSelect": {
+        "SelfId": "Txt_Common_TITLE_Message_VoiceSelect",
+        "Text": "What language do you want the characters to speak in?<NO_INPUT>"
+      },
+      "Txt_Common_TITLE_Message_HiraganaConfig": {
+        "SelfId": "Txt_Common_TITLE_Message_HiraganaConfig",
+        "Text": "Txt_Common_TITLE_Message_HiraganaConfig"
+      },
+      "Txt_Common_TITLE_Message_HiraganaON": {
+        "SelfId": "Txt_Common_TITLE_Message_HiraganaON",
+        "Text": "Txt_Common_TITLE_Message_HiraganaON"
+      },
+      "Txt_Common_TITLE_Message_HiraganaOFF": {
+        "SelfId": "Txt_Common_TITLE_Message_HiraganaOFF",
+        "Text": "Txt_Common_TITLE_Message_HiraganaOFF"
+      },
+      "Txt_Common_TITLE_Message_GuideConfig": {
+        "SelfId": "Txt_Common_TITLE_Message_GuideConfig",
+        "Text": "Do you want to display the location of your current objective on the map?<NO_INPUT>"
+      },
+      "Txt_Common_TITLE_Message_GuideON": {
+        "SelfId": "Txt_Common_TITLE_Message_GuideON",
+        "Text": "The objective marker will now be displayed.\r\nYou can change this at any time during your adventure by visiting the <6>System Settings<9> menu."
+      },
+      "Txt_Common_TITLE_Message_GuideOFF": {
+        "SelfId": "Txt_Common_TITLE_Message_GuideOFF",
+        "Text": "The objective marker will not be displayed.\r\nYou can change this at any time during your adventure by visiting the <6>System Settings<9> menu."
+      },
+      "Txt_Common_TITLE_Message_GamemodeConfig": {
+        "SelfId": "Txt_Common_TITLE_Message_GamemodeConfig",
+        "Text": "Please select a difficulty mode. You can change this at any time during your adventure by visiting the <6>System Settings<9> menu.<NO_INPUT>"
+      },
+      "Txt_Common_TITLE_Message_PlayingConfigConfirm": {
+        "SelfId": "Txt_Common_TITLE_Message_PlayingConfigConfirm",
+        "Text": "Are you happy to start your adventure with these settings? You can change them at any time during your adventure by visiting the <6>System Settings<9> menu.<NO_INPUT>"
+      },
+      "Txt_Common_ED_Message_Save": {
+        "SelfId": "Txt_Common_ED_Message_Save",
+        "Text": "Your current progress will be recorded in an adventure log. Which adventure log do you wish to save to?<NO_INPUT>"
+      },
+      "Txt_Common_ED_Message_SaveConfirm": {
+        "SelfId": "Txt_Common_ED_Message_SaveConfirm",
+        "Text": "This will mean overwriting {WORD} Lv. {VALUE}. Are you sure?<NO_INPUT>"
+      },
+      "Txt_Common_ED_Message_SaveFinish": {
+        "SelfId": "Txt_Common_ED_Message_SaveFinish",
+        "Text": "Adventure log recorded."
+      },
+      "Txt_Common_KEYBOARD_Hiragana": {
+        "SelfId": "Txt_Common_KEYBOARD_Hiragana",
+        "Text": "Txt_Common_KEYBOARD_Hiragana"
+      },
+      "Txt_Common_KEYBOARD_Katakana": {
+        "SelfId": "Txt_Common_KEYBOARD_Katakana",
+        "Text": "Txt_Common_KEYBOARD_Katakana"
+      },
+      "Txt_Common_KEYBOARD_Back": {
+        "SelfId": "Txt_Common_KEYBOARD_Back",
+        "Text": "Back"
+      },
+      "Txt_Common_KEYBOARD_END": {
+        "SelfId": "Txt_Common_KEYBOARD_END",
+        "Text": "Done"
+      },
+      "Txt_Common_KEYBOARD_NOINPUT": {
+        "SelfId": "Txt_Common_KEYBOARD_NOINPUT",
+        "Text": "Please enter a name."
+      },
+      "Txt_Common_NGNAME_ROTO_K": {
+        "SelfId": "Txt_Common_NGNAME_ROTO_K",
+        "Text": "Erdrick"
+      },
+      "Txt_Common_NGNAME_ROTO_H": {
+        "SelfId": "Txt_Common_NGNAME_ROTO_H",
+        "Text": "Erdrick"
+      },
+      "Txt_Common_LANGUAGE_JP": {
+        "SelfId": "Txt_Common_LANGUAGE_JP",
+        "Text": "Japanese"
+      },
+      "Txt_Common_LANGUAGE_EN": {
+        "SelfId": "Txt_Common_LANGUAGE_EN",
+        "Text": "English"
+      },
+      "Txt_Common_LANGUAGE_TW": {
+        "SelfId": "Txt_Common_LANGUAGE_TW",
+        "Text": "Traditional Chinese"
+      },
+      "Txt_Common_LANGUAGE_CN": {
+        "SelfId": "Txt_Common_LANGUAGE_CN",
+        "Text": "Simplified Chinese"
+      },
+      "Txt_Common_LANGUAGE_KO": {
+        "SelfId": "Txt_Common_LANGUAGE_KO",
+        "Text": "Korean"
+      },
+      "Txt_Common_LANGUAGE_FR": {
+        "SelfId": "Txt_Common_LANGUAGE_FR",
+        "Text": "French"
+      },
+      "Txt_Common_LANGUAGE_IT": {
+        "SelfId": "Txt_Common_LANGUAGE_IT",
+        "Text": "Italian"
+      },
+      "Txt_Common_LANGUAGE_DE": {
+        "SelfId": "Txt_Common_LANGUAGE_DE",
+        "Text": "German"
+      },
+      "Txt_Common_LANGUAGE_ES": {
+        "SelfId": "Txt_Common_LANGUAGE_ES",
+        "Text": "Spanish"
+      },
+      "Txt_Common_LANGUAGE_ES-419": {
+        "SelfId": "Txt_Common_LANGUAGE_ES-419",
+        "Text": "Latin American Spanish"
+      },
+      "Txt_Common_BIRTHDAY_Month_Guide": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_Guide",
+        "Text": "In what month were you born?"
+      },
+      "Txt_Common_BIRTHDAY_Day_Guide": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Guide",
+        "Text": "On what day were you born?"
+      },
+      "Txt_Common_BIRTHDAY_Month_01": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_01",
+        "Text": "January"
+      },
+      "Txt_Common_BIRTHDAY_Month_02": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_02",
+        "Text": "February"
+      },
+      "Txt_Common_BIRTHDAY_Month_03": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_03",
+        "Text": "March"
+      },
+      "Txt_Common_BIRTHDAY_Month_04": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_04",
+        "Text": "April"
+      },
+      "Txt_Common_BIRTHDAY_Month_05": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_05",
+        "Text": "May"
+      },
+      "Txt_Common_BIRTHDAY_Month_06": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_06",
+        "Text": "June"
+      },
+      "Txt_Common_BIRTHDAY_Month_07": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_07",
+        "Text": "July"
+      },
+      "Txt_Common_BIRTHDAY_Month_08": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_08",
+        "Text": "August"
+      },
+      "Txt_Common_BIRTHDAY_Month_09": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_09",
+        "Text": "September"
+      },
+      "Txt_Common_BIRTHDAY_Month_10": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_10",
+        "Text": "October"
+      },
+      "Txt_Common_BIRTHDAY_Month_11": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_11",
+        "Text": "November"
+      },
+      "Txt_Common_BIRTHDAY_Month_12": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_12",
+        "Text": "December"
+      },
+      "Txt_Common_BIRTHDAY_Day_01": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_01",
+        "Text": "1st"
+      },
+      "Txt_Common_BIRTHDAY_Day_02": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_02",
+        "Text": "2nd"
+      },
+      "Txt_Common_BIRTHDAY_Day_03": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_03",
+        "Text": "3rd"
+      },
+      "Txt_Common_BIRTHDAY_Day_04": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_04",
+        "Text": "4th"
+      },
+      "Txt_Common_BIRTHDAY_Day_05": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_05",
+        "Text": "5th"
+      },
+      "Txt_Common_BIRTHDAY_Day_06": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_06",
+        "Text": "6th"
+      },
+      "Txt_Common_BIRTHDAY_Day_07": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_07",
+        "Text": "7th"
+      },
+      "Txt_Common_BIRTHDAY_Day_08": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_08",
+        "Text": "8th"
+      },
+      "Txt_Common_BIRTHDAY_Day_09": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_09",
+        "Text": "9th"
+      },
+      "Txt_Common_BIRTHDAY_Day_10": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_10",
+        "Text": "10th"
+      },
+      "Txt_Common_BIRTHDAY_Day_11": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_11",
+        "Text": "11th"
+      },
+      "Txt_Common_BIRTHDAY_Day_12": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_12",
+        "Text": "12th"
+      },
+      "Txt_Common_BIRTHDAY_Day_13": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_13",
+        "Text": "13th"
+      },
+      "Txt_Common_BIRTHDAY_Day_14": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_14",
+        "Text": "14th"
+      },
+      "Txt_Common_BIRTHDAY_Day_15": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_15",
+        "Text": "15th"
+      },
+      "Txt_Common_BIRTHDAY_Day_16": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_16",
+        "Text": "16th"
+      },
+      "Txt_Common_BIRTHDAY_Day_17": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_17",
+        "Text": "17th"
+      },
+      "Txt_Common_BIRTHDAY_Day_18": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_18",
+        "Text": "18th"
+      },
+      "Txt_Common_BIRTHDAY_Day_19": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_19",
+        "Text": "19th"
+      },
+      "Txt_Common_BIRTHDAY_Day_20": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_20",
+        "Text": "20th"
+      },
+      "Txt_Common_BIRTHDAY_Day_21": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_21",
+        "Text": "21st"
+      },
+      "Txt_Common_BIRTHDAY_Day_22": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_22",
+        "Text": "22nd"
+      },
+      "Txt_Common_BIRTHDAY_Day_23": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_23",
+        "Text": "23rd"
+      },
+      "Txt_Common_BIRTHDAY_Day_24": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_24",
+        "Text": "24th"
+      },
+      "Txt_Common_BIRTHDAY_Day_25": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_25",
+        "Text": "25th"
+      },
+      "Txt_Common_BIRTHDAY_Day_26": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_26",
+        "Text": "26th"
+      },
+      "Txt_Common_BIRTHDAY_Day_27": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_27",
+        "Text": "27th"
+      },
+      "Txt_Common_BIRTHDAY_Day_28": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_28",
+        "Text": "28th"
+      },
+      "Txt_Common_BIRTHDAY_Day_29": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_29",
+        "Text": "29th"
+      },
+      "Txt_Common_BIRTHDAY_Day_30": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_30",
+        "Text": "30th"
+      },
+      "Txt_Common_BIRTHDAY_Day_31": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_31",
+        "Text": "31st"
+      },
+      "Txt_Common_BIRTHDAY_Month_Number_01": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_Number_01",
+        "Text": "January"
+      },
+      "Txt_Common_BIRTHDAY_Month_Number_02": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_Number_02",
+        "Text": "February"
+      },
+      "Txt_Common_BIRTHDAY_Month_Number_03": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_Number_03",
+        "Text": "March"
+      },
+      "Txt_Common_BIRTHDAY_Month_Number_04": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_Number_04",
+        "Text": "April"
+      },
+      "Txt_Common_BIRTHDAY_Month_Number_05": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_Number_05",
+        "Text": "May"
+      },
+      "Txt_Common_BIRTHDAY_Month_Number_06": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_Number_06",
+        "Text": "June"
+      },
+      "Txt_Common_BIRTHDAY_Month_Number_07": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_Number_07",
+        "Text": "July"
+      },
+      "Txt_Common_BIRTHDAY_Month_Number_08": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_Number_08",
+        "Text": "August"
+      },
+      "Txt_Common_BIRTHDAY_Month_Number_09": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_Number_09",
+        "Text": "September"
+      },
+      "Txt_Common_BIRTHDAY_Month_Number_10": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_Number_10",
+        "Text": "October"
+      },
+      "Txt_Common_BIRTHDAY_Month_Number_11": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_Number_11",
+        "Text": "November"
+      },
+      "Txt_Common_BIRTHDAY_Month_Number_12": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_Number_12",
+        "Text": "December"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_01": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_01",
+        "Text": "1st"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_02": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_02",
+        "Text": "2nd"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_03": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_03",
+        "Text": "3rd"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_04": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_04",
+        "Text": "4th"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_05": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_05",
+        "Text": "5th"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_06": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_06",
+        "Text": "6th"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_07": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_07",
+        "Text": "7th"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_08": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_08",
+        "Text": "8th"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_09": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_09",
+        "Text": "9th"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_10": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_10",
+        "Text": "10th"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_11": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_11",
+        "Text": "11th"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_12": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_12",
+        "Text": "12th"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_13": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_13",
+        "Text": "13th"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_14": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_14",
+        "Text": "14th"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_15": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_15",
+        "Text": "15th"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_16": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_16",
+        "Text": "16th"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_17": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_17",
+        "Text": "17th"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_18": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_18",
+        "Text": "18th"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_19": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_19",
+        "Text": "19th"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_20": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_20",
+        "Text": "20th"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_21": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_21",
+        "Text": "21st"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_22": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_22",
+        "Text": "22nd"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_23": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_23",
+        "Text": "23rd"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_24": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_24",
+        "Text": "24th"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_25": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_25",
+        "Text": "25th"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_26": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_26",
+        "Text": "26th"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_27": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_27",
+        "Text": "27th"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_28": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_28",
+        "Text": "28th"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_29": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_29",
+        "Text": "29th"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_30": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_30",
+        "Text": "30th"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_31": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_31",
+        "Text": "31st"
+      },
+      "Txt_Common_STAR_SIGNS_01": {
+        "SelfId": "Txt_Common_STAR_SIGNS_01",
+        "Text": "Aries"
+      },
+      "Txt_Common_STAR_SIGNS_02": {
+        "SelfId": "Txt_Common_STAR_SIGNS_02",
+        "Text": "Taurus"
+      },
+      "Txt_Common_STAR_SIGNS_03": {
+        "SelfId": "Txt_Common_STAR_SIGNS_03",
+        "Text": "Gemini"
+      },
+      "Txt_Common_STAR_SIGNS_04": {
+        "SelfId": "Txt_Common_STAR_SIGNS_04",
+        "Text": "Cancer"
+      },
+      "Txt_Common_STAR_SIGNS_05": {
+        "SelfId": "Txt_Common_STAR_SIGNS_05",
+        "Text": "Leo"
+      },
+      "Txt_Common_STAR_SIGNS_06": {
+        "SelfId": "Txt_Common_STAR_SIGNS_06",
+        "Text": "Virgo"
+      },
+      "Txt_Common_STAR_SIGNS_07": {
+        "SelfId": "Txt_Common_STAR_SIGNS_07",
+        "Text": "Libra"
+      },
+      "Txt_Common_STAR_SIGNS_08": {
+        "SelfId": "Txt_Common_STAR_SIGNS_08",
+        "Text": "Scorpio"
+      },
+      "Txt_Common_STAR_SIGNS_09": {
+        "SelfId": "Txt_Common_STAR_SIGNS_09",
+        "Text": "Sagittarius"
+      },
+      "Txt_Common_STAR_SIGNS_10": {
+        "SelfId": "Txt_Common_STAR_SIGNS_10",
+        "Text": "Capricorn"
+      },
+      "Txt_Common_STAR_SIGNS_11": {
+        "SelfId": "Txt_Common_STAR_SIGNS_11",
+        "Text": "Aquarius"
+      },
+      "Txt_Common_STAR_SIGNS_12": {
+        "SelfId": "Txt_Common_STAR_SIGNS_12",
+        "Text": "Pisces"
+      },
+      "Txt_Common_SAVE_Message_Saving_Switch": {
+        "SelfId": "Txt_Common_SAVE_Message_Saving_Switch",
+        "Text": "Saving adventure log...\r\nPlease do not turn the Nintendo Switch™ console off.<NO_INPUT>"
+      },
+      "Txt_Common_SAVE_Message_Saving_PS5": {
+        "SelfId": "Txt_Common_SAVE_Message_Saving_PS5",
+        "Text": "Saving adventure log...\r\nPlease do not turn off your PlayStation®5 console.<NO_INPUT>"
+      },
+      "Txt_Common_SAVE_Message_Saving_Xbox": {
+        "SelfId": "Txt_Common_SAVE_Message_Saving_Xbox",
+        "Text": "Saving adventure log...\r\nPlease do not turn off your Xbox console.<NO_INPUT>"
+      },
+      "Txt_Common_SAVE_Message_Saving_PC": {
+        "SelfId": "Txt_Common_SAVE_Message_Saving_PC",
+        "Text": "Saving adventure log...<NO_INPUT>"
+      },
+      "Txt_Common_SAVE_Message_ReturnTitle": {
+        "SelfId": "Txt_Common_SAVE_Message_ReturnTitle",
+        "Text": "Press the A Button to return to the title screen."
+      },
+      "Txt_Common_SAVE_Message_ReturnTitle_PS5": {
+        "SelfId": "Txt_Common_SAVE_Message_ReturnTitle_PS5",
+        "Text": "Press the × button to return to the title screen."
+      },
+      "Txt_Common_SAVE_Message_ReturnTitle_Xbox": {
+        "SelfId": "Txt_Common_SAVE_Message_ReturnTitle_Xbox",
+        "Text": "Press the A button to return to the title screen."
+      },
+      "Txt_Common_SAVE_Message_ReturnTitle_PC": {
+        "SelfId": "Txt_Common_SAVE_Message_ReturnTitle_PC",
+        "Text": "Press the confirm button to return to the title screen."
+      },
+      "Txt_Common_Xenlon_Wish_01": {
+        "SelfId": "Txt_Common_Xenlon_Wish_01",
+        "Text": "Compete in a New Monster Arena"
+      },
+      "Txt_Common_Xenlon_Wish_02": {
+        "SelfId": "Txt_Common_Xenlon_Wish_02",
+        "Text": "Bring Ortega Back to Life"
+      },
+      "Txt_Common_Xenlon_Wish_03": {
+        "SelfId": "Txt_Common_Xenlon_Wish_03",
+        "Text": "Become History's Trendiest Hero"
+      },
+      "Txt_Common_Xenlon_Wish_04": {
+        "SelfId": "Txt_Common_Xenlon_Wish_04",
+        "Text": "Obtain a Powerful Weapon"
+      },
+      "Txt_Common_Xenlon_Wish_05": {
+        "SelfId": "Txt_Common_Xenlon_Wish_05",
+        "Text": "Obtain a Copy of <6>Guns 'n' Buns<9>"
+      },
+      "Txt_Common_Xenlon_Wish_06": {
+        "SelfId": "Txt_Common_Xenlon_Wish_06",
+        "Text": "Obtain a Copy of <6>More Guns 'n' Buns<9>"
+      },
+      "Txt_Common_Xenlon_Wish_07": {
+        "SelfId": "Txt_Common_Xenlon_Wish_07",
+        "Text": ""
+      },
+      "Txt_Common_Event_Control_Skip": {
+        "SelfId": "Txt_Common_Event_Control_Skip",
+        "Text": "Skip"
+      },
+      "Txt_Common_Event_Control_FastForward": {
+        "SelfId": "Txt_Common_Event_Control_FastForward",
+        "Text": "Fast Forward"
+      },
+      "Txt_Common_Event_Control_FastForward_Now": {
+        "SelfId": "Txt_Common_Event_Control_FastForward_Now",
+        "Text": "Fast Forwarding"
+      },
+      "Txt_Common_SoftwareKeyboard_EntryName": {
+        "SelfId": "Txt_Common_SoftwareKeyboard_EntryName",
+        "Text": "Please input a name."
+      },
+      "Txt_Common_SoftwareKeyboard_OK": {
+        "SelfId": "Txt_Common_SoftwareKeyboard_OK",
+        "Text": "Confirm"
+      },
+      "Txt_Common_Xbox_System_Disconnect_Controller": {
+        "SelfId": "Txt_Common_Xbox_System_Disconnect_Controller",
+        "Text": "Your controller has been disconnected. Please reconnect it if you wish to continue playing."
+      },
+      "Txt_Common_Xbox_System_Account_Logout": {
+        "SelfId": "Txt_Common_Xbox_System_Account_Logout",
+        "Text": "You have signed out of your account. You will now be returned to the title screen."
+      },
+      "Txt_Common_Xbox_System_Account_Change": {
+        "SelfId": "Txt_Common_Xbox_System_Account_Change",
+        "Text": "You have switched accounts. You will now be returned to the title screen."
+      },
+      "Txt_Common_Xbox_System_Title_NoLogin": {
+        "SelfId": "Txt_Common_Xbox_System_Title_NoLogin",
+        "Text": "Please select an account."
+      },
+      "Txt_Common_WindowName_Steam": {
+        "SelfId": "Txt_Common_WindowName_Steam",
+        "Text": "DRAGON QUEST III HD-2D Remake"
+      },
+      "Txt_Common_WindowName_WinGDK": {
+        "SelfId": "Txt_Common_WindowName_WinGDK",
+        "Text": "DRAGON QUEST III HD-2D Remake"
+      },
+      "Txt_Common_PS5_SAVE_TITLE_01": {
+        "SelfId": "Txt_Common_PS5_SAVE_TITLE_01",
+        "Text": "Adventure Log 1"
+      },
+      "Txt_Common_PS5_SAVE_TITLE_02": {
+        "SelfId": "Txt_Common_PS5_SAVE_TITLE_02",
+        "Text": "Adventure Log 2"
+      },
+      "Txt_Common_PS5_SAVE_TITLE_03": {
+        "SelfId": "Txt_Common_PS5_SAVE_TITLE_03",
+        "Text": "Adventure Log 3"
+      },
+      "Txt_Common_PS5_SAVE_TITLE_04": {
+        "SelfId": "Txt_Common_PS5_SAVE_TITLE_04",
+        "Text": "Adventure Log 4"
+      },
+      "Txt_Common_PS5_SAVE_TITLE_05": {
+        "SelfId": "Txt_Common_PS5_SAVE_TITLE_05",
+        "Text": "Adventure Log 5"
+      },
+      "Txt_Common_PS5_SAVE_TITLE_06": {
+        "SelfId": "Txt_Common_PS5_SAVE_TITLE_06",
+        "Text": "Adventure Log 6"
+      },
+      "Txt_Common_PS5_SAVE_TITLE_07": {
+        "SelfId": "Txt_Common_PS5_SAVE_TITLE_07",
+        "Text": "Adventure Log 7"
+      },
+      "Txt_Common_PS5_SAVE_TITLE_08": {
+        "SelfId": "Txt_Common_PS5_SAVE_TITLE_08",
+        "Text": "Adventure Log 8"
+      },
+      "Txt_Common_PS5_SAVE_TITLE_09": {
+        "SelfId": "Txt_Common_PS5_SAVE_TITLE_09",
+        "Text": "Adventure Log 9"
+      },
+      "Txt_Common_PS5_SAVE_TITLE_Auto": {
+        "SelfId": "Txt_Common_PS5_SAVE_TITLE_Auto",
+        "Text": "Autosave Log"
+      },
+      "Txt_Common_PS5_SAVE_TITLE_Interruption": {
+        "SelfId": "Txt_Common_PS5_SAVE_TITLE_Interruption",
+        "Text": "Quick Save Log"
+      },
+      "Txt_Common_PS5_SAVE_TITLE_SUB": {
+        "SelfId": "Txt_Common_PS5_SAVE_TITLE_SUB",
+        "Text": "System Data"
+      },
+      "Txt_Common_PS5_SAVE_TITLE_SUB_2": {
+        "SelfId": "Txt_Common_PS5_SAVE_TITLE_SUB_2",
+        "Text": "Saved Data"
+      },
+      "Txt_Common_PS5_SAVE_EXPLAIN": {
+        "SelfId": "Txt_Common_PS5_SAVE_EXPLAIN",
+        "Text": "This is your DRAGON QUEST III HD-2D Remake system data."
+      },
+      "Txt_Common_PS5_SAVE_EXPLAIN_2": {
+        "SelfId": "Txt_Common_PS5_SAVE_EXPLAIN_2",
+        "Text": "This is your DRAGON QUEST III HD-2D Remake saved data."
+      }
+    }
+  }
+]

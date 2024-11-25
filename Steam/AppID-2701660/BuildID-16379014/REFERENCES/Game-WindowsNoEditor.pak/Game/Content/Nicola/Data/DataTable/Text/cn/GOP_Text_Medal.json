@@ -1,0 +1,76 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_Medal",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Medal_UI_ItemName": {
+        "SelfId": "Txt_Medal_UI_ItemName",
+        "Text": "{0}"
+      },
+      "Txt_Medal_UI_ItemDetail": {
+        "SelfId": "Txt_Medal_UI_ItemDetail",
+        "Text": "{0}"
+      },
+      "Txt_Medal_UI_RequiredMedal": {
+        "SelfId": "Txt_Medal_UI_RequiredMedal",
+        "Text": "{0}"
+      },
+      "Txt_Medal_UI_ListGuide": {
+        "SelfId": "Txt_Medal_UI_ListGuide",
+        "Text": "查看奖品"
+      },
+      "Txt_Medal_Message_Start": {
+        "SelfId": "Txt_Medal_Message_Start",
+        "Text": "欢迎！\r\n我是徽章叔叔，\r\n正在收集世界上的小徽章。"
+      },
+      "Txt_Medal_Message_First": {
+        "SelfId": "Txt_Medal_Message_First",
+        "Text": "如果有人发现小徽章\r\n并拿来的话，就可以\r\n从我这里得到稀有奖赏。"
+      },
+      "Txt_Medal_Message_First_Medal": {
+        "SelfId": "Txt_Medal_Message_First_Medal",
+        "Text": "嗯？什么？\r\n你带来小徽章了吗！\r\n那么就交给我吧！"
+      },
+      "Txt_Medal_Message_Confirm_Medal": {
+        "SelfId": "Txt_Medal_Message_Confirm_Medal",
+        "Text": "唔，至今为止\r\n{LEADER}一共拿来了\r\n{VALUE}枚徽章。"
+      },
+      "Txt_Medal_Message_HandoverMedal": {
+        "SelfId": "Txt_Medal_Message_HandoverMedal",
+        "Text": "嚯。你带来小徽章了吗。\r\n那么就交给我吧！"
+      },
+      "Txt_Medal_Message_Prize": {
+        "SelfId": "Txt_Medal_Message_Prize",
+        "Text": "好！既然{LEADER}\r\n收集了{VALUE}枚徽章，\r\n我就奖励你{I_NAME}吧！"
+      },
+      "Txt_Medal_Message_GetPrize": {
+        "SelfId": "Txt_Medal_Message_GetPrize",
+        "Text": "{LEADER}收下了\r\n{I_NAME}！"
+      },
+      "Txt_Medal_Message_Confirm": {
+        "SelfId": "Txt_Medal_Message_Confirm",
+        "Text": "我已经为{LEADER}\r\n保管着{VALUE}枚徽章了。"
+      },
+      "Txt_Medal_Message_NextPrize": {
+        "SelfId": "Txt_Medal_Message_NextPrize",
+        "Text": "等你收集到{VALUE}枚时，\r\n我就送给你{I_NAME}吧。\r\n去努力收集吧！"
+      },
+      "Txt_Medal_Message_MedalComplete": {
+        "SelfId": "Txt_Medal_Message_MedalComplete",
+        "Text": "{LEADER}收集了{VALUE}枚徽章，\r\n真不容易！<KEY_WAIT>\r\n我已经没有什么东西\r\n可以送给你了。<KEY_WAIT>\r\n今后，你也不要丢掉探索精神，\r\n为了全世界的人们，\r\n继续努力吧。<KEY_WAIT>\r\n我也会默默地\r\n为你加油的！"
+      },
+      "Txt_Medal_Message_GetPrizeFailere": {
+        "SelfId": "Txt_Medal_Message_GetPrizeFailere",
+        "Text": "不过，你好像已经拿不下了啊……\r\n等你能拿得下东西了再来吧。"
+      }
+    }
+  }
+]

@@ -1,0 +1,60 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_SearchObject_NecrogondShrine",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_SearchObject_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "SEARCH_NecrogondShrine_House_GROUND_0": {
+        "SelfId": "SEARCH_NecrogondShrine_House_GROUND_0",
+        "ObjectType": "ESearchObjectType::GROUND",
+        "ItemId": "ITEM_SMALL_MEDAL",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_NecrogondShrine_House_GROUND_0"
+      },
+      "SEARCH_NecrogondShrine_House_GROUND_1": {
+        "SelfId": "SEARCH_NecrogondShrine_House_GROUND_1",
+        "ObjectType": "ESearchObjectType::GROUND",
+        "ItemId": "ITEM_USE_ITEM_SEED_OF_LIFE",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_NecrogondShrine_House_GROUND_1"
+      },
+      "SEARCH_NecrogondShrine_House_GROUND_2": {
+        "SelfId": "SEARCH_NecrogondShrine_House_GROUND_2",
+        "ObjectType": "ESearchObjectType::GROUND",
+        "ItemId": "ITEM_USE_ITEM_SEED_OF_MAGIC",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_NecrogondShrine_House_GROUND_2"
+      },
+      "SEARCH_NecrogondShrine_Out_BARREL_0": {
+        "SelfId": "SEARCH_NecrogondShrine_Out_BARREL_0",
+        "ObjectType": "ESearchObjectType::BARREL",
+        "ItemId": "ITEM_EQUIP_ACCESSORY_DRAGON_SCALES",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_NecrogondShrine_Out_BARREL_0"
+      }
+    }
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_SearchObject_IzanaiShrine",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_SearchObject_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "SEARCH_IzanaiShrine_1F_GROUND_0": {
+        "SelfId": "SEARCH_IzanaiShrine_1F_GROUND_0",
+        "ObjectType": "ESearchObjectType::GROUND",
+        "ItemId": "ITEM_EQUIP_WEAPON_BOOMERANG",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_IzanaiShrine_1F_GROUND_0"
+      },
+      "SEARCH_IzanaiShrine_1F_POT_0": {
+        "SelfId": "SEARCH_IzanaiShrine_1F_POT_0",
+        "ObjectType": "ESearchObjectType::POT",
+        "ItemId": "None",
+        "ItemNum": 0,
+        "Gold": 162,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_IzanaiShrine_1F_POT_0"
+      }
+    }
+  }
+]

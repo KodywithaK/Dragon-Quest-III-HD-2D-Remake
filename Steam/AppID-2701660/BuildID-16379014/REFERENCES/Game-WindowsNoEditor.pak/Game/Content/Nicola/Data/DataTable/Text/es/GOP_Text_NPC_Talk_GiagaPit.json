@@ -1,0 +1,76 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_NPC_Talk_GiagaPit",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Talk_GiagaPit_1F_Before_SUB_0_ACTOR_0110_010_1": {
+        "SelfId": "Txt_Talk_GiagaPit_1F_Before_SUB_0_ACTOR_0110_010_1",
+        "Text": "*: He aquí el boquete que llaman el Pozo de Giaga. Nosotros somos los pringados a los que les ha tocado vigilarlo."
+      },
+      "Txt_Talk_GiagaPit_1F_Before_SUB_0_ACTOR_0110_010_2": {
+        "SelfId": "Txt_Talk_GiagaPit_1F_Before_SUB_0_ACTOR_0110_010_2",
+        "Text": "*: A veces viene gente que intenta tirarse dentro."
+      },
+      "Txt_Talk_GiagaPit_1F_Before_SUB_0_ACTOR_0110_010_3": {
+        "SelfId": "Txt_Talk_GiagaPit_1F_Before_SUB_0_ACTOR_0110_010_3",
+        "Text": "*: A saber qué mosca les habrá picado. Por muy mal que te vayan las cosas, esa no es forma de pasar a mejor vida..."
+      },
+      "Txt_Talk_GiagaPit_1F_Before_SUB_0_ACTOR_0210_010_1": {
+        "SelfId": "Txt_Talk_GiagaPit_1F_Before_SUB_0_ACTOR_0210_010_1",
+        "Text": "*: Ninguno de los que han descendido por este agujero para investigarlo ha regresado jamás."
+      },
+      "Txt_Talk_GiagaPit_1F_Before_SUB_0_ACTOR_0210_010_2": {
+        "SelfId": "Txt_Talk_GiagaPit_1F_Before_SUB_0_ACTOR_0210_010_2",
+        "Text": "*: Así que seguimos sin saber qué hay al fondo."
+      },
+      "Txt_Talk_GiagaPit_1F_Before_SUB_0_ACTOR_0210_010_3": {
+        "SelfId": "Txt_Talk_GiagaPit_1F_Before_SUB_0_ACTOR_0210_010_3",
+        "Text": "*: Ah, <IfSolo(si alguna vez te acompañara alguien e intentara,si alguien de tu grupo intenta)> meterse ahí dentro, haz sonar una campanilla angelical para que se le pase la tontería. Si eso no funciona..., puedes probar a darle con ella en la cabeza."
+      },
+      "Txt_Talk_GiagaPit_1F_Before_SUB_0_ACTOR_0210_010_4": {
+        "SelfId": "Txt_Talk_GiagaPit_1F_Before_SUB_0_ACTOR_0210_010_4",
+        "Text": "*: No olvides que, <IfSolo(si en un futuro vas <IfGender_LEADER(acompañado,acompañada,)> y alguien de tu grupo queda confuso,si alguien de tu grupo queda confuso e intenta llevar a cabo alguna estupidez)>, haz que oiga el sonido de una campanilla angelical para que vuelva a sus cabales."
+      },
+      "Txt_Talk_GiagaPit_1F_After_SUB_0_ACTOR_0110_010_1": {
+        "SelfId": "Txt_Talk_GiagaPit_1F_After_SUB_0_ACTOR_0110_010_1",
+        "Text": "*: ¡Qué horror! La tierra se ha estremecido como nunca y, cuando me he asomado, ¡he visto que el boquete se había hecho aún más grande!"
+      },
+      "Txt_Talk_GiagaPit_1F_After_SUB_0_ACTOR_0110_010_2": {
+        "SelfId": "Txt_Talk_GiagaPit_1F_After_SUB_0_ACTOR_0110_010_2",
+        "Text": "*: Es como si algo enorme se hubiera... metido a rastras ahí dentro..."
+      },
+      "Txt_Talk_GiagaPit_1F_After_SUB_0_ACTOR_0110_010_3": {
+        "SelfId": "Txt_Talk_GiagaPit_1F_After_SUB_0_ACTOR_0110_010_3",
+        "Text": "*: De ser así, esa cosa se ha llevado consigo a mi amigo, el otro centinela que había aquí..."
+      },
+      "Txt_Talk_GiagaPit_1F_After_SUB_0_VOLUME_0110_010_1": {
+        "SelfId": "Txt_Talk_GiagaPit_1F_After_SUB_0_VOLUME_0110_010_1",
+        "Text": "Las fuerzas oscuras le bloquean el camino a {LEADER}."
+      },
+      "Txt_Talk_GiagaPit_1F_After_SUB_0_VOLUME_0110_010_2": {
+        "SelfId": "Txt_Talk_GiagaPit_1F_After_SUB_0_VOLUME_0110_010_2",
+        "Text": "¿Usar la Esfera de Luz?"
+      },
+      "Txt_Talk_GiagaPit_1F_After_SUB_0_VOLUME_0110_010_3": {
+        "SelfId": "Txt_Talk_GiagaPit_1F_After_SUB_0_VOLUME_0110_010_3",
+        "Text": "¡{LEADER} sostiene la Esfera de Luz en alto!"
+      },
+      "Txt_Talk_GiagaPit_1F_After_SUB_0_VOLUME_0110_010_4": {
+        "SelfId": "Txt_Talk_GiagaPit_1F_After_SUB_0_VOLUME_0110_010_4",
+        "Text": "¡La oscuridad se disipa ante la Esfera de Luz!"
+      },
+      "Txt_Talk_GiagaPit_1F_After_SUB_0_VOLUME_0110_010_5": {
+        "SelfId": "Txt_Talk_GiagaPit_1F_After_SUB_0_VOLUME_0110_010_5",
+        "Text": "Ya no queda ninguna fuerza maligna que le barra el paso a {LEADER}."
+      }
+    }
+  }
+]

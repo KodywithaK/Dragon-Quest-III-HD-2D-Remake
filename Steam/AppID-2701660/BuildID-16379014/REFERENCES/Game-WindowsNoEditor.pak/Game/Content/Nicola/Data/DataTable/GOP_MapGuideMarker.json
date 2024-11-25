@@ -1,0 +1,1457 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_MapGuideMarker",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_MapGuideMarkerTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "MAPGUIDEMARKER_WORLDMAP_Aliahan_1_00": {
+        "SelfId": "MAPGUIDEMARKER_WORLDMAP_Aliahan_1_00",
+        "DispTriggerProgressID": "MAIN_ALIAHAN_Wake",
+        "HideTriggerProgressID": "MAIN_ALIAHAN_ArriveCastle",
+        "WorldMapLocationID": "RURA_RIREMITO_RURA_ALIAHAN",
+        "TownDungeonLocationID": "None",
+        "TownDungeonPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "MAPGUIDEMARKER_WORLDMAP_Aliahan_2_00": {
+        "SelfId": "MAPGUIDEMARKER_WORLDMAP_Aliahan_2_00",
+        "DispTriggerProgressID": "MAIN_ALIAHAN_ArriveCastle",
+        "HideTriggerProgressID": "MAIN_ALIAHAN_MeetKing | MAIN_IZANAICAVE_Warp",
+        "WorldMapLocationID": "RURA_RIREMITO_RURA_ALIAHAN",
+        "TownDungeonLocationID": "None",
+        "TownDungeonPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "MAPGUIDEMARKER_WORLDMAP_Aliahan_3_00": {
+        "SelfId": "MAPGUIDEMARKER_WORLDMAP_Aliahan_3_00",
+        "DispTriggerProgressID": "MAIN_ALIAHAN_MeetKing",
+        "HideTriggerProgressID": "MAIN_REEVE_TalkNorthHouseNPC | MAIN_NAJIMITOWER_Arrival1F | MAIN_REEVE_GetMagicBall",
+        "WorldMapLocationID": "RURA_RIREMITO_RURA_REEVE",
+        "TownDungeonLocationID": "None",
+        "TownDungeonPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "MAPGUIDEMARKER_WORLDMAP_Aliahan_3_01": {
+        "SelfId": "MAPGUIDEMARKER_WORLDMAP_Aliahan_3_01",
+        "DispTriggerProgressID": "MAIN_REEVE_TalkNorthHouseNPC",
+        "HideTriggerProgressID": "MAIN_NAJIMITOWER_Arrival1F | MAIN_REEVE_GetMagicBall",
+        "WorldMapLocationID": "RURA_RIREMITO_RURA_REEVESOUTH",
+        "TownDungeonLocationID": "None",
+        "TownDungeonPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "MAPGUIDEMARKER_WORLDMAP_Aliahan_3_02": {
+        "SelfId": "MAPGUIDEMARKER_WORLDMAP_Aliahan_3_02",
+        "DispTriggerProgressID": "MAIN_NAJIMITOWER_Arrival1F",
+        "HideTriggerProgressID": "MAIN_NAJIMITOWER_GetKey | MAIN_REEVE_GetMagicBall",
+        "WorldMapLocationID": "RURA_RIREMITO_RURA_NAJIMITOWER",
+        "TownDungeonLocationID": "None",
+        "TownDungeonPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "MAPGUIDEMARKER_WORLDMAP_Aliahan_4_00": {
+        "SelfId": "MAPGUIDEMARKER_WORLDMAP_Aliahan_4_00",
+        "DispTriggerProgressID": "MAIN_NAJIMITOWER_GetKey",
+        "HideTriggerProgressID": "MAIN_REEVE_GetMagicBall",
+        "WorldMapLocationID": "RURA_RIREMITO_RURA_REEVE",
+        "TownDungeonLocationID": "None",
+        "TownDungeonPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "MAPGUIDEMARKER_WORLDMAP_Aliahan_5_00": {
+        "SelfId": "MAPGUIDEMARKER_WORLDMAP_Aliahan_5_00",
+        "DispTriggerProgressID": "MAIN_REEVE_GetMagicBall",
+        "HideTriggerProgressID": "MAIN_IZANAICAVE_BreakWall",
+        "WorldMapLocationID": "RURA_RIREMITO_RURA_IZANAICAVE",
+        "TownDungeonLocationID": "None",
+        "TownDungeonPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "MAPGUIDEMARKER_WORLDMAP_Aliahan_6_00": {
+        "SelfId": "MAPGUIDEMARKER_WORLDMAP_Aliahan_6_00",
+        "DispTriggerProgressID": "MAIN_IZANAICAVE_BreakWall",
+        "HideTriggerProgressID": "MAIN_IZANAICAVE_Warp",
+        "WorldMapLocationID": "RURA_RIREMITO_RURA_IZANAICAVE",
+        "TownDungeonLocationID": "None",
+        "TownDungeonPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "MAPGUIDEMARKER_TOWN_DUNGEON_Aliahan_2_00": {
+        "SelfId": "MAPGUIDEMARKER_TOWN_DUNGEON_Aliahan_2_00",
+        "DispTriggerProgressID": "MAIN_ALIAHAN_ArriveCastle",
+        "HideTriggerProgressID": "MAIN_ALIAHAN_MeetKing | MAIN_IZANAICAVE_Warp",
+        "WorldMapLocationID": "None",
+        "TownDungeonLocationID": "MAPLIST_C01F0101",
+        "TownDungeonPosition": {
+          "X": 337.0,
+          "Y": 325.0
+        }
+      },
+      "MAPGUIDEMARKER_TOWN_DUNGEON_Aliahan_2_01": {
+        "SelfId": "MAPGUIDEMARKER_TOWN_DUNGEON_Aliahan_2_01",
+        "DispTriggerProgressID": "MAIN_ALIAHAN_ArriveCastle",
+        "HideTriggerProgressID": "MAIN_ALIAHAN_MeetKing | MAIN_IZANAICAVE_Warp",
+        "WorldMapLocationID": "None",
+        "TownDungeonLocationID": "MAPLIST_C01R0101",
+        "TownDungeonPosition": {
+          "X": 682.0,
+          "Y": 558.0
+        }
+      },
+      "MAPGUIDEMARKER_TOWN_DUNGEON_Aliahan_2_02": {
+        "SelfId": "MAPGUIDEMARKER_TOWN_DUNGEON_Aliahan_2_02",
+        "DispTriggerProgressID": "MAIN_ALIAHAN_ArriveCastle",
+        "HideTriggerProgressID": "MAIN_ALIAHAN_MeetKing | MAIN_IZANAICAVE_Warp",
+        "WorldMapLocationID": "None",
+        "TownDungeonLocationID": "MAPLIST_C01R0102",
+        "TownDungeonPosition": {
+          "X": 342.0,
+          "Y": 142.0
+        }
+      },
+      "MAPGUIDEMARKER_TOWN_DUNGEON_Aliahan_3_00": {
+        "SelfId": "MAPGUIDEMARKER_TOWN_DUNGEON_Aliahan_3_00",
+        "DispTriggerProgressID": "MAIN_ALIAHAN_MeetKing",
+        "HideTriggerProgressID": "MAIN_ALIAHAN_PartyMem | MAIN_NAJIMITOWER_GetKey",
+        "WorldMapLocationID": "None",
+        "TownDungeonLocationID": "MAPLIST_C01F0101",
+        "TownDungeonPosition": {
+          "X": 157.0,
+          "Y": 317.0
+        }
+      },
+      "MAPGUIDEMARKER_TOWN_DUNGEON_Aliahan_3_01": {
+        "SelfId": "MAPGUIDEMARKER_TOWN_DUNGEON_Aliahan_3_01",
+        "DispTriggerProgressID": "MAIN_ALIAHAN_MeetKing",
+        "HideTriggerProgressID": "MAIN_REEVE_TalkNorthHouseNPC | MAIN_NAJIMITOWER_Arrival1F",
+        "WorldMapLocationID": "None",
+        "TownDungeonLocationID": "MAPLIST_T01F0101",
+        "TownDungeonPosition": {
+          "X": 305.0,
+          "Y": 109.0
+        }
+      },
+      "MAPGUIDEMARKER_TOWN_DUNGEON_Aliahan_3_02": {
+        "SelfId": "MAPGUIDEMARKER_TOWN_DUNGEON_Aliahan_3_02",
+        "DispTriggerProgressID": "MAIN_REEVE_TalkNorthHouseNPC",
+        "HideTriggerProgressID": "MAIN_NAJIMITOWER_Arrival1F",
+        "WorldMapLocationID": "None",
+        "TownDungeonLocationID": "MAPLIST_H02F0101",
+        "TownDungeonPosition": {
+          "X": 230.0,
+          "Y": 242.0
+        }
+      },
+      "MAPGUIDEMARKER_TOWN_DUNGEON_Aliahan_3_03": {
+        "SelfId": "MAPGUIDEMARKER_TOWN_DUNGEON_Aliahan_3_03",
+        "DispTriggerProgressID": "MAIN_REEVE_TalkNorthHouseNPC",
+        "HideTriggerProgressID": "MAIN_NAJIMITOWER_Arrival1F",
+        "WorldMapLocationID": "None",
+        "TownDungeonLocationID": "MAPLIST_D02R0501",
+        "TownDungeonPosition": {
+          "X": 270.0,
+          "Y": 582.0
+        }
+      },
+      "MAPGUIDEMARKER_TOWN_DUNGEON_Aliahan_3_04": {
+        "SelfId": "MAPGUIDEMARKER_TOWN_DUNGEON_Aliahan_3_04",
+        "DispTriggerProgressID": "MAIN_NAJIMITOWER_Arrival1F",
+        "HideTriggerProgressID": "MAIN_NAJIMITOWER_GetKey",
+        "WorldMapLocationID": "None",
+        "TownDungeonLocationID": "MAPLIST_D02R0402",
+        "TownDungeonPosition": {
+          "X": 362.0,
+          "Y": 238.0
+        }
+      },
+      "MAPGUIDEMARKER_TOWN_DUNGEON_Aliahan_4_00": {
+        "SelfId": "MAPGUIDEMARKER_TOWN_DUNGEON_Aliahan_4_00",
+        "DispTriggerProgressID": "MAIN_NAJIMITOWER_GetKey",
+        "HideTriggerProgressID": "MAIN_REEVE_GetMagicBall",
+        "WorldMapLocationID": "None",
+        "TownDungeonLocationID": "MAPLIST_T01F0101",
+        "TownDungeonPosition": {
+          "X": 493.0,
+          "Y": 137.0
+        }
+      },
+      "MAPGUIDEMARKER_TOWN_DUNGEON_Aliahan_5_00": {
+        "SelfId": "MAPGUIDEMARKER_TOWN_DUNGEON_Aliahan_5_00",
+        "DispTriggerProgressID": "MAIN_REEVE_GetMagicBall",
+        "HideTriggerProgressID": "MAIN_IZANAICAVE_BreakWall",
+        "WorldMapLocationID": "None",
+        "TownDungeonLocationID": "MAPLIST_D03R0201",
+        "TownDungeonPosition": {
+          "X": 170.0,
+          "Y": 234.0
+        }
+      },
+      "MAPGUIDEMARKER_TOWN_DUNGEON_Aliahan_6_00": {
+        "SelfId": "MAPGUIDEMARKER_TOWN_DUNGEON_Aliahan_6_00",
+        "DispTriggerProgressID": "MAIN_IZANAICAVE_BreakWall",
+        "HideTriggerProgressID": "MAIN_IZANAICAVE_Warp",
+        "WorldMapLocationID": "None",
+        "TownDungeonLocationID": "MAPLIST_D03R0401",
+        "TownDungeonPosition": {
+          "X": 238.0,
+          "Y": 598.0
+        }
+      },
+      "MAPGUIDEMARKER_WORLDMAP_Romaria_7_00": {
+        "SelfId": "MAPGUIDEMARKER_WORLDMAP_Romaria_7_00",
+        "DispTriggerProgressID": "MAIN_IZANAICAVE_Warp",
+        "HideTriggerProgressID": "MAIN_ROMARIAROAD_TalkHawker",
+        "WorldMapLocationID": "RURA_RIREMITO_RURA_ROMARIAHIGHROAD",
+        "TownDungeonLocationID": "None",
+        "TownDungeonPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "MAPGUIDEMARKER_WORLDMAP_Romaria_8_00": {
+        "SelfId": "MAPGUIDEMARKER_WORLDMAP_Romaria_8_00",
+        "DispTriggerProgressID": "MAIN_ROMARIAROAD_TalkHawker",
+        "HideTriggerProgressID": "MAIN_ROMARIABARRIER_TalkGatekeeper | MAIN_SHAMPANETOWER_DefeatKandata",
+        "WorldMapLocationID": "RURA_RIREMITO_RURA_ROMARIABARRIER",
+        "TownDungeonLocationID": "None",
+        "TownDungeonPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "MAPGUIDEMARKER_WORLDMAP_Romaria_8_01": {
+        "SelfId": "MAPGUIDEMARKER_WORLDMAP_Romaria_8_01",
+        "DispTriggerProgressID": "MAIN_ROMARIABARRIER_TalkGatekeeper",
+        "HideTriggerProgressID": "MAIN_SHAMPANETOWER_DefeatKandata",
+        "WorldMapLocationID": "RURA_RIREMITO_RURA_SHAMPANETOWER",
+        "TownDungeonLocationID": "None",
+        "TownDungeonPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "MAPGUIDEMARKER_WORLDMAP_Romaria_8_02": {
+        "SelfId": "MAPGUIDEMARKER_WORLDMAP_Romaria_8_02",
+        "DispTriggerProgressID": "MAIN_SHAMPANETOWER_DefeatKandata",
+        "HideTriggerProgressID": "MAIN_PYRAMID_GetMagicKey | MAIN_PORTOGA_GetLetter",
+        "WorldMapLocationID": "RURA_RIREMITO_RURA_PYRAMID",
+        "TownDungeonLocationID": "None",
+        "TownDungeonPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "MAPGUIDEMARKER_WORLDMAP_Romaria_8_03": {
+        "SelfId": "MAPGUIDEMARKER_WORLDMAP_Romaria_8_03",
+        "DispTriggerProgressID": "MAIN_PYRAMID_GetMagicKey & MAIN_SHAMPANETOWER_DefeatKandata",
+        "HideTriggerProgressID": "MAIN_PORTOGA_GetLetter",
+        "WorldMapLocationID": "RURA_RIREMITO_RURA_PORTOGA",
+        "TownDungeonLocationID": "None",
+        "TownDungeonPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "MAPGUIDEMARKER_TOWN_DUNGEON_Romaria_7_00": {
+        "SelfId": "MAPGUIDEMARKER_TOWN_DUNGEON_Romaria_7_00",
+        "DispTriggerProgressID": "MAIN_IZANAICAVE_Warp",
+        "HideTriggerProgressID": "MAIN_ROMARIAROAD_TalkHawker",
+        "WorldMapLocationID": "None",
+        "TownDungeonLocationID": "MAPLIST_H27F0101",
+        "TownDungeonPosition": {
+          "X": 350.0,
+          "Y": 318.0
+        }
+      },
+      "MAPGUIDEMARKER_TOWN_DUNGEON_Romaria_8_00": {
+        "SelfId": "MAPGUIDEMARKER_TOWN_DUNGEON_Romaria_8_00",
+        "DispTriggerProgressID": "MAIN_ROMARIAROAD_TalkHawker",
+        "HideTriggerProgressID": "MAIN_ROMARIABARRIER_TalkGatekeeper",
+        "WorldMapLocationID": "None",
+        "TownDungeonLocationID": "MAPLIST_H04R0102",
+        "TownDungeonPosition": {
+          "X": 498.0,
+          "Y": 326.0
+        }
+      },
+      "MAPGUIDEMARKER_TOWN_DUNGEON_Romaria_8_01": {
+        "SelfId": "MAPGUIDEMARKER_TOWN_DUNGEON_Romaria_8_01",
+        "DispTriggerProgressID": "MAIN_ROMARIABARRIER_TalkGatekeeper",
+        "HideTriggerProgressID": "MAIN_SHAMPANETOWER_KandataTrap",
+        "WorldMapLocationID": "None",
+        "TownDungeonLocationID": "MAPLIST_D04R0601",
+        "TownDungeonPosition": {
+          "X": 346.0,
+          "Y": 216.0
+        }
+      },
+      "MAPGUIDEMARKER_TOWN_DUNGEON_Romaria_8_02": {
+        "SelfId": "MAPGUIDEMARKER_TOWN_DUNGEON_Romaria_8_02",
+        "DispTriggerProgressID": "MAIN_SHAMPANETOWER_KandataTrap",
+        "HideTriggerProgressID": "MAIN_SHAMPANETOWER_DefeatKandata",
+        "WorldMapLocationID": "None",
+        "TownDungeonLocationID": "MAPLIST_D04R0401",
+        "TownDungeonPosition": {
+          "X": 474.0,
+          "Y": 414.0
+        }
+      },
+      "MAPGUIDEMARKER_TOWN_DUNGEON_Romaria_8_03": {
+        "SelfId": "MAPGUIDEMARKER_TOWN_DUNGEON_Romaria_8_03",
+        "DispTriggerProgressID": "MAIN_SHAMPANETOWER_DefeatKandata",
+        "HideTriggerProgressID": "MAIN_PYRAMID_GetMagicKey | MAIN_PORTOGA_GetLetter",
+        "WorldMapLocationID": "None",
+        "TownDungeonLocationID": "MAPLIST_D06R0301",
+        "TownDungeonPosition": {
+          "X": 342.0,
+          "Y": 86.0
+        }
+      },
+      "MAPGUIDEMARKER_TOWN_DUNGEON_Romaria_8_04": {
+        "SelfId": "MAPGUIDEMARKER_TOWN_DUNGEON_Romaria_8_04",
+        "DispTriggerProgressID": "MAIN_PYRAMID_GetMagicKey",
+        "HideTriggerProgressID": "MAIN_PORTOGA_GetLetter",
+        "WorldMapLocationID": "None",
+        "TownDungeonLocationID": "MAPLIST_C04F0101",
+        "TownDungeonPosition": {
+          "X": 261.0,
+          "Y": 361.0
+        }
+      },
+      "MAPGUIDEMARKER_TOWN_DUNGEON_Romaria_8_05": {
+        "SelfId": "MAPGUIDEMARKER_TOWN_DUNGEON_Romaria_8_05",
+        "DispTriggerProgressID": "MAIN_PYRAMID_GetMagicKey",
+        "HideTriggerProgressID": "MAIN_PORTOGA_GetLetter",
+        "WorldMapLocationID": "None",
+        "TownDungeonLocationID": "MAPLIST_C04R0101",
+        "TownDungeonPosition": {
+          "X": 241.0,
+          "Y": 101.0
+        }
+      },
+      "MAPGUIDEMARKER_WORLDMAP_Portoga_9_00": {
+        "SelfId": "MAPGUIDEMARKER_WORLDMAP_Portoga_9_00",
+        "DispTriggerProgressID": "MAIN_PORTOGA_GetLetter",
+        "HideTriggerProgressID": "MAIN_NORUDCAVE_OpenCave | MAIN_BAHARATA_TalkGupta",
+        "WorldMapLocationID": "RURA_RIREMITO_RURA_NORUDCAVE",
+        "TownDungeonLocationID": "None",
+        "TownDungeonPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "MAPGUIDEMARKER_WORLDMAP_Portoga_9_01": {
+        "SelfId": "MAPGUIDEMARKER_WORLDMAP_Portoga_9_01",
+        "DispTriggerProgressID": "MAIN_NORUDCAVE_OpenCave",
+        "HideTriggerProgressID": "MAIN_BAHARATA_TalkGupta",
+        "WorldMapLocationID": "RURA_RIREMITO_RURA_BAHARATA",
+        "TownDungeonLocationID": "None",
+        "TownDungeonPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "MAPGUIDEMARKER_WORLDMAP_Portoga_9_02": {
+        "SelfId": "MAPGUIDEMARKER_WORLDMAP_Portoga_9_02",
+        "DispTriggerProgressID": "MAIN_BAHARATA_TalkGupta",
+        "HideTriggerProgressID": "MAIN_BAHARATAEASTCAVE_DefeatKandata",
+        "WorldMapLocationID": "RURA_RIREMITO_RURA_BAHARATAEASTCAVE",
+        "TownDungeonLocationID": "None",
+        "TownDungeonPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "MAPGUIDEMARKER_WORLDMAP_Portoga_9_03": {
+        "SelfId": "MAPGUIDEMARKER_WORLDMAP_Portoga_9_03",
+        "DispTriggerProgressID": "MAIN_BAHARATAEASTCAVE_DefeatKandata",
+        "HideTriggerProgressID": "MAIN_BAHARATA_TalkGuptaAfterRescue",
+        "WorldMapLocationID": "RURA_RIREMITO_RURA_BAHARATA",
+        "TownDungeonLocationID": "None",
+        "TownDungeonPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "MAPGUIDEMARKER_WORLDMAP_Portoga_9_04": {
+        "SelfId": "MAPGUIDEMARKER_WORLDMAP_Portoga_9_04",
+        "DispTriggerProgressID": "MAIN_BAHARATA_TalkGuptaAfterRescue",
+        "HideTriggerProgressID": "MAIN_BAHARATA_GetPepper",
+        "WorldMapLocationID": "RURA_RIREMITO_RURA_DHAMA",
+        "TownDungeonLocationID": "None",
+        "TownDungeonPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "MAPGUIDEMARKER_WORLDMAP_Portoga_10_00": {
+        "SelfId": "MAPGUIDEMARKER_WORLDMAP_Portoga_10_00",
+        "DispTriggerProgressID": "MAIN_BAHARATA_GetPepper",
+        "HideTriggerProgressID": "MAIN_PORTOGA_TalkWithPepper",
+        "WorldMapLocationID": "RURA_RIREMITO_RURA_PORTOGA",
+        "TownDungeonLocationID": "None",
+        "TownDungeonPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "MAPGUIDEMARKER_TOWN_DUNGEON_Portoga_9_00": {
+        "SelfId": "MAPGUIDEMARKER_TOWN_DUNGEON_Portoga_9_00",
+        "DispTriggerProgressID": "MAIN_PORTOGA_GetLetter",
+        "HideTriggerProgressID": "MAIN_NORUDCAVE_TalkWithLetter | MAIN_BAHARATA_TalkGupta",
+        "WorldMapLocationID": "None",
+        "TownDungeonLocationID": "MAPLIST_H07R0101",
+        "TownDungeonPosition": {
+          "X": 290.0,
+          "Y": 410.0
+        }
+      },
+      "MAPGUIDEMARKER_TOWN_DUNGEON_Portoga_9_01": {
+        "SelfId": "MAPGUIDEMARKER_TOWN_DUNGEON_Portoga_9_01",
+        "DispTriggerProgressID": "MAIN_NORUDCAVE_TalkWithLetter",
+        "HideTriggerProgressID": "MAIN_NORUDCAVE_OpenCave | MAIN_BAHARATA_TalkGupta",
+        "WorldMapLocationID": "None",
+        "TownDungeonLocationID": "MAPLIST_H07R0101",
+        "TownDungeonPosition": {
+          "X": 366.0,
+          "Y": 318.0
+        }
+      },
+      "MAPGUIDEMARKER_TOWN_DUNGEON_Portoga_9_03": {
+        "SelfId": "MAPGUIDEMARKER_TOWN_DUNGEON_Portoga_9_03",
+        "DispTriggerProgressID": "MAIN_BAHARATA_TalkGupta",
+        "HideTriggerProgressID": "MAIN_BAHARATAEASTCAVE_DefeatHenchman",
+        "WorldMapLocationID": "None",
+        "TownDungeonLocationID": "MAPLIST_D07R0201",
+        "TownDungeonPosition": {
+          "X": 345.0,
+          "Y": 341.0
+        }
+      },
+      "MAPGUIDEMARKER_TOWN_DUNGEON_Portoga_9_04": {
+        "SelfId": "MAPGUIDEMARKER_TOWN_DUNGEON_Portoga_9_04",
+        "DispTriggerProgressID": "MAIN_BAHARATAEASTCAVE_DefeatHenchman",
+        "HideTriggerProgressID": "MAIN_BAHARATAEASTCAVE_OpenPrison",
+        "WorldMapLocationID": "None",
+        "TownDungeonLocationID": "MAPLIST_D07R0201",
+        "TownDungeonPosition": {
+          "X": 261.0,
+          "Y": 593.0
+        }
+      },
+      "MAPGUIDEMARKER_TOWN_DUNGEON_Portoga_9_05": {
+        "SelfId": "MAPGUIDEMARKER_TOWN_DUNGEON_Portoga_9_05",
+        "DispTriggerProgressID": "MAIN_BAHARATAEASTCAVE_OpenPrison",
+        "HideTriggerProgressID": "MAIN_BAHARATAEASTCAVE_DefeatKandata",
+        "WorldMapLocationID": "None",
+        "TownDungeonLocationID": "MAPLIST_D07R0201",
+        "TownDungeonPosition": {
+          "X": 345.0,
+          "Y": 361.0
+        }
+      },
+      "MAPGUIDEMARKER_TOWN_DUNGEON_Portoga_9_06": {
+        "SelfId": "MAPGUIDEMARKER_TOWN_DUNGEON_Portoga_9_06",
+        "DispTriggerProgressID": "MAIN_BAHARATAEASTCAVE_DefeatKandata",
+        "HideTriggerProgressID": "MAIN_BAHARATA_TalkGuptaAfterRescue",
+        "WorldMapLocationID": "None",
+        "TownDungeonLocationID": "MAPLIST_T05F0101",
+        "TownDungeonPosition": {
+          "X": 213.0,
+          "Y": 429.0
+        }
+      },
+      "MAPGUIDEMARKER_TOWN_DUNGEON_Portoga_9_07": {
+        "SelfId": "MAPGUIDEMARKER_TOWN_DUNGEON_Portoga_9_07",
+        "DispTriggerProgressID": "MAIN_BAHARATA_TalkGuptaAfterRescue",
+        "HideTriggerProgressID": "MAIN_BAHARATA_GetPepper",
+        "WorldMapLocationID": "None",
+        "TownDungeonLocationID": "MAPLIST_C05R0101",
+        "TownDungeonPosition": {
+          "X": 342.0,
+          "Y": 486.0
+        }
+      },
+      "MAPGUIDEMARKER_TOWN_DUNGEON_Portoga_9_08": {
+        "SelfId": "MAPGUIDEMARKER_TOWN_DUNGEON_Portoga_9_08",
+        "DispTriggerProgressID": "MAIN_BAHARATA_TalkGuptaAfterRescue",
+        "HideTriggerProgressID": "MAIN_BAHARATA_GetPepper",
+        "WorldMapLocationID": "None",
+        "TownDungeonLocationID": "MAPLIST_C05F0101",
+        "TownDungeonPosition": {
+          "X": 310.0,
+          "Y": 430.0
+        }
+      },
+      "MAPGUIDEMARKER_TOWN_DUNGEON_Portoga_10_00": {
+        "SelfId": "MAPGUIDEMARKER_TOWN_DUNGEON_Portoga_10_00",
+        "DispTriggerProgressID": "MAIN_BAHARATA_GetPepper",
+        "HideTriggerProgressID": "MAIN_PORTOGA_TalkWithPepper",
+        "WorldMapLocationID": "None",
+        "TownDungeonLocationID": "MAPLIST_C04F0101",
+        "TownDungeonPosition": {
+          "X": 261.0,
+          "Y": 361.0
+        }
+      },
+      "MAPGUIDEMARKER_TOWN_DUNGEON_Portoga_10_01": {
+        "SelfId": "MAPGUIDEMARKER_TOWN_DUNGEON_Portoga_10_01",
+        "DispTriggerProgressID": "MAIN_BAHARATA_GetPepper",
+        "HideTriggerProgressID": "MAIN_PORTOGA_TalkWithPepper",
+        "WorldMapLocationID": "None",
+        "TownDungeonLocationID": "MAPLIST_C04R0101",
+        "TownDungeonPosition": {
+          "X": 241.0,
+          "Y": 101.0
+        }
+      },
+      "MAPGUIDEMARKER_WORLDMAP_Reiamuland_11_00": {
+        "SelfId": "MAPGUIDEMARKER_WORLDMAP_Reiamuland_11_00",
+        "DispTriggerProgressID": "MAIN_PORTOGA_TalkWithPepper",
+        "HideTriggerProgressID": "MAIN_PORTOGA_RideShip",
+        "WorldMapLocationID": "RURA_RIREMITO_RURA_PORTOGA",
+        "TownDungeonLocationID": "None",
+        "TownDungeonPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "MAPGUIDEMARKER_WORLDMAP_Reiamuland_11_01": {
+        "SelfId": "MAPGUIDEMARKER_WORLDMAP_Reiamuland_11_01",
+        "DispTriggerProgressID": "MAIN_PORTOGA_TalkWithPepper",
+        "HideTriggerProgressID": "MAIN_JIPANG_FindYayoi | MAIN_JIPANG_DefeatOrochi",
+        "WorldMapLocationID": "RURA_RIREMITO_RURA_JIPANG",
+        "TownDungeonLocationID": "None",
+        "TownDungeonPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "MAPGUIDEMARKER_WORLDMAP_Reiamuland_11_02": {
+        "SelfId": "MAPGUIDEMARKER_WORLDMAP_Reiamuland_11_02",
+        "DispTriggerProgressID": "MAIN_JIPANG_FindYayoi",
+        "HideTriggerProgressID": "MAIN_JIPANGCAVE_DefeatOrochi",
+        "WorldMapLocationID": "RURA_RIREMITO_RURA_JIPANGCAVE",
+        "TownDungeonLocationID": "None",
+        "TownDungeonPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "MAPGUIDEMARKER_WORLDMAP_Reiamuland_11_03": {
+        "SelfId": "MAPGUIDEMARKER_WORLDMAP_Reiamuland_11_03",
+        "DispTriggerProgressID": "MAIN_JIPANGCAVE_DefeatOrochi",
+        "HideTriggerProgressID": "MAIN_JIPANG_DefeatOrochi",
+        "WorldMapLocationID": "RURA_RIREMITO_RURA_JIPANG",
+        "TownDungeonLocationID": "None",
+        "TownDungeonPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "MAPGUIDEMARKER_WORLDMAP_Reiamuland_11_04": {
+        "SelfId": "MAPGUIDEMARKER_WORLDMAP_Reiamuland_11_04",
+        "DispTriggerProgressID": "MAIN_PORTOGA_TalkWithPepper",
+        "HideTriggerProgressID": "MAIN_EDINBEAR_GetBottomlessPot",
+        "WorldMapLocationID": "RURA_RIREMITO_RURA_EDINBEAR",
+        "TownDungeonLocationID": "None",
+        "TownDungeonPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "MAPGUIDEMARKER_WORLDMAP_Reiamuland_11_05": {
+        "SelfId": "MAPGUIDEMARKER_WORLDMAP_Reiamuland_11_05",
+        "DispTriggerProgressID": "MAIN_EDINBEAR_GetBottomlessPot",
+        "HideTriggerProgressID": "MAIN_SHALLOWSHRINE_GetLastKey",
+        "WorldMapLocationID": "RURA_RIREMITO_RURA_SHALLOWSHRINE",
+        "TownDungeonLocationID": "None",
+        "TownDungeonPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "MAPGUIDEMARKER_WORLDMAP_Reiamuland_11_06": {
+        "SelfId": "MAPGUIDEMARKER_WORLDMAP_Reiamuland_11_06",
+        "DispTriggerProgressID": "MAIN_PORTOGA_TalkWithPepper",
+        "HideTriggerProgressID": "MAIN_TEDON_GetGreenOrb",
+        "WorldMapLocationID": "RURA_RIREMITO_RURA_TEDON",
+        "TownDungeonLocationID": "None",
+        "TownDungeonPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "MAPGUIDEMARKER_WORLDMAP_Reiamuland_11_07": {
+        "SelfId": "MAPGUIDEMARKER_WORLDMAP_Reiamuland_11_07",
+        "DispTriggerProgressID": "MAIN_PORTOGA_TalkWithPepper",
+        "HideTriggerProgressID": "MAIN_GAIANAVEL_GetBlueOrb",
+        "WorldMapLocationID": "RURA_RIREMITO_RURA_LANCEL",
+        "TownDungeonLocationID": "None",
+        "TownDungeonPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "MAPGUIDEMARKER_WORLDMAP_Reiamuland_11_08": {
+        "SelfId": "MAPGUIDEMARKER_WORLDMAP_Reiamuland_11_08",
+        "DispTriggerProgressID": "MAIN_PORTOGA_TalkWithPepper",
+        "HideTriggerProgressID": "MAIN_PIRATESBASE_GetRedOrb",
+        "WorldMapLocationID": "RURA_RIREMITO_RURA_PIRATESBASE",
+        "TownDungeonLocationID": "None",
+        "TownDungeonPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "MAPGUIDEMARKER_WORLDMAP_Reiamuland_11_09": {
+        "SelfId": "MAPGUIDEMARKER_WORLDMAP_Reiamuland_11_09",
+        "DispTriggerProgressID": "MAIN_PORTOGA_TalkWithPepper",
+        "HideTriggerProgressID": "MAIN_BURG_GetYellowOrb",
+        "WorldMapLocationID": "RURA_RIREMITO_RURA_BURG1",
+        "TownDungeonLocationID": "None",
+        "TownDungeonPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "MAPGUIDEMARKER_WORLDMAP_Reiamuland_11_10": {
+        "SelfId": "MAPGUIDEMARKER_WORLDMAP_Reiamuland_11_10",
+        "DispTriggerProgressID": "MAIN_SHALLOWSHRINE_GetLastKey",
+        "HideTriggerProgressID": "MAIN_TRAVELERSCHURCH_GoOut",
+        "WorldMapLocationID": "RURA_RIREMITO_RURA_OLIVIAMISAKI",
+        "TownDungeonLocationID": "None",
+        "TownDungeonPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "MAPGUIDEMARKER_WORLDMAP_Reiamuland_11_11": {
+        "SelfId": "MAPGUIDEMARKER_WORLDMAP_Reiamuland_11_11",
+        "DispTriggerProgressID": "MAIN_SHALLOWSHRINE_GetLastKey",
+        "HideTriggerProgressID": "MAIN_SAMANOSA_DefeatBossTroll",
+        "WorldMapLocationID": "RURA_RIREMITO_RURA_SAMANOSA",
+        "TownDungeonLocationID": "None",
+        "TownDungeonPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "MAPGUIDEMARKER_WORLDMAP_Reiamuland_11_12": {
+        "SelfId": "MAPGUIDEMARKER_WORLDMAP_Reiamuland_11_12",
+        "DispTriggerProgressID": "MAIN_SAMANOSA_TalkSaimonSon",
+        "HideTriggerProgressID": "MAIN_RACAVE_GetRaMirror",
+        "WorldMapLocationID": "RURA_RIREMITO_RURA_RACAVE",
+        "TownDungeonLocationID": "None",
+        "TownDungeonPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "MAPGUIDEMARKER_WORLDMAP_Reiamuland_11_13": {
+        "SelfId": "MAPGUIDEMARKER_WORLDMAP_Reiamuland_11_13",
+        "DispTriggerProgressID": "MAIN_SAMANOSA_DefeatBossTroll",
+        "HideTriggerProgressID": "MAIN_GREENLAD_GetBoatmanBone",
+        "WorldMapLocationID": "RURA_RIREMITO_RURA_GREENLAD",
+        "TownDungeonLocationID": "None",
+        "TownDungeonPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "MAPGUIDEMARKER_WORLDMAP_Reiamuland_11_14": {
+        "SelfId": "MAPGUIDEMARKER_WORLDMAP_Reiamuland_11_14",
+        "DispTriggerProgressID": "MAIN_GHOSTSHIP_GetLoveLocket",
+        "HideTriggerProgressID": "MAIN_OLIVIAMISAKI_Dispel",
+        "WorldMapLocationID": "RURA_RIREMITO_RURA_OliviaIcon",
+        "TownDungeonLocationID": "None",
+        "TownDungeonPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "MAPGUIDEMARKER_WORLDMAP_Reiamuland_11_15": {
+        "SelfId": "MAPGUIDEMARKER_WORLDMAP_Reiamuland_11_15",
+        "DispTriggerProgressID": "MAIN_OLIVIAMISAKI_Dispel",
+        "HideTriggerProgressID": "MAIN_SHRINEPRISON_GetGaiaSword",
+        "WorldMapLocationID": "RURA_RIREMITO_RURA_SHRINEPRISON",
+        "TownDungeonLocationID": "None",
+        "TownDungeonPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "MAPGUIDEMARKER_WORLDMAP_Reiamuland_11_16": {
+        "SelfId": "MAPGUIDEMARKER_WORLDMAP_Reiamuland_11_16",
+        "DispTriggerProgressID": "MAIN_SHRINEPRISON_GetGaiaSword",
+        "HideTriggerProgressID": "MAIN_VOLCANO_ThrowGaiaSword",
+        "WorldMapLocationID": "RURA_RIREMITO_RURA_VOLCANO",
+        "TownDungeonLocationID": "None",
+        "TownDungeonPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "MAPGUIDEMARKER_WORLDMAP_Reiamuland_11_17": {
+        "SelfId": "MAPGUIDEMARKER_WORLDMAP_Reiamuland_11_17",
+        "DispTriggerProgressID": "MAIN_VOLCANO_ThrowGaiaSword",
+        "HideTriggerProgressID": "MAIN_NECROGONDSHRINE_GetSilverOrb",
+        "WorldMapLocationID": "RURA_RIREMITO_RURA_NECROGONDCAVE",
+        "TownDungeonLocationID": "None",
+        "TownDungeonPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "MAPGUIDEMARKER_WORLDMAP_Reiamuland_11_18": {
+        "SelfId": "MAPGUIDEMARKER_WORLDMAP_Reiamuland_11_18",
+        "DispTriggerProgressID": "MAIN_VOLCANO_ThrowGaiaSword",
+        "HideTriggerProgressID": "MAIN_NECROGONDSHRINE_GetSilverOrb",
+        "WorldMapLocationID": "RURA_RIREMITO_RURA_NECROGONDSHRINE",
+        "TownDungeonLocationID": "None",
+        "TownDungeonPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "MAPGUIDEMARKER_TOWN_DUNGEON_Reiamuland_11_00": {
+        "SelfId": "MAPGUIDEMARKER_TOWN_DUNGEON_Reiamuland_11_00",
+        "DispTriggerProgressID": "MAIN_PORTOGA_TalkWithPepper",
+        "HideTriggerProgressID": "MAIN_PORTOGA_RideShip",
+        "WorldMapLocationID": "None",
+        "TownDungeonLocationID": "MAPLIST_C04F0101",
+        "TownDungeonPosition": {
+          "X": 261.0,
+          "Y": 601.0
+        }
+      },
+      "MAPGUIDEMARKER_TOWN_DUNGEON_Reiamuland_11_01": {
+        "SelfId": "MAPGUIDEMARKER_TOWN_DUNGEON_Reiamuland_11_01",
+        "DispTriggerProgressID": "MAIN_PORTOGA_TalkWithPepper",
+        "HideTriggerProgressID": "MAIN_JIPANG_FindYayoi | MAIN_JIPANGCAVE_DefeatOrochi",
+        "WorldMapLocationID": "None",
+        "TownDungeonLocationID": "MAPLIST_C06F0101",
+        "TownDungeonPosition": {
+          "X": 212.0,
+          "Y": 384.0
+        }
+      },
+      "MAPGUIDEMARKER_TOWN_DUNGEON_Reiamuland_11_02": {
+        "SelfId": "MAPGUIDEMARKER_TOWN_DUNGEON_Reiamuland_11_02",
+        "DispTriggerProgressID": "MAIN_JIPANG_FindYayoi",
+        "HideTriggerProgressID": "MAIN_JIPANGCAVE_DefeatOrochi",
+        "WorldMapLocationID": "None",
+        "TownDungeonLocationID": "MAPLIST_D10R0201",
+        "TownDungeonPosition": {
+          "X": 634.0,
+          "Y": 410.0
+        }
+      },
+      "MAPGUIDEMARKER_TOWN_DUNGEON_Reiamuland_11_03": {
+        "SelfId": "MAPGUIDEMARKER_TOWN_DUNGEON_Reiamuland_11_03",
+        "DispTriggerProgressID": "MAIN_JIPANGCAVE_DefeatOrochi",
+        "HideTriggerProgressID": "MAIN_JIPANG_DefeatOrochi",
+        "WorldMapLocationID": "None",
+        "TownDungeonLocationID": "MAPLIST_C06R0101",
+        "TownDungeonPosition": {
+          "X": 342.0,
+          "Y": 150.0
+        }
+      },
+      "MAPGUIDEMARKER_TOWN_DUNGEON_Reiamuland_11_04": {
+        "SelfId": "MAPGUIDEMARKER_TOWN_DUNGEON_Reiamuland_11_04",
+        "DispTriggerProgressID": "MAIN_PORTOGA_TalkWithPepper",
+        "HideTriggerProgressID": "MAIN_EDINBEAR_GetBottomlessPot",
+        "WorldMapLocationID": "None",
+        "TownDungeonLocationID": "MAPLIST_C07R0101",
+        "TownDungeonPosition": {
+          "X": 269.0,
+          "Y": 440.0
+        }
+      },
+      "MAPGUIDEMARKER_TOWN_DUNGEON_Reiamuland_11_05": {
+        "SelfId": "MAPGUIDEMARKER_TOWN_DUNGEON_Reiamuland_11_05",
+        "DispTriggerProgressID": "MAIN_PORTOGA_TalkWithPepper",
+        "HideTriggerProgressID": "MAIN_EDINBEAR_GetBottomlessPot",
+        "WorldMapLocationID": "None",
+        "TownDungeonLocationID": "MAPLIST_C07R0104",
+        "TownDungeonPosition": {
+          "X": 345.0,
+          "Y": 113.0
+        }
+      },
+      "MAPGUIDEMARKER_TOWN_DUNGEON_Reiamuland_11_06": {
+        "SelfId": "MAPGUIDEMARKER_TOWN_DUNGEON_Reiamuland_11_06",
+        "DispTriggerProgressID": "MAIN_EDINBEAR_GetBottomlessPot",
+        "HideTriggerProgressID": "MAIN_SHALLOWSHRINE_GetLastKey",
+        "WorldMapLocationID": "None",
+        "TownDungeonLocationID": "MAPLIST_H12R0101",
+        "TownDungeonPosition": {
+          "X": 346.0,
+          "Y": 358.0
+        }
+      },
+      "MAPGUIDEMARKER_TOWN_DUNGEON_Reiamuland_11_07": {
+        "SelfId": "MAPGUIDEMARKER_TOWN_DUNGEON_Reiamuland_11_07",
+        "DispTriggerProgressID": "MAIN_PORTOGA_TalkWithPepper",
+        "HideTriggerProgressID": "MAIN_TEDON_GetGreenOrb",
+        "WorldMapLocationID": "None",
+        "TownDungeonLocationID": "MAPLIST_T13F0101",
+        "TownDungeonPosition": {
+          "X": 305.0,
+          "Y": 137.0
+        }
+      },
+      "MAPGUIDEMARKER_TOWN_DUNGEON_Reiamuland_11_08": {
+        "SelfId": "MAPGUIDEMARKER_TOWN_DUNGEON_Reiamuland_11_08",
+        "DispTriggerProgressID": "MAIN_PORTOGA_TalkWithPepper",
+        "HideTriggerProgressID": "MAIN_GAIANAVEL_GetBlueOrb",
+        "WorldMapLocationID": "None",
+        "TownDungeonLocationID": "MAPLIST_T06F0101",
+        "TownDungeonPosition": {
+          "X": 331.0,
+          "Y": 205.0
+        }
+      },
+      "MAPGUIDEMARKER_TOWN_DUNGEON_Reiamuland_11_09": {
+        "SelfId": "MAPGUIDEMARKER_TOWN_DUNGEON_Reiamuland_11_09",
+        "DispTriggerProgressID": "MAIN_PORTOGA_TalkWithPepper",
+        "HideTriggerProgressID": "MAIN_GAIANAVEL_GetBlueOrb",
+        "WorldMapLocationID": "None",
+        "TownDungeonLocationID": "MAPLIST_T06R0401",
+        "TownDungeonPosition": {
+          "X": 345.0,
+          "Y": 161.0
+        }
+      },
+      "MAPGUIDEMARKER_TOWN_DUNGEON_Reiamuland_11_10": {
+        "SelfId": "MAPGUIDEMARKER_TOWN_DUNGEON_Reiamuland_11_10",
+        "DispTriggerProgressID": "MAIN_PORTOGA_TalkWithPepper",
+        "HideTriggerProgressID": "MAIN_PIRATESBASE_GetRedOrb",
+        "WorldMapLocationID": "None",
+        "TownDungeonLocationID": "MAPLIST_T16F0101",
+        "TownDungeonPosition": {
+          "X": 444.0,
+          "Y": 140.0
+        }
+      },
+      "MAPGUIDEMARKER_TOWN_DUNGEON_Reiamuland_11_11": {
+        "SelfId": "MAPGUIDEMARKER_TOWN_DUNGEON_Reiamuland_11_11",
+        "DispTriggerProgressID": "MAIN_PORTOGA_TalkWithPepper",
+        "HideTriggerProgressID": "MAIN_PIRATESBASE_GetRedOrb",
+        "WorldMapLocationID": "None",
+        "TownDungeonLocationID": "MAPLIST_T16R0201",
+        "TownDungeonPosition": {
+          "X": 221.0,
+          "Y": 441.0
+        }
+      },
+      "MAPGUIDEMARKER_TOWN_DUNGEON_Reiamuland_11_12": {
+        "SelfId": "MAPGUIDEMARKER_TOWN_DUNGEON_Reiamuland_11_12",
+        "DispTriggerProgressID": "MAIN_PORTOGA_TalkWithPepper",
+        "HideTriggerProgressID": "MAIN_BURG_1_DepositMerchant",
+        "WorldMapLocationID": "None",
+        "TownDungeonLocationID": "MAPLIST_T15F0101",
+        "TownDungeonPosition": {
+          "X": 249.0,
+          "Y": 417.0
+        }
+      },
+      "MAPGUIDEMARKER_TOWN_DUNGEON_Reiamuland_11_13": {
+        "SelfId": "MAPGUIDEMARKER_TOWN_DUNGEON_Reiamuland_11_13",
+        "DispTriggerProgressID": "MAIN_BURG_4_ChangeFrom3",
+        "HideTriggerProgressID": "MAIN_BURG_4_PlanRevolution",
+        "WorldMapLocationID": "None",
+        "TownDungeonLocationID": "MAPLIST_T15F0401",
+        "TownDungeonPosition": {
+          "X": 109.0,
+          "Y": 509.0
+        }
+      },
+      "MAPGUIDEMARKER_TOWN_DUNGEON_Reiamuland_11_14": {
+        "SelfId": "MAPGUIDEMARKER_TOWN_DUNGEON_Reiamuland_11_14",
+        "DispTriggerProgressID": "MAIN_BURG_5_ChangeFrom4",
+        "HideTriggerProgressID": "MAIN_BURG_5_TalkMerchant",
+        "WorldMapLocationID": "None",
+        "TownDungeonLocationID": "MAPLIST_T15F0501",
+        "TownDungeonPosition": {
+          "X": 109.0,
+          "Y": 449.0
+        }
+      },
+      "MAPGUIDEMARKER_TOWN_DUNGEON_Reiamuland_11_15": {
+        "SelfId": "MAPGUIDEMARKER_TOWN_DUNGEON_Reiamuland_11_15",
+        "DispTriggerProgressID": "MAIN_BURG_5_TalkMerchant",
+        "HideTriggerProgressID": "MAIN_BURG_GetYellowOrb",
+        "WorldMapLocationID": "None",
+        "TownDungeonLocationID": "MAPLIST_T15F0501",
+        "TownDungeonPosition": {
+          "X": 125.0,
+          "Y": 141.0
+        }
+      },
+      "MAPGUIDEMARKER_TOWN_DUNGEON_Reiamuland_11_16": {
+        "SelfId": "MAPGUIDEMARKER_TOWN_DUNGEON_Reiamuland_11_16",
+        "DispTriggerProgressID": "MAIN_SHALLOWSHRINE_GetLastKey",
+        "HideTriggerProgressID": "MAIN_TRAVELERSCHURCH_GoOut",
+        "WorldMapLocationID": "None",
+        "TownDungeonLocationID": "MAPLIST_H14R0101",
+        "TownDungeonPosition": {
+          "X": 570.0,
+          "Y": 370.0
+        }
+      },
+      "MAPGUIDEMARKER_TOWN_DUNGEON_Reiamuland_11_17": {
+        "SelfId": "MAPGUIDEMARKER_TOWN_DUNGEON_Reiamuland_11_17",
+        "DispTriggerProgressID": "MAIN_SHALLOWSHRINE_GetLastKey",
+        "HideTriggerProgressID": "MAIN_SAMANOSA_TalkSaimonSon",
+        "WorldMapLocationID": "None",
+        "TownDungeonLocationID": "MAPLIST_C08F0101",
+        "TownDungeonPosition": {
+          "X": 273.0,
+          "Y": 533.0
+        }
+      },
+      "MAPGUIDEMARKER_TOWN_DUNGEON_Reiamuland_11_18": {
+        "SelfId": "MAPGUIDEMARKER_TOWN_DUNGEON_Reiamuland_11_18",
+        "DispTriggerProgressID": "MAIN_SAMANOSA_TalkSaimonSon",
+        "HideTriggerProgressID": "MAIN_RACAVE_GetRaMirror",
+        "WorldMapLocationID": "None",
+        "TownDungeonLocationID": "MAPLIST_D12R0301",
+        "TownDungeonPosition": {
+          "X": 338.0,
+          "Y": 214.0
+        }
+      },
+      "MAPGUIDEMARKER_TOWN_DUNGEON_Reiamuland_11_19": {
+        "SelfId": "MAPGUIDEMARKER_TOWN_DUNGEON_Reiamuland_11_19",
+        "DispTriggerProgressID": "MAIN_RACAVE_GetRaMirror",
+        "HideTriggerProgressID": "MAIN_SAMANOSA_DefeatBossTroll",
+        "WorldMapLocationID": "None",
+        "TownDungeonLocationID": "MAPLIST_C08F0101",
+        "TownDungeonPosition": {
+          "X": 253.0,
+          "Y": 337.0
+        }
+      },
+      "MAPGUIDEMARKER_TOWN_DUNGEON_Reiamuland_11_20": {
+        "SelfId": "MAPGUIDEMARKER_TOWN_DUNGEON_Reiamuland_11_20",
+        "DispTriggerProgressID": "MAIN_RACAVE_GetRaMirror",
+        "HideTriggerProgressID": "MAIN_SAMANOSA_DefeatBossTroll",
+        "WorldMapLocationID": "None",
+        "TownDungeonLocationID": "MAPLIST_C08F0101",
+        "TownDungeonPosition": {
+          "X": 125.0,
+          "Y": 337.0
+        }
+      },
+      "MAPGUIDEMARKER_TOWN_DUNGEON_Reiamuland_11_21": {
+        "SelfId": "MAPGUIDEMARKER_TOWN_DUNGEON_Reiamuland_11_21",
+        "DispTriggerProgressID": "MAIN_RACAVE_GetRaMirror",
+        "HideTriggerProgressID": "MAIN_SAMANOSA_DefeatBossTroll",
+        "WorldMapLocationID": "None",
+        "TownDungeonLocationID": "MAPLIST_C08R0103",
+        "TownDungeonPosition": {
+          "X": 349.0,
+          "Y": 225.0
+        }
+      },
+      "MAPGUIDEMARKER_TOWN_DUNGEON_Reiamuland_11_22": {
+        "SelfId": "MAPGUIDEMARKER_TOWN_DUNGEON_Reiamuland_11_22",
+        "DispTriggerProgressID": "MAIN_SAMANOSA_DefeatBossTroll",
+        "HideTriggerProgressID": "MAIN_GREENLAD_GetBoatmanBone",
+        "WorldMapLocationID": "None",
+        "TownDungeonLocationID": "MAPLIST_H17F0101",
+        "TownDungeonPosition": {
+          "X": 565.0,
+          "Y": 125.0
+        }
+      },
+      "MAPGUIDEMARKER_TOWN_DUNGEON_Reiamuland_11_23": {
+        "SelfId": "MAPGUIDEMARKER_TOWN_DUNGEON_Reiamuland_11_23",
+        "DispTriggerProgressID": "MAIN_SAMANOSA_DefeatBossTroll",
+        "HideTriggerProgressID": "MAIN_GREENLAD_GetBoatmanBone",
+        "WorldMapLocationID": "None",
+        "TownDungeonLocationID": "MAPLIST_H17R0101",
+        "TownDungeonPosition": {
+          "X": 345.0,
+          "Y": 269.0
+        }
+      },
+      "MAPGUIDEMARKER_TOWN_DUNGEON_Reiamuland_11_24": {
+        "SelfId": "MAPGUIDEMARKER_TOWN_DUNGEON_Reiamuland_11_24",
+        "DispTriggerProgressID": "MAIN_GREENLAD_GetBoatmanBone",
+        "HideTriggerProgressID": "MAIN_GHOSTSHIP_GetLoveLocket",
+        "WorldMapLocationID": "None",
+        "TownDungeonLocationID": "MAPLIST_D13R0201",
+        "TownDungeonPosition": {
+          "X": 381.0,
+          "Y": 597.0
+        }
+      },
+      "MAPGUIDEMARKER_TOWN_DUNGEON_Reiamuland_11_25": {
+        "SelfId": "MAPGUIDEMARKER_TOWN_DUNGEON_Reiamuland_11_25",
+        "DispTriggerProgressID": "MAIN_OLIVIAMISAKI_Dispel",
+        "HideTriggerProgressID": "MAIN_SHRINEPRISON_EnccountGhost",
+        "WorldMapLocationID": "None",
+        "TownDungeonLocationID": "MAPLIST_H15R0101",
+        "TownDungeonPosition": {
+          "X": 217.0,
+          "Y": 557.0
+        }
+      },
+      "MAPGUIDEMARKER_TOWN_DUNGEON_Reiamuland_11_26": {
+        "SelfId": "MAPGUIDEMARKER_TOWN_DUNGEON_Reiamuland_11_26",
+        "DispTriggerProgressID": "MAIN_SHRINEPRISON_EnccountGhost",
+        "HideTriggerProgressID": "MAIN_SHRINEPRISON_GetGaiaSword",
+        "WorldMapLocationID": "None",
+        "TownDungeonLocationID": "MAPLIST_H15R0101",
+        "TownDungeonPosition": {
+          "X": 473.0,
+          "Y": 437.0
+        }
+      },
+      "MAPGUIDEMARKER_TOWN_DUNGEON_Reiamuland_11_27": {
+        "SelfId": "MAPGUIDEMARKER_TOWN_DUNGEON_Reiamuland_11_27",
+        "DispTriggerProgressID": "MAIN_SHRINEPRISON_GetGaiaSword",
+        "HideTriggerProgressID": "MAIN_VOLCANO_ThrowGaiaSword",
+        "WorldMapLocationID": "None",
+        "TownDungeonLocationID": "MAPLIST_H26F0101",
+        "TownDungeonPosition": {
+          "X": 349.0,
+          "Y": 201.0
+        }
+      },
+      "MAPGUIDEMARKER_TOWN_DUNGEON_Reiamuland_11_28": {
+        "SelfId": "MAPGUIDEMARKER_TOWN_DUNGEON_Reiamuland_11_28",
+        "DispTriggerProgressID": "MAIN_VOLCANO_ThrowGaiaSword",
+        "HideTriggerProgressID": "MAIN_NECROGONDSHRINE_GetSilverOrb",
+        "WorldMapLocationID": "None",
+        "TownDungeonLocationID": "MAPLIST_H18R0101",
+        "TownDungeonPosition": {
+          "X": 346.0,
+          "Y": 102.0
+        }
+      },
+      "MAPGUIDEMARKER_TOWN_DUNGEON_Reiamuland_11_29": {
+        "SelfId": "MAPGUIDEMARKER_TOWN_DUNGEON_Reiamuland_11_29",
+        "DispTriggerProgressID": "MAIN_EDINBEAR_GateKeeperBlock",
+        "HideTriggerProgressID": "MAIN_EDINBEAR_Arrive1F",
+        "WorldMapLocationID": "None",
+        "TownDungeonLocationID": "MAPLIST_T06F0101",
+        "TownDungeonPosition": {
+          "X": 349.0,
+          "Y": 465.0
+        }
+      },
+      "MAPGUIDEMARKER_WORLDMAP_Lancel_12_00": {
+        "SelfId": "MAPGUIDEMARKER_WORLDMAP_Lancel_12_00",
+        "DispTriggerProgressID": "MAIN_LANCEL_StartTrial",
+        "HideTriggerProgressID": "MAIN_LANCEL_BackTrial",
+        "WorldMapLocationID": "RURA_RIREMITO_RURA_GAIANAVEL",
+        "TownDungeonLocationID": "None",
+        "TownDungeonPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "MAPGUIDEMARKER_TOWN_DUNGEON_Lancel_12_00": {
+        "SelfId": "MAPGUIDEMARKER_TOWN_DUNGEON_Lancel_12_00",
+        "DispTriggerProgressID": "MAIN_LANCEL_StartTrial",
+        "HideTriggerProgressID": "MAIN_LANCEL_BackTrial",
+        "WorldMapLocationID": "None",
+        "TownDungeonLocationID": "MAPLIST_D09R0301",
+        "TownDungeonPosition": {
+          "X": 445.0,
+          "Y": 425.0
+        }
+      },
+      "MAPGUIDEMARKER_WORLDMAP_Reiamuland_13_00": {
+        "SelfId": "MAPGUIDEMARKER_WORLDMAP_Reiamuland_13_00",
+        "DispTriggerProgressID": "MAIN_MULTI_GetAllOrb",
+        "HideTriggerProgressID": "MAIN_REIAMULAND_RevivalLamia",
+        "WorldMapLocationID": "RURA_RIREMITO_RURA_REIAMULAND",
+        "TownDungeonLocationID": "None",
+        "TownDungeonPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "MAPGUIDEMARKER_TOWN_DUNGEON_Reiamuland_13_00": {
+        "SelfId": "MAPGUIDEMARKER_TOWN_DUNGEON_Reiamuland_13_00",
+        "DispTriggerProgressID": "MAIN_MULTI_GetAllOrb",
+        "HideTriggerProgressID": "MAIN_REIAMULAND_RevivalLamia",
+        "WorldMapLocationID": "None",
+        "TownDungeonLocationID": "MAPLIST_H16R0101",
+        "TownDungeonPosition": {
+          "X": 342.0,
+          "Y": 218.0
+        }
+      },
+      "MAPGUIDEMARKER_WORLDMAP_BaramosCastle_14_00": {
+        "SelfId": "MAPGUIDEMARKER_WORLDMAP_BaramosCastle_14_00",
+        "DispTriggerProgressID": "MAIN_REIAMULAND_RevivalLamia",
+        "HideTriggerProgressID": "MAIN_BARAMOSCASTLE_DefeatBaramos",
+        "WorldMapLocationID": "RURA_RIREMITO_RURA_BARAMOSCASTLE",
+        "TownDungeonLocationID": "None",
+        "TownDungeonPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "MAPGUIDEMARKER_TOWN_DUNGEON_BaramosCastle_15_00": {
+        "SelfId": "MAPGUIDEMARKER_TOWN_DUNGEON_BaramosCastle_15_00",
+        "DispTriggerProgressID": "MAIN_REIAMULAND_RevivalLamia",
+        "HideTriggerProgressID": "MAIN_BARAMOSCASTLE_DefeatBaramos",
+        "WorldMapLocationID": "None",
+        "TownDungeonLocationID": "MAPLIST_D15R0301",
+        "TownDungeonPosition": {
+          "X": 345.0,
+          "Y": 57.0
+        }
+      },
+      "MAPGUIDEMARKER_WORLDMAP_AliahanReturn_16_00": {
+        "SelfId": "MAPGUIDEMARKER_WORLDMAP_AliahanReturn_16_00",
+        "DispTriggerProgressID": "MAIN_BARAMOSCASTLE_DefeatBaramos",
+        "HideTriggerProgressID": "MAIN_ALIAHAN_DreamDragon",
+        "WorldMapLocationID": "RURA_RIREMITO_RURA_ALIAHAN",
+        "TownDungeonLocationID": "None",
+        "TownDungeonPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "MAPGUIDEMARKER_TOWN_DUNGEON_AliahanReturn_16_00": {
+        "SelfId": "MAPGUIDEMARKER_TOWN_DUNGEON_AliahanReturn_16_00",
+        "DispTriggerProgressID": "MAIN_BARAMOSCASTLE_DefeatBaramos",
+        "HideTriggerProgressID": "MAIN_ALIAHAN_BackHome",
+        "WorldMapLocationID": "None",
+        "TownDungeonLocationID": "MAPLIST_C01F0101",
+        "TownDungeonPosition": {
+          "X": 337.0,
+          "Y": 325.0
+        }
+      },
+      "MAPGUIDEMARKER_TOWN_DUNGEON_AliahanReturn_16_01": {
+        "SelfId": "MAPGUIDEMARKER_TOWN_DUNGEON_AliahanReturn_16_01",
+        "DispTriggerProgressID": "MAIN_BARAMOSCASTLE_DefeatBaramos",
+        "HideTriggerProgressID": "MAIN_ALIAHAN_BackHome",
+        "WorldMapLocationID": "None",
+        "TownDungeonLocationID": "MAPLIST_C01R0101",
+        "TownDungeonPosition": {
+          "X": 682.0,
+          "Y": 558.0
+        }
+      },
+      "MAPGUIDEMARKER_TOWN_DUNGEON_AliahanReturn_16_02": {
+        "SelfId": "MAPGUIDEMARKER_TOWN_DUNGEON_AliahanReturn_16_02",
+        "DispTriggerProgressID": "MAIN_BARAMOSCASTLE_DefeatBaramos",
+        "HideTriggerProgressID": "MAIN_ALIAHAN_BackHome",
+        "WorldMapLocationID": "None",
+        "TownDungeonLocationID": "MAPLIST_C01R0102",
+        "TownDungeonPosition": {
+          "X": 342.0,
+          "Y": 142.0
+        }
+      },
+      "MAPGUIDEMARKER_WORLDMAP_DragonQueen_18_00": {
+        "SelfId": "MAPGUIDEMARKER_WORLDMAP_DragonQueen_18_00",
+        "DispTriggerProgressID": "MAIN_ALIAHAN_DreamDragon",
+        "HideTriggerProgressID": "MAIN_DRAGONQUEEN_GetShineBall",
+        "WorldMapLocationID": "RURA_RIREMITO_RURA_DRAGONQUEEN",
+        "TownDungeonLocationID": "None",
+        "TownDungeonPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "MAPGUIDEMARKER_TOWN_DUNGEON_DragonQueen_19_00": {
+        "SelfId": "MAPGUIDEMARKER_TOWN_DUNGEON_DragonQueen_19_00",
+        "DispTriggerProgressID": "MAIN_DRAGONQUEEN_ArriveOut",
+        "HideTriggerProgressID": "MAIN_DRAGONQUEEN_GetShineBall",
+        "WorldMapLocationID": "None",
+        "TownDungeonLocationID": "MAPLIST_C09R0102",
+        "TownDungeonPosition": {
+          "X": 343.0,
+          "Y": 425.0
+        }
+      },
+      "MAPGUIDEMARKER_TOWN_DUNGEON_DragonQueen_19_01": {
+        "SelfId": "MAPGUIDEMARKER_TOWN_DUNGEON_DragonQueen_19_01",
+        "DispTriggerProgressID": "MAIN_DRAGONQUEEN_ArriveOut",
+        "HideTriggerProgressID": "MAIN_DRAGONQUEEN_GetShineBall",
+        "WorldMapLocationID": "None",
+        "TownDungeonLocationID": "MAPLIST_C09R0104",
+        "TownDungeonPosition": {
+          "X": 345.0,
+          "Y": 153.0
+        }
+      },
+      "MAPGUIDEMARKER_WORLDMAP_Giaga_20_00": {
+        "SelfId": "MAPGUIDEMARKER_WORLDMAP_Giaga_20_00",
+        "DispTriggerProgressID": "MAIN_DRAGONQUEEN_GetShineBall",
+        "HideTriggerProgressID": "MAIN_GIAGAPIT_ArriveAlefgard",
+        "WorldMapLocationID": "RURA_RIREMITO_RURA_GIAGAPIT_2",
+        "TownDungeonLocationID": "None",
+        "TownDungeonPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "MAPGUIDEMARKER_WORLDMAP_Alefgard_21_00": {
+        "SelfId": "MAPGUIDEMARKER_WORLDMAP_Alefgard_21_00",
+        "DispTriggerProgressID": "MAIN_GIAGAPIT_ArriveAlefgard",
+        "HideTriggerProgressID": "MAIN_LUDATORM_GetSunStone",
+        "WorldMapLocationID": "RURA_RIREMITO_RURA_LUDATORM",
+        "TownDungeonLocationID": "None",
+        "TownDungeonPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "MAPGUIDEMARKER_WORLDMAP_Alefgard_21_01": {
+        "SelfId": "MAPGUIDEMARKER_WORLDMAP_Alefgard_21_01",
+        "DispTriggerProgressID": "MAIN_GIAGAPIT_ArriveAlefgard",
+        "HideTriggerProgressID": "MAIN_SPIRITSHRINE_GetRainStick",
+        "WorldMapLocationID": "RURA_RIREMITO_RURA_SPIRITSHRINE",
+        "TownDungeonLocationID": "None",
+        "TownDungeonPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "MAPGUIDEMARKER_WORLDMAP_Alefgard_21_02": {
+        "SelfId": "MAPGUIDEMARKER_WORLDMAP_Alefgard_21_02",
+        "DispTriggerProgressID": "MAIN_SPIRITSHRINE_GetRainStick",
+        "HideTriggerProgressID": "MAIN_MYRA_GetFairyFlute",
+        "WorldMapLocationID": "RURA_RIREMITO_RURA_MYRA",
+        "TownDungeonLocationID": "None",
+        "TownDungeonPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "MAPGUIDEMARKER_WORLDMAP_Alefgard_21_03": {
+        "SelfId": "MAPGUIDEMARKER_WORLDMAP_Alefgard_21_03",
+        "DispTriggerProgressID": "MAIN_MYRA_GetFairyFlute",
+        "HideTriggerProgressID": "MAIN_RUBISSTOWER_Dispel",
+        "WorldMapLocationID": "RURA_RIREMITO_RURA_RUBISSTOWER",
+        "TownDungeonLocationID": "None",
+        "TownDungeonPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "MAPGUIDEMARKER_WORLDMAP_Alefgard_21_04": {
+        "SelfId": "MAPGUIDEMARKER_WORLDMAP_Alefgard_21_04",
+        "DispTriggerProgressID": "MAIN_RUBISSTOWER_Dispel",
+        "HideTriggerProgressID": "MAIN_HOLYSHRINE_GetRainbowDrop",
+        "WorldMapLocationID": "RURA_RIREMITO_RURA_HOLYSHRINE",
+        "TownDungeonLocationID": "None",
+        "TownDungeonPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "MAPGUIDEMARKER_TOWN_DUNGEON_Alefgard_21_00": {
+        "SelfId": "MAPGUIDEMARKER_TOWN_DUNGEON_Alefgard_21_00",
+        "DispTriggerProgressID": "MAIN_GIAGAPIT_ArriveAlefgard",
+        "HideTriggerProgressID": "MAIN_LUDATORM_GetSunStone",
+        "WorldMapLocationID": "None",
+        "TownDungeonLocationID": "MAPLIST_C10F0101",
+        "TownDungeonPosition": {
+          "X": 405.0,
+          "Y": 233.0
+        }
+      },
+      "MAPGUIDEMARKER_TOWN_DUNGEON_Alefgard_21_01": {
+        "SelfId": "MAPGUIDEMARKER_TOWN_DUNGEON_Alefgard_21_01",
+        "DispTriggerProgressID": "MAIN_GIAGAPIT_ArriveAlefgard",
+        "HideTriggerProgressID": "MAIN_LUDATORM_GetSunStone",
+        "WorldMapLocationID": "None",
+        "TownDungeonLocationID": "MAPLIST_C10F0201",
+        "TownDungeonPosition": {
+          "X": 425.0,
+          "Y": 333.0
+        }
+      },
+      "MAPGUIDEMARKER_TOWN_DUNGEON_Alefgard_21_02": {
+        "SelfId": "MAPGUIDEMARKER_TOWN_DUNGEON_Alefgard_21_02",
+        "DispTriggerProgressID": "MAIN_GIAGAPIT_ArriveAlefgard",
+        "HideTriggerProgressID": "MAIN_LUDATORM_GetSunStone",
+        "WorldMapLocationID": "None",
+        "TownDungeonLocationID": "MAPLIST_C10R0102",
+        "TownDungeonPosition": {
+          "X": 157.0,
+          "Y": 129.0
+        }
+      },
+      "MAPGUIDEMARKER_TOWN_DUNGEON_Alefgard_21_03": {
+        "SelfId": "MAPGUIDEMARKER_TOWN_DUNGEON_Alefgard_21_03",
+        "DispTriggerProgressID": "MAIN_GIAGAPIT_ArriveAlefgard",
+        "HideTriggerProgressID": "MAIN_SPIRITSHRINE_GetRainStick",
+        "WorldMapLocationID": "None",
+        "TownDungeonLocationID": "MAPLIST_H24R0102",
+        "TownDungeonPosition": {
+          "X": 349.0,
+          "Y": 241.0
+        }
+      },
+      "MAPGUIDEMARKER_TOWN_DUNGEON_Alefgard_21_04": {
+        "SelfId": "MAPGUIDEMARKER_TOWN_DUNGEON_Alefgard_21_04",
+        "DispTriggerProgressID": "MAIN_SPIRITSHRINE_GetRainStick",
+        "HideTriggerProgressID": "MAIN_MYRA_GetFairyFlute",
+        "WorldMapLocationID": "None",
+        "TownDungeonLocationID": "MAPLIST_T09F0101",
+        "TownDungeonPosition": {
+          "X": 293.0,
+          "Y": 257.0
+        }
+      },
+      "MAPGUIDEMARKER_TOWN_DUNGEON_Alefgard_21_05": {
+        "SelfId": "MAPGUIDEMARKER_TOWN_DUNGEON_Alefgard_21_05",
+        "DispTriggerProgressID": "MAIN_MYRA_GetFairyFlute",
+        "HideTriggerProgressID": "MAIN_RUBISSTOWER_Dispel",
+        "WorldMapLocationID": "None",
+        "TownDungeonLocationID": "MAPLIST_D18R0502",
+        "TownDungeonPosition": {
+          "X": 345.0,
+          "Y": 113.0
+        }
+      },
+      "MAPGUIDEMARKER_TOWN_DUNGEON_Alefgard_21_06": {
+        "SelfId": "MAPGUIDEMARKER_TOWN_DUNGEON_Alefgard_21_06",
+        "DispTriggerProgressID": "MAIN_RUBISSTOWER_Dispel",
+        "HideTriggerProgressID": "MAIN_HOLYSHRINE_GetRainbowDrop",
+        "WorldMapLocationID": "None",
+        "TownDungeonLocationID": "MAPLIST_H25R0101",
+        "TownDungeonPosition": {
+          "X": 273.0,
+          "Y": 321.0
+        }
+      },
+      "MAPGUIDEMARKER_WORLDMAP_ZomaCastle_22_00": {
+        "SelfId": "MAPGUIDEMARKER_WORLDMAP_ZomaCastle_22_00",
+        "DispTriggerProgressID": "MAIN_HOLYSHRINE_GetRainbowDrop",
+        "HideTriggerProgressID": "MAIN_DEVILSILAND_UseRainbowDrop",
+        "WorldMapLocationID": "RURA_RIREMITO_RURA_EvilsIladIconn",
+        "TownDungeonLocationID": "None",
+        "TownDungeonPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "MAPGUIDEMARKER_WORLDMAP_ZomaCastle_22_01": {
+        "SelfId": "MAPGUIDEMARKER_WORLDMAP_ZomaCastle_22_01",
+        "DispTriggerProgressID": "MAIN_HOLYSHRINE_GetRainbowDrop",
+        "HideTriggerProgressID": "MAIN_ZOMACASTLE_DefeatZoma",
+        "WorldMapLocationID": "RURA_RIREMITO_RURA_ZOMACASTLE",
+        "TownDungeonLocationID": "None",
+        "TownDungeonPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "MAPGUIDEMARKER_TOWN_DUNGEON_ZomaCastle_23_00": {
+        "SelfId": "MAPGUIDEMARKER_TOWN_DUNGEON_ZomaCastle_23_00",
+        "DispTriggerProgressID": "MAIN_ZOMACASTLE_Arrive1F",
+        "HideTriggerProgressID": "MAIN_ZOMACASTLE_DefeatZoma",
+        "WorldMapLocationID": "None",
+        "TownDungeonLocationID": "MAPLIST_D19R0501",
+        "TownDungeonPosition": {
+          "X": 345.0,
+          "Y": 73.0
+        }
+      },
+      "MAPGUIDEMARKER_WORLDMAP_Escape_24_00": {
+        "SelfId": "MAPGUIDEMARKER_WORLDMAP_Escape_24_00",
+        "DispTriggerProgressID": "MAIN_HEROCAVE_Warp",
+        "HideTriggerProgressID": "MAIN_HEROCAVE_GoOut",
+        "WorldMapLocationID": "RURA_RIREMITO_RURA_HEROCAVE",
+        "TownDungeonLocationID": "None",
+        "TownDungeonPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "MAPGUIDEMARKER_TOWN_DUNGEON_Escape_24_00": {
+        "SelfId": "MAPGUIDEMARKER_TOWN_DUNGEON_Escape_24_00",
+        "DispTriggerProgressID": "MAIN_HEROCAVE_Warp",
+        "HideTriggerProgressID": "MAIN_HEROCAVE_GoOut",
+        "WorldMapLocationID": "None",
+        "TownDungeonLocationID": "MAPLIST_D16R0101",
+        "TownDungeonPosition": {
+          "X": 81.0,
+          "Y": 53.0
+        }
+      },
+      "MAPGUIDEMARKER_WORLDMAP_LudatormReturn_25_00": {
+        "SelfId": "MAPGUIDEMARKER_WORLDMAP_LudatormReturn_25_00",
+        "DispTriggerProgressID": "MAIN_HEROCAVE_GoOut",
+        "HideTriggerProgressID": "",
+        "WorldMapLocationID": "RURA_RIREMITO_RURA_LUDATORM",
+        "TownDungeonLocationID": "None",
+        "TownDungeonPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "MAPGUIDEMARKER_TOWN_DUNGEON_LudatormReturn_25_00": {
+        "SelfId": "MAPGUIDEMARKER_TOWN_DUNGEON_LudatormReturn_25_00",
+        "DispTriggerProgressID": "MAIN_HEROCAVE_GoOut",
+        "HideTriggerProgressID": "",
+        "WorldMapLocationID": "None",
+        "TownDungeonLocationID": "MAPLIST_C10F0101",
+        "TownDungeonPosition": {
+          "X": 405.0,
+          "Y": 233.0
+        }
+      },
+      "MAPGUIDEMARKER_TOWN_DUNGEON_LudatormReturn_25_01": {
+        "SelfId": "MAPGUIDEMARKER_TOWN_DUNGEON_LudatormReturn_25_01",
+        "DispTriggerProgressID": "MAIN_HEROCAVE_GoOut",
+        "HideTriggerProgressID": "",
+        "WorldMapLocationID": "None",
+        "TownDungeonLocationID": "MAPLIST_C10F0201",
+        "TownDungeonPosition": {
+          "X": 313.0,
+          "Y": 193.0
+        }
+      },
+      "MAPGUIDEMARKER_TOWN_DUNGEON_LudatormReturn_25_02": {
+        "SelfId": "MAPGUIDEMARKER_TOWN_DUNGEON_LudatormReturn_25_02",
+        "DispTriggerProgressID": "MAIN_HEROCAVE_GoOut",
+        "HideTriggerProgressID": "",
+        "WorldMapLocationID": "None",
+        "TownDungeonLocationID": "MAPLIST_C10R0101",
+        "TownDungeonPosition": {
+          "X": 345.0,
+          "Y": 149.0
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,120 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_Rename",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Rename_Message_Start": {
+        "SelfId": "Txt_Rename_Message_Start",
+        "Text": "<IfSolo(Sei,Seid)> gegrüßt, ich bin die treue Dienerin Nominatios, dem Namensgott.<KEY_WAIT> <IfSolo(Wünscht Ihr,Wünscht jemand unter Euch)>, fortan mit einem anderen Namen gerufen zu werden?<NO_INPUT>"
+      },
+      "Txt_Rename_Message_Top": {
+        "SelfId": "Txt_Rename_Message_Top",
+        "Text": "Ah, sehr gut. Und wer möchte mit einem neuen Namen gesegnet sein?<NO_INPUT>"
+      },
+      "Txt_Rename_Message_NameSelect": {
+        "SelfId": "Txt_Rename_Message_NameSelect",
+        "Text": "{WORD}? Wie Ihr wünscht. Und wie soll der neuen Name lauten, unter dem man Euch fortan rufen soll? <NO_INPUT>"
+      },
+      "Txt_Rename_Message_NameDeside": {
+        "SelfId": "Txt_Rename_Message_NameDeside",
+        "Text": "Ausgezeichnet. {WORD} soll fortan {NAME} geheißen werden. Ist das richtig?<NO_INPUT>"
+      },
+      "Txt_Rename_Message_NameChangeStart": {
+        "SelfId": "Txt_Rename_Message_NameChangeStart",
+        "Text": "Sodann rufe ich die Mächte Nominatios, des Gottes aller Namen und Nennungen an, um das Wunder der Neubenennung zu vollziehen!"
+      },
+      "Txt_Rename_Message_NameChangeFinish": {
+        "SelfId": "Txt_Rename_Message_NameChangeFinish",
+        "Text": "Es ist vollbracht! {WORD} soll fortan unter dem Namen {NAME} bekannt sein! Nominatios Segen sei Dank!"
+      },
+      "Txt_Rename_Message_AddNameChangeConfirm": {
+        "SelfId": "Txt_Rename_Message_AddNameChangeConfirm",
+        "Text": "Gibt es unter Euch noch jemanden, der sich unter einem anderen Namen neu erfinden möchte?"
+      },
+      "Txt_Rename_Message_Finish": {
+        "SelfId": "Txt_Rename_Message_Finish",
+        "Text": "Nun denn. <IfSolo(Falls Ihr,Falls einer von Euch)> je <IfSolo(Eures,seines)> Namens überdrüssig werden <IfSolo(solltet,sollte)>, zögert nicht den Segen Nominatios aufzusuchen."
+      },
+      "Txt_Rename_Message_NameSelectAgain": {
+        "SelfId": "Txt_Rename_Message_NameSelectAgain",
+        "Text": "Ihr möchtet also fortan unter einem anderen Namen bekannt sein, ja?"
+      },
+      "Txt_Rename_Message_CanNotChangeDeath": {
+        "SelfId": "Txt_Rename_Message_CanNotChangeDeath",
+        "Text": "Verstehe ich richtig, dass Ihr den Namen eines anderen ohne dessen Segen ändern möchtet? Ich fürchte, diesem Gesuch kann ich nicht entsprechen<nbsp>..."
+      },
+      "Txt_Rename_Message_Cancel": {
+        "SelfId": "Txt_Rename_Message_Cancel",
+        "Text": "Oh, Ihr möchtet also Euren gegenwärtigen Namen behalten. Ganz wie Ihr wünscht<nbsp>..."
+      },
+      "Txt_Rename_Message_NameError_Ban": {
+        "SelfId": "Txt_Rename_Message_NameError_Ban",
+        "Text": "Unser Gott Nominatio hat gesprochen: Der Name, den Ihr gewählt habt, kann Euch nicht gewährt werden.<KEY_WAIT>\r\nIhr müsst einen anderen wählen<nbsp>...<NO_INPUT>"
+      },
+      "Txt_Rename_Message_OriginName": {
+        "SelfId": "Txt_Rename_Message_OriginName",
+        "Text": "Hm, Ihr wollt also doch wieder zu Eurem alten Namen zurückkehren, wie? Es ist gut, die Wünsche der Eltern zu respektieren, schätze ich. Also gut<nbsp>...<KEY_WAIT>\r\nEinmal mehr soll {WORD} der Welt als {NAME} bekannt sein!<KEY_WAIT>\r\nSeid Ihr Euch diesmal auch ganz sicher?<NO_INPUT>"
+      },
+      "Txt_Rename_Message_OriginNameChangeStart": {
+        "SelfId": "Txt_Rename_Message_OriginNameChangeStart",
+        "Text": "O du großer Herr der Namen! Bringe uns wieder, was einst verstoßen war! {WORD} soll erneut {NAME} heißen!"
+      },
+      "Txt_Rename_Message_OriginNameChangeFinish": {
+        "SelfId": "Txt_Rename_Message_OriginNameChangeFinish",
+        "Text": "Und siehe da<nbsp>... <IfGender_NAME(er,sie,es)> ward wieder {NAME} geheißen!\r\nGepriesen sei Nominatio!"
+      },
+      "Txt_Rename_Message_BadNameFinalConfirm": {
+        "SelfId": "Txt_Rename_Message_BadNameFinalConfirm",
+        "Text": "Fürchtet Ihr Euch nicht vor Seinem Zorn? Denn ich kann Euch da keinen Schutz gewähren. Seid Ihr ganz sicher?<NO_INPUT>"
+      },
+      "Txt_Rename_Message_BadNameChangeStart": {
+        "SelfId": "Txt_Rename_Message_BadNameChangeStart",
+        "Text": "Dann werde ich namens der Kräfte, die mir durch Ihn gegeben sind, Euch {NAME} benenn...!"
+      },
+      "Txt_Rename_Message_BadNameChangeFinish": {
+        "SelfId": "Txt_Rename_Message_BadNameChangeFinish",
+        "Text": "Sagte ich es Euch etwa nicht?! Ich kann Euch nicht vor Seinem Zorn bewahren!<KEY_WAIT>\r\n(Seufz) Nun müsst Ihr mit dem Namen {NAME} bis ans Ende Eurer Tage leben!"
+      },
+      "Txt_Rename_Message_BadName": {
+        "SelfId": "Txt_Rename_Message_BadName",
+        "Text": "{NAME}? Macht Ihr Euch über das Haus der Namen etwa lustig?<NO_INPUT>"
+      },
+      "Txt_Rename_Message_BadNameConfirm": {
+        "SelfId": "Txt_Rename_Message_BadNameConfirm",
+        "Text": "Ihr behauptet also, dass Ihr diesen Namen nicht aus Spott gewählt habt und fortan so genannt werden möchtet?<NO_INPUT>"
+      },
+      "Txt_Rename_Message_BadNameCancel": {
+        "SelfId": "Txt_Rename_Message_BadNameCancel",
+        "Text": "So wählt einen anderen Namen, ich flehe Euch an! Sprecht, {WORD}! Wie wollt Ihr fortan heißen?<NO_INPUT>"
+      },
+      "Txt_Rename_Message_CanNotNameChange": {
+        "SelfId": "Txt_Rename_Message_CanNotNameChange",
+        "Text": "Oh weh! Euer Frevel hat Nominatios schrecklichen Zorn entfacht! Nun werdet Ihr den Rest Eures Lebens gestraft sein!<KEY_WAIT>\r\nEs sei denn<nbsp>... Ihr entrichtet einen kleinen Obolus<nbsp>.... Sagen wir<nbsp>... <IfSing_VALUE(eine Goldmünze,{VALUE}<nbsp>Goldmünzen)>?<KEY_WAIT>\r\nEin Schnäppchen, um dem göttlichen Zorn zu entrinnen, meint Ihr nicht?!<NO_INPUT>"
+      },
+      "Txt_Rename_Message_PenaltyCancel": {
+        "SelfId": "Txt_Rename_Message_PenaltyCancel",
+        "Text": "Dann, so fürchte ich, ist es um Euren Namen geschehen<nbsp>..."
+      },
+      "Txt_Rename_Message_PenaltyPay": {
+        "SelfId": "Txt_Rename_Message_PenaltyPay",
+        "Text": "{LEADER} überreicht ein Säcklein mit <IfSing_VALUE(einer Goldmünze,{VALUE}<nbsp>Goldmünzen)>."
+      },
+      "Txt_Rename_Message_CanNameChange": {
+        "SelfId": "Txt_Rename_Message_CanNameChange",
+        "Text": "Eine Tat, wie sie mir<nbsp>... ähem<nbsp>... Nominatio<nbsp>... gefällig ist!\r\nNun sprecht, wie soll Euer neuer Name lauten, {WORD}?<NO_INPUT>"
+      },
+      "Txt_Rename_Message_PenaltyShotage": {
+        "SelfId": "Txt_Rename_Message_PenaltyShotage",
+        "Text": "Eure Bemühungen sind zur Kenntnis genommen, aber ich fürchte, sie reichen nicht aus, um Euch zu läutern. Ihr werdet die Bürde Eures Namens noch eine Weile tragen müssen."
+      }
+    }
+  }
+]

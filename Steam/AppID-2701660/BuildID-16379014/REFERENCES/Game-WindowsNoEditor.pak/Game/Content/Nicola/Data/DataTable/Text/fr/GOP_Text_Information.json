@@ -1,0 +1,564 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_Information",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Information_TITLE_AUTOSAVE": {
+        "SelfId": "Txt_Information_TITLE_AUTOSAVE",
+        "Text": "Sauvegarde automatique"
+      },
+      "Txt_Information_TITLE_DASH": {
+        "SelfId": "Txt_Information_TITLE_DASH",
+        "Text": "Courir"
+      },
+      "Txt_Information_TITLE_EQUIP": {
+        "SelfId": "Txt_Information_TITLE_EQUIP",
+        "Text": "S'équiper"
+      },
+      "Txt_Information_TITLE_BAR": {
+        "SelfId": "Txt_Information_TITLE_BAR",
+        "Text": "La taverne de Tulipe"
+      },
+      "Txt_Information_TITLE_BAR_REPLACE": {
+        "SelfId": "Txt_Information_TITLE_BAR_REPLACE",
+        "Text": "Modifier son équipe"
+      },
+      "Txt_Information_TITLE_HELP": {
+        "SelfId": "Txt_Information_TITLE_HELP",
+        "Text": "Une aide bien utile"
+      },
+      "Txt_Information_TITLE_HELP_HOST": {
+        "SelfId": "Txt_Information_TITLE_HELP_HOST",
+        "Text": "Envoyer de l'aide"
+      },
+      "Txt_Information_TITLE_HELP_CLIENT": {
+        "SelfId": "Txt_Information_TITLE_HELP_CLIENT",
+        "Text": "Appeler à l'aide"
+      },
+      "Txt_Information_TITLE_SHOP": {
+        "SelfId": "Txt_Information_TITLE_SHOP",
+        "Text": "Boutiques"
+      },
+      "Txt_Information_TITLE_CHURCH": {
+        "SelfId": "Txt_Information_TITLE_CHURCH",
+        "Text": "Sauvegarde"
+      },
+      "Txt_Information_TITLE_INN": {
+        "SelfId": "Txt_Information_TITLE_INN",
+        "Text": "Se ressourcer"
+      },
+      "Txt_Information_TITLE_MAPMENU": {
+        "SelfId": "Txt_Information_TITLE_MAPMENU",
+        "Text": "Lire les cartes"
+      },
+      "Txt_Information_TITLE_DESTINATION": {
+        "SelfId": "Txt_Information_TITLE_DESTINATION",
+        "Text": "Destinations"
+      },
+      "Txt_Information_TITLE_MEMORY": {
+        "SelfId": "Txt_Information_TITLE_MEMORY",
+        "Text": "Conversations du passé"
+      },
+      "Txt_Information_TITLE_INFORMATION": {
+        "SelfId": "Txt_Information_TITLE_INFORMATION",
+        "Text": "Les astuces du voyageur"
+      },
+      "Txt_Information_TITLE_FULL_RECOVERY": {
+        "SelfId": "Txt_Information_TITLE_FULL_RECOVERY",
+        "Text": "Soigner tous/Soigner tous éco"
+      },
+      "Txt_Information_TITLE_SHIP": {
+        "SelfId": "Txt_Information_TITLE_SHIP",
+        "Text": "Voyages en bateau"
+      },
+      "Txt_Information_TITLE_RAMIA": {
+        "SelfId": "Txt_Information_TITLE_RAMIA",
+        "Text": "Prendre les airs avec Ramia"
+      },
+      "Txt_Information_TITLE_JOB_CHANGE": {
+        "SelfId": "Txt_Information_TITLE_JOB_CHANGE",
+        "Text": "Changer de vocation : Partie I"
+      },
+      "Txt_Information_TITLE_JOB_CHANGE_RECOMMEND": {
+        "SelfId": "Txt_Information_TITLE_JOB_CHANGE_RECOMMEND",
+        "Text": "Changer de vocation : Partie II"
+      },
+      "Txt_Information_TITLE_JOB_CHANGE_RECOMMEND_3": {
+        "SelfId": "Txt_Information_TITLE_JOB_CHANGE_RECOMMEND_3",
+        "Text": "Changer de vocation : Partie III"
+      },
+      "Txt_Information_TITLE_TIME_FLOW": {
+        "SelfId": "Txt_Information_TITLE_TIME_FLOW",
+        "Text": "Le temps qui passe"
+      },
+      "Txt_Information_TITLE_STRATEGY": {
+        "SelfId": "Txt_Information_TITLE_STRATEGY",
+        "Text": "Affiner sa stratégie"
+      },
+      "Txt_Information_TITLE_STRATEGY_LIST": {
+        "SelfId": "Txt_Information_TITLE_STRATEGY_LIST",
+        "Text": "Types de stratégies"
+      },
+      "Txt_Information_TITLE_WEAK_RESIST": {
+        "SelfId": "Txt_Information_TITLE_WEAK_RESIST",
+        "Text": "Attaques avantageuses"
+      },
+      "Txt_Information_TITLE_PERSONALITY": {
+        "SelfId": "Txt_Information_TITLE_PERSONALITY",
+        "Text": "Personnalités"
+      },
+      "Txt_Information_TITLE_PERSONALITY_STATUS_1": {
+        "SelfId": "Txt_Information_TITLE_PERSONALITY_STATUS_1",
+        "Text": "Influence des personnalités : Partie I"
+      },
+      "Txt_Information_TITLE_PERSONALITY_STATUS_2": {
+        "SelfId": "Txt_Information_TITLE_PERSONALITY_STATUS_2",
+        "Text": "Influence des personnalités : Partie II"
+      },
+      "Txt_Information_TITLE_PERSONALITY_STATUS_3": {
+        "SelfId": "Txt_Information_TITLE_PERSONALITY_STATUS_3",
+        "Text": "Influence des personnalités : Partie III"
+      },
+      "Txt_Information_TITLE_PERSONALITY_STATUS_4": {
+        "SelfId": "Txt_Information_TITLE_PERSONALITY_STATUS_4",
+        "Text": "Influence des personnalités : Partie IV"
+      },
+      "Txt_Information_TITLE_PERSONALITY_STATUS_5": {
+        "SelfId": "Txt_Information_TITLE_PERSONALITY_STATUS_5",
+        "Text": "Influence des personnalités : Partie V"
+      },
+      "Txt_Information_TITLE_PERSONALITY_STATUS_6": {
+        "SelfId": "Txt_Information_TITLE_PERSONALITY_STATUS_6",
+        "Text": "Influence des personnalités : Partie VI"
+      },
+      "Txt_Information_TITLE_PERSONALITY_STATUS_7": {
+        "SelfId": "Txt_Information_TITLE_PERSONALITY_STATUS_7",
+        "Text": "Influence des personnalités : Partie VII"
+      },
+      "Txt_Information_TITLE_PERSONALITY_STATUS_8": {
+        "SelfId": "Txt_Information_TITLE_PERSONALITY_STATUS_8",
+        "Text": "Influence des personnalités : Partie VIII"
+      },
+      "Txt_Information_TITLE_PERSONALITY_STATUS_9": {
+        "SelfId": "Txt_Information_TITLE_PERSONALITY_STATUS_9",
+        "Text": "Influence des personnalités : Partie IX"
+      },
+      "Txt_Information_TITLE_PERSONALITY_STATUS_10": {
+        "SelfId": "Txt_Information_TITLE_PERSONALITY_STATUS_10",
+        "Text": "Influence des personnalités : Partie X"
+      },
+      "Txt_Information_TITLE_PERSONALITY_STATUS_11": {
+        "SelfId": "Txt_Information_TITLE_PERSONALITY_STATUS_11",
+        "Text": "Influence des personnalités : Partie XI"
+      },
+      "Txt_Information_TITLE_PERSONALITY_STATUS_12": {
+        "SelfId": "Txt_Information_TITLE_PERSONALITY_STATUS_12",
+        "Text": "Influence des personnalités : Partie XII"
+      },
+      "Txt_Information_TITLE_PERSONALITY_STATUS_13": {
+        "SelfId": "Txt_Information_TITLE_PERSONALITY_STATUS_13",
+        "Text": "Influence des personnalités : Partie XIII"
+      },
+      "Txt_Information_TITLE_RUN_AWAY": {
+        "SelfId": "Txt_Information_TITLE_RUN_AWAY",
+        "Text": "Prendre ses jambes à son coup"
+      },
+      "Txt_Information_TITLE_CURSE": {
+        "SelfId": "Txt_Information_TITLE_CURSE",
+        "Text": "Malédiction au tournant"
+      },
+      "Txt_Information_TITLE_ACCESSORY_PERSONALITY": {
+        "SelfId": "Txt_Information_TITLE_ACCESSORY_PERSONALITY",
+        "Text": "Des accessoires influents"
+      },
+      "Txt_Information_TITLE_MEDAL": {
+        "SelfId": "Txt_Information_TITLE_MEDAL",
+        "Text": "Mini médailles"
+      },
+      "Txt_Information_TITLE_INVENTORY": {
+        "SelfId": "Txt_Information_TITLE_INVENTORY",
+        "Text": "Se servir d'objets en combat"
+      },
+      "Txt_Information_TITLE_SYSTEM": {
+        "SelfId": "Txt_Information_TITLE_SYSTEM",
+        "Text": "Paramètres système"
+      },
+      "Txt_Information_TITLE_KEY": {
+        "SelfId": "Txt_Information_TITLE_KEY",
+        "Text": "Les serrures récalcitrantes"
+      },
+      "Txt_Information_TITLE_RULER": {
+        "SelfId": "Txt_Information_TITLE_RULER",
+        "Text": "Se déplacer en un clin d'œil"
+      },
+      "Txt_Information_TITLE_STATUS_LIST_1": {
+        "SelfId": "Txt_Information_TITLE_STATUS_LIST_1",
+        "Text": "Tout sur les caractéristiques : Partie I"
+      },
+      "Txt_Information_TITLE_STATUS_LIST_2": {
+        "SelfId": "Txt_Information_TITLE_STATUS_LIST_2",
+        "Text": "Tout sur les caractéristiques : Partie II"
+      },
+      "Txt_Information_TITLE_CHANGE_STATUS": {
+        "SelfId": "Txt_Information_TITLE_CHANGE_STATUS",
+        "Text": "Les différents états"
+      },
+      "Txt_Information_TITLE_BAD_STATUS_LIST": {
+        "SelfId": "Txt_Information_TITLE_BAD_STATUS_LIST",
+        "Text": "Altérations d'état : Partie I"
+      },
+      "Txt_Information_TITLE_BAD_STATUS_LIST_2": {
+        "SelfId": "Txt_Information_TITLE_BAD_STATUS_LIST_2",
+        "Text": "Altérations d'état : Partie II"
+      },
+      "Txt_Information_TITLE_BAD_STATUS_LIST_3": {
+        "SelfId": "Txt_Information_TITLE_BAD_STATUS_LIST_3",
+        "Text": "Icones d'altération : Partie I"
+      },
+      "Txt_Information_TITLE_BAD_STATUS_LIST_4": {
+        "SelfId": "Txt_Information_TITLE_BAD_STATUS_LIST_4",
+        "Text": "Icones d'altération : Partie II"
+      },
+      "Txt_Information_TITLE_POISON_PARALYSE": {
+        "SelfId": "Txt_Information_TITLE_POISON_PARALYSE",
+        "Text": "Poison et paralysie"
+      },
+      "Txt_Information_TITLE_OVERLAP": {
+        "SelfId": "Txt_Information_TITLE_OVERLAP",
+        "Text": "Accumuler les altérations"
+      },
+      "Txt_Information_TITLE_BATTLEROAD": {
+        "SelfId": "Txt_Information_TITLE_BATTLEROAD",
+        "Text": "Les arènes des monstres"
+      },
+      "Txt_Information_TITLE_BATTLEROAD_BATTLE": {
+        "SelfId": "Txt_Information_TITLE_BATTLEROAD_BATTLE",
+        "Text": "Monstres prêts au combat !"
+      },
+      "Txt_Information_TITLE_BREED_MONSTER": {
+        "SelfId": "Txt_Information_TITLE_BREED_MONSTER",
+        "Text": "Comment apprivoiser un monstre : Partie I"
+      },
+      "Txt_Information_TITLE_BREED_MONSTER_2": {
+        "SelfId": "Txt_Information_TITLE_BREED_MONSTER_2",
+        "Text": "Comment apprivoiser un monstre : Partie II"
+      },
+      "Txt_Information_TITLE_PUZZLE": {
+        "SelfId": "Txt_Information_TITLE_PUZZLE",
+        "Text": "Le puzzle d'Edina"
+      },
+      "Txt_Information_TITLE_WIPEOUT": {
+        "SelfId": "Txt_Information_TITLE_WIPEOUT",
+        "Text": "Les désagréments de la défaite"
+      },
+      "Txt_Information_TITLE_PICK": {
+        "SelfId": "Txt_Information_TITLE_PICK",
+        "Text": "Points lumineux"
+      },
+      "Txt_Information_TITLE_SECRET_AREA": {
+        "SelfId": "Txt_Information_TITLE_SECRET_AREA",
+        "Text": "Endroits secrets"
+      },
+      "Txt_Information_TITLE_CLEAR": {
+        "SelfId": "Txt_Information_TITLE_CLEAR",
+        "Text": "Les choses sérieuses commencent"
+      },
+      "Txt_Information_TITLE_GAMEMODE": {
+        "SelfId": "Txt_Information_TITLE_GAMEMODE",
+        "Text": "Choisir la bonne difficulté"
+      },
+      "Txt_Information_TITLE_FIELDMENU": {
+        "SelfId": "Txt_Information_TITLE_FIELDMENU",
+        "Text": "Le menu principal"
+      },
+      "Txt_Information_TEXT_AUTOSAVE": {
+        "SelfId": "Txt_Information_TEXT_AUTOSAVE",
+        "Text": "Le jeu sauvegarde automatiquement votre progression quand vous entrez dans un village ou un donjon par exemple.\r\n\r\nNe quittez jamais le jeu lorsque l'icone du journal est affiché."
+      },
+      "Txt_Information_TEXT_DASH": {
+        "SelfId": "Txt_Information_TEXT_DASH",
+        "Text": "Il est possible d'avancer plus vite en maintenant <IMG_BUTTON>[Dash] pendant ses déplacements."
+      },
+      "Txt_Information_TEXT_EQUIP": {
+        "SelfId": "Txt_Information_TEXT_EQUIP",
+        "Text": "Les pièces d'équipements n'offrent tout leur potentiel que si elles sont portées!\r\n\r\nVeillez donc que tous les personnages en soient équipés via «Équipement» dans le menu principal."
+      },
+      "Txt_Information_TEXT_BAR": {
+        "SelfId": "Txt_Information_TEXT_BAR",
+        "Text": "La taverne de Tulipe à Aliahan est l'endroit où aller pour modifier son équipe ou recruter de nouveaux membres.\r\n\r\nL'aventure qui vous attend est semée d'embûches, s'entourer de compagnons fiables est la meilleure façon de les surmonter!"
+      },
+      "Txt_Information_TEXT_BAR_REPLACE": {
+        "SelfId": "Txt_Information_TEXT_BAR_REPLACE",
+        "Text": "C'est à Tulipe qu'il faut s'adresser pour composer son équipe d'aventuriers sûrs. Elle vous attend au comptoir du rez-de chaussée de son bâtiment à Aliahan!\r\n\r\nC'est à l'étage de sa taverne que vous trouverez le Poste d'Organisation des Troupes d'Explorateurs pour débusquer de nouveaux membres prêts à vous accompagner dans les plus folles aventures!"
+      },
+      "Txt_Information_TEXT_HELP": {
+        "SelfId": "Txt_Information_TEXT_HELP",
+        "Text": "La taverne de Tulipe permet également de prêter ou d'emprunter des «personnages d'aide» d'autres journaux enregistrés.\r\n\r\nPour plus de détails, veuillez consulter les astuces du voyageur «Envoyer de l'aide» et «Appeler à l'aide»."
+      },
+      "Txt_Information_TEXT_HELP_PS5": {
+        "SelfId": "Txt_Information_TEXT_HELP_PS5",
+        "Text": "La taverne de Tulipe permet également de prêter ou d'emprunter des «personnages d'aide» d'autres journaux enregistrés.\r\n\r\nPour plus de détails, veuillez consulter les astuces du voyageur «Envoyer de l'aide» et «Appeler à l'aide»."
+      },
+      "Txt_Information_TEXT_HELP_HOST": {
+        "SelfId": "Txt_Information_TEXT_HELP_HOST",
+        "Text": "Vous pouvez enregistrer vos personnages autre que le héros pour qu'ils soient disponibles depuis vos autres journaux et puissent intégrer une autre équipe.\r\n\r\nLe niveau et l'équipement des personnages d'aide sont déterminés au moment de l'enregistrement et ne peuvent plus être modifiés."
+      },
+      "Txt_Information_TEXT_HELP_CLIENT": {
+        "SelfId": "Txt_Information_TEXT_HELP_CLIENT",
+        "Text": "Vous pouvez intégrer dans votre équipe un seul et unique personnage d'aide enregistré dans un autre journal.\r\n\r\nPoints importants:\r\n- Le niveau de ce personnage n'augmente pas.\r\n- Il est impossible de modifier son équipement."
+      },
+      "Txt_Information_TEXT_SHOP": {
+        "SelfId": "Txt_Information_TEXT_SHOP",
+        "Text": "En ville, vous trouverez des magasins qui proposent des armes et armures ou bien encore des objets contre quelques pièces d'or.\r\n\r\nLes articles proposés peuvent varier selon les boutiques, n'hésitez donc pas à jeter un œil quand vous en voyez une nouvelle!"
+      },
+      "Txt_Information_TEXT_CHURCH": {
+        "SelfId": "Txt_Information_TEXT_CHURCH",
+        "Text": "Il est possible de sauvegarder sa progression en priant dans les églises ou auprès des sœurs.\r\n\r\nLe jeu contient également un système de sauvegarde automatique dont les données sont fréquemment réécrites. Il est donc aussi conseillé de prier manuellement, avec un maximum de neuf emplacements de sauvegarde.\r\n\r\nUn aventurier téméraire n'oublie jamais de garder une trace de ses péripéties !"
+      },
+      "Txt_Information_TEXT_CHURCH_PS5": {
+        "SelfId": "Txt_Information_TEXT_CHURCH_PS5",
+        "Text": "Il est possible de sauvegarder sa progression en priant dans les églises ou auprès des sœurs.\r\n\r\nLe jeu contient également un système de sauvegarde automatique dont les données sont fréquemment réécrites. Il est donc aussi conseillé de prier manuellement, avec un maximum de neuf emplacements de sauvegarde.\r\n\r\nUn aventurier téméraire n'oublie jamais de garder une trace de ses péripéties !"
+      },
+      "Txt_Information_TEXT_INN": {
+        "SelfId": "Txt_Information_TEXT_INN",
+        "Text": "Passer la nuit dans une auberge permet de récupérer l'intégralité de ses PV et PM. Si vous souhaitez panser vos blessures après d'intenses combats, prenez une chambre dans l'auberge la plus proche.\r\n\r\nCela dit, aussi confortable l'auberge soit-elle, elle ne réveillera pas les morts! Il vous faudra passer dans un église ou par une sœur pour ressusciter un allié tombé au combat."
+      },
+      "Txt_Information_TEXT_MAPMENU": {
+        "SelfId": "Txt_Information_TEXT_MAPMENU",
+        "Text": "Si vous ne trouvez plus votre chemin, vous pouvez toujours ouvrir le menu carte en appuyant sur <IMG_BUTTON>[Map].\r\n\r\nVous saurez où vous vous trouvez, et aurez ainsi une idée des alentours."
+      },
+      "Txt_Information_TEXT_DESTINATION": {
+        "SelfId": "Txt_Information_TEXT_DESTINATION",
+        "Text": "Si vous vous sentez perdu dans votre aventure et ne savez plus où aller, vous pouvez toujours activer le «Marqueur d'objectif» dans «Paramètres système» qui affichera la destination suivante sur la carte.\r\n\r\nEn activant le «Texte d'aide», des indices pour la marche à suivre s'afficheront également dans les menus."
+      },
+      "Txt_Information_TEXT_MEMORY": {
+        "SelfId": "Txt_Information_TEXT_MEMORY",
+        "Text": "Si vous perdez le fil d'une conversation, il est toujours possible d'en mémoriser le contenu en cours de route ou juste après, en appuyant sur <IMG_BUTTON>[Memory].\r\n\r\nLes conversations enregistrées sont accessibles à tout moment dans le menu «Souvenirs»."
+      },
+      "Txt_Information_TEXT_INFORMATION": {
+        "SelfId": "Txt_Information_TEXT_INFORMATION",
+        "Text": "«Les astuces du voyageur» sont une compilation d'informations pratiques que l'on peut trouver dans le menu «Divers». Consultez-les si vous avez besoin d'aide concernant les commandes du jeu ou votre aventure.\r\n\r\nLe nombre d'astuces augmentera tout au long de votre progression dans l'histoire. Pensez donc à jeter un œil régulièrement!"
+      },
+      "Txt_Information_TEXT_FULL_RECOVERY": {
+        "SelfId": "Txt_Information_TEXT_FULL_RECOVERY",
+        "Text": "En sélectionnant «Soigner tous» dans le menu «Divers», un sort de soin d'un membre de l'équipe est automatiquement utilisé pour restaurer l'intégralité des PV de tous les membres.\r\n\r\n«Soigner tous éco.» redonne quant à lui la quasi totalité des PV tout en optimisant les ressources pour ne pas gaspiller de précieux PM."
+      },
+      "Txt_Information_TEXT_SHIP": {
+        "SelfId": "Txt_Information_TEXT_SHIP",
+        "Text": "En route pour l'aventure!\r\nVous avez désormais votre propre navire pour aller où bon vous semble!\r\n\r\n- Appuyez sur <IMG_BUTTON>[Talk] pour embarquer en étant devant le navire.\r\n- Appuyez sur <IMG_BUTTON>[Talk] pour débarquer en s'approchant des terres."
+      },
+      "Txt_Information_TEXT_RAMIA": {
+        "SelfId": "Txt_Information_TEXT_RAMIA",
+        "Text": "Vous tenez le monde dans le creux de la main maintenant que vous pouvez parcourir les cieux avec Ramia!\r\n\r\n- Appuyez sur <IMG_BUTTON>[Talk] pour monter sur l'Oiseau éternel.\r\n- Pour choisir un endroit précis où atterrir, utilisez <IMG_BUTTON>[Target_Lamia]\r\net appuyez sur <IMG_BUTTON>[Talk] pour rejoindre le sol.\r\n- Vous pouvez voler à basse altitude en maintenant <IMG_BUTTON>[Dash_Lamia]."
+      },
+      "Txt_Information_TEXT_JOB_CHANGE": {
+        "SelfId": "Txt_Information_TEXT_JOB_CHANGE",
+        "Text": "Quand un membre de l'équipe autre que le héros atteint le niveau 20, il lui est possible de changer de vocation à l'abbaye des Vocations.\r\n\r\nMême si celui-ci est rétrogradé au niveau 1, il se souviendra de ses anciens sorts et aptitudes!\r\n\r\nEn expérimentant les différentes vocations, le nombre de techniques à votre disposition augmentera et les combats tourneront plus facilement à votre avantage!"
+      },
+      "Txt_Information_TEXT_JOB_CHANGE_RECOMMEND": {
+        "SelfId": "Txt_Information_TEXT_JOB_CHANGE_RECOMMEND",
+        "Text": "En changeant de vocation, le niveau du personnage est remis à 1 mais il conserve environ la moitié des valeurs de ses caractéristiques telles que la Force ou la Vitalité.\r\n\r\nEn d'autres termes, même s'il repart du même niveau qu'à sa rencontre à la taverne de Tulipe, il sera bien plus puissant."
+      },
+      "Txt_Information_TEXT_JOB_CHANGE_RECOMMEND_3": {
+        "SelfId": "Txt_Information_TEXT_JOB_CHANGE_RECOMMEND_3",
+        "Text": "En changeant de vocation, les points d'expérience nécessaire pour monter de niveau sont remis à zéro mais le personnage reprendra rapidement des niveaux en quelques combats.\r\n\r\nEn conservant la moitié des valeurs de ses caractéristiques antérieures, il pourra atteindre de meilleurs résultats que s'il n'avait pas changé de vocation.\r\n\r\nN'hésitez pas à changer de vocation pour développer de puissants personnages!"
+      },
+      "Txt_Information_TEXT_TIME_FLOW": {
+        "SelfId": "Txt_Information_TEXT_TIME_FLOW",
+        "Text": "Le temps de ce monde s'écoule normalement, passant du jour au crépuscule puis à la nuit. Les monstres présents peuvent aussi varier en fonction de cela.\r\n\r\nLes gens et les établissements des nombreuses villes se montreront également sous différents aspects selon le moment de la journée où vous vous y rendez."
+      },
+      "Txt_Information_TEXT_STRATEGY": {
+        "SelfId": "Txt_Information_TEXT_STRATEGY",
+        "Text": "«Tactique» dans le menu «Divers» permet de modifier le comportement de son personnage et de ses alliés en combat.\r\n\r\nSi vous choisissez «Suivre les ordres», vous pourrez décider de chaque action du personnage vous-même.\r\n\r\nSinon, les membres agiront automatiquement en fonction de la tactique que vous aurez prédéterminée pour eux."
+      },
+      "Txt_Information_TEXT_STRATEGY_LIST": {
+        "SelfId": "Txt_Information_TEXT_STRATEGY_LIST",
+        "Text": "<b>Sans pitié</>: Attaque sans aucune retenue en utilisant des sorts et aptitudes.\r\n\r\n<b>Agir avec sagesse</>: Choisit ses coups en se souciant de l'équilibre entre l'attaque et la défense.\r\n\r\n<b>Je m'occupe de tout</>: Le reste de l'équipe se contente du soutien, laissant le héros porter les coups.\r\n\r\n<b>Pas de PM</>: Économise de précieux PM en n'utilisant aucun sort ou aptitude.\r\n\r\n<b>Soins avant tout</>: Priorise les sorts de soin et de résurrection à l'attaque.\r\n\r\n<b>Suivre les ordres</>: Le joueur choisit l'intégralité des actions du personnage."
+      },
+      "Txt_Information_TEXT_PERSONALITY": {
+        "SelfId": "Txt_Information_TEXT_PERSONALITY",
+        "Text": "Le héros et ses équipiers ont tous une «Personnalité» qui influence sur leurs caractéristiques et leurs capacités de croissance.\r\n\r\nIl existe de nombreux accessoires et pièces d'équipement capables d'influencer cette personnalité."
+      },
+      "Txt_Information_TEXT_PERSONALITY_STATUS_1": {
+        "SelfId": "Txt_Information_TEXT_PERSONALITY_STATUS_1",
+        "Text": "<b>Autoritaire</>\r\nLa Force augmente très rapidement; la Vitalité augmente un peu plus rapidement que la normale.\r\n\r\n<b>Banal</>\r\nToutes les caractéristiques augmentent de façon homogène.\r\n\r\n<b>Bosseur</>\r\nVitalité et Endurance augmentent rapidement; La Chance augmente doucement.\r\n\r\n<b>Bourgeois</>\r\nLa Chance augmente très rapidement; la Sagesse augmente un peu plus rapidement que la normale; la Vitalité augmente doucement."
+      },
+      "Txt_Information_TEXT_PERSONALITY_STATUS_2": {
+        "SelfId": "Txt_Information_TEXT_PERSONALITY_STATUS_2",
+        "Text": "<b>Brillant</>\r\nLa Sagesse augmente très rapidement.\r\n\r\n<b>Casse-tout</>\r\nLa Force augmente rapidement; la Vitalité augmente un peu plus rapidement que la normale; Sagesse et Chance augmentent doucement.\r\n\r\n<b>Chanceux</>\r\nLa Chance augmente très rapidement; l'Agilité augmente un peu plus rapidement que la normale."
+      },
+      "Txt_Information_TEXT_PERSONALITY_STATUS_3": {
+        "SelfId": "Txt_Information_TEXT_PERSONALITY_STATUS_3",
+        "Text": "<b>Charmeur</>\r\nAgilité et Chance augmentent rapidement; les autres caractéristiques augmentent de façon homogène.\r\n\r\n<b>Comique</>\r\nL'Agilité augmente rapidement; Sagesse et Chance augmentent un peu plus rapidement que la normale.\r\n\r\n<b>Dégourdi</>\r\nL'Agilité augmente rapidement.\r\n\r\n<b>Dur à cuire</>\r\nEndurance et Vitalité augmentent très rapidement; la Chance augmente doucement."
+      },
+      "Txt_Information_TEXT_PERSONALITY_STATUS_4": {
+        "SelfId": "Txt_Information_TEXT_PERSONALITY_STATUS_4",
+        "Text": "<b>Égoïste</>\r\nL'Agilité augmente un peu plus rapidement que la normale.\r\n\r\n<b>Empoté</>\r\nL'Agilité augmente rapidement; Sagesse et Chance augmentent doucement.\r\n\r\n<b>Enfant gâté</>\r\nLa Chance augmente un peu plus rapidement que la normale."
+      },
+      "Txt_Information_TEXT_PERSONALITY_STATUS_5": {
+        "SelfId": "Txt_Information_TEXT_PERSONALITY_STATUS_5",
+        "Text": "<b>Entêté</>\r\nVitalité et Endurance augmentent rapidement; Agilité, Sagesse et Chance augmentent doucement.\r\n\r\n<b>Étourdi</>\r\nL'Agilité augmente rapidement.\r\n\r\n<b>Fainéant</>\r\nL'Endurance augmente rapidement; la Chance augmente un peu plus rapidement que la normale; Vitalité et Sagesse augmentent doucement.\r\n\r\n<b>Fouine</>\r\nL'Endurance augmente un peu plus rapidement que la normale."
+      },
+      "Txt_Information_TEXT_PERSONALITY_STATUS_6": {
+        "SelfId": "Txt_Information_TEXT_PERSONALITY_STATUS_6",
+        "Text": "<b>Génie</>\r\nLa Sagesse augmente très rapidement; L'Agilité augmente rapidement.\r\n\r\n<b>Gentil</>\r\nToutes les caractéristiques augmentent de façon homogène.\r\n\r\n<b>Gourmand</>\r\nLa Vitalité augmente très rapidement; Force et Endurance augmentent un peu plus rapidement que la normale; Sagesse et Agilité augmentent doucement.\r\n\r\n<b>Gros bras</>\r\nLa Force augmente très rapidement; la Sagesse augmente doucement."
+      },
+      "Txt_Information_TEXT_PERSONALITY_STATUS_7": {
+        "SelfId": "Txt_Information_TEXT_PERSONALITY_STATUS_7",
+        "Text": "<b>Honnête</>\r\nToutes les caractéristiques augmentent de façon homogène.\r\n\r\n<b>Idéaliste</>\r\nVitalité et Force augmentent rapidement; la Chance augmente doucement.\r\n\r\n<b>Ignorant</>\r\nLa Chance augmente un peu plus rapidement que la normale; la Sagesse augmente doucement.\r\n\r\n<b>Inconscient</>\r\nAgilité et Endurance augmentent rapidement; la Vitalité augmente doucement.."
+      },
+      "Txt_Information_TEXT_PERSONALITY_STATUS_8": {
+        "SelfId": "Txt_Information_TEXT_PERSONALITY_STATUS_8",
+        "Text": "<b>Indestructible</>\r\nVitalité et Endurance augmentent très rapidement.\r\n\r\n<b>Inébranlable</>\r\nL'Endurance augmente rapidement.\r\n\r\n<b>Intello</>\r\nLa Sagesse augmente rapidement; la Vitalité augmente un peu plus rapidement que la normale."
+      },
+      "Txt_Information_TEXT_PERSONALITY_STATUS_9": {
+        "SelfId": "Txt_Information_TEXT_PERSONALITY_STATUS_9",
+        "Text": "<b>Malin</>\r\nLa Sagesse augmente rapidement; Vitalité et Agilité augmentent un peu plus rapidement que la normale.\r\n\r\n<b>Mec collant</>\r\nSagesse et Chance augmentent un peu plus rapidement que la normale.\r\n\r\n<b>Nonchalant</>\r\nVitalité et Endurance augmentent un peu plus rapidement que la normale; l'Agilité augmente doucement."
+      },
+      "Txt_Information_TEXT_PERSONALITY_STATUS_10": {
+        "SelfId": "Txt_Information_TEXT_PERSONALITY_STATUS_10",
+        "Text": "<b>Optimiste</>\r\nLa Chance augmente très rapidement.\r\n\r\n<b>Parangon</>\r\nLa Force augmente très rapidement; Agilité, Sagesse et Chance augmentent doucement.\r\n\r\n<b>Persévérant</>\r\nLa Force augmente très rapidement; Vitalité et Endurance augmentent un peu plus rapidement que la normale."
+      },
+      "Txt_Information_TEXT_PERSONALITY_STATUS_11": {
+        "SelfId": "Txt_Information_TEXT_PERSONALITY_STATUS_11",
+        "Text": "<b>Pervers caché</>\r\nEndurance et Force augmentent rapidement.\r\n\r\n<b>Peureux</>\r\nSagesse et Chance augmentent rapidement; l'Agilité augmente doucement.\r\n\r\n<b>Pleurnicheur</>\r\nLa Chance augmente rapidement; la Sagesse augmente un peu plus rapidement que la normale; la Vitalité augmente doucement.\r\n\r\n<b>Prétentieux</>\r\nForce, Vitalité et Agilité augmentent un peu plus rapidement que la normale."
+      },
+      "Txt_Information_TEXT_PERSONALITY_STATUS_12": {
+        "SelfId": "Txt_Information_TEXT_PERSONALITY_STATUS_12",
+        "Text": "<b>Rageux</>\r\nAgilité et Endurance augmentent un peu plus rapidement que la normale.\r\n\r\n<b>Rapide</>\r\nL'Agilité augmente très rapidement.\r\n\r\n<b>Rêveur</>\r\nAgilité et Sagesse augmentent un peu plus rapidement que la normale.\r\n\r\n<b>Solitaire</>\r\nVitalité et Endurance augmentent très rapidement; la Chance augmente doucement."
+      },
+      "Txt_Information_TEXT_PERSONALITY_STATUS_13": {
+        "SelfId": "Txt_Information_TEXT_PERSONALITY_STATUS_13",
+        "Text": "<b>Timide</>\r\nL'Endurance augmente rapidement; la Sagesse  augmente un peu plus rapidement que la normale; l'Agilité augmente doucement.\r\n\r\n<b>Tordu</>\r\nLa Chance augmente très rapidement; l'Agilité augmente rapidement; Force et Endurance augmentent doucement.\r\n\r\n<b>Vilain garçon</>\r\nForce et Agilité augmentent rapidement."
+      },
+      "Txt_Information_TEXT_RUN_AWAY": {
+        "SelfId": "Txt_Information_TEXT_RUN_AWAY",
+        "Text": "Fuir les combats est généralement une option possible, en particulier face à des adversaires de haut niveau.\r\n\r\nIl reste cependant le risque de se faire entourer par l'ennemi lors de sa fuite et de devoir subir une série d'attaques sans pouvoir réagir.\r\n\r\nLa probabilité de s'enfuir avec succès augmente à chaque échec. Ne perdez donc pas espoir et réessayez plusieurs fois dans les cas critiques."
+      },
+      "Txt_Information_TEXT_CURSE": {
+        "SelfId": "Txt_Information_TEXT_CURSE",
+        "Text": "Il existe des pièces d'équipement qui frappent toute personne osant les porter, d'une puissante malédiction. Celle-ci peut causer de graves désagréments en combat ou modifier la personnalité de sa victime.\r\n\r\nCes pièces calamiteuses ne peuvent pas être retirées sans passer par une église pour lever la malédiction en premier lieu."
+      },
+      "Txt_Information_TEXT_ACCESSORY_PERSONALITY": {
+        "SelfId": "Txt_Information_TEXT_ACCESSORY_PERSONALITY",
+        "Text": "Certains accessoires ont le pouvoir de changer la personnalité de leur porteur.\r\n\r\nSur les deux emplacements existants pour s'équiper d'accessoires (principal et secondaire), seul l'emplacement principal permet d'activer cette propriété.\r\n\r\nLes accessoires maudits seront cependant influents quelque soit l'emplacement."
+      },
+      "Txt_Information_TEXT_MEDAL": {
+        "SelfId": "Txt_Information_TEXT_MEDAL",
+        "Text": "Au cours de votre aventure, vous tomberez sans doute sur de nombreuses «Mini médailles».\r\n\r\nCes petits trésors peuvent s'échanger contre de plus gros, si vous en rassemblez suffisamment et les apportez à «Monsieur Médaille» qui se terre au fond du puits d'Aliahan."
+      },
+      "Txt_Information_TEXT_INVENTORY": {
+        "SelfId": "Txt_Information_TEXT_INVENTORY",
+        "Text": "Vous avez la possibilité d'utiliser des objets en combat mais vous n'aurez pas accès à ceux enfermés dans le «Sac d'objets» et le «Sac d'équipement».\r\n\r\nSi vous souhaitez pouvoir vous servir d'un objet en combat, vous devez le faire porter à un personnage au préalable."
+      },
+      "Txt_Information_TEXT_SYSTEM": {
+        "SelfId": "Txt_Information_TEXT_SYSTEM",
+        "Text": "Allez dans «Paramètres système» dans le menu «Divers» pour ajuster différents réglages dans le jeu comme l'affichage ou le son."
+      },
+      "Txt_Information_TEXT_KEY": {
+        "SelfId": "Txt_Information_TEXT_KEY",
+        "Text": "Vous remarquerez rapidement que toutes les portes ne vous sont pas ouvertes dans ce monde. Certaines, fermées à clef, vous donneront du fil à retordre.\r\n\r\nIl vous faudra trouver par exemple, la «Clef de voleur» qui vous donnera accès aux portes rouges pour commencer."
+      },
+      "Txt_Information_TEXT_RULER": {
+        "SelfId": "Txt_Information_TEXT_RULER",
+        "Text": "Vous pouvez retourner instantanément dans les villes, châteaux ou donjons déjà visités à l'aide d'une «Aile de chimère» ou du sort «Téléportation».\r\n\r\nAussi incroyable que cela puisse paraître, il est possible de sortir d'environnements fermés sans se cogner la tête au plafond!"
+      },
+      "Txt_Information_TEXT_STATUS_LIST_1": {
+        "SelfId": "Txt_Information_TEXT_STATUS_LIST_1",
+        "Text": "«PV» indique les points de vie. Leur nombre diminue en subissant des dégâts et le personnage tombe au combat quand ils arrivent à zéro.\r\n\r\n«PM» indique les points de magie. Ils sont consommés pour exécuter des sorts et aptitudes qui deviennent inaccessibles  quand les PM sont insuffisants.\r\n\r\n«Attaque» chiffre la capacité offensive d'un personnage en combinant sa Force et l'Attaque des pièces d'équipement. Plus elle est élevée, plus les dégâts physiques donnés sont importants, que ce soit avec une arme ou à mains nues.\r\n\r\n«Défense» chiffre la capacité défensive d'un personnage en combinant sa Vitalité et la Défense des pièces d'équipement. Plus elle est élevée, moins les dégâts physiques subits sont importants."
+      },
+      "Txt_Information_TEXT_STATUS_LIST_2": {
+        "SelfId": "Txt_Information_TEXT_STATUS_LIST_2",
+        "Text": "La «Force» indique la capacité du personnage à infliger des dégâts physiques.\r\n\r\nLa «Vitalité» indique la capacité du personnage à encaisser les dégâts physiques.\r\n\r\nL'«Agilité» indique la capacité du personnage à agir rapidement en combat.\r\n\r\nL'«Endurance» indique la capacité du personnage à gagner des PV en montant de niveau.\r\n\r\nLa «Sagesse» indique la puissance des sorts du personnage et sa capacité à gagner des PM en montant de niveau.\r\n\r\nLa «Chance» indique la résistance aux altérations d'état du personnage. Elle augmente aussi la probabilité d'infliger plus de dégâts avec les attaques physiques et de déclencher des coups critiques."
+      },
+      "Txt_Information_TEXT_WEAK_RESIST": {
+        "SelfId": "Txt_Information_TEXT_WEAK_RESIST",
+        "Text": "Les différents sorts et aptitudes auront plus d'effet selon le type de monstre.\r\n\r\nPar exemple, les attaques de glace sont particulièrement efficaces contres les ennemis de type grenouille.\r\n\r\nLes chiffres indiquant les dégâts des attaques sont affichés en rouge pour celles qui touchent un point faible et en bleu pour celles qui ont peu d'effet."
+      },
+      "Txt_Information_TEXT_CHANGE_STATUS": {
+        "SelfId": "Txt_Information_TEXT_CHANGE_STATUS",
+        "Text": "Différents icones sont affichés en combat pour indiquer les altérations d'état, concernant l'attaque par exemple.\r\n\r\nPour plus de détails, veuillez consulter l'astuce du voyageur «Altérations d'état»."
+      },
+      "Txt_Information_TEXT_BAD_STATUS_LIST": {
+        "SelfId": "Txt_Information_TEXT_BAD_STATUS_LIST",
+        "Text": "<IMG_STATUS>[BAIKIRUTO]: Attaque augmentée.\r\n\r\n<IMG_STATUS>[POWER_DOWN]: Attaque diminuée.\r\n\r\n<IMG_STATUS>[DEFENSE_UP]: Défense augmentée.\r\n\r\n<IMG_STATUS>[DEFENSE_DOWN]: Défense diminuée.\r\n\r\n<IMG_STATUS>[SPEED_UP]: Agilité augmentée.\r\n\r\n<IMG_STATUS>[SPEED_DOWN]: Agilité diminuée.\r\n\r\n<IMG_STATUS>[SPELL_ATTACK_UP]: Sorts d'attaque amplifiés au tour suivant.\r\n\r\n<IMG_STATUS>[SPELL_WEAKNESS]: Résistance aux sorts ennemis affaiblie."
+      },
+      "Txt_Information_TEXT_BAD_STATUS_LIST_2": {
+        "SelfId": "Txt_Information_TEXT_BAD_STATUS_LIST_2",
+        "Text": "<IMG_STATUS>[MAHOKANTA]: Renvoie les sorts ennemis.\r\n\r\n<IMG_STATUS>[STUN]: Immobilisé.\r\n\r\n<IMG_STATUS>[BEAST]: Deux actions possible en un tour.\r\n\r\n<IMG_STATUS>[COUNTER_BREATH]: Renvoie une attaque de souffle.\r\n\r\n<IMG_STATUS>[BUILD_UP_STRENGTH]: Attaque suivant amplifiée.\r\n\r\n<IMG_STATUS>[NO_DAMAGE]: Esquive des attaques ennemies augmentée.\r\n\r\n<IMG_STATUS>[AUTO_HEAL_MP]: Restauration de PM à chaque tour."
+      },
+      "Txt_Information_TEXT_BAD_STATUS_LIST_3": {
+        "SelfId": "Txt_Information_TEXT_BAD_STATUS_LIST_3",
+        "Text": "<b>Poison</> <IMG_STATUS>[POISON] Inflige des dégâts en marchant.\r\n\r\n<b>Paralysie</> <IMG_STATUS>[PARALYZE] Immobilisé en combat pendant un certain temps. Cet état ne s'estompe pas après un combat.\r\n\r\n<b>Sommeil</> <IMG_STATUS>[SLEEP] Impossibilité d'agir pendant son tour. Subir des dégâts peut interrompre le sommeil."
+      },
+      "Txt_Information_TEXT_BAD_STATUS_LIST_4": {
+        "SelfId": "Txt_Information_TEXT_BAD_STATUS_LIST_4",
+        "Text": "<b>Confusion</> <IMG_STATUS>[CONFUSION] Pousse à attaquer ses propres alliés.\r\n\r\n<b>Aveuglement</> <IMG_STATUS>[MANUSA] Fait facilement rater les attaques physiques mais n'a aucune influence sur les sorts ou certaines compétences.\r\n\r\n<b>Blocage de sort</> <IMG_STATUS>[MAHOTON] Impossibilité d'utiliser la magie."
+      },
+      "Txt_Information_TEXT_POISON_PARALYSE": {
+        "SelfId": "Txt_Information_TEXT_POISON_PARALYSE",
+        "Text": "Le poison et la paralysie ne disparaissent pas après un combat. Il est conseillé de traiter ces problèmes de santé rapidement avec l'objet ou le sort adéquat.\r\n\r\nLa paralysie peut également se guérir avec le temps, en marchant après le combat."
+      },
+      "Txt_Information_TEXT_OVERLAP": {
+        "SelfId": "Txt_Information_TEXT_OVERLAP",
+        "Text": "Les effets de certains sorts ou aptitudes influant sur les capacités peuvent s'accumuler et ainsi se voir augmenter à plusieurs reprises."
+      },
+      "Txt_Information_TEXT_BATTLEROAD": {
+        "SelfId": "Txt_Information_TEXT_BATTLEROAD",
+        "Text": "Il existe de grands tournois où des monstres s'affrontent dans des combats intenses, mais amicaux, un peu partout dans le monde dans l'«Arène des monstres».\r\n\r\nEn y participant, vous pourrez sûrement remporter un tas de pièces d'or, mais aussi de nombreux prix mirobolants!\r\n\r\nRenseignez-vous auprès de la réceptionniste de chaque arène pour plus d'informations. Les festivités commencent au rang 1 au tournoi de Romalie!"
+      },
+      "Txt_Information_TEXT_BATTLEROAD_BATTLE": {
+        "SelfId": "Txt_Information_TEXT_BATTLEROAD_BATTLE",
+        "Text": "Dans l'arène des monstres, vos chères bébêtes agissent de leur propre chef en fonction de la «Tactique» que vous leur avez indiquée. Vous ne pouvez pas les diriger tour par tour.\r\n\r\nPensez à bien gérer votre «Tactique» en fonction de la situation pour être sûr de guider vos monstres à la victoire!"
+      },
+      "Txt_Information_TEXT_BREED_MONSTER": {
+        "SelfId": "Txt_Information_TEXT_BREED_MONSTER",
+        "Text": "Vous rencontrerez sur votre chemin au détour des villes et donjons, des créatures amicales que vous pourrez adopter.\r\nIl vous suffit de les approcher et d'entamer le dialogue.\r\n\r\nIl y en a cependant parmi elles qui fuient à la vue des humains.\r\n\r\nPour remédier à cela, vous pouvez utiliser certains objets ou aptitudes pour les approcher, en vous fiant au message affiché lors de leur fuite."
+      },
+      "Txt_Information_TEXT_BREED_MONSTER_2": {
+        "SelfId": "Txt_Information_TEXT_BREED_MONSTER_2",
+        "Text": "Papi monstre vous récompense quand le nombre de monstres recueillis augmente. Pensez à faire un tour à l'arène des monstres pour récupérer vos présents.\r\n\r\nEn outre, plus leur nombre est élevé, plus les monstrologues de votre équipe augmentent leur savoir sur ces créatures et ils peuvent ainsi apprendre de nouvelles aptitudes."
+      },
+      "Txt_Information_TEXT_PUZZLE": {
+        "SelfId": "Txt_Information_TEXT_PUZZLE",
+        "Text": "Le château d'Edina renferme un mystérieux système qui vous demande de déplacer trois rochers sur des dalles spéciales.\r\n\r\nMais veillez à ne pas faire tomber un des rocher dans l'eau, sinon il coulera... à pic.\r\n\r\nVous pouvez toujours réinitialiser la position des rochers en appuyant sur <IMG_BUTTON>[Puzzle_Reset] et retenter votre chance!"
+      },
+      "Txt_Information_TEXT_WIPEOUT": {
+        "SelfId": "Txt_Information_TEXT_WIPEOUT",
+        "Text": "Quand vous reprenez la partie dans le dernier endroit où vous avez effectué une prière après avoir mordu la poussière, vous conservez vos points d'expérience et votre équipement mais vous perdez la moitié des pièces d'or que vous aviez sur vous.\r\n\r\nLes points d'expérience et l'argent reviennent à ce qu'ils étaient en reprenant l'aventure d'une sauvegarde automatique.\r\n\r\nL'argent déposé à la banque n'est pas impacté. Il est donc fort conseillé d'y laisser ses économies le plus fréquemment possible!"
+      },
+      "Txt_Information_TEXT_PICK": {
+        "SelfId": "Txt_Information_TEXT_PICK",
+        "Text": "En observant les grandes étendues et les forêts, vous remarquerez de petits endroits qui brillent au loin.\r\n\r\nJetez-y un œil, votre curiosité sera récompensée par quelques pièces d'or ou divers objets!"
+      },
+      "Txt_Information_TEXT_SECRET_AREA": {
+        "SelfId": "Txt_Information_TEXT_SECRET_AREA",
+        "Text": "Le monde est rempli de mystères, c'est bien connu mais il existe surtout des «Endroits secrets» bien cachés qu'il ne vous reste qu'à découvrir!\r\n\r\nCes petits coins ont tendance à se démarquer du reste du paysage. Gardez l'œil ouvert!\r\n\r\nIls pourraient dissimuler de nombreux trésors et pièces d'or, ou bien plus encore..."
+      },
+      "Txt_Information_TEXT_CLEAR": {
+        "SelfId": "Txt_Information_TEXT_CLEAR",
+        "Text": "Vous avez désormais accès aux Cieux! La visite se fait par le château de la reine Dragon.\r\n\r\nOn dit qu'il y aurait une entité capable d'exaucer les vœux les plus fous, si vous vous sentez d'attaque pour relever le défi!\r\n\r\nMais méfiez-vous, les monstres là-haut sont une autre paire de manches! Il vaut mieux s'y rendre avec un équipement en béton."
+      },
+      "Txt_Information_TEXT_GAMEMODE": {
+        "SelfId": "Txt_Information_TEXT_GAMEMODE",
+        "Text": "Il est possible de choisir entre trois modes de difficulté à tout moment dans «Paramètres de difficulté» via «Paramètres système».\r\n\r\n<b>Quête du dragonnet</>\r\nLes membres de l'équipe ne mordront jamais la poussière quels que soient les dégâts qu'ils subissent.\r\nLa quantité de dégâts infligés aux ennemis est augmentée.\r\nCertains bosses perdent l'auto-régénération de leurs points de vie.\r\n\r\n<b>Quête du dragon</>\r\nPour une expérience de jeu équilibrée.\r\n\r\n<b>Quête draconienne</>\r\nTous les bosses ont des points de vies accrus.\r\nLes ennemis infligent plus de dégâts.\r\nLes bonus de dégâts sur la faiblesse d'un ennemi sont limités.\r\nLes nombres de points d'expériences et de pièces d'or obtenus en combat sont réduits.\r\n(Les valeurs indiquées dans la «Liste des monstres vaincus» ne s'appliquent pas à ce mode de difficulté.)"
+      },
+      "Txt_Information_TEXT_FIELDMENU": {
+        "SelfId": "Txt_Information_TEXT_FIELDMENU",
+        "Text": "Ouvrir le menu principal est très simple: il suffit d'appuyer sur <IMG_BUTTON>[FieldMenu]!"
+      },
+      "Txt_Information_GUIDE_CLOSE": {
+        "SelfId": "Txt_Information_GUIDE_CLOSE",
+        "Text": "Fermer"
+      }
+    }
+  }
+]

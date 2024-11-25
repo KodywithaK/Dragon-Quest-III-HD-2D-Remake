@@ -1,0 +1,1428 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_NPC_Talk_DreamWaterFall",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Talk_DreamWaterFall_DreamSpace_MAIN_0_SCENE_0010_010_1": {
+        "SelfId": "Txt_Talk_DreamWaterFall_DreamSpace_MAIN_0_SCENE_0010_010_1",
+        "Text": "Si tu m'entends, suis le son de ma voix..."
+      },
+      "Txt_Talk_DreamWaterFall_DreamSpace_MAIN_0_SCENE_0010_010_2": {
+        "SelfId": "Txt_Talk_DreamWaterFall_DreamSpace_MAIN_0_SCENE_0010_010_2",
+        "Text": "Oui... Viens par ici..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_1": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_1",
+        "Text": "{HERO}... {HERO}...\r\nEst-ce que tu m'entends, {HERO}...?"
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_5": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_5",
+        "Text": "Je veille sur cet endroit...\r\nUn jour, dans un avenir proche,\r\ntu apparaîtras devant moi en véritable <IfGender_HERO(héros,héroïne,)>..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_6": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_6",
+        "Text": "Avant que ton voyage ne commence,\r\ntu dois d'abord me renseigner...\r\nDis-moi quel type de personne tu es..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_7": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_7",
+        "Text": "Réponds à mes questions\r\nle plus honnêtement possible...\r\nEs-tu <IfGender_HERO(prêt,prête,)> à commencer...?"
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_8": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_8",
+        "Text": "Tu es une âme méfiante...\r\nOu peut-être simplement obstinée et contrariante...\r\nNous le découvrirons bientôt..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_9": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_9",
+        "Text": "Mais pas avant que tu ne sois <IfGender_HERO(prêt,prête,)>...\r\nJe peux attendre... J'ai tout mon temps..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_10": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_10",
+        "Text": "Très bien...\r\nPour commencer,\r\nje dois connaître ton vrai nom...<NO_INPUT>"
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_11": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_11",
+        "Text": "Quel mois es-tu <IfGender_HERO(né,née,)>...?<NO_INPUT>"
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_12": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_12",
+        "Text": "Et quel jour...?<NO_INPUT>"
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_14": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_14",
+        "Text": "Tu es <IfGender_HERO(né,née,)> le {DAY} {MONTH}...\r\nDans ton monde, on dirait donc que tu es {WORD2}...\r\nEst-ce bien exact...?"
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_15": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_15",
+        "Text": "Très bien, <DefSgl_WORD>..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_16": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_16",
+        "Text": "Je vais maintenant te poser une série de questions..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_17": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_17",
+        "Text": "Ne réfléchis pas trop...\r\nRéponds rapidement et sincèrement..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_18": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_18",
+        "Text": "Ainsi, je pourrai découvrir ton véritable esprit..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_19": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_19",
+        "Text": "Bien... Commençons..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_20": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_20",
+        "Text": "Trouves-tu que l'aventure est\r\nplus une corvée qu'un plaisir...?"
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_21": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_21",
+        "Text": "Penses-tu que la vie est ennuyeuse et sans intérêt...?"
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_22": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_22",
+        "Text": "Penses-tu que le soleil qui brille dans le ciel\r\nrègne en maître sur la nature...?"
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_23": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_23",
+        "Text": "Penses-tu que la victoire peut être\r\ngagnée sur le champ de bataille...?"
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_24": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_24",
+        "Text": "Pour partir à l'aventure, vaut-il mieux avoir des armes\r\net une armure efficaces plutôt que de bons compagnons...?"
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_25": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_25",
+        "Text": "Aimes-tu passer des heures à discuter\r\navec les habitants des villes et villages que tu visites...?"
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_26": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_26",
+        "Text": "Si tu trouves une caverne, ton premier réflexe\r\nest-il de te précipiter à l'intérieur\r\npour voir ce qu'elle renferme...?"
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_27": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_27",
+        "Text": "Préfères-tu les sorts et la sorcellerie aux épées et à la sueur...?"
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_28": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_28",
+        "Text": "Te demandes-tu souvent à quel point\r\nil serait magique de pouvoir t'envoler dans le ciel...?"
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_29": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_29",
+        "Text": "T'arrive-t-il d'envier la liberté des oiseaux...?"
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_30": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_30",
+        "Text": "Penses-tu dépenser plus d'argent en armes qu'en armure...?"
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_31": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_31",
+        "Text": "Préfères-tu les auberges bon marché, mais éloignées,\r\naux établissements plus coûteux à proximité...?"
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_32": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_32",
+        "Text": "Rêves-tu souvent...?"
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_33": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_33",
+        "Text": "As-tu déjà rêvé qu'on te pourchassait...?"
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_34": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_34",
+        "Text": "Trouves-tu la compagnie des étrangers ennuyeuse...?"
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_35": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_35",
+        "Text": "Crois-tu les paroles des diseurs de bonne aventure...?"
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_36": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_36",
+        "Text": "Quand tu vois une âme en peine,\r\nton premier réflexe est-il de voler à son secours...?"
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_37": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_37",
+        "Text": "T'arrive-t-il souvent d'avoir du mal\r\nà dormir à force de trop réfléchir...?"
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_38": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_38",
+        "Text": "Si tu pouvais te réincarner,\r\nchoisirais-tu d'être un prince ou une princesse...?"
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_39": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_39",
+        "Text": "As-tu des difficultés à dire non aux gens...?"
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_40": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_40",
+        "Text": "Es-tu capable de faire abstraction d'un échec...?"
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_41": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_41",
+        "Text": "Préfères-tu les montagnes à la mer...?"
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_42": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_42",
+        "Text": "Quand tu n'as rien à faire,\r\nle manque d'activité te rend-il rapidement <IfGender_HERO(fou,folle,)>...?"
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_43": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_43",
+        "Text": "Aimes-tu les activités physiques...?"
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_44": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_44",
+        "Text": "As-tu du mal à tenir tête aux autres,\r\nmême lorsque tu n'es pas du tout\r\nd'accord avec eux...?"
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_45": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_45",
+        "Text": "Trouves-tu les chats plus attachants que les chiens...?"
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_46": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_46",
+        "Text": "Penses-tu que c'est mal d'être <IfGender_HERO(attiré,attirée,)> par la personne\r\nqu'aime un ami ou une amie proche...?"
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_47": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_47",
+        "Text": "As-tu confiance en toi au point de penser\r\nque tu as toujours raison quoi qu'il arrive...?"
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_48": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_48",
+        "Text": "Lorsque tu es <IfGender_HERO(inspiré,inspirée,)>, passes-tu directement à l'action...?"
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_49": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_49",
+        "Text": "Est-ce que le moindre petit problème t'énerve...?"
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_50": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_50",
+        "Text": "Penses-tu que les promesses\r\ndoivent être tenues coûte que coûte...?"
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_51": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_51",
+        "Text": "Crois-tu en une puissance supérieure à l'Homme...?"
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_52": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_52",
+        "Text": "T'arrive-t-il parfois de te perdre dans un monde imaginaire...?"
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_53": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_53",
+        "Text": "Si tu pouvais faire un seul vœu,\r\nsaurais-tu quoi demander sans hésitation...?"
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_54": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_54",
+        "Text": "Lorsque tu commences une tâche,\r\ntout ce qui t'entoure devient-il insignifiant...?"
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_55": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_55",
+        "Text": "Y a-t-il quelque chose dans ta vie\r\nque tu protègerais au détriment de tout le reste...?"
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_56": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_56",
+        "Text": "Ton entourage est-il divers et varié...?"
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_57": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_57",
+        "Text": "Ressasses-tu souvent le passé...?"
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_58": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_58",
+        "Text": "Prêtes-tu beaucoup attention aux ragots des autres personnes...?"
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_59": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_59",
+        "Text": "Penses-tu qu'il y a plus de tristesse\r\nque de joie dans le monde...?"
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_60": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_60",
+        "Text": "Quand tu manges, gardes-tu le meilleur pour la fin...?"
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_61": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_61",
+        "Text": "En te promenant, tu trébuches sur un caillou...\r\nEst-ce ta faute plus que celle du caillou...?"
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_62": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_62",
+        "Text": "Prends-tu soin de ton apparence...?"
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_63": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_63",
+        "Text": "Les compliments te font-ils rougir...?"
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_64": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_64",
+        "Text": "Lorsque quelqu'un te trompe,\r\npenses-tu que la faute vient en partie de ton insouciance...?"
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_65": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_65",
+        "Text": "As-tu déjà souhaité devenir adulte avant l'heure...?"
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_66": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_66",
+        "Text": "Si tu ne peux pas obtenir ce que tu veux,\r\nen as-tu d'autant plus envie...?"
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_67": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_67",
+        "Text": "Penses-tu qu'en s'accrochant à ses rêves\r\nsuffisamment longtemps, ils peuvent se réaliser...?"
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_68": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_68",
+        "Text": "N'essaie pas de me duper...\r\nTu m'as dit plus tôt que\r\ntu n'aimais pas les activités physiques..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_69": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_69",
+        "Text": "Peu importe...\r\nPassons au dernier test de ton caractère..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_70": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_70",
+        "Text": "Intéressant... Vraiment très intéressant...\r\nJe te connais un peu mieux maintenant..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_71": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_010_71",
+        "Text": "Bien, passons au dernier test de ton caractère..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_020_1": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_020_1",
+        "Text": "Je suis celle qui voit tout...\r\nEt j'ai vu quel genre de personne tu étais vraiment..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_020_2": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_020_2",
+        "Text": "Voici ton esprit... ton âme...\r\nL'essence même de ta personnalité..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_020_3": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_020_3",
+        "Text": "Bien, mon enfant...\r\nBientôt, l'aube poindra,\r\net tu iras accueillir ce jour nouveau..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_020_4": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_0010_020_4",
+        "Text": "Je suis celle qui voit tout...\r\nEt j'attends avec impatience le moment\r\noù nous nous rencontrerons enfin..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_1_1": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_1_1",
+        "Text": "{HERO}... J'ai l'impression que tu as l'âme d'<IfGender_HERO(un rêveur,une rêveuse,)>..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_1_2": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_1_2",
+        "Text": "Tu es <IfGender_HERO(gentil,gentille,)> avec tout le monde,\r\net cette gentillesse te vient naturellement,\r\nce qui explique pourquoi tout le monde t'apprécie..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_1_3": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_1_3",
+        "Text": "Cependant, tu as tendance à réprimer tes propres pensées\r\net émotions afin que l'on continue à t'apprécier..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_1_4": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_1_4",
+        "Text": "Tu es également <IfGender_HERO(enclin,encline,)> à rêvasser,\r\nce qui te rend moins dynamique que ce que tu pourrais être..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_1_5": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_1_5",
+        "Text": "Tu dois essayer de te faire davantage confiance...\r\nde trouver ta propre voie..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_2_1": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_2_1",
+        "Text": "{HERO}...\r\nLes autres te trouvent <IfGender_HERO(décontracté,décontractée,)>...\r\ncalme et <IfGender_HERO(sûr de toi,sûre de toi,)>..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_2_2": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_2_2",
+        "Text": "Mais le calme dont tu fais preuve n'est que superficiel...\r\nEt ton cœur brûle d'émotions contradictoires..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_2_3": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_2_3",
+        "Text": "Tu n'arrives pas à développer de relations avec les autres,\r\nmais au fond de toi, tu ne désires que leur compagnie..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_2_4": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_2_4",
+        "Text": "Tu dois essayer de t'ouvrir aux autres...\r\nde partager ce que tu penses et ce que tu ressens..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_2_5": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_2_5",
+        "Text": "Livre-toi, et tu trouveras enfin les amis dont tu as toujours rêvé...\r\nEt tu ne seras plus jamais <IfGender_HERO(seul,seule,)>..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_3_1": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_3_1",
+        "Text": "{HERO}... Je sens en toi une certaine... fatigue..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_3_2": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_3_2",
+        "Text": "Tu es du genre à penser que les choses ne vont jamais dans le bon sens...\r\ndu genre à croire que la mauvaise fortune te poursuit..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_3_3": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_3_3",
+        "Text": "Tu fais peser la responsabilité de ton apathie\r\net de ton manque d'enthousiasme sur les autres..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_3_4": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_3_4",
+        "Text": "Mais, en vérité, c'est ta propre indolence\r\nqui est responsable de tout cela...\r\nTu dois apprendre à être plus <IfGender_HERO(positif,positive,)>, plus <IfGender_HERO(actif,active,)>, plus... <IfGender_HERO(vivant,vivante,)>..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_4_1": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_4_1",
+        "Text": "{HERO}... Tu m'as l'air d'être un peu <IfGender_HERO(prétentieux,prétentieuse,)>, je me trompe...?"
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_4_2": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_4_2",
+        "Text": "Tu as des idéaux extrêmement élevés, ce qui n'est pas en soi une mauvaise chose,\r\nmais tu as du mal à accepter que la réalité ne soit pas toujours à la hauteur..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_4_3": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_4_3",
+        "Text": "Ton plus grand défaut est ta tendance à te comparer constamment aux autres..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_4_4": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_4_4",
+        "Text": "Tu dois apprendre à accepter qui tu es... à profiter de la vie...\r\nà prendre les choses comme elles viennent..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_5_1": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_5_1",
+        "Text": "{HERO}... Tu es ce que l'on pourrait appeler <IfGender_HERO(un bosseur,une bosseuse,)>..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_5_2": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_5_2",
+        "Text": "Même lorsque les temps sont durs...\r\nMême si l'avenir te paraît sombre...\r\nJamais tu ne perds courage..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_5_3": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_5_3",
+        "Text": "Tu te retrousses les manches,\r\net tu continues d'avancer vers ton objectif..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_5_4": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_5_4",
+        "Text": "Il arrive parfois que tu te sentes <IfGender_HERO(frustré,frustrée,)>,\r\nmais l'important, c'est de continuer..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_5_5": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_5_5",
+        "Text": "Cependant... Même si tu gardes un air joyeux et épanoui,\r\nmême si ta ténacité te fait gagner l'admiration de tes pairs, un jour, tu fatigueras..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_5_6": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_5_6",
+        "Text": "Tu dois trouver quelqu'un qui t'accepte comme tu es...\r\nQuelqu'un avec qui la vie te semble plus facile..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_6_1": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_6_1",
+        "Text": "{HERO}... Tu es l'une de ces personnes qui ne lâchent jamais..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_6_2": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_6_2",
+        "Text": "Même si tu sembles relativement capable aux yeux des autres,\r\npersonne ne se rend compte que ta vie est un combat de tous les instants..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_6_3": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_6_3",
+        "Text": "Et bien que tu te voues corps et âme aux choses que tu aimes,\r\ntu refuses d'accorder la moindre seconde à ce que tu n'aimes pas..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_6_4": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_6_4",
+        "Text": "C'est peut-être en apprenant à connaître les choses qui te plaisent moins\r\nque tu trouverais ta véritable force..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_7_1": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_7_1",
+        "Text": "{HERO}... Tu fais partie de ces personnes\r\nqui ne sont jamais heureuses\r\ntant qu'elles n'ont pas tout donné..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_7_2": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_7_2",
+        "Text": "Et tu es capable de supporter les épreuves les plus dures\r\nsans jamais flancher ni perdre espoir..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_7_3": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_7_3",
+        "Text": "Tu préfères résoudre tes problèmes <IfGender_HERO(seul,seule,)>\r\nplutôt que d'embêter les autres..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_7_4": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_7_4",
+        "Text": "Mais cette confiance en soi a donné naissance à une forme d'arrogance,\r\nce qui te conduit à faire quelques erreurs..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_7_5": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_7_5",
+        "Text": "Mais même face aux échecs, tu ne te laisses jamais décontenancer...\r\nEt c'est bien là que réside ta plus grande force..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_7_6": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_7_6",
+        "Text": "Pour toi, l'échec n'est qu'une opportunité de chercher une meilleure solution...\r\nTu es vraiment «<IfGender_HERO(un dur à cuire,une dure à cuire,)>»..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_8_1": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_8_1",
+        "Text": "{HERO}... Il semblerait que tu sois quelque peu égoïste..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_8_2": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_8_2",
+        "Text": "Qu'importe ce que peut dire ton entourage,\r\nta façon de faire est toujours la meilleure,\r\net jamais tu ne suivras une autre voie..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_8_3": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_8_3",
+        "Text": "Tu t'intéresses à beaucoup de choses,\r\nce qui prouve que tu n'as pas l'esprit totalement fermé,\r\nmais ton enthousiasme se refroidit aussi vite qu'il se manifeste..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_8_4": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_8_4",
+        "Text": "Tu es bien souvent un fardeau pour les autres, mais étonnamment,\r\nils semblent malgré tout t'apprécier..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_8_5": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_8_5",
+        "Text": "Égoïste, mais sympathique...\r\nC'est tout toi, ça..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_9_1": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_9_1",
+        "Text": "{HERO}... Tu es quelqu'un que l'on pourrait qualifier de <IfGender_HERO(rageux,rageuse,)>..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_9_2": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_9_2",
+        "Text": "Avec les autres, tu n'es <IfGender_HERO(satisfait,satisfaite,)>\r\nque lorsque tu es au centre de l'attention..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_9_3": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_9_3",
+        "Text": "Tu en es bien <IfGender_HERO(conscient,consciente,)>,\r\net tu fais tout pour le cacher..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_9_4": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_9_4",
+        "Text": "Mais sans t'en rendre compte,\r\ntu as déjà ramené le sujet de conversation à ta propre personne..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_9_5": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_9_5",
+        "Text": "Malgré tout, ta peur viscérale de l'échec a fait de toi quelqu'un de tenace,\r\nce qui compense quelque peu tes petits défauts..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_10_1": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_10_1",
+        "Text": "{HERO}... Tu as l'air d'être une sacrée tête en l'air..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_10_2": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_10_2",
+        "Text": "Tu as de nombreux centres d'intérêt, et tu n'hésites pas à les suivre,\r\nparfois même au détriment de tous les gens qui t'entourent..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_10_3": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_10_3",
+        "Text": "C'est peut-être la raison pour laquelle tu échoues autant de projets que tu en réussis\r\net tu te livres souvent à des introspections complaisantes..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_10_4": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_10_4",
+        "Text": "Mais tes sautes d'humeur te permettent de ne pas t'apitoyer\r\ntrop longtemps sur ton sort, et tu ne tardes jamais\r\nà t'emballer pour quelque chose d'autre..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_10_5": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_10_5",
+        "Text": "Ta plus grande force réside dans ta capacité à toujours regarder de l'avant\r\net à rester <IfGender_HERO(proactif,proactive,)>..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_10_6": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_10_6",
+        "Text": "Mais il faut que tu apprennes à parfois t'arrêter\r\nafin de prendre le temps d'observer ce qui t'entoure..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_11_1": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_11_1",
+        "Text": "{HERO}... Je sens en toi une grande forme d'honnêteté..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_11_2": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_11_2",
+        "Text": "Tu ne le réalises peut-être pas, mais tu es incapable de mentir...\r\nLe moindre mensonge se lit instantanément sur ton visage..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_11_3": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_11_3",
+        "Text": "Et puisque tu es aussi impressionnable qu'honnête,\r\ntu te laisses facilement emporter par les événements..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_11_4": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_11_4",
+        "Text": "Ta peur de l'échec te pousse parfois à une extrême prudence..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_11_5": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_11_5",
+        "Text": "Tu dois essayer de surmonter cette peur,\r\ntu dois apprendre à faire preuve\r\nde plus de fermeté et d'audace..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_11_6": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_11_6",
+        "Text": "Ainsi, tu pourras trouver ce nouveau «toi»\r\nqui n'attend que de se réveiller..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_12_1": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_12_1",
+        "Text": "{HERO}... Pardonne-moi l'expression,\r\nmais tu m'as l'air d'une vraie tête de mule..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_12_2": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_12_2",
+        "Text": "De prime abord, tu sembles très sociable, mais tu n'écoutes pas les autres\r\net ne cherche finalement qu'à leur imposer ton point de vue..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_12_3": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_12_3",
+        "Text": "Tu fais semblant d'aimer ce qui est nouveau, mais en vérité,\r\ntu as peur du changement et es incapable\r\nde changer d'opinion ou de préférence..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_12_4": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_12_4",
+        "Text": "Mais comme <IfGender_HERO(tout bon manipulateur,toute bonne manipulatrice,)>,\r\ntu arrives à cacher cette vérité\r\ndes yeux de ceux qui t'entourent..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_12_5": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_12_5",
+        "Text": "Grâce à tes stratagèmes,\r\npeu de gens savent vraiment\r\nà quel point tu es <IfGender_HERO(têtu,têtue,)>..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_12_6": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_12_6",
+        "Text": "Mais avec l'âge, tu feras de moins en moins d'efforts\r\npour cacher cet aspect de ta personnalité..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_12_7": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_12_7",
+        "Text": "Et au bout du compte, ta famille et tes amis\r\nfiniront par remarquer ta tendance\r\nà toujours camper sur tes positions..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_12_8": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_12_8",
+        "Text": "Mais bon, tout le monde devient têtu avec l'âge,\r\net ce n'est donc peut-être pas si grave que ça..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_13_1": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_13_1",
+        "Text": "{HERO}... Malheureusement, tu m'as l'air d'être <IfGender_HERO(un pleurnicheur,une pleurnicheuse,)>..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_13_2": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_13_2",
+        "Text": "Tu penses peut-être être quelqu'un de réservé et de réfléchi,\r\nmais en vérité, tu es très <IfGender_HERO(sentimental,sentimentale,)>..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_13_3": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_13_3",
+        "Text": "Même si tu fais tout pour paraître <IfGender_HERO(fort et indépendant,forte et indépendante,)>,\r\ntu n'es rien de tout cela..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_13_4": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_13_4",
+        "Text": "Mais ce n'est pas forcément une mauvaise chose...\r\nPersonne en ce monde n'est vraiment indépendant, après tout..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_13_5": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_13_5",
+        "Text": "S'il y a une chose sur laquelle tu dois travailler, c'est ton tempérament,\r\nque tu arrives à peine à mieux contrôler que tes larmes..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_14_1": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_14_1",
+        "Text": "{HERO}... Tu es de <IfGender_HERO(ceux,celles,)> qui croient fermement en l'individualité...\r\nqui sortent volontiers des sentiers battus..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_14_2": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_14_2",
+        "Text": "Tu t'évertues (et réussis) à jouer les <IfGender_HERO(durs,dures,)>,\r\nà être <IfGender_HERO(indépendant,indépendante,)>...\r\nTu sembles toujours garder la tête froide, en somme..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_14_3": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_14_3",
+        "Text": "Même avec tes plus proches amis,\r\ntu préfères garder une certaine distance\r\net rester à l'écart..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_14_4": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_14_4",
+        "Text": "Ça peut te faire sembler difficile d'approche..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_14_5": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_14_5",
+        "Text": "Et c'est pour cela que tu te sens parfois <IfGender_HERO(seul,seule,)>...\r\nMais au fond, tout le monde ne se sent-il pas un peu seul...?"
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_14_6": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_14_6",
+        "Text": "Nul doute que tu finiras par réaliser cela..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_14_7": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_14_7",
+        "Text": "Et lorsque ce jour arrivera,\r\nil n'y aura plus personne pour te réconforter..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_14_8": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_14_8",
+        "Text": "Car tu es solitaire, et que c'est ton destin de marcher <IfGender_HERO(seul,seule,)>..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_15_1": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_15_1",
+        "Text": "{HERO}... Pour être honnête...\r\nTu es immature... <IfGender_HERO(mal élevé,mal élevée,)>...\r\n<IfGender_HERO(un vrai rustre,une vraie rustre,)>..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_15_2": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_15_2",
+        "Text": "Tu ne penses sans doute pas l'être,\r\nmais ce n'est là qu'une preuve\r\nsupplémentaire de ton immaturité..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_15_3": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_15_3",
+        "Text": "Tu es incapable de t'entendre\r\navec les autres, et tu te les mets\r\nsouvent à dos sans même le réaliser..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_15_4": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_15_4",
+        "Text": "Et même si tu prends de l'âge,\r\ntu ne gagneras jamais en sagesse...\r\nL'enfant qui est en toi ne partira jamais..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_15_5": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_15_5",
+        "Text": "Tu n'épargnes jamais les autres,\r\ntout en te ménageant toi-même..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_15_6": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_15_6",
+        "Text": "Peut-être que si tu endurais de véritables épreuves, tu pourrais changer...\r\nMais il y a peu de chances que tu t'y astreignes de ton plein gré..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_15_7": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_15_7",
+        "Text": "Et donc, il ne reste plus qu'à espérer pour toi\r\nque tu traites les personnes qui t'entourent\r\navec un peu plus de considération..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_16_1": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_16_1",
+        "Text": "{HERO}... Tu sembles faire preuve de beaucoup de nonchalance..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_16_2": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_16_2",
+        "Text": "Peu importe ce que tu entreprends, tu le fais toujours à ton propre rythme,\r\nà ta façon, en prenant tout le temps qu'il te semble nécessaire..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_16_3": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_16_3",
+        "Text": "Cependant, tu commences à paniquer dès que\r\nles autres te mettent un peu la pression..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_16_4": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_16_4",
+        "Text": "Et quand tu paniques, tu fais des erreurs..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_16_5": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_16_5",
+        "Text": "Tu dois donc apprendre à rester imperturbable en toute situation..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_16_6": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_16_6",
+        "Text": "Alors seulement tu arriveras à convaincre les autres\r\nque tu n'es pas aussi bête qu'ils le pensent..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_16_7": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_16_7",
+        "Text": "Tu es tout à fait capable de rester calme sous pression...\r\nj'en suis persuadée..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_17_1": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_17_1",
+        "Text": "{HERO}... Tu es vraiment quelqu'un de prétentieux..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_17_2": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_17_2",
+        "Text": "Mais tu n'es pas <IfGender_HERO(un simple prétentieux,une simple prétentieuse,)> de base..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_17_3": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_17_3",
+        "Text": "Tu es le genre de personne prétentieuse qui croit avoir été choisie...\r\nqui se croit unique... spéciale, même..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_17_4": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_17_4",
+        "Text": "C'est pourquoi tu tires énormément de plaisir à être <IfGender_HERO(différent,différente,)>...\r\nà ne pas te comporter comme les autres..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_17_5": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_17_5",
+        "Text": "À tes yeux, rien ne vaut le fait\r\nd'être <IfGender_HERO(qualifié,qualifiée,)> de «bizarre» ou «<IfGender_HERO(original,originale,)>»..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_17_6": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_17_6",
+        "Text": "Et plus ton comportement engendre\r\nce genre de réflexions, plus tu es <IfGender_HERO(ravi,ravie,)>..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_17_7": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_17_7",
+        "Text": "Mais tu dois prendre garde\r\nà ce que tes chevilles n'enflent pas trop\r\navec toute l'attention que tu exiges..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_17_8": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_17_8",
+        "Text": "Car si des chevilles gonflées te paraissent\r\nêtre une autre forme hilarante d'excentricité,\r\nles autres ne le voient pas de cet œil..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_17_9": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_17_9",
+        "Text": "À vrai dire, c'est peut-être ça qui te fera\r\npasser d'<IfGender_HERO(hilarant,hilarante,)> à ridicule à leurs yeux..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_18_1": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_18_1",
+        "Text": "{HERO}... Tu te crois plus <IfGender_HERO(malin,maligne,)> que les autres..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_18_2": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_18_2",
+        "Text": "Tu jauges chaque situation en fonction\r\nde ce que tu y as à perdre et à gagner..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_18_3": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_18_3",
+        "Text": "Et tu jauges les gens de la même façon...\r\nTu ne t'associes qu'avec celles et ceux\r\ndont tu pourras profiter..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_18_4": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_18_4",
+        "Text": "Et c'est pour cette raison\r\nque personne ne t'attire davantage\r\nque les gens riches et célèbres..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_18_5": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_18_5",
+        "Text": "Ou n'importe qui susceptible de t'apporter quelque chose..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_18_6": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_18_6",
+        "Text": "En présence de ces personnes,\r\ntu fais tout ton possible pour leur plaire...\r\nPour t'attirer leurs bonnes grâces..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_18_7": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_18_7",
+        "Text": "Mais évidemment, tu n'y arrives quasiment jamais...\r\nAprès tout, qu'est-ce que ces personnes\r\nont à gagner en te côtoyant..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_18_8": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_18_8",
+        "Text": "Haïssant leurs grands airs, tu refuses de voir la vérité en face\r\net les tiens pour responsables de tes échecs..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_18_9": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_18_9",
+        "Text": "Et lors des rares occasions où l'une\r\nde ces personnes daigne s'associer à toi,\r\nles choses ne se passent pas bien mieux..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_18_10": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_18_10",
+        "Text": "Tu deviens si <IfGender_HERO(épris,éprise,)> d'elle, si <IfGender_HERO(aveuglé,aveuglée,)> par ton admiration,\r\nque tu n'arrives quasiment plus à fonctionner normalement..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_18_11": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_18_11",
+        "Text": "Mais elle, évidemment, n'en a que faire..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_18_12": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_18_12",
+        "Text": "Un jour peut-être, tu comprendras..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_18_13": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_18_13",
+        "Text": "Que ces personnes ne comptent pas...\r\nEt que tes plus anciens et plus proches amis...\r\nCe sont eux qui importent vraiment..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_18_14": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_18_14",
+        "Text": "Tes soi-disant «meilleurs amis» connaissent à peine ton nom\r\net ne bougeraient pas le petit doigt pour t'aider..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_18_15": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_18_15",
+        "Text": "Ce sont tes vrais amis qui n'hésiteront pas à t'aider\r\nau moment où tu en auras vraiment besoin..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_18_16": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_18_16",
+        "Text": "Tant que tu n'auras pas réalisé cela,\r\ntu ne seras jamais vraiment\r\naussi <IfGender_HERO(malin,maligne,)> que tu le crois..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_19_1": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_19_1",
+        "Text": "{HERO}... Tu as une personnalité timorée et effacée...\r\nOui, tu me sembles timide..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_19_2": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_19_2",
+        "Text": "Tu as toujours l'intention de te mettre en avant,\r\nmais tu finis constamment par\r\nte retrouver tout au fond de la salle..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_19_3": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_19_3",
+        "Text": "Et bien que tu n'apprécies guère la façon dont les autres te traitent,\r\ntu ne trouves jamais le courage de le leur dire..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_19_4": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_19_4",
+        "Text": "Évidemment, tu frémis à l'idée\r\nde rencontrer de nouvelles personnes..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_19_5": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_19_5",
+        "Text": "Et c'est pourquoi tu ne fais jamais\r\ntrès grande impression auprès des gens..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_19_6": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_19_6",
+        "Text": "«Oh! Je ne t'avais pas <IfGender_HERO(remarqué,remarquée,)>!»\r\nCombien de fois as-tu déjà entendu ces mots...?"
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_19_7": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_19_7",
+        "Text": "Et lorsque quelqu'un les prononce,\r\ntout ce que tu fais, c'est rougir et rire bêtement..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_19_8": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_19_8",
+        "Text": "Mais ce n'est pas vraiment toi, ça..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_19_9": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_19_9",
+        "Text": "Au plus profond de ton cœur, tout ce dont tu rêves,\r\nc'est de te démarquer des autres..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_19_10": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_19_10",
+        "Text": "Tu t'imagines constamment\r\nen train de réaliser des choses incroyables...\r\nDes choses qui laisseraient les autres sans voix..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_19_11": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_19_11",
+        "Text": "Mais, en <IfGender_HERO(bon timide,bonne timide,)> que tu es,\r\ntu te crois incapable de quoi que ce soit\r\net baisses les bras avant même d'avoir commencé..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_19_12": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_19_12",
+        "Text": "Mais rien de tout cela n'est véritablement hors de ta portée, tu sais...\r\nComme tout dans la vie, tu dois doucement t'y habituer..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_19_13": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_19_13",
+        "Text": "En y allant pas à pas,\r\naucune montagne n'est insurmontable...\r\nEt l'on peut s'acclimater à tout..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_19_14": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_19_14",
+        "Text": "N'essaie pas d'accomplir de grandes choses d'emblée...\r\nCommence plutôt avec de petites choses..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_19_15": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_19_15",
+        "Text": "Un simple murmure peut un jour se transformer en cri...\r\nPar contre, essaie quand même d'éviter\r\nde crier à tout bout de champ..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_19_16": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_19_16",
+        "Text": "Ce serait juste pénible..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_20_1": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_20_1",
+        "Text": "{HERO}... Tu es ce que l'on pourrait appeler <IfGender_HERO(un,une,)> intello..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_20_2": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_20_2",
+        "Text": "Cela ne signifie pas que tu as la grosse tête, évidemment..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_20_3": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_20_3",
+        "Text": "Cela veut dire que tu as un cerveau qui fonctionne bien,\r\nqui te permet de bien réfléchir...\r\nMais peut-être pas tant que ça d'agir..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_20_4": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_20_4",
+        "Text": "Si la chance de ta vie s'offrait à toi,\r\ntu serais bien capable de la laisser passer..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_20_5": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_20_5",
+        "Text": "Mais ce n'est pas nécessairement une raison de s'en vouloir..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_20_6": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_20_6",
+        "Text": "Après tout, nombre de pièges mortels\r\nsont souvent déguisés en «chances de toute une vie»..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_20_7": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_20_7",
+        "Text": "Tu as suffisamment la tête sur les épaules pour le reconnaître,\r\nmais d'autres n'y voient là qu'une simple excuse..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_20_8": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_20_8",
+        "Text": "Tu pourrais peut-être de temps en temps\r\nessayer d'agir sans trop réfléchir..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_20_9": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_20_9",
+        "Text": "Tu risquerais certes de faire quelques erreurs ce faisant,\r\nmais les erreurs sont là pour nous faire grandir..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_20_10": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_20_10",
+        "Text": "Et peut-être que cela te permettrait d'obtenir un meilleur surnom\r\nqu'«intello» par la même occasion..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_20_11": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_20_11",
+        "Text": "À moins que tu n'aies vraiment une tête en forme d'ampoule, évidemment...\r\nAuquel cas je ne peux rien faire toi..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_21_1": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_21_1",
+        "Text": "{HERO}... Tu es encore plus <IfGender_HERO(peureux,peureuse,)> que je ne l'avais imaginé..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_21_2": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_21_2",
+        "Text": "Tu as sans doute du mal à l'accepter,\r\nmais sache que je vois tout..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_21_3": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_21_3",
+        "Text": "Tu as peur d'agir de manière décisive..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_21_4": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_21_4",
+        "Text": "Tu es bien trop <IfGender_HERO(prudent,prudente,)>...\r\nTu es uniquement capable de prendre un risque\r\nsi tu sais qu'un filet de sécurité peut te rattraper..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_21_5": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_21_5",
+        "Text": "Toutefois, ce n'est pas forcément une mauvaise chose..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_21_6": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_21_6",
+        "Text": "Mieux vaut en effet ça que de prendre un risque aux conséquences irréversibles..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_21_7": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_21_7",
+        "Text": "Tu mèneras peut-être une vie banale,\r\nmais celle-ci aura au moins pour mérite\r\nde t'apporter un semblant de sécurité et de satisfaction..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_21_8": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_21_8",
+        "Text": "Si tant est, évidemment, que tu fasses attention à la facilité\r\navec laquelle tu fais confiance aux autres...\r\nGare aux menteurs et aux escrocs..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_21_9": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_21_9",
+        "Text": "Faute de quoi toutes tes précautions ne serviraient à rien...\r\nEt tu finirais par devenir le dindon de la farce..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_21_10": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_21_10",
+        "Text": "Ce qui, j'imagine, ne serait pas du goût de tes proches..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_21_11": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_21_11",
+        "Text": "Alors je t'en prie, prends garde aux charlatans...\r\nEt si tu souhaites impressionner tes amis,\r\névite donc de te faire plumer..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_22_1": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_22_1",
+        "Text": "{HERO}... Je suis désolée de te l'apprendre,\r\nmais tu es <IfGender_HERO(un vrai enfant gâté,une vraie enfant gâtée,)>..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_22_2": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_22_2",
+        "Text": "Tu essaies de paraître <IfGender_HERO(fort,forte,)> et autonome,\r\nmais sans le soutien des autres, tu n'es plus rien..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_22_3": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_22_3",
+        "Text": "Afin de cacher cette faiblesse,\r\ntu te surmènes, et tu en fais trop..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_22_4": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_22_4",
+        "Text": "Mais ce n'est pas forcément une mauvaise chose..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_22_5": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_22_5",
+        "Text": "Car lorsque l'on se surmène, on fait des efforts,\r\net c'est dans l'effort que l'on s'améliore..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_22_6": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_22_6",
+        "Text": "Qui sait... peut-être qu'un jour tu deviendras vraiment autonome...\r\nCe qui ne manquerait pas d'impressionner tes amis..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_22_7": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_22_7",
+        "Text": "Pourquoi, tu demandes?\r\nParce que tes amis non plus ne peuvent pas survivre sans le soutien des autres...\r\nPersonne ne le peut..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_22_8": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_22_8",
+        "Text": "À cet égard, nous sommes tous des enfants gâtés...\r\nPuisses-tu te servir de ce que tu as appris\r\npour mieux te connaître toi et les autres..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_23_1": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_23_1",
+        "Text": "{HERO}... Il est rare de rencontrer quelqu'un qui soit aussi puissant que généreux...\r\nTu es un vrai parangon de vertu..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_23_2": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_23_2",
+        "Text": "Tu as un caractère dominant et enflammé,\r\nmais tu réussis à le contrôler de main de maître..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_23_3": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_23_3",
+        "Text": "Tu fais également preuve de beaucoup d'empathie,\r\net tu arrives toujours à ressentir\r\nce que les autres ressentent..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_23_4": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_23_4",
+        "Text": "Et tu fais toujours passer les craintes et les rêves d'autrui avant les tiens..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_23_5": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_23_5",
+        "Text": "Ton cœur brûle d'une ferveur sans pareille,\r\net tu ne laisses jamais rien ni personne te décourager..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_23_6": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_23_6",
+        "Text": "Grâce à ça, tous ceux que tu rencontres\r\nn'ont aucun mal à te faire confiance..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_23_7": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_23_7",
+        "Text": "Et en retour, tu n'as aucun mal à récompenser cette confiance..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_23_8": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_23_8",
+        "Text": "En résumé, tu es quelqu'un d'exceptionnel..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_23_9": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_23_9",
+        "Text": "Et si cette description ne te correspond pas encore à l'heure actuelle,\r\ncrois-moi, ce sera bientôt le cas..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_23_10": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_23_10",
+        "Text": "Car je te le répète...\r\nTu es quelqu'un d'exceptionnel..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_23_11": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_23_11",
+        "Text": "Et si tu ne te vois pas encore comme <IfGender_HERO(tel,telle,)>...\r\nTu dois aspirer à le devenir..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_24_1": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_24_1",
+        "Text": "{HERO}... Tu es quelqu'un de maladroit...\r\nJ'irai même jusqu'à dire <IfGender_HERO(empoté,empotée,)>..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_24_2": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_24_2",
+        "Text": "Qu'est-ce qui me fait dire ça...?\r\nTu n'as pas terminé la tâche qui t'a été confiée...\r\nTu as laissé des survivants derrière toi..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_24_3": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_24_3",
+        "Text": "Maintenant que tu le sais,\r\ntu retourneras sans doute au village en panique\r\nen trébuchant sur tout ce qui se trouve sur ton chemin..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_24_4": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_24_4",
+        "Text": "Et ce faisant, tu ne feras que démontrer à quel point\r\ntu es <IfGender_HERO(maladroit et inattentif,maladroite et inattentive,)>..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_24_5": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_24_5",
+        "Text": "À moins que tu ne parviennes à agir de manière calme et considérée,\r\njamais tu n'arriveras là où je vis..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_24_6": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_24_6",
+        "Text": "Tu n'es peut-être pas <IfGender_HERO(destiné,destiné,)> à devenir <IfGender_HERO(un héros,une héroïne,)>,\r\nen fin de compte..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_24_7": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_24_7",
+        "Text": "Mais je n'ai pas le choix...\r\nJe n'ai personne d'autre à solliciter..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_24_8": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_24_8",
+        "Text": "Pardonne-moi... Je ne cherche pas à te rabaisser...\r\nJe dois me convaincre de croire en toi..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_24_9": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_24_9",
+        "Text": "Je prie pour que tu ne me déçoives pas..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_25_1": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_25_1",
+        "Text": "{HERO}... Tu m'as l'air d'avoir un côté casse-tout..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_25_2": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_25_2",
+        "Text": "Et bien que tu ne le réalises pas encore, ton côté <IfGender_HERO(mauvais garçon,mauvaise fille,)>\r\nest une source d'inquiétude et d'embarras pour tous tes proches..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_25_3": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_25_3",
+        "Text": "T'es-tu déjà demandé quelle influence tu avais sur les autres...?"
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_25_4": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_25_4",
+        "Text": "Même si tu l'avais fait,\r\nton manque d'empathie t'aurait certainement <IfGender_HERO(poussé,poussée,)>\r\nà croire qu'ils pensaient comme toi..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_25_5": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_25_5",
+        "Text": "Mais ce n'est pas le cas...\r\nTout le monde pense et ressent les choses différemment...\r\nRefuser d'admettre ceci est une grave erreur..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_25_6": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_25_6",
+        "Text": "Malheureusement, tu n'as toujours pas compris cela..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_25_7": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_25_7",
+        "Text": "Tu penses peut-être que le simple fait d'attribuer\r\ntes pensées aux autres relève de l'empathie...?\r\nPas du tout..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_25_8": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_25_8",
+        "Text": "Nul doute que tes amis s'inquiètent pour toi,\r\nmais ils n'en parlent jamais\r\nde peur d'une réaction violente de ta part..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_25_9": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_25_9",
+        "Text": "Continue comme ça, et très bientôt,\r\ntu n'auras plus aucun ami sur qui compter..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_25_10": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_25_10",
+        "Text": "Je t'en prie... Essaie un peu de penser aux autres...\r\nd'être plus <IfGender_HERO(attentionné,attentionnée,)>... plus... aimable..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_25_11": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_25_11",
+        "Text": "Il est peut-être trop tard pour que tu changes...\r\nMais tu dois essayer...\r\nConvaincs au moins une personne d'avoir confiance en toi..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_25_12": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_25_12",
+        "Text": "Et accroche-toi à cette personne de toutes tes forces..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_26_1": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_26_1",
+        "Text": "{HERO}... Tu es ce que l'on pourrait appeler <IfGender_HERO(un,une,)> idéaliste..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_26_2": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_26_2",
+        "Text": "Tu as un sens aigu de la justice, et encore plus aigu du devoir...\r\nTu es également très <IfGender_HERO(attentionné,attentionnée,)> envers les autres..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_26_3": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_26_3",
+        "Text": "J'aimerais pouvoir te dire que ces qualités\r\nte font gagner le respect de\r\ncelles et ceux qui t'entourent..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_26_4": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_26_4",
+        "Text": "Hélas, ce n'est pas le cas...\r\nEt sais-tu pourquoi...?\r\nTu risques d'avoir du mal à croire ma réponse..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_26_5": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_26_5",
+        "Text": "C'est parce que, au fond,\r\nils ne sont pas aussi forts que toi...\r\nLeur cœur n'est pas aussi vaillant..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_26_6": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_26_6",
+        "Text": "Et d'être à tes côtés...\r\nd'être en présence d'une telle force...\r\ncela les frustre, et les contrarie même..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_26_7": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_26_7",
+        "Text": "Peut-être que si tu apprenais\r\nà davantage montrer ton côté vulnérable,\r\nles gens finiraient par mieux se sentir en ta compagnie..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_26_8": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_26_8",
+        "Text": "Toutefois, ta force de caractère n'est pas non plus une mauvaise chose...\r\nAprès tout, ce sont peut-être les autres,\r\net non toi, qui doivent changer..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_27_1": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_27_1",
+        "Text": "<Cap>{HERO}... Tu adores prendre des risques...\r\nTu es du genre casse-cou... <IfGender_HERO(un vrai inconscient,une vraie inconsciente,)>..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_27_2": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_27_2",
+        "Text": "Tu ne penses jamais à l'avenir, tu vis dans le présent...\r\nLorsque tu décides de quelque chose, tu le fais sans tarder..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_27_3": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_27_3",
+        "Text": "Et face à l'échec, tu n'abandonnes jamais...\r\ntu ne te morfonds jamais...\r\nTu te relèves et retentes le coup..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_27_4": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_27_4",
+        "Text": "Mais à cause de ça, tu es susceptible de répéter les mêmes erreurs encore et encore,\r\nsans même t'en rendre compte..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_27_5": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_27_5",
+        "Text": "Ce n'est peut-être pas une mauvaise chose en soi,\r\nmais il arrive parfois qu'une erreur\r\npuisse changer, voire coûter une vie..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_27_6": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_27_6",
+        "Text": "Et si cela devait arriver, tu aurais pour la première fois\r\nune bonne raison de méditer sur ton imprudence...\r\nQuoiqu'il soit trop tard..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_27_7": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_27_7",
+        "Text": "Ainsi, tu n'aurais d'autre choix que\r\nd'assumer la responsabilité de ton échec..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_27_8": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_27_8",
+        "Text": "Et ce faisant, tu deviendrais peut-être\r\nquelqu'un de plus fort, quelqu'un de meilleur...\r\nPeut-être même quelqu'un d'exceptionnel..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_27_9": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_27_9",
+        "Text": "Mais qui sait, peut-être que ta chance ne te faillira jamais...\r\nPeut-être que tu ne feras jamais de telle erreur...\r\nSeul le temps nous le dira..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_28_1": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_28_1",
+        "Text": "{HERO}... N'essaie pas de me cacher ta véritable nature...\r\nJe vois bien <IfGender_HERO(le charmeur invétéré,la charmeuse invétérée,)> qui est en toi..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_28_2": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_28_2",
+        "Text": "Tu peux toujours rougir...\r\nmais tu soupçonnes la vérité depuis longtemps déjà..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_28_3": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_28_3",
+        "Text": "Tu es <IfGender_HERO(conscient,consciente,)> de ta vraie personnalité\r\nqui se cache sous la surface..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_28_4": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_28_4",
+        "Text": "Et même si tu arrives à la dissimuler,\r\nen vérité, tes pulsions romantiques\r\nsont bien plus fortes que celles des autres..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_28_5": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_28_5",
+        "Text": "Et même si tu arrives à la dissimuler,\r\nen vérité, tes pulsions romantiques\r\nsont bien plus fortes que celles des autres..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_28_6": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_28_6",
+        "Text": "Tu te retrouves souvent à rêvasser\r\nde l'objet actuel de ton affection..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_28_7": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_28_7",
+        "Text": "À écrire son nom dans les marges de tes cahiers...\r\nÀ voir son visage dans les nuages..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_28_8": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_28_8",
+        "Text": "Et lorsque tu es dans cet état,\r\nun sourire discret et secret se dessine sur ton visage..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_28_9": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_28_9",
+        "Text": "Tu te demandes parfois s'il est possible que tu sois\r\nun peu plus <IfGender_HERO(obnubilé,obnubilée,)> par l'art de l'amour\r\nque par les gens qui t'entourent..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_28_10": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_28_10",
+        "Text": "Laisse-moi te répondre franchement...\r\nOui, tu l'es..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_28_11": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_28_11",
+        "Text": "Mais tu n'as pas à t'en faire...\r\nC'est une chose tout à fait saine et naturelle..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_29_1": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_29_1",
+        "Text": "{HERO}... Tu es vraiment <IfGender_HERO(un surdoué,une surdouée,)>...\r\nTu es bien plus <IfGender_HERO(intelligent,intelligente,)> que la plupart..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_29_2": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_29_2",
+        "Text": "Ton incroyable vivacité d'esprit\r\nte permet de passer d'un sujet\r\nà l'autre sans aucun problème..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_29_3": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_29_3",
+        "Text": "C'est pourquoi il est si facile et plaisant\r\nde discuter avec toi, tu es une inépuisable\r\nsource d'animation lors des fêtes..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_29_4": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_29_4",
+        "Text": "En contrepartie, cela te pousse à vouloir\r\nplaire à tout le monde à tout prix...\r\nCe qui n'est pas forcément une mauvaise chose..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_29_5": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_29_5",
+        "Text": "Après tout, il est tout à fait naturel de chercher à se faire aimer,\r\net personne ne peut nier le fait que tu rends les gens heureux..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_29_6": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_29_6",
+        "Text": "Non, ce n'est pas là ton plus grand défaut..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_29_7": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_29_7",
+        "Text": "Ton plus grand défaut réside\r\ndans ta pleine conscience de ta propre intelligence,\r\net dans ta manie de remarquer à quel point celle-ci fait défaut aux autres..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_29_8": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_29_8",
+        "Text": "Tu bouillonnes bien souvent d'envie de\r\nrabaisser ou de moquer les gens pour\r\nce que tu perçois comme leurs lacunes..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_29_9": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_29_9",
+        "Text": "Lorsque quelqu'un fait une erreur stupide,\r\ntu dois invariablement te forcer à ne rien dire..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_29_10": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_29_10",
+        "Text": "Mais au plus profond de ton cœur,\r\ntu as secrètement pitié de leur maladresse..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_29_11": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_29_11",
+        "Text": "Bien évidemment, ton dédain muet\r\nne fait que rarement surface..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_29_12": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_29_12",
+        "Text": "C'est parce que tu es suffisamment <IfGender_HERO(intelligent,intelligente,)>\r\npour réaliser les blessures que\r\ncela pourrait provoquer... et le chagrin..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_29_13": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_29_13",
+        "Text": "Et c'est pour cela que tu penses que\r\ncela n'affecte pas tes relations avec les autres..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_29_14": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_29_14",
+        "Text": "Et en surface, il semblerait que tu aies raison..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_29_15": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_29_15",
+        "Text": "Néanmoins, les gens qui t'entourent le remarquent bien..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_29_16": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_29_16",
+        "Text": "Ils remarquent ta tendance à user\r\nde ton intellect comme d'une arme...\r\nTon comportement calculé..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_29_17": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_29_17",
+        "Text": "Mais jamais ils ne te l'avoueraient..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_29_18": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_29_18",
+        "Text": "Car ils sont suffisamment intelligents\r\npour réaliser les blessures que\r\ncela pourrait provoquer... et le chagrin..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_29_19": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_29_19",
+        "Text": "Oui... C'est vrai...\r\nIls sont aussi intelligents que toi en ce sens...\r\nQuasiment tout le monde l'est..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_29_20": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_29_20",
+        "Text": "Tu devrais donc peut-être apprendre\r\nà les traiter avec un peu plus de respect..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_29_21": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_29_21",
+        "Text": "Sans ça, tes boutades risquent vite\r\nde passer d'amusantes à agaçantes..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_30_1": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_30_1",
+        "Text": "{HERO}... Tu es ce personnage classique...\r\nL'irrésistible comique de service..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_30_2": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_30_2",
+        "Text": "Lorsque les autres sont au milieu d'une conversation,\r\ntu passes ton temps à chercher un moyen de les faire rire..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_30_3": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_30_3",
+        "Text": "Lorsque tu vois quelqu'un s'employer sérieusement à une tâche,\r\nton premier réflexe est d'essayer de le ou la divertir avec une blague..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_30_4": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_30_4",
+        "Text": "Tu fais toujours rire les autres, et pour cela,\r\ntu es <IfGender_HERO(apprécié,apprécié,)> de tous..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_30_5": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_30_5",
+        "Text": "Mais regarde au fond de toi... Est-ce vraiment toi?\r\nJe pense que tu connais déjà la réponse..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_30_6": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_30_6",
+        "Text": "Sous tes airs guillerets se cache une personnalité délicate...\r\nFacilement blessée, et prompte à la tristesse..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_30_7": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_30_7",
+        "Text": "Tu te pares donc d'une armure de gaudrioles\r\npar peur d'être <IfGender_HERO(blessé,blessée,)>..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_30_8": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_30_8",
+        "Text": "Quelqu'un qui se sert de l'humour pour détourner\r\nl'attention de sa véritable personne...\r\nVoilà peut-être ce qui te décrit le mieux..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_30_9": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_30_9",
+        "Text": "Mais cela ne peut pas durer éternellement..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_30_10": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_30_10",
+        "Text": "Avec l'âge, tes plaisanteries perdront\r\ninévitablement de leur charme..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_30_11": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_30_11",
+        "Text": "Et un beau jour, plus personne ne rira..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_30_12": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_30_12",
+        "Text": "Lorsque ce jour arrivera,\r\ntu te languiras des années passées..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_30_13": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_30_13",
+        "Text": "Mais il sera trop tard...\r\nC'est pourquoi tu dois apprendre à prendre les choses au sérieux,\r\npour que ta vie entière ne devienne pas une mauvaise blague..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_31_1": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_31_1",
+        "Text": "{HERO}... Tu me sembles être quelqu'un de «bienveillant»..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_31_2": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_31_2",
+        "Text": "Tu fais preuve d'une incroyable considération,\r\nce qui te permet de voir les choses\r\ndu point de vue de n'importe qui..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_31_3": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_31_3",
+        "Text": "Mais c'est à la fois une bénédiction et une malédiction...\r\nEt cela t'empêche parfois de prendre rapidement une décision..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_31_4": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_31_4",
+        "Text": "Après tout, choisir une chose,\r\nc'est en rejeter une autre..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_31_5": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_31_5",
+        "Text": "Et le rejet n'est tout simplement pas dans ta nature..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_31_6": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_31_6",
+        "Text": "Cette tendance déteint également\r\nsur d'autres aspects de ta vie..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_31_7": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_31_7",
+        "Text": "Par exemple, tu as beaucoup de mal\r\nà te séparer de tes affaires..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_31_8": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_31_8",
+        "Text": "Jouets cassés...\r\nVieilles brochures de vacances...\r\nTickets en tous genres..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_31_9": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_31_9",
+        "Text": "Tu es tellement <IfGender_HERO(sentimental,sentimentale,)>\r\nque tu serais capable de garder une\r\nchaussette dépareillée même pas à ta taille..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_31_10": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_31_10",
+        "Text": "Et à cause de cela, tes tiroirs et\r\ntes placards débordent de babioles,\r\nsouvenirs et autres objets inutiles..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_31_11": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_31_11",
+        "Text": "Tout ce bazar témoigne malgré tout de ta grande gentillesse,\r\nmême si d'autres ne le voient pas du même œil..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_31_12": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_31_12",
+        "Text": "Certains pensent que tu es juste trop <IfGender_HERO(fainéant,fainéante,)>\r\npour jeter tout ça..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_31_13": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_31_13",
+        "Text": "Et ils ont peut-être partiellement raison...\r\nTu devrais penser à faire du\r\nrangement de temps en temps..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_32_1": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_32_1",
+        "Text": "{HERO}... Tu es totalement <IfGender_HERO(dépourvu,dépourvue,)> de sentiments ou de tristesse..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_32_2": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_32_2",
+        "Text": "Tu affiches constamment un sourire béat sur ton visage,\r\net tes proches se demandent souvent\r\nà quoi tu penses pour être aussi <IfGender_HERO(heureux,heureuse,)>..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_32_3": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_32_3",
+        "Text": "Mais en vérité, la majeure partie du temps,\r\ntu ne penses à rien du tout..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_32_4": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_32_4",
+        "Text": "Évidemment, personne ne peut totalement\r\néchapper aux problèmes de la vie...\r\nEt tu as parfois toi aussi quelques accrocs..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_32_5": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_32_5",
+        "Text": "Mais tu sais pertinemment\r\nqu'il ne sert à rien de\r\ns'apitoyer sur son sort..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_32_6": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_32_6",
+        "Text": "... Et que d'une manière ou d'une autre,\r\ntout finira un jour par rentrer dans l'ordre..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_32_7": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_32_7",
+        "Text": "Et la plupart du temps, c'est le cas..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_32_8": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_32_8",
+        "Text": "La majorité des soucis se révèlent\r\nn'être que des craintes infondées..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_32_9": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_32_9",
+        "Text": "Et tu vis donc ta vie de la façon qui pourrait bien\r\nêtre la seule forme durable de bonheur..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_32_10": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_32_10",
+        "Text": "Sans souci, l'esprit vide mais tranquille..."
+      },
+      "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_32_11": {
+        "SelfId": "Txt_Talk_DreamWaterFall_Cliff_MAIN_0_VOLUME_32_11",
+        "Text": "Optimiste jusqu'au bout des ongles..."
+      }
+    }
+  }
+]

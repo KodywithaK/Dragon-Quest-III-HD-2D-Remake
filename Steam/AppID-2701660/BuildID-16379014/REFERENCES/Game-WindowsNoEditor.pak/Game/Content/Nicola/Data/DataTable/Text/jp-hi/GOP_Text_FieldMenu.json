@@ -1,0 +1,2272 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_FieldMenu",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_FieldMenu_Common_YES": {
+        "SelfId": "Txt_FieldMenu_Common_YES",
+        "Text": "はい"
+      },
+      "Txt_FieldMenu_Common_NO": {
+        "SelfId": "Txt_FieldMenu_Common_NO",
+        "Text": "いいえ"
+      },
+      "Txt_FieldMenu_Common_PAGE": {
+        "SelfId": "Txt_FieldMenu_Common_PAGE",
+        "Text": "{0}/{1}"
+      },
+      "Txt_FieldMenu_Common_MAXPAGE": {
+        "SelfId": "Txt_FieldMenu_Common_MAXPAGE",
+        "Text": "{0}/{1}"
+      },
+      "Txt_FieldMenu_Common_NUMBER": {
+        "SelfId": "Txt_FieldMenu_Common_NUMBER",
+        "Text": "いくつ？"
+      },
+      "Txt_FieldMenu_Common_BLANK": {
+        "SelfId": "Txt_FieldMenu_Common_BLANK",
+        "Text": "？？？"
+      },
+      "Txt_FieldMenu_Common_USEMP": {
+        "SelfId": "Txt_FieldMenu_Common_USEMP",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Common_RESTMP": {
+        "SelfId": "Txt_FieldMenu_Common_RESTMP",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Common_EVERYONE": {
+        "SelfId": "Txt_FieldMenu_Common_EVERYONE",
+        "Text": "ぜんいん"
+      },
+      "Txt_FieldMenu_Top_ITEM": {
+        "SelfId": "Txt_FieldMenu_Top_ITEM",
+        "Text": "どうぐ"
+      },
+      "Txt_FieldMenu_Top_EQUIP": {
+        "SelfId": "Txt_FieldMenu_Top_EQUIP",
+        "Text": "そうび"
+      },
+      "Txt_FieldMenu_Top_MEMORY": {
+        "SelfId": "Txt_FieldMenu_Top_MEMORY",
+        "Text": "おもいで"
+      },
+      "Txt_FieldMenu_Top_MAGIC": {
+        "SelfId": "Txt_FieldMenu_Top_MAGIC",
+        "Text": "じゅもん"
+      },
+      "Txt_FieldMenu_Top_SKILL": {
+        "SelfId": "Txt_FieldMenu_Top_SKILL",
+        "Text": "とくぎ"
+      },
+      "Txt_FieldMenu_Top_MISC": {
+        "SelfId": "Txt_FieldMenu_Top_MISC",
+        "Text": "さくせん"
+      },
+      "Txt_FieldMenu_Top_MONEY_01": {
+        "SelfId": "Txt_FieldMenu_Top_MONEY_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Top_MONEY_02": {
+        "SelfId": "Txt_FieldMenu_Top_MONEY_02",
+        "Text": "Ｇ"
+      },
+      "Txt_FieldMenu_Top_PUSHKEEP": {
+        "SelfId": "Txt_FieldMenu_Top_PUSHKEEP",
+        "Text": "ながおし"
+      },
+      "Txt_FieldMenu_Item_ITEMBAG": {
+        "SelfId": "Txt_FieldMenu_Item_ITEMBAG",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_FieldMenu_Item_EQUIPBAG": {
+        "SelfId": "Txt_FieldMenu_Item_EQUIPBAG",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_FieldMenu_Item_IMPOTANT": {
+        "SelfId": "Txt_FieldMenu_Item_IMPOTANT",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_FieldMenu_Item_GUIDE": {
+        "SelfId": "Txt_FieldMenu_Item_GUIDE",
+        "Text": "どうぐを　せんたく"
+      },
+      "Txt_FieldMenu_Item_NONE": {
+        "SelfId": "Txt_FieldMenu_Item_NONE",
+        "Text": "なにも　もっていない"
+      },
+      "Txt_FieldMenu_Item_BAGNUMBER": {
+        "SelfId": "Txt_FieldMenu_Item_BAGNUMBER",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Item_COUNTA_01": {
+        "SelfId": "Txt_FieldMenu_Item_COUNTA_01",
+        "Text": "ぜんしょじすう"
+      },
+      "Txt_FieldMenu_Item_COUNTA_03": {
+        "SelfId": "Txt_FieldMenu_Item_COUNTA_03",
+        "Text": "しょじすう"
+      },
+      "Txt_FieldMenu_Item_COUNTA_02": {
+        "SelfId": "Txt_FieldMenu_Item_COUNTA_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Item_COUNTA_04": {
+        "SelfId": "Txt_FieldMenu_Item_COUNTA_04",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Item_SORTMENU": {
+        "SelfId": "Txt_FieldMenu_Item_SORTMENU",
+        "Text": "ならび"
+      },
+      "Txt_FieldMenu_Item_SORT_01": {
+        "SelfId": "Txt_FieldMenu_Item_SORT_01",
+        "Text": "５０おんじゅん"
+      },
+      "Txt_FieldMenu_Item_SORT_02": {
+        "SelfId": "Txt_FieldMenu_Item_SORT_02",
+        "Text": "しゅべつじゅん"
+      },
+      "Txt_FieldMenu_Item_SORT_03": {
+        "SelfId": "Txt_FieldMenu_Item_SORT_03",
+        "Text": "つよさじゅん"
+      },
+      "Txt_FieldMenu_Item_ITEMBAGGUIDE": {
+        "SelfId": "Txt_FieldMenu_Item_ITEMBAGGUIDE",
+        "Text": "どうぐせいり"
+      },
+      "Txt_FieldMenu_Item_PARAMVALUE": {
+        "SelfId": "Txt_FieldMenu_Item_PARAMVALUE",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Item_MEDAL_01": {
+        "SelfId": "Txt_FieldMenu_Item_MEDAL_01",
+        "Text": "{0} まい"
+      },
+      "Txt_FieldMenu_Item_MEDAL_02": {
+        "SelfId": "Txt_FieldMenu_Item_MEDAL_02",
+        "Text": "まい"
+      },
+      "Txt_FieldMenu_Item_MENU_01": {
+        "SelfId": "Txt_FieldMenu_Item_MENU_01",
+        "Text": "つかう"
+      },
+      "Txt_FieldMenu_Item_MENU_02": {
+        "SelfId": "Txt_FieldMenu_Item_MENU_02",
+        "Text": "わたす"
+      },
+      "Txt_FieldMenu_Item_MENU_03": {
+        "SelfId": "Txt_FieldMenu_Item_MENU_03",
+        "Text": "ふくろ"
+      },
+      "Txt_FieldMenu_Item_MENU_04": {
+        "SelfId": "Txt_FieldMenu_Item_MENU_04",
+        "Text": "そうび"
+      },
+      "Txt_FieldMenu_Item_MENU_05": {
+        "SelfId": "Txt_FieldMenu_Item_MENU_05",
+        "Text": "はずす"
+      },
+      "Txt_FieldMenu_Item_MENU_06": {
+        "SelfId": "Txt_FieldMenu_Item_MENU_06",
+        "Text": "みせる"
+      },
+      "Txt_FieldMenu_Item_MENU_06_Mer": {
+        "SelfId": "Txt_FieldMenu_Item_MENU_06_Mer",
+        "Text": "みる"
+      },
+      "Txt_FieldMenu_Item_MENU_07": {
+        "SelfId": "Txt_FieldMenu_Item_MENU_07",
+        "Text": "すてる"
+      },
+      "Txt_FieldMenu_Item_MENU_08": {
+        "SelfId": "Txt_FieldMenu_Item_MENU_08",
+        "Text": "やめる"
+      },
+      "Txt_FieldMenu_Equip_BLANK_01": {
+        "SelfId": "Txt_FieldMenu_Equip_BLANK_01",
+        "Text": "ぶき"
+      },
+      "Txt_FieldMenu_Equip_BLANK_02": {
+        "SelfId": "Txt_FieldMenu_Equip_BLANK_02",
+        "Text": "たて"
+      },
+      "Txt_FieldMenu_Equip_BLANK_03": {
+        "SelfId": "Txt_FieldMenu_Equip_BLANK_03",
+        "Text": "かぶと"
+      },
+      "Txt_FieldMenu_Equip_BLANK_04": {
+        "SelfId": "Txt_FieldMenu_Equip_BLANK_04",
+        "Text": "よろい"
+      },
+      "Txt_FieldMenu_Equip_BLANK_05": {
+        "SelfId": "Txt_FieldMenu_Equip_BLANK_05",
+        "Text": "メインアクセサリー"
+      },
+      "Txt_FieldMenu_Equip_BLANK_06": {
+        "SelfId": "Txt_FieldMenu_Equip_BLANK_06",
+        "Text": "サブアクセサリー"
+      },
+      "Txt_FieldMenu_Equip_EQUIPPED_01": {
+        "SelfId": "Txt_FieldMenu_Equip_EQUIPPED_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Equip_EQUIPPED_02": {
+        "SelfId": "Txt_FieldMenu_Equip_EQUIPPED_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Equip_EQUIPPED_03": {
+        "SelfId": "Txt_FieldMenu_Equip_EQUIPPED_03",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Equip_EQUIPPED_04": {
+        "SelfId": "Txt_FieldMenu_Equip_EQUIPPED_04",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Equip_EQUIPPED_05": {
+        "SelfId": "Txt_FieldMenu_Equip_EQUIPPED_05",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Equip_EQUIPPED_06": {
+        "SelfId": "Txt_FieldMenu_Equip_EQUIPPED_06",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Equip_NoEquip": {
+        "SelfId": "Txt_FieldMenu_Equip_NoEquip",
+        "Text": "そうびできない"
+      },
+      "Txt_FieldMenu_Equip_GUIDE": {
+        "SelfId": "Txt_FieldMenu_Equip_GUIDE",
+        "Text": "そうびをせんたく"
+      },
+      "Txt_FieldMenu_Equip_AutoEpuip": {
+        "SelfId": "Txt_FieldMenu_Equip_AutoEpuip",
+        "Text": "じどうそうび"
+      },
+      "Txt_FieldMenu_Equip_NONE": {
+        "SelfId": "Txt_FieldMenu_Equip_NONE",
+        "Text": "そうびできるものが　ない"
+      },
+      "Txt_FieldMenu_Equip_PARAMBEFORE_01": {
+        "SelfId": "Txt_FieldMenu_Equip_PARAMBEFORE_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Equip_PARAMAFTER_01": {
+        "SelfId": "Txt_FieldMenu_Equip_PARAMAFTER_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Equip_PARAMBEFORE_02": {
+        "SelfId": "Txt_FieldMenu_Equip_PARAMBEFORE_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Equip_PARAMAFTER_02": {
+        "SelfId": "Txt_FieldMenu_Equip_PARAMAFTER_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Equip_Nothing": {
+        "SelfId": "Txt_FieldMenu_Equip_Nothing",
+        "Text": "そうびひんを　もっていない。"
+      },
+      "Txt_FieldMenu_Memory_PLACE": {
+        "SelfId": "Txt_FieldMenu_Memory_PLACE",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Memory_SPEAKER": {
+        "SelfId": "Txt_FieldMenu_Memory_SPEAKER",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Memory_PALECEGUIDE": {
+        "SelfId": "Txt_FieldMenu_Memory_PALECEGUIDE",
+        "Text": "ばしょを　せんたく"
+      },
+      "Txt_FieldMenu_Memory_MEMORYGUIDE": {
+        "SelfId": "Txt_FieldMenu_Memory_MEMORYGUIDE",
+        "Text": "おもいだす　できごと"
+      },
+      "Txt_FieldMenu_Memory_DELETEGUIDE": {
+        "SelfId": "Txt_FieldMenu_Memory_DELETEGUIDE",
+        "Text": "わすれる"
+      },
+      "Txt_FieldMenu_Memory_RESTNUMBER": {
+        "SelfId": "Txt_FieldMenu_Memory_RESTNUMBER",
+        "Text": "おもいでのかず"
+      },
+      "Txt_FieldMenu_Memory_NUMBER": {
+        "SelfId": "Txt_FieldMenu_Memory_NUMBER",
+        "Text": "{0} / {1}"
+      },
+      "Txt_FieldMenu_Memory_STOP": {
+        "SelfId": "Txt_FieldMenu_Memory_STOP",
+        "Text": "やめる"
+      },
+      "Txt_FieldMenu_Magic_NAME": {
+        "SelfId": "Txt_FieldMenu_Magic_NAME",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Magic_GUIDE": {
+        "SelfId": "Txt_FieldMenu_Magic_GUIDE",
+        "Text": "じゅもんを　せんたく"
+      },
+      "Txt_FieldMenu_Magic_NONE": {
+        "SelfId": "Txt_FieldMenu_Magic_NONE",
+        "Text": "じゅもんを　おぼえていない"
+      },
+      "Txt_FieldMenu_Skill_NAME": {
+        "SelfId": "Txt_FieldMenu_Skill_NAME",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Skill_GUIDE": {
+        "SelfId": "Txt_FieldMenu_Skill_GUIDE",
+        "Text": "とくぎを　せんたく"
+      },
+      "Txt_FieldMenu_Skill_NONE": {
+        "SelfId": "Txt_FieldMenu_Skill_NONE",
+        "Text": "とくぎを　おぼえていない"
+      },
+      "Txt_FieldMenu_Misc_MENU_01": {
+        "SelfId": "Txt_FieldMenu_Misc_MENU_01",
+        "Text": "まんたん"
+      },
+      "Txt_FieldMenu_Misc_MENU_02": {
+        "SelfId": "Txt_FieldMenu_Misc_MENU_02",
+        "Text": "ほぼまんたん"
+      },
+      "Txt_FieldMenu_Misc_MENU_03": {
+        "SelfId": "Txt_FieldMenu_Misc_MENU_03",
+        "Text": "つよさ"
+      },
+      "Txt_FieldMenu_Misc_MENU_04": {
+        "SelfId": "Txt_FieldMenu_Misc_MENU_04",
+        "Text": "ならびかえ"
+      },
+      "Txt_FieldMenu_Misc_MENU_05": {
+        "SelfId": "Txt_FieldMenu_Misc_MENU_05",
+        "Text": "さくせんがえ"
+      },
+      "Txt_FieldMenu_Misc_MENU_06": {
+        "SelfId": "Txt_FieldMenu_Misc_MENU_06",
+        "Text": "たびのこころえ"
+      },
+      "Txt_FieldMenu_Misc_MENU_07": {
+        "SelfId": "Txt_FieldMenu_Misc_MENU_07",
+        "Text": "せんれき"
+      },
+      "Txt_FieldMenu_Misc_MENU_08": {
+        "SelfId": "Txt_FieldMenu_Misc_MENU_08",
+        "Text": "システムせってい"
+      },
+      "Txt_FieldMenu_Misc_MENU_11": {
+        "SelfId": "Txt_FieldMenu_Misc_MENU_11",
+        "Text": "プレイかんきょうせってい"
+      },
+      "Txt_FieldMenu_Misc_MENU_09": {
+        "SelfId": "Txt_FieldMenu_Misc_MENU_09",
+        "Text": "ぼうけんをちゅうだんする"
+      },
+      "Txt_FieldMenu_Misc_MENU_10": {
+        "SelfId": "Txt_FieldMenu_Misc_MENU_10",
+        "Text": "タイトルにもどる"
+      },
+      "Txt_FieldMenu_Misc_EXPLAN_01": {
+        "SelfId": "Txt_FieldMenu_Misc_EXPLAN_01",
+        "Text": "もっともこうりつよく\r\nぜんいんのＨＰを\r\nいっぱつまんたん！"
+      },
+      "Txt_FieldMenu_Misc_EXPLAN_02": {
+        "SelfId": "Txt_FieldMenu_Misc_EXPLAN_02",
+        "Text": "もっともこうりつよく\r\nぜんいんのＨＰを\r\nほぼまんたんに！"
+      },
+      "Txt_FieldMenu_Misc_EXPLAN_04": {
+        "SelfId": "Txt_FieldMenu_Misc_EXPLAN_04",
+        "Text": "まものとたたかうときの\r\nならびじゅんを\r\nへんこうします"
+      },
+      "Txt_FieldMenu_Misc_EXPLAN_05": {
+        "SelfId": "Txt_FieldMenu_Misc_EXPLAN_05",
+        "Text": "まものとたたかうときの\r\nさくせんを\r\nへんこうします"
+      },
+      "Txt_FieldMenu_Misc_EXPLAN_06": {
+        "SelfId": "Txt_FieldMenu_Misc_EXPLAN_06",
+        "Text": "ぼうけんにやくだつ\r\nさまざまなじょうほうを\r\nかくにんします"
+      },
+      "Txt_FieldMenu_Misc_EXPLAN_07": {
+        "SelfId": "Txt_FieldMenu_Misc_EXPLAN_07",
+        "Text": "さまざまな\r\nぼうけんのきろくを\r\nかくにんします"
+      },
+      "Txt_FieldMenu_Misc_EXPLAN_08": {
+        "SelfId": "Txt_FieldMenu_Misc_EXPLAN_08",
+        "Text": "さまざまなゲームの\r\nせっていをします"
+      },
+      "Txt_FieldMenu_Misc_EXPLAN_09": {
+        "SelfId": "Txt_FieldMenu_Misc_EXPLAN_09",
+        "Text": "ぼうけんをちゅうだんして\r\nタイトルにもどります"
+      },
+      "Txt_FieldMenu_Misc_EXPLAN_10": {
+        "SelfId": "Txt_FieldMenu_Misc_EXPLAN_10",
+        "Text": "ぼうけんをやめて\r\nタイトルにもどります"
+      },
+      "Txt_FieldMenu_Misc_EXPLAN_11": {
+        "SelfId": "Txt_FieldMenu_Misc_EXPLAN_11",
+        "Text": "プレイかんきょうの\r\nせっていをします\r\n※すべてのぼうけんのしょが　かわります"
+      },
+      "Txt_FieldMenu_Misc_SORTMENU": {
+        "SelfId": "Txt_FieldMenu_Misc_SORTMENU",
+        "Text": "ひょうじ"
+      },
+      "Txt_FieldMenu_Misc_SORT_01": {
+        "SelfId": "Txt_FieldMenu_Misc_SORT_01",
+        "Text": "ステータス"
+      },
+      "Txt_FieldMenu_Misc_SORT_02": {
+        "SelfId": "Txt_FieldMenu_Misc_SORT_02",
+        "Text": "すべて"
+      },
+      "Txt_FieldMenu_Misc_SORT_03": {
+        "SelfId": "Txt_FieldMenu_Misc_SORT_03",
+        "Text": "じゅもん"
+      },
+      "Txt_FieldMenu_Misc_SORT_04": {
+        "SelfId": "Txt_FieldMenu_Misc_SORT_04",
+        "Text": "とくぎ"
+      },
+      "Txt_FieldMenu_Misc_PARAMETER_GUIDE_01": {
+        "SelfId": "Txt_FieldMenu_Misc_PARAMETER_GUIDE_01",
+        "Text": "パラメータ"
+      },
+      "Txt_FieldMenu_Misc_PARAMETER_GUIDE_03": {
+        "SelfId": "Txt_FieldMenu_Misc_PARAMETER_GUIDE_03",
+        "Text": "じゅもん"
+      },
+      "Txt_FieldMenu_Misc_PARAMETER_GUIDE_04": {
+        "SelfId": "Txt_FieldMenu_Misc_PARAMETER_GUIDE_04",
+        "Text": "とくぎ"
+      },
+      "Txt_FieldMenu_Misc_TACTICSGUIDE": {
+        "SelfId": "Txt_FieldMenu_Misc_TACTICSGUIDE",
+        "Text": "だれの　さくせんを　かえる？"
+      },
+      "Txt_FieldMenu_Misc_TACTICSMENU_01": {
+        "SelfId": "Txt_FieldMenu_Misc_TACTICSMENU_01",
+        "Text": "ガンガンいこうぜ"
+      },
+      "Txt_FieldMenu_Misc_TACTICSMENU_02": {
+        "SelfId": "Txt_FieldMenu_Misc_TACTICSMENU_02",
+        "Text": "バッチリがんばれ"
+      },
+      "Txt_FieldMenu_Misc_TACTICSMENU_03": {
+        "SelfId": "Txt_FieldMenu_Misc_TACTICSMENU_03",
+        "Text": "いのちだいじに"
+      },
+      "Txt_FieldMenu_Misc_TACTICSMENU_04": {
+        "SelfId": "Txt_FieldMenu_Misc_TACTICSMENU_04",
+        "Text": "ＭＰつかうな"
+      },
+      "Txt_FieldMenu_Misc_TACTICSMENU_05": {
+        "SelfId": "Txt_FieldMenu_Misc_TACTICSMENU_05",
+        "Text": "おれにまかせろ"
+      },
+      "Txt_FieldMenu_Misc_TACTICSMENU_06": {
+        "SelfId": "Txt_FieldMenu_Misc_TACTICSMENU_06",
+        "Text": "めいれいさせろ"
+      },
+      "Txt_FieldMenu_Misc_TACTICSEXPLAN_01": {
+        "SelfId": "Txt_FieldMenu_Misc_TACTICSEXPLAN_01",
+        "Text": "ＭＰをきにせず\r\nとにかく\r\nガンガンこうげきする"
+      },
+      "Txt_FieldMenu_Misc_TACTICSEXPLAN_02": {
+        "SelfId": "Txt_FieldMenu_Misc_TACTICSEXPLAN_02",
+        "Text": "じゅもんやとくぎをつかい\r\nこうげきもまもりも\r\nバランスよくたたかう"
+      },
+      "Txt_FieldMenu_Misc_TACTICSEXPLAN_03": {
+        "SelfId": "Txt_FieldMenu_Misc_TACTICSEXPLAN_03",
+        "Text": "しなないことを\r\nさいゆうせんにして\r\nかいふくしながらたたかう"
+      },
+      "Txt_FieldMenu_Misc_TACTICSEXPLAN_04": {
+        "SelfId": "Txt_FieldMenu_Misc_TACTICSEXPLAN_04",
+        "Text": "なにがあっても\r\nＭＰをつかわない\r\nちょうせつやくモード"
+      },
+      "Txt_FieldMenu_Misc_TACTICSEXPLAN_05": {
+        "SelfId": "Txt_FieldMenu_Misc_TACTICSEXPLAN_05",
+        "Text": "しゅじんこうを\r\nサポートするために\r\nみんながこうどうする"
+      },
+      "Txt_FieldMenu_Misc_TACTICSEXPLAN_06": {
+        "SelfId": "Txt_FieldMenu_Misc_TACTICSEXPLAN_06",
+        "Text": "さくせんによらず\r\nしゅじんこうのめいれいで\r\nこうどうする"
+      },
+      "Txt_FieldMenu_Misc_TUTORIALGUIDE": {
+        "SelfId": "Txt_FieldMenu_Misc_TUTORIALGUIDE",
+        "Text": "たびのこころえを　せんたく"
+      },
+      "Txt_FieldMenu_Misc_SETTINGMENU_0100": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMENU_0100",
+        "Text": "バトルスピードせってい"
+      },
+      "Txt_FieldMenu_Misc_SETTINGMENU_0200": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMENU_0200",
+        "Text": "がめんせってい"
+      },
+      "Txt_FieldMenu_Misc_SETTINGMENU_0300": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMENU_0300",
+        "Text": "サウンドせってい"
+      },
+      "Txt_FieldMenu_Misc_SETTINGMENU_0350": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMENU_0350",
+        "Text": "ガイドきのうせってい"
+      },
+      "Txt_FieldMenu_Misc_SETTINGMENU_0371": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMENU_0371",
+        "Text": "ゲームモードせってい"
+      },
+      "Txt_FieldMenu_Misc_SETTINGMENU_0375": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMENU_0375",
+        "Text": "べんりきのうせってい"
+      },
+      "Txt_FieldMenu_Misc_SETTINGMENU_0400": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMENU_0400",
+        "Text": "ふりがなせってい"
+      },
+      "Txt_FieldMenu_Misc_SETTINGMENU_0500": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMENU_0500",
+        "Text": "ひらがなせってい"
+      },
+      "Txt_FieldMenu_Misc_SETTINGMENU_0550": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMENU_0550",
+        "Text": "げんごせってい"
+      },
+      "Txt_FieldMenu_Misc_SETTINGMENU_0575": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMENU_0575",
+        "Text": "プレイかんきょうせってい"
+      },
+      "Txt_FieldMenu_Misc_SETTINGMENU_0600": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMENU_0600",
+        "Text": "キーボードせってい"
+      },
+      "Txt_FieldMenu_Misc_SETTINGMENU_0700": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMENU_0700",
+        "Text": "けっていボタンせってい"
+      },
+      "Txt_FieldMenu_Misc_SETTINGMENU_0700_PS5": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMENU_0700_PS5",
+        "Text": "けっていボタンせってい"
+      },
+      "Txt_FieldMenu_Misc_SETTINGMENU_0700_Xbox": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMENU_0700_Xbox",
+        "Text": "けっていボタンせってい"
+      },
+      "Txt_FieldMenu_Misc_SETTINGMENU_0700_PC": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMENU_0700_PC",
+        "Text": "けっていボタンせってい"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0110": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0110",
+        "Text": "つうじょうせんとう"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0115": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0115",
+        "Text": "バトルロード"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0210": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0210",
+        "Text": "あかるさ"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0220": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0220",
+        "Text": "カメラ"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0230": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0230",
+        "Text": "ミニマップ"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0240": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0240",
+        "Text": "ミニマップひょうじはんい"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0250": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0250",
+        "Text": "がめんモード"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0310": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0310",
+        "Text": "ＢＧＭ"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0315": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0315",
+        "Text": "かんきょうおん"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0320": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0320",
+        "Text": "こうかおん"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0330": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0330",
+        "Text": "ボイス"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0340": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0340",
+        "Text": "ボイスじどうおくり"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0360": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0360",
+        "Text": "もくてきガイドテキスト"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0370": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0370",
+        "Text": "もくてきちマーカー"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0371": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0371",
+        "Text": "ゲームモード"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0375": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0375",
+        "Text": "ダッシュ"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0380": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0380",
+        "Text": "メッセージひょうじ"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0560": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0560",
+        "Text": "テキスト"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0570": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0570",
+        "Text": "ボイス"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0575": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0575",
+        "Text": "ウィンドウせってい"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0585": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0585",
+        "Text": "グラフィックせってい"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0595": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0595",
+        "Text": "そうさせってい"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0000": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0000",
+        "Text": "けってい"
+      },
+      "Txt_FieldMenu_Misc_SETTINGDEFAULT": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGDEFAULT",
+        "Text": "しょきせっていにもどす"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEM_0100": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEM_0100",
+        "Text": "ウィンドウモード"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEM_0110": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEM_0110",
+        "Text": "かいぞうど"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEM_0120": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEM_0120",
+        "Text": "フレームレート"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEM_0130": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEM_0130",
+        "Text": "すいちょくどうき"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEM_0200": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEM_0200",
+        "Text": "プリセット"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEM_0210": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEM_0210",
+        "Text": "シャドウクオリティ"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEM_0215": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEM_0215",
+        "Text": "かげびょうがはんい"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEM_0220": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEM_0220",
+        "Text": "アンチエイリアス"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEM_0230": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEM_0230",
+        "Text": "テクスチャクオリティ"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEM_0240": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEM_0240",
+        "Text": "レンダースケール"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEM_0250": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEM_0250",
+        "Text": "ＡＯ"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEM_0260": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEM_0260",
+        "Text": "ひしゃかいしんど"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEM_0300": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEM_0300",
+        "Text": "カーソルをとどめる"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEM_0310": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEM_0310",
+        "Text": "ひアクティブじのおんせい"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEM_0320": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEM_0320",
+        "Text": "ひアクティブじのそうさ"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0110": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0110",
+        "Text": "バトルでの\r\nえんしゅつそくどを\r\nへんこうします"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0115": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0115",
+        "Text": "バトルロードでの\r\nえんしゅつそくどを\r\nへんこうします"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0210": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0210",
+        "Text": "がめんの\r\nあかるさせっていを\r\nへんこうします"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0220": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0220",
+        "Text": "カメラの\r\nきょりをへんこうします"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0230": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0230",
+        "Text": "ミニマップを\r\nひょうじするか\r\nせっていします"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0240": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0240",
+        "Text": "フィールドがめんでの\r\nミニマップでひょうじする\r\nひろさをせっていします"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0250": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0250",
+        "Text": "がめんどうさの\r\nゆうせんどを\r\nせっていします"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0310": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0310",
+        "Text": "ＢＧＭの\r\nボリュームを\r\nせっていします"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0315": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0315",
+        "Text": "かんきょうおんの\r\nボリュームを\r\nせっていします"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0320": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0320",
+        "Text": "こうかおんの\r\nボリュームを\r\nせっていします"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0330": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0330",
+        "Text": "ボイスの\r\nボリュームを\r\nせっていします"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0340": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0340",
+        "Text": "ボイスつきの\r\nメッセージを\r\nじどうでおくります"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0360": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0360",
+        "Text": "テキストガイドを\r\nひょうじするか\r\nせっていします"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0370": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0370",
+        "Text": "もくてきちマーカーを\r\nひょうじするか\r\nせっていします"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0371_01": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0371_01",
+        "Text": "バトルが\r\nとても　かんたんに！\r\nおはなしを\r\nサクサクすすめたいひとや\r\nつよいてきに\r\nこまったら　こちら！"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0371_02": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0371_02",
+        "Text": "オススメの　バランスで\r\nあそぶことができます。\r\nまよったら　コレ！"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0371_03": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0371_03",
+        "Text": "はごたえが\r\nほしいひとむけ！\r\nてきがつよくなり\r\nにゅうしゅするけいけんちや\r\nおかねがへります。"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0375": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0375",
+        "Text": "ダッシュの\r\nそうさほうほうを\r\nきりかえます"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0380": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0380",
+        "Text": "メッセージの\r\nひょうじほうほうを\r\nせっていします"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0560": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0560",
+        "Text": "テキストのげんごを\r\nせっていします\r\n※すべてのぼうけんのしょが　かわります"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0570": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0570",
+        "Text": "ボイスのげんごを\r\nせっていします\r\n※すべてのぼうけんのしょが　かわります"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0575": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0575",
+        "Text": "モニターで\r\nプレイするときの\r\nせっていをへんこうします"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0585": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0585",
+        "Text": "グラフィックに\r\nかんれんする\r\nせっていをへんこうします"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0595": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0595",
+        "Text": "ひアクティブや\r\nマウスきょどうの\r\nせっていをへんこうします"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0100": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0100",
+        "Text": "ウィンドウモードの\r\nへんこうをおこないます"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0110": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0110",
+        "Text": "ゲームプレイの\r\nかいぞうどをへんこうします"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0120": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0120",
+        "Text": "ゲームプレイの\r\nフレームレートをへんこうします"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0130": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0130",
+        "Text": "すいちょくどうきを\r\nゆうこうにするかの\r\nせっていをおこないます"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0200": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0200",
+        "Text": "グラフィックせっていを\r\nまとめてせっていします"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0210": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0210",
+        "Text": "ゲームちゅうの\r\nかげのひんしつを\r\nへんこうします"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0215": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0215",
+        "Text": "ゲームちゅうの\r\nかげのびょうがはんいを\r\nへんこうします"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0220": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0220",
+        "Text": "たかくなるほど\r\nグラフィックを\r\nなめらかにひょうじします"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0230": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0230",
+        "Text": "たかくなるほど\r\nテクスチャのひんしつが\r\nこうじょうします"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0240": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0240",
+        "Text": "たかくなるほど\r\nせっていかいぞうどにあわせて\r\nひょうじをおこないます"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0250": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0250",
+        "Text": "たかくなるほど\r\nひかりや　かげのひょうげんが\r\nこうじょうします"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0260": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0260",
+        "Text": "とおくのけしきのぼかしを\r\nおこなうかどうかの\r\nせっていをおこないます"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0300": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0300",
+        "Text": "マウスカーソルを\r\nウィンドウないに\r\nとどめます"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0310": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0310",
+        "Text": "ひアクティブのときにも\r\nおんせいをさいせいします"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0320": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0320",
+        "Text": "ひアクティブのときにも\r\nパッドそうさが\r\nかのうになります"
+      },
+      "Txt_FieldMenu_Misc_SETTINGSPEED_010": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGSPEED_010",
+        "Text": "ふつう"
+      },
+      "Txt_FieldMenu_Misc_SETTINGSPEED_020": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGSPEED_020",
+        "Text": "はやい"
+      },
+      "Txt_FieldMenu_Misc_SETTINGSPEED_030": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGSPEED_030",
+        "Text": "ちょうはやい"
+      },
+      "Txt_FieldMenu_Misc_SETTINGLIGHT_010": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGLIGHT_010",
+        "Text": "あかるい"
+      },
+      "Txt_FieldMenu_Misc_SETTINGLIGHT_020": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGLIGHT_020",
+        "Text": "くらい"
+      },
+      "Txt_FieldMenu_Misc_SETTINGLIGHT_VALUE": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGLIGHT_VALUE",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Misc_SETTINGMINIMAP_010": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMINIMAP_010",
+        "Text": "せまい"
+      },
+      "Txt_FieldMenu_Misc_SETTINGMINIMAP_020": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMINIMAP_020",
+        "Text": "ひろい"
+      },
+      "Txt_FieldMenu_Misc_SETTINGGAMEMODE_010": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGGAMEMODE_010",
+        "Text": "らくちんプレイ"
+      },
+      "Txt_FieldMenu_Misc_SETTINGGAMEMODE_020": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGGAMEMODE_020",
+        "Text": "バッチリぼうけん"
+      },
+      "Txt_FieldMenu_Misc_SETTINGGAMEMODE_030": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGGAMEMODE_030",
+        "Text": "いばらのみちだぜ"
+      },
+      "Txt_FieldMenu_Misc_SETTINGMODE_PERFORMANCE": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMODE_PERFORMANCE",
+        "Text": "ＦＰＳゆうせん"
+      },
+      "Txt_FieldMenu_Misc_SETTINGMODE_QUALITY": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMODE_QUALITY",
+        "Text": "グラフィックゆうせん"
+      },
+      "Txt_FieldMenu_Misc_SETTINGCAMERA_010": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGCAMERA_010",
+        "Text": "ちかめ"
+      },
+      "Txt_FieldMenu_Misc_SETTINGCAMERA_020": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGCAMERA_020",
+        "Text": "ふつう"
+      },
+      "Txt_FieldMenu_Misc_SETTINGSOUND_010": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGSOUND_010",
+        "Text": "おおきく"
+      },
+      "Txt_FieldMenu_Misc_SETTINGSOUND_020": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGSOUND_020",
+        "Text": "ちいさく"
+      },
+      "Txt_FieldMenu_Misc_SETTINGSOUND_VALUE": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGSOUND_VALUE",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Misc_SETTINGSOUND_VALUENONE": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGSOUND_VALUENONE",
+        "Text": "なし"
+      },
+      "Txt_FieldMenu_Misc_SETTINGDASH_PUSH": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGDASH_PUSH",
+        "Text": "おす"
+      },
+      "Txt_FieldMenu_Misc_SETTINGDASH_TOGGLE": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGDASH_TOGGLE",
+        "Text": "きりかえ"
+      },
+      "Txt_FieldMenu_Misc_SETTINGMESSAGE_NORMAL": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMESSAGE_NORMAL",
+        "Text": "ふつう"
+      },
+      "Txt_FieldMenu_Misc_SETTINGMESSAGE_FAST": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMESSAGE_FAST",
+        "Text": "いっしゅん"
+      },
+      "Txt_FieldMenu_Misc_SETTINGWINDOW_WINDOW": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGWINDOW_WINDOW",
+        "Text": "ウィンドウ"
+      },
+      "Txt_FieldMenu_Misc_SETTINGWINDOW_BORDERLESS": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGWINDOW_BORDERLESS",
+        "Text": "ボーダーレス"
+      },
+      "Txt_FieldMenu_Misc_SETTINGWINDOW_FULL": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGWINDOW_FULL",
+        "Text": "フルスクリーン"
+      },
+      "Txt_FieldMenu_Misc_SETTINGRESOLUTION_010": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGRESOLUTION_010",
+        "Text": "1280×720"
+      },
+      "Txt_FieldMenu_Misc_SETTINGRESOLUTION_020": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGRESOLUTION_020",
+        "Text": "1920×1080"
+      },
+      "Txt_FieldMenu_Misc_SETTINGRESOLUTION_030": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGRESOLUTION_030",
+        "Text": "2560×1440"
+      },
+      "Txt_FieldMenu_Misc_SETTINGRESOLUTION_040": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGRESOLUTION_040",
+        "Text": "3840×2160"
+      },
+      "Txt_FieldMenu_Misc_SETTINGFPS_030": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGFPS_030",
+        "Text": "30ＦＰＳ"
+      },
+      "Txt_FieldMenu_Misc_SETTINGFPS_060": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGFPS_060",
+        "Text": "60ＦＰＳ"
+      },
+      "Txt_FieldMenu_Misc_SETTINGGRAPHICPRESET_CUSTOM": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGGRAPHICPRESET_CUSTOM",
+        "Text": "カスタム"
+      },
+      "Txt_FieldMenu_Misc_SETTINGGRAPHICPRESET_HIGH": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGGRAPHICPRESET_HIGH",
+        "Text": "さいこう"
+      },
+      "Txt_FieldMenu_Misc_SETTINGGRAPHICPRESET_MIDDLE": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGGRAPHICPRESET_MIDDLE",
+        "Text": "ちゅう"
+      },
+      "Txt_FieldMenu_Misc_SETTINGGRAPHICPRESET_LOW": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGGRAPHICPRESET_LOW",
+        "Text": "さいてい"
+      },
+      "Txt_FieldMenu_Misc_SETTINGGRAPHIC_HIGH": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGGRAPHIC_HIGH",
+        "Text": "たかい"
+      },
+      "Txt_FieldMenu_Misc_SETTINGGRAPHIC_LOW": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGGRAPHIC_LOW",
+        "Text": "ひくい"
+      },
+      "Txt_FieldMenu_Misc_SETTINGCOMMON_ON": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGCOMMON_ON",
+        "Text": "オン"
+      },
+      "Txt_FieldMenu_Misc_SETTINGCOMMON_OFF": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGCOMMON_OFF",
+        "Text": "オフ"
+      },
+      "Txt_FieldMenu_Misc_SETTINGTEXTOPTION_ON": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGTEXTOPTION_ON",
+        "Text": "する"
+      },
+      "Txt_FieldMenu_Misc_SETTINGTEXTOPTION_OFF": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGTEXTOPTION_OFF",
+        "Text": "しない"
+      },
+      "Txt_FieldMenu_Misc_SETTING_MEMORYGUIDE": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTING_MEMORYGUIDE",
+        "Text": "しようＧＰＵメモリ"
+      },
+      "Txt_FieldMenu_Misc_SETTING_MEMORY": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTING_MEMORY",
+        "Text": "{0}ＧＢ / {1}ＧＢ"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_00": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_00",
+        "Text": "けってい"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_01": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_01",
+        "Text": "キャンセル"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_02": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_02",
+        "Text": "うえいどう"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_03": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_03",
+        "Text": "みぎいどう"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_04": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_04",
+        "Text": "ひだりいどう"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_05": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_05",
+        "Text": "したいどう"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_06": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_06",
+        "Text": "メニュー"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_07": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_07",
+        "Text": "マップ"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_08": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_08",
+        "Text": "まえページ"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_09": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_09",
+        "Text": "つぎページ"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_10": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_10",
+        "Text": "そうびしゃまえへんこう"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_11": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_11",
+        "Text": "そうびしゃじへんこう"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_12": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_12",
+        "Text": "ダッシュ"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_13": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_13",
+        "Text": "スクロールリセット"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_14": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_14",
+        "Text": "カーソルデフォルト"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_15": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_15",
+        "Text": "カーソルうえいどう"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_16": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_16",
+        "Text": "カーソルみぎいどう"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_17": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_17",
+        "Text": "カーソルひだりいどう"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_18": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_18",
+        "Text": "カーソルしたいどう"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_19": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_19",
+        "Text": "おもいできおく"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_20": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_20",
+        "Text": "UIひょうじきりかえ"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_CANCEL": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_CANCEL",
+        "Text": "けっていせずにこのままもどってしまうと\r\nへんこうしたそうさはとりけされてしまいます\r\nよろしいですか？"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_DUPLICATE_WARNING": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_DUPLICATE_WARNING",
+        "Text": "ちょうふくしているそうさがあるため\r\nけっていできません\r\nいちぶそうさをさいせっていしてください"
+      },
+      "Txt_FieldMenu_Map_NONE": {
+        "SelfId": "Txt_FieldMenu_Map_NONE",
+        "Text": "とびさきを　おぼえていない"
+      },
+      "Txt_FieldMenu_Record_List_010": {
+        "SelfId": "Txt_FieldMenu_Record_List_010",
+        "Text": "とうばつモンスターリスト"
+      },
+      "Txt_FieldMenu_Record_List_020": {
+        "SelfId": "Txt_FieldMenu_Record_List_020",
+        "Text": "しゅうしゅうアイテムリスト"
+      },
+      "Txt_FieldMenu_Record_List_030": {
+        "SelfId": "Txt_FieldMenu_Record_List_030",
+        "Text": "しゅうしゅうそうびリスト"
+      },
+      "Txt_FieldMenu_Record_List_040": {
+        "SelfId": "Txt_FieldMenu_Record_List_040",
+        "Text": "しゅうとくしたじゅもん"
+      },
+      "Txt_FieldMenu_Record_List_050": {
+        "SelfId": "Txt_FieldMenu_Record_List_050",
+        "Text": "しゅうとくしたとくぎ"
+      },
+      "Txt_FieldMenu_Record_Topic_010": {
+        "SelfId": "Txt_FieldMenu_Record_Topic_010",
+        "Text": "ぼうけんしたじかん"
+      },
+      "Txt_FieldMenu_Record_Topic_020": {
+        "SelfId": "Txt_FieldMenu_Record_Topic_020",
+        "Text": "せんとうしょうりかいすう"
+      },
+      "Txt_FieldMenu_Record_Topic_030": {
+        "SelfId": "Txt_FieldMenu_Record_Topic_030",
+        "Text": "とうそうかいすう"
+      },
+      "Txt_FieldMenu_Record_Topic_040": {
+        "SelfId": "Txt_FieldMenu_Record_Topic_040",
+        "Text": "ぜんめつかいすう"
+      },
+      "Txt_FieldMenu_Record_Topic_050": {
+        "SelfId": "Txt_FieldMenu_Record_Topic_050",
+        "Text": "たおしたモンスターのかず"
+      },
+      "Txt_FieldMenu_Record_Topic_060": {
+        "SelfId": "Txt_FieldMenu_Record_Topic_060",
+        "Text": "たおしたモンスターのしゅるい"
+      },
+      "Txt_FieldMenu_Record_Topic_070": {
+        "SelfId": "Txt_FieldMenu_Record_Topic_070",
+        "Text": "あつめたアイテムのしゅるい"
+      },
+      "Txt_FieldMenu_Record_Topic_080": {
+        "SelfId": "Txt_FieldMenu_Record_Topic_080",
+        "Text": "あつめたゴールドのるいけい"
+      },
+      "Txt_FieldMenu_Record_Topic_090": {
+        "SelfId": "Txt_FieldMenu_Record_Topic_090",
+        "Text": "ちいさなメダルかくとくまいすう"
+      },
+      "Txt_FieldMenu_Record_Topic_100": {
+        "SelfId": "Txt_FieldMenu_Record_Topic_100",
+        "Text": "バトルロードさいこうとうたつランク"
+      },
+      "Txt_FieldMenu_Record_Topic_110": {
+        "SelfId": "Txt_FieldMenu_Record_Topic_110",
+        "Text": "バトルロードしょうりかいすう"
+      },
+      "Txt_FieldMenu_Record_Topic_120": {
+        "SelfId": "Txt_FieldMenu_Record_Topic_120",
+        "Text": "あつめたモンスターのかず"
+      },
+      "Txt_FieldMenu_Record_Topic_130": {
+        "SelfId": "Txt_FieldMenu_Record_Topic_130",
+        "Text": "あつめたモンスターのしゅるい"
+      },
+      "Txt_FieldMenu_Record_AllMP": {
+        "SelfId": "Txt_FieldMenu_Record_AllMP",
+        "Text": "すべて"
+      },
+      "Txt_FieldMenu_Record_Param_010": {
+        "SelfId": "Txt_FieldMenu_Record_Param_010",
+        "Text": "{0} じかん　{1} ふん"
+      },
+      "Txt_FieldMenu_Record_Param_020": {
+        "SelfId": "Txt_FieldMenu_Record_Param_020",
+        "Text": "{0} かい"
+      },
+      "Txt_FieldMenu_Record_Param_030": {
+        "SelfId": "Txt_FieldMenu_Record_Param_030",
+        "Text": "{0} かい"
+      },
+      "Txt_FieldMenu_Record_Param_040": {
+        "SelfId": "Txt_FieldMenu_Record_Param_040",
+        "Text": "{0} かい"
+      },
+      "Txt_FieldMenu_Record_Param_050": {
+        "SelfId": "Txt_FieldMenu_Record_Param_050",
+        "Text": "{0} ひき"
+      },
+      "Txt_FieldMenu_Record_Param_060": {
+        "SelfId": "Txt_FieldMenu_Record_Param_060",
+        "Text": "{0} / {1}"
+      },
+      "Txt_FieldMenu_Record_Param_070": {
+        "SelfId": "Txt_FieldMenu_Record_Param_070",
+        "Text": "{0} / {1}"
+      },
+      "Txt_FieldMenu_Record_Param_080": {
+        "SelfId": "Txt_FieldMenu_Record_Param_080",
+        "Text": "{0} Ｇ"
+      },
+      "Txt_FieldMenu_Record_Param_090": {
+        "SelfId": "Txt_FieldMenu_Record_Param_090",
+        "Text": "{0} まい"
+      },
+      "Txt_FieldMenu_Record_Param_100": {
+        "SelfId": "Txt_FieldMenu_Record_Param_100",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Record_Param_110": {
+        "SelfId": "Txt_FieldMenu_Record_Param_110",
+        "Text": "{0} かい"
+      },
+      "Txt_FieldMenu_Record_Param_120": {
+        "SelfId": "Txt_FieldMenu_Record_Param_120",
+        "Text": "{0} ひき"
+      },
+      "Txt_FieldMenu_Record_Param_130": {
+        "SelfId": "Txt_FieldMenu_Record_Param_130",
+        "Text": "{0} しゅ"
+      },
+      "Txt_FieldMenu_Record_MonsterList_Guide": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterList_Guide",
+        "Text": "モンスターを　せんたく"
+      },
+      "Txt_FieldMenu_Record_MonsterList_Sort_010": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterList_Sort_010",
+        "Text": "ＩＤじゅん"
+      },
+      "Txt_FieldMenu_Record_MonsterList_Sort_020": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterList_Sort_020",
+        "Text": "５０おんじゅん"
+      },
+      "Txt_FieldMenu_Record_MonsterList_Topic_010": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterList_Topic_010",
+        "Text": "けいけんち"
+      },
+      "Txt_FieldMenu_Record_MonsterList_Topic_020": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterList_Topic_020",
+        "Text": "ゴールド"
+      },
+      "Txt_FieldMenu_Record_MonsterList_Topic_030": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterList_Topic_030",
+        "Text": "たおしたかず"
+      },
+      "Txt_FieldMenu_Record_MonsterList_Topic_040": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterList_Topic_040",
+        "Text": "おもなせいそくち"
+      },
+      "Txt_FieldMenu_Record_MonsterList_Param_010": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterList_Param_010",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Record_MonsterList_Param_020": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterList_Param_020",
+        "Text": "{0} Ｇ"
+      },
+      "Txt_FieldMenu_Record_MonsterList_Param_030": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterList_Param_030",
+        "Text": "{0} ひき"
+      },
+      "Txt_FieldMenu_Record_MonsterList_Param_040": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterList_Param_040",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Record_MonsterList_Param_041": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterList_Param_041",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Record_MonsterList_Param_999": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterList_Param_999",
+        "Text": "など"
+      },
+      "Txt_FieldMenu_Record_MonsterListDetail_Topic_010": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterListDetail_Topic_010",
+        "Text": "{0} ： {1}"
+      },
+      "Txt_FieldMenu_Record_MonsterListDetail_Topic_020": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterListDetail_Topic_020",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Record_MonsterListDetail_Topic_030": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterListDetail_Topic_030",
+        "Text": "ごうけいけいけんち"
+      },
+      "Txt_FieldMenu_Record_MonsterListDetail_Topic_040": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterListDetail_Topic_040",
+        "Text": "ごうけいゴールド"
+      },
+      "Txt_FieldMenu_Record_MonsterListDetail_Topic_050": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterListDetail_Topic_050",
+        "Text": "かくとくアイテム"
+      },
+      "Txt_FieldMenu_Record_MonsterListDetail_Param_030": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterListDetail_Param_030",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Record_MonsterListDetail_Param_040": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterListDetail_Param_040",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Record_MonsterListDetail_Param_050": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterListDetail_Param_050",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Record_MonsterListDetail_Param_050_Blank": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterListDetail_Param_050_Blank",
+        "Text": "なし"
+      },
+      "Txt_FieldMenu_Record_MonsterListDetail_Topic_060": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterListDetail_Topic_060",
+        "Text": "まめちしき"
+      },
+      "Txt_FieldMenu_Record_MonsterListDetail_Param_060": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterListDetail_Param_060",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Record_MonsterListDetail_ActionGuide": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterListDetail_ActionGuide",
+        "Text": "アクション"
+      },
+      "Txt_FieldMenu_STATUS_HPBar": {
+        "SelfId": "Txt_FieldMenu_STATUS_HPBar",
+        "Text": "ＨＰ"
+      },
+      "Txt_FieldMenu_STATUS_MPBar": {
+        "SelfId": "Txt_FieldMenu_STATUS_MPBar",
+        "Text": "ＭＰ"
+      },
+      "Txt_FieldMenu_STATUS_PARAMNAME_01": {
+        "SelfId": "Txt_FieldMenu_STATUS_PARAMNAME_01",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_FieldMenu_STATUS_PARAMNAME_02": {
+        "SelfId": "Txt_FieldMenu_STATUS_PARAMNAME_02",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_FieldMenu_STATUS_PARAMNAME_03": {
+        "SelfId": "Txt_FieldMenu_STATUS_PARAMNAME_03",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_FieldMenu_STATUS_PARAMNAME_04": {
+        "SelfId": "Txt_FieldMenu_STATUS_PARAMNAME_04",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_FieldMenu_STATUS_PARAMNAME_05": {
+        "SelfId": "Txt_FieldMenu_STATUS_PARAMNAME_05",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_FieldMenu_STATUS_PARAMNAME_06": {
+        "SelfId": "Txt_FieldMenu_STATUS_PARAMNAME_06",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_FieldMenu_STATUS_PARAMNAME_07": {
+        "SelfId": "Txt_FieldMenu_STATUS_PARAMNAME_07",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_FieldMenu_STATUS_PARAMNAME_08": {
+        "SelfId": "Txt_FieldMenu_STATUS_PARAMNAME_08",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_FieldMenu_STATUS_PARAMNAME_09": {
+        "SelfId": "Txt_FieldMenu_STATUS_PARAMNAME_09",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_FieldMenu_STATUS_PARAMNAME_10": {
+        "SelfId": "Txt_FieldMenu_STATUS_PARAMNAME_10",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_FieldMenu_STATUS_PARAMNAME_11": {
+        "SelfId": "Txt_FieldMenu_STATUS_PARAMNAME_11",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_FieldMenu_STATUS_PARAMNAME_12": {
+        "SelfId": "Txt_FieldMenu_STATUS_PARAMNAME_12",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_FieldMenu_STATUS_PARAMNAME_13": {
+        "SelfId": "Txt_FieldMenu_STATUS_PARAMNAME_13",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_FieldMenu_STATUS_PARAMNAME_14": {
+        "SelfId": "Txt_FieldMenu_STATUS_PARAMNAME_14",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_FieldMenu_STATUS_PARAMNAME_15": {
+        "SelfId": "Txt_FieldMenu_STATUS_PARAMNAME_15",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_FieldMenu_STATUS_PARAMNAME_16": {
+        "SelfId": "Txt_FieldMenu_STATUS_PARAMNAME_16",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_FieldMenu_STATUS_PARAMNAME_17": {
+        "SelfId": "Txt_FieldMenu_STATUS_PARAMNAME_17",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_FieldMenu_STATUS_PARAMNAME_18": {
+        "SelfId": "Txt_FieldMenu_STATUS_PARAMNAME_18",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_FieldMenu_STATUS_PARAMNAME_19": {
+        "SelfId": "Txt_FieldMenu_STATUS_PARAMNAME_19",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_FieldMenu_STATUS_Name_01": {
+        "SelfId": "Txt_FieldMenu_STATUS_Name_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_Name_02": {
+        "SelfId": "Txt_FieldMenu_STATUS_Name_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_Name_03": {
+        "SelfId": "Txt_FieldMenu_STATUS_Name_03",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_Name_04": {
+        "SelfId": "Txt_FieldMenu_STATUS_Name_04",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_Level_01": {
+        "SelfId": "Txt_FieldMenu_STATUS_Level_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_Level_02": {
+        "SelfId": "Txt_FieldMenu_STATUS_Level_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_Level_03": {
+        "SelfId": "Txt_FieldMenu_STATUS_Level_03",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_Level_04": {
+        "SelfId": "Txt_FieldMenu_STATUS_Level_04",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_Job_01": {
+        "SelfId": "Txt_FieldMenu_STATUS_Job_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_Job_02": {
+        "SelfId": "Txt_FieldMenu_STATUS_Job_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_Job_03": {
+        "SelfId": "Txt_FieldMenu_STATUS_Job_03",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_Job_04": {
+        "SelfId": "Txt_FieldMenu_STATUS_Job_04",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_HP_01": {
+        "SelfId": "Txt_FieldMenu_STATUS_HP_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_HP_02": {
+        "SelfId": "Txt_FieldMenu_STATUS_HP_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_HP_03": {
+        "SelfId": "Txt_FieldMenu_STATUS_HP_03",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_HP_04": {
+        "SelfId": "Txt_FieldMenu_STATUS_HP_04",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_MP_01": {
+        "SelfId": "Txt_FieldMenu_STATUS_MP_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_MP_02": {
+        "SelfId": "Txt_FieldMenu_STATUS_MP_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_MP_03": {
+        "SelfId": "Txt_FieldMenu_STATUS_MP_03",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_MP_04": {
+        "SelfId": "Txt_FieldMenu_STATUS_MP_04",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_MAXHP_01": {
+        "SelfId": "Txt_FieldMenu_STATUS_MAXHP_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_MAXHP_02": {
+        "SelfId": "Txt_FieldMenu_STATUS_MAXHP_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_MAXHP_03": {
+        "SelfId": "Txt_FieldMenu_STATUS_MAXHP_03",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_MAXHP_04": {
+        "SelfId": "Txt_FieldMenu_STATUS_MAXHP_04",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_MAXMP_01": {
+        "SelfId": "Txt_FieldMenu_STATUS_MAXMP_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_MAXMP_02": {
+        "SelfId": "Txt_FieldMenu_STATUS_MAXMP_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_MAXMP_03": {
+        "SelfId": "Txt_FieldMenu_STATUS_MAXMP_03",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_MAXMP_04": {
+        "SelfId": "Txt_FieldMenu_STATUS_MAXMP_04",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_REMAINHP_01": {
+        "SelfId": "Txt_FieldMenu_STATUS_REMAINHP_01",
+        "Text": "{0} / {1}"
+      },
+      "Txt_FieldMenu_STATUS_REMAINHP_02": {
+        "SelfId": "Txt_FieldMenu_STATUS_REMAINHP_02",
+        "Text": "{0} / {1}"
+      },
+      "Txt_FieldMenu_STATUS_REMAINHP_03": {
+        "SelfId": "Txt_FieldMenu_STATUS_REMAINHP_03",
+        "Text": "{0} / {1}"
+      },
+      "Txt_FieldMenu_STATUS_REMAINHP_04": {
+        "SelfId": "Txt_FieldMenu_STATUS_REMAINHP_04",
+        "Text": "{0} / {1}"
+      },
+      "Txt_FieldMenu_STATUS_REMAINMP_01": {
+        "SelfId": "Txt_FieldMenu_STATUS_REMAINMP_01",
+        "Text": "{0} / {1}"
+      },
+      "Txt_FieldMenu_STATUS_REMAINMP_02": {
+        "SelfId": "Txt_FieldMenu_STATUS_REMAINMP_02",
+        "Text": "{0} / {1}"
+      },
+      "Txt_FieldMenu_STATUS_REMAINMP_03": {
+        "SelfId": "Txt_FieldMenu_STATUS_REMAINMP_03",
+        "Text": "{0} / {1}"
+      },
+      "Txt_FieldMenu_STATUS_REMAINMP_04": {
+        "SelfId": "Txt_FieldMenu_STATUS_REMAINMP_04",
+        "Text": "{0} / {1}"
+      },
+      "Txt_FieldMenu_STATUS_POW_01": {
+        "SelfId": "Txt_FieldMenu_STATUS_POW_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_POW_02": {
+        "SelfId": "Txt_FieldMenu_STATUS_POW_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_POW_03": {
+        "SelfId": "Txt_FieldMenu_STATUS_POW_03",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_POW_04": {
+        "SelfId": "Txt_FieldMenu_STATUS_POW_04",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_GAR_01": {
+        "SelfId": "Txt_FieldMenu_STATUS_GAR_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_GAR_02": {
+        "SelfId": "Txt_FieldMenu_STATUS_GAR_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_GAR_03": {
+        "SelfId": "Txt_FieldMenu_STATUS_GAR_03",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_GAR_04": {
+        "SelfId": "Txt_FieldMenu_STATUS_GAR_04",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_ATK_01": {
+        "SelfId": "Txt_FieldMenu_STATUS_ATK_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_ATK_02": {
+        "SelfId": "Txt_FieldMenu_STATUS_ATK_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_ATK_03": {
+        "SelfId": "Txt_FieldMenu_STATUS_ATK_03",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_ATK_04": {
+        "SelfId": "Txt_FieldMenu_STATUS_ATK_04",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_DEF_01": {
+        "SelfId": "Txt_FieldMenu_STATUS_DEF_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_DEF_02": {
+        "SelfId": "Txt_FieldMenu_STATUS_DEF_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_DEF_03": {
+        "SelfId": "Txt_FieldMenu_STATUS_DEF_03",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_DEF_04": {
+        "SelfId": "Txt_FieldMenu_STATUS_DEF_04",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_SPD_01": {
+        "SelfId": "Txt_FieldMenu_STATUS_SPD_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_SPD_02": {
+        "SelfId": "Txt_FieldMenu_STATUS_SPD_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_SPD_03": {
+        "SelfId": "Txt_FieldMenu_STATUS_SPD_03",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_SPD_04": {
+        "SelfId": "Txt_FieldMenu_STATUS_SPD_04",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_STA_01": {
+        "SelfId": "Txt_FieldMenu_STATUS_STA_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_STA_02": {
+        "SelfId": "Txt_FieldMenu_STATUS_STA_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_STA_03": {
+        "SelfId": "Txt_FieldMenu_STATUS_STA_03",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_STA_04": {
+        "SelfId": "Txt_FieldMenu_STATUS_STA_04",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_INT_01": {
+        "SelfId": "Txt_FieldMenu_STATUS_INT_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_INT_02": {
+        "SelfId": "Txt_FieldMenu_STATUS_INT_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_INT_03": {
+        "SelfId": "Txt_FieldMenu_STATUS_INT_03",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_INT_04": {
+        "SelfId": "Txt_FieldMenu_STATUS_INT_04",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_LUC_01": {
+        "SelfId": "Txt_FieldMenu_STATUS_LUC_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_LUC_02": {
+        "SelfId": "Txt_FieldMenu_STATUS_LUC_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_LUC_03": {
+        "SelfId": "Txt_FieldMenu_STATUS_LUC_03",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_LUC_04": {
+        "SelfId": "Txt_FieldMenu_STATUS_LUC_04",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_EXP_01": {
+        "SelfId": "Txt_FieldMenu_STATUS_EXP_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_EXP_02": {
+        "SelfId": "Txt_FieldMenu_STATUS_EXP_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_EXP_03": {
+        "SelfId": "Txt_FieldMenu_STATUS_EXP_03",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_EXP_04": {
+        "SelfId": "Txt_FieldMenu_STATUS_EXP_04",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_NEXTLV_01": {
+        "SelfId": "Txt_FieldMenu_STATUS_NEXTLV_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_NEXTLV_02": {
+        "SelfId": "Txt_FieldMenu_STATUS_NEXTLV_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_NEXTLV_03": {
+        "SelfId": "Txt_FieldMenu_STATUS_NEXTLV_03",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_NEXTLV_04": {
+        "SelfId": "Txt_FieldMenu_STATUS_NEXTLV_04",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_EXP_BLANK": {
+        "SelfId": "Txt_FieldMenu_STATUS_EXP_BLANK",
+        "Text": "―――"
+      },
+      "Txt_FieldMenu_Message_Heal": {
+        "SelfId": "Txt_FieldMenu_Message_Heal",
+        "Text": "{WORD}の　キズが　かいふくした！"
+      },
+      "Txt_FieldMenu_Message_AllHeal": {
+        "SelfId": "Txt_FieldMenu_Message_AllHeal",
+        "Text": "{LEADER}たちの　キズが　かいふくした！"
+      },
+      "Txt_FieldMenu_Message_ConfirmSorting": {
+        "SelfId": "Txt_FieldMenu_Message_ConfirmSorting",
+        "Text": "そうびひんと　いちぶのどうぐいがいを\r\nふくろに　いれます。\r\nよろしいですか？"
+      },
+      "Txt_FieldMenu_Message_FinishSorting": {
+        "SelfId": "Txt_FieldMenu_Message_FinishSorting",
+        "Text": "そうびひんと　いちぶのどうぐいがいを\r\nふくろに　いれました。"
+      },
+      "Txt_FieldMenu_Message_NoneSorting": {
+        "SelfId": "Txt_FieldMenu_Message_NoneSorting",
+        "Text": "しかし　ふくろは　いっぱいだった。"
+      },
+      "Txt_FieldMenu_Message_ItemUseDeath": {
+        "SelfId": "Txt_FieldMenu_Message_ItemUseDeath",
+        "Text": "{ACTOR}は　しんでいるので\r\n{I_NAME}を　つかえない。"
+      },
+      "Txt_FieldMenu_Message_ItemUseParalysis": {
+        "SelfId": "Txt_FieldMenu_Message_ItemUseParalysis",
+        "Text": "{ACTOR}は　からだがしびれて\r\n{I_NAME}を　つかえない。"
+      },
+      "Txt_FieldMenu_Message_ItemUseConfus": {
+        "SelfId": "Txt_FieldMenu_Message_ItemUseConfus",
+        "Text": "{ACTOR}は　こんらんしていて\r\n{I_NAME}を　つかえない。"
+      },
+      "Txt_FieldMenu_Message_ItemCannotUse": {
+        "SelfId": "Txt_FieldMenu_Message_ItemCannotUse",
+        "Text": "しかし　だれも\r\n{I_NAME}をつかえなかった。"
+      },
+      "Txt_FieldMenu_Message_ItemGetBagMax": {
+        "SelfId": "Txt_FieldMenu_Message_ItemGetBagMax",
+        "Text": "これいじょう　{I_NAME}は　\r\n{BAG}にはいらない。"
+      },
+      "Txt_FieldMenu_Message_NoItem": {
+        "SelfId": "Txt_FieldMenu_Message_NoItem",
+        "Text": "{ACTOR}は　どうぐを　もっていない。"
+      },
+      "Txt_FieldMenu_Message_EmptyBag": {
+        "SelfId": "Txt_FieldMenu_Message_EmptyBag",
+        "Text": "ふくろのなかには　なにもはいっていない！"
+      },
+      "Txt_FieldMenu_Message_Mantan_Fail": {
+        "SelfId": "Txt_FieldMenu_Message_Mantan_Fail",
+        "Text": "しかし　いまは　まんたんなので\r\nなにも　おこらなかった！"
+      },
+      "Txt_FieldMenu_Message_AlmostMantan_Fail": {
+        "SelfId": "Txt_FieldMenu_Message_AlmostMantan_Fail",
+        "Text": "しかし　いまは　ほぼまんたんなので\r\nなにも　おこらなかった！"
+      },
+      "Txt_FieldMenu_Message_Mantan_FailMagic": {
+        "SelfId": "Txt_FieldMenu_Message_Mantan_FailMagic",
+        "Text": "しかし　じゅもんが　となえられなかった。"
+      },
+      "Txt_FieldMenu_Message_HandoverSelect": {
+        "SelfId": "Txt_FieldMenu_Message_HandoverSelect",
+        "Text": "{I_NAME}を\r\nだれに　わたしますか？<NO_INPUT>"
+      },
+      "Txt_FieldMenu_Message_HandoverResult_01": {
+        "SelfId": "Txt_FieldMenu_Message_HandoverResult_01",
+        "Text": "{ACTOR}は　{I_NAME}を\r\n{TARGET}に　わたした。"
+      },
+      "Txt_FieldMenu_Message_HandoverResult_02": {
+        "SelfId": "Txt_FieldMenu_Message_HandoverResult_02",
+        "Text": "{ACTOR}は　{I_NAME}を\r\n{TARGET}のもちものに　いれた。"
+      },
+      "Txt_FieldMenu_Message_HandoverResult_03": {
+        "SelfId": "Txt_FieldMenu_Message_HandoverResult_03",
+        "Text": "{ACTOR}は　{I_NAME}を\r\nもちかえた。"
+      },
+      "Txt_FieldMenu_Message_HandoverResult_04": {
+        "SelfId": "Txt_FieldMenu_Message_HandoverResult_04",
+        "Text": "{TARGET}は　{I_NAME}を\r\n{ACTOR}のもちものから　とりだした。"
+      },
+      "Txt_FieldMenu_Message_HandoverResult_05": {
+        "SelfId": "Txt_FieldMenu_Message_HandoverResult_05",
+        "Text": "{LEADER}は　{I_NAME}を\r\n{ACTOR}のもちものから　とりだし\r\n{TARGET}のもちものに　いれた。"
+      },
+      "Txt_FieldMenu_Message_HandoverResult_06": {
+        "SelfId": "Txt_FieldMenu_Message_HandoverResult_06",
+        "Text": "{LEADER}は　{I_NAME}を\r\n{ACTOR}のもちものから　とりだし\r\n{ACTOR}のもちものに　いれた。"
+      },
+      "Txt_FieldMenu_Message_HandoverResult_07": {
+        "SelfId": "Txt_FieldMenu_Message_HandoverResult_07",
+        "Text": "{ACTOR}の　{I_NAME}と\r\n{TARGET}の　{I_NAME2}を\r\nこうかんした。"
+      },
+      "Txt_FieldMenu_Message_HandoverResult_08": {
+        "SelfId": "Txt_FieldMenu_Message_HandoverResult_08",
+        "Text": "{LEADER}は　{ACTOR}の\r\n{I_NAME}と　{TARGET}の\r\n{I_NAME2}を　こうかんした。"
+      },
+      "Txt_FieldMenu_Message_HandoverResult_09": {
+        "SelfId": "Txt_FieldMenu_Message_HandoverResult_09",
+        "Text": "{ACTOR}は　{I_NAME}を\r\n{BAG}に　いれた。"
+      },
+      "Txt_FieldMenu_Message_HandoverResult_10": {
+        "SelfId": "Txt_FieldMenu_Message_HandoverResult_10",
+        "Text": "{TARGET}は　{BAG}から\r\n{I_NAME}を　とりだした。"
+      },
+      "Txt_FieldMenu_Message_HandoverResult_11": {
+        "SelfId": "Txt_FieldMenu_Message_HandoverResult_11",
+        "Text": "{LEADER}は　{I_NAME}を\r\n{ACTOR}のもちものから　とりだし\r\n{BAG}に　いれた。"
+      },
+      "Txt_FieldMenu_Message_HandoverResult_12": {
+        "SelfId": "Txt_FieldMenu_Message_HandoverResult_12",
+        "Text": "{LEADER}は　{BAG}から\r\n{I_NAME}を　とりだし\r\n{TARGET}のもちものに　いれた。"
+      },
+      "Txt_FieldMenu_Message_HandoverResult_13": {
+        "SelfId": "Txt_FieldMenu_Message_HandoverResult_13",
+        "Text": "{LEADER}は　{I_NAME}を\r\nそっと　{BAG}にもどした。"
+      },
+      "Txt_FieldMenu_Message_HandoverResult_14": {
+        "SelfId": "Txt_FieldMenu_Message_HandoverResult_14",
+        "Text": "{BAG}の　{I_NAME}と\r\n{TARGET}の　{I_NAME2}を\r\nこうかんした。"
+      },
+      "Txt_FieldMenu_Message_HandoverResult_15": {
+        "SelfId": "Txt_FieldMenu_Message_HandoverResult_15",
+        "Text": "{LEADER}は　{BAG}の\r\n{I_NAME}と　{TARGET}の\r\n{I_NAME2}を　こうかんした。"
+      },
+      "Txt_FieldMenu_Message_HandoverCancel": {
+        "SelfId": "Txt_FieldMenu_Message_HandoverCancel",
+        "Text": "{LEADER}は　{I_NAME}を\r\nそっと　{BAG}にもどした。"
+      },
+      "Txt_FieldMenu_Message_HandoverImportant": {
+        "SelfId": "Txt_FieldMenu_Message_HandoverImportant",
+        "Text": "{I_NAME}は　しまっておこう。"
+      },
+      "Txt_FieldMenu_Message_HandoverEquip": {
+        "SelfId": "Txt_FieldMenu_Message_HandoverEquip",
+        "Text": "{I_NAME}を　そうびしますか？"
+      },
+      "Txt_FieldMenu_Message_ExchangeCancel": {
+        "SelfId": "Txt_FieldMenu_Message_ExchangeCancel",
+        "Text": "{I_NAME}を\r\nもちかえるのをやめた。"
+      },
+      "Txt_FieldMenu_Message_ExchangeSelect": {
+        "SelfId": "Txt_FieldMenu_Message_ExchangeSelect",
+        "Text": "なにとこうかんしますか？<NO_INPUT>"
+      },
+      "Txt_FieldMenu_Message_ReplaceSelect": {
+        "SelfId": "Txt_FieldMenu_Message_ReplaceSelect",
+        "Text": "なにともちかえますか？<NO_INPUT>"
+      },
+      "Txt_FieldMenu_Message_CurseLift": {
+        "SelfId": "Txt_FieldMenu_Message_CurseLift",
+        "Text": "のろいで　{I_NAME}が\r\nからだから　はずれない！"
+      },
+      "Txt_FieldMenu_Message_CurseOccur": {
+        "SelfId": "Txt_FieldMenu_Message_CurseOccur",
+        "Text": "{I_NAME}には\r\nのろいが　かけられていた！"
+      },
+      "Txt_FieldMenu_Message_SelectAccessorie": {
+        "SelfId": "Txt_FieldMenu_Message_SelectAccessorie",
+        "Text": "そうびするばしょを　せんたくしてください。<NO_INPUT>"
+      },
+      "Txt_FieldMenu_Message_ShowNone": {
+        "SelfId": "Txt_FieldMenu_Message_ShowNone",
+        "Text": "しなものを　かんていできるしょうにんが\r\nなかまに　なっていないっ！"
+      },
+      "Txt_FieldMenu_Message_ShowDeath": {
+        "SelfId": "Txt_FieldMenu_Message_ShowDeath",
+        "Text": "{ACTOR}は　しんでいるので\r\nどうぐを　しらべることが　できない。"
+      },
+      "Txt_FieldMenu_Message_DumpCanNot": {
+        "SelfId": "Txt_FieldMenu_Message_DumpCanNot",
+        "Text": "それを　すてるなんて　とんでもない！"
+      },
+      "Txt_FieldMenu_Message_DumpLare": {
+        "SelfId": "Txt_FieldMenu_Message_DumpLare",
+        "Text": "{I_NAME}を　すててしまうと\r\nもう　てにはいらないかもしれません。\r\nほんとうに　すてても　よろしいですか？"
+      },
+      "Txt_FieldMenu_Message_DumpEquip": {
+        "SelfId": "Txt_FieldMenu_Message_DumpEquip",
+        "Text": "{I_NAME}は　そうびちゅうですが\r\nすてても　よろしいですか？"
+      },
+      "Txt_FieldMenu_Message_DumpConfirm": {
+        "SelfId": "Txt_FieldMenu_Message_DumpConfirm",
+        "Text": "{I_NAME}を\r\nすてても　よろしいですか？"
+      },
+      "Txt_FieldMenu_Message_DumpConfirmMultiple": {
+        "SelfId": "Txt_FieldMenu_Message_DumpConfirmMultiple",
+        "Text": "{I_NAME}を　{VALUE}こ\r\nすてても　よろしいですか？"
+      },
+      "Txt_FieldMenu_Message_DumpResult": {
+        "SelfId": "Txt_FieldMenu_Message_DumpResult",
+        "Text": "{I_NAME}を　なげすてた。"
+      },
+      "Txt_FieldMenu_Message_DumpResultMultiple": {
+        "SelfId": "Txt_FieldMenu_Message_DumpResultMultiple",
+        "Text": "{I_NAME}を　{VALUE}こ　なげすてた。"
+      },
+      "Txt_FieldMenu_Message_DumpCancel": {
+        "SelfId": "Txt_FieldMenu_Message_DumpCancel",
+        "Text": "{I_NAME}を　すてるのをやめた。"
+      },
+      "Txt_FieldMenu_Message_EquipOwner": {
+        "SelfId": "Txt_FieldMenu_Message_EquipOwner",
+        "Text": "{WORD}のもちものですが\r\n{ACTOR}にわたして　そうびしますか？"
+      },
+      "Txt_FieldMenu_Message_EquipRental": {
+        "SelfId": "Txt_FieldMenu_Message_EquipRental",
+        "Text": "いまは　そうびを　かえることができない。"
+      },
+      "Txt_FieldMenu_Message_EquipEquipper": {
+        "SelfId": "Txt_FieldMenu_Message_EquipEquipper",
+        "Text": "{I_NAME}は\r\n{WORD}が　そうびちゅうです。\r\nはずして　{ACTOR}が　そうびしますか？"
+      },
+      "Txt_FieldMenu_Message_EquipInventoryMax_01": {
+        "SelfId": "Txt_FieldMenu_Message_EquipInventoryMax_01",
+        "Text": "{ACTOR}の　もちものが　いっぱいで\r\nどうぐのいれかえが　できませんでした。"
+      },
+      "Txt_FieldMenu_Message_EquipInventoryMax_02": {
+        "SelfId": "Txt_FieldMenu_Message_EquipInventoryMax_02",
+        "Text": "{ACTOR}の\r\nもちものを　せいりしますか？"
+      },
+      "Txt_FieldMenu_Message_EquipResult": {
+        "SelfId": "Txt_FieldMenu_Message_EquipResult",
+        "Text": "{ACTOR}は　{I_NAME}を\r\nそうびした！"
+      },
+      "Txt_FieldMenu_Message_EquipUnequip": {
+        "SelfId": "Txt_FieldMenu_Message_EquipUnequip",
+        "Text": "{ACTOR}は　{I_NAME}を\r\nはずした。"
+      },
+      "Txt_FieldMenu_Message_EquipNothing": {
+        "SelfId": "Txt_FieldMenu_Message_EquipNothing",
+        "Text": "そうびできるものは　ありません！"
+      },
+      "Txt_FieldMenu_Message_EquipAuto": {
+        "SelfId": "Txt_FieldMenu_Message_EquipAuto",
+        "Text": "{ACTOR}は\r\nよりつよいそうびひんに\r\nつけかえた。"
+      },
+      "Txt_FieldMenu_Message_EquipAutoFailed": {
+        "SelfId": "Txt_FieldMenu_Message_EquipAutoFailed",
+        "Text": "{ACTOR}は\r\nすでに　さいきょうのそうびひんを\r\nみにつけている！"
+      },
+      "Txt_FieldMenu_Message_EquipReplaceAccessorie": {
+        "SelfId": "Txt_FieldMenu_Message_EquipReplaceAccessorie",
+        "Text": "{ACTOR}は　{I_NAME}を　つけかえた。"
+      },
+      "Txt_FieldMenu_Message_MemoryNone": {
+        "SelfId": "Txt_FieldMenu_Message_MemoryNone",
+        "Text": "しかし　なにも　おもいだせなかった。"
+      },
+      "Txt_FieldMenu_Message_MemoryDelete": {
+        "SelfId": "Txt_FieldMenu_Message_MemoryDelete",
+        "Text": "このおもいでを　わすれますか？"
+      },
+      "Txt_FieldMenu_Message_MemoryDeleteResult": {
+        "SelfId": "Txt_FieldMenu_Message_MemoryDeleteResult",
+        "Text": "このおもいでを　わすれさった。"
+      },
+      "Txt_FieldMenu_Message_MagicNone": {
+        "SelfId": "Txt_FieldMenu_Message_MagicNone",
+        "Text": "{ACTOR}は　じゅもんを\r\nおぼえていない。"
+      },
+      "Txt_FieldMenu_Message_BattleMagic": {
+        "SelfId": "Txt_FieldMenu_Message_BattleMagic",
+        "Text": "そのじゅもんは\r\nいどうちゅうに　つかえない。"
+      },
+      "Txt_FieldMenu_Message_MagicUse": {
+        "SelfId": "Txt_FieldMenu_Message_MagicUse",
+        "Text": "{ACTOR}は　{WORD}を　となえた！"
+      },
+      "Txt_FieldMenu_Message_MagicNotenoughMP": {
+        "SelfId": "Txt_FieldMenu_Message_MagicNotenoughMP",
+        "Text": "{ACTOR}は　{WORD}を　となえようとした。\r\nしかし　ＭＰが　たりない！"
+      },
+      "Txt_FieldMenu_Message_MagicUnskilled": {
+        "SelfId": "Txt_FieldMenu_Message_MagicUnskilled",
+        "Text": "まだ　そのじゅもんをおぼえていない。"
+      },
+      "Txt_FieldMenu_Message_MagicUseDeath": {
+        "SelfId": "Txt_FieldMenu_Message_MagicUseDeath",
+        "Text": "{ACTOR}は　しんでいるので\r\nじゅもんを　となえられない。"
+      },
+      "Txt_FieldMenu_Message_MagicUseParalysis": {
+        "SelfId": "Txt_FieldMenu_Message_MagicUseParalysis",
+        "Text": "{ACTOR}は　からだがしびれて\r\nじゅもんを　となえられない。"
+      },
+      "Txt_FieldMenu_Message_MagicUseConfusion": {
+        "SelfId": "Txt_FieldMenu_Message_MagicUseConfusion",
+        "Text": "{ACTOR}は　こんらんしていて\r\nじゅもんを　となえられない。"
+      },
+      "Txt_FieldMenu_Message_SkillNone": {
+        "SelfId": "Txt_FieldMenu_Message_SkillNone",
+        "Text": "{ACTOR}は　とくぎを\r\nおぼえていない。"
+      },
+      "Txt_FieldMenu_Message_BattleSkill": {
+        "SelfId": "Txt_FieldMenu_Message_BattleSkill",
+        "Text": "そのとくぎは\r\nいどうちゅうに　つかえない。"
+      },
+      "Txt_FieldMenu_Message_SkillNotenoughMP": {
+        "SelfId": "Txt_FieldMenu_Message_SkillNotenoughMP",
+        "Text": "{ACTOR}は　{WORD}を　つかおうとした。\r\nしかし　ＭＰが　たりない！"
+      },
+      "Txt_FieldMenu_Message_SkillUnskilled": {
+        "SelfId": "Txt_FieldMenu_Message_SkillUnskilled",
+        "Text": "まだ　そのとくぎをおぼえていない。"
+      },
+      "Txt_FieldMenu_Message_SkillUseDeath": {
+        "SelfId": "Txt_FieldMenu_Message_SkillUseDeath",
+        "Text": "{ACTOR}は　しんでいるので\r\nとくぎを　つかえない。"
+      },
+      "Txt_FieldMenu_Message_SkillUseParalysis": {
+        "SelfId": "Txt_FieldMenu_Message_SkillUseParalysis",
+        "Text": "{ACTOR}は　からだがしびれて\r\nとくぎを　つかえない。"
+      },
+      "Txt_FieldMenu_Message_SkillUseConfusion": {
+        "SelfId": "Txt_FieldMenu_Message_SkillUseConfusion",
+        "Text": "{ACTOR}は　こんらんしていて\r\nとくぎを　つかえない。"
+      },
+      "Txt_FieldMenu_Message_MiscLineupImpossible": {
+        "SelfId": "Txt_FieldMenu_Message_MiscLineupImpossible",
+        "Text": "いまは　ならびかえられる　なかまがいない。"
+      },
+      "Txt_FieldMenu_Message_MiscTextOptionConfirm_01": {
+        "SelfId": "Txt_FieldMenu_Message_MiscTextOptionConfirm_01",
+        "Text": "『ルビひょうじあり』に　へんこうしますか？\r\nメッセージのかんじに\r\nふりがなが　ひょうじされるようになります。"
+      },
+      "Txt_FieldMenu_Message_MiscTextOptionConfirm_02": {
+        "SelfId": "Txt_FieldMenu_Message_MiscTextOptionConfirm_02",
+        "Text": "『ひらがなモードオン』に　へんこうしますか？\r\nゲームないのすべてのかんじが\r\nひらがなで　ひょうじされるようになります。"
+      },
+      "Txt_FieldMenu_Message_MiscTextOptionConfirm_01_off": {
+        "SelfId": "Txt_FieldMenu_Message_MiscTextOptionConfirm_01_off",
+        "Text": "『ルビひょうじなし』に　へんこうしますか？\r\nメッセージのかんじに\r\nふりがなが　ひょうじされなくなります。"
+      },
+      "Txt_FieldMenu_Message_MiscTextOptionConfirm_02_off": {
+        "SelfId": "Txt_FieldMenu_Message_MiscTextOptionConfirm_02_off",
+        "Text": "『ひらがなモードオフ』に　へんこうしますか？\r\nゲームないのすべてのテキストが\r\nかんじをふくめて　ひょうじされるようになります。"
+      },
+      "Txt_FieldMenu_Message_MiscTextOptionConfirm_03": {
+        "SelfId": "Txt_FieldMenu_Message_MiscTextOptionConfirm_03",
+        "Text": "コントローラーの\r\nけっていボタンとキャンセルボタンを\r\nいれかえますか？"
+      },
+      "Txt_FieldMenu_Message_MiscTextOptionConfirm_03_PS5": {
+        "SelfId": "Txt_FieldMenu_Message_MiscTextOptionConfirm_03_PS5",
+        "Text": "DualSense® ワイヤレスコントローラーの\r\nけっていボタンとキャンセルボタンを\r\nいれかえますか？"
+      },
+      "Txt_FieldMenu_Message_MiscTextOptionConfirm_03_Xbox": {
+        "SelfId": "Txt_FieldMenu_Message_MiscTextOptionConfirm_03_Xbox",
+        "Text": "コントローラーの\r\nけっていボタンとキャンセルボタンを\r\nいれかえますか？"
+      },
+      "Txt_FieldMenu_Message_MiscTextOptionConfirm_03_PC": {
+        "SelfId": "Txt_FieldMenu_Message_MiscTextOptionConfirm_03_PC",
+        "Text": "コントローラーの\r\nけっていボタンとキャンセルボタンを\r\nいれかえますか？"
+      },
+      "Txt_FieldMenu_Message_MiscTextOptionNotice_Text": {
+        "SelfId": "Txt_FieldMenu_Message_MiscTextOptionNotice_Text",
+        "Text": "テキストげんごをへんこうするとキャラクターのなまえなど\r\nいちぶただしくひょうじされないばあいがあります。\r\nそのときはもとにもどすことでひょうじももどります。"
+      },
+      "Txt_FieldMenu_Message_MiscTextOptionNotice_Voice": {
+        "SelfId": "Txt_FieldMenu_Message_MiscTextOptionNotice_Voice",
+        "Text": "ボイスげんごとテキストげんごがことなるばあいは\r\nテキストとないようがかんぜんにいっちしないことがあります。"
+      },
+      "Txt_FieldMenu_Message_Suspend": {
+        "SelfId": "Txt_FieldMenu_Message_Suspend",
+        "Text": "げんざいのじょうたいをセーブして\r\nタイトルがめんにもどります。\r\nよろしいですか？"
+      },
+      "Txt_FieldMenu_Message_Suspend_Overwrite": {
+        "SelfId": "Txt_FieldMenu_Message_Suspend_Overwrite",
+        "Text": "すでにちゅうだんセーブがそんざいしています。\r\nうわがきしてもよろしいですか？"
+      },
+      "Txt_FieldMenu_Message_Back_To_Title1": {
+        "SelfId": "Txt_FieldMenu_Message_Back_To_Title1",
+        "Text": "さいごのぼうけんのしょを　かくにんしてください。"
+      },
+      "Txt_FieldMenu_Message_Back_To_Title2": {
+        "SelfId": "Txt_FieldMenu_Message_Back_To_Title2",
+        "Text": "このままぼうけんを　おえると\r\nセーブしていないないようは　きえてしまいます。"
+      },
+      "Txt_FieldMenu_Message_Back_To_Title3": {
+        "SelfId": "Txt_FieldMenu_Message_Back_To_Title3",
+        "Text": "ほんとうにタイトルにもどって\r\nよろしいですか？"
+      },
+      "Txt_FieldMenu_Message_BlockSave": {
+        "SelfId": "Txt_FieldMenu_Message_BlockSave",
+        "Text": "いまは　つかうことができません。"
+      },
+      "Txt_FieldMenu_Message_BlockLental": {
+        "SelfId": "Txt_FieldMenu_Message_BlockLental",
+        "Text": "いまはつかえる　たいしょうが　いない。"
+      },
+      "Txt_FieldMenu_Memory_Popup_SUCCESS": {
+        "SelfId": "Txt_FieldMenu_Memory_Popup_SUCCESS",
+        "Text": "さきほどの　できごとを　きおくしました。"
+      },
+      "Txt_FieldMenu_Memory_Popup_SUCCESS_IN_EVENT": {
+        "SelfId": "Txt_FieldMenu_Memory_Popup_SUCCESS_IN_EVENT",
+        "Text": "このできごとを　きおくしました。"
+      },
+      "Txt_FieldMenu_Memory_Popup_ALREADY_MEMORY_IN_EVENT": {
+        "SelfId": "Txt_FieldMenu_Memory_Popup_ALREADY_MEMORY_IN_EVENT",
+        "Text": "このできごとを　きおくしました。"
+      },
+      "Txt_FieldMenu_Memory_Popup_MEMORY_FILL": {
+        "SelfId": "Txt_FieldMenu_Memory_Popup_MEMORY_FILL",
+        "Text": "おもいでが　いっぱいになりました。"
+      },
+      "Txt_FieldMenu_Memory_Popup_NOT_ENOUGH_SLOT": {
+        "SelfId": "Txt_FieldMenu_Memory_Popup_NOT_ENOUGH_SLOT",
+        "Text": "おもいでが　いっぱいで　きおくできません。"
+      },
+      "Txt_FieldMenu_Memory_Popup_ALREADY_MEMORY": {
+        "SelfId": "Txt_FieldMenu_Memory_Popup_ALREADY_MEMORY",
+        "Text": "さきほどの　できごとは　きおくしてあります。"
+      },
+      "Txt_FieldMenu_King_Message_ITEM": {
+        "SelfId": "Txt_FieldMenu_King_Message_ITEM",
+        "Text": "おうさまは　どうぐを　もっていない。"
+      },
+      "Txt_FieldMenu_King_Message_EQUIP": {
+        "SelfId": "Txt_FieldMenu_King_Message_EQUIP",
+        "Text": "おうさまは　おうのいしょうを\r\nすでにみにつけている。"
+      },
+      "Txt_FieldMenu_King_Message_MEMORY": {
+        "SelfId": "Txt_FieldMenu_King_Message_MEMORY",
+        "Text": "おうさまに　ふりかえるかこはない。"
+      },
+      "Txt_FieldMenu_King_Message_MAGIC": {
+        "SelfId": "Txt_FieldMenu_King_Message_MAGIC",
+        "Text": "おうさまは　じゅもんを　つかえない。"
+      },
+      "Txt_FieldMenu_King_Message_SKILL": {
+        "SelfId": "Txt_FieldMenu_King_Message_SKILL",
+        "Text": "おうさまは　とくぎを　つかえない。"
+      },
+      "Txt_FieldMenu_King_Message_MAXHEAL": {
+        "SelfId": "Txt_FieldMenu_King_Message_MAXHEAL",
+        "Text": "おうさまは　キズついていない。"
+      },
+      "Txt_FieldMenu_King_Message_ALMOSTHEAL": {
+        "SelfId": "Txt_FieldMenu_King_Message_ALMOSTHEAL",
+        "Text": "おうさまは　キズついていない。"
+      },
+      "Txt_FieldMenu_King_Message_ATATUS": {
+        "SelfId": "Txt_FieldMenu_King_Message_ATATUS",
+        "Text": "おうさまは　そのむかし\r\nとても　つよかったらしい。"
+      },
+      "Txt_FieldMenu_King_Message_SORT": {
+        "SelfId": "Txt_FieldMenu_King_Message_SORT",
+        "Text": "おうさまは　ならびかえようとした。<KEY_WAIT>\r\nしかし　おうさまは　ひとりだけだった。\r\n\r\n"
+      },
+      "Txt_FieldMenu_King_Message_STRATEGY": {
+        "SelfId": "Txt_FieldMenu_King_Message_STRATEGY",
+        "Text": "おうさまは　さくせんをたてようとした。<KEY_WAIT>\r\nしかし　いまは　そのひつようがないようだ。\r\n\r\n"
+      },
+      "Txt_FieldMenu_King_Message_WARP": {
+        "SelfId": "Txt_FieldMenu_King_Message_WARP",
+        "Text": "おうさまは　ロマリアからでるひつようがない。"
+      },
+      "Txt_FieldMenu_Queen_Message_ITEM": {
+        "SelfId": "Txt_FieldMenu_Queen_Message_ITEM",
+        "Text": "じょおうさまは　どうぐを　もっていない。"
+      },
+      "Txt_FieldMenu_Queen_Message_EQUIP": {
+        "SelfId": "Txt_FieldMenu_Queen_Message_EQUIP",
+        "Text": "じょおうさまは　すばらしいいしょうを\r\nすでにみにつけている。"
+      },
+      "Txt_FieldMenu_Queen_Message_MEMORY": {
+        "SelfId": "Txt_FieldMenu_Queen_Message_MEMORY",
+        "Text": "じょおうさまに　ふりかえるかこはない。"
+      },
+      "Txt_FieldMenu_Queen_Message_MAGIC": {
+        "SelfId": "Txt_FieldMenu_Queen_Message_MAGIC",
+        "Text": "じょおうさまは　じゅもんを　つかえない。"
+      },
+      "Txt_FieldMenu_Queen_Message_SKILL": {
+        "SelfId": "Txt_FieldMenu_Queen_Message_SKILL",
+        "Text": "じょおうさまは　とくぎを　つかえない。"
+      },
+      "Txt_FieldMenu_Queen_Message_MAXHEAL": {
+        "SelfId": "Txt_FieldMenu_Queen_Message_MAXHEAL",
+        "Text": "じょおうさまは　キズついていない。"
+      },
+      "Txt_FieldMenu_Queen_Message_ALMOSTHEAL": {
+        "SelfId": "Txt_FieldMenu_Queen_Message_ALMOSTHEAL",
+        "Text": "じょおうさまは　キズついていない。"
+      },
+      "Txt_FieldMenu_Queen_Message_ATATUS": {
+        "SelfId": "Txt_FieldMenu_Queen_Message_ATATUS",
+        "Text": "じょおうさまは　そのむかし\r\nとても　つよかったらしい。"
+      },
+      "Txt_FieldMenu_Queen_Message_SORT": {
+        "SelfId": "Txt_FieldMenu_Queen_Message_SORT",
+        "Text": "じょおうさまは　ならびかえようとした。<KEY_WAIT>\r\nしかし　じょおうさまは　ひとりだけだった。\r\n\r\n"
+      },
+      "Txt_FieldMenu_Queen_Message_STRATEGY": {
+        "SelfId": "Txt_FieldMenu_Queen_Message_STRATEGY",
+        "Text": "じょおうさまは　さくせんをたてようとした。<KEY_WAIT>\r\nしかし　いまは　そのひつようがないようだ。\r\n\r\n"
+      },
+      "Txt_FieldMenu_Queen_Message_WARP": {
+        "SelfId": "Txt_FieldMenu_Queen_Message_WARP",
+        "Text": "じょおうさまは　ロマリアからでるひつようがない。"
+      }
+    }
+  }
+]

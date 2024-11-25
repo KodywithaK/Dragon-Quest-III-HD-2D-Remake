@@ -1,0 +1,76 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_NPC_Talk_GiagaPit",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Talk_GiagaPit_1F_Before_SUB_0_ACTOR_0110_010_1": {
+        "SelfId": "Txt_Talk_GiagaPit_1F_Before_SUB_0_ACTOR_0110_010_1",
+        "Text": "*: Ce que vous voyez ici est ce qu'on appelle le gouffre de Guiaga.\r\nEt on est les petits veinards chargés de le garder."
+      },
+      "Txt_Talk_GiagaPit_1F_Before_SUB_0_ACTOR_0110_010_2": {
+        "SelfId": "Txt_Talk_GiagaPit_1F_Before_SUB_0_ACTOR_0110_010_2",
+        "Text": "*: Des gens viennent ici de temps en temps et tentent de se jeter dedans, vous comprenez."
+      },
+      "Txt_Talk_GiagaPit_1F_Before_SUB_0_ACTOR_0110_010_3": {
+        "SelfId": "Txt_Talk_GiagaPit_1F_Before_SUB_0_ACTOR_0110_010_3",
+        "Text": "*: Seul le Ciel sait pourquoi.\r\nMême si la vie semble parfois sans issue, ce n'est pas une façon d'aller au paradis..."
+      },
+      "Txt_Talk_GiagaPit_1F_Before_SUB_0_ACTOR_0210_010_1": {
+        "SelfId": "Txt_Talk_GiagaPit_1F_Before_SUB_0_ACTOR_0210_010_1",
+        "Text": "*: Tous ceux qui sont descendus dans ce trou pour enquêter ne sont jamais revenus."
+      },
+      "Txt_Talk_GiagaPit_1F_Before_SUB_0_ACTOR_0210_010_2": {
+        "SelfId": "Txt_Talk_GiagaPit_1F_Before_SUB_0_ACTOR_0210_010_2",
+        "Text": "*: Alors on ne sait toujours pas ce qu'il y a dedans."
+      },
+      "Txt_Talk_GiagaPit_1F_Before_SUB_0_ACTOR_0210_010_3": {
+        "SelfId": "Txt_Talk_GiagaPit_1F_Before_SUB_0_ACTOR_0210_010_3",
+        "Text": "*: Oh, si l'un de vos compagnons essaie de sauter là-dedans, faites tinter un grelot d'angelot pour qu'il reprenne ses esprits. Si ça ne fonctionne pas... donnez-lui un petit coup sur la tête avec."
+      },
+      "Txt_Talk_GiagaPit_1F_Before_SUB_0_ACTOR_0210_010_4": {
+        "SelfId": "Txt_Talk_GiagaPit_1F_Before_SUB_0_ACTOR_0210_010_4",
+        "Text": "*: N'oubliez pas: si un membre de votre équipe perd la tête et essaie de faire quelque chose de stupide, faites tinter un grelot d'angelot près de son oreille."
+      },
+      "Txt_Talk_GiagaPit_1F_After_SUB_0_ACTOR_0110_010_1": {
+        "SelfId": "Txt_Talk_GiagaPit_1F_After_SUB_0_ACTOR_0110_010_1",
+        "Text": "*: C'était horrible!\r\nLe sol a tremblé comme jamais, et quand j'ai regardé, la fissure s'était élargie!"
+      },
+      "Txt_Talk_GiagaPit_1F_After_SUB_0_ACTOR_0110_010_2": {
+        "SelfId": "Txt_Talk_GiagaPit_1F_After_SUB_0_ACTOR_0110_010_2",
+        "Text": "*: Je jurerais qu'une... chose géante s'y est engouffrée..."
+      },
+      "Txt_Talk_GiagaPit_1F_After_SUB_0_ACTOR_0110_010_3": {
+        "SelfId": "Txt_Talk_GiagaPit_1F_After_SUB_0_ACTOR_0110_010_3",
+        "Text": "*: Si c'est le cas, elle a emporté mon ami, l'autre garde, avec elle..."
+      },
+      "Txt_Talk_GiagaPit_1F_After_SUB_0_VOLUME_0110_010_1": {
+        "SelfId": "Txt_Talk_GiagaPit_1F_After_SUB_0_VOLUME_0110_010_1",
+        "Text": "Des forces obscures font obstacle à {LEADER}."
+      },
+      "Txt_Talk_GiagaPit_1F_After_SUB_0_VOLUME_0110_010_2": {
+        "SelfId": "Txt_Talk_GiagaPit_1F_After_SUB_0_VOLUME_0110_010_2",
+        "Text": "Utiliser <DefSgl_I_NAME>?"
+      },
+      "Txt_Talk_GiagaPit_1F_After_SUB_0_VOLUME_0110_010_3": {
+        "SelfId": "Txt_Talk_GiagaPit_1F_After_SUB_0_VOLUME_0110_010_3",
+        "Text": "{LEADER} lève <DefSgl_I_NAME> en l'air!"
+      },
+      "Txt_Talk_GiagaPit_1F_After_SUB_0_VOLUME_0110_010_4": {
+        "SelfId": "Txt_Talk_GiagaPit_1F_After_SUB_0_VOLUME_0110_010_4",
+        "Text": "Les ténèbres s'évanouissent devant la sphère de lumière!"
+      },
+      "Txt_Talk_GiagaPit_1F_After_SUB_0_VOLUME_0110_010_5": {
+        "SelfId": "Txt_Talk_GiagaPit_1F_After_SUB_0_VOLUME_0110_010_5",
+        "Text": "Maintenant, plus rien ne se dresse entre {LEADER} et le chemin devant <IfGender_LEADER(lui,elle,)>."
+      }
+    }
+  }
+]

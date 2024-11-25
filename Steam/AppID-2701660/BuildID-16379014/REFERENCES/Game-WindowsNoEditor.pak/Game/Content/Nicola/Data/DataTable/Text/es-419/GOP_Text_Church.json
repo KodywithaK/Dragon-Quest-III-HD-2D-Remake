@@ -1,0 +1,380 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_Church",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Church_UI_Top_01": {
+        "SelfId": "Txt_Church_UI_Top_01",
+        "Text": "Confesión (guardar)"
+      },
+      "Txt_Church_UI_Top_02": {
+        "SelfId": "Txt_Church_UI_Top_02",
+        "Text": "Adivinación"
+      },
+      "Txt_Church_UI_Top_03": {
+        "SelfId": "Txt_Church_UI_Top_03",
+        "Text": "Resurrección"
+      },
+      "Txt_Church_UI_Top_04": {
+        "SelfId": "Txt_Church_UI_Top_04",
+        "Text": "Purificación"
+      },
+      "Txt_Church_UI_Top_05": {
+        "SelfId": "Txt_Church_UI_Top_05",
+        "Text": "Bendición"
+      },
+      "Txt_Church_UI_Top_06": {
+        "SelfId": "Txt_Church_UI_Top_06",
+        "Text": "Cancelar"
+      },
+      "Txt_Church_Message_Start_Pri": {
+        "SelfId": "Txt_Church_Message_Start_Pri",
+        "Text": "*: Fiel <IfGender_LEADER(siervo,sierva,)> de la Diosa, ¿en qué puede ayudarte nuestra iglesia?<NO_INPUT>"
+      },
+      "Txt_Church_Message_StartNight_Pri": {
+        "SelfId": "Txt_Church_Message_StartNight_Pri",
+        "Text": "*: ¿Qué te trae a nuestra iglesia en medio de la noche, <IfGender_LEADER(niño,niña,)>?<NO_INPUT>"
+      },
+      "Txt_Church_Message_ReviveTop_Pri": {
+        "SelfId": "Txt_Church_Message_ReviveTop_Pri",
+        "Text": "*: ¿A quién quieres que traiga de vuelta al mundo de los vivos?<NO_INPUT>"
+      },
+      "Txt_Church_Message_Alive_Pri": {
+        "SelfId": "Txt_Church_Message_Alive_Pri",
+        "Text": "*: ¿Acaso bromeas? ¡A mí me parece que {ACTOR} tiene mucha vida!"
+      },
+      "Txt_Church_Message_Revive_Pri": {
+        "SelfId": "Txt_Church_Message_Revive_Pri",
+        "Text": "*: ¡Oh, gran y benévola Diosa!\r\n¡Si es tu voluntad, por favor, devuelve a este mundo a {ACTOR}, que tanto amamos!<NO_INPUT>"
+      },
+      "Txt_Church_Message_ReviveResult_Pri": {
+        "SelfId": "Txt_Church_Message_ReviveResult_Pri",
+        "Text": "¡<Cap>{ACTOR} resucitó!"
+      },
+      "Txt_Church_Message_DetoxiTop_Pri": {
+        "SelfId": "Txt_Church_Message_DetoxiTop_Pri",
+        "Text": "*: ¿A quién debo tratar por envenenamiento?<NO_INPUT>"
+      },
+      "Txt_Church_Message_NotPoison_Pri": {
+        "SelfId": "Txt_Church_Message_NotPoison_Pri",
+        "Text": "*: Te equivocas, <IfGender_LEADER(niño,niña,)>. No hay señales de envenenamiento en el organismo de {ACTOR}."
+      },
+      "Txt_Church_Message_Detoxi_Pri": {
+        "SelfId": "Txt_Church_Message_Detoxi_Pri",
+        "Text": "*: ¡Oh, gran y benévola Diosa!\r\n¡Por favor, purga el veneno de Tu fiel {ACTOR}, quien te tiene gran devoción!<NO_INPUT>"
+      },
+      "Txt_Church_Message_DetoxiResult_Pri": {
+        "SelfId": "Txt_Church_Message_DetoxiResult_Pri",
+        "Text": "{ACTOR} dejó de sufrir envenenamiento."
+      },
+      "Txt_Church_Message_CurseTop_Pri": {
+        "SelfId": "Txt_Church_Message_CurseTop_Pri",
+        "Text": "*: ¿De quién deseas levantar una maldición?<NO_INPUT>"
+      },
+      "Txt_Church_Message_NotCurse_Pri": {
+        "SelfId": "Txt_Church_Message_NotCurse_Pri",
+        "Text": "*: Perdóname, <IfGender_LEADER(niño,niña,)>, pero {ACTOR} no parece estar bajo ninguna maldición."
+      },
+      "Txt_Church_Message_HealCurse_Pri": {
+        "SelfId": "Txt_Church_Message_HealCurse_Pri",
+        "Text": "*: ¡Oh, gran y benévola Diosa! ¡Bendícenos con Tu poder omnipotente! ¡Elimina la maldición infernal que aflige a {ACTOR}!<NO_INPUT>"
+      },
+      "Txt_Church_Message_HealCurseResult_Pri": {
+        "SelfId": "Txt_Church_Message_HealCurseResult_Pri",
+        "Text": "{ACTOR} ya no está <IfGender_ACTOR(maldito,maldita,)>."
+      },
+      "Txt_Church_Message_Confirm_Pri": {
+        "SelfId": "Txt_Church_Message_Confirm_Pri",
+        "Text": "*: Para realizar este servicio, necesitaré <IfSing_VALUE(una sola moneda de oro a modo de contribución,una pequeña contribución de {VALUE} monedas de oro)>. ¿Me lo concederás, <IfGender_LEADER(hijo mío,hija mía,)>?<NO_INPUT>"
+      },
+      "Txt_Church_Message_Shotage_Pri": {
+        "SelfId": "Txt_Church_Message_Shotage_Pri",
+        "Text": "*: Parece que no puedes permitirte hacer este humilde donativo.<KEY_WAIT>\r\n*: ¡Perdóname por pedir demasiado a Tus fieles siervos! ¡Oh, gran y benévola Diosa!"
+      },
+      "Txt_Church_Message_PaymentCancel_Pri": {
+        "SelfId": "Txt_Church_Message_PaymentCancel_Pri",
+        "Text": "*: ¡Los donativos a la iglesia son una expresión de gratitud a la gran y benévola Diosa!\r\nDesatender esta expresión de fe es de lo más lamentable."
+      },
+      "Txt_Church_Message_Cancel_Pri": {
+        "SelfId": "Txt_Church_Message_Cancel_Pri",
+        "Text": "*: Ah, ¿sí?\r\nMuy bien. La elección es tuya.\r\nQue la Diosa te sonría."
+      },
+      "Txt_Church_Message_StartAgain_Pri": {
+        "SelfId": "Txt_Church_Message_StartAgain_Pri",
+        "Text": "*: ¿Hay alguna otra forma en la que podamos ser de ayuda?<NO_INPUT>"
+      },
+      "Txt_Church_Message_Finish_Pri": {
+        "SelfId": "Txt_Church_Message_Finish_Pri",
+        "Text": "*: Por favor, cuídate, <IfGender_LEADER(hijo mío,hija mía,)>, y que la Diosa vele por ti."
+      },
+      "Txt_Church_Message_Nextlevel_Pri": {
+        "SelfId": "Txt_Church_Message_Nextlevel_Pri",
+        "Text": "*: {ACTOR}, ¡<IfGender_ACTOR(hijo mío,hija mía,)>! Necesitas {VALUE} <IfSing_VALUE(punto,puntos)> de experiencia para alcanzar el siguiente nivel."
+      },
+      "Txt_Church_Message_SaveConfirm_Pri": {
+        "SelfId": "Txt_Church_Message_SaveConfirm_Pri",
+        "Text": "*: ¿Quieres anotar los detalles de tu viaje en un registro de aventuras?<NO_INPUT>"
+      },
+      "Txt_Church_Message_SaveCancel_Pri": {
+        "SelfId": "Txt_Church_Message_SaveCancel_Pri",
+        "Text": "*: Muy bien. No escribiremos la crónica de tu viaje, por ahora."
+      },
+      "Txt_Church_Message_SaveTop_Pri": {
+        "SelfId": "Txt_Church_Message_SaveTop_Pri",
+        "Text": "*: Confiesa todo lo que has hecho, <IfGender_LEADER(hijo mío,hija mía,)>, para que pueda anotarlo en un registro de aventuras.<KEY_WAIT>\r\n*: ¿En qué registro de aventuras quieres que guarde esto?<NO_INPUT>"
+      },
+      "Txt_Church_Message_OverwriteConfirm_Pri": {
+        "SelfId": "Txt_Church_Message_OverwriteConfirm_Pri",
+        "Text": "*: En ese caso, debo sobrescribir <Cap>{WORD} Nv. {VALUE}. ¿Deseas que proceda, <IfGender_LEADER(hijo mío,hija mía,)>?<NO_INPUT>"
+      },
+      "Txt_Church_Message_ContinueConfirm_Save_Pri": {
+        "SelfId": "Txt_Church_Message_ContinueConfirm_Save_Pri",
+        "Text": "*: Actualicé sin problemas tu registro de aventuras. ¿Piensas continuar tu aventura desde este punto, <IfGender_LEADER(hijo mío,hija mía,)>?<NO_INPUT>"
+      },
+      "Txt_Church_Message_ContinueConfirm_Pri": {
+        "SelfId": "Txt_Church_Message_ContinueConfirm_Pri",
+        "Text": "*: ¿Piensas continuar tu aventura desde este punto, <IfGender_LEADER(hijo mío,hija mía,)>?<NO_INPUT>"
+      },
+      "Txt_Church_Message_ContinueConfirmNosave_Pri": {
+        "SelfId": "Txt_Church_Message_ContinueConfirmNosave_Pri",
+        "Text": "*: ¡¿Qué?! ¿Piensas abandonar tu aventura sin actualizar tu progreso?<KEY_WAIT>\r\n*: Si lo haces, tu próximo viaje comenzará desde el punto en el que creaste un registro de aventuras por última vez. ¿Quieres continuar?<NO_INPUT>"
+      },
+      "Txt_Church_Message_ContinueNoSave_Pri": {
+        "SelfId": "Txt_Church_Message_ContinueNoSave_Pri",
+        "Text": "*: ¿Cambiaste de opinión?"
+      },
+      "Txt_Church_Message_Continue_Pri": {
+        "SelfId": "Txt_Church_Message_Continue_Pri",
+        "Text": "*: Muy bien. ¡Adelante, valiente {LEADER}, y que la Diosa te sonría, sea cual sea el camino que elijas!"
+      },
+      "Txt_Church_Message_GameEnd_Pri": {
+        "SelfId": "Txt_Church_Message_GameEnd_Pri",
+        "Text": "*: ¡En nombre de todo lo que es grande y compasivo, deseo a esta criatura un respiro pacífico!"
+      },
+      "Txt_Church_Message_GameStart_Pri": {
+        "SelfId": "Txt_Church_Message_GameStart_Pri",
+        "Text": "*: ¡<IfGender_LEADER(Bienvenido,Bienvenida,)> otra vez, {LEADER}! ¿Pudiste descansar con tranquilidad?"
+      },
+      "Txt_Church_Message_Defeated_Pri": {
+        "SelfId": "Txt_Church_Message_Defeated_Pri",
+        "Text": "*: ¡Vamos, vamos, valiente {LEADER}! No podemos permitirnos que mueras ahora, ¿verdad?<KEY_WAIT>\r\n*: Se te dará otra oportunidad, afortunadamente.<KEY_WAIT>\r\n*: No vayas a desperdiciarla, te pido.\r\nMuy bien, ¡adelante, valiente {LEADER}, y que la cautela guíe tu mano!"
+      },
+      "Txt_Church_Message_LevelMax_Pri": {
+        "SelfId": "Txt_Church_Message_LevelMax_Pri",
+        "Text": "*: Mi valiente {ACTOR}, eres más que <IfGender_ACTOR(poderoso,poderosa,)>."
+      },
+      "Txt_Church_Message_EXPMax_Pri": {
+        "SelfId": "Txt_Church_Message_EXPMax_Pri",
+        "Text": "*: Mi valiente {ACTOR}, te sobra experiencia, no hay duda."
+      },
+      "Txt_Church_Message_NextlevelTop_Pri": {
+        "SelfId": "Txt_Church_Message_NextlevelTop_Pri",
+        "Text": "*: Se oye una voz sabia y benévola<...>"
+      },
+      "Txt_Church_Message_ReviveTopNoTarget_Pri": {
+        "SelfId": "Txt_Church_Message_ReviveTopNoTarget_Pri",
+        "Text": "*: Da gracias por tu buena fortuna, <IfGender_LEADER(hijo mío,hija mía,)>. <IfSolo(No necesitas que te resuciten,Ninguno de tus compañeros necesita que lo resuciten)>."
+      },
+      "Txt_Church_Message_DetoxiTopNoTarget_Pri": {
+        "SelfId": "Txt_Church_Message_DetoxiTopNoTarget_Pri",
+        "Text": "*: Da gracias por tu buena fortuna, <IfGender_LEADER(hijo mío,hija mía,)>. <IfSolo(No tienes,Ninguno de tus compañeros tiene)> veneno en las venas."
+      },
+      "Txt_Church_Message_CurseTopNoTarget_Pri": {
+        "SelfId": "Txt_Church_Message_CurseTopNoTarget_Pri",
+        "Text": "*: Agradece tu buena fortuna, <IfGender_LEADER(hijo mío,hija mía,)>. <IfSolo(No sufres,Ninguno de tus compañeros sufre)> una maldición."
+      },
+      "Txt_Church_Message_Start_Sis": {
+        "SelfId": "Txt_Church_Message_Start_Sis",
+        "Text": "*: Oveja descarriada de la gran Pastora, ¿en qué podemos ayudarte?<NO_INPUT>"
+      },
+      "Txt_Church_Message_StartNight_Sis": {
+        "SelfId": "Txt_Church_Message_StartNight_Sis",
+        "Text": "*: <IfGender_LEADER(Bienvenido,Bienvenida,)>, oveja descarriada de la gran Pastora. ¿Cómo podemos ayudarte en esta hora tardía?<NO_INPUT>"
+      },
+      "Txt_Church_Message_ReviveTop_Sis": {
+        "SelfId": "Txt_Church_Message_ReviveTop_Sis",
+        "Text": "*: ¿A quién debemos pedir a la Diosa que regrese al mundo de los vivos?<NO_INPUT>"
+      },
+      "Txt_Church_Message_Alive_Sis": {
+        "SelfId": "Txt_Church_Message_Alive_Sis",
+        "Text": "*: Debes estar <IfGender_LEADER(equivocado,equivocada,)>.\r\n¡{ACTOR} parece tener mucha vitalidad como para haber muerto!"
+      },
+      "Txt_Church_Message_Revive_Sis": {
+        "SelfId": "Txt_Church_Message_Revive_Sis",
+        "Text": "*: ¡Oh, Diosa de la luz!\r\n¡Nuestra gran y benévola Pastora!<KEY_WAIT>\r\n*: ¡Si es Tu voluntad, por favor, trae a Tu fiel {ACTOR}, quien te tiene gran devoción, de vuelta a este mundo!<NO_INPUT>"
+      },
+      "Txt_Church_Message_ReviveResult_Sis": {
+        "SelfId": "Txt_Church_Message_ReviveResult_Sis",
+        "Text": "¡<Cap>{ACTOR} resucitó!"
+      },
+      "Txt_Church_Message_DetoxiTop_Sis": {
+        "SelfId": "Txt_Church_Message_DetoxiTop_Sis",
+        "Text": "*: ¿A quién debo tratar por envenenamiento?<NO_INPUT>"
+      },
+      "Txt_Church_Message_NotPoison_Sis": {
+        "SelfId": "Txt_Church_Message_NotPoison_Sis",
+        "Text": "*: ¡Pero {ACTOR} no parece sufrir envenenamiento!"
+      },
+      "Txt_Church_Message_Detoxi_Sis": {
+        "SelfId": "Txt_Church_Message_Detoxi_Sis",
+        "Text": "*: ¡Oh, gran y benévola Diosa, bendícenos con tu asombroso poder! ¡Por favor, purga el veneno de Tu fiel {ACTOR}!<NO_INPUT>"
+      },
+      "Txt_Church_Message_DetoxiResult_Sis": {
+        "SelfId": "Txt_Church_Message_DetoxiResult_Sis",
+        "Text": "{ACTOR} dejó de sufrir envenenamiento."
+      },
+      "Txt_Church_Message_CurseTop_Sis": {
+        "SelfId": "Txt_Church_Message_CurseTop_Sis",
+        "Text": "*: ¿De quién deseas levantar una maldición?<NO_INPUT>"
+      },
+      "Txt_Church_Message_NotCurse_Sis": {
+        "SelfId": "Txt_Church_Message_NotCurse_Sis",
+        "Text": "*: Debes estar <IfGender_LEADER(equivocado,equivocada,)>, <IfGender_LEADER(hijo mío,hija mía,)>.\r\n¡{ACTOR} no parece estar bajo ninguna maldición!"
+      },
+      "Txt_Church_Message_HealCurse_Sis": {
+        "SelfId": "Txt_Church_Message_HealCurse_Sis",
+        "Text": "*: ¡Oh, omnipotente Diosa, revela Tu poder celestial! ¡Elimina la impía maldición que atormenta a {ACTOR}!<NO_INPUT>"
+      },
+      "Txt_Church_Message_HealCurseResult_Sis": {
+        "SelfId": "Txt_Church_Message_HealCurseResult_Sis",
+        "Text": "{ACTOR} ya no está <IfGender_ACTOR(maldito,maldita,)>."
+      },
+      "Txt_Church_Message_Confirm_Sis": {
+        "SelfId": "Txt_Church_Message_Confirm_Sis",
+        "Text": "*: Si me permites<...> Para llevar a cabo esta tarea, necesitaré una contribución de {VALUE} <IfSing_VALUE(moneda,monedas)> de oro. ¿Me lo concederás?<NO_INPUT>"
+      },
+      "Txt_Church_Message_Shotage_Sis": {
+        "SelfId": "Txt_Church_Message_Shotage_Sis",
+        "Text": "*: Me temo que he pedido más de lo que puedes aportar."
+      },
+      "Txt_Church_Message_PaymentCancel_Sis": {
+        "SelfId": "Txt_Church_Message_PaymentCancel_Sis",
+        "Text": "*: ¡Perdóname, oh, Diosa, por pedir demasiado a <IfSolo(esta pobre oveja perdida,estas pobres ovejas perdidas)>!"
+      },
+      "Txt_Church_Message_Cancel_Sis": {
+        "SelfId": "Txt_Church_Message_Cancel_Sis",
+        "Text": "*: Ya veo. Como desees.\r\nQue la Diosa te sonría."
+      },
+      "Txt_Church_Message_StartAgain_Sis": {
+        "SelfId": "Txt_Church_Message_StartAgain_Sis",
+        "Text": "*: ¿Hay algo más en lo que pueda ayudarte?<NO_INPUT>"
+      },
+      "Txt_Church_Message_Finish_Sis": {
+        "SelfId": "Txt_Church_Message_Finish_Sis",
+        "Text": "*: Que la Diosa te acompañe.\r\nEspero volver a verte pronto."
+      },
+      "Txt_Church_Message_SaveConfirm_Sis": {
+        "SelfId": "Txt_Church_Message_SaveConfirm_Sis",
+        "Text": "*: Confiesa todo lo que has hecho, <IfGender_LEADER(hijo mío,hija mía,)>, para que pueda anotarlo en un registro de aventuras.<NO_INPUT>"
+      },
+      "Txt_Church_Message_SaveCancel_Sis": {
+        "SelfId": "Txt_Church_Message_SaveCancel_Sis",
+        "Text": "*: Ya veo. Como desees.\r\nQue la Diosa te sonría."
+      },
+      "Txt_Church_Message_SaveTop_Sis": {
+        "SelfId": "Txt_Church_Message_SaveTop_Sis",
+        "Text": "*: ¿En qué registro quieres que guarde esto?<NO_INPUT>"
+      },
+      "Txt_Church_Message_OverwriteConfirm_Sis": {
+        "SelfId": "Txt_Church_Message_OverwriteConfirm_Sis",
+        "Text": "*: En ese caso, debo sobrescribir {WORD} Nv. {VALUE}. ¿Deseas que proceda, <IfGender_LEADER(hijo mío,hija mía,)>?<NO_INPUT>"
+      },
+      "Txt_Church_Message_ContinueConfirm_Save_Sis": {
+        "SelfId": "Txt_Church_Message_ContinueConfirm_Save_Sis",
+        "Text": "*: Actualicé sin problemas tu registro de aventuras. ¿Piensas continuar tu aventura desde este punto?<NO_INPUT>"
+      },
+      "Txt_Church_Message_ContinueConfirm_Sis": {
+        "SelfId": "Txt_Church_Message_ContinueConfirm_Sis",
+        "Text": "*: ¿Piensas continuar tu aventura desde este punto?<NO_INPUT>"
+      },
+      "Txt_Church_Message_ContinueConfirmNosave_Sis": {
+        "SelfId": "Txt_Church_Message_ContinueConfirmNosave_Sis",
+        "Text": "*: ¿Realmente piensas abandonar tu aventura sin registrar tu progreso?<KEY_WAIT>\r\n*: Si lo haces, tu próximo viaje comenzará desde el punto en el que creaste un registro de aventuras por última vez. ¿Quieres continuar?<NO_INPUT>"
+      },
+      "Txt_Church_Message_ContinueNoSave_Sis": {
+        "SelfId": "Txt_Church_Message_ContinueNoSave_Sis",
+        "Text": "*: Ya veo. Como desees.\r\nQue la Diosa te sonría, {LEADER}."
+      },
+      "Txt_Church_Message_Continue_Sis": {
+        "SelfId": "Txt_Church_Message_Continue_Sis",
+        "Text": "*: Que la Diosa te sonría, {LEADER}."
+      },
+      "Txt_Church_Message_GameEnd_Sis": {
+        "SelfId": "Txt_Church_Message_GameEnd_Sis",
+        "Text": "*: ¡Llamo a aquellos que nos guardan y guían para que permitan a <IfGender_LEADER(este fiel cordero,esta fiel cordera,)> reposar en paz por un tiempo!"
+      },
+      "Txt_Church_Message_GameStart_Sis": {
+        "SelfId": "Txt_Church_Message_GameStart_Sis",
+        "Text": "*: ¡Mis plegarias han sido escuchadas! Vuelves a acompañarnos, {LEADER}."
+      },
+      "Txt_Church_Message_Defeated_Sis": {
+        "SelfId": "Txt_Church_Message_Defeated_Sis",
+        "Text": "*: Llamo a aquellos que nos guardan y nos guían<...> Por favor, ¡protejan a esta pobre oveja perdida!"
+      },
+      "Txt_Church_Message_ReviveTopNoTarget_Sis": {
+        "SelfId": "Txt_Church_Message_ReviveTopNoTarget_Sis",
+        "Text": "*: No temas, <IfGender_LEADER(hijo mío,hija mía,)>. <IfSolo(El hecho de que puedas conversar conmigo ahora mismo significa que no necesitas que te resucite,Ninguno de tus compañeros ha sufrido heridas tan graves como para tener que resucitarlo)>."
+      },
+      "Txt_Church_Message_DetoxiTopNoTarget_Sis": {
+        "SelfId": "Txt_Church_Message_DetoxiTopNoTarget_Sis",
+        "Text": "*: No temas, <IfGender_LEADER(hijo mío,hija mía,)>. Rezar por la purificación no es necesario."
+      },
+      "Txt_Church_Message_CurseTopNoTarget_Sis": {
+        "SelfId": "Txt_Church_Message_CurseTopNoTarget_Sis",
+        "Text": "*: No temas, <IfGender_LEADER(hijo mío,hija mía,)>. Rezar por la bendición no es necesario."
+      },
+      "Txt_Church_Message_Start_ALIAHAN": {
+        "SelfId": "Txt_Church_Message_Start_ALIAHAN",
+        "Text": "*: Valiente <IfGender_LEADER(guerrero,guerrera,)>, ¿cómo puede ayudarte nuestra iglesia?<NO_INPUT>"
+      },
+      "Txt_Church_Message_StartNight_ALIAHAN": {
+        "SelfId": "Txt_Church_Message_StartNight_ALIAHAN",
+        "Text": "*: ¿Qué te trae a nuestra iglesia en plena noche, valiente <IfGender_LEADER(guerrero,guerrera,)>?<NO_INPUT>"
+      },
+      "Txt_Church_Message_Start_SAMANOSA": {
+        "SelfId": "Txt_Church_Message_Start_SAMANOSA",
+        "Text": "*: <IfGender_LEADER(Salvador,Salvadora,)> de Manoza, ¿cómo puede ayudarte nuestra iglesia?<NO_INPUT>"
+      },
+      "Txt_Church_Message_StartNight_SAMANOSA": {
+        "SelfId": "Txt_Church_Message_StartNight_SAMANOSA",
+        "Text": "*: ¿Qué te trae a nuestra iglesia en plena noche, <IfGender_LEADER(salvador,salvadora,)> de Manoza?<NO_INPUT>"
+      },
+      "Txt_Church_Message_Start_EDINBEAR": {
+        "SelfId": "Txt_Church_Message_Start_EDINBEAR",
+        "Text": "*: La Diosa escucha a todos sus hijos, incluso a los menos afortunados. Dime, ¿cómo puede ayudarte nuestra iglesia?<NO_INPUT>"
+      },
+      "Txt_Church_Message_StartNight_EDINBEAR": {
+        "SelfId": "Txt_Church_Message_StartNight_EDINBEAR",
+        "Text": "*: No temas, la Diosa escucha a todos sus hijos, incluso a los menos afortunados. ¿Qué te trae a nuestra iglesia en plena noche?<NO_INPUT>"
+      },
+      "Txt_Church_Message_Start_MBR": {
+        "SelfId": "Txt_Church_Message_Start_MBR",
+        "Text": "*: Debo admitir que, en mis momentos más débiles, me siento tentada a abandonar mis obligaciones y entregarme a los mismos pasatiempos que los demás. Sin embargo, no puedo abandonar a la Diosa. Dime, ¿en qué puedo servirte?"
+      },
+      "Txt_Church_Message_Defeated_ALIAHAN": {
+        "SelfId": "Txt_Church_Message_Defeated_ALIAHAN",
+        "Text": "*: Vamos, valiente {LEADER}, no podemos permitirnos que mueras ahora, ¿verdad?<KEY_WAIT>\r\n*: Afortunadamente, se te dará otra oportunidad.<KEY_WAIT>\r\n*: No la desperdicies.\r\n¡Ahora, adelante, valiente {LEADER}, y enorgullece a Ortega!"
+      },
+      "Txt_Church_Message_Defeated_SAMANOSA": {
+        "SelfId": "Txt_Church_Message_Defeated_SAMANOSA",
+        "Text": "*: ¡Oh, valiente {LEADER}, pensar que uno de los tuyos puede caer tan fácilmente!<KEY_WAIT>\r\n*: Afortunadamente, se te dará otra oportunidad.<KEY_WAIT>\r\n*: No la desaproveches.\r\n¡Ahora, adelante, valiente {LEADER}, y que la cautela guíe tu mano!"
+      },
+      "Txt_Church_Message_Defeated_EDINBEAR": {
+        "SelfId": "Txt_Church_Message_Defeated_EDINBEAR",
+        "Text": "*: Oh, valiente {LEADER}, debes recordar que el mundo es un lugar peligroso; sería una imprudencia de tu parte no tener más cuidado en tus viajes.<KEY_WAIT>\r\n*: Afortunaamente, se te dará otra oportunidad.<KEY_WAIT>\r\n*: Diosa todopoderosa, por favor, protege a esta pobre oveja perdida."
+      },
+      "Txt_Church_Message_Defeated_LUDATORM": {
+        "SelfId": "Txt_Church_Message_Defeated_LUDATORM",
+        "Text": "*: ¡Oh, valiente {LEADER}, no podemos permitirnos que mueras ahora!<KEY_WAIT>\r\n*: Afortunadamente, se te dará otra oportunidad.<KEY_WAIT>\r\n*: No la desaproveches.\r\nAhora, ¡adelante, valiente {LEADER}, y que la cautela guíe tu mano!"
+      }
+    }
+  }
+]

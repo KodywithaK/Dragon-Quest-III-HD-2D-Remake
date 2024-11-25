@@ -1,0 +1,160 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Unit_ItemBag",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Unit_ItemBagTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "UNIT_ITEMBAG_BAG_NORMAL": {
+        "SelfId": "UNIT_ITEMBAG_BAG_NORMAL",
+        "bLimitStockNum": false,
+        "bEnableStackSameItem": true,
+        "GopIdItem1": "None",
+        "GopIdItem2": "None",
+        "GopIdItem3": "None"
+      },
+      "UNIT_ITEMBAG_BAG_IMPORTANT": {
+        "SelfId": "UNIT_ITEMBAG_BAG_IMPORTANT",
+        "bLimitStockNum": false,
+        "bEnableStackSameItem": true,
+        "GopIdItem1": "ITEM_IMPORTANT_CONTINENT_MAP",
+        "GopIdItem2": "None",
+        "GopIdItem3": "None"
+      },
+      "UNIT_ITEMBAG_HERO": {
+        "SelfId": "UNIT_ITEMBAG_HERO",
+        "bLimitStockNum": true,
+        "bEnableStackSameItem": false,
+        "GopIdItem1": "ITEM_EQUIP_WEAPON_COPPER_SWORD",
+        "GopIdItem2": "ITEM_EQUIP_ARMOR_WAYFARERS_CLOTHES",
+        "GopIdItem3": "ITEM_EQUIP_SHIELD_LEATHER_SHIELD"
+      },
+      "UNIT_ITEMBAG_NORMAL_CHARACTER": {
+        "SelfId": "UNIT_ITEMBAG_NORMAL_CHARACTER",
+        "bLimitStockNum": true,
+        "bEnableStackSameItem": false,
+        "GopIdItem1": "ITEM_EQUIP_ARMOR_PLAIN_CLOTHES",
+        "GopIdItem2": "ITEM_USE_ITEM_MEDICAL_HERB",
+        "GopIdItem3": "ITEM_USE_ITEM_MEDICAL_HERB"
+      },
+      "UNIT_ITEMBAG_SLIME": {
+        "SelfId": "UNIT_ITEMBAG_SLIME",
+        "bLimitStockNum": true,
+        "bEnableStackSameItem": false,
+        "GopIdItem1": "ITEM_USE_ITEM_MEDICAL_HERB",
+        "GopIdItem2": "None",
+        "GopIdItem3": "None"
+      },
+      "UNIT_ITEMBAG_STARKRAVEN": {
+        "SelfId": "UNIT_ITEMBAG_STARKRAVEN",
+        "bLimitStockNum": true,
+        "bEnableStackSameItem": false,
+        "GopIdItem1": "ITEM_USE_ITEM_MEDICAL_HERB",
+        "GopIdItem2": "None",
+        "GopIdItem3": "None"
+      },
+      "UNIT_ITEMBAG_BUNICORN": {
+        "SelfId": "UNIT_ITEMBAG_BUNICORN",
+        "bLimitStockNum": true,
+        "bEnableStackSameItem": false,
+        "GopIdItem1": "ITEM_USE_ITEM_MEDICAL_HERB",
+        "GopIdItem2": "None",
+        "GopIdItem3": "None"
+      },
+      "UNIT_ITEMBAG_ANTNIBBLER": {
+        "SelfId": "UNIT_ITEMBAG_ANTNIBBLER",
+        "bLimitStockNum": true,
+        "bEnableStackSameItem": false,
+        "GopIdItem1": "ITEM_EQUIP_HELMET_LEATHER_HAT",
+        "GopIdItem2": "None",
+        "GopIdItem3": "None"
+      },
+      "UNIT_ITEMBAG_BATTERFLY": {
+        "SelfId": "UNIT_ITEMBAG_BATTERFLY",
+        "bLimitStockNum": true,
+        "bEnableStackSameItem": false,
+        "GopIdItem1": "ITEM_USE_ITEM_CHIMERA_WING",
+        "GopIdItem2": "None",
+        "GopIdItem3": "None"
+      },
+      "UNIT_ITEMBAG_TOADY": {
+        "SelfId": "UNIT_ITEMBAG_TOADY",
+        "bLimitStockNum": true,
+        "bEnableStackSameItem": false,
+        "GopIdItem1": "ITEM_USE_ITEM_MEDICAL_HERB",
+        "GopIdItem2": "None",
+        "GopIdItem3": "None"
+      },
+      "UNIT_ITEMBAG_BUBBLESLIME": {
+        "SelfId": "UNIT_ITEMBAG_BUBBLESLIME",
+        "bLimitStockNum": true,
+        "bEnableStackSameItem": false,
+        "GopIdItem1": "ITEM_USE_ITEM_ANTIDOTAL_HERB",
+        "GopIdItem2": "None",
+        "GopIdItem3": "None"
+      },
+      "UNIT_ITEMBAG_PRESTIDIGITATOR": {
+        "SelfId": "UNIT_ITEMBAG_PRESTIDIGITATOR",
+        "bLimitStockNum": true,
+        "bEnableStackSameItem": false,
+        "GopIdItem1": "ITEM_USE_ITEM_HOLY_WATER",
+        "GopIdItem2": "None",
+        "GopIdItem3": "None"
+      },
+      "UNIT_ITEMBAG_WASPION": {
+        "SelfId": "UNIT_ITEMBAG_WASPION",
+        "bLimitStockNum": true,
+        "bEnableStackSameItem": false,
+        "GopIdItem1": "ITEM_USE_ITEM_SEED_OF_LUCK",
+        "GopIdItem2": "None",
+        "GopIdItem3": "None"
+      },
+      "UNIT_ITEMBAG_HEALSLIME": {
+        "SelfId": "UNIT_ITEMBAG_HEALSLIME",
+        "bLimitStockNum": true,
+        "bEnableStackSameItem": false,
+        "GopIdItem1": "ITEM_USE_ITEM_SEED_OF_STRENGTH",
+        "GopIdItem2": "None",
+        "GopIdItem3": "None"
+      },
+      "UNIT_ITEMBAG_ANTGOBBLER": {
+        "SelfId": "UNIT_ITEMBAG_ANTGOBBLER",
+        "bLimitStockNum": true,
+        "bEnableStackSameItem": false,
+        "GopIdItem1": "ITEM_USE_ITEM_MEDICAL_HERB",
+        "GopIdItem2": "None",
+        "GopIdItem3": "None"
+      },
+      "UNIT_ITEMBAG_SPIKEDHARE": {
+        "SelfId": "UNIT_ITEMBAG_SPIKEDHARE",
+        "bLimitStockNum": true,
+        "bEnableStackSameItem": false,
+        "GopIdItem1": "ITEM_EQUIP_HELMET_LEATHER_HAT",
+        "GopIdItem2": "None",
+        "GopIdItem3": "None"
+      },
+      "UNIT_ITEMBAG_TOXICTOAD": {
+        "SelfId": "UNIT_ITEMBAG_TOXICTOAD",
+        "bLimitStockNum": true,
+        "bEnableStackSameItem": false,
+        "GopIdItem1": "ITEM_USE_ITEM_ANTIDOTAL_HERB",
+        "GopIdItem2": "None",
+        "GopIdItem3": "None"
+      },
+      "UNIT_ITEMBAG_KILLERPILLAR": {
+        "SelfId": "UNIT_ITEMBAG_KILLERPILLAR",
+        "bLimitStockNum": true,
+        "bEnableStackSameItem": false,
+        "GopIdItem1": "ITEM_USE_ITEM_MEDICAL_HERB",
+        "GopIdItem2": "None",
+        "GopIdItem3": "None"
+      }
+    }
+  }
+]

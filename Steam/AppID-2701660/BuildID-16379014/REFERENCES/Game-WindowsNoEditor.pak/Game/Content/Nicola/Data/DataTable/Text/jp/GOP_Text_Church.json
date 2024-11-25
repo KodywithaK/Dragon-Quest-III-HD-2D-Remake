@@ -1,0 +1,380 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_Church",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Church_UI_Top_01": {
+        "SelfId": "Txt_Church_UI_Top_01",
+        "Text": "おいのりをする"
+      },
+      "Txt_Church_UI_Top_02": {
+        "SelfId": "Txt_Church_UI_Top_02",
+        "Text": "おつげをきく"
+      },
+      "Txt_Church_UI_Top_03": {
+        "SelfId": "Txt_Church_UI_Top_03",
+        "Text": "いきかえらせる"
+      },
+      "Txt_Church_UI_Top_04": {
+        "SelfId": "Txt_Church_UI_Top_04",
+        "Text": "どくのちりょう"
+      },
+      "Txt_Church_UI_Top_05": {
+        "SelfId": "Txt_Church_UI_Top_05",
+        "Text": "のろいをとく"
+      },
+      "Txt_Church_UI_Top_06": {
+        "SelfId": "Txt_Church_UI_Top_06",
+        "Text": "やめる"
+      },
+      "Txt_Church_Message_Start_Pri": {
+        "SelfId": "Txt_Church_Message_Start_Pri",
+        "Text": "たのもしき　<RUBY>神[かみ]のしもべよ\r\nわが<RUBY>教会[きょうかい]に　どんな　ご<RUBY>用[よう]じゃな？<NO_INPUT>"
+      },
+      "Txt_Church_Message_StartNight_Pri": {
+        "SelfId": "Txt_Church_Message_StartNight_Pri",
+        "Text": "こんな　よふけに　わが<RUBY>教会[きょうかい]に\r\nなんの　ご<RUBY>用[よう]じゃな？<NO_INPUT>"
+      },
+      "Txt_Church_Message_ReviveTop_Pri": {
+        "SelfId": "Txt_Church_Message_ReviveTop_Pri",
+        "Text": "どなたを　この<RUBY>世[よ]へ\r\n<RUBY>呼[よ]びもどすのじゃな？<NO_INPUT>"
+      },
+      "Txt_Church_Message_Alive_Pri": {
+        "SelfId": "Txt_Church_Message_Alive_Pri",
+        "Text": "ごじょうだんを。\r\n{ACTOR}どのは　<RUBY>生[い]きていらっしゃる！"
+      },
+      "Txt_Church_Message_Revive_Pri": {
+        "SelfId": "Txt_Church_Message_Revive_Pri",
+        "Text": "おお　わが<RUBY>主[しゅ]よ！　<RUBY>全知全能[ぜんちぜんのう]の<RUBY>神[かみ]よ！\r\n<RUBY>忠実[ちゅうじつ]なる　<RUBY>神[かみ]のしもべ　{ACTOR}の　みたまを\r\nいまここに　<RUBY>呼[よ]びもどしたまえっ！<NO_INPUT>"
+      },
+      "Txt_Church_Message_ReviveResult_Pri": {
+        "SelfId": "Txt_Church_Message_ReviveResult_Pri",
+        "Text": "{ACTOR}は　よみがえった！"
+      },
+      "Txt_Church_Message_DetoxiTop_Pri": {
+        "SelfId": "Txt_Church_Message_DetoxiTop_Pri",
+        "Text": "どなたの　<RUBY>毒[どく]を　とるのじゃな？<NO_INPUT>"
+      },
+      "Txt_Church_Message_NotPoison_Pri": {
+        "SelfId": "Txt_Church_Message_NotPoison_Pri",
+        "Text": "{ACTOR}どのは\r\n<RUBY>毒[どく]に　おかされては　いませんぞ。"
+      },
+      "Txt_Church_Message_Detoxi_Pri": {
+        "SelfId": "Txt_Church_Message_Detoxi_Pri",
+        "Text": "おお<RUBY>神[かみ]よ　おちからを！\r\n{ACTOR}より　<RUBY>毒[どく]のけがれを\r\n<RUBY>消[け]し<RUBY>去[さ]りたまえっ！<NO_INPUT>"
+      },
+      "Txt_Church_Message_DetoxiResult_Pri": {
+        "SelfId": "Txt_Church_Message_DetoxiResult_Pri",
+        "Text": "{ACTOR}の\r\n<RUBY>身体[からだ]の　どくがきえた！"
+      },
+      "Txt_Church_Message_CurseTop_Pri": {
+        "SelfId": "Txt_Church_Message_CurseTop_Pri",
+        "Text": "どなたの　<RUBY>呪[のろ]いを　とくのじゃな？<NO_INPUT>"
+      },
+      "Txt_Church_Message_NotCurse_Pri": {
+        "SelfId": "Txt_Church_Message_NotCurse_Pri",
+        "Text": "{ACTOR}どのは\r\n<RUBY>呪[のろ]われては　いませんぞ。"
+      },
+      "Txt_Church_Message_HealCurse_Pri": {
+        "SelfId": "Txt_Church_Message_HealCurse_Pri",
+        "Text": "おお<RUBY>神[かみ]よ　おちからを！\r\nいまわしき　<RUBY>呪[のろ]いを　{ACTOR}より\r\n<RUBY>消[け]し<RUBY>去[さ]りたまえっ！<NO_INPUT>"
+      },
+      "Txt_Church_Message_HealCurseResult_Pri": {
+        "SelfId": "Txt_Church_Message_HealCurseResult_Pri",
+        "Text": "{ACTOR}から　<RUBY>呪[のろ]いが　きえた！"
+      },
+      "Txt_Church_Message_Confirm_Pri": {
+        "SelfId": "Txt_Church_Message_Confirm_Pri",
+        "Text": "さすれば　わが<RUBY>教会[きょうかい]に\r\n{VALUE}ゴールドの　ご<RUBY>寄付[きふ]を。\r\nよろしいですかな？<NO_INPUT>"
+      },
+      "Txt_Church_Message_Shotage_Pri": {
+        "SelfId": "Txt_Church_Message_Shotage_Pri",
+        "Text": "なんと　<RUBY>寄付[きふ]をするには\r\nお<RUBY>金[かね]がたりないでは　ありませんか！\r\n<KEY_WAIT>\r\nおお<RUBY>神[かみ]よ　ゆるしたまえ！\r\nこんな　まずしい<RUBY>人[ひと]に　<RUBY>無理[むり]な<RUBY>寄付[きふ]を\r\nたのんだ<RUBY>私[わたし]が　<RUBY>悪[わる]かったのです！"
+      },
+      "Txt_Church_Message_PaymentCancel_Pri": {
+        "SelfId": "Txt_Church_Message_PaymentCancel_Pri",
+        "Text": "<RUBY>教会[きょうかい]への<RUBY>寄付[きふ]は\r\n<RUBY>神[かみ]への<RUBY>感謝[かんしゃ]のきもち。\r\nそれを　<RUBY>惜[お]しむとは　なさけない。"
+      },
+      "Txt_Church_Message_Cancel_Pri": {
+        "SelfId": "Txt_Church_Message_Cancel_Pri",
+        "Text": "なんと　やめると　<RUBY>申[もう]されるか。"
+      },
+      "Txt_Church_Message_StartAgain_Pri": {
+        "SelfId": "Txt_Church_Message_StartAgain_Pri",
+        "Text": "ほかに　ご<RUBY>用[よう]は　おありかな？<NO_INPUT>"
+      },
+      "Txt_Church_Message_Finish_Pri": {
+        "SelfId": "Txt_Church_Message_Finish_Pri",
+        "Text": "では　お<RUBY>気[き]をつけて。\r\n<RUBY>神[かみ]の　ご<RUBY>加護[かご]の　あらんことを。"
+      },
+      "Txt_Church_Message_Nextlevel_Pri": {
+        "SelfId": "Txt_Church_Message_Nextlevel_Pri",
+        "Text": "{ACTOR}よ。\r\nあなたは　あと　{VALUE}の<RUBY>経験[けいけん]で\r\n<RUBY>次[つぎ]のレベルに　なるでしょう。"
+      },
+      "Txt_Church_Message_SaveConfirm_Pri": {
+        "SelfId": "Txt_Church_Message_SaveConfirm_Pri",
+        "Text": "そなたらの　<RUBY>旅[たび]のせいかを\r\nこの　<RUBY>冒険[ぼうけん]の<RUBY>書[しょ]に\r\n<RUBY>記録[きろく]しても　よいかな？<NO_INPUT>"
+      },
+      "Txt_Church_Message_SaveCancel_Pri": {
+        "SelfId": "Txt_Church_Message_SaveCancel_Pri",
+        "Text": "そうか…　では　<RUBY>書[か]きとめないでおこう。"
+      },
+      "Txt_Church_Message_SaveTop_Pri": {
+        "SelfId": "Txt_Church_Message_SaveTop_Pri",
+        "Text": "では　<RUBY>神[かみ]の<RUBY>前[まえ]に\r\nこれまでの<RUBY>行[おこな]いを　<RUBY>告白[こくはく]し\r\n<RUBY>冒険[ぼうけん]の<RUBY>書[しょ]に　<RUBY>記録[きろく]するがよい。<KEY_WAIT>\r\nなん<RUBY>番[ばん]の　<RUBY>冒険[ぼうけん]の<RUBY>書[しょ]に\r\n<RUBY>記録[きろく]するおつもりか？\r\n<NO_INPUT>"
+      },
+      "Txt_Church_Message_OverwriteConfirm_Pri": {
+        "SelfId": "Txt_Church_Message_OverwriteConfirm_Pri",
+        "Text": "{WORD}　Ｌｖ{VALUE}　に\r\n<RUBY>上書[うわが]きするが　それでも　よろしいかな？<NO_INPUT>"
+      },
+      "Txt_Church_Message_ContinueConfirm_Save_Pri": {
+        "SelfId": "Txt_Church_Message_ContinueConfirm_Save_Pri",
+        "Text": "たしかに　<RUBY>記録[きろく]しましたぞ。\r\nまだ　<RUBY>冒険[ぼうけん]を　<RUBY>続[つづ]けられる\r\nおつもりか？<NO_INPUT>"
+      },
+      "Txt_Church_Message_ContinueConfirm_Pri": {
+        "SelfId": "Txt_Church_Message_ContinueConfirm_Pri",
+        "Text": "まだ　<RUBY>冒険[ぼうけん]を　<RUBY>続[つづ]けられる\r\nおつもりか？<NO_INPUT>"
+      },
+      "Txt_Church_Message_ContinueConfirmNosave_Pri": {
+        "SelfId": "Txt_Church_Message_ContinueConfirmNosave_Pri",
+        "Text": "なんと！　<RUBY>記録[きろく]せずに　<RUBY>休[やす]むというのか。<KEY_WAIT>\r\nすると　そなたの　<RUBY>旅[たび]の<RUBY>記録[きろく]が　<RUBY>前[まえ]に\r\n<RUBY>書[か]きとめた　ところまで　もどってしまうが\r\nいいかね？<NO_INPUT>"
+      },
+      "Txt_Church_Message_ContinueNoSave_Pri": {
+        "SelfId": "Txt_Church_Message_ContinueNoSave_Pri",
+        "Text": "おや　やめるのかね。"
+      },
+      "Txt_Church_Message_Continue_Pri": {
+        "SelfId": "Txt_Church_Message_Continue_Pri",
+        "Text": "では　ゆくがよい！\r\n{LEADER}よ！"
+      },
+      "Txt_Church_Message_GameEnd_Pri": {
+        "SelfId": "Txt_Church_Message_GameEnd_Pri",
+        "Text": "おお　<RUBY>神[かみ]よ！\r\nこの<RUBY>者[もの]に　ひとときの\r\n<RUBY>休息[きゅうそく]を　<RUBY>与[あた]えたまえ。"
+      },
+      "Txt_Church_Message_GameStart_Pri": {
+        "SelfId": "Txt_Church_Message_GameStart_Pri",
+        "Text": "よくぞ　<RUBY>戻[もど]られた！\r\n{LEADER}どの！"
+      },
+      "Txt_Church_Message_Defeated_Pri": {
+        "SelfId": "Txt_Church_Message_Defeated_Pri",
+        "Text": "おお　{LEADER}！\r\n<RUBY>死[し]んでしまうとは　ふがいない！\r\n<KEY_WAIT>\r\nそなたに　もういちど\r\n<RUBY>機会[きかい]をあたえよう！\r\n<KEY_WAIT>\r\nあまり　ムリを　せぬようにな。\r\nでは　ゆけ　{LEADER}よ！\r\n"
+      },
+      "Txt_Church_Message_LevelMax_Pri": {
+        "SelfId": "Txt_Church_Message_LevelMax_Pri",
+        "Text": "{ACTOR}は　<RUBY>充分[じゅうぶん]に　<RUBY>強[つよ]くなりました。"
+      },
+      "Txt_Church_Message_EXPMax_Pri": {
+        "SelfId": "Txt_Church_Message_EXPMax_Pri",
+        "Text": "{ACTOR}は　すでに\r\n<RUBY>経験[けいけん]を　つんでいるようです。"
+      },
+      "Txt_Church_Message_NextlevelTop_Pri": {
+        "SelfId": "Txt_Church_Message_NextlevelTop_Pri",
+        "Text": "<RUBY>神[かみ]の<RUBY>声[こえ]が　きこえます。"
+      },
+      "Txt_Church_Message_ReviveTopNoTarget_Pri": {
+        "SelfId": "Txt_Church_Message_ReviveTopNoTarget_Pri",
+        "Text": "チカラ<RUBY>尽[つ]きた<RUBY>者[もの]は　ひとりも　おらぬ<RUBY>様子[ようす]。\r\n<RUBY>神[かみ]のご<RUBY>加護[かご]に　<RUBY>感謝[かんしゃ]するがよい。"
+      },
+      "Txt_Church_Message_DetoxiTopNoTarget_Pri": {
+        "SelfId": "Txt_Church_Message_DetoxiTopNoTarget_Pri",
+        "Text": "<RUBY>毒[どく]におかされた<RUBY>者[もの]は　ひとりも　おらぬ<RUBY>様子[ようす]。\r\n<RUBY>神[かみ]のご<RUBY>加護[かご]に　<RUBY>感謝[かんしゃ]するがよい。"
+      },
+      "Txt_Church_Message_CurseTopNoTarget_Pri": {
+        "SelfId": "Txt_Church_Message_CurseTopNoTarget_Pri",
+        "Text": "<RUBY>呪[のろ]われた<RUBY>者[もの]は　ひとりも　おらぬ<RUBY>様子[ようす]。\r\n<RUBY>神[かみ]のご<RUBY>加護[かご]に　<RUBY>感謝[かんしゃ]するがよい。"
+      },
+      "Txt_Church_Message_Start_Sis": {
+        "SelfId": "Txt_Church_Message_Start_Sis",
+        "Text": "ここは　<RUBY>神[かみ]にみちびかれし\r\n<RUBY>迷[まよ]える<RUBY>小羊[こひつじ]たちの　おとずれる<RUBY>場所[ばしょ]。\r\nわが<RUBY>教会[きょうかい]にどんな　ご<RUBY>用[よう]でしょう？<NO_INPUT>"
+      },
+      "Txt_Church_Message_StartNight_Sis": {
+        "SelfId": "Txt_Church_Message_StartNight_Sis",
+        "Text": "おお　<RUBY>迷[まよ]える<RUBY>小羊[こひつじ]たちよ。\r\nこのような　よふけに　わが<RUBY>教会[きょうかい]に\r\nどんな　ご<RUBY>用[よう]でしょう？<NO_INPUT>"
+      },
+      "Txt_Church_Message_ReviveTop_Sis": {
+        "SelfId": "Txt_Church_Message_ReviveTop_Sis",
+        "Text": "どなたを　<RUBY>生[い]きかえらせて\r\n<RUBY>欲[ほ]しいのですか？<NO_INPUT>"
+      },
+      "Txt_Church_Message_Alive_Sis": {
+        "SelfId": "Txt_Church_Message_Alive_Sis",
+        "Text": "あら？　{ACTOR}さんは\r\n<RUBY>生[い]きていますわ。"
+      },
+      "Txt_Church_Message_Revive_Sis": {
+        "SelfId": "Txt_Church_Message_Revive_Sis",
+        "Text": "ああ　<RUBY>天[てん]に　まします\r\nわれらが　<RUBY>神[かみ]よ！<KEY_WAIT>\r\nいま　ひとたび\r\n{ACTOR}に　<RUBY>命[いのち]の<RUBY>息吹[いぶき]を\r\nおあたえください。<NO_INPUT>"
+      },
+      "Txt_Church_Message_ReviveResult_Sis": {
+        "SelfId": "Txt_Church_Message_ReviveResult_Sis",
+        "Text": "{ACTOR}は　よみがえった！"
+      },
+      "Txt_Church_Message_DetoxiTop_Sis": {
+        "SelfId": "Txt_Church_Message_DetoxiTop_Sis",
+        "Text": "どなたの<RUBY>毒[どく]を　とりましょう？<NO_INPUT>"
+      },
+      "Txt_Church_Message_NotPoison_Sis": {
+        "SelfId": "Txt_Church_Message_NotPoison_Sis",
+        "Text": "あら？　{ACTOR}さんは\r\n<RUBY>毒[どく]に　おかされては　いませんわ。"
+      },
+      "Txt_Church_Message_Detoxi_Sis": {
+        "SelfId": "Txt_Church_Message_Detoxi_Sis",
+        "Text": "ああ　われらが<RUBY>神[かみ]よ。\r\n{ACTOR}を　むしばむ<RUBY>毒[どく]を\r\nおきよめください。<NO_INPUT>"
+      },
+      "Txt_Church_Message_DetoxiResult_Sis": {
+        "SelfId": "Txt_Church_Message_DetoxiResult_Sis",
+        "Text": "{ACTOR}の\r\n<RUBY>身体[からだ]の　どくがきえた！"
+      },
+      "Txt_Church_Message_CurseTop_Sis": {
+        "SelfId": "Txt_Church_Message_CurseTop_Sis",
+        "Text": "どなたの　<RUBY>呪[のろ]いを　ときましょう？<NO_INPUT>"
+      },
+      "Txt_Church_Message_NotCurse_Sis": {
+        "SelfId": "Txt_Church_Message_NotCurse_Sis",
+        "Text": "{ACTOR}さんは\r\n<RUBY>呪[のろ]われて　いませんわ。"
+      },
+      "Txt_Church_Message_HealCurse_Sis": {
+        "SelfId": "Txt_Church_Message_HealCurse_Sis",
+        "Text": "ああ　われらが<RUBY>神[かみ]よ。\r\n{ACTOR}を　いまわしき<RUBY>呪[のろ]いより\r\nときはなちください。<NO_INPUT>"
+      },
+      "Txt_Church_Message_HealCurseResult_Sis": {
+        "SelfId": "Txt_Church_Message_HealCurseResult_Sis",
+        "Text": "{ACTOR}から　<RUBY>呪[のろ]いが　きえた！"
+      },
+      "Txt_Church_Message_Confirm_Sis": {
+        "SelfId": "Txt_Church_Message_Confirm_Sis",
+        "Text": "それでは　わが<RUBY>教会[きょうかい]に\r\n{VALUE}ゴールドの　ご<RUBY>寄付[きふ]を。\r\nよろしいですか？<NO_INPUT>"
+      },
+      "Txt_Church_Message_Shotage_Sis": {
+        "SelfId": "Txt_Church_Message_Shotage_Sis",
+        "Text": "ざんねんですが\r\nお<RUBY>金[かね]が　たりませんわ。"
+      },
+      "Txt_Church_Message_PaymentCancel_Sis": {
+        "SelfId": "Txt_Church_Message_PaymentCancel_Sis",
+        "Text": "<RUBY>無理[むり]にとは　いいません。\r\nすべては　<RUBY>神[かみ]のみこころの\r\nままに……。"
+      },
+      "Txt_Church_Message_Cancel_Sis": {
+        "SelfId": "Txt_Church_Message_Cancel_Sis",
+        "Text": "あら？　やめるのですね。"
+      },
+      "Txt_Church_Message_StartAgain_Sis": {
+        "SelfId": "Txt_Church_Message_StartAgain_Sis",
+        "Text": "ほかに　ご<RUBY>用[よう]は　ありますか？<NO_INPUT>"
+      },
+      "Txt_Church_Message_Finish_Sis": {
+        "SelfId": "Txt_Church_Message_Finish_Sis",
+        "Text": "<RUBY>神[かみ]さまは　いつも　<RUBY>私[わたし]たちを\r\nみまもってくれています。\r\nまた　おいでくださいね。"
+      },
+      "Txt_Church_Message_SaveConfirm_Sis": {
+        "SelfId": "Txt_Church_Message_SaveConfirm_Sis",
+        "Text": "では　<RUBY>神[かみ]の<RUBY>前[まえ]に\r\nこれまでの<RUBY>行[おこな]いを　<RUBY>告白[こくはく]し\r\n<RUBY>冒険[ぼうけん]の<RUBY>書[しょ]に<RUBY>記録[きろく]すると　よいでしょう。<NO_INPUT>"
+      },
+      "Txt_Church_Message_SaveCancel_Sis": {
+        "SelfId": "Txt_Church_Message_SaveCancel_Sis",
+        "Text": "あら？　やめるのですね。"
+      },
+      "Txt_Church_Message_SaveTop_Sis": {
+        "SelfId": "Txt_Church_Message_SaveTop_Sis",
+        "Text": "なん<RUBY>番[ばん]の　<RUBY>冒険[ぼうけん]の<RUBY>書[しょ]に\r\n<RUBY>記録[きろく]なさいますか？<NO_INPUT>"
+      },
+      "Txt_Church_Message_OverwriteConfirm_Sis": {
+        "SelfId": "Txt_Church_Message_OverwriteConfirm_Sis",
+        "Text": "{WORD}　Ｌｖ{VALUE}の\r\n<RUBY>記録[きろく]に　<RUBY>上書[うわが]きしてしまいますが\r\nそれでも　よろしいですか？<NO_INPUT>"
+      },
+      "Txt_Church_Message_ContinueConfirm_Save_Sis": {
+        "SelfId": "Txt_Church_Message_ContinueConfirm_Save_Sis",
+        "Text": "たしかに　<RUBY>記録[きろく]いたしました。\r\nまだ　<RUBY>冒険[ぼうけん]を　お<RUBY>続[つづ]けになりますか？<NO_INPUT>"
+      },
+      "Txt_Church_Message_ContinueConfirm_Sis": {
+        "SelfId": "Txt_Church_Message_ContinueConfirm_Sis",
+        "Text": "まだ　<RUBY>冒険[ぼうけん]を　お<RUBY>続[つづ]けになりますか？<NO_INPUT>"
+      },
+      "Txt_Church_Message_ContinueConfirmNosave_Sis": {
+        "SelfId": "Txt_Church_Message_ContinueConfirmNosave_Sis",
+        "Text": "おや？　<RUBY>記録[きろく]せずに　お<RUBY>休[やす]みになられるのですか？<KEY_WAIT>\r\nすると　あなたの　<RUBY>旅[たび]の<RUBY>記録[きろく]が　<RUBY>前[まえ]に\r\n<RUBY>書[か]きとめたところまで　もどってしまいます。\r\nそれでも　よろしいですか？<NO_INPUT>"
+      },
+      "Txt_Church_Message_ContinueNoSave_Sis": {
+        "SelfId": "Txt_Church_Message_ContinueNoSave_Sis",
+        "Text": "やめるのですね。\r\n{LEADER}に　われらが<RUBY>神[かみ]の\r\nご<RUBY>加護[かご]が　ありますように……。"
+      },
+      "Txt_Church_Message_Continue_Sis": {
+        "SelfId": "Txt_Church_Message_Continue_Sis",
+        "Text": "{LEADER}に　われらが<RUBY>神[かみ]の\r\nご<RUBY>加護[かご]が　ありますように……。"
+      },
+      "Txt_Church_Message_GameEnd_Sis": {
+        "SelfId": "Txt_Church_Message_GameEnd_Sis",
+        "Text": "ああ　われらが<RUBY>神[かみ]よ！\r\nこの<RUBY>迷[まよ]える<RUBY>子羊[こひつじ]に　ひとときの\r\n<RUBY>休息[きゅうそく]を　お<RUBY>与[あた]えください！"
+      },
+      "Txt_Church_Message_GameStart_Sis": {
+        "SelfId": "Txt_Church_Message_GameStart_Sis",
+        "Text": "よく　お<RUBY>戻[もど]りに　なられました。\r\n{LEADER}。"
+      },
+      "Txt_Church_Message_Defeated_Sis": {
+        "SelfId": "Txt_Church_Message_Defeated_Sis",
+        "Text": "{LEADER}に　われらが<RUBY>神[かみ]の\r\nご<RUBY>加護[かご]が　ありますように……。"
+      },
+      "Txt_Church_Message_ReviveTopNoTarget_Sis": {
+        "SelfId": "Txt_Church_Message_ReviveTopNoTarget_Sis",
+        "Text": "ご<RUBY>安心[あんしん]なさい\r\nチカラ<RUBY>尽[つ]きた<RUBY>人[ひと]は　ひとりも　いませんよ。"
+      },
+      "Txt_Church_Message_DetoxiTopNoTarget_Sis": {
+        "SelfId": "Txt_Church_Message_DetoxiTopNoTarget_Sis",
+        "Text": "ご<RUBY>安心[あんしん]なさい\r\n<RUBY>毒[どく]におかされた<RUBY>人[ひと]は　ひとりも　いませんよ。"
+      },
+      "Txt_Church_Message_CurseTopNoTarget_Sis": {
+        "SelfId": "Txt_Church_Message_CurseTopNoTarget_Sis",
+        "Text": "ご<RUBY>安心[あんしん]なさい\r\n<RUBY>呪[のろ]われた<RUBY>人[ひと]は　ひとりも　いませんよ。"
+      },
+      "Txt_Church_Message_Start_ALIAHAN": {
+        "SelfId": "Txt_Church_Message_Start_ALIAHAN",
+        "Text": "アリアハンの　<RUBY>頼[たの]もしき<RUBY>戦士[せんし]よ\r\nわが<RUBY>教会[きょうかい]に　どんな　ご<RUBY>用[よう]じゃな？<NO_INPUT>"
+      },
+      "Txt_Church_Message_StartNight_ALIAHAN": {
+        "SelfId": "Txt_Church_Message_StartNight_ALIAHAN",
+        "Text": "アリアハンの　<RUBY>頼[たの]もしき<RUBY>戦士[せんし]よ\r\nこんな　<RUBY>夜[よ]ふけに　わが<RUBY>教会[きょうかい]に\r\nなんの　ご<RUBY>用[よう]じゃな？<NO_INPUT>"
+      },
+      "Txt_Church_Message_Start_SAMANOSA": {
+        "SelfId": "Txt_Church_Message_Start_SAMANOSA",
+        "Text": "おお　サマンオサを　<RUBY>救[すく]いし<RUBY>者[もの]よ\r\nわが<RUBY>教会[きょうかい]に　どんな　ご<RUBY>用[よう]じゃな？<NO_INPUT>"
+      },
+      "Txt_Church_Message_StartNight_SAMANOSA": {
+        "SelfId": "Txt_Church_Message_StartNight_SAMANOSA",
+        "Text": "おお　サマンオサを　<RUBY>救[すく]いし<RUBY>者[もの]よ\r\nこんな　<RUBY>夜[よ]ふけに　わが<RUBY>教会[きょうかい]に\r\nなんの　ご<RUBY>用[よう]じゃな？<NO_INPUT>"
+      },
+      "Txt_Church_Message_Start_EDINBEAR": {
+        "SelfId": "Txt_Church_Message_Start_EDINBEAR",
+        "Text": "たとえ　いなか<RUBY>者[もの]でも　<RUBY>神[かみ]は<RUBY>平等[びょうどう]です。\r\nわが<RUBY>教会[きょうかい]にどんな　ご<RUBY>用[よう]でしょう？<NO_INPUT>"
+      },
+      "Txt_Church_Message_StartNight_EDINBEAR": {
+        "SelfId": "Txt_Church_Message_StartNight_EDINBEAR",
+        "Text": "たとえ　いなか<RUBY>者[もの]でも　<RUBY>神[かみ]は<RUBY>平等[びょうどう]です。\r\nこのような　<RUBY>夜[よ]ふけに　わが<RUBY>教会[きょうかい]に\r\nどんな　ご<RUBY>用[よう]でしょう？<NO_INPUT>"
+      },
+      "Txt_Church_Message_Start_MBR": {
+        "SelfId": "Txt_Church_Message_Start_MBR",
+        "Text": "たまには　<RUBY>私[わたし]だって　<RUBY>娯楽[ごらく]を　<RUBY>楽[たの]しみたいのです…\r\nしかし　<RUBY>救[すく]いを<RUBY>求[もと]める<RUBY>者[もの]を　つねに<RUBY>神[かみ]は<RUBY>見捨[みす]てません\r\n<RUBY>何[なに]か　お<RUBY>困[こま]りでしょうか？"
+      },
+      "Txt_Church_Message_Defeated_ALIAHAN": {
+        "SelfId": "Txt_Church_Message_Defeated_ALIAHAN",
+        "Text": "おお　{LEADER}！\r\n<RUBY>死[し]んでしまうとは　ふがいない！\r\n<KEY_WAIT>\r\nそなたに　もういちど\r\n<RUBY>機会[きかい]を　あたえよう！\r\n<KEY_WAIT>\r\nオルテガの<RUBY>名[な]を　<RUBY>汚[けが]さぬようにな。\r\nでは　ゆけ　{LEADER}よ！"
+      },
+      "Txt_Church_Message_Defeated_SAMANOSA": {
+        "SelfId": "Txt_Church_Message_Defeated_SAMANOSA",
+        "Text": "おお　{LEADER}！\r\nそなたほどの<RUBY>者[もの]が やられるとは\r\nなんと <RUBY>思[おも]いがけぬ！<KEY_WAIT>\r\nそなたに　もういちど\r\n<RUBY>機会[きかい]を　あたえよう！\r\n<KEY_WAIT>\r\nあまり　ムリを　せぬようにな。\r\nでは　ゆけ　{LEADER}よ！"
+      },
+      "Txt_Church_Message_Defeated_EDINBEAR": {
+        "SelfId": "Txt_Church_Message_Defeated_EDINBEAR",
+        "Text": "ああ {LEADER}さま！\r\n<RUBY>死[し]んでしまうなんて　なんと\r\nいなか<RUBY>者[もの]です！<KEY_WAIT>\r\nあなたに　もういちど\r\n<RUBY>機会[きかい]を　あたえましょう！\r\n<KEY_WAIT>\r\n{LEADER}に　われらが<RUBY>神[かみ]の\r\nご<RUBY>加護[かご]が　ありますように……。"
+      },
+      "Txt_Church_Message_Defeated_LUDATORM": {
+        "SelfId": "Txt_Church_Message_Defeated_LUDATORM",
+        "Text": "おお　{LEADER}！\r\n<RUBY>死[し]んでしまうとは　あわれなり！\r\n<KEY_WAIT>\r\nそなたに　もういちど\r\n<RUBY>機会[きかい]を　あたえよう！\r\n<KEY_WAIT>\r\nあまり　ムリを　せぬようにな。\r\nでは　ゆけ　{LEADER}よ！"
+      }
+    }
+  }
+]

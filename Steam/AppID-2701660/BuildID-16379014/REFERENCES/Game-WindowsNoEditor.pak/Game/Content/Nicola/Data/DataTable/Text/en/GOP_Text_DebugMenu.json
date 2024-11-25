@@ -1,0 +1,3080 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_DebugMenu",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_DebugMenu_Common_Target_Head": {
+        "SelfId": "Txt_DebugMenu_Common_Target_Head",
+        "Text": "Target"
+      },
+      "Txt_DebugMenu_Common_Target_1st": {
+        "SelfId": "Txt_DebugMenu_Common_Target_1st",
+        "Text": "1"
+      },
+      "Txt_DebugMenu_Common_Target_2nd": {
+        "SelfId": "Txt_DebugMenu_Common_Target_2nd",
+        "Text": "2"
+      },
+      "Txt_DebugMenu_Common_Target_3rd": {
+        "SelfId": "Txt_DebugMenu_Common_Target_3rd",
+        "Text": "3"
+      },
+      "Txt_DebugMenu_Common_Target_4th": {
+        "SelfId": "Txt_DebugMenu_Common_Target_4th",
+        "Text": "4"
+      },
+      "Txt_DebugMenu_Common_Target_All": {
+        "SelfId": "Txt_DebugMenu_Common_Target_All",
+        "Text": "All"
+      },
+      "Txt_DebugMenu_Common_Target_AllEnemy": {
+        "SelfId": "Txt_DebugMenu_Common_Target_AllEnemy",
+        "Text": "All Enemies"
+      },
+      "Txt_DebugMenu_Common_Target_AllFriend": {
+        "SelfId": "Txt_DebugMenu_Common_Target_AllFriend",
+        "Text": "All Allies"
+      },
+      "Txt_DebugMenu_Common_Save": {
+        "SelfId": "Txt_DebugMenu_Common_Save",
+        "Text": "Save"
+      },
+      "Txt_DebugMenu_Common_Affect": {
+        "SelfId": "Txt_DebugMenu_Common_Affect",
+        "Text": "Apply"
+      },
+      "Txt_DebugMenu_Common_Add": {
+        "SelfId": "Txt_DebugMenu_Common_Add",
+        "Text": "Add"
+      },
+      "Txt_DebugMenu_Common_Class": {
+        "SelfId": "Txt_DebugMenu_Common_Class",
+        "Text": "Vocation"
+      },
+      "Txt_DebugMenu_Common_Looks": {
+        "SelfId": "Txt_DebugMenu_Common_Looks",
+        "Text": "Appearance"
+      },
+      "Txt_DebugMenu_Top_DebugMenu": {
+        "SelfId": "Txt_DebugMenu_Top_DebugMenu",
+        "Text": "Debug Menu"
+      },
+      "Txt_DebugMenu_Top_DebugLog": {
+        "SelfId": "Txt_DebugMenu_Top_DebugLog",
+        "Text": "Debug Log"
+      },
+      "Txt_DebugMenu_Top_SaveLoad": {
+        "SelfId": "Txt_DebugMenu_Top_SaveLoad",
+        "Text": "Save/Load"
+      },
+      "Txt_DebugMenu_Top_Information": {
+        "SelfId": "Txt_DebugMenu_Top_Information",
+        "Text": "Information"
+      },
+      "Txt_DebugMenu_Top_ConsoleCmd": {
+        "SelfId": "Txt_DebugMenu_Top_ConsoleCmd",
+        "Text": "ConsoleCmd"
+      },
+      "Txt_DebugMenu_Top_LuaDebugCmd": {
+        "SelfId": "Txt_DebugMenu_Top_LuaDebugCmd",
+        "Text": "LuaDebugCmd"
+      },
+      "Txt_DebugMenu_Top_MapTime": {
+        "SelfId": "Txt_DebugMenu_Top_MapTime",
+        "Text": "MapTime"
+      },
+      "Txt_DebugMenu_Top_Landscape": {
+        "SelfId": "Txt_DebugMenu_Top_Landscape",
+        "Text": "Landscape"
+      },
+      "Txt_DebugMenu_Top_Localize": {
+        "SelfId": "Txt_DebugMenu_Top_Localize",
+        "Text": "Localisation"
+      },
+      "Txt_DebugMenu_Top_CameraEffect": {
+        "SelfId": "Txt_DebugMenu_Top_CameraEffect",
+        "Text": "Camera Effect"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugActionFlags": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugActionFlags",
+        "Text": "Debug Action Flags"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugDraw": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugDraw",
+        "Text": "Debug Rendering"
+      },
+      "Txt_DebugMenu_DebugMenu_Option": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Option",
+        "Text": "Options"
+      },
+      "Txt_DebugMenu_DebugMenu_CameraSettings": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_CameraSettings",
+        "Text": "Camera Settings"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleCameraSettings": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleCameraSettings",
+        "Text": "Battle Camera Settings"
+      },
+      "Txt_DebugMenu_DebugMenu_DirectionalLightSettings": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DirectionalLightSettings",
+        "Text": "Directional Light Settings"
+      },
+      "Txt_DebugMenu_DebugMenu_CommonMode": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_CommonMode",
+        "Text": "All Modes"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode",
+        "Text": "Exploration Mode"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode",
+        "Text": "Battle Mode"
+      },
+      "Txt_DebugMenu_DebugMenu_FieldMode": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_FieldMode",
+        "Text": "Field Mode"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug",
+        "Text": "Game Data Debug"
+      },
+      "Txt_DebugMenu_DebugMenu_Looks": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Looks",
+        "Text": "Appearance"
+      },
+      "Txt_DebugMenu_DebugMenu_Sound": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Sound",
+        "Text": "Sound"
+      },
+      "Txt_DebugMenu_DebugMenu_UITest": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_UITest",
+        "Text": "UI Test"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugConsole": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugConsole",
+        "Text": "Debug Console"
+      },
+      "Txt_DebugMenu_DebugMenu_LuaDebug": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_LuaDebug",
+        "Text": "Lua Debug"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest",
+        "Text": "Platform Feature Test"
+      },
+      "Txt_DebugMenu_DebugMenu_AutoSystem": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_AutoSystem",
+        "Text": "Auto Processing"
+      },
+      "Txt_DebugMenu_DebugMenu_BackToTitle": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BackToTitle",
+        "Text": "Return to Title Screen"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugActionFlags_MapTimeForceProgress": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugActionFlags_MapTimeForceProgress",
+        "Text": "Force Map Time Progression"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugActionFlags_MapTimeForceStop": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugActionFlags_MapTimeForceStop",
+        "Text": "Force Map Time Stop"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugActionFlags_NGMapMove": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugActionFlags_NGMapMove",
+        "Text": "No Map Transitions"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugActionFlags_DisableEncount": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugActionFlags_DisableEncount",
+        "Text": "Disable Encounters"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugActionFlags_LanternForceEnable": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugActionFlags_LanternForceEnable",
+        "Text": "Force Lantern Light Sources On"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugActionFlags_LanternDisable": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugActionFlags_LanternDisable",
+        "Text": "Lanterns Off"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugActionFlags_LanternLightDisable": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugActionFlags_LanternLightDisable",
+        "Text": "Lantern Light Sources Off"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugActionFlags_WaitFieldMapDisp": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugActionFlags_WaitFieldMapDisp",
+        "Text": "Enable Field Map Display Wait (Transition Coordinates Only)"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugActionFlags_EnableNavMeshMove": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugActionFlags_EnableNavMeshMove",
+        "Text": "Enable NavMesh Movement"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugActionFlags_DisableFixMapTimeInUnderground": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugActionFlags_DisableFixMapTimeInUnderground",
+        "Text": "Disable Map Time Freeze when Moving to Underground World"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugActionFlags_DisableKeyGuideAndEnableTargeticon": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugActionFlags_DisableKeyGuideAndEnableTargeticon",
+        "Text": "Disable Control Guide / Enable Objective Icon"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugActionFlags_EnablePlayFab": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugActionFlags_EnablePlayFab",
+        "Text": "Enable PlayFab Connection"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugActionFlags_MoveInitialToDefault": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugActionFlags_MoveInitialToDefault",
+        "Text": "Transition from Initial Level to Default Level"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugActionFlags_EnableResearchByItemEmpty": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugActionFlags_EnableResearchByItemEmpty",
+        "Text": "Make it possible to interact with an interactive object again"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugActionFlags_HideSearchObject": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugActionFlags_HideSearchObject",
+        "Text": "Hide Interactive Objects"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugDraw_TownDungeonMapLoadStatus": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugDraw_TownDungeonMapLoadStatus",
+        "Text": "Town Dungeon Map Load Status"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugDraw_MapTime": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugDraw_MapTime",
+        "Text": "Map Time"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugDraw_PlayerCharacterInfo": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugDraw_PlayerCharacterInfo",
+        "Text": "Player Character Info"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugDraw_DispMessage": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugDraw_DispMessage",
+        "Text": "Display Messages on Screen"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugDraw_DisablePostProcess": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugDraw_DisablePostProcess",
+        "Text": "Post-Processing Off"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugDraw_DispCollision": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugDraw_DispCollision",
+        "Text": "Display Collision"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugDraw_DisableDOF": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugDraw_DisableDOF",
+        "Text": "Disable Depth of Field"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugDraw_AdjustLensAperture": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugDraw_AdjustLensAperture",
+        "Text": "Adjust Lens Aperture Stop"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugDraw_AdjustFrontDOF": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugDraw_AdjustFrontDOF",
+        "Text": "Adjust Front Depth Of Field Effect"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugDraw_DispFocusPos": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugDraw_DispFocusPos",
+        "Text": "Display Focus Position"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugDraw_Input": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugDraw_Input",
+        "Text": "Input"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugDraw_DispPhysicsMaterialDebug": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugDraw_DispPhysicsMaterialDebug",
+        "Text": "Display Physical Material Debug"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugDraw_DispFlipbookSocket": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugDraw_DispFlipbookSocket",
+        "Text": "Display Flipbook Socket"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugDraw_DispBattleEffectInfo": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugDraw_DispBattleEffectInfo",
+        "Text": "Display Battle Effect Info"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugDraw_DispParamCollectionInfo01": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugDraw_DispParamCollectionInfo01",
+        "Text": "Display Parameter Collection Info 01"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugDraw_DispParamCollectionInfo02": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugDraw_DispParamCollectionInfo02",
+        "Text": "Display Parameter Collection Info 02"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugDraw_DispTrace": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugDraw_DispTrace",
+        "Text": "Display Tracing"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugDraw_DispSoundInfo": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugDraw_DispSoundInfo",
+        "Text": "Display Sound Info"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugDraw_HideUI_SS": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugDraw_HideUI_SS",
+        "Text": "Hide Currently Displayed UI: Stop Updating UI"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugDraw_HideUI_MV": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugDraw_HideUI_MV",
+        "Text": "Hide Specfic UI Sections"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugDraw_DispBattleStatusInfo": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugDraw_DispBattleStatusInfo",
+        "Text": "Display Battle Status Info"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugDraw_DispBattleCharacterSpriteInfo": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugDraw_DispBattleCharacterSpriteInfo",
+        "Text": "Display Battle Character Sprite Info"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugDraw_DispSearchRange": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugDraw_DispSearchRange",
+        "Text": "Display Exploration Range"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugDraw_StaticMeshList": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugDraw_StaticMeshList",
+        "Text": "StaticMesh List"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugDraw_DispTextGopId": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugDraw_DispTextGopId",
+        "Text": "Display Text GOPID"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugDraw_DispEncount": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugDraw_DispEncount",
+        "Text": "Display Encounter Info"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugDraw_DecareList": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugDraw_DecareList",
+        "Text": "Decal List"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugDraw_DispBattleLocationInfo": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugDraw_DispBattleLocationInfo",
+        "Text": "Display battle coordinate info"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugDraw_DispHardwareInfo": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugDraw_DispHardwareInfo",
+        "Text": "Display hardware information"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugDraw_DispCameraTriggerBounds": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugDraw_DispCameraTriggerBounds",
+        "Text": "Display Camera Trigger Range"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugDraw_DispLightingEnvTriggerBounds": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugDraw_DispLightingEnvTriggerBounds",
+        "Text": "Display Lighting Environment Trigger Range"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugDraw_DispFieldEffectTriggerBounds": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugDraw_DispFieldEffectTriggerBounds",
+        "Text": "Display Field Effect Trigger Range"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugDraw_DispCameraEffectTriggerBounds": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugDraw_DispCameraEffectTriggerBounds",
+        "Text": "Display Camera Effect Trigger Range"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugDraw_DispStatusEffectCountInfo": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugDraw_DispStatusEffectCountInfo",
+        "Text": "Display Counter for Poison, Paralysis Etc."
+      },
+      "Txt_DebugMenu_DebugMenu_DebugDraw_DispSearchRange_Touzokunohana": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugDraw_DispSearchRange_Touzokunohana",
+        "Text": "Nose for Treasure (Field)"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugDraw_DispSearchRange_Remirama": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugDraw_DispSearchRange_Remirama",
+        "Text": "Snoop"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugDraw_DispSearchRange_EchoFlute": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugDraw_DispSearchRange_EchoFlute",
+        "Text": "Echo Flute (Field)"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugDraw_DispSearchRange_YaseinoKan": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugDraw_DispSearchRange_YaseinoKan",
+        "Text": "Animal Instinct (Field)"
+      },
+      "Txt_DebugMenu_DebugMenu_Option_ReverseHorizontalCamera": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Option_ReverseHorizontalCamera",
+        "Text": "Reverse Horizontal Camera"
+      },
+      "Txt_DebugMenu_DebugMenu_Option_ReverseVerticalCamera": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Option_ReverseVerticalCamera",
+        "Text": "Reverse Vertical Camera"
+      },
+      "Txt_DebugMenu_DebugMenu_Option_MoveRateHorizontalCamera": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Option_MoveRateHorizontalCamera",
+        "Text": "Horizontal Camera Move Rate"
+      },
+      "Txt_DebugMenu_DebugMenu_Option_MoveRateVerticalCamera": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Option_MoveRateVerticalCamera",
+        "Text": "Vertical Camera Move Rate"
+      },
+      "Txt_DebugMenu_DebugMenu_Option_MoveRateForBattleUnit": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Option_MoveRateForBattleUnit",
+        "Text": "Unit Move Rate in Battle"
+      },
+      "Txt_DebugMenu_DebugMenu_Option_Vibration": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Option_Vibration",
+        "Text": "Vibration"
+      },
+      "Txt_DebugMenu_DebugMenu_Option_DisablePreLoad": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Option_DisablePreLoad",
+        "Text": "Preload Off"
+      },
+      "Txt_DebugMenu_DebugMenu_CameraSettings_AngleElevation": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_CameraSettings_AngleElevation",
+        "Text": "Angle Elevation"
+      },
+      "Txt_DebugMenu_DebugMenu_CameraSettings_TargetLengthMulti10": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_CameraSettings_TargetLengthMulti10",
+        "Text": "Target Length(×10)"
+      },
+      "Txt_DebugMenu_DebugMenu_CameraSettings_FieldOfView": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_CameraSettings_FieldOfView",
+        "Text": "Field of View"
+      },
+      "Txt_DebugMenu_DebugMenu_CameraSettings_CameraOffset": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_CameraSettings_CameraOffset",
+        "Text": "Camera Offset"
+      },
+      "Txt_DebugMenu_DebugMenu_CameraSettings_Aperture": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_CameraSettings_Aperture",
+        "Text": "Aperture"
+      },
+      "Txt_DebugMenu_DebugMenu_CameraSettings_DOFBlurAmount": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_CameraSettings_DOFBlurAmount",
+        "Text": "DOF Amount"
+      },
+      "Txt_DebugMenu_DebugMenu_CameraSettings_DOFBlurRadius": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_CameraSettings_DOFBlurRadius",
+        "Text": "DOF Radius"
+      },
+      "Txt_DebugMenu_DebugMenu_CameraSettings_DOFNearPower": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_CameraSettings_DOFNearPower",
+        "Text": "DOF Near Power"
+      },
+      "Txt_DebugMenu_DebugMenu_CameraSettings_ClearDebugSetting": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_CameraSettings_ClearDebugSetting",
+        "Text": "Clear Debug Settings"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleCameraSettings_Aperture": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleCameraSettings_Aperture",
+        "Text": "Aperture"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleCameraSettings_FocusRelativeOffsetMulti10": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleCameraSettings_FocusRelativeOffsetMulti10",
+        "Text": "Focus Relative Offset (×10)"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleCameraSettings_DOFBlurAmount": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleCameraSettings_DOFBlurAmount",
+        "Text": "DOF Amount"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleCameraSettings_DOFBlurRadius": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleCameraSettings_DOFBlurRadius",
+        "Text": "DOF Radius"
+      },
+      "Txt_DebugMenu_DebugMenu_DirectionalLightSettings_ShadowBias": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DirectionalLightSettings_ShadowBias",
+        "Text": "Shadow Bias"
+      },
+      "Txt_DebugMenu_DebugMenu_DirectionalLightSettings_DynamicShadowDistanceMulti100": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DirectionalLightSettings_DynamicShadowDistanceMulti100",
+        "Text": "Dynamic Shadow Distance (x100)"
+      },
+      "Txt_DebugMenu_DebugMenu_DirectionalLightSettings_DynamicShadowCascades": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DirectionalLightSettings_DynamicShadowCascades",
+        "Text": "Dynamic Shadow Cascades"
+      },
+      "Txt_DebugMenu_DebugMenu_DirectionalLightSettings_CascadeDistributionExponent": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DirectionalLightSettings_CascadeDistributionExponent",
+        "Text": "Cascade Distribution Exponent"
+      },
+      "Txt_DebugMenu_DebugMenu_DirectionalLightSettings_CascadeTransitionFraction": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DirectionalLightSettings_CascadeTransitionFraction",
+        "Text": "Cascade Transition Fraction"
+      },
+      "Txt_DebugMenu_DebugMenu_DirectionalLightSettings_ShadowDistanceFadeoutFraction": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DirectionalLightSettings_ShadowDistanceFadeoutFraction",
+        "Text": "Shadow Distance Fadeout Fraction"
+      },
+      "Txt_DebugMenu_DebugMenu_DirectionalLightSettings_LightFunctionFadeDistanceMulti100": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DirectionalLightSettings_LightFunctionFadeDistanceMulti100",
+        "Text": "Light Function Fade Distance (x100)"
+      },
+      "Txt_DebugMenu_DebugMenu_DirectionalLightSettings_ClearDebugSetting": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DirectionalLightSettings_ClearDebugSetting",
+        "Text": "Clear Debug Settings"
+      },
+      "Txt_DebugMenu_DebugMenu_CommonMode_DisableCharacterDirAdjust": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_CommonMode_DisableCharacterDirAdjust",
+        "Text": "Stop Character Direction Adjustment"
+      },
+      "Txt_DebugMenu_DebugMenu_CommonMode_ForceReloadPostProcessVolume": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_CommonMode_ForceReloadPostProcessVolume",
+        "Text": "Force Reload of Post-Processing Volume"
+      },
+      "Txt_DebugMenu_DebugMenu_CommonMode_ForceReloadRotator": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_CommonMode_ForceReloadRotator",
+        "Text": "Force Reload of Rotator"
+      },
+      "Txt_DebugMenu_DebugMenu_CommonMode_ForceReloadDirectionalLight": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_CommonMode_ForceReloadDirectionalLight",
+        "Text": "Force Reload of Directional Light"
+      },
+      "Txt_DebugMenu_DebugMenu_CommonMode_RotatorActiveFlag": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_CommonMode_RotatorActiveFlag",
+        "Text": "Rotator Active Flag"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_FreeCameraMode": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_FreeCameraMode",
+        "Text": "Free Camera Mode (Not Implemented Yet)"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_FastMove": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_FastMove",
+        "Text": "Fast Movement"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_FlyMode": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_FlyMode",
+        "Text": "Flying Mode"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_CameraChangeMode": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_CameraChangeMode",
+        "Text": "Camera Change Mode"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_DisableAreaChange": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_DisableAreaChange",
+        "Text": "Disable Area Change"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_IgnoreWall": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_IgnoreWall",
+        "Text": "Ignore Walls (Not Implemented Yet)"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_ControlPostProcess": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_ControlPostProcess",
+        "Text": "Post-Processing Control (Not Implemented Yet)"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_FloorMove": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_FloorMove",
+        "Text": "Floor Movement"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_NOTUseGopMapCamera": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_NOTUseGopMapCamera",
+        "Text": "Do Not Use Gop_MapCamera"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_DisableCameraCollision": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_DisableCameraCollision",
+        "Text": "Disable Camera Collision"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_DispEventDebug": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_DispEventDebug",
+        "Text": "Display Cutscene Debug"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_DisableSceneVolumeEvent": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_DisableSceneVolumeEvent",
+        "Text": "Disable Scene Volume Cutscene"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventPlayTest": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventPlayTest",
+        "Text": "Cutscene Playback Test"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting",
+        "Text": "Cutscene Flag Debug Settings"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagTest": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagTest",
+        "Text": "Cutscene Flag Test"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther",
+        "Text": "Cutscene Test (Other)"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_TreatAsOnceKillAllMonster": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_TreatAsOnceKillAllMonster",
+        "Text": "Treat All Monsters as Defeated (Once)"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_AddKillCountToTargetMonster": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_AddKillCountToTargetMonster",
+        "Text": "Increase Number of Specific Monster Kills"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_CheckPlayerStartOverlap": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_CheckPlayerStartOverlap",
+        "Text": "Player Start Overlap Check"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_TestGimmickRetryUI": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_TestGimmickRetryUI",
+        "Text": "Gimmick Retry UI Test"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_CallEnding": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_CallEnding",
+        "Text": "Call Ending"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_ChangeRecordCount": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_ChangeRecordCount",
+        "Text": "Change Record Item Count"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventControlUITest": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventControlUITest",
+        "Text": "Skip Cutscene/ Fast Foward Test"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Game_start": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Game_start",
+        "Text": "Start Game (Subjective Viewpoint)"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Personality_test_start": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Personality_test_start",
+        "Text": "Descending from Waterfall -> Playable"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Personality_test_cave": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Personality_test_cave",
+        "Text": "Personality Test - Cave - Beginning"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Personality_test_tower": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Personality_test_tower",
+        "Text": "Personality Test - Tower - Beginning"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Personality_test_city": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Personality_test_city",
+        "Text": "Personality Test - Town (Monster) - Beginning"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Personality_test_town": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Personality_test_town",
+        "Text": "Personality Test - Village - Beginning"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Personality_test_forest": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Personality_test_forest",
+        "Text": "Personality Test - Forest (Rock Push) - Beginning"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Personality_test_castle": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Personality_test_castle",
+        "Text": "Personality Test - Castle - Beginning"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Personality_test_desert": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Personality_test_desert",
+        "Text": "Personality Test - Desert (Brothers) - Beginning"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Personality_test_stage": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Personality_test_stage",
+        "Text": "Personality Test - Theatre - Beginning"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Personality_test_end": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Personality_test_end",
+        "Text": "Cutscene after Personality Test for Each Map"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Aliahan_monologue_start": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Aliahan_monologue_start",
+        "Text": "Aliahan - Conversation with Mother and Grandfather"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Aliahan_castle_arrival": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Aliahan_castle_arrival",
+        "Text": "Aliahan - Arriving at Castle with Mother"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Najimi_thiefskey_get": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Najimi_thiefskey_get",
+        "Text": "Dreamer's - Obtain Thief's Key"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Reeve_magicball_get": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Reeve_magicball_get",
+        "Text": "Reeve - Obtain Wrecking Ball"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_IzanaiCave_wall_destruction": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_IzanaiCave_wall_destruction",
+        "Text": "Shrine of Promise - Destroy Wall"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_IzanaiShrine_monster_oldman": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_IzanaiShrine_monster_oldman",
+        "Text": "Shrine of Promise - Meeting Monty"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Romaria_city_arrival": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Romaria_city_arrival",
+        "Text": "Romaria - Location Camera"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_RomariaBarrier_stop": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_RomariaBarrier_stop",
+        "Text": "Romarian Outpost - Warning before Robbin' 'Ood Attack"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Kazave_ｆirst_visit": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Kazave_ｆirst_visit",
+        "Text": "Khoryv - Location Camera"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Noaniel_ｆirst_visit": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Noaniel_ｆirst_visit",
+        "Text": "Norvik - Location Camera"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Elfvillage_ｆirst_visit": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Elfvillage_ｆirst_visit",
+        "Text": "Faerie Village - Location Camera"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Elfvillage_curse_reason": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Elfvillage_curse_reason",
+        "Text": "Faerie Village - Learn About Disappearance"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Elfvillage_dream_ruby": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Elfvillage_dream_ruby",
+        "Text": "Faerie Village - Truth Behind Disappearance"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Noaniel_dispel_town": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Noaniel_dispel_town",
+        "Text": "Norvik - Use Wakey Dust"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Shampane_henchman_encount": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Shampane_henchman_encount",
+        "Text": "Skyfell - Robbin' 'Oodlums Flee"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Shampane_kandata_battle": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Shampane_kandata_battle",
+        "Text": "Skyfell - Robbin' 'Ood Battle"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Romaria_king_coronation": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Romaria_king_coronation",
+        "Text": "Romaria - Become the King?"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Ashalam_ｆirst_visit_night": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Ashalam_ｆirst_visit_night",
+        "Text": "Asham - Location Camera (Night)"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Isis_ｆirst_visit": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Isis_ｆirst_visit",
+        "Text": "Ibis - Location Camera"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Pyramid_devil_battle": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Pyramid_devil_battle",
+        "Text": "Pyramid - Ripper of the Rift Encounter + Battle"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Pyramid_golden_claw": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Pyramid_golden_claw",
+        "Text": "Pyramid - Golden Claws Sarcophagus"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Portoga_ｆirst_visit": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Portoga_ｆirst_visit",
+        "Text": "Portoga - Location Camera"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Norudcave_norud_talk": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Norudcave_norud_talk",
+        "Text": "Nordy's Grotto - Show the King's Letter"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Baharata_ｆirst_visit": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Baharata_ｆirst_visit",
+        "Text": "Baharata - Location Camera"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_BaharataEcave_henchman_battle": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_BaharataEcave_henchman_battle",
+        "Text": "Kidnapper's Cave - Cornered 'Oodlums"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Baharata_Bpepper_nonget": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Baharata_Bpepper_nonget",
+        "Text": "Baharata Unable to Get Pepper from Gopal"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Dhama_Bpepper_get": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Dhama_Bpepper_get",
+        "Text": "Alltrades Get Pepper"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Portoga_ship_get": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Portoga_ship_get",
+        "Text": "Portoga - Before Boarding Boat - Called by Soldier"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_PortogaLight_ｆirst_visit": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_PortogaLight_ｆirst_visit",
+        "Text": "Portoga Lighthouse - Immediately after Obtaining Boat"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_PiratesBase_ｆirst_visit": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_PiratesBase_ｆirst_visit",
+        "Text": "Pirate Den - Location Camera Daytime"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Jipang_ｆirst_visit": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Jipang_ｆirst_visit",
+        "Text": "Jipang - Location Camera (Day)"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_JipangCave_serpent_battle": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_JipangCave_serpent_battle",
+        "Text": "Orochi's Lair - Cutscene after Orochi Battle 1"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Jipang_serpent_chase_night": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Jipang_serpent_chase_night",
+        "Text": "Jipang - Palace after Orochi Battle 1 (Day/Night)"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Muor_ｆirst_visit": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Muor_ｆirst_visit",
+        "Text": "Mur - Location Camera"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Dharma_ｆirst_visit": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Dharma_ｆirst_visit",
+        "Text": "Alltrades Abbey - Location Camera"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Soo_ｆirst_visit": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Soo_ｆirst_visit",
+        "Text": "Persistence - Location Camera"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Luzami_ｆirst_visit": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Luzami_ｆirst_visit",
+        "Text": "Lozamii - Location Camera"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Edinbear_ｆirst_visit": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Edinbear_ｆirst_visit",
+        "Text": "Edina - Location Camera"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_ShallowShrine_ｆirst_visit": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_ShallowShrine_ｆirst_visit",
+        "Text": "Shallows Shrine - After it Floats Up, Before Obtaining Ultimate Key"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Burg_ｆirst_visit": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Burg_ｆirst_visit",
+        "Text": "Immigrant Town - Location Camera - First Stage"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Burg_second_visit": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Burg_second_visit",
+        "Text": "Immigrant Town - Location Camera - Second Stage"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Tedon_ｆirst_visit_night": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Tedon_ｆirst_visit_night",
+        "Text": "Theddon - Location Camera - Night"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Lancel_ｆirst_visit": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Lancel_ｆirst_visit",
+        "Text": "Lanson - Location Camera"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_RaCave_warlock_battle": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_RaCave_warlock_battle",
+        "Text": "Gaia's Navel - Before Chiromancer Battle"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Samanosa_ｆirst_visit": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Samanosa_ｆirst_visit",
+        "Text": "Manoza Location Camera - Day"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Samanosa_bosstroll_battle": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Samanosa_bosstroll_battle",
+        "Text": "Manoza King Exposed -> Boss Troll Appears"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Greenlad_ｆirst_visit": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Greenlad_ｆirst_visit",
+        "Text": "Grimland - Boatman's Bone Exchange"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_GhostShip_love_memory": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_GhostShip_love_memory",
+        "Text": "Phantom Ship - Locket of Love Obtained"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_OliviaMisaki_ｆirst_visit": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_OliviaMisaki_ｆirst_visit",
+        "Text": "Olivia's Promontory - Boat Pushed Back"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_OliviaMisaki_love_memory": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_OliviaMisaki_love_memory",
+        "Text": "Olivia's Promontory - Olivia and Eric Reunited"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_ShrinePrison_saimon_talk": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_ShrinePrison_saimon_talk",
+        "Text": "Shrine of Shackles - \"Wandering Soul\""
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Volcano_Revenant_battle": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Volcano_Revenant_battle",
+        "Text": "Volcano - Before Revenant Battle (Day)"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Volcano_eruption": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Volcano_eruption",
+        "Text": "Volcano - Eruption (Day)"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_NecrogondShrine_ｆirst_visit": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_NecrogondShrine_ｆirst_visit",
+        "Text": "Necrogond Shrine - \"Silver Orb Obtained\""
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Burg_third_visit": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Burg_third_visit",
+        "Text": "Immigrant Town - Location Camera - Third Stage"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Burg_fourth_visit": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Burg_fourth_visit",
+        "Text": "Immigrant Town - Location Camera - Fourth Stage"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Burg_fifth_visit": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Burg_fifth_visit",
+        "Text": "Immigrant Town - Imprisoned Merchant"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Reiamuland_ｆirst_visit": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Reiamuland_ｆirst_visit",
+        "Text": "Rimland - Location Camera (All Orbs Obtained)"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Aliahan_Lamia_get": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Aliahan_Lamia_get",
+        "Text": "Ramia Obtained"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Burg_sixth_visit": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Burg_sixth_visit",
+        "Text": "Immigrant Town - Location Camera - Sixth Stage - Day"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_GiagaPit_ｆirst_visit": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_GiagaPit_ｆirst_visit",
+        "Text": "Great Pit of Giaga - Before Defeating Baramos"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_HobbitShrine_ｆirst_visit": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_HobbitShrine_ｆirst_visit",
+        "Text": "Shrine of the Dwarf - Ortega Recollection"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_BaramosCastle_baramos_battle": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_BaramosCastle_baramos_battle",
+        "Text": "Baramos' Lair - \"Baramos Confrontation + Battle\""
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Aliahan_return_pt": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Aliahan_return_pt",
+        "Text": "Aliahan \"Baramos Defeat and Triumphant Return 3\" Party"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Aliahan_return_solo": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Aliahan_return_solo",
+        "Text": "Aliahan \"Baramos Defeat and Triumphant Return 3\" Solo"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Aliahan_return_home_night": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Aliahan_return_home_night",
+        "Text": "Aliahan \"Home at Night after Zoma Declares War\""
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Aliahan_return_end": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Aliahan_return_end",
+        "Text": "Aliahan - Castle of the Dragon Queen After Checking Awakening Cutscene"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Aliahan_Ortegashelm_mother": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Aliahan_Ortegashelm_mother",
+        "Text": "Aliahan - \"Before Ortega's Return, Mother Reacts to his Helmet\""
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_PiratesBase_leader_talk": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_PiratesBase_leader_talk",
+        "Text": "Pirates' Den - Chat with the Boss"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Samanosa_simonsson_talk": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Samanosa_simonsson_talk",
+        "Text": "Manoza - Simão's Son - Notes"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_DragonQueen_ｆirst_visit": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_DragonQueen_ｆirst_visit",
+        "Text": "\"Dragon Queen Castle Location Camera - Day\""
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_GiagaPit_dark_clear": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_GiagaPit_dark_clear",
+        "Text": "Great Pit of Giaga - The Great Pit's Darkness Clears"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_WestPort_ｆirst_visit": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_WestPort_ｆirst_visit",
+        "Text": "Port West of Tantegel - Faerie Map and Boat Obtained"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Ludatorm_ｆirst_visit": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Ludatorm_ｆirst_visit",
+        "Text": "\"Tantegel Location Camera - Night\""
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_GaraiHouse_harp_get": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_GaraiHouse_harp_get",
+        "Text": "Galen's House - Lyre of Ire Obtained"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Domdora_ｆirst_visit": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Domdora_ｆirst_visit",
+        "Text": "Damdara - Location Camera"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Mercado_ｆirst_visit": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Mercado_ｆirst_visit",
+        "Text": "Cantlin - Location Camera"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_SpiritShrine_raincane_get": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_SpiritShrine_raincane_get",
+        "Text": "Shrine of the Spirit - Staff of Rain Obtained, Faerie Flute Not Obtained"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_SpiritShrine_raincane_get_flute": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_SpiritShrine_raincane_get_flute",
+        "Text": "Shrine of the Sprit - Staff of Rain Obtained - Faerie Flute Obtained"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Rimuldar_ｆirst_visit": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Rimuldar_ｆirst_visit",
+        "Text": "Rimuldar - Location Camera"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Myra_ｆirst_visit": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Myra_ｆirst_visit",
+        "Text": "Kol - Location Camera"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Myra_kings_sword_get": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Myra_kings_sword_get",
+        "Text": "Kol - \"Sword of Kings is Repaired\""
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_RubissTower_baramosbr_battle": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_RubissTower_baramosbr_battle",
+        "Text": "Tower of Rubiss - \"Soul of Baramos Encounter + Battle\""
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_RubissTower_dispel_rubiss": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_RubissTower_dispel_rubiss",
+        "Text": "Tower of Rubiss - Freeing Rubiss"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_SpawnCave_bluemetal_info": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_SpawnCave_bluemetal_info",
+        "Text": "Quagmire Cave - \"Robbin' 'Oodlums C/D\""
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Reeve_magicball_get2": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Reeve_magicball_get2",
+        "Text": "Reeve - \"Zenithium Planning\""
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Temp_01": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Temp_01",
+        "Text": "Gaia's Navel - Blue Ore"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_HobbitShrine_helm_of_light": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_HobbitShrine_helm_of_light",
+        "Text": "Shrine of the Dwarf - Auroral Helm"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_temp_02": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_temp_02",
+        "Text": "Asham - Magic Bikini"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_HolyShrine_rainbowdrop_get": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_HolyShrine_rainbowdrop_get",
+        "Text": "Sanctum - \"Rainbow Drop Obtained\""
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_ZomaCastle_statue_battle": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_ZomaCastle_statue_battle",
+        "Text": "Zoma's Citadel - Stone Guardian Battle"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_ZomaCastle_ortegaVShydra": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_ZomaCastle_ortegaVShydra",
+        "Text": "Zoma's Citadel - Ortega vs. King Hydra 1"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_ZomaCastle_ortegaVShydra_normalend": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_ZomaCastle_ortegaVShydra_normalend",
+        "Text": "Zoma's Citadel - Ortega vs. King Hydra 2"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_ZomaCastle_ortegaVShydra_trueend": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_ZomaCastle_ortegaVShydra_trueend",
+        "Text": "Zoma's Citadel - Ortega vs. King Hydra 3"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_ZomaCastle_hydra_battle": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_ZomaCastle_hydra_battle",
+        "Text": "Zoma's Citadel - Meeting Zoma -> King Hydra Battle"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Temp_03": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Temp_03",
+        "Text": "Zoma's Citadel -  Zoma Battle"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_HeroCave_ending": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_HeroCave_ending",
+        "Text": "Hero's Cave - Escape from Hero's Cave"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Ludatorm_ending_normal": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Ludatorm_ending_normal",
+        "Text": "Tantegel - \"Ending - Triumphant Return\""
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Ludatorm_ending_solo": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Ludatorm_ending_solo",
+        "Text": "Tantegel - \"Ending - Triumphant Return\" Solo"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Ludatorm_ending_non_hero": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Ludatorm_ending_non_hero",
+        "Text": "Tantegel - \"Ending - Triumphant Return\" Hero Not Present"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Aliahan_Game_Clear": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Aliahan_Game_Clear",
+        "Text": "Game Cleared - Starting from Aliahan"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Zenis_ｆirst_visit": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Zenis_ｆirst_visit",
+        "Text": "Cloudsgate Citadel - \"First Meeting with Zenith - Confirming Destination\""
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Aliahan_dragon_wish": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Aliahan_dragon_wish",
+        "Text": "All Xenlon Requests Unlocked - Starting from Aliahan"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Aliahan_ortega_eve1_normal": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Aliahan_ortega_eve1_normal",
+        "Text": "Aliahan - Ortega Returns - Hero Present - No Auroral Helm at Ortega's Death"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Aliahan_ortega_eve1_ture": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Aliahan_ortega_eve1_ture",
+        "Text": "Aliahan - Ortega Returns - Hero Present - Have Auroral Helm at Ortega's Death"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Aliahan_ortega_eve2": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Aliahan_ortega_eve2",
+        "Text": "Aliahan - Ortega Returns - Hero Present - Repeat Meeting - Without Ortega's Helm"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Aliahan_ortega_eve3": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Aliahan_ortega_eve3",
+        "Text": "Aliahan - Ortega Returns - Hero Present - Repeat Meeting - With Ortega's Helm"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Aliahan_ortega_eve4": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Aliahan_ortega_eve4",
+        "Text": "Aliahan - Ortega Returns - Hero Present - Repeat Meeting - With Auroral Helm\""
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_GranDragon_start": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_GranDragon_start",
+        "Text": "Temple of Trials - Grand Dragon Room Not Opened"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_GranDragon_end": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_GranDragon_end",
+        "Text": "Temple of Trials - Grand Dragon Room Opened"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagTest_FlagAllReset": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagTest_FlagAllReset",
+        "Text": "Reset All Flags"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagTest_FlagReset": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagTest_FlagReset",
+        "Text": "Reset All {0}"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagTest_FlagJuncture": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagTest_FlagJuncture",
+        "Text": "*** {0} ***"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_EnableSequencerDebugFunction": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_EnableSequencerDebugFunction",
+        "Text": "[Editor Only] Enable Sequencer (Dev Feature)"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_PlayEventCutScene": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_PlayEventCutScene",
+        "Text": "Event Cutscene Playback"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_PlaySequencerIndex": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_PlaySequencerIndex",
+        "Text": "Sequencer Playback Index"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_DispErrorReferenceBySequencer": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_DispErrorReferenceBySequencer",
+        "Text": "(Rom-only) Display Sequencer Reference Error Dialog"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_JumpTest": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_JumpTest",
+        "Text": "Jump Test"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_JumpTestEnd": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_JumpTestEnd",
+        "Text": "End Jump Test"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_JumpTestSecond": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_JumpTestSecond",
+        "Text": "Jump Test Seconds"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_JumpTestHeight": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_JumpTestHeight",
+        "Text": "Jump Test Height"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_RemiramaTest": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_RemiramaTest",
+        "Text": "Snoop Check"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_PlayRemiramaEffect": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_PlayRemiramaEffect",
+        "Text": "Remirama Effect Playback"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_InpasuCheck": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_InpasuCheck",
+        "Text": "Peep Check"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_PlayInpasuEffect": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_PlayInpasuEffect",
+        "Text": "Peep Effect Playback"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_EndInpasuEffect": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_EndInpasuEffect",
+        "Text": "End Peep Effect"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_TouzokunohanaCheck": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_TouzokunohanaCheck",
+        "Text": "Nose for Treasure Number Check"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_TouzokunohanaAssumptionFieldFlag": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_TouzokunohanaAssumptionFieldFlag",
+        "Text": "Nose For Treasure Field Assumption Flag"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_ManpuDispPosForDebugParam": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_ManpuDispPosForDebugParam",
+        "Text": "Manga Symbol Display Position as Debug Parameter"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_ManpuDebugDispPos": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_ManpuDebugDispPos",
+        "Text": "Manga Symbol Debug Display Position"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_EnableDebugManpuScale": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_EnableDebugManpuScale",
+        "Text": "Change Manga Symbol Scale Value to Debug"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_DebugManpuBaseScale": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_DebugManpuBaseScale",
+        "Text": "Manga Symbol Debug Scale Value"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_SelectPlayManpu": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_SelectPlayManpu",
+        "Text": "Select Manga Symbol to Display"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_PlayManpu": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_PlayManpu",
+        "Text": "Manga Symbol Playback"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_StopManpuLoop": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_StopManpuLoop",
+        "Text": "Stop Manga Symbol Loop"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_RetryRockPazzule": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_RetryRockPazzule",
+        "Text": "Retry Rock Puzzle (Only Works in Puzzle Area)"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_IsValidDebugRateByEventFastForward": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_IsValidDebugRateByEventFastForward",
+        "Text": "Enable fast forward debug playback rate"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_EventFastForwardDebugRate": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_EventFastForwardDebugRate",
+        "Text": "Fast forward debug playback rate"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_AddKillCountToTargetMonster_AddKillCount": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_AddKillCountToTargetMonster_AddKillCount",
+        "Text": "Add to Specific Monster Kill Count"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_AddKillCountToTargetMonster_NumberToBeAdded": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_AddKillCountToTargetMonster_NumberToBeAdded",
+        "Text": "Number of Kills to Add"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_CallEnding_FromStaffRoll": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_CallEnding_FromStaffRoll",
+        "Text": "From Credits"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_CallEnding_FromHargonEvent": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_CallEnding_FromHargonEvent",
+        "Text": "From Hargon Cutscene"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_CallEnding_FromClearSave": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_CallEnding_FromClearSave",
+        "Text": "From Clear Save Screen"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_CallEnding_DebugDispByStaffRoll": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_CallEnding_DebugDispByStaffRoll",
+        "Text": "Credits: Display Debug Info"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_ChangeRecordCount_DecideChangeRecordCount": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_ChangeRecordCount_DecideChangeRecordCount",
+        "Text": "Added only when checking selected value"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventControlUITest_EventSkip": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventControlUITest_EventSkip",
+        "Text": "Skip Cutscene"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventControlUITest_EventForward": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventControlUITest_EventForward",
+        "Text": "Fast Foward Cutscene"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_CameraTest": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_CameraTest",
+        "Text": "Camera Test"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_Weapon": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_Weapon",
+        "Text": "Weapons"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_CharacterLooks": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_CharacterLooks",
+        "Text": "Character Appearance"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_AddMonster": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_AddMonster",
+        "Text": "Add Monsters"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_AddPlayer": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_AddPlayer",
+        "Text": "Add Players"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_DeleteMonster": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_DeleteMonster",
+        "Text": "Delete Monsters"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_DeletePlayer": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_DeletePlayer",
+        "Text": "Delete Players"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_ChangePlayer": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_ChangePlayer",
+        "Text": "Switch Players"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_ChangeAnimation": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_ChangeAnimation",
+        "Text": "Change Animation"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_MonsterOffset": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_MonsterOffset",
+        "Text": "Monster Offset"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_Effect": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_Effect",
+        "Text": "Effects"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_ToProgrammer": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_ToProgrammer",
+        "Text": "For Programmers"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting",
+        "Text": "Battle Settings"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_ChangeStatusEffect": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_ChangeStatusEffect",
+        "Text": "Change Status"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_ChangeStatusEffectClear": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_ChangeStatusEffectClear",
+        "Text": "Remove Status Change"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_ChangeHP": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_ChangeHP",
+        "Text": "Change HP"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_ChangeMP": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_ChangeMP",
+        "Text": "Change MP"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_EncountGroup": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_EncountGroup",
+        "Text": "Encounter (Specify Group)"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_Encount": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_Encount",
+        "Text": "Encounter"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_EventBattle": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_EventBattle",
+        "Text": "Main Story Battle"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleRoad": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleRoad",
+        "Text": "Monster Arena"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_Common_StartPreloadByCurrentSetting": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_Common_StartPreloadByCurrentSetting",
+        "Text": "Start Preload with Current Settings"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_Common_BattleStart": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_Common_BattleStart",
+        "Text": "■■■ Start Battle ■■■"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_CameraTest_ChangeCamera": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_CameraTest_ChangeCamera",
+        "Text": "Switch Camera"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_CameraTest_ChangeCameraNormal": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_CameraTest_ChangeCameraNormal",
+        "Text": "Switch Camera: Standard"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_CameraTest_ChangeCameraDoragoramu": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_CameraTest_ChangeCameraDoragoramu",
+        "Text": "Switch Camera: Puff!"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_CameraTest_CameraShake": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_CameraTest_CameraShake",
+        "Text": "Camera Shake"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_CameraTest_PartyNum": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_CameraTest_PartyNum",
+        "Text": "Party Number"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_CameraTest_AffectSetting": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_CameraTest_AffectSetting",
+        "Text": "Apply Settings"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_CameraTest_AffectSettingDoragoramu": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_CameraTest_AffectSettingDoragoramu",
+        "Text": "Apply Settings (Puff!)"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_CameraTest_ChangeFreeCamera": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_CameraTest_ChangeFreeCamera",
+        "Text": "Switch Free Camera"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_CameraTest_ReloadCameraSetting": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_CameraTest_ReloadCameraSetting",
+        "Text": "Reload Camera Settings"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_CameraTest_SaveCameraSetting": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_CameraTest_SaveCameraSetting",
+        "Text": "Save Camera Settings [Editor Only]"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_CameraTest_SwitchDebugDisp": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_CameraTest_SwitchDebugDisp",
+        "Text": "Show/Hide Debug"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_CameraTest_ChangeBillboard": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_CameraTest_ChangeBillboard",
+        "Text": "Switch Billboard"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_CameraTest_LookToBillboard": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_CameraTest_LookToBillboard",
+        "Text": "Face Billboard Target"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_CameraTest_ChangeBattleUI": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_CameraTest_ChangeBattleUI",
+        "Text": "Switch Battle UI"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_CameraTest_LookToBillboard_ToOriginPos": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_CameraTest_LookToBillboard_ToOriginPos",
+        "Text": "Face Toward Original Position"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_CameraTest_LookToBillboard_ToCamera": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_CameraTest_LookToBillboard_ToCamera",
+        "Text": "Face Toward Camera"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_CameraTest_LookToBillboard_BillboardOff": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_CameraTest_LookToBillboard_BillboardOff",
+        "Text": "Billboard Off"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_CameraTest_LookToBillboard_BillboardOn": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_CameraTest_LookToBillboard_BillboardOn",
+        "Text": "Billboard On"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_ChangeWeaponStyle": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_ChangeWeaponStyle",
+        "Text": "Change Weapon Stance"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_ChangeTarget": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_ChangeTarget",
+        "Text": "Target to be Changed"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_AffectStyleGop": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_AffectStyleGop",
+        "Text": "Apply from Stance GOP"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_AffectStyleGopSword": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_AffectStyleGopSword",
+        "Text": "Apply from Stance GOP (Sword)"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_AffectStyleGopAxe": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_AffectStyleGopAxe",
+        "Text": "Apply from Stance GOP (Axe)"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_AffectStyleGopSpear": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_AffectStyleGopSpear",
+        "Text": "Apply from Stance GOP (Spear)"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_AffectStyleGopDagger": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_AffectStyleGopDagger",
+        "Text": "Apply from Stance GOP (Knife)"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_AffectStyleGopClaw": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_AffectStyleGopClaw",
+        "Text": "Apply from Stance GOP (Claws)"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_AffectStyleGopStaff": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_AffectStyleGopStaff",
+        "Text": "Apply from Stance GOP (Staff)"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_AffectStyleGopWhip": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_AffectStyleGopWhip",
+        "Text": "Apply from Stance GOP (Whip)"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_AffectStyleGopBoomerang": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_AffectStyleGopBoomerang",
+        "Text": "Apply from Stance GOP (Boomerang)"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_AffectStyleGopHammer": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_AffectStyleGopHammer",
+        "Text": "Apply from Stance GOP (Hammer)"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_DispWeapon": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_DispWeapon",
+        "Text": "Displayed Weapon"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_WaitAnimIndex": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_WaitAnimIndex",
+        "Text": "Idle Animation Number"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_WeaponAngleInteger": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_WeaponAngleInteger",
+        "Text": "Weapon Angle (Integer)"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_WeaponAngleDecimal": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_WeaponAngleDecimal",
+        "Text": "Weapon Angle (Decimal)*0.1"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_ReverseWeapon": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_ReverseWeapon",
+        "Text": "Reverse Weapon"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_WeaponScaleDecimalFirst": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_WeaponScaleDecimalFirst",
+        "Text": "Weapon Scale (Decimal First Place)"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_WeaponScaleDecimalSecond": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_WeaponScaleDecimalSecond",
+        "Text": "Weapon Scale (Decimal Second Place)"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_Suffix": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_Suffix",
+        "Text": "Suffix (0: None, 1: _A, 2: _B, etc.)"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_AffectWeaponStyle": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_AffectWeaponStyle",
+        "Text": "Apply Weapon Stance"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_HideWeapon": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_HideWeapon",
+        "Text": "Hide Weapon"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_CharacterLooks_VanishBlink": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_CharacterLooks_VanishBlink",
+        "Text": "Disappearing Flash"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_CharacterLooks_CharacterBlink": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_CharacterLooks_CharacterBlink",
+        "Text": "Character Flash (Default Value)"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_CharacterLooks_BlinkSpeedRate": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_CharacterLooks_BlinkSpeedRate",
+        "Text": "Flash Speed ×0.1"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_CharacterLooks_BlinkMax": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_CharacterLooks_BlinkMax",
+        "Text": "Flash Max ×0.1"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_CharacterLooks_BlinkMin": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_CharacterLooks_BlinkMin",
+        "Text": "Flash Min ×0.1"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_CharacterLooks_BlinkColor": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_CharacterLooks_BlinkColor",
+        "Text": "Flash Colour ×0.1"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_CharacterLooks_AstoronMaterial": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_CharacterLooks_AstoronMaterial",
+        "Text": "Kaclang Material"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_MonsterOffset_ToCameraOffsetMulti100": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_MonsterOffset_ToCameraOffsetMulti100",
+        "Text": "Camera Direction Offset Value ×100"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_DeleteMonster_DeleteAllMonster": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_DeleteMonster_DeleteAllMonster",
+        "Text": "Delete All Monsters"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_DeletePlayer_DeleteAllPlayer": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_DeletePlayer_DeleteAllPlayer",
+        "Text": "Delete All Players"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_ChangeAnimation_AllMonster": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_ChangeAnimation_AllMonster",
+        "Text": "All Monsters"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_ChangeAnimation_AllPlayer": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_ChangeAnimation_AllPlayer",
+        "Text": "All Players"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_ChangeAnimation_Loop": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_ChangeAnimation_Loop",
+        "Text": "Loop"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_ChangeAnimation_AllPlayBattleRelevance": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_ChangeAnimation_AllPlayBattleRelevance",
+        "Text": "Play All Battle-Related"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_ChangeAnimation_AllPlayBattleRelevanceWithAct": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_ChangeAnimation_AllPlayBattleRelevanceWithAct",
+        "Text": "Play all Battle-Related (Including Act)"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_Effect_LoopInterval": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_Effect_LoopInterval",
+        "Text": "Repetition Interval"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_Effect_EffectScaleMulti0_1": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_Effect_EffectScaleMulti0_1",
+        "Text": "Effect Scale (×0.1)"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_Effect_PlayPosType": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_Effect_PlayPosType",
+        "Text": "Playback Position Type"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_Effect_SingleTargetIndex": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_Effect_SingleTargetIndex",
+        "Text": "Single Target Number"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_Effect_SingleTargetChoice": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_Effect_SingleTargetChoice",
+        "Text": "Single Target (0: Ally, 1: Enemy)"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_Effect_BallisticShootIndex": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_Effect_BallisticShootIndex",
+        "Text": "Ballistic Shot Number"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_Effect_BallisticTargetIndex": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_Effect_BallisticTargetIndex",
+        "Text": "Ballistic Target Number"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_Effect_BallisticShootChoice": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_Effect_BallisticShootChoice",
+        "Text": "Ballistic Shot (0: Ally, 1: Enemy)"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_Effect_BallisticTargetChoice": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_Effect_BallisticTargetChoice",
+        "Text": "Ballistic Target (0: Ally, 1: Enemy)"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_Effect_PlaySingle": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_Effect_PlaySingle",
+        "Text": "Single Playback"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_Effect_PlayAll": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_Effect_PlayAll",
+        "Text": "All Playback"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_Effect_PlayBallistic": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_Effect_PlayBallistic",
+        "Text": "Ballistic Playback"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_Effect_PlayEdgeDisplay": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_Effect_PlayEdgeDisplay",
+        "Text": "Screen Edge Playback"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_Effect_PlayGopSetting": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_Effect_PlayGopSetting",
+        "Text": "Playback with GOP Settings"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_ToProgrammer_PlayScript": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_ToProgrammer_PlayScript",
+        "Text": "Playback Script"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_ToProgrammer_CheckStatus": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_ToProgrammer_CheckStatus",
+        "Text": "Check Status"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_ToProgrammer_FixRandomDebug": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_ToProgrammer_FixRandomDebug",
+        "Text": "Fixed Randomisation Debug"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_ToProgrammer_ScoutCount": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_ToProgrammer_ScoutCount",
+        "Text": "Scout Number"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_ToProgrammer_EnableFixRandom": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_ToProgrammer_EnableFixRandom",
+        "Text": "Fixed Randomisation Enabled"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_ToProgrammer_FixRandom": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_ToProgrammer_FixRandom",
+        "Text": "Fixed Randomisation"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_ChangeStatusEffect_EffectIs": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_ChangeStatusEffect_EffectIs",
+        "Text": "Effect:"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_ChangeStatusEffect_AddActionIs": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_ChangeStatusEffect_AddActionIs",
+        "Text": "Added Action:"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_BattleSpeedRate1_0": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_BattleSpeedRate1_0",
+        "Text": "Battle Speed ×0.1"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_BattleSpeedSetting": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_BattleSpeedSetting",
+        "Text": "Battle Speed Setting:"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_AlwaysSccessEscape": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_AlwaysSccessEscape",
+        "Text": "[Saved] Always Escape Successfully"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_AvoideMagicFriend": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_AvoideMagicFriend",
+        "Text": "[Saved] Guarantee Dodge Elemental Attack (Ally)"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_AvoideMagicEnemy": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_AvoideMagicEnemy",
+        "Text": "[Saved] Guarantee Dodge Elemental Attack (Enemy)"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_CantAvoideMagicFriend": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_CantAvoideMagicFriend",
+        "Text": "[Saved] Guarantee Elemental Attack Hits (Ally)"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_CantAvoideMagicEnemy": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_CantAvoideMagicEnemy",
+        "Text": "[Saved] Guarantee Elemental Attack Hits (Enemy)"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_AlwaysAttackMissFriend": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_AlwaysAttackMissFriend",
+        "Text": "[Saved] Always Miss Physical (Ally)"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_AlwaysAttackMissEnemy": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_AlwaysAttackMissEnemy",
+        "Text": "[Saved] Always Miss Physical (Enemy)"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_AlwaysAvoidAttackFriend": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_AlwaysAvoidAttackFriend",
+        "Text": "[Saved] Always Dodge Physical (Ally)"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_AlwaysAvoidAttackEnemy": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_AlwaysAvoidAttackEnemy",
+        "Text": "[Saved] Always Dodge Physical (Enemy)"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_AlwaysCriticalFriend": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_AlwaysCriticalFriend",
+        "Text": "[Saved] Always Crit (Ally)"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_AlwaysCriticalEnemy": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_AlwaysCriticalEnemy",
+        "Text": "[Saved] Always Desperate (Enemy)"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_NoDamageFriend": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_NoDamageFriend",
+        "Text": "[Saved] No Damage to Allies"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_NoDamageEnemy": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_NoDamageEnemy",
+        "Text": "[Saved] No Damage to Enemies"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_NoDeadFriend": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_NoDeadFriend",
+        "Text": "[Saved] Allies Don't Die"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_NoDeadEnemy": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_NoDeadEnemy",
+        "Text": "[Saved] Enemies Don't Die"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_DamageMaxFriend": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_DamageMaxFriend",
+        "Text": "[Saved] Ally Max Damage"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_DamageMaxEnemy": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_DamageMaxEnemy",
+        "Text": "[Saved] Enemy Max Damage"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_AlwaysHitOneShotKill": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_AlwaysHitOneShotKill",
+        "Text": "(Save) Guaranteed Successful Instant Death Attack"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_DamageRandMin": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_DamageRandMin",
+        "Text": "(Save) Lowest Possible Random Damage Number"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_DamageRandMax": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_DamageRandMax",
+        "Text": "(Save) Highest Possible Random Damage Number"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_FastestActionFriend": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_FastestActionFriend",
+        "Text": "[Saved] Ally Max Speed"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_AlwaysDropItem": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_AlwaysDropItem",
+        "Text": "[Saved] Always Drop Items"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_AlwaysStealThief": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_AlwaysStealThief",
+        "Text": "[Saved] Thieves Always Steal"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_AlwaysMerchantGold": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_AlwaysMerchantGold",
+        "Text": "[Saved] Merchants Always Money"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_AlwaysPlayGadabout": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_AlwaysPlayGadabout",
+        "Text": "[Saved] Gadabouts Always Mess Around"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_PermanenceDoragoramu": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_PermanenceDoragoramu",
+        "Text": "[Saved] Permanent Puff!"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_PermanenceConfusion": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_PermanenceConfusion",
+        "Text": "[Saved] Permanent Confusion"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_StatusEffectWith100Turn": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_StatusEffectWith100Turn",
+        "Text": "[Saved] Status Effects +100 Turns"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_ConsumeMP0": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_ConsumeMP0",
+        "Text": "[Saved] No MP Consumption"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_MaxMP": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_MaxMP",
+        "Text": "[Saved] MP Max"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_MaxMPEnemy": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_MaxMPEnemy",
+        "Text": "[Saved] Enemy Max. MP"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_CanUseAllMagic": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_CanUseAllMagic",
+        "Text": "[Saved] All Spells Usable"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_AlwaysPreemptFriend": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_AlwaysPreemptFriend",
+        "Text": "[Saved] Always Pre-Emptive (Ally)"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_AlwaysPreemptEnemy": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_AlwaysPreemptEnemy",
+        "Text": "[Saved] Always Pre-Emptive (Enemy)"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_AllHealAfterBattle": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_AllHealAfterBattle",
+        "Text": "[Saved] Full Recovery After Battle"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_MaxExp": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_MaxExp",
+        "Text": "[Saved] Max Experience Points Gained"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_MaxGold": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_MaxGold",
+        "Text": "[Saved] Max Gold Gained"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_OtherRental": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_OtherRental",
+        "Text": "[Saved] Borrowed Things for Hero and Party Members 1+3"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_DisableParryEnemy": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_DisableParryEnemy",
+        "Text": "[Saved] No Parry/Cop Out (Enemy)"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_DisableParryFriend": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_DisableParryFriend",
+        "Text": "[Saved] No Parry/Cop Out (Ally)"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_AlwaysSuccessParry": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_AlwaysSuccessParry",
+        "Text": "[Saved] Parry/Cop Out Always Succeeds"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_Ordeal_A": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_Ordeal_A",
+        "Text": "[Save] Temple of Trials A Debuffs On"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_Ordeal_B": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_Ordeal_B",
+        "Text": "[Save] Temple of Trials B Debuffs On"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_EnableSelectActionDebug": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_EnableSelectActionDebug",
+        "Text": "[Saved] Enable Debug with Selectable Actions"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_SelectActionDebug": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_SelectActionDebug",
+        "Text": "-> Debug Selectable Actions"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_ActionDebugPattern": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_ActionDebugPattern",
+        "Text": "-> Debug Action Patterns (Details in Lua)"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_SelectParupunte": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_SelectParupunte",
+        "Text": "[Saved] Selectable Hocus Pocus"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_ForceWriteAIActionListId": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_ForceWriteAIActionListId",
+        "Text": "[Saved] Force Overwrite AI ActionListId (Starting from Next Battle)"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_SelectDebugActionListId": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_SelectDebugActionListId",
+        "Text": "-> Select Debug ActionListId"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_EnableSelectPlayDebug": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_EnableSelectPlayDebug",
+        "Text": "[Saved] Enable Gadabout Debug Specification"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_SelectPlayDebug": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_SelectPlayDebug",
+        "Text": "-> Specify Gadabout Action"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_EnableStatusDisp": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_EnableStatusDisp",
+        "Text": "[Saved] Enable Status Display"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_DebugExportLog": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_DebugExportLog",
+        "Text": "[Saved] Enable Battle Log Output"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_EncountStepDisp": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_EncountStepDisp",
+        "Text": "[Saved] Enable Encounter Info Display"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_EncountGroup_EncountGroup": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_EncountGroup_EncountGroup",
+        "Text": "Encounter Group:"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_EncountGroup_SelectEncountMonster": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_EncountGroup_SelectEncountMonster",
+        "Text": "Select Encounter Monster"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_EncountGroup_Monster": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_EncountGroup_Monster",
+        "Text": "Monster"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_EncountGroup_AppearanceCount": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_EncountGroup_AppearanceCount",
+        "Text": "Number Appearing"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_EncountGroup_Background": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_EncountGroup_Background",
+        "Text": "Background:"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_EncountGroup_MapTime": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_EncountGroup_MapTime",
+        "Text": "Time:"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_EncountGroup_Nothing": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_EncountGroup_Nothing",
+        "Text": "None"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_EncountGroup_TakeTheInitiative": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_EncountGroup_TakeTheInitiative",
+        "Text": "Pre-Emptive Strike"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_EncountGroup_BePreempted": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_EncountGroup_BePreempted",
+        "Text": "Ambush"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_EncountGroup_PreemptSetting": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_EncountGroup_PreemptSetting",
+        "Text": "Pre-Emptive Strike Settings"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_EventBattle_Event": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_EventBattle_Event",
+        "Text": "Event:"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleRoad_ChallengeRank": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleRoad_ChallengeRank",
+        "Text": "Challenge Rank:"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleRoad_BattleCount": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleRoad_BattleCount",
+        "Text": "Match Number:"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleRoad_FriendSetting": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleRoad_FriendSetting",
+        "Text": "Set Friends"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleRoad_ClearUnitDataWithBattleStart": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleRoad_ClearUnitDataWithBattleStart",
+        "Text": "Clear UnitData at Start"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleRoad_DumpCurrentUnitData": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleRoad_DumpCurrentUnitData",
+        "Text": "Dump Current UnitData"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleRoad_BattleStart": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleRoad_BattleStart",
+        "Text": "--Start Match--"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleRoad_TargetSpecy": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleRoad_TargetSpecy",
+        "Text": "Species:"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleRoad_TargetCount": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleRoad_TargetCount",
+        "Text": "Species Race Value:"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleRoad_ResetParty": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleRoad_ResetParty",
+        "Text": "Reset Party"
+      },
+      "Txt_DebugMenu_DebugMenu_FieldMode_TestUIDispChange": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_FieldMode_TestUIDispChange",
+        "Text": "Switch Test UI Display"
+      },
+      "Txt_DebugMenu_DebugMenu_FieldMode_LandingPointDispChange": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_FieldMode_LandingPointDispChange",
+        "Text": "Switch Landing Point Display"
+      },
+      "Txt_DebugMenu_DebugMenu_FieldMode_UnloadingPointDispChange": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_FieldMode_UnloadingPointDispChange",
+        "Text": "Switch Boat Landing Point Display"
+      },
+      "Txt_DebugMenu_DebugMenu_FieldMode_WalkSpeedRate10": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_FieldMode_WalkSpeedRate10",
+        "Text": "Walking Speed (×10)"
+      },
+      "Txt_DebugMenu_DebugMenu_FieldMode_DashSpeedRate10": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_FieldMode_DashSpeedRate10",
+        "Text": "Dash Speed (×10)"
+      },
+      "Txt_DebugMenu_DebugMenu_FieldMode_AscendingAHillPermitAngle": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_FieldMode_AscendingAHillPermitAngle",
+        "Text": "Climbing Allowable Angle"
+      },
+      "Txt_DebugMenu_DebugMenu_FieldMode_DisableGravity": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_FieldMode_DisableGravity",
+        "Text": "Disable Gravity"
+      },
+      "Txt_DebugMenu_DebugMenu_FieldMode_EnableTerrainJudge": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_FieldMode_EnableTerrainJudge",
+        "Text": "Enable Terrain Judgement"
+      },
+      "Txt_DebugMenu_DebugMenu_FieldMode_ConsoleVariableSetting": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_FieldMode_ConsoleVariableSetting",
+        "Text": "Console Variable Settings"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_OutputLogCurrentTime": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_OutputLogCurrentTime",
+        "Text": "Output Log of Current Time"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_OutputLogCurrentMapInfo": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_OutputLogCurrentMapInfo",
+        "Text": "Output Log of Current Map Info"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_OutputLogAllHavingItem": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_OutputLogAllHavingItem",
+        "Text": "Output Log of All Items Held"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_AddItemSingle": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_AddItemSingle",
+        "Text": "Add Single Item"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_AddItemAll": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_AddItemAll",
+        "Text": "Add All Items"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_AllRecovery": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_AllRecovery",
+        "Text": "Fully Recover All"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_DispPartyMemberStatus": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_DispPartyMemberStatus",
+        "Text": "Display Party Member Status"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_LoadSuspensionSaveData": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_LoadSuspensionSaveData",
+        "Text": "Load Quick Save"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_SaveSuspensionSaveData": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_SaveSuspensionSaveData",
+        "Text": "Quick Save"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_AddAllPartyExp": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_AddAllPartyExp",
+        "Text": "Increase All Party Members' EXP"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_FieldItemUseTest": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_FieldItemUseTest",
+        "Text": "Test Use Field Item"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_FieldMagicSkillTest": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_FieldMagicSkillTest",
+        "Text": "Test Field Spell/Ability"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_Add1000Gold": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_Add1000Gold",
+        "Text": "Add 1,000 Gold"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_StatusEffectTest": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_StatusEffectTest",
+        "Text": "Test Status Effects"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_ReleaseTeleportList": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_ReleaseTeleportList",
+        "Text": "Unlock All Zoom Locations"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_CharacterMakeTest": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_CharacterMakeTest",
+        "Text": "Character Creation Test"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_AddSmallMedal": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_AddSmallMedal",
+        "Text": "Add Mini-Medals"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_LearningAllMagicSkill": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_LearningAllMagicSkill",
+        "Text": "Learn All Spells/Abilities"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_ControlHPMP": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_ControlHPMP",
+        "Text": "Increase/Decrease HP/MP"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_ChangeParty": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_ChangeParty",
+        "Text": "Change Party"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_SelectTransformTarget": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_SelectTransformTarget",
+        "Text": "Mod Rod Transformation Target"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_SkillSetting": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_SkillSetting",
+        "Text": "Set Spells/Abilities"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_PersonalitySetting": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_PersonalitySetting",
+        "Text": "Personality Setting"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_RentalCharacterTest": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_RentalCharacterTest",
+        "Text": "Rental Character Test"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_MemoryTest": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_MemoryTest",
+        "Text": "Memory Test"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_BattleRoad": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_BattleRoad",
+        "Text": "Monster Arena-Related"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_AffectHeroInitParam": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_AffectHeroInitParam",
+        "Text": "Reinitialise Hero Parameters"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_AddItemSingle_ItemBag_ConsumeItem": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_AddItemSingle_ItemBag_ConsumeItem",
+        "Text": "Consume Item"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_AddItemSingle_ItemBag_Book": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_AddItemSingle_ItemBag_Book",
+        "Text": "Books"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_AddItemSingle_EquipBag_Accessory": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_AddItemSingle_EquipBag_Accessory",
+        "Text": "Accessories"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_AddAllPartyExp_Add10": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_AddAllPartyExp_Add10",
+        "Text": "10"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_AddAllPartyExp_Add100": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_AddAllPartyExp_Add100",
+        "Text": "100"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_AddAllPartyExp_Add1000": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_AddAllPartyExp_Add1000",
+        "Text": "1,000"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_AddAllPartyExp_Add10000": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_AddAllPartyExp_Add10000",
+        "Text": "10,000"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_AddAllPartyExp_Add100000": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_AddAllPartyExp_Add100000",
+        "Text": "100,000"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_AddAllPartyExp_Add1000000": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_AddAllPartyExp_Add1000000",
+        "Text": "1,000,000"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_AddAllPartyExp_FrontLevelUp": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_AddAllPartyExp_FrontLevelUp",
+        "Text": "Just Before Leveling Up"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_StatusEffectTest_AddStatusEffect": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_StatusEffectTest_AddStatusEffect",
+        "Text": "Give Status Effect"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_StatusEffectTest_RemoveStatusEffect": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_StatusEffectTest_RemoveStatusEffect",
+        "Text": "Remove Status Effect"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_StatusEffectTest_StatusEffect_Dead": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_StatusEffectTest_StatusEffect_Dead",
+        "Text": "Dead"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_StatusEffectTest_StatusEffect_Poison": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_StatusEffectTest_StatusEffect_Poison",
+        "Text": "Poisoned"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_StatusEffectTest_StatusEffect_Paralyze": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_StatusEffectTest_StatusEffect_Paralyze",
+        "Text": "Paralyzed"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_StatusEffectTest_StatusEffect_Curse": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_StatusEffectTest_StatusEffect_Curse",
+        "Text": "Cursed"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_StatusEffectTest_StatusEffect_Confusion": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_StatusEffectTest_StatusEffect_Confusion",
+        "Text": "Confused"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_StatusEffectTest_StatusEffect_Mahoton": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_StatusEffectTest_StatusEffect_Mahoton",
+        "Text": "Fizzle"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_StatusEffectTest_StatusEffect_Mahokanta": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_StatusEffectTest_StatusEffect_Mahokanta",
+        "Text": "Bounce"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_StatusEffectTest_StatusEffect_Asutoron": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_StatusEffectTest_StatusEffect_Asutoron",
+        "Text": "Kaclang"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_StatusEffectTest_StatusEffect_Moshasu": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_StatusEffectTest_StatusEffect_Moshasu",
+        "Text": "Morph"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_StatusEffectTest_StatusEffect_Doragoramu": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_StatusEffectTest_StatusEffect_Doragoramu",
+        "Text": "Puff!"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_StatusEffectTest_StatusEffect_Manusa": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_StatusEffectTest_StatusEffect_Manusa",
+        "Text": "Dazzle"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_StatusEffectTest_StatusEffect_Fubaha": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_StatusEffectTest_StatusEffect_Fubaha",
+        "Text": "Insulatle"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_StatusEffectTest_StatusEffect_Baikiruto": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_StatusEffectTest_StatusEffect_Baikiruto",
+        "Text": "Oomph"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_StatusEffectTest_StatusEffect_AllKaisi": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_StatusEffectTest_StatusEffect_AllKaisi",
+        "Text": "Start All"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_StatusEffectTest_StatusEffect_TimeStop": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_StatusEffectTest_StatusEffect_TimeStop",
+        "Text": "Stop Time"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_StatusEffectTest_StatusEffect_Sleep": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_StatusEffectTest_StatusEffect_Sleep",
+        "Text": "Sleep"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_CharacterMakeTest_Gender": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_CharacterMakeTest_Gender",
+        "Text": "Gender"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_CharacterMakeTest_SelectSeed": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_CharacterMakeTest_SelectSeed",
+        "Text": "Seed Allocation"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_CharacterMakeTest_Hair": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_CharacterMakeTest_Hair",
+        "Text": "Hair Colour"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_CharacterMakeTest_Voice": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_CharacterMakeTest_Voice",
+        "Text": "Voice"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_CharacterMakeTest_CreateCharacter": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_CharacterMakeTest_CreateCharacter",
+        "Text": "Create Character (Add to Patty's)"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_CharacterMakeTest_Gender_Male": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_CharacterMakeTest_Gender_Male",
+        "Text": "M"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_CharacterMakeTest_Gender_Female": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_CharacterMakeTest_Gender_Female",
+        "Text": "F"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_CharacterMakeTest_SelectSeed_Random": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_CharacterMakeTest_SelectSeed_Random",
+        "Text": "Random"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_CharacterMakeTest_SelectSeed_AllSTR": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_CharacterMakeTest_SelectSeed_AllSTR",
+        "Text": "All Seed of Strength"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_CharacterMakeTest_SelectSeed_AllARM": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_CharacterMakeTest_SelectSeed_AllARM",
+        "Text": "All Seed of Defence"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_CharacterMakeTest_SelectSeed_AllAGI": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_CharacterMakeTest_SelectSeed_AllAGI",
+        "Text": "All Seed of Agility"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_CharacterMakeTest_SelectSeed_AllVIT": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_CharacterMakeTest_SelectSeed_AllVIT",
+        "Text": "All Seed of Resilience"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_CharacterMakeTest_SelectSeed_AllINT": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_CharacterMakeTest_SelectSeed_AllINT",
+        "Text": "All Seed of Wisdom"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_CharacterMakeTest_SelectSeed_AllLUC": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_CharacterMakeTest_SelectSeed_AllLUC",
+        "Text": "All Seed of Luck"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_AddSmallMedal_Add1": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_AddSmallMedal_Add1",
+        "Text": "1"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_AddSmallMedal_Add5": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_AddSmallMedal_Add5",
+        "Text": "5"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_AddSmallMedal_Add10": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_AddSmallMedal_Add10",
+        "Text": "10"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_AddSmallMedal_Add100": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_AddSmallMedal_Add100",
+        "Text": "100"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_ControlHPMP_HP": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_ControlHPMP_HP",
+        "Text": "HP"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_ControlHPMP_MP": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_ControlHPMP_MP",
+        "Text": "MP"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_ControlHPMP_SetHP1": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_ControlHPMP_SetHP1",
+        "Text": "Set HP to 1"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_ControlHPMP_SetMP1": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_ControlHPMP_SetMP1",
+        "Text": "Set MP to 1"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_ControlHPMP_Minus999": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_ControlHPMP_Minus999",
+        "Text": "-999"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_ControlHPMP_Minus500": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_ControlHPMP_Minus500",
+        "Text": "-500"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_ControlHPMP_Minus100": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_ControlHPMP_Minus100",
+        "Text": "-100"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_ControlHPMP_Minus50": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_ControlHPMP_Minus50",
+        "Text": "-50"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_ControlHPMP_Minus10": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_ControlHPMP_Minus10",
+        "Text": "-10"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_ControlHPMP_Minus5": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_ControlHPMP_Minus5",
+        "Text": "-5"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_ControlHPMP_Minus1": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_ControlHPMP_Minus1",
+        "Text": "-1"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_ControlHPMP_Add1": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_ControlHPMP_Add1",
+        "Text": "+1"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_ControlHPMP_Add5": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_ControlHPMP_Add5",
+        "Text": "+5"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_ControlHPMP_Add10": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_ControlHPMP_Add10",
+        "Text": "+10"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_ControlHPMP_Add50": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_ControlHPMP_Add50",
+        "Text": "+50"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_ControlHPMP_Add100": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_ControlHPMP_Add100",
+        "Text": "+100"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_ControlHPMP_Add500": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_ControlHPMP_Add500",
+        "Text": "+500"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_ControlHPMP_Add999": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_ControlHPMP_Add999",
+        "Text": "+999"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_ChangeParty_MovePartyToBar": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_ChangeParty_MovePartyToBar",
+        "Text": "Move Party to Patty's"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_ChangeParty_MoveBarToParty": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_ChangeParty_MoveBarToParty",
+        "Text": "Move from Patty's to Party"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_ChangeParty_DeleteFromBar": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_ChangeParty_DeleteFromBar",
+        "Text": "Delete Specific Character from Patty's"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_RentalCharacterTest_Register": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_RentalCharacterTest_Register",
+        "Text": "Save a Comrade"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_RentalCharacterTest_Borrow": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_RentalCharacterTest_Borrow",
+        "Text": "Call for Help"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_RentalCharacterTest_Unregister": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_RentalCharacterTest_Unregister",
+        "Text": "Remove Rental Registration"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_RentalCharacterTest_Delete": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_RentalCharacterTest_Delete",
+        "Text": "Delete Rental Character"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_RentalCharacterTest_Unregistered": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_RentalCharacterTest_Unregistered",
+        "Text": "Unregistered"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_RentalCharacterTest_NotRental": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_RentalCharacterTest_NotRental",
+        "Text": "Not Rented"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_MemoryTest_Memorize": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_MemoryTest_Memorize",
+        "Text": "Memorise"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_MemoryTest_MemoryList": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_MemoryTest_MemoryList",
+        "Text": "List of Memories"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_MemoryTest_MemoryDelete": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_MemoryTest_MemoryDelete",
+        "Text": "Delete Memory"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_MemoryTest_StartCapture": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_MemoryTest_StartCapture",
+        "Text": "Begin Capture"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_MemoryTest_EnableCaptureForSwitch": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_MemoryTest_EnableCaptureForSwitch",
+        "Text": "Enable Capture on Switch"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_MemoryTest_OutputTalkLog": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_MemoryTest_OutputTalkLog",
+        "Text": "Output Speech Log"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_MemoryTest_DispTexture": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_MemoryTest_DispTexture",
+        "Text": "Display Textures"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_BattleRoad_ScoutMonster": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_BattleRoad_ScoutMonster",
+        "Text": "Scout Monster"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_BattleRoad_Rank": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_BattleRoad_Rank",
+        "Text": "Rank"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_BattleRoad_ScoutCountBySpecy": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_BattleRoad_ScoutCountBySpecy",
+        "Text": "Tamed Number By Race"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_BattleRoad_ScoutCountAddOneForAllSpecy": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_BattleRoad_ScoutCountAddOneForAllSpecy",
+        "Text": "All Species Tamed Number +1"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_BattleRoad_ScoutCountMaxForAllSpecy": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_BattleRoad_ScoutCountMaxForAllSpecy",
+        "Text": "All Species Tamed Number Max"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_BattleRoad_ScoutCountReset": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_BattleRoad_ScoutCountReset",
+        "Text": "Tamed Number Reset"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_BattleRoad_ClearRankList": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_BattleRoad_ClearRankList",
+        "Text": "List of Cleared Ranks"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_BattleRoad_AddClearRank": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_BattleRoad_AddClearRank",
+        "Text": "Add 1 Cleared Rank"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_BattleRoad_SetAllRankClear": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_BattleRoad_SetAllRankClear",
+        "Text": "Set All Ranks to Cleared"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_BattleRoad_SetAllRankNotClear": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_BattleRoad_SetAllRankNotClear",
+        "Text": "Set All Ranks to Uncleared"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_BattleRoad_ClearRankListNone": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_BattleRoad_ClearRankListNone",
+        "Text": "No"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_Personality_Overwrite": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_Personality_Overwrite",
+        "Text": "Personality to be Overwritten"
+      },
+      "Txt_DebugMenu_DebugMenu_Looks_CharacterColor": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Looks_CharacterColor",
+        "Text": "Character Colour"
+      },
+      "Txt_DebugMenu_DebugMenu_Looks_CreateAndSort": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Looks_CreateAndSort",
+        "Text": "Create/Sort"
+      },
+      "Txt_DebugMenu_DebugMenu_Looks_Color": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Looks_Color",
+        "Text": "Colour"
+      },
+      "Txt_DebugMenu_DebugMenu_Looks_NeighborInterval": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Looks_NeighborInterval",
+        "Text": "Side Gap"
+      },
+      "Txt_DebugMenu_DebugMenu_Looks_DepthInterval": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Looks_DepthInterval",
+        "Text": "Depth Gap"
+      },
+      "Txt_DebugMenu_DebugMenu_Looks_Create": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Looks_Create",
+        "Text": "Create"
+      },
+      "Txt_DebugMenu_DebugMenu_Looks_CreateForBattle": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Looks_CreateForBattle",
+        "Text": "Create for Battle"
+      },
+      "Txt_DebugMenu_DebugMenu_Sound_Supervision": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Sound_Supervision",
+        "Text": "Supervision"
+      },
+      "Txt_DebugMenu_DebugMenu_Sound_SoundTest": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Sound_SoundTest",
+        "Text": "Sound Test"
+      },
+      "Txt_DebugMenu_DebugMenu_Sound_DebugFunction": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Sound_DebugFunction",
+        "Text": "Debug Features"
+      },
+      "Txt_DebugMenu_DebugMenu_Sound_Supervision_Information": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Sound_Supervision_Information",
+        "Text": "Info"
+      },
+      "Txt_DebugMenu_DebugMenu_Sound_Supervision_PlayingMusic": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Sound_Supervision_PlayingMusic",
+        "Text": "--Song Playing--"
+      },
+      "Txt_DebugMenu_DebugMenu_Sound_Supervision_ReferenceMusic": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Sound_Supervision_ReferenceMusic",
+        "Text": "--Reference Song--"
+      },
+      "Txt_DebugMenu_DebugMenu_Sound_Supervision_SoundSupervisonMenu": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Sound_Supervision_SoundSupervisonMenu",
+        "Text": "Sound Supervision Menu"
+      },
+      "Txt_DebugMenu_DebugMenu_Sound_Supervision_PlayStartPos": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Sound_Supervision_PlayStartPos",
+        "Text": "Playback Start Position"
+      },
+      "Txt_DebugMenu_DebugMenu_Sound_Supervision_ControlGuide": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Sound_Supervision_ControlGuide",
+        "Text": "Control Guide"
+      },
+      "Txt_DebugMenu_DebugMenu_Sound_Supervision_GuidePlay": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Sound_Supervision_GuidePlay",
+        "Text": "[Play] Top Button"
+      },
+      "Txt_DebugMenu_DebugMenu_Sound_Supervision_GuideStop": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Sound_Supervision_GuideStop",
+        "Text": "[Stop] Left Button"
+      },
+      "Txt_DebugMenu_DebugMenu_Sound_Supervision_GuideExit": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Sound_Supervision_GuideExit",
+        "Text": "[Exit] Bottom Button"
+      },
+      "Txt_DebugMenu_DebugMenu_Sound_Supervision_GuideVolume": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Sound_Supervision_GuideVolume",
+        "Text": "[Volume Control] ←, →"
+      },
+      "Txt_DebugMenu_DebugMenu_Sound_Supervision_GuidePlayStartPos": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Sound_Supervision_GuidePlayStartPos",
+        "Text": "[Playback Start Position] L/R"
+      },
+      "Txt_DebugMenu_DebugMenu_Sound_Supervision_GuideEntryReferenceMusic": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Sound_Supervision_GuideEntryReferenceMusic",
+        "Text": "[Set as Reference Song] RT"
+      },
+      "Txt_DebugMenu_DebugMenu_Sound_Supervision_GuidePlayOrStopReferenceMusic": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Sound_Supervision_GuidePlayOrStopReferenceMusic",
+        "Text": "[Play/Stop Reference Song] LT"
+      },
+      "Txt_DebugMenu_DebugMenu_Sound_Supervision_GuideSaveAllSetting": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Sound_Supervision_GuideSaveAllSetting",
+        "Text": "[Save All Edited Content] START"
+      },
+      "Txt_DebugMenu_DebugMenu_Sound_Supervision_GuideDeleteAllSetting": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Sound_Supervision_GuideDeleteAllSetting",
+        "Text": "[Delete All Edited Content] L3"
+      },
+      "Txt_DebugMenu_DebugMenu_Sound_Supervision_GuideWriteForGameData": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Sound_Supervision_GuideWriteForGameData",
+        "Text": "[Overwrite All Game Data] R3"
+      },
+      "Txt_DebugMenu_DebugMenu_Sound_Supervision_MusicName": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Sound_Supervision_MusicName",
+        "Text": "Song Name"
+      },
+      "Txt_DebugMenu_DebugMenu_Sound_Supervision_VolumeRate": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Sound_Supervision_VolumeRate",
+        "Text": "Volume"
+      },
+      "Txt_DebugMenu_DebugMenu_Sound_Supervision_PlayPos": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Sound_Supervision_PlayPos",
+        "Text": "Playback Position"
+      },
+      "Txt_DebugMenu_DebugMenu_Sound_Supervision_RecordId": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Sound_Supervision_RecordId",
+        "Text": "Record ID"
+      },
+      "Txt_DebugMenu_DebugMenu_Sound_SoundTest_ControlGuide": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Sound_SoundTest_ControlGuide",
+        "Text": "--[Control Guide]--"
+      },
+      "Txt_DebugMenu_DebugMenu_Sound_SoundTest_SoundStop": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Sound_SoundTest_SoundStop",
+        "Text": "Stop Sound \"Pad Up Button\""
+      },
+      "Txt_DebugMenu_DebugMenu_Sound_DebugFunction_SupervisionRelevance": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Sound_DebugFunction_SupervisionRelevance",
+        "Text": "Supervisory Functions"
+      },
+      "Txt_DebugMenu_DebugMenu_Sound_DebugFunction_Mute": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Sound_DebugFunction_Mute",
+        "Text": "Mute"
+      },
+      "Txt_DebugMenu_DebugMenu_Sound_DebugFunction_AlwaysAffectVolumeSettedBySupervisionMode": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Sound_DebugFunction_AlwaysAffectVolumeSettedBySupervisionMode",
+        "Text": "Always Apply Set Volume in Supervision Mode"
+      },
+      "Txt_DebugMenu_DebugMenu_Sound_DebugFunction_ResetAllBgmVolumeSetting": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Sound_DebugFunction_ResetAllBgmVolumeSetting",
+        "Text": "Set all BGM Volumes to Initial Values"
+      },
+      "Txt_DebugMenu_DebugMenu_Sound_DebugFunction_DisablePlaySoundByEventSequencer": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Sound_DebugFunction_DisablePlaySoundByEventSequencer",
+        "Text": "Disable Sound Playback from Cutscene Sequencer"
+      },
+      "Txt_DebugMenu_DebugMenu_UITest_Fade": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_UITest_Fade",
+        "Text": "Fade"
+      },
+      "Txt_DebugMenu_DebugMenu_UITest_OutputFontSize": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_UITest_OutputFontSize",
+        "Text": "Output Font Size"
+      },
+      "Txt_DebugMenu_DebugMenu_UITest_MessageWindow": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_UITest_MessageWindow",
+        "Text": "Message Window"
+      },
+      "Txt_DebugMenu_DebugMenu_UITest_DispMonsterNameRange": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_UITest_DispMonsterNameRange",
+        "Text": "Battle: Show Monster Name Range"
+      },
+      "Txt_DebugMenu_DebugMenu_UITest_DispMouseClickRange": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_UITest_DispMouseClickRange",
+        "Text": "Display Mouse Click Area"
+      },
+      "Txt_DebugMenu_DebugMenu_UITest_ForceOpenFieldMenu": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_UITest_ForceOpenFieldMenu",
+        "Text": "Input Flag to Open the Frame Field Menu"
+      },
+      "Txt_DebugMenu_DebugMenu_UITest_Fade_FadeOut": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_UITest_Fade_FadeOut",
+        "Text": "Fade Out"
+      },
+      "Txt_DebugMenu_DebugMenu_UITest_Fade_FadeIn": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_UITest_Fade_FadeIn",
+        "Text": "Fade In"
+      },
+      "Txt_DebugMenu_DebugMenu_UITest_OutputFontSize_SelectFont": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_UITest_OutputFontSize_SelectFont",
+        "Text": "Select Font"
+      },
+      "Txt_DebugMenu_DebugMenu_UITest_OutputFontSize_FontSize": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_UITest_OutputFontSize_FontSize",
+        "Text": "Font Size"
+      },
+      "Txt_DebugMenu_DebugMenu_UITest_OutputFontSize_OutputCsv": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_UITest_OutputFontSize_OutputCsv",
+        "Text": "CSV Output"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugConsole_GameStatus": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugConsole_GameStatus",
+        "Text": "Game Status"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugConsole_CharacterStatus": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugConsole_CharacterStatus",
+        "Text": "Character Status"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugConsole_LuaStatus": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugConsole_LuaStatus",
+        "Text": "LUA Status"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugConsole_LuaTrigger": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugConsole_LuaTrigger",
+        "Text": "LUA Trigger"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugConsole_DispLuaVariablesShortName": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugConsole_DispLuaVariablesShortName",
+        "Text": "Display Lua Variable Short Names"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_WindowSetting": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_WindowSetting",
+        "Text": "Window Settings"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_TrophyRelevance": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_TrophyRelevance",
+        "Text": "Achievement Related"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_GraphicOptionValidation": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_GraphicOptionValidation",
+        "Text": "Graphical Options Verification"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_IgnoreXR": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_IgnoreXR",
+        "Text": "Ignore XR requirements"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_DisconnectController": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_DisconnectController",
+        "Text": "Display Controller Disconnected Message"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Activity": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Activity",
+        "Text": "Activity (PS5)"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Dlc": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Dlc",
+        "Text": "DLC"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_WindowSetting_ChangeWindowMode": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_WindowSetting_ChangeWindowMode",
+        "Text": "Change Window Mode"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_WindowSetting_ChangeWindowResolution": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_WindowSetting_ChangeWindowResolution",
+        "Text": "Change Screen Resolution (Not Implemented Yet)"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_WindowSetting_ChangeFpsMax": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_WindowSetting_ChangeFpsMax",
+        "Text": "Change FPS Limit"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_WindowSetting_EnableVsync": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_WindowSetting_EnableVsync",
+        "Text": "Enable Vsync"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_WindowSetting_EnableUnfocusPad": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_WindowSetting_EnableUnfocusPad",
+        "Text": "Enable Gamepad Controls When Window is Inactive"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_WindowSetting_EnableUnfocusSound": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_WindowSetting_EnableUnfocusSound",
+        "Text": "Enable Sound When Window is Inactive"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_WindowSetting_LimitCursorMoveOnDisplay": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_WindowSetting_LimitCursorMoveOnDisplay",
+        "Text": "Lock Mouse Cursor to Game Screen"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_WindowSetting_DispCursor": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_WindowSetting_DispCursor",
+        "Text": "Display Mouse Cursor (Not Implemented Yet)"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_WindowSetting_DispCursorAlways": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_WindowSetting_DispCursorAlways",
+        "Text": "Always Display Mouse Cursor"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_WindowSetting_ChangeFpsDisp": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_WindowSetting_ChangeFpsDisp",
+        "Text": "Switch FPS Display"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_WindowSetting_Window": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_WindowSetting_Window",
+        "Text": "Windowed"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_WindowSetting_Borderless": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_WindowSetting_Borderless",
+        "Text": "Borderless Windowed"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_WindowSetting_Fullscreen": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_WindowSetting_Fullscreen",
+        "Text": "Fullscreen"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_WindowSetting_Unlimit": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_WindowSetting_Unlimit",
+        "Text": "Unlimited"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_GraphicOptionValidation_MotionBlurIntensity": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_GraphicOptionValidation_MotionBlurIntensity",
+        "Text": "Motion Blur Intensity"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_GraphicOptionValidation_ShadowQuality": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_GraphicOptionValidation_ShadowQuality",
+        "Text": "Shadow Quality"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_GraphicOptionValidation_AntiAliasingQuality": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_GraphicOptionValidation_AntiAliasingQuality",
+        "Text": "Anti-Aliasing Quality"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_GraphicOptionValidation_ChromaticAberrationIntensity": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_GraphicOptionValidation_ChromaticAberrationIntensity",
+        "Text": "Chromatic Aberration Intensity"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_GraphicOptionValidation_AmbientOcculsionIntensity": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_GraphicOptionValidation_AmbientOcculsionIntensity",
+        "Text": "Ambient Occlusion Intensity"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_GraphicOptionValidation_RenderScaleRate": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_GraphicOptionValidation_RenderScaleRate",
+        "Text": "Render Scale (%)"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_GraphicOptionValidation_TextureDownQualityDegree": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_GraphicOptionValidation_TextureDownQualityDegree",
+        "Text": "Texture Quality Reduction Amount (increase this to decrease quality)"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_GraphicOptionValidation_EnableChangeDof": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_GraphicOptionValidation_EnableChangeDof",
+        "Text": "Switch Depth of Field On/Off (same feature as in Debug Rendering)"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_GraphicOptionValidation_BroomIntensity": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_GraphicOptionValidation_BroomIntensity",
+        "Text": "Bloom Intensity"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Achievement_UnlockSingle": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Achievement_UnlockSingle",
+        "Text": "Unlock Individual Achievement"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Achievement_UnlockAll": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Achievement_UnlockAll",
+        "Text": "Unlock All Achievements"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Achievement_Reset": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Achievement_Reset",
+        "Text": "Reset"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Achievement_DumpUnlockStatus": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Achievement_DumpUnlockStatus",
+        "Text": "Dump Unlock Status"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Achievement_SetCount": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Achievement_SetCount",
+        "Text": "Internal counting controls"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Achievement_CacheAchievements": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Achievement_CacheAchievements",
+        "Text": "Reset"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Activity_Unlock": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Activity_Unlock",
+        "Text": "Unlock"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Activity_Lock": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Activity_Lock",
+        "Text": "Lock"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Activity_Start": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Activity_Start",
+        "Text": "Start"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Activity_EndWithCompleted": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Activity_EndWithCompleted",
+        "Text": "Close (Finish)"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Activity_EndWithFailed": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Activity_EndWithFailed",
+        "Text": "Close (Fail)"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Activity_EndWithAbandoned": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Activity_EndWithAbandoned",
+        "Text": "Close (Destroy)"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Activity_ResetAll": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Activity_ResetAll",
+        "Text": "Reset All Statuses"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Dlc_UseDebug": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Dlc_UseDebug",
+        "Text": "Enable Debug Purchase Bonus Status"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Dlc_RightEarly": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Dlc_RightEarly",
+        "Text": "Bonus: Pre-order Bonus"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Dlc_RightFast": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Dlc_RightFast",
+        "Text": "Bonus: Shueisha Strategy Guide"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Dlc_RightOfficialGuide": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Dlc_RightOfficialGuide",
+        "Text": "Bonus: Official Guide"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Dlc_RightLawson": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Dlc_RightLawson",
+        "Text": "Bonus: Lawson"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Dlc_RightAmazon": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Dlc_RightAmazon",
+        "Text": "Bonus: Amazon"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Dlc_AcquiredEarly": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Dlc_AcquiredEarly",
+        "Text": "Obtained: Pre-order Bonus"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Dlc_AcquiredFast": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Dlc_AcquiredFast",
+        "Text": "Obtained: Shueisha Strategy Guide"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Dlc_AcquiredOfficialGuide": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Dlc_AcquiredOfficialGuide",
+        "Text": "Obtained: Official Guide"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Dlc_AcquiredLawson": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Dlc_AcquiredLawson",
+        "Text": "Obtained: Lawson"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Dlc_AcquiredAmazon": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Dlc_AcquiredAmazon",
+        "Text": "Obtained: Amazon"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Dlc_Log": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Dlc_Log",
+        "Text": "DLC Log Output"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Dlc_GotoEShop": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Dlc_GotoEShop",
+        "Text": "Switch Version eShop"
+      },
+      "Txt_DebugMenu_DebugMenu_AutoSystem_OutputDoorList": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_AutoSystem_OutputDoorList",
+        "Text": "Output Door List"
+      },
+      "Txt_DebugMenu_DebugLog_ChangeLogDispLevel": {
+        "SelfId": "Txt_DebugMenu_DebugLog_ChangeLogDispLevel",
+        "Text": "Change Log Display Level"
+      },
+      "Txt_DebugMenu_DebugLog_DispLogDispLevel": {
+        "SelfId": "Txt_DebugMenu_DebugLog_DispLogDispLevel",
+        "Text": "Show Log Display Level"
+      },
+      "Txt_DebugMenu_DebugLog_EnableOutputToScreen": {
+        "SelfId": "Txt_DebugMenu_DebugLog_EnableOutputToScreen",
+        "Text": "Enable Screen Output"
+      },
+      "Txt_DebugMenu_DebugLog_DisableOutputToScreen": {
+        "SelfId": "Txt_DebugMenu_DebugLog_DisableOutputToScreen",
+        "Text": "Disable Screen Output"
+      },
+      "Txt_DebugMenu_SaveLoad_InitDebugSetting": {
+        "SelfId": "Txt_DebugMenu_SaveLoad_InitDebugSetting",
+        "Text": "Restore Default Debug Settings"
+      },
+      "Txt_DebugMenu_SaveLoad_InvertSystemData": {
+        "SelfId": "Txt_DebugMenu_SaveLoad_InvertSystemData",
+        "Text": "System Data Bulk Reverse"
+      },
+      "Txt_DebugMenu_SaveLoad_DataIndex": {
+        "SelfId": "Txt_DebugMenu_SaveLoad_DataIndex",
+        "Text": "Data Number"
+      },
+      "Txt_DebugMenu_SaveLoad_ExecSave": {
+        "SelfId": "Txt_DebugMenu_SaveLoad_ExecSave",
+        "Text": "Execute Save"
+      },
+      "Txt_DebugMenu_SaveLoad_InvertSaveData": {
+        "SelfId": "Txt_DebugMenu_SaveLoad_InvertSaveData",
+        "Text": "Save Data Bulk Reverse"
+      },
+      "Txt_DebugMenu_SaveLoad_RandomSeedValue": {
+        "SelfId": "Txt_DebugMenu_SaveLoad_RandomSeedValue",
+        "Text": "Random Seed No."
+      },
+      "Txt_DebugMenu_SaveLoad_CreateBrokenSaveData": {
+        "SelfId": "Txt_DebugMenu_SaveLoad_CreateBrokenSaveData",
+        "Text": "Create Corrupted Save"
+      },
+      "Txt_DebugMenu_SaveLoad_CreateCrashSaveData": {
+        "SelfId": "Txt_DebugMenu_SaveLoad_CreateCrashSaveData",
+        "Text": "Create Crash Save"
+      },
+      "Txt_DebugMenu_SaveLoad_VersionNumber": {
+        "SelfId": "Txt_DebugMenu_SaveLoad_VersionNumber",
+        "Text": "Version No."
+      },
+      "Txt_DebugMenu_SaveLoad_WriteSystemDataVersion": {
+        "SelfId": "Txt_DebugMenu_SaveLoad_WriteSystemDataVersion",
+        "Text": "Overwrite System Data Version"
+      },
+      "Txt_DebugMenu_SaveLoad_WriteSaveDataVersion": {
+        "SelfId": "Txt_DebugMenu_SaveLoad_WriteSaveDataVersion",
+        "Text": "Overwrite Save Data Version"
+      },
+      "Txt_DebugMenu_SaveLoad_WriteErrorCode": {
+        "SelfId": "Txt_DebugMenu_SaveLoad_WriteErrorCode",
+        "Text": "Overwrite Error Code"
+      },
+      "Txt_DebugMenu_SaveLoad_AlwaysFailedSaveGameData": {
+        "SelfId": "Txt_DebugMenu_SaveLoad_AlwaysFailedSaveGameData",
+        "Text": "Always Fail to Save Game Data"
+      },
+      "Txt_DebugMenu_SaveLoad_AlwaysFailedLoadGameData": {
+        "SelfId": "Txt_DebugMenu_SaveLoad_AlwaysFailedLoadGameData",
+        "Text": "Always Fail to Load Game Data"
+      },
+      "Txt_DebugMenu_SaveLoad_AlwaysFailedSaveSystemData": {
+        "SelfId": "Txt_DebugMenu_SaveLoad_AlwaysFailedSaveSystemData",
+        "Text": "Always Fail to Save System Data"
+      },
+      "Txt_DebugMenu_SaveLoad_AlwaysFailedLoadSystemData": {
+        "SelfId": "Txt_DebugMenu_SaveLoad_AlwaysFailedLoadSystemData",
+        "Text": "Always Fail to Load System Data"
+      },
+      "Txt_DebugMenu_SaveLoad_NotDeleteSuspensionData": {
+        "SelfId": "Txt_DebugMenu_SaveLoad_NotDeleteSuspensionData",
+        "Text": "Don't Delete Quick Save"
+      },
+      "Txt_DebugMenu_SaveLoad_DeleteSystemDataInExecGame": {
+        "SelfId": "Txt_DebugMenu_SaveLoad_DeleteSystemDataInExecGame",
+        "Text": "Delete System Data at Game Boot Level"
+      },
+      "Txt_DebugMenu_SaveLoad_AlwaysFailedSaveAutoSave": {
+        "SelfId": "Txt_DebugMenu_SaveLoad_AlwaysFailedSaveAutoSave",
+        "Text": "Always Fail to Autosave"
+      },
+      "Txt_DebugMenu_LuaDebugCmd_EventReload": {
+        "SelfId": "Txt_DebugMenu_LuaDebugCmd_EventReload",
+        "Text": "0l (Cutscene Reload)"
+      },
+      "Txt_DebugMenu_LuaDebugCmd_EventSkip": {
+        "SelfId": "Txt_DebugMenu_LuaDebugCmd_EventSkip",
+        "Text": "es (Cutscene Skip)"
+      },
+      "Txt_DebugMenu_MapTime_ChangeMapHour": {
+        "SelfId": "Txt_DebugMenu_MapTime_ChangeMapHour",
+        "Text": "Change Map Time"
+      },
+      "Txt_DebugMenu_MapTime_ChangeMapFrame": {
+        "SelfId": "Txt_DebugMenu_MapTime_ChangeMapFrame",
+        "Text": "Change Map Time of Day"
+      },
+      "Txt_DebugMenu_MapTime_ChangeFieldFrame": {
+        "SelfId": "Txt_DebugMenu_MapTime_ChangeFieldFrame",
+        "Text": "Change Field Time of Day"
+      },
+      "Txt_DebugMenu_MapTime_ProgressRate": {
+        "SelfId": "Txt_DebugMenu_MapTime_ProgressRate",
+        "Text": "Time Speed"
+      },
+      "Txt_DebugMenu_Localize_ChangeTextLanguage": {
+        "SelfId": "Txt_DebugMenu_Localize_ChangeTextLanguage",
+        "Text": "Change Text Language"
+      },
+      "Txt_DebugMenu_Localize_MacroTagTest": {
+        "SelfId": "Txt_DebugMenu_Localize_MacroTagTest",
+        "Text": "Macro Tag Test"
+      },
+      "Txt_DebugMenu_Localize_ChangeVoiceLanguage": {
+        "SelfId": "Txt_DebugMenu_Localize_ChangeVoiceLanguage",
+        "Text": "Change Voice Language"
+      },
+      "Txt_DebugMenu_Localize_Common_Japanese": {
+        "SelfId": "Txt_DebugMenu_Localize_Common_Japanese",
+        "Text": "Japanese"
+      },
+      "Txt_DebugMenu_Localize_Common_Japanese_HI": {
+        "SelfId": "Txt_DebugMenu_Localize_Common_Japanese_HI",
+        "Text": "Japanese (Hiragana)"
+      },
+      "Txt_DebugMenu_Localize_Common_TraditionalChineseCharacter": {
+        "SelfId": "Txt_DebugMenu_Localize_Common_TraditionalChineseCharacter",
+        "Text": "Chinese (Traditional)"
+      },
+      "Txt_DebugMenu_Localize_Common_SimplifiedChineseCharacter": {
+        "SelfId": "Txt_DebugMenu_Localize_Common_SimplifiedChineseCharacter",
+        "Text": "Chinese (Simplified)"
+      },
+      "Txt_DebugMenu_Localize_Common_Korean": {
+        "SelfId": "Txt_DebugMenu_Localize_Common_Korean",
+        "Text": "Korean"
+      },
+      "Txt_DebugMenu_Localize_Common_English": {
+        "SelfId": "Txt_DebugMenu_Localize_Common_English",
+        "Text": "English"
+      },
+      "Txt_DebugMenu_Localize_Common_French": {
+        "SelfId": "Txt_DebugMenu_Localize_Common_French",
+        "Text": "French"
+      },
+      "Txt_DebugMenu_Localize_Common_Italian": {
+        "SelfId": "Txt_DebugMenu_Localize_Common_Italian",
+        "Text": "Italian"
+      },
+      "Txt_DebugMenu_Localize_Common_German": {
+        "SelfId": "Txt_DebugMenu_Localize_Common_German",
+        "Text": "German"
+      },
+      "Txt_DebugMenu_Localize_Common_Spanish": {
+        "SelfId": "Txt_DebugMenu_Localize_Common_Spanish",
+        "Text": "Spanish"
+      },
+      "Txt_DebugMenu_Localize_Common_NeutralSpanish": {
+        "SelfId": "Txt_DebugMenu_Localize_Common_NeutralSpanish",
+        "Text": "Latin American Spanish"
+      }
+    }
+  }
+]

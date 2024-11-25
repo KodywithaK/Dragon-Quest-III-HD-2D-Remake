@@ -1,0 +1,940 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_NPC_Talk_Common",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Talk_Common_FAILURE_1": {
+        "SelfId": "Txt_Talk_Common_FAILURE_1",
+        "Text": "Mais rien ne se passe."
+      },
+      "Txt_Talk_Common_MAIN_0_SCENE_0010_010_1": {
+        "SelfId": "Txt_Talk_Common_MAIN_0_SCENE_0010_010_1",
+        "Text": "Il semblerait que ce soit le bon moment pour aller voir comment va {MERCHANT}..."
+      },
+      "Txt_Talk_Common_Rainbow_Bridge_FieldEvent_01_1": {
+        "SelfId": "Txt_Talk_Common_Rainbow_Bridge_FieldEvent_01_1",
+        "Text": "Voilà qui donne le vertige..."
+      },
+      "Txt_Talk_Common_Rainbow_Bridge_FieldEvent_01_2": {
+        "SelfId": "Txt_Talk_Common_Rainbow_Bridge_FieldEvent_01_2",
+        "Text": "Vous aurez besoin d'aide pour atteindre l'autre côté."
+      },
+      "Txt_Talk_Common_Rainbow_Bridge_FieldEvent_01_3": {
+        "SelfId": "Txt_Talk_Common_Rainbow_Bridge_FieldEvent_01_3",
+        "Text": "Utiliser <DefSgl_I_NAME>?"
+      },
+      "Txt_Talk_Common_TREASURE_1": {
+        "SelfId": "Txt_Talk_Common_TREASURE_1",
+        "Text": "{LEADER} ouvre le coffre au trésor."
+      },
+      "Txt_Talk_Common_TREASURE_2": {
+        "SelfId": "Txt_Talk_Common_TREASURE_2",
+        "Text": "Mais il est vide."
+      },
+      "Txt_Talk_Common_TREASURE_3": {
+        "SelfId": "Txt_Talk_Common_TREASURE_3",
+        "Text": "{LEADER} examine le coffre au trésor."
+      },
+      "Txt_Talk_Common_TREASURE_5": {
+        "SelfId": "Txt_Talk_Common_TREASURE_5",
+        "Text": "Il y a <IndefSgl_I_NAME>!"
+      },
+      "Txt_Talk_Common_TREASURE_7": {
+        "SelfId": "Txt_Talk_Common_TREASURE_7",
+        "Text": "<Cap><DefSgl_LEADER> met <DefSgl_I_NAME> dans <DefSgl_BAG>."
+      },
+      "Txt_Talk_Common_TREASURE_8": {
+        "SelfId": "Txt_Talk_Common_TREASURE_8",
+        "Text": "{LEADER} obtient <IfSing_VALUE(une pièce d'or,{VALUE}<nbsp>pièces d'or)>."
+      },
+      "Txt_Talk_Common_TREASURE_9": {
+        "SelfId": "Txt_Talk_Common_TREASURE_9",
+        "Text": "Oh oh! Ce coffre au trésor est en fait <IndefSgl_WORD>!"
+      },
+      "Txt_Talk_Common_TREASURE_11": {
+        "SelfId": "Txt_Talk_Common_TREASURE_11",
+        "Text": "{LEADER} obtient <DefSgl_I_NAME>."
+      },
+      "Txt_Talk_Common_STORAGE_4": {
+        "SelfId": "Txt_Talk_Common_STORAGE_4",
+        "Text": "Mais <IfGender_LEADER(il,elle,)> ne trouve rien d'intéressant."
+      },
+      "Txt_Talk_Common_POT_1": {
+        "SelfId": "Txt_Talk_Common_POT_1",
+        "Text": "<DefSgl_LEADER> regarde dans le pot..."
+      },
+      "Txt_Talk_Common_BOOKSHELF_1": {
+        "SelfId": "Txt_Talk_Common_BOOKSHELF_1",
+        "Text": "{LEADER} regarde les étagères."
+      },
+      "Txt_Talk_Common_BARREL_1": {
+        "SelfId": "Txt_Talk_Common_BARREL_1",
+        "Text": "<Cap><DefSgl_LEADER> regarde dans le tonneau."
+      },
+      "Txt_Talk_Common_GROUND_1": {
+        "SelfId": "Txt_Talk_Common_GROUND_1",
+        "Text": "<Cap><DefSgl_LEADER> examine le sol devant <IfGender_LEADER(lui,elle)>."
+      },
+      "Txt_Talk_Common_BAG_1": {
+        "SelfId": "Txt_Talk_Common_BAG_1",
+        "Text": "<Cap><DefSgl_LEADER> regarde à l'intérieur du sac."
+      },
+      "Txt_Talk_Common_BAG_2": {
+        "SelfId": "Txt_Talk_Common_BAG_2",
+        "Text": "Malheureusement, il est vide."
+      },
+      "Txt_Talk_Common_WOODBOX_1": {
+        "SelfId": "Txt_Talk_Common_WOODBOX_1",
+        "Text": "{LEADER} ouvre la boîte en bois!"
+      },
+      "Txt_Talk_Common_SHINE_1": {
+        "SelfId": "Txt_Talk_Common_SHINE_1",
+        "Text": "{LEADER} obtient <IndefSgl_I_NAME>!"
+      },
+      "Txt_Talk_Common_SHINE_2": {
+        "SelfId": "Txt_Talk_Common_SHINE_2",
+        "Text": "{LEADER} obtient <IfSing_VALUE(<IndefSgl_I_NAME>,{VALUE}<nbsp><Plr_I_NAME>)>!"
+      },
+      "Txt_Talk_Common_SHINE_3": {
+        "SelfId": "Txt_Talk_Common_SHINE_3",
+        "Text": "{LEADER} obtient <IfSing_VALUE(une pièce d'or,{VALUE}<nbsp>pièces d'or)>."
+      },
+      "Txt_Talk_Common_Fireplace_1": {
+        "SelfId": "Txt_Talk_Common_Fireplace_1",
+        "Text": "Un feu crépite joyeusement."
+      },
+      "Txt_Talk_Common_Well_1": {
+        "SelfId": "Txt_Talk_Common_Well_1",
+        "Text": "<Cap><DefSgl_LEADER> regarde dans le puits."
+      },
+      "Txt_Talk_Common_Ozabuton_1": {
+        "SelfId": "Txt_Talk_Common_Ozabuton_1",
+        "Text": "C'est doux et confortable.\r\nApparemment, cet objet en forme de coussin s'appelle un zabuton."
+      },
+      "Txt_Talk_Common_Shield_1": {
+        "SelfId": "Txt_Talk_Common_Shield_1",
+        "Text": "Un bouclier décoratif est accroché au mur."
+      },
+      "Txt_Talk_Common_Spear_2": {
+        "SelfId": "Txt_Talk_Common_Spear_2",
+        "Text": "Une lance décorative est accrochée au mur."
+      },
+      "Txt_Talk_Common_Axe_1": {
+        "SelfId": "Txt_Talk_Common_Axe_1",
+        "Text": "Une hache décorative est accrochée au mur."
+      },
+      "Txt_Talk_Common_Sword_1": {
+        "SelfId": "Txt_Talk_Common_Sword_1",
+        "Text": "Une épée décorative est accrochée au mur."
+      },
+      "Txt_Talk_Common_Mirror_1": {
+        "SelfId": "Txt_Talk_Common_Mirror_1",
+        "Text": "{LEADER} se regarde dans le miroir..."
+      },
+      "Txt_Talk_Common_Mirror_2": {
+        "SelfId": "Txt_Talk_Common_Mirror_2",
+        "Text": "Un regard fatigué rencontre le sien."
+      },
+      "Txt_Talk_Common_Mirror_3": {
+        "SelfId": "Txt_Talk_Common_Mirror_3",
+        "Text": "<IfGender_LEADER(Il est soulagé,Elle est soulagée)> de voir qu'<IfGender_LEADER(il,elle)> est toujours aussi <IfGender_LEADER(beau,belle)> que dans son souvenir!"
+      },
+      "Txt_Talk_Common_Mirror_4": {
+        "SelfId": "Txt_Talk_Common_Mirror_4",
+        "Text": "Il est rassuré de voir un visage au charme viril."
+      },
+      "Txt_Talk_Common_Mirror_5": {
+        "SelfId": "Txt_Talk_Common_Mirror_5",
+        "Text": "<IfGender_LEADER(Il,Elle,)> semble avoir l'air un peu plus robuste qu'avant."
+      },
+      "Txt_Talk_Common_Mirror_6": {
+        "SelfId": "Txt_Talk_Common_Mirror_6",
+        "Text": "Un visage joyeux lui renvoie son sourire."
+      },
+      "Txt_Talk_Common_Mirror_7": {
+        "SelfId": "Txt_Talk_Common_Mirror_7",
+        "Text": "<IfGender_LEADER(Il,Elle)> a les cheveux en bataille et décide de prendre un moment pour se recoiffer."
+      },
+      "Txt_Talk_Common_Mirror_8": {
+        "SelfId": "Txt_Talk_Common_Mirror_8",
+        "Text": "Son visage se fend d'un large sourire!"
+      },
+      "Txt_Talk_Common_Mirror_9": {
+        "SelfId": "Txt_Talk_Common_Mirror_9",
+        "Text": "<IfGender_LEADER(Il,Elle,)> essaie de prendre un air hautain pour s'amuser."
+      },
+      "Txt_Talk_Common_Mirror_10": {
+        "SelfId": "Txt_Talk_Common_Mirror_10",
+        "Text": "{LEADER}! Que fais-tu? Allez, avançons!"
+      },
+      "Txt_Talk_Common_Mirror_11": {
+        "SelfId": "Txt_Talk_Common_Mirror_11",
+        "Text": "Un visage sympathique lui rend son sourire joyeux!"
+      },
+      "Txt_Talk_Common_LockedDoor_1": {
+        "SelfId": "Txt_Talk_Common_LockedDoor_1",
+        "Text": "La porte est fermée."
+      },
+      "Txt_Talk_Common_LockedDoor_2": {
+        "SelfId": "Txt_Talk_Common_LockedDoor_2",
+        "Text": "La porte est fermée.\r\nSeule la bonne clef peut l'ouvrir."
+      },
+      "Txt_Talk_Common_Yggdrasil_1": {
+        "SelfId": "Txt_Talk_Common_Yggdrasil_1",
+        "Text": "{LEADER} examine attentivement chaque branche de l'arbre devant <IfGender_LEADER(lui,elle,)>..."
+      },
+      "Txt_Talk_Common_Yggdrasil_2": {
+        "SelfId": "Txt_Talk_Common_Yggdrasil_2",
+        "Text": "Mais il semble ne porter aucune feuille."
+      },
+      "Txt_Talk_Common_Corpse_1": {
+        "SelfId": "Txt_Talk_Common_Corpse_1",
+        "Text": "Pas de réponse.\r\nCe n'est qu'un cadavre."
+      },
+      "Txt_Talk_Common_Lancel_1": {
+        "SelfId": "Txt_Talk_Common_Lancel_1",
+        "Text": "{LEADER} essaie de parler à <DefSgl_WORD>...\r\nPas de réponse."
+      },
+      "Txt_Talk_Common_Animal_3": {
+        "SelfId": "Txt_Talk_Common_Animal_3",
+        "Text": "*: Miaouuu!"
+      },
+      "Txt_Talk_Common_Animal_4": {
+        "SelfId": "Txt_Talk_Common_Animal_4",
+        "Text": "*: Rrron... Rrron..."
+      },
+      "Txt_Talk_Common_Animal_5": {
+        "SelfId": "Txt_Talk_Common_Animal_5",
+        "Text": "*: Mmmiarrrgh!"
+      },
+      "Txt_Talk_Common_Animal_6": {
+        "SelfId": "Txt_Talk_Common_Animal_6",
+        "Text": "*: Graouuuh!"
+      },
+      "Txt_Talk_Common_Animal_10": {
+        "SelfId": "Txt_Talk_Common_Animal_10",
+        "Text": "*: Hiiiiii!"
+      },
+      "Txt_Talk_Common_Animal_13": {
+        "SelfId": "Txt_Talk_Common_Animal_13",
+        "Text": "*: Pfrrrr!"
+      },
+      "Txt_Talk_Common_Kiesari_1": {
+        "SelfId": "Txt_Talk_Common_Kiesari_1",
+        "Text": "*: Euh...?"
+      },
+      "Txt_Talk_Common_Kiesari_2": {
+        "SelfId": "Txt_Talk_Common_Kiesari_2",
+        "Text": "*: Ohé?"
+      },
+      "Txt_Talk_Common_Kiesari_3": {
+        "SelfId": "Txt_Talk_Common_Kiesari_3",
+        "Text": "*: Tu quoi?<!> À qui tu crois...\r\nUne seconde! Y'a personne!"
+      },
+      "Txt_Talk_Common_Kiesari_4": {
+        "SelfId": "Txt_Talk_Common_Kiesari_4",
+        "Text": "*: Hm?\r\nJ'étais sûr d'avoir entendu quelque chose..."
+      },
+      "Txt_Talk_Common_Kiesari_5": {
+        "SelfId": "Txt_Talk_Common_Kiesari_5",
+        "Text": "Qu-?<!> Qui est là?\r\nMontrez-vous!\r\nC'est un ordre!"
+      },
+      "Txt_Talk_Common_Kiesari_6": {
+        "SelfId": "Txt_Talk_Common_Kiesari_6",
+        "Text": "*: Hiii!"
+      },
+      "Txt_Talk_Common_Kiesari_7": {
+        "SelfId": "Txt_Talk_Common_Kiesari_7",
+        "Text": "*: Des voix désincarnées...\r\nSerait-ce...?"
+      },
+      "Txt_Talk_Common_Kiesari_8": {
+        "SelfId": "Txt_Talk_Common_Kiesari_8",
+        "Text": "*: Ô, puissances célestes!\r\nÔ saintes divinités!\r\nSerait-ce vous?"
+      },
+      "Txt_Talk_Common_Kiesari_9": {
+        "SelfId": "Txt_Talk_Common_Kiesari_9",
+        "Text": "*: Hm? Qui est là? ... Oh.\r\nJ'ai besoin de dormir..."
+      },
+      "Txt_Talk_Common_Kiesari_10": {
+        "SelfId": "Txt_Talk_Common_Kiesari_10",
+        "Text": "*: Qui est là?<!> Hmm...\r\nC'est sans doute le vent..."
+      },
+      "Txt_Talk_Common_Kiesari_11": {
+        "SelfId": "Txt_Talk_Common_Kiesari_11",
+        "Text": "*: Qui va là? Montrez-vous!\r\nVenez m'affronter!"
+      },
+      "Txt_Talk_Common_Kiesari_12": {
+        "SelfId": "Txt_Talk_Common_Kiesari_12",
+        "Text": "*: C'était quoi, ça?<!>"
+      },
+      "Txt_Talk_Common_Kiesari_13": {
+        "SelfId": "Txt_Talk_Common_Kiesari_13",
+        "Text": "*: Hiyah! Montrez-vous!"
+      },
+      "Txt_Talk_Common_Kiesari_14": {
+        "SelfId": "Txt_Talk_Common_Kiesari_14",
+        "Text": "*: Hmm...\r\nC'est sans doute mon imagination..."
+      },
+      "Txt_Talk_Common_Kiesari_15": {
+        "SelfId": "Txt_Talk_Common_Kiesari_15",
+        "Text": "*: Quoi?\r\nQuelqu'un a parlé?"
+      },
+      "Txt_Talk_Common_Kiesari_16": {
+        "SelfId": "Txt_Talk_Common_Kiesari_16",
+        "Text": "*: ♪ Le barde s'est tourné,\r\nMais il n'a rien trouvéééé,\r\nLa, la la, la, la la, lèèère! ♪"
+      },
+      "Txt_Talk_Common_Kiesari_17": {
+        "SelfId": "Txt_Talk_Common_Kiesari_17",
+        "Text": "*: C'est étrange. J'aurais juré que quelqu'un essayait de me parler..."
+      },
+      "Txt_Talk_Common_Kiesari_18": {
+        "SelfId": "Txt_Talk_Common_Kiesari_18",
+        "Text": "*: Rah, voilà que j'entends des voix!\r\nJe suis enfermé ici depuis trop longtemps..."
+      },
+      "Txt_Talk_Common_Kiesari_19": {
+        "SelfId": "Txt_Talk_Common_Kiesari_19",
+        "Text": "*: Qui va là?"
+      },
+      "Txt_Talk_Common_Kiesari_20": {
+        "SelfId": "Txt_Talk_Common_Kiesari_20",
+        "Text": "*: Personne..."
+      },
+      "Txt_Talk_Common_Kiesari_21": {
+        "SelfId": "Txt_Talk_Common_Kiesari_21",
+        "Text": "*: Vous n'aurez pas les Elfes aussi facilement!\r\nNous vous voyooons!"
+      },
+      "Txt_Talk_Common_Kiesari_22": {
+        "SelfId": "Txt_Talk_Common_Kiesari_22",
+        "Text": "*: Sentiment étrange...\r\nLes esprits me parlent-ils?\r\nOu est-ce le vent?"
+      },
+      "Txt_Talk_Common_Kiesari_23": {
+        "SelfId": "Txt_Talk_Common_Kiesari_23",
+        "Text": "*: J'entends des murmures...\r\nLes feuilles bruissent sans vent...\r\nQue se passe-t-il?"
+      },
+      "Txt_Talk_Common_Kiesari_24": {
+        "SelfId": "Txt_Talk_Common_Kiesari_24",
+        "Text": "*: Euh... C-c'est toi, mon frère?\r\nOu l'une de mes pauvres sœurs?\r\nPourquoi vous n'êtes pas dans l'au-delà?<!>"
+      },
+      "Txt_Talk_Common_Kiesari_25": {
+        "SelfId": "Txt_Talk_Common_Kiesari_25",
+        "Text": "*: J'ai entendu une voix, j'en suis sûr.\r\nJe ne mens pas!\r\n... Ou est-ce que j'ai encore de la fièvre?"
+      },
+      "Txt_Talk_Common_Kiesari_26": {
+        "SelfId": "Txt_Talk_Common_Kiesari_26",
+        "Text": "*: Hmm?\r\nQuelqu'un m'a parlé, mais qui?\r\nEst-ce qu'on serait venu voler le peu qu'il nous reste?"
+      },
+      "Txt_Talk_Common_Kiesari_27": {
+        "SelfId": "Txt_Talk_Common_Kiesari_27",
+        "Text": "*: Je ne vous vois pas, mais je vous sens.\r\nQui est là? ... Serait-ce la Mort?\r\nBon, je suis prêt..."
+      },
+      "Txt_Talk_Common_Kiesari_28": {
+        "SelfId": "Txt_Talk_Common_Kiesari_28",
+        "Text": "*: Qu'est-ce que c'était?\r\nUn f-f-fantôme?\r\nAaah!<!><!>"
+      },
+      "Txt_Talk_Common_Kiesari_29": {
+        "SelfId": "Txt_Talk_Common_Kiesari_29",
+        "Text": "*: Aaah!\r\nD'où venait cette voix?<!>"
+      },
+      "Txt_Talk_Common_Kiesari_30": {
+        "SelfId": "Txt_Talk_Common_Kiesari_30",
+        "Text": "*: Qu'est-ce que c'était?\r\nQuelqu'un m'a parlé?"
+      },
+      "Txt_Talk_Common_Kiesari_31": {
+        "SelfId": "Txt_Talk_Common_Kiesari_31",
+        "Text": "*: C'est étrange...\r\nIl n'y a personne ici..."
+      },
+      "Txt_Talk_Common_Kiesari_32": {
+        "SelfId": "Txt_Talk_Common_Kiesari_32",
+        "Text": "*: Aaah! Qui est là?\r\nMais qu'est-ce que ça veut dire?<!>"
+      },
+      "Txt_Talk_Common_Kiesari_33": {
+        "SelfId": "Txt_Talk_Common_Kiesari_33",
+        "Text": "*: ... C'est étrange.\r\nMes oreilles me joueraient des tours?\r\nOu peut-être mes yeux..."
+      },
+      "Txt_Talk_Common_Kiesari_34": {
+        "SelfId": "Txt_Talk_Common_Kiesari_34",
+        "Text": "*: Comme c'est étrange...\r\nJ'aurais juré avoir entendu la voix de quelqu'un, mais...\r\nHmm."
+      },
+      "Txt_Talk_Common_Kiesari_35": {
+        "SelfId": "Txt_Talk_Common_Kiesari_35",
+        "Text": "Ohé! Quelqu'un?\r\nY a-t-il quelqu'un ici?\r\nMontrez-vous!"
+      },
+      "Txt_Talk_Common_Kiesari_36": {
+        "SelfId": "Txt_Talk_Common_Kiesari_36",
+        "Text": "*: Oui, mada-!"
+      },
+      "Txt_Talk_Common_Kiesari_37": {
+        "SelfId": "Txt_Talk_Common_Kiesari_37",
+        "Text": "*: Oh..."
+      },
+      "Txt_Talk_Common_Kiesari_38": {
+        "SelfId": "Txt_Talk_Common_Kiesari_38",
+        "Text": "*: Qui est là?"
+      },
+      "Txt_Talk_Common_Kiesari_39": {
+        "SelfId": "Txt_Talk_Common_Kiesari_39",
+        "Text": "*: C'est étrange...\r\nJe devrais faire examiner mes oreilles."
+      },
+      "Txt_Talk_Common_Kiesari_40": {
+        "SelfId": "Txt_Talk_Common_Kiesari_40",
+        "Text": "Je sens une présence...\r\nQuelqu'un se trouve ici...\r\nParlez-moi..."
+      },
+      "Txt_Talk_Common_Kiesari_41": {
+        "SelfId": "Txt_Talk_Common_Kiesari_41",
+        "Text": "Quoi? C'est des esprits, que j'entends?\r\nArrière, bougres d'ectoplasmes!"
+      },
+      "Txt_Talk_Common_Kiesari_42": {
+        "SelfId": "Txt_Talk_Common_Kiesari_42",
+        "Text": "*: Voix désincarnées...\r\nMessage d'un autre monde?\r\nOu est-ce mon cœur..."
+      },
+      "Txt_Talk_Common_Kiesari_43": {
+        "SelfId": "Txt_Talk_Common_Kiesari_43",
+        "Text": "*: J'ai entendu quelque chose.\r\nMais il n'y a personne.\r\nPff... C'est sans doute la fièvre qui me joue des tours..."
+      },
+      "Txt_Talk_Common_Kiesari_44": {
+        "SelfId": "Txt_Talk_Common_Kiesari_44",
+        "Text": "*: Qu'est-ce que c'était? Qui a parlé?\r\nLe fantôme de l'un de mes enfants? Pierre? Jacques?\r\n... Martine, Judith, Anne?"
+      },
+      "Txt_Talk_Common_Kiesari_45": {
+        "SelfId": "Txt_Talk_Common_Kiesari_45",
+        "Text": "Entendrais-je des voix?\r\nMoi, vraiment?"
+      },
+      "Txt_Talk_Common_Kiesari_46": {
+        "SelfId": "Txt_Talk_Common_Kiesari_46",
+        "Text": "Qu'est-ce que la beauté?\r\nHmm?"
+      },
+      "Txt_Talk_Common_Kiesari_47": {
+        "SelfId": "Txt_Talk_Common_Kiesari_47",
+        "Text": "Y a-t-il quelqu'un?\r\nLes esprits nous hantent-ils?\r\nSilence, fantômes!"
+      },
+      "Txt_Talk_Common_Kiesari_48": {
+        "SelfId": "Txt_Talk_Common_Kiesari_48",
+        "Text": "*: Le Ciel soit loué!\r\nSerait-ce un message des puissances divines?"
+      },
+      "Txt_Talk_Common_Kiesari_49": {
+        "SelfId": "Txt_Talk_Common_Kiesari_49",
+        "Text": "Bienvenue à la taverne de Tulipe!\r\nSi vous voulez ajouter des mem-"
+      },
+      "Txt_Talk_Common_Kiesari_50": {
+        "SelfId": "Txt_Talk_Common_Kiesari_50",
+        "Text": "Quoi?\r\nMais... J'aurais juré qu'il y avait quelqu'un..."
+      },
+      "Txt_Talk_Common_Kiesari_51": {
+        "SelfId": "Txt_Talk_Common_Kiesari_51",
+        "Text": "(soupir) Je me demande ce que fait <IfGender_HERO(mon fils,ma fille,)>..."
+      },
+      "Txt_Talk_Common_Kiesari_52": {
+        "SelfId": "Txt_Talk_Common_Kiesari_52",
+        "Text": "*: Sshhh!"
+      },
+      "Txt_Talk_Common_Kiesari_53": {
+        "SelfId": "Txt_Talk_Common_Kiesari_53",
+        "Text": "*: Grrrrr!"
+      },
+      "Txt_Talk_Common_Kiesari_54": {
+        "SelfId": "Txt_Talk_Common_Kiesari_54",
+        "Text": "*: Hiiiiii! Pfrrrr!"
+      },
+      "Txt_Talk_Common_Kiesari_55": {
+        "SelfId": "Txt_Talk_Common_Kiesari_55",
+        "Text": "*: ... On joue des tours aux morts, maintenant?"
+      },
+      "Txt_Talk_Common_Kiesari_56": {
+        "SelfId": "Txt_Talk_Common_Kiesari_56",
+        "Text": "Tu crois que je ne te vois pas?\r\nTu te trompes, <IfGender_LEADER(humain,humaine,)>!"
+      },
+      "Txt_Talk_Common_Kiesari_57": {
+        "SelfId": "Txt_Talk_Common_Kiesari_57",
+        "Text": "*: (sluuurp) Qui va là?"
+      },
+      "Txt_Talk_Common_Kiesari_58": {
+        "SelfId": "Txt_Talk_Common_Kiesari_58",
+        "Text": "Hiii!"
+      },
+      "Txt_Talk_Common_Kiesari_59": {
+        "SelfId": "Txt_Talk_Common_Kiesari_59",
+        "Text": "Grrrrr!"
+      },
+      "Txt_Talk_Common_Kiesari_60": {
+        "SelfId": "Txt_Talk_Common_Kiesari_60",
+        "Text": "... C'est étrange.\r\nMes oreilles me joueraient des tours?\r\nOu peut-être mes yeux..."
+      },
+      "Txt_Talk_Common_Kiesari_61": {
+        "SelfId": "Txt_Talk_Common_Kiesari_61",
+        "Text": "Hm? J'étais sûr d'avoir entendu quelque chose..."
+      },
+      "Txt_Talk_Common_Kiesari_62": {
+        "SelfId": "Txt_Talk_Common_Kiesari_62",
+        "Text": "Rah, voilà que j'entends des voix!\r\nJe suis enfermé ici depuis trop longtemps..."
+      },
+      "Txt_Talk_Common_Kiesari_63": {
+        "SelfId": "Txt_Talk_Common_Kiesari_63",
+        "Text": "Qui est là?"
+      },
+      "Txt_Talk_Common_Kiesari_64": {
+        "SelfId": "Txt_Talk_Common_Kiesari_64",
+        "Text": "C'est étrange...\r\nJe devrais faire examiner mes oreilles."
+      },
+      "Txt_Talk_Common_Kiesari_65": {
+        "SelfId": "Txt_Talk_Common_Kiesari_65",
+        "Text": "Ohé?"
+      },
+      "Txt_Talk_Common_Kiesari_66": {
+        "SelfId": "Txt_Talk_Common_Kiesari_66",
+        "Text": "Aaah!\r\nD'où venait cette voix?<!>"
+      },
+      "Txt_Talk_Common_Kiesari_67": {
+        "SelfId": "Txt_Talk_Common_Kiesari_67",
+        "Text": "(sluuurp) Qui va là?"
+      },
+      "Txt_Talk_Common_Kiesari_68": {
+        "SelfId": "Txt_Talk_Common_Kiesari_68",
+        "Text": "Voix désincarnées...\r\nMessage d'un autre monde?\r\nOu est-ce mon cœur..."
+      },
+      "Txt_Talk_Common_Kiesari_69": {
+        "SelfId": "Txt_Talk_Common_Kiesari_69",
+        "Text": "Hiiiiii! Pfrrrr!"
+      },
+      "Txt_Talk_Common_Kiesari_70": {
+        "SelfId": "Txt_Talk_Common_Kiesari_70",
+        "Text": "Sentiment étrange...\r\nLes esprits me parlent-ils?\r\nOu est-ce le vent?"
+      },
+      "Txt_Talk_Common_Kiesari_71": {
+        "SelfId": "Txt_Talk_Common_Kiesari_71",
+        "Text": "Halte-là, marin d'eau douce!\r\nQui va là?"
+      },
+      "Txt_Talk_Common_Kiesari_72": {
+        "SelfId": "Txt_Talk_Common_Kiesari_72",
+        "Text": "Personne..."
+      },
+      "Txt_Talk_Common_Kiesari_73": {
+        "SelfId": "Txt_Talk_Common_Kiesari_73",
+        "Text": "♪ Le barde s'est tourné,\r\nMais il n'a rien trouvéééé,\r\nLa, la la, la, la la, lèèère! ♪"
+      },
+      "Txt_Talk_Common_Kiesari_74": {
+        "SelfId": "Txt_Talk_Common_Kiesari_74",
+        "Text": "Tu crois que je ne te vois pas?\r\nTu te trompes, <IfGender_LEADER(humain,humaine,)>!"
+      },
+      "Txt_Talk_Common_Kiesari_75": {
+        "SelfId": "Txt_Talk_Common_Kiesari_75",
+        "Text": "Qu-?<!> Qui est là?\r\nMontrez-vous!\r\nC'est un ordre!"
+      },
+      "Txt_Talk_Common_Monster_1": {
+        "SelfId": "Txt_Talk_Common_Monster_1",
+        "Text": "*: Vous êtes quoi, en fait?"
+      },
+      "Txt_Talk_Common_Monster_2": {
+        "SelfId": "Txt_Talk_Common_Monster_2",
+        "Text": "*: AAAH!<!><!> <IfSolo(UN MONSTRE,DES MONSTRES)>!<!><!>"
+      },
+      "Txt_Talk_Common_Monster_3": {
+        "SelfId": "Txt_Talk_Common_Monster_3",
+        "Text": "*: Saperlipopette! <IfSolo(C'est un fichu monstre,Ce sont de fichus monstres)>!"
+      },
+      "Txt_Talk_Common_Monster_4": {
+        "SelfId": "Txt_Talk_Common_Monster_4",
+        "Text": "*: Oh, bonté divine! Gloups..."
+      },
+      "Txt_Talk_Common_Monster_5": {
+        "SelfId": "Txt_Talk_Common_Monster_5",
+        "Text": "Quel est le sens de ceci?\r\nQui a laissé <IfSolo(un monstre,des monstres)> s'introduire parmi nous?"
+      },
+      "Txt_Talk_Common_Monster_6": {
+        "SelfId": "Txt_Talk_Common_Monster_6",
+        "Text": "*: Aaah!\r\nÉpargnez-moi! Je vous en supplie!"
+      },
+      "Txt_Talk_Common_Monster_7": {
+        "SelfId": "Txt_Talk_Common_Monster_7",
+        "Text": "*: Quittez ce lieu, <IfSolo(affreuse créature,affreuses créatures)>, ou vous subirez la punition du ciel!"
+      },
+      "Txt_Talk_Common_Monster_8": {
+        "SelfId": "Txt_Talk_Common_Monster_8",
+        "Text": "*: Ça alors! <IfSolo(Un monstre,Des monstres)>!\r\nSi j'arrivais à <IfSolo(le,les)> capturer, je pourrais <IfSolo(l',les )>étudier dans le cadre de mes recherches..."
+      },
+      "Txt_Talk_Common_Monster_9": {
+        "SelfId": "Txt_Talk_Common_Monster_9",
+        "Text": "*: Qu'est-ce que c'est? Grr! Allez, <IfSolo(viens te,venez vous)> battre!\r\nOn va voir ce que <IfSolo(tu vaux,vous valez)>!"
+      },
+      "Txt_Talk_Common_Monster_10": {
+        "SelfId": "Txt_Talk_Common_Monster_10",
+        "Text": "*: <IfSolo(Sale monstre,Sales monstres)>!\r\n<IfSolo(Pars ou tu subiras,Partez ou vous subirez)> ma colère!"
+      },
+      "Txt_Talk_Common_Monster_11": {
+        "SelfId": "Txt_Talk_Common_Monster_11",
+        "Text": "*: D'où est-ce que <IfSolo(tu sors,vous sortez)>, bon sang?\r\nGrr! Allez, <IfSolo(viens te,venez vous)> battre si <IfSolo(tu en as,vous en avez)> dans le ventre!"
+      },
+      "Txt_Talk_Common_Monster_12": {
+        "SelfId": "Txt_Talk_Common_Monster_12",
+        "Text": "*: <IfSolo(Tu veux te,Vous voulez vous)> battre?\r\n<IfSolo(Viens,Venez)>, alors!\r\nHiiiya!"
+      },
+      "Txt_Talk_Common_Monster_13": {
+        "SelfId": "Txt_Talk_Common_Monster_13",
+        "Text": "*: Gloups!\r\nMince alors!"
+      },
+      "Txt_Talk_Common_Monster_14": {
+        "SelfId": "Txt_Talk_Common_Monster_14",
+        "Text": "*: ♪ Le barde a vu <IfSolo(un mooonstre,des mooonstres)>,\r\nMais sa peur il ne mooontre! ♪\r\nGloups... En fait si! À l'aaaide!"
+      },
+      "Txt_Talk_Common_Monster_15": {
+        "SelfId": "Txt_Talk_Common_Monster_15",
+        "Text": "*: <IfSolo(Un monstre,Des monstres)>?\r\nQu'est-ce <IfSolo(qu'un monstre fait,que des monstres font)> ici?"
+      },
+      "Txt_Talk_Common_Monster_16": {
+        "SelfId": "Txt_Talk_Common_Monster_16",
+        "Text": "*: <IfSolo(Un m-m-mooonstre,Des m-m-mooonstres)>!\r\nAu secours, quelqu'un!\r\nJe vais changer, promis!"
+      },
+      "Txt_Talk_Common_Monster_17": {
+        "SelfId": "Txt_Talk_Common_Monster_17",
+        "Text": "*: Alors, espèce<IfSolo(,s)> de <IfSolo(sale monstre,sales monstres)>?\r\n<IfSolo(Tu veux te,Vous voulez vous)> battre, ou <IfSolo(tu vas,vous allez)> juste taper la causette?\r\nEn garde!"
+      },
+      "Txt_Talk_Common_Monster_18": {
+        "SelfId": "Txt_Talk_Common_Monster_18",
+        "Text": "*: ... Oh, c'est <IfSolo(toi,vous)>.\r\nBonjour."
+      },
+      "Txt_Talk_Common_Monster_19": {
+        "SelfId": "Txt_Talk_Common_Monster_19",
+        "Text": "*: Qu'est-ce que <IfSolo(tu fais,vous faites)> avec cette apparence?"
+      },
+      "Txt_Talk_Common_Monster_20": {
+        "SelfId": "Txt_Talk_Common_Monster_20",
+        "Text": "*: AAAAAAH!<!><!>"
+      },
+      "Txt_Talk_Common_Monster_21": {
+        "SelfId": "Txt_Talk_Common_Monster_21",
+        "Text": "*: <IfSolo(Un monstre apparaît,Des monstres apparaissent)>...\r\nLe mal en ce lieu de paix...\r\nUn cri soudain: AAAAH!<!><!>"
+      },
+      "Txt_Talk_Common_Monster_22": {
+        "SelfId": "Txt_Talk_Common_Monster_22",
+        "Text": "*: Qu-qu'est-ce que c'est?\r\n.<IfSolo(Un... Un monstre,Des... Des monstres)>?\r\n... Ou bien j'ai de la fièvre?"
+      },
+      "Txt_Talk_Common_Monster_23": {
+        "SelfId": "Txt_Talk_Common_Monster_23",
+        "Text": "*: Sorcellerie!\r\nSORCELLERIE!<!><!>"
+      },
+      "Txt_Talk_Common_Monster_24": {
+        "SelfId": "Txt_Talk_Common_Monster_24",
+        "Text": "*: <IfSolo(Un esprit maléfique est,Des esprits maléfiques sont)> parmi nous!\r\nAppelez le chasseur de sorcières avant qu'il ne soit trop tard!"
+      },
+      "Txt_Talk_Common_Monster_25": {
+        "SelfId": "Txt_Talk_Common_Monster_25",
+        "Text": "*: Ô ciel, la famine n'était-elle pas suffisante? Et la fièvre? Faut-il vraiment que nous subissions aussi une invasion de monstres?<!>"
+      },
+      "Txt_Talk_Common_Monster_26": {
+        "SelfId": "Txt_Talk_Common_Monster_26",
+        "Text": "*: Aaah! <IfSolo(Un monstre,Des monstres)>!\r\nLe Ciel <IfSolo(l',les )>aurait envoyé<IfSolo(,s)> pour me punir d'avoir oublié de prier?"
+      },
+      "Txt_Talk_Common_Monster_27": {
+        "SelfId": "Txt_Talk_Common_Monster_27",
+        "Text": "*: AAAH! <IfSolo( UN MONSTRE,DES MONSTRES)>!<!><!>\r\nÀ l'aaaide!<!><!>"
+      },
+      "Txt_Talk_Common_Monster_28": {
+        "SelfId": "Txt_Talk_Common_Monster_28",
+        "Text": "*: Aaah!"
+      },
+      "Txt_Talk_Common_Monster_29": {
+        "SelfId": "Txt_Talk_Common_Monster_29",
+        "Text": "*: Pas un pas de plus!\r\nCet endroit est réservé aux humains!"
+      },
+      "Txt_Talk_Common_Monster_30": {
+        "SelfId": "Txt_Talk_Common_Monster_30",
+        "Text": "*: N-ne me mangez pas!\r\nJe suis toute sèche et tendineuse!\r\nVous n'aimeriez pas!"
+      },
+      "Txt_Talk_Common_Monster_31": {
+        "SelfId": "Txt_Talk_Common_Monster_31",
+        "Text": "*: Qu-que signifie tout ceci?<!>\r\nGardes! Au secours!"
+      },
+      "Txt_Talk_Common_Monster_32": {
+        "SelfId": "Txt_Talk_Common_Monster_32",
+        "Text": "Aaah!\r\nQuelqu'un! À l'aide!"
+      },
+      "Txt_Talk_Common_Monster_33": {
+        "SelfId": "Txt_Talk_Common_Monster_33",
+        "Text": "*: Non!\r\nPitié, ne me mangez pas!"
+      },
+      "Txt_Talk_Common_Monster_34": {
+        "SelfId": "Txt_Talk_Common_Monster_34",
+        "Text": "*: Bonté du ciel!\r\nAaah!"
+      },
+      "Txt_Talk_Common_Monster_35": {
+        "SelfId": "Txt_Talk_Common_Monster_35",
+        "Text": "Vous n'avez rien à faire en ce lieu!\r\nPartez!"
+      },
+      "Txt_Talk_Common_Monster_36": {
+        "SelfId": "Txt_Talk_Common_Monster_36",
+        "Text": "Arrière, <IfSolo(sale monstre,sales monstres)>!\r\n<IfSolo(T'as,Vous avez)> perdu le cap, pour foncer droit dans un repaire de pirates assoiffés de sang?"
+      },
+      "Txt_Talk_Common_Monster_37": {
+        "SelfId": "Txt_Talk_Common_Monster_37",
+        "Text": "*: <IfSolo(Un horrible monstre,Ah, d'horribles monstres)>...\r\nEffrayée, j'appelle à l'aide...\r\nD'un cri aigu: HIII!<!><!>"
+      },
+      "Txt_Talk_Common_Monster_38": {
+        "SelfId": "Txt_Talk_Common_Monster_38",
+        "Text": "*: Attaque<IfSolo(,z)>-moi donc, monstre<IfSolo(,s)>!\r\nJe ne souffrirai plus dans l'au-delà!"
+      },
+      "Txt_Talk_Common_Monster_39": {
+        "SelfId": "Txt_Talk_Common_Monster_39",
+        "Text": "*: Puissances célestes, sauvez-nous des esprits malfaisants et nous ferons tout pour vous plaire, malgré la fièvre et la famine!"
+      },
+      "Txt_Talk_Common_Monster_40": {
+        "SelfId": "Txt_Talk_Common_Monster_40",
+        "Text": "Gardes! Gardes!\r\nQue signifie tout ceci?<!>\r\nTraînez <IfSolo(cette créature,ces créatures)> hors de notre vue!"
+      },
+      "Txt_Talk_Common_Monster_41": {
+        "SelfId": "Txt_Talk_Common_Monster_41",
+        "Text": "<IfSolo(Un monstre apparaît,Des monstres apparaissent)>...\r\nAttendant des hurlements...\r\nMais je ris, ha ha!"
+      },
+      "Txt_Talk_Common_Monster_42": {
+        "SelfId": "Txt_Talk_Common_Monster_42",
+        "Text": "*: Ô, puissances célestes!\r\nÔ saintes divinités!\r\nSauvez votre humble servante des griffes de <IfSolo(ce monstre,ces monstres)>!"
+      },
+      "Txt_Talk_Common_Monster_43": {
+        "SelfId": "Txt_Talk_Common_Monster_43",
+        "Text": "Je peux savoir ce que <IfSolo(tu fais,vous faites)>?\r\nCet endroit est rempli d'aventuriers qui ne demandent qu'à tuer des monstres,\r\n<IfSolo(tu sais,vous savez)>?"
+      },
+      "Txt_Talk_Common_Monster_44": {
+        "SelfId": "Txt_Talk_Common_Monster_44",
+        "Text": "Au secours!\r\nOrtéga, où es-tu quand j'ai besoin de toi?<!>"
+      },
+      "Txt_Talk_Common_Monster_45": {
+        "SelfId": "Txt_Talk_Common_Monster_45",
+        "Text": "*: Mrrriaourrr!"
+      },
+      "Txt_Talk_Common_Monster_46": {
+        "SelfId": "Txt_Talk_Common_Monster_46",
+        "Text": "*: GRRRR!<!><!>\r\nOuaf! Ouaf!"
+      },
+      "Txt_Talk_Common_Monster_47": {
+        "SelfId": "Txt_Talk_Common_Monster_47",
+        "Text": "*: Hiiiiii!<!><!>"
+      },
+      "Txt_Talk_Common_Monster_48": {
+        "SelfId": "Txt_Talk_Common_Monster_48",
+        "Text": "*: Oh, non. <IfSolo(Un monstre,Des monstres)>.\r\nQu'est-ce que <IfSolo(tu vas,vous allez)> faire?\r\nMe tuer?"
+      },
+      "Txt_Talk_Common_Monster_49": {
+        "SelfId": "Txt_Talk_Common_Monster_49",
+        "Text": "<IfSolo(Tu crois,Vous croyez)> pouvoir m'avoir avec cette apparence?\r\n<IfSolo(Tu te trompes <IfGender_LEADER(humain,humaine,)>,Vous vous trompez humains)>!"
+      },
+      "Txt_Talk_Common_Monster_50": {
+        "SelfId": "Txt_Talk_Common_Monster_50",
+        "Text": "*: Slurp! <IfSolo(Va-t',Allez-vous-)>en!"
+      },
+      "Txt_Talk_Common_Monster_51": {
+        "SelfId": "Txt_Talk_Common_Monster_51",
+        "Text": "Aaah!\r\nÉpargnez-moi! Je vous en supplie!"
+      },
+      "Txt_Talk_Common_Monster_52": {
+        "SelfId": "Txt_Talk_Common_Monster_52",
+        "Text": "GRRRR!<!><!>\r\nOuaf! Ouaf!"
+      },
+      "Txt_Talk_Common_Monster_53": {
+        "SelfId": "Txt_Talk_Common_Monster_53",
+        "Text": "N-ne me mangez pas!\r\nJe suis toute sèche et tendineuse!\r\nVous n'aimeriez pas!"
+      },
+      "Txt_Talk_Common_Monster_54": {
+        "SelfId": "Txt_Talk_Common_Monster_54",
+        "Text": "Oh, bonté divine! Gloups..."
+      },
+      "Txt_Talk_Common_Monster_55": {
+        "SelfId": "Txt_Talk_Common_Monster_55",
+        "Text": "<IfSolo(Un m-m-mooonstre,Des m-m-mooonstres)>!\r\nAu secours, quelqu'un!\r\nJe vais changer, promis!"
+      },
+      "Txt_Talk_Common_Monster_56": {
+        "SelfId": "Txt_Talk_Common_Monster_56",
+        "Text": "Bonté du ciel!\r\nAaah!"
+      },
+      "Txt_Talk_Common_Monster_57": {
+        "SelfId": "Txt_Talk_Common_Monster_57",
+        "Text": "AAAH!<!><!> <IfSolo(UN MONSTRE,DES MONSTRES)>!<!><!>"
+      },
+      "Txt_Talk_Common_Monster_58": {
+        "SelfId": "Txt_Talk_Common_Monster_58",
+        "Text": "... Oh, c'est <IfSolo(toi,vous)>.\r\nBonjour."
+      },
+      "Txt_Talk_Common_Monster_59": {
+        "SelfId": "Txt_Talk_Common_Monster_59",
+        "Text": "Qu'est-ce que <IfSolo(tu fais,vous faites)> avec cette apparence?"
+      },
+      "Txt_Talk_Common_Monster_60": {
+        "SelfId": "Txt_Talk_Common_Monster_60",
+        "Text": "AAAH! <IfSolo( UN MONSTRE,DES MONSTRES)>!<!><!>\r\nÀ l'aaaide!<!><!>"
+      },
+      "Txt_Talk_Common_Monster_61": {
+        "SelfId": "Txt_Talk_Common_Monster_61",
+        "Text": "Slurp! <IfSolo(Va-t',Allez-vous-)>en!"
+      },
+      "Txt_Talk_Common_Monster_62": {
+        "SelfId": "Txt_Talk_Common_Monster_62",
+        "Text": "<IfSolo(Un horrible monstre,Ah, d'horribles monstres)>...\r\nEffrayée, j'appelle à l'aide...\r\nD'un cri aigu: HIII!<!><!>"
+      },
+      "Txt_Talk_Common_Monster_63": {
+        "SelfId": "Txt_Talk_Common_Monster_63",
+        "Text": "Hiiiiii!<!><!>"
+      },
+      "Txt_Talk_Common_Monster_64": {
+        "SelfId": "Txt_Talk_Common_Monster_64",
+        "Text": "AAAAAAH!<!><!>"
+      },
+      "Txt_Talk_Common_Monster_65": {
+        "SelfId": "Txt_Talk_Common_Monster_65",
+        "Text": "Alors, espèce<IfSolo(,s)> de <IfSolo(sale monstre,sales monstres)>?\r\n<IfSolo(Tu veux te,Vous voulez vous)> battre, ou <IfSolo(tu vas,vous allez)> juste taper la causette?\r\nEn garde!"
+      },
+      "Txt_Talk_Common_Monster_66": {
+        "SelfId": "Txt_Talk_Common_Monster_66",
+        "Text": "♪ Le barde a vu <IfSolo(un mooonstre,des mooonstres)>,\r\nMais sa peur il ne mooontre! ♪\r\nGloups... En fait si! À l'aaaide!"
+      },
+      "Txt_Talk_Common_Monster_67": {
+        "SelfId": "Txt_Talk_Common_Monster_67",
+        "Text": "<IfSolo(Tu crois,Vous croyez)> pouvoir m'avoir avec cette apparence?\r\n<IfSolo(Tu te trompes <IfGender_LEADER(humain,humaine,)>,Vous vous trompez humains)>!"
+      },
+      "Txt_Talk_Common_Monster_68": {
+        "SelfId": "Txt_Talk_Common_Monster_68",
+        "Text": "Quel est le sens de ceci?\r\nQui a laissé <IfSolo(un monstre,des monstres)> s'introduire parmi nous?"
+      },
+      "Txt_Talk_Common_Slime_1": {
+        "SelfId": "Txt_Talk_Common_Slime_1",
+        "Text": "*: Hé, regardez!\r\n<IfSolo(Un gluant,Des gluants)>!"
+      },
+      "Txt_Talk_Common_Slime_2": {
+        "SelfId": "Txt_Talk_Common_Slime_2",
+        "Text": "*: Ha! <IfSolo(Un gluant,Des gluants)>!\r\n<IfSolo(Va-t'en,Allez-vous-en)>, <IfSolo(répugnante créature,répugnantes créatures)>!\r\nOuste!"
+      },
+      "Txt_Talk_Common_Slime_3": {
+        "SelfId": "Txt_Talk_Common_Slime_3",
+        "Text": "*: <IfSolo(Un gluant,Des gluants)>!\r\nJ'en ai entendu parler, mais c'est la première fois que j'en vois<IfSolo( un,)>.\r\nEnfin, mère a toujours dit que je mourrais jeune..."
+      },
+      "Txt_Talk_Common_Slime_4": {
+        "SelfId": "Txt_Talk_Common_Slime_4",
+        "Text": "*: <IfSolo(Un gluant,Des gluants)>!\r\nMais qu'est-ce <IfSolo(qu'un gluant fait,que des gluants font)> ici?<!>"
+      },
+      "Txt_Talk_Common_Slime_5": {
+        "SelfId": "Txt_Talk_Common_Slime_5",
+        "Text": "*: Oooh, regardez!\r\n<IfSolo(Il est,Ils sont)> trop mignon<IfSolo(,s)>!"
+      },
+      "Txt_Talk_Common_Slime_6": {
+        "SelfId": "Txt_Talk_Common_Slime_6",
+        "Text": "*: Qu'est-ce <IfSolo(qu'un adorable petit gluant comme toi fait,que d'adorables petits gluants comme vous font)> ici, hein?\r\n<IfSolo(Tu t'es perdu,Vous vous êtes perdus)>?\r\n<IfSolo(Pauvre petit,Pauvres petits)>..."
+      },
+      "Txt_Talk_Common_Slime_7": {
+        "SelfId": "Txt_Talk_Common_Slime_7",
+        "Text": "Salut, petit<IfSolo(,s)> gars!\r\nBienvenue à la taverne de Tulipe!\r\nDésolée, mais on ne forme pas d'équipes de gluants ici..."
+      },
+      "Txt_Talk_Common_Slime_8": {
+        "SelfId": "Txt_Talk_Common_Slime_8",
+        "Text": "*: Slurp! Slurp!\r\nGlu <IfSolo(viens,venez)> ici slouvent?"
+      },
+      "Txt_Talk_Common_Slime_9": {
+        "SelfId": "Txt_Talk_Common_Slime_9",
+        "Text": "Oooh, regardez!\r\n<IfSolo(Il est,Ils sont)> trop mignon<IfSolo(,s)>!"
+      },
+      "Txt_Talk_Common_Slime_10": {
+        "SelfId": "Txt_Talk_Common_Slime_10",
+        "Text": "Slurp! Slurp!\r\nGlu <IfSolo(viens,venez)> ici slouvent?"
+      },
+      "Txt_Talk_Common_ZomaBattle_1": {
+        "SelfId": "Txt_Talk_Common_ZomaBattle_1",
+        "Text": "Hm hm hm!\r\nTu as donc appris à contourner les sorts de protection qui m'entourent?"
+      },
+      "Txt_Talk_Common_ZomaBattle_2": {
+        "SelfId": "Txt_Talk_Common_ZomaBattle_2",
+        "Text": "Peu importe.\r\nViens te battre, et écrase-toi contre les rochers inébranlables de ma puissance!"
+      },
+      "Txt_Talk_Common_Field_MAIN_0_SCENE_0030_010_1": {
+        "SelfId": "Txt_Talk_Common_Field_MAIN_0_SCENE_0030_010_1",
+        "Text": "L'écho d'un bruit assourdissant descend des cieux, semblable à une porte géante que l'on aurait claquée..."
+      },
+      "Txt_Talk_Common_Field_MAIN_0_SCENE_0030_010_2": {
+        "SelfId": "Txt_Talk_Common_Field_MAIN_0_SCENE_0030_010_2",
+        "Text": "{WORD} revient à la vie!"
+      },
+      "Txt_Talk_Common_MBR_Escape_Sound": {
+        "SelfId": "Txt_Talk_Common_MBR_Escape_Sound",
+        "Text": "Le monstre est surpris par le bruit de vos pas et s'enfuit!"
+      },
+      "Txt_Talk_Common_MBR_Escape_Smell": {
+        "SelfId": "Txt_Talk_Common_MBR_Escape_Smell",
+        "Text": "Le monstre sent votre forte odeur et s'enfuit!"
+      },
+      "Txt_Talk_Common_MBR_Escape_Look": {
+        "SelfId": "Txt_Talk_Common_MBR_Escape_Look",
+        "Text": "Le monstre vous repère et s'enfuit!"
+      },
+      "Txt_Talk_Common_MBR_Entry_1": {
+        "SelfId": "Txt_Talk_Common_MBR_Entry_1",
+        "Text": "*: Bienvenue dans notre arène la plus sacrée, où les monstres les plus amicaux, mais aussi les plus redoutables, s'affrontent dans des combats glorieux!<KEY_WAIT>\r\n*: Vous pouvez combattre au rang... Oh? Désolée, {LEADER}, mais il semblerait que vous n'ayez pas les qualifications requises pour tester la puissance de vos monstres ici."
+      },
+      "Txt_Talk_Common_MBR_Entry_2": {
+        "SelfId": "Txt_Talk_Common_MBR_Entry_2",
+        "Text": "*: D'après nos observations, vous n'avez pas encore triomphé dans chacun des tournois disponibles dans l'arène de Romalie. Revenez lorsque vous y serez <IfGender_LEADER(parvenu,parvenue,)>. Bonne chance!"
+      },
+      "Txt_Talk_Common_MBR_Entry_3": {
+        "SelfId": "Txt_Talk_Common_MBR_Entry_3",
+        "Text": "*: D'après nos observations, vous n'avez pas encore triomphé dans chacun des tournois disponibles dans l'arène d'Ibis. Revenez lorsque vous y serez <IfGender_LEADER(parvenu,parvenue,)>. Bonne chance!"
+      },
+      "Txt_Talk_Common_MBR_Entry_4": {
+        "SelfId": "Txt_Talk_Common_MBR_Entry_4",
+        "Text": "*: D'après nos observations, vous n'avez pas encore triomphé dans chacun des tournois disponibles dans l'arène de Manoza. Revenez lorsque vous y serez <IfGender_LEADER(parvenu,parvenue,)>. Bonne chance!"
+      },
+      "Txt_Talk_Common_MBR_Entry_5": {
+        "SelfId": "Txt_Talk_Common_MBR_Entry_5",
+        "Text": "*: D'après nos observations, vous n'avez pas encore triomphé dans chacun des tournois disponibles dans l'arène de Cantelin. Revenez lorsque vous y serez <IfGender_LEADER(parvenu,parvenue,)>. Bonne chance!"
+      },
+      "Txt_Talk_Common_Field_SignBoard_1": {
+        "SelfId": "Txt_Talk_Common_Field_SignBoard_1",
+        "Text": "↑ Rêvé\r\n\r\n↓ Grotte du cap"
+      },
+      "Txt_Talk_Common_Field_SignBoard_2": {
+        "SelfId": "Txt_Talk_Common_Field_SignBoard_2",
+        "Text": "↑ Khoryv\r\n← Barrière d'octroi\r\n→ Asham"
+      },
+      "Txt_Talk_Common_Field_SignBoard_3": {
+        "SelfId": "Txt_Talk_Common_Field_SignBoard_3",
+        "Text": "↑ Norvik\r\n\r\n← Tour de Champagnie"
+      },
+      "Txt_Talk_Common_Field_SignBoard_4": {
+        "SelfId": "Txt_Talk_Common_Field_SignBoard_4",
+        "Text": "→ Grotte\r\n↓ Asham\r\nSud-ouest: Ibis"
+      },
+      "Txt_Talk_Common_Field_SignBoard_5": {
+        "SelfId": "Txt_Talk_Common_Field_SignBoard_5",
+        "Text": "Tout droit: Désert\r\nSud-ouest: Ibis\r\nOuest: Pyramide"
+      },
+      "Txt_Talk_Common_Field_SignBoard_6": {
+        "SelfId": "Txt_Talk_Common_Field_SignBoard_6",
+        "Text": "Nord: Cap d'Olivia\r\n\r\nSud-est: Baharata"
+      },
+      "Txt_Talk_Common_Field_SignBoard_7": {
+        "SelfId": "Txt_Talk_Common_Field_SignBoard_7",
+        "Text": "↑ Abbaye des Vocations\r\n\r\n← Grotte"
+      },
+      "Txt_Talk_Common_Field_SignBoard_8": {
+        "SelfId": "Txt_Talk_Common_Field_SignBoard_8",
+        "Text": "Nord: Tour de Garna\r\n\r\nSud-est: Auberge du voyageur"
+      },
+      "Txt_Talk_Common_Field_SignBoard_9": {
+        "SelfId": "Txt_Talk_Common_Field_SignBoard_9",
+        "Text": "↑ Mur\r\n\r\n↓ Auberge du voyageur"
+      },
+      "Txt_Talk_Common_Field_SignBoard_10": {
+        "SelfId": "Txt_Talk_Common_Field_SignBoard_10",
+        "Text": "↑ Sanctuaire du voyageur\r\n\r\n→ Theddon (Au bas de la rivière)"
+      },
+      "Txt_Talk_Common_Field_SignBoard_11": {
+        "SelfId": "Txt_Talk_Common_Field_SignBoard_11",
+        "Text": "↑ Persistence (Amont de la rivière)\r\n\r\n← Tour d'Arpe (Au delà des montagnes à l'ouest)"
+      },
+      "Txt_Talk_Common_shortcut_1": {
+        "SelfId": "Txt_Talk_Common_shortcut_1",
+        "Text": "Il semble possible de retourner directement à l'entrée de la zone d'ici.\r\nSe déplacer?"
+      }
+    }
+  }
+]

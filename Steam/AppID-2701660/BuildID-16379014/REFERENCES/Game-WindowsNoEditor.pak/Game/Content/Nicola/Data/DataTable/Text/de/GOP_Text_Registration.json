@@ -1,0 +1,516 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_Registration",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Registration_UI_Warrior_Info": {
+        "SelfId": "Txt_Registration_UI_Warrior_Info",
+        "Text": "Krieger tragen mächtige Waffen, sind ausdauernd und nutzen ihre rohe Muskelkraft, um ihren Feinden zuzusetzen und ihre Verbündeten zu schützen."
+      },
+      "Txt_Registration_UI_Mage_Info": {
+        "SelfId": "Txt_Registration_UI_Mage_Info",
+        "Text": "Zauberer sind meisterhafte Magiekundige, die ihr enormes magisches Wissen einsetzen, um jeden zu besiegen, der töricht genug ist, sich ihnen in den Weg zu stellen."
+      },
+      "Txt_Registration_UI_Priest_Info": {
+        "SelfId": "Txt_Registration_UI_Priest_Info",
+        "Text": "Priester beiten hervorragende  Rückendeckung. Sie können Heilzauber wirken und wissen dazu auch noch mit Waffen umzugehen."
+      },
+      "Txt_Registration_UI_MartialArtist_Info": {
+        "SelfId": "Txt_Registration_UI_MartialArtist_Info",
+        "Text": "Kampfkünstler sind Meister des Nahkampfes. Sie verfügen über eine faszinierende Agilität und bringen ihre Gegner mit kritischen Treffern schnell zu Fall."
+      },
+      "Txt_Registration_UI_Merchant_Info": {
+        "SelfId": "Txt_Registration_UI_Merchant_Info",
+        "Text": "Händler sind wertvolle Begleiter. Sie sammeln extra Goldmünzen und schätzen den Wert von Gegenständen."
+      },
+      "Txt_Registration_UI_Gadabout_Info": {
+        "SelfId": "Txt_Registration_UI_Gadabout_Info",
+        "Text": "Schelme sind das Herz und die Seele jeder Gruppe<nbsp><--> mit ihren Streichen können sie allerlei Schabernack anrichten."
+      },
+      "Txt_Registration_UI_Sage_Info": {
+        "SelfId": "Txt_Registration_UI_Sage_Info",
+        "Text": "Weise sind mehr oder weniger allwissend. Sie sind sowohl in der Zauberer- als auch der Priesterschule bewandert."
+      },
+      "Txt_Registration_UI_Thief_Info": {
+        "SelfId": "Txt_Registration_UI_Thief_Info",
+        "Text": "Diebe sind raffinierte Schurken, die sich mühelos und unbemerkt durch Verliese schleichen und Schätze erbeuten können."
+      },
+      "Txt_Registration_UI_MonsterTamer_Info": {
+        "SelfId": "Txt_Registration_UI_MonsterTamer_Info",
+        "Text": "Die sonderbaren Monsterbändiger lernen die meisten ihrer Tricks von Monstern und kombinieren diese zu einem einzigartigen Kampfstil."
+      },
+      "Txt_Registration_UI_JpbSelect_Guide": {
+        "SelfId": "Txt_Registration_UI_JpbSelect_Guide",
+        "Text": "Wähle eine Berufung."
+      },
+      "Txt_Registration_UI_Style_Menu_01": {
+        "SelfId": "Txt_Registration_UI_Style_Menu_01",
+        "Text": "Aussehen A"
+      },
+      "Txt_Registration_UI_Style_Menu_02": {
+        "SelfId": "Txt_Registration_UI_Style_Menu_02",
+        "Text": "Aussehen B"
+      },
+      "Txt_Registration_UI_HairSelect_Guide": {
+        "SelfId": "Txt_Registration_UI_HairSelect_Guide",
+        "Text": "Wähle eine Haarfarbe."
+      },
+      "Txt_Registration_UI_SeedUseSelect_01": {
+        "SelfId": "Txt_Registration_UI_SeedUseSelect_01",
+        "Text": "Selbst bestimmen"
+      },
+      "Txt_Registration_UI_SeedUseSelect_02": {
+        "SelfId": "Txt_Registration_UI_SeedUseSelect_02",
+        "Text": "Bestimmen lassen"
+      },
+      "Txt_Registration_UI_Seed_Guide": {
+        "SelfId": "Txt_Registration_UI_Seed_Guide",
+        "Text": "Noch {0} übrig"
+      },
+      "Txt_Registration_UI_Personality_Blank": {
+        "SelfId": "Txt_Registration_UI_Personality_Blank",
+        "Text": "???"
+      },
+      "Txt_Registration_UI_VoiceSelect_Guide": {
+        "SelfId": "Txt_Registration_UI_VoiceSelect_Guide",
+        "Text": "Wähle eine Stimme."
+      },
+      "Txt_Registration_UI_VoiceSample_Guide": {
+        "SelfId": "Txt_Registration_UI_VoiceSample_Guide",
+        "Text": "Anhören"
+      },
+      "Txt_Registration_UI_VoicePattern_01_M": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_01_M",
+        "Text": "Aufrichtig"
+      },
+      "Txt_Registration_UI_VoicePattern_02_M": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_02_M",
+        "Text": "Vorlaut"
+      },
+      "Txt_Registration_UI_VoicePattern_03_M": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_03_M",
+        "Text": "Zaghaft"
+      },
+      "Txt_Registration_UI_VoicePattern_04_M": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_04_M",
+        "Text": "Besonnen"
+      },
+      "Txt_Registration_UI_VoicePattern_05_M": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_05_M",
+        "Text": "Heißblütig"
+      },
+      "Txt_Registration_UI_VoicePattern_06_M": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_06_M",
+        "Text": "Witzig"
+      },
+      "Txt_Registration_UI_VoicePattern_07_M": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_07_M",
+        "Text": "Dickköpfig"
+      },
+      "Txt_Registration_UI_VoicePattern_08_M": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_08_M",
+        "Text": "Sanft"
+      },
+      "Txt_Registration_UI_VoicePattern_09_M": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_09_M",
+        "Text": "Streitlustig"
+      },
+      "Txt_Registration_UI_VoicePattern_01_F": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_01_F",
+        "Text": "Kindisch"
+      },
+      "Txt_Registration_UI_VoicePattern_02_F": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_02_F",
+        "Text": "Schüchtern"
+      },
+      "Txt_Registration_UI_VoicePattern_03_F": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_03_F",
+        "Text": "Wild"
+      },
+      "Txt_Registration_UI_VoicePattern_04_F": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_04_F",
+        "Text": "Distanziert"
+      },
+      "Txt_Registration_UI_VoicePattern_05_F": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_05_F",
+        "Text": "Entschlossen"
+      },
+      "Txt_Registration_UI_VoicePattern_06_F": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_06_F",
+        "Text": "Jugendlich"
+      },
+      "Txt_Registration_UI_VoicePattern_07_F": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_07_F",
+        "Text": "Elegant"
+      },
+      "Txt_Registration_UI_VoicePattern_08_F": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_08_F",
+        "Text": "Ernst"
+      },
+      "Txt_Registration_UI_VoicePattern_09_F": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_09_F",
+        "Text": "Verführerisch"
+      },
+      "Txt_Registration_UI_DeleteGuide": {
+        "SelfId": "Txt_Registration_UI_DeleteGuide",
+        "Text": "Wer soll zurückbleiben?"
+      },
+      "Txt_Registration_Message_Start": {
+        "SelfId": "Txt_Registration_Message_Start",
+        "Text": "*: Herzlich willkommen bei der Premium-Agentur zur Rekrutierung Talentierter Neulinge und Erstklassiger Rekruten! Mit PARTNER stellst du dir garantiert ein echtes Siegerteam zusammen!"
+      },
+      "Txt_Registration_Message_First": {
+        "SelfId": "Txt_Registration_Message_First",
+        "Text": "*: Wir helfen dir dabei, die heißesten Eisen in Sachen Abenteuerbekanntschaften endlich wieder in Lohn und Brot zu bringen und in deine Gruppe zu verfrachten!<KEY_WAIT>\r\n*: Sag uns einfach, wonach du suchst, und wir schicken dir qualifizierte Fachkräfte direkt zum Heldenhort-Schalter rüber!"
+      },
+      "Txt_Registration_Message_Top": {
+        "SelfId": "Txt_Registration_Message_Top",
+        "Text": "*: Also dann, willst du dir heute etwas frischen Wind in deine Gruppe holen?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_NameSelect": {
+        "SelfId": "Txt_Registration_Message_NameSelect",
+        "Text": "*: Was für eine Person suchst du denn? Wie wär<9>s damit: Du sagst mir einen Namen und wir kümmern uns um den Rest, ja?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_JobSelect": {
+        "SelfId": "Txt_Registration_Message_JobSelect",
+        "Text": "*: In Ordnung. Und welche Berufung hattest du im Sinn?"
+      },
+      "Txt_Registration_Message_StyleSelect": {
+        "SelfId": "Txt_Registration_Message_StyleSelect",
+        "Text": "*: Was kannst du mir über die Person erzählen?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_LooksSelect": {
+        "SelfId": "Txt_Registration_Message_LooksSelect",
+        "Text": "*: Individualität wird bei uns großgeschrieben. Wähle eine Frisur!<NO_INPUT>"
+      },
+      "Txt_Registration_Message_HairColorSelect": {
+        "SelfId": "Txt_Registration_Message_HairColorSelect",
+        "Text": "*: Alles klar. Und welche Haarfarbe darf es sein?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_Confirm_01": {
+        "SelfId": "Txt_Registration_Message_Confirm_01",
+        "Text": "*: Aha! Da hab ich doch genau das Richtige für dich. Könnte das was werden mit euch beiden?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_UseSeedFirst": {
+        "SelfId": "Txt_Registration_Message_UseSeedFirst",
+        "Text": "*: Heute ist dein Glückstag, {LEADER}!<KEY_WAIT>\r\nIm Rahmen des <DE99>Förderprogramms für Besondere Abenteuer<DE66> Seiner Majestät wird dir eine Spezielle Ausbildungsbezogene Maßnahme für den Erkenntnisgewinn im Nebenerwerb zuteil!<KEY_WAIT>\r\n*: Du erhältst sie in Form von SAMEN, bzw. <DE99>Samen<DE66>, die zur Steigerung der Attribute und somit zur Entwicklung deiner Gruppenmitglieder beitragen!<KEY_WAIT>\r\n*: Du kannst die Samen entweder selbst aussuchen, oder meine Ausbildungsberatung in Anspruch nehmen und sie von mir auswählen lassen.<KEY_WAIT>\r\n*: Wenn du selbst entscheiden willst, darfst du bis zu fünf Samen für dein neues Gruppenmitglied aussuchen. Wenn du es mir überlässt, suche ich die Samen nach bestem Wissen und Gewissen aus."
+      },
+      "Txt_Registration_Message_UseSeedSelect": {
+        "SelfId": "Txt_Registration_Message_UseSeedSelect",
+        "Text": "*: Also, wie willst du die Samen für {WORD} verteilen?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_UseSeedStart": {
+        "SelfId": "Txt_Registration_Message_UseSeedStart",
+        "Text": "*: Du hast noch {VALUE} übrig.\r\nWähle mit Bedacht!"
+      },
+      "Txt_Registration_Message_UseSeedAuto": {
+        "SelfId": "Txt_Registration_Message_UseSeedAuto",
+        "Text": "*: Exzellent.\r\nÜberlass mir das!"
+      },
+      "Txt_Registration_Message_Confirm_02": {
+        "SelfId": "Txt_Registration_Message_Confirm_02",
+        "Text": "*: Bist du mit {WORD} zufrieden?"
+      },
+      "Txt_Registration_Message_VoiceSelect": {
+        "SelfId": "Txt_Registration_Message_VoiceSelect",
+        "Text": "*: Das Wichtigste zum Schluss: Welche Stimme hast du dir denn so vorgestellt?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_FinishConfirm": {
+        "SelfId": "Txt_Registration_Message_FinishConfirm",
+        "Text": "*: Wenn du jetzt einen Rückzieher machst, bleibt deine Gruppe, wie sie ist. Möchtest du das wirklich?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_Confirm_03": {
+        "SelfId": "Txt_Registration_Message_Confirm_03",
+        "Text": "*: Ich werde {WORD} nun offiziell registrieren, einverstanden?"
+      },
+      "Txt_Registration_Message_AddBarMember": {
+        "SelfId": "Txt_Registration_Message_AddBarMember",
+        "Text": "*: Sehr schön. {WORD} wartet sicher schon unten auf dich."
+      },
+      "Txt_Registration_Message_RegistrationCancel": {
+        "SelfId": "Txt_Registration_Message_RegistrationCancel",
+        "Text": "*: Oh. Wie schade."
+      },
+      "Txt_Registration_Message_AddRegistrationConfirm": {
+        "SelfId": "Txt_Registration_Message_AddRegistrationConfirm",
+        "Text": "*: Möchtest du noch jemand anderen rekrutieren?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_UseSeedAutoFinish": {
+        "SelfId": "Txt_Registration_Message_UseSeedAutoFinish",
+        "Text": "*: So, das hätten wir erledigt<nbsp>..."
+      },
+      "Txt_Registration_Message_BarMemberMax": {
+        "SelfId": "Txt_Registration_Message_BarMemberMax",
+        "Text": "*: Ich fürchte, du musst dich von jemandem trennen, um jemand anderen rekrutieren zu können. Möchtest du fortfahren?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_DeleteBarMemberSelect": {
+        "SelfId": "Txt_Registration_Message_DeleteBarMemberSelect",
+        "Text": "*: Na dann, welchem deiner Gruppenmitglieder möchtest du<nbsp>... ähem<nbsp>... die Chance geben, sich anderweitig zu verwirklichen?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_DeleteBarMemberConfirm": {
+        "SelfId": "Txt_Registration_Message_DeleteBarMemberConfirm",
+        "Text": "*: Du möchtest {WORD} gehen lassen, richtig? Bist du sicher? Zerrissene Bande lassen sich nicht wieder flicken<nbsp>...<NO_INPUT>"
+      },
+      "Txt_Registration_Message_DeleteBarMemberFinish": {
+        "SelfId": "Txt_Registration_Message_DeleteBarMemberFinish",
+        "Text": "*: Es ist zwar immer schade, jemanden gehen zu sehen, aber ich bin sicher, dass es nur Vorteile für die persönliche Entwicklung von {WORD} haben wird.<KEY_WAIT>\r\n*: Und keine Sorge<nbsp><--> bevor wir {WORD} hinausbegleiten, haben wir alle wichtigen Habseligkeiten für dich sichergestellt. Du solltest sie in deinem Beutel finden können.<KEY_WAIT>\r\n*: Jetzt, da wir {WORD} Lebewohl gesagt haben, ist ein Platz in deiner Gruppe freigeworden und somit wieder Raum für neue, spannende Persönlichkeiten!"
+      },
+      "Txt_Registration_Message_DeleteBarMemberCancel": {
+        "SelfId": "Txt_Registration_Message_DeleteBarMemberCancel",
+        "Text": "*: Hast du es dir doch anders überlegt?\r\nIst vielleicht besser so, man weiß ja nie."
+      },
+      "Txt_Registration_Message_NameError_Duplication": {
+        "SelfId": "Txt_Registration_Message_NameError_Duplication",
+        "Text": "*: Oh, wie seltsam<nbsp>... Ich glaube, die Person gehört bereits deiner Gruppe an. Sollen wir lieber jemand anderen für dich suchen?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_NameError_Ban": {
+        "SelfId": "Txt_Registration_Message_NameError_Ban",
+        "Text": "*: Es tut mir leid, aber wir haben niemanden mit diesem Namen in unserer Kartei.<KEY_WAIT>\r\n*: Sollen wir lieber jemand anderen für dich suchen?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_NameError_Roto": {
+        "SelfId": "Txt_Registration_Message_NameError_Roto",
+        "Text": "*: E-Erdrick?! Du hast doch Erdrick gesagt, oder?! Es tut mir wirklich leid<nbsp>... aber <DE99>Erdrick<DE66> ist nicht nur irgendein Name, sondern ein Titel.<KEY_WAIT>\r\n*: In der Sprache der Altvorderen bedeutet er <DE99>Heimatland<DE66>.<KEY_WAIT>\r\n*: Jemanden Erdrick zu nennen, kommt der Ernennung zum Aushängeschild, ja zur Heldenfigur eines Landes gleich.<KEY_WAIT>\r\n*: Diese Würde wird selbstverständlich nur den größten Heldenfiguren zuteil und mir ist es in meinem bescheidenen Amt untersagt, solche Lichtgestalten zu ernennen!"
+      },
+      "Txt_Registration_Message_RegistrationFinish": {
+        "SelfId": "Txt_Registration_Message_RegistrationFinish",
+        "Text": "*: Komm gern wieder vorbei, wenn du in der Gegend bist und neues Spitzen-Abenteuerpersonal an deiner Seite brauchst. Tschüss!"
+      },
+      "Txt_Registration_Message_Personality_01": {
+        "SelfId": "Txt_Registration_Message_Personality_01",
+        "Text": "*: Mal sehen<nbsp>... Hmm, {WORD}?! Ja, das könnte passen!<KEY_WAIT>\r\n*: Leute mit dieser Persönlichkeit gewinnen extrem schnell an Stärke, aber in Sachen Weisheit hinken sie oft hinterher."
+      },
+      "Txt_Registration_Message_Personality_02": {
+        "SelfId": "Txt_Registration_Message_Personality_02",
+        "Text": "*: Mal sehen<nbsp>... Hmm, {WORD}?! Ja, das könnte passen!<KEY_WAIT>\r\n*: Leute mit dieser Persönlichkeit gewinnen extrem schnell an Stärke, aber in Sachen Weisheit, Flinkheit und Glück hinken sie oft hinterher."
+      },
+      "Txt_Registration_Message_Personality_03": {
+        "SelfId": "Txt_Registration_Message_Personality_03",
+        "Text": "*: Mal sehen<nbsp>... Hmm, {WORD}?! Ja, das könnte passen!<KEY_WAIT>\r\n*: Leute mit dieser Persönlichkeit gewinnen schnell an Stärke und ihr Widerstand steigt auch schneller als gewöhnlich. Aber in Sachen Weisheit und Glück hinken sie oft hinterher."
+      },
+      "Txt_Registration_Message_Personality_04": {
+        "SelfId": "Txt_Registration_Message_Personality_04",
+        "Text": "*: Mal sehen<nbsp>... Hmm, {WORD}?! Ja, das könnte passen!<KEY_WAIT>\r\n*: Leute mit dieser Persönlichkeit gewinnen extrem schnell an Stärke und ihr Widerstand entwickelt sich ebenfalls schneller als gewöhnlich."
+      },
+      "Txt_Registration_Message_Personality_05": {
+        "SelfId": "Txt_Registration_Message_Personality_05",
+        "Text": "*: Mal sehen. <DE99>{WORD}<DE66>, was?<KEY_WAIT>\r\n*: Leute mit dieser Persönlichkeit haben die Eigenschaft, dass sich ihr Widerstand extrem schnell erhöht. Auch Stärke und Ausdauer erhöhen sich etwas schneller als gewöhnlich. Dafür entwickeln sich Weisheit und Flinkheit nur langsam."
+      },
+      "Txt_Registration_Message_Personality_06": {
+        "SelfId": "Txt_Registration_Message_Personality_06",
+        "Text": "*: Mal sehen. <DE99>{WORD}<DE66>, was?<KEY_WAIT>\r\n*: Leute mit dieser Persönlichkeit haben die Eigenschaft, dass sich ihr Widerstand und ihre Stärke schnell erhöhen. Dafür verbessert sich ihr Glück nur langsam."
+      },
+      "Txt_Registration_Message_Personality_07": {
+        "SelfId": "Txt_Registration_Message_Personality_07",
+        "Text": "*: Mal sehen. <DE99>{WORD}<DE66>, was?<KEY_WAIT>\r\n*: Leute mit dieser Persönlichkeit haben die Eigenschaft, dass sich ihre Stärke und ihre Flinkheit schnell erhöhen."
+      },
+      "Txt_Registration_Message_Personality_08": {
+        "SelfId": "Txt_Registration_Message_Personality_08",
+        "Text": "*: Mal sehen. <DE99>{WORD}<DE66>, was?<KEY_WAIT>\r\n*: Leute mit dieser Persönlichkeit haben die Eigenschaft, dass sich ihre Flinkheit und ihre Ausdauer schnell erhöhen. Allerdings verbessert sich dafür der Widerstand nur langsam."
+      },
+      "Txt_Registration_Message_Personality_09": {
+        "SelfId": "Txt_Registration_Message_Personality_09",
+        "Text": "*: Mal sehen. <DE99>{WORD}<DE66>, was?<KEY_WAIT>\r\n*: Leute mit dieser Persönlichkeit haben die Eigenschaft, dass sich ihre Ausdauer schnell erhöht."
+      },
+      "Txt_Registration_Message_Personality_10": {
+        "SelfId": "Txt_Registration_Message_Personality_10",
+        "Text": "*: Mal sehen. <DE99>{WORD}<DE66>, was?<KEY_WAIT>\r\n*: Leute mit dieser Persönlichkeit haben die Eigenschaft, dass sich ihre Flinkheit schnell erhöht."
+      },
+      "Txt_Registration_Message_Personality_11": {
+        "SelfId": "Txt_Registration_Message_Personality_11",
+        "Text": "*: Mal sehen. <DE99>{WORD}<DE66>, was?<KEY_WAIT>\r\n*: Leute mit dieser Persönlichkeit haben die Eigenschaft, dass sich ihre Flinkheit und ihre Ausdauer etwas schneller als gewöhnlich erhöhen."
+      },
+      "Txt_Registration_Message_Personality_12": {
+        "SelfId": "Txt_Registration_Message_Personality_12",
+        "Text": "*: Mal sehen. <DE99>{WORD}<DE66>, was?<KEY_WAIT>\r\n*: Leute mit dieser Persönlichkeit haben die Eigenschaft, dass sich ihr Widerstand und ihre Ausdauer etwas schneller als gewöhnlich erhöhen. Dafür erhöht sich die Flinkheit nur langsam."
+      },
+      "Txt_Registration_Message_Personality_13": {
+        "SelfId": "Txt_Registration_Message_Personality_13",
+        "Text": "*: Mal sehen. <DE99>{WORD}<DE66>, was?<KEY_WAIT>\r\n*: Leute mit dieser Persönlichkeit haben die Eigenschaft, dass sich ihr Glück etwas schneller als gewöhnlich erhöht. Dafür erhöht sich ihre Weisheit nur langsam."
+      },
+      "Txt_Registration_Message_Personality_14": {
+        "SelfId": "Txt_Registration_Message_Personality_14",
+        "Text": "*: Mal sehen. <DE99>{WORD}<DE66>, was?<KEY_WAIT>\r\n*: Leute mit dieser Persönlichkeit haben die Eigenschaft, dass sich ihr Widerstand und ihre Ausdauer schnell erhöhen. Allerdings verbessern sich dafür ihre Flinkheit, ihre Weisheit und ihr Glück nur langsam."
+      },
+      "Txt_Registration_Message_Personality_15": {
+        "SelfId": "Txt_Registration_Message_Personality_15",
+        "Text": "*: Mal sehen. <DE99>{WORD}<DE66>, was?<KEY_WAIT>\r\n*: Leute mit dieser Persönlichkeit haben die Eigenschaft, dass sich ihr Glück extrem schnell und ihre Weisheit etwas schneller als gewöhnlich erhöhen. Dafür erhöht sich ihr Widerstand nur langsam."
+      },
+      "Txt_Registration_Message_Personality_16": {
+        "SelfId": "Txt_Registration_Message_Personality_16",
+        "Text": "*: Mal sehen. <DE99>{WORD}<DE66>, was?<KEY_WAIT>\r\n*: Leute mit dieser Persönlichkeit haben die Eigenschaft, dass sich ihre Attribute gleichmäßig erhöhen."
+      },
+      "Txt_Registration_Message_Personality_17": {
+        "SelfId": "Txt_Registration_Message_Personality_17",
+        "Text": "*: Mal sehen. <DE99>{WORD}<DE66>, was?<KEY_WAIT>\r\n*: Leute mit dieser Persönlichkeit haben die Eigenschaft, dass sich ihre Attribute gleichmäßig erhöhen."
+      },
+      "Txt_Registration_Message_Personality_18": {
+        "SelfId": "Txt_Registration_Message_Personality_18",
+        "Text": "*: Mal sehen. <DE99>{WORD}<DE66>, was?<KEY_WAIT>\r\n*: Leute mit dieser Persönlichkeit haben die Eigenschaft, dass sich ihre Flinkheit extrem schnell erhöht."
+      },
+      "Txt_Registration_Message_Personality_19": {
+        "SelfId": "Txt_Registration_Message_Personality_19",
+        "Text": "*: Mal sehen. <DE99>{WORD}<DE66>, was?<KEY_WAIT>\r\n*: Leute mit dieser Persönlichkeit haben die Eigenschaft, dass sich ihre Flinkheit schnell erhöht."
+      },
+      "Txt_Registration_Message_Personality_20": {
+        "SelfId": "Txt_Registration_Message_Personality_20",
+        "Text": "*: Mal sehen. <DE99>{WORD}<DE66>, was?<KEY_WAIT>\r\n*: Leute mit dieser Persönlichkeit haben die Eigenschaft, dass sich ihre Weisheit schnell und ihr Widerstand und ihre Flinkheit etwas schneller als gewöhnlich erhöhen."
+      },
+      "Txt_Registration_Message_Personality_21": {
+        "SelfId": "Txt_Registration_Message_Personality_21",
+        "Text": "*: Mal sehen. <DE99>{WORD}<DE66>, was?<KEY_WAIT>\r\n*: Leute mit dieser Persönlichkeit haben die Eigenschaft, dass sich ihre Weisheit extrem schnell und ihre Flinkheit etwas schneller als gewöhnlich erhöhen."
+      },
+      "Txt_Registration_Message_Personality_22": {
+        "SelfId": "Txt_Registration_Message_Personality_22",
+        "Text": "*: Mal sehen. <DE99>{WORD}<DE66>, was?<KEY_WAIT>\r\n*: Leute mit dieser Persönlichkeit haben die Eigenschaft, dass sich ihr Glück extrem schnell und ihre Flinkheit schnell erhöhen. Dafür erhöhen sich ihre Stärke und ihre Ausdauer nur langsam."
+      },
+      "Txt_Registration_Message_Personality_23": {
+        "SelfId": "Txt_Registration_Message_Personality_23",
+        "Text": "*: Mal sehen. <DE99>{WORD}<DE66>, was?<KEY_WAIT>\r\n*: Leute mit dieser Persönlichkeit haben die Eigenschaft, dass sich ihre Stärke, ihr Widerstand und ihre Flinkheit etwas schneller als gewöhnlich erhöhen."
+      },
+      "Txt_Registration_Message_Personality_24": {
+        "SelfId": "Txt_Registration_Message_Personality_24",
+        "Text": "*: Mal sehen. <DE99>{WORD}<DE66>, was?<KEY_WAIT>\r\n*: Leute mit dieser Persönlichkeit haben die Eigenschaft, dass sich ihre Flinkheit etwas schneller als gewöhnlich erhöht."
+      },
+      "Txt_Registration_Message_Personality_25": {
+        "SelfId": "Txt_Registration_Message_Personality_25",
+        "Text": "*: Mal sehen. <DE99>{WORD}<DE66>, was?<KEY_WAIT>\r\n*: Leute mit dieser Persönlichkeit haben die Eigenschaft, dass sich ihr Glück schnell und ihre Weisheit etwas schneller als gewöhnlich erhöhen.  Dafür erhöht sich ihr Widerstand nur langsam."
+      },
+      "Txt_Registration_Message_Personality_26": {
+        "SelfId": "Txt_Registration_Message_Personality_26",
+        "Text": "*: Mal sehen. <DE99>{WORD}<DE66>, was?<KEY_WAIT>\r\n*: Leute mit dieser Persönlichkeit haben die Eigenschaft, dass sich ihre Weisheit und ihr Glück etwas schneller als gewöhnlich erhöht."
+      },
+      "Txt_Registration_Message_Personality_27": {
+        "SelfId": "Txt_Registration_Message_Personality_27",
+        "Text": "*: Mal sehen. <DE99>{WORD}<DE66>, was?<KEY_WAIT>\r\n*: Leute mit dieser Persönlichkeit haben die Eigenschaft, dass sich ihre Ausdauer und ihr Widerstand extrem schnell erhöhen, dafür aber das Glück sich nur langsam steigert."
+      },
+      "Txt_Registration_Message_Personality_28": {
+        "SelfId": "Txt_Registration_Message_Personality_28",
+        "Text": "*: Mal sehen. <DE99>{WORD}<DE66>, was?<KEY_WAIT>\r\n*: Leute mit dieser Persönlichkeit haben die Eigenschaft, dass sich ihre Ausdauer und ihr Widerstand extrem schnell erhöhen."
+      },
+      "Txt_Registration_Message_Personality_29": {
+        "SelfId": "Txt_Registration_Message_Personality_29",
+        "Text": "*: Mal sehen. <DE99>{WORD}<DE66>, was?<KEY_WAIT>\r\n*: Leute mit dieser Persönlichkeit haben die Eigenschaft, dass sich ihre Ausdauer schnell erhöht."
+      },
+      "Txt_Registration_Message_Personality_30": {
+        "SelfId": "Txt_Registration_Message_Personality_30",
+        "Text": "*: Mal sehen. <DE99>{WORD}<DE66>, was?<KEY_WAIT>\r\n*: Leute mit dieser Persönlichkeit haben die Eigenschaft, dass sich ihr Widerstand und ihre Ausdauer schnell erhöhen, dafür aber das Glück sich nur langsam steigert."
+      },
+      "Txt_Registration_Message_Personality_31": {
+        "SelfId": "Txt_Registration_Message_Personality_31",
+        "Text": "*: Mal sehen. <DE99>{WORD}<DE66>, was?<KEY_WAIT>\r\n*: Leute mit dieser Persönlichkeit haben die Eigenschaft, dass sich ihre Stärke schnell erhöht. Außerdem erhöhen sich Widerstand und Ausdauer etwas schneller als gewöhnlich."
+      },
+      "Txt_Registration_Message_Personality_32": {
+        "SelfId": "Txt_Registration_Message_Personality_32",
+        "Text": "*: Mal sehen. <DE99>{WORD}<DE66>, was?<KEY_WAIT>\r\n*: Leute mit dieser Persönlichkeit haben die Eigenschaft, dass sich ihre Ausdauer etwas schneller erhöht als gewöhnlich."
+      },
+      "Txt_Registration_Message_Personality_33": {
+        "SelfId": "Txt_Registration_Message_Personality_33",
+        "Text": "*: Mal sehen. <DE99>{WORD}<DE66>, was?<KEY_WAIT>\r\n*: Leute mit dieser Persönlichkeit haben die Eigenschaft, dass sich ihre Ausdauer schnell und ihr Glück etwas schneller als gewöhnlich erhöht. Widerstand und Weisheit erhöhen sich jedoch nur langsam."
+      },
+      "Txt_Registration_Message_Personality_34": {
+        "SelfId": "Txt_Registration_Message_Personality_34",
+        "Text": "*: Mal sehen. <DE99>{WORD}<DE66>, was?<KEY_WAIT>\r\n*: Leute mit dieser Persönlichkeit haben die Eigenschaft, dass sich ihre Weisheit extrem schnell erhöht."
+      },
+      "Txt_Registration_Message_Personality_35": {
+        "SelfId": "Txt_Registration_Message_Personality_35",
+        "Text": "*: Mal sehen. <DE99>{WORD}<DE66>, was?<KEY_WAIT>\r\n*: Leute mit dieser Persönlichkeit haben die Eigenschaft, dass sich ihre Weisheit schnell und ihr Widerstand etwas schneller als gewöhnlich erhöht."
+      },
+      "Txt_Registration_Message_Personality_36": {
+        "SelfId": "Txt_Registration_Message_Personality_36",
+        "Text": "*: Mal sehen. <DE99>{WORD}<DE66>, was?<KEY_WAIT>\r\n*: Leute mit dieser Persönlichkeit haben die Eigenschaft, dass sich ihre Flinkheit und Weisheit etwas schneller als gewöhnlich erhöhen."
+      },
+      "Txt_Registration_Message_Personality_37": {
+        "SelfId": "Txt_Registration_Message_Personality_37",
+        "Text": "*: Mal sehen. <DE99>{WORD}<DE66>, was?<KEY_WAIT>\r\n*: Leute mit dieser Persönlichkeit haben die Eigenschaft, dass sich ihr Glück etwas schneller als gewöhnlich erhöht."
+      },
+      "Txt_Registration_Message_Personality_38": {
+        "SelfId": "Txt_Registration_Message_Personality_38",
+        "Text": "*: Mal sehen. <DE99>{WORD}<DE66>, was?<KEY_WAIT>\r\n*: Leute mit dieser Persönlichkeit haben die Eigenschaft, dass sich ihr Glück extrem schnell und die Flinkheit etwas schneller als gewöhnlich erhöhen."
+      },
+      "Txt_Registration_Message_Personality_39": {
+        "SelfId": "Txt_Registration_Message_Personality_39",
+        "Text": "*: Mal sehen. <DE99>{WORD}<DE66>, was?<KEY_WAIT>\r\n*: Leute mit dieser Persönlichkeit haben die Eigenschaft, dass sich ihr Glück extrem schnell erhöht."
+      },
+      "Txt_Registration_Message_Personality_40": {
+        "SelfId": "Txt_Registration_Message_Personality_40",
+        "Text": "*: Mal sehen. <DE99>{WORD}<DE66>, was?<KEY_WAIT>\r\n*: Leute mit dieser Persönlichkeit haben die Eigenschaft, dass sich ihre Flinkheit schnell erhöht. Weisheit und Glück erhöhen sich jedoch nur langsam."
+      },
+      "Txt_Registration_Message_Personality_41": {
+        "SelfId": "Txt_Registration_Message_Personality_41",
+        "Text": "*: Mal sehen. <DE99>{WORD}<DE66>, was?<KEY_WAIT>\r\n*: Leute mit dieser Persönlichkeit haben die Eigenschaft, dass sich ihr Widerstand und ihre Ausdauer schnell erhöhen. Ihr Glück verbessert sich jedoch nur langsam."
+      },
+      "Txt_Registration_Message_Personality_42": {
+        "SelfId": "Txt_Registration_Message_Personality_42",
+        "Text": "*: Mal sehen. <DE99>{WORD}<DE66>, was?<KEY_WAIT>\r\n*: Leute mit dieser Persönlichkeit haben die Eigenschaft, dass sich ihre Weisheit und ihr Glück schnell erhöhen. Ihre Flinkheit verbessert sich jedoch nur langsam."
+      },
+      "Txt_Registration_Message_Personality_43": {
+        "SelfId": "Txt_Registration_Message_Personality_43",
+        "Text": "*: Mal sehen. <DE99>{WORD}<DE66>, was?<KEY_WAIT>\r\n*: Leute mit dieser Persönlichkeit haben die Eigenschaft, dass sich ihre Flinkheit schnell erhöht. Weisheit und Glück erhöhen sich etwas schneller als gewöhnlich."
+      },
+      "Txt_Registration_Message_Personality_44": {
+        "SelfId": "Txt_Registration_Message_Personality_44",
+        "Text": "*: Mal sehen. <DE99>{WORD}<DE66>, was?<KEY_WAIT>\r\n*: Leute mit dieser Persönlichkeit haben die Eigenschaft, dass sich ihre Ausdauer schnell und ihre Weisheit etwas schneller als gewöhnlich erhöhen. Ihre Flinkheit verbessert sich jedoch nur langsam."
+      },
+      "Txt_Registration_Message_Personality_45": {
+        "SelfId": "Txt_Registration_Message_Personality_45",
+        "Text": "*: Mal sehen. <DE99>{WORD}<DE66>, was?<KEY_WAIT>\r\n*: Leute mit dieser Persönlichkeit haben die Eigenschaft, dass sich ihre Attribute gleichmäßig erhöhen."
+      },
+      "Txt_Registration_Message_Personality_46": {
+        "SelfId": "Txt_Registration_Message_Personality_46",
+        "Text": "*: Mal sehen. <DE99>{WORD}<DE66>, was?<KEY_WAIT>\r\n*: Leute mit dieser Persönlichkeit haben die Eigenschaft, dass sich ihre Flinkheit und ihr Glück schnell erhöhen, während sich die anderen Attribute gleichmäßig verbessern."
+      },
+      "Txt_Registration_Message_DeleteBarMemberError_Hero": {
+        "SelfId": "Txt_Registration_Message_DeleteBarMemberError_Hero",
+        "Text": "*: Wa...?! {HERO}?!<KEY_WAIT>\r\n*: Ahaha<nbsp>... Komm schon, du kannst <IfGender_LEADER(dem Helden,der Heldin,)> der Geschichte doch nicht den Laufpass geben!"
+      },
+      "Txt_Registration_Message_DeleteBarMemberError_Mer": {
+        "SelfId": "Txt_Registration_Message_DeleteBarMemberError_Mer",
+        "Text": "*: Es tut mir schrecklich leid, aber ich fürchte, uns ist es von Rechts wegen untersagt, diese Person gehen zu lassen<nbsp>..."
+      },
+      "Txt_Registration_Message_AddPartyMember_Confirm": {
+        "SelfId": "Txt_Registration_Message_AddPartyMember_Confirm",
+        "Text": "*: So, das wäre erledigt. Nimmst du {WORD} heute auf dein Abenteuer mit?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_PartyMemberMAX": {
+        "SelfId": "Txt_Registration_Message_PartyMemberMAX",
+        "Text": "*: Da gibt es leider ein kleines Problem: Deine Gruppe ist voll.<KEY_WAIT>\r\n*: Möchtest du, dass eines deiner Gruppenmitglieder hier auf dich wartet?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_DropOffConfirm": {
+        "SelfId": "Txt_Registration_Message_DropOffConfirm",
+        "Text": "*: Sehr gut! Wer darf sich denn eine Pause vom Abenteurerleben gönnen?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_DropOffError": {
+        "SelfId": "Txt_Registration_Message_DropOffError",
+        "Text": "*: Ah, das tut mir leid, aber dieses Mitglied kannst du nicht aus deiner Gruppe entfernen."
+      },
+      "Txt_Registration_Message_DropOffFinish": {
+        "SelfId": "Txt_Registration_Message_DropOffFinish",
+        "Text": "*: In Ordnung. Ich weiß, es fällt schwer, Lebewohl zu sagen, aber man sieht sich immer zweimal im Leben!<KEY_WAIT>\r\n*: Ich lege die Gegenstände und Ausrüstung von {WORD} in deinen Beutel."
+      },
+      "Txt_Registration_Message_PickUp": {
+        "SelfId": "Txt_Registration_Message_PickUp",
+        "Text": "{WORD} tritt der Gruppe bei!"
+      },
+      "Txt_Registration_Message_AutoSeedUse": {
+        "SelfId": "Txt_Registration_Message_AutoSeedUse",
+        "Text": "<Cap><DefSgl_GEN_ART_TARGET><IfLastIsS_TARGET(<9>,s)> {WORD} erhöht sich um {VALUE}!<WAIT>[1]<NO_INPUT>"
+      },
+      "Txt_Registration_Start": {
+        "SelfId": "Txt_Registration_Start",
+        "Text": "*: Herzlich willkommen bei der Premium-Agentur zur Rekrutierung Talentierter Neulinge und Erstklassiger Rekruten! Mit PARTNER stellst du dir garantiert ein echtes Siegerteam zusammen!"
+      },
+      "Txt_Registration_First": {
+        "SelfId": "Txt_Registration_First",
+        "Text": "*: Wir helfen dir dabei, die heißesten Eisen in Sachen Abenteuerbekanntschaften endlich wieder in Lohn und Brot zu bringen und in deine Gruppe zu verfrachten!"
+      }
+    }
+  }
+]

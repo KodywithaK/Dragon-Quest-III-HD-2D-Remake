@@ -1,0 +1,40 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Battle_PC_Action",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Battle_PC_ActionTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "BATTLE_PC_ACTION_DUMMY": {
+        "SelfId": "BATTLE_PC_ACTION_DUMMY",
+        "Script": "ATTACK",
+        "Is_affect_curse": false,
+        "Is_get_xp": false,
+        "Is_get_gold": false,
+        "Is_get_item": false,
+        "Is_target_dead": false,
+        "Pierce_level_forEnemy": 0,
+        "Piece_level_forPC": 0,
+        "GOP_Magic": "None"
+      },
+      "BATTLE_PC_ACTION_ATTACK": {
+        "SelfId": "BATTLE_PC_ACTION_ATTACK",
+        "Script": "ATTACK",
+        "Is_affect_curse": false,
+        "Is_get_xp": false,
+        "Is_get_gold": false,
+        "Is_get_item": false,
+        "Is_target_dead": false,
+        "Pierce_level_forEnemy": 0,
+        "Piece_level_forPC": 0,
+        "GOP_Magic": "None"
+      }
+    }
+  }
+]

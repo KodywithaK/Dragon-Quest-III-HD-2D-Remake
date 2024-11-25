@@ -1,0 +1,60 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_SearchObject_PortogaLight",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_SearchObject_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "SEARCH_PortogaLight_2F_BARREL_0": {
+        "SelfId": "SEARCH_PortogaLight_2F_BARREL_0",
+        "ObjectType": "ESearchObjectType::BARREL",
+        "ItemId": "ITEM_EQUIP_ACCESSORY_TOUGH_GUY_TATTOO",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_PortogaLight_2F_BARREL_0"
+      },
+      "SEARCH_PortogaLight_3F_TREASURE_NORMAL_0": {
+        "SelfId": "SEARCH_PortogaLight_3F_TREASURE_NORMAL_0",
+        "ObjectType": "ESearchObjectType::TREASURE_NORMAL",
+        "ItemId": "ITEM_EQUIP_WEAPON_SOMATIC_STAFF",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_PortogaLight_3F_TREASURE_NORMAL_0"
+      },
+      "SEARCH_PortogaLight_4F_EVENT_0": {
+        "SelfId": "SEARCH_PortogaLight_4F_EVENT_0",
+        "ObjectType": "ESearchObjectType::EVENT",
+        "ItemId": "None",
+        "ItemNum": 0,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": false,
+        "OverrideScriptName": "PortogaLight_4F_Event_00",
+        "FlagName": "EGOPEnumSearchType::NONE"
+      },
+      "SEARCH_PortogaLight_4F_POT_0": {
+        "SelfId": "SEARCH_PortogaLight_4F_POT_0",
+        "ObjectType": "ESearchObjectType::POT",
+        "ItemId": "ITEM_USE_ITEM_HOLY_WATER",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_PortogaLight_4F_POT_0"
+      }
+    }
+  }
+]

@@ -1,0 +1,148 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_NPC_Talk_NajimiTower",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Talk_NajimiTower_Inn_SUB_0_ACTOR_0110_010_1": {
+        "SelfId": "Txt_Talk_NajimiTower_Inn_SUB_0_ACTOR_0110_010_1",
+        "Text": "*: ¡C-cuánto tiempo sin recibir clientela! ¡No se imagina<IfSolo(,n)> la alegría que me da su visita!"
+      },
+      "Txt_Talk_NajimiTower_Inn_SUB_0_ACTOR_0210_010_1": {
+        "SelfId": "Txt_Talk_NajimiTower_Inn_SUB_0_ACTOR_0210_010_1",
+        "Text": "*: ¿<IfSolo(Has,Habéis)> visto a la tía esa en el piso de arriba, junto a las escaleras? Parece bastante joven, pero se comporta como si fuese toa una jubileta."
+      },
+      "Txt_Talk_NajimiTower_Inn_SUB_0_ACTOR_0210_010_2": {
+        "SelfId": "Txt_Talk_NajimiTower_Inn_SUB_0_ACTOR_0210_010_2",
+        "Text": "*: La tía esa que está al lao de las escaleras nunca plancha la oreja, ¡ni de noche! Tendría que estar pa<9>l arrastre, pero ahí la <IfSolo(ves,veis)>, fresca como una lechuga."
+      },
+      "Txt_Talk_NajimiTower_Inn_SUB_0_ACTOR_0210_010_3": {
+        "SelfId": "Txt_Talk_NajimiTower_Inn_SUB_0_ACTOR_0210_010_3",
+        "Text": "*: ¿<IfSolo(Te acuerdas,Os acordáis)> de la tipa esa que estaba siempre al lao de las escaleras? Pues se ha largao. Mejor así, que me daba un poco de yuyu verla ahí plantada to<9>l santo día."
+      },
+      "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_010_1": {
+        "SelfId": "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_010_1",
+        "Text": "*: Rrr... Rrr..."
+      },
+      "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_010_2": {
+        "SelfId": "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_010_2",
+        "Text": "*: ¡Bueno, bueno, bueno! Conque por fin has venido..."
+      },
+      "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_010_3": {
+        "SelfId": "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_010_3",
+        "Text": "*: ¡Bueno, bueno, bueno! Conque por fin has venido... Pero ¿esto qué es? ¡<IfSolo(Tu,<IfGender_HERO(Vuestro,Vuestra,)>)> líder está en un ataúd!"
+      },
+      "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_010_4": {
+        "SelfId": "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_010_4",
+        "Text": "*: Son tantas las veces que he soñado con entregarte esta llave... A saber por qué."
+      },
+      "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_010_5": {
+        "SelfId": "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_010_5",
+        "Text": "*: Pero algo debe de significar, así que... toma. Una llave de ladrón. La aceptas, ¿no?"
+      },
+      "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_010_6": {
+        "SelfId": "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_010_6",
+        "Text": "*: Son tantas las veces que he soñado con entregarle esta llave a <IfSolo(tu,<IfGender_HERO(vuestro,vuestra,)>)> líder... A saber por qué."
+      },
+      "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_010_7": {
+        "SelfId": "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_010_7",
+        "Text": "*: Pero algo debe de significar, así que... toma<IfSolo(,d)>. Una llave de ladrón. Se la <IfSolo(darás,daréis)>, ¿no?"
+      },
+      "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_010_8": {
+        "SelfId": "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_010_8",
+        "Text": "*: Vaya. Claro. Parece que este sueño no está destinado a cumplirse... Será la excepción que confirma la regla."
+      },
+      "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_010_9": {
+        "SelfId": "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_010_9",
+        "Text": "¡{MOST_HEROIC} recibe <DefSgl_I_NAME>!"
+      },
+      "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_010_9_1": {
+        "SelfId": "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_010_9_1",
+        "Text": "*: <IfSolo(Úsala,Usadla)> para echar un vistazo en la casa de Ribera que tiene la puerta roja."
+      },
+      "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_010_9_2": {
+        "SelfId": "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_010_9_2",
+        "Text": "*: ¡No <IfSolo(te preocupes,os preocupéis)>, que al tipo que vive allí le encantan las visitas! No le importará que <IfSolo(te pases,os paséis)> por allí sin avisar."
+      },
+      "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_010_10": {
+        "SelfId": "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_010_10",
+        "Text": "*: <IfSolo(Márchate,Marchaos)>, pues. No puedo estar todo el día mirando a las musarañas, ¡tengo muchos sueños premonitorios que ver! Uaaa..."
+      },
+      "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_010_11": {
+        "SelfId": "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_010_11",
+        "Text": "*: Por cierto, en este mundo existen libros tan influyentes que pueden cambiar por completo la personalidad de uno mismo."
+      },
+      "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_010_12": {
+        "SelfId": "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_010_12",
+        "Text": "*: Eso sí, <IfSolo(te,os)> aconsejo hojearlos con precaución."
+      },
+      "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_010_13": {
+        "SelfId": "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_010_13",
+        "Text": "*: Mmm... Mmm... Zzz..."
+      },
+      "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_020_1": {
+        "SelfId": "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_020_1",
+        "Text": "*: ¡Vaya, pero si es {LEADER}! ¡Qué alegría verte, mi joven <IfGender_LEADER(amigo,amiga,)>! ¿Qué, le <IfSolo(estás,estáis)> sacando partido a la llave?"
+      },
+      "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_020_2": {
+        "SelfId": "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_020_2",
+        "Text": "*: ¡Jo, jo! ¡Era de esperar! ¡Mis sueños nunca se equivocan, que lo <IfSolo(sepas,sepáis)>!"
+      },
+      "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_020_3": {
+        "SelfId": "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_020_3",
+        "Text": "*: Mmm, qué raro... Me aseguré de que todo sucediera igual que en mi sueño..."
+      },
+      "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_020_4": {
+        "SelfId": "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_020_4",
+        "Text": "*: Rrr... Rrr... Mmm, mmm..."
+      },
+      "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_020_5": {
+        "SelfId": "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_020_5",
+        "Text": "*: Por cierto, en este mundo existen libros tan influyentes que pueden cambiar por completo la personalidad de uno mismo."
+      },
+      "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_020_6": {
+        "SelfId": "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_020_6",
+        "Text": "*: Eso sí, <IfSolo(te,os)> aconsejo hojearlos con precaución."
+      },
+      "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_020_7": {
+        "SelfId": "Txt_Talk_NajimiTower_Penthouse_MAIN_0_ACTOR_0110_020_7",
+        "Text": "*: Mmm... Mmm... Zzz..."
+      },
+      "Txt_Talk_NajimiTower_1F_SUB_0_ACTOR_0110_010_1": {
+        "SelfId": "Txt_Talk_NajimiTower_1F_SUB_0_ACTOR_0110_010_1",
+        "Text": "*: Cómo me gustaría echar una cabezadita en esta posada tan acogedora..."
+      },
+      "Txt_Talk_NajimiTower_1F_SUB_0_ACTOR_0110_010_2": {
+        "SelfId": "Txt_Talk_NajimiTower_1F_SUB_0_ACTOR_0110_010_2",
+        "Text": "El espejo de Ra se ilumina..."
+      },
+      "Txt_Talk_NajimiTower_1F_SUB_0_ACTOR_0110_010_3": {
+        "SelfId": "Txt_Talk_NajimiTower_1F_SUB_0_ACTOR_0110_010_3",
+        "Text": "... ¡y desenmascara al monstruo que se encuentra ante ti!"
+      },
+      "Txt_Talk_NajimiTower_1F_SUB_0_ACTOR_0110_010_4": {
+        "SelfId": "Txt_Talk_NajimiTower_1F_SUB_0_ACTOR_0110_010_4",
+        "Text": "Parece que me espera mucho trabajo y afán..."
+      },
+      "Txt_Talk_NajimiTower_1F_SUB_0_ACTOR_0110_010_5": {
+        "SelfId": "Txt_Talk_NajimiTower_1F_SUB_0_ACTOR_0110_010_5",
+        "Text": "{LEADER} calma al monstruo y le habla sobre el refugio de Moncho..."
+      },
+      "Txt_Talk_NajimiTower_1F_SUB_0_ACTOR_0110_010_6": {
+        "SelfId": "Txt_Talk_NajimiTower_1F_SUB_0_ACTOR_0110_010_6",
+        "Text": "¡Jiaaa, ja, ja, ja!"
+      },
+      "Txt_Talk_NajimiTower_1F_SUB_0_ACTOR_0110_010_7": {
+        "SelfId": "Txt_Talk_NajimiTower_1F_SUB_0_ACTOR_0110_010_7",
+        "Text": "*: Ay, no <IfSolo(sabes,sabéis)> cómo tengo los discos de la cadera..."
+      }
+    }
+  }
+]

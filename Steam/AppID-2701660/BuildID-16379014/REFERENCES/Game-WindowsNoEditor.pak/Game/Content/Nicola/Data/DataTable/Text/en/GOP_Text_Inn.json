@@ -1,0 +1,124 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_Inn",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Inn_UI_Top_01": {
+        "SelfId": "Txt_Inn_UI_Top_01",
+        "Text": "Stay Overnight"
+      },
+      "Txt_Inn_UI_Top_02": {
+        "SelfId": "Txt_Inn_UI_Top_02",
+        "Text": "Rest Awhile"
+      },
+      "Txt_Inn_UI_Top_03": {
+        "SelfId": "Txt_Inn_UI_Top_03",
+        "Text": "Cancel"
+      },
+      "Txt_Inn_UI_Time_01": {
+        "SelfId": "Txt_Inn_UI_Time_01",
+        "Text": "Until Dawn"
+      },
+      "Txt_Inn_UI_Time_02": {
+        "SelfId": "Txt_Inn_UI_Time_02",
+        "Text": "Until Noon"
+      },
+      "Txt_Inn_UI_Time_03": {
+        "SelfId": "Txt_Inn_UI_Time_03",
+        "Text": "Until Dusk"
+      },
+      "Txt_Inn_UI_Time_04": {
+        "SelfId": "Txt_Inn_UI_Time_04",
+        "Text": "Until Night"
+      },
+      "Txt_Inn_Message_Start_M": {
+        "SelfId": "Txt_Inn_Message_Start_M",
+        "Text": "*: Welcome to our inn, weary <IfSolo(traveller,travellers)>!"
+      },
+      "Txt_Inn_Message_StartNight_M": {
+        "SelfId": "Txt_Inn_Message_StartNight_M",
+        "Text": "*: Welcome to our inn, weary <IfSolo(traveller,travellers)>!\r\nYou must be exhausted at this late hour."
+      },
+      "Txt_Inn_Message_TopNotRest_M": {
+        "SelfId": "Txt_Inn_Message_TopNotRest_M",
+        "Text": "*: It's {VALUE} gold coins per night for a room.\r\nWill you be staying?<NO_INPUT>"
+      },
+      "Txt_Inn_Message_Top_M": {
+        "SelfId": "Txt_Inn_Message_Top_M",
+        "Text": "*: Will you be staying the night? Or perhaps simply stopping for a short rest? Either way, it's {VALUE} gold coins for a room.<NO_INPUT>"
+      },
+      "Txt_Inn_Message_Finish_M": {
+        "SelfId": "Txt_Inn_Message_Finish_M",
+        "Text": "*: Farewell, intrepid <IfSolo(traveller,travellers)>.\r\nCome again any time."
+      },
+      "Txt_Inn_Message_Cancel_M": {
+        "SelfId": "Txt_Inn_Message_Cancel_M",
+        "Text": "*: Oh, so you won't be staying with us? As you wish. Farewell!"
+      },
+      "Txt_Inn_Message_Shotage_M": {
+        "SelfId": "Txt_Inn_Message_Shotage_M",
+        "Text": "*: I'm terribly sorry, but you don't appear to have enough money."
+      },
+      "Txt_Inn_Message_Heal_M": {
+        "SelfId": "Txt_Inn_Message_Heal_M",
+        "Text": "*: Enjoy your stay!"
+      },
+      "Txt_Inn_Message_FinishHeal_M": {
+        "SelfId": "Txt_Inn_Message_FinishHeal_M",
+        "Text": "*: Good morning!\r\nI trust you had a restful sleep?\r\nDo come again!"
+      },
+      "Txt_Inn_Message_FinishHealRest_M": {
+        "SelfId": "Txt_Inn_Message_FinishHealRest_M",
+        "Text": "*: I trust you had a restful sleep? Do come again!"
+      },
+      "Txt_Inn_Message_Start_F": {
+        "SelfId": "Txt_Inn_Message_Start_F",
+        "Text": "*: Welcome to our inn, weary <IfSolo(traveller,travellers)>!"
+      },
+      "Txt_Inn_Message_StartNight_F": {
+        "SelfId": "Txt_Inn_Message_StartNight_F",
+        "Text": "*: Welcome to our inn, weary <IfSolo(traveller,travellers)>!\r\nYou must be exhausted at this late hour."
+      },
+      "Txt_Inn_Message_TopNotRest_F": {
+        "SelfId": "Txt_Inn_Message_TopNotRest_F",
+        "Text": "*: It's {VALUE} gold coins per night for a room.\r\nWill you be staying?<NO_INPUT>"
+      },
+      "Txt_Inn_Message_Top_F": {
+        "SelfId": "Txt_Inn_Message_Top_F",
+        "Text": "*: Will you be staying the night? Or perhaps simply stopping for a short rest? Either way, it's {VALUE} gold coins for a room.<NO_INPUT>"
+      },
+      "Txt_Inn_Message_Finish_F": {
+        "SelfId": "Txt_Inn_Message_Finish_F",
+        "Text": "*: Farewell, intrepid <IfSolo(traveller,travellers)>.\r\nCome again any time."
+      },
+      "Txt_Inn_Message_Cancel_F": {
+        "SelfId": "Txt_Inn_Message_Cancel_F",
+        "Text": "*: Oh, so you won't be staying with us? As you wish. Farewell!"
+      },
+      "Txt_Inn_Message_Shotage_F": {
+        "SelfId": "Txt_Inn_Message_Shotage_F",
+        "Text": "*: I'm terribly sorry, but you don't appear to have enough money."
+      },
+      "Txt_Inn_Message_Heal_F": {
+        "SelfId": "Txt_Inn_Message_Heal_F",
+        "Text": "*: Enjoy your stay!"
+      },
+      "Txt_Inn_Message_FinishHeal_F": {
+        "SelfId": "Txt_Inn_Message_FinishHeal_F",
+        "Text": "*: Good morning!\r\nI trust you had a restful sleep?\r\nDo come again!"
+      },
+      "Txt_Inn_Message_FinishHealRest_F": {
+        "SelfId": "Txt_Inn_Message_FinishHealRest_F",
+        "Text": "*: I trust you had a restful sleep? Do come again!"
+      }
+    }
+  }
+]

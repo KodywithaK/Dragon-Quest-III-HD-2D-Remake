@@ -1,0 +1,76 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_Medal",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Medal_UI_ItemName": {
+        "SelfId": "Txt_Medal_UI_ItemName",
+        "Text": "{0}"
+      },
+      "Txt_Medal_UI_ItemDetail": {
+        "SelfId": "Txt_Medal_UI_ItemDetail",
+        "Text": "{0}"
+      },
+      "Txt_Medal_UI_RequiredMedal": {
+        "SelfId": "Txt_Medal_UI_RequiredMedal",
+        "Text": "{0}"
+      },
+      "Txt_Medal_UI_ListGuide": {
+        "SelfId": "Txt_Medal_UI_ListGuide",
+        "Text": "상품 보기"
+      },
+      "Txt_Medal_Message_Start": {
+        "SelfId": "Txt_Medal_Message_Start",
+        "Text": "잘 와 주었네! 나는 전 세계에 흩어진\r\n작은 메달을 모으고 있는 아저씨라네."
+      },
+      "Txt_Medal_Message_First": {
+        "SelfId": "Txt_Medal_Message_First",
+        "Text": "메달을 찾아온 자에게는\r\n내가 둘도 없는 멋진 포상을\r\n선사하겠네!"
+      },
+      "Txt_Medal_Message_First_Medal": {
+        "SelfId": "Txt_Medal_Message_First_Medal",
+        "Text": "응? 오오, 메달을 가져왔다고?\r\n어디 보자, 이 아저씨가 받아 가겠네!"
+      },
+      "Txt_Medal_Message_Confirm_Medal": {
+        "SelfId": "Txt_Medal_Message_Confirm_Medal",
+        "Text": "흐음. 지금까지 {LEADER}<IfKRVowel_LEADER(가,이)>\r\n가지고 온 메달은 총 {VALUE}개로군."
+      },
+      "Txt_Medal_Message_HandoverMedal": {
+        "SelfId": "Txt_Medal_Message_HandoverMedal",
+        "Text": "호오, 메달을 가져왔다고?\r\n어디 보자, 이 아저씨가 받아 가겠네!"
+      },
+      "Txt_Medal_Message_Prize": {
+        "SelfId": "Txt_Medal_Message_Prize",
+        "Text": "좋아! 이것으로 이제까지\r\n{LEADER}<IfKRVowel_LEADER(가,이)> 모은 메달이 {VALUE}개이니\r\n상으로 {I_NAME}<IfKRVowel_I_NAME(를,을)> 주겠네!"
+      },
+      "Txt_Medal_Message_GetPrize": {
+        "SelfId": "Txt_Medal_Message_GetPrize",
+        "Text": "{LEADER}<IfKRVowel_LEADER(는,은)> {I_NAME}<IfKRVowel_I_NAME(를,을)> 받았다!"
+      },
+      "Txt_Medal_Message_Confirm": {
+        "SelfId": "Txt_Medal_Message_Confirm",
+        "Text": "{LEADER}<IfKRVowel_LEADER(로,으로)>부터는 현재 {VALUE}개의\r\n메달을 받아 두었네."
+      },
+      "Txt_Medal_Message_NextPrize": {
+        "SelfId": "Txt_Medal_Message_NextPrize",
+        "Text": "이것이 {VALUE}개가 되면\r\n{I_NAME}<IfKRVowel_I_NAME(를,을)> 주도록 하지.\r\n열심히 모아 오게나!"
+      },
+      "Txt_Medal_Message_MedalComplete": {
+        "SelfId": "Txt_Medal_Message_MedalComplete",
+        "Text": "{LEADER}! 드디어 {VALUE}개나 되는\r\n메달을 모아 주었군!<KEY_WAIT>\r\n이제 내가 주는 포상도 끝이라네.<KEY_WAIT>\r\n앞으로도 그 탐구심을 잃지 말고\r\n세상 사람들을 위해 힘써 주게.<KEY_WAIT>\r\n나도 뒤에서 응원하겠네!"
+      },
+      "Txt_Medal_Message_GetPrizeFailere": {
+        "SelfId": "Txt_Medal_Message_GetPrizeFailere",
+        "Text": "그런데 소지품이 가득 차서 가져갈 수 없겠군...\r\n소지품을 정리하고 다시 오게나."
+      }
+    }
+  }
+]

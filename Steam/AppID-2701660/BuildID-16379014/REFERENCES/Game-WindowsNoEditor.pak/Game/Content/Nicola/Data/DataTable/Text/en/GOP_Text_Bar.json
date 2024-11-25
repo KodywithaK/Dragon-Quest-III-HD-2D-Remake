@@ -1,0 +1,312 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_Bar",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Bar_UI_Top_02": {
+        "SelfId": "Txt_Bar_UI_Top_02",
+        "Text": "View Roster"
+      },
+      "Txt_Bar_UI_Top_03": {
+        "SelfId": "Txt_Bar_UI_Top_03",
+        "Text": "Aid an Adventurer"
+      },
+      "Txt_Bar_UI_Top_04": {
+        "SelfId": "Txt_Bar_UI_Top_04",
+        "Text": "Ask for Assistance"
+      },
+      "Txt_Bar_UI_Top_05": {
+        "SelfId": "Txt_Bar_UI_Top_05",
+        "Text": "Cancel"
+      },
+      "Txt_Bar_UI_Top_06": {
+        "SelfId": "Txt_Bar_UI_Top_06",
+        "Text": "Pick Up"
+      },
+      "Txt_Bar_UI_Top_07": {
+        "SelfId": "Txt_Bar_UI_Top_07",
+        "Text": "Drop Off"
+      },
+      "Txt_Bar_UI_Top_08": {
+        "SelfId": "Txt_Bar_UI_Top_08",
+        "Text": "Recruit More Allies"
+      },
+      "Txt_Bar_UI_Top_09": {
+        "SelfId": "Txt_Bar_UI_Top_09",
+        "Text": "Helping Hands"
+      },
+      "Txt_Bar_UI_Top_10": {
+        "SelfId": "Txt_Bar_UI_Top_10",
+        "Text": "Return"
+      },
+      "Txt_Bar_UI_Guide_01": {
+        "SelfId": "Txt_Bar_UI_Guide_01",
+        "Text": "Choose an ally."
+      },
+      "Txt_Bar_UI_Blank": {
+        "SelfId": "Txt_Bar_UI_Blank",
+        "Text": "Empty Spot"
+      },
+      "Txt_Bar_UI_Lend_Guide": {
+        "SelfId": "Txt_Bar_UI_Lend_Guide",
+        "Text": "Select an ally."
+      },
+      "Txt_Bar_UI_Borrow_Guide": {
+        "SelfId": "Txt_Bar_UI_Borrow_Guide",
+        "Text": "Choose an adventurer."
+      },
+      "Txt_Bar_Message_Start_01": {
+        "SelfId": "Txt_Bar_Message_Start_01",
+        "Text": "Welcome to Patty's Party Planning Place!"
+      },
+      "Txt_Bar_Message_Start_02": {
+        "SelfId": "Txt_Bar_Message_Start_02",
+        "Text": "If you want to find new party members, this is the place to be! Same goes if you want to ditch them, for that matter."
+      },
+      "Txt_Bar_Message_Top": {
+        "SelfId": "Txt_Bar_Message_Top",
+        "Text": "So, how can I help you today?<NO_INPUT>"
+      },
+      "Txt_Bar_Message_CannotDropOff": {
+        "SelfId": "Txt_Bar_Message_CannotDropOff",
+        "Text": "You want to drop someone off?\r\nErm, sorry to break it to you, but you're all alone right now, {LEADER}."
+      },
+      "Txt_Bar_Message_DropOffTop": {
+        "SelfId": "Txt_Bar_Message_DropOffTop",
+        "Text": "So, who do you want to leave behind?<NO_INPUT>"
+      },
+      "Txt_Bar_Message_DropOffHero": {
+        "SelfId": "Txt_Bar_Message_DropOffHero",
+        "Text": "Uhh, I don't think so. If {HERO}'s hanging out here with me, who'll be out there telling you guys what to do?"
+      },
+      "Txt_Bar_Message_DropOffDeath_01": {
+        "SelfId": "Txt_Bar_Message_DropOffDeath_01",
+        "Text": "Hold on! You want me to take in {WORD} like that? What kind of place do you think I'm running here!?"
+      },
+      "Txt_Bar_Message_DropOffDeath_02": {
+        "SelfId": "Txt_Bar_Message_DropOffDeath_02",
+        "Text": "Oh, I get it. Too short on funds to pay for a resurrection, huh?<NO_INPUT>"
+      },
+      "Txt_Bar_Message_DropOffAbnormalStatus": {
+        "SelfId": "Txt_Bar_Message_DropOffAbnormalStatus",
+        "Text": "So you want to leave {WORD} here, right? Oof, <IfGender_WORD(he's,she's,they've)> definitely seen better days..."
+      },
+      "Txt_Bar_Message_ReplaceSelectDeath": {
+        "SelfId": "Txt_Bar_Message_ReplaceSelectDeath",
+        "Text": "Hmm... Well, this is frowned on in party-planning circles, but I'll take {WORD}'s coffin off your hands."
+      },
+      "Txt_Bar_Message_ReplaceSelectDeathCancel": {
+        "SelfId": "Txt_Bar_Message_ReplaceSelectDeathCancel",
+        "Text": "Well, in that case, show some respect and pony up already! The poor thing..."
+      },
+      "Txt_Bar_Message_ReplaceSelect": {
+        "SelfId": "Txt_Bar_Message_ReplaceSelect",
+        "Text": "What shall we do about {WORD}, then?<NO_INPUT>"
+      },
+      "Txt_Bar_Message_DropOff_01": {
+        "SelfId": "Txt_Bar_Message_DropOff_01",
+        "Text": "So you want to leave {WORD} here, right?"
+      },
+      "Txt_Bar_Message_DropOff_02": {
+        "SelfId": "Txt_Bar_Message_DropOff_02",
+        "Text": "Got it. Looks like you can have a rest for a while, {WORD}."
+      },
+      "Txt_Bar_Message_Replace_01": {
+        "SelfId": "Txt_Bar_Message_Replace_01",
+        "Text": "So you want to swap {WORD} out, is that right?"
+      },
+      "Txt_Bar_Message_Replace_02": {
+        "SelfId": "Txt_Bar_Message_Replace_02",
+        "Text": "In that case, who's going to take their place?<NO_INPUT>"
+      },
+      "Txt_Bar_Message_CannotReplace": {
+        "SelfId": "Txt_Bar_Message_CannotReplace",
+        "Text": "You're kidding, right?\r\nYou can't have a party made up of nothing but a bunch of coffins!"
+      },
+      "Txt_Bar_Message_PickUpSelect": {
+        "SelfId": "Txt_Bar_Message_PickUpSelect",
+        "Text": "So, who do you want to take along with you?<NO_INPUT>"
+      },
+      "Txt_Bar_Message_CannotPickUp": {
+        "SelfId": "Txt_Bar_Message_CannotPickUp",
+        "Text": "Yikes! I'm afraid there isn't anyone available to join your party. Sorry!"
+      },
+      "Txt_Bar_Message_PickUp_01": {
+        "SelfId": "Txt_Bar_Message_PickUp_01",
+        "Text": "You want {WORD} to join you?\r\nNo problemo!"
+      },
+      "Txt_Bar_Message_PickUp_02": {
+        "SelfId": "Txt_Bar_Message_PickUp_02",
+        "Text": "Yoo hooo! {WORD}!\r\n{LEADER}'s here to see you!"
+      },
+      "Txt_Bar_Message_PickUp_03": {
+        "SelfId": "Txt_Bar_Message_PickUp_03",
+        "Text": "{WORD} joins the party!"
+      },
+      "Txt_Bar_Message_Sort": {
+        "SelfId": "Txt_Bar_Message_Sort",
+        "Text": "I'll put anything your friend isn't using in your bag there, okay?"
+      },
+      "Txt_Bar_Message_SortFirst": {
+        "SelfId": "Txt_Bar_Message_SortFirst",
+        "Text": "Otherwise, you might lose track of something important!"
+      },
+      "Txt_Bar_Message_DropOffAgain": {
+        "SelfId": "Txt_Bar_Message_DropOffAgain",
+        "Text": "Do you want to drop anyone else off?<NO_INPUT>"
+      },
+      "Txt_Bar_Message_PickUpAgain": {
+        "SelfId": "Txt_Bar_Message_PickUpAgain",
+        "Text": "Can I fetch anyone else for you while you're here?<NO_INPUT>"
+      },
+      "Txt_Bar_Message_CannotPickUpPartyMAX_01": {
+        "SelfId": "Txt_Bar_Message_CannotPickUpPartyMAX_01",
+        "Text": "But you've already got plenty of company there as it is!"
+      },
+      "Txt_Bar_Message_CannotPickUpPartyMAX_02": {
+        "SelfId": "Txt_Bar_Message_CannotPickUpPartyMAX_02",
+        "Text": "You'll have to leave someone behind if you want to add a new member to your party."
+      },
+      "Txt_Bar_Message_CannotViewRoster": {
+        "SelfId": "Txt_Bar_Message_CannotViewRoster",
+        "Text": "Yikes! I'm afraid I don't have any of your party members staying with me at the moment."
+      },
+      "Txt_Bar_Message_ViewRosterTop": {
+        "SelfId": "Txt_Bar_Message_ViewRosterTop",
+        "Text": "Come to reappraise your options, eh?<NO_INPUT>"
+      },
+      "Txt_Bar_Message_TopAgain": {
+        "SelfId": "Txt_Bar_Message_TopAgain",
+        "Text": "Can I do anything else for you today?<NO_INPUT>"
+      },
+      "Txt_Bar_Message_Finish": {
+        "SelfId": "Txt_Bar_Message_Finish",
+        "Text": "Then we're done! Call again soon!"
+      },
+      "Txt_Bar_Message_DropOffOnlyLend": {
+        "SelfId": "Txt_Bar_Message_DropOffOnlyLend",
+        "Text": "Wait a second, if you leave them with me then your party'll be nothing but volunteers!"
+      },
+      "Txt_Bar_Message_LendFirst": {
+        "SelfId": "Txt_Bar_Message_LendFirst",
+        "Text": "If you're feeling kind, you can sign up your party members here to go lend someone else a helping hand.<KEY_WAIT>\r\nAnyone you register with me will be able to join another entirely different adventure.<KEY_WAIT>\r\nNow, that's not to say they'll up and vanish from your party or anything!<KEY_WAIT>\r\nThey'll just be available to help other adventurers out if they're down on their luck."
+      },
+      "Txt_Bar_Message_LendNone": {
+        "SelfId": "Txt_Bar_Message_LendNone",
+        "Text": "Hmm, doesn't look like you've got anyone to send off right now."
+      },
+      "Txt_Bar_Message_LendTop": {
+        "SelfId": "Txt_Bar_Message_LendTop",
+        "Text": "So, who were you thinking might be helper material?<NO_INPUT>"
+      },
+      "Txt_Bar_Message_LendTop2": {
+        "SelfId": "Txt_Bar_Message_LendTop2",
+        "Text": "Anyone else you want to send off to help an adventurer in need?<NO_INPUT>"
+      },
+      "Txt_Bar_Message_LendRegistration": {
+        "SelfId": "Txt_Bar_Message_LendRegistration",
+        "Text": "{WORD}, huh? Fine choice.<NO_INPUT>"
+      },
+      "Txt_Bar_Message_LendReregistration": {
+        "SelfId": "Txt_Bar_Message_LendReregistration",
+        "Text": "Oh, you want to sign up {WORD} again? Sure thing!<NO_INPUT>"
+      },
+      "Txt_Bar_Message_LendChange": {
+        "SelfId": "Txt_Bar_Message_LendChange",
+        "Text": "Just so you know, you've got {WORD2} on volunteer duty right now. Are you okay with lil' ol' {WORD} taking their place?<NO_INPUT>"
+      },
+      "Txt_Bar_Message_LendDecide": {
+        "SelfId": "Txt_Bar_Message_LendDecide",
+        "Text": "Alright! Then it's {WORD}'s turn to aid an adventurer in need."
+      },
+      "Txt_Bar_Message_BorrowFirst": {
+        "SelfId": "Txt_Bar_Message_BorrowFirst",
+        "Text": "In need of some help, are we? Well, you're in luck; I can let you borrow adventurers from other parties if they've signed up with me."
+      },
+      "Txt_Bar_Message_BorrowNone": {
+        "SelfId": "Txt_Bar_Message_BorrowNone",
+        "Text": "Oh dear... No one's actually signed up yet. I'm sure things'll change soon!"
+      },
+      "Txt_Bar_Message_BorrowTop": {
+        "SelfId": "Txt_Bar_Message_BorrowTop",
+        "Text": "So, which one of these fine adventuring folk would you like to come lend you a hand?<NO_INPUT>"
+      },
+      "Txt_Bar_Message_BorrowTop2": {
+        "SelfId": "Txt_Bar_Message_BorrowTop2",
+        "Text": "Well, who would you like to help you out then?<NO_INPUT>"
+      },
+      "Txt_Bar_Message_BorrowReturnConfirm": {
+        "SelfId": "Txt_Bar_Message_BorrowReturnConfirm",
+        "Text": "Are you really okay with saying bye to {WORD}? You two look like the best of buddies to me."
+      },
+      "Txt_Bar_Message_BorrowReturnDecide": {
+        "SelfId": "Txt_Bar_Message_BorrowReturnDecide",
+        "Text": "Alrighty. I'll move everything {WORD} had into your bag, then."
+      },
+      "Txt_Bar_Message_BorrowReturnNoLive": {
+        "SelfId": "Txt_Bar_Message_BorrowReturnNoLive",
+        "Text": "Wait, but {WORD}'s the only living person left in your party! You should probably hang on to <IfGender_WORD(him,her,them)> for now..."
+      },
+      "Txt_Bar_Message_BorrowReturnCancel": {
+        "SelfId": "Txt_Bar_Message_BorrowReturnCancel",
+        "Text": "Oh, not quite ready to say farewell to {WORD} yet? It's alright, I'm bad at goodbyes too."
+      },
+      "Txt_Bar_Message_BorrowSelect": {
+        "SelfId": "Txt_Bar_Message_BorrowSelect",
+        "Text": "So you want {WORD} to lend you a helping hand?<NO_INPUT>"
+      },
+      "Txt_Bar_Message_BorrowDecide": {
+        "SelfId": "Txt_Bar_Message_BorrowDecide",
+        "Text": "Great choice! {WORD}'s all yours."
+      },
+      "Txt_Bar_Message_BorrowPartyAdd": {
+        "SelfId": "Txt_Bar_Message_BorrowPartyAdd",
+        "Text": "Will you be taking {WORD} out with you right away?<NO_INPUT>"
+      },
+      "Txt_Bar_Message_BorrowPartyChange": {
+        "SelfId": "Txt_Bar_Message_BorrowPartyChange",
+        "Text": "Hmm, looks like you've already got a full house to me. Do you want to ask one of your pals to take it easy here for a bit?<NO_INPUT>"
+      },
+      "Txt_Bar_Message_BorrowPartySelect": {
+        "SelfId": "Txt_Bar_Message_BorrowPartySelect",
+        "Text": "Alrighty. Whose turn is it to take a load off, then?<NO_INPUT>"
+      },
+      "Txt_Bar_Message_BorrowPartySelect2": {
+        "SelfId": "Txt_Bar_Message_BorrowPartySelect2",
+        "Text": "Who else would you like to give a break then?<NO_INPUT>"
+      },
+      "Txt_Bar_Message_BorrowPartyToBar": {
+        "SelfId": "Txt_Bar_Message_BorrowPartyToBar",
+        "Text": "Okay, {WORD}! Time to take a load off. I'll put everything <IfGender_WORD(he hasn't,she hasn't,they haven't)> got equipped in your bag for you."
+      },
+      "Txt_Bar_Message_BorrowAddBarMember": {
+        "SelfId": "Txt_Bar_Message_BorrowAddBarMember",
+        "Text": "Don't worry, {WORD}'ll be right here whenever you want to pick <IfGender_WORD(him,her,them)> up again."
+      },
+      "Txt_Bar_Message_Find": {
+        "SelfId": "Txt_Bar_Message_Find",
+        "Text": "Feeling like your party's still short a few pals?<KEY_WAIT>\r\nWell, you could always try talking to any adventurer that happens to be here, but your best bet is to head upstairs.<KEY_WAIT>\r\nI promise my man up there will be able to find you the exact type of adventurer you're looking for, or my name isn't Patty!"
+      },
+      "Txt_Bar_Message_Help": {
+        "SelfId": "Txt_Bar_Message_Help",
+        "Text": "Feeling like helping out another adventurer, or is it you that's in need of some aid?<NO_INPUT>"
+      },
+      "Txt_Bar_Message_HelpAgain": {
+        "SelfId": "Txt_Bar_Message_HelpAgain",
+        "Text": "Anything else I can help you with?<NO_INPUT>"
+      },
+      "Txt_Bar_Message_BorrowDecideSystem": {
+        "SelfId": "Txt_Bar_Message_BorrowDecideSystem",
+        "Text": "<Cap><DefSgl_WORD> has been signed up as Adventure Log {VALUE}'s volunteer."
+      }
+    }
+  }
+]

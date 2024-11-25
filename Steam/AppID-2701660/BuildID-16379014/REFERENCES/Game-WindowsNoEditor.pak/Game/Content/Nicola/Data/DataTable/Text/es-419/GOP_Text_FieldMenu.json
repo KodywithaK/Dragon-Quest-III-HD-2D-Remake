@@ -1,0 +1,2272 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_FieldMenu",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_FieldMenu_Common_YES": {
+        "SelfId": "Txt_FieldMenu_Common_YES",
+        "Text": "Sí"
+      },
+      "Txt_FieldMenu_Common_NO": {
+        "SelfId": "Txt_FieldMenu_Common_NO",
+        "Text": "No"
+      },
+      "Txt_FieldMenu_Common_PAGE": {
+        "SelfId": "Txt_FieldMenu_Common_PAGE",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Common_MAXPAGE": {
+        "SelfId": "Txt_FieldMenu_Common_MAXPAGE",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Common_NUMBER": {
+        "SelfId": "Txt_FieldMenu_Common_NUMBER",
+        "Text": "¿Qué cantidad?"
+      },
+      "Txt_FieldMenu_Common_BLANK": {
+        "SelfId": "Txt_FieldMenu_Common_BLANK",
+        "Text": "¿?"
+      },
+      "Txt_FieldMenu_Common_USEMP": {
+        "SelfId": "Txt_FieldMenu_Common_USEMP",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Common_RESTMP": {
+        "SelfId": "Txt_FieldMenu_Common_RESTMP",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Common_EVERYONE": {
+        "SelfId": "Txt_FieldMenu_Common_EVERYONE",
+        "Text": "Todo"
+      },
+      "Txt_FieldMenu_Top_ITEM": {
+        "SelfId": "Txt_FieldMenu_Top_ITEM",
+        "Text": "Objetos"
+      },
+      "Txt_FieldMenu_Top_EQUIP": {
+        "SelfId": "Txt_FieldMenu_Top_EQUIP",
+        "Text": "Equipo"
+      },
+      "Txt_FieldMenu_Top_MEMORY": {
+        "SelfId": "Txt_FieldMenu_Top_MEMORY",
+        "Text": "Recordar"
+      },
+      "Txt_FieldMenu_Top_MAGIC": {
+        "SelfId": "Txt_FieldMenu_Top_MAGIC",
+        "Text": "Hechizos"
+      },
+      "Txt_FieldMenu_Top_SKILL": {
+        "SelfId": "Txt_FieldMenu_Top_SKILL",
+        "Text": "Habilidades"
+      },
+      "Txt_FieldMenu_Top_MISC": {
+        "SelfId": "Txt_FieldMenu_Top_MISC",
+        "Text": "Misc."
+      },
+      "Txt_FieldMenu_Top_MONEY_01": {
+        "SelfId": "Txt_FieldMenu_Top_MONEY_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Top_MONEY_02": {
+        "SelfId": "Txt_FieldMenu_Top_MONEY_02",
+        "Text": "O"
+      },
+      "Txt_FieldMenu_Top_PUSHKEEP": {
+        "SelfId": "Txt_FieldMenu_Top_PUSHKEEP",
+        "Text": "Mantener"
+      },
+      "Txt_FieldMenu_Item_ITEMBAG": {
+        "SelfId": "Txt_FieldMenu_Item_ITEMBAG",
+        "Text": "Saco de objetos"
+      },
+      "Txt_FieldMenu_Item_EQUIPBAG": {
+        "SelfId": "Txt_FieldMenu_Item_EQUIPBAG",
+        "Text": "Saco de equipo"
+      },
+      "Txt_FieldMenu_Item_IMPOTANT": {
+        "SelfId": "Txt_FieldMenu_Item_IMPOTANT",
+        "Text": "Objetos importantes"
+      },
+      "Txt_FieldMenu_Item_GUIDE": {
+        "SelfId": "Txt_FieldMenu_Item_GUIDE",
+        "Text": "Elige un objeto."
+      },
+      "Txt_FieldMenu_Item_NONE": {
+        "SelfId": "Txt_FieldMenu_Item_NONE",
+        "Text": "Vacío"
+      },
+      "Txt_FieldMenu_Item_BAGNUMBER": {
+        "SelfId": "Txt_FieldMenu_Item_BAGNUMBER",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Item_COUNTA_01": {
+        "SelfId": "Txt_FieldMenu_Item_COUNTA_01",
+        "Text": "Cuántos tienes"
+      },
+      "Txt_FieldMenu_Item_COUNTA_03": {
+        "SelfId": "Txt_FieldMenu_Item_COUNTA_03",
+        "Text": "Cuántos tienes"
+      },
+      "Txt_FieldMenu_Item_COUNTA_02": {
+        "SelfId": "Txt_FieldMenu_Item_COUNTA_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Item_COUNTA_04": {
+        "SelfId": "Txt_FieldMenu_Item_COUNTA_04",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Item_SORTMENU": {
+        "SelfId": "Txt_FieldMenu_Item_SORTMENU",
+        "Text": "Ordenar por:"
+      },
+      "Txt_FieldMenu_Item_SORT_01": {
+        "SelfId": "Txt_FieldMenu_Item_SORT_01",
+        "Text": "Nombre"
+      },
+      "Txt_FieldMenu_Item_SORT_02": {
+        "SelfId": "Txt_FieldMenu_Item_SORT_02",
+        "Text": "Tipo"
+      },
+      "Txt_FieldMenu_Item_SORT_03": {
+        "SelfId": "Txt_FieldMenu_Item_SORT_03",
+        "Text": "Fuerza"
+      },
+      "Txt_FieldMenu_Item_ITEMBAGGUIDE": {
+        "SelfId": "Txt_FieldMenu_Item_ITEMBAGGUIDE",
+        "Text": "Organizar objetos"
+      },
+      "Txt_FieldMenu_Item_PARAMVALUE": {
+        "SelfId": "Txt_FieldMenu_Item_PARAMVALUE",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Item_MEDAL_01": {
+        "SelfId": "Txt_FieldMenu_Item_MEDAL_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Item_MEDAL_02": {
+        "SelfId": "Txt_FieldMenu_Item_MEDAL_02",
+        "Text": "<IfSing_VALUE(Medalla,Medallas)>"
+      },
+      "Txt_FieldMenu_Item_MENU_01": {
+        "SelfId": "Txt_FieldMenu_Item_MENU_01",
+        "Text": "Usar"
+      },
+      "Txt_FieldMenu_Item_MENU_02": {
+        "SelfId": "Txt_FieldMenu_Item_MENU_02",
+        "Text": "Transferir"
+      },
+      "Txt_FieldMenu_Item_MENU_03": {
+        "SelfId": "Txt_FieldMenu_Item_MENU_03",
+        "Text": "Saco"
+      },
+      "Txt_FieldMenu_Item_MENU_04": {
+        "SelfId": "Txt_FieldMenu_Item_MENU_04",
+        "Text": "Equipar"
+      },
+      "Txt_FieldMenu_Item_MENU_05": {
+        "SelfId": "Txt_FieldMenu_Item_MENU_05",
+        "Text": "Desequipar"
+      },
+      "Txt_FieldMenu_Item_MENU_06": {
+        "SelfId": "Txt_FieldMenu_Item_MENU_06",
+        "Text": "Mostrar"
+      },
+      "Txt_FieldMenu_Item_MENU_06_Mer": {
+        "SelfId": "Txt_FieldMenu_Item_MENU_06_Mer",
+        "Text": "Examinar"
+      },
+      "Txt_FieldMenu_Item_MENU_07": {
+        "SelfId": "Txt_FieldMenu_Item_MENU_07",
+        "Text": "Descartar"
+      },
+      "Txt_FieldMenu_Item_MENU_08": {
+        "SelfId": "Txt_FieldMenu_Item_MENU_08",
+        "Text": "Cancelar"
+      },
+      "Txt_FieldMenu_Equip_BLANK_01": {
+        "SelfId": "Txt_FieldMenu_Equip_BLANK_01",
+        "Text": "Armas"
+      },
+      "Txt_FieldMenu_Equip_BLANK_02": {
+        "SelfId": "Txt_FieldMenu_Equip_BLANK_02",
+        "Text": "Escudos"
+      },
+      "Txt_FieldMenu_Equip_BLANK_03": {
+        "SelfId": "Txt_FieldMenu_Equip_BLANK_03",
+        "Text": "Cascos"
+      },
+      "Txt_FieldMenu_Equip_BLANK_04": {
+        "SelfId": "Txt_FieldMenu_Equip_BLANK_04",
+        "Text": "Armadura"
+      },
+      "Txt_FieldMenu_Equip_BLANK_05": {
+        "SelfId": "Txt_FieldMenu_Equip_BLANK_05",
+        "Text": "Accesorio principal"
+      },
+      "Txt_FieldMenu_Equip_BLANK_06": {
+        "SelfId": "Txt_FieldMenu_Equip_BLANK_06",
+        "Text": "Accesorio secundario"
+      },
+      "Txt_FieldMenu_Equip_EQUIPPED_01": {
+        "SelfId": "Txt_FieldMenu_Equip_EQUIPPED_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Equip_EQUIPPED_02": {
+        "SelfId": "Txt_FieldMenu_Equip_EQUIPPED_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Equip_EQUIPPED_03": {
+        "SelfId": "Txt_FieldMenu_Equip_EQUIPPED_03",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Equip_EQUIPPED_04": {
+        "SelfId": "Txt_FieldMenu_Equip_EQUIPPED_04",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Equip_EQUIPPED_05": {
+        "SelfId": "Txt_FieldMenu_Equip_EQUIPPED_05",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Equip_EQUIPPED_06": {
+        "SelfId": "Txt_FieldMenu_Equip_EQUIPPED_06",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Equip_NoEquip": {
+        "SelfId": "Txt_FieldMenu_Equip_NoEquip",
+        "Text": "No puede equiparse"
+      },
+      "Txt_FieldMenu_Equip_GUIDE": {
+        "SelfId": "Txt_FieldMenu_Equip_GUIDE",
+        "Text": "Elige una pieza de equipo."
+      },
+      "Txt_FieldMenu_Equip_AutoEpuip": {
+        "SelfId": "Txt_FieldMenu_Equip_AutoEpuip",
+        "Text": "Autoequipar"
+      },
+      "Txt_FieldMenu_Equip_NONE": {
+        "SelfId": "Txt_FieldMenu_Equip_NONE",
+        "Text": "No hay objetos equipables"
+      },
+      "Txt_FieldMenu_Equip_PARAMBEFORE_01": {
+        "SelfId": "Txt_FieldMenu_Equip_PARAMBEFORE_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Equip_PARAMAFTER_01": {
+        "SelfId": "Txt_FieldMenu_Equip_PARAMAFTER_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Equip_PARAMBEFORE_02": {
+        "SelfId": "Txt_FieldMenu_Equip_PARAMBEFORE_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Equip_PARAMAFTER_02": {
+        "SelfId": "Txt_FieldMenu_Equip_PARAMAFTER_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Equip_Nothing": {
+        "SelfId": "Txt_FieldMenu_Equip_Nothing",
+        "Text": "No llevas ningún objeto equipable en este espacio."
+      },
+      "Txt_FieldMenu_Memory_PLACE": {
+        "SelfId": "Txt_FieldMenu_Memory_PLACE",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Memory_SPEAKER": {
+        "SelfId": "Txt_FieldMenu_Memory_SPEAKER",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Memory_PALECEGUIDE": {
+        "SelfId": "Txt_FieldMenu_Memory_PALECEGUIDE",
+        "Text": "Elige una ubicación."
+      },
+      "Txt_FieldMenu_Memory_MEMORYGUIDE": {
+        "SelfId": "Txt_FieldMenu_Memory_MEMORYGUIDE",
+        "Text": "¿Qué deseas recordar?"
+      },
+      "Txt_FieldMenu_Memory_DELETEGUIDE": {
+        "SelfId": "Txt_FieldMenu_Memory_DELETEGUIDE",
+        "Text": "Olvidar"
+      },
+      "Txt_FieldMenu_Memory_RESTNUMBER": {
+        "SelfId": "Txt_FieldMenu_Memory_RESTNUMBER",
+        "Text": "Número de recuerdos:"
+      },
+      "Txt_FieldMenu_Memory_NUMBER": {
+        "SelfId": "Txt_FieldMenu_Memory_NUMBER",
+        "Text": "{0}/{1}"
+      },
+      "Txt_FieldMenu_Memory_STOP": {
+        "SelfId": "Txt_FieldMenu_Memory_STOP",
+        "Text": "Cancelar"
+      },
+      "Txt_FieldMenu_Magic_NAME": {
+        "SelfId": "Txt_FieldMenu_Magic_NAME",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Magic_GUIDE": {
+        "SelfId": "Txt_FieldMenu_Magic_GUIDE",
+        "Text": "Elige un hechizo."
+      },
+      "Txt_FieldMenu_Magic_NONE": {
+        "SelfId": "Txt_FieldMenu_Magic_NONE",
+        "Text": "Aún no aprendes ningún hechizo"
+      },
+      "Txt_FieldMenu_Skill_NAME": {
+        "SelfId": "Txt_FieldMenu_Skill_NAME",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Skill_GUIDE": {
+        "SelfId": "Txt_FieldMenu_Skill_GUIDE",
+        "Text": "Elige una habilidad."
+      },
+      "Txt_FieldMenu_Skill_NONE": {
+        "SelfId": "Txt_FieldMenu_Skill_NONE",
+        "Text": "Habilidades no aprendidas"
+      },
+      "Txt_FieldMenu_Misc_MENU_01": {
+        "SelfId": "Txt_FieldMenu_Misc_MENU_01",
+        "Text": "Curación grupal total"
+      },
+      "Txt_FieldMenu_Misc_MENU_02": {
+        "SelfId": "Txt_FieldMenu_Misc_MENU_02",
+        "Text": "Curación grupal útil"
+      },
+      "Txt_FieldMenu_Misc_MENU_03": {
+        "SelfId": "Txt_FieldMenu_Misc_MENU_03",
+        "Text": "Estado"
+      },
+      "Txt_FieldMenu_Misc_MENU_04": {
+        "SelfId": "Txt_FieldMenu_Misc_MENU_04",
+        "Text": "Formación"
+      },
+      "Txt_FieldMenu_Misc_MENU_05": {
+        "SelfId": "Txt_FieldMenu_Misc_MENU_05",
+        "Text": "Tácticas"
+      },
+      "Txt_FieldMenu_Misc_MENU_06": {
+        "SelfId": "Txt_FieldMenu_Misc_MENU_06",
+        "Text": "Consejos de viaje"
+      },
+      "Txt_FieldMenu_Misc_MENU_07": {
+        "SelfId": "Txt_FieldMenu_Misc_MENU_07",
+        "Text": "Información"
+      },
+      "Txt_FieldMenu_Misc_MENU_08": {
+        "SelfId": "Txt_FieldMenu_Misc_MENU_08",
+        "Text": "Ajustes del sistema"
+      },
+      "Txt_FieldMenu_Misc_MENU_11": {
+        "SelfId": "Txt_FieldMenu_Misc_MENU_11",
+        "Text": "Ajustes de video/varios"
+      },
+      "Txt_FieldMenu_Misc_MENU_09": {
+        "SelfId": "Txt_FieldMenu_Misc_MENU_09",
+        "Text": "Detener la aventura"
+      },
+      "Txt_FieldMenu_Misc_MENU_10": {
+        "SelfId": "Txt_FieldMenu_Misc_MENU_10",
+        "Text": "A la pantalla de título"
+      },
+      "Txt_FieldMenu_Misc_EXPLAN_01": {
+        "SelfId": "Txt_FieldMenu_Misc_EXPLAN_01",
+        "Text": "Recupera la salud de todos los miembros de tu grupo de forma rápida y sencilla."
+      },
+      "Txt_FieldMenu_Misc_EXPLAN_02": {
+        "SelfId": "Txt_FieldMenu_Misc_EXPLAN_02",
+        "Text": "Recupera la salud de todos los miembros de tu grupo de la forma más eficiente posible."
+      },
+      "Txt_FieldMenu_Misc_EXPLAN_04": {
+        "SelfId": "Txt_FieldMenu_Misc_EXPLAN_04",
+        "Text": "Elige el orden en que se desplegarán los miembros de tu grupo."
+      },
+      "Txt_FieldMenu_Misc_EXPLAN_05": {
+        "SelfId": "Txt_FieldMenu_Misc_EXPLAN_05",
+        "Text": "Elige las tácticas que usará tu grupo en la batalla."
+      },
+      "Txt_FieldMenu_Misc_EXPLAN_06": {
+        "SelfId": "Txt_FieldMenu_Misc_EXPLAN_06",
+        "Text": "Ver consejos e información que te ayudarán en tu aventura."
+      },
+      "Txt_FieldMenu_Misc_EXPLAN_07": {
+        "SelfId": "Txt_FieldMenu_Misc_EXPLAN_07",
+        "Text": "Ver varias estadísticas e información sobre tu aventura hasta el momento."
+      },
+      "Txt_FieldMenu_Misc_EXPLAN_08": {
+        "SelfId": "Txt_FieldMenu_Misc_EXPLAN_08",
+        "Text": "Configura varios ajustes del juego."
+      },
+      "Txt_FieldMenu_Misc_EXPLAN_09": {
+        "SelfId": "Txt_FieldMenu_Misc_EXPLAN_09",
+        "Text": "Termina tu aventura por ahora y vuelve a la pantalla de título."
+      },
+      "Txt_FieldMenu_Misc_EXPLAN_10": {
+        "SelfId": "Txt_FieldMenu_Misc_EXPLAN_10",
+        "Text": "Termina tu aventura, sin crear un registro de guardado rápido, y vuelve a la pantalla de título."
+      },
+      "Txt_FieldMenu_Misc_EXPLAN_11": {
+        "SelfId": "Txt_FieldMenu_Misc_EXPLAN_11",
+        "Text": "Ajusta diversas opciones del juego.\r\n(Se aplica a cada registro de aventuras)."
+      },
+      "Txt_FieldMenu_Misc_SORTMENU": {
+        "SelfId": "Txt_FieldMenu_Misc_SORTMENU",
+        "Text": "Mostrar:"
+      },
+      "Txt_FieldMenu_Misc_SORT_01": {
+        "SelfId": "Txt_FieldMenu_Misc_SORT_01",
+        "Text": "Atributos"
+      },
+      "Txt_FieldMenu_Misc_SORT_02": {
+        "SelfId": "Txt_FieldMenu_Misc_SORT_02",
+        "Text": "Todo"
+      },
+      "Txt_FieldMenu_Misc_SORT_03": {
+        "SelfId": "Txt_FieldMenu_Misc_SORT_03",
+        "Text": "Hechizos"
+      },
+      "Txt_FieldMenu_Misc_SORT_04": {
+        "SelfId": "Txt_FieldMenu_Misc_SORT_04",
+        "Text": "Habilidades"
+      },
+      "Txt_FieldMenu_Misc_PARAMETER_GUIDE_01": {
+        "SelfId": "Txt_FieldMenu_Misc_PARAMETER_GUIDE_01",
+        "Text": "Atributos"
+      },
+      "Txt_FieldMenu_Misc_PARAMETER_GUIDE_03": {
+        "SelfId": "Txt_FieldMenu_Misc_PARAMETER_GUIDE_03",
+        "Text": "Hechizos"
+      },
+      "Txt_FieldMenu_Misc_PARAMETER_GUIDE_04": {
+        "SelfId": "Txt_FieldMenu_Misc_PARAMETER_GUIDE_04",
+        "Text": "Habilidades"
+      },
+      "Txt_FieldMenu_Misc_TACTICSGUIDE": {
+        "SelfId": "Txt_FieldMenu_Misc_TACTICSGUIDE",
+        "Text": "Elige las tácticas que quieras cambiar de alguien."
+      },
+      "Txt_FieldMenu_Misc_TACTICSMENU_01": {
+        "SelfId": "Txt_FieldMenu_Misc_TACTICSMENU_01",
+        "Text": "Sin piedad"
+      },
+      "Txt_FieldMenu_Misc_TACTICSMENU_02": {
+        "SelfId": "Txt_FieldMenu_Misc_TACTICSMENU_02",
+        "Text": "Pelea con prudencia"
+      },
+      "Txt_FieldMenu_Misc_TACTICSMENU_03": {
+        "SelfId": "Txt_FieldMenu_Misc_TACTICSMENU_03",
+        "Text": "Enfócate en curar"
+      },
+      "Txt_FieldMenu_Misc_TACTICSMENU_04": {
+        "SelfId": "Txt_FieldMenu_Misc_TACTICSMENU_04",
+        "Text": "No usar PM"
+      },
+      "Txt_FieldMenu_Misc_TACTICSMENU_05": {
+        "SelfId": "Txt_FieldMenu_Misc_TACTICSMENU_05",
+        "Text": "Cuídame la espalda"
+      },
+      "Txt_FieldMenu_Misc_TACTICSMENU_06": {
+        "SelfId": "Txt_FieldMenu_Misc_TACTICSMENU_06",
+        "Text": "Cumple órdenes"
+      },
+      "Txt_FieldMenu_Misc_TACTICSEXPLAN_01": {
+        "SelfId": "Txt_FieldMenu_Misc_TACTICSEXPLAN_01",
+        "Text": "No te preocupes por los PM, ¡dale su merecido al enemigo!"
+      },
+      "Txt_FieldMenu_Misc_TACTICSEXPLAN_02": {
+        "SelfId": "Txt_FieldMenu_Misc_TACTICSEXPLAN_02",
+        "Text": "Mantén un cuidadoso equilibrio entre ataque y defensa."
+      },
+      "Txt_FieldMenu_Misc_TACTICSEXPLAN_03": {
+        "SelfId": "Txt_FieldMenu_Misc_TACTICSEXPLAN_03",
+        "Text": "Vigila la salud de tus aliados y asegúrate de que nadie muera."
+      },
+      "Txt_FieldMenu_Misc_TACTICSEXPLAN_04": {
+        "SelfId": "Txt_FieldMenu_Misc_TACTICSEXPLAN_04",
+        "Text": "Conserva tu valioso poder de conjuro evitando todos los hechizos y habilidades."
+      },
+      "Txt_FieldMenu_Misc_TACTICSEXPLAN_05": {
+        "SelfId": "Txt_FieldMenu_Misc_TACTICSEXPLAN_05",
+        "Text": "Deja el trabajo duro al héroe y céntrate en apoyar y curar al grupo."
+      },
+      "Txt_FieldMenu_Misc_TACTICSEXPLAN_06": {
+        "SelfId": "Txt_FieldMenu_Misc_TACTICSEXPLAN_06",
+        "Text": "En lugar de seguir una estrategia preestablecida, deja que el héroe dicte lo que hace cada uno en cada turno."
+      },
+      "Txt_FieldMenu_Misc_TUTORIALGUIDE": {
+        "SelfId": "Txt_FieldMenu_Misc_TUTORIALGUIDE",
+        "Text": "Elige algo que leer."
+      },
+      "Txt_FieldMenu_Misc_SETTINGMENU_0100": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMENU_0100",
+        "Text": "Velocidad de batalla"
+      },
+      "Txt_FieldMenu_Misc_SETTINGMENU_0200": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMENU_0200",
+        "Text": "Ajustes de pantalla"
+      },
+      "Txt_FieldMenu_Misc_SETTINGMENU_0300": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMENU_0300",
+        "Text": "Ajustes de audio"
+      },
+      "Txt_FieldMenu_Misc_SETTINGMENU_0350": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMENU_0350",
+        "Text": "Ajustes útiles"
+      },
+      "Txt_FieldMenu_Misc_SETTINGMENU_0371": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMENU_0371",
+        "Text": "Ajustes de dificultad"
+      },
+      "Txt_FieldMenu_Misc_SETTINGMENU_0375": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMENU_0375",
+        "Text": "Ajustes de carrera"
+      },
+      "Txt_FieldMenu_Misc_SETTINGMENU_0400": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMENU_0400",
+        "Text": "Txt_FieldMenu_Misc_SETTINGMENU_0400"
+      },
+      "Txt_FieldMenu_Misc_SETTINGMENU_0500": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMENU_0500",
+        "Text": "Txt_FieldMenu_Misc_SETTINGMENU_0500"
+      },
+      "Txt_FieldMenu_Misc_SETTINGMENU_0550": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMENU_0550",
+        "Text": "Ajustes de idioma"
+      },
+      "Txt_FieldMenu_Misc_SETTINGMENU_0575": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMENU_0575",
+        "Text": "Opciones"
+      },
+      "Txt_FieldMenu_Misc_SETTINGMENU_0600": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMENU_0600",
+        "Text": "Ajustes del teclado"
+      },
+      "Txt_FieldMenu_Misc_SETTINGMENU_0700": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMENU_0700",
+        "Text": "Invertir confirm./cancel."
+      },
+      "Txt_FieldMenu_Misc_SETTINGMENU_0700_PS5": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMENU_0700_PS5",
+        "Text": "Invertir confirm./cancel."
+      },
+      "Txt_FieldMenu_Misc_SETTINGMENU_0700_Xbox": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMENU_0700_Xbox",
+        "Text": "Invertir confirm./cancel."
+      },
+      "Txt_FieldMenu_Misc_SETTINGMENU_0700_PC": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMENU_0700_PC",
+        "Text": "Invertir confirm./cancel."
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0110": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0110",
+        "Text": "Batallas normales"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0115": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0115",
+        "Text": "Arena de monstruos"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0210": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0210",
+        "Text": "Brillo"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0220": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0220",
+        "Text": "Cámara"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0230": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0230",
+        "Text": "Minimapa"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0240": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0240",
+        "Text": "Área de visualización del minimapa"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0250": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0250",
+        "Text": "Optimización de gráficos"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0310": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0310",
+        "Text": "Música"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0315": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0315",
+        "Text": "Sonidos ambientales"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0320": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0320",
+        "Text": "Efectos de sonido"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0330": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0330",
+        "Text": "Voces"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0340": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0340",
+        "Text": "Escenas autom."
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0360": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0360",
+        "Text": "Guía de misión"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0370": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0370",
+        "Text": "Marca de objetivo"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0371": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0371",
+        "Text": "Dificultad"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0375": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0375",
+        "Text": "Carrera"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0380": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0380",
+        "Text": "Velocidad de ajustes de texto"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0560": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0560",
+        "Text": "Idioma de texto"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0570": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0570",
+        "Text": "Idioma de doblaje"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0575": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0575",
+        "Text": "Visualizar"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0585": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0585",
+        "Text": "Gráficos"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0595": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0595",
+        "Text": "Entradas"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0000": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0000",
+        "Text": "Confirmar"
+      },
+      "Txt_FieldMenu_Misc_SETTINGDEFAULT": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGDEFAULT",
+        "Text": "Ajustes predefinidos"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEM_0100": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEM_0100",
+        "Text": "Modo de visualización"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEM_0110": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEM_0110",
+        "Text": "Resolución"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEM_0120": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEM_0120",
+        "Text": "Fotogramas"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEM_0130": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEM_0130",
+        "Text": "VSync"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEM_0200": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEM_0200",
+        "Text": "Calidad general"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEM_0210": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEM_0210",
+        "Text": "Calidad de sombras"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEM_0215": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEM_0215",
+        "Text": "Área de la sombra"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEM_0220": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEM_0220",
+        "Text": "Suavizado de bordes"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEM_0230": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEM_0230",
+        "Text": "Calidad de texturas"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEM_0240": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEM_0240",
+        "Text": "Renderización"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEM_0250": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEM_0250",
+        "Text": "Oclusión ambiental"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEM_0260": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEM_0260",
+        "Text": "Profundidad de campo"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEM_0300": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEM_0300",
+        "Text": "Bloqueo de ratón"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEM_0310": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEM_0310",
+        "Text": "Audio (inactivo)"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEM_0320": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEM_0320",
+        "Text": "Controles (inactivo)"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0110": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0110",
+        "Text": "Ajusta la velocidad de las batallas."
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0115": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0115",
+        "Text": "Ajusta la velocidad de las batallas en la arena de monstruos."
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0210": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0210",
+        "Text": "Ajusta el brillo de la pantalla."
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0220": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0220",
+        "Text": "Ajusta la distancia de la cámara."
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0230": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0230",
+        "Text": "Ajusta si se muestra el minimapa o no."
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0240": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0240",
+        "Text": "Ajusta el tamaño del área mostrada en el minimapa al explorar el mapamundi."
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0250": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0250",
+        "Text": "Elige si darle prioridad a los gráficos o a la cantidad de cuadros por segundo."
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0310": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0310",
+        "Text": "Ajusta el volumen de la música."
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0315": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0315",
+        "Text": "Ajusta el volumen de los sonidos ambientales."
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0320": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0320",
+        "Text": "Ajusta el volumen de los efectos de sonido."
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0330": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0330",
+        "Text": "Ajusta el volumen de las voces de los personajes."
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0340": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0340",
+        "Text": "Elige si quieres que la acción progrese manual o automáticamente en las escenas con voz."
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0360": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0360",
+        "Text": "Elige si mostrar el texto de ayuda o no."
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0370": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0370",
+        "Text": "Elige si mostrar el marcador de objetivo o no."
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0371_01": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0371_01",
+        "Text": "Para quienes desean superar las batallas sin dificultades y simplemente deleitarse con la historia. ¡Cambia a este nivel de dificultad si te sientes en demasiados problemas!"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0371_02": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0371_02",
+        "Text": "Para quienes desean enfrentar un buen desafío. ¡Si no sabes con certeza qué nivel de dificultad elegir, prueba con este!"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0371_03": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0371_03",
+        "Text": "Para quienes buscan un verdadero desafío. Los enemigos serán más difíciles de derrotar y obtendrás menos experiencia y menos monedas de oro en cada batalla."
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0375": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0375",
+        "Text": "Ajusta cómo correrá tu personaje."
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0380": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0380",
+        "Text": "Elige la velocidad en la que se muestran los mensajes."
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0560": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0560",
+        "Text": "Elige el idioma del texto mostrado en pantalla. Los cambios que realices afectarán todos los registros de aventuras."
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0570": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0570",
+        "Text": "Elige el idioma en que hablan los personajes. Los cambios que realices afectarán todos los registros de aventuras."
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0575": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0575",
+        "Text": "Ajusta cómo se visualiza el juego en tu pantalla."
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0585": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0585",
+        "Text": "Establece un rango de opciones gráficas."
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0595": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0595",
+        "Text": "Ajusta los ajustes del ratón y el comportamiento del juego durante los períodos de inactividad."
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0100": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0100",
+        "Text": "Ajusta el tipo de ventana en que se visualiza el juego."
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0110": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0110",
+        "Text": "Ajusta la resolución de visualización."
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0120": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0120",
+        "Text": "Ajusta la velocidad de fotogramas del juego."
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0130": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0130",
+        "Text": "Elige si quieres habilitar la sincronización vertical."
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0200": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0200",
+        "Text": "Elige un conjunto predeterminado de valores para todas las opciones gráficas."
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0210": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0210",
+        "Text": "Ajusta la calidad de las sombras."
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0215": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0215",
+        "Text": "Ajusta el tamaño del área que queda cubierta por las sombras."
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0220": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0220",
+        "Text": "Ajusta la suavidad en la que se muestran los bordes."
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0230": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0230",
+        "Text": "Ajusta el nivel de detalle de las texturas."
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0240": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0240",
+        "Text": "Elige el grado de correspondencia entre la resolución de salida y la de tu pantalla."
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0250": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0250",
+        "Text": "Ajusta el realismo con que se representan la luz y las sombras."
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0260": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0260",
+        "Text": "Elige si quieres desenfocar los objetos/escenarios lejanos."
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0300": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0300",
+        "Text": "Elige si quieres mantener siempre el curso del ratón dentro de la ventana del juego."
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0310": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0310",
+        "Text": "Elige si quieres reproducir audio durante los periodos de inactividad."
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0320": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0320",
+        "Text": "Elige si quieres permitir la entrada del control durante los periodos de inactividad."
+      },
+      "Txt_FieldMenu_Misc_SETTINGSPEED_010": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGSPEED_010",
+        "Text": "Normal"
+      },
+      "Txt_FieldMenu_Misc_SETTINGSPEED_020": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGSPEED_020",
+        "Text": "Rápida"
+      },
+      "Txt_FieldMenu_Misc_SETTINGSPEED_030": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGSPEED_030",
+        "Text": "Ultrarrápida"
+      },
+      "Txt_FieldMenu_Misc_SETTINGLIGHT_010": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGLIGHT_010",
+        "Text": "Claro"
+      },
+      "Txt_FieldMenu_Misc_SETTINGLIGHT_020": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGLIGHT_020",
+        "Text": "Oscuro"
+      },
+      "Txt_FieldMenu_Misc_SETTINGLIGHT_VALUE": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGLIGHT_VALUE",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Misc_SETTINGMINIMAP_010": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMINIMAP_010",
+        "Text": "Ampliado"
+      },
+      "Txt_FieldMenu_Misc_SETTINGMINIMAP_020": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMINIMAP_020",
+        "Text": "Alejado"
+      },
+      "Txt_FieldMenu_Misc_SETTINGGAMEMODE_010": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGGAMEMODE_010",
+        "Text": "Misión Dragoncito"
+      },
+      "Txt_FieldMenu_Misc_SETTINGGAMEMODE_020": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGGAMEMODE_020",
+        "Text": "Misión Dragón"
+      },
+      "Txt_FieldMenu_Misc_SETTINGGAMEMODE_030": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGGAMEMODE_030",
+        "Text": "Misión Superdragón"
+      },
+      "Txt_FieldMenu_Misc_SETTINGMODE_PERFORMANCE": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMODE_PERFORMANCE",
+        "Text": "Rendimiento"
+      },
+      "Txt_FieldMenu_Misc_SETTINGMODE_QUALITY": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMODE_QUALITY",
+        "Text": "Gráficos"
+      },
+      "Txt_FieldMenu_Misc_SETTINGCAMERA_010": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGCAMERA_010",
+        "Text": "Ampliado"
+      },
+      "Txt_FieldMenu_Misc_SETTINGCAMERA_020": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGCAMERA_020",
+        "Text": "Normal"
+      },
+      "Txt_FieldMenu_Misc_SETTINGSOUND_010": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGSOUND_010",
+        "Text": "Alto"
+      },
+      "Txt_FieldMenu_Misc_SETTINGSOUND_020": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGSOUND_020",
+        "Text": "Bajo"
+      },
+      "Txt_FieldMenu_Misc_SETTINGSOUND_VALUE": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGSOUND_VALUE",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Misc_SETTINGSOUND_VALUENONE": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGSOUND_VALUENONE",
+        "Text": "Desact."
+      },
+      "Txt_FieldMenu_Misc_SETTINGDASH_PUSH": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGDASH_PUSH",
+        "Text": "Mantener oprimido"
+      },
+      "Txt_FieldMenu_Misc_SETTINGDASH_TOGGLE": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGDASH_TOGGLE",
+        "Text": "Alternar"
+      },
+      "Txt_FieldMenu_Misc_SETTINGMESSAGE_NORMAL": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMESSAGE_NORMAL",
+        "Text": "Normal"
+      },
+      "Txt_FieldMenu_Misc_SETTINGMESSAGE_FAST": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMESSAGE_FAST",
+        "Text": "Instantánea"
+      },
+      "Txt_FieldMenu_Misc_SETTINGWINDOW_WINDOW": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGWINDOW_WINDOW",
+        "Text": "Ventana"
+      },
+      "Txt_FieldMenu_Misc_SETTINGWINDOW_BORDERLESS": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGWINDOW_BORDERLESS",
+        "Text": "Sin bordes"
+      },
+      "Txt_FieldMenu_Misc_SETTINGWINDOW_FULL": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGWINDOW_FULL",
+        "Text": "Pantalla completa"
+      },
+      "Txt_FieldMenu_Misc_SETTINGRESOLUTION_010": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGRESOLUTION_010",
+        "Text": "1280 × 720"
+      },
+      "Txt_FieldMenu_Misc_SETTINGRESOLUTION_020": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGRESOLUTION_020",
+        "Text": "1920 × 1080"
+      },
+      "Txt_FieldMenu_Misc_SETTINGRESOLUTION_030": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGRESOLUTION_030",
+        "Text": "2560 × 1440"
+      },
+      "Txt_FieldMenu_Misc_SETTINGRESOLUTION_040": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGRESOLUTION_040",
+        "Text": "3840 × 2160"
+      },
+      "Txt_FieldMenu_Misc_SETTINGFPS_030": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGFPS_030",
+        "Text": "30 FPS"
+      },
+      "Txt_FieldMenu_Misc_SETTINGFPS_060": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGFPS_060",
+        "Text": "60 FPS"
+      },
+      "Txt_FieldMenu_Misc_SETTINGGRAPHICPRESET_CUSTOM": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGGRAPHICPRESET_CUSTOM",
+        "Text": "Personalizado"
+      },
+      "Txt_FieldMenu_Misc_SETTINGGRAPHICPRESET_HIGH": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGGRAPHICPRESET_HIGH",
+        "Text": "Alta"
+      },
+      "Txt_FieldMenu_Misc_SETTINGGRAPHICPRESET_MIDDLE": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGGRAPHICPRESET_MIDDLE",
+        "Text": "Media"
+      },
+      "Txt_FieldMenu_Misc_SETTINGGRAPHICPRESET_LOW": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGGRAPHICPRESET_LOW",
+        "Text": "Baja"
+      },
+      "Txt_FieldMenu_Misc_SETTINGGRAPHIC_HIGH": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGGRAPHIC_HIGH",
+        "Text": "Alta"
+      },
+      "Txt_FieldMenu_Misc_SETTINGGRAPHIC_LOW": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGGRAPHIC_LOW",
+        "Text": "Baja"
+      },
+      "Txt_FieldMenu_Misc_SETTINGCOMMON_ON": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGCOMMON_ON",
+        "Text": "Activado"
+      },
+      "Txt_FieldMenu_Misc_SETTINGCOMMON_OFF": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGCOMMON_OFF",
+        "Text": "Desact."
+      },
+      "Txt_FieldMenu_Misc_SETTINGTEXTOPTION_ON": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGTEXTOPTION_ON",
+        "Text": "Sí"
+      },
+      "Txt_FieldMenu_Misc_SETTINGTEXTOPTION_OFF": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGTEXTOPTION_OFF",
+        "Text": "No"
+      },
+      "Txt_FieldMenu_Misc_SETTING_MEMORYGUIDE": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTING_MEMORYGUIDE",
+        "Text": "Uso de GPU"
+      },
+      "Txt_FieldMenu_Misc_SETTING_MEMORY": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTING_MEMORY",
+        "Text": "{0}/{1} GB"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_00": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_00",
+        "Text": "Confirmar"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_01": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_01",
+        "Text": "Cancelar"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_02": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_02",
+        "Text": "Mover arriba"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_03": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_03",
+        "Text": "Mover a la derecha"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_04": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_04",
+        "Text": "Mover a la izquierda"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_05": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_05",
+        "Text": "Mover abajo"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_06": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_06",
+        "Text": "Menú principal"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_07": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_07",
+        "Text": "Mapa"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_08": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_08",
+        "Text": "Página anterior"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_09": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_09",
+        "Text": "Página siguiente"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_10": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_10",
+        "Text": "Miembro anterior del grupo (equipo)"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_11": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_11",
+        "Text": "Próximo miembro del grupo (equipo)"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_12": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_12",
+        "Text": "Correr"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_13": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_13",
+        "Text": "Restablecer posición"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_14": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_14",
+        "Text": "Restablecer el sitio de aterrizaje"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_15": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_15",
+        "Text": "Mover sitio de aterrizaje arriba"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_16": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_16",
+        "Text": "Mover sitio de aterrizaje a la derecha"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_17": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_17",
+        "Text": "Mover sitio de aterrizaje a la izquierda"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_18": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_18",
+        "Text": "Mover sitio de aterrizaje abajo"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_19": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_19",
+        "Text": "Memorizar diálogo"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_20": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_20",
+        "Text": "Alternar la visualización de la IU"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_CANCEL": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_CANCEL",
+        "Text": "¿Realmente deseas cerrar el menú sin confirmar tus cambios?"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_DUPLICATE_WARNING": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_DUPLICATE_WARNING",
+        "Text": "Se asignaron varias funciones a las mismas teclas. Corrígelo y vuelve a confirmar."
+      },
+      "Txt_FieldMenu_Map_NONE": {
+        "SelfId": "Txt_FieldMenu_Map_NONE",
+        "Text": "No hay destinos"
+      },
+      "Txt_FieldMenu_Record_List_010": {
+        "SelfId": "Txt_FieldMenu_Record_List_010",
+        "Text": "Lista de monstruos abatidos"
+      },
+      "Txt_FieldMenu_Record_List_020": {
+        "SelfId": "Txt_FieldMenu_Record_List_020",
+        "Text": "Lista de objetos"
+      },
+      "Txt_FieldMenu_Record_List_030": {
+        "SelfId": "Txt_FieldMenu_Record_List_030",
+        "Text": "Lista de equipo"
+      },
+      "Txt_FieldMenu_Record_List_040": {
+        "SelfId": "Txt_FieldMenu_Record_List_040",
+        "Text": "Lista de hechizos"
+      },
+      "Txt_FieldMenu_Record_List_050": {
+        "SelfId": "Txt_FieldMenu_Record_List_050",
+        "Text": "Lista de habilidades"
+      },
+      "Txt_FieldMenu_Record_Topic_010": {
+        "SelfId": "Txt_FieldMenu_Record_Topic_010",
+        "Text": "Horas en tus aventuras:"
+      },
+      "Txt_FieldMenu_Record_Topic_020": {
+        "SelfId": "Txt_FieldMenu_Record_Topic_020",
+        "Text": "Batallas ganadas:"
+      },
+      "Txt_FieldMenu_Record_Topic_030": {
+        "SelfId": "Txt_FieldMenu_Record_Topic_030",
+        "Text": "Batallas abandonadas:"
+      },
+      "Txt_FieldMenu_Record_Topic_040": {
+        "SelfId": "Txt_FieldMenu_Record_Topic_040",
+        "Text": "Aniquilaciones del grupo:"
+      },
+      "Txt_FieldMenu_Record_Topic_050": {
+        "SelfId": "Txt_FieldMenu_Record_Topic_050",
+        "Text": "Monstruos abatidos:"
+      },
+      "Txt_FieldMenu_Record_Topic_060": {
+        "SelfId": "Txt_FieldMenu_Record_Topic_060",
+        "Text": "Tipos de monstruos abatidos:"
+      },
+      "Txt_FieldMenu_Record_Topic_070": {
+        "SelfId": "Txt_FieldMenu_Record_Topic_070",
+        "Text": "Tipos de objetos recogidos:"
+      },
+      "Txt_FieldMenu_Record_Topic_080": {
+        "SelfId": "Txt_FieldMenu_Record_Topic_080",
+        "Text": "Total de monedas de oro conseguidas:"
+      },
+      "Txt_FieldMenu_Record_Topic_090": {
+        "SelfId": "Txt_FieldMenu_Record_Topic_090",
+        "Text": "Minimedallas conseguidas:"
+      },
+      "Txt_FieldMenu_Record_Topic_100": {
+        "SelfId": "Txt_FieldMenu_Record_Topic_100",
+        "Text": "Rango en torneo de la arena de monstruos:"
+      },
+      "Txt_FieldMenu_Record_Topic_110": {
+        "SelfId": "Txt_FieldMenu_Record_Topic_110",
+        "Text": "Batallas ganadas en la arena de monstruos:"
+      },
+      "Txt_FieldMenu_Record_Topic_120": {
+        "SelfId": "Txt_FieldMenu_Record_Topic_120",
+        "Text": "Monstruos rescatados:"
+      },
+      "Txt_FieldMenu_Record_Topic_130": {
+        "SelfId": "Txt_FieldMenu_Record_Topic_130",
+        "Text": "Tipos de monstruos rescatados:"
+      },
+      "Txt_FieldMenu_Record_AllMP": {
+        "SelfId": "Txt_FieldMenu_Record_AllMP",
+        "Text": "Todo"
+      },
+      "Txt_FieldMenu_Record_Param_010": {
+        "SelfId": "Txt_FieldMenu_Record_Param_010",
+        "Text": "{0}:{1}"
+      },
+      "Txt_FieldMenu_Record_Param_020": {
+        "SelfId": "Txt_FieldMenu_Record_Param_020",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Record_Param_030": {
+        "SelfId": "Txt_FieldMenu_Record_Param_030",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Record_Param_040": {
+        "SelfId": "Txt_FieldMenu_Record_Param_040",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Record_Param_050": {
+        "SelfId": "Txt_FieldMenu_Record_Param_050",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Record_Param_060": {
+        "SelfId": "Txt_FieldMenu_Record_Param_060",
+        "Text": "{0}/{1}"
+      },
+      "Txt_FieldMenu_Record_Param_070": {
+        "SelfId": "Txt_FieldMenu_Record_Param_070",
+        "Text": "{0}/{1}"
+      },
+      "Txt_FieldMenu_Record_Param_080": {
+        "SelfId": "Txt_FieldMenu_Record_Param_080",
+        "Text": "{0} O"
+      },
+      "Txt_FieldMenu_Record_Param_090": {
+        "SelfId": "Txt_FieldMenu_Record_Param_090",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Record_Param_100": {
+        "SelfId": "Txt_FieldMenu_Record_Param_100",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Record_Param_110": {
+        "SelfId": "Txt_FieldMenu_Record_Param_110",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Record_Param_120": {
+        "SelfId": "Txt_FieldMenu_Record_Param_120",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Record_Param_130": {
+        "SelfId": "Txt_FieldMenu_Record_Param_130",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Record_MonsterList_Guide": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterList_Guide",
+        "Text": "Elige un monstruo."
+      },
+      "Txt_FieldMenu_Record_MonsterList_Sort_010": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterList_Sort_010",
+        "Text": "Orden numérico"
+      },
+      "Txt_FieldMenu_Record_MonsterList_Sort_020": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterList_Sort_020",
+        "Text": "Nombre"
+      },
+      "Txt_FieldMenu_Record_MonsterList_Topic_010": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterList_Topic_010",
+        "Text": "Experiencia:"
+      },
+      "Txt_FieldMenu_Record_MonsterList_Topic_020": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterList_Topic_020",
+        "Text": "Monedas de oro:"
+      },
+      "Txt_FieldMenu_Record_MonsterList_Topic_030": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterList_Topic_030",
+        "Text": "Total vencidos:"
+      },
+      "Txt_FieldMenu_Record_MonsterList_Topic_040": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterList_Topic_040",
+        "Text": "Hábitat principal"
+      },
+      "Txt_FieldMenu_Record_MonsterList_Param_010": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterList_Param_010",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Record_MonsterList_Param_020": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterList_Param_020",
+        "Text": "{0} O"
+      },
+      "Txt_FieldMenu_Record_MonsterList_Param_030": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterList_Param_030",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Record_MonsterList_Param_040": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterList_Param_040",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Record_MonsterList_Param_041": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterList_Param_041",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Record_MonsterList_Param_999": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterList_Param_999",
+        "Text": "y otros lugares"
+      },
+      "Txt_FieldMenu_Record_MonsterListDetail_Topic_010": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterListDetail_Topic_010",
+        "Text": "{0}:{1}"
+      },
+      "Txt_FieldMenu_Record_MonsterListDetail_Topic_020": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterListDetail_Topic_020",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Record_MonsterListDetail_Topic_030": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterListDetail_Topic_030",
+        "Text": "Experiencia total:"
+      },
+      "Txt_FieldMenu_Record_MonsterListDetail_Topic_040": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterListDetail_Topic_040",
+        "Text": "Oro total:"
+      },
+      "Txt_FieldMenu_Record_MonsterListDetail_Topic_050": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterListDetail_Topic_050",
+        "Text": "Objetos dejados:"
+      },
+      "Txt_FieldMenu_Record_MonsterListDetail_Param_030": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterListDetail_Param_030",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Record_MonsterListDetail_Param_040": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterListDetail_Param_040",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Record_MonsterListDetail_Param_050": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterListDetail_Param_050",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Record_MonsterListDetail_Param_050_Blank": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterListDetail_Param_050_Blank",
+        "Text": "Nada"
+      },
+      "Txt_FieldMenu_Record_MonsterListDetail_Topic_060": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterListDetail_Topic_060",
+        "Text": "Descripción"
+      },
+      "Txt_FieldMenu_Record_MonsterListDetail_Param_060": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterListDetail_Param_060",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Record_MonsterListDetail_ActionGuide": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterListDetail_ActionGuide",
+        "Text": "Realizar acción"
+      },
+      "Txt_FieldMenu_STATUS_HPBar": {
+        "SelfId": "Txt_FieldMenu_STATUS_HPBar",
+        "Text": "ＰＶ"
+      },
+      "Txt_FieldMenu_STATUS_MPBar": {
+        "SelfId": "Txt_FieldMenu_STATUS_MPBar",
+        "Text": "ＰＭ"
+      },
+      "Txt_FieldMenu_STATUS_PARAMNAME_01": {
+        "SelfId": "Txt_FieldMenu_STATUS_PARAMNAME_01",
+        "Text": "PV"
+      },
+      "Txt_FieldMenu_STATUS_PARAMNAME_02": {
+        "SelfId": "Txt_FieldMenu_STATUS_PARAMNAME_02",
+        "Text": "PM"
+      },
+      "Txt_FieldMenu_STATUS_PARAMNAME_03": {
+        "SelfId": "Txt_FieldMenu_STATUS_PARAMNAME_03",
+        "Text": "Ataque"
+      },
+      "Txt_FieldMenu_STATUS_PARAMNAME_04": {
+        "SelfId": "Txt_FieldMenu_STATUS_PARAMNAME_04",
+        "Text": "Defensa"
+      },
+      "Txt_FieldMenu_STATUS_PARAMNAME_05": {
+        "SelfId": "Txt_FieldMenu_STATUS_PARAMNAME_05",
+        "Text": "Agilidad"
+      },
+      "Txt_FieldMenu_STATUS_PARAMNAME_06": {
+        "SelfId": "Txt_FieldMenu_STATUS_PARAMNAME_06",
+        "Text": "Resistencia"
+      },
+      "Txt_FieldMenu_STATUS_PARAMNAME_07": {
+        "SelfId": "Txt_FieldMenu_STATUS_PARAMNAME_07",
+        "Text": "Sabiduría"
+      },
+      "Txt_FieldMenu_STATUS_PARAMNAME_08": {
+        "SelfId": "Txt_FieldMenu_STATUS_PARAMNAME_08",
+        "Text": "Suerte"
+      },
+      "Txt_FieldMenu_STATUS_PARAMNAME_09": {
+        "SelfId": "Txt_FieldMenu_STATUS_PARAMNAME_09",
+        "Text": "Fuerza"
+      },
+      "Txt_FieldMenu_STATUS_PARAMNAME_10": {
+        "SelfId": "Txt_FieldMenu_STATUS_PARAMNAME_10",
+        "Text": "Resiliencia"
+      },
+      "Txt_FieldMenu_STATUS_PARAMNAME_11": {
+        "SelfId": "Txt_FieldMenu_STATUS_PARAMNAME_11",
+        "Text": "Nv."
+      },
+      "Txt_FieldMenu_STATUS_PARAMNAME_12": {
+        "SelfId": "Txt_FieldMenu_STATUS_PARAMNAME_12",
+        "Text": "Experiencia:"
+      },
+      "Txt_FieldMenu_STATUS_PARAMNAME_13": {
+        "SelfId": "Txt_FieldMenu_STATUS_PARAMNAME_13",
+        "Text": "Exp. para el sig. nivel:"
+      },
+      "Txt_FieldMenu_STATUS_PARAMNAME_14": {
+        "SelfId": "Txt_FieldMenu_STATUS_PARAMNAME_14",
+        "Text": "Vocación:"
+      },
+      "Txt_FieldMenu_STATUS_PARAMNAME_15": {
+        "SelfId": "Txt_FieldMenu_STATUS_PARAMNAME_15",
+        "Text": "Apariencia:"
+      },
+      "Txt_FieldMenu_STATUS_PARAMNAME_16": {
+        "SelfId": "Txt_FieldMenu_STATUS_PARAMNAME_16",
+        "Text": "Personalidad:"
+      },
+      "Txt_FieldMenu_STATUS_PARAMNAME_17": {
+        "SelfId": "Txt_FieldMenu_STATUS_PARAMNAME_17",
+        "Text": "PV máx."
+      },
+      "Txt_FieldMenu_STATUS_PARAMNAME_18": {
+        "SelfId": "Txt_FieldMenu_STATUS_PARAMNAME_18",
+        "Text": "PM máx."
+      },
+      "Txt_FieldMenu_STATUS_PARAMNAME_19": {
+        "SelfId": "Txt_FieldMenu_STATUS_PARAMNAME_19",
+        "Text": "Nombre"
+      },
+      "Txt_FieldMenu_STATUS_Name_01": {
+        "SelfId": "Txt_FieldMenu_STATUS_Name_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_Name_02": {
+        "SelfId": "Txt_FieldMenu_STATUS_Name_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_Name_03": {
+        "SelfId": "Txt_FieldMenu_STATUS_Name_03",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_Name_04": {
+        "SelfId": "Txt_FieldMenu_STATUS_Name_04",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_Level_01": {
+        "SelfId": "Txt_FieldMenu_STATUS_Level_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_Level_02": {
+        "SelfId": "Txt_FieldMenu_STATUS_Level_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_Level_03": {
+        "SelfId": "Txt_FieldMenu_STATUS_Level_03",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_Level_04": {
+        "SelfId": "Txt_FieldMenu_STATUS_Level_04",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_Job_01": {
+        "SelfId": "Txt_FieldMenu_STATUS_Job_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_Job_02": {
+        "SelfId": "Txt_FieldMenu_STATUS_Job_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_Job_03": {
+        "SelfId": "Txt_FieldMenu_STATUS_Job_03",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_Job_04": {
+        "SelfId": "Txt_FieldMenu_STATUS_Job_04",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_HP_01": {
+        "SelfId": "Txt_FieldMenu_STATUS_HP_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_HP_02": {
+        "SelfId": "Txt_FieldMenu_STATUS_HP_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_HP_03": {
+        "SelfId": "Txt_FieldMenu_STATUS_HP_03",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_HP_04": {
+        "SelfId": "Txt_FieldMenu_STATUS_HP_04",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_MP_01": {
+        "SelfId": "Txt_FieldMenu_STATUS_MP_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_MP_02": {
+        "SelfId": "Txt_FieldMenu_STATUS_MP_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_MP_03": {
+        "SelfId": "Txt_FieldMenu_STATUS_MP_03",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_MP_04": {
+        "SelfId": "Txt_FieldMenu_STATUS_MP_04",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_MAXHP_01": {
+        "SelfId": "Txt_FieldMenu_STATUS_MAXHP_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_MAXHP_02": {
+        "SelfId": "Txt_FieldMenu_STATUS_MAXHP_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_MAXHP_03": {
+        "SelfId": "Txt_FieldMenu_STATUS_MAXHP_03",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_MAXHP_04": {
+        "SelfId": "Txt_FieldMenu_STATUS_MAXHP_04",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_MAXMP_01": {
+        "SelfId": "Txt_FieldMenu_STATUS_MAXMP_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_MAXMP_02": {
+        "SelfId": "Txt_FieldMenu_STATUS_MAXMP_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_MAXMP_03": {
+        "SelfId": "Txt_FieldMenu_STATUS_MAXMP_03",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_MAXMP_04": {
+        "SelfId": "Txt_FieldMenu_STATUS_MAXMP_04",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_REMAINHP_01": {
+        "SelfId": "Txt_FieldMenu_STATUS_REMAINHP_01",
+        "Text": "{0}/{1}"
+      },
+      "Txt_FieldMenu_STATUS_REMAINHP_02": {
+        "SelfId": "Txt_FieldMenu_STATUS_REMAINHP_02",
+        "Text": "{0}/{1}"
+      },
+      "Txt_FieldMenu_STATUS_REMAINHP_03": {
+        "SelfId": "Txt_FieldMenu_STATUS_REMAINHP_03",
+        "Text": "{0}/{1}"
+      },
+      "Txt_FieldMenu_STATUS_REMAINHP_04": {
+        "SelfId": "Txt_FieldMenu_STATUS_REMAINHP_04",
+        "Text": "{0}/{1}"
+      },
+      "Txt_FieldMenu_STATUS_REMAINMP_01": {
+        "SelfId": "Txt_FieldMenu_STATUS_REMAINMP_01",
+        "Text": "{0}/{1}"
+      },
+      "Txt_FieldMenu_STATUS_REMAINMP_02": {
+        "SelfId": "Txt_FieldMenu_STATUS_REMAINMP_02",
+        "Text": "{0}/{1}"
+      },
+      "Txt_FieldMenu_STATUS_REMAINMP_03": {
+        "SelfId": "Txt_FieldMenu_STATUS_REMAINMP_03",
+        "Text": "{0}/{1}"
+      },
+      "Txt_FieldMenu_STATUS_REMAINMP_04": {
+        "SelfId": "Txt_FieldMenu_STATUS_REMAINMP_04",
+        "Text": "{0}/{1}"
+      },
+      "Txt_FieldMenu_STATUS_POW_01": {
+        "SelfId": "Txt_FieldMenu_STATUS_POW_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_POW_02": {
+        "SelfId": "Txt_FieldMenu_STATUS_POW_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_POW_03": {
+        "SelfId": "Txt_FieldMenu_STATUS_POW_03",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_POW_04": {
+        "SelfId": "Txt_FieldMenu_STATUS_POW_04",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_GAR_01": {
+        "SelfId": "Txt_FieldMenu_STATUS_GAR_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_GAR_02": {
+        "SelfId": "Txt_FieldMenu_STATUS_GAR_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_GAR_03": {
+        "SelfId": "Txt_FieldMenu_STATUS_GAR_03",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_GAR_04": {
+        "SelfId": "Txt_FieldMenu_STATUS_GAR_04",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_ATK_01": {
+        "SelfId": "Txt_FieldMenu_STATUS_ATK_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_ATK_02": {
+        "SelfId": "Txt_FieldMenu_STATUS_ATK_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_ATK_03": {
+        "SelfId": "Txt_FieldMenu_STATUS_ATK_03",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_ATK_04": {
+        "SelfId": "Txt_FieldMenu_STATUS_ATK_04",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_DEF_01": {
+        "SelfId": "Txt_FieldMenu_STATUS_DEF_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_DEF_02": {
+        "SelfId": "Txt_FieldMenu_STATUS_DEF_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_DEF_03": {
+        "SelfId": "Txt_FieldMenu_STATUS_DEF_03",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_DEF_04": {
+        "SelfId": "Txt_FieldMenu_STATUS_DEF_04",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_SPD_01": {
+        "SelfId": "Txt_FieldMenu_STATUS_SPD_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_SPD_02": {
+        "SelfId": "Txt_FieldMenu_STATUS_SPD_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_SPD_03": {
+        "SelfId": "Txt_FieldMenu_STATUS_SPD_03",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_SPD_04": {
+        "SelfId": "Txt_FieldMenu_STATUS_SPD_04",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_STA_01": {
+        "SelfId": "Txt_FieldMenu_STATUS_STA_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_STA_02": {
+        "SelfId": "Txt_FieldMenu_STATUS_STA_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_STA_03": {
+        "SelfId": "Txt_FieldMenu_STATUS_STA_03",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_STA_04": {
+        "SelfId": "Txt_FieldMenu_STATUS_STA_04",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_INT_01": {
+        "SelfId": "Txt_FieldMenu_STATUS_INT_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_INT_02": {
+        "SelfId": "Txt_FieldMenu_STATUS_INT_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_INT_03": {
+        "SelfId": "Txt_FieldMenu_STATUS_INT_03",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_INT_04": {
+        "SelfId": "Txt_FieldMenu_STATUS_INT_04",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_LUC_01": {
+        "SelfId": "Txt_FieldMenu_STATUS_LUC_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_LUC_02": {
+        "SelfId": "Txt_FieldMenu_STATUS_LUC_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_LUC_03": {
+        "SelfId": "Txt_FieldMenu_STATUS_LUC_03",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_LUC_04": {
+        "SelfId": "Txt_FieldMenu_STATUS_LUC_04",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_EXP_01": {
+        "SelfId": "Txt_FieldMenu_STATUS_EXP_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_EXP_02": {
+        "SelfId": "Txt_FieldMenu_STATUS_EXP_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_EXP_03": {
+        "SelfId": "Txt_FieldMenu_STATUS_EXP_03",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_EXP_04": {
+        "SelfId": "Txt_FieldMenu_STATUS_EXP_04",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_NEXTLV_01": {
+        "SelfId": "Txt_FieldMenu_STATUS_NEXTLV_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_NEXTLV_02": {
+        "SelfId": "Txt_FieldMenu_STATUS_NEXTLV_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_NEXTLV_03": {
+        "SelfId": "Txt_FieldMenu_STATUS_NEXTLV_03",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_NEXTLV_04": {
+        "SelfId": "Txt_FieldMenu_STATUS_NEXTLV_04",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_EXP_BLANK": {
+        "SelfId": "Txt_FieldMenu_STATUS_EXP_BLANK",
+        "Text": "Nada"
+      },
+      "Txt_FieldMenu_Message_Heal": {
+        "SelfId": "Txt_FieldMenu_Message_Heal",
+        "Text": "¡Las heridas de <DefSgl_WORD> se curaron!"
+      },
+      "Txt_FieldMenu_Message_AllHeal": {
+        "SelfId": "Txt_FieldMenu_Message_AllHeal",
+        "Text": "¡Las heridas del grupo están curadas!"
+      },
+      "Txt_FieldMenu_Message_ConfirmSorting": {
+        "SelfId": "Txt_FieldMenu_Message_ConfirmSorting",
+        "Text": "¿Quieres colocar todos los objetos no esenciales en el saco?"
+      },
+      "Txt_FieldMenu_Message_FinishSorting": {
+        "SelfId": "Txt_FieldMenu_Message_FinishSorting",
+        "Text": "Todos los objetos no esenciales ya están en el saco."
+      },
+      "Txt_FieldMenu_Message_NoneSorting": {
+        "SelfId": "Txt_FieldMenu_Message_NoneSorting",
+        "Text": "¡Pero el saco ya está lleno!"
+      },
+      "Txt_FieldMenu_Message_ItemUseDeath": {
+        "SelfId": "Txt_FieldMenu_Message_ItemUseDeath",
+        "Text": "¡<Cap><DefSgl_ACTOR> no puede usar <DefSgl_I_NAME> porque <IfGender_ACTOR(él,ella,eso)> murió!"
+      },
+      "Txt_FieldMenu_Message_ItemUseParalysis": {
+        "SelfId": "Txt_FieldMenu_Message_ItemUseParalysis",
+        "Text": "<Cap><DefSgl_ACTOR> no puede usar <DefSgl_I_NAME> porque está bajo parálisis."
+      },
+      "Txt_FieldMenu_Message_ItemUseConfus": {
+        "SelfId": "Txt_FieldMenu_Message_ItemUseConfus",
+        "Text": "<Cap><DefSgl_ACTOR> no puede usar <DefSgl_I_NAME> porque sufre de confusión."
+      },
+      "Txt_FieldMenu_Message_ItemCannotUse": {
+        "SelfId": "Txt_FieldMenu_Message_ItemCannotUse",
+        "Text": "Pero nadie puede usar <DefSgl_I_NAME>."
+      },
+      "Txt_FieldMenu_Message_ItemGetBagMax": {
+        "SelfId": "Txt_FieldMenu_Message_ItemGetBagMax",
+        "Text": "¡El saco no puede contener más <Plr_I_NAME>!"
+      },
+      "Txt_FieldMenu_Message_NoItem": {
+        "SelfId": "Txt_FieldMenu_Message_NoItem",
+        "Text": "<Cap><DefSgl_ACTOR> no tiene objetos ni equipo."
+      },
+      "Txt_FieldMenu_Message_EmptyBag": {
+        "SelfId": "Txt_FieldMenu_Message_EmptyBag",
+        "Text": "¡El saco está vacío!"
+      },
+      "Txt_FieldMenu_Message_Mantan_Fail": {
+        "SelfId": "Txt_FieldMenu_Message_Mantan_Fail",
+        "Text": "¡No pasa nada; todo el mundo está en buen estado físico!"
+      },
+      "Txt_FieldMenu_Message_AlmostMantan_Fail": {
+        "SelfId": "Txt_FieldMenu_Message_AlmostMantan_Fail",
+        "Text": "No pasa nada<...> ¡Todos están casi a tope de salud!"
+      },
+      "Txt_FieldMenu_Message_Mantan_FailMagic": {
+        "SelfId": "Txt_FieldMenu_Message_Mantan_FailMagic",
+        "Text": "¡Pero la magia no se genera!"
+      },
+      "Txt_FieldMenu_Message_HandoverSelect": {
+        "SelfId": "Txt_FieldMenu_Message_HandoverSelect",
+        "Text": "¿A quién quieres enviarle <DefSgl_I_NAME>?<NO_INPUT>"
+      },
+      "Txt_FieldMenu_Message_HandoverResult_01": {
+        "SelfId": "Txt_FieldMenu_Message_HandoverResult_01",
+        "Text": "<Cap><DefSgl_ACTOR> le da <DefSgl_I_NAME> a <DefSgl_TARGET>."
+      },
+      "Txt_FieldMenu_Message_HandoverResult_02": {
+        "SelfId": "Txt_FieldMenu_Message_HandoverResult_02",
+        "Text": "<Cap><DefSgl_ACTOR> pone <DefSgl_I_NAME> junto con las pertenencias de <DefSgl_TARGET>."
+      },
+      "Txt_FieldMenu_Message_HandoverResult_03": {
+        "SelfId": "Txt_FieldMenu_Message_HandoverResult_03",
+        "Text": "<Cap><DefSgl_ACTOR> pone su <Sgl_I_NAME> en un lugar diferente."
+      },
+      "Txt_FieldMenu_Message_HandoverResult_04": {
+        "SelfId": "Txt_FieldMenu_Message_HandoverResult_04",
+        "Text": "<Cap><DefSgl_TARGET> recibe <DefSgl_I_NAME> de <DefSgl_ACTOR>."
+      },
+      "Txt_FieldMenu_Message_HandoverResult_05": {
+        "SelfId": "Txt_FieldMenu_Message_HandoverResult_05",
+        "Text": "{LEADER} toma <DefSgl_I_NAME> <IfProperNoun_ACTOR(de,<IfGender_ACTOR(del,de la,del)>)> {ACTOR} y <IfPlrNoun_I_NAME(<IfGender_I_NAME(los,las,)>,<IfGender_I_NAME(lo,la,)>)> coloca junto con las pertenencias <IfProperNoun_TARGET(de,<IfGender_TARGET(del,de la,del)>)> {TARGET}."
+      },
+      "Txt_FieldMenu_Message_HandoverResult_06": {
+        "SelfId": "Txt_FieldMenu_Message_HandoverResult_06",
+        "Text": "{LEADER} toma <DefSgl_I_NAME> <IfProperNoun_ACTOR(de,<IfGender_ACTOR(del,de la,del)>)> {ACTOR} y <IfPlrNoun_I_NAME(<IfGender_I_NAME(los,las,)>,<IfGender_I_NAME(lo,la,)>)> coloca junto con las pertenencias <IfProperNoun_ACTOR(de,<IfGender_ACTOR(del,de la,del)>)> {ACTOR}."
+      },
+      "Txt_FieldMenu_Message_HandoverResult_07": {
+        "SelfId": "Txt_FieldMenu_Message_HandoverResult_07",
+        "Text": "<Cap><DefSgl_ACTOR> entrega <DefSgl_I_NAME> a {TARGET} y a cambio recibe <DefSgl_I_NAME2>."
+      },
+      "Txt_FieldMenu_Message_HandoverResult_08": {
+        "SelfId": "Txt_FieldMenu_Message_HandoverResult_08",
+        "Text": "{LEADER} toma <DefSgl_I_NAME> <IfProperNoun_ACTOR(de,<IfGender_ACTOR(del,de la,del)>)> {ACTOR} y se <IfPlrNoun_I_NAME(<IfGender_I_NAME(los,las,)>,<IfGender_I_NAME(lo,la,)>)> da a {TARGET}. A cambio, {ACTOR} recibe <DefSgl_I_NAME2>."
+      },
+      "Txt_FieldMenu_Message_HandoverResult_09": {
+        "SelfId": "Txt_FieldMenu_Message_HandoverResult_09",
+        "Text": "<Cap><DefSgl_ACTOR> pone <DefSgl_I_NAME> en el saco."
+      },
+      "Txt_FieldMenu_Message_HandoverResult_10": {
+        "SelfId": "Txt_FieldMenu_Message_HandoverResult_10",
+        "Text": "<Cap><DefSgl_TARGET> toma <IfSing_VALUE(<DefSgl_I_NAME>,<DefPlr_I_NAME>)> del saco."
+      },
+      "Txt_FieldMenu_Message_HandoverResult_11": {
+        "SelfId": "Txt_FieldMenu_Message_HandoverResult_11",
+        "Text": "{LEADER} toma <DefSgl_I_NAME> <IfProperNoun_ACTOR(de,<IfGender_ACTOR(del,de la,del)>)> {ACTOR} y <IfPlrNoun_I_NAME(<IfGender_I_NAME(los,las,)>,<IfGender_I_NAME(lo,la,)>)> guarda en el <Sgl_BAG>."
+      },
+      "Txt_FieldMenu_Message_HandoverResult_12": {
+        "SelfId": "Txt_FieldMenu_Message_HandoverResult_12",
+        "Text": "{LEADER} toma <DefSgl_I_NAME> del saco y coloca eso junto con las pertenencias de <DefSgl_TARGET>."
+      },
+      "Txt_FieldMenu_Message_HandoverResult_13": {
+        "SelfId": "Txt_FieldMenu_Message_HandoverResult_13",
+        "Text": "{LEADER} volvió a meter <DefSgl_I_NAME> en el saco."
+      },
+      "Txt_FieldMenu_Message_HandoverResult_14": {
+        "SelfId": "Txt_FieldMenu_Message_HandoverResult_14",
+        "Text": "{TARGET} toma <DefSgl_I_NAME> que <IfPlrNoun_I_NAME(estaban,estaba)> en el <Sgl_BAG> y guarda <DefSgl_I_NAME2>."
+      },
+      "Txt_FieldMenu_Message_HandoverResult_15": {
+        "SelfId": "Txt_FieldMenu_Message_HandoverResult_15",
+        "Text": "{LEADER} toma <DefSgl_I_NAME> que <IfPlrNoun_I_NAME(estaban,estaba)> en el <Sgl_BAG>, se <IfPlrNoun_I_NAME(<IfGender_I_NAME(los,las,)>,<IfGender_I_NAME(lo,la,)>)> da a {TARGET} y guarda <DefSgl_I_NAME2> que traía {TARGET}."
+      },
+      "Txt_FieldMenu_Message_HandoverCancel": {
+        "SelfId": "Txt_FieldMenu_Message_HandoverCancel",
+        "Text": "{LEADER} volvió a meter <DefSgl_I_NAME> en el saco."
+      },
+      "Txt_FieldMenu_Message_HandoverImportant": {
+        "SelfId": "Txt_FieldMenu_Message_HandoverImportant",
+        "Text": "Probablemente sea mejor quedarse con <DefSgl_I_NAME>."
+      },
+      "Txt_FieldMenu_Message_HandoverEquip": {
+        "SelfId": "Txt_FieldMenu_Message_HandoverEquip",
+        "Text": "¿Quieres equipar esto ahora?"
+      },
+      "Txt_FieldMenu_Message_ExchangeCancel": {
+        "SelfId": "Txt_FieldMenu_Message_ExchangeCancel",
+        "Text": "Decidiste no mover <DefSgl_I_NAME> después de todo."
+      },
+      "Txt_FieldMenu_Message_ExchangeSelect": {
+        "SelfId": "Txt_FieldMenu_Message_ExchangeSelect",
+        "Text": "¿Qué vas a intercambiar?<NO_INPUT>"
+      },
+      "Txt_FieldMenu_Message_ReplaceSelect": {
+        "SelfId": "Txt_FieldMenu_Message_ReplaceSelect",
+        "Text": "¿Qué quieres mover?<NO_INPUT>"
+      },
+      "Txt_FieldMenu_Message_CurseLift": {
+        "SelfId": "Txt_FieldMenu_Message_CurseLift",
+        "Text": "¡<Cap><DefSgl_I_NAME> tiene una maldición y no se puede quitar!"
+      },
+      "Txt_FieldMenu_Message_CurseOccur": {
+        "SelfId": "Txt_FieldMenu_Message_CurseOccur",
+        "Text": "¡Ay, no! ¡<Cap><DefSgl_I_NAME> tiene una maldición!"
+      },
+      "Txt_FieldMenu_Message_SelectAccessorie": {
+        "SelfId": "Txt_FieldMenu_Message_SelectAccessorie",
+        "Text": "Elige dónde quieres equipar <IfPlrNoun_I_NAME(estas piezas,esta pieza)>.<NO_INPUT>"
+      },
+      "Txt_FieldMenu_Message_ShowNone": {
+        "SelfId": "Txt_FieldMenu_Message_ShowNone",
+        "Text": "¡Pero necesitarás un mercader en tu grupo si quieres valorizar algún objeto!"
+      },
+      "Txt_FieldMenu_Message_ShowDeath": {
+        "SelfId": "Txt_FieldMenu_Message_ShowDeath",
+        "Text": "<Cap><DefSgl_ACTOR> no puede valorizar ningún objeto. ¡Murió!"
+      },
+      "Txt_FieldMenu_Message_DumpCanNot": {
+        "SelfId": "Txt_FieldMenu_Message_DumpCanNot",
+        "Text": "¡No puedes deshacerte de esto!\r\n¡Tiene gran importancia!"
+      },
+      "Txt_FieldMenu_Message_DumpLare": {
+        "SelfId": "Txt_FieldMenu_Message_DumpLare",
+        "Text": "Si tiras eso, puede que nunca vuelvas a encontrar algo parecido otra vez. ¿Deseas continuar?"
+      },
+      "Txt_FieldMenu_Message_DumpEquip": {
+        "SelfId": "Txt_FieldMenu_Message_DumpEquip",
+        "Text": "<Cap><DefSgl_I_NAME> <IfPlrNoun_I_NAME(ya se equiparon,ya se equipó)>.\r\n¿Quieres que se <IfPlrNoun_I_NAME(descarten,descarte)>?"
+      },
+      "Txt_FieldMenu_Message_DumpConfirm": {
+        "SelfId": "Txt_FieldMenu_Message_DumpConfirm",
+        "Text": "¿Descartar <DefSgl_I_NAME>?"
+      },
+      "Txt_FieldMenu_Message_DumpConfirmMultiple": {
+        "SelfId": "Txt_FieldMenu_Message_DumpConfirmMultiple",
+        "Text": "¿Descartar {VALUE} <IfSing_VALUE(<Sgl_I_NAME>,<Plr_I_NAME>)>?"
+      },
+      "Txt_FieldMenu_Message_DumpResult": {
+        "SelfId": "Txt_FieldMenu_Message_DumpResult",
+        "Text": "Te deshiciste de <DefSgl_I_NAME>."
+      },
+      "Txt_FieldMenu_Message_DumpResultMultiple": {
+        "SelfId": "Txt_FieldMenu_Message_DumpResultMultiple",
+        "Text": "Se descartaron {VALUE} <Plr_I_NAME>."
+      },
+      "Txt_FieldMenu_Message_DumpCancel": {
+        "SelfId": "Txt_FieldMenu_Message_DumpCancel",
+        "Text": "Decidiste no descartar <IfSing_VALUE(<DefSgl_I_NAME>,<DefPlr_I_NAME>)> después de todo."
+      },
+      "Txt_FieldMenu_Message_EquipOwner": {
+        "SelfId": "Txt_FieldMenu_Message_EquipOwner",
+        "Text": "<IfPlrNoun_I_NAME(Esas piezas,Esta pieza)> actualmente <IfPlrNoun_I_NAME(están,está)> en manos de <DefSgl_WORD>. ¿Quieres <IfPlrNoun_I_NAME(dárselas,dársela)> mejor a <DefSgl_ACTOR> y que <IfGender_ACTOR(él,ella,eso)> <IfPlrNoun_I_NAME(las,la)> equipe?"
+      },
+      "Txt_FieldMenu_Message_EquipRental": {
+        "SelfId": "Txt_FieldMenu_Message_EquipRental",
+        "Text": "No puedes cambiar de equipo ahora mismo."
+      },
+      "Txt_FieldMenu_Message_EquipEquipper": {
+        "SelfId": "Txt_FieldMenu_Message_EquipEquipper",
+        "Text": "<Cap><DefSgl_WORD> tiene <IfPlrNoun_I_NAME(equipadas estas piezas,equipada esta pieza)> justo ahora. ¿Quieres <IfPlrNoun_I_NAME(dárselas,dársela)> mejor a <DefSgl_ACTOR> y que <IfGender_ACTOR(él,ella,eso)> <IfPlrNoun_I_NAME(las,la)> equipe?"
+      },
+      "Txt_FieldMenu_Message_EquipInventoryMax_01": {
+        "SelfId": "Txt_FieldMenu_Message_EquipInventoryMax_01",
+        "Text": "¡Pero <DefSgl_ACTOR> no puede llevar más!"
+      },
+      "Txt_FieldMenu_Message_EquipInventoryMax_02": {
+        "SelfId": "Txt_FieldMenu_Message_EquipInventoryMax_02",
+        "Text": "¿Ordenar el inventario de {ACTOR}?"
+      },
+      "Txt_FieldMenu_Message_EquipResult": {
+        "SelfId": "Txt_FieldMenu_Message_EquipResult",
+        "Text": "<Cap><DefSgl_ACTOR> se equipa con <DefSgl_I_NAME>."
+      },
+      "Txt_FieldMenu_Message_EquipUnequip": {
+        "SelfId": "Txt_FieldMenu_Message_EquipUnequip",
+        "Text": "<Cap><DefSgl_ACTOR> dejó de usar <DefSgl_I_NAME>."
+      },
+      "Txt_FieldMenu_Message_EquipNothing": {
+        "SelfId": "Txt_FieldMenu_Message_EquipNothing",
+        "Text": "<Cap><DefSgl_ACTOR> no lleva objetos que puedan equiparse en esta ranura."
+      },
+      "Txt_FieldMenu_Message_EquipAuto": {
+        "SelfId": "Txt_FieldMenu_Message_EquipAuto",
+        "Text": "{ACTOR} hace cambios en su equipo para usar algo un poco mejor."
+      },
+      "Txt_FieldMenu_Message_EquipAutoFailed": {
+        "SelfId": "Txt_FieldMenu_Message_EquipAutoFailed",
+        "Text": "¡{ACTOR} ya tiene el mejor equipo posible!"
+      },
+      "Txt_FieldMenu_Message_EquipReplaceAccessorie": {
+        "SelfId": "Txt_FieldMenu_Message_EquipReplaceAccessorie",
+        "Text": "<Cap><DefSgl_ACTOR> movió <DefSgl_I_NAME>."
+      },
+      "Txt_FieldMenu_Message_MemoryNone": {
+        "SelfId": "Txt_FieldMenu_Message_MemoryNone",
+        "Text": "No puedes recordar nada."
+      },
+      "Txt_FieldMenu_Message_MemoryDelete": {
+        "SelfId": "Txt_FieldMenu_Message_MemoryDelete",
+        "Text": "¿Olvidar este recuerdo?"
+      },
+      "Txt_FieldMenu_Message_MemoryDeleteResult": {
+        "SelfId": "Txt_FieldMenu_Message_MemoryDeleteResult",
+        "Text": "El recuerdo se desvanece de tu mente."
+      },
+      "Txt_FieldMenu_Message_MagicNone": {
+        "SelfId": "Txt_FieldMenu_Message_MagicNone",
+        "Text": "¡<Cap><DefSgl_ACTOR> aún no aprende ningún hechizo!"
+      },
+      "Txt_FieldMenu_Message_BattleMagic": {
+        "SelfId": "Txt_FieldMenu_Message_BattleMagic",
+        "Text": "Por desgracia, ese hechizo no puede usarse fuera de la batalla."
+      },
+      "Txt_FieldMenu_Message_MagicUse": {
+        "SelfId": "Txt_FieldMenu_Message_MagicUse",
+        "Text": "¡<Cap><DefSgl_ACTOR> lanza {WORD}!"
+      },
+      "Txt_FieldMenu_Message_MagicNotenoughMP": {
+        "SelfId": "Txt_FieldMenu_Message_MagicNotenoughMP",
+        "Text": "<Cap><DefSgl_ACTOR> intenta lanzar {WORD}. ¡Pero no cuenta con suficientes PM!"
+      },
+      "Txt_FieldMenu_Message_MagicUnskilled": {
+        "SelfId": "Txt_FieldMenu_Message_MagicUnskilled",
+        "Text": "¡<Cap><DefSgl_ACTOR> no ha aprendido ese hechizo aún!"
+      },
+      "Txt_FieldMenu_Message_MagicUseDeath": {
+        "SelfId": "Txt_FieldMenu_Message_MagicUseDeath",
+        "Text": "<Cap><DefSgl_ACTOR> cayó en batalla y no puede lanzar ningún hechizo."
+      },
+      "Txt_FieldMenu_Message_MagicUseParalysis": {
+        "SelfId": "Txt_FieldMenu_Message_MagicUseParalysis",
+        "Text": "<Cap><DefSgl_ACTOR> está bajo parálisis y no puede lanzar ningun hechizo."
+      },
+      "Txt_FieldMenu_Message_MagicUseConfusion": {
+        "SelfId": "Txt_FieldMenu_Message_MagicUseConfusion",
+        "Text": "<Cap><DefSgl_ACTOR> sufre confusión y no puede usar ningún hechizo."
+      },
+      "Txt_FieldMenu_Message_SkillNone": {
+        "SelfId": "Txt_FieldMenu_Message_SkillNone",
+        "Text": "¡<Cap><DefSgl_ACTOR> no conoce ninguna habilidad!"
+      },
+      "Txt_FieldMenu_Message_BattleSkill": {
+        "SelfId": "Txt_FieldMenu_Message_BattleSkill",
+        "Text": "Por desgracia, esa habilidad no puede usarse fuera de la batalla."
+      },
+      "Txt_FieldMenu_Message_SkillNotenoughMP": {
+        "SelfId": "Txt_FieldMenu_Message_SkillNotenoughMP",
+        "Text": "<Cap><DefSgl_ACTOR> intenta usar {WORD}. ¡Pero no cuenta con suficientes PM!"
+      },
+      "Txt_FieldMenu_Message_SkillUnskilled": {
+        "SelfId": "Txt_FieldMenu_Message_SkillUnskilled",
+        "Text": "¡<Cap><DefSgl_ACTOR> aún no aprende esa habilidad!"
+      },
+      "Txt_FieldMenu_Message_SkillUseDeath": {
+        "SelfId": "Txt_FieldMenu_Message_SkillUseDeath",
+        "Text": "<DefSgl_ACTOR> cayó en combate y no puede usar habilidades."
+      },
+      "Txt_FieldMenu_Message_SkillUseParalysis": {
+        "SelfId": "Txt_FieldMenu_Message_SkillUseParalysis",
+        "Text": "<Cap><DefSgl_ACTOR> está bajo parálisis y no puede usar habilidades."
+      },
+      "Txt_FieldMenu_Message_SkillUseConfusion": {
+        "SelfId": "Txt_FieldMenu_Message_SkillUseConfusion",
+        "Text": "<Cap><DefSgl_ACTOR> sufre confusión y no puede usar ninguna habilidad."
+      },
+      "Txt_FieldMenu_Message_MiscLineupImpossible": {
+        "SelfId": "Txt_FieldMenu_Message_MiscLineupImpossible",
+        "Text": "La alineación del grupo no se puede cambiar en este momento."
+      },
+      "Txt_FieldMenu_Message_MiscTextOptionConfirm_01": {
+        "SelfId": "Txt_FieldMenu_Message_MiscTextOptionConfirm_01",
+        "Text": "Txt_FieldMenu_Message_MiscTextOptionConfirm_01"
+      },
+      "Txt_FieldMenu_Message_MiscTextOptionConfirm_02": {
+        "SelfId": "Txt_FieldMenu_Message_MiscTextOptionConfirm_02",
+        "Text": "Txt_FieldMenu_Message_MiscTextOptionConfirm_01"
+      },
+      "Txt_FieldMenu_Message_MiscTextOptionConfirm_01_off": {
+        "SelfId": "Txt_FieldMenu_Message_MiscTextOptionConfirm_01_off",
+        "Text": "<ERROR!>"
+      },
+      "Txt_FieldMenu_Message_MiscTextOptionConfirm_02_off": {
+        "SelfId": "Txt_FieldMenu_Message_MiscTextOptionConfirm_02_off",
+        "Text": "<ERROR!>"
+      },
+      "Txt_FieldMenu_Message_MiscTextOptionConfirm_03": {
+        "SelfId": "Txt_FieldMenu_Message_MiscTextOptionConfirm_03",
+        "Text": "¿Intercambiar los botones de Confirmar y Cancelar?"
+      },
+      "Txt_FieldMenu_Message_MiscTextOptionConfirm_03_PS5": {
+        "SelfId": "Txt_FieldMenu_Message_MiscTextOptionConfirm_03_PS5",
+        "Text": "¿Intercambiar los botones de Confirmar y Cancelar?"
+      },
+      "Txt_FieldMenu_Message_MiscTextOptionConfirm_03_Xbox": {
+        "SelfId": "Txt_FieldMenu_Message_MiscTextOptionConfirm_03_Xbox",
+        "Text": "¿Intercambiar los botones de Confirmar y Cancelar?"
+      },
+      "Txt_FieldMenu_Message_MiscTextOptionConfirm_03_PC": {
+        "SelfId": "Txt_FieldMenu_Message_MiscTextOptionConfirm_03_PC",
+        "Text": "¿Intercambiar los botones de Confirmar y Cancelar?"
+      },
+      "Txt_FieldMenu_Message_MiscTextOptionNotice_Text": {
+        "SelfId": "Txt_FieldMenu_Message_MiscTextOptionNotice_Text",
+        "Text": "Cambiar el idioma del texto puede hacer que algunos términos, como los nombres de los personajes, se muestren incorrectamente. Si esto ocurre, revierte a los ajustes originales."
+      },
+      "Txt_FieldMenu_Message_MiscTextOptionNotice_Voice": {
+        "SelfId": "Txt_FieldMenu_Message_MiscTextOptionNotice_Voice",
+        "Text": "Dependiendo de los ajustes que elijas, puede haber discrepancias entre las líneas habladas y los subtítulos."
+      },
+      "Txt_FieldMenu_Message_Suspend": {
+        "SelfId": "Txt_FieldMenu_Message_Suspend",
+        "Text": "Tu progreso se guardará en un registro de aventuras y volverás a la pantalla de título.\r\n¿Continuar?"
+      },
+      "Txt_FieldMenu_Message_Suspend_Overwrite": {
+        "SelfId": "Txt_FieldMenu_Message_Suspend_Overwrite",
+        "Text": "Se sobrescribirá tu registro de guardado rápido actual. ¿Continuar?"
+      },
+      "Txt_FieldMenu_Message_Back_To_Title1": {
+        "SelfId": "Txt_FieldMenu_Message_Back_To_Title1",
+        "Text": "Este es tu registro de aventuras más reciente."
+      },
+      "Txt_FieldMenu_Message_Back_To_Title2": {
+        "SelfId": "Txt_FieldMenu_Message_Back_To_Title2",
+        "Text": "Si abandonas la aventura ahora, perderás el progreso que no hayas guardado en un registro de aventuras."
+      },
+      "Txt_FieldMenu_Message_Back_To_Title3": {
+        "SelfId": "Txt_FieldMenu_Message_Back_To_Title3",
+        "Text": "¿Realmente quieres volver a la pantalla de título?"
+      },
+      "Txt_FieldMenu_Message_BlockSave": {
+        "SelfId": "Txt_FieldMenu_Message_BlockSave",
+        "Text": "No puedes hacer eso ahora mismo."
+      },
+      "Txt_FieldMenu_Message_BlockLental": {
+        "SelfId": "Txt_FieldMenu_Message_BlockLental",
+        "Text": "Desafortunadamente, no tienes con quién usar esto ahora."
+      },
+      "Txt_FieldMenu_Memory_Popup_SUCCESS": {
+        "SelfId": "Txt_FieldMenu_Memory_Popup_SUCCESS",
+        "Text": "Todo lo que acabas de escuchar quedó grabado en tu memoria."
+      },
+      "Txt_FieldMenu_Memory_Popup_SUCCESS_IN_EVENT": {
+        "SelfId": "Txt_FieldMenu_Memory_Popup_SUCCESS_IN_EVENT",
+        "Text": "Todo lo que acabas de escuchar quedó grabado en tu memoria."
+      },
+      "Txt_FieldMenu_Memory_Popup_ALREADY_MEMORY_IN_EVENT": {
+        "SelfId": "Txt_FieldMenu_Memory_Popup_ALREADY_MEMORY_IN_EVENT",
+        "Text": "Estas sabias palabras ya ocupan un lugar en tu memoria."
+      },
+      "Txt_FieldMenu_Memory_Popup_MEMORY_FILL": {
+        "SelfId": "Txt_FieldMenu_Memory_Popup_MEMORY_FILL",
+        "Text": "Acabas de llenar tu banco de memoria."
+      },
+      "Txt_FieldMenu_Memory_Popup_NOT_ENOUGH_SLOT": {
+        "SelfId": "Txt_FieldMenu_Memory_Popup_NOT_ENOUGH_SLOT",
+        "Text": "Caray. No hay espacio en tu cabeza para nuevos recuerdos."
+      },
+      "Txt_FieldMenu_Memory_Popup_ALREADY_MEMORY": {
+        "SelfId": "Txt_FieldMenu_Memory_Popup_ALREADY_MEMORY",
+        "Text": "Todo lo que acabas de escuchar ya quedó grabado en tu memoria."
+      },
+      "Txt_FieldMenu_King_Message_ITEM": {
+        "SelfId": "Txt_FieldMenu_King_Message_ITEM",
+        "Text": "¿Qué te pasa? ¡Un rey nunca se rebajaría a cargar él mismo con sus posesiones!"
+      },
+      "Txt_FieldMenu_King_Message_EQUIP": {
+        "SelfId": "Txt_FieldMenu_King_Message_EQUIP",
+        "Text": "¡Cuidado! A Su Majestad le gusta bastante su atuendo actual."
+      },
+      "Txt_FieldMenu_King_Message_MEMORY": {
+        "SelfId": "Txt_FieldMenu_King_Message_MEMORY",
+        "Text": "¡Qué presuntuoso de tu parte! ¡Un rey nunca malgastaría su tiempo rememorando!"
+      },
+      "Txt_FieldMenu_King_Message_MAGIC": {
+        "SelfId": "Txt_FieldMenu_King_Message_MAGIC",
+        "Text": "¡Pero qué ridiculez! ¿Quién ha oído hablar de un rey que se rebaje a hacer trucos de magia vulgares?"
+      },
+      "Txt_FieldMenu_King_Message_SKILL": {
+        "SelfId": "Txt_FieldMenu_King_Message_SKILL",
+        "Text": "¿Estás sugiriendo que Su Majestad es un vil bufón de la corte?"
+      },
+      "Txt_FieldMenu_King_Message_MAXHEAL": {
+        "SelfId": "Txt_FieldMenu_King_Message_MAXHEAL",
+        "Text": "Eso será totalmente innecesario<...> La regia persona de Su Majestad permanece libre de heridas."
+      },
+      "Txt_FieldMenu_King_Message_ALMOSTHEAL": {
+        "SelfId": "Txt_FieldMenu_King_Message_ALMOSTHEAL",
+        "Text": "Eso será totalmente innecesario<...> La regia persona de Su Majestad permanece libre de heridas."
+      },
+      "Txt_FieldMenu_King_Message_ATATUS": {
+        "SelfId": "Txt_FieldMenu_King_Message_ATATUS",
+        "Text": "Su Majestad lee todo sobre lo fuerte y heroico que era en sus días de aventurero."
+      },
+      "Txt_FieldMenu_King_Message_SORT": {
+        "SelfId": "Txt_FieldMenu_King_Message_SORT",
+        "Text": "Su Majestad intenta cambiar la alineación del grupo<...><KEY_WAIT><...> antes de darse cuenta de que está solo."
+      },
+      "Txt_FieldMenu_King_Message_STRATEGY": {
+        "SelfId": "Txt_FieldMenu_King_Message_STRATEGY",
+        "Text": "Su Majestad comienza a elaborar un plan de batalla<...><KEY_WAIT><...> pero no tiene con quien compartirlo."
+      },
+      "Txt_FieldMenu_King_Message_WARP": {
+        "SelfId": "Txt_FieldMenu_King_Message_WARP",
+        "Text": "No hay necesidad de que Su Majestad abandone Romaria. ¿Quién sería rey en su lugar?"
+      },
+      "Txt_FieldMenu_Queen_Message_ITEM": {
+        "SelfId": "Txt_FieldMenu_Queen_Message_ITEM",
+        "Text": "¿Qué te pasa? ¡Una reina nunca se rebajaría a cargar ella misma con sus posesiones!"
+      },
+      "Txt_FieldMenu_Queen_Message_EQUIP": {
+        "SelfId": "Txt_FieldMenu_Queen_Message_EQUIP",
+        "Text": "¡Cuidado! A Su Majestad le gusta bastante su atuendo actual."
+      },
+      "Txt_FieldMenu_Queen_Message_MEMORY": {
+        "SelfId": "Txt_FieldMenu_Queen_Message_MEMORY",
+        "Text": "¡Qué presuntuoso de tu parte! ¡Una reina nunca malgastaría su tiempo rememorando!"
+      },
+      "Txt_FieldMenu_Queen_Message_MAGIC": {
+        "SelfId": "Txt_FieldMenu_Queen_Message_MAGIC",
+        "Text": "¡Pero qué ridiculez! ¿Quién ha oído hablar de una reina que se rebaje a hacer trucos de magia vulgares?"
+      },
+      "Txt_FieldMenu_Queen_Message_SKILL": {
+        "SelfId": "Txt_FieldMenu_Queen_Message_SKILL",
+        "Text": "¿Está sugiriendo que Su Majestad es una vil bufona de la corte?"
+      },
+      "Txt_FieldMenu_Queen_Message_MAXHEAL": {
+        "SelfId": "Txt_FieldMenu_Queen_Message_MAXHEAL",
+        "Text": "Eso será totalmente innecesario<...> La regia persona de Su Majestad permanece libre de heridas."
+      },
+      "Txt_FieldMenu_Queen_Message_ALMOSTHEAL": {
+        "SelfId": "Txt_FieldMenu_Queen_Message_ALMOSTHEAL",
+        "Text": "Eso será totalmente innecesario<...> La regia persona de Su Majestad permanece libre de heridas."
+      },
+      "Txt_FieldMenu_Queen_Message_ATATUS": {
+        "SelfId": "Txt_FieldMenu_Queen_Message_ATATUS",
+        "Text": "Su Majestad lee todo sobre lo fuerte y heroica que era en sus días de aventurera."
+      },
+      "Txt_FieldMenu_Queen_Message_SORT": {
+        "SelfId": "Txt_FieldMenu_Queen_Message_SORT",
+        "Text": "Su Majestad intenta cambiar la alineación del grupo<...><KEY_WAIT><...> antes de darse cuenta de que está sola."
+      },
+      "Txt_FieldMenu_Queen_Message_STRATEGY": {
+        "SelfId": "Txt_FieldMenu_Queen_Message_STRATEGY",
+        "Text": "Su Majestad comienza a elaborar un plan de batalla<...><KEY_WAIT><...> pero no tiene con quien compartirlo."
+      },
+      "Txt_FieldMenu_Queen_Message_WARP": {
+        "SelfId": "Txt_FieldMenu_Queen_Message_WARP",
+        "Text": "No hay necesidad de que Su Majestad abandone Romaria. ¿Quién sería reina en su lugar?"
+      }
+    }
+  }
+]

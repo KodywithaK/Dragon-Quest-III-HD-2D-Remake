@@ -1,0 +1,2272 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_FieldMenu",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_FieldMenu_Common_YES": {
+        "SelfId": "Txt_FieldMenu_Common_YES",
+        "Text": "예"
+      },
+      "Txt_FieldMenu_Common_NO": {
+        "SelfId": "Txt_FieldMenu_Common_NO",
+        "Text": "아니요"
+      },
+      "Txt_FieldMenu_Common_PAGE": {
+        "SelfId": "Txt_FieldMenu_Common_PAGE",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Common_MAXPAGE": {
+        "SelfId": "Txt_FieldMenu_Common_MAXPAGE",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Common_NUMBER": {
+        "SelfId": "Txt_FieldMenu_Common_NUMBER",
+        "Text": "몇 개?"
+      },
+      "Txt_FieldMenu_Common_BLANK": {
+        "SelfId": "Txt_FieldMenu_Common_BLANK",
+        "Text": "???"
+      },
+      "Txt_FieldMenu_Common_USEMP": {
+        "SelfId": "Txt_FieldMenu_Common_USEMP",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Common_RESTMP": {
+        "SelfId": "Txt_FieldMenu_Common_RESTMP",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Common_EVERYONE": {
+        "SelfId": "Txt_FieldMenu_Common_EVERYONE",
+        "Text": "전원"
+      },
+      "Txt_FieldMenu_Top_ITEM": {
+        "SelfId": "Txt_FieldMenu_Top_ITEM",
+        "Text": "도구"
+      },
+      "Txt_FieldMenu_Top_EQUIP": {
+        "SelfId": "Txt_FieldMenu_Top_EQUIP",
+        "Text": "장비"
+      },
+      "Txt_FieldMenu_Top_MEMORY": {
+        "SelfId": "Txt_FieldMenu_Top_MEMORY",
+        "Text": "기억"
+      },
+      "Txt_FieldMenu_Top_MAGIC": {
+        "SelfId": "Txt_FieldMenu_Top_MAGIC",
+        "Text": "주문"
+      },
+      "Txt_FieldMenu_Top_SKILL": {
+        "SelfId": "Txt_FieldMenu_Top_SKILL",
+        "Text": "특기"
+      },
+      "Txt_FieldMenu_Top_MISC": {
+        "SelfId": "Txt_FieldMenu_Top_MISC",
+        "Text": "작전"
+      },
+      "Txt_FieldMenu_Top_MONEY_01": {
+        "SelfId": "Txt_FieldMenu_Top_MONEY_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Top_MONEY_02": {
+        "SelfId": "Txt_FieldMenu_Top_MONEY_02",
+        "Text": "G"
+      },
+      "Txt_FieldMenu_Top_PUSHKEEP": {
+        "SelfId": "Txt_FieldMenu_Top_PUSHKEEP",
+        "Text": "길게 누르기"
+      },
+      "Txt_FieldMenu_Item_ITEMBAG": {
+        "SelfId": "Txt_FieldMenu_Item_ITEMBAG",
+        "Text": "도구 주머니"
+      },
+      "Txt_FieldMenu_Item_EQUIPBAG": {
+        "SelfId": "Txt_FieldMenu_Item_EQUIPBAG",
+        "Text": "장비 주머니"
+      },
+      "Txt_FieldMenu_Item_IMPOTANT": {
+        "SelfId": "Txt_FieldMenu_Item_IMPOTANT",
+        "Text": "중요한 물건"
+      },
+      "Txt_FieldMenu_Item_GUIDE": {
+        "SelfId": "Txt_FieldMenu_Item_GUIDE",
+        "Text": "도구 선택"
+      },
+      "Txt_FieldMenu_Item_NONE": {
+        "SelfId": "Txt_FieldMenu_Item_NONE",
+        "Text": "아무것도 가지고 있지 않다"
+      },
+      "Txt_FieldMenu_Item_BAGNUMBER": {
+        "SelfId": "Txt_FieldMenu_Item_BAGNUMBER",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Item_COUNTA_01": {
+        "SelfId": "Txt_FieldMenu_Item_COUNTA_01",
+        "Text": "전체 소지 수"
+      },
+      "Txt_FieldMenu_Item_COUNTA_03": {
+        "SelfId": "Txt_FieldMenu_Item_COUNTA_03",
+        "Text": "소지 수"
+      },
+      "Txt_FieldMenu_Item_COUNTA_02": {
+        "SelfId": "Txt_FieldMenu_Item_COUNTA_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Item_COUNTA_04": {
+        "SelfId": "Txt_FieldMenu_Item_COUNTA_04",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Item_SORTMENU": {
+        "SelfId": "Txt_FieldMenu_Item_SORTMENU",
+        "Text": "정렬"
+      },
+      "Txt_FieldMenu_Item_SORT_01": {
+        "SelfId": "Txt_FieldMenu_Item_SORT_01",
+        "Text": "가나다순"
+      },
+      "Txt_FieldMenu_Item_SORT_02": {
+        "SelfId": "Txt_FieldMenu_Item_SORT_02",
+        "Text": "종류순"
+      },
+      "Txt_FieldMenu_Item_SORT_03": {
+        "SelfId": "Txt_FieldMenu_Item_SORT_03",
+        "Text": "능력치순"
+      },
+      "Txt_FieldMenu_Item_ITEMBAGGUIDE": {
+        "SelfId": "Txt_FieldMenu_Item_ITEMBAGGUIDE",
+        "Text": "도구 정리"
+      },
+      "Txt_FieldMenu_Item_PARAMVALUE": {
+        "SelfId": "Txt_FieldMenu_Item_PARAMVALUE",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Item_MEDAL_01": {
+        "SelfId": "Txt_FieldMenu_Item_MEDAL_01",
+        "Text": "{0}개"
+      },
+      "Txt_FieldMenu_Item_MEDAL_02": {
+        "SelfId": "Txt_FieldMenu_Item_MEDAL_02",
+        "Text": "개"
+      },
+      "Txt_FieldMenu_Item_MENU_01": {
+        "SelfId": "Txt_FieldMenu_Item_MENU_01",
+        "Text": "사용하기"
+      },
+      "Txt_FieldMenu_Item_MENU_02": {
+        "SelfId": "Txt_FieldMenu_Item_MENU_02",
+        "Text": "넘겨주기"
+      },
+      "Txt_FieldMenu_Item_MENU_03": {
+        "SelfId": "Txt_FieldMenu_Item_MENU_03",
+        "Text": "주머니"
+      },
+      "Txt_FieldMenu_Item_MENU_04": {
+        "SelfId": "Txt_FieldMenu_Item_MENU_04",
+        "Text": "장비"
+      },
+      "Txt_FieldMenu_Item_MENU_05": {
+        "SelfId": "Txt_FieldMenu_Item_MENU_05",
+        "Text": "해제"
+      },
+      "Txt_FieldMenu_Item_MENU_06": {
+        "SelfId": "Txt_FieldMenu_Item_MENU_06",
+        "Text": "보여주기"
+      },
+      "Txt_FieldMenu_Item_MENU_06_Mer": {
+        "SelfId": "Txt_FieldMenu_Item_MENU_06_Mer",
+        "Text": "보기"
+      },
+      "Txt_FieldMenu_Item_MENU_07": {
+        "SelfId": "Txt_FieldMenu_Item_MENU_07",
+        "Text": "버리기"
+      },
+      "Txt_FieldMenu_Item_MENU_08": {
+        "SelfId": "Txt_FieldMenu_Item_MENU_08",
+        "Text": "그만두기"
+      },
+      "Txt_FieldMenu_Equip_BLANK_01": {
+        "SelfId": "Txt_FieldMenu_Equip_BLANK_01",
+        "Text": "무기"
+      },
+      "Txt_FieldMenu_Equip_BLANK_02": {
+        "SelfId": "Txt_FieldMenu_Equip_BLANK_02",
+        "Text": "방패"
+      },
+      "Txt_FieldMenu_Equip_BLANK_03": {
+        "SelfId": "Txt_FieldMenu_Equip_BLANK_03",
+        "Text": "투구"
+      },
+      "Txt_FieldMenu_Equip_BLANK_04": {
+        "SelfId": "Txt_FieldMenu_Equip_BLANK_04",
+        "Text": "갑옷"
+      },
+      "Txt_FieldMenu_Equip_BLANK_05": {
+        "SelfId": "Txt_FieldMenu_Equip_BLANK_05",
+        "Text": "메인 액세서리"
+      },
+      "Txt_FieldMenu_Equip_BLANK_06": {
+        "SelfId": "Txt_FieldMenu_Equip_BLANK_06",
+        "Text": "서브 액세서리"
+      },
+      "Txt_FieldMenu_Equip_EQUIPPED_01": {
+        "SelfId": "Txt_FieldMenu_Equip_EQUIPPED_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Equip_EQUIPPED_02": {
+        "SelfId": "Txt_FieldMenu_Equip_EQUIPPED_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Equip_EQUIPPED_03": {
+        "SelfId": "Txt_FieldMenu_Equip_EQUIPPED_03",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Equip_EQUIPPED_04": {
+        "SelfId": "Txt_FieldMenu_Equip_EQUIPPED_04",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Equip_EQUIPPED_05": {
+        "SelfId": "Txt_FieldMenu_Equip_EQUIPPED_05",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Equip_EQUIPPED_06": {
+        "SelfId": "Txt_FieldMenu_Equip_EQUIPPED_06",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Equip_NoEquip": {
+        "SelfId": "Txt_FieldMenu_Equip_NoEquip",
+        "Text": "장착 불가능"
+      },
+      "Txt_FieldMenu_Equip_GUIDE": {
+        "SelfId": "Txt_FieldMenu_Equip_GUIDE",
+        "Text": "장비 선택"
+      },
+      "Txt_FieldMenu_Equip_AutoEpuip": {
+        "SelfId": "Txt_FieldMenu_Equip_AutoEpuip",
+        "Text": "자동 장비"
+      },
+      "Txt_FieldMenu_Equip_NONE": {
+        "SelfId": "Txt_FieldMenu_Equip_NONE",
+        "Text": "장비 가능한 물건이 없다"
+      },
+      "Txt_FieldMenu_Equip_PARAMBEFORE_01": {
+        "SelfId": "Txt_FieldMenu_Equip_PARAMBEFORE_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Equip_PARAMAFTER_01": {
+        "SelfId": "Txt_FieldMenu_Equip_PARAMAFTER_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Equip_PARAMBEFORE_02": {
+        "SelfId": "Txt_FieldMenu_Equip_PARAMBEFORE_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Equip_PARAMAFTER_02": {
+        "SelfId": "Txt_FieldMenu_Equip_PARAMAFTER_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Equip_Nothing": {
+        "SelfId": "Txt_FieldMenu_Equip_Nothing",
+        "Text": "장비를 가지고 있지 않다."
+      },
+      "Txt_FieldMenu_Memory_PLACE": {
+        "SelfId": "Txt_FieldMenu_Memory_PLACE",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Memory_SPEAKER": {
+        "SelfId": "Txt_FieldMenu_Memory_SPEAKER",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Memory_PALECEGUIDE": {
+        "SelfId": "Txt_FieldMenu_Memory_PALECEGUIDE",
+        "Text": "장소 선택"
+      },
+      "Txt_FieldMenu_Memory_MEMORYGUIDE": {
+        "SelfId": "Txt_FieldMenu_Memory_MEMORYGUIDE",
+        "Text": "떠올리기 에피소드"
+      },
+      "Txt_FieldMenu_Memory_DELETEGUIDE": {
+        "SelfId": "Txt_FieldMenu_Memory_DELETEGUIDE",
+        "Text": "잊어버린다"
+      },
+      "Txt_FieldMenu_Memory_RESTNUMBER": {
+        "SelfId": "Txt_FieldMenu_Memory_RESTNUMBER",
+        "Text": "기억 수"
+      },
+      "Txt_FieldMenu_Memory_NUMBER": {
+        "SelfId": "Txt_FieldMenu_Memory_NUMBER",
+        "Text": "{0} / {1}"
+      },
+      "Txt_FieldMenu_Memory_STOP": {
+        "SelfId": "Txt_FieldMenu_Memory_STOP",
+        "Text": "그만두기"
+      },
+      "Txt_FieldMenu_Magic_NAME": {
+        "SelfId": "Txt_FieldMenu_Magic_NAME",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Magic_GUIDE": {
+        "SelfId": "Txt_FieldMenu_Magic_GUIDE",
+        "Text": "주문 선택"
+      },
+      "Txt_FieldMenu_Magic_NONE": {
+        "SelfId": "Txt_FieldMenu_Magic_NONE",
+        "Text": "주문을 배우지 않았다"
+      },
+      "Txt_FieldMenu_Skill_NAME": {
+        "SelfId": "Txt_FieldMenu_Skill_NAME",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Skill_GUIDE": {
+        "SelfId": "Txt_FieldMenu_Skill_GUIDE",
+        "Text": "특기 선택"
+      },
+      "Txt_FieldMenu_Skill_NONE": {
+        "SelfId": "Txt_FieldMenu_Skill_NONE",
+        "Text": "특기를 배우지 않았다"
+      },
+      "Txt_FieldMenu_Misc_MENU_01": {
+        "SelfId": "Txt_FieldMenu_Misc_MENU_01",
+        "Text": "완전 회복"
+      },
+      "Txt_FieldMenu_Misc_MENU_02": {
+        "SelfId": "Txt_FieldMenu_Misc_MENU_02",
+        "Text": "거의 가득 참"
+      },
+      "Txt_FieldMenu_Misc_MENU_03": {
+        "SelfId": "Txt_FieldMenu_Misc_MENU_03",
+        "Text": "능력치"
+      },
+      "Txt_FieldMenu_Misc_MENU_04": {
+        "SelfId": "Txt_FieldMenu_Misc_MENU_04",
+        "Text": "순서 바꾸기"
+      },
+      "Txt_FieldMenu_Misc_MENU_05": {
+        "SelfId": "Txt_FieldMenu_Misc_MENU_05",
+        "Text": "작전 바꾸기"
+      },
+      "Txt_FieldMenu_Misc_MENU_06": {
+        "SelfId": "Txt_FieldMenu_Misc_MENU_06",
+        "Text": "모험 수칙"
+      },
+      "Txt_FieldMenu_Misc_MENU_07": {
+        "SelfId": "Txt_FieldMenu_Misc_MENU_07",
+        "Text": "전력"
+      },
+      "Txt_FieldMenu_Misc_MENU_08": {
+        "SelfId": "Txt_FieldMenu_Misc_MENU_08",
+        "Text": "시스템 설정"
+      },
+      "Txt_FieldMenu_Misc_MENU_11": {
+        "SelfId": "Txt_FieldMenu_Misc_MENU_11",
+        "Text": "플레이 환경 설정"
+      },
+      "Txt_FieldMenu_Misc_MENU_09": {
+        "SelfId": "Txt_FieldMenu_Misc_MENU_09",
+        "Text": "모험 중단하기"
+      },
+      "Txt_FieldMenu_Misc_MENU_10": {
+        "SelfId": "Txt_FieldMenu_Misc_MENU_10",
+        "Text": "타이틀로 돌아가기"
+      },
+      "Txt_FieldMenu_Misc_EXPLAN_01": {
+        "SelfId": "Txt_FieldMenu_Misc_EXPLAN_01",
+        "Text": "가장 효율적으로\r\n전원의 HP를\r\n단번에 완전 회복!"
+      },
+      "Txt_FieldMenu_Misc_EXPLAN_02": {
+        "SelfId": "Txt_FieldMenu_Misc_EXPLAN_02",
+        "Text": "가장 효율적으로\r\n전원의 HP를\r\n거의 가득 채운다!"
+      },
+      "Txt_FieldMenu_Misc_EXPLAN_04": {
+        "SelfId": "Txt_FieldMenu_Misc_EXPLAN_04",
+        "Text": "마물과 싸울 때의\r\n정렬 순서를\r\n변경합니다"
+      },
+      "Txt_FieldMenu_Misc_EXPLAN_05": {
+        "SelfId": "Txt_FieldMenu_Misc_EXPLAN_05",
+        "Text": "마물과 싸울 때의\r\n작전을\r\n변경합니다"
+      },
+      "Txt_FieldMenu_Misc_EXPLAN_06": {
+        "SelfId": "Txt_FieldMenu_Misc_EXPLAN_06",
+        "Text": "모험에 유용한\r\n다양한 정보를\r\n확인합니다"
+      },
+      "Txt_FieldMenu_Misc_EXPLAN_07": {
+        "SelfId": "Txt_FieldMenu_Misc_EXPLAN_07",
+        "Text": "다양한\r\n모험의 기록을\r\n확인합니다"
+      },
+      "Txt_FieldMenu_Misc_EXPLAN_08": {
+        "SelfId": "Txt_FieldMenu_Misc_EXPLAN_08",
+        "Text": "각종 게임\r\n설정을 진행합니다"
+      },
+      "Txt_FieldMenu_Misc_EXPLAN_09": {
+        "SelfId": "Txt_FieldMenu_Misc_EXPLAN_09",
+        "Text": "모험을 중단하고\r\n타이틀로 돌아간다"
+      },
+      "Txt_FieldMenu_Misc_EXPLAN_10": {
+        "SelfId": "Txt_FieldMenu_Misc_EXPLAN_10",
+        "Text": "모험을 그만두고\r\n타이틀로 돌아간다"
+      },
+      "Txt_FieldMenu_Misc_EXPLAN_11": {
+        "SelfId": "Txt_FieldMenu_Misc_EXPLAN_11",
+        "Text": "플레이 환경을\r\n설정합니다\r\n※전 모험의 서 공통"
+      },
+      "Txt_FieldMenu_Misc_SORTMENU": {
+        "SelfId": "Txt_FieldMenu_Misc_SORTMENU",
+        "Text": "표시"
+      },
+      "Txt_FieldMenu_Misc_SORT_01": {
+        "SelfId": "Txt_FieldMenu_Misc_SORT_01",
+        "Text": "스테이터스"
+      },
+      "Txt_FieldMenu_Misc_SORT_02": {
+        "SelfId": "Txt_FieldMenu_Misc_SORT_02",
+        "Text": "전부"
+      },
+      "Txt_FieldMenu_Misc_SORT_03": {
+        "SelfId": "Txt_FieldMenu_Misc_SORT_03",
+        "Text": "주문"
+      },
+      "Txt_FieldMenu_Misc_SORT_04": {
+        "SelfId": "Txt_FieldMenu_Misc_SORT_04",
+        "Text": "특기"
+      },
+      "Txt_FieldMenu_Misc_PARAMETER_GUIDE_01": {
+        "SelfId": "Txt_FieldMenu_Misc_PARAMETER_GUIDE_01",
+        "Text": "스테이터스"
+      },
+      "Txt_FieldMenu_Misc_PARAMETER_GUIDE_03": {
+        "SelfId": "Txt_FieldMenu_Misc_PARAMETER_GUIDE_03",
+        "Text": "주문"
+      },
+      "Txt_FieldMenu_Misc_PARAMETER_GUIDE_04": {
+        "SelfId": "Txt_FieldMenu_Misc_PARAMETER_GUIDE_04",
+        "Text": "특기"
+      },
+      "Txt_FieldMenu_Misc_TACTICSGUIDE": {
+        "SelfId": "Txt_FieldMenu_Misc_TACTICSGUIDE",
+        "Text": "누구의 작전을 바꿀까?"
+      },
+      "Txt_FieldMenu_Misc_TACTICSMENU_01": {
+        "SelfId": "Txt_FieldMenu_Misc_TACTICSMENU_01",
+        "Text": "전력을 다하자"
+      },
+      "Txt_FieldMenu_Misc_TACTICSMENU_02": {
+        "SelfId": "Txt_FieldMenu_Misc_TACTICSMENU_02",
+        "Text": "요령껏 싸우자"
+      },
+      "Txt_FieldMenu_Misc_TACTICSMENU_03": {
+        "SelfId": "Txt_FieldMenu_Misc_TACTICSMENU_03",
+        "Text": "회복에 힘쓰자"
+      },
+      "Txt_FieldMenu_Misc_TACTICSMENU_04": {
+        "SelfId": "Txt_FieldMenu_Misc_TACTICSMENU_04",
+        "Text": "MP 사용 금지"
+      },
+      "Txt_FieldMenu_Misc_TACTICSMENU_05": {
+        "SelfId": "Txt_FieldMenu_Misc_TACTICSMENU_05",
+        "Text": "판단에 맡기자"
+      },
+      "Txt_FieldMenu_Misc_TACTICSMENU_06": {
+        "SelfId": "Txt_FieldMenu_Misc_TACTICSMENU_06",
+        "Text": "명령을 들어라"
+      },
+      "Txt_FieldMenu_Misc_TACTICSEXPLAN_01": {
+        "SelfId": "Txt_FieldMenu_Misc_TACTICSEXPLAN_01",
+        "Text": "MP를 신경 쓰지 않고\r\n일단 적극적으로\r\n공격한다"
+      },
+      "Txt_FieldMenu_Misc_TACTICSEXPLAN_02": {
+        "SelfId": "Txt_FieldMenu_Misc_TACTICSEXPLAN_02",
+        "Text": "주문과 특기를 써서\r\n공수 양면으로\r\n균형 있게 싸운다"
+      },
+      "Txt_FieldMenu_Misc_TACTICSEXPLAN_03": {
+        "SelfId": "Txt_FieldMenu_Misc_TACTICSEXPLAN_03",
+        "Text": "생존을 최우선으로\r\n회복을 중시하며\r\n싸운다"
+      },
+      "Txt_FieldMenu_Misc_TACTICSEXPLAN_04": {
+        "SelfId": "Txt_FieldMenu_Misc_TACTICSEXPLAN_04",
+        "Text": "무슨 일이 있어도\r\nMP를 쓰지 않는\r\n초절약 모드"
+      },
+      "Txt_FieldMenu_Misc_TACTICSEXPLAN_05": {
+        "SelfId": "Txt_FieldMenu_Misc_TACTICSEXPLAN_05",
+        "Text": "주인공에게 맡기고\r\n보조와 회복을\r\n중심으로 행동한다"
+      },
+      "Txt_FieldMenu_Misc_TACTICSEXPLAN_06": {
+        "SelfId": "Txt_FieldMenu_Misc_TACTICSEXPLAN_06",
+        "Text": "작전 없이\r\n주인공의 명령대로\r\n행동한다"
+      },
+      "Txt_FieldMenu_Misc_TUTORIALGUIDE": {
+        "SelfId": "Txt_FieldMenu_Misc_TUTORIALGUIDE",
+        "Text": "모험 수칙 선택"
+      },
+      "Txt_FieldMenu_Misc_SETTINGMENU_0100": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMENU_0100",
+        "Text": "배틀 속도 설정"
+      },
+      "Txt_FieldMenu_Misc_SETTINGMENU_0200": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMENU_0200",
+        "Text": "화면 설정"
+      },
+      "Txt_FieldMenu_Misc_SETTINGMENU_0300": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMENU_0300",
+        "Text": "사운드 설정"
+      },
+      "Txt_FieldMenu_Misc_SETTINGMENU_0350": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMENU_0350",
+        "Text": "가이드 기능 설정"
+      },
+      "Txt_FieldMenu_Misc_SETTINGMENU_0371": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMENU_0371",
+        "Text": "게임 모드 설정"
+      },
+      "Txt_FieldMenu_Misc_SETTINGMENU_0375": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMENU_0375",
+        "Text": "편리 기능 설정"
+      },
+      "Txt_FieldMenu_Misc_SETTINGMENU_0400": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMENU_0400",
+        "Text": "<ERROR!>"
+      },
+      "Txt_FieldMenu_Misc_SETTINGMENU_0500": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMENU_0500",
+        "Text": "<ERROR!>"
+      },
+      "Txt_FieldMenu_Misc_SETTINGMENU_0550": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMENU_0550",
+        "Text": "언어 설정"
+      },
+      "Txt_FieldMenu_Misc_SETTINGMENU_0575": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMENU_0575",
+        "Text": "플레이 환경 설정"
+      },
+      "Txt_FieldMenu_Misc_SETTINGMENU_0600": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMENU_0600",
+        "Text": "키보드 설정"
+      },
+      "Txt_FieldMenu_Misc_SETTINGMENU_0700": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMENU_0700",
+        "Text": "결정 버튼 설정"
+      },
+      "Txt_FieldMenu_Misc_SETTINGMENU_0700_PS5": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMENU_0700_PS5",
+        "Text": "결정 버튼 설정"
+      },
+      "Txt_FieldMenu_Misc_SETTINGMENU_0700_Xbox": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMENU_0700_Xbox",
+        "Text": "결정 버튼 설정"
+      },
+      "Txt_FieldMenu_Misc_SETTINGMENU_0700_PC": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMENU_0700_PC",
+        "Text": "결정 버튼 설정"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0110": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0110",
+        "Text": "일반 전투"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0115": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0115",
+        "Text": "배틀 로드"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0210": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0210",
+        "Text": "밝기"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0220": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0220",
+        "Text": "카메라"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0230": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0230",
+        "Text": "미니맵"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0240": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0240",
+        "Text": "미니맵 표시 범위"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0250": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0250",
+        "Text": "화면 모드"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0310": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0310",
+        "Text": "BGM"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0315": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0315",
+        "Text": "환경음"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0320": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0320",
+        "Text": "효과음"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0330": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0330",
+        "Text": "음성"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0340": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0340",
+        "Text": "음성 자동 넘기기"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0360": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0360",
+        "Text": "목적 가이드 텍스트"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0370": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0370",
+        "Text": "목적지 마커"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0371": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0371",
+        "Text": "게임 모드"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0375": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0375",
+        "Text": "대시"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0380": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0380",
+        "Text": "메시지 표시"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0560": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0560",
+        "Text": "텍스트"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0570": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0570",
+        "Text": "음성"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0575": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0575",
+        "Text": "창 설정"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0585": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0585",
+        "Text": "그래픽 설정"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0595": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0595",
+        "Text": "조작 설정"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0000": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0000",
+        "Text": "결정"
+      },
+      "Txt_FieldMenu_Misc_SETTINGDEFAULT": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGDEFAULT",
+        "Text": "초기 설정으로 되돌리기"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEM_0100": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEM_0100",
+        "Text": "창 모드"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEM_0110": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEM_0110",
+        "Text": "해상도"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEM_0120": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEM_0120",
+        "Text": "프레임 레이트"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEM_0130": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEM_0130",
+        "Text": "수직 동기화"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEM_0200": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEM_0200",
+        "Text": "프리셋"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEM_0210": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEM_0210",
+        "Text": "그림자 품질"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEM_0215": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEM_0215",
+        "Text": "그림자 표현 범위"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEM_0220": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEM_0220",
+        "Text": "앤티에일리어싱"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEM_0230": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEM_0230",
+        "Text": "텍스처 품질"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEM_0240": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEM_0240",
+        "Text": "렌더링 스케일"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEM_0250": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEM_0250",
+        "Text": "AO"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEM_0260": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEM_0260",
+        "Text": "피사계 심도"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEM_0300": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEM_0300",
+        "Text": "커서 이탈 방지"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEM_0310": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEM_0310",
+        "Text": "비활성 시 음성"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEM_0320": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEM_0320",
+        "Text": "비활성 시 조작"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0110": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0110",
+        "Text": "배틀 시의\r\n연출 속도를\r\n변경합니다"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0115": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0115",
+        "Text": "배틀 로드 시의\r\n연출 속도를\r\n변경합니다"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0210": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0210",
+        "Text": "화면의\r\n밝기 설정을\r\n변경합니다"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0220": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0220",
+        "Text": "카메라의\r\n거리를 변경합니다"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0230": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0230",
+        "Text": "미니맵을\r\n표시할지\r\n설정합니다"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0240": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0240",
+        "Text": "필드 화면에서\r\n미니맵에 표시되는\r\n범위를 설정합니다"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0250": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0250",
+        "Text": "화면 동작 우선도를\r\n설정합니다"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0310": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0310",
+        "Text": "BGM의\r\n볼륨을\r\n설정합니다"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0315": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0315",
+        "Text": "환경음의\r\n볼륨을\r\n설정합니다"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0320": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0320",
+        "Text": "효과음의\r\n볼륨을\r\n설정합니다"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0330": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0330",
+        "Text": "음성의\r\n볼륨을\r\n설정합니다"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0340": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0340",
+        "Text": "음성 포함\r\n메시지를\r\n자동으로 넘깁니다"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0360": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0360",
+        "Text": "텍스트 가이드를\r\n표시할지 설정합니다"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0370": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0370",
+        "Text": "목적지 마커를\r\n표시할지\r\n설정합니다"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0371_01": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0371_01",
+        "Text": "배틀이 아주 쉬워집니다!\r\n스토리를 수월하게 진행하고 싶거나\r\n강한 적을 퇴치하기 힘들다면 선택하세요!"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0371_02": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0371_02",
+        "Text": "추천 밸런스로 플레이할 수 있습니다.\r\n난이도가 고민된다면 선택하세요!"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0371_03": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0371_03",
+        "Text": "손맛을 느낄 수 있습니다!\r\n적이 강해지고 획득하는\r\n경험치와 골드가 줄어듭니다."
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0375": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0375",
+        "Text": "대시할 때의\r\n조작 방법을\r\n전환합니다"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0380": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0380",
+        "Text": "메시지\r\n표시 방법을\r\n설정합니다"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0560": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0560",
+        "Text": "텍스트 언어를\r\n설정합니다\r\n※모든 모험의 서 공통"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0570": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0570",
+        "Text": "음성 언어를\r\n설정합니다\r\n※모든 모험의 서 공통"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0575": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0575",
+        "Text": "모니터상으로\r\n플레이할 때의\r\n설정을 변경합니다"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0585": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0585",
+        "Text": "그래픽과\r\n관련된\r\n설정을 변경합니다"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0595": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0595",
+        "Text": "비활성화 시나\r\n마우스 이동 등의\r\n설정을 변경합니다"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0100": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0100",
+        "Text": "창 모드를\r\n변경합니다"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0110": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0110",
+        "Text": "게임상의\r\n해상도를 변경합니다"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0120": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0120",
+        "Text": "게임 플레이 중\r\n프레임 레이트를 변경합니다"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0130": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0130",
+        "Text": "수직 동기화의\r\n사용 여부를\r\n설정합니다"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0200": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0200",
+        "Text": "그래픽 설정을\r\n일괄로 설정합니다"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0210": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0210",
+        "Text": "게임상의\r\n그림자 품질을\r\n변경합니다"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0215": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0215",
+        "Text": "게임상의\r\n그림자 표현 범위를\r\n변경합니다"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0220": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0220",
+        "Text": "높을수록\r\n그래픽을\r\n매끄럽게 표시합니다"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0230": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0230",
+        "Text": "높을수록\r\n텍스처 품질이\r\n향상됩니다"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0240": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0240",
+        "Text": "높을수록\r\n설정 해상도에 맞춰\r\n표시합니다"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0250": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0250",
+        "Text": "높을수록\r\n빛과 그림자 표현이\r\n향상됩니다"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0260": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0260",
+        "Text": "먼 풍경을 흐리게\r\n표현할지 여부를\r\n설정합니다"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0300": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0300",
+        "Text": "마우스 커서가\r\n게임 창 밖으로\r\n나가지 않습니다"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0310": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0310",
+        "Text": "비활성화 시에도\r\n음성을 재생합니다"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0320": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0320",
+        "Text": "비활성화 시에도\r\n패드 조작이\r\n가능해집니다"
+      },
+      "Txt_FieldMenu_Misc_SETTINGSPEED_010": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGSPEED_010",
+        "Text": "보통"
+      },
+      "Txt_FieldMenu_Misc_SETTINGSPEED_020": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGSPEED_020",
+        "Text": "빠르게"
+      },
+      "Txt_FieldMenu_Misc_SETTINGSPEED_030": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGSPEED_030",
+        "Text": "아주 빠르게"
+      },
+      "Txt_FieldMenu_Misc_SETTINGLIGHT_010": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGLIGHT_010",
+        "Text": "밝음"
+      },
+      "Txt_FieldMenu_Misc_SETTINGLIGHT_020": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGLIGHT_020",
+        "Text": "어두움"
+      },
+      "Txt_FieldMenu_Misc_SETTINGLIGHT_VALUE": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGLIGHT_VALUE",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Misc_SETTINGMINIMAP_010": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMINIMAP_010",
+        "Text": "좁게"
+      },
+      "Txt_FieldMenu_Misc_SETTINGMINIMAP_020": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMINIMAP_020",
+        "Text": "넓음"
+      },
+      "Txt_FieldMenu_Misc_SETTINGGAMEMODE_010": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGGAMEMODE_010",
+        "Text": "쉬운 플레이"
+      },
+      "Txt_FieldMenu_Misc_SETTINGGAMEMODE_020": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGGAMEMODE_020",
+        "Text": "빈틈없는 모험"
+      },
+      "Txt_FieldMenu_Misc_SETTINGGAMEMODE_030": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGGAMEMODE_030",
+        "Text": "가시밭길"
+      },
+      "Txt_FieldMenu_Misc_SETTINGMODE_PERFORMANCE": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMODE_PERFORMANCE",
+        "Text": "FPS 우선"
+      },
+      "Txt_FieldMenu_Misc_SETTINGMODE_QUALITY": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMODE_QUALITY",
+        "Text": "그래픽 우선"
+      },
+      "Txt_FieldMenu_Misc_SETTINGCAMERA_010": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGCAMERA_010",
+        "Text": "가까이"
+      },
+      "Txt_FieldMenu_Misc_SETTINGCAMERA_020": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGCAMERA_020",
+        "Text": "보통"
+      },
+      "Txt_FieldMenu_Misc_SETTINGSOUND_010": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGSOUND_010",
+        "Text": "크게"
+      },
+      "Txt_FieldMenu_Misc_SETTINGSOUND_020": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGSOUND_020",
+        "Text": "작게"
+      },
+      "Txt_FieldMenu_Misc_SETTINGSOUND_VALUE": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGSOUND_VALUE",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Misc_SETTINGSOUND_VALUENONE": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGSOUND_VALUENONE",
+        "Text": "없음"
+      },
+      "Txt_FieldMenu_Misc_SETTINGDASH_PUSH": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGDASH_PUSH",
+        "Text": "누르기"
+      },
+      "Txt_FieldMenu_Misc_SETTINGDASH_TOGGLE": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGDASH_TOGGLE",
+        "Text": "전환"
+      },
+      "Txt_FieldMenu_Misc_SETTINGMESSAGE_NORMAL": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMESSAGE_NORMAL",
+        "Text": "보통"
+      },
+      "Txt_FieldMenu_Misc_SETTINGMESSAGE_FAST": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMESSAGE_FAST",
+        "Text": "빠르게"
+      },
+      "Txt_FieldMenu_Misc_SETTINGWINDOW_WINDOW": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGWINDOW_WINDOW",
+        "Text": "창"
+      },
+      "Txt_FieldMenu_Misc_SETTINGWINDOW_BORDERLESS": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGWINDOW_BORDERLESS",
+        "Text": "테두리 없는 창 모드"
+      },
+      "Txt_FieldMenu_Misc_SETTINGWINDOW_FULL": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGWINDOW_FULL",
+        "Text": "전체 화면"
+      },
+      "Txt_FieldMenu_Misc_SETTINGRESOLUTION_010": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGRESOLUTION_010",
+        "Text": "1280×720"
+      },
+      "Txt_FieldMenu_Misc_SETTINGRESOLUTION_020": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGRESOLUTION_020",
+        "Text": "1920×1080"
+      },
+      "Txt_FieldMenu_Misc_SETTINGRESOLUTION_030": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGRESOLUTION_030",
+        "Text": "2560×1440"
+      },
+      "Txt_FieldMenu_Misc_SETTINGRESOLUTION_040": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGRESOLUTION_040",
+        "Text": "3840×2160"
+      },
+      "Txt_FieldMenu_Misc_SETTINGFPS_030": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGFPS_030",
+        "Text": "30FPS"
+      },
+      "Txt_FieldMenu_Misc_SETTINGFPS_060": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGFPS_060",
+        "Text": "60FPS"
+      },
+      "Txt_FieldMenu_Misc_SETTINGGRAPHICPRESET_CUSTOM": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGGRAPHICPRESET_CUSTOM",
+        "Text": "커스텀"
+      },
+      "Txt_FieldMenu_Misc_SETTINGGRAPHICPRESET_HIGH": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGGRAPHICPRESET_HIGH",
+        "Text": "최고"
+      },
+      "Txt_FieldMenu_Misc_SETTINGGRAPHICPRESET_MIDDLE": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGGRAPHICPRESET_MIDDLE",
+        "Text": "중간"
+      },
+      "Txt_FieldMenu_Misc_SETTINGGRAPHICPRESET_LOW": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGGRAPHICPRESET_LOW",
+        "Text": "최저"
+      },
+      "Txt_FieldMenu_Misc_SETTINGGRAPHIC_HIGH": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGGRAPHIC_HIGH",
+        "Text": "높음"
+      },
+      "Txt_FieldMenu_Misc_SETTINGGRAPHIC_LOW": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGGRAPHIC_LOW",
+        "Text": "낮음"
+      },
+      "Txt_FieldMenu_Misc_SETTINGCOMMON_ON": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGCOMMON_ON",
+        "Text": "ON"
+      },
+      "Txt_FieldMenu_Misc_SETTINGCOMMON_OFF": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGCOMMON_OFF",
+        "Text": "OFF"
+      },
+      "Txt_FieldMenu_Misc_SETTINGTEXTOPTION_ON": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGTEXTOPTION_ON",
+        "Text": "ON"
+      },
+      "Txt_FieldMenu_Misc_SETTINGTEXTOPTION_OFF": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGTEXTOPTION_OFF",
+        "Text": "OFF"
+      },
+      "Txt_FieldMenu_Misc_SETTING_MEMORYGUIDE": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTING_MEMORYGUIDE",
+        "Text": "사용 GPU 메모리"
+      },
+      "Txt_FieldMenu_Misc_SETTING_MEMORY": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTING_MEMORY",
+        "Text": "{0}GB / {1}GB"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_00": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_00",
+        "Text": "결정"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_01": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_01",
+        "Text": "취소"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_02": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_02",
+        "Text": "위쪽 이동"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_03": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_03",
+        "Text": "오른쪽 이동"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_04": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_04",
+        "Text": "왼쪽 이동"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_05": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_05",
+        "Text": "아래쪽 이동"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_06": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_06",
+        "Text": "메뉴"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_07": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_07",
+        "Text": "맵"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_08": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_08",
+        "Text": "이전 페이지"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_09": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_09",
+        "Text": "다음 페이지"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_10": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_10",
+        "Text": "착용자 이전 변경"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_11": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_11",
+        "Text": "착용자 다음 변경"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_12": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_12",
+        "Text": "대시"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_13": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_13",
+        "Text": "스크롤 초기화"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_14": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_14",
+        "Text": "커서 디폴트"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_15": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_15",
+        "Text": "커서 위쪽 이동"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_16": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_16",
+        "Text": "커서 오른쪽 이동"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_17": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_17",
+        "Text": "커서 왼쪽 이동"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_18": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_18",
+        "Text": "커서 아래쪽 이동"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_19": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_19",
+        "Text": "기억하기"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_20": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_20",
+        "Text": "UI 표시 전환"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_CANCEL": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_CANCEL",
+        "Text": "결정하지 않고 돌아가면\r\n변경한 조작이 저장되지 않습니다.\r\n계속하시겠습니까?"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_DUPLICATE_WARNING": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_DUPLICATE_WARNING",
+        "Text": "중복된 조작이 있어\r\n결정할 수 없습니다\r\n일부 조작을 다시 설정해 주십시오"
+      },
+      "Txt_FieldMenu_Map_NONE": {
+        "SelfId": "Txt_FieldMenu_Map_NONE",
+        "Text": "빠른 이동을 배우지 않았다"
+      },
+      "Txt_FieldMenu_Record_List_010": {
+        "SelfId": "Txt_FieldMenu_Record_List_010",
+        "Text": "토벌 몬스터 목록"
+      },
+      "Txt_FieldMenu_Record_List_020": {
+        "SelfId": "Txt_FieldMenu_Record_List_020",
+        "Text": "수집 아이템 목록"
+      },
+      "Txt_FieldMenu_Record_List_030": {
+        "SelfId": "Txt_FieldMenu_Record_List_030",
+        "Text": "수집 장비 목록"
+      },
+      "Txt_FieldMenu_Record_List_040": {
+        "SelfId": "Txt_FieldMenu_Record_List_040",
+        "Text": "습득한 주문"
+      },
+      "Txt_FieldMenu_Record_List_050": {
+        "SelfId": "Txt_FieldMenu_Record_List_050",
+        "Text": "습득한 특기"
+      },
+      "Txt_FieldMenu_Record_Topic_010": {
+        "SelfId": "Txt_FieldMenu_Record_Topic_010",
+        "Text": "모험한 시간"
+      },
+      "Txt_FieldMenu_Record_Topic_020": {
+        "SelfId": "Txt_FieldMenu_Record_Topic_020",
+        "Text": "전투 승리 횟수"
+      },
+      "Txt_FieldMenu_Record_Topic_030": {
+        "SelfId": "Txt_FieldMenu_Record_Topic_030",
+        "Text": "도망 횟수"
+      },
+      "Txt_FieldMenu_Record_Topic_040": {
+        "SelfId": "Txt_FieldMenu_Record_Topic_040",
+        "Text": "전멸 횟수"
+      },
+      "Txt_FieldMenu_Record_Topic_050": {
+        "SelfId": "Txt_FieldMenu_Record_Topic_050",
+        "Text": "쓰러뜨린 몬스터 수"
+      },
+      "Txt_FieldMenu_Record_Topic_060": {
+        "SelfId": "Txt_FieldMenu_Record_Topic_060",
+        "Text": "쓰러뜨린 몬스터 종류"
+      },
+      "Txt_FieldMenu_Record_Topic_070": {
+        "SelfId": "Txt_FieldMenu_Record_Topic_070",
+        "Text": "획득 아이템 종류"
+      },
+      "Txt_FieldMenu_Record_Topic_080": {
+        "SelfId": "Txt_FieldMenu_Record_Topic_080",
+        "Text": "획득 골드 누계"
+      },
+      "Txt_FieldMenu_Record_Topic_090": {
+        "SelfId": "Txt_FieldMenu_Record_Topic_090",
+        "Text": "작은 메달 획득 개수"
+      },
+      "Txt_FieldMenu_Record_Topic_100": {
+        "SelfId": "Txt_FieldMenu_Record_Topic_100",
+        "Text": "배틀 로드 최고 도달 랭크"
+      },
+      "Txt_FieldMenu_Record_Topic_110": {
+        "SelfId": "Txt_FieldMenu_Record_Topic_110",
+        "Text": "배틀 로드 승리 횟수"
+      },
+      "Txt_FieldMenu_Record_Topic_120": {
+        "SelfId": "Txt_FieldMenu_Record_Topic_120",
+        "Text": "획득 몬스터 수"
+      },
+      "Txt_FieldMenu_Record_Topic_130": {
+        "SelfId": "Txt_FieldMenu_Record_Topic_130",
+        "Text": "획득 몬스터 종류"
+      },
+      "Txt_FieldMenu_Record_AllMP": {
+        "SelfId": "Txt_FieldMenu_Record_AllMP",
+        "Text": "전부"
+      },
+      "Txt_FieldMenu_Record_Param_010": {
+        "SelfId": "Txt_FieldMenu_Record_Param_010",
+        "Text": "{0}시간 {1}분"
+      },
+      "Txt_FieldMenu_Record_Param_020": {
+        "SelfId": "Txt_FieldMenu_Record_Param_020",
+        "Text": "{0}회"
+      },
+      "Txt_FieldMenu_Record_Param_030": {
+        "SelfId": "Txt_FieldMenu_Record_Param_030",
+        "Text": "{0}회"
+      },
+      "Txt_FieldMenu_Record_Param_040": {
+        "SelfId": "Txt_FieldMenu_Record_Param_040",
+        "Text": "{0}회"
+      },
+      "Txt_FieldMenu_Record_Param_050": {
+        "SelfId": "Txt_FieldMenu_Record_Param_050",
+        "Text": "{0}마리"
+      },
+      "Txt_FieldMenu_Record_Param_060": {
+        "SelfId": "Txt_FieldMenu_Record_Param_060",
+        "Text": "{0}/{1}"
+      },
+      "Txt_FieldMenu_Record_Param_070": {
+        "SelfId": "Txt_FieldMenu_Record_Param_070",
+        "Text": "{0}/{1}"
+      },
+      "Txt_FieldMenu_Record_Param_080": {
+        "SelfId": "Txt_FieldMenu_Record_Param_080",
+        "Text": "{0}G"
+      },
+      "Txt_FieldMenu_Record_Param_090": {
+        "SelfId": "Txt_FieldMenu_Record_Param_090",
+        "Text": "{0}개"
+      },
+      "Txt_FieldMenu_Record_Param_100": {
+        "SelfId": "Txt_FieldMenu_Record_Param_100",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Record_Param_110": {
+        "SelfId": "Txt_FieldMenu_Record_Param_110",
+        "Text": "{0}회"
+      },
+      "Txt_FieldMenu_Record_Param_120": {
+        "SelfId": "Txt_FieldMenu_Record_Param_120",
+        "Text": "{0}마리"
+      },
+      "Txt_FieldMenu_Record_Param_130": {
+        "SelfId": "Txt_FieldMenu_Record_Param_130",
+        "Text": "{0}종"
+      },
+      "Txt_FieldMenu_Record_MonsterList_Guide": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterList_Guide",
+        "Text": "몬스터 선택"
+      },
+      "Txt_FieldMenu_Record_MonsterList_Sort_010": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterList_Sort_010",
+        "Text": "ID순"
+      },
+      "Txt_FieldMenu_Record_MonsterList_Sort_020": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterList_Sort_020",
+        "Text": "가나다순"
+      },
+      "Txt_FieldMenu_Record_MonsterList_Topic_010": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterList_Topic_010",
+        "Text": "경험치"
+      },
+      "Txt_FieldMenu_Record_MonsterList_Topic_020": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterList_Topic_020",
+        "Text": "골드"
+      },
+      "Txt_FieldMenu_Record_MonsterList_Topic_030": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterList_Topic_030",
+        "Text": "쓰러뜨린 수"
+      },
+      "Txt_FieldMenu_Record_MonsterList_Topic_040": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterList_Topic_040",
+        "Text": "주요 서식지"
+      },
+      "Txt_FieldMenu_Record_MonsterList_Param_010": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterList_Param_010",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Record_MonsterList_Param_020": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterList_Param_020",
+        "Text": "{0}G"
+      },
+      "Txt_FieldMenu_Record_MonsterList_Param_030": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterList_Param_030",
+        "Text": "{0}마리"
+      },
+      "Txt_FieldMenu_Record_MonsterList_Param_040": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterList_Param_040",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Record_MonsterList_Param_041": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterList_Param_041",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Record_MonsterList_Param_999": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterList_Param_999",
+        "Text": "등"
+      },
+      "Txt_FieldMenu_Record_MonsterListDetail_Topic_010": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterListDetail_Topic_010",
+        "Text": "{0}:{1}"
+      },
+      "Txt_FieldMenu_Record_MonsterListDetail_Topic_020": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterListDetail_Topic_020",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Record_MonsterListDetail_Topic_030": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterListDetail_Topic_030",
+        "Text": "합계 경험치"
+      },
+      "Txt_FieldMenu_Record_MonsterListDetail_Topic_040": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterListDetail_Topic_040",
+        "Text": "합계 골드"
+      },
+      "Txt_FieldMenu_Record_MonsterListDetail_Topic_050": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterListDetail_Topic_050",
+        "Text": "획득 아이템"
+      },
+      "Txt_FieldMenu_Record_MonsterListDetail_Param_030": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterListDetail_Param_030",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Record_MonsterListDetail_Param_040": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterListDetail_Param_040",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Record_MonsterListDetail_Param_050": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterListDetail_Param_050",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Record_MonsterListDetail_Param_050_Blank": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterListDetail_Param_050_Blank",
+        "Text": "없음"
+      },
+      "Txt_FieldMenu_Record_MonsterListDetail_Topic_060": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterListDetail_Topic_060",
+        "Text": "토막 지식"
+      },
+      "Txt_FieldMenu_Record_MonsterListDetail_Param_060": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterListDetail_Param_060",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Record_MonsterListDetail_ActionGuide": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterListDetail_ActionGuide",
+        "Text": "액션"
+      },
+      "Txt_FieldMenu_STATUS_HPBar": {
+        "SelfId": "Txt_FieldMenu_STATUS_HPBar",
+        "Text": "ＨＰ"
+      },
+      "Txt_FieldMenu_STATUS_MPBar": {
+        "SelfId": "Txt_FieldMenu_STATUS_MPBar",
+        "Text": "ＭＰ"
+      },
+      "Txt_FieldMenu_STATUS_PARAMNAME_01": {
+        "SelfId": "Txt_FieldMenu_STATUS_PARAMNAME_01",
+        "Text": "HP"
+      },
+      "Txt_FieldMenu_STATUS_PARAMNAME_02": {
+        "SelfId": "Txt_FieldMenu_STATUS_PARAMNAME_02",
+        "Text": "MP"
+      },
+      "Txt_FieldMenu_STATUS_PARAMNAME_03": {
+        "SelfId": "Txt_FieldMenu_STATUS_PARAMNAME_03",
+        "Text": "공격력"
+      },
+      "Txt_FieldMenu_STATUS_PARAMNAME_04": {
+        "SelfId": "Txt_FieldMenu_STATUS_PARAMNAME_04",
+        "Text": "수비력"
+      },
+      "Txt_FieldMenu_STATUS_PARAMNAME_05": {
+        "SelfId": "Txt_FieldMenu_STATUS_PARAMNAME_05",
+        "Text": "민첩함"
+      },
+      "Txt_FieldMenu_STATUS_PARAMNAME_06": {
+        "SelfId": "Txt_FieldMenu_STATUS_PARAMNAME_06",
+        "Text": "체력"
+      },
+      "Txt_FieldMenu_STATUS_PARAMNAME_07": {
+        "SelfId": "Txt_FieldMenu_STATUS_PARAMNAME_07",
+        "Text": "총명함"
+      },
+      "Txt_FieldMenu_STATUS_PARAMNAME_08": {
+        "SelfId": "Txt_FieldMenu_STATUS_PARAMNAME_08",
+        "Text": "운"
+      },
+      "Txt_FieldMenu_STATUS_PARAMNAME_09": {
+        "SelfId": "Txt_FieldMenu_STATUS_PARAMNAME_09",
+        "Text": "힘"
+      },
+      "Txt_FieldMenu_STATUS_PARAMNAME_10": {
+        "SelfId": "Txt_FieldMenu_STATUS_PARAMNAME_10",
+        "Text": "방어력"
+      },
+      "Txt_FieldMenu_STATUS_PARAMNAME_11": {
+        "SelfId": "Txt_FieldMenu_STATUS_PARAMNAME_11",
+        "Text": "Lv"
+      },
+      "Txt_FieldMenu_STATUS_PARAMNAME_12": {
+        "SelfId": "Txt_FieldMenu_STATUS_PARAMNAME_12",
+        "Text": "XP"
+      },
+      "Txt_FieldMenu_STATUS_PARAMNAME_13": {
+        "SelfId": "Txt_FieldMenu_STATUS_PARAMNAME_13",
+        "Text": "다음 레벨까지"
+      },
+      "Txt_FieldMenu_STATUS_PARAMNAME_14": {
+        "SelfId": "Txt_FieldMenu_STATUS_PARAMNAME_14",
+        "Text": "직업"
+      },
+      "Txt_FieldMenu_STATUS_PARAMNAME_15": {
+        "SelfId": "Txt_FieldMenu_STATUS_PARAMNAME_15",
+        "Text": "스타일"
+      },
+      "Txt_FieldMenu_STATUS_PARAMNAME_16": {
+        "SelfId": "Txt_FieldMenu_STATUS_PARAMNAME_16",
+        "Text": "성격"
+      },
+      "Txt_FieldMenu_STATUS_PARAMNAME_17": {
+        "SelfId": "Txt_FieldMenu_STATUS_PARAMNAME_17",
+        "Text": "최대 HP"
+      },
+      "Txt_FieldMenu_STATUS_PARAMNAME_18": {
+        "SelfId": "Txt_FieldMenu_STATUS_PARAMNAME_18",
+        "Text": "최대 MP"
+      },
+      "Txt_FieldMenu_STATUS_PARAMNAME_19": {
+        "SelfId": "Txt_FieldMenu_STATUS_PARAMNAME_19",
+        "Text": "이름"
+      },
+      "Txt_FieldMenu_STATUS_Name_01": {
+        "SelfId": "Txt_FieldMenu_STATUS_Name_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_Name_02": {
+        "SelfId": "Txt_FieldMenu_STATUS_Name_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_Name_03": {
+        "SelfId": "Txt_FieldMenu_STATUS_Name_03",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_Name_04": {
+        "SelfId": "Txt_FieldMenu_STATUS_Name_04",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_Level_01": {
+        "SelfId": "Txt_FieldMenu_STATUS_Level_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_Level_02": {
+        "SelfId": "Txt_FieldMenu_STATUS_Level_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_Level_03": {
+        "SelfId": "Txt_FieldMenu_STATUS_Level_03",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_Level_04": {
+        "SelfId": "Txt_FieldMenu_STATUS_Level_04",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_Job_01": {
+        "SelfId": "Txt_FieldMenu_STATUS_Job_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_Job_02": {
+        "SelfId": "Txt_FieldMenu_STATUS_Job_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_Job_03": {
+        "SelfId": "Txt_FieldMenu_STATUS_Job_03",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_Job_04": {
+        "SelfId": "Txt_FieldMenu_STATUS_Job_04",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_HP_01": {
+        "SelfId": "Txt_FieldMenu_STATUS_HP_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_HP_02": {
+        "SelfId": "Txt_FieldMenu_STATUS_HP_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_HP_03": {
+        "SelfId": "Txt_FieldMenu_STATUS_HP_03",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_HP_04": {
+        "SelfId": "Txt_FieldMenu_STATUS_HP_04",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_MP_01": {
+        "SelfId": "Txt_FieldMenu_STATUS_MP_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_MP_02": {
+        "SelfId": "Txt_FieldMenu_STATUS_MP_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_MP_03": {
+        "SelfId": "Txt_FieldMenu_STATUS_MP_03",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_MP_04": {
+        "SelfId": "Txt_FieldMenu_STATUS_MP_04",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_MAXHP_01": {
+        "SelfId": "Txt_FieldMenu_STATUS_MAXHP_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_MAXHP_02": {
+        "SelfId": "Txt_FieldMenu_STATUS_MAXHP_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_MAXHP_03": {
+        "SelfId": "Txt_FieldMenu_STATUS_MAXHP_03",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_MAXHP_04": {
+        "SelfId": "Txt_FieldMenu_STATUS_MAXHP_04",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_MAXMP_01": {
+        "SelfId": "Txt_FieldMenu_STATUS_MAXMP_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_MAXMP_02": {
+        "SelfId": "Txt_FieldMenu_STATUS_MAXMP_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_MAXMP_03": {
+        "SelfId": "Txt_FieldMenu_STATUS_MAXMP_03",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_MAXMP_04": {
+        "SelfId": "Txt_FieldMenu_STATUS_MAXMP_04",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_REMAINHP_01": {
+        "SelfId": "Txt_FieldMenu_STATUS_REMAINHP_01",
+        "Text": "{0} / {1}"
+      },
+      "Txt_FieldMenu_STATUS_REMAINHP_02": {
+        "SelfId": "Txt_FieldMenu_STATUS_REMAINHP_02",
+        "Text": "{0} / {1}"
+      },
+      "Txt_FieldMenu_STATUS_REMAINHP_03": {
+        "SelfId": "Txt_FieldMenu_STATUS_REMAINHP_03",
+        "Text": "{0} / {1}"
+      },
+      "Txt_FieldMenu_STATUS_REMAINHP_04": {
+        "SelfId": "Txt_FieldMenu_STATUS_REMAINHP_04",
+        "Text": "{0} / {1}"
+      },
+      "Txt_FieldMenu_STATUS_REMAINMP_01": {
+        "SelfId": "Txt_FieldMenu_STATUS_REMAINMP_01",
+        "Text": "{0} / {1}"
+      },
+      "Txt_FieldMenu_STATUS_REMAINMP_02": {
+        "SelfId": "Txt_FieldMenu_STATUS_REMAINMP_02",
+        "Text": "{0} / {1}"
+      },
+      "Txt_FieldMenu_STATUS_REMAINMP_03": {
+        "SelfId": "Txt_FieldMenu_STATUS_REMAINMP_03",
+        "Text": "{0} / {1}"
+      },
+      "Txt_FieldMenu_STATUS_REMAINMP_04": {
+        "SelfId": "Txt_FieldMenu_STATUS_REMAINMP_04",
+        "Text": "{0} / {1}"
+      },
+      "Txt_FieldMenu_STATUS_POW_01": {
+        "SelfId": "Txt_FieldMenu_STATUS_POW_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_POW_02": {
+        "SelfId": "Txt_FieldMenu_STATUS_POW_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_POW_03": {
+        "SelfId": "Txt_FieldMenu_STATUS_POW_03",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_POW_04": {
+        "SelfId": "Txt_FieldMenu_STATUS_POW_04",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_GAR_01": {
+        "SelfId": "Txt_FieldMenu_STATUS_GAR_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_GAR_02": {
+        "SelfId": "Txt_FieldMenu_STATUS_GAR_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_GAR_03": {
+        "SelfId": "Txt_FieldMenu_STATUS_GAR_03",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_GAR_04": {
+        "SelfId": "Txt_FieldMenu_STATUS_GAR_04",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_ATK_01": {
+        "SelfId": "Txt_FieldMenu_STATUS_ATK_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_ATK_02": {
+        "SelfId": "Txt_FieldMenu_STATUS_ATK_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_ATK_03": {
+        "SelfId": "Txt_FieldMenu_STATUS_ATK_03",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_ATK_04": {
+        "SelfId": "Txt_FieldMenu_STATUS_ATK_04",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_DEF_01": {
+        "SelfId": "Txt_FieldMenu_STATUS_DEF_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_DEF_02": {
+        "SelfId": "Txt_FieldMenu_STATUS_DEF_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_DEF_03": {
+        "SelfId": "Txt_FieldMenu_STATUS_DEF_03",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_DEF_04": {
+        "SelfId": "Txt_FieldMenu_STATUS_DEF_04",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_SPD_01": {
+        "SelfId": "Txt_FieldMenu_STATUS_SPD_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_SPD_02": {
+        "SelfId": "Txt_FieldMenu_STATUS_SPD_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_SPD_03": {
+        "SelfId": "Txt_FieldMenu_STATUS_SPD_03",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_SPD_04": {
+        "SelfId": "Txt_FieldMenu_STATUS_SPD_04",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_STA_01": {
+        "SelfId": "Txt_FieldMenu_STATUS_STA_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_STA_02": {
+        "SelfId": "Txt_FieldMenu_STATUS_STA_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_STA_03": {
+        "SelfId": "Txt_FieldMenu_STATUS_STA_03",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_STA_04": {
+        "SelfId": "Txt_FieldMenu_STATUS_STA_04",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_INT_01": {
+        "SelfId": "Txt_FieldMenu_STATUS_INT_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_INT_02": {
+        "SelfId": "Txt_FieldMenu_STATUS_INT_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_INT_03": {
+        "SelfId": "Txt_FieldMenu_STATUS_INT_03",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_INT_04": {
+        "SelfId": "Txt_FieldMenu_STATUS_INT_04",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_LUC_01": {
+        "SelfId": "Txt_FieldMenu_STATUS_LUC_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_LUC_02": {
+        "SelfId": "Txt_FieldMenu_STATUS_LUC_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_LUC_03": {
+        "SelfId": "Txt_FieldMenu_STATUS_LUC_03",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_LUC_04": {
+        "SelfId": "Txt_FieldMenu_STATUS_LUC_04",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_EXP_01": {
+        "SelfId": "Txt_FieldMenu_STATUS_EXP_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_EXP_02": {
+        "SelfId": "Txt_FieldMenu_STATUS_EXP_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_EXP_03": {
+        "SelfId": "Txt_FieldMenu_STATUS_EXP_03",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_EXP_04": {
+        "SelfId": "Txt_FieldMenu_STATUS_EXP_04",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_NEXTLV_01": {
+        "SelfId": "Txt_FieldMenu_STATUS_NEXTLV_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_NEXTLV_02": {
+        "SelfId": "Txt_FieldMenu_STATUS_NEXTLV_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_NEXTLV_03": {
+        "SelfId": "Txt_FieldMenu_STATUS_NEXTLV_03",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_NEXTLV_04": {
+        "SelfId": "Txt_FieldMenu_STATUS_NEXTLV_04",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_EXP_BLANK": {
+        "SelfId": "Txt_FieldMenu_STATUS_EXP_BLANK",
+        "Text": "―――"
+      },
+      "Txt_FieldMenu_Message_Heal": {
+        "SelfId": "Txt_FieldMenu_Message_Heal",
+        "Text": "{WORD}의 상처가 회복되었다!"
+      },
+      "Txt_FieldMenu_Message_AllHeal": {
+        "SelfId": "Txt_FieldMenu_Message_AllHeal",
+        "Text": "{LEADER} 일행의 상처가 회복되었다!"
+      },
+      "Txt_FieldMenu_Message_ConfirmSorting": {
+        "SelfId": "Txt_FieldMenu_Message_ConfirmSorting",
+        "Text": "장비와 일부 도구 이외의 물건을\r\n주머니에 넣습니다.\r\n계속하시겠습니까?"
+      },
+      "Txt_FieldMenu_Message_FinishSorting": {
+        "SelfId": "Txt_FieldMenu_Message_FinishSorting",
+        "Text": "장비와 일부 도구 이외의 물건을\r\n주머니에 넣었습니다."
+      },
+      "Txt_FieldMenu_Message_NoneSorting": {
+        "SelfId": "Txt_FieldMenu_Message_NoneSorting",
+        "Text": "그러나 주머니는 가득 차 있었다."
+      },
+      "Txt_FieldMenu_Message_ItemUseDeath": {
+        "SelfId": "Txt_FieldMenu_Message_ItemUseDeath",
+        "Text": "{ACTOR}<IfKRVowel_ACTOR(는,은)> 죽은 상태이므로\r\n{I_NAME}<IfKRVowel_I_NAME(를,을)>\r\n사용할 수 없다."
+      },
+      "Txt_FieldMenu_Message_ItemUseParalysis": {
+        "SelfId": "Txt_FieldMenu_Message_ItemUseParalysis",
+        "Text": "{ACTOR}<IfKRVowel_ACTOR(는,은)> 마비되어\r\n{I_NAME}<IfKRVowel_I_NAME(를,을)>\r\n사용할 수 없다."
+      },
+      "Txt_FieldMenu_Message_ItemUseConfus": {
+        "SelfId": "Txt_FieldMenu_Message_ItemUseConfus",
+        "Text": "{ACTOR}<IfKRVowel_ACTOR(는,은)> 혼란스러워\r\n{I_NAME}<IfKRVowel_I_NAME(를,을)> 사용할 수 없다."
+      },
+      "Txt_FieldMenu_Message_ItemCannotUse": {
+        "SelfId": "Txt_FieldMenu_Message_ItemCannotUse",
+        "Text": "그러나 아무도 {I_NAME}<IfKRVowel_I_NAME(를,을)>\r\n쓰지 못했다."
+      },
+      "Txt_FieldMenu_Message_ItemGetBagMax": {
+        "SelfId": "Txt_FieldMenu_Message_ItemGetBagMax",
+        "Text": "더 이상 {I_NAME}<IfKRVowel_I_NAME(는,은)>\r\n{BAG}에 들어가지 않는다."
+      },
+      "Txt_FieldMenu_Message_NoItem": {
+        "SelfId": "Txt_FieldMenu_Message_NoItem",
+        "Text": "{ACTOR}<IfKRVowel_ACTOR(는,은)> 도구를 가지고 있지 않다."
+      },
+      "Txt_FieldMenu_Message_EmptyBag": {
+        "SelfId": "Txt_FieldMenu_Message_EmptyBag",
+        "Text": "주머니 안에는 아무것도 없다!"
+      },
+      "Txt_FieldMenu_Message_Mantan_Fail": {
+        "SelfId": "Txt_FieldMenu_Message_Mantan_Fail",
+        "Text": "그러나 지금은 완전 회복 상태라\r\n아무 일도 일어나지 않았다!"
+      },
+      "Txt_FieldMenu_Message_AlmostMantan_Fail": {
+        "SelfId": "Txt_FieldMenu_Message_AlmostMantan_Fail",
+        "Text": "그러나 지금은 거의 가득 찬 상태라\r\n아무 일도 일어나지 않았다!"
+      },
+      "Txt_FieldMenu_Message_Mantan_FailMagic": {
+        "SelfId": "Txt_FieldMenu_Message_Mantan_FailMagic",
+        "Text": "그러나 주문을 외우지 못했다."
+      },
+      "Txt_FieldMenu_Message_HandoverSelect": {
+        "SelfId": "Txt_FieldMenu_Message_HandoverSelect",
+        "Text": "{I_NAME}<IfKRVowel_I_NAME(를,을)>\r\n누구에게 주시겠습니까?<NO_INPUT>"
+      },
+      "Txt_FieldMenu_Message_HandoverResult_01": {
+        "SelfId": "Txt_FieldMenu_Message_HandoverResult_01",
+        "Text": "{ACTOR}<IfKRVowel_ACTOR(는,은)> {I_NAME}<IfKRVowel_I_NAME(를,을)>\r\n{TARGET}에게 넘겨주었다."
+      },
+      "Txt_FieldMenu_Message_HandoverResult_02": {
+        "SelfId": "Txt_FieldMenu_Message_HandoverResult_02",
+        "Text": "{ACTOR}<IfKRVowel_ACTOR(는,은)> {I_NAME}<IfKRVowel_I_NAME(를,을)>\r\n{TARGET}의 소지품에 넣었다."
+      },
+      "Txt_FieldMenu_Message_HandoverResult_03": {
+        "SelfId": "Txt_FieldMenu_Message_HandoverResult_03",
+        "Text": "{ACTOR}<IfKRVowel_ACTOR(는,은)> {I_NAME}<IfKRVowel_I_NAME(를,을)>\r\n바꿔 들었다."
+      },
+      "Txt_FieldMenu_Message_HandoverResult_04": {
+        "SelfId": "Txt_FieldMenu_Message_HandoverResult_04",
+        "Text": "{TARGET}<IfKRVowel_TARGET(는,은)> {I_NAME}<IfKRVowel_I_NAME(를,을)>\r\n{ACTOR}의 소지품에서 꺼냈다."
+      },
+      "Txt_FieldMenu_Message_HandoverResult_05": {
+        "SelfId": "Txt_FieldMenu_Message_HandoverResult_05",
+        "Text": "{LEADER}<IfKRVowel_LEADER(는,은)> {I_NAME}<IfKRVowel_I_NAME(를,을)>\r\n{ACTOR}의 소지품에서 꺼내\r\n{TARGET}의 소지품에 넣었다."
+      },
+      "Txt_FieldMenu_Message_HandoverResult_06": {
+        "SelfId": "Txt_FieldMenu_Message_HandoverResult_06",
+        "Text": "{LEADER}<IfKRVowel_LEADER(는,은)> {I_NAME}<IfKRVowel_I_NAME(를,을)>\r\n{ACTOR}의 소지품에서 꺼내\r\n{ACTOR}의 소지품에 넣었다."
+      },
+      "Txt_FieldMenu_Message_HandoverResult_07": {
+        "SelfId": "Txt_FieldMenu_Message_HandoverResult_07",
+        "Text": "{ACTOR}의 {I_NAME}<IfKRVowel_I_NAME(와,과)>\r\n{TARGET}의 {I_NAME2}<IfKRVowel_I_NAME2(를,을)>\r\n교환했다."
+      },
+      "Txt_FieldMenu_Message_HandoverResult_08": {
+        "SelfId": "Txt_FieldMenu_Message_HandoverResult_08",
+        "Text": "{LEADER}<IfKRVowel_LEADER(는,은)>\r\n{ACTOR}의 {I_NAME}<IfKRVowel_I_NAME(와,과)>\r\n{TARGET}의 {I_NAME2}<IfKRVowel_I_NAME2(를,을)> 교환했다."
+      },
+      "Txt_FieldMenu_Message_HandoverResult_09": {
+        "SelfId": "Txt_FieldMenu_Message_HandoverResult_09",
+        "Text": "{ACTOR}<IfKRVowel_ACTOR(는,은)> {I_NAME}<IfKRVowel_I_NAME(를,을)>\r\n{BAG}에 넣었다."
+      },
+      "Txt_FieldMenu_Message_HandoverResult_10": {
+        "SelfId": "Txt_FieldMenu_Message_HandoverResult_10",
+        "Text": "{TARGET}<IfKRVowel_TARGET(는,은)> {BAG}에서\r\n{I_NAME}<IfKRVowel_I_NAME(를,을)> 꺼냈다."
+      },
+      "Txt_FieldMenu_Message_HandoverResult_11": {
+        "SelfId": "Txt_FieldMenu_Message_HandoverResult_11",
+        "Text": "{LEADER}<IfKRVowel_LEADER(는,은)> {I_NAME}<IfKRVowel_I_NAME(를,을)>\r\n{ACTOR}의 소지품에서 꺼내\r\n{BAG}에 넣었다."
+      },
+      "Txt_FieldMenu_Message_HandoverResult_12": {
+        "SelfId": "Txt_FieldMenu_Message_HandoverResult_12",
+        "Text": "{LEADER}<IfKRVowel_LEADER(는,은)> {BAG}에서\r\n{I_NAME}<IfKRVowel_I_NAME(를,을)> 꺼내\r\n{TARGET}의 소지품에 넣었다."
+      },
+      "Txt_FieldMenu_Message_HandoverResult_13": {
+        "SelfId": "Txt_FieldMenu_Message_HandoverResult_13",
+        "Text": "{LEADER}<IfKRVowel_LEADER(는,은)> {I_NAME}<IfKRVowel_I_NAME(를,을)>\r\n가만히 {BAG}에 다시 넣었다."
+      },
+      "Txt_FieldMenu_Message_HandoverResult_14": {
+        "SelfId": "Txt_FieldMenu_Message_HandoverResult_14",
+        "Text": "{BAG}의 {I_NAME}<IfKRVowel_I_NAME(와,과)>\r\n{TARGET}의 {I_NAME2}<IfKRVowel_I_NAME2(를,을)>\r\n교환했다."
+      },
+      "Txt_FieldMenu_Message_HandoverResult_15": {
+        "SelfId": "Txt_FieldMenu_Message_HandoverResult_15",
+        "Text": "{LEADER}<IfKRVowel_LEADER(는,은)>\r\n{BAG}의 {I_NAME}<IfKRVowel_I_NAME(와,과)>\r\n{TARGET}의 {I_NAME2}<IfKRVowel_I_NAME2(를,을)> 교환했다."
+      },
+      "Txt_FieldMenu_Message_HandoverCancel": {
+        "SelfId": "Txt_FieldMenu_Message_HandoverCancel",
+        "Text": "{LEADER}<IfKRVowel_LEADER(는,은)> {I_NAME}<IfKRVowel_I_NAME(를,을)>\r\n가만히 {BAG}에 다시 넣었다."
+      },
+      "Txt_FieldMenu_Message_HandoverImportant": {
+        "SelfId": "Txt_FieldMenu_Message_HandoverImportant",
+        "Text": "{I_NAME}<IfKRVowel_I_NAME(는,은)> 넣어 두자."
+      },
+      "Txt_FieldMenu_Message_HandoverEquip": {
+        "SelfId": "Txt_FieldMenu_Message_HandoverEquip",
+        "Text": "{I_NAME}<IfKRVowel_I_NAME(를,을)> 장비하시겠습니까?"
+      },
+      "Txt_FieldMenu_Message_ExchangeCancel": {
+        "SelfId": "Txt_FieldMenu_Message_ExchangeCancel",
+        "Text": "{I_NAME}<IfKRVowel_I_NAME(를,을)>\r\n교체하지 않기로 했다."
+      },
+      "Txt_FieldMenu_Message_ExchangeSelect": {
+        "SelfId": "Txt_FieldMenu_Message_ExchangeSelect",
+        "Text": "무엇과 교환하시겠습니까?<NO_INPUT>"
+      },
+      "Txt_FieldMenu_Message_ReplaceSelect": {
+        "SelfId": "Txt_FieldMenu_Message_ReplaceSelect",
+        "Text": "무엇과 교체하시겠습니까?<NO_INPUT>"
+      },
+      "Txt_FieldMenu_Message_CurseLift": {
+        "SelfId": "Txt_FieldMenu_Message_CurseLift",
+        "Text": "저주 때문에 {I_NAME}<IfKRVowel_I_NAME(가,이)>\r\n몸에서 떨어지지 않는다!"
+      },
+      "Txt_FieldMenu_Message_CurseOccur": {
+        "SelfId": "Txt_FieldMenu_Message_CurseOccur",
+        "Text": "{I_NAME}에는\r\n저주가 걸려 있었다!"
+      },
+      "Txt_FieldMenu_Message_SelectAccessorie": {
+        "SelfId": "Txt_FieldMenu_Message_SelectAccessorie",
+        "Text": "장비할 칸을 선택하십시오.<NO_INPUT>"
+      },
+      "Txt_FieldMenu_Message_ShowNone": {
+        "SelfId": "Txt_FieldMenu_Message_ShowNone",
+        "Text": "물건을 감정할 상인이\r\n동료로 합류하지 않았다!"
+      },
+      "Txt_FieldMenu_Message_ShowDeath": {
+        "SelfId": "Txt_FieldMenu_Message_ShowDeath",
+        "Text": "{ACTOR}<IfKRVowel_ACTOR(는,은)> 죽은 상태이므로\r\n도구를 살펴볼 수 없다."
+      },
+      "Txt_FieldMenu_Message_DumpCanNot": {
+        "SelfId": "Txt_FieldMenu_Message_DumpCanNot",
+        "Text": "그것을 버리다니 말도 안 된다!"
+      },
+      "Txt_FieldMenu_Message_DumpLare": {
+        "SelfId": "Txt_FieldMenu_Message_DumpLare",
+        "Text": "{I_NAME}<IfKRVowel_I_NAME(를,을)> 버리면\r\n다시 획득하지 못할 수 있습니다.\r\n정말로 버리시겠습니까?"
+      },
+      "Txt_FieldMenu_Message_DumpEquip": {
+        "SelfId": "Txt_FieldMenu_Message_DumpEquip",
+        "Text": "{I_NAME}<IfKRVowel_I_NAME(는,은)> 현재 장비 중입니다만\r\n버리시겠습니까?"
+      },
+      "Txt_FieldMenu_Message_DumpConfirm": {
+        "SelfId": "Txt_FieldMenu_Message_DumpConfirm",
+        "Text": "{I_NAME}<IfKRVowel_I_NAME(를,을)>\r\n버리시겠습니까?"
+      },
+      "Txt_FieldMenu_Message_DumpConfirmMultiple": {
+        "SelfId": "Txt_FieldMenu_Message_DumpConfirmMultiple",
+        "Text": "{I_NAME}<IfKRVowel_I_NAME(를,을)> {VALUE}개\r\n버리시겠습니까?"
+      },
+      "Txt_FieldMenu_Message_DumpResult": {
+        "SelfId": "Txt_FieldMenu_Message_DumpResult",
+        "Text": "{I_NAME}<IfKRVowel_I_NAME(를,을)> 내다 버렸다."
+      },
+      "Txt_FieldMenu_Message_DumpResultMultiple": {
+        "SelfId": "Txt_FieldMenu_Message_DumpResultMultiple",
+        "Text": "{I_NAME}<IfKRVowel_I_NAME(를,을)> {VALUE}개 버렸다."
+      },
+      "Txt_FieldMenu_Message_DumpCancel": {
+        "SelfId": "Txt_FieldMenu_Message_DumpCancel",
+        "Text": "{I_NAME}<IfKRVowel_I_NAME(를,을)> 버리지 않기로 했다."
+      },
+      "Txt_FieldMenu_Message_EquipOwner": {
+        "SelfId": "Txt_FieldMenu_Message_EquipOwner",
+        "Text": "{WORD}의 소지품을\r\n{ACTOR}에게 주고 장비하시겠습니까?"
+      },
+      "Txt_FieldMenu_Message_EquipRental": {
+        "SelfId": "Txt_FieldMenu_Message_EquipRental",
+        "Text": "지금은 장비를 교체할 수 없다."
+      },
+      "Txt_FieldMenu_Message_EquipEquipper": {
+        "SelfId": "Txt_FieldMenu_Message_EquipEquipper",
+        "Text": "{I_NAME}<IfKRVowel_I_NAME(는,은)>\r\n{WORD}<IfKRVowel_WORD(가,이)> 장비 중입니다.\r\n해제하고 {ACTOR}에게 장비하시겠습니까?"
+      },
+      "Txt_FieldMenu_Message_EquipInventoryMax_01": {
+        "SelfId": "Txt_FieldMenu_Message_EquipInventoryMax_01",
+        "Text": "{ACTOR}의 소지품이 가득해서\r\n도구를 교체할 수 없습니다."
+      },
+      "Txt_FieldMenu_Message_EquipInventoryMax_02": {
+        "SelfId": "Txt_FieldMenu_Message_EquipInventoryMax_02",
+        "Text": "{ACTOR}의\r\n소지품을 정리하시겠습니까?"
+      },
+      "Txt_FieldMenu_Message_EquipResult": {
+        "SelfId": "Txt_FieldMenu_Message_EquipResult",
+        "Text": "{ACTOR}<IfKRVowel_ACTOR(는,은)> {I_NAME}<IfKRVowel_I_NAME(를,을)>\r\n장비했다!"
+      },
+      "Txt_FieldMenu_Message_EquipUnequip": {
+        "SelfId": "Txt_FieldMenu_Message_EquipUnequip",
+        "Text": "{ACTOR}<IfKRVowel_ACTOR(는,은)> {I_NAME}<IfKRVowel_I_NAME(를,을)>\r\n해제했다."
+      },
+      "Txt_FieldMenu_Message_EquipNothing": {
+        "SelfId": "Txt_FieldMenu_Message_EquipNothing",
+        "Text": "장착 가능한 장비가 없습니다!"
+      },
+      "Txt_FieldMenu_Message_EquipAuto": {
+        "SelfId": "Txt_FieldMenu_Message_EquipAuto",
+        "Text": "{ACTOR}<IfKRVowel_ACTOR(는,은)>\r\n더 강한 장비로 바꿔 꼈다."
+      },
+      "Txt_FieldMenu_Message_EquipAutoFailed": {
+        "SelfId": "Txt_FieldMenu_Message_EquipAutoFailed",
+        "Text": "{ACTOR}<IfKRVowel_ACTOR(는,은)>\r\n이미 가장 강한 장비를 입고 있다!"
+      },
+      "Txt_FieldMenu_Message_EquipReplaceAccessorie": {
+        "SelfId": "Txt_FieldMenu_Message_EquipReplaceAccessorie",
+        "Text": "{ACTOR}<IfKRVowel_ACTOR(는,은)> {I_NAME}<IfKRVowel_I_NAME(를,을)> 바꿔 꼈다."
+      },
+      "Txt_FieldMenu_Message_MemoryNone": {
+        "SelfId": "Txt_FieldMenu_Message_MemoryNone",
+        "Text": "그러나 아무것도 떠올리지 못했다."
+      },
+      "Txt_FieldMenu_Message_MemoryDelete": {
+        "SelfId": "Txt_FieldMenu_Message_MemoryDelete",
+        "Text": "이 기억을 잊으시겠습니까?"
+      },
+      "Txt_FieldMenu_Message_MemoryDeleteResult": {
+        "SelfId": "Txt_FieldMenu_Message_MemoryDeleteResult",
+        "Text": "이 기억을 잊었다."
+      },
+      "Txt_FieldMenu_Message_MagicNone": {
+        "SelfId": "Txt_FieldMenu_Message_MagicNone",
+        "Text": "{ACTOR}<IfKRVowel_ACTOR(는,은)>\r\n주문을 배우지 않았다."
+      },
+      "Txt_FieldMenu_Message_BattleMagic": {
+        "SelfId": "Txt_FieldMenu_Message_BattleMagic",
+        "Text": "그 주문은\r\n이동 중에 쓸 수 없다."
+      },
+      "Txt_FieldMenu_Message_MagicUse": {
+        "SelfId": "Txt_FieldMenu_Message_MagicUse",
+        "Text": "{ACTOR}<IfKRVowel_ACTOR(는,은)>\r\n{WORD}<IfKRVowel_WORD(를,을)> 외쳤다!"
+      },
+      "Txt_FieldMenu_Message_MagicNotenoughMP": {
+        "SelfId": "Txt_FieldMenu_Message_MagicNotenoughMP",
+        "Text": "{ACTOR}<IfKRVowel_ACTOR(는,은)> {WORD}<IfKRVowel_WORD(를,을)> 외우려 했다.\r\n그러나 MP가 부족하다!"
+      },
+      "Txt_FieldMenu_Message_MagicUnskilled": {
+        "SelfId": "Txt_FieldMenu_Message_MagicUnskilled",
+        "Text": "아직 그 주문을 배우지 않았다."
+      },
+      "Txt_FieldMenu_Message_MagicUseDeath": {
+        "SelfId": "Txt_FieldMenu_Message_MagicUseDeath",
+        "Text": "{ACTOR}<IfKRVowel_ACTOR(는,은)>\r\n죽어서 주문을 외울 수 없다."
+      },
+      "Txt_FieldMenu_Message_MagicUseParalysis": {
+        "SelfId": "Txt_FieldMenu_Message_MagicUseParalysis",
+        "Text": "{ACTOR}<IfKRVowel_ACTOR(는,은)>\r\n몸이 마비돼 주문을 외울 수 없다."
+      },
+      "Txt_FieldMenu_Message_MagicUseConfusion": {
+        "SelfId": "Txt_FieldMenu_Message_MagicUseConfusion",
+        "Text": "{ACTOR}<IfKRVowel_ACTOR(는,은)> 혼란스러워\r\n주문을 외울 수 없다."
+      },
+      "Txt_FieldMenu_Message_SkillNone": {
+        "SelfId": "Txt_FieldMenu_Message_SkillNone",
+        "Text": "{ACTOR}<IfKRVowel_ACTOR(는,은)>\r\n특기를 배우지 않았다."
+      },
+      "Txt_FieldMenu_Message_BattleSkill": {
+        "SelfId": "Txt_FieldMenu_Message_BattleSkill",
+        "Text": "그 특기는\r\n이동 중에 쓸 수 없다."
+      },
+      "Txt_FieldMenu_Message_SkillNotenoughMP": {
+        "SelfId": "Txt_FieldMenu_Message_SkillNotenoughMP",
+        "Text": "{ACTOR}<IfKRVowel_ACTOR(는,은)> {WORD}<IfKRVowel_WORD(를,을)> 사용하려 했다.\r\n그러나 MP가 부족하다!"
+      },
+      "Txt_FieldMenu_Message_SkillUnskilled": {
+        "SelfId": "Txt_FieldMenu_Message_SkillUnskilled",
+        "Text": "아직 그 특기를 배우지 않았다."
+      },
+      "Txt_FieldMenu_Message_SkillUseDeath": {
+        "SelfId": "Txt_FieldMenu_Message_SkillUseDeath",
+        "Text": "{ACTOR}<IfKRVowel_ACTOR(는,은)>\r\n죽어서 특기를 사용할 수 없다."
+      },
+      "Txt_FieldMenu_Message_SkillUseParalysis": {
+        "SelfId": "Txt_FieldMenu_Message_SkillUseParalysis",
+        "Text": "{ACTOR}<IfKRVowel_ACTOR(는,은)>\r\n몸이 마비돼 특기를 사용할 수 없다."
+      },
+      "Txt_FieldMenu_Message_SkillUseConfusion": {
+        "SelfId": "Txt_FieldMenu_Message_SkillUseConfusion",
+        "Text": "{ACTOR}<IfKRVowel_ACTOR(는,은)> 혼란스러워\r\n특기를 사용할 수 없다."
+      },
+      "Txt_FieldMenu_Message_MiscLineupImpossible": {
+        "SelfId": "Txt_FieldMenu_Message_MiscLineupImpossible",
+        "Text": "지금은 순서를 바꿀 수 있는 동료가 없다."
+      },
+      "Txt_FieldMenu_Message_MiscTextOptionConfirm_01": {
+        "SelfId": "Txt_FieldMenu_Message_MiscTextOptionConfirm_01",
+        "Text": "메시지에 후리가나를 표시할 수 있습니다.\r\n표시하시겠습니까?"
+      },
+      "Txt_FieldMenu_Message_MiscTextOptionConfirm_02": {
+        "SelfId": "Txt_FieldMenu_Message_MiscTextOptionConfirm_02",
+        "Text": "설정을 ‘히라가나 모드’로 변경하시겠습니까?\r\n게임 텍스트가\r\n전부 히라가나로 표시됩니다."
+      },
+      "Txt_FieldMenu_Message_MiscTextOptionConfirm_01_off": {
+        "SelfId": "Txt_FieldMenu_Message_MiscTextOptionConfirm_01_off",
+        "Text": "<ERROR!>"
+      },
+      "Txt_FieldMenu_Message_MiscTextOptionConfirm_02_off": {
+        "SelfId": "Txt_FieldMenu_Message_MiscTextOptionConfirm_02_off",
+        "Text": "<ERROR!>"
+      },
+      "Txt_FieldMenu_Message_MiscTextOptionConfirm_03": {
+        "SelfId": "Txt_FieldMenu_Message_MiscTextOptionConfirm_03",
+        "Text": "컨트롤러의\r\n결정 버튼과 취소 버튼을\r\n교체하시겠습니까?"
+      },
+      "Txt_FieldMenu_Message_MiscTextOptionConfirm_03_PS5": {
+        "SelfId": "Txt_FieldMenu_Message_MiscTextOptionConfirm_03_PS5",
+        "Text": "DualSense™ 무선 컨트롤러의\r\n입력 버튼과 취소 버튼을\r\n교체하시겠습니까?"
+      },
+      "Txt_FieldMenu_Message_MiscTextOptionConfirm_03_Xbox": {
+        "SelfId": "Txt_FieldMenu_Message_MiscTextOptionConfirm_03_Xbox",
+        "Text": "컨트롤러의\r\n결정 버튼과 취소 버튼을\r\n교체하시겠습니까?"
+      },
+      "Txt_FieldMenu_Message_MiscTextOptionConfirm_03_PC": {
+        "SelfId": "Txt_FieldMenu_Message_MiscTextOptionConfirm_03_PC",
+        "Text": "컨트롤러의\r\n결정 버튼과 취소 버튼을\r\n교체하시겠습니까?"
+      },
+      "Txt_FieldMenu_Message_MiscTextOptionNotice_Text": {
+        "SelfId": "Txt_FieldMenu_Message_MiscTextOptionNotice_Text",
+        "Text": "텍스트 언어를 변경하면 캐릭터의 이름 등\r\n일부 문구가 올바르게 표시되지 않을 수 있습니다.\r\n그럴 경우에는 설정을 원래대로 되돌리면 표시도 돌아옵니다."
+      },
+      "Txt_FieldMenu_Message_MiscTextOptionNotice_Voice": {
+        "SelfId": "Txt_FieldMenu_Message_MiscTextOptionNotice_Voice",
+        "Text": "음성 언어와 텍스트 언어가 다를 경우에는\r\n텍스트와 내용이 완전히 일치하지 않을 수 있습니다."
+      },
+      "Txt_FieldMenu_Message_Suspend": {
+        "SelfId": "Txt_FieldMenu_Message_Suspend",
+        "Text": "현재 상황을 저장하고 타이틀 화면으로 돌아갑니다.\r\n계속하시겠습니까?"
+      },
+      "Txt_FieldMenu_Message_Suspend_Overwrite": {
+        "SelfId": "Txt_FieldMenu_Message_Suspend_Overwrite",
+        "Text": "이미 중단 저장이 존재합니다.\r\n덮어쓰시겠습니까?"
+      },
+      "Txt_FieldMenu_Message_Back_To_Title1": {
+        "SelfId": "Txt_FieldMenu_Message_Back_To_Title1",
+        "Text": "마지막 모험의 서를 확인하십시오."
+      },
+      "Txt_FieldMenu_Message_Back_To_Title2": {
+        "SelfId": "Txt_FieldMenu_Message_Back_To_Title2",
+        "Text": "이대로 모험을 마치면\r\n저장하지 않은 내용은 사라집니다."
+      },
+      "Txt_FieldMenu_Message_Back_To_Title3": {
+        "SelfId": "Txt_FieldMenu_Message_Back_To_Title3",
+        "Text": "정말 타이틀로\r\n돌아가시겠습니까?"
+      },
+      "Txt_FieldMenu_Message_BlockSave": {
+        "SelfId": "Txt_FieldMenu_Message_BlockSave",
+        "Text": "지금은 사용할 수 없습니다."
+      },
+      "Txt_FieldMenu_Message_BlockLental": {
+        "SelfId": "Txt_FieldMenu_Message_BlockLental",
+        "Text": "지금은 사용할 수 있는 대상이 없다."
+      },
+      "Txt_FieldMenu_Memory_Popup_SUCCESS": {
+        "SelfId": "Txt_FieldMenu_Memory_Popup_SUCCESS",
+        "Text": "방금 전 일을 기억했습니다."
+      },
+      "Txt_FieldMenu_Memory_Popup_SUCCESS_IN_EVENT": {
+        "SelfId": "Txt_FieldMenu_Memory_Popup_SUCCESS_IN_EVENT",
+        "Text": "이 일을 기억했습니다."
+      },
+      "Txt_FieldMenu_Memory_Popup_ALREADY_MEMORY_IN_EVENT": {
+        "SelfId": "Txt_FieldMenu_Memory_Popup_ALREADY_MEMORY_IN_EVENT",
+        "Text": "이 일은 이미 기억하고 있습니다."
+      },
+      "Txt_FieldMenu_Memory_Popup_MEMORY_FILL": {
+        "SelfId": "Txt_FieldMenu_Memory_Popup_MEMORY_FILL",
+        "Text": "추억이 가득해졌습니다."
+      },
+      "Txt_FieldMenu_Memory_Popup_NOT_ENOUGH_SLOT": {
+        "SelfId": "Txt_FieldMenu_Memory_Popup_NOT_ENOUGH_SLOT",
+        "Text": "추억이 가득해서 기억할 수 없습니다."
+      },
+      "Txt_FieldMenu_Memory_Popup_ALREADY_MEMORY": {
+        "SelfId": "Txt_FieldMenu_Memory_Popup_ALREADY_MEMORY",
+        "Text": "방금 전 일은 이미 기억하고 있습니다."
+      },
+      "Txt_FieldMenu_King_Message_ITEM": {
+        "SelfId": "Txt_FieldMenu_King_Message_ITEM",
+        "Text": "왕은 도구를 가지고 있지 않다."
+      },
+      "Txt_FieldMenu_King_Message_EQUIP": {
+        "SelfId": "Txt_FieldMenu_King_Message_EQUIP",
+        "Text": "왕은 이미 왕의 의상을\r\n입고 있다."
+      },
+      "Txt_FieldMenu_King_Message_MEMORY": {
+        "SelfId": "Txt_FieldMenu_King_Message_MEMORY",
+        "Text": "왕에게 되돌아볼 과거는 없다."
+      },
+      "Txt_FieldMenu_King_Message_MAGIC": {
+        "SelfId": "Txt_FieldMenu_King_Message_MAGIC",
+        "Text": "왕은 주문을 사용할 수 없다."
+      },
+      "Txt_FieldMenu_King_Message_SKILL": {
+        "SelfId": "Txt_FieldMenu_King_Message_SKILL",
+        "Text": "왕은 특기를 사용할 수 없다."
+      },
+      "Txt_FieldMenu_King_Message_MAXHEAL": {
+        "SelfId": "Txt_FieldMenu_King_Message_MAXHEAL",
+        "Text": "왕은 다치지 않았다."
+      },
+      "Txt_FieldMenu_King_Message_ALMOSTHEAL": {
+        "SelfId": "Txt_FieldMenu_King_Message_ALMOSTHEAL",
+        "Text": "왕은 다치지 않았다."
+      },
+      "Txt_FieldMenu_King_Message_ATATUS": {
+        "SelfId": "Txt_FieldMenu_King_Message_ATATUS",
+        "Text": "왕은 옛날에\r\n아주 강했다고 한다."
+      },
+      "Txt_FieldMenu_King_Message_SORT": {
+        "SelfId": "Txt_FieldMenu_King_Message_SORT",
+        "Text": "왕은 순서를 바꾸려 했다.<KEY_WAIT>\r\n그러나 왕은 혼자뿐이었다."
+      },
+      "Txt_FieldMenu_King_Message_STRATEGY": {
+        "SelfId": "Txt_FieldMenu_King_Message_STRATEGY",
+        "Text": "왕은 작전을 세우려 했다.<KEY_WAIT>\r\n그러나 지금은 그럴 필요가 없는 듯하다."
+      },
+      "Txt_FieldMenu_King_Message_WARP": {
+        "SelfId": "Txt_FieldMenu_King_Message_WARP",
+        "Text": "왕은 로마리아에서 나갈 필요가 없다."
+      },
+      "Txt_FieldMenu_Queen_Message_ITEM": {
+        "SelfId": "Txt_FieldMenu_Queen_Message_ITEM",
+        "Text": "여왕은 도구를 가지고 있지 않다."
+      },
+      "Txt_FieldMenu_Queen_Message_EQUIP": {
+        "SelfId": "Txt_FieldMenu_Queen_Message_EQUIP",
+        "Text": "여왕은 이미 왕의 의상을\r\n입고 있다."
+      },
+      "Txt_FieldMenu_Queen_Message_MEMORY": {
+        "SelfId": "Txt_FieldMenu_Queen_Message_MEMORY",
+        "Text": "여왕에게 되돌아볼 과거는 없다."
+      },
+      "Txt_FieldMenu_Queen_Message_MAGIC": {
+        "SelfId": "Txt_FieldMenu_Queen_Message_MAGIC",
+        "Text": "여왕은 주문을 사용할 수 없다."
+      },
+      "Txt_FieldMenu_Queen_Message_SKILL": {
+        "SelfId": "Txt_FieldMenu_Queen_Message_SKILL",
+        "Text": "여왕은 특기를 사용할 수 없다."
+      },
+      "Txt_FieldMenu_Queen_Message_MAXHEAL": {
+        "SelfId": "Txt_FieldMenu_Queen_Message_MAXHEAL",
+        "Text": "여왕은 다치지 않았다."
+      },
+      "Txt_FieldMenu_Queen_Message_ALMOSTHEAL": {
+        "SelfId": "Txt_FieldMenu_Queen_Message_ALMOSTHEAL",
+        "Text": "여왕은 다치지 않았다."
+      },
+      "Txt_FieldMenu_Queen_Message_ATATUS": {
+        "SelfId": "Txt_FieldMenu_Queen_Message_ATATUS",
+        "Text": "여왕은 옛날에\r\n아주 강했다고 한다."
+      },
+      "Txt_FieldMenu_Queen_Message_SORT": {
+        "SelfId": "Txt_FieldMenu_Queen_Message_SORT",
+        "Text": "여왕은 순서를 바꾸려 했다.<KEY_WAIT>\r\n그러나 여왕은 혼자뿐이었다."
+      },
+      "Txt_FieldMenu_Queen_Message_STRATEGY": {
+        "SelfId": "Txt_FieldMenu_Queen_Message_STRATEGY",
+        "Text": "여왕은 작전을 세우려 했다.<KEY_WAIT>\r\n그러나 지금은 그럴 필요가 없는 듯하다."
+      },
+      "Txt_FieldMenu_Queen_Message_WARP": {
+        "SelfId": "Txt_FieldMenu_Queen_Message_WARP",
+        "Text": "여왕은 로마리아에서 나갈 필요가 없다."
+      }
+    }
+  }
+]

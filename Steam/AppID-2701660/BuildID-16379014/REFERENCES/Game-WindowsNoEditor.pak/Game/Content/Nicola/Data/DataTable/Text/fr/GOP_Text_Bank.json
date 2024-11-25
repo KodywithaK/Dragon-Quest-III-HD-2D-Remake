@@ -1,0 +1,132 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_Bank",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Bank_UI_TOP_01": {
+        "SelfId": "Txt_Bank_UI_TOP_01",
+        "Text": "Dépôt"
+      },
+      "Txt_Bank_UI_TOP_02": {
+        "SelfId": "Txt_Bank_UI_TOP_02",
+        "Text": "Retrait"
+      },
+      "Txt_Bank_UI_TOP_03": {
+        "SelfId": "Txt_Bank_UI_TOP_03",
+        "Text": "Annuler"
+      },
+      "Txt_Bank_UI_SelectGoldMenu_01": {
+        "SelfId": "Txt_Bank_UI_SelectGoldMenu_01",
+        "Text": "Somme sur soi"
+      },
+      "Txt_Bank_UI_SelectGoldMenu_02": {
+        "SelfId": "Txt_Bank_UI_SelectGoldMenu_02",
+        "Text": "Somme en dépôt"
+      },
+      "Txt_Bank_UI_Gold": {
+        "SelfId": "Txt_Bank_UI_Gold",
+        "Text": "{0}"
+      },
+      "Txt_Bank_UI_BalanceGold": {
+        "SelfId": "Txt_Bank_UI_BalanceGold",
+        "Text": "{0}"
+      },
+      "Txt_Bank_UI_SelectGold": {
+        "SelfId": "Txt_Bank_UI_SelectGold",
+        "Text": "{0}"
+      },
+      "Txt_Bank_UI_Max": {
+        "SelfId": "Txt_Bank_UI_Max",
+        "Text": "Toutes les pièces d'or"
+      },
+      "Txt_Bank_Message_Start_Bar": {
+        "SelfId": "Txt_Bank_Message_Start_Bar",
+        "Text": "*: Bienvenue à la Banque du Trésor de l'Arc-en-ciel!"
+      },
+      "Txt_Bank_Message_First_01_Bar": {
+        "SelfId": "Txt_Bank_Message_First_01_Bar",
+        "Text": "*: Nous veillerons sur l'argent que vous avez gagné à la sueur de votre front!"
+      },
+      "Txt_Bank_Message_First_02_Bar": {
+        "SelfId": "Txt_Bank_Message_First_02_Bar",
+        "Text": "*: Nous acceptons les dépôts et les retraits par tranches de cent pièces d'or."
+      },
+      "Txt_Bank_Message_First_03_Bar": {
+        "SelfId": "Txt_Bank_Message_First_03_Bar",
+        "Text": "*: Bien entendu, nos services sont entièrement gratuits!"
+      },
+      "Txt_Bank_Message_First_04_Bar": {
+        "SelfId": "Txt_Bank_Message_First_04_Bar",
+        "Text": "*: Alors, que puis-je faire pour vous, {LEADER}?<NO_INPUT>"
+      },
+      "Txt_Bank_Message_TopBalance_Bar": {
+        "SelfId": "Txt_Bank_Message_TopBalance_Bar",
+        "Text": "*: Votre solde est actuellement de {VALUE}<nbsp><IfFRSing_VALUE(pièce,pièces)> d'or.\r\nQue puis-je faire pour vous, aujourd'hui?<NO_INPUT>"
+      },
+      "Txt_Bank_Message_TopNoBalance_Bar": {
+        "SelfId": "Txt_Bank_Message_TopNoBalance_Bar",
+        "Text": "*: Nous n'avons pas de pièces d'or à vous en ce moment.\r\nPuis-je quand même faire quelque chose pour vous?<NO_INPUT>"
+      },
+      "Txt_Bank_Message_TopBalanceAgain_Bar": {
+        "SelfId": "Txt_Bank_Message_TopBalanceAgain_Bar",
+        "Text": "*: Votre solde est actuellement de {VALUE}<nbsp>pièces d'or.\r\nQue puis-je faire d'autre pour vous, aujourd'hui?<NO_INPUT>"
+      },
+      "Txt_Bank_Message_TopNoBalanceAgain_Bar": {
+        "SelfId": "Txt_Bank_Message_TopNoBalanceAgain_Bar",
+        "Text": "*: Nous n'avons pas d'or à vous en ce moment.\r\nPuis-je quand même faire quelque chose pour vous?<NO_INPUT>"
+      },
+      "Txt_Bank_Message_GoldShortage_Bar": {
+        "SelfId": "Txt_Bank_Message_GoldShortage_Bar",
+        "Text": "*: Toutes mes excuses, mais je ne crois pas que vous ayez cette somme sur vous..."
+      },
+      "Txt_Bank_Message_DepositCannot_Bar": {
+        "SelfId": "Txt_Bank_Message_DepositCannot_Bar",
+        "Text": "*: Toutes mes excuses, mais nos coffres sont pleins.\r\nNous ne pouvons plus accepter aucun dépôt pour le moment."
+      },
+      "Txt_Bank_Message_DepositTop_Bar": {
+        "SelfId": "Txt_Bank_Message_DepositTop_Bar",
+        "Text": "*: Nous acceptons les dépôts par tranches de cent pièces d'or.\r\nCombien voulez-vous déposer sur votre compte?<NO_INPUT>"
+      },
+      "Txt_Bank_Message_Deposit_Bar": {
+        "SelfId": "Txt_Bank_Message_Deposit_Bar",
+        "Text": "*: {VALUE}<nbsp>pièces d'or? Très bien. Elles seront parfaitement en sécurité dans nos coffres!"
+      },
+      "Txt_Bank_Message_GoldMax_Bar": {
+        "SelfId": "Txt_Bank_Message_GoldMax_Bar",
+        "Text": "*: Je suis désolé mais vous ne pouvez pas transporter plus d'or."
+      },
+      "Txt_Bank_Message_WithdrawCannot_Bar": {
+        "SelfId": "Txt_Bank_Message_WithdrawCannot_Bar",
+        "Text": "*: Toutes mes excuses, mais vous n'avez rien en banque en ce moment."
+      },
+      "Txt_Bank_Message_WithdrawTop_Bar": {
+        "SelfId": "Txt_Bank_Message_WithdrawTop_Bar",
+        "Text": "*: Votre solde est actuellement de {VALUE}<nbsp>pièces d'or.\r\nCombien souhaitez-vous retirer?<NO_INPUT>"
+      },
+      "Txt_Bank_Message_Withdraw_Bar": {
+        "SelfId": "Txt_Bank_Message_Withdraw_Bar",
+        "Text": "*: Vous désirez {VALUE}<nbsp>pièces d'or? Entendu!\r\nLes voilà!"
+      },
+      "Txt_Bank_Message_Cancel_Bar": {
+        "SelfId": "Txt_Bank_Message_Cancel_Bar",
+        "Text": "*: Ce sera tout pour aujourd'hui?"
+      },
+      "Txt_Bank_Message_FinishBalance_Bar": {
+        "SelfId": "Txt_Bank_Message_FinishBalance_Bar",
+        "Text": "*: Votre solde est actuellement de {VALUE}<nbsp>pièces d'or.\r\nMerci de faire confiance à la Banque du Trésor de l'Arc-en-ciel!"
+      },
+      "Txt_Bank_Message_FinishNoBalance_Bar": {
+        "SelfId": "Txt_Bank_Message_FinishNoBalance_Bar",
+        "Text": "*: Vous n'avez actuellement rien en banque chez nous, mais nous espérons vous compter très bientôt parmi nos clients!"
+      }
+    }
+  }
+]

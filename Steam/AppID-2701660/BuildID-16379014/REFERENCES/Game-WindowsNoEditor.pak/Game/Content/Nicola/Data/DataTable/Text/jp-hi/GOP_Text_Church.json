@@ -1,0 +1,380 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_Church",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Church_UI_Top_01": {
+        "SelfId": "Txt_Church_UI_Top_01",
+        "Text": "おいのりをする"
+      },
+      "Txt_Church_UI_Top_02": {
+        "SelfId": "Txt_Church_UI_Top_02",
+        "Text": "おつげをきく"
+      },
+      "Txt_Church_UI_Top_03": {
+        "SelfId": "Txt_Church_UI_Top_03",
+        "Text": "いきかえらせる"
+      },
+      "Txt_Church_UI_Top_04": {
+        "SelfId": "Txt_Church_UI_Top_04",
+        "Text": "どくのちりょう"
+      },
+      "Txt_Church_UI_Top_05": {
+        "SelfId": "Txt_Church_UI_Top_05",
+        "Text": "のろいをとく"
+      },
+      "Txt_Church_UI_Top_06": {
+        "SelfId": "Txt_Church_UI_Top_06",
+        "Text": "やめる"
+      },
+      "Txt_Church_Message_Start_Pri": {
+        "SelfId": "Txt_Church_Message_Start_Pri",
+        "Text": "たのもしき　かみのしもべよ\r\nわが　きょうかいに　どんな　ごようじゃな？<NO_INPUT>"
+      },
+      "Txt_Church_Message_StartNight_Pri": {
+        "SelfId": "Txt_Church_Message_StartNight_Pri",
+        "Text": "こんな　よふけに　わが　きょうかいに\r\nなんの　ごようじゃな？<NO_INPUT>"
+      },
+      "Txt_Church_Message_ReviveTop_Pri": {
+        "SelfId": "Txt_Church_Message_ReviveTop_Pri",
+        "Text": "どなたを　このよへ\r\nよびもどすのじゃな？<NO_INPUT>"
+      },
+      "Txt_Church_Message_Alive_Pri": {
+        "SelfId": "Txt_Church_Message_Alive_Pri",
+        "Text": "ごじょうだんを。\r\n{ACTOR}どのは　いきていらっしゃる！"
+      },
+      "Txt_Church_Message_Revive_Pri": {
+        "SelfId": "Txt_Church_Message_Revive_Pri",
+        "Text": "おお　わがしゅよ！　ぜんちぜんのうの　かみよ！\r\nちゅうじつなる　{ACTOR}の　みたまを\r\nいま　ここに　よびもどしたまえっ！<NO_INPUT>"
+      },
+      "Txt_Church_Message_ReviveResult_Pri": {
+        "SelfId": "Txt_Church_Message_ReviveResult_Pri",
+        "Text": "{ACTOR}は　よみがえった！"
+      },
+      "Txt_Church_Message_DetoxiTop_Pri": {
+        "SelfId": "Txt_Church_Message_DetoxiTop_Pri",
+        "Text": "どなたの　どくを　とるのじゃな？<NO_INPUT>"
+      },
+      "Txt_Church_Message_NotPoison_Pri": {
+        "SelfId": "Txt_Church_Message_NotPoison_Pri",
+        "Text": "{ACTOR}どのは\r\nどくに　おかされては　いませんぞ。"
+      },
+      "Txt_Church_Message_Detoxi_Pri": {
+        "SelfId": "Txt_Church_Message_Detoxi_Pri",
+        "Text": "おお　かみよ　おちからを！\r\n{ACTOR}より　どくのけがれを\r\nけしさりたまえっ！<NO_INPUT>"
+      },
+      "Txt_Church_Message_DetoxiResult_Pri": {
+        "SelfId": "Txt_Church_Message_DetoxiResult_Pri",
+        "Text": "{ACTOR}の\r\nからだの　どくがきえた！"
+      },
+      "Txt_Church_Message_CurseTop_Pri": {
+        "SelfId": "Txt_Church_Message_CurseTop_Pri",
+        "Text": "どなたの　のろいを　とくのじゃな？<NO_INPUT>"
+      },
+      "Txt_Church_Message_NotCurse_Pri": {
+        "SelfId": "Txt_Church_Message_NotCurse_Pri",
+        "Text": "{ACTOR}どのは\r\nのろわれては　いませんぞ。"
+      },
+      "Txt_Church_Message_HealCurse_Pri": {
+        "SelfId": "Txt_Church_Message_HealCurse_Pri",
+        "Text": "おお　かみよ　おちからを！\r\nいまわしき　のろいを　{ACTOR}より\r\nけしさりたまえっ！<NO_INPUT>"
+      },
+      "Txt_Church_Message_HealCurseResult_Pri": {
+        "SelfId": "Txt_Church_Message_HealCurseResult_Pri",
+        "Text": "{ACTOR}から　のろいが　きえた！"
+      },
+      "Txt_Church_Message_Confirm_Pri": {
+        "SelfId": "Txt_Church_Message_Confirm_Pri",
+        "Text": "さすれば　わが　きょうかいに\r\n{VALUE}ゴールドの　きふを。\r\nよろしいですかな？<NO_INPUT>"
+      },
+      "Txt_Church_Message_Shotage_Pri": {
+        "SelfId": "Txt_Church_Message_Shotage_Pri",
+        "Text": "なんと　きふをするには\r\nおカネが　たりないでは　ありませんか！\r\n<KEY_WAIT>\r\nおお　かみよ　ゆるしたまえ！\r\nこんな　まずしいひとに　ムリなきふを　\r\nたのんだ　わたしが　わるかったのです！"
+      },
+      "Txt_Church_Message_PaymentCancel_Pri": {
+        "SelfId": "Txt_Church_Message_PaymentCancel_Pri",
+        "Text": "きょうかいへの　きふは\r\nかみへの　かんしゃのきもち。\r\nそれを　おしむとは　なさけない。"
+      },
+      "Txt_Church_Message_Cancel_Pri": {
+        "SelfId": "Txt_Church_Message_Cancel_Pri",
+        "Text": "なんと　やめると　もうされるか。"
+      },
+      "Txt_Church_Message_StartAgain_Pri": {
+        "SelfId": "Txt_Church_Message_StartAgain_Pri",
+        "Text": "ほかに　ごようは　おありかな？<NO_INPUT>"
+      },
+      "Txt_Church_Message_Finish_Pri": {
+        "SelfId": "Txt_Church_Message_Finish_Pri",
+        "Text": "では　おきをつけて。\r\nかみの　ごかごの　あらんことを。"
+      },
+      "Txt_Church_Message_Nextlevel_Pri": {
+        "SelfId": "Txt_Church_Message_Nextlevel_Pri",
+        "Text": "{ACTOR}よ。\r\nあなたは　あと　{VALUE}の　けいけんで\r\nつぎのレベルに　なるでしょう。"
+      },
+      "Txt_Church_Message_SaveConfirm_Pri": {
+        "SelfId": "Txt_Church_Message_SaveConfirm_Pri",
+        "Text": "そなたらの　たびの　せいかを\r\nこの　ぼうけんのしょに\r\nきろくしても　よいかな？<NO_INPUT>"
+      },
+      "Txt_Church_Message_SaveCancel_Pri": {
+        "SelfId": "Txt_Church_Message_SaveCancel_Pri",
+        "Text": "そうか…　では　かきとめないでおこう。"
+      },
+      "Txt_Church_Message_SaveTop_Pri": {
+        "SelfId": "Txt_Church_Message_SaveTop_Pri",
+        "Text": "では　かみのまえに\r\nこれまでの　おこないを　こくはくし\r\nぼうけんのしょに　きろくするがよい。<KEY_WAIT>\r\nなんばんの　ぼうけんのしょに\r\nきろくするおつもりか？\r\n<NO_INPUT>"
+      },
+      "Txt_Church_Message_OverwriteConfirm_Pri": {
+        "SelfId": "Txt_Church_Message_OverwriteConfirm_Pri",
+        "Text": "{WORD}　Ｌｖ{VALUE}　に\r\nうわがきするが　それでも　よろしいかな？<NO_INPUT>"
+      },
+      "Txt_Church_Message_ContinueConfirm_Save_Pri": {
+        "SelfId": "Txt_Church_Message_ContinueConfirm_Save_Pri",
+        "Text": "たしかに　きろくしましたぞ。\r\nまだ　ぼうけんを　つづけられる\r\nおつもりか？<NO_INPUT>"
+      },
+      "Txt_Church_Message_ContinueConfirm_Pri": {
+        "SelfId": "Txt_Church_Message_ContinueConfirm_Pri",
+        "Text": "まだ　ぼうけんを　つづけられる\r\nおつもりか？<NO_INPUT>"
+      },
+      "Txt_Church_Message_ContinueConfirmNosave_Pri": {
+        "SelfId": "Txt_Church_Message_ContinueConfirmNosave_Pri",
+        "Text": "なんと！　きろくせずに　やすむというのか。<KEY_WAIT>\r\nすると　そなたの　たびのきろくが　まえに　\r\nかきとめた　ところまで　もどってしまうが\r\nいいかね？<NO_INPUT>"
+      },
+      "Txt_Church_Message_ContinueNoSave_Pri": {
+        "SelfId": "Txt_Church_Message_ContinueNoSave_Pri",
+        "Text": "おや　やめるのかね。"
+      },
+      "Txt_Church_Message_Continue_Pri": {
+        "SelfId": "Txt_Church_Message_Continue_Pri",
+        "Text": "では　ゆくがよい！\r\n{LEADER}よ！"
+      },
+      "Txt_Church_Message_GameEnd_Pri": {
+        "SelfId": "Txt_Church_Message_GameEnd_Pri",
+        "Text": "おお　かみよ！\r\nこのものに　ひとときの\r\nきゅうそくを　あたえたまえ。"
+      },
+      "Txt_Church_Message_GameStart_Pri": {
+        "SelfId": "Txt_Church_Message_GameStart_Pri",
+        "Text": "よくぞ　もどられた！\r\n{LEADER}どの！"
+      },
+      "Txt_Church_Message_Defeated_Pri": {
+        "SelfId": "Txt_Church_Message_Defeated_Pri",
+        "Text": "おお　{LEADER}！\r\nしんでしまうとは　ふがいない！\r\n<KEY_WAIT>\r\nそなたに　もういちど\r\nきかいをあたえよう！\r\n<KEY_WAIT>\r\nあまり　ムリを　せぬようにな。\r\nでは　ゆけ　{LEADER}よ！"
+      },
+      "Txt_Church_Message_LevelMax_Pri": {
+        "SelfId": "Txt_Church_Message_LevelMax_Pri",
+        "Text": "{ACTOR}は　じゅうぶんに　つよくなりました。"
+      },
+      "Txt_Church_Message_EXPMax_Pri": {
+        "SelfId": "Txt_Church_Message_EXPMax_Pri",
+        "Text": "{ACTOR}は　すでに\r\nけいけんを　つんでいるようです。"
+      },
+      "Txt_Church_Message_NextlevelTop_Pri": {
+        "SelfId": "Txt_Church_Message_NextlevelTop_Pri",
+        "Text": "かみのこえが　きこえます。"
+      },
+      "Txt_Church_Message_ReviveTopNoTarget_Pri": {
+        "SelfId": "Txt_Church_Message_ReviveTopNoTarget_Pri",
+        "Text": "チカラつきたものは　ひとりも　おらぬようす。\r\nかみの　ごかごに　かんしゃするがよい。"
+      },
+      "Txt_Church_Message_DetoxiTopNoTarget_Pri": {
+        "SelfId": "Txt_Church_Message_DetoxiTopNoTarget_Pri",
+        "Text": "どくに　おかされたものは\r\nひとりも　おらぬようす。\r\nかみの　ごかごに　かんしゃするが　よい。"
+      },
+      "Txt_Church_Message_CurseTopNoTarget_Pri": {
+        "SelfId": "Txt_Church_Message_CurseTopNoTarget_Pri",
+        "Text": "のろわれた　ものは　ひとりも　おらぬようす。\r\nかみの　ごかごに　かんしゃするがよい。"
+      },
+      "Txt_Church_Message_Start_Sis": {
+        "SelfId": "Txt_Church_Message_Start_Sis",
+        "Text": "ここは　かみに　みちびかれし\r\nまよえる　こひつじたちの　おとずれる　ばしょ。\r\nわが　きょうかいに　どんな　ごようでしょう？<NO_INPUT>"
+      },
+      "Txt_Church_Message_StartNight_Sis": {
+        "SelfId": "Txt_Church_Message_StartNight_Sis",
+        "Text": "おお　まよえる　こひつじたちよ。\r\nこのような　よふけに　わが　きょうかいに\r\nどんな　ごようでしょう？<NO_INPUT>"
+      },
+      "Txt_Church_Message_ReviveTop_Sis": {
+        "SelfId": "Txt_Church_Message_ReviveTop_Sis",
+        "Text": "どなたを　いきかえらせて\r\nほしいのですか？<NO_INPUT>"
+      },
+      "Txt_Church_Message_Alive_Sis": {
+        "SelfId": "Txt_Church_Message_Alive_Sis",
+        "Text": "あら？　{ACTOR}さんは\r\nいきていますわ。"
+      },
+      "Txt_Church_Message_Revive_Sis": {
+        "SelfId": "Txt_Church_Message_Revive_Sis",
+        "Text": "ああ　てんに　まします\r\nわれらが　かみよ！<KEY_WAIT>\r\nいま　ひとたび\r\n{ACTOR}に　いのちの　いぶきを\r\nおあたえください。<NO_INPUT>"
+      },
+      "Txt_Church_Message_ReviveResult_Sis": {
+        "SelfId": "Txt_Church_Message_ReviveResult_Sis",
+        "Text": "{ACTOR}は　よみがえった！"
+      },
+      "Txt_Church_Message_DetoxiTop_Sis": {
+        "SelfId": "Txt_Church_Message_DetoxiTop_Sis",
+        "Text": "どなたの　どくを　とりましょう？<NO_INPUT>"
+      },
+      "Txt_Church_Message_NotPoison_Sis": {
+        "SelfId": "Txt_Church_Message_NotPoison_Sis",
+        "Text": "あら？　{ACTOR}さんは\r\nどくに　おかされては　いませんわ。"
+      },
+      "Txt_Church_Message_Detoxi_Sis": {
+        "SelfId": "Txt_Church_Message_Detoxi_Sis",
+        "Text": "ああ　われらが　かみよ。\r\n{ACTOR}を　むしばむ　どくを\r\nおきよめください。<NO_INPUT>"
+      },
+      "Txt_Church_Message_DetoxiResult_Sis": {
+        "SelfId": "Txt_Church_Message_DetoxiResult_Sis",
+        "Text": "{ACTOR}の\r\nからだの　どくがきえた！"
+      },
+      "Txt_Church_Message_CurseTop_Sis": {
+        "SelfId": "Txt_Church_Message_CurseTop_Sis",
+        "Text": "どなたの　のろいを　ときましょう？<NO_INPUT>"
+      },
+      "Txt_Church_Message_NotCurse_Sis": {
+        "SelfId": "Txt_Church_Message_NotCurse_Sis",
+        "Text": "{ACTOR}さんは\r\nのろわれて　いませんわ。"
+      },
+      "Txt_Church_Message_HealCurse_Sis": {
+        "SelfId": "Txt_Church_Message_HealCurse_Sis",
+        "Text": "ああ　われらが　かみよ。\r\n{ACTOR}を　いまわしき　のろいより\r\nときはなちください。<NO_INPUT>"
+      },
+      "Txt_Church_Message_HealCurseResult_Sis": {
+        "SelfId": "Txt_Church_Message_HealCurseResult_Sis",
+        "Text": "{ACTOR}から　のろいが　きえた！"
+      },
+      "Txt_Church_Message_Confirm_Sis": {
+        "SelfId": "Txt_Church_Message_Confirm_Sis",
+        "Text": "それでは　わが　きょうかいに\r\n{VALUE}ゴールドの　きふを。\r\nよろしいですか？<NO_INPUT>"
+      },
+      "Txt_Church_Message_Shotage_Sis": {
+        "SelfId": "Txt_Church_Message_Shotage_Sis",
+        "Text": "ざんねんですが\r\nおカネが　たりませんわ。"
+      },
+      "Txt_Church_Message_PaymentCancel_Sis": {
+        "SelfId": "Txt_Church_Message_PaymentCancel_Sis",
+        "Text": "ムリにとは　いいません。\r\nすべては　かみのみこころの\r\nままに……。"
+      },
+      "Txt_Church_Message_Cancel_Sis": {
+        "SelfId": "Txt_Church_Message_Cancel_Sis",
+        "Text": "あら？　やめるのですね。"
+      },
+      "Txt_Church_Message_StartAgain_Sis": {
+        "SelfId": "Txt_Church_Message_StartAgain_Sis",
+        "Text": "ほかに　ごようは　ありますか？<NO_INPUT>"
+      },
+      "Txt_Church_Message_Finish_Sis": {
+        "SelfId": "Txt_Church_Message_Finish_Sis",
+        "Text": "かみさまは　いつも　わたしたちを\r\nみまもってくれています。\r\nまた　おいでくださいね。"
+      },
+      "Txt_Church_Message_SaveConfirm_Sis": {
+        "SelfId": "Txt_Church_Message_SaveConfirm_Sis",
+        "Text": "では　かみのまえに\r\nこれまでの　おこないを　こくはくし\r\nぼうけんのしょに　きろくすると　よいでしょう。<NO_INPUT>"
+      },
+      "Txt_Church_Message_SaveCancel_Sis": {
+        "SelfId": "Txt_Church_Message_SaveCancel_Sis",
+        "Text": "あら？　やめるのですね。"
+      },
+      "Txt_Church_Message_SaveTop_Sis": {
+        "SelfId": "Txt_Church_Message_SaveTop_Sis",
+        "Text": "なんばんの　ぼうけんのしょに\r\nきろく　なさいますか？<NO_INPUT>"
+      },
+      "Txt_Church_Message_OverwriteConfirm_Sis": {
+        "SelfId": "Txt_Church_Message_OverwriteConfirm_Sis",
+        "Text": "{WORD}　Ｌｖ{VALUE}の\r\nきろくに　うわがきして　しまいますが\r\nそれでも　よろしいですか？<NO_INPUT>"
+      },
+      "Txt_Church_Message_ContinueConfirm_Save_Sis": {
+        "SelfId": "Txt_Church_Message_ContinueConfirm_Save_Sis",
+        "Text": "たしかに　きろく　いたしました。\r\nまだ　ぼうけんを　おつづけに　なりますか？<NO_INPUT>"
+      },
+      "Txt_Church_Message_ContinueConfirm_Sis": {
+        "SelfId": "Txt_Church_Message_ContinueConfirm_Sis",
+        "Text": "まだ　ぼうけんを　おつづけに　なりますか？<NO_INPUT>"
+      },
+      "Txt_Church_Message_ContinueConfirmNosave_Sis": {
+        "SelfId": "Txt_Church_Message_ContinueConfirmNosave_Sis",
+        "Text": "おや？　きろくせずに\r\nおやすみに　なられるのですか？<KEY_WAIT>\r\nすると　あなたの　たびのきろくが　まえに　\r\nかきとめた　ところまで　もどってしまいます。\r\nそれでも　よろしいですか？<NO_INPUT>"
+      },
+      "Txt_Church_Message_ContinueNoSave_Sis": {
+        "SelfId": "Txt_Church_Message_ContinueNoSave_Sis",
+        "Text": "やめるのですね。\r\n{LEADER}に　われらが　かみの\r\nごかごが　ありますように……。"
+      },
+      "Txt_Church_Message_Continue_Sis": {
+        "SelfId": "Txt_Church_Message_Continue_Sis",
+        "Text": "{LEADER}に　われらが　かみの\r\nごかごが　ありますように……。"
+      },
+      "Txt_Church_Message_GameEnd_Sis": {
+        "SelfId": "Txt_Church_Message_GameEnd_Sis",
+        "Text": "ああ　われらが　かみよ！\r\nこの　まよえる　こひつじに　ひとときの\r\nきゅうそくを　おあたえください！"
+      },
+      "Txt_Church_Message_GameStart_Sis": {
+        "SelfId": "Txt_Church_Message_GameStart_Sis",
+        "Text": "よく　おもどりに　なられました。\r\n{LEADER}。"
+      },
+      "Txt_Church_Message_Defeated_Sis": {
+        "SelfId": "Txt_Church_Message_Defeated_Sis",
+        "Text": "{LEADER}に　われらが　かみの\r\nごかごが　ありますように……。"
+      },
+      "Txt_Church_Message_ReviveTopNoTarget_Sis": {
+        "SelfId": "Txt_Church_Message_ReviveTopNoTarget_Sis",
+        "Text": "ごあんしんなさい\r\nチカラつきた　ひとは　ひとりも　いませんよ。"
+      },
+      "Txt_Church_Message_DetoxiTopNoTarget_Sis": {
+        "SelfId": "Txt_Church_Message_DetoxiTopNoTarget_Sis",
+        "Text": "ごあんしんなさい\r\nどくに　おかされた　ひとは\r\nひとりも　いませんよ。"
+      },
+      "Txt_Church_Message_CurseTopNoTarget_Sis": {
+        "SelfId": "Txt_Church_Message_CurseTopNoTarget_Sis",
+        "Text": "ごあんしんなさい\r\nのろわれた　ひとは　ひとりも　いませんよ。"
+      },
+      "Txt_Church_Message_Start_ALIAHAN": {
+        "SelfId": "Txt_Church_Message_Start_ALIAHAN",
+        "Text": "アリアハンの　たのもしきせんしよ\r\nわが　きょうかいに　どんな　ごようじゃな？<NO_INPUT>"
+      },
+      "Txt_Church_Message_StartNight_ALIAHAN": {
+        "SelfId": "Txt_Church_Message_StartNight_ALIAHAN",
+        "Text": "アリアハンの　たのもしきせんしよ\r\nこんな　よふけに　わが　きょうかいに\r\nなんの　ごようじゃな？<NO_INPUT>"
+      },
+      "Txt_Church_Message_Start_SAMANOSA": {
+        "SelfId": "Txt_Church_Message_Start_SAMANOSA",
+        "Text": "おお　サマンオサを　すくいしものよ\r\nわが　きょうかいに　どんな　ごようじゃな？<NO_INPUT>"
+      },
+      "Txt_Church_Message_StartNight_SAMANOSA": {
+        "SelfId": "Txt_Church_Message_StartNight_SAMANOSA",
+        "Text": "おお　サマンオサを　すくいしものよ\r\nこんな　よふけに　わが　きょうかいに\r\nなんの　ごようじゃな？<NO_INPUT>"
+      },
+      "Txt_Church_Message_Start_EDINBEAR": {
+        "SelfId": "Txt_Church_Message_Start_EDINBEAR",
+        "Text": "たとえ　いなかものでも　かみは　びょうどうです。\r\nわが　きょうかいに　どんな　ごようでしょう？<NO_INPUT>"
+      },
+      "Txt_Church_Message_StartNight_EDINBEAR": {
+        "SelfId": "Txt_Church_Message_StartNight_EDINBEAR",
+        "Text": "たとえ　いなかものでも　かみは　びょうどうです。\r\nこのような　よふけに　わが　きょうかいに\r\nどんな　ごようでしょう？<NO_INPUT>"
+      },
+      "Txt_Church_Message_Start_MBR": {
+        "SelfId": "Txt_Church_Message_Start_MBR",
+        "Text": "たまには　わたしも　ごらくをたのしみたいのです…\r\nしかし　すくいをもとめるものを　つねに\r\nかみはみすてません　なにか　おこまりでしょうか？"
+      },
+      "Txt_Church_Message_Defeated_ALIAHAN": {
+        "SelfId": "Txt_Church_Message_Defeated_ALIAHAN",
+        "Text": "おお　{LEADER}！\r\nしんでしまうとは　ふがいない！\r\n<KEY_WAIT>\r\nそなたに　もういちど\r\nきかいを　あたえよう！\r\n<KEY_WAIT>\r\nオルテガのなを　けがさぬようにな。\r\nでは　ゆけ　{LEADER}よ！"
+      },
+      "Txt_Church_Message_Defeated_SAMANOSA": {
+        "SelfId": "Txt_Church_Message_Defeated_SAMANOSA",
+        "Text": "おお　{LEADER}！\r\nそなたほどのものが やられるとは\r\nなんと おもいがけぬ！<KEY_WAIT>\r\nそなたに　もういちど\r\nきかいを　あたえよう！\r\n<KEY_WAIT>\r\nあまり　ムリを　せぬようにな。\r\nでは　ゆけ　{LEADER}よ！"
+      },
+      "Txt_Church_Message_Defeated_EDINBEAR": {
+        "SelfId": "Txt_Church_Message_Defeated_EDINBEAR",
+        "Text": "ああ {LEADER}さま！\r\nしんでしまうなんて　なんと\r\nいなかものです！<KEY_WAIT>\r\nあなたに　もういちど\r\nきかいを　あたえましょう！\r\n<KEY_WAIT>\r\n{LEADER}に　われらが　かみの\r\nごかごが　ありますように……。"
+      },
+      "Txt_Church_Message_Defeated_LUDATORM": {
+        "SelfId": "Txt_Church_Message_Defeated_LUDATORM",
+        "Text": "おお　{LEADER}！\r\nしんでしまうとは　あわれなり！\r\n<KEY_WAIT>\r\nそなたに　もういちど\r\nきかいを　あたえよう！\r\n<KEY_WAIT>\r\nあまり　ムリを　せぬようにな。\r\nでは　ゆけ　{LEADER}よ！"
+      }
+    }
+  }
+]

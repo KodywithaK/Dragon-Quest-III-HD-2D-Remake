@@ -1,0 +1,32 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_NPC_Talk_TravelersShrine",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Talk_TravelersShrine_1F_SUB_0_ACTOR_0210_010_1": {
+        "SelfId": "Txt_Talk_TravelersShrine_1F_SUB_0_ACTOR_0210_010_1",
+        "Text": "*: Te doy la bienvenida a nuestra humilde capilla, <IfGender_LEADER(muchacho,muchacha,)>, refugio de los marinos extraviados."
+      },
+      "Txt_Talk_TravelersShrine_1F_SUB_0_ACTOR_0210_010_2": {
+        "SelfId": "Txt_Talk_TravelersShrine_1F_SUB_0_ACTOR_0210_010_2",
+        "Text": "*: En nuestra comunidad solía estar la gente de Theddon<...> pero ya no."
+      },
+      "Txt_Talk_TravelersShrine_1F_SUB_0_ACTOR_0210_010_3": {
+        "SelfId": "Txt_Talk_TravelersShrine_1F_SUB_0_ACTOR_0210_010_3",
+        "Text": "*: ¿Cómo? ¿Deseas visitar la aldea?"
+      },
+      "Txt_Talk_TravelersShrine_1F_SUB_0_ACTOR_0210_010_4": {
+        "SelfId": "Txt_Talk_TravelersShrine_1F_SUB_0_ACTOR_0210_010_4",
+        "Text": "*: En tal caso, zarpa con rumbo al sureste y continúa a lo largo del gran río. Al cabo de un tiempo, habrás llegado a Theddon."
+      }
+    }
+  }
+]

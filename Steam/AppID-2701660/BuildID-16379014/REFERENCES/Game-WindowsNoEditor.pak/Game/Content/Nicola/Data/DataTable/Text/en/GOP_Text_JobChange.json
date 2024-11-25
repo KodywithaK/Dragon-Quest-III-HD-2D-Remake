@@ -1,0 +1,120 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_JobChange",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_JobChange_UI_JobGuide": {
+        "SelfId": "Txt_JobChange_UI_JobGuide",
+        "Text": "Choose a vocation."
+      },
+      "Txt_JobChange_Message_Start": {
+        "SelfId": "Txt_JobChange_Message_Start",
+        "Text": "Welcome to Alltrades Abbey, where those in search of a new path in life invariably find that which they seek.<KEY_WAIT>\r\nDo <IfSolo(you,you or any of your acquaintances)> wish for a new vocation?"
+      },
+      "Txt_JobChange_Message_Reject": {
+        "SelfId": "Txt_JobChange_Message_Reject",
+        "Text": "So be it. We do not force change upon those who do not wish it."
+      },
+      "Txt_JobChange_Message_CharaSelect": {
+        "SelfId": "Txt_JobChange_Message_CharaSelect",
+        "Text": "<IfSolo(So you wish,And who is it who wishes)> to undergo the ritual of change?"
+      },
+      "Txt_JobChange_Message_Error_Death": {
+        "SelfId": "Txt_JobChange_Message_Error_Death",
+        "Text": "Fool! Do you think me capable of performing miracles? {ACTOR} is dead!<KEY_WAIT>\r\nI cannot change the vocation of a corpse!"
+      },
+      "Txt_JobChange_Message_Error_Hero": {
+        "SelfId": "Txt_JobChange_Message_Error_Hero",
+        "Text": "Imbecile! You wish to give up the role of hero!? And just who will save us in your place, hm?"
+      },
+      "Txt_JobChange_Message_Error_LV": {
+        "SelfId": "Txt_JobChange_Message_Error_LV",
+        "Text": "But you have barely taken even the first steps on the path of the {WORD}, {ACTOR}...<KEY_WAIT>\r\nWhat manner of frivolous flibbertigibbet gives up before they have even begun? Hmph!"
+      },
+      "Txt_JobChange_Message_JobSelect": {
+        "SelfId": "Txt_JobChange_Message_JobSelect",
+        "Text": "Very well. And what new path will you follow, {ACTOR}?"
+      },
+      "Txt_JobChange_Message_JocConfirm": {
+        "SelfId": "Txt_JobChange_Message_JocConfirm",
+        "Text": "You are sure that you wish to become a {WORD}, {ACTOR}?"
+      },
+      "Txt_JobChange_Message_JocDuplication": {
+        "SelfId": "Txt_JobChange_Message_JocDuplication",
+        "Text": "Hm? But what is this?\r\nYou have chosen the path that you already follow, {ACTOR}."
+      },
+      "Txt_JobChange_Message_JobChangeConfirm": {
+        "SelfId": "Txt_JobChange_Message_JobChangeConfirm",
+        "Text": "Do you mean that you are resolved to return to level 1 and begin your career anew?"
+      },
+      "Txt_JobChange_Message_JobChangeStart": {
+        "SelfId": "Txt_JobChange_Message_JobChangeStart",
+        "Text": "O Goddess above! Great Shepherdess!\r\nSet your servant, {ACTOR}, on a new path through this vale of tears!"
+      },
+      "Txt_JobChange_Message_JobChangeFinish": {
+        "SelfId": "Txt_JobChange_Message_JobChangeFinish",
+        "Text": "It is done. Congratulations, {ACTOR}, you are now a {WORD}!<KEY_WAIT>\r\nYour equipment has been changed to that of the path you have chosen."
+      },
+      "Txt_JobChange_Message_JobChangeCancel": {
+        "SelfId": "Txt_JobChange_Message_JobChangeCancel",
+        "Text": "You have had a change of heart?\r\nPerhaps it is for the best..."
+      },
+      "Txt_JobChange_Message_AddJobChangeConfirm": {
+        "SelfId": "Txt_JobChange_Message_AddJobChangeConfirm",
+        "Text": "If you or any others you know wish to embark on another path, simply say the word."
+      },
+      "Txt_JobChange_Message_Finish": {
+        "SelfId": "Txt_JobChange_Message_Finish",
+        "Text": "Very well. Go forth, and may the Goddess smile upon you, whichever path you choose!"
+      },
+      "Txt_JobChange_Message_Flavor_00": {
+        "SelfId": "Txt_JobChange_Message_Flavor_00",
+        "Text": "So, {ACTOR}, you wish to become a {WORD}? Very well. The {WORD2} within you will be pleased."
+      },
+      "Txt_JobChange_Message_Flavor_01": {
+        "SelfId": "Txt_JobChange_Message_Flavor_01",
+        "Text": "A {WORD}? But {ACTOR}!\r\nIt is not a path I would recommend to every {WORD2}. But I suppose the choice is yours..."
+      },
+      "Txt_JobChange_Message_Flavor_02": {
+        "SelfId": "Txt_JobChange_Message_Flavor_02",
+        "Text": "Hm! You? The {WORD}?\r\nA {WORD2}? You will forgive me for laughing..."
+      },
+      "Txt_JobChange_Message_Flavor_03": {
+        "SelfId": "Txt_JobChange_Message_Flavor_03",
+        "Text": "Well, well! The {WORD} has finally found <IfGender_ACTOR(his,her,their)> true calling! My congratulations, {ACTOR}!"
+      },
+      "Txt_JobChange_Message_Flavor_04": {
+        "SelfId": "Txt_JobChange_Message_Flavor_04",
+        "Text": "Well, well... So {ACTOR} the {WORD} wishes to become a {WORD2}...<KEY_WAIT>\r\nDo you wish to do this solely because it is frowned upon? Well, far be it from me to stop you..."
+      },
+      "Txt_JobChange_Message_Flavor_05": {
+        "SelfId": "Txt_JobChange_Message_Flavor_05",
+        "Text": "Hmm... {ACTOR} the {WORD} wishes to become a {WORD2}...<KEY_WAIT>\r\nYour path will not be an easy one.\r\nBut it is not my place to forbid such a change..."
+      },
+      "Txt_JobChange_Message_Flavor_06": {
+        "SelfId": "Txt_JobChange_Message_Flavor_06",
+        "Text": "Ho ho ho ho!<KEY_WAIT>\r\nSo the {WORD} is to...blossom into a {WORD2}? Ha ha ha! If you meant to make me laugh, you have succeeded!"
+      },
+      "Txt_JobChange_Message_Flavor_07": {
+        "SelfId": "Txt_JobChange_Message_Flavor_07",
+        "Text": "Wonderful! The perfect vocation for any {WORD}! A fine choice, {ACTOR}! A fine choice indeed!"
+      },
+      "Txt_JobChange_Message_Flavor_08": {
+        "SelfId": "Txt_JobChange_Message_Flavor_08",
+        "Text": "So {ACTOR} the {WORD} wishes to become a {WORD2}? You have come far, my child."
+      },
+      "Txt_JobChange_Message_Use_WORDS_OF_WISDOM": {
+        "SelfId": "Txt_JobChange_Message_Use_WORDS_OF_WISDOM",
+        "Text": "So you wish to become a sage? Then you must first read the <6>Words of Wisdom<9>.\r\n<KEY_WAIT>\r\nHowever, the book may be read but once, so consider yourself warned, my child!\r\nDo you still wish to proceed?"
+      }
+    }
+  }
+]

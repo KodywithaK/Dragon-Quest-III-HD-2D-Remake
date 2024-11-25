@@ -1,0 +1,32 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_NPC_Talk_DesertShrine",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Talk_DesertShrine_1F_SUB_0_ACTOR_0110_010_1": {
+        "SelfId": "Txt_Talk_DesertShrine_1F_SUB_0_ACTOR_0110_010_1",
+        "Text": "*: ¿<IfSolo(Vas,Vais)> en busca de la llave mágica, trotamundos?"
+      },
+      "Txt_Talk_DesertShrine_1F_SUB_0_ACTOR_0110_010_2": {
+        "SelfId": "Txt_Talk_DesertShrine_1F_SUB_0_ACTOR_0110_010_2",
+        "Text": "*: En la zona norte del desierto se alza una gran pirámide, en cuyas profundidades yace la llave. Pero <IfSolo(ándate,andaos)> con ojo..., pues es un lugar de lo más traicionero, rebosante de pérfidas trampas."
+      },
+      "Txt_Talk_DesertShrine_1F_SUB_0_ACTOR_0110_010_3": {
+        "SelfId": "Txt_Talk_DesertShrine_1F_SUB_0_ACTOR_0110_010_3",
+        "Text": "*: Antes de adentrar<IfSolo(te,os)> en ella, <IfSolo(dirígete,dirigíos)> a Ibis para obtener información sobre las artimañas que alberga. Busca<IfSolo(,d)> un oasis grande al oeste; allí encontrar<IfSolo(ás,éis)> la ciudad."
+      },
+      "Txt_Talk_DesertShrine_1F_SUB_0_ACTOR_0110_010_4": {
+        "SelfId": "Txt_Talk_DesertShrine_1F_SUB_0_ACTOR_0110_010_4",
+        "Text": "*: No <IfSolo(te,os)> diré aquello que no <IfSolo(deseas,deseáis)> escuchar, pues..."
+      }
+    }
+  }
+]

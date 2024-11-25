@@ -1,0 +1,159 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_SearchObject_GhostShip",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_SearchObject_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "SEARCH_GhostShip_1F_BARREL_0": {
+        "SelfId": "SEARCH_GhostShip_1F_BARREL_0",
+        "ObjectType": "ESearchObjectType::BARREL",
+        "ItemId": "ITEM_EQUIP_ACCESSORY_GOLD_ROSARY",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_GhostShip_1F_BARREL_0"
+      },
+      "SEARCH_GhostShip_1F_BARREL_1": {
+        "SelfId": "SEARCH_GhostShip_1F_BARREL_1",
+        "ObjectType": "ESearchObjectType::BARREL",
+        "ItemId": "ITEM_USE_ITEM_FADING_JENNY",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_GhostShip_1F_BARREL_1"
+      },
+      "SEARCH_GhostShip_1F_POT_0": {
+        "SelfId": "SEARCH_GhostShip_1F_POT_0",
+        "ObjectType": "ESearchObjectType::POT",
+        "ItemId": "ITEM_EQUIP_ARMOR_BOXER_SHORTS",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_GhostShip_1F_POT_0"
+      },
+      "SEARCH_GhostShip_1F_EVENT_0": {
+        "SelfId": "SEARCH_GhostShip_1F_EVENT_0",
+        "ObjectType": "ESearchObjectType::EVENT",
+        "ItemId": "None",
+        "ItemNum": 0,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": false,
+        "OverrideScriptName": "GhostShip_1F_SearchObj_Rudder",
+        "FlagName": "EGOPEnumSearchType::NONE"
+      },
+      "SEARCH_GhostShip_B1_DRAWER_0": {
+        "SelfId": "SEARCH_GhostShip_B1_DRAWER_0",
+        "ObjectType": "ESearchObjectType::DRAWER",
+        "ItemId": "ITEM_EQUIP_ACCESSORY_GARTER",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_GhostShip_B1_DRAWER_0"
+      },
+      "SEARCH_GhostShip_B1_TREASURE_NORMAL_0": {
+        "SelfId": "SEARCH_GhostShip_B1_TREASURE_NORMAL_0",
+        "ObjectType": "ESearchObjectType::TREASURE_NORMAL",
+        "ItemId": "ITEM_EQUIP_WEAPON_SIZEABLE_SCISSORS",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_GhostShip_B1_TREASURE_NORMAL_0"
+      },
+      "SEARCH_GhostShip_B1_TREASURE_NORMAL_1": {
+        "SelfId": "SEARCH_GhostShip_B1_TREASURE_NORMAL_1",
+        "ObjectType": "ESearchObjectType::TREASURE_NORMAL",
+        "ItemId": "ITEM_USE_ITEM_MOONWORT_BULB",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_GhostShip_B1_TREASURE_NORMAL_1"
+      },
+      "SEARCH_GhostShip_B1_TREASURE_NORMAL_2": {
+        "SelfId": "SEARCH_GhostShip_B1_TREASURE_NORMAL_2",
+        "ObjectType": "ESearchObjectType::TREASURE_NORMAL",
+        "ItemId": "ITEM_EQUIP_ACCESSORY_COWER_RING",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_GhostShip_B1_TREASURE_NORMAL_2"
+      },
+      "SEARCH_GhostShip_B1_TREASURE_ENEMY_3": {
+        "SelfId": "SEARCH_GhostShip_B1_TREASURE_ENEMY_3",
+        "ObjectType": "ESearchObjectType::TREASURE_ENEMY",
+        "ItemId": "None",
+        "ItemNum": 0,
+        "Gold": 0,
+        "EnemyId": "BATTLE_EVENT_GHOSTSHIP_MIMIC_3",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_GhostShip_B1_TREASURE_ENEMY_3"
+      },
+      "SEARCH_GhostShip_B1_TREASURE_NORMAL_4": {
+        "SelfId": "SEARCH_GhostShip_B1_TREASURE_NORMAL_4",
+        "ObjectType": "ESearchObjectType::TREASURE_NORMAL",
+        "ItemId": "ITEM_EQUIP_WEAPON_POISON_NEEDLE",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_GhostShip_B1_TREASURE_NORMAL_4"
+      },
+      "SEARCH_GhostShip_B1_EVENT_0": {
+        "SelfId": "SEARCH_GhostShip_B1_EVENT_0",
+        "ObjectType": "ESearchObjectType::EVENT",
+        "ItemId": "ITEM_IMPORTANT_LOVERS_LOCKET",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "GhostShip_B1_Treasure_Important",
+        "FlagName": "EGOPEnumSearchType::SEARCH_GhostShip_B1_TREASURE_IMPORTANT_5"
+      },
+      "SEARCH_GhostShip_B1_BARREL_0": {
+        "SelfId": "SEARCH_GhostShip_B1_BARREL_0",
+        "ObjectType": "ESearchObjectType::BARREL",
+        "ItemId": "ITEM_SMALL_MEDAL",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_GhostShip_B1_BARREL_0"
+      },
+      "SEARCH_GhostShip_B1_POT_0": {
+        "SelfId": "SEARCH_GhostShip_B1_POT_0",
+        "ObjectType": "ESearchObjectType::POT",
+        "ItemId": "None",
+        "ItemNum": 0,
+        "Gold": 3190,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_GhostShip_B1_POT_0"
+      }
+    }
+  }
+]

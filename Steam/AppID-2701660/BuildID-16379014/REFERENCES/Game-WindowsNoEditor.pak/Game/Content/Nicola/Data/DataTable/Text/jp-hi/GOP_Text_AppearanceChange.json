@@ -1,0 +1,96 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_AppearanceChange",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_AppearanceChange_Message_Start": {
+        "SelfId": "Txt_AppearanceChange_Message_Start",
+        "Text": "よ。また　きてくれたんだね。\r\n\r\n<KEY_WAIT>\r\nじゃ　サッソク　みため　かえてく？<NO_INPUT>"
+      },
+      "Txt_AppearanceChange_Message_First": {
+        "SelfId": "Txt_AppearanceChange_Message_First",
+        "Text": "アタシ　ホミちょ。\r\nこうみえて　ファッションデザイナーなんだ。\r\n<KEY_WAIT>\r\nそのかみ　きったり　そめたり\r\nなんなら　こえもかえたり　いろいろできるよ。\r\n<KEY_WAIT>\r\nアンタも　みため　かえたくない？\r\nだったらアタシに　まかせなよ。\r\nま　あるていどのゴールドは　もらうけどね。<KEY_WAIT>\r\nで……　サッソクだけど\r\nみためを　かえたい　ひととか　いる？<NO_INPUT>"
+      },
+      "Txt_AppearanceChange_Message_Top": {
+        "SelfId": "Txt_AppearanceChange_Message_Top",
+        "Text": "みためを　かえたい　ひととか　いる？"
+      },
+      "Txt_AppearanceChange_Message_NameSelect": {
+        "SelfId": "Txt_AppearanceChange_Message_NameSelect",
+        "Text": "だれに　しよっか？<NO_INPUT>"
+      },
+      "Txt_AppearanceChange_Message_LooksSelect": {
+        "SelfId": "Txt_AppearanceChange_Message_LooksSelect",
+        "Text": "{ACTOR}だね。\r\nどんな　みために　へんこうすんの？<NO_INPUT>"
+      },
+      "Txt_AppearanceChange_Message_HairColorSelect": {
+        "SelfId": "Txt_AppearanceChange_Message_HairColorSelect",
+        "Text": "かみの　いろは　どうしよっか？<NO_INPUT>"
+      },
+      "Txt_AppearanceChange_Message_HairColorSelectHero": {
+        "SelfId": "Txt_AppearanceChange_Message_HairColorSelectHero",
+        "Text": "あー　{HERO}は　その　かみがたが\r\nイチバンいいよ。かみのいろだけ　かえよっか。\r\nどんな　いろにする？<NO_INPUT>"
+      },
+      "Txt_AppearanceChange_Message_VoiceSelect": {
+        "SelfId": "Txt_AppearanceChange_Message_VoiceSelect",
+        "Text": "こえは　どうする？"
+      },
+      "Txt_AppearanceChange_Message_NoChange": {
+        "SelfId": "Txt_AppearanceChange_Message_NoChange",
+        "Text": "それじゃ　なにも　かわらなくない？\r\nかえなくて　いいの？<NO_INPUT>"
+      },
+      "Txt_AppearanceChange_Message_LooksChangeConfirm": {
+        "SelfId": "Txt_AppearanceChange_Message_LooksChangeConfirm",
+        "Text": "オッケー　このみために　すんのね。\r\nじゃ　{VALUE}ゴールド　ヨロシクね。"
+      },
+      "Txt_AppearanceChange_Message_LooksChangeStart": {
+        "SelfId": "Txt_AppearanceChange_Message_LooksChangeStart",
+        "Text": "ほい　サンキュ。\r\nじゃあ　ちょっと　まってて～"
+      },
+      "Txt_AppearanceChange_Message_LooksChangeFinish": {
+        "SelfId": "Txt_AppearanceChange_Message_LooksChangeFinish",
+        "Text": "はい　おわりっと。"
+      },
+      "Txt_AppearanceChange_Message_CanNotChangeDeath": {
+        "SelfId": "Txt_AppearanceChange_Message_CanNotChangeDeath",
+        "Text": "いやー……　さすがのアタシでも\r\nしんじゃってる　ひとは　ちょいムズイかな……"
+      },
+      "Txt_AppearanceChange_Message_CanNotChangeHero": {
+        "SelfId": "Txt_AppearanceChange_Message_CanNotChangeHero",
+        "Text": "うーん…　{HERO}さあ。\r\nあんた　けっこう　イイみため　してるんだよね。\r\nあんま　イジんないほうが　いいとおもうな。"
+      },
+      "Txt_AppearanceChange_Message_Shortage": {
+        "SelfId": "Txt_AppearanceChange_Message_Shortage",
+        "Text": "でもアンタ　おカネ　ゼンゼンもってないね……\r\n{VALUE}ゴールドくらいは　もらいたいかな。"
+      },
+      "Txt_AppearanceChange_Message_Cancel": {
+        "SelfId": "Txt_AppearanceChange_Message_Cancel",
+        "Text": "ん　やめるの？\r\nりょうかい～。"
+      },
+      "Txt_AppearanceChange_Message_AddChangeConfirm": {
+        "SelfId": "Txt_AppearanceChange_Message_AddChangeConfirm",
+        "Text": "ほかに　かえたいひとは　いる？<NO_INPUT>"
+      },
+      "Txt_AppearanceChange_Message_Finish": {
+        "SelfId": "Txt_AppearanceChange_Message_Finish",
+        "Text": "じゃね～\r\nまた　みためを　かえたくなったら\r\nきがるに　きてよ。"
+      },
+      "Txt_AppearanceChange_Message_CanNotChange": {
+        "SelfId": "Txt_AppearanceChange_Message_CanNotChange",
+        "Text": "んん…\r\nいま　みためを　かえられる　ひとは\r\nいないっぽいね。"
+      },
+      "Txt_AppearanceChange_Message_NoChangeLooks": {
+        "SelfId": "Txt_AppearanceChange_Message_NoChangeLooks",
+        "Text": "それじゃ　なにも　かわらなくない？\r\nこのままつづけるの？<NO_INPUT>"
+      }
+    }
+  }
+]

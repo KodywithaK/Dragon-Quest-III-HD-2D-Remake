@@ -1,0 +1,120 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_Rename",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Rename_Message_Start": {
+        "SelfId": "Txt_Rename_Message_Start",
+        "Text": "我是侍奉命名神瑪里南大人的神官。<KEY_WAIT>\r\n要是有誰想要更改名字的話，\r\n就告訴我吧。<KEY_WAIT>\r\n有人想要改名嗎？<NO_INPUT>"
+      },
+      "Txt_Rename_Message_Top": {
+        "SelfId": "Txt_Rename_Message_Top",
+        "Text": "嗯，那麼是想更改誰的名字呢？<NO_INPUT>"
+      },
+      "Txt_Rename_Message_NameSelect": {
+        "SelfId": "Txt_Rename_Message_NameSelect",
+        "Text": "要更改{WORD}的名字是吧。\r\n那就把新名字告訴我。<NO_INPUT>"
+      },
+      "Txt_Rename_Message_NameDeside": {
+        "SelfId": "Txt_Rename_Message_NameDeside",
+        "Text": "嗯，要把{WORD}的名字\r\n改為{NAME}是吧。\r\n確定沒問題嗎？<NO_INPUT>"
+      },
+      "Txt_Rename_Message_NameChangeStart": {
+        "SelfId": "Txt_Rename_Message_NameChangeStart",
+        "Text": "喔喔，命名神瑪里南啊！\r\n請將神之祝福賜予\r\n{NAME}這個新名字！！"
+      },
+      "Txt_Rename_Message_NameChangeFinish": {
+        "SelfId": "Txt_Rename_Message_NameChangeFinish",
+        "Text": "好～！這麼一來，\r\n{WORD}今後就可以叫做\r\n{NAME}了！"
+      },
+      "Txt_Rename_Message_AddNameChangeConfirm": {
+        "SelfId": "Txt_Rename_Message_AddNameChangeConfirm",
+        "Text": "還有其他人想要改名嗎？<NO_INPUT>"
+      },
+      "Txt_Rename_Message_Finish": {
+        "SelfId": "Txt_Rename_Message_Finish",
+        "Text": "這樣啊。要是想改名字的話，\r\n隨時可以來找我喔。\r\n願名字能夠守護你……"
+      },
+      "Txt_Rename_Message_NameSelectAgain": {
+        "SelfId": "Txt_Rename_Message_NameSelectAgain",
+        "Text": "要改成其他名字嗎？"
+      },
+      "Txt_Rename_Message_CanNotChangeDeath": {
+        "SelfId": "Txt_Rename_Message_CanNotChangeDeath",
+        "Text": "呣，要擅自更改別人的名字嗎？\r\n這可不值得稱讚啊。"
+      },
+      "Txt_Rename_Message_Cancel": {
+        "SelfId": "Txt_Rename_Message_Cancel",
+        "Text": "什麼，不改名字了嗎？\r\n也罷，那也無妨。"
+      },
+      "Txt_Rename_Message_NameError_Ban": {
+        "SelfId": "Txt_Rename_Message_NameError_Ban",
+        "Text": "{NAME}是嗎？\r\n……呣呣，命名神不同意這個名字！<KEY_WAIT>\r\n不好意思，能換成其他名字嗎？<NO_INPUT>"
+      },
+      "Txt_Rename_Message_OriginName": {
+        "SelfId": "Txt_Rename_Message_OriginName",
+        "Text": "喔，要改回原來的名字是吧。<KEY_WAIT>\r\n父母取的名字得好好珍惜才行啊。\r\n嗯嗯。<KEY_WAIT>\r\n要將{WORD}的名字\r\n改回原本的{NAME}囉，可以吧？<NO_INPUT>"
+      },
+      "Txt_Rename_Message_OriginNameChangeStart": {
+        "SelfId": "Txt_Rename_Message_OriginNameChangeStart",
+        "Text": "喔喔，命名神瑪里南啊！\r\n請將{WORD}的名字\r\n改回原本的{NAME}！！"
+      },
+      "Txt_Rename_Message_OriginNameChangeFinish": {
+        "SelfId": "Txt_Rename_Message_OriginNameChangeFinish",
+        "Text": "好！你的名字\r\n改回{NAME}囉！"
+      },
+      "Txt_Rename_Message_BadNameFinalConfirm": {
+        "SelfId": "Txt_Rename_Message_BadNameFinalConfirm",
+        "Text": "要是觸怒了命名神大人，\r\n我可不負責喔！\r\n即使這樣也沒關係嗎！？<NO_INPUT>"
+      },
+      "Txt_Rename_Message_BadNameChangeStart": {
+        "SelfId": "Txt_Rename_Message_BadNameChangeStart",
+        "Text": "……喔喔，命名神瑪里南啊，\r\n請將神之祝福賜予\r\n{NAME}這個新名……嗚哇！！"
+      },
+      "Txt_Rename_Message_BadNameChangeFinish": {
+        "SelfId": "Txt_Rename_Message_BadNameChangeFinish",
+        "Text": "看吧！我不是告訴過你了嗎！\r\n你觸怒命名神了！！<KEY_WAIT>\r\n你一輩子都只能叫做\r\n{NAME}啦！！"
+      },
+      "Txt_Rename_Message_BadName": {
+        "SelfId": "Txt_Rename_Message_BadName",
+        "Text": "{NAME}嗎……\r\n你是不是瞧不起所謂的名字？<NO_INPUT>"
+      },
+      "Txt_Rename_Message_BadNameConfirm": {
+        "SelfId": "Txt_Rename_Message_BadNameConfirm",
+        "Text": "這麼說，你並不是瞧不起名字，\r\n而是真心想取這樣的名字是嗎？<NO_INPUT>"
+      },
+      "Txt_Rename_Message_BadNameCancel": {
+        "SelfId": "Txt_Rename_Message_BadNameCancel",
+        "Text": "那就換成其他名字吧。\r\n把{WORD}的新名字告訴我。<NO_INPUT>"
+      },
+      "Txt_Rename_Message_CanNotNameChange": {
+        "SelfId": "Txt_Rename_Message_CanNotNameChange",
+        "Text": "什麼！那個名字觸怒了命名神！\r\n無法更改名字啊！<KEY_WAIT>\r\n就算這樣也想更改的話，\r\n得收取{VALUE}Ｇ以平息命名神的怒火。<KEY_WAIT>\r\n這樣可以嗎？<NO_INPUT>"
+      },
+      "Txt_Rename_Message_PenaltyCancel": {
+        "SelfId": "Txt_Rename_Message_PenaltyCancel",
+        "Text": "那麼還是維持原樣吧。"
+      },
+      "Txt_Rename_Message_PenaltyPay": {
+        "SelfId": "Txt_Rename_Message_PenaltyPay",
+        "Text": "{LEADER}交出了\r\n{VALUE}Ｇ。"
+      },
+      "Txt_Rename_Message_CanNameChange": {
+        "SelfId": "Txt_Rename_Message_CanNameChange",
+        "Text": "很好。\r\n那麼把{WORD}的新名字告訴我吧。<NO_INPUT>"
+      },
+      "Txt_Rename_Message_PenaltyShotage": {
+        "SelfId": "Txt_Rename_Message_PenaltyShotage",
+        "Text": "嗯？很遺憾，\r\n看來你沒有那麼多錢啊。\r\n現在只好先忍忍了。"
+      }
+    }
+  }
+]

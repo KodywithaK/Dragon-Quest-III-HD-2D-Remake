@@ -1,0 +1,60 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_SearchObject_Zenis",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_SearchObject_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "SEARCH_Zenis_2F_TREASURE_NORMAL_0": {
+        "SelfId": "SEARCH_Zenis_2F_TREASURE_NORMAL_0",
+        "ObjectType": "ESearchObjectType::TREASURE_NORMAL",
+        "ItemId": "ITEM_EQUIP_HELMET_HEAVENLY_HELM",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Zenis_2F_TREASURE_NORMAL_0"
+      },
+      "SEARCH_Zenis_1F_EVENT_0": {
+        "SelfId": "SEARCH_Zenis_1F_EVENT_0",
+        "ObjectType": "ESearchObjectType::EVENT",
+        "ItemId": "None",
+        "ItemNum": 0,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": false,
+        "OverrideScriptName": "SEARCH_Zenis_1F_EVENT_0",
+        "FlagName": "EGOPEnumSearchType::NONE"
+      },
+      "SEARCH_Zenis_1F_POT_0": {
+        "SelfId": "SEARCH_Zenis_1F_POT_0",
+        "ObjectType": "ESearchObjectType::POT",
+        "ItemId": "ITEM_EQUIP_ACCESSORY_COWER_RING",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Zenis_1F_POT_0"
+      },
+      "SEARCH_Zenis_1F_POT_1": {
+        "SelfId": "SEARCH_Zenis_1F_POT_1",
+        "ObjectType": "ESearchObjectType::POT",
+        "ItemId": "ITEM_SMALL_MEDAL",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Zenis_1F_POT_1"
+      }
+    }
+  }
+]

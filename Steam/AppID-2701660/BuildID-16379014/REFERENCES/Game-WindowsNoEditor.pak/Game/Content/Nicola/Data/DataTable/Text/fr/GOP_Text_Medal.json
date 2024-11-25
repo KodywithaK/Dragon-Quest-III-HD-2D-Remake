@@ -1,0 +1,76 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_Medal",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Medal_UI_ItemName": {
+        "SelfId": "Txt_Medal_UI_ItemName",
+        "Text": "{0}"
+      },
+      "Txt_Medal_UI_ItemDetail": {
+        "SelfId": "Txt_Medal_UI_ItemDetail",
+        "Text": "{0}"
+      },
+      "Txt_Medal_UI_RequiredMedal": {
+        "SelfId": "Txt_Medal_UI_RequiredMedal",
+        "Text": "{0}"
+      },
+      "Txt_Medal_UI_ListGuide": {
+        "SelfId": "Txt_Medal_UI_ListGuide",
+        "Text": "Voir les récompenses"
+      },
+      "Txt_Medal_Message_Start": {
+        "SelfId": "Txt_Medal_Message_Start",
+        "Text": "Merci d'avoir pris la peine de venir jusqu'ici!\r\nJe suis un collectionneur invétéré de mini médailles!"
+      },
+      "Txt_Medal_Message_First": {
+        "SelfId": "Txt_Medal_Message_First",
+        "Text": "Si vous en trouvez, apportez-les moi et je vous récompenserai en conséquence!"
+      },
+      "Txt_Medal_Message_First_Medal": {
+        "SelfId": "Txt_Medal_Message_First_Medal",
+        "Text": "Hum? C'est bien ce que je pense?<!>\r\nVous m'avez apporté des médailles?<!>\r\nJe me charge de veiller sur elles!"
+      },
+      "Txt_Medal_Message_Confirm_Medal": {
+        "SelfId": "Txt_Medal_Message_Confirm_Medal",
+        "Text": "Voyons voir... Vous m'avez donné un total de {VALUE} mini médaille<IfSing_VALUE(,s)> jusqu'à maintenant. Un mini merci!"
+      },
+      "Txt_Medal_Message_HandoverMedal": {
+        "SelfId": "Txt_Medal_Message_HandoverMedal",
+        "Text": "Oh! Je sens comme une odeur de mini médaille!\r\nVite, je prends tout ce que vous avez!"
+      },
+      "Txt_Medal_Message_Prize": {
+        "SelfId": "Txt_Medal_Message_Prize",
+        "Text": "Attendez un mini instant... Vous avez atteint le nombre de {VALUE} mini médailles!\r\nVous avez donc droit à une récompense! Voilà!\r\n<Cap><IndefSgl_I_NAME> pour vous!"
+      },
+      "Txt_Medal_Message_GetPrize": {
+        "SelfId": "Txt_Medal_Message_GetPrize",
+        "Text": "{LEADER} obtient <IndefSgl_I_NAME>!"
+      },
+      "Txt_Medal_Message_Confirm": {
+        "SelfId": "Txt_Medal_Message_Confirm",
+        "Text": "À ce jour, vous m'avez apporté un total de {VALUE} mini médaille<IfSing_VALUE(,s)>.\r\nUn mini merci!"
+      },
+      "Txt_Medal_Message_NextPrize": {
+        "SelfId": "Txt_Medal_Message_NextPrize",
+        "Text": "Quand vous m'aurez apporté {VALUE} médailles, je serai heureux de vous offrir <IndefSgl_I_NAME>!\r\nBon courage pour la collecte!"
+      },
+      "Txt_Medal_Message_MedalComplete": {
+        "SelfId": "Txt_Medal_Message_MedalComplete",
+        "Text": "{LEADER} ! Vous m'avez apporté {VALUE} médailles au total!<KEY_WAIT>\r\nEn fait, vous avez récupéré la totalité de mes récompenses, vous avez tout raflé!\r\nHo ho! Un mini merci!<KEY_WAIT>\r\nIl ne vous reste plus qu'à aller sauver le monde, sans jamais oublier votre soif de découverte!<KEY_WAIT>\r\nVous avez tout mon humble soutien!"
+      },
+      "Txt_Medal_Message_GetPrizeFailere": {
+        "SelfId": "Txt_Medal_Message_GetPrizeFailere",
+        "Text": "Oh! Mais vous n'avez pas l'air d'avoir assez de place pour mes récompenses. Repassez plus tard quand vous vous serez débarrassé du superflu!"
+      }
+    }
+  }
+]

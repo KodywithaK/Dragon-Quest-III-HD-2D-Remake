@@ -1,0 +1,31 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Event_MisakiCave",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Event_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "EVENT_MisakiCave_CommonTest_0": {
+        "SelfId": "EVENT_MisakiCave_CommonTest_0",
+        "EventID": "Common_MAIN_0_VOLUME_0010_010",
+        "TriggerType": "EEventTriggerType::VOLUME",
+        "TriggerID": "CommonTest",
+        "EventPriority": 0,
+        "ProgressLower": 0,
+        "ProgressUpper": 30,
+        "StartFlagName1": "FE157",
+        "IsTrueCondition1": false,
+        "IsAndOperation": false,
+        "StartFlagName2": "None",
+        "IsTrueCondition2": false,
+        "ScenarioProgress": 0
+      }
+    }
+  }
+]

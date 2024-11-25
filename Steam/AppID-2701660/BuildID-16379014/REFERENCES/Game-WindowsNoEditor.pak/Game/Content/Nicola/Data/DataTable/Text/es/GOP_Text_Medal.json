@@ -1,0 +1,76 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_Medal",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Medal_UI_ItemName": {
+        "SelfId": "Txt_Medal_UI_ItemName",
+        "Text": "{0}"
+      },
+      "Txt_Medal_UI_ItemDetail": {
+        "SelfId": "Txt_Medal_UI_ItemDetail",
+        "Text": "{0}"
+      },
+      "Txt_Medal_UI_RequiredMedal": {
+        "SelfId": "Txt_Medal_UI_RequiredMedal",
+        "Text": "{0}"
+      },
+      "Txt_Medal_UI_ListGuide": {
+        "SelfId": "Txt_Medal_UI_ListGuide",
+        "Text": "Lista de premios"
+      },
+      "Txt_Medal_Message_Start": {
+        "SelfId": "Txt_Medal_Message_Start",
+        "Text": "¡Minigracias por venir!\r\n¡Estoy intentando conseguir tantas minimedallas como sea posible!"
+      },
+      "Txt_Medal_Message_First": {
+        "SelfId": "Txt_Medal_Message_First",
+        "Text": "Si encuentras alguna, ¡tráemela y te lo compensaré con minicreces!"
+      },
+      "Txt_Medal_Message_First_Medal": {
+        "SelfId": "Txt_Medal_Message_First_Medal",
+        "Text": "¿Eh? ¿Que me has traído unas medallas? ¡Pues no te quedes ahí <IfGender_LEADER(miniparado,miniparada,)> y dámelas! ¡Quiero ver cuántas hay!"
+      },
+      "Txt_Medal_Message_Confirm_Medal": {
+        "SelfId": "Txt_Medal_Message_Confirm_Medal",
+        "Text": "A ver... Hasta la fecha, me has traído {VALUE} minimedalla<IfSing_VALUE(,s)>. ¡Jo, jo! ¡Minigracias, minigracias!"
+      },
+      "Txt_Medal_Message_HandoverMedal": {
+        "SelfId": "Txt_Medal_Message_HandoverMedal",
+        "Text": "¡Jo, jo! Conque me has minitraído unas medallas, ¿eh? ¡Pues a ver, que yo las minicuente!"
+      },
+      "Txt_Medal_Message_Prize": {
+        "SelfId": "Txt_Medal_Message_Prize",
+        "Text": "Espera un minisegundo... ¡Has alcanzado el hito de {VALUE} minimedallas! ¡Jo, jo! ¡Ven que te dé una recompensa! ¡Toma! ¡<Cap><IndefSgl_I_NAME>! ¡Seguro que es lo que siempre has miniquerido! ¡Minigracias, minigracias!"
+      },
+      "Txt_Medal_Message_GetPrize": {
+        "SelfId": "Txt_Medal_Message_GetPrize",
+        "Text": "¡{LEADER} recibe <IndefSgl_I_NAME> como recompensa!"
+      },
+      "Txt_Medal_Message_Confirm": {
+        "SelfId": "Txt_Medal_Message_Confirm",
+        "Text": "A ver, hasta la fecha me has traído... <IfSing_VALUE(solo una medalla,{VALUE} medallas)>. ¡Jo, jo! ¡Minigracias, minigracias!"
+      },
+      "Txt_Medal_Message_NextPrize": {
+        "SelfId": "Txt_Medal_Message_NextPrize",
+        "Text": "Cuando me hayas minitraído un total de {VALUE}, ¡te daré <IndefSgl_I_NAME> como recompensa! ¡Vamos, que tú puedes! ¡Échale miniganas!"
+      },
+      "Txt_Medal_Message_MedalComplete": {
+        "SelfId": "Txt_Medal_Message_MedalComplete",
+        "Text": "¡Mi <IfGender_LEADER(querido,querida,)> {LEADER}! ¡Me has minitraído un total de {VALUE} medallas! ¡Qué minimontonazo!<KEY_WAIT>\r\nDe hecho, son todas las que puedes traerme, ¡porque no hay más! ¡Jo, jo! ¡Minigracias, minigracias!<KEY_WAIT>\r\n¡Ahora ya solo te queda salvar el mundo!<KEY_WAIT>\r\n¡Tendrás todos mis respetos si lo consigues!"
+      },
+      "Txt_Medal_Message_GetPrizeFailere": {
+        "SelfId": "Txt_Medal_Message_GetPrizeFailere",
+        "Text": "Ostras, me parece que no te queda sitio para mi regalo. Bueno, ¡vuelve cuando hayas hecho minihueco y te daré tu merecida recompensa!"
+      }
+    }
+  }
+]
