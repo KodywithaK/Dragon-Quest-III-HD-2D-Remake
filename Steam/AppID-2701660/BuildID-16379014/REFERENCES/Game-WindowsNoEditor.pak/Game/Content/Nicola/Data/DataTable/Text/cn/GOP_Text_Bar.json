@@ -1,0 +1,312 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_Bar",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Bar_UI_Top_02": {
+        "SelfId": "Txt_Bar_UI_Top_02",
+        "Text": "查看名册"
+      },
+      "Txt_Bar_UI_Top_03": {
+        "SelfId": "Txt_Bar_UI_Top_03",
+        "Text": "前往支援"
+      },
+      "Txt_Bar_UI_Top_04": {
+        "SelfId": "Txt_Bar_UI_Top_04",
+        "Text": "呼唤支援"
+      },
+      "Txt_Bar_UI_Top_05": {
+        "SelfId": "Txt_Bar_UI_Top_05",
+        "Text": "放弃"
+      },
+      "Txt_Bar_UI_Top_06": {
+        "SelfId": "Txt_Bar_UI_Top_06",
+        "Text": "叫出伙伴"
+      },
+      "Txt_Bar_UI_Top_07": {
+        "SelfId": "Txt_Bar_UI_Top_07",
+        "Text": "托付伙伴"
+      },
+      "Txt_Bar_UI_Top_08": {
+        "SelfId": "Txt_Bar_UI_Top_08",
+        "Text": "寻找伙伴"
+      },
+      "Txt_Bar_UI_Top_09": {
+        "SelfId": "Txt_Bar_UI_Top_09",
+        "Text": "支援功能"
+      },
+      "Txt_Bar_UI_Top_10": {
+        "SelfId": "Txt_Bar_UI_Top_10",
+        "Text": "返回"
+      },
+      "Txt_Bar_UI_Guide_01": {
+        "SelfId": "Txt_Bar_UI_Guide_01",
+        "Text": "选择伙伴"
+      },
+      "Txt_Bar_UI_Blank": {
+        "SelfId": "Txt_Bar_UI_Blank",
+        "Text": "没有伙伴"
+      },
+      "Txt_Bar_UI_Lend_Guide": {
+        "SelfId": "Txt_Bar_UI_Lend_Guide",
+        "Text": "选择伙伴"
+      },
+      "Txt_Bar_UI_Borrow_Guide": {
+        "SelfId": "Txt_Bar_UI_Borrow_Guide",
+        "Text": "选择冒险者"
+      },
+      "Txt_Bar_Message_Start_01": {
+        "SelfId": "Txt_Bar_Message_Start_01",
+        "Text": "这里是露依妲店。"
+      },
+      "Txt_Bar_Message_Start_02": {
+        "SelfId": "Txt_Bar_Message_Start_02",
+        "Text": "是旅行者们为了寻找伙伴，\r\n经历无数邂逅与离别的酒馆。"
+      },
+      "Txt_Bar_Message_Top": {
+        "SelfId": "Txt_Bar_Message_Top",
+        "Text": "你有什么事吗？<NO_INPUT>"
+      },
+      "Txt_Bar_Message_CannotDropOff": {
+        "SelfId": "Txt_Bar_Message_CannotDropOff",
+        "Text": "要把谁托付给我呢？\r\n{LEADER}现在\r\n没有伙伴啊？"
+      },
+      "Txt_Bar_Message_DropOffTop": {
+        "SelfId": "Txt_Bar_Message_DropOffTop",
+        "Text": "要把谁托付给我呢？<NO_INPUT>"
+      },
+      "Txt_Bar_Message_DropOffHero": {
+        "SelfId": "Txt_Bar_Message_DropOffHero",
+        "Text": "咦，这可不行。\r\n{HERO}待在店中的话，\r\n就没有人能够指挥队伍旅行了。"
+      },
+      "Txt_Bar_Message_DropOffDeath_01": {
+        "SelfId": "Txt_Bar_Message_DropOffDeath_01",
+        "Text": "咦！要直接托付\r\n那种状态的{WORD}吗？\r\n这实在是太过分了。"
+      },
+      "Txt_Bar_Message_DropOffDeath_02": {
+        "SelfId": "Txt_Bar_Message_DropOffDeath_02",
+        "Text": "还是说，\r\n你现在没有救治的钱呢？<NO_INPUT>"
+      },
+      "Txt_Bar_Message_DropOffAbnormalStatus": {
+        "SelfId": "Txt_Bar_Message_DropOffAbnormalStatus",
+        "Text": "要托付{WORD}是吧？\r\n看起来脸色不太好啊……"
+      },
+      "Txt_Bar_Message_ReplaceSelectDeath": {
+        "SelfId": "Txt_Bar_Message_ReplaceSelectDeath",
+        "Text": "那就没办法了。\r\n我收下{WORD}的棺材了。"
+      },
+      "Txt_Bar_Message_ReplaceSelectDeathCancel": {
+        "SelfId": "Txt_Bar_Message_ReplaceSelectDeathCancel",
+        "Text": "那就请你救治一下吧。\r\n{WORD}实在太可怜了。"
+      },
+      "Txt_Bar_Message_ReplaceSelect": {
+        "SelfId": "Txt_Bar_Message_ReplaceSelect",
+        "Text": "要对{WORD}做什么呢？<NO_INPUT>"
+      },
+      "Txt_Bar_Message_DropOff_01": {
+        "SelfId": "Txt_Bar_Message_DropOff_01",
+        "Text": "要把{WORD}托付给我\r\n是吧？"
+      },
+      "Txt_Bar_Message_DropOff_02": {
+        "SelfId": "Txt_Bar_Message_DropOff_02",
+        "Text": "那么，{WORD}\r\n暂时休息一阵吧。"
+      },
+      "Txt_Bar_Message_Replace_01": {
+        "SelfId": "Txt_Bar_Message_Replace_01",
+        "Text": "要替换{WORD}是吧？"
+      },
+      "Txt_Bar_Message_Replace_02": {
+        "SelfId": "Txt_Bar_Message_Replace_02",
+        "Text": "要换成叫出谁来呢？<NO_INPUT>"
+      },
+      "Txt_Bar_Message_CannotReplace": {
+        "SelfId": "Txt_Bar_Message_CannotReplace",
+        "Text": "哎呀，您说笑了。\r\n仅靠已经死了的人，\r\n是无法继续旅行的啊。"
+      },
+      "Txt_Bar_Message_PickUpSelect": {
+        "SelfId": "Txt_Bar_Message_PickUpSelect",
+        "Text": "要叫出谁呢？<NO_INPUT>"
+      },
+      "Txt_Bar_Message_CannotPickUp": {
+        "SelfId": "Txt_Bar_Message_CannotPickUp",
+        "Text": "但店中没有任何人\r\n能成为你的伙伴啊。"
+      },
+      "Txt_Bar_Message_PickUp_01": {
+        "SelfId": "Txt_Bar_Message_PickUp_01",
+        "Text": "要让{WORD}成为伙伴是吧。\r\n我明白了。"
+      },
+      "Txt_Bar_Message_PickUp_02": {
+        "SelfId": "Txt_Bar_Message_PickUp_02",
+        "Text": "{WORD}！\r\n{LEADER}在叫你呢！"
+      },
+      "Txt_Bar_Message_PickUp_03": {
+        "SelfId": "Txt_Bar_Message_PickUp_03",
+        "Text": "{WORD}成为了伙伴！"
+      },
+      "Txt_Bar_Message_Sort": {
+        "SelfId": "Txt_Bar_Message_Sort",
+        "Text": "除去装备在身上的东西，\r\n剩下的我都放到背包里了。"
+      },
+      "Txt_Bar_Message_SortFirst": {
+        "SelfId": "Txt_Bar_Message_SortFirst",
+        "Text": "如果不这样做的话，\r\n会有人忘记\r\n重要的物品在谁身上呢。"
+      },
+      "Txt_Bar_Message_DropOffAgain": {
+        "SelfId": "Txt_Bar_Message_DropOffAgain",
+        "Text": "还要托付给我\r\n其他人吗？<NO_INPUT>"
+      },
+      "Txt_Bar_Message_PickUpAgain": {
+        "SelfId": "Txt_Bar_Message_PickUpAgain",
+        "Text": "还要叫\r\n其他人吗？<NO_INPUT>"
+      },
+      "Txt_Bar_Message_CannotPickUpPartyMAX_01": {
+        "SelfId": "Txt_Bar_Message_CannotPickUpPartyMAX_01",
+        "Text": "咦？\r\n你不是有一大群伙伴了吗？"
+      },
+      "Txt_Bar_Message_CannotPickUpPartyMAX_02": {
+        "SelfId": "Txt_Bar_Message_CannotPickUpPartyMAX_02",
+        "Text": "如果不把某人托付给我的话，\r\n是无法再带走其他伙伴的。"
+      },
+      "Txt_Bar_Message_CannotViewRoster": {
+        "SelfId": "Txt_Bar_Message_CannotViewRoster",
+        "Text": "咦，\r\n但是你并没有托付给我\r\n任何伙伴啊。"
+      },
+      "Txt_Bar_Message_ViewRosterTop": {
+        "SelfId": "Txt_Bar_Message_ViewRosterTop",
+        "Text": "想看看在酒馆里的人情况怎么样是吧。<NO_INPUT>"
+      },
+      "Txt_Bar_Message_TopAgain": {
+        "SelfId": "Txt_Bar_Message_TopAgain",
+        "Text": "还有其他事吗？<NO_INPUT>"
+      },
+      "Txt_Bar_Message_Finish": {
+        "SelfId": "Txt_Bar_Message_Finish",
+        "Text": "那么，欢迎再来。"
+      },
+      "Txt_Bar_Message_DropOffOnlyLend": {
+        "SelfId": "Txt_Bar_Message_DropOffOnlyLend",
+        "Text": "那样的话，\r\n队伍里就只剩下\r\n过来支援的人了哦。"
+      },
+      "Txt_Bar_Message_LendFirst": {
+        "SelfId": "Txt_Bar_Message_LendFirst",
+        "Text": "你可以在这里把自己的伙伴\r\n登记为支援人手。<KEY_WAIT>\r\n登记后，别人就可以在自己队伍里\r\n调遣这位伙伴了。<KEY_WAIT>\r\n虽说是去支援他人，\r\n但这位伙伴并不会离开，\r\n依然可以和之前一样陪伴你冒险。<KEY_WAIT>\r\n登记支援人手或许能在未来\r\n帮上其他冒险者的忙。"
+      },
+      "Txt_Bar_Message_LendNone": {
+        "SelfId": "Txt_Bar_Message_LendNone",
+        "Text": "可是，现在没有能\r\n委派去支援的伙伴啊。"
+      },
+      "Txt_Bar_Message_LendTop": {
+        "SelfId": "Txt_Bar_Message_LendTop",
+        "Text": "要委派谁去支援呢？<NO_INPUT>"
+      },
+      "Txt_Bar_Message_LendTop2": {
+        "SelfId": "Txt_Bar_Message_LendTop2",
+        "Text": "那么，要委派其他人\r\n去支援吗？<NO_INPUT>"
+      },
+      "Txt_Bar_Message_LendRegistration": {
+        "SelfId": "Txt_Bar_Message_LendRegistration",
+        "Text": "委派{WORD}去支援，是吗？<NO_INPUT>"
+      },
+      "Txt_Bar_Message_LendReregistration": {
+        "SelfId": "Txt_Bar_Message_LendReregistration",
+        "Text": "还是委派{WORD}去支援，是吗？<NO_INPUT>"
+      },
+      "Txt_Bar_Message_LendChange": {
+        "SelfId": "Txt_Bar_Message_LendChange",
+        "Text": "现在登记的是{WORD2}，\r\n确定要换成\r\n委派{WORD}去支援吗？<NO_INPUT>"
+      },
+      "Txt_Bar_Message_LendDecide": {
+        "SelfId": "Txt_Bar_Message_LendDecide",
+        "Text": "那我登记一下{WORD}。\r\n希望这位伙伴能帮上大家的忙。"
+      },
+      "Txt_Bar_Message_BorrowFirst": {
+        "SelfId": "Txt_Bar_Message_BorrowFirst",
+        "Text": "你可以在这里邀请其他队伍的冒险者\r\n加入自己的队伍。"
+      },
+      "Txt_Bar_Message_BorrowNone": {
+        "SelfId": "Txt_Bar_Message_BorrowNone",
+        "Text": "似乎还没有\r\n可以提供支援的冒险者……"
+      },
+      "Txt_Bar_Message_BorrowTop": {
+        "SelfId": "Txt_Bar_Message_BorrowTop",
+        "Text": "要请哪位来支援呢？<NO_INPUT>"
+      },
+      "Txt_Bar_Message_BorrowTop2": {
+        "SelfId": "Txt_Bar_Message_BorrowTop2",
+        "Text": "那么，要请其他人过来支援吗？<NO_INPUT>"
+      },
+      "Txt_Bar_Message_BorrowReturnConfirm": {
+        "SelfId": "Txt_Bar_Message_BorrowReturnConfirm",
+        "Text": "正在支援的{WORD}要回去了，\r\n可以吗？"
+      },
+      "Txt_Bar_Message_BorrowReturnDecide": {
+        "SelfId": "Txt_Bar_Message_BorrowReturnDecide",
+        "Text": "好的。\r\n{WORD}持有的物品\r\n我都放到那个背包里了。"
+      },
+      "Txt_Bar_Message_BorrowReturnNoLive": {
+        "SelfId": "Txt_Bar_Message_BorrowReturnNoLive",
+        "Text": "如果{WORD}现在离开，\r\n队伍里就只剩死人了。"
+      },
+      "Txt_Bar_Message_BorrowReturnCancel": {
+        "SelfId": "Txt_Bar_Message_BorrowReturnCancel",
+        "Text": "明白了。\r\n接下来还是请{WORD}\r\n接续支援。"
+      },
+      "Txt_Bar_Message_BorrowSelect": {
+        "SelfId": "Txt_Bar_Message_BorrowSelect",
+        "Text": "要请{WORD}来\r\n支援吗？<NO_INPUT>"
+      },
+      "Txt_Bar_Message_BorrowDecide": {
+        "SelfId": "Txt_Bar_Message_BorrowDecide",
+        "Text": "那我登记一下{WORD}。"
+      },
+      "Txt_Bar_Message_BorrowPartyAdd": {
+        "SelfId": "Txt_Bar_Message_BorrowPartyAdd",
+        "Text": "要直接带上{WORD}\r\n去冒险吗？<NO_INPUT>"
+      },
+      "Txt_Bar_Message_BorrowPartyChange": {
+        "SelfId": "Txt_Bar_Message_BorrowPartyChange",
+        "Text": "可是你已经有那么多伙伴，\r\n没办法再带上更多人去了。\r\n还是请谁留在酒馆待命吧？<NO_INPUT>"
+      },
+      "Txt_Bar_Message_BorrowPartySelect": {
+        "SelfId": "Txt_Bar_Message_BorrowPartySelect",
+        "Text": "那么，要让谁留在这里待命呢？<NO_INPUT>"
+      },
+      "Txt_Bar_Message_BorrowPartySelect2": {
+        "SelfId": "Txt_Bar_Message_BorrowPartySelect2",
+        "Text": "要让其他人\r\n留在这里待命吗？<NO_INPUT>"
+      },
+      "Txt_Bar_Message_BorrowPartyToBar": {
+        "SelfId": "Txt_Bar_Message_BorrowPartyToBar",
+        "Text": "那我就让{WORD}离队了。\r\n除去装备在身上的物品，\r\n剩下的我都放到那个背包里了。"
+      },
+      "Txt_Bar_Message_BorrowAddBarMember": {
+        "SelfId": "Txt_Bar_Message_BorrowAddBarMember",
+        "Text": "那就请{WORD}\r\n留在酒馆待命吧。"
+      },
+      "Txt_Bar_Message_Find": {
+        "SelfId": "Txt_Bar_Message_Find",
+        "Text": "你是想找一起去冒险的人吧？\r\n<KEY_WAIT>\r\n你当然可以直接问问在酒馆里的人。\r\n不过，如果没有中意的人选，\r\n你也可以去二层让登记处帮忙寻找。<KEY_WAIT>\r\n我相信一定能找到正合你意的伙伴！"
+      },
+      "Txt_Bar_Message_Help": {
+        "SelfId": "Txt_Bar_Message_Help",
+        "Text": "要去支援其他的冒险者吗？\r\n还是说，要请其他人过来支援？<NO_INPUT>"
+      },
+      "Txt_Bar_Message_HelpAgain": {
+        "SelfId": "Txt_Bar_Message_HelpAgain",
+        "Text": "还有其他想做的事吗？<NO_INPUT>"
+      },
+      "Txt_Bar_Message_BorrowDecideSystem": {
+        "SelfId": "Txt_Bar_Message_BorrowDecideSystem",
+        "Text": "{WORD}已被登记为\r\n冒险之书{VALUE}的支援角色。"
+      }
+    }
+  }
+]

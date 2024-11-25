@@ -1,0 +1,192 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_SearchObject_ShampaneTower",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_SearchObject_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "SEARCH_ShampaneTower_1F_TREASURE_NORMAL_0": {
+        "SelfId": "SEARCH_ShampaneTower_1F_TREASURE_NORMAL_0",
+        "ObjectType": "ESearchObjectType::TREASURE_NORMAL",
+        "ItemId": "ITEM_EQUIP_WEAPON_CHAIN_SICKLE",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_ShampaneTower_1F_TREASURE_NORMAL_0"
+      },
+      "SEARCH_ShampaneTower_1F_BARREL_0": {
+        "SelfId": "SEARCH_ShampaneTower_1F_BARREL_0",
+        "ObjectType": "ESearchObjectType::BARREL",
+        "ItemId": "ITEM_USE_ITEM_MAGIC_WATER",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_ShampaneTower_1F_BARREL_0"
+      },
+      "SEARCH_ShampaneTower_2F_TREASURE_NORMAL_0": {
+        "SelfId": "SEARCH_ShampaneTower_2F_TREASURE_NORMAL_0",
+        "ObjectType": "ESearchObjectType::TREASURE_NORMAL",
+        "ItemId": "ITEM_EQUIP_WEAPON_WIZARDS_STAFF",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_ShampaneTower_2F_TREASURE_NORMAL_0"
+      },
+      "SEARCH_ShampaneTower_2F_BARREL_0": {
+        "SelfId": "SEARCH_ShampaneTower_2F_BARREL_0",
+        "ObjectType": "ESearchObjectType::BARREL",
+        "ItemId": "None",
+        "ItemNum": 0,
+        "Gold": 48,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_ShampaneTower_2F_BARREL_0"
+      },
+      "SEARCH_ShampaneTower_2F_BARREL_1": {
+        "SelfId": "SEARCH_ShampaneTower_2F_BARREL_1",
+        "ObjectType": "ESearchObjectType::BARREL",
+        "ItemId": "ITEM_USE_ITEM_SEED_OF_PROTECTION",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_ShampaneTower_2F_BARREL_1"
+      },
+      "SEARCH_ShampaneTower_3F_TREASURE_NORMAL_0": {
+        "SelfId": "SEARCH_ShampaneTower_3F_TREASURE_NORMAL_0",
+        "ObjectType": "ESearchObjectType::TREASURE_NORMAL",
+        "ItemId": "ITEM_EQUIP_SHIELD_BRONZE_SHIELD",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_ShampaneTower_3F_TREASURE_NORMAL_0"
+      },
+      "SEARCH_ShampaneTower_3F_POT_0": {
+        "SelfId": "SEARCH_ShampaneTower_3F_POT_0",
+        "ObjectType": "ESearchObjectType::POT",
+        "ItemId": "None",
+        "ItemNum": 0,
+        "Gold": 1,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_ShampaneTower_3F_POT_0"
+      },
+      "SEARCH_ShampaneTower_3F_POT_1": {
+        "SelfId": "SEARCH_ShampaneTower_3F_POT_1",
+        "ObjectType": "ESearchObjectType::POT",
+        "ItemId": "ITEM_USE_ITEM_STRONG_MEDICINE",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_ShampaneTower_3F_POT_1"
+      },
+      "SEARCH_ShampaneTower_4F_EVENT_0": {
+        "SelfId": "SEARCH_ShampaneTower_4F_EVENT_0",
+        "ObjectType": "ESearchObjectType::EVENT",
+        "ItemId": "ITEM_EQUIP_HELMET_KINGS_CROWN",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": false,
+        "OverrideScriptName": "ShampaneTower_4F_SearchEvent_Kings_Crown_00",
+        "FlagName": "EGOPEnumSearchType::SEARCH_ShampaneTower_3F_EVENT_0"
+      },
+      "SEARCH_ShampaneTower_4F_TREASURE_NORMAL_0": {
+        "SelfId": "SEARCH_ShampaneTower_4F_TREASURE_NORMAL_0",
+        "ObjectType": "ESearchObjectType::TREASURE_NORMAL",
+        "ItemId": "ITEM_USE_ITEM_PRAYER_RING",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_ShampaneTower_4F_TREASURE_NORMAL_0"
+      },
+      "SEARCH_ShampaneTower_4F_TREASURE_NORMAL_1": {
+        "SelfId": "SEARCH_ShampaneTower_4F_TREASURE_NORMAL_1",
+        "ObjectType": "ESearchObjectType::TREASURE_NORMAL",
+        "ItemId": "ITEM_SMALL_MEDAL",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_ShampaneTower_4F_TREASURE_NORMAL_1"
+      },
+      "SEARCH_ShampaneTower_4F_POT_0": {
+        "SelfId": "SEARCH_ShampaneTower_4F_POT_0",
+        "ObjectType": "ESearchObjectType::POT",
+        "ItemId": "ITEM_USE_ITEM_POUCH_OF_MUSK",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_ShampaneTower_4F_POT_0"
+      },
+      "SEARCH_ShampaneTower_4F_POT_1": {
+        "SelfId": "SEARCH_ShampaneTower_4F_POT_1",
+        "ObjectType": "ESearchObjectType::POT",
+        "ItemId": "None",
+        "ItemNum": 0,
+        "Gold": 33,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_ShampaneTower_4F_POT_1"
+      },
+      "SEARCH_ShampaneTower_4F_POT_2": {
+        "SelfId": "SEARCH_ShampaneTower_4F_POT_2",
+        "ObjectType": "ESearchObjectType::POT",
+        "ItemId": "ITEM_USE_ITEM_MAGIC_WATER",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_ShampaneTower_4F_POT_2"
+      },
+      "SEARCH_ShampaneTower_6F_TREASURE_NORMAL_0": {
+        "SelfId": "SEARCH_ShampaneTower_6F_TREASURE_NORMAL_0",
+        "ObjectType": "ESearchObjectType::TREASURE_NORMAL",
+        "ItemId": "ITEM_EQUIP_ACCESSORY_SKULL_RING",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_ShampaneTower_6F_TREASURE_NORMAL_0"
+      },
+      "SEARCH_ShampaneTower_6F_TREASURE_NORMAL_1": {
+        "SelfId": "SEARCH_ShampaneTower_6F_TREASURE_NORMAL_1",
+        "ObjectType": "ESearchObjectType::TREASURE_NORMAL",
+        "ItemId": "ITEM_EQUIP_ACCESSORY_RUBY_WRISTBAND",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_ShampaneTower_6F_TREASURE_NORMAL_1"
+      }
+    }
+  }
+]

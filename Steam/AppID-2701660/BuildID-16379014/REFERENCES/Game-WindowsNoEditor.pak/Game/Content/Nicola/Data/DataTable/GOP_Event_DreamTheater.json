@@ -1,0 +1,136 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Event_DreamTheater",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Event_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "EVENT_DreamTheater_MAPLIST_S08R0101_0": {
+        "SelfId": "EVENT_DreamTheater_MAPLIST_S08R0101_0",
+        "EventID": "DreamTheater_MAIN_0_SCENE_0010_010",
+        "TriggerType": "EEventTriggerType::SCENE",
+        "TriggerID": "MAPLIST_S08R0101",
+        "EventPriority": 0,
+        "ProgressLower": 0,
+        "ProgressUpper": 30,
+        "StartFlagName1": "None",
+        "IsTrueCondition1": false,
+        "IsAndOperation": false,
+        "StartFlagName2": "None",
+        "IsTrueCondition2": false,
+        "ScenarioProgress": 0
+      },
+      "EVENT_DreamTheater_DreamTheater_Bartender_01_L1_0": {
+        "SelfId": "EVENT_DreamTheater_DreamTheater_Bartender_01_L1_0",
+        "EventID": "DreamTheater_MAIN_0_ACTOR_0110_010",
+        "TriggerType": "EEventTriggerType::ACTOR",
+        "TriggerID": "DreamTheater_Bartender_01_L1",
+        "EventPriority": 0,
+        "ProgressLower": 0,
+        "ProgressUpper": 30,
+        "StartFlagName1": "None",
+        "IsTrueCondition1": false,
+        "IsAndOperation": false,
+        "StartFlagName2": "None",
+        "IsTrueCondition2": false,
+        "ScenarioProgress": 0
+      },
+      "EVENT_DreamTheater_DreamTheater_OldMan_01_L1_0": {
+        "SelfId": "EVENT_DreamTheater_DreamTheater_OldMan_01_L1_0",
+        "EventID": "DreamTheater_MAIN_0_ACTOR_0210_010",
+        "TriggerType": "EEventTriggerType::ACTOR",
+        "TriggerID": "DreamTheater_OldMan_01_L1",
+        "EventPriority": 0,
+        "ProgressLower": 0,
+        "ProgressUpper": 30,
+        "StartFlagName1": "None",
+        "IsTrueCondition1": false,
+        "IsAndOperation": false,
+        "StartFlagName2": "None",
+        "IsTrueCondition2": false,
+        "ScenarioProgress": 0
+      },
+      "EVENT_DreamTheater_DreamTheater_Merchant_01_L1_0": {
+        "SelfId": "EVENT_DreamTheater_DreamTheater_Merchant_01_L1_0",
+        "EventID": "DreamTheater_MAIN_0_ACTOR_0310_010",
+        "TriggerType": "EEventTriggerType::ACTOR",
+        "TriggerID": "DreamTheater_Merchant_01_L1",
+        "EventPriority": 0,
+        "ProgressLower": 0,
+        "ProgressUpper": 30,
+        "StartFlagName1": "None",
+        "IsTrueCondition1": false,
+        "IsAndOperation": false,
+        "StartFlagName2": "None",
+        "IsTrueCondition2": false,
+        "ScenarioProgress": 0
+      },
+      "EVENT_DreamTheater_DreamTheater_Arakure_01_L1_0": {
+        "SelfId": "EVENT_DreamTheater_DreamTheater_Arakure_01_L1_0",
+        "EventID": "DreamTheater_MAIN_0_ACTOR_0410_010",
+        "TriggerType": "EEventTriggerType::ACTOR",
+        "TriggerID": "DreamTheater_Arakure_01_L1",
+        "EventPriority": 0,
+        "ProgressLower": 0,
+        "ProgressUpper": 30,
+        "StartFlagName1": "None",
+        "IsTrueCondition1": false,
+        "IsAndOperation": false,
+        "StartFlagName2": "None",
+        "IsTrueCondition2": false,
+        "ScenarioProgress": 0
+      },
+      "EVENT_DreamTheater_DreamTheater_Man_01_L1_0": {
+        "SelfId": "EVENT_DreamTheater_DreamTheater_Man_01_L1_0",
+        "EventID": "DreamTheater_MAIN_0_ACTOR_0510_010",
+        "TriggerType": "EEventTriggerType::ACTOR",
+        "TriggerID": "DreamTheater_Man_01_L1",
+        "EventPriority": 0,
+        "ProgressLower": 0,
+        "ProgressUpper": 30,
+        "StartFlagName1": "FF2",
+        "IsTrueCondition1": false,
+        "IsAndOperation": false,
+        "StartFlagName2": "None",
+        "IsTrueCondition2": false,
+        "ScenarioProgress": 0
+      },
+      "EVENT_DreamTheater_DreamTheater_Man_01_L1_1": {
+        "SelfId": "EVENT_DreamTheater_DreamTheater_Man_01_L1_1",
+        "EventID": "DreamTheater_MAIN_0_ACTOR_0510_020",
+        "TriggerType": "EEventTriggerType::ACTOR",
+        "TriggerID": "DreamTheater_Man_01_L1",
+        "EventPriority": 1,
+        "ProgressLower": 0,
+        "ProgressUpper": 30,
+        "StartFlagName1": "FF2",
+        "IsTrueCondition1": true,
+        "IsAndOperation": false,
+        "StartFlagName2": "None",
+        "IsTrueCondition2": false,
+        "ScenarioProgress": 0
+      },
+      "EVENT_DreamTheater_DreamTheater_Dancer_01_L1_0": {
+        "SelfId": "EVENT_DreamTheater_DreamTheater_Dancer_01_L1_0",
+        "EventID": "DreamTheater_MAIN_0_ACTOR_0610_010",
+        "TriggerType": "EEventTriggerType::ACTOR",
+        "TriggerID": "DreamTheater_Dancer_01_L1",
+        "EventPriority": 0,
+        "ProgressLower": 0,
+        "ProgressUpper": 30,
+        "StartFlagName1": "None",
+        "IsTrueCondition1": false,
+        "IsAndOperation": false,
+        "StartFlagName2": "None",
+        "IsTrueCondition2": false,
+        "ScenarioProgress": 0
+      }
+    }
+  }
+]

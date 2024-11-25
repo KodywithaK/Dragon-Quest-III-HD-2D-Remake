@@ -1,0 +1,380 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_Church",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Church_UI_Top_01": {
+        "SelfId": "Txt_Church_UI_Top_01",
+        "Text": "기도하기"
+      },
+      "Txt_Church_UI_Top_02": {
+        "SelfId": "Txt_Church_UI_Top_02",
+        "Text": "계시 듣기"
+      },
+      "Txt_Church_UI_Top_03": {
+        "SelfId": "Txt_Church_UI_Top_03",
+        "Text": "되살리기"
+      },
+      "Txt_Church_UI_Top_04": {
+        "SelfId": "Txt_Church_UI_Top_04",
+        "Text": "독 치료"
+      },
+      "Txt_Church_UI_Top_05": {
+        "SelfId": "Txt_Church_UI_Top_05",
+        "Text": "저주 풀기"
+      },
+      "Txt_Church_UI_Top_06": {
+        "SelfId": "Txt_Church_UI_Top_06",
+        "Text": "그만두기"
+      },
+      "Txt_Church_Message_Start_Pri": {
+        "SelfId": "Txt_Church_Message_Start_Pri",
+        "Text": "믿음직스러운 신의 종이여,\r\n우리 성당에는 무슨 볼일이신가?<NO_INPUT>"
+      },
+      "Txt_Church_Message_StartNight_Pri": {
+        "SelfId": "Txt_Church_Message_StartNight_Pri",
+        "Text": "이런 늦은 밤에 우리 성당에는\r\n무슨 볼일이신가?<NO_INPUT>"
+      },
+      "Txt_Church_Message_ReviveTop_Pri": {
+        "SelfId": "Txt_Church_Message_ReviveTop_Pri",
+        "Text": "누구를 이 세상으로\r\n되돌리고 싶으신가?<NO_INPUT>"
+      },
+      "Txt_Church_Message_Alive_Pri": {
+        "SelfId": "Txt_Church_Message_Alive_Pri",
+        "Text": "무슨 그런 농담을.\r\n{ACTOR} 님은 살아 계시지 않소!"
+      },
+      "Txt_Church_Message_Revive_Pri": {
+        "SelfId": "Txt_Church_Message_Revive_Pri",
+        "Text": "오오, 주여! 전지전능한 신이시여!\r\n충실한 신의 종 {ACTOR}의 영혼을\r\n지금 이곳으로 되돌려 주소서!<NO_INPUT>"
+      },
+      "Txt_Church_Message_ReviveResult_Pri": {
+        "SelfId": "Txt_Church_Message_ReviveResult_Pri",
+        "Text": "{ACTOR}<IfKRVowel_ACTOR(는,은)> 되살아났다!"
+      },
+      "Txt_Church_Message_DetoxiTop_Pri": {
+        "SelfId": "Txt_Church_Message_DetoxiTop_Pri",
+        "Text": "누구의 독을 치료하시겠나?<NO_INPUT>"
+      },
+      "Txt_Church_Message_NotPoison_Pri": {
+        "SelfId": "Txt_Church_Message_NotPoison_Pri",
+        "Text": "{ACTOR} 님은 독에\r\n걸리지 않으셨네."
+      },
+      "Txt_Church_Message_Detoxi_Pri": {
+        "SelfId": "Txt_Church_Message_Detoxi_Pri",
+        "Text": "오오, 신이시여. 힘을 주소서!\r\n{ACTOR}에게서 추악한 독을\r\n없애 주소서!<NO_INPUT>"
+      },
+      "Txt_Church_Message_DetoxiResult_Pri": {
+        "SelfId": "Txt_Church_Message_DetoxiResult_Pri",
+        "Text": "{ACTOR}에게서\r\n독이 사라졌다!"
+      },
+      "Txt_Church_Message_CurseTop_Pri": {
+        "SelfId": "Txt_Church_Message_CurseTop_Pri",
+        "Text": "누구의 저주를 푸시겠나?<NO_INPUT>"
+      },
+      "Txt_Church_Message_NotCurse_Pri": {
+        "SelfId": "Txt_Church_Message_NotCurse_Pri",
+        "Text": "{ACTOR} 님은\r\n저주에 걸리지 않으셨네."
+      },
+      "Txt_Church_Message_HealCurse_Pri": {
+        "SelfId": "Txt_Church_Message_HealCurse_Pri",
+        "Text": "오오, 신이시여. 힘을 주소서!\r\n불길한 저주를\r\n{ACTOR}<IfKRVowel_ACTOR(로,으로)>부터 없애 주소서!<NO_INPUT>"
+      },
+      "Txt_Church_Message_HealCurseResult_Pri": {
+        "SelfId": "Txt_Church_Message_HealCurseResult_Pri",
+        "Text": "{ACTOR}에게서 저주가 사라졌다!"
+      },
+      "Txt_Church_Message_Confirm_Pri": {
+        "SelfId": "Txt_Church_Message_Confirm_Pri",
+        "Text": "그렇다면 저희 성당에\r\n{VALUE}골드의 기부를.\r\n괜찮으신가?<NO_INPUT>"
+      },
+      "Txt_Church_Message_Shotage_Pri": {
+        "SelfId": "Txt_Church_Message_Shotage_Pri",
+        "Text": "아니, 기부를 하기에는 돈이\r\n모자라지 않은가!\r\n<KEY_WAIT>\r\n오오, 신이시여. 용서해 주소서!\r\n이렇게 가난한 자에게 무리한 기부를\r\n부탁한 제 잘못입니다!"
+      },
+      "Txt_Church_Message_PaymentCancel_Pri": {
+        "SelfId": "Txt_Church_Message_PaymentCancel_Pri",
+        "Text": "성당에 내는 기부금은\r\n신에 대한 감사의 마음.\r\n그것을 아까워하다니 한심하기도 하지."
+      },
+      "Txt_Church_Message_Cancel_Pri": {
+        "SelfId": "Txt_Church_Message_Cancel_Pri",
+        "Text": "으음, 그만두시는군."
+      },
+      "Txt_Church_Message_StartAgain_Pri": {
+        "SelfId": "Txt_Church_Message_StartAgain_Pri",
+        "Text": "그 밖에 다른 용무는 있으신가?<NO_INPUT>"
+      },
+      "Txt_Church_Message_Finish_Pri": {
+        "SelfId": "Txt_Church_Message_Finish_Pri",
+        "Text": "그럼 조심히 가시오.\r\n신의 가호가 함께하기를."
+      },
+      "Txt_Church_Message_Nextlevel_Pri": {
+        "SelfId": "Txt_Church_Message_Nextlevel_Pri",
+        "Text": "{ACTOR}.\r\n당신은 {VALUE}만큼 경험치를 쌓으면\r\n다음 레벨로 오를 것이오."
+      },
+      "Txt_Church_Message_SaveConfirm_Pri": {
+        "SelfId": "Txt_Church_Message_SaveConfirm_Pri",
+        "Text": "그대들의 여행 성과를\r\n이 모험의 서에 기록할 텐가?<NO_INPUT>"
+      },
+      "Txt_Church_Message_SaveCancel_Pri": {
+        "SelfId": "Txt_Church_Message_SaveCancel_Pri",
+        "Text": "알겠소... 그러면 기록하지 않겠네."
+      },
+      "Txt_Church_Message_SaveTop_Pri": {
+        "SelfId": "Txt_Church_Message_SaveTop_Pri",
+        "Text": "그럼 신의 앞에서\r\n지금까지의 행동을 고백하고\r\n모험의 서에 기록하시오.<KEY_WAIT>\r\n모험의 서 몇 번에 기록할 텐가?\r\n<NO_INPUT>"
+      },
+      "Txt_Church_Message_OverwriteConfirm_Pri": {
+        "SelfId": "Txt_Church_Message_OverwriteConfirm_Pri",
+        "Text": "{WORD} Lv{VALUE}에 덮어쓰게 되는데\r\n정말로 괜찮겠나?<NO_INPUT>"
+      },
+      "Txt_Church_Message_ContinueConfirm_Save_Pri": {
+        "SelfId": "Txt_Church_Message_ContinueConfirm_Save_Pri",
+        "Text": "무사히 기록했다네.\r\n모험을 계속할 텐가?<NO_INPUT>"
+      },
+      "Txt_Church_Message_ContinueConfirm_Pri": {
+        "SelfId": "Txt_Church_Message_ContinueConfirm_Pri",
+        "Text": "모험을 계속할 텐가?<NO_INPUT>"
+      },
+      "Txt_Church_Message_ContinueConfirmNosave_Pri": {
+        "SelfId": "Txt_Church_Message_ContinueConfirmNosave_Pri",
+        "Text": "아니! 기록하지 않고 쉬겠단 말인가?<KEY_WAIT>\r\n그러면 그대의 여행이\r\n이전에 기록했던 곳으로 돌아가네만\r\n괜찮은가?<NO_INPUT>"
+      },
+      "Txt_Church_Message_ContinueNoSave_Pri": {
+        "SelfId": "Txt_Church_Message_ContinueNoSave_Pri",
+        "Text": "음, 그만두는 건가."
+      },
+      "Txt_Church_Message_Continue_Pri": {
+        "SelfId": "Txt_Church_Message_Continue_Pri",
+        "Text": "자, 떠나십시오!\r\n{LEADER}!"
+      },
+      "Txt_Church_Message_GameEnd_Pri": {
+        "SelfId": "Txt_Church_Message_GameEnd_Pri",
+        "Text": "오오, 신이시여!\r\n이자에게 잠시나마\r\n휴식을 주십시오."
+      },
+      "Txt_Church_Message_GameStart_Pri": {
+        "SelfId": "Txt_Church_Message_GameStart_Pri",
+        "Text": "잘 돌아오셨소!\r\n{LEADER} 공!"
+      },
+      "Txt_Church_Message_Defeated_Pri": {
+        "SelfId": "Txt_Church_Message_Defeated_Pri",
+        "Text": "오오, {LEADER}!\r\n죽고 말다니 칠칠치 못하군!\r\n<KEY_WAIT>\r\n그대에게 다시 기회를 주겠네!\r\n<KEY_WAIT>\r\n너무 무리하지 마시길.\r\n자, 떠나시오 {LEADER}!"
+      },
+      "Txt_Church_Message_LevelMax_Pri": {
+        "SelfId": "Txt_Church_Message_LevelMax_Pri",
+        "Text": "{ACTOR}<IfKRVowel_ACTOR(는,은)> 충분히 강해졌다네"
+      },
+      "Txt_Church_Message_EXPMax_Pri": {
+        "SelfId": "Txt_Church_Message_EXPMax_Pri",
+        "Text": "{ACTOR}<IfKRVowel_ACTOR(는,은)> 이미 경험치를 쌓은 듯하네."
+      },
+      "Txt_Church_Message_NextlevelTop_Pri": {
+        "SelfId": "Txt_Church_Message_NextlevelTop_Pri",
+        "Text": "신의 목소리가 들리는군."
+      },
+      "Txt_Church_Message_ReviveTopNoTarget_Pri": {
+        "SelfId": "Txt_Church_Message_ReviveTopNoTarget_Pri",
+        "Text": "힘이 다한 자는 한 명도 없는 듯하군.\r\n신의 가호에 감사하게나."
+      },
+      "Txt_Church_Message_DetoxiTopNoTarget_Pri": {
+        "SelfId": "Txt_Church_Message_DetoxiTopNoTarget_Pri",
+        "Text": "중독된 자는 한 명도 없는 듯하군.\r\n신의 가호에 감사하게나."
+      },
+      "Txt_Church_Message_CurseTopNoTarget_Pri": {
+        "SelfId": "Txt_Church_Message_CurseTopNoTarget_Pri",
+        "Text": "저주받은 자는 한 명도 없는 듯하군.\r\n신의 가호에 감사하게나."
+      },
+      "Txt_Church_Message_Start_Sis": {
+        "SelfId": "Txt_Church_Message_Start_Sis",
+        "Text": "이곳은 신의 인도를 받은\r\n길 잃은 어린 양이 찾아오는 곳.\r\n저희 성당에는 무슨 일로 오셨습니까?<NO_INPUT>"
+      },
+      "Txt_Church_Message_StartNight_Sis": {
+        "SelfId": "Txt_Church_Message_StartNight_Sis",
+        "Text": "오오, 길 잃은 어린 양들이여.\r\n이런 늦은 밤에 저희 성당에는\r\n무슨 일로 오셨습니까?<NO_INPUT>"
+      },
+      "Txt_Church_Message_ReviveTop_Sis": {
+        "SelfId": "Txt_Church_Message_ReviveTop_Sis",
+        "Text": "어느 분을 되살리고 싶으신가요?<NO_INPUT>"
+      },
+      "Txt_Church_Message_Alive_Sis": {
+        "SelfId": "Txt_Church_Message_Alive_Sis",
+        "Text": "어머? {ACTOR} 님은\r\n살아 계시는걸요."
+      },
+      "Txt_Church_Message_Revive_Sis": {
+        "SelfId": "Txt_Church_Message_Revive_Sis",
+        "Text": "아아, 하늘에 계신\r\n우리의 신이시여!<KEY_WAIT>\r\n지금 바로\r\n{ACTOR}에게 생명의 숨결을\r\n불어넣어 주소서.<NO_INPUT>"
+      },
+      "Txt_Church_Message_ReviveResult_Sis": {
+        "SelfId": "Txt_Church_Message_ReviveResult_Sis",
+        "Text": "{ACTOR}<IfKRVowel_ACTOR(는,은)> 되살아났다!"
+      },
+      "Txt_Church_Message_DetoxiTop_Sis": {
+        "SelfId": "Txt_Church_Message_DetoxiTop_Sis",
+        "Text": "어느 분의 독을 치료하시겠나요?<NO_INPUT>"
+      },
+      "Txt_Church_Message_NotPoison_Sis": {
+        "SelfId": "Txt_Church_Message_NotPoison_Sis",
+        "Text": "어머? {ACTOR} 님은\r\n독에 걸리지 않으셨네요."
+      },
+      "Txt_Church_Message_Detoxi_Sis": {
+        "SelfId": "Txt_Church_Message_Detoxi_Sis",
+        "Text": "아아, 우리의 신이시여.\r\n{ACTOR}<IfKRVowel_ACTOR(를,을)> 침식하는 독을\r\n정화해 주소서.<NO_INPUT>"
+      },
+      "Txt_Church_Message_DetoxiResult_Sis": {
+        "SelfId": "Txt_Church_Message_DetoxiResult_Sis",
+        "Text": "{ACTOR}에게서\r\n독이 사라졌다!"
+      },
+      "Txt_Church_Message_CurseTop_Sis": {
+        "SelfId": "Txt_Church_Message_CurseTop_Sis",
+        "Text": "어느 분의 저주를 푸실 건가요?<NO_INPUT>"
+      },
+      "Txt_Church_Message_NotCurse_Sis": {
+        "SelfId": "Txt_Church_Message_NotCurse_Sis",
+        "Text": "{ACTOR} 님은\r\n저주에 걸리지 않으셨네요."
+      },
+      "Txt_Church_Message_HealCurse_Sis": {
+        "SelfId": "Txt_Church_Message_HealCurse_Sis",
+        "Text": "아아, 우리의 신이시여.\r\n{ACTOR}<IfKRVowel_ACTOR(를,을)> 불길한 저주로부터\r\n해방시켜 주소서.<NO_INPUT>"
+      },
+      "Txt_Church_Message_HealCurseResult_Sis": {
+        "SelfId": "Txt_Church_Message_HealCurseResult_Sis",
+        "Text": "{ACTOR}에게서 저주가 사라졌다!"
+      },
+      "Txt_Church_Message_Confirm_Sis": {
+        "SelfId": "Txt_Church_Message_Confirm_Sis",
+        "Text": "그럼 저희 성당에\r\n{VALUE}골드의 기부를.\r\n괜찮으신가요?<NO_INPUT>"
+      },
+      "Txt_Church_Message_Shotage_Sis": {
+        "SelfId": "Txt_Church_Message_Shotage_Sis",
+        "Text": "죄송하지만\r\n돈이 모자라는군요."
+      },
+      "Txt_Church_Message_PaymentCancel_Sis": {
+        "SelfId": "Txt_Church_Message_PaymentCancel_Sis",
+        "Text": "억지로 내라고는 하지 않겠습니다.\r\n모든 것은 신의 뜻대로......"
+      },
+      "Txt_Church_Message_Cancel_Sis": {
+        "SelfId": "Txt_Church_Message_Cancel_Sis",
+        "Text": "어머? 그만두시는군요."
+      },
+      "Txt_Church_Message_StartAgain_Sis": {
+        "SelfId": "Txt_Church_Message_StartAgain_Sis",
+        "Text": "그 밖에 다른 볼일은 있으십니까?<NO_INPUT>"
+      },
+      "Txt_Church_Message_Finish_Sis": {
+        "SelfId": "Txt_Church_Message_Finish_Sis",
+        "Text": "신께서는 항상 우리를\r\n지켜보고 계십니다.\r\n또 오세요."
+      },
+      "Txt_Church_Message_SaveConfirm_Sis": {
+        "SelfId": "Txt_Church_Message_SaveConfirm_Sis",
+        "Text": "그럼 신의 앞에서\r\n지금까지의 행동을 고백하고\r\n모험의 서에 기록하세요.<NO_INPUT>"
+      },
+      "Txt_Church_Message_SaveCancel_Sis": {
+        "SelfId": "Txt_Church_Message_SaveCancel_Sis",
+        "Text": "어머? 그만두시는군요."
+      },
+      "Txt_Church_Message_SaveTop_Sis": {
+        "SelfId": "Txt_Church_Message_SaveTop_Sis",
+        "Text": "모험의 서 몇 번에\r\n기록하시겠습니까?<NO_INPUT>"
+      },
+      "Txt_Church_Message_OverwriteConfirm_Sis": {
+        "SelfId": "Txt_Church_Message_OverwriteConfirm_Sis",
+        "Text": "{WORD} Lv{VALUE}의\r\n기록에 덮어쓰게 됩니다만\r\n정말로 괜찮으실까요?<NO_INPUT>"
+      },
+      "Txt_Church_Message_ContinueConfirm_Save_Sis": {
+        "SelfId": "Txt_Church_Message_ContinueConfirm_Save_Sis",
+        "Text": "무사히 기록했습니다.\r\n모험을 계속하시겠습니까?<NO_INPUT>"
+      },
+      "Txt_Church_Message_ContinueConfirm_Sis": {
+        "SelfId": "Txt_Church_Message_ContinueConfirm_Sis",
+        "Text": "모험을 계속하시겠습니까?<NO_INPUT>"
+      },
+      "Txt_Church_Message_ContinueConfirmNosave_Sis": {
+        "SelfId": "Txt_Church_Message_ContinueConfirmNosave_Sis",
+        "Text": "네? 기록하지 않고 쉬실 건가요?<KEY_WAIT>\r\n그러면 당신의 여행이\r\n이전에 기록했던 곳으로 돌아갑니다.\r\n정말로 괜찮으신가요?<NO_INPUT>"
+      },
+      "Txt_Church_Message_ContinueNoSave_Sis": {
+        "SelfId": "Txt_Church_Message_ContinueNoSave_Sis",
+        "Text": "그만두시는군요.\r\n{LEADER}에게 신의 가호가 있기를......."
+      },
+      "Txt_Church_Message_Continue_Sis": {
+        "SelfId": "Txt_Church_Message_Continue_Sis",
+        "Text": "{LEADER}에게 신의 가호가 있기를......."
+      },
+      "Txt_Church_Message_GameEnd_Sis": {
+        "SelfId": "Txt_Church_Message_GameEnd_Sis",
+        "Text": "아아, 신이시여!\r\n이 길 잃은 어린 양에게\r\n잠시나마 휴식을 주십시오!"
+      },
+      "Txt_Church_Message_GameStart_Sis": {
+        "SelfId": "Txt_Church_Message_GameStart_Sis",
+        "Text": "잘 돌아오셨습니다.\r\n{LEADER}."
+      },
+      "Txt_Church_Message_Defeated_Sis": {
+        "SelfId": "Txt_Church_Message_Defeated_Sis",
+        "Text": "{LEADER}에게 신의\r\n가호가 있기를......."
+      },
+      "Txt_Church_Message_ReviveTopNoTarget_Sis": {
+        "SelfId": "Txt_Church_Message_ReviveTopNoTarget_Sis",
+        "Text": "안심하세요.\r\n힘이 다한 사람은 한 명도 없습니다."
+      },
+      "Txt_Church_Message_DetoxiTopNoTarget_Sis": {
+        "SelfId": "Txt_Church_Message_DetoxiTopNoTarget_Sis",
+        "Text": "안심하세요.\r\n중독된 사람은 한 명도 없습니다."
+      },
+      "Txt_Church_Message_CurseTopNoTarget_Sis": {
+        "SelfId": "Txt_Church_Message_CurseTopNoTarget_Sis",
+        "Text": "안심하세요.\r\n저주받은 사람은 한 명도 없습니다."
+      },
+      "Txt_Church_Message_Start_ALIAHAN": {
+        "SelfId": "Txt_Church_Message_Start_ALIAHAN",
+        "Text": "아리아한의 듬직한 전사여.\r\n성당에는 무슨 일인가?<NO_INPUT>"
+      },
+      "Txt_Church_Message_StartNight_ALIAHAN": {
+        "SelfId": "Txt_Church_Message_StartNight_ALIAHAN",
+        "Text": "아리아한의 듬직한 전사여.\r\n이런 야심한 밤에 성당에는\r\n무슨 일인가?<NO_INPUT>"
+      },
+      "Txt_Church_Message_Start_SAMANOSA": {
+        "SelfId": "Txt_Church_Message_Start_SAMANOSA",
+        "Text": "오오, 사만오사의 구원자여.\r\n성당에는 무슨 일이십니까?<NO_INPUT>"
+      },
+      "Txt_Church_Message_StartNight_SAMANOSA": {
+        "SelfId": "Txt_Church_Message_StartNight_SAMANOSA",
+        "Text": "오오, 사만오사의 구원자여.\r\n이런 야심한 밤에 성당에는\r\n무슨 일이십니까?<NO_INPUT>"
+      },
+      "Txt_Church_Message_Start_EDINBEAR": {
+        "SelfId": "Txt_Church_Message_Start_EDINBEAR",
+        "Text": "설령 촌사람이라 해도 신은 평등합니다.\r\n성당에는 무슨 일로 오셨습니까?<NO_INPUT>"
+      },
+      "Txt_Church_Message_StartNight_EDINBEAR": {
+        "SelfId": "Txt_Church_Message_StartNight_EDINBEAR",
+        "Text": "설령 촌사람이라 해도 신은 평등합니다.\r\n이런 야심한 밤에 성당에는\r\n무슨 일로 오셨습니까?<NO_INPUT>"
+      },
+      "Txt_Church_Message_Start_MBR": {
+        "SelfId": "Txt_Church_Message_Start_MBR",
+        "Text": "가끔은 저도 오락을 즐기고 싶습니다...\r\n하지만 신은 언제나 구원을 바라는 자를 돌보시죠.\r\n도움이 필요하신가요?"
+      },
+      "Txt_Church_Message_Defeated_ALIAHAN": {
+        "SelfId": "Txt_Church_Message_Defeated_ALIAHAN",
+        "Text": "오오, {LEADER}!\r\n죽고 말다니 칠칠치 못하군요!\r\n<KEY_WAIT>\r\n그대에게 다시 기회를 드리겠습니다!\r\n<KEY_WAIT>\r\n오르테가의 명예를 실추시키지 마십시오.\r\n자, 떠나십시오 {LEADER}!"
+      },
+      "Txt_Church_Message_Defeated_SAMANOSA": {
+        "SelfId": "Txt_Church_Message_Defeated_SAMANOSA",
+        "Text": "오오, {LEADER}!\r\n그대 같은 실력자가 당하다니\r\n예상 밖의 일이군요!<KEY_WAIT>\r\n그대에게 다시 기회를 드리겠습니다!\r\n<KEY_WAIT>\r\n너무 무리하지 마시길.\r\n자, 떠나십시오 {LEADER}!"
+      },
+      "Txt_Church_Message_Defeated_EDINBEAR": {
+        "SelfId": "Txt_Church_Message_Defeated_EDINBEAR",
+        "Text": "아아, {LEADER} 님!\r\n죽고 말다니 역시\r\n촌사람이군요!<KEY_WAIT>\r\n당신에게 다시 기회를 드리겠습니다!\r\n<KEY_WAIT>\r\n{LEADER}에게 신의\r\n가호가 있기를......."
+      },
+      "Txt_Church_Message_Defeated_LUDATORM": {
+        "SelfId": "Txt_Church_Message_Defeated_LUDATORM",
+        "Text": "오오, {LEADER}!\r\n죽고 말다니 이렇게 가여울 수가!\r\n<KEY_WAIT>\r\n그대에게 다시 기회를 드리겠습니다!\r\n<KEY_WAIT>\r\n너무 무리하지 마시길.\r\n자, 떠나십시오 {LEADER}!"
+      }
+    }
+  }
+]

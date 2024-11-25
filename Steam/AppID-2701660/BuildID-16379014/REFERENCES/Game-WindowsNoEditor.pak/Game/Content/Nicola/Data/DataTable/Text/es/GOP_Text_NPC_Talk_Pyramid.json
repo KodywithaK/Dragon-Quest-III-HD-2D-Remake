@@ -1,0 +1,152 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_NPC_Talk_Pyramid",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Talk_Pyramid_1F_SearchObj_Statue_1": {
+        "SelfId": "Txt_Talk_Pyramid_1F_SearchObj_Statue_1",
+        "Text": "Es una estatua muy imponente. Tal vez se trate de la efigie de algún rey que murió hace tiempo y que reposa en el corazón de la pirámide..."
+      },
+      "Txt_Talk_Pyramid_3F_SearchObj_Door_1": {
+        "SelfId": "Txt_Talk_Pyramid_3F_SearchObj_Door_1",
+        "Text": "Esta puerta de piedra pesa un quintal. No parece que haya forma de abrirla."
+      },
+      "Txt_Talk_Pyramid_3F_SearchObj_Switch_1": {
+        "SelfId": "Txt_Talk_Pyramid_3F_SearchObj_Switch_1",
+        "Text": "Hay un botón redondo incrustado en el suelo. ¿Lo pulsas?"
+      },
+      "Txt_Talk_Pyramid_3F_SearchObj_Switch_2": {
+        "SelfId": "Txt_Talk_Pyramid_3F_SearchObj_Switch_2",
+        "Text": "Ese ya lo has pulsado..."
+      },
+      "Txt_Talk_Pyramid_3F_SearchObj_Switch_3": {
+        "SelfId": "Txt_Talk_Pyramid_3F_SearchObj_Switch_3",
+        "Text": "{LEADER} pulsa el botón."
+      },
+      "Txt_Talk_Pyramid_3F_SearchObj_Switch_4": {
+        "SelfId": "Txt_Talk_Pyramid_3F_SearchObj_Switch_4",
+        "Text": "A lo lejos se oye el rechinar de la piedra..."
+      },
+      "Txt_Talk_Pyramid_3F_Boss_01_1": {
+        "SelfId": "Txt_Talk_Pyramid_3F_Boss_01_1",
+        "Text": "¡¿Cómo <IfSolo(has,habéis)> llegado hasta aquí?!"
+      },
+      "Txt_Talk_Pyramid_3F_Boss_01_2": {
+        "SelfId": "Txt_Talk_Pyramid_3F_Boss_01_2",
+        "Text": "No me digas que <IfSolo(te has,os habéis)> perdido. Je, da igual."
+      },
+      "Txt_Talk_Pyramid_3F_Boss_01_3": {
+        "SelfId": "Txt_Talk_Pyramid_3F_Boss_01_3",
+        "Text": "Hoy me siento generoso, así que no <IfSolo(te,os)> voy a hacer sufrir... ¡demasiado!"
+      },
+      "Txt_Talk_Pyramid_3F_Boss_01_4": {
+        "SelfId": "Txt_Talk_Pyramid_3F_Boss_01_4",
+        "Text": "Argh... Parece que <IfSolo(te,os)> he subestimado..."
+      },
+      "Txt_Talk_Pyramid_3F_Boss_01_5": {
+        "SelfId": "Txt_Talk_Pyramid_3F_Boss_01_5",
+        "Text": "Pero no debo defraudar al Archienemigo... Esta llave no puede acabar en <IfSolo(tus,vuestras)> manos..."
+      },
+      "Txt_Talk_Pyramid_3F_Boss_01_6": {
+        "SelfId": "Txt_Talk_Pyramid_3F_Boss_01_6",
+        "Text": "No <IfSolo(cantes,cantéis)> victoria. Puede que este sea mi final, pero el trol jefe <IfSolo(te,os)> aplastará en un santiamén..."
+      },
+      "Txt_Talk_Pyramid_3F_Boss_01_7": {
+        "SelfId": "Txt_Talk_Pyramid_3F_Boss_01_7",
+        "Text": "Ugh..."
+      },
+      "Txt_Talk_Pyramid_4F_SearchObj_Treasure_1": {
+        "SelfId": "Txt_Talk_Pyramid_4F_SearchObj_Treasure_1",
+        "Text": "Resuena una voz extraña y escalofriante que parece salida de la nada..."
+      },
+      "Txt_Talk_Pyramid_4F_SearchObj_Treasure_2": {
+        "SelfId": "Txt_Talk_Pyramid_4F_SearchObj_Treasure_2",
+        "Text": "¿Quién osa profanar los tesoros de los más egregios monarcas?"
+      },
+      "Txt_Talk_Pyramid_4F_SearchObj_Treasure_3": {
+        "SelfId": "Txt_Talk_Pyramid_4F_SearchObj_Treasure_3",
+        "Text": "¿Quién osa interrumpir nuestro letargo?"
+      },
+      "Txt_Talk_Pyramid_4F_SearchObj_Coffin_1": {
+        "SelfId": "Txt_Talk_Pyramid_4F_SearchObj_Coffin_1",
+        "Text": "{LEADER} examina el sarcófago..."
+      },
+      "Txt_Talk_Pyramid_4F_SearchObj_Coffin_2": {
+        "SelfId": "Txt_Talk_Pyramid_4F_SearchObj_Coffin_2",
+        "Text": "Está hecho de piedra y pesa muchísimo. La tapa no se mueve ni un milímetro."
+      },
+      "Txt_Talk_Pyramid_4F_SearchObj_Coffin_3": {
+        "SelfId": "Txt_Talk_Pyramid_4F_SearchObj_Coffin_3",
+        "Text": "Está hecho de piedra y pesa muchísimo."
+      },
+      "Txt_Talk_Pyramid_B1F_Spell_Disable_1": {
+        "SelfId": "Txt_Talk_Pyramid_B1F_Spell_Disable_1",
+        "Text": "¡Una fuerza misteriosa impide lanzar conjuros!"
+      },
+      "Txt_Talk_Pyramid_B2F_SearchObj_Coffin_1": {
+        "SelfId": "Txt_Talk_Pyramid_B2F_SearchObj_Coffin_1",
+        "Text": "Sobre la losa yace un sarcófago de aspecto antiquísimo. ¿Quieres abrirlo?"
+      },
+      "Txt_Talk_Pyramid_B2F_SearchObj_Coffin_2": {
+        "SelfId": "Txt_Talk_Pyramid_B2F_SearchObj_Coffin_2",
+        "Text": "{LEADER} levanta la tapa del sarcófago con cuidado..."
+      },
+      "Txt_Talk_Pyramid_B2F_SearchObj_Coffin_3": {
+        "SelfId": "Txt_Talk_Pyramid_B2F_SearchObj_Coffin_3",
+        "Text": "El tenue brillo de un par de garras de oro macizo reluce en su interior. ¡Seguro que valen una fortuna!"
+      },
+      "Txt_Talk_Pyramid_B2F_SearchObj_Coffin_4": {
+        "SelfId": "Txt_Talk_Pyramid_B2F_SearchObj_Coffin_4",
+        "Text": "¡{LEADER} se las guarda con alegría!"
+      },
+      "Txt_Talk_Pyramid_B2F_SearchObj_Coffin_5": {
+        "SelfId": "Txt_Talk_Pyramid_B2F_SearchObj_Coffin_5",
+        "Text": "Resuena una voz extraña y escalofriante que parece salida de la nada..."
+      },
+      "Txt_Talk_Pyramid_B2F_SearchObj_Coffin_6": {
+        "SelfId": "Txt_Talk_Pyramid_B2F_SearchObj_Coffin_6",
+        "Text": "¡Que la maldición de los ancestros\r\ncaiga sobre <IfSolo(quien osa,quienes osan)> usurpar las garras doradas!"
+      },
+      "Txt_Talk_Pyramid_B2F_SearchObj_Coffin_7": {
+        "SelfId": "Txt_Talk_Pyramid_B2F_SearchObj_Coffin_7",
+        "Text": "Sobre la losa yace un sarcófago de aspecto antiquísimo."
+      },
+      "Txt_Talk_Pyramid_1F_SUB_0_ACTOR_0010_010_1": {
+        "SelfId": "Txt_Talk_Pyramid_1F_SUB_0_ACTOR_0010_010_1",
+        "Text": "*: El botón riedondo es el sol; el piequeño abrie el camino."
+      },
+      "Txt_Talk_Pyramid_1F_SUB_0_ACTOR_0010_010_2": {
+        "SelfId": "Txt_Talk_Pyramid_1F_SUB_0_ACTOR_0010_010_2",
+        "Text": "*: El oestie más al estie, el estie más al oestie... y, luego, el botón del sol. ¡Prueba a aprietarlos!"
+      },
+      "Txt_Talk_Pyramid_1F_SUB_0_ACTOR_0010_010_3": {
+        "SelfId": "Txt_Talk_Pyramid_1F_SUB_0_ACTOR_0010_010_3",
+        "Text": "El espejo de Ra se ilumina..."
+      },
+      "Txt_Talk_Pyramid_1F_SUB_0_ACTOR_0010_010_4": {
+        "SelfId": "Txt_Talk_Pyramid_1F_SUB_0_ACTOR_0010_010_4",
+        "Text": "... ¡y desenmascara al monstruo que se encuentra ante ti!"
+      },
+      "Txt_Talk_Pyramid_1F_SUB_0_ACTOR_0010_010_5": {
+        "SelfId": "Txt_Talk_Pyramid_1F_SUB_0_ACTOR_0010_010_5",
+        "Text": "¡Iiik!"
+      },
+      "Txt_Talk_Pyramid_1F_SUB_0_ACTOR_0010_010_6": {
+        "SelfId": "Txt_Talk_Pyramid_1F_SUB_0_ACTOR_0010_010_6",
+        "Text": "{LEADER} calma al monstruo y le habla sobre el refugio de Moncho..."
+      },
+      "Txt_Talk_Pyramid_1F_SUB_0_ACTOR_0010_010_7": {
+        "SelfId": "Txt_Talk_Pyramid_1F_SUB_0_ACTOR_0010_010_7",
+        "Text": "¡Je, je, jeee!..."
+      }
+    }
+  }
+]

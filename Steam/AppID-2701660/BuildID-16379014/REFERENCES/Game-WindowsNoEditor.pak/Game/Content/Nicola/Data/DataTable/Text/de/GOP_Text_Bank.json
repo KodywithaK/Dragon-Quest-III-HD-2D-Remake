@@ -1,0 +1,132 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_Bank",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Bank_UI_TOP_01": {
+        "SelfId": "Txt_Bank_UI_TOP_01",
+        "Text": "Einzahlen"
+      },
+      "Txt_Bank_UI_TOP_02": {
+        "SelfId": "Txt_Bank_UI_TOP_02",
+        "Text": "Abheben"
+      },
+      "Txt_Bank_UI_TOP_03": {
+        "SelfId": "Txt_Bank_UI_TOP_03",
+        "Text": "Gehen"
+      },
+      "Txt_Bank_UI_SelectGoldMenu_01": {
+        "SelfId": "Txt_Bank_UI_SelectGoldMenu_01",
+        "Text": "Gold in Besitz"
+      },
+      "Txt_Bank_UI_SelectGoldMenu_02": {
+        "SelfId": "Txt_Bank_UI_SelectGoldMenu_02",
+        "Text": "Gold im Depot"
+      },
+      "Txt_Bank_UI_Gold": {
+        "SelfId": "Txt_Bank_UI_Gold",
+        "Text": "{0}"
+      },
+      "Txt_Bank_UI_BalanceGold": {
+        "SelfId": "Txt_Bank_UI_BalanceGold",
+        "Text": "{0}"
+      },
+      "Txt_Bank_UI_SelectGold": {
+        "SelfId": "Txt_Bank_UI_SelectGold",
+        "Text": "{0}"
+      },
+      "Txt_Bank_UI_Max": {
+        "SelfId": "Txt_Bank_UI_Max",
+        "Text": "Alle Goldmünzen"
+      },
+      "Txt_Bank_Message_Start_Bar": {
+        "SelfId": "Txt_Bank_Message_Start_Bar",
+        "Text": "*: Willkommen in der Bank <DE99>Hinterm Regenbogen<DE66>!"
+      },
+      "Txt_Bank_Message_First_01_Bar": {
+        "SelfId": "Txt_Bank_Message_First_01_Bar",
+        "Text": "*: Euer hart erarbeitetes Vermögen ist bei uns goldrichtig!"
+      },
+      "Txt_Bank_Message_First_02_Bar": {
+        "SelfId": "Txt_Bank_Message_First_02_Bar",
+        "Text": "*: Ein- und Auszahlungen können in Hunderter-Einheiten erfolgen."
+      },
+      "Txt_Bank_Message_First_03_Bar": {
+        "SelfId": "Txt_Bank_Message_First_03_Bar",
+        "Text": "*: Und das Beste ist: All unsere Dienste sind vollkommen gratis!"
+      },
+      "Txt_Bank_Message_First_04_Bar": {
+        "SelfId": "Txt_Bank_Message_First_04_Bar",
+        "Text": "*: Sagt, was kann ich heute für Euch tun, {LEADER}?<NO_INPUT>"
+      },
+      "Txt_Bank_Message_TopBalance_Bar": {
+        "SelfId": "Txt_Bank_Message_TopBalance_Bar",
+        "Text": "*: Euer Kontostand beträgt zur Zeit {VALUE}<nbsp>Goldmünzen. Wie kann ich Euch heute zu Diensten sein?<NO_INPUT>"
+      },
+      "Txt_Bank_Message_TopNoBalance_Bar": {
+        "SelfId": "Txt_Bank_Message_TopNoBalance_Bar",
+        "Text": "*: Euer Konto enthält momentan keine Goldmünzen. Wie kann ich Euch heute zu Diensten sein?<NO_INPUT>"
+      },
+      "Txt_Bank_Message_TopBalanceAgain_Bar": {
+        "SelfId": "Txt_Bank_Message_TopBalanceAgain_Bar",
+        "Text": "*: Euer Kontostand beträgt zur Zeit {VALUE}<nbsp>Goldmünzen. Womit kann ich Euch noch zu Diensten sein?<NO_INPUT>"
+      },
+      "Txt_Bank_Message_TopNoBalanceAgain_Bar": {
+        "SelfId": "Txt_Bank_Message_TopNoBalanceAgain_Bar",
+        "Text": "*: Euer Konto enthält momentan keine Goldbestände. Womit kann ich Euch noch zu Diensten sein?<NO_INPUT>"
+      },
+      "Txt_Bank_Message_GoldShortage_Bar": {
+        "SelfId": "Txt_Bank_Message_GoldShortage_Bar",
+        "Text": "*: Oh, verzeiht, aber es scheint, als ob Ihr gar nicht über so viele Goldmünzen verfügt."
+      },
+      "Txt_Bank_Message_DepositCannot_Bar": {
+        "SelfId": "Txt_Bank_Message_DepositCannot_Bar",
+        "Text": "*: Ich befürchte, unser Tresor ist bereits voll. Wir können daher leider keine weiteren Einzahlungen entgegen nehmen."
+      },
+      "Txt_Bank_Message_DepositTop_Bar": {
+        "SelfId": "Txt_Bank_Message_DepositTop_Bar",
+        "Text": "*: Wir akzeptieren Goldeinzahlungen in Hunderter-Einheiten. Wie viel möchtet Ihr heute einzahlen?<NO_INPUT>"
+      },
+      "Txt_Bank_Message_Deposit_Bar": {
+        "SelfId": "Txt_Bank_Message_Deposit_Bar",
+        "Text": "*: {VALUE} Goldmünzen? Ausgezeichnet.\r\nSeid ganz unbesorgt, sie sind in unserem Tresor gut aufgehoben!"
+      },
+      "Txt_Bank_Message_GoldMax_Bar": {
+        "SelfId": "Txt_Bank_Message_GoldMax_Bar",
+        "Text": "*: Ich fürchte, Ihr könnt so viel gar nicht tragen."
+      },
+      "Txt_Bank_Message_WithdrawCannot_Bar": {
+        "SelfId": "Txt_Bank_Message_WithdrawCannot_Bar",
+        "Text": "*: Ich bedaure, aber wie es scheint, habt Ihr momentan keine Einlagen bei unserer Bank."
+      },
+      "Txt_Bank_Message_WithdrawTop_Bar": {
+        "SelfId": "Txt_Bank_Message_WithdrawTop_Bar",
+        "Text": "*: Euer Kontostand liegt zur Zeit bei {VALUE} Goldmünzen. Wie viel wünscht Ihr abzuheben?<NO_INPUT>"
+      },
+      "Txt_Bank_Message_Withdraw_Bar": {
+        "SelfId": "Txt_Bank_Message_Withdraw_Bar",
+        "Text": "*: {VALUE} Goldmünzen? Wie Ihr wünscht. Hier, bitte!"
+      },
+      "Txt_Bank_Message_Cancel_Bar": {
+        "SelfId": "Txt_Bank_Message_Cancel_Bar",
+        "Text": "*: Kann ich Euch sonst noch zu Diensten sein?"
+      },
+      "Txt_Bank_Message_FinishBalance_Bar": {
+        "SelfId": "Txt_Bank_Message_FinishBalance_Bar",
+        "Text": "*: Euer aktueller Kontostand beträgt {VALUE}<nbsp>Goldmünzen. Danke für Euer Vertrauen in die Bank Hinterm Regenbogen!"
+      },
+      "Txt_Bank_Message_FinishNoBalance_Bar": {
+        "SelfId": "Txt_Bank_Message_FinishNoBalance_Bar",
+        "Text": "*: Ihr verfügt momentan über keine Einlagen, aber wir hoffen Euch schon bald zu Diensten sein zu dürfen!"
+      }
+    }
+  }
+]

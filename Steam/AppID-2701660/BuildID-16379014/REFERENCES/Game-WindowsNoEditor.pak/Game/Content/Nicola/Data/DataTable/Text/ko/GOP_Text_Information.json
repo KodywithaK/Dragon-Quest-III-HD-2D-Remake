@@ -1,0 +1,564 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_Information",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Information_TITLE_AUTOSAVE": {
+        "SelfId": "Txt_Information_TITLE_AUTOSAVE",
+        "Text": "자동 저장"
+      },
+      "Txt_Information_TITLE_DASH": {
+        "SelfId": "Txt_Information_TITLE_DASH",
+        "Text": "대시"
+      },
+      "Txt_Information_TITLE_EQUIP": {
+        "SelfId": "Txt_Information_TITLE_EQUIP",
+        "Text": "장비"
+      },
+      "Txt_Information_TITLE_BAR": {
+        "SelfId": "Txt_Information_TITLE_BAR",
+        "Text": "동료 찾는 방법"
+      },
+      "Txt_Information_TITLE_BAR_REPLACE": {
+        "SelfId": "Txt_Information_TITLE_BAR_REPLACE",
+        "Text": "동료 교체/등록"
+      },
+      "Txt_Information_TITLE_HELP": {
+        "SelfId": "Txt_Information_TITLE_HELP",
+        "Text": "도움 기능"
+      },
+      "Txt_Information_TITLE_HELP_HOST": {
+        "SelfId": "Txt_Information_TITLE_HELP_HOST",
+        "Text": "도와주기"
+      },
+      "Txt_Information_TITLE_HELP_CLIENT": {
+        "SelfId": "Txt_Information_TITLE_HELP_CLIENT",
+        "Text": "도움 요청하기"
+      },
+      "Txt_Information_TITLE_SHOP": {
+        "SelfId": "Txt_Information_TITLE_SHOP",
+        "Text": "상점"
+      },
+      "Txt_Information_TITLE_CHURCH": {
+        "SelfId": "Txt_Information_TITLE_CHURCH",
+        "Text": "저장하기"
+      },
+      "Txt_Information_TITLE_INN": {
+        "SelfId": "Txt_Information_TITLE_INN",
+        "Text": "회복"
+      },
+      "Txt_Information_TITLE_MAPMENU": {
+        "SelfId": "Txt_Information_TITLE_MAPMENU",
+        "Text": "지도"
+      },
+      "Txt_Information_TITLE_DESTINATION": {
+        "SelfId": "Txt_Information_TITLE_DESTINATION",
+        "Text": "모험 목적지"
+      },
+      "Txt_Information_TITLE_MEMORY": {
+        "SelfId": "Txt_Information_TITLE_MEMORY",
+        "Text": "대화 기억하기"
+      },
+      "Txt_Information_TITLE_INFORMATION": {
+        "SelfId": "Txt_Information_TITLE_INFORMATION",
+        "Text": "모험 수칙"
+      },
+      "Txt_Information_TITLE_FULL_RECOVERY": {
+        "SelfId": "Txt_Information_TITLE_FULL_RECOVERY",
+        "Text": "완전 회복, 거의 가득 참"
+      },
+      "Txt_Information_TITLE_SHIP": {
+        "SelfId": "Txt_Information_TITLE_SHIP",
+        "Text": "배의 승선, 하선"
+      },
+      "Txt_Information_TITLE_RAMIA": {
+        "SelfId": "Txt_Information_TITLE_RAMIA",
+        "Text": "라미아"
+      },
+      "Txt_Information_TITLE_JOB_CHANGE": {
+        "SelfId": "Txt_Information_TITLE_JOB_CHANGE",
+        "Text": "전직 장려 1"
+      },
+      "Txt_Information_TITLE_JOB_CHANGE_RECOMMEND": {
+        "SelfId": "Txt_Information_TITLE_JOB_CHANGE_RECOMMEND",
+        "Text": "전직 장려 2"
+      },
+      "Txt_Information_TITLE_JOB_CHANGE_RECOMMEND_3": {
+        "SelfId": "Txt_Information_TITLE_JOB_CHANGE_RECOMMEND_3",
+        "Text": "전직 장려 3"
+      },
+      "Txt_Information_TITLE_TIME_FLOW": {
+        "SelfId": "Txt_Information_TITLE_TIME_FLOW",
+        "Text": "시간에 따른 변화"
+      },
+      "Txt_Information_TITLE_STRATEGY": {
+        "SelfId": "Txt_Information_TITLE_STRATEGY",
+        "Text": "작전 바꾸기"
+      },
+      "Txt_Information_TITLE_STRATEGY_LIST": {
+        "SelfId": "Txt_Information_TITLE_STRATEGY_LIST",
+        "Text": "작전 종류"
+      },
+      "Txt_Information_TITLE_WEAK_RESIST": {
+        "SelfId": "Txt_Information_TITLE_WEAK_RESIST",
+        "Text": "기술의 상성"
+      },
+      "Txt_Information_TITLE_PERSONALITY": {
+        "SelfId": "Txt_Information_TITLE_PERSONALITY",
+        "Text": "성격"
+      },
+      "Txt_Information_TITLE_PERSONALITY_STATUS_1": {
+        "SelfId": "Txt_Information_TITLE_PERSONALITY_STATUS_1",
+        "Text": "성격과 능력치 1"
+      },
+      "Txt_Information_TITLE_PERSONALITY_STATUS_2": {
+        "SelfId": "Txt_Information_TITLE_PERSONALITY_STATUS_2",
+        "Text": "성격과 능력치 2"
+      },
+      "Txt_Information_TITLE_PERSONALITY_STATUS_3": {
+        "SelfId": "Txt_Information_TITLE_PERSONALITY_STATUS_3",
+        "Text": "성격과 능력치 3"
+      },
+      "Txt_Information_TITLE_PERSONALITY_STATUS_4": {
+        "SelfId": "Txt_Information_TITLE_PERSONALITY_STATUS_4",
+        "Text": "성격과 능력치 4"
+      },
+      "Txt_Information_TITLE_PERSONALITY_STATUS_5": {
+        "SelfId": "Txt_Information_TITLE_PERSONALITY_STATUS_5",
+        "Text": "성격과 능력치 5"
+      },
+      "Txt_Information_TITLE_PERSONALITY_STATUS_6": {
+        "SelfId": "Txt_Information_TITLE_PERSONALITY_STATUS_6",
+        "Text": "성격과 능력치 6"
+      },
+      "Txt_Information_TITLE_PERSONALITY_STATUS_7": {
+        "SelfId": "Txt_Information_TITLE_PERSONALITY_STATUS_7",
+        "Text": "성격과 능력치 7"
+      },
+      "Txt_Information_TITLE_PERSONALITY_STATUS_8": {
+        "SelfId": "Txt_Information_TITLE_PERSONALITY_STATUS_8",
+        "Text": "성격과 능력치 8"
+      },
+      "Txt_Information_TITLE_PERSONALITY_STATUS_9": {
+        "SelfId": "Txt_Information_TITLE_PERSONALITY_STATUS_9",
+        "Text": "성격과 능력치 9"
+      },
+      "Txt_Information_TITLE_PERSONALITY_STATUS_10": {
+        "SelfId": "Txt_Information_TITLE_PERSONALITY_STATUS_10",
+        "Text": "성격과 능력치 10"
+      },
+      "Txt_Information_TITLE_PERSONALITY_STATUS_11": {
+        "SelfId": "Txt_Information_TITLE_PERSONALITY_STATUS_11",
+        "Text": "성격과 능력치 11"
+      },
+      "Txt_Information_TITLE_PERSONALITY_STATUS_12": {
+        "SelfId": "Txt_Information_TITLE_PERSONALITY_STATUS_12",
+        "Text": "성격과 능력치 12"
+      },
+      "Txt_Information_TITLE_PERSONALITY_STATUS_13": {
+        "SelfId": "Txt_Information_TITLE_PERSONALITY_STATUS_13",
+        "Text": "성격과 능력치 13"
+      },
+      "Txt_Information_TITLE_RUN_AWAY": {
+        "SelfId": "Txt_Information_TITLE_RUN_AWAY",
+        "Text": "도망치기"
+      },
+      "Txt_Information_TITLE_CURSE": {
+        "SelfId": "Txt_Information_TITLE_CURSE",
+        "Text": "저주받은 장비"
+      },
+      "Txt_Information_TITLE_ACCESSORY_PERSONALITY": {
+        "SelfId": "Txt_Information_TITLE_ACCESSORY_PERSONALITY",
+        "Text": "액세서리와 성격"
+      },
+      "Txt_Information_TITLE_MEDAL": {
+        "SelfId": "Txt_Information_TITLE_MEDAL",
+        "Text": "작은 메달"
+      },
+      "Txt_Information_TITLE_INVENTORY": {
+        "SelfId": "Txt_Information_TITLE_INVENTORY",
+        "Text": "배틀 중 도구 사용 방법"
+      },
+      "Txt_Information_TITLE_SYSTEM": {
+        "SelfId": "Txt_Information_TITLE_SYSTEM",
+        "Text": "시스템 설정"
+      },
+      "Txt_Information_TITLE_KEY": {
+        "SelfId": "Txt_Information_TITLE_KEY",
+        "Text": "자물쇠로 잠긴 문"
+      },
+      "Txt_Information_TITLE_RULER": {
+        "SelfId": "Txt_Information_TITLE_RULER",
+        "Text": "단숨에 이동하려면"
+      },
+      "Txt_Information_TITLE_STATUS_LIST_1": {
+        "SelfId": "Txt_Information_TITLE_STATUS_LIST_1",
+        "Text": "능력치 1"
+      },
+      "Txt_Information_TITLE_STATUS_LIST_2": {
+        "SelfId": "Txt_Information_TITLE_STATUS_LIST_2",
+        "Text": "능력치 2"
+      },
+      "Txt_Information_TITLE_CHANGE_STATUS": {
+        "SelfId": "Txt_Information_TITLE_CHANGE_STATUS",
+        "Text": "상태 변화"
+      },
+      "Txt_Information_TITLE_BAD_STATUS_LIST": {
+        "SelfId": "Txt_Information_TITLE_BAD_STATUS_LIST",
+        "Text": "상태 변화 아이콘 1"
+      },
+      "Txt_Information_TITLE_BAD_STATUS_LIST_2": {
+        "SelfId": "Txt_Information_TITLE_BAD_STATUS_LIST_2",
+        "Text": "상태 변화 아이콘 2"
+      },
+      "Txt_Information_TITLE_BAD_STATUS_LIST_3": {
+        "SelfId": "Txt_Information_TITLE_BAD_STATUS_LIST_3",
+        "Text": "상태 이상 아이콘 1"
+      },
+      "Txt_Information_TITLE_BAD_STATUS_LIST_4": {
+        "SelfId": "Txt_Information_TITLE_BAD_STATUS_LIST_4",
+        "Text": "상태 이상 아이콘 2"
+      },
+      "Txt_Information_TITLE_POISON_PARALYSE": {
+        "SelfId": "Txt_Information_TITLE_POISON_PARALYSE",
+        "Text": "독과 마비"
+      },
+      "Txt_Information_TITLE_OVERLAP": {
+        "SelfId": "Txt_Information_TITLE_OVERLAP",
+        "Text": "능력치 변화의 중첩"
+      },
+      "Txt_Information_TITLE_BATTLEROAD": {
+        "SelfId": "Txt_Information_TITLE_BATTLEROAD",
+        "Text": "배틀 로드"
+      },
+      "Txt_Information_TITLE_BATTLEROAD_BATTLE": {
+        "SelfId": "Txt_Information_TITLE_BATTLEROAD_BATTLE",
+        "Text": "배틀 로드의 전투 방법"
+      },
+      "Txt_Information_TITLE_BREED_MONSTER": {
+        "SelfId": "Txt_Information_TITLE_BREED_MONSTER",
+        "Text": "몬스터의 보호 1"
+      },
+      "Txt_Information_TITLE_BREED_MONSTER_2": {
+        "SelfId": "Txt_Information_TITLE_BREED_MONSTER_2",
+        "Text": "몬스터의 보호 2"
+      },
+      "Txt_Information_TITLE_PUZZLE": {
+        "SelfId": "Txt_Information_TITLE_PUZZLE",
+        "Text": "에딘베어의 퍼즐"
+      },
+      "Txt_Information_TITLE_WIPEOUT": {
+        "SelfId": "Txt_Information_TITLE_WIPEOUT",
+        "Text": "전멸"
+      },
+      "Txt_Information_TITLE_PICK": {
+        "SelfId": "Txt_Information_TITLE_PICK",
+        "Text": "필드의 반짝임"
+      },
+      "Txt_Information_TITLE_SECRET_AREA": {
+        "SelfId": "Txt_Information_TITLE_SECRET_AREA",
+        "Text": "비밀 장소"
+      },
+      "Txt_Information_TITLE_CLEAR": {
+        "SelfId": "Txt_Information_TITLE_CLEAR",
+        "Text": "클리어한 뒤의 즐거움"
+      },
+      "Txt_Information_TITLE_GAMEMODE": {
+        "SelfId": "Txt_Information_TITLE_GAMEMODE",
+        "Text": "게임 모드"
+      },
+      "Txt_Information_TITLE_FIELDMENU": {
+        "SelfId": "Txt_Information_TITLE_FIELDMENU",
+        "Text": "메뉴"
+      },
+      "Txt_Information_TEXT_AUTOSAVE": {
+        "SelfId": "Txt_Information_TEXT_AUTOSAVE",
+        "Text": "마을이나 던전으로 이동했을 때 등\r\n모험 중에 자동 저장을 하는 경우가 있습니다.\r\n\r\n저장 아이콘이 표시되는 동안에는\r\n전원을 끄지 마십시오."
+      },
+      "Txt_Information_TEXT_DASH": {
+        "SelfId": "Txt_Information_TEXT_DASH",
+        "Text": "이동 중 <IMG_BUTTON>[Dash]을 누르고 있는 동안에는\r\n‘대시’할 수 있습니다."
+      },
+      "Txt_Information_TEXT_EQUIP": {
+        "SelfId": "Txt_Information_TEXT_EQUIP",
+        "Text": "장비는 가지고 있는 것만으로는 효과가 없습니다.\r\n\r\n메뉴 화면의 ‘장비’에서 착용하여\r\n캐릭터를 강화할 수 있습니다."
+      },
+      "Txt_Information_TEXT_BAR": {
+        "SelfId": "Txt_Information_TEXT_BAR",
+        "Text": "아리아한에 있는 루이다 주점에서는\r\n동료를 늘릴 수 있습니다.\r\n\r\n모험에는 위험이 따르는 법.\r\n의지할 수 있는 동료를 찾아보세요."
+      },
+      "Txt_Information_TEXT_BAR_REPLACE": {
+        "SelfId": "Txt_Information_TEXT_BAR_REPLACE",
+        "Text": "아리아한 주점 1층에 있는 루이다에게 말을 걸면\r\n여행에 데려갈 동료를 교체할 수 있습니다.\r\n\r\n또한 2층에 있는 등록소에서는\r\n동료를 새로 등록할 수 있습니다."
+      },
+      "Txt_Information_TEXT_HELP": {
+        "SelfId": "Txt_Information_TEXT_HELP",
+        "Text": "아리아한 주점에서\r\n같은 저장 데이터 안에 있는 다른 모험의 서와\r\n‘도우미 캐릭터’를 빌리거나 빌려줄 수 있습니다.\r\n\r\n자세한 내용은 모험 수칙에서\r\n‘도와주기’와 ‘도움 요청하기’를\r\n확인해 보세요."
+      },
+      "Txt_Information_TEXT_HELP_PS5": {
+        "SelfId": "Txt_Information_TEXT_HELP_PS5",
+        "Text": "아리아한 주점에서\r\n같은 저장 데이터 안에 있는 다른 모험의 서와\r\n‘도우미 캐릭터’를 빌리거나 빌려줄 수 있습니다.\r\n\r\n자세한 내용은 모험 수칙에서\r\n‘도와주기’와 ‘도움 요청하기’를\r\n확인해 보세요."
+      },
+      "Txt_Information_TEXT_HELP_HOST": {
+        "SelfId": "Txt_Information_TEXT_HELP_HOST",
+        "Text": "주인공 이외의 동료를 도우미 캐릭터로 등록하면\r\n다른 모험의 서에서 그 캐릭터를 불러\r\n파티에 추가할 수 있게 됩니다.\r\n\r\n도우미 캐릭터의 레벨과 장비는\r\n등록한 시점으로 고정됩니다."
+      },
+      "Txt_Information_TEXT_HELP_CLIENT": {
+        "SelfId": "Txt_Information_TEXT_HELP_CLIENT",
+        "Text": "다른 모험의 서에서 등록된 도우미 캐릭터 한 명을\r\n파티에 추가할 수 있습니다.\r\n\r\n도우미 캐릭터는 다음 특징이 있습니다.\r\n・레벨이 오르지 않습니다.\r\n・장비를 변경할 수 없습니다."
+      },
+      "Txt_Information_TEXT_SHOP": {
+        "SelfId": "Txt_Information_TEXT_SHOP",
+        "Text": "마을에는 돈을 지불하여 상품을 살 수 있는\r\n‘무기와 방어구 상점’과 ‘도구점’이 있습니다.\r\n\r\n각 마을마다 파는 상품이 다르니\r\n가게를 발견하면 적극적으로 확인해 보세요."
+      },
+      "Txt_Information_TEXT_CHURCH": {
+        "SelfId": "Txt_Information_TEXT_CHURCH",
+        "Text": "성당에서 혹은 수녀님께 기도하면\r\n그 지점까지의 모험을 ‘기록(저장)’할 수 있습니다.\r\n\r\n자동 저장은 기록이 자동으로 덮어씌워지니\r\n기도 저장도 활용하시는 것을 추천합니다.\r\n\r\n저장 데이터는 최대 9개까지 작성할 수 있습니다."
+      },
+      "Txt_Information_TEXT_CHURCH_PS5": {
+        "SelfId": "Txt_Information_TEXT_CHURCH_PS5",
+        "Text": "성당에서 혹은 수녀님께 기도하면\r\n그 지점까지의 모험을 ‘기록(저장)’할 수 있습니다.\r\n\r\n자동 저장은 기록이 자동으로 덮어씌워지니\r\n기도 저장도 활용하시는 것을 추천합니다.\r\n\r\n저장 데이터는 최대 9개까지 작성할 수 있습니다."
+      },
+      "Txt_Information_TEXT_INN": {
+        "SelfId": "Txt_Information_TEXT_INN",
+        "Text": "여관에서 ‘쉬기’ 또는 ‘숙박하기’를 하면\r\nHP와 MP를 전부 회복합니다.\r\n전투에서 부상을 입었다면 여관으로 가 보세요.\r\n\r\n단, 죽어 버린 동료는 회복할 수 없으니\r\n그럴 때는 성당에 가거나 수녀님께\r\n부탁해서 되살릴 수 있습니다."
+      },
+      "Txt_Information_TEXT_MAPMENU": {
+        "SelfId": "Txt_Information_TEXT_MAPMENU",
+        "Text": "<IMG_BUTTON>[Map]을 누르면 ‘지도’를 열 수 있습니다.\r\n\r\n현재 위치와 주변 지형을 확인할 수 있으니\r\n길을 잃었을 때는 우선 지도를 확인해 보세요."
+      },
+      "Txt_Information_TEXT_DESTINATION": {
+        "SelfId": "Txt_Information_TEXT_DESTINATION",
+        "Text": "시스템 설정에서 ‘목적지 마커’를 설정하면\r\n지도에 다음 목적지가 표시됩니다.\r\n\r\n‘목적 가이드 텍스트’를 설정하면\r\n다음 목적지의 힌트가\r\n메뉴에 표시됩니다."
+      },
+      "Txt_Information_TEXT_MEMORY": {
+        "SelfId": "Txt_Information_TEXT_MEMORY",
+        "Text": "대화 중이나 대화 직후에 <IMG_BUTTON>[Memory]을 누르면\r\n그 대화를 ‘기억’할 수 있습니다.\r\n\r\n기억한 대화는 메뉴의 ‘기억’에서\r\n언제든지 볼 수 있습니다."
+      },
+      "Txt_Information_TEXT_INFORMATION": {
+        "SelfId": "Txt_Information_TEXT_INFORMATION",
+        "Text": "메뉴 화면의 ‘작전’ 안에 있는 ‘모험 수칙’에는\r\n조작 방법과 모험의 진행 방법이 정리되어 있습니다.\r\n\r\n여행을 진행하다 보면 항목이 늘어 가니\r\n모르는 부분이 생기면 체크해 보세요."
+      },
+      "Txt_Information_TEXT_FULL_RECOVERY": {
+        "SelfId": "Txt_Information_TEXT_FULL_RECOVERY",
+        "Text": "‘작전’ 안에 있는 ‘완전 회복’을 선택하면\r\n효율적인 회복 주문으로\r\n전원의 HP를 자동으로 완전히 회복시킵니다.\r\n\r\n‘거의 가득 참’은 완전히 회복되지는 않지만\r\nMP를 절약할 수 있습니다."
+      },
+      "Txt_Information_TEXT_SHIP": {
+        "SelfId": "Txt_Information_TEXT_SHIP",
+        "Text": "배를 타고 새로운 모험의 땅으로 떠나 보세요!\r\n\r\n・배에서 내리려면 육지에 다가가 <IMG_BUTTON>[Talk]을 누르세요.\r\n・배를 타려면 배로 다가가 <IMG_BUTTON>[Talk]을 누르세요."
+      },
+      "Txt_Information_TEXT_RAMIA": {
+        "SelfId": "Txt_Information_TEXT_RAMIA",
+        "Text": "라미아를 타고 지금까지 갈 수 없었던 장소를 탐험해 보세요!\r\n\r\n・라미아를 타려면 <IMG_BUTTON>[Talk]을 누르세요.\r\n・지상으로 내려가려면 <IMG_BUTTON>[Talk]을 누르세요.\r\n・착륙 위치는 <IMG_BUTTON>[Target_Lamia]으로 조정합니다.\r\n・저공 비행하려면 <IMG_BUTTON>[Dash_Lamia]을 누르세요."
+      },
+      "Txt_Information_TEXT_JOB_CHANGE": {
+        "SelfId": "Txt_Information_TEXT_JOB_CHANGE",
+        "Text": "주인공 이외의 동료는 레벨 20 이상이 되면\r\n다마 신전에서 다른 직업으로 전직할 수 있습니다.\r\n\r\n전직하면 레벨이 1로 돌아가지만\r\n주문과 특기는 잊지 않고 그대로 이어받습니다.\r\n\r\n다양한 직업을 경험하면\r\n사용 가능한 기술이 점점 늘어나\r\n배틀을 유리하게 이끌 수 있습니다."
+      },
+      "Txt_Information_TEXT_JOB_CHANGE_RECOMMEND": {
+        "SelfId": "Txt_Information_TEXT_JOB_CHANGE_RECOMMEND",
+        "Text": "전직하면 레벨이 1로 돌아가지만\r\n힘, 방어력, 민첩함 등의 능력치 스테이터스는\r\n현재 수치의 절반 정도를 이어받습니다.\r\n\r\n즉, 아리아한의 주점에서 만났을 때보다\r\n강한 상태로 레벨을 1부터 키울 수 있습니다."
+      },
+      "Txt_Information_TEXT_JOB_CHANGE_RECOMMEND_3": {
+        "SelfId": "Txt_Information_TEXT_JOB_CHANGE_RECOMMEND_3",
+        "Text": "전직하면 레벨을 올리는 데\r\n필요한 경험치도 리셋되므로\r\n조금만 배틀해도 금세 레벨이 오릅니다.\r\n\r\n전직 전 능력치의 절반을\r\n이어받은 상태로 시작하기 때문에\r\n전직을 하지 않고 키우는 것보다\r\n훨씬 강하게 성장합니다.\r\n\r\n적극적으로 전직해서 최강의 동료를 만들어 보세요!"
+      },
+      "Txt_Information_TEXT_TIME_FLOW": {
+        "SelfId": "Txt_Information_TEXT_TIME_FLOW",
+        "Text": "필드에 있으면 낮에서 저녁, 그리고 밤으로\r\n시간대가 변화하고 마주치는 몬스터도 달라집니다.\r\n\r\n타운에서도 시간대에 따라\r\n주민들과 시설의 모습이 변하기도 합니다."
+      },
+      "Txt_Information_TEXT_STRATEGY": {
+        "SelfId": "Txt_Information_TEXT_STRATEGY",
+        "Text": "‘작전 바꾸기’에서는 주인공과 동료들이\r\n배틀할 때의 방침을 설정할 수 있습니다.\r\n\r\n‘명령을 들어라’는\r\n직접 세세하게 행동을 선택할 수 있습니다.\r\n\r\n그 이외의 작전은\r\n각 방침에 따라 자동으로 행동합니다."
+      },
+      "Txt_Information_TEXT_STRATEGY_LIST": {
+        "SelfId": "Txt_Information_TEXT_STRATEGY_LIST",
+        "Text": "‘전력을 다하자’\r\n.........주문이나 특기를 적극적으로 사용하여 공격합니다.\r\n\r\n‘요령껏 싸우자’\r\n.........상황에 맞춰 적절하게 행동합니다.\r\n\r\n‘판단에 맡기자’\r\n.........주인공은 공격 중심이 되고 동료는 주인공을 보조합니다.\r\n\r\n‘MP를 아끼자’\r\n.........주문이나 특기를 쓰지 않고 MP를 절약합니다.\r\n\r\n‘회복에 힘쓰자’\r\n.........공격보다 아군의 회복과 소생을 우선시합니다.\r\n\r\n‘명령을 들어라’\r\n.........어떤 행동을 할지 지시할 수 있습니다."
+      },
+      "Txt_Information_TEXT_PERSONALITY": {
+        "SelfId": "Txt_Information_TEXT_PERSONALITY",
+        "Text": "주인공과 동료들은 저마다 ‘성격’이 있습니다.\r\n성격에 따라 쉽게 오르는 능력이 달라집니다.\r\n\r\n성격을 바꿀 수 있는 도구와 장비도 존재합니다."
+      },
+      "Txt_Information_TEXT_PERSONALITY_STATUS_1": {
+        "SelfId": "Txt_Information_TEXT_PERSONALITY_STATUS_1",
+        "Text": "‘이론가’\r\n총명함이 잘 오르며\r\n방어력이 조금 잘 오른다.\r\n\r\n‘어리광쟁이’\r\n운이 조금 잘 오른다.\r\n\r\n‘의지박약’\r\n총명함과 운이 잘 오른다.\r\n민첩함이 더디게 오른다.\r\n\r\n‘고독한 늑대’\r\n방어력과 체력이 잘 오른다.\r\n운이 더디게 오른다."
+      },
+      "Txt_Information_TEXT_PERSONALITY_STATUS_2": {
+        "SelfId": "Txt_Information_TEXT_PERSONALITY_STATUS_2",
+        "Text": "‘무모함’\r\n민첩함과 체력이 잘 오른다.\r\n방어력이 더디게 오른다.\r\n\r\n‘얼빠짐’\r\n민첩함이 잘 오른다.\r\n총명함과 운이 더디게 오른다.\r\n\r\n‘대식가’\r\n방어력이 아주 잘 오르며\r\n힘과 체력이 조금 잘 오른다.\r\n총명함과 민첩함이 더디게 오른다."
+      },
+      "Txt_Information_TEXT_PERSONALITY_STATUS_3": {
+        "SelfId": "Txt_Information_TEXT_PERSONALITY_STATUS_3",
+        "Text": "‘참견쟁이’\r\n체력이 조금 잘 오른다.\r\n\r\n‘경박함’\r\n민첩함이 잘 오르며\r\n총명함과 운이 조금 잘 오른다.\r\n\r\n‘덜렁이’\r\n민첩함이 잘 오른다.\r\n\r\n‘완고함’\r\n방어력과 체력이 잘 오른다.\r\n민첩함과 총명함, 운이 더디게 오른다."
+      },
+      "Txt_Information_TEXT_PERSONALITY_STATUS_4": {
+        "SelfId": "Txt_Information_TEXT_PERSONALITY_STATUS_4",
+        "Text": "‘노력가’\r\n힘이 잘 오르며\r\n방어력과 체력이 조금 잘 오른다.\r\n\r\n‘수완가’\r\n총명함이 아주 잘 오르며\r\n민첩함이 잘 오른다.\r\n\r\n‘백전노장’\r\n방어력과 체력이 잘 오른다.\r\n운이 더디게 오른다."
+      },
+      "Txt_Information_TEXT_PERSONALITY_STATUS_5": {
+        "SelfId": "Txt_Information_TEXT_PERSONALITY_STATUS_5",
+        "Text": "‘호걸’\r\n힘이 아주 잘 오른다.\r\n민첩함과 총명함, 운이 더디게 오른다.\r\n\r\n‘외로움쟁이’\r\n총명함과 운이 조금 잘 오른다.\r\n\r\n‘낙천가’\r\n운이 아주 잘 오른다.\r\n\r\n‘솔직함’\r\n균형 있게 오른다."
+      },
+      "Txt_Information_TEXT_PERSONALITY_STATUS_6": {
+        "SelfId": "Txt_Information_TEXT_PERSONALITY_STATUS_6",
+        "Text": "‘두뇌파’\r\n총명함이 아주 잘 오른다.\r\n\r\n‘날쌘돌이’\r\n민첩함이 잘 오른다.\r\n\r\n‘섹시걸’\r\n민첩함과 운이 잘 오르며\r\n다른 능력치도 균형 있게 오른다.\r\n\r\n‘철부지’\r\n운이 조금 잘 오른다.\r\n총명함이 더디게 오른다."
+      },
+      "Txt_Information_TEXT_PERSONALITY_STATUS_7": {
+        "SelfId": "Txt_Information_TEXT_PERSONALITY_STATUS_7",
+        "Text": "‘강인함’\r\n체력과 방어력이 아주 잘 오른다.\r\n운이 더디게 오른다.\r\n\r\n‘천하장사’\r\n힘이 아주 잘 오른다.\r\n총명함이 더디게 오른다.\r\n\r\n‘기가 셈’\r\n힘이 아주 잘 오르며\r\n방어력이 조금 잘 오른다.\r\n\r\n‘철인’\r\n방어력과 체력이 아주 잘 오른다."
+      },
+      "Txt_Information_TEXT_PERSONALITY_STATUS_8": {
+        "SelfId": "Txt_Information_TEXT_PERSONALITY_STATUS_8",
+        "Text": "‘전광석화’\r\n민첩함이 아주 잘 오른다.\r\n\r\n‘울보’\r\n운이 잘 오르며\r\n총명함도 조금 잘 오른다.\r\n방어력이 더디게 오른다.\r\n\r\n‘게으름뱅이’\r\n체력이 잘 오르며\r\n운도 조금 잘 오른다.\r\n방어력과 총명함이 더디게 오른다."
+      },
+      "Txt_Information_TEXT_PERSONALITY_STATUS_9": {
+        "SelfId": "Txt_Information_TEXT_PERSONALITY_STATUS_9",
+        "Text": "‘치밀함’\r\n총명함이 잘 오르며\r\n방어력과 민첩함도 조금 잘 오른다.\r\n\r\n‘열혈’\r\n방어력과 힘이 잘 오른다.\r\n운이 더디게 오른다.\r\n\r\n‘만사태평’\r\n방어력과 체력이 조금 잘 오른다.\r\n민첩함이 더디게 오른다."
+      },
+      "Txt_Information_TEXT_PERSONALITY_STATUS_10": {
+        "SelfId": "Txt_Information_TEXT_PERSONALITY_STATUS_10",
+        "Text": "‘내성적’\r\n체력이 잘 오르며\r\n총명함도 조금 잘 오른다.\r\n민첩함이 더디게 오른다.\r\n\r\n‘반항아’\r\n운이 아주 잘 오르며\r\n민첩함도 잘 오른다.\r\n힘과 체력이 더디게 오른다.\r\n\r\n‘평범함’\r\n균형 있게 오른다."
+      },
+      "Txt_Information_TEXT_PERSONALITY_STATUS_11": {
+        "SelfId": "Txt_Information_TEXT_PERSONALITY_STATUS_11",
+        "Text": "‘부르주아’\r\n운이 아주 잘 오르며\r\n총명함도 조금 잘 오른다.\r\n방어력이 더디게 오른다.\r\n\r\n‘오뚝이’\r\n체력이 잘 오른다.\r\n\r\n‘승부욕의 화신’\r\n민첩함과 체력이 조금 잘 오른다.\r\n\r\n‘허영쟁이’\r\n힘과 방어력, 민첩함이 조금 잘 오른다."
+      },
+      "Txt_Information_TEXT_PERSONALITY_STATUS_12": {
+        "SelfId": "Txt_Information_TEXT_PERSONALITY_STATUS_12",
+        "Text": "‘호색한’\r\n체력과 힘이 잘 오른다.\r\n\r\n‘착함’\r\n균형 있게 오른다.\r\n\r\n‘운 좋음’\r\n운이 아주 잘 오르며\r\n민첩함도 조금 잘 오른다.\r\n\r\n‘무법자’\r\n힘이 잘 오르며\r\n방어력도 조금 잘 오른다.\r\n총명함과 운이 더디게 오른다."
+      },
+      "Txt_Information_TEXT_PERSONALITY_STATUS_13": {
+        "SelfId": "Txt_Information_TEXT_PERSONALITY_STATUS_13",
+        "Text": "‘로맨티스트’\r\n민첩함과 총명함이 조금 잘 오른다.\r\n\r\n‘개구쟁이’\r\n힘과 민첩함이 잘 오른다.\r\n\r\n‘제멋대로’\r\n민첩함이 조금 잘 오른다."
+      },
+      "Txt_Information_TEXT_RUN_AWAY": {
+        "SelfId": "Txt_Information_TEXT_RUN_AWAY",
+        "Text": "몬스터와의 전투는 도망칠 수 있습니다.\r\n강한 적과 마주쳤다면 도망치는 것도 좋은 작전입니다.\r\n\r\n다만 적에게 가로막혀 실패할 수 있습니다.\r\n도망치기에 실패하면 잠시 동안 전원이 행동할 수 없습니다.\r\n\r\n실패할 때마다 도망칠 수 있는 확률이 오르니\r\n위기의 상황에도 포기하지 말고 시도해 보세요."
+      },
+      "Txt_Information_TEXT_CURSE": {
+        "SelfId": "Txt_Information_TEXT_CURSE",
+        "Text": "착용하면 저주받게 되는 장비가 있습니다.\r\n저주를 받으면 배틀 등에서 나쁜 효과가 발휘되거나\r\n성격이 바뀌기도 합니다.\r\n\r\n저주받은 장비는 해제할 수 없으니\r\n성당에 부탁해서 저주를 푸세요."
+      },
+      "Txt_Information_TEXT_ACCESSORY_PERSONALITY": {
+        "SelfId": "Txt_Information_TEXT_ACCESSORY_PERSONALITY",
+        "Text": "액세서리 중에는 ‘성격’을 바꾸는 효과를\r\n지닌 것이 있습니다.\r\n\r\n액세서리 장비 칸은\r\n‘메인’과 ‘서브’가 존재하며\r\n성격 변경 효과를 발휘하는 것은\r\n메인에 장비한 액세서리뿐입니다.\r\n\r\n단, 저주받은 액세서리는 ‘서브’에 장비해도\r\n저주의 효과가 발동되니 주의하세요."
+      },
+      "Txt_Information_TEXT_MEDAL": {
+        "SelfId": "Txt_Information_TEXT_MEDAL",
+        "Text": "모험 중에 ‘작은 메달’을\r\n발견할 때가 있습니다.\r\n\r\n이것을 모으면 다양한 경품을 받을 수 있으니\r\n많이 모이면 아리아한의 우물 밑에 있는\r\n‘메달 아저씨’에게 건네 보세요."
+      },
+      "Txt_Information_TEXT_INVENTORY": {
+        "SelfId": "Txt_Information_TEXT_INVENTORY",
+        "Text": "배틀 중에도 도구를 사용할 수 있지만\r\n‘도구 주머니’와 ‘장비 주머니’ 속 물건은\r\n사용할 수 없습니다.\r\n\r\n배틀에서 사용하고 싶은 것은 주머니에서 꺼내\r\n캐릭터에게 옮겨 두세요."
+      },
+      "Txt_Information_TEXT_SYSTEM": {
+        "SelfId": "Txt_Information_TEXT_SYSTEM",
+        "Text": "‘작전’의 ‘시스템 설정’에서는\r\n사운드와 화면 표시 등\r\n게임 내 다양한 설정을 변경할 수 있습니다."
+      },
+      "Txt_Information_TEXT_KEY": {
+        "SelfId": "Txt_Information_TEXT_KEY",
+        "Text": "이 세계에는 자물쇠로 잠긴 문이 있습니다.\r\n\r\n‘도적의 열쇠’로는\r\n붉은 문을 열 수 있습니다."
+      },
+      "Txt_Information_TEXT_RULER": {
+        "SelfId": "Txt_Information_TEXT_RULER",
+        "Text": "‘키메라의 날개’나 ‘루라’를 사용하면\r\n지금까지 방문한 적이 있는 마을이나 성, 던전 등으로\r\n단숨에 이동할 수 있습니다.\r\n\r\n건물 안이나 천장이 있는 장소에서 사용해도\r\n머리를 부딪히지 않고 무사히 이동할 수 있습니다."
+      },
+      "Txt_Information_TEXT_STATUS_LIST_1": {
+        "SelfId": "Txt_Information_TEXT_STATUS_LIST_1",
+        "Text": "‘HP’\r\n대미지를 입을 때마다 줄어들고\r\n0이 되면 전투 불능 상태가 된다.\r\n\r\n‘MP’\r\n주문이나 특기를 사용하면 줄어든다.\r\nMP가 부족하면 해당 주문이나 특기를 쓸 수 없다.\r\n\r\n‘공격력’\r\n캐릭터의 힘에 장비의 효과를 더한 수치.\r\n높으면 높을수록 맨손이나 무기를 사용한\r\n물리 공격으로 가하는 대미지가 증가한다.\r\n\r\n‘수비력’\r\n캐릭터의 방어력에 장비의 효과를 더한 수치.\r\n이 수치가 높으면 물리 공격으로 입는 대미지가 줄어든다."
+      },
+      "Txt_Information_TEXT_STATUS_LIST_2": {
+        "SelfId": "Txt_Information_TEXT_STATUS_LIST_2",
+        "Text": "‘힘’\r\n물리 공격이 강해진다.\r\n\r\n‘방어력’\r\n물리 공격으로 입는 대미지가 줄어든다.\r\n\r\n‘민첩함’\r\n배틀 중에 먼저 행동할 확률이 높아진다.\r\n\r\n‘체력’\r\n레벨이 오를 때 HP가 늘어날 확률이 높아진다.\r\n\r\n‘총명함’\r\n주문의 위력이 증가한다.\r\n레벨이 오를 때 MP가 늘어날 확률도 높아진다.\r\n\r\n‘운’\r\n상태 이상에 걸릴 확률이 낮아지고\r\n물리 공격으로 주는 대미지가 증가하기 쉬워져\r\n회심의 일격이 나올 확률도 높아진다."
+      },
+      "Txt_Information_TEXT_WEAK_RESIST": {
+        "SelfId": "Txt_Information_TEXT_WEAK_RESIST",
+        "Text": "몬스터의 종류에 따라\r\n주문이나 특기의 상성이 다릅니다.\r\n\r\n예를 들어 개구리 모습을 한 적에게는\r\n얼음을 사용한 공격이 잘 통합니다.\r\n\r\n상성이 좋으면 붉은색,\r\n상성이 나쁘면 파란색으로\r\n대미지 숫자의 색이 변화합니다."
+      },
+      "Txt_Information_TEXT_CHANGE_STATUS": {
+        "SelfId": "Txt_Information_TEXT_CHANGE_STATUS",
+        "Text": "배틀 중에 능력치 등이 변화한 경우에는\r\n아이콘이 표시됩니다.\r\n\r\n자세한 내용은 모험 수칙에서\r\n‘상태 변화 아이콘’을 확인해 보세요."
+      },
+      "Txt_Information_TEXT_BAD_STATUS_LIST": {
+        "SelfId": "Txt_Information_TEXT_BAD_STATUS_LIST",
+        "Text": "<IMG_STATUS>[BAIKIRUTO] 공격력이 높아졌다.\r\n\r\n<IMG_STATUS>[POWER_DOWN] 공격력이 낮아졌다.\r\n\r\n<IMG_STATUS>[DEFENSE_UP] 수비력이 높아졌다.\r\n\r\n<IMG_STATUS>[DEFENSE_DOWN] 수비력이 낮아졌다.\r\n\r\n<IMG_STATUS>[SPEED_UP] 민첩함이 높아졌다.\r\n\r\n<IMG_STATUS>[SPEED_DOWN] 민첩함이 낮아졌다.\r\n\r\n<IMG_STATUS>[SPELL_ATTACK_UP] 다음 턴에 사용하는 주문 공격의 위력이 증가한다.\r\n\r\n<IMG_STATUS>[SPELL_WEAKNESS] 적의 주문 공격에 의해 약해졌다."
+      },
+      "Txt_Information_TEXT_BAD_STATUS_LIST_2": {
+        "SelfId": "Txt_Information_TEXT_BAD_STATUS_LIST_2",
+        "Text": "<IMG_STATUS>[MAHOKANTA] 적의 주문을 튕겨 낸다.\r\n\r\n<IMG_STATUS>[STUN] 움직일 수 없다.\r\n\r\n<IMG_STATUS>[BEAST] 1턴에 2회 행동한다.\r\n\r\n<IMG_STATUS>[COUNTER_BREATH] 1회 한정으로 브레스 계열 공격을 튕겨 낸다.\r\n\r\n<IMG_STATUS>[BUILD_UP_STRENGTH] 다음 공격이 강해진다.\r\n\r\n<IMG_STATUS>[NO_DAMAGE] 적의 공격을 피할 확률이 높아진다.\r\n\r\n<IMG_STATUS>[AUTO_HEAL_MP] 매턴 MP를 회복한다."
+      },
+      "Txt_Information_TEXT_BAD_STATUS_LIST_3": {
+        "SelfId": "Txt_Information_TEXT_BAD_STATUS_LIST_3",
+        "Text": "<IMG_STATUS>[POISON]‘독’\r\n필드 이동 시 대미지를 입는다.\r\n\r\n<IMG_STATUS>[PARALYZE]‘마비’\r\n배틀 중에 잠시 행동할 수 없게 된다.\r\n배틀이 끝나도 회복되지 않는다.\r\n\r\n<IMG_STATUS>[SLEEP]‘수면’\r\n자신의 턴 때 행동할 수 없게 된다.\r\n대미지를 입으면 해제되기도 한다."
+      },
+      "Txt_Information_TEXT_BAD_STATUS_LIST_4": {
+        "SelfId": "Txt_Information_TEXT_BAD_STATUS_LIST_4",
+        "Text": "<IMG_STATUS>[CONFUSION]‘혼란’\r\n아군을 공격하게 된다.\r\n\r\n<IMG_STATUS>[MANUSA]‘환혹’\r\n일반 공격을 실패할 확률이 높아진다.\r\n단, 주문 계열 공격은 영향을 받지 않는다.\r\n\r\n<IMG_STATUS>[MAHOTON]‘주문 봉인’\r\n주문을 사용할 수 없게 된다."
+      },
+      "Txt_Information_TEXT_POISON_PARALYSE": {
+        "SelfId": "Txt_Information_TEXT_POISON_PARALYSE",
+        "Text": "독과 마비는 배틀이 끝나도 회복되지 않습니다.\r\n도구나 주문으로 빨리 회복하는 것을 추천합니다.\r\n\r\n단, 마비는 잠시 걸으면 회복되기도 합니다."
+      },
+      "Txt_Information_TEXT_OVERLAP": {
+        "SelfId": "Txt_Information_TEXT_OVERLAP",
+        "Text": "능력치를 변화시키는 주문과 특기 중에는\r\n중첩 가능한 게 있습니다.\r\n\r\n중첩시키면 효과가 점점 강해집니다."
+      },
+      "Txt_Information_TEXT_BATTLEROAD": {
+        "SelfId": "Txt_Information_TEXT_BATTLEROAD",
+        "Text": "마물들을 경쟁하게 하는 몬스터 배틀 로드가\r\n세계 각지에서 개최되고 있습니다.\r\n\r\n참가해서 승리하면 상금과 경품을 받습니다.\r\n자세한 설명은 배틀 로드 경기장의\r\n안내소에서 들을 수 있습니다.\r\n\r\n우선 로마리아에서 랭크가 낮은 대회부터 도전해 보세요!"
+      },
+      "Txt_Information_TEXT_BATTLEROAD_BATTLE": {
+        "SelfId": "Txt_Information_TEXT_BATTLEROAD_BATTLE",
+        "Text": "배틀 로드에서는 몬스터에게\r\n구체적인 지시를 내릴 수 없습니다.\r\n\r\n몬스터들은 ‘작전’에 따라\r\n스스로 판단해 싸웁니다.\r\n\r\n상황에 맞춰 몬스터들의 ‘작전’을\r\n세세하게 바꾸는 것이 승리하는 요령입니다."
+      },
+      "Txt_Information_TEXT_BREED_MONSTER": {
+        "SelfId": "Txt_Information_TEXT_BREED_MONSTER",
+        "Text": "마을이나 던전 등에 있는\r\n마성이 사라진 몬스터는 인간을 공격하지 않으며\r\n가까이 다가가 말을 걸면 보호할 수 있습니다.\r\n\r\n단, 이런 몬스터 중에는\r\n인간을 보고 도망치는 개체도 있습니다.\r\n\r\n몬스터가 도망쳤을 때는 힌트 메시지를 참고해서\r\n아이템이나 특기를 이용해 접근해 보세요."
+      },
+      "Txt_Information_TEXT_BREED_MONSTER_2": {
+        "SelfId": "Txt_Information_TEXT_BREED_MONSTER_2",
+        "Text": "보호한 몬스터의 수가 늘어날수록\r\n몬스터 영감님으로부터 사례를 받습니다.\r\n마음이 내킬 때 배틀 로드 경기장에 가서 만나 보세요.\r\n\r\n또 ‘마물 조련사’ 직업은\r\n보호한 몬스터가 늘어날수록\r\n그들과 마음을 나누며 새로운 특기를 습득합니다."
+      },
+      "Txt_Information_TEXT_PUZZLE": {
+        "SelfId": "Txt_Information_TEXT_PUZZLE",
+        "Text": "문장이 그려진 3개의 바닥에 바위를 옮기면\r\n길이 열립니다.\r\n\r\n단, 물 위로 바위를 밀면\r\n바위가 잠겨 사라져 버리니 주의하세요.\r\n\r\n<IMG_BUTTON>[Puzzle_Reset]을 누르면 상태를 리셋하고\r\n처음부터 다시 시작할 수 있습니다."
+      },
+      "Txt_Information_TEXT_WIPEOUT": {
+        "SelfId": "Txt_Information_TEXT_WIPEOUT",
+        "Text": "전멸하여 마지막에 기도한 장소로 되돌아가면\r\n경험치와 획득한 아이템은 이어받지만\r\n소지금이 반으로 줄어듭니다.\r\n\r\n자동 저장된 장소로 되돌아가면\r\n경험치와 소지금도 그 시점의 상태로 돌아갑니다.\r\n\r\n골드 은행에 맡긴 돈은\r\n전멸해도 줄어들지 않으니\r\n걱정된다면 맡기는 것을 추천합니다."
+      },
+      "Txt_Information_TEXT_PICK": {
+        "SelfId": "Txt_Information_TEXT_PICK",
+        "Text": "필드에서 반짝이는 장소를 조사하면\r\n아이템이나 골드 등을 입수할 수 있습니다.\r\n\r\n적극적으로 찾아보세요."
+      },
+      "Txt_Information_TEXT_SECRET_AREA": {
+        "SelfId": "Txt_Information_TEXT_SECRET_AREA",
+        "Text": "필드 여기저기에\r\n‘비밀 장소’라고 불리는\r\n숨겨진 맵이 존재합니다.\r\n\r\n자세히 봤을 때 주변의 풍경과\r\n살짝 다르게 보이는 것이 특징입니다.\r\n\r\n모험을 도와주는 아이템이나 골드를 획득할 수도 있고\r\n이곳에서만 찾을 수 있는 무언가가 있을지도 모릅니다."
+      },
+      "Txt_Information_TEXT_CLEAR": {
+        "SelfId": "Txt_Information_TEXT_CLEAR",
+        "Text": "게임을 클리어해\r\n‘용의 여왕의 성’에 천계로 가는 길이 열렸습니다.\r\n\r\n천계에서는 소원을 들어주는 존재가\r\n당신의 도전을 기다리고 있습니다.\r\n\r\n천계의 몬스터들은 매우 강력하므로\r\n준비를 철저히 하고 갑시다."
+      },
+      "Txt_Information_TEXT_GAMEMODE": {
+        "SelfId": "Txt_Information_TEXT_GAMEMODE",
+        "Text": "시스템 설정의 ‘게임 모드 설정’에서\r\n언제든지 아래의 모드로 변경할 수 있습니다.\r\n\r\n‘쉬운 플레이’\r\n・아무리 대미지를 입어도 전투 불능 상태가 되지 않습니다.\r\n・적에게 가하는 대미지가 증가합니다.\r\n・일부 보스의 HP가 자동으로 회복되지 않습니다.\r\n\r\n\r\n‘빈틈없는 모험’\r\n・추천 밸런스로 플레이할 수 있습니다.\r\n\r\n\r\n‘가시밭길’\r\n・모든 보스의 HP가 증가합니다.\r\n・적의 공격으로부터 입는 대미지가 증가합니다.\r\n・전투에서 획득하는 경험치와 골드가 줄어듭니다.\r\n・적의 약점을 찔렀을 때 가하는 대미지가 덜 증가합니다.\r\n\r\n\r\n※토벌 몬스터 목록 안의 경험치와 골드에 관한 항목에는\r\n‘가시밭길’ 설정으로 인해 감소한 부분은 반영되지 않습니다."
+      },
+      "Txt_Information_TEXT_FIELDMENU": {
+        "SelfId": "Txt_Information_TEXT_FIELDMENU",
+        "Text": "<IMG_BUTTON>[FieldMenu]을 누르면\r\n메뉴 화면을 열 수 있습니다."
+      },
+      "Txt_Information_GUIDE_CLOSE": {
+        "SelfId": "Txt_Information_GUIDE_CLOSE",
+        "Text": "닫기"
+      }
+    }
+  }
+]

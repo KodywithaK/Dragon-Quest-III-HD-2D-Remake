@@ -1,0 +1,3080 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_DebugMenu",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_DebugMenu_Common_Target_Head": {
+        "SelfId": "Txt_DebugMenu_Common_Target_Head",
+        "Text": "対象:"
+      },
+      "Txt_DebugMenu_Common_Target_1st": {
+        "SelfId": "Txt_DebugMenu_Common_Target_1st",
+        "Text": "1人目"
+      },
+      "Txt_DebugMenu_Common_Target_2nd": {
+        "SelfId": "Txt_DebugMenu_Common_Target_2nd",
+        "Text": "2人目"
+      },
+      "Txt_DebugMenu_Common_Target_3rd": {
+        "SelfId": "Txt_DebugMenu_Common_Target_3rd",
+        "Text": "3人目"
+      },
+      "Txt_DebugMenu_Common_Target_4th": {
+        "SelfId": "Txt_DebugMenu_Common_Target_4th",
+        "Text": "4人目"
+      },
+      "Txt_DebugMenu_Common_Target_All": {
+        "SelfId": "Txt_DebugMenu_Common_Target_All",
+        "Text": "全員"
+      },
+      "Txt_DebugMenu_Common_Target_AllEnemy": {
+        "SelfId": "Txt_DebugMenu_Common_Target_AllEnemy",
+        "Text": "敵全員"
+      },
+      "Txt_DebugMenu_Common_Target_AllFriend": {
+        "SelfId": "Txt_DebugMenu_Common_Target_AllFriend",
+        "Text": "味方全員"
+      },
+      "Txt_DebugMenu_Common_Save": {
+        "SelfId": "Txt_DebugMenu_Common_Save",
+        "Text": "セーブ"
+      },
+      "Txt_DebugMenu_Common_Affect": {
+        "SelfId": "Txt_DebugMenu_Common_Affect",
+        "Text": "適用"
+      },
+      "Txt_DebugMenu_Common_Add": {
+        "SelfId": "Txt_DebugMenu_Common_Add",
+        "Text": "追加"
+      },
+      "Txt_DebugMenu_Common_Class": {
+        "SelfId": "Txt_DebugMenu_Common_Class",
+        "Text": "職業"
+      },
+      "Txt_DebugMenu_Common_Looks": {
+        "SelfId": "Txt_DebugMenu_Common_Looks",
+        "Text": "見た目"
+      },
+      "Txt_DebugMenu_Top_DebugMenu": {
+        "SelfId": "Txt_DebugMenu_Top_DebugMenu",
+        "Text": "Debug Menu"
+      },
+      "Txt_DebugMenu_Top_DebugLog": {
+        "SelfId": "Txt_DebugMenu_Top_DebugLog",
+        "Text": "Debug Log"
+      },
+      "Txt_DebugMenu_Top_SaveLoad": {
+        "SelfId": "Txt_DebugMenu_Top_SaveLoad",
+        "Text": "Save Load"
+      },
+      "Txt_DebugMenu_Top_Information": {
+        "SelfId": "Txt_DebugMenu_Top_Information",
+        "Text": "Information"
+      },
+      "Txt_DebugMenu_Top_ConsoleCmd": {
+        "SelfId": "Txt_DebugMenu_Top_ConsoleCmd",
+        "Text": "ConsoleCmd"
+      },
+      "Txt_DebugMenu_Top_LuaDebugCmd": {
+        "SelfId": "Txt_DebugMenu_Top_LuaDebugCmd",
+        "Text": "LuaDebugCmd"
+      },
+      "Txt_DebugMenu_Top_MapTime": {
+        "SelfId": "Txt_DebugMenu_Top_MapTime",
+        "Text": "MapTime"
+      },
+      "Txt_DebugMenu_Top_Landscape": {
+        "SelfId": "Txt_DebugMenu_Top_Landscape",
+        "Text": "Landscape"
+      },
+      "Txt_DebugMenu_Top_Localize": {
+        "SelfId": "Txt_DebugMenu_Top_Localize",
+        "Text": "Localize"
+      },
+      "Txt_DebugMenu_Top_CameraEffect": {
+        "SelfId": "Txt_DebugMenu_Top_CameraEffect",
+        "Text": "Camera Effect"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugActionFlags": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugActionFlags",
+        "Text": "Debug Action Flags"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugDraw": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugDraw",
+        "Text": "デバッグ描画"
+      },
+      "Txt_DebugMenu_DebugMenu_Option": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Option",
+        "Text": "オプション"
+      },
+      "Txt_DebugMenu_DebugMenu_CameraSettings": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_CameraSettings",
+        "Text": "Camera Settings"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleCameraSettings": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleCameraSettings",
+        "Text": "Battle Camera Settings"
+      },
+      "Txt_DebugMenu_DebugMenu_DirectionalLightSettings": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DirectionalLightSettings",
+        "Text": "Directional Light Settings"
+      },
+      "Txt_DebugMenu_DebugMenu_CommonMode": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_CommonMode",
+        "Text": "モード共通"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode",
+        "Text": "探索モード用"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode",
+        "Text": "バトルモード用"
+      },
+      "Txt_DebugMenu_DebugMenu_FieldMode": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_FieldMode",
+        "Text": "フィールドモード用"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug",
+        "Text": "ゲームデータデバッグ"
+      },
+      "Txt_DebugMenu_DebugMenu_Looks": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Looks",
+        "Text": "ルックス"
+      },
+      "Txt_DebugMenu_DebugMenu_Sound": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Sound",
+        "Text": "サウンド"
+      },
+      "Txt_DebugMenu_DebugMenu_UITest": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_UITest",
+        "Text": "UIテスト"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugConsole": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugConsole",
+        "Text": "デバッグコンソール"
+      },
+      "Txt_DebugMenu_DebugMenu_LuaDebug": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_LuaDebug",
+        "Text": "Luaデバッグ"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest",
+        "Text": "プラットフォーム機能テスト"
+      },
+      "Txt_DebugMenu_DebugMenu_AutoSystem": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_AutoSystem",
+        "Text": "自動処理"
+      },
+      "Txt_DebugMenu_DebugMenu_BackToTitle": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BackToTitle",
+        "Text": "タイトルへ戻る"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugActionFlags_MapTimeForceProgress": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugActionFlags_MapTimeForceProgress",
+        "Text": "マップ時間強制進行"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugActionFlags_MapTimeForceStop": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugActionFlags_MapTimeForceStop",
+        "Text": "マップ時間強制停止"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugActionFlags_NGMapMove": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugActionFlags_NGMapMove",
+        "Text": "マップ遷移禁止"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugActionFlags_DisableEncount": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugActionFlags_DisableEncount",
+        "Text": "エンカウントを無効化"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugActionFlags_LanternForceEnable": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugActionFlags_LanternForceEnable",
+        "Text": "ランタン光源強制On"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugActionFlags_LanternDisable": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugActionFlags_LanternDisable",
+        "Text": "ランタンOff"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugActionFlags_LanternLightDisable": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugActionFlags_LanternLightDisable",
+        "Text": "ランタン光源Off"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugActionFlags_WaitFieldMapDisp": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugActionFlags_WaitFieldMapDisp",
+        "Text": "フィールドマップ表示待機（遷移先座標のみ）有効化"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugActionFlags_EnableNavMeshMove": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugActionFlags_EnableNavMeshMove",
+        "Text": "NavMesh移動の有効化"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugActionFlags_DisableFixMapTimeInUnderground": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugActionFlags_DisableFixMapTimeInUnderground",
+        "Text": "地下世界遷移時のマップ時間固定無効化"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugActionFlags_DisableKeyGuideAndEnableTargeticon": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugActionFlags_DisableKeyGuideAndEnableTargeticon",
+        "Text": "操作ガイド無効化・目的地アイコン有効化"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugActionFlags_EnablePlayFab": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugActionFlags_EnablePlayFab",
+        "Text": "PlayFab通信有効化"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugActionFlags_MoveInitialToDefault": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugActionFlags_MoveInitialToDefault",
+        "Text": "InitialレベルからDefaultレベルに遷移"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugActionFlags_EnableResearchByItemEmpty": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugActionFlags_EnableResearchByItemEmpty",
+        "Text": "サーチオブジェクトを再度調べられるようにする"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugActionFlags_HideSearchObject": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugActionFlags_HideSearchObject",
+        "Text": "サーチオブジェクト非表示"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugDraw_TownDungeonMapLoadStatus": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugDraw_TownDungeonMapLoadStatus",
+        "Text": "タウンダンジョンマップロード状況"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugDraw_MapTime": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugDraw_MapTime",
+        "Text": "マップ時刻"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugDraw_PlayerCharacterInfo": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugDraw_PlayerCharacterInfo",
+        "Text": "プレイヤーキャラクター情報"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugDraw_DispMessage": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugDraw_DispMessage",
+        "Text": "画面にメッセージ表示"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugDraw_DisablePostProcess": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugDraw_DisablePostProcess",
+        "Text": "ポストプロセスオフ"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugDraw_DispCollision": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugDraw_DispCollision",
+        "Text": "コリジョン表示"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugDraw_DisableDOF": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugDraw_DisableDOF",
+        "Text": "被写界深度の無効化"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugDraw_AdjustLensAperture": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugDraw_AdjustLensAperture",
+        "Text": "レンズ絞り調整"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugDraw_AdjustFrontDOF": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugDraw_AdjustFrontDOF",
+        "Text": "手前側の被写界深度の効き調整"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugDraw_DispFocusPos": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugDraw_DispFocusPos",
+        "Text": "フォーカス位置の表示"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugDraw_Input": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugDraw_Input",
+        "Text": "入力"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugDraw_DispPhysicsMaterialDebug": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugDraw_DispPhysicsMaterialDebug",
+        "Text": "物理マテリアルデバッグ表示"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugDraw_DispFlipbookSocket": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugDraw_DispFlipbookSocket",
+        "Text": "フリップブックソケット表示"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugDraw_DispBattleEffectInfo": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugDraw_DispBattleEffectInfo",
+        "Text": "バトルエフェクト情報表示"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugDraw_DispParamCollectionInfo01": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugDraw_DispParamCollectionInfo01",
+        "Text": "パラメータコレクション情報表示01"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugDraw_DispParamCollectionInfo02": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugDraw_DispParamCollectionInfo02",
+        "Text": "パラメータコレクション情報表示02"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugDraw_DispTrace": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugDraw_DispTrace",
+        "Text": "トレース表示"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugDraw_DispSoundInfo": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugDraw_DispSoundInfo",
+        "Text": "サウンド情報表示"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugDraw_HideUI_SS": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugDraw_HideUI_SS",
+        "Text": "表示中のUIを非表示：UIの更新も停止"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugDraw_HideUI_MV": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugDraw_HideUI_MV",
+        "Text": "特定のUIを表示しない"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugDraw_DispBattleStatusInfo": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugDraw_DispBattleStatusInfo",
+        "Text": "バトルステータス情報表示"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugDraw_DispBattleCharacterSpriteInfo": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugDraw_DispBattleCharacterSpriteInfo",
+        "Text": "バトルキャラスプライト情報表示"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugDraw_DispSearchRange": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugDraw_DispSearchRange",
+        "Text": "探索範囲の表示"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugDraw_StaticMeshList": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugDraw_StaticMeshList",
+        "Text": "StaticMesh一覧"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugDraw_DispTextGopId": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugDraw_DispTextGopId",
+        "Text": "テキストのGOPIDの表示"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugDraw_DispEncount": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugDraw_DispEncount",
+        "Text": "エンカウント情報表示"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugDraw_DecareList": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugDraw_DecareList",
+        "Text": "デカール一覧"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugDraw_DispBattleLocationInfo": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugDraw_DispBattleLocationInfo",
+        "Text": "バトル座標情報表示"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugDraw_DispHardwareInfo": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugDraw_DispHardwareInfo",
+        "Text": "ハードウェア情報表示"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugDraw_DispCameraTriggerBounds": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugDraw_DispCameraTriggerBounds",
+        "Text": "カメラトリガー範囲表示"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugDraw_DispLightingEnvTriggerBounds": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugDraw_DispLightingEnvTriggerBounds",
+        "Text": "ライティング環境トリガー範囲表示"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugDraw_DispFieldEffectTriggerBounds": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugDraw_DispFieldEffectTriggerBounds",
+        "Text": "フィールドエフェクトトリガー範囲表示"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugDraw_DispCameraEffectTriggerBounds": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugDraw_DispCameraEffectTriggerBounds",
+        "Text": "カメラエフェクトトリガー範囲表示"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugDraw_DispStatusEffectCountInfo": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugDraw_DispStatusEffectCountInfo",
+        "Text": "毒麻痺等カウント値表示"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugDraw_DispSearchRange_Touzokunohana": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugDraw_DispSearchRange_Touzokunohana",
+        "Text": "とうぞくのはな(フィールド)"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugDraw_DispSearchRange_Remirama": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugDraw_DispSearchRange_Remirama",
+        "Text": "レミラーマ"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugDraw_DispSearchRange_EchoFlute": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugDraw_DispSearchRange_EchoFlute",
+        "Text": "やまびこのふえ(フィールド)"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugDraw_DispSearchRange_YaseinoKan": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugDraw_DispSearchRange_YaseinoKan",
+        "Text": "やせいのかん(フィールド)"
+      },
+      "Txt_DebugMenu_DebugMenu_Option_ReverseHorizontalCamera": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Option_ReverseHorizontalCamera",
+        "Text": "水平方向カメラ反転"
+      },
+      "Txt_DebugMenu_DebugMenu_Option_ReverseVerticalCamera": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Option_ReverseVerticalCamera",
+        "Text": "垂直方向カメラ反転"
+      },
+      "Txt_DebugMenu_DebugMenu_Option_MoveRateHorizontalCamera": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Option_MoveRateHorizontalCamera",
+        "Text": "水平方向カメラ移動率"
+      },
+      "Txt_DebugMenu_DebugMenu_Option_MoveRateVerticalCamera": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Option_MoveRateVerticalCamera",
+        "Text": "垂直方向カメラ移動率"
+      },
+      "Txt_DebugMenu_DebugMenu_Option_MoveRateForBattleUnit": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Option_MoveRateForBattleUnit",
+        "Text": "戦闘中のユニット移動レート"
+      },
+      "Txt_DebugMenu_DebugMenu_Option_Vibration": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Option_Vibration",
+        "Text": "振動"
+      },
+      "Txt_DebugMenu_DebugMenu_Option_DisablePreLoad": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Option_DisablePreLoad",
+        "Text": "先読みOff"
+      },
+      "Txt_DebugMenu_DebugMenu_CameraSettings_AngleElevation": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_CameraSettings_AngleElevation",
+        "Text": "Angle Elevation"
+      },
+      "Txt_DebugMenu_DebugMenu_CameraSettings_TargetLengthMulti10": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_CameraSettings_TargetLengthMulti10",
+        "Text": "Target Length(×10)"
+      },
+      "Txt_DebugMenu_DebugMenu_CameraSettings_FieldOfView": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_CameraSettings_FieldOfView",
+        "Text": "Field of View"
+      },
+      "Txt_DebugMenu_DebugMenu_CameraSettings_CameraOffset": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_CameraSettings_CameraOffset",
+        "Text": "Camera Offset"
+      },
+      "Txt_DebugMenu_DebugMenu_CameraSettings_Aperture": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_CameraSettings_Aperture",
+        "Text": "Aperture"
+      },
+      "Txt_DebugMenu_DebugMenu_CameraSettings_DOFBlurAmount": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_CameraSettings_DOFBlurAmount",
+        "Text": "DOF Amount"
+      },
+      "Txt_DebugMenu_DebugMenu_CameraSettings_DOFBlurRadius": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_CameraSettings_DOFBlurRadius",
+        "Text": "DOF Radius"
+      },
+      "Txt_DebugMenu_DebugMenu_CameraSettings_DOFNearPower": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_CameraSettings_DOFNearPower",
+        "Text": "DOF Near Power"
+      },
+      "Txt_DebugMenu_DebugMenu_CameraSettings_ClearDebugSetting": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_CameraSettings_ClearDebugSetting",
+        "Text": "Clear Debug Setting"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleCameraSettings_Aperture": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleCameraSettings_Aperture",
+        "Text": "Aperture"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleCameraSettings_FocusRelativeOffsetMulti10": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleCameraSettings_FocusRelativeOffsetMulti10",
+        "Text": "Focus Relative Offset(×10)"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleCameraSettings_DOFBlurAmount": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleCameraSettings_DOFBlurAmount",
+        "Text": "DOF Amount"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleCameraSettings_DOFBlurRadius": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleCameraSettings_DOFBlurRadius",
+        "Text": "DOF Radius"
+      },
+      "Txt_DebugMenu_DebugMenu_DirectionalLightSettings_ShadowBias": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DirectionalLightSettings_ShadowBias",
+        "Text": "Shadow Bias"
+      },
+      "Txt_DebugMenu_DebugMenu_DirectionalLightSettings_DynamicShadowDistanceMulti100": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DirectionalLightSettings_DynamicShadowDistanceMulti100",
+        "Text": "Dynamic Shadow Distance(×100)"
+      },
+      "Txt_DebugMenu_DebugMenu_DirectionalLightSettings_DynamicShadowCascades": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DirectionalLightSettings_DynamicShadowCascades",
+        "Text": "Dynamic Shadow Cascades"
+      },
+      "Txt_DebugMenu_DebugMenu_DirectionalLightSettings_CascadeDistributionExponent": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DirectionalLightSettings_CascadeDistributionExponent",
+        "Text": "Cascade Distribution Exponent"
+      },
+      "Txt_DebugMenu_DebugMenu_DirectionalLightSettings_CascadeTransitionFraction": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DirectionalLightSettings_CascadeTransitionFraction",
+        "Text": "Cascade Transition Fraction"
+      },
+      "Txt_DebugMenu_DebugMenu_DirectionalLightSettings_ShadowDistanceFadeoutFraction": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DirectionalLightSettings_ShadowDistanceFadeoutFraction",
+        "Text": "Shadow Distance Fadeout Fraction"
+      },
+      "Txt_DebugMenu_DebugMenu_DirectionalLightSettings_LightFunctionFadeDistanceMulti100": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DirectionalLightSettings_LightFunctionFadeDistanceMulti100",
+        "Text": "Light Function Fade Distance(×100)"
+      },
+      "Txt_DebugMenu_DebugMenu_DirectionalLightSettings_ClearDebugSetting": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DirectionalLightSettings_ClearDebugSetting",
+        "Text": "Clear Debug Setting"
+      },
+      "Txt_DebugMenu_DebugMenu_CommonMode_DisableCharacterDirAdjust": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_CommonMode_DisableCharacterDirAdjust",
+        "Text": "キャラ向き補正を切る"
+      },
+      "Txt_DebugMenu_DebugMenu_CommonMode_ForceReloadPostProcessVolume": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_CommonMode_ForceReloadPostProcessVolume",
+        "Text": "ポストプロセスボリューム強制再取得"
+      },
+      "Txt_DebugMenu_DebugMenu_CommonMode_ForceReloadRotator": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_CommonMode_ForceReloadRotator",
+        "Text": "ローテータ強制再取得"
+      },
+      "Txt_DebugMenu_DebugMenu_CommonMode_ForceReloadDirectionalLight": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_CommonMode_ForceReloadDirectionalLight",
+        "Text": "ディレクショナルライト強制再取得"
+      },
+      "Txt_DebugMenu_DebugMenu_CommonMode_RotatorActiveFlag": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_CommonMode_RotatorActiveFlag",
+        "Text": "ローテータアクティブフラグ"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_FreeCameraMode": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_FreeCameraMode",
+        "Text": "自由カメラモード(未実装)"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_FastMove": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_FastMove",
+        "Text": "高速移動"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_FlyMode": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_FlyMode",
+        "Text": "飛行モード"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_CameraChangeMode": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_CameraChangeMode",
+        "Text": "カメラチェンジモード"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_DisableAreaChange": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_DisableAreaChange",
+        "Text": "エリアチェンジ無効"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_IgnoreWall": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_IgnoreWall",
+        "Text": "壁抜け(未実装)"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_ControlPostProcess": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_ControlPostProcess",
+        "Text": "ポストプロセス制御(未実装)"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_FloorMove": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_FloorMove",
+        "Text": "フロア移動"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_NOTUseGopMapCamera": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_NOTUseGopMapCamera",
+        "Text": "Gop_MapCameraを使用しない"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_DisableCameraCollision": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_DisableCameraCollision",
+        "Text": "カメラコリジョン無効化"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_DispEventDebug": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_DispEventDebug",
+        "Text": "イベントデバッグ表示"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_DisableSceneVolumeEvent": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_DisableSceneVolumeEvent",
+        "Text": "シーン・ボリュームイベント無効化"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventPlayTest": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventPlayTest",
+        "Text": "イベント再生テスト"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting",
+        "Text": "イベントフラグデバッグ設定"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagTest": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagTest",
+        "Text": "イベントフラグテスト"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther",
+        "Text": "イベントテストその他"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_TreatAsOnceKillAllMonster": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_TreatAsOnceKillAllMonster",
+        "Text": "全モンスターを一回倒した扱いにする"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_AddKillCountToTargetMonster": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_AddKillCountToTargetMonster",
+        "Text": "指定したモンスターの倒した数を増やす"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_CheckPlayerStartOverlap": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_CheckPlayerStartOverlap",
+        "Text": "プレイヤースタート重なりチェック"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_TestGimmickRetryUI": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_TestGimmickRetryUI",
+        "Text": "ギミックリトライUIのテスト"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_CallEnding": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_CallEnding",
+        "Text": "エンディング呼び出し"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_ChangeRecordCount": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_ChangeRecordCount",
+        "Text": "せんれきの項目のカウント変更"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventControlUITest": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventControlUITest",
+        "Text": "イベントスキップ/早送りテスト"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Game_start": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Game_start",
+        "Text": "ゲームスタート　主観視点"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Personality_test_start": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Personality_test_start",
+        "Text": "滝の手前に降り立つ→プレイアブルまで"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Personality_test_cave": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Personality_test_cave",
+        "Text": "性格診断　洞窟　開始地点"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Personality_test_tower": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Personality_test_tower",
+        "Text": "性格診断　塔　開始地点"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Personality_test_city": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Personality_test_city",
+        "Text": "性格診断　街（魔物）　開始地点"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Personality_test_town": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Personality_test_town",
+        "Text": "性格診断　村　開始地点"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Personality_test_forest": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Personality_test_forest",
+        "Text": "性格診断　森（岩押し）　開始地点"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Personality_test_castle": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Personality_test_castle",
+        "Text": "性格診断　城　開始地点"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Personality_test_desert": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Personality_test_desert",
+        "Text": "性格診断　砂漠（兄貴と私）　開始地点"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Personality_test_stage": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Personality_test_stage",
+        "Text": "性格診断　劇場　開始地点"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Personality_test_end": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Personality_test_end",
+        "Text": "各マップの性格診断後のイベント"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Aliahan_monologue_start": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Aliahan_monologue_start",
+        "Text": "アリアハン　母親と祖父のやり取り"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Aliahan_castle_arrival": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Aliahan_castle_arrival",
+        "Text": "アリアハン　母親に連れられて城に到達"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Najimi_thiefskey_get": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Najimi_thiefskey_get",
+        "Text": "ナジミ　盗賊のカギ入手"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Reeve_magicball_get": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Reeve_magicball_get",
+        "Text": "レーベ　魔法のたま入手"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_IzanaiCave_wall_destruction": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_IzanaiCave_wall_destruction",
+        "Text": "いざないの洞窟　壁破壊"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_IzanaiShrine_monster_oldman": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_IzanaiShrine_monster_oldman",
+        "Text": "いざないの祠　モンじいとの出会い"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Romaria_city_arrival": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Romaria_city_arrival",
+        "Text": "ロマリア　ロケカメ"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_RomariaBarrier_stop": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_RomariaBarrier_stop",
+        "Text": "ロマリア関所　カンダタ撃破前警告"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Kazave_ｆirst_visit": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Kazave_ｆirst_visit",
+        "Text": "カザーブ　ロケカメ"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Noaniel_ｆirst_visit": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Noaniel_ｆirst_visit",
+        "Text": "ノアニール　ロケカメ"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Elfvillage_ｆirst_visit": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Elfvillage_ｆirst_visit",
+        "Text": "エルフの隠れ里　ロケカメ"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Elfvillage_curse_reason": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Elfvillage_curse_reason",
+        "Text": "エルフの隠れ里　失踪について話を聞く"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Elfvillage_dream_ruby": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Elfvillage_dream_ruby",
+        "Text": "エルフの隠れ里　失踪事件の真相"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Noaniel_dispel_town": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Noaniel_dispel_town",
+        "Text": "ノアニール　目覚めの粉使う"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Shampane_henchman_encount": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Shampane_henchman_encount",
+        "Text": "シャンパーニ　カンダタこぶんの逃走"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Shampane_kandata_battle": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Shampane_kandata_battle",
+        "Text": "シャンパーニ　カンダタ戦"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Romaria_king_coronation": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Romaria_king_coronation",
+        "Text": "ロマリア　王様になる？"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Ashalam_ｆirst_visit_night": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Ashalam_ｆirst_visit_night",
+        "Text": "アッサラーム　ロケカメ（夜）"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Isis_ｆirst_visit": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Isis_ｆirst_visit",
+        "Text": "イシス　ロケカメ"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Pyramid_devil_battle": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Pyramid_devil_battle",
+        "Text": "ピラミッド　ナイルの悪魔遭遇～戦闘"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Pyramid_golden_claw": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Pyramid_golden_claw",
+        "Text": "ピラミッド　黄金のツメの棺"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Portoga_ｆirst_visit": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Portoga_ｆirst_visit",
+        "Text": "ポルトガ　ロケカメ"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Norudcave_norud_talk": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Norudcave_norud_talk",
+        "Text": "ノルドの洞窟　王の手紙を見せる"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Baharata_ｆirst_visit": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Baharata_ｆirst_visit",
+        "Text": "バハラタ　ロケカメ"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_BaharataEcave_henchman_battle": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_BaharataEcave_henchman_battle",
+        "Text": "人さらいの洞窟　行く手を阻むこぶんたち"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Baharata_Bpepper_nonget": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Baharata_Bpepper_nonget",
+        "Text": "バハラタ　グプタからくろこしょうもらえない"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Dhama_Bpepper_get": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Dhama_Bpepper_get",
+        "Text": "ダーマ　くろこしょうもらう"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Portoga_ship_get": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Portoga_ship_get",
+        "Text": "ポルトガ　船乗る直前　兵士に呼び止められる"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_PortogaLight_ｆirst_visit": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_PortogaLight_ｆirst_visit",
+        "Text": "ポルトガの灯台　船入手直後"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_PiratesBase_ｆirst_visit": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_PiratesBase_ｆirst_visit",
+        "Text": "海賊のアジト　ロケーションカメラ昼"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Jipang_ｆirst_visit": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Jipang_ｆirst_visit",
+        "Text": "ジパング　ロケーションカメラ（昼）"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_JipangCave_serpent_battle": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_JipangCave_serpent_battle",
+        "Text": "ジパング洞窟やまたのおろち１戦目後カットシーン"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Jipang_serpent_chase_night": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Jipang_serpent_chase_night",
+        "Text": "ジパング　やまたのおろち１戦目後のジパング屋敷"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Muor_ｆirst_visit": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Muor_ｆirst_visit",
+        "Text": "ムオル　ロケーションカメラ"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Dharma_ｆirst_visit": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Dharma_ｆirst_visit",
+        "Text": "ダーマ　ロケーションカメラ"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Soo_ｆirst_visit": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Soo_ｆirst_visit",
+        "Text": "スー　ロケーションカメラ"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Luzami_ｆirst_visit": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Luzami_ｆirst_visit",
+        "Text": "ルザミ　ロケーションカメラ"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Edinbear_ｆirst_visit": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Edinbear_ｆirst_visit",
+        "Text": "エジンベア　ロケーションカメラ"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_ShallowShrine_ｆirst_visit": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_ShallowShrine_ｆirst_visit",
+        "Text": "浅瀬の祠　浮上済み、最後の鍵未入手"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Burg_ｆirst_visit": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Burg_ｆirst_visit",
+        "Text": "バーク　ロケーションカメラ・第一段階"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Burg_second_visit": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Burg_second_visit",
+        "Text": "バーク　ロケーションカメラ・第二段階"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Tedon_ｆirst_visit_night": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Tedon_ｆirst_visit_night",
+        "Text": "テドン　ロケーションカメラ夜"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Lancel_ｆirst_visit": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Lancel_ｆirst_visit",
+        "Text": "ランシール　ロケーションカメラ"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_RaCave_warlock_battle": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_RaCave_warlock_battle",
+        "Text": "地球のへそ　ウォーロックとの戦闘前"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Samanosa_ｆirst_visit": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Samanosa_ｆirst_visit",
+        "Text": "サマンオサロケーションカメラ昼"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Samanosa_bosstroll_battle": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Samanosa_bosstroll_battle",
+        "Text": "サマンオサ王を見破る→ボストロール出現"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Greenlad_ｆirst_visit": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Greenlad_ｆirst_visit",
+        "Text": "グリーンラッド　船乗りの骨交換"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_GhostShip_love_memory": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_GhostShip_love_memory",
+        "Text": "幽霊船　あいのおもいで入手"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_OliviaMisaki_ｆirst_visit": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_OliviaMisaki_ｆirst_visit",
+        "Text": "オリビアの岬　船が押し戻される"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_OliviaMisaki_love_memory": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_OliviaMisaki_love_memory",
+        "Text": "オリビアの岬　オリビアとエリックの再会"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_ShrinePrison_saimon_talk": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_ShrinePrison_saimon_talk",
+        "Text": "ほこらの牢獄「彷徨える魂」"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Volcano_Revenant_battle": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Volcano_Revenant_battle",
+        "Text": "火山　レヴナント戦前（昼）"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Volcano_eruption": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Volcano_eruption",
+        "Text": "火山　噴火（昼）"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_NecrogondShrine_ｆirst_visit": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_NecrogondShrine_ｆirst_visit",
+        "Text": "ネクロゴンドの祠「シルバーオーブ入手」"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Burg_third_visit": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Burg_third_visit",
+        "Text": "バーク　ロケーションカメラ・第三段階"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Burg_fourth_visit": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Burg_fourth_visit",
+        "Text": "バーク ロケーションカメラ・第四段階"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Burg_fifth_visit": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Burg_fifth_visit",
+        "Text": "バーク 獄中の商人"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Reiamuland_ｆirst_visit": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Reiamuland_ｆirst_visit",
+        "Text": "レイアムランド ロケーションカメラ（オーブ全種持ち）"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Aliahan_Lamia_get": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Aliahan_Lamia_get",
+        "Text": "ラーミアゲット"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Burg_sixth_visit": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Burg_sixth_visit",
+        "Text": "バーク ロケーションカメラ・第六段階・昼"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_GiagaPit_ｆirst_visit": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_GiagaPit_ｆirst_visit",
+        "Text": "ギアがの大穴　バラモス討伐前"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_HobbitShrine_ｆirst_visit": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_HobbitShrine_ｆirst_visit",
+        "Text": "ドワーフの祠　オルテガ回想"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_BaramosCastle_baramos_battle": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_BaramosCastle_baramos_battle",
+        "Text": "バラモス城「バラモス対峙～戦闘」"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Aliahan_return_pt": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Aliahan_return_pt",
+        "Text": "アリアハン「バラモス討伐凱旋3」パーティ"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Aliahan_return_solo": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Aliahan_return_solo",
+        "Text": "アリアハン「バラモス討伐凱旋3」ソロ"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Aliahan_return_home_night": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Aliahan_return_home_night",
+        "Text": "アリアハン「ゾーマ宣戦布告後、夜中に自宅」"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Aliahan_return_end": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Aliahan_return_end",
+        "Text": "アリアハン　竜の女王の城覚醒イベント確認後"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Aliahan_Ortegashelm_mother": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Aliahan_Ortegashelm_mother",
+        "Text": "アリアハン「オルテガの兜を見た母親の反応」"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_PiratesBase_leader_talk": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_PiratesBase_leader_talk",
+        "Text": "海賊のアジト　おかしらとの語らい"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Samanosa_simonsson_talk": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Samanosa_simonsson_talk",
+        "Text": "サマンオサ「サイモンの息子　手記"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_DragonQueen_ｆirst_visit": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_DragonQueen_ｆirst_visit",
+        "Text": "「竜の女王の城ロケーションカメラ昼」"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_GiagaPit_dark_clear": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_GiagaPit_dark_clear",
+        "Text": "ギアガの大穴　大穴の闇を払う"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_WestPort_ｆirst_visit": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_WestPort_ｆirst_visit",
+        "Text": "ラダトーム西の港　妖精の地図と船の入手"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Ludatorm_ｆirst_visit": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Ludatorm_ｆirst_visit",
+        "Text": "「ラダトームの街ロケーションカメラ夜」"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_GaraiHouse_harp_get": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_GaraiHouse_harp_get",
+        "Text": "ガライの家「ぎんのたてごと入手」"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Domdora_ｆirst_visit": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Domdora_ｆirst_visit",
+        "Text": "ドムドーラ「ロケーションカメラ」"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Mercado_ｆirst_visit": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Mercado_ｆirst_visit",
+        "Text": "メルキド「ロケーションカメラ」"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_SpiritShrine_raincane_get": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_SpiritShrine_raincane_get",
+        "Text": "精霊の祠「あまぐものつえ入手」妖精の笛なし"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_SpiritShrine_raincane_get_flute": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_SpiritShrine_raincane_get_flute",
+        "Text": "精霊の祠「あまぐものつえ入手」妖精の笛あり"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Rimuldar_ｆirst_visit": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Rimuldar_ｆirst_visit",
+        "Text": "リムルダール「ロケーションカメラ」"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Myra_ｆirst_visit": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Myra_ｆirst_visit",
+        "Text": "マイラ「ロケーションカメラ」"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Myra_kings_sword_get": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Myra_kings_sword_get",
+        "Text": "マイラ「よみがえる王者の剣」"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_RubissTower_baramosbr_battle": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_RubissTower_baramosbr_battle",
+        "Text": "ルビスの塔「バラモスブロス遭遇～戦闘」"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_RubissTower_dispel_rubiss": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_RubissTower_dispel_rubiss",
+        "Text": "ルビスの塔「ルビスの封印を解く」"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_SpawnCave_bluemetal_info": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_SpawnCave_bluemetal_info",
+        "Text": "沼地の洞窟「カンダタの子分C、D」"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Reeve_magicball_get2": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Reeve_magicball_get2",
+        "Text": "レーベ「ブルーメタル攻略中」"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Temp_01": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Temp_01",
+        "Text": "地球のへそ　青い鉱石"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_HobbitShrine_helm_of_light": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_HobbitShrine_helm_of_light",
+        "Text": "ドワーフの祠　光の兜"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_temp_02": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_temp_02",
+        "Text": "アッサラーム　まほうのビキニ"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_HolyShrine_rainbowdrop_get": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_HolyShrine_rainbowdrop_get",
+        "Text": "聖なる祠「虹のしずく入手」"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_ZomaCastle_statue_battle": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_ZomaCastle_statue_battle",
+        "Text": "ゾーマ城　だいまじん戦"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_ZomaCastle_ortegaVShydra": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_ZomaCastle_ortegaVShydra",
+        "Text": "ゾーマ城　オルテガ対キングヒドラ1"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_ZomaCastle_ortegaVShydra_normalend": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_ZomaCastle_ortegaVShydra_normalend",
+        "Text": "ゾーマ城　オルテガ対キングヒドラ2"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_ZomaCastle_ortegaVShydra_trueend": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_ZomaCastle_ortegaVShydra_trueend",
+        "Text": "ゾーマ城　オルテガ対キングヒドラ3"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_ZomaCastle_hydra_battle": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_ZomaCastle_hydra_battle",
+        "Text": "ゾーマ城　ゾーマ対面～キングヒドラ戦"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Temp_03": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Temp_03",
+        "Text": "ゾーマ城 ゾーマ戦"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_HeroCave_ending": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_HeroCave_ending",
+        "Text": "勇者の洞窟 勇者の洞窟からの脱出1"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Ludatorm_ending_normal": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Ludatorm_ending_normal",
+        "Text": "ラダトーム「エンディング　凱旋」"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Ludatorm_ending_solo": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Ludatorm_ending_solo",
+        "Text": "ラダトーム「エンディング　凱旋」ソロ"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Ludatorm_ending_non_hero": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Ludatorm_ending_non_hero",
+        "Text": "ラダトーム「エンディング　凱旋」勇者不在"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Aliahan_Game_Clear": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Aliahan_Game_Clear",
+        "Text": "ゲームクリア状態　アリアハンスタート"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Zenis_ｆirst_visit": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Zenis_ｆirst_visit",
+        "Text": "ゼニスの城「ゼニス初謁見と行先登録」"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Aliahan_dragon_wish": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Aliahan_dragon_wish",
+        "Text": "神竜の願い全開放　アリアハンスタート"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Aliahan_ortega_eve1_normal": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Aliahan_ortega_eve1_normal",
+        "Text": "アリアハン「オルテガの復活・勇者存在　オルテガ死亡時光の兜なし"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Aliahan_ortega_eve1_ture": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Aliahan_ortega_eve1_ture",
+        "Text": "アリアハン「オルテガの復活・勇者存在　オルテガ死亡時光の兜あり"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Aliahan_ortega_eve2": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Aliahan_ortega_eve2",
+        "Text": "アリアハン「オルテガの復活・勇者存在　再訪　オルテガの兜未所持」"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Aliahan_ortega_eve3": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Aliahan_ortega_eve3",
+        "Text": "アリアハン「オルテガの復活・勇者存在　再訪　オルテガの兜所持」"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Aliahan_ortega_eve4": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_Aliahan_ortega_eve4",
+        "Text": "アリアハン「オルテガの復活・勇者存在　再訪　光の兜所持」"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_GranDragon_start": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_GranDragon_start",
+        "Text": "試練の神殿　グランドラゴーンの間が開いてない"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_GranDragon_end": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagDebugSetting_GranDragon_end",
+        "Text": "試練の神殿　グランドラゴーンの間が開いている"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagTest_FlagAllReset": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagTest_FlagAllReset",
+        "Text": "フラグを全てリセット"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagTest_FlagReset": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagTest_FlagReset",
+        "Text": "{0} を全てリセット"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagTest_FlagJuncture": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventFlagTest_FlagJuncture",
+        "Text": "*** {0} ***"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_EnableSequencerDebugFunction": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_EnableSequencerDebugFunction",
+        "Text": "【エディタ専用】シーケンサ開発機能有効化"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_PlayEventCutScene": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_PlayEventCutScene",
+        "Text": "イベントカットシーンの再生"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_PlaySequencerIndex": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_PlaySequencerIndex",
+        "Text": "シーケンサ再生インデックス"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_DispErrorReferenceBySequencer": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_DispErrorReferenceBySequencer",
+        "Text": "【ROM 専用】シーケンサ参照エラーダイアログ表示"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_JumpTest": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_JumpTest",
+        "Text": "ジャンプテスト"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_JumpTestEnd": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_JumpTestEnd",
+        "Text": "ジャンプテスト終了"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_JumpTestSecond": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_JumpTestSecond",
+        "Text": "ジャンプテスト秒数"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_JumpTestHeight": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_JumpTestHeight",
+        "Text": "ジャンプテスト高さ"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_RemiramaTest": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_RemiramaTest",
+        "Text": "レミラーマチェック"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_PlayRemiramaEffect": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_PlayRemiramaEffect",
+        "Text": "レミラーマ演出再生"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_InpasuCheck": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_InpasuCheck",
+        "Text": "インパスチェック"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_PlayInpasuEffect": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_PlayInpasuEffect",
+        "Text": "インパス演出再生"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_EndInpasuEffect": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_EndInpasuEffect",
+        "Text": "インパス演出終了"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_TouzokunohanaCheck": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_TouzokunohanaCheck",
+        "Text": "とうぞくのはな数チェック"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_TouzokunohanaAssumptionFieldFlag": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_TouzokunohanaAssumptionFieldFlag",
+        "Text": "とうぞくのはなフィールド想定フラグ"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_ManpuDispPosForDebugParam": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_ManpuDispPosForDebugParam",
+        "Text": "漫符表示位置をデバッグ用パラメータに"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_ManpuDebugDispPos": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_ManpuDebugDispPos",
+        "Text": "漫符デバッグ表示位置"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_EnableDebugManpuScale": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_EnableDebugManpuScale",
+        "Text": "漫符スケール基準値をデバッグ値に変更"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_DebugManpuBaseScale": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_DebugManpuBaseScale",
+        "Text": "漫符デバッグスケール基準値"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_SelectPlayManpu": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_SelectPlayManpu",
+        "Text": "再生する漫符選択"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_PlayManpu": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_PlayManpu",
+        "Text": "漫符再生"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_StopManpuLoop": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_StopManpuLoop",
+        "Text": "ループ漫符停止"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_RetryRockPazzule": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_RetryRockPazzule",
+        "Text": "岩パズルリトライ(パズルエリア内のみ有効)"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_IsValidDebugRateByEventFastForward": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_IsValidDebugRateByEventFastForward",
+        "Text": "早送りデバッグ再生レート有効化"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_EventFastForwardDebugRate": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventTestOther_EventFastForwardDebugRate",
+        "Text": "早送りデバッグ再生レート"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_AddKillCountToTargetMonster_AddKillCount": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_AddKillCountToTargetMonster_AddKillCount",
+        "Text": "指定したモンスターの倒した数を加算"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_AddKillCountToTargetMonster_NumberToBeAdded": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_AddKillCountToTargetMonster_NumberToBeAdded",
+        "Text": "加算する倒した数"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_CallEnding_FromStaffRoll": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_CallEnding_FromStaffRoll",
+        "Text": "スタッフロールから"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_CallEnding_FromHargonEvent": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_CallEnding_FromHargonEvent",
+        "Text": "ハーゴンイベントから"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_CallEnding_FromClearSave": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_CallEnding_FromClearSave",
+        "Text": "クリアセーブ画面から"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_CallEnding_DebugDispByStaffRoll": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_CallEnding_DebugDispByStaffRoll",
+        "Text": "スタッフロール: デバッグ情報表示"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_ChangeRecordCount_DecideChangeRecordCount": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_ChangeRecordCount_DecideChangeRecordCount",
+        "Text": "設定した値をチェックしている時だけ加算する"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventControlUITest_EventSkip": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventControlUITest_EventSkip",
+        "Text": "イベントスキップ"
+      },
+      "Txt_DebugMenu_DebugMenu_ResearchMode_EventControlUITest_EventForward": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_ResearchMode_EventControlUITest_EventForward",
+        "Text": "イベント早送り"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_CameraTest": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_CameraTest",
+        "Text": "カメラテスト"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_Weapon": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_Weapon",
+        "Text": "武器"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_CharacterLooks": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_CharacterLooks",
+        "Text": "キャラ見た目"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_AddMonster": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_AddMonster",
+        "Text": "モンスター追加"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_AddPlayer": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_AddPlayer",
+        "Text": "プレイヤー追加"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_DeleteMonster": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_DeleteMonster",
+        "Text": "モンスター削除"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_DeletePlayer": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_DeletePlayer",
+        "Text": "プレイヤー削除"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_ChangePlayer": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_ChangePlayer",
+        "Text": "プレイヤー差し替え"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_ChangeAnimation": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_ChangeAnimation",
+        "Text": "アニメーション変更"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_MonsterOffset": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_MonsterOffset",
+        "Text": "モンスターオフセット"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_Effect": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_Effect",
+        "Text": "エフェクト"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_ToProgrammer": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_ToProgrammer",
+        "Text": "プログラマ用"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting",
+        "Text": "戦闘設定"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_ChangeStatusEffect": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_ChangeStatusEffect",
+        "Text": "状態変化"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_ChangeStatusEffectClear": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_ChangeStatusEffectClear",
+        "Text": "状態変化解除"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_ChangeHP": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_ChangeHP",
+        "Text": "HP変更"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_ChangeMP": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_ChangeMP",
+        "Text": "MP変更"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_EncountGroup": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_EncountGroup",
+        "Text": "エンカウント（ｸﾞﾙｰﾌﾟ指定）"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_Encount": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_Encount",
+        "Text": "エンカウント"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_EventBattle": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_EventBattle",
+        "Text": "イベント戦闘"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleRoad": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleRoad",
+        "Text": "バトルロード"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_Common_StartPreloadByCurrentSetting": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_Common_StartPreloadByCurrentSetting",
+        "Text": "現在設定で事前ロード開始"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_Common_BattleStart": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_Common_BattleStart",
+        "Text": "■■■ 戦闘開始 ■■■"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_CameraTest_ChangeCamera": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_CameraTest_ChangeCamera",
+        "Text": "カメラ切替"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_CameraTest_ChangeCameraNormal": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_CameraTest_ChangeCameraNormal",
+        "Text": "カメラ切替：通常"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_CameraTest_ChangeCameraDoragoramu": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_CameraTest_ChangeCameraDoragoramu",
+        "Text": "カメラ切替：ドラゴラム"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_CameraTest_CameraShake": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_CameraTest_CameraShake",
+        "Text": "カメラシェイク"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_CameraTest_PartyNum": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_CameraTest_PartyNum",
+        "Text": "パーティ人数"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_CameraTest_AffectSetting": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_CameraTest_AffectSetting",
+        "Text": "設定反映"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_CameraTest_AffectSettingDoragoramu": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_CameraTest_AffectSettingDoragoramu",
+        "Text": "設定反映(ﾄﾞﾗｺﾞﾗﾑ)"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_CameraTest_ChangeFreeCamera": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_CameraTest_ChangeFreeCamera",
+        "Text": "フリーカメラ切替"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_CameraTest_ReloadCameraSetting": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_CameraTest_ReloadCameraSetting",
+        "Text": "カメラ設定リロード"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_CameraTest_SaveCameraSetting": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_CameraTest_SaveCameraSetting",
+        "Text": "カメラ設定保存[エディタのみ]"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_CameraTest_SwitchDebugDisp": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_CameraTest_SwitchDebugDisp",
+        "Text": "デバッグ表示/非表示"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_CameraTest_ChangeBillboard": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_CameraTest_ChangeBillboard",
+        "Text": "ビルボード切替"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_CameraTest_LookToBillboard": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_CameraTest_LookToBillboard",
+        "Text": "ビルボード対象を向く"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_CameraTest_ChangeBattleUI": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_CameraTest_ChangeBattleUI",
+        "Text": "バトルUI切替"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_CameraTest_LookToBillboard_ToOriginPos": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_CameraTest_LookToBillboard_ToOriginPos",
+        "Text": "原点に向ける"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_CameraTest_LookToBillboard_ToCamera": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_CameraTest_LookToBillboard_ToCamera",
+        "Text": "カメラに向ける"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_CameraTest_LookToBillboard_BillboardOff": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_CameraTest_LookToBillboard_BillboardOff",
+        "Text": "ビルボードOFF"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_CameraTest_LookToBillboard_BillboardOn": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_CameraTest_LookToBillboard_BillboardOn",
+        "Text": "ビルボードON"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_ChangeWeaponStyle": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_ChangeWeaponStyle",
+        "Text": "武器構え変更"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_ChangeTarget": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_ChangeTarget",
+        "Text": "変更対象"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_AffectStyleGop": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_AffectStyleGop",
+        "Text": "構えGOPから反映"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_AffectStyleGopSword": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_AffectStyleGopSword",
+        "Text": "構えGOPから反映（剣）"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_AffectStyleGopAxe": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_AffectStyleGopAxe",
+        "Text": "構えGOPから反映（斧）"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_AffectStyleGopSpear": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_AffectStyleGopSpear",
+        "Text": "構えGOPから反映（槍）"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_AffectStyleGopDagger": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_AffectStyleGopDagger",
+        "Text": "構えGOPから反映（短剣）"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_AffectStyleGopClaw": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_AffectStyleGopClaw",
+        "Text": "構えGOPから反映（爪）"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_AffectStyleGopStaff": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_AffectStyleGopStaff",
+        "Text": "構えGOPから反映（杖）"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_AffectStyleGopWhip": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_AffectStyleGopWhip",
+        "Text": "構えGOPから反映（鞭）"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_AffectStyleGopBoomerang": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_AffectStyleGopBoomerang",
+        "Text": "構えGOPから反映（ブーメラン）"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_AffectStyleGopHammer": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_AffectStyleGopHammer",
+        "Text": "構えGOPから反映（ハンマー）"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_DispWeapon": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_DispWeapon",
+        "Text": "表示武器"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_WaitAnimIndex": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_WaitAnimIndex",
+        "Text": "待機アニメ番号"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_WeaponAngleInteger": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_WeaponAngleInteger",
+        "Text": "武器角度(整数部)"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_WeaponAngleDecimal": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_WeaponAngleDecimal",
+        "Text": "武器角度(小数部)*0.1"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_ReverseWeapon": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_ReverseWeapon",
+        "Text": "武器反転"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_WeaponScaleDecimalFirst": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_WeaponScaleDecimalFirst",
+        "Text": "武器ｽｹｰﾙ(小数第一位)"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_WeaponScaleDecimalSecond": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_WeaponScaleDecimalSecond",
+        "Text": "武器ｽｹｰﾙ(小数第二位)"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_Suffix": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_Suffix",
+        "Text": "ｻﾌｨｯｸｽ(0:無,1:_A,2:_B,...)"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_AffectWeaponStyle": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_AffectWeaponStyle",
+        "Text": "武器構え反映"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_HideWeapon": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_Weapon_HideWeapon",
+        "Text": "武器非表示"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_CharacterLooks_VanishBlink": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_CharacterLooks_VanishBlink",
+        "Text": "消える点滅"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_CharacterLooks_CharacterBlink": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_CharacterLooks_CharacterBlink",
+        "Text": "キャラ点滅（デフォルト値）"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_CharacterLooks_BlinkSpeedRate": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_CharacterLooks_BlinkSpeedRate",
+        "Text": "点滅速度×0.1"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_CharacterLooks_BlinkMax": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_CharacterLooks_BlinkMax",
+        "Text": "点滅最大×0.1"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_CharacterLooks_BlinkMin": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_CharacterLooks_BlinkMin",
+        "Text": "点滅最小×0.1"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_CharacterLooks_BlinkColor": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_CharacterLooks_BlinkColor",
+        "Text": "点滅色×0.01"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_CharacterLooks_AstoronMaterial": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_CharacterLooks_AstoronMaterial",
+        "Text": "アストロンマテリアル"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_MonsterOffset_ToCameraOffsetMulti100": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_MonsterOffset_ToCameraOffsetMulti100",
+        "Text": "カメラ方向へのオフセット値×100"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_DeleteMonster_DeleteAllMonster": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_DeleteMonster_DeleteAllMonster",
+        "Text": "モンスター全員削除"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_DeletePlayer_DeleteAllPlayer": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_DeletePlayer_DeleteAllPlayer",
+        "Text": "プレイヤー全員削除"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_ChangeAnimation_AllMonster": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_ChangeAnimation_AllMonster",
+        "Text": "モンスター全員"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_ChangeAnimation_AllPlayer": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_ChangeAnimation_AllPlayer",
+        "Text": "プレイヤー全員"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_ChangeAnimation_Loop": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_ChangeAnimation_Loop",
+        "Text": "ループ"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_ChangeAnimation_AllPlayBattleRelevance": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_ChangeAnimation_AllPlayBattleRelevance",
+        "Text": "バトル関連全再生"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_ChangeAnimation_AllPlayBattleRelevanceWithAct": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_ChangeAnimation_AllPlayBattleRelevanceWithAct",
+        "Text": "バトル関連全再生(Act込み)"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_Effect_LoopInterval": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_Effect_LoopInterval",
+        "Text": "繰り返し間隔"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_Effect_EffectScaleMulti0_1": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_Effect_EffectScaleMulti0_1",
+        "Text": "エフェクトスケール(×0.1)"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_Effect_PlayPosType": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_Effect_PlayPosType",
+        "Text": "再生位置タイプ"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_Effect_SingleTargetIndex": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_Effect_SingleTargetIndex",
+        "Text": "単体対象番号"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_Effect_SingleTargetChoice": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_Effect_SingleTargetChoice",
+        "Text": "単体対象(0:味方 1:敵)"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_Effect_BallisticShootIndex": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_Effect_BallisticShootIndex",
+        "Text": "弾道発射番号"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_Effect_BallisticTargetIndex": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_Effect_BallisticTargetIndex",
+        "Text": "弾道対象番号"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_Effect_BallisticShootChoice": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_Effect_BallisticShootChoice",
+        "Text": "弾道発射(0:味方 1:敵)"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_Effect_BallisticTargetChoice": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_Effect_BallisticTargetChoice",
+        "Text": "弾道対象(0:味方 1:敵)"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_Effect_PlaySingle": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_Effect_PlaySingle",
+        "Text": "単体再生"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_Effect_PlayAll": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_Effect_PlayAll",
+        "Text": "全体再生"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_Effect_PlayBallistic": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_Effect_PlayBallistic",
+        "Text": "弾道再生"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_Effect_PlayEdgeDisplay": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_Effect_PlayEdgeDisplay",
+        "Text": "画面端端再生"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_Effect_PlayGopSetting": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_Effect_PlayGopSetting",
+        "Text": "GOP設定で再生"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_ToProgrammer_PlayScript": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_ToProgrammer_PlayScript",
+        "Text": "スクリプト再生"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_ToProgrammer_CheckStatus": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_ToProgrammer_CheckStatus",
+        "Text": "ステータス確認"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_ToProgrammer_FixRandomDebug": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_ToProgrammer_FixRandomDebug",
+        "Text": "乱数固定デバッグ"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_ToProgrammer_ScoutCount": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_ToProgrammer_ScoutCount",
+        "Text": "スカウト数"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_ToProgrammer_EnableFixRandom": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_ToProgrammer_EnableFixRandom",
+        "Text": "固定乱数有効"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_ToProgrammer_FixRandom": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_ToProgrammer_FixRandom",
+        "Text": "固定乱数"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_ChangeStatusEffect_EffectIs": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_ChangeStatusEffect_EffectIs",
+        "Text": "効果:"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_ChangeStatusEffect_AddActionIs": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_ChangeStatusEffect_AddActionIs",
+        "Text": "付与行動:"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_BattleSpeedRate1_0": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_BattleSpeedRate1_0",
+        "Text": "戦闘スピード×0.1"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_BattleSpeedSetting": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_BattleSpeedSetting",
+        "Text": "戦闘スピード設定:"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_AlwaysSccessEscape": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_AlwaysSccessEscape",
+        "Text": "[保存] 必ずにげる成功"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_AvoideMagicFriend": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_AvoideMagicFriend",
+        "Text": "[保存] 必ず属性判定回避(味方)"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_AvoideMagicEnemy": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_AvoideMagicEnemy",
+        "Text": "[保存] 必ず属性判定回避(敵)"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_CantAvoideMagicFriend": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_CantAvoideMagicFriend",
+        "Text": "[保存] 必ず属性判定命中(味方)"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_CantAvoideMagicEnemy": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_CantAvoideMagicEnemy",
+        "Text": "[保存] 必ず属性判定命中(敵)"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_AlwaysAttackMissFriend": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_AlwaysAttackMissFriend",
+        "Text": "[保存] 必ず物理ミス発生(味方)"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_AlwaysAttackMissEnemy": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_AlwaysAttackMissEnemy",
+        "Text": "[保存] 必ず物理ミス発生(敵)"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_AlwaysAvoidAttackFriend": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_AlwaysAvoidAttackFriend",
+        "Text": "[保存] 必ず物理回避成功(味方)"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_AlwaysAvoidAttackEnemy": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_AlwaysAvoidAttackEnemy",
+        "Text": "[保存] 必ず物理回避成功(敵)"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_AlwaysCriticalFriend": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_AlwaysCriticalFriend",
+        "Text": "[保存] 必ずかいしん(味方)"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_AlwaysCriticalEnemy": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_AlwaysCriticalEnemy",
+        "Text": "[保存] 必ずつうこん(敵)"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_NoDamageFriend": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_NoDamageFriend",
+        "Text": "[保存] 味方ダメージ受けない"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_NoDamageEnemy": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_NoDamageEnemy",
+        "Text": "[保存] 敵ダメージ受けない"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_NoDeadFriend": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_NoDeadFriend",
+        "Text": "[保存] 味方死なない"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_NoDeadEnemy": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_NoDeadEnemy",
+        "Text": "[保存] 敵死なない"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_DamageMaxFriend": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_DamageMaxFriend",
+        "Text": "[保存] 味方威力最大"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_DamageMaxEnemy": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_DamageMaxEnemy",
+        "Text": "[保存] 敵威力最大"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_AlwaysHitOneShotKill": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_AlwaysHitOneShotKill",
+        "Text": "[保存] 必ず即死攻撃成功"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_DamageRandMin": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_DamageRandMin",
+        "Text": "[保存] ダメージ乱数最小"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_DamageRandMax": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_DamageRandMax",
+        "Text": "[保存] ダメージ乱数最大"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_FastestActionFriend": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_FastestActionFriend",
+        "Text": "[保存] 味方最速行動"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_AlwaysDropItem": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_AlwaysDropItem",
+        "Text": "[保存] 必ずアイテムドロップ"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_AlwaysStealThief": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_AlwaysStealThief",
+        "Text": "[保存] 必ずとうぞく盗む"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_AlwaysMerchantGold": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_AlwaysMerchantGold",
+        "Text": "[保存] 必ずしょうにん金"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_AlwaysPlayGadabout": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_AlwaysPlayGadabout",
+        "Text": "[保存] 必ずあそびにん遊ぶ"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_PermanenceDoragoramu": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_PermanenceDoragoramu",
+        "Text": "[保存] 永続ドラゴラム"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_PermanenceConfusion": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_PermanenceConfusion",
+        "Text": "[保存] 永続混乱"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_StatusEffectWith100Turn": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_StatusEffectWith100Turn",
+        "Text": "[保存] 状態異常+100ターン"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_ConsumeMP0": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_ConsumeMP0",
+        "Text": "[保存] 消費MP0"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_MaxMP": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_MaxMP",
+        "Text": "[保存] MP最大"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_MaxMPEnemy": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_MaxMPEnemy",
+        "Text": "[保存] MP最大敵"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_CanUseAllMagic": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_CanUseAllMagic",
+        "Text": "[保存] 全呪文使用可能"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_AlwaysPreemptFriend": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_AlwaysPreemptFriend",
+        "Text": "[保存] 必ず先制(味方)"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_AlwaysPreemptEnemy": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_AlwaysPreemptEnemy",
+        "Text": "[保存] 必ず先制(敵)"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_AllHealAfterBattle": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_AllHealAfterBattle",
+        "Text": "[保存] 戦闘後全回復"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_MaxExp": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_MaxExp",
+        "Text": "[保存] 入手経験値最大"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_MaxGold": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_MaxGold",
+        "Text": "[保存] 入手ゴールド最大"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_OtherRental": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_OtherRental",
+        "Text": "[保存] 勇者と1,3人目以外借り物"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_DisableParryEnemy": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_DisableParryEnemy",
+        "Text": "[保存] うけながし敵 無効"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_DisableParryFriend": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_DisableParryFriend",
+        "Text": "[保存] うけながし味方 無効"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_AlwaysSuccessParry": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_AlwaysSuccessParry",
+        "Text": "[保存] うけながし失敗しない"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_Ordeal_A": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_Ordeal_A",
+        "Text": "[保存] 試練の神殿A デバフ有効"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_Ordeal_B": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_Ordeal_B",
+        "Text": "[保存] 試練の神殿B デバフ有効"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_EnableSelectActionDebug": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_EnableSelectActionDebug",
+        "Text": "[保存] 行動指定デバッグ有効化"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_SelectActionDebug": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_SelectActionDebug",
+        "Text": "-> デバッグ行動指定"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_ActionDebugPattern": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_ActionDebugPattern",
+        "Text": "-> デバッグ行動パターン (Luaで詳細指定)"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_SelectParupunte": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_SelectParupunte",
+        "Text": "[保存] パルプンテ指定"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_ForceWriteAIActionListId": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_ForceWriteAIActionListId",
+        "Text": "[保存] AI ActionListId強制上書き(次戦闘から)"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_SelectDebugActionListId": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_SelectDebugActionListId",
+        "Text": "-> デバッグActionListId指定"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_EnableSelectPlayDebug": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_EnableSelectPlayDebug",
+        "Text": "[保存] あそび指定デバッグ有効化"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_SelectPlayDebug": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_SelectPlayDebug",
+        "Text": "-> あそび行動指定"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_EnableStatusDisp": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_EnableStatusDisp",
+        "Text": "[保存] ステータス表示を有効化"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_DebugExportLog": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_DebugExportLog",
+        "Text": "[保存] バトルログ出力を有効化"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_EncountStepDisp": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleSetting_EncountStepDisp",
+        "Text": "[保存] エンカウント情報表示を有効化"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_EncountGroup_EncountGroup": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_EncountGroup_EncountGroup",
+        "Text": "ｴﾝｶｳﾝﾄｸﾞﾙｰﾌﾟ:"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_EncountGroup_SelectEncountMonster": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_EncountGroup_SelectEncountMonster",
+        "Text": "エンカウントモンスター選択"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_EncountGroup_Monster": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_EncountGroup_Monster",
+        "Text": "モンスター"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_EncountGroup_AppearanceCount": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_EncountGroup_AppearanceCount",
+        "Text": "出現数"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_EncountGroup_Background": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_EncountGroup_Background",
+        "Text": "背景:"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_EncountGroup_MapTime": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_EncountGroup_MapTime",
+        "Text": "時間帯:"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_EncountGroup_Nothing": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_EncountGroup_Nothing",
+        "Text": "なし"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_EncountGroup_TakeTheInitiative": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_EncountGroup_TakeTheInitiative",
+        "Text": "先制する"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_EncountGroup_BePreempted": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_EncountGroup_BePreempted",
+        "Text": "先制される"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_EncountGroup_PreemptSetting": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_EncountGroup_PreemptSetting",
+        "Text": "先制設定"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_EventBattle_Event": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_EventBattle_Event",
+        "Text": "ｲﾍﾞﾝﾄ:"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleRoad_ChallengeRank": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleRoad_ChallengeRank",
+        "Text": "挑戦ランク:"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleRoad_BattleCount": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleRoad_BattleCount",
+        "Text": "試合数:"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleRoad_FriendSetting": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleRoad_FriendSetting",
+        "Text": "仲間編成"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleRoad_ClearUnitDataWithBattleStart": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleRoad_ClearUnitDataWithBattleStart",
+        "Text": "開始時にUnitDataをクリアする"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleRoad_DumpCurrentUnitData": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleRoad_DumpCurrentUnitData",
+        "Text": "現在のUnitDataのダンプ"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleRoad_BattleStart": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleRoad_BattleStart",
+        "Text": "--試合開始--"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleRoad_TargetSpecy": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleRoad_TargetSpecy",
+        "Text": "体目:"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleRoad_TargetCount": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleRoad_TargetCount",
+        "Text": "体目種族値:"
+      },
+      "Txt_DebugMenu_DebugMenu_BattleMode_BattleRoad_ResetParty": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_BattleMode_BattleRoad_ResetParty",
+        "Text": "編成リセット"
+      },
+      "Txt_DebugMenu_DebugMenu_FieldMode_TestUIDispChange": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_FieldMode_TestUIDispChange",
+        "Text": "テストUI表示切替"
+      },
+      "Txt_DebugMenu_DebugMenu_FieldMode_LandingPointDispChange": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_FieldMode_LandingPointDispChange",
+        "Text": "着地地点表示切替"
+      },
+      "Txt_DebugMenu_DebugMenu_FieldMode_UnloadingPointDispChange": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_FieldMode_UnloadingPointDispChange",
+        "Text": "上陸地点表示切替"
+      },
+      "Txt_DebugMenu_DebugMenu_FieldMode_WalkSpeedRate10": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_FieldMode_WalkSpeedRate10",
+        "Text": "歩き速度(×10)"
+      },
+      "Txt_DebugMenu_DebugMenu_FieldMode_DashSpeedRate10": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_FieldMode_DashSpeedRate10",
+        "Text": "ダッシュ速度(×10)"
+      },
+      "Txt_DebugMenu_DebugMenu_FieldMode_AscendingAHillPermitAngle": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_FieldMode_AscendingAHillPermitAngle",
+        "Text": "登坂可能角度"
+      },
+      "Txt_DebugMenu_DebugMenu_FieldMode_DisableGravity": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_FieldMode_DisableGravity",
+        "Text": "重力無効"
+      },
+      "Txt_DebugMenu_DebugMenu_FieldMode_EnableTerrainJudge": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_FieldMode_EnableTerrainJudge",
+        "Text": "地形判定有効"
+      },
+      "Txt_DebugMenu_DebugMenu_FieldMode_ConsoleVariableSetting": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_FieldMode_ConsoleVariableSetting",
+        "Text": "コンソール変数設定"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_OutputLogCurrentTime": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_OutputLogCurrentTime",
+        "Text": "現在時刻をログ出力"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_OutputLogCurrentMapInfo": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_OutputLogCurrentMapInfo",
+        "Text": "現在のマップ情報をログ出力"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_OutputLogAllHavingItem": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_OutputLogAllHavingItem",
+        "Text": "全所持アイテムログ出力"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_AddItemSingle": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_AddItemSingle",
+        "Text": "個別アイテム追加"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_AddItemAll": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_AddItemAll",
+        "Text": "全アイテム追加"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_AllRecovery": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_AllRecovery",
+        "Text": "全員全回復"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_DispPartyMemberStatus": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_DispPartyMemberStatus",
+        "Text": "パーティメンバーステータス表示"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_LoadSuspensionSaveData": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_LoadSuspensionSaveData",
+        "Text": "中断セーブをロード"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_SaveSuspensionSaveData": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_SaveSuspensionSaveData",
+        "Text": "中断セーブ"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_AddAllPartyExp": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_AddAllPartyExp",
+        "Text": "パーティメンバー全員に経験値追加"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_FieldItemUseTest": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_FieldItemUseTest",
+        "Text": "フィールドアイテム使用テスト"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_FieldMagicSkillTest": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_FieldMagicSkillTest",
+        "Text": "フィールド呪文・特技テスト"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_Add1000Gold": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_Add1000Gold",
+        "Text": "1000ゴールド加算"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_StatusEffectTest": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_StatusEffectTest",
+        "Text": "ステータス異常テスト"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_ReleaseTeleportList": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_ReleaseTeleportList",
+        "Text": "ルーラ行き先全開放"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_CharacterMakeTest": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_CharacterMakeTest",
+        "Text": "キャラメイクテスト"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_AddSmallMedal": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_AddSmallMedal",
+        "Text": "小さなメダル追加"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_LearningAllMagicSkill": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_LearningAllMagicSkill",
+        "Text": "全じゅもん・とくぎ習得"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_ControlHPMP": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_ControlHPMP",
+        "Text": "HP/MP増減"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_ChangeParty": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_ChangeParty",
+        "Text": "パーティ変更"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_SelectTransformTarget": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_SelectTransformTarget",
+        "Text": "へんげのつえ変化先"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_SkillSetting": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_SkillSetting",
+        "Text": "じゅもん・とくぎ設定"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_PersonalitySetting": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_PersonalitySetting",
+        "Text": "性格設定"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_RentalCharacterTest": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_RentalCharacterTest",
+        "Text": "貸し出しキャラテスト"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_MemoryTest": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_MemoryTest",
+        "Text": "おもいでテスト"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_BattleRoad": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_BattleRoad",
+        "Text": "バトルロード関連"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_AffectHeroInitParam": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_AffectHeroInitParam",
+        "Text": "勇者初期パラメータ反映"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_AddItemSingle_ItemBag_ConsumeItem": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_AddItemSingle_ItemBag_ConsumeItem",
+        "Text": "消費アイテム"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_AddItemSingle_ItemBag_Book": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_AddItemSingle_ItemBag_Book",
+        "Text": "本"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_AddItemSingle_EquipBag_Accessory": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_AddItemSingle_EquipBag_Accessory",
+        "Text": "アクセサリー"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_AddAllPartyExp_Add10": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_AddAllPartyExp_Add10",
+        "Text": "10"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_AddAllPartyExp_Add100": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_AddAllPartyExp_Add100",
+        "Text": "100"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_AddAllPartyExp_Add1000": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_AddAllPartyExp_Add1000",
+        "Text": "1000"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_AddAllPartyExp_Add10000": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_AddAllPartyExp_Add10000",
+        "Text": "10000"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_AddAllPartyExp_Add100000": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_AddAllPartyExp_Add100000",
+        "Text": "100000"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_AddAllPartyExp_Add1000000": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_AddAllPartyExp_Add1000000",
+        "Text": "1000000"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_AddAllPartyExp_FrontLevelUp": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_AddAllPartyExp_FrontLevelUp",
+        "Text": "レベルアップ直前まで"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_StatusEffectTest_AddStatusEffect": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_StatusEffectTest_AddStatusEffect",
+        "Text": "状態異常付与"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_StatusEffectTest_RemoveStatusEffect": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_StatusEffectTest_RemoveStatusEffect",
+        "Text": "状態異常解除"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_StatusEffectTest_StatusEffect_Dead": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_StatusEffectTest_StatusEffect_Dead",
+        "Text": "DEAD"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_StatusEffectTest_StatusEffect_Poison": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_StatusEffectTest_StatusEffect_Poison",
+        "Text": "POISON"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_StatusEffectTest_StatusEffect_Paralyze": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_StatusEffectTest_StatusEffect_Paralyze",
+        "Text": "PARALYZE"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_StatusEffectTest_StatusEffect_Curse": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_StatusEffectTest_StatusEffect_Curse",
+        "Text": "CURSE"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_StatusEffectTest_StatusEffect_Confusion": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_StatusEffectTest_StatusEffect_Confusion",
+        "Text": "CONFUSION"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_StatusEffectTest_StatusEffect_Mahoton": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_StatusEffectTest_StatusEffect_Mahoton",
+        "Text": "MAHOTON"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_StatusEffectTest_StatusEffect_Mahokanta": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_StatusEffectTest_StatusEffect_Mahokanta",
+        "Text": "MAHOKANTA"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_StatusEffectTest_StatusEffect_Asutoron": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_StatusEffectTest_StatusEffect_Asutoron",
+        "Text": "ASUTORON"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_StatusEffectTest_StatusEffect_Moshasu": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_StatusEffectTest_StatusEffect_Moshasu",
+        "Text": "MOSHASU"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_StatusEffectTest_StatusEffect_Doragoramu": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_StatusEffectTest_StatusEffect_Doragoramu",
+        "Text": "DORAGORAMU"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_StatusEffectTest_StatusEffect_Manusa": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_StatusEffectTest_StatusEffect_Manusa",
+        "Text": "MANUSA"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_StatusEffectTest_StatusEffect_Fubaha": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_StatusEffectTest_StatusEffect_Fubaha",
+        "Text": "FUBAHA"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_StatusEffectTest_StatusEffect_Baikiruto": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_StatusEffectTest_StatusEffect_Baikiruto",
+        "Text": "BAIKIRUTO"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_StatusEffectTest_StatusEffect_AllKaisi": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_StatusEffectTest_StatusEffect_AllKaisi",
+        "Text": "ALL_KAISI"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_StatusEffectTest_StatusEffect_TimeStop": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_StatusEffectTest_StatusEffect_TimeStop",
+        "Text": "TIME_STOP"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_StatusEffectTest_StatusEffect_Sleep": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_StatusEffectTest_StatusEffect_Sleep",
+        "Text": "SLEEP"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_CharacterMakeTest_Gender": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_CharacterMakeTest_Gender",
+        "Text": "性別"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_CharacterMakeTest_SelectSeed": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_CharacterMakeTest_SelectSeed",
+        "Text": "種割り振り"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_CharacterMakeTest_Hair": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_CharacterMakeTest_Hair",
+        "Text": "髪色"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_CharacterMakeTest_Voice": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_CharacterMakeTest_Voice",
+        "Text": "ボイス"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_CharacterMakeTest_CreateCharacter": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_CharacterMakeTest_CreateCharacter",
+        "Text": "キャラクター作成（ルイーダに追加）"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_CharacterMakeTest_Gender_Male": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_CharacterMakeTest_Gender_Male",
+        "Text": "男"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_CharacterMakeTest_Gender_Female": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_CharacterMakeTest_Gender_Female",
+        "Text": "女"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_CharacterMakeTest_SelectSeed_Random": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_CharacterMakeTest_SelectSeed_Random",
+        "Text": "ランダム"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_CharacterMakeTest_SelectSeed_AllSTR": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_CharacterMakeTest_SelectSeed_AllSTR",
+        "Text": "全ちからのたね"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_CharacterMakeTest_SelectSeed_AllARM": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_CharacterMakeTest_SelectSeed_AllARM",
+        "Text": "全まもりのたね"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_CharacterMakeTest_SelectSeed_AllAGI": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_CharacterMakeTest_SelectSeed_AllAGI",
+        "Text": "全すばやさのたね"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_CharacterMakeTest_SelectSeed_AllVIT": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_CharacterMakeTest_SelectSeed_AllVIT",
+        "Text": "全スタミナのたね"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_CharacterMakeTest_SelectSeed_AllINT": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_CharacterMakeTest_SelectSeed_AllINT",
+        "Text": "全かしこさのたね"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_CharacterMakeTest_SelectSeed_AllLUC": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_CharacterMakeTest_SelectSeed_AllLUC",
+        "Text": "全ラックのたね"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_AddSmallMedal_Add1": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_AddSmallMedal_Add1",
+        "Text": "1"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_AddSmallMedal_Add5": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_AddSmallMedal_Add5",
+        "Text": "5"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_AddSmallMedal_Add10": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_AddSmallMedal_Add10",
+        "Text": "10"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_AddSmallMedal_Add100": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_AddSmallMedal_Add100",
+        "Text": "100"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_ControlHPMP_HP": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_ControlHPMP_HP",
+        "Text": "HP"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_ControlHPMP_MP": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_ControlHPMP_MP",
+        "Text": "MP"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_ControlHPMP_SetHP1": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_ControlHPMP_SetHP1",
+        "Text": "HP1にする"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_ControlHPMP_SetMP1": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_ControlHPMP_SetMP1",
+        "Text": "MP1にする"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_ControlHPMP_Minus999": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_ControlHPMP_Minus999",
+        "Text": "-999"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_ControlHPMP_Minus500": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_ControlHPMP_Minus500",
+        "Text": "-500"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_ControlHPMP_Minus100": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_ControlHPMP_Minus100",
+        "Text": "-100"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_ControlHPMP_Minus50": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_ControlHPMP_Minus50",
+        "Text": "-50"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_ControlHPMP_Minus10": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_ControlHPMP_Minus10",
+        "Text": "-10"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_ControlHPMP_Minus5": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_ControlHPMP_Minus5",
+        "Text": "-5"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_ControlHPMP_Minus1": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_ControlHPMP_Minus1",
+        "Text": "-1"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_ControlHPMP_Add1": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_ControlHPMP_Add1",
+        "Text": "+1"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_ControlHPMP_Add5": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_ControlHPMP_Add5",
+        "Text": "+5"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_ControlHPMP_Add10": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_ControlHPMP_Add10",
+        "Text": "+10"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_ControlHPMP_Add50": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_ControlHPMP_Add50",
+        "Text": "+50"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_ControlHPMP_Add100": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_ControlHPMP_Add100",
+        "Text": "+100"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_ControlHPMP_Add500": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_ControlHPMP_Add500",
+        "Text": "+500"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_ControlHPMP_Add999": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_ControlHPMP_Add999",
+        "Text": "+999"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_ChangeParty_MovePartyToBar": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_ChangeParty_MovePartyToBar",
+        "Text": "パーティを酒場へ移動"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_ChangeParty_MoveBarToParty": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_ChangeParty_MoveBarToParty",
+        "Text": "酒場からパーティへ移動"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_ChangeParty_DeleteFromBar": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_ChangeParty_DeleteFromBar",
+        "Text": "酒場から指定キャラ削除"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_RentalCharacterTest_Register": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_RentalCharacterTest_Register",
+        "Text": "仲間を助ける"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_RentalCharacterTest_Borrow": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_RentalCharacterTest_Borrow",
+        "Text": "助けを呼ぶ"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_RentalCharacterTest_Unregister": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_RentalCharacterTest_Unregister",
+        "Text": "貸し出し登録削除"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_RentalCharacterTest_Delete": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_RentalCharacterTest_Delete",
+        "Text": "レンタルキャラ削除"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_RentalCharacterTest_Unregistered": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_RentalCharacterTest_Unregistered",
+        "Text": "未登録"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_RentalCharacterTest_NotRental": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_RentalCharacterTest_NotRental",
+        "Text": "未レンタル"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_MemoryTest_Memorize": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_MemoryTest_Memorize",
+        "Text": "記憶する"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_MemoryTest_MemoryList": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_MemoryTest_MemoryList",
+        "Text": "おもいで一覧"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_MemoryTest_MemoryDelete": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_MemoryTest_MemoryDelete",
+        "Text": "おもいで削除"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_MemoryTest_StartCapture": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_MemoryTest_StartCapture",
+        "Text": "キャプチャ開始"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_MemoryTest_EnableCaptureForSwitch": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_MemoryTest_EnableCaptureForSwitch",
+        "Text": "Switchでキャプチャ有効化"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_MemoryTest_OutputTalkLog": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_MemoryTest_OutputTalkLog",
+        "Text": "セリフログ出力"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_MemoryTest_DispTexture": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_MemoryTest_DispTexture",
+        "Text": "テクスチャ表示"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_BattleRoad_ScoutMonster": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_BattleRoad_ScoutMonster",
+        "Text": "スカウトモンスター"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_BattleRoad_Rank": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_BattleRoad_Rank",
+        "Text": "ランク"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_BattleRoad_ScoutCountBySpecy": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_BattleRoad_ScoutCountBySpecy",
+        "Text": "種族ごとの勧誘数"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_BattleRoad_ScoutCountAddOneForAllSpecy": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_BattleRoad_ScoutCountAddOneForAllSpecy",
+        "Text": "全種族 勧誘数+1"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_BattleRoad_ScoutCountMaxForAllSpecy": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_BattleRoad_ScoutCountMaxForAllSpecy",
+        "Text": "全種族 勧誘数最大"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_BattleRoad_ScoutCountReset": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_BattleRoad_ScoutCountReset",
+        "Text": "勧誘数リセット"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_BattleRoad_ClearRankList": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_BattleRoad_ClearRankList",
+        "Text": "クリア済みランク一覧"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_BattleRoad_AddClearRank": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_BattleRoad_AddClearRank",
+        "Text": "クリア済みランクに１つ追加"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_BattleRoad_SetAllRankClear": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_BattleRoad_SetAllRankClear",
+        "Text": "全ランクをクリア済みにする"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_BattleRoad_SetAllRankNotClear": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_BattleRoad_SetAllRankNotClear",
+        "Text": "全ランクを未クリアに戻す"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_BattleRoad_ClearRankListNone": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_BattleRoad_ClearRankListNone",
+        "Text": "なし"
+      },
+      "Txt_DebugMenu_DebugMenu_GameDataDebug_Personality_Overwrite": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_GameDataDebug_Personality_Overwrite",
+        "Text": "上書きする性格"
+      },
+      "Txt_DebugMenu_DebugMenu_Looks_CharacterColor": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Looks_CharacterColor",
+        "Text": "キャラ色"
+      },
+      "Txt_DebugMenu_DebugMenu_Looks_CreateAndSort": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Looks_CreateAndSort",
+        "Text": "生成・整列"
+      },
+      "Txt_DebugMenu_DebugMenu_Looks_Color": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Looks_Color",
+        "Text": "色"
+      },
+      "Txt_DebugMenu_DebugMenu_Looks_NeighborInterval": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Looks_NeighborInterval",
+        "Text": "隣間隔"
+      },
+      "Txt_DebugMenu_DebugMenu_Looks_DepthInterval": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Looks_DepthInterval",
+        "Text": "奥間隔"
+      },
+      "Txt_DebugMenu_DebugMenu_Looks_Create": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Looks_Create",
+        "Text": "生成"
+      },
+      "Txt_DebugMenu_DebugMenu_Looks_CreateForBattle": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Looks_CreateForBattle",
+        "Text": "バトル用生成"
+      },
+      "Txt_DebugMenu_DebugMenu_Sound_Supervision": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Sound_Supervision",
+        "Text": "監修"
+      },
+      "Txt_DebugMenu_DebugMenu_Sound_SoundTest": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Sound_SoundTest",
+        "Text": "サウンドテスト"
+      },
+      "Txt_DebugMenu_DebugMenu_Sound_DebugFunction": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Sound_DebugFunction",
+        "Text": "デバッグ機能"
+      },
+      "Txt_DebugMenu_DebugMenu_Sound_Supervision_Information": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Sound_Supervision_Information",
+        "Text": "情報"
+      },
+      "Txt_DebugMenu_DebugMenu_Sound_Supervision_PlayingMusic": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Sound_Supervision_PlayingMusic",
+        "Text": "--再生曲--"
+      },
+      "Txt_DebugMenu_DebugMenu_Sound_Supervision_ReferenceMusic": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Sound_Supervision_ReferenceMusic",
+        "Text": "--参考曲--"
+      },
+      "Txt_DebugMenu_DebugMenu_Sound_Supervision_SoundSupervisonMenu": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Sound_Supervision_SoundSupervisonMenu",
+        "Text": "サウンド監修用メニュー"
+      },
+      "Txt_DebugMenu_DebugMenu_Sound_Supervision_PlayStartPos": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Sound_Supervision_PlayStartPos",
+        "Text": "再生開始位置"
+      },
+      "Txt_DebugMenu_DebugMenu_Sound_Supervision_ControlGuide": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Sound_Supervision_ControlGuide",
+        "Text": "操作ガイド"
+      },
+      "Txt_DebugMenu_DebugMenu_Sound_Supervision_GuidePlay": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Sound_Supervision_GuidePlay",
+        "Text": "【再生】上ボタン"
+      },
+      "Txt_DebugMenu_DebugMenu_Sound_Supervision_GuideStop": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Sound_Supervision_GuideStop",
+        "Text": "【停止】左ボタン"
+      },
+      "Txt_DebugMenu_DebugMenu_Sound_Supervision_GuideExit": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Sound_Supervision_GuideExit",
+        "Text": "【終了】下ボタン"
+      },
+      "Txt_DebugMenu_DebugMenu_Sound_Supervision_GuideVolume": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Sound_Supervision_GuideVolume",
+        "Text": "【音量調整】←, →"
+      },
+      "Txt_DebugMenu_DebugMenu_Sound_Supervision_GuidePlayStartPos": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Sound_Supervision_GuidePlayStartPos",
+        "Text": "【再生開始位置】L/R"
+      },
+      "Txt_DebugMenu_DebugMenu_Sound_Supervision_GuideEntryReferenceMusic": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Sound_Supervision_GuideEntryReferenceMusic",
+        "Text": "【参考曲登録】RT"
+      },
+      "Txt_DebugMenu_DebugMenu_Sound_Supervision_GuidePlayOrStopReferenceMusic": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Sound_Supervision_GuidePlayOrStopReferenceMusic",
+        "Text": "【参考曲再生/停止】LT"
+      },
+      "Txt_DebugMenu_DebugMenu_Sound_Supervision_GuideSaveAllSetting": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Sound_Supervision_GuideSaveAllSetting",
+        "Text": "【編集内容を全てセーブ】START"
+      },
+      "Txt_DebugMenu_DebugMenu_Sound_Supervision_GuideDeleteAllSetting": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Sound_Supervision_GuideDeleteAllSetting",
+        "Text": "【編集内容を全て破棄】L3"
+      },
+      "Txt_DebugMenu_DebugMenu_Sound_Supervision_GuideWriteForGameData": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Sound_Supervision_GuideWriteForGameData",
+        "Text": "【ゲームデータで全て上書き】R3"
+      },
+      "Txt_DebugMenu_DebugMenu_Sound_Supervision_MusicName": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Sound_Supervision_MusicName",
+        "Text": "楽曲名"
+      },
+      "Txt_DebugMenu_DebugMenu_Sound_Supervision_VolumeRate": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Sound_Supervision_VolumeRate",
+        "Text": "音量係数"
+      },
+      "Txt_DebugMenu_DebugMenu_Sound_Supervision_PlayPos": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Sound_Supervision_PlayPos",
+        "Text": "再生位置"
+      },
+      "Txt_DebugMenu_DebugMenu_Sound_Supervision_RecordId": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Sound_Supervision_RecordId",
+        "Text": "レコードID"
+      },
+      "Txt_DebugMenu_DebugMenu_Sound_SoundTest_ControlGuide": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Sound_SoundTest_ControlGuide",
+        "Text": "--【操作ガイド】--"
+      },
+      "Txt_DebugMenu_DebugMenu_Sound_SoundTest_SoundStop": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Sound_SoundTest_SoundStop",
+        "Text": "サウンド停止 「パッド上ボタン」"
+      },
+      "Txt_DebugMenu_DebugMenu_Sound_DebugFunction_SupervisionRelevance": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Sound_DebugFunction_SupervisionRelevance",
+        "Text": "監修関連"
+      },
+      "Txt_DebugMenu_DebugMenu_Sound_DebugFunction_Mute": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Sound_DebugFunction_Mute",
+        "Text": "ミュート"
+      },
+      "Txt_DebugMenu_DebugMenu_Sound_DebugFunction_AlwaysAffectVolumeSettedBySupervisionMode": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Sound_DebugFunction_AlwaysAffectVolumeSettedBySupervisionMode",
+        "Text": "常に監修モードで設定された音量を適用"
+      },
+      "Txt_DebugMenu_DebugMenu_Sound_DebugFunction_ResetAllBgmVolumeSetting": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Sound_DebugFunction_ResetAllBgmVolumeSetting",
+        "Text": "全BGMの音量設定を初期化"
+      },
+      "Txt_DebugMenu_DebugMenu_Sound_DebugFunction_DisablePlaySoundByEventSequencer": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_Sound_DebugFunction_DisablePlaySoundByEventSequencer",
+        "Text": "イベントシーケンサからのサウンド再生無効化"
+      },
+      "Txt_DebugMenu_DebugMenu_UITest_Fade": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_UITest_Fade",
+        "Text": "フェード"
+      },
+      "Txt_DebugMenu_DebugMenu_UITest_OutputFontSize": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_UITest_OutputFontSize",
+        "Text": "フォントサイズ出力"
+      },
+      "Txt_DebugMenu_DebugMenu_UITest_MessageWindow": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_UITest_MessageWindow",
+        "Text": "メッセージウインドウ"
+      },
+      "Txt_DebugMenu_DebugMenu_UITest_DispMonsterNameRange": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_UITest_DispMonsterNameRange",
+        "Text": "バトル：モンスター名の範囲を表示"
+      },
+      "Txt_DebugMenu_DebugMenu_UITest_DispMouseClickRange": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_UITest_DispMouseClickRange",
+        "Text": "マウスクリック領域を表示"
+      },
+      "Txt_DebugMenu_DebugMenu_UITest_ForceOpenFieldMenu": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_UITest_ForceOpenFieldMenu",
+        "Text": "毎フレームフィールドメニュを開く入力フラグ"
+      },
+      "Txt_DebugMenu_DebugMenu_UITest_Fade_FadeOut": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_UITest_Fade_FadeOut",
+        "Text": "フェードアウト"
+      },
+      "Txt_DebugMenu_DebugMenu_UITest_Fade_FadeIn": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_UITest_Fade_FadeIn",
+        "Text": "フェードイン"
+      },
+      "Txt_DebugMenu_DebugMenu_UITest_OutputFontSize_SelectFont": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_UITest_OutputFontSize_SelectFont",
+        "Text": "フォント選択"
+      },
+      "Txt_DebugMenu_DebugMenu_UITest_OutputFontSize_FontSize": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_UITest_OutputFontSize_FontSize",
+        "Text": "フォントサイズ"
+      },
+      "Txt_DebugMenu_DebugMenu_UITest_OutputFontSize_OutputCsv": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_UITest_OutputFontSize_OutputCsv",
+        "Text": "csv出力"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugConsole_GameStatus": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugConsole_GameStatus",
+        "Text": "ゲームステータス"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugConsole_CharacterStatus": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugConsole_CharacterStatus",
+        "Text": "キャラクタステータス"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugConsole_LuaStatus": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugConsole_LuaStatus",
+        "Text": "LUAステータス"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugConsole_LuaTrigger": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugConsole_LuaTrigger",
+        "Text": "LUAトリガー"
+      },
+      "Txt_DebugMenu_DebugMenu_DebugConsole_DispLuaVariablesShortName": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_DebugConsole_DispLuaVariablesShortName",
+        "Text": "Lua 変数名をショートネームで表示する"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_WindowSetting": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_WindowSetting",
+        "Text": "ウィンドウ設定"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_TrophyRelevance": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_TrophyRelevance",
+        "Text": "実績関連"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_GraphicOptionValidation": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_GraphicOptionValidation",
+        "Text": "グラフィックオプション検証"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_IgnoreXR": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_IgnoreXR",
+        "Text": "XR要件のスルー"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_DisconnectController": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_DisconnectController",
+        "Text": "コントローラー切断メッセージの表示"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Activity": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Activity",
+        "Text": "アクティビティー(PS5)"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Dlc": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Dlc",
+        "Text": "DLC"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_WindowSetting_ChangeWindowMode": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_WindowSetting_ChangeWindowMode",
+        "Text": "ウィンドウモード変更"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_WindowSetting_ChangeWindowResolution": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_WindowSetting_ChangeWindowResolution",
+        "Text": "画面解像度変更(未実装)"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_WindowSetting_ChangeFpsMax": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_WindowSetting_ChangeFpsMax",
+        "Text": "FPS上限変更"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_WindowSetting_EnableVsync": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_WindowSetting_EnableVsync",
+        "Text": "垂直同期有効化"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_WindowSetting_EnableUnfocusPad": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_WindowSetting_EnableUnfocusPad",
+        "Text": "非アクティブ時にパッド操作有効化"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_WindowSetting_EnableUnfocusSound": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_WindowSetting_EnableUnfocusSound",
+        "Text": "非アクティブ時にサウンド有効化"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_WindowSetting_LimitCursorMoveOnDisplay": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_WindowSetting_LimitCursorMoveOnDisplay",
+        "Text": "マウスカーソル移動を画面内に制限"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_WindowSetting_DispCursor": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_WindowSetting_DispCursor",
+        "Text": "マウスカーソル表示(未実装)"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_WindowSetting_DispCursorAlways": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_WindowSetting_DispCursorAlways",
+        "Text": "常にマウスカーソル表示"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_WindowSetting_ChangeFpsDisp": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_WindowSetting_ChangeFpsDisp",
+        "Text": "FPS表示切り替え"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_WindowSetting_Window": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_WindowSetting_Window",
+        "Text": "ウィンドウ"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_WindowSetting_Borderless": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_WindowSetting_Borderless",
+        "Text": "ボーダレス"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_WindowSetting_Fullscreen": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_WindowSetting_Fullscreen",
+        "Text": "フルスクリーン"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_WindowSetting_Unlimit": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_WindowSetting_Unlimit",
+        "Text": "無制限"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_GraphicOptionValidation_MotionBlurIntensity": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_GraphicOptionValidation_MotionBlurIntensity",
+        "Text": "モーションブラー強度"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_GraphicOptionValidation_ShadowQuality": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_GraphicOptionValidation_ShadowQuality",
+        "Text": "シャドウクオリティ"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_GraphicOptionValidation_AntiAliasingQuality": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_GraphicOptionValidation_AntiAliasingQuality",
+        "Text": "アンチエイリアスクオリティ"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_GraphicOptionValidation_ChromaticAberrationIntensity": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_GraphicOptionValidation_ChromaticAberrationIntensity",
+        "Text": "色収差強度"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_GraphicOptionValidation_AmbientOcculsionIntensity": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_GraphicOptionValidation_AmbientOcculsionIntensity",
+        "Text": "アンビエントオクルージョン強度"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_GraphicOptionValidation_RenderScaleRate": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_GraphicOptionValidation_RenderScaleRate",
+        "Text": "レンダースケール倍率(%)"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_GraphicOptionValidation_TextureDownQualityDegree": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_GraphicOptionValidation_TextureDownQualityDegree",
+        "Text": "テクスチャクオリティを下げる度合い(大きいほど粗くなる)"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_GraphicOptionValidation_EnableChangeDof": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_GraphicOptionValidation_EnableChangeDof",
+        "Text": "被写界深度有効切り替え(デバッグ描画にある機能と同一)"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_GraphicOptionValidation_BroomIntensity": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_GraphicOptionValidation_BroomIntensity",
+        "Text": "ブルーム強度"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Achievement_UnlockSingle": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Achievement_UnlockSingle",
+        "Text": "個別開放"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Achievement_UnlockAll": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Achievement_UnlockAll",
+        "Text": "全開放"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Achievement_Reset": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Achievement_Reset",
+        "Text": "リセット"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Achievement_DumpUnlockStatus": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Achievement_DumpUnlockStatus",
+        "Text": "開放状況ダンプ"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Achievement_SetCount": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Achievement_SetCount",
+        "Text": "内部カウント操作"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Achievement_CacheAchievements": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Achievement_CacheAchievements",
+        "Text": "再初期化"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Activity_Unlock": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Activity_Unlock",
+        "Text": "解放状態にする"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Activity_Lock": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Activity_Lock",
+        "Text": "未開放状態にする"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Activity_Start": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Activity_Start",
+        "Text": "開始する"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Activity_EndWithCompleted": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Activity_EndWithCompleted",
+        "Text": "終了する(完了)"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Activity_EndWithFailed": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Activity_EndWithFailed",
+        "Text": "終了する(失敗)"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Activity_EndWithAbandoned": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Activity_EndWithAbandoned",
+        "Text": "終了する(破棄)"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Activity_ResetAll": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Activity_ResetAll",
+        "Text": "状態を全てリセットする"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Dlc_UseDebug": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Dlc_UseDebug",
+        "Text": "デバッグの権利状態を有効にする"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Dlc_RightEarly": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Dlc_RightEarly",
+        "Text": "権利「早期予約特典」"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Dlc_RightFast": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Dlc_RightFast",
+        "Text": "権利「集英社最速攻略本」"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Dlc_RightOfficialGuide": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Dlc_RightOfficialGuide",
+        "Text": "権利「公式ガイド」"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Dlc_RightLawson": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Dlc_RightLawson",
+        "Text": "権利「ローソン」"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Dlc_RightAmazon": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Dlc_RightAmazon",
+        "Text": "権利「アマゾン」"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Dlc_AcquiredEarly": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Dlc_AcquiredEarly",
+        "Text": "取得済み「早期予約特典」"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Dlc_AcquiredFast": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Dlc_AcquiredFast",
+        "Text": "取得済み「集英社最速攻略本」"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Dlc_AcquiredOfficialGuide": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Dlc_AcquiredOfficialGuide",
+        "Text": "取得済み「公式ガイド」"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Dlc_AcquiredLawson": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Dlc_AcquiredLawson",
+        "Text": "取得済み「ローソン」"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Dlc_AcquiredAmazon": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Dlc_AcquiredAmazon",
+        "Text": "取得済み「アマゾン」"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Dlc_Log": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Dlc_Log",
+        "Text": "Log"
+      },
+      "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Dlc_GotoEShop": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_PlatformFunctionTest_Dlc_GotoEShop",
+        "Text": "GotoEShop"
+      },
+      "Txt_DebugMenu_DebugMenu_AutoSystem_OutputDoorList": {
+        "SelfId": "Txt_DebugMenu_DebugMenu_AutoSystem_OutputDoorList",
+        "Text": "扉リスト出力"
+      },
+      "Txt_DebugMenu_DebugLog_ChangeLogDispLevel": {
+        "SelfId": "Txt_DebugMenu_DebugLog_ChangeLogDispLevel",
+        "Text": "ログ表示レベル変更"
+      },
+      "Txt_DebugMenu_DebugLog_DispLogDispLevel": {
+        "SelfId": "Txt_DebugMenu_DebugLog_DispLogDispLevel",
+        "Text": "ログ表示レベルを表示"
+      },
+      "Txt_DebugMenu_DebugLog_EnableOutputToScreen": {
+        "SelfId": "Txt_DebugMenu_DebugLog_EnableOutputToScreen",
+        "Text": "スクリーン出力の有効化"
+      },
+      "Txt_DebugMenu_DebugLog_DisableOutputToScreen": {
+        "SelfId": "Txt_DebugMenu_DebugLog_DisableOutputToScreen",
+        "Text": "スクリーン出力の無効化"
+      },
+      "Txt_DebugMenu_SaveLoad_InitDebugSetting": {
+        "SelfId": "Txt_DebugMenu_SaveLoad_InitDebugSetting",
+        "Text": "デバッグ設定初期化"
+      },
+      "Txt_DebugMenu_SaveLoad_InvertSystemData": {
+        "SelfId": "Txt_DebugMenu_SaveLoad_InvertSystemData",
+        "Text": "システムデータバルク反転"
+      },
+      "Txt_DebugMenu_SaveLoad_DataIndex": {
+        "SelfId": "Txt_DebugMenu_SaveLoad_DataIndex",
+        "Text": "データ番号"
+      },
+      "Txt_DebugMenu_SaveLoad_ExecSave": {
+        "SelfId": "Txt_DebugMenu_SaveLoad_ExecSave",
+        "Text": "セーブ実行"
+      },
+      "Txt_DebugMenu_SaveLoad_InvertSaveData": {
+        "SelfId": "Txt_DebugMenu_SaveLoad_InvertSaveData",
+        "Text": "セーブデータバルク反転"
+      },
+      "Txt_DebugMenu_SaveLoad_RandomSeedValue": {
+        "SelfId": "Txt_DebugMenu_SaveLoad_RandomSeedValue",
+        "Text": "ランダムシード値"
+      },
+      "Txt_DebugMenu_SaveLoad_CreateBrokenSaveData": {
+        "SelfId": "Txt_DebugMenu_SaveLoad_CreateBrokenSaveData",
+        "Text": "破損セーブ作成"
+      },
+      "Txt_DebugMenu_SaveLoad_CreateCrashSaveData": {
+        "SelfId": "Txt_DebugMenu_SaveLoad_CreateCrashSaveData",
+        "Text": "改竄セーブ作成"
+      },
+      "Txt_DebugMenu_SaveLoad_VersionNumber": {
+        "SelfId": "Txt_DebugMenu_SaveLoad_VersionNumber",
+        "Text": "バージョン番号"
+      },
+      "Txt_DebugMenu_SaveLoad_WriteSystemDataVersion": {
+        "SelfId": "Txt_DebugMenu_SaveLoad_WriteSystemDataVersion",
+        "Text": "システムデータバージョン上書き"
+      },
+      "Txt_DebugMenu_SaveLoad_WriteSaveDataVersion": {
+        "SelfId": "Txt_DebugMenu_SaveLoad_WriteSaveDataVersion",
+        "Text": "セーブデータバージョン上書き"
+      },
+      "Txt_DebugMenu_SaveLoad_WriteErrorCode": {
+        "SelfId": "Txt_DebugMenu_SaveLoad_WriteErrorCode",
+        "Text": "エラーコード上書き"
+      },
+      "Txt_DebugMenu_SaveLoad_AlwaysFailedSaveGameData": {
+        "SelfId": "Txt_DebugMenu_SaveLoad_AlwaysFailedSaveGameData",
+        "Text": "常にゲームデータセーブ失敗"
+      },
+      "Txt_DebugMenu_SaveLoad_AlwaysFailedLoadGameData": {
+        "SelfId": "Txt_DebugMenu_SaveLoad_AlwaysFailedLoadGameData",
+        "Text": "常にゲームデータロード失敗"
+      },
+      "Txt_DebugMenu_SaveLoad_AlwaysFailedSaveSystemData": {
+        "SelfId": "Txt_DebugMenu_SaveLoad_AlwaysFailedSaveSystemData",
+        "Text": "常にシステムデータセーブ失敗"
+      },
+      "Txt_DebugMenu_SaveLoad_AlwaysFailedLoadSystemData": {
+        "SelfId": "Txt_DebugMenu_SaveLoad_AlwaysFailedLoadSystemData",
+        "Text": "常にシステムデータロード失敗"
+      },
+      "Txt_DebugMenu_SaveLoad_NotDeleteSuspensionData": {
+        "SelfId": "Txt_DebugMenu_SaveLoad_NotDeleteSuspensionData",
+        "Text": "中断セーブを削除しない"
+      },
+      "Txt_DebugMenu_SaveLoad_DeleteSystemDataInExecGame": {
+        "SelfId": "Txt_DebugMenu_SaveLoad_DeleteSystemDataInExecGame",
+        "Text": "ゲーム起動レベルでシステムデータを削除する"
+      },
+      "Txt_DebugMenu_SaveLoad_AlwaysFailedSaveAutoSave": {
+        "SelfId": "Txt_DebugMenu_SaveLoad_AlwaysFailedSaveAutoSave",
+        "Text": "常にオートセーブに失敗"
+      },
+      "Txt_DebugMenu_LuaDebugCmd_EventReload": {
+        "SelfId": "Txt_DebugMenu_LuaDebugCmd_EventReload",
+        "Text": "0l（イベントリロード）"
+      },
+      "Txt_DebugMenu_LuaDebugCmd_EventSkip": {
+        "SelfId": "Txt_DebugMenu_LuaDebugCmd_EventSkip",
+        "Text": "es（イベントスキップ）"
+      },
+      "Txt_DebugMenu_MapTime_ChangeMapHour": {
+        "SelfId": "Txt_DebugMenu_MapTime_ChangeMapHour",
+        "Text": "マップ時刻変更"
+      },
+      "Txt_DebugMenu_MapTime_ChangeMapFrame": {
+        "SelfId": "Txt_DebugMenu_MapTime_ChangeMapFrame",
+        "Text": "マップ時間帯変更"
+      },
+      "Txt_DebugMenu_MapTime_ChangeFieldFrame": {
+        "SelfId": "Txt_DebugMenu_MapTime_ChangeFieldFrame",
+        "Text": "フィールド時間帯変更"
+      },
+      "Txt_DebugMenu_MapTime_ProgressRate": {
+        "SelfId": "Txt_DebugMenu_MapTime_ProgressRate",
+        "Text": "時間経過速度"
+      },
+      "Txt_DebugMenu_Localize_ChangeTextLanguage": {
+        "SelfId": "Txt_DebugMenu_Localize_ChangeTextLanguage",
+        "Text": "テキスト言語変更"
+      },
+      "Txt_DebugMenu_Localize_MacroTagTest": {
+        "SelfId": "Txt_DebugMenu_Localize_MacroTagTest",
+        "Text": "マクロタグテスト"
+      },
+      "Txt_DebugMenu_Localize_ChangeVoiceLanguage": {
+        "SelfId": "Txt_DebugMenu_Localize_ChangeVoiceLanguage",
+        "Text": "ボイス言語変更"
+      },
+      "Txt_DebugMenu_Localize_Common_Japanese": {
+        "SelfId": "Txt_DebugMenu_Localize_Common_Japanese",
+        "Text": "日本語"
+      },
+      "Txt_DebugMenu_Localize_Common_Japanese_HI": {
+        "SelfId": "Txt_DebugMenu_Localize_Common_Japanese_HI",
+        "Text": "日本語(ひらがな)"
+      },
+      "Txt_DebugMenu_Localize_Common_TraditionalChineseCharacter": {
+        "SelfId": "Txt_DebugMenu_Localize_Common_TraditionalChineseCharacter",
+        "Text": "繁体字"
+      },
+      "Txt_DebugMenu_Localize_Common_SimplifiedChineseCharacter": {
+        "SelfId": "Txt_DebugMenu_Localize_Common_SimplifiedChineseCharacter",
+        "Text": "簡体字"
+      },
+      "Txt_DebugMenu_Localize_Common_Korean": {
+        "SelfId": "Txt_DebugMenu_Localize_Common_Korean",
+        "Text": "韓国語"
+      },
+      "Txt_DebugMenu_Localize_Common_English": {
+        "SelfId": "Txt_DebugMenu_Localize_Common_English",
+        "Text": "英語"
+      },
+      "Txt_DebugMenu_Localize_Common_French": {
+        "SelfId": "Txt_DebugMenu_Localize_Common_French",
+        "Text": "フランス語"
+      },
+      "Txt_DebugMenu_Localize_Common_Italian": {
+        "SelfId": "Txt_DebugMenu_Localize_Common_Italian",
+        "Text": "イタリア語"
+      },
+      "Txt_DebugMenu_Localize_Common_German": {
+        "SelfId": "Txt_DebugMenu_Localize_Common_German",
+        "Text": "ドイツ語"
+      },
+      "Txt_DebugMenu_Localize_Common_Spanish": {
+        "SelfId": "Txt_DebugMenu_Localize_Common_Spanish",
+        "Text": "スペイン語"
+      },
+      "Txt_DebugMenu_Localize_Common_NeutralSpanish": {
+        "SelfId": "Txt_DebugMenu_Localize_Common_NeutralSpanish",
+        "Text": "メキシカンスペイン語"
+      }
+    }
+  }
+]

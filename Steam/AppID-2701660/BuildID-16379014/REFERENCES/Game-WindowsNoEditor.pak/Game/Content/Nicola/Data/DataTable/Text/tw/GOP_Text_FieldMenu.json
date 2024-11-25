@@ -1,0 +1,2272 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_FieldMenu",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_FieldMenu_Common_YES": {
+        "SelfId": "Txt_FieldMenu_Common_YES",
+        "Text": "是"
+      },
+      "Txt_FieldMenu_Common_NO": {
+        "SelfId": "Txt_FieldMenu_Common_NO",
+        "Text": "否"
+      },
+      "Txt_FieldMenu_Common_PAGE": {
+        "SelfId": "Txt_FieldMenu_Common_PAGE",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Common_MAXPAGE": {
+        "SelfId": "Txt_FieldMenu_Common_MAXPAGE",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Common_NUMBER": {
+        "SelfId": "Txt_FieldMenu_Common_NUMBER",
+        "Text": "幾個？"
+      },
+      "Txt_FieldMenu_Common_BLANK": {
+        "SelfId": "Txt_FieldMenu_Common_BLANK",
+        "Text": "？？？"
+      },
+      "Txt_FieldMenu_Common_USEMP": {
+        "SelfId": "Txt_FieldMenu_Common_USEMP",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Common_RESTMP": {
+        "SelfId": "Txt_FieldMenu_Common_RESTMP",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Common_EVERYONE": {
+        "SelfId": "Txt_FieldMenu_Common_EVERYONE",
+        "Text": "全員"
+      },
+      "Txt_FieldMenu_Top_ITEM": {
+        "SelfId": "Txt_FieldMenu_Top_ITEM",
+        "Text": "道具"
+      },
+      "Txt_FieldMenu_Top_EQUIP": {
+        "SelfId": "Txt_FieldMenu_Top_EQUIP",
+        "Text": "裝備"
+      },
+      "Txt_FieldMenu_Top_MEMORY": {
+        "SelfId": "Txt_FieldMenu_Top_MEMORY",
+        "Text": "回憶"
+      },
+      "Txt_FieldMenu_Top_MAGIC": {
+        "SelfId": "Txt_FieldMenu_Top_MAGIC",
+        "Text": "咒文"
+      },
+      "Txt_FieldMenu_Top_SKILL": {
+        "SelfId": "Txt_FieldMenu_Top_SKILL",
+        "Text": "特技"
+      },
+      "Txt_FieldMenu_Top_MISC": {
+        "SelfId": "Txt_FieldMenu_Top_MISC",
+        "Text": "作戰"
+      },
+      "Txt_FieldMenu_Top_MONEY_01": {
+        "SelfId": "Txt_FieldMenu_Top_MONEY_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Top_MONEY_02": {
+        "SelfId": "Txt_FieldMenu_Top_MONEY_02",
+        "Text": "Ｇ"
+      },
+      "Txt_FieldMenu_Top_PUSHKEEP": {
+        "SelfId": "Txt_FieldMenu_Top_PUSHKEEP",
+        "Text": "長按"
+      },
+      "Txt_FieldMenu_Item_ITEMBAG": {
+        "SelfId": "Txt_FieldMenu_Item_ITEMBAG",
+        "Text": "道具袋"
+      },
+      "Txt_FieldMenu_Item_EQUIPBAG": {
+        "SelfId": "Txt_FieldMenu_Item_EQUIPBAG",
+        "Text": "裝備袋"
+      },
+      "Txt_FieldMenu_Item_IMPOTANT": {
+        "SelfId": "Txt_FieldMenu_Item_IMPOTANT",
+        "Text": "重要物品"
+      },
+      "Txt_FieldMenu_Item_GUIDE": {
+        "SelfId": "Txt_FieldMenu_Item_GUIDE",
+        "Text": "選擇道具"
+      },
+      "Txt_FieldMenu_Item_NONE": {
+        "SelfId": "Txt_FieldMenu_Item_NONE",
+        "Text": "未持有任何物品"
+      },
+      "Txt_FieldMenu_Item_BAGNUMBER": {
+        "SelfId": "Txt_FieldMenu_Item_BAGNUMBER",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Item_COUNTA_01": {
+        "SelfId": "Txt_FieldMenu_Item_COUNTA_01",
+        "Text": "總持有數"
+      },
+      "Txt_FieldMenu_Item_COUNTA_03": {
+        "SelfId": "Txt_FieldMenu_Item_COUNTA_03",
+        "Text": "持有數"
+      },
+      "Txt_FieldMenu_Item_COUNTA_02": {
+        "SelfId": "Txt_FieldMenu_Item_COUNTA_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Item_COUNTA_04": {
+        "SelfId": "Txt_FieldMenu_Item_COUNTA_04",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Item_SORTMENU": {
+        "SelfId": "Txt_FieldMenu_Item_SORTMENU",
+        "Text": "排序"
+      },
+      "Txt_FieldMenu_Item_SORT_01": {
+        "SelfId": "Txt_FieldMenu_Item_SORT_01",
+        "Text": "依筆畫"
+      },
+      "Txt_FieldMenu_Item_SORT_02": {
+        "SelfId": "Txt_FieldMenu_Item_SORT_02",
+        "Text": "依種類"
+      },
+      "Txt_FieldMenu_Item_SORT_03": {
+        "SelfId": "Txt_FieldMenu_Item_SORT_03",
+        "Text": "依強度"
+      },
+      "Txt_FieldMenu_Item_ITEMBAGGUIDE": {
+        "SelfId": "Txt_FieldMenu_Item_ITEMBAGGUIDE",
+        "Text": "整理道具"
+      },
+      "Txt_FieldMenu_Item_PARAMVALUE": {
+        "SelfId": "Txt_FieldMenu_Item_PARAMVALUE",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Item_MEDAL_01": {
+        "SelfId": "Txt_FieldMenu_Item_MEDAL_01",
+        "Text": "{0}枚"
+      },
+      "Txt_FieldMenu_Item_MEDAL_02": {
+        "SelfId": "Txt_FieldMenu_Item_MEDAL_02",
+        "Text": "枚"
+      },
+      "Txt_FieldMenu_Item_MENU_01": {
+        "SelfId": "Txt_FieldMenu_Item_MENU_01",
+        "Text": "使用"
+      },
+      "Txt_FieldMenu_Item_MENU_02": {
+        "SelfId": "Txt_FieldMenu_Item_MENU_02",
+        "Text": "交付"
+      },
+      "Txt_FieldMenu_Item_MENU_03": {
+        "SelfId": "Txt_FieldMenu_Item_MENU_03",
+        "Text": "袋子"
+      },
+      "Txt_FieldMenu_Item_MENU_04": {
+        "SelfId": "Txt_FieldMenu_Item_MENU_04",
+        "Text": "裝備"
+      },
+      "Txt_FieldMenu_Item_MENU_05": {
+        "SelfId": "Txt_FieldMenu_Item_MENU_05",
+        "Text": "卸除"
+      },
+      "Txt_FieldMenu_Item_MENU_06": {
+        "SelfId": "Txt_FieldMenu_Item_MENU_06",
+        "Text": "展示"
+      },
+      "Txt_FieldMenu_Item_MENU_06_Mer": {
+        "SelfId": "Txt_FieldMenu_Item_MENU_06_Mer",
+        "Text": "查看"
+      },
+      "Txt_FieldMenu_Item_MENU_07": {
+        "SelfId": "Txt_FieldMenu_Item_MENU_07",
+        "Text": "丟棄"
+      },
+      "Txt_FieldMenu_Item_MENU_08": {
+        "SelfId": "Txt_FieldMenu_Item_MENU_08",
+        "Text": "結束"
+      },
+      "Txt_FieldMenu_Equip_BLANK_01": {
+        "SelfId": "Txt_FieldMenu_Equip_BLANK_01",
+        "Text": "武器"
+      },
+      "Txt_FieldMenu_Equip_BLANK_02": {
+        "SelfId": "Txt_FieldMenu_Equip_BLANK_02",
+        "Text": "盾牌"
+      },
+      "Txt_FieldMenu_Equip_BLANK_03": {
+        "SelfId": "Txt_FieldMenu_Equip_BLANK_03",
+        "Text": "頭盔"
+      },
+      "Txt_FieldMenu_Equip_BLANK_04": {
+        "SelfId": "Txt_FieldMenu_Equip_BLANK_04",
+        "Text": "鎧甲"
+      },
+      "Txt_FieldMenu_Equip_BLANK_05": {
+        "SelfId": "Txt_FieldMenu_Equip_BLANK_05",
+        "Text": "主飾品"
+      },
+      "Txt_FieldMenu_Equip_BLANK_06": {
+        "SelfId": "Txt_FieldMenu_Equip_BLANK_06",
+        "Text": "副飾品"
+      },
+      "Txt_FieldMenu_Equip_EQUIPPED_01": {
+        "SelfId": "Txt_FieldMenu_Equip_EQUIPPED_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Equip_EQUIPPED_02": {
+        "SelfId": "Txt_FieldMenu_Equip_EQUIPPED_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Equip_EQUIPPED_03": {
+        "SelfId": "Txt_FieldMenu_Equip_EQUIPPED_03",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Equip_EQUIPPED_04": {
+        "SelfId": "Txt_FieldMenu_Equip_EQUIPPED_04",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Equip_EQUIPPED_05": {
+        "SelfId": "Txt_FieldMenu_Equip_EQUIPPED_05",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Equip_EQUIPPED_06": {
+        "SelfId": "Txt_FieldMenu_Equip_EQUIPPED_06",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Equip_NoEquip": {
+        "SelfId": "Txt_FieldMenu_Equip_NoEquip",
+        "Text": "無法裝備"
+      },
+      "Txt_FieldMenu_Equip_GUIDE": {
+        "SelfId": "Txt_FieldMenu_Equip_GUIDE",
+        "Text": "選擇裝備"
+      },
+      "Txt_FieldMenu_Equip_AutoEpuip": {
+        "SelfId": "Txt_FieldMenu_Equip_AutoEpuip",
+        "Text": "自動裝備"
+      },
+      "Txt_FieldMenu_Equip_NONE": {
+        "SelfId": "Txt_FieldMenu_Equip_NONE",
+        "Text": "沒有可裝備的物品"
+      },
+      "Txt_FieldMenu_Equip_PARAMBEFORE_01": {
+        "SelfId": "Txt_FieldMenu_Equip_PARAMBEFORE_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Equip_PARAMAFTER_01": {
+        "SelfId": "Txt_FieldMenu_Equip_PARAMAFTER_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Equip_PARAMBEFORE_02": {
+        "SelfId": "Txt_FieldMenu_Equip_PARAMBEFORE_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Equip_PARAMAFTER_02": {
+        "SelfId": "Txt_FieldMenu_Equip_PARAMAFTER_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Equip_Nothing": {
+        "SelfId": "Txt_FieldMenu_Equip_Nothing",
+        "Text": "未持有裝備品"
+      },
+      "Txt_FieldMenu_Memory_PLACE": {
+        "SelfId": "Txt_FieldMenu_Memory_PLACE",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Memory_SPEAKER": {
+        "SelfId": "Txt_FieldMenu_Memory_SPEAKER",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Memory_PALECEGUIDE": {
+        "SelfId": "Txt_FieldMenu_Memory_PALECEGUIDE",
+        "Text": "選擇地點"
+      },
+      "Txt_FieldMenu_Memory_MEMORYGUIDE": {
+        "SelfId": "Txt_FieldMenu_Memory_MEMORYGUIDE",
+        "Text": "回想經歷"
+      },
+      "Txt_FieldMenu_Memory_DELETEGUIDE": {
+        "SelfId": "Txt_FieldMenu_Memory_DELETEGUIDE",
+        "Text": "忘卻"
+      },
+      "Txt_FieldMenu_Memory_RESTNUMBER": {
+        "SelfId": "Txt_FieldMenu_Memory_RESTNUMBER",
+        "Text": "回憶數量"
+      },
+      "Txt_FieldMenu_Memory_NUMBER": {
+        "SelfId": "Txt_FieldMenu_Memory_NUMBER",
+        "Text": "{0} / {1}"
+      },
+      "Txt_FieldMenu_Memory_STOP": {
+        "SelfId": "Txt_FieldMenu_Memory_STOP",
+        "Text": "結束"
+      },
+      "Txt_FieldMenu_Magic_NAME": {
+        "SelfId": "Txt_FieldMenu_Magic_NAME",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Magic_GUIDE": {
+        "SelfId": "Txt_FieldMenu_Magic_GUIDE",
+        "Text": "選擇咒文"
+      },
+      "Txt_FieldMenu_Magic_NONE": {
+        "SelfId": "Txt_FieldMenu_Magic_NONE",
+        "Text": "尚未學會任何咒文"
+      },
+      "Txt_FieldMenu_Skill_NAME": {
+        "SelfId": "Txt_FieldMenu_Skill_NAME",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Skill_GUIDE": {
+        "SelfId": "Txt_FieldMenu_Skill_GUIDE",
+        "Text": "選擇特技"
+      },
+      "Txt_FieldMenu_Skill_NONE": {
+        "SelfId": "Txt_FieldMenu_Skill_NONE",
+        "Text": "尚未學會任何特技"
+      },
+      "Txt_FieldMenu_Misc_MENU_01": {
+        "SelfId": "Txt_FieldMenu_Misc_MENU_01",
+        "Text": "全滿"
+      },
+      "Txt_FieldMenu_Misc_MENU_02": {
+        "SelfId": "Txt_FieldMenu_Misc_MENU_02",
+        "Text": "幾乎全滿"
+      },
+      "Txt_FieldMenu_Misc_MENU_03": {
+        "SelfId": "Txt_FieldMenu_Misc_MENU_03",
+        "Text": "強度"
+      },
+      "Txt_FieldMenu_Misc_MENU_04": {
+        "SelfId": "Txt_FieldMenu_Misc_MENU_04",
+        "Text": "改變隊列"
+      },
+      "Txt_FieldMenu_Misc_MENU_05": {
+        "SelfId": "Txt_FieldMenu_Misc_MENU_05",
+        "Text": "變更作戰"
+      },
+      "Txt_FieldMenu_Misc_MENU_06": {
+        "SelfId": "Txt_FieldMenu_Misc_MENU_06",
+        "Text": "旅途心得"
+      },
+      "Txt_FieldMenu_Misc_MENU_07": {
+        "SelfId": "Txt_FieldMenu_Misc_MENU_07",
+        "Text": "戰歷"
+      },
+      "Txt_FieldMenu_Misc_MENU_08": {
+        "SelfId": "Txt_FieldMenu_Misc_MENU_08",
+        "Text": "系統設定"
+      },
+      "Txt_FieldMenu_Misc_MENU_11": {
+        "SelfId": "Txt_FieldMenu_Misc_MENU_11",
+        "Text": "遊玩環境設定"
+      },
+      "Txt_FieldMenu_Misc_MENU_09": {
+        "SelfId": "Txt_FieldMenu_Misc_MENU_09",
+        "Text": "中斷冒險"
+      },
+      "Txt_FieldMenu_Misc_MENU_10": {
+        "SelfId": "Txt_FieldMenu_Misc_MENU_10",
+        "Text": "返回標題"
+      },
+      "Txt_FieldMenu_Misc_EXPLAN_01": {
+        "SelfId": "Txt_FieldMenu_Misc_EXPLAN_01",
+        "Text": "用最有效率的方式\r\n一舉補滿\r\n全體的ＨＰ！"
+      },
+      "Txt_FieldMenu_Misc_EXPLAN_02": {
+        "SelfId": "Txt_FieldMenu_Misc_EXPLAN_02",
+        "Text": "用最有效率的方式\r\n將全體的ＨＰ\r\n補至幾乎全滿！"
+      },
+      "Txt_FieldMenu_Misc_EXPLAN_04": {
+        "SelfId": "Txt_FieldMenu_Misc_EXPLAN_04",
+        "Text": "替換與怪物\r\n戰鬥時的\r\n排列順序"
+      },
+      "Txt_FieldMenu_Misc_EXPLAN_05": {
+        "SelfId": "Txt_FieldMenu_Misc_EXPLAN_05",
+        "Text": "替換與怪物\r\n戰鬥時的\r\n作戰策略"
+      },
+      "Txt_FieldMenu_Misc_EXPLAN_06": {
+        "SelfId": "Txt_FieldMenu_Misc_EXPLAN_06",
+        "Text": "確認各式各樣\r\n對冒險有幫助的\r\n資訊"
+      },
+      "Txt_FieldMenu_Misc_EXPLAN_07": {
+        "SelfId": "Txt_FieldMenu_Misc_EXPLAN_07",
+        "Text": "確認\r\n各式各樣的\r\n冒險紀錄"
+      },
+      "Txt_FieldMenu_Misc_EXPLAN_08": {
+        "SelfId": "Txt_FieldMenu_Misc_EXPLAN_08",
+        "Text": "調整各種\r\n遊戲設定"
+      },
+      "Txt_FieldMenu_Misc_EXPLAN_09": {
+        "SelfId": "Txt_FieldMenu_Misc_EXPLAN_09",
+        "Text": "中斷冒險\r\n返回標題"
+      },
+      "Txt_FieldMenu_Misc_EXPLAN_10": {
+        "SelfId": "Txt_FieldMenu_Misc_EXPLAN_10",
+        "Text": "放棄冒險\r\n返回標題"
+      },
+      "Txt_FieldMenu_Misc_EXPLAN_11": {
+        "SelfId": "Txt_FieldMenu_Misc_EXPLAN_11",
+        "Text": "調整遊玩環境的設定\r\n※全冒險之書共通"
+      },
+      "Txt_FieldMenu_Misc_SORTMENU": {
+        "SelfId": "Txt_FieldMenu_Misc_SORTMENU",
+        "Text": "檢視"
+      },
+      "Txt_FieldMenu_Misc_SORT_01": {
+        "SelfId": "Txt_FieldMenu_Misc_SORT_01",
+        "Text": "能力值"
+      },
+      "Txt_FieldMenu_Misc_SORT_02": {
+        "SelfId": "Txt_FieldMenu_Misc_SORT_02",
+        "Text": "全部"
+      },
+      "Txt_FieldMenu_Misc_SORT_03": {
+        "SelfId": "Txt_FieldMenu_Misc_SORT_03",
+        "Text": "咒文"
+      },
+      "Txt_FieldMenu_Misc_SORT_04": {
+        "SelfId": "Txt_FieldMenu_Misc_SORT_04",
+        "Text": "特技"
+      },
+      "Txt_FieldMenu_Misc_PARAMETER_GUIDE_01": {
+        "SelfId": "Txt_FieldMenu_Misc_PARAMETER_GUIDE_01",
+        "Text": "能力值"
+      },
+      "Txt_FieldMenu_Misc_PARAMETER_GUIDE_03": {
+        "SelfId": "Txt_FieldMenu_Misc_PARAMETER_GUIDE_03",
+        "Text": "咒文"
+      },
+      "Txt_FieldMenu_Misc_PARAMETER_GUIDE_04": {
+        "SelfId": "Txt_FieldMenu_Misc_PARAMETER_GUIDE_04",
+        "Text": "特技"
+      },
+      "Txt_FieldMenu_Misc_TACTICSGUIDE": {
+        "SelfId": "Txt_FieldMenu_Misc_TACTICSGUIDE",
+        "Text": "要變更誰的作戰？"
+      },
+      "Txt_FieldMenu_Misc_TACTICSMENU_01": {
+        "SelfId": "Txt_FieldMenu_Misc_TACTICSMENU_01",
+        "Text": "全力進攻囉"
+      },
+      "Txt_FieldMenu_Misc_TACTICSMENU_02": {
+        "SelfId": "Txt_FieldMenu_Misc_TACTICSMENU_02",
+        "Text": "視狀況努力應戰"
+      },
+      "Txt_FieldMenu_Misc_TACTICSMENU_03": {
+        "SelfId": "Txt_FieldMenu_Misc_TACTICSMENU_03",
+        "Text": "珍惜生命"
+      },
+      "Txt_FieldMenu_Misc_TACTICSMENU_04": {
+        "SelfId": "Txt_FieldMenu_Misc_TACTICSMENU_04",
+        "Text": "不使用ＭＰ"
+      },
+      "Txt_FieldMenu_Misc_TACTICSMENU_05": {
+        "SelfId": "Txt_FieldMenu_Misc_TACTICSMENU_05",
+        "Text": "全部交給我"
+      },
+      "Txt_FieldMenu_Misc_TACTICSMENU_06": {
+        "SelfId": "Txt_FieldMenu_Misc_TACTICSMENU_06",
+        "Text": "由我指示"
+      },
+      "Txt_FieldMenu_Misc_TACTICSEXPLAN_01": {
+        "SelfId": "Txt_FieldMenu_Misc_TACTICSEXPLAN_01",
+        "Text": "不在乎消耗ＭＰ\r\n盡全力\r\n發動攻擊"
+      },
+      "Txt_FieldMenu_Misc_TACTICSEXPLAN_02": {
+        "SelfId": "Txt_FieldMenu_Misc_TACTICSEXPLAN_02",
+        "Text": "使用咒文與特技\r\n留意攻守均衡\r\n妥善應戰"
+      },
+      "Txt_FieldMenu_Misc_TACTICSEXPLAN_03": {
+        "SelfId": "Txt_FieldMenu_Misc_TACTICSEXPLAN_03",
+        "Text": "以不死亡為\r\n最優先前提\r\n恢復體力審慎應戰"
+      },
+      "Txt_FieldMenu_Misc_TACTICSEXPLAN_04": {
+        "SelfId": "Txt_FieldMenu_Misc_TACTICSEXPLAN_04",
+        "Text": "無論發生什麼事\r\n都不會使用ＭＰ的\r\n超節省模式"
+      },
+      "Txt_FieldMenu_Misc_TACTICSEXPLAN_05": {
+        "SelfId": "Txt_FieldMenu_Misc_TACTICSEXPLAN_05",
+        "Text": "交由主角進攻\r\n以支援和恢復為主\r\n採取行動"
+      },
+      "Txt_FieldMenu_Misc_TACTICSEXPLAN_06": {
+        "SelfId": "Txt_FieldMenu_Misc_TACTICSEXPLAN_06",
+        "Text": "不依據作戰方針\r\n只聽從主角命令\r\n採取行動"
+      },
+      "Txt_FieldMenu_Misc_TUTORIALGUIDE": {
+        "SelfId": "Txt_FieldMenu_Misc_TUTORIALGUIDE",
+        "Text": "選擇旅途心得"
+      },
+      "Txt_FieldMenu_Misc_SETTINGMENU_0100": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMENU_0100",
+        "Text": "戰鬥速度設定"
+      },
+      "Txt_FieldMenu_Misc_SETTINGMENU_0200": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMENU_0200",
+        "Text": "畫面設定"
+      },
+      "Txt_FieldMenu_Misc_SETTINGMENU_0300": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMENU_0300",
+        "Text": "聲音設定"
+      },
+      "Txt_FieldMenu_Misc_SETTINGMENU_0350": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMENU_0350",
+        "Text": "指引功能設定"
+      },
+      "Txt_FieldMenu_Misc_SETTINGMENU_0371": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMENU_0371",
+        "Text": "遊玩模式設定"
+      },
+      "Txt_FieldMenu_Misc_SETTINGMENU_0375": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMENU_0375",
+        "Text": "便捷功能設定"
+      },
+      "Txt_FieldMenu_Misc_SETTINGMENU_0400": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMENU_0400",
+        "Text": "<ERROR!>"
+      },
+      "Txt_FieldMenu_Misc_SETTINGMENU_0500": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMENU_0500",
+        "Text": "<ERROR!>"
+      },
+      "Txt_FieldMenu_Misc_SETTINGMENU_0550": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMENU_0550",
+        "Text": "語言設定"
+      },
+      "Txt_FieldMenu_Misc_SETTINGMENU_0575": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMENU_0575",
+        "Text": "遊玩環境設定"
+      },
+      "Txt_FieldMenu_Misc_SETTINGMENU_0600": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMENU_0600",
+        "Text": "鍵盤設定"
+      },
+      "Txt_FieldMenu_Misc_SETTINGMENU_0700": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMENU_0700",
+        "Text": "確定鍵設定"
+      },
+      "Txt_FieldMenu_Misc_SETTINGMENU_0700_PS5": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMENU_0700_PS5",
+        "Text": "確定按鈕設定"
+      },
+      "Txt_FieldMenu_Misc_SETTINGMENU_0700_Xbox": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMENU_0700_Xbox",
+        "Text": "確定鍵設定"
+      },
+      "Txt_FieldMenu_Misc_SETTINGMENU_0700_PC": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMENU_0700_PC",
+        "Text": "確定鍵設定"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0110": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0110",
+        "Text": "一般戰鬥"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0115": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0115",
+        "Text": "怪物競技"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0210": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0210",
+        "Text": "亮度"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0220": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0220",
+        "Text": "視角"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0230": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0230",
+        "Text": "小地圖"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0240": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0240",
+        "Text": "小地圖顯示範圍"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0250": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0250",
+        "Text": "執行模式"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0310": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0310",
+        "Text": "ＢＧＭ"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0315": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0315",
+        "Text": "環境音"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0320": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0320",
+        "Text": "音效"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0330": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0330",
+        "Text": "語音"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0340": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0340",
+        "Text": "自動播放語音"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0360": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0360",
+        "Text": "目的指引文字"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0370": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0370",
+        "Text": "目的地標記"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0371": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0371",
+        "Text": "遊玩模式"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0375": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0375",
+        "Text": "衝刺"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0380": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0380",
+        "Text": "顯示訊息"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0560": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0560",
+        "Text": "文字"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0570": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0570",
+        "Text": "語音"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0575": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0575",
+        "Text": "視窗設定"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0585": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0585",
+        "Text": "圖像設定"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0595": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0595",
+        "Text": "操作設定"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEM_0000": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEM_0000",
+        "Text": "決定"
+      },
+      "Txt_FieldMenu_Misc_SETTINGDEFAULT": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGDEFAULT",
+        "Text": "恢復為預設設定"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEM_0100": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEM_0100",
+        "Text": "視窗模式"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEM_0110": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEM_0110",
+        "Text": "解析度"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEM_0120": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEM_0120",
+        "Text": "幀率"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEM_0130": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEM_0130",
+        "Text": "垂直同步"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEM_0200": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEM_0200",
+        "Text": "預設選項"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEM_0210": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEM_0210",
+        "Text": "陰影品質"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEM_0215": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEM_0215",
+        "Text": "陰影範圍"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEM_0220": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEM_0220",
+        "Text": "反鋸齒"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEM_0230": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEM_0230",
+        "Text": "紋理品質"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEM_0240": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEM_0240",
+        "Text": "渲染程度"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEM_0250": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEM_0250",
+        "Text": "ＡＯ"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEM_0260": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEM_0260",
+        "Text": "景深"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEM_0300": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEM_0300",
+        "Text": "鎖定游標"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEM_0310": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEM_0310",
+        "Text": "閒置時的聲音"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEM_0320": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEM_0320",
+        "Text": "閒置時的操作"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0110": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0110",
+        "Text": "變更\r\n戰鬥時的\r\n進行速度"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0115": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0115",
+        "Text": "變更\r\n怪物競技時的\r\n進行速度"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0210": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0210",
+        "Text": "變更\r\n畫面的亮度設定"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0220": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0220",
+        "Text": "變更視角的距離"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0230": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0230",
+        "Text": "設定\r\n是否顯示小地圖"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0240": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0240",
+        "Text": "設定原野畫面上\r\n小地圖所顯示的大小"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0250": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0250",
+        "Text": "設定\r\n執行優先度"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0310": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0310",
+        "Text": "設定\r\nＢＧＭ的音量"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0315": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0315",
+        "Text": "設定\r\n環境音的音量"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0320": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0320",
+        "Text": "設定\r\n音效的音量"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0330": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0330",
+        "Text": "設定\r\n語音的音量"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0340": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0340",
+        "Text": "自動播放\r\n語音訊息"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0360": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0360",
+        "Text": "設定是否顯示\r\n文字指引"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0370": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0370",
+        "Text": "設定\r\n是否顯示\r\n目的地標記"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0371_01": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0371_01",
+        "Text": "讓戰鬥變得超簡單！\r\n想要輕鬆推進劇情\r\n或打不贏強敵時選這個！"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0371_02": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0371_02",
+        "Text": "可用推薦的平衡性\r\n來進行遊戲。\r\n有選擇困難的人選這個！"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0371_03": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0371_03",
+        "Text": "適合追求挑戰性的人！\r\n敵人會變強，獲得的\r\n經驗值和金錢會減少。"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0375": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0375",
+        "Text": "切換衝刺時的\r\n操作方式"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0380": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0380",
+        "Text": "設定\r\n訊息的\r\n顯示方式"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0560": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0560",
+        "Text": "設定\r\n文字的語言\r\n※全冒險之書共通"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0570": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0570",
+        "Text": "設定\r\n語音的語言\r\n※全冒險之書共通"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0575": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0575",
+        "Text": "變更\r\n在螢幕上\r\n遊玩時的設定"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0585": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0585",
+        "Text": "變更\r\n圖像相關設定"
+      },
+      "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0595": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGITEMEXPLAN_0595",
+        "Text": "變更\r\n閒置設定以及\r\n滑鼠動作等設定"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0100": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0100",
+        "Text": "變更\r\n視窗模式"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0110": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0110",
+        "Text": "變更\r\n遊玩期間的\r\n解析度"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0120": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0120",
+        "Text": "變更\r\n遊玩期間的幀率"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0130": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0130",
+        "Text": "設定\r\n是否開啟\r\n垂直同步"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0200": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0200",
+        "Text": "統一調整\r\n圖像設定"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0210": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0210",
+        "Text": "變更\r\n遊戲中的\r\n陰影品質"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0215": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0215",
+        "Text": "變更\r\n遊戲中的\r\n陰影範圍"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0220": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0220",
+        "Text": "調高設定\r\n使畫面呈現\r\n更加平滑"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0230": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0230",
+        "Text": "調高設定\r\n可改善\r\n紋理品質"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0240": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0240",
+        "Text": "調高設定\r\n會依照所設定的\r\n解析度呈現畫面"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0250": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0250",
+        "Text": "調高設定\r\n可改善\r\n光影品質"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0260": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0260",
+        "Text": "設定\r\n是否開啟\r\n遠景模糊效果"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0300": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0300",
+        "Text": "將滑鼠游標\r\n鎖定在視窗內"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0310": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0310",
+        "Text": "閒置時\r\n也會播放聲音"
+      },
+      "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0320": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGPCITEMEXPLAN_0320",
+        "Text": "閒置時\r\n也能操作\r\n遊戲控制器"
+      },
+      "Txt_FieldMenu_Misc_SETTINGSPEED_010": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGSPEED_010",
+        "Text": "普通"
+      },
+      "Txt_FieldMenu_Misc_SETTINGSPEED_020": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGSPEED_020",
+        "Text": "快"
+      },
+      "Txt_FieldMenu_Misc_SETTINGSPEED_030": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGSPEED_030",
+        "Text": "超快"
+      },
+      "Txt_FieldMenu_Misc_SETTINGLIGHT_010": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGLIGHT_010",
+        "Text": "亮"
+      },
+      "Txt_FieldMenu_Misc_SETTINGLIGHT_020": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGLIGHT_020",
+        "Text": "暗"
+      },
+      "Txt_FieldMenu_Misc_SETTINGLIGHT_VALUE": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGLIGHT_VALUE",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Misc_SETTINGMINIMAP_010": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMINIMAP_010",
+        "Text": "小"
+      },
+      "Txt_FieldMenu_Misc_SETTINGMINIMAP_020": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMINIMAP_020",
+        "Text": "大"
+      },
+      "Txt_FieldMenu_Misc_SETTINGGAMEMODE_010": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGGAMEMODE_010",
+        "Text": "休閒遊玩"
+      },
+      "Txt_FieldMenu_Misc_SETTINGGAMEMODE_020": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGGAMEMODE_020",
+        "Text": "順暢冒險"
+      },
+      "Txt_FieldMenu_Misc_SETTINGGAMEMODE_030": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGGAMEMODE_030",
+        "Text": "荊棘之路"
+      },
+      "Txt_FieldMenu_Misc_SETTINGMODE_PERFORMANCE": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMODE_PERFORMANCE",
+        "Text": "FPS優先"
+      },
+      "Txt_FieldMenu_Misc_SETTINGMODE_QUALITY": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMODE_QUALITY",
+        "Text": "畫質優先"
+      },
+      "Txt_FieldMenu_Misc_SETTINGCAMERA_010": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGCAMERA_010",
+        "Text": "近"
+      },
+      "Txt_FieldMenu_Misc_SETTINGCAMERA_020": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGCAMERA_020",
+        "Text": "普通"
+      },
+      "Txt_FieldMenu_Misc_SETTINGSOUND_010": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGSOUND_010",
+        "Text": "大"
+      },
+      "Txt_FieldMenu_Misc_SETTINGSOUND_020": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGSOUND_020",
+        "Text": "小"
+      },
+      "Txt_FieldMenu_Misc_SETTINGSOUND_VALUE": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGSOUND_VALUE",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Misc_SETTINGSOUND_VALUENONE": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGSOUND_VALUENONE",
+        "Text": "無"
+      },
+      "Txt_FieldMenu_Misc_SETTINGDASH_PUSH": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGDASH_PUSH",
+        "Text": "按下"
+      },
+      "Txt_FieldMenu_Misc_SETTINGDASH_TOGGLE": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGDASH_TOGGLE",
+        "Text": "切換"
+      },
+      "Txt_FieldMenu_Misc_SETTINGMESSAGE_NORMAL": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMESSAGE_NORMAL",
+        "Text": "正常"
+      },
+      "Txt_FieldMenu_Misc_SETTINGMESSAGE_FAST": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGMESSAGE_FAST",
+        "Text": "最快"
+      },
+      "Txt_FieldMenu_Misc_SETTINGWINDOW_WINDOW": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGWINDOW_WINDOW",
+        "Text": "視窗"
+      },
+      "Txt_FieldMenu_Misc_SETTINGWINDOW_BORDERLESS": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGWINDOW_BORDERLESS",
+        "Text": "無邊框"
+      },
+      "Txt_FieldMenu_Misc_SETTINGWINDOW_FULL": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGWINDOW_FULL",
+        "Text": "全螢幕"
+      },
+      "Txt_FieldMenu_Misc_SETTINGRESOLUTION_010": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGRESOLUTION_010",
+        "Text": "1280×720"
+      },
+      "Txt_FieldMenu_Misc_SETTINGRESOLUTION_020": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGRESOLUTION_020",
+        "Text": "1920×1080"
+      },
+      "Txt_FieldMenu_Misc_SETTINGRESOLUTION_030": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGRESOLUTION_030",
+        "Text": "2560×1440"
+      },
+      "Txt_FieldMenu_Misc_SETTINGRESOLUTION_040": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGRESOLUTION_040",
+        "Text": "3840×2160"
+      },
+      "Txt_FieldMenu_Misc_SETTINGFPS_030": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGFPS_030",
+        "Text": "30FPS"
+      },
+      "Txt_FieldMenu_Misc_SETTINGFPS_060": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGFPS_060",
+        "Text": "60FPS"
+      },
+      "Txt_FieldMenu_Misc_SETTINGGRAPHICPRESET_CUSTOM": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGGRAPHICPRESET_CUSTOM",
+        "Text": "自訂"
+      },
+      "Txt_FieldMenu_Misc_SETTINGGRAPHICPRESET_HIGH": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGGRAPHICPRESET_HIGH",
+        "Text": "最高"
+      },
+      "Txt_FieldMenu_Misc_SETTINGGRAPHICPRESET_MIDDLE": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGGRAPHICPRESET_MIDDLE",
+        "Text": "中"
+      },
+      "Txt_FieldMenu_Misc_SETTINGGRAPHICPRESET_LOW": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGGRAPHICPRESET_LOW",
+        "Text": "最低"
+      },
+      "Txt_FieldMenu_Misc_SETTINGGRAPHIC_HIGH": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGGRAPHIC_HIGH",
+        "Text": "高"
+      },
+      "Txt_FieldMenu_Misc_SETTINGGRAPHIC_LOW": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGGRAPHIC_LOW",
+        "Text": "低"
+      },
+      "Txt_FieldMenu_Misc_SETTINGCOMMON_ON": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGCOMMON_ON",
+        "Text": "開"
+      },
+      "Txt_FieldMenu_Misc_SETTINGCOMMON_OFF": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGCOMMON_OFF",
+        "Text": "關"
+      },
+      "Txt_FieldMenu_Misc_SETTINGTEXTOPTION_ON": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGTEXTOPTION_ON",
+        "Text": "是"
+      },
+      "Txt_FieldMenu_Misc_SETTINGTEXTOPTION_OFF": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGTEXTOPTION_OFF",
+        "Text": "否"
+      },
+      "Txt_FieldMenu_Misc_SETTING_MEMORYGUIDE": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTING_MEMORYGUIDE",
+        "Text": "GPU記憶體使用率"
+      },
+      "Txt_FieldMenu_Misc_SETTING_MEMORY": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTING_MEMORY",
+        "Text": "{0} ＧＢ / {1} ＧＢ"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_00": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_00",
+        "Text": "確定"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_01": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_01",
+        "Text": "取消"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_02": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_02",
+        "Text": "向上移動"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_03": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_03",
+        "Text": "向右移動"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_04": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_04",
+        "Text": "向左移動"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_05": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_05",
+        "Text": "向下移動"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_06": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_06",
+        "Text": "選單"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_07": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_07",
+        "Text": "地圖"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_08": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_08",
+        "Text": "上一頁"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_09": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_09",
+        "Text": "下一頁"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_10": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_10",
+        "Text": "更改為前一名裝備者"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_11": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_11",
+        "Text": "更改為後一名裝備者"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_12": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_12",
+        "Text": "衝刺"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_13": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_13",
+        "Text": "重置捲動"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_14": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_14",
+        "Text": "游標預設"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_15": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_15",
+        "Text": "游標向上移動"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_16": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_16",
+        "Text": "游標向右移動"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_17": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_17",
+        "Text": "游標向左移動"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_18": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_18",
+        "Text": "游標向下移動"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_19": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_19",
+        "Text": "回憶記憶"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_20": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_20",
+        "Text": "切換UI顯示"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_CANCEL": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_CANCEL",
+        "Text": "如果在確定變更前直接返回，\r\n則已變更的操作將會被取消。\r\n確定要繼續嗎？"
+      },
+      "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_DUPLICATE_WARNING": {
+        "SelfId": "Txt_FieldMenu_Misc_SETTINGKEYCONFIG_DUPLICATE_WARNING",
+        "Text": "有重複使用的操作設置，\r\n因此無法確定。\r\n請重新設定部分操作設置。"
+      },
+      "Txt_FieldMenu_Map_NONE": {
+        "SelfId": "Txt_FieldMenu_Map_NONE",
+        "Text": "尚未記錄可移動的地點"
+      },
+      "Txt_FieldMenu_Record_List_010": {
+        "SelfId": "Txt_FieldMenu_Record_List_010",
+        "Text": "討伐怪物清單"
+      },
+      "Txt_FieldMenu_Record_List_020": {
+        "SelfId": "Txt_FieldMenu_Record_List_020",
+        "Text": "收集道具清單"
+      },
+      "Txt_FieldMenu_Record_List_030": {
+        "SelfId": "Txt_FieldMenu_Record_List_030",
+        "Text": "收集裝備清單"
+      },
+      "Txt_FieldMenu_Record_List_040": {
+        "SelfId": "Txt_FieldMenu_Record_List_040",
+        "Text": "習得咒文"
+      },
+      "Txt_FieldMenu_Record_List_050": {
+        "SelfId": "Txt_FieldMenu_Record_List_050",
+        "Text": "習得特技"
+      },
+      "Txt_FieldMenu_Record_Topic_010": {
+        "SelfId": "Txt_FieldMenu_Record_Topic_010",
+        "Text": "冒險時間"
+      },
+      "Txt_FieldMenu_Record_Topic_020": {
+        "SelfId": "Txt_FieldMenu_Record_Topic_020",
+        "Text": "戰鬥勝利次數"
+      },
+      "Txt_FieldMenu_Record_Topic_030": {
+        "SelfId": "Txt_FieldMenu_Record_Topic_030",
+        "Text": "逃走次數"
+      },
+      "Txt_FieldMenu_Record_Topic_040": {
+        "SelfId": "Txt_FieldMenu_Record_Topic_040",
+        "Text": "全滅次數"
+      },
+      "Txt_FieldMenu_Record_Topic_050": {
+        "SelfId": "Txt_FieldMenu_Record_Topic_050",
+        "Text": "打倒過的怪物數量"
+      },
+      "Txt_FieldMenu_Record_Topic_060": {
+        "SelfId": "Txt_FieldMenu_Record_Topic_060",
+        "Text": "打倒過的怪物種類"
+      },
+      "Txt_FieldMenu_Record_Topic_070": {
+        "SelfId": "Txt_FieldMenu_Record_Topic_070",
+        "Text": "收集到的道具種類"
+      },
+      "Txt_FieldMenu_Record_Topic_080": {
+        "SelfId": "Txt_FieldMenu_Record_Topic_080",
+        "Text": "累積金幣數"
+      },
+      "Txt_FieldMenu_Record_Topic_090": {
+        "SelfId": "Txt_FieldMenu_Record_Topic_090",
+        "Text": "獲得小徽章枚數"
+      },
+      "Txt_FieldMenu_Record_Topic_100": {
+        "SelfId": "Txt_FieldMenu_Record_Topic_100",
+        "Text": "怪物競技最高到達級別"
+      },
+      "Txt_FieldMenu_Record_Topic_110": {
+        "SelfId": "Txt_FieldMenu_Record_Topic_110",
+        "Text": "怪物競技勝利次數"
+      },
+      "Txt_FieldMenu_Record_Topic_120": {
+        "SelfId": "Txt_FieldMenu_Record_Topic_120",
+        "Text": "收集到的怪物數量"
+      },
+      "Txt_FieldMenu_Record_Topic_130": {
+        "SelfId": "Txt_FieldMenu_Record_Topic_130",
+        "Text": "收集到的怪物種類"
+      },
+      "Txt_FieldMenu_Record_AllMP": {
+        "SelfId": "Txt_FieldMenu_Record_AllMP",
+        "Text": "全部"
+      },
+      "Txt_FieldMenu_Record_Param_010": {
+        "SelfId": "Txt_FieldMenu_Record_Param_010",
+        "Text": "{0}小時　{1}分"
+      },
+      "Txt_FieldMenu_Record_Param_020": {
+        "SelfId": "Txt_FieldMenu_Record_Param_020",
+        "Text": "{0}次"
+      },
+      "Txt_FieldMenu_Record_Param_030": {
+        "SelfId": "Txt_FieldMenu_Record_Param_030",
+        "Text": "{0}次"
+      },
+      "Txt_FieldMenu_Record_Param_040": {
+        "SelfId": "Txt_FieldMenu_Record_Param_040",
+        "Text": "{0}次"
+      },
+      "Txt_FieldMenu_Record_Param_050": {
+        "SelfId": "Txt_FieldMenu_Record_Param_050",
+        "Text": "{0}隻"
+      },
+      "Txt_FieldMenu_Record_Param_060": {
+        "SelfId": "Txt_FieldMenu_Record_Param_060",
+        "Text": "{0}/{1}"
+      },
+      "Txt_FieldMenu_Record_Param_070": {
+        "SelfId": "Txt_FieldMenu_Record_Param_070",
+        "Text": "{0}/{1}"
+      },
+      "Txt_FieldMenu_Record_Param_080": {
+        "SelfId": "Txt_FieldMenu_Record_Param_080",
+        "Text": "{0}Ｇ"
+      },
+      "Txt_FieldMenu_Record_Param_090": {
+        "SelfId": "Txt_FieldMenu_Record_Param_090",
+        "Text": "{0}枚"
+      },
+      "Txt_FieldMenu_Record_Param_100": {
+        "SelfId": "Txt_FieldMenu_Record_Param_100",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Record_Param_110": {
+        "SelfId": "Txt_FieldMenu_Record_Param_110",
+        "Text": "{0}次"
+      },
+      "Txt_FieldMenu_Record_Param_120": {
+        "SelfId": "Txt_FieldMenu_Record_Param_120",
+        "Text": "{0}隻"
+      },
+      "Txt_FieldMenu_Record_Param_130": {
+        "SelfId": "Txt_FieldMenu_Record_Param_130",
+        "Text": "{0}種"
+      },
+      "Txt_FieldMenu_Record_MonsterList_Guide": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterList_Guide",
+        "Text": "選擇怪物"
+      },
+      "Txt_FieldMenu_Record_MonsterList_Sort_010": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterList_Sort_010",
+        "Text": "依ID"
+      },
+      "Txt_FieldMenu_Record_MonsterList_Sort_020": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterList_Sort_020",
+        "Text": "依筆畫"
+      },
+      "Txt_FieldMenu_Record_MonsterList_Topic_010": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterList_Topic_010",
+        "Text": "經驗值"
+      },
+      "Txt_FieldMenu_Record_MonsterList_Topic_020": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterList_Topic_020",
+        "Text": "金幣"
+      },
+      "Txt_FieldMenu_Record_MonsterList_Topic_030": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterList_Topic_030",
+        "Text": "打倒的數量"
+      },
+      "Txt_FieldMenu_Record_MonsterList_Topic_040": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterList_Topic_040",
+        "Text": "主要棲息地"
+      },
+      "Txt_FieldMenu_Record_MonsterList_Param_010": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterList_Param_010",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Record_MonsterList_Param_020": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterList_Param_020",
+        "Text": "{0}Ｇ"
+      },
+      "Txt_FieldMenu_Record_MonsterList_Param_030": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterList_Param_030",
+        "Text": "{0}隻"
+      },
+      "Txt_FieldMenu_Record_MonsterList_Param_040": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterList_Param_040",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Record_MonsterList_Param_041": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterList_Param_041",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Record_MonsterList_Param_999": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterList_Param_999",
+        "Text": "等"
+      },
+      "Txt_FieldMenu_Record_MonsterListDetail_Topic_010": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterListDetail_Topic_010",
+        "Text": "{0}：{1}"
+      },
+      "Txt_FieldMenu_Record_MonsterListDetail_Topic_020": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterListDetail_Topic_020",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Record_MonsterListDetail_Topic_030": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterListDetail_Topic_030",
+        "Text": "合計經驗值"
+      },
+      "Txt_FieldMenu_Record_MonsterListDetail_Topic_040": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterListDetail_Topic_040",
+        "Text": "合計金幣"
+      },
+      "Txt_FieldMenu_Record_MonsterListDetail_Topic_050": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterListDetail_Topic_050",
+        "Text": "獲得物品"
+      },
+      "Txt_FieldMenu_Record_MonsterListDetail_Param_030": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterListDetail_Param_030",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Record_MonsterListDetail_Param_040": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterListDetail_Param_040",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Record_MonsterListDetail_Param_050": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterListDetail_Param_050",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Record_MonsterListDetail_Param_050_Blank": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterListDetail_Param_050_Blank",
+        "Text": "無"
+      },
+      "Txt_FieldMenu_Record_MonsterListDetail_Topic_060": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterListDetail_Topic_060",
+        "Text": "小知識"
+      },
+      "Txt_FieldMenu_Record_MonsterListDetail_Param_060": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterListDetail_Param_060",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_Record_MonsterListDetail_ActionGuide": {
+        "SelfId": "Txt_FieldMenu_Record_MonsterListDetail_ActionGuide",
+        "Text": "行動"
+      },
+      "Txt_FieldMenu_STATUS_HPBar": {
+        "SelfId": "Txt_FieldMenu_STATUS_HPBar",
+        "Text": "ＨＰ"
+      },
+      "Txt_FieldMenu_STATUS_MPBar": {
+        "SelfId": "Txt_FieldMenu_STATUS_MPBar",
+        "Text": "ＭＰ"
+      },
+      "Txt_FieldMenu_STATUS_PARAMNAME_01": {
+        "SelfId": "Txt_FieldMenu_STATUS_PARAMNAME_01",
+        "Text": "HP"
+      },
+      "Txt_FieldMenu_STATUS_PARAMNAME_02": {
+        "SelfId": "Txt_FieldMenu_STATUS_PARAMNAME_02",
+        "Text": "MP"
+      },
+      "Txt_FieldMenu_STATUS_PARAMNAME_03": {
+        "SelfId": "Txt_FieldMenu_STATUS_PARAMNAME_03",
+        "Text": "攻擊力"
+      },
+      "Txt_FieldMenu_STATUS_PARAMNAME_04": {
+        "SelfId": "Txt_FieldMenu_STATUS_PARAMNAME_04",
+        "Text": "防禦力"
+      },
+      "Txt_FieldMenu_STATUS_PARAMNAME_05": {
+        "SelfId": "Txt_FieldMenu_STATUS_PARAMNAME_05",
+        "Text": "速度"
+      },
+      "Txt_FieldMenu_STATUS_PARAMNAME_06": {
+        "SelfId": "Txt_FieldMenu_STATUS_PARAMNAME_06",
+        "Text": "體力"
+      },
+      "Txt_FieldMenu_STATUS_PARAMNAME_07": {
+        "SelfId": "Txt_FieldMenu_STATUS_PARAMNAME_07",
+        "Text": "智力"
+      },
+      "Txt_FieldMenu_STATUS_PARAMNAME_08": {
+        "SelfId": "Txt_FieldMenu_STATUS_PARAMNAME_08",
+        "Text": "幸運"
+      },
+      "Txt_FieldMenu_STATUS_PARAMNAME_09": {
+        "SelfId": "Txt_FieldMenu_STATUS_PARAMNAME_09",
+        "Text": "力量"
+      },
+      "Txt_FieldMenu_STATUS_PARAMNAME_10": {
+        "SelfId": "Txt_FieldMenu_STATUS_PARAMNAME_10",
+        "Text": "耐力"
+      },
+      "Txt_FieldMenu_STATUS_PARAMNAME_11": {
+        "SelfId": "Txt_FieldMenu_STATUS_PARAMNAME_11",
+        "Text": "Ｌｖ"
+      },
+      "Txt_FieldMenu_STATUS_PARAMNAME_12": {
+        "SelfId": "Txt_FieldMenu_STATUS_PARAMNAME_12",
+        "Text": "經驗值"
+      },
+      "Txt_FieldMenu_STATUS_PARAMNAME_13": {
+        "SelfId": "Txt_FieldMenu_STATUS_PARAMNAME_13",
+        "Text": "距下個等級"
+      },
+      "Txt_FieldMenu_STATUS_PARAMNAME_14": {
+        "SelfId": "Txt_FieldMenu_STATUS_PARAMNAME_14",
+        "Text": "職業"
+      },
+      "Txt_FieldMenu_STATUS_PARAMNAME_15": {
+        "SelfId": "Txt_FieldMenu_STATUS_PARAMNAME_15",
+        "Text": "造型"
+      },
+      "Txt_FieldMenu_STATUS_PARAMNAME_16": {
+        "SelfId": "Txt_FieldMenu_STATUS_PARAMNAME_16",
+        "Text": "性格"
+      },
+      "Txt_FieldMenu_STATUS_PARAMNAME_17": {
+        "SelfId": "Txt_FieldMenu_STATUS_PARAMNAME_17",
+        "Text": "最大ＨＰ"
+      },
+      "Txt_FieldMenu_STATUS_PARAMNAME_18": {
+        "SelfId": "Txt_FieldMenu_STATUS_PARAMNAME_18",
+        "Text": "最大ＭＰ"
+      },
+      "Txt_FieldMenu_STATUS_PARAMNAME_19": {
+        "SelfId": "Txt_FieldMenu_STATUS_PARAMNAME_19",
+        "Text": "名字"
+      },
+      "Txt_FieldMenu_STATUS_Name_01": {
+        "SelfId": "Txt_FieldMenu_STATUS_Name_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_Name_02": {
+        "SelfId": "Txt_FieldMenu_STATUS_Name_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_Name_03": {
+        "SelfId": "Txt_FieldMenu_STATUS_Name_03",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_Name_04": {
+        "SelfId": "Txt_FieldMenu_STATUS_Name_04",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_Level_01": {
+        "SelfId": "Txt_FieldMenu_STATUS_Level_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_Level_02": {
+        "SelfId": "Txt_FieldMenu_STATUS_Level_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_Level_03": {
+        "SelfId": "Txt_FieldMenu_STATUS_Level_03",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_Level_04": {
+        "SelfId": "Txt_FieldMenu_STATUS_Level_04",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_Job_01": {
+        "SelfId": "Txt_FieldMenu_STATUS_Job_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_Job_02": {
+        "SelfId": "Txt_FieldMenu_STATUS_Job_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_Job_03": {
+        "SelfId": "Txt_FieldMenu_STATUS_Job_03",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_Job_04": {
+        "SelfId": "Txt_FieldMenu_STATUS_Job_04",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_HP_01": {
+        "SelfId": "Txt_FieldMenu_STATUS_HP_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_HP_02": {
+        "SelfId": "Txt_FieldMenu_STATUS_HP_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_HP_03": {
+        "SelfId": "Txt_FieldMenu_STATUS_HP_03",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_HP_04": {
+        "SelfId": "Txt_FieldMenu_STATUS_HP_04",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_MP_01": {
+        "SelfId": "Txt_FieldMenu_STATUS_MP_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_MP_02": {
+        "SelfId": "Txt_FieldMenu_STATUS_MP_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_MP_03": {
+        "SelfId": "Txt_FieldMenu_STATUS_MP_03",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_MP_04": {
+        "SelfId": "Txt_FieldMenu_STATUS_MP_04",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_MAXHP_01": {
+        "SelfId": "Txt_FieldMenu_STATUS_MAXHP_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_MAXHP_02": {
+        "SelfId": "Txt_FieldMenu_STATUS_MAXHP_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_MAXHP_03": {
+        "SelfId": "Txt_FieldMenu_STATUS_MAXHP_03",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_MAXHP_04": {
+        "SelfId": "Txt_FieldMenu_STATUS_MAXHP_04",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_MAXMP_01": {
+        "SelfId": "Txt_FieldMenu_STATUS_MAXMP_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_MAXMP_02": {
+        "SelfId": "Txt_FieldMenu_STATUS_MAXMP_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_MAXMP_03": {
+        "SelfId": "Txt_FieldMenu_STATUS_MAXMP_03",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_MAXMP_04": {
+        "SelfId": "Txt_FieldMenu_STATUS_MAXMP_04",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_REMAINHP_01": {
+        "SelfId": "Txt_FieldMenu_STATUS_REMAINHP_01",
+        "Text": "{0} / {1}"
+      },
+      "Txt_FieldMenu_STATUS_REMAINHP_02": {
+        "SelfId": "Txt_FieldMenu_STATUS_REMAINHP_02",
+        "Text": "{0} / {1}"
+      },
+      "Txt_FieldMenu_STATUS_REMAINHP_03": {
+        "SelfId": "Txt_FieldMenu_STATUS_REMAINHP_03",
+        "Text": "{0} / {1}"
+      },
+      "Txt_FieldMenu_STATUS_REMAINHP_04": {
+        "SelfId": "Txt_FieldMenu_STATUS_REMAINHP_04",
+        "Text": "{0} / {1}"
+      },
+      "Txt_FieldMenu_STATUS_REMAINMP_01": {
+        "SelfId": "Txt_FieldMenu_STATUS_REMAINMP_01",
+        "Text": "{0} / {1}"
+      },
+      "Txt_FieldMenu_STATUS_REMAINMP_02": {
+        "SelfId": "Txt_FieldMenu_STATUS_REMAINMP_02",
+        "Text": "{0} / {1}"
+      },
+      "Txt_FieldMenu_STATUS_REMAINMP_03": {
+        "SelfId": "Txt_FieldMenu_STATUS_REMAINMP_03",
+        "Text": "{0} / {1}"
+      },
+      "Txt_FieldMenu_STATUS_REMAINMP_04": {
+        "SelfId": "Txt_FieldMenu_STATUS_REMAINMP_04",
+        "Text": "{0} / {1}"
+      },
+      "Txt_FieldMenu_STATUS_POW_01": {
+        "SelfId": "Txt_FieldMenu_STATUS_POW_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_POW_02": {
+        "SelfId": "Txt_FieldMenu_STATUS_POW_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_POW_03": {
+        "SelfId": "Txt_FieldMenu_STATUS_POW_03",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_POW_04": {
+        "SelfId": "Txt_FieldMenu_STATUS_POW_04",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_GAR_01": {
+        "SelfId": "Txt_FieldMenu_STATUS_GAR_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_GAR_02": {
+        "SelfId": "Txt_FieldMenu_STATUS_GAR_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_GAR_03": {
+        "SelfId": "Txt_FieldMenu_STATUS_GAR_03",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_GAR_04": {
+        "SelfId": "Txt_FieldMenu_STATUS_GAR_04",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_ATK_01": {
+        "SelfId": "Txt_FieldMenu_STATUS_ATK_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_ATK_02": {
+        "SelfId": "Txt_FieldMenu_STATUS_ATK_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_ATK_03": {
+        "SelfId": "Txt_FieldMenu_STATUS_ATK_03",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_ATK_04": {
+        "SelfId": "Txt_FieldMenu_STATUS_ATK_04",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_DEF_01": {
+        "SelfId": "Txt_FieldMenu_STATUS_DEF_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_DEF_02": {
+        "SelfId": "Txt_FieldMenu_STATUS_DEF_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_DEF_03": {
+        "SelfId": "Txt_FieldMenu_STATUS_DEF_03",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_DEF_04": {
+        "SelfId": "Txt_FieldMenu_STATUS_DEF_04",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_SPD_01": {
+        "SelfId": "Txt_FieldMenu_STATUS_SPD_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_SPD_02": {
+        "SelfId": "Txt_FieldMenu_STATUS_SPD_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_SPD_03": {
+        "SelfId": "Txt_FieldMenu_STATUS_SPD_03",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_SPD_04": {
+        "SelfId": "Txt_FieldMenu_STATUS_SPD_04",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_STA_01": {
+        "SelfId": "Txt_FieldMenu_STATUS_STA_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_STA_02": {
+        "SelfId": "Txt_FieldMenu_STATUS_STA_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_STA_03": {
+        "SelfId": "Txt_FieldMenu_STATUS_STA_03",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_STA_04": {
+        "SelfId": "Txt_FieldMenu_STATUS_STA_04",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_INT_01": {
+        "SelfId": "Txt_FieldMenu_STATUS_INT_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_INT_02": {
+        "SelfId": "Txt_FieldMenu_STATUS_INT_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_INT_03": {
+        "SelfId": "Txt_FieldMenu_STATUS_INT_03",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_INT_04": {
+        "SelfId": "Txt_FieldMenu_STATUS_INT_04",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_LUC_01": {
+        "SelfId": "Txt_FieldMenu_STATUS_LUC_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_LUC_02": {
+        "SelfId": "Txt_FieldMenu_STATUS_LUC_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_LUC_03": {
+        "SelfId": "Txt_FieldMenu_STATUS_LUC_03",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_LUC_04": {
+        "SelfId": "Txt_FieldMenu_STATUS_LUC_04",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_EXP_01": {
+        "SelfId": "Txt_FieldMenu_STATUS_EXP_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_EXP_02": {
+        "SelfId": "Txt_FieldMenu_STATUS_EXP_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_EXP_03": {
+        "SelfId": "Txt_FieldMenu_STATUS_EXP_03",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_EXP_04": {
+        "SelfId": "Txt_FieldMenu_STATUS_EXP_04",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_NEXTLV_01": {
+        "SelfId": "Txt_FieldMenu_STATUS_NEXTLV_01",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_NEXTLV_02": {
+        "SelfId": "Txt_FieldMenu_STATUS_NEXTLV_02",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_NEXTLV_03": {
+        "SelfId": "Txt_FieldMenu_STATUS_NEXTLV_03",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_NEXTLV_04": {
+        "SelfId": "Txt_FieldMenu_STATUS_NEXTLV_04",
+        "Text": "{0}"
+      },
+      "Txt_FieldMenu_STATUS_EXP_BLANK": {
+        "SelfId": "Txt_FieldMenu_STATUS_EXP_BLANK",
+        "Text": "―――"
+      },
+      "Txt_FieldMenu_Message_Heal": {
+        "SelfId": "Txt_FieldMenu_Message_Heal",
+        "Text": "{WORD}的傷勢恢復了！"
+      },
+      "Txt_FieldMenu_Message_AllHeal": {
+        "SelfId": "Txt_FieldMenu_Message_AllHeal",
+        "Text": "{LEADER}一行的傷勢恢復了！"
+      },
+      "Txt_FieldMenu_Message_ConfirmSorting": {
+        "SelfId": "Txt_FieldMenu_Message_ConfirmSorting",
+        "Text": "除了裝備品和部分道具以外，\r\n其他物品都收進袋子裡。\r\n確定要繼續嗎？"
+      },
+      "Txt_FieldMenu_Message_FinishSorting": {
+        "SelfId": "Txt_FieldMenu_Message_FinishSorting",
+        "Text": "將裝備品和部分道具以外的物品\r\n收進了袋子。"
+      },
+      "Txt_FieldMenu_Message_NoneSorting": {
+        "SelfId": "Txt_FieldMenu_Message_NoneSorting",
+        "Text": "但是袋子已經滿了。"
+      },
+      "Txt_FieldMenu_Message_ItemUseDeath": {
+        "SelfId": "Txt_FieldMenu_Message_ItemUseDeath",
+        "Text": "{ACTOR}目前處於死亡狀態，\r\n無法使用{I_NAME}。"
+      },
+      "Txt_FieldMenu_Message_ItemUseParalysis": {
+        "SelfId": "Txt_FieldMenu_Message_ItemUseParalysis",
+        "Text": "{ACTOR}的身體麻痺，\r\n無法使用{I_NAME}。"
+      },
+      "Txt_FieldMenu_Message_ItemUseConfus": {
+        "SelfId": "Txt_FieldMenu_Message_ItemUseConfus",
+        "Text": "{ACTOR}目前處於混亂狀態，\r\n無法使用{I_NAME}。"
+      },
+      "Txt_FieldMenu_Message_ItemCannotUse": {
+        "SelfId": "Txt_FieldMenu_Message_ItemCannotUse",
+        "Text": "但是沒有人\r\n可以使用{I_NAME}。"
+      },
+      "Txt_FieldMenu_Message_ItemGetBagMax": {
+        "SelfId": "Txt_FieldMenu_Message_ItemGetBagMax",
+        "Text": "沒辦法再將{I_NAME}\r\n放進{BAG}裡了。"
+      },
+      "Txt_FieldMenu_Message_NoItem": {
+        "SelfId": "Txt_FieldMenu_Message_NoItem",
+        "Text": "{ACTOR}並未持有道具。"
+      },
+      "Txt_FieldMenu_Message_EmptyBag": {
+        "SelfId": "Txt_FieldMenu_Message_EmptyBag",
+        "Text": "袋子裡什麼都沒有！"
+      },
+      "Txt_FieldMenu_Message_Mantan_Fail": {
+        "SelfId": "Txt_FieldMenu_Message_Mantan_Fail",
+        "Text": "但是目前處於滿血狀態，\r\n所以什麼事都沒有發生！"
+      },
+      "Txt_FieldMenu_Message_AlmostMantan_Fail": {
+        "SelfId": "Txt_FieldMenu_Message_AlmostMantan_Fail",
+        "Text": "但是目前處於幾乎滿血狀態，\r\n所以什麼都沒有發生！"
+      },
+      "Txt_FieldMenu_Message_Mantan_FailMagic": {
+        "SelfId": "Txt_FieldMenu_Message_Mantan_FailMagic",
+        "Text": "但是無法詠唱咒文。"
+      },
+      "Txt_FieldMenu_Message_HandoverSelect": {
+        "SelfId": "Txt_FieldMenu_Message_HandoverSelect",
+        "Text": "要把{I_NAME}\r\n交給誰？<NO_INPUT>"
+      },
+      "Txt_FieldMenu_Message_HandoverResult_01": {
+        "SelfId": "Txt_FieldMenu_Message_HandoverResult_01",
+        "Text": "{ACTOR}把{I_NAME}\r\n交給了{TARGET}。"
+      },
+      "Txt_FieldMenu_Message_HandoverResult_02": {
+        "SelfId": "Txt_FieldMenu_Message_HandoverResult_02",
+        "Text": "{ACTOR}將{I_NAME}放進了\r\n{TARGET}的持有物品中。"
+      },
+      "Txt_FieldMenu_Message_HandoverResult_03": {
+        "SelfId": "Txt_FieldMenu_Message_HandoverResult_03",
+        "Text": "{ACTOR}交換了{I_NAME}。"
+      },
+      "Txt_FieldMenu_Message_HandoverResult_04": {
+        "SelfId": "Txt_FieldMenu_Message_HandoverResult_04",
+        "Text": "{TARGET}從{ACTOR}的持有物品中\r\n取出了{I_NAME}。"
+      },
+      "Txt_FieldMenu_Message_HandoverResult_05": {
+        "SelfId": "Txt_FieldMenu_Message_HandoverResult_05",
+        "Text": "{LEADER}從{ACTOR}的持有物品中\r\n取出{I_NAME}，放進了\r\n{TARGET}的持有物品中。"
+      },
+      "Txt_FieldMenu_Message_HandoverResult_06": {
+        "SelfId": "Txt_FieldMenu_Message_HandoverResult_06",
+        "Text": "{LEADER}從{ACTOR}的持有物品中\r\n取出{I_NAME}，放進了\r\n{ACTOR}的持有物品中。"
+      },
+      "Txt_FieldMenu_Message_HandoverResult_07": {
+        "SelfId": "Txt_FieldMenu_Message_HandoverResult_07",
+        "Text": "將{ACTOR}的{I_NAME}和\r\n{TARGET}的{I_NAME2}\r\n互相對調了。"
+      },
+      "Txt_FieldMenu_Message_HandoverResult_08": {
+        "SelfId": "Txt_FieldMenu_Message_HandoverResult_08",
+        "Text": "{LEADER}將{ACTOR}的{I_NAME}\r\n和{TARGET}的{I_NAME2}\r\n互相對調了。"
+      },
+      "Txt_FieldMenu_Message_HandoverResult_09": {
+        "SelfId": "Txt_FieldMenu_Message_HandoverResult_09",
+        "Text": "{ACTOR}將{I_NAME}\r\n放進了{BAG}。"
+      },
+      "Txt_FieldMenu_Message_HandoverResult_10": {
+        "SelfId": "Txt_FieldMenu_Message_HandoverResult_10",
+        "Text": "{TARGET}從{BAG}當中\r\n取出了{I_NAME}。"
+      },
+      "Txt_FieldMenu_Message_HandoverResult_11": {
+        "SelfId": "Txt_FieldMenu_Message_HandoverResult_11",
+        "Text": "{LEADER}從{ACTOR}的持有物品中\r\n取出{I_NAME}，\r\n放進了{BAG}。"
+      },
+      "Txt_FieldMenu_Message_HandoverResult_12": {
+        "SelfId": "Txt_FieldMenu_Message_HandoverResult_12",
+        "Text": "{LEADER}從{BAG}當中\r\n取出{I_NAME}，放進了\r\n{TARGET}的持有物品中。"
+      },
+      "Txt_FieldMenu_Message_HandoverResult_13": {
+        "SelfId": "Txt_FieldMenu_Message_HandoverResult_13",
+        "Text": "{LEADER}把{I_NAME}\r\n悄悄地放回了{BAG}。"
+      },
+      "Txt_FieldMenu_Message_HandoverResult_14": {
+        "SelfId": "Txt_FieldMenu_Message_HandoverResult_14",
+        "Text": "將{BAG}裡的{I_NAME}和\r\n{TARGET}的{I_NAME2}\r\n互相對調了。"
+      },
+      "Txt_FieldMenu_Message_HandoverResult_15": {
+        "SelfId": "Txt_FieldMenu_Message_HandoverResult_15",
+        "Text": "{LEADER}將{BAG}裡的{I_NAME}\r\n和{TARGET}的{I_NAME2}\r\n互相對調了。"
+      },
+      "Txt_FieldMenu_Message_HandoverCancel": {
+        "SelfId": "Txt_FieldMenu_Message_HandoverCancel",
+        "Text": "{LEADER}把{I_NAME}\r\n悄悄地放回了{BAG}。"
+      },
+      "Txt_FieldMenu_Message_HandoverImportant": {
+        "SelfId": "Txt_FieldMenu_Message_HandoverImportant",
+        "Text": "把{I_NAME}收起來吧。"
+      },
+      "Txt_FieldMenu_Message_HandoverEquip": {
+        "SelfId": "Txt_FieldMenu_Message_HandoverEquip",
+        "Text": "要裝備{I_NAME}嗎？"
+      },
+      "Txt_FieldMenu_Message_ExchangeCancel": {
+        "SelfId": "Txt_FieldMenu_Message_ExchangeCancel",
+        "Text": "決定\r\n不交換{I_NAME}。"
+      },
+      "Txt_FieldMenu_Message_ExchangeSelect": {
+        "SelfId": "Txt_FieldMenu_Message_ExchangeSelect",
+        "Text": "要和什麼交換？<NO_INPUT>"
+      },
+      "Txt_FieldMenu_Message_ReplaceSelect": {
+        "SelfId": "Txt_FieldMenu_Message_ReplaceSelect",
+        "Text": "要交換什麼？<NO_INPUT>"
+      },
+      "Txt_FieldMenu_Message_CurseLift": {
+        "SelfId": "Txt_FieldMenu_Message_CurseLift",
+        "Text": "由於詛咒的力量，\r\n無法從身上卸除{I_NAME}！"
+      },
+      "Txt_FieldMenu_Message_CurseOccur": {
+        "SelfId": "Txt_FieldMenu_Message_CurseOccur",
+        "Text": "{I_NAME}上\r\n施有詛咒！"
+      },
+      "Txt_FieldMenu_Message_SelectAccessorie": {
+        "SelfId": "Txt_FieldMenu_Message_SelectAccessorie",
+        "Text": "請選擇要裝備的部位。<NO_INPUT>"
+      },
+      "Txt_FieldMenu_Message_ShowNone": {
+        "SelfId": "Txt_FieldMenu_Message_ShowNone",
+        "Text": "夥伴當中沒有能夠鑑定物品的商人！"
+      },
+      "Txt_FieldMenu_Message_ShowDeath": {
+        "SelfId": "Txt_FieldMenu_Message_ShowDeath",
+        "Text": "{ACTOR}目前處於死亡狀態，\r\n無法查看身上的道具。"
+      },
+      "Txt_FieldMenu_Message_DumpCanNot": {
+        "SelfId": "Txt_FieldMenu_Message_DumpCanNot",
+        "Text": "怎麼可以丟棄這件物品呢！"
+      },
+      "Txt_FieldMenu_Message_DumpLare": {
+        "SelfId": "Txt_FieldMenu_Message_DumpLare",
+        "Text": "如果將{I_NAME}丟棄的話，\r\n可能就再也無法獲得這個物品了。\r\n真的確定要丟棄嗎？"
+      },
+      "Txt_FieldMenu_Message_DumpEquip": {
+        "SelfId": "Txt_FieldMenu_Message_DumpEquip",
+        "Text": "{I_NAME}目前正裝備中，\r\n確定要丟棄嗎？"
+      },
+      "Txt_FieldMenu_Message_DumpConfirm": {
+        "SelfId": "Txt_FieldMenu_Message_DumpConfirm",
+        "Text": "確定要丟棄\r\n{I_NAME}嗎？"
+      },
+      "Txt_FieldMenu_Message_DumpConfirmMultiple": {
+        "SelfId": "Txt_FieldMenu_Message_DumpConfirmMultiple",
+        "Text": "確定要丟棄\r\n{VALUE}個{I_NAME}嗎？"
+      },
+      "Txt_FieldMenu_Message_DumpResult": {
+        "SelfId": "Txt_FieldMenu_Message_DumpResult",
+        "Text": "丟棄了{I_NAME}。"
+      },
+      "Txt_FieldMenu_Message_DumpResultMultiple": {
+        "SelfId": "Txt_FieldMenu_Message_DumpResultMultiple",
+        "Text": "丟棄了{VALUE}個{I_NAME}。"
+      },
+      "Txt_FieldMenu_Message_DumpCancel": {
+        "SelfId": "Txt_FieldMenu_Message_DumpCancel",
+        "Text": "決定不丟棄{I_NAME}。"
+      },
+      "Txt_FieldMenu_Message_EquipOwner": {
+        "SelfId": "Txt_FieldMenu_Message_EquipOwner",
+        "Text": "這是{WORD}的持有物品，\r\n要交給{ACTOR}裝備嗎？"
+      },
+      "Txt_FieldMenu_Message_EquipRental": {
+        "SelfId": "Txt_FieldMenu_Message_EquipRental",
+        "Text": "目前無法變更裝備。"
+      },
+      "Txt_FieldMenu_Message_EquipEquipper": {
+        "SelfId": "Txt_FieldMenu_Message_EquipEquipper",
+        "Text": "{I_NAME}目前\r\n{WORD}正裝備中，\r\n要脫下來交給{ACTOR}裝備嗎？"
+      },
+      "Txt_FieldMenu_Message_EquipInventoryMax_01": {
+        "SelfId": "Txt_FieldMenu_Message_EquipInventoryMax_01",
+        "Text": "{ACTOR}的持有物品已滿，\r\n無法替換道具。"
+      },
+      "Txt_FieldMenu_Message_EquipInventoryMax_02": {
+        "SelfId": "Txt_FieldMenu_Message_EquipInventoryMax_02",
+        "Text": "要整理\r\n{ACTOR}的持有物品嗎？"
+      },
+      "Txt_FieldMenu_Message_EquipResult": {
+        "SelfId": "Txt_FieldMenu_Message_EquipResult",
+        "Text": "{ACTOR}裝備了\r\n{I_NAME}！"
+      },
+      "Txt_FieldMenu_Message_EquipUnequip": {
+        "SelfId": "Txt_FieldMenu_Message_EquipUnequip",
+        "Text": "{ACTOR}卸除了\r\n{I_NAME}。"
+      },
+      "Txt_FieldMenu_Message_EquipNothing": {
+        "SelfId": "Txt_FieldMenu_Message_EquipNothing",
+        "Text": "未持有可裝備的裝備品！"
+      },
+      "Txt_FieldMenu_Message_EquipAuto": {
+        "SelfId": "Txt_FieldMenu_Message_EquipAuto",
+        "Text": "{ACTOR}換上了\r\n更強的裝備品。"
+      },
+      "Txt_FieldMenu_Message_EquipAutoFailed": {
+        "SelfId": "Txt_FieldMenu_Message_EquipAutoFailed",
+        "Text": "{ACTOR}身上\r\n已穿戴最強的裝備品！"
+      },
+      "Txt_FieldMenu_Message_EquipReplaceAccessorie": {
+        "SelfId": "Txt_FieldMenu_Message_EquipReplaceAccessorie",
+        "Text": "{ACTOR}將裝備換成了{I_NAME}。"
+      },
+      "Txt_FieldMenu_Message_MemoryNone": {
+        "SelfId": "Txt_FieldMenu_Message_MemoryNone",
+        "Text": "但是什麼都想不起來。"
+      },
+      "Txt_FieldMenu_Message_MemoryDelete": {
+        "SelfId": "Txt_FieldMenu_Message_MemoryDelete",
+        "Text": "要忘卻這段回憶嗎？"
+      },
+      "Txt_FieldMenu_Message_MemoryDeleteResult": {
+        "SelfId": "Txt_FieldMenu_Message_MemoryDeleteResult",
+        "Text": "已忘卻這段回憶。"
+      },
+      "Txt_FieldMenu_Message_MagicNone": {
+        "SelfId": "Txt_FieldMenu_Message_MagicNone",
+        "Text": "{ACTOR}尚未學會\r\n任何咒文。"
+      },
+      "Txt_FieldMenu_Message_BattleMagic": {
+        "SelfId": "Txt_FieldMenu_Message_BattleMagic",
+        "Text": "此咒文無法\r\n在移動中使用。"
+      },
+      "Txt_FieldMenu_Message_MagicUse": {
+        "SelfId": "Txt_FieldMenu_Message_MagicUse",
+        "Text": "{ACTOR}詠唱了{WORD}！"
+      },
+      "Txt_FieldMenu_Message_MagicNotenoughMP": {
+        "SelfId": "Txt_FieldMenu_Message_MagicNotenoughMP",
+        "Text": "{ACTOR}試圖詠唱{WORD}。\r\n但是ＭＰ不足！"
+      },
+      "Txt_FieldMenu_Message_MagicUnskilled": {
+        "SelfId": "Txt_FieldMenu_Message_MagicUnskilled",
+        "Text": "尚未學會此咒文。"
+      },
+      "Txt_FieldMenu_Message_MagicUseDeath": {
+        "SelfId": "Txt_FieldMenu_Message_MagicUseDeath",
+        "Text": "{ACTOR}目前處於死亡狀態，\r\n無法詠唱咒文。"
+      },
+      "Txt_FieldMenu_Message_MagicUseParalysis": {
+        "SelfId": "Txt_FieldMenu_Message_MagicUseParalysis",
+        "Text": "{ACTOR}的身體麻痺，\r\n無法詠唱咒文。"
+      },
+      "Txt_FieldMenu_Message_MagicUseConfusion": {
+        "SelfId": "Txt_FieldMenu_Message_MagicUseConfusion",
+        "Text": "{ACTOR}目前處於混亂狀態，\r\n無法詠唱咒文。"
+      },
+      "Txt_FieldMenu_Message_SkillNone": {
+        "SelfId": "Txt_FieldMenu_Message_SkillNone",
+        "Text": "{ACTOR}尚未學會\r\n任何特技。"
+      },
+      "Txt_FieldMenu_Message_BattleSkill": {
+        "SelfId": "Txt_FieldMenu_Message_BattleSkill",
+        "Text": "此特技無法\r\n在移動中使用。"
+      },
+      "Txt_FieldMenu_Message_SkillNotenoughMP": {
+        "SelfId": "Txt_FieldMenu_Message_SkillNotenoughMP",
+        "Text": "{ACTOR}試圖使用{WORD}。\r\n但是ＭＰ不足！"
+      },
+      "Txt_FieldMenu_Message_SkillUnskilled": {
+        "SelfId": "Txt_FieldMenu_Message_SkillUnskilled",
+        "Text": "尚未學會此特技。"
+      },
+      "Txt_FieldMenu_Message_SkillUseDeath": {
+        "SelfId": "Txt_FieldMenu_Message_SkillUseDeath",
+        "Text": "{ACTOR}目前處於死亡狀態，\r\n無法使用特技。"
+      },
+      "Txt_FieldMenu_Message_SkillUseParalysis": {
+        "SelfId": "Txt_FieldMenu_Message_SkillUseParalysis",
+        "Text": "{ACTOR}的身體麻痺，\r\n無法使用特技。"
+      },
+      "Txt_FieldMenu_Message_SkillUseConfusion": {
+        "SelfId": "Txt_FieldMenu_Message_SkillUseConfusion",
+        "Text": "{ACTOR}目前處於混亂狀態，\r\n無法使用特技。"
+      },
+      "Txt_FieldMenu_Message_MiscLineupImpossible": {
+        "SelfId": "Txt_FieldMenu_Message_MiscLineupImpossible",
+        "Text": "目前沒有夥伴可以改變隊列。"
+      },
+      "Txt_FieldMenu_Message_MiscTextOptionConfirm_01": {
+        "SelfId": "Txt_FieldMenu_Message_MiscTextOptionConfirm_01",
+        "Text": "可以讓訊息<RUBY>顯示標音。\r\n要<RUBY>顯示標音嗎？"
+      },
+      "Txt_FieldMenu_Message_MiscTextOptionConfirm_02": {
+        "SelfId": "Txt_FieldMenu_Message_MiscTextOptionConfirm_02",
+        "Text": "要將設定更改為「全部標音」嗎？\r\n可以將遊戲中的文字\r\n全部轉換成假名顯示。"
+      },
+      "Txt_FieldMenu_Message_MiscTextOptionConfirm_01_off": {
+        "SelfId": "Txt_FieldMenu_Message_MiscTextOptionConfirm_01_off",
+        "Text": "<ERROR!>"
+      },
+      "Txt_FieldMenu_Message_MiscTextOptionConfirm_02_off": {
+        "SelfId": "Txt_FieldMenu_Message_MiscTextOptionConfirm_02_off",
+        "Text": "<ERROR!>"
+      },
+      "Txt_FieldMenu_Message_MiscTextOptionConfirm_03": {
+        "SelfId": "Txt_FieldMenu_Message_MiscTextOptionConfirm_03",
+        "Text": "要將控制器的\r\n確定鍵與取消鍵\r\n互換嗎？"
+      },
+      "Txt_FieldMenu_Message_MiscTextOptionConfirm_03_PS5": {
+        "SelfId": "Txt_FieldMenu_Message_MiscTextOptionConfirm_03_PS5",
+        "Text": "要將DualSense®無線控制器的\r\n確定按鈕與取消按鈕\r\n互換嗎？"
+      },
+      "Txt_FieldMenu_Message_MiscTextOptionConfirm_03_Xbox": {
+        "SelfId": "Txt_FieldMenu_Message_MiscTextOptionConfirm_03_Xbox",
+        "Text": "要將控制器的\r\n確定鍵與取消鍵\r\n互換嗎？"
+      },
+      "Txt_FieldMenu_Message_MiscTextOptionConfirm_03_PC": {
+        "SelfId": "Txt_FieldMenu_Message_MiscTextOptionConfirm_03_PC",
+        "Text": "要將控制器的\r\n確定鍵與取消鍵\r\n互換嗎？"
+      },
+      "Txt_FieldMenu_Message_MiscTextOptionNotice_Text": {
+        "SelfId": "Txt_FieldMenu_Message_MiscTextOptionNotice_Text",
+        "Text": "變更文字語言有可能導致\r\n角色名稱等部分文字無法正確顯示。\r\n此時只要還原設定即可恢復正常。"
+      },
+      "Txt_FieldMenu_Message_MiscTextOptionNotice_Voice": {
+        "SelfId": "Txt_FieldMenu_Message_MiscTextOptionNotice_Voice",
+        "Text": "如果語音和文字設定為不同語言，\r\n語音與文字內容可能會不完全一致。"
+      },
+      "Txt_FieldMenu_Message_Suspend": {
+        "SelfId": "Txt_FieldMenu_Message_Suspend",
+        "Text": "將儲存當前進度並返回標題畫面。\r\n確定要繼續嗎？"
+      },
+      "Txt_FieldMenu_Message_Suspend_Overwrite": {
+        "SelfId": "Txt_FieldMenu_Message_Suspend_Overwrite",
+        "Text": "已有一份中斷資料。\r\n確定要覆蓋原有的資料嗎？"
+      },
+      "Txt_FieldMenu_Message_Back_To_Title1": {
+        "SelfId": "Txt_FieldMenu_Message_Back_To_Title1",
+        "Text": "請確認最後的冒險之書。"
+      },
+      "Txt_FieldMenu_Message_Back_To_Title2": {
+        "SelfId": "Txt_FieldMenu_Message_Back_To_Title2",
+        "Text": "如果直接結束冒險，\r\n將會遺失尚未儲存的內容。"
+      },
+      "Txt_FieldMenu_Message_Back_To_Title3": {
+        "SelfId": "Txt_FieldMenu_Message_Back_To_Title3",
+        "Text": "確定真的要\r\n返回標題嗎？"
+      },
+      "Txt_FieldMenu_Message_BlockSave": {
+        "SelfId": "Txt_FieldMenu_Message_BlockSave",
+        "Text": "目前無法使用"
+      },
+      "Txt_FieldMenu_Message_BlockLental": {
+        "SelfId": "Txt_FieldMenu_Message_BlockLental",
+        "Text": "現在沒有可使用的對象"
+      },
+      "Txt_FieldMenu_Memory_Popup_SUCCESS": {
+        "SelfId": "Txt_FieldMenu_Memory_Popup_SUCCESS",
+        "Text": "記下了剛才發生的事。"
+      },
+      "Txt_FieldMenu_Memory_Popup_SUCCESS_IN_EVENT": {
+        "SelfId": "Txt_FieldMenu_Memory_Popup_SUCCESS_IN_EVENT",
+        "Text": "記下了這件事。"
+      },
+      "Txt_FieldMenu_Memory_Popup_ALREADY_MEMORY_IN_EVENT": {
+        "SelfId": "Txt_FieldMenu_Memory_Popup_ALREADY_MEMORY_IN_EVENT",
+        "Text": "這件事已經記下了。"
+      },
+      "Txt_FieldMenu_Memory_Popup_MEMORY_FILL": {
+        "SelfId": "Txt_FieldMenu_Memory_Popup_MEMORY_FILL",
+        "Text": "回憶已滿。"
+      },
+      "Txt_FieldMenu_Memory_Popup_NOT_ENOUGH_SLOT": {
+        "SelfId": "Txt_FieldMenu_Memory_Popup_NOT_ENOUGH_SLOT",
+        "Text": "回憶已滿，無法進行記憶。"
+      },
+      "Txt_FieldMenu_Memory_Popup_ALREADY_MEMORY": {
+        "SelfId": "Txt_FieldMenu_Memory_Popup_ALREADY_MEMORY",
+        "Text": "剛才發生的事已經記下了。"
+      },
+      "Txt_FieldMenu_King_Message_ITEM": {
+        "SelfId": "Txt_FieldMenu_King_Message_ITEM",
+        "Text": "國王並未持有道具。"
+      },
+      "Txt_FieldMenu_King_Message_EQUIP": {
+        "SelfId": "Txt_FieldMenu_King_Message_EQUIP",
+        "Text": "國王身上\r\n已穿著王服。"
+      },
+      "Txt_FieldMenu_King_Message_MEMORY": {
+        "SelfId": "Txt_FieldMenu_King_Message_MEMORY",
+        "Text": "國王沒有應當回顧的過去。"
+      },
+      "Txt_FieldMenu_King_Message_MAGIC": {
+        "SelfId": "Txt_FieldMenu_King_Message_MAGIC",
+        "Text": "國王無法使用咒文。"
+      },
+      "Txt_FieldMenu_King_Message_SKILL": {
+        "SelfId": "Txt_FieldMenu_King_Message_SKILL",
+        "Text": "國王無法使用特技。"
+      },
+      "Txt_FieldMenu_King_Message_MAXHEAL": {
+        "SelfId": "Txt_FieldMenu_King_Message_MAXHEAL",
+        "Text": "國王沒有受傷。"
+      },
+      "Txt_FieldMenu_King_Message_ALMOSTHEAL": {
+        "SelfId": "Txt_FieldMenu_King_Message_ALMOSTHEAL",
+        "Text": "國王沒有受傷。"
+      },
+      "Txt_FieldMenu_King_Message_ATATUS": {
+        "SelfId": "Txt_FieldMenu_King_Message_ATATUS",
+        "Text": "國王以前\r\n似乎很強。"
+      },
+      "Txt_FieldMenu_King_Message_SORT": {
+        "SelfId": "Txt_FieldMenu_King_Message_SORT",
+        "Text": "國王想要改變隊列。<KEY_WAIT>\r\n但隊伍裡只有國王一個人。"
+      },
+      "Txt_FieldMenu_King_Message_STRATEGY": {
+        "SelfId": "Txt_FieldMenu_King_Message_STRATEGY",
+        "Text": "國王想要制定作戰。<KEY_WAIT>\r\n但是現在似乎沒有那個必要。"
+      },
+      "Txt_FieldMenu_King_Message_WARP": {
+        "SelfId": "Txt_FieldMenu_King_Message_WARP",
+        "Text": "國王不必離開羅馬利亞。"
+      },
+      "Txt_FieldMenu_Queen_Message_ITEM": {
+        "SelfId": "Txt_FieldMenu_Queen_Message_ITEM",
+        "Text": "女王並未持有道具。"
+      },
+      "Txt_FieldMenu_Queen_Message_EQUIP": {
+        "SelfId": "Txt_FieldMenu_Queen_Message_EQUIP",
+        "Text": "女王身上\r\n已穿著王服。"
+      },
+      "Txt_FieldMenu_Queen_Message_MEMORY": {
+        "SelfId": "Txt_FieldMenu_Queen_Message_MEMORY",
+        "Text": "女王沒有應當回顧的過去。"
+      },
+      "Txt_FieldMenu_Queen_Message_MAGIC": {
+        "SelfId": "Txt_FieldMenu_Queen_Message_MAGIC",
+        "Text": "女王無法使用咒文。"
+      },
+      "Txt_FieldMenu_Queen_Message_SKILL": {
+        "SelfId": "Txt_FieldMenu_Queen_Message_SKILL",
+        "Text": "女王無法使用特技。"
+      },
+      "Txt_FieldMenu_Queen_Message_MAXHEAL": {
+        "SelfId": "Txt_FieldMenu_Queen_Message_MAXHEAL",
+        "Text": "女王沒有受傷。"
+      },
+      "Txt_FieldMenu_Queen_Message_ALMOSTHEAL": {
+        "SelfId": "Txt_FieldMenu_Queen_Message_ALMOSTHEAL",
+        "Text": "女王沒有受傷。"
+      },
+      "Txt_FieldMenu_Queen_Message_ATATUS": {
+        "SelfId": "Txt_FieldMenu_Queen_Message_ATATUS",
+        "Text": "女王以前\r\n似乎很強。"
+      },
+      "Txt_FieldMenu_Queen_Message_SORT": {
+        "SelfId": "Txt_FieldMenu_Queen_Message_SORT",
+        "Text": "女王想要改變隊列。<KEY_WAIT>\r\n但隊伍裡只有女王一個人。"
+      },
+      "Txt_FieldMenu_Queen_Message_STRATEGY": {
+        "SelfId": "Txt_FieldMenu_Queen_Message_STRATEGY",
+        "Text": "女王想要制定作戰。<KEY_WAIT>\r\n但是現在似乎沒有那個必要。"
+      },
+      "Txt_FieldMenu_Queen_Message_WARP": {
+        "SelfId": "Txt_FieldMenu_Queen_Message_WARP",
+        "Text": "女王不必離開羅馬利亞。"
+      }
+    }
+  }
+]

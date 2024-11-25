@@ -1,0 +1,380 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_Church",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Church_UI_Top_01": {
+        "SelfId": "Txt_Church_UI_Top_01",
+        "Text": "祈禱"
+      },
+      "Txt_Church_UI_Top_02": {
+        "SelfId": "Txt_Church_UI_Top_02",
+        "Text": "聆聽神諭"
+      },
+      "Txt_Church_UI_Top_03": {
+        "SelfId": "Txt_Church_UI_Top_03",
+        "Text": "復活"
+      },
+      "Txt_Church_UI_Top_04": {
+        "SelfId": "Txt_Church_UI_Top_04",
+        "Text": "解毒"
+      },
+      "Txt_Church_UI_Top_05": {
+        "SelfId": "Txt_Church_UI_Top_05",
+        "Text": "解除詛咒"
+      },
+      "Txt_Church_UI_Top_06": {
+        "SelfId": "Txt_Church_UI_Top_06",
+        "Text": "結束"
+      },
+      "Txt_Church_Message_Start_Pri": {
+        "SelfId": "Txt_Church_Message_Start_Pri",
+        "Text": "忠誠的神之僕人啊。\r\n今天來到我們教會有什麼事呢？<NO_INPUT>"
+      },
+      "Txt_Church_Message_StartNight_Pri": {
+        "SelfId": "Txt_Church_Message_StartNight_Pri",
+        "Text": "在這種夜深人靜時分造訪我們教會，\r\n有什麼事呢？<NO_INPUT>"
+      },
+      "Txt_Church_Message_ReviveTop_Pri": {
+        "SelfId": "Txt_Church_Message_ReviveTop_Pri",
+        "Text": "想要將哪一位\r\n召回這個世界呢？<NO_INPUT>"
+      },
+      "Txt_Church_Message_Alive_Pri": {
+        "SelfId": "Txt_Church_Message_Alive_Pri",
+        "Text": "真愛開玩笑啊！\r\n{ACTOR}還活著呢！"
+      },
+      "Txt_Church_Message_Revive_Pri": {
+        "SelfId": "Txt_Church_Message_Revive_Pri",
+        "Text": "噢！主啊！\r\n無所不知、無所不能的神啊！<KEY_WAIT>\r\n請將您忠實的僕人\r\n{ACTOR}的靈魂\r\n召回至此吧！<NO_INPUT>"
+      },
+      "Txt_Church_Message_ReviveResult_Pri": {
+        "SelfId": "Txt_Church_Message_ReviveResult_Pri",
+        "Text": "{ACTOR}復活了！"
+      },
+      "Txt_Church_Message_DetoxiTop_Pri": {
+        "SelfId": "Txt_Church_Message_DetoxiTop_Pri",
+        "Text": "想要替哪一位解毒呢？<NO_INPUT>"
+      },
+      "Txt_Church_Message_NotPoison_Pri": {
+        "SelfId": "Txt_Church_Message_NotPoison_Pri",
+        "Text": "但是{ACTOR}\r\n並沒有中毒啊。"
+      },
+      "Txt_Church_Message_Detoxi_Pri": {
+        "SelfId": "Txt_Church_Message_Detoxi_Pri",
+        "Text": "噢！神啊！請賜給我力量！\r\n消除{ACTOR}體內的\r\n汙穢毒素吧！<NO_INPUT>"
+      },
+      "Txt_Church_Message_DetoxiResult_Pri": {
+        "SelfId": "Txt_Church_Message_DetoxiResult_Pri",
+        "Text": "{ACTOR}\r\n體內的毒素消失了！"
+      },
+      "Txt_Church_Message_CurseTop_Pri": {
+        "SelfId": "Txt_Church_Message_CurseTop_Pri",
+        "Text": "想要替哪一位解除詛咒呢？<NO_INPUT>"
+      },
+      "Txt_Church_Message_NotCurse_Pri": {
+        "SelfId": "Txt_Church_Message_NotCurse_Pri",
+        "Text": "但是{ACTOR}\r\n並沒有被詛咒啊。"
+      },
+      "Txt_Church_Message_HealCurse_Pri": {
+        "SelfId": "Txt_Church_Message_HealCurse_Pri",
+        "Text": "噢！神啊！請賜給我力量！\r\n解除{ACTOR}身上的\r\n禁忌詛咒吧！<NO_INPUT>"
+      },
+      "Txt_Church_Message_HealCurseResult_Pri": {
+        "SelfId": "Txt_Church_Message_HealCurseResult_Pri",
+        "Text": "{ACTOR}身上的詛咒消失了！"
+      },
+      "Txt_Church_Message_Confirm_Pri": {
+        "SelfId": "Txt_Church_Message_Confirm_Pri",
+        "Text": "這樣的話，請捐獻\r\n{VALUE}Ｇ給我們教會。\r\n請問你可以接受嗎？<NO_INPUT>"
+      },
+      "Txt_Church_Message_Shotage_Pri": {
+        "SelfId": "Txt_Church_Message_Shotage_Pri",
+        "Text": "你所持有的錢\r\n根本不足以捐獻啊！\r\n噢！神啊！請寬恕我！<KEY_WAIT>\r\n我竟然向如此窮困的人要求捐獻，\r\n是我不好！"
+      },
+      "Txt_Church_Message_PaymentCancel_Pri": {
+        "SelfId": "Txt_Church_Message_PaymentCancel_Pri",
+        "Text": "對教會捐獻\r\n象徵著對神表達感謝，\r\n而你卻吝於慷慨解囊，實在太不像話了。"
+      },
+      "Txt_Church_Message_Cancel_Pri": {
+        "SelfId": "Txt_Church_Message_Cancel_Pri",
+        "Text": "打算作罷嗎？"
+      },
+      "Txt_Church_Message_StartAgain_Pri": {
+        "SelfId": "Txt_Church_Message_StartAgain_Pri",
+        "Text": "請問還有其他事嗎？<NO_INPUT>"
+      },
+      "Txt_Church_Message_Finish_Pri": {
+        "SelfId": "Txt_Church_Message_Finish_Pri",
+        "Text": "那麼，路上請小心。\r\n願神庇佑你。"
+      },
+      "Txt_Church_Message_Nextlevel_Pri": {
+        "SelfId": "Txt_Church_Message_Nextlevel_Pri",
+        "Text": "{ACTOR}啊。\r\n你只要再累積{VALUE}點經驗，\r\n就能提升至下一個等級了吧。"
+      },
+      "Txt_Church_Message_SaveConfirm_Pri": {
+        "SelfId": "Txt_Church_Message_SaveConfirm_Pri",
+        "Text": "要將你旅途的成果\r\n記錄到冒險之書嗎？<NO_INPUT>"
+      },
+      "Txt_Church_Message_SaveCancel_Pri": {
+        "SelfId": "Txt_Church_Message_SaveCancel_Pri",
+        "Text": "這樣啊……那就先不記錄吧。"
+      },
+      "Txt_Church_Message_SaveTop_Pri": {
+        "SelfId": "Txt_Church_Message_SaveTop_Pri",
+        "Text": "那麼，就請在神前\r\n告解至今為止的行為，\r\n將一切記錄至冒險之書中吧。<KEY_WAIT>\r\n打算記錄至\r\n幾號冒險之書呢？\r\n<NO_INPUT>"
+      },
+      "Txt_Church_Message_OverwriteConfirm_Pri": {
+        "SelfId": "Txt_Church_Message_OverwriteConfirm_Pri",
+        "Text": "將會覆蓋這份資料：\r\n{WORD}　ＬＶ{VALUE}\r\n確定要繼續嗎？<NO_INPUT>"
+      },
+      "Txt_Church_Message_ContinueConfirm_Save_Pri": {
+        "SelfId": "Txt_Church_Message_ContinueConfirm_Save_Pri",
+        "Text": "確實記錄完畢了。\r\n你還打算繼續冒險嗎？<NO_INPUT>"
+      },
+      "Txt_Church_Message_ContinueConfirm_Pri": {
+        "SelfId": "Txt_Church_Message_ContinueConfirm_Pri",
+        "Text": "你還打算繼續冒險嗎？<NO_INPUT>"
+      },
+      "Txt_Church_Message_ContinueConfirmNosave_Pri": {
+        "SelfId": "Txt_Church_Message_ContinueConfirmNosave_Pri",
+        "Text": "什麼！你不記錄就要休息了嗎？<KEY_WAIT>\r\n這麼一來，你的旅行紀錄將會回溯到\r\n上一次記錄的地方，\r\n這樣沒關係嗎？<NO_INPUT>"
+      },
+      "Txt_Church_Message_ContinueNoSave_Pri": {
+        "SelfId": "Txt_Church_Message_ContinueNoSave_Pri",
+        "Text": "哎呀，要作罷是嗎？"
+      },
+      "Txt_Church_Message_Continue_Pri": {
+        "SelfId": "Txt_Church_Message_Continue_Pri",
+        "Text": "那就出發吧！\r\n{LEADER}！"
+      },
+      "Txt_Church_Message_GameEnd_Pri": {
+        "SelfId": "Txt_Church_Message_GameEnd_Pri",
+        "Text": "噢！神啊！\r\n請賜給此人\r\n片刻的安息吧。"
+      },
+      "Txt_Church_Message_GameStart_Pri": {
+        "SelfId": "Txt_Church_Message_GameStart_Pri",
+        "Text": "歡迎回來！\r\n{LEADER}閣下！"
+      },
+      "Txt_Church_Message_Defeated_Pri": {
+        "SelfId": "Txt_Church_Message_Defeated_Pri",
+        "Text": "哦！{LEADER}！\r\n居然會死掉，真是丟人！\r\n<KEY_WAIT>\r\n再給你一次機會吧！\r\n<KEY_WAIT>\r\n小心別太勉強自己了。\r\n那麼出發吧，{LEADER}！"
+      },
+      "Txt_Church_Message_LevelMax_Pri": {
+        "SelfId": "Txt_Church_Message_LevelMax_Pri",
+        "Text": "{ACTOR}已經十足強大了。"
+      },
+      "Txt_Church_Message_EXPMax_Pri": {
+        "SelfId": "Txt_Church_Message_EXPMax_Pri",
+        "Text": "{ACTOR}已經\r\n累積了經驗。"
+      },
+      "Txt_Church_Message_NextlevelTop_Pri": {
+        "SelfId": "Txt_Church_Message_NextlevelTop_Pri",
+        "Text": "我聽見神的聲音了。"
+      },
+      "Txt_Church_Message_ReviveTopNoTarget_Pri": {
+        "SelfId": "Txt_Church_Message_ReviveTopNoTarget_Pri",
+        "Text": "看來沒有任何人處於力竭狀態。\r\n好好感謝神的庇佑吧。"
+      },
+      "Txt_Church_Message_DetoxiTopNoTarget_Pri": {
+        "SelfId": "Txt_Church_Message_DetoxiTopNoTarget_Pri",
+        "Text": "看來沒有任何人中毒。\r\n好好感謝神的庇佑吧。"
+      },
+      "Txt_Church_Message_CurseTopNoTarget_Pri": {
+        "SelfId": "Txt_Church_Message_CurseTopNoTarget_Pri",
+        "Text": "看來沒有任何人被詛咒。\r\n好好感謝神的庇佑吧。"
+      },
+      "Txt_Church_Message_Start_Sis": {
+        "SelfId": "Txt_Church_Message_Start_Sis",
+        "Text": "這裡是讓受神指引的\r\n迷途羔羊們造訪的場所。\r\n前來我們教會有什麼事嗎？<NO_INPUT>"
+      },
+      "Txt_Church_Message_StartNight_Sis": {
+        "SelfId": "Txt_Church_Message_StartNight_Sis",
+        "Text": "噢，迷途羔羊們，\r\n深夜來到我們教會有什麼事嗎？<NO_INPUT>"
+      },
+      "Txt_Church_Message_ReviveTop_Sis": {
+        "SelfId": "Txt_Church_Message_ReviveTop_Sis",
+        "Text": "想要讓哪一位復活呢？<NO_INPUT>"
+      },
+      "Txt_Church_Message_Alive_Sis": {
+        "SelfId": "Txt_Church_Message_Alive_Sis",
+        "Text": "哎呀？\r\n{ACTOR}還活著喔。"
+      },
+      "Txt_Church_Message_Revive_Sis": {
+        "SelfId": "Txt_Church_Message_Revive_Sis",
+        "Text": "啊，我們的在天之神呀！<KEY_WAIT>\r\n請再次賜予{ACTOR}\r\n生命的氣息吧。<NO_INPUT>"
+      },
+      "Txt_Church_Message_ReviveResult_Sis": {
+        "SelfId": "Txt_Church_Message_ReviveResult_Sis",
+        "Text": "{ACTOR}復活了！"
+      },
+      "Txt_Church_Message_DetoxiTop_Sis": {
+        "SelfId": "Txt_Church_Message_DetoxiTop_Sis",
+        "Text": "要為哪位解毒呢？<NO_INPUT>"
+      },
+      "Txt_Church_Message_NotPoison_Sis": {
+        "SelfId": "Txt_Church_Message_NotPoison_Sis",
+        "Text": "哎呀？\r\n{ACTOR}並沒有中毒喔。"
+      },
+      "Txt_Church_Message_Detoxi_Sis": {
+        "SelfId": "Txt_Church_Message_Detoxi_Sis",
+        "Text": "啊，我們的神呀。\r\n請消除侵蝕著\r\n{ACTOR}的毒素吧。<NO_INPUT>"
+      },
+      "Txt_Church_Message_DetoxiResult_Sis": {
+        "SelfId": "Txt_Church_Message_DetoxiResult_Sis",
+        "Text": "{ACTOR}\r\n體內的毒素消失了！"
+      },
+      "Txt_Church_Message_CurseTop_Sis": {
+        "SelfId": "Txt_Church_Message_CurseTop_Sis",
+        "Text": "要為哪位解除詛咒呢？<NO_INPUT>"
+      },
+      "Txt_Church_Message_NotCurse_Sis": {
+        "SelfId": "Txt_Church_Message_NotCurse_Sis",
+        "Text": "{ACTOR}\r\n並沒有被詛咒喔。"
+      },
+      "Txt_Church_Message_HealCurse_Sis": {
+        "SelfId": "Txt_Church_Message_HealCurse_Sis",
+        "Text": "啊，我們的神呀。\r\n請解除{ACTOR}身上\r\n那不祥的詛咒吧。<NO_INPUT>"
+      },
+      "Txt_Church_Message_HealCurseResult_Sis": {
+        "SelfId": "Txt_Church_Message_HealCurseResult_Sis",
+        "Text": "{ACTOR}身上的詛咒消失了！"
+      },
+      "Txt_Church_Message_Confirm_Sis": {
+        "SelfId": "Txt_Church_Message_Confirm_Sis",
+        "Text": "那麼，請向我們教會\r\n捐贈{VALUE}Ｇ。\r\n可以嗎？<NO_INPUT>"
+      },
+      "Txt_Church_Message_Shotage_Sis": {
+        "SelfId": "Txt_Church_Message_Shotage_Sis",
+        "Text": "很遺憾，\r\n你的錢不夠喔。"
+      },
+      "Txt_Church_Message_PaymentCancel_Sis": {
+        "SelfId": "Txt_Church_Message_PaymentCancel_Sis",
+        "Text": "我不會勉強你的。\r\n一切遵照神的旨意……"
+      },
+      "Txt_Church_Message_Cancel_Sis": {
+        "SelfId": "Txt_Church_Message_Cancel_Sis",
+        "Text": "哎呀？要作罷是嗎。"
+      },
+      "Txt_Church_Message_StartAgain_Sis": {
+        "SelfId": "Txt_Church_Message_StartAgain_Sis",
+        "Text": "還有什麼事嗎？<NO_INPUT>"
+      },
+      "Txt_Church_Message_Finish_Sis": {
+        "SelfId": "Txt_Church_Message_Finish_Sis",
+        "Text": "神不論在何時何地都會守護我們的。\r\n歡迎下次再來。"
+      },
+      "Txt_Church_Message_SaveConfirm_Sis": {
+        "SelfId": "Txt_Church_Message_SaveConfirm_Sis",
+        "Text": "那麼，就請在神前\r\n告解至今為止的行為，\r\n將一切記錄至冒險之書中吧。<NO_INPUT>"
+      },
+      "Txt_Church_Message_SaveCancel_Sis": {
+        "SelfId": "Txt_Church_Message_SaveCancel_Sis",
+        "Text": "哎呀？要作罷是嗎？"
+      },
+      "Txt_Church_Message_SaveTop_Sis": {
+        "SelfId": "Txt_Church_Message_SaveTop_Sis",
+        "Text": "要記錄至\r\n幾號冒險之書呢？<NO_INPUT>"
+      },
+      "Txt_Church_Message_OverwriteConfirm_Sis": {
+        "SelfId": "Txt_Church_Message_OverwriteConfirm_Sis",
+        "Text": "將會覆蓋這份紀錄：\r\n{WORD}　ＬＶ{VALUE}\r\n確定要繼續嗎？<NO_INPUT>"
+      },
+      "Txt_Church_Message_ContinueConfirm_Save_Sis": {
+        "SelfId": "Txt_Church_Message_ContinueConfirm_Save_Sis",
+        "Text": "確實記錄完畢了。\r\n您還打算繼續冒險嗎？<NO_INPUT>"
+      },
+      "Txt_Church_Message_ContinueConfirm_Sis": {
+        "SelfId": "Txt_Church_Message_ContinueConfirm_Sis",
+        "Text": "您還打算繼續冒險嗎？<NO_INPUT>"
+      },
+      "Txt_Church_Message_ContinueConfirmNosave_Sis": {
+        "SelfId": "Txt_Church_Message_ContinueConfirmNosave_Sis",
+        "Text": "哎呀？您不記錄就要休息了嗎？<KEY_WAIT>\r\n這麼一來，您的旅行紀錄將會回溯到\r\n上一次記錄的地方，\r\n這樣沒關係嗎？<NO_INPUT>"
+      },
+      "Txt_Church_Message_ContinueNoSave_Sis": {
+        "SelfId": "Txt_Church_Message_ContinueNoSave_Sis",
+        "Text": "您打消念頭了是嗎。\r\n願我主\r\n保佑{LEADER}的旅途……"
+      },
+      "Txt_Church_Message_Continue_Sis": {
+        "SelfId": "Txt_Church_Message_Continue_Sis",
+        "Text": "願我主\r\n保佑{LEADER}的旅途……"
+      },
+      "Txt_Church_Message_GameEnd_Sis": {
+        "SelfId": "Txt_Church_Message_GameEnd_Sis",
+        "Text": "啊啊！我主啊！\r\n請賜予這位迷途羔羊\r\n片刻的安息吧！"
+      },
+      "Txt_Church_Message_GameStart_Sis": {
+        "SelfId": "Txt_Church_Message_GameStart_Sis",
+        "Text": "歡迎回來。\r\n{LEADER}。"
+      },
+      "Txt_Church_Message_Defeated_Sis": {
+        "SelfId": "Txt_Church_Message_Defeated_Sis",
+        "Text": "願我主\r\n保佑{LEADER}的旅途……"
+      },
+      "Txt_Church_Message_ReviveTopNoTarget_Sis": {
+        "SelfId": "Txt_Church_Message_ReviveTopNoTarget_Sis",
+        "Text": "請放心，\r\n沒有任何人處於力竭狀態喔。"
+      },
+      "Txt_Church_Message_DetoxiTopNoTarget_Sis": {
+        "SelfId": "Txt_Church_Message_DetoxiTopNoTarget_Sis",
+        "Text": "請放心，\r\n沒有任何人中毒喔。"
+      },
+      "Txt_Church_Message_CurseTopNoTarget_Sis": {
+        "SelfId": "Txt_Church_Message_CurseTopNoTarget_Sis",
+        "Text": "請放心，\r\n沒有任何人被詛咒喔。"
+      },
+      "Txt_Church_Message_Start_ALIAHAN": {
+        "SelfId": "Txt_Church_Message_Start_ALIAHAN",
+        "Text": "亞里亞罕的可靠戰士啊。\r\n今天來到我們教會有什麼事呢？<NO_INPUT>"
+      },
+      "Txt_Church_Message_StartNight_ALIAHAN": {
+        "SelfId": "Txt_Church_Message_StartNight_ALIAHAN",
+        "Text": "亞里亞罕的可靠戰士啊。\r\n在這種夜深人靜時分造訪我們教會，\r\n有什麼事呢？<NO_INPUT>"
+      },
+      "Txt_Church_Message_Start_SAMANOSA": {
+        "SelfId": "Txt_Church_Message_Start_SAMANOSA",
+        "Text": "哦！是沙曼奧薩的救世主！\r\n今天來到我們教會有什麼事呢？<NO_INPUT>"
+      },
+      "Txt_Church_Message_StartNight_SAMANOSA": {
+        "SelfId": "Txt_Church_Message_StartNight_SAMANOSA",
+        "Text": "哦！是沙曼奧薩的救世主！\r\n在這種夜深人靜時分造訪我們教會，\r\n有什麼事呢？<NO_INPUT>"
+      },
+      "Txt_Church_Message_Start_EDINBEAR": {
+        "SelfId": "Txt_Church_Message_Start_EDINBEAR",
+        "Text": "即使是鄉巴佬，神明也會一視同仁。\r\n今天來到我們教會有什麼事呢？<NO_INPUT>"
+      },
+      "Txt_Church_Message_StartNight_EDINBEAR": {
+        "SelfId": "Txt_Church_Message_StartNight_EDINBEAR",
+        "Text": "即使是鄉巴佬，神明也會一視同仁。\r\n在這種夜深人靜時分造訪我們教會，\r\n有什麼事呢？<NO_INPUT>"
+      },
+      "Txt_Church_Message_Start_MBR": {
+        "SelfId": "Txt_Church_Message_Start_MBR",
+        "Text": "我偶爾也會想要享受娛樂……\r\n但神明永遠都不會拋下尋求救贖的人。\r\n請問您有什麼煩惱嗎？"
+      },
+      "Txt_Church_Message_Defeated_ALIAHAN": {
+        "SelfId": "Txt_Church_Message_Defeated_ALIAHAN",
+        "Text": "哦！{LEADER}！\r\n居然會死掉，真是丟人！\r\n<KEY_WAIT>\r\n再給你一次機會吧！\r\n<KEY_WAIT>\r\n別讓奧爾特加之名蒙羞了。\r\n那麼出發吧，{LEADER}！"
+      },
+      "Txt_Church_Message_Defeated_SAMANOSA": {
+        "SelfId": "Txt_Church_Message_Defeated_SAMANOSA",
+        "Text": "哦！{LEADER}！\r\n沒想到強者如你居然會被打敗！<KEY_WAIT>\r\n再給你一次機會吧！\r\n<KEY_WAIT>\r\n小心別太勉強自己了。\r\n那麼出發吧，{LEADER}！"
+      },
+      "Txt_Church_Message_Defeated_EDINBEAR": {
+        "SelfId": "Txt_Church_Message_Defeated_EDINBEAR",
+        "Text": "哦！{LEADER}閣下！\r\n居然會死掉，真是個鄉巴佬！<KEY_WAIT>\r\n再給你一次機會吧！\r\n<KEY_WAIT>\r\n願我主保佑\r\n{LEADER}的旅途……"
+      },
+      "Txt_Church_Message_Defeated_LUDATORM": {
+        "SelfId": "Txt_Church_Message_Defeated_LUDATORM",
+        "Text": "哦！{LEADER}！\r\n居然會死掉，真是可悲！\r\n<KEY_WAIT>\r\n再給你一次機會吧！\r\n<KEY_WAIT>\r\n小心別太勉強自己了。\r\n那麼出發吧，{LEADER}！"
+      }
+    }
+  }
+]

@@ -1,0 +1,1936 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Battle_Monster_Action",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Battle_Monster_ActionTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "BATTLE_MONSTER_ACTION_ATTACK": {
+        "SelfId": "BATTLE_MONSTER_ACTION_ATTACK",
+        "Script": "ATTACK",
+        "Animation": "Act1",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_MONSTER_ATTACK_NORMAL"
+      },
+      "BATTLE_MONSTER_ACTION_ATTACK2": {
+        "SelfId": "BATTLE_MONSTER_ACTION_ATTACK2",
+        "Script": "ATTACK",
+        "Animation": "Act4",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_MONSTER_ATTACK_NORMAL"
+      },
+      "BATTLE_MONSTER_ACTION_ATTACK_SLEEP": {
+        "SelfId": "BATTLE_MONSTER_ACTION_ATTACK_SLEEP",
+        "Script": "ATTACK_SLEEP",
+        "Animation": "Act4",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": true,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_MONSTER_ATTACK_SLEEP"
+      },
+      "BATTLE_MONSTER_ACTION_ATTACK_SLEEP_Act1": {
+        "SelfId": "BATTLE_MONSTER_ACTION_ATTACK_SLEEP_Act1",
+        "Script": "ATTACK_SLEEP",
+        "Animation": "Act1",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": true,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_MONSTER_ATTACK_SLEEP"
+      },
+      "BATTLE_MONSTER_ACTION_ATTACK_POISON": {
+        "SelfId": "BATTLE_MONSTER_ACTION_ATTACK_POISON",
+        "Script": "ATTACK_POISON",
+        "Animation": "Act4",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": true,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_MONSTER_ATTACK_POISON"
+      },
+      "BATTLE_MONSTER_ACTION_ATTACK_POISON_Act1": {
+        "SelfId": "BATTLE_MONSTER_ACTION_ATTACK_POISON_Act1",
+        "Script": "ATTACK_POISON",
+        "Animation": "Act1",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": true,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_MONSTER_ATTACK_POISON"
+      },
+      "BATTLE_MONSTER_ACTION_ATTACK_PARALYSIS": {
+        "SelfId": "BATTLE_MONSTER_ACTION_ATTACK_PARALYSIS",
+        "Script": "ATTACK_PARALYZE",
+        "Animation": "Act4",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": true,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_MONSTER_ATTACK_PARALYSIS"
+      },
+      "BATTLE_MONSTER_ACTION_ATTACK_PARALYSIS_Act1": {
+        "SelfId": "BATTLE_MONSTER_ACTION_ATTACK_PARALYSIS_Act1",
+        "Script": "ATTACK_PARALYZE",
+        "Animation": "Act1",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": true,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_MONSTER_ATTACK_PARALYSIS"
+      },
+      "BATTLE_MONSTER_ACTION_ATTACK_TSUKON": {
+        "SelfId": "BATTLE_MONSTER_ACTION_ATTACK_TSUKON",
+        "Script": "ATTACK_TSUKON",
+        "Animation": "Act4",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_MONSTER_ATTACK_NORMAL"
+      },
+      "BATTLE_MONSTER_ACTION_ATTACK_TSUKON_2": {
+        "SelfId": "BATTLE_MONSTER_ACTION_ATTACK_TSUKON_2",
+        "Script": "ATTACK_TSUKON",
+        "Animation": "Act4",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_MONSTER_ATTACK_CRITICAL"
+      },
+      "BATTLE_MONSTER_ACTION_ATTACK_TSUKON_2_Act1": {
+        "SelfId": "BATTLE_MONSTER_ACTION_ATTACK_TSUKON_2_Act1",
+        "Script": "ATTACK_TSUKON",
+        "Animation": "Act1",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_MONSTER_ATTACK_CRITICAL"
+      },
+      "BATTLE_MONSTER_ACTION_CALL_FRIEND": {
+        "SelfId": "BATTLE_MONSTER_ACTION_CALL_FRIEND",
+        "Script": "CALL_FRIEND",
+        "Animation": "Act6",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_CALL_FRIEND"
+      },
+      "BATTLE_MONSTER_ACTION_CALL_FRIEND_2": {
+        "SelfId": "BATTLE_MONSTER_ACTION_CALL_FRIEND_2",
+        "Script": "CALL_FRIEND",
+        "Animation": "Act2",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_CALL_FRIEND"
+      },
+      "BATTLE_MONSTER_ACTION_CALL_FRIEND_3": {
+        "SelfId": "BATTLE_MONSTER_ACTION_CALL_FRIEND_3",
+        "Script": "CALL_FRIEND",
+        "Animation": "Act3",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_CALL_FRIEND"
+      },
+      "BATTLE_MONSTER_ACTION_CALL_HOIMI": {
+        "SelfId": "BATTLE_MONSTER_ACTION_CALL_HOIMI",
+        "Script": "CALL_HOIMI",
+        "Animation": "Act6",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_CALL_HOIMI"
+      },
+      "BATTLE_MONSTER_ACTION_CALL_STONEGUARDIAN": {
+        "SelfId": "BATTLE_MONSTER_ACTION_CALL_STONEGUARDIAN",
+        "Script": "CALL_DAIMAZIN",
+        "Animation": "Act6",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_CALL_STONEGUARDIAN"
+      },
+      "BATTLE_MONSTER_ACTION_CALL_WALKINGCORPSE": {
+        "SelfId": "BATTLE_MONSTER_ACTION_CALL_WALKINGCORPSE",
+        "Script": "CALL_KUSATTA",
+        "Animation": "Act6",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_CALL_WALKINGCORPSE"
+      },
+      "BATTLE_MONSTER_ACTION_CALL_WALKINGCORPSE_MACRO": {
+        "SelfId": "BATTLE_MONSTER_ACTION_CALL_WALKINGCORPSE_MACRO",
+        "Script": "CALL_KUSATTA",
+        "Animation": "Act5",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_CALL_WALKINGCORPSE"
+      },
+      "BATTLE_MONSTER_ACTION_CALL_ELYSIUMBIRD": {
+        "SelfId": "BATTLE_MONSTER_ACTION_CALL_ELYSIUMBIRD",
+        "Script": "CALL_GOKURAKU",
+        "Animation": "Act6",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_CALL_ELYSIUMBIRD"
+      },
+      "BATTLE_MONSTER_ACTION_CALL_VOODOOGOODER": {
+        "SelfId": "BATTLE_MONSTER_ACTION_CALL_VOODOOGOODER",
+        "Script": "CALL_ZOMMAS",
+        "Animation": "Act6",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_CALL_VOODOOGOODER"
+      },
+      "BATTLE_MONSTER_ACTION_CALL_EVILCLOUD": {
+        "SelfId": "BATTLE_MONSTER_ACTION_CALL_EVILCLOUD",
+        "Script": "CALL_FRIEND_EX",
+        "Animation": "Act3",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_CALL_EVILCLOUD"
+      },
+      "BATTLE_MONSTER_ACTION_CALL_IRONNITE": {
+        "SelfId": "BATTLE_MONSTER_ACTION_CALL_IRONNITE",
+        "Script": "CALL_FRIEND_EX",
+        "Animation": "Act3",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_CALL_IRONNITE"
+      },
+      "BATTLE_MONSTER_ACTION_CALL_PANDORAS_BOX": {
+        "SelfId": "BATTLE_MONSTER_ACTION_CALL_PANDORAS_BOX",
+        "Script": "CALL_FRIEND_EX",
+        "Animation": "Act3",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_CALL_PANDORAS_BOX"
+      },
+      "BATTLE_MONSTER_ACTION_CALL_GRAYBEAR": {
+        "SelfId": "BATTLE_MONSTER_ACTION_CALL_GRAYBEAR",
+        "Script": "CALL_FRIEND_EX",
+        "Animation": "Act3",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_CALL_GRAYBEAR"
+      },
+      "BATTLE_MONSTER_ACTION_CALL_STEELHULK": {
+        "SelfId": "BATTLE_MONSTER_ACTION_CALL_STEELHULK",
+        "Script": "CALL_FRIEND_EX",
+        "Animation": "Act3",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_CALL_STEELHULK"
+      },
+      "BATTLE_MONSTER_ACTION_CALL_HARDY_HAND": {
+        "SelfId": "BATTLE_MONSTER_ACTION_CALL_HARDY_HAND",
+        "Script": "CALL_FRIEND_EX",
+        "Animation": "Act3",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_CALL_HARDY_HAND"
+      },
+      "BATTLE_MONSTER_ACTION_CALL_WHITELION": {
+        "SelfId": "BATTLE_MONSTER_ACTION_CALL_WHITELION",
+        "Script": "CALL_FRIEND_EX",
+        "Animation": "Act3",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_CALL_WHITELION"
+      },
+      "BATTLE_MONSTER_ACTION_CALL_BLUE_DRAGON": {
+        "SelfId": "BATTLE_MONSTER_ACTION_CALL_BLUE_DRAGON",
+        "Script": "CALL_FRIEND_EX",
+        "Animation": "Act3",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_CALL_BLUE_DRAGON"
+      },
+      "BATTLE_MONSTER_ACTION_CALL_DREAD_DRAGON": {
+        "SelfId": "BATTLE_MONSTER_ACTION_CALL_DREAD_DRAGON",
+        "Script": "CALL_FRIEND_EX",
+        "Animation": "Act3",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_CALL_DREAD_DRAGON"
+      },
+      "BATTLE_MONSTER_ACTION_CALL_ROCK_BOMB": {
+        "SelfId": "BATTLE_MONSTER_ACTION_CALL_ROCK_BOMB",
+        "Script": "CALL_FRIEND_EX",
+        "Animation": "Act3",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_CALL_ROCK_BOMB"
+      },
+      "BATTLE_MONSTER_ACTION_MAGIC_MERA": {
+        "SelfId": "BATTLE_MONSTER_ACTION_MAGIC_MERA",
+        "Script": "MERA",
+        "Animation": "Act2",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_ATTACK_MAGIC_ENEMY_MERA"
+      },
+      "BATTLE_MONSTER_ACTION_MAGIC_MERAMI": {
+        "SelfId": "BATTLE_MONSTER_ACTION_MAGIC_MERAMI",
+        "Script": "MERAMI",
+        "Animation": "Act2",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_ATTACK_MAGIC_ENEMY_MERAMI"
+      },
+      "BATTLE_MONSTER_ACTION_MAGIC_MERAMI_Act3": {
+        "SelfId": "BATTLE_MONSTER_ACTION_MAGIC_MERAMI_Act3",
+        "Script": "MERAMI",
+        "Animation": "Act3",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_ATTACK_MAGIC_ENEMY_MERAMI"
+      },
+      "BATTLE_MONSTER_ACTION_MAGIC_MERAZOMA": {
+        "SelfId": "BATTLE_MONSTER_ACTION_MAGIC_MERAZOMA",
+        "Script": "MERAZOMA",
+        "Animation": "Act2",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_ATTACK_MAGIC_ENEMY_MERAZOMA"
+      },
+      "BATTLE_MONSTER_ACTION_MAGIC_GIRA": {
+        "SelfId": "BATTLE_MONSTER_ACTION_MAGIC_GIRA",
+        "Script": "GIRA",
+        "Animation": "Act2",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_ATTACK_MAGIC_ENEMY_GIRA"
+      },
+      "BATTLE_MONSTER_ACTION_MAGIC_BEGIRAMA": {
+        "SelfId": "BATTLE_MONSTER_ACTION_MAGIC_BEGIRAMA",
+        "Script": "BEGIRAMA",
+        "Animation": "Act2",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_ATTACK_MAGIC_ENEMY_BEGIRAMA"
+      },
+      "BATTLE_MONSTER_ACTION_MAGIC_BEGIRAGON": {
+        "SelfId": "BATTLE_MONSTER_ACTION_MAGIC_BEGIRAGON",
+        "Script": "BEGIRAGON",
+        "Animation": "Act2",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_ATTACK_MAGIC_ENEMY_BEGIRAGON"
+      },
+      "BATTLE_MONSTER_ACTION_MAGIC_IO": {
+        "SelfId": "BATTLE_MONSTER_ACTION_MAGIC_IO",
+        "Script": "IO",
+        "Animation": "Act2",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_ATTACK_MAGIC_ENEMY_IO"
+      },
+      "BATTLE_MONSTER_ACTION_MAGIC_IORA": {
+        "SelfId": "BATTLE_MONSTER_ACTION_MAGIC_IORA",
+        "Script": "IORA",
+        "Animation": "Act2",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_ATTACK_MAGIC_ENEMY_IORA"
+      },
+      "BATTLE_MONSTER_ACTION_MAGIC_IONAZUN": {
+        "SelfId": "BATTLE_MONSTER_ACTION_MAGIC_IONAZUN",
+        "Script": "IONAZUN",
+        "Animation": "Act2",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_ATTACK_MAGIC_ENEMY_IONAZUN"
+      },
+      "BATTLE_MONSTER_ACTION_MAGIC_HYADO": {
+        "SelfId": "BATTLE_MONSTER_ACTION_MAGIC_HYADO",
+        "Script": "HYADO",
+        "Animation": "Act2",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_ATTACK_MAGIC_ENEMY_HYADO"
+      },
+      "BATTLE_MONSTER_ACTION_MAGIC_MAHYADO": {
+        "SelfId": "BATTLE_MONSTER_ACTION_MAGIC_MAHYADO",
+        "Script": "MAHYADO",
+        "Animation": "Act2",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_ATTACK_MAGIC_ENEMY_MAHYADO"
+      },
+      "BATTLE_MONSTER_ACTION_MAGIC_HYADARUKO": {
+        "SelfId": "BATTLE_MONSTER_ACTION_MAGIC_HYADARUKO",
+        "Script": "HYADARUKO",
+        "Animation": "Act2",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_ATTACK_MAGIC_ENEMY_HYADARUKO"
+      },
+      "BATTLE_MONSTER_ACTION_MAGIC_HYADAIN": {
+        "SelfId": "BATTLE_MONSTER_ACTION_MAGIC_HYADAIN",
+        "Script": "HYADAIN",
+        "Animation": "Act2",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_ATTACK_MAGIC_ENEMY_HYADAIN"
+      },
+      "BATTLE_MONSTER_ACTION_MAGIC_BAGI": {
+        "SelfId": "BATTLE_MONSTER_ACTION_MAGIC_BAGI",
+        "Script": "BAGI",
+        "Animation": "Act2",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_ATTACK_MAGIC_ENEMY_BAGI"
+      },
+      "BATTLE_MONSTER_ACTION_MAGIC_BAGI_Act5": {
+        "SelfId": "BATTLE_MONSTER_ACTION_MAGIC_BAGI_Act5",
+        "Script": "BAGI",
+        "Animation": "Act5",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_ATTACK_MAGIC_ENEMY_BAGI"
+      },
+      "BATTLE_MONSTER_ACTION_MAGIC_BAGIMA": {
+        "SelfId": "BATTLE_MONSTER_ACTION_MAGIC_BAGIMA",
+        "Script": "BAGIMA",
+        "Animation": "Act2",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_ATTACK_MAGIC_ENEMY_BAGIMA"
+      },
+      "BATTLE_MONSTER_ACTION_MAGIC_BAGIKUROSU": {
+        "SelfId": "BATTLE_MONSTER_ACTION_MAGIC_BAGIKUROSU",
+        "Script": "BAGIKUROSU",
+        "Animation": "Act2",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_ATTACK_MAGIC_ENEMY_BAGIKUROSU"
+      },
+      "BATTLE_MONSTER_ACTION_MAGIC_DEIN": {
+        "SelfId": "BATTLE_MONSTER_ACTION_MAGIC_DEIN",
+        "Script": "DEIN",
+        "Animation": "Act2",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_ATTACK_MAGIC_ENEMY_DEIN"
+      },
+      "BATTLE_MONSTER_ACTION_MAGIC_RAIDEIN": {
+        "SelfId": "BATTLE_MONSTER_ACTION_MAGIC_RAIDEIN",
+        "Script": "RAIDEIN",
+        "Animation": "Act2",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_ATTACK_MAGIC_ENEMY_RAIDEIN"
+      },
+      "BATTLE_MONSTER_ACTION_MAGIC_GIGADEIN": {
+        "SelfId": "BATTLE_MONSTER_ACTION_MAGIC_GIGADEIN",
+        "Script": "GIGADEIN",
+        "Animation": "Act2",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_ATTACK_MAGIC_ENEMY_GIGADEIN"
+      },
+      "BATTLE_MONSTER_ACTION_MAGIC_ZAKI": {
+        "SelfId": "BATTLE_MONSTER_ACTION_MAGIC_ZAKI",
+        "Script": "ZAKI",
+        "Animation": "Act2",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": true,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_ATTACK_MAGIC_ENEMY_ZAKI"
+      },
+      "BATTLE_MONSTER_ACTION_MAGIC_ZARAKI": {
+        "SelfId": "BATTLE_MONSTER_ACTION_MAGIC_ZARAKI",
+        "Script": "ZARAKI",
+        "Animation": "Act2",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": true,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_ATTACK_MAGIC_ENEMY_ZARAKI"
+      },
+      "BATTLE_MONSTER_ACTION_MAGIC_MEGANTE": {
+        "SelfId": "BATTLE_MONSTER_ACTION_MAGIC_MEGANTE",
+        "Script": "MEGANTE",
+        "Animation": "Act2",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_ATTACK_MAGIC_ENEMY_MEGANTE"
+      },
+      "BATTLE_MONSTER_ACTION_MAGIC_MANUSA": {
+        "SelfId": "BATTLE_MONSTER_ACTION_MAGIC_MANUSA",
+        "Script": "MANUSA",
+        "Animation": "Act2",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": true,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SUPPORT_MAGIC_ENEMY_MANUSA"
+      },
+      "BATTLE_MONSTER_ACTION_MAGIC_RARIHO": {
+        "SelfId": "BATTLE_MONSTER_ACTION_MAGIC_RARIHO",
+        "Script": "RARIHO",
+        "Animation": "Act2",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": true,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SUPPORT_MAGIC_ENEMY_RARIHO"
+      },
+      "BATTLE_MONSTER_ACTION_MAGIC_MEDAPANI": {
+        "SelfId": "BATTLE_MONSTER_ACTION_MAGIC_MEDAPANI",
+        "Script": "MEDAPANI",
+        "Animation": "Act2",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": true,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SUPPORT_MAGIC_ENEMY_MEDAPANI"
+      },
+      "BATTLE_MONSTER_ACTION_MAGIC_MAHOTORA": {
+        "SelfId": "BATTLE_MONSTER_ACTION_MAGIC_MAHOTORA",
+        "Script": "MAHOTORA",
+        "Animation": "Act2",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SUPPORT_MAGIC_ENEMY_MAHOTORA"
+      },
+      "BATTLE_MONSTER_ACTION_MAGIC_MAHOTON": {
+        "SelfId": "BATTLE_MONSTER_ACTION_MAGIC_MAHOTON",
+        "Script": "MAHOTON",
+        "Animation": "Act2",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": true,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SUPPORT_MAGIC_ENEMY_MAHOTON"
+      },
+      "BATTLE_MONSTER_ACTION_MAGIC_MAHOKANTA": {
+        "SelfId": "BATTLE_MONSTER_ACTION_MAGIC_MAHOKANTA",
+        "Script": "MAHOKANTA",
+        "Animation": "Act2",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SUPPORT_MAGIC_MAHOKANTA"
+      },
+      "BATTLE_MONSTER_ACTION_MAGIC_BASHIRURA": {
+        "SelfId": "BATTLE_MONSTER_ACTION_MAGIC_BASHIRURA",
+        "Script": "BASHIRURA",
+        "Animation": "Act2",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": true,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SUPPORT_MAGIC_BASHIRURA"
+      },
+      "BATTLE_MONSTER_ACTION_MAGIC_HOIMI": {
+        "SelfId": "BATTLE_MONSTER_ACTION_MAGIC_HOIMI",
+        "Script": "HOIMI",
+        "Animation": "Act2",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_RECOVER_MAGIC_ENEMY_HOIMI"
+      },
+      "BATTLE_MONSTER_ACTION_MAGIC_BEHOIMI": {
+        "SelfId": "BATTLE_MONSTER_ACTION_MAGIC_BEHOIMI",
+        "Script": "BEHOIMI",
+        "Animation": "Act2",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_RECOVER_MAGIC_ENEMY_BEHOIMI"
+      },
+      "BATTLE_MONSTER_ACTION_MAGIC_BEHOIMU": {
+        "SelfId": "BATTLE_MONSTER_ACTION_MAGIC_BEHOIMU",
+        "Script": "BEHOIMU",
+        "Animation": "Act2",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_RECOVER_MAGIC_ENEMY_BEHOIMU"
+      },
+      "BATTLE_MONSTER_ACTION_MAGIC_BEHOMA": {
+        "SelfId": "BATTLE_MONSTER_ACTION_MAGIC_BEHOMA",
+        "Script": "BEHOMA",
+        "Animation": "Act2",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_RECOVER_MAGIC_ENEMY_BEHOMA"
+      },
+      "BATTLE_MONSTER_ACTION_MAGIC_BEHOMARAH": {
+        "SelfId": "BATTLE_MONSTER_ACTION_MAGIC_BEHOMARAH",
+        "Script": "BEHOMARA",
+        "Animation": "Act2",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_RECOVER_MAGIC_ENEMY_BEHOMARA"
+      },
+      "BATTLE_MONSTER_ACTION_MAGIC_BEHOMARAHGROUP": {
+        "SelfId": "BATTLE_MONSTER_ACTION_MAGIC_BEHOMARAHGROUP",
+        "Script": "BEHOMARA",
+        "Animation": "Act2",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_RECOVER_MAGIC_ENEMY_BEHOMARA2"
+      },
+      "BATTLE_MONSTER_ACTION_MAGIC_BAHOMAZUN": {
+        "SelfId": "BATTLE_MONSTER_ACTION_MAGIC_BAHOMAZUN",
+        "Script": "BEHOMAZUN",
+        "Animation": "Act2",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_RECOVER_MAGIC_ENEMY_BEHOMAZUN"
+      },
+      "BATTLE_MONSTER_ACTION_MAGIC_KIARI": {
+        "SelfId": "BATTLE_MONSTER_ACTION_MAGIC_KIARI",
+        "Script": "HOIMI",
+        "Animation": "Act2",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_RECOVER_MAGIC_KIARI"
+      },
+      "BATTLE_MONSTER_ACTION_MAGIC_KIARIKU": {
+        "SelfId": "BATTLE_MONSTER_ACTION_MAGIC_KIARIKU",
+        "Script": "KIARI",
+        "Animation": "Act2",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_RECOVER_MAGIC_KIARIKU"
+      },
+      "BATTLE_MONSTER_ACTION_MAGIC_ZAMEHA": {
+        "SelfId": "BATTLE_MONSTER_ACTION_MAGIC_ZAMEHA",
+        "Script": "ZAMEHA",
+        "Animation": "Act2",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_RECOVER_MAGIC_ZAMEHA"
+      },
+      "BATTLE_MONSTER_ACTION_MAGIC_MAHORI": {
+        "SelfId": "BATTLE_MONSTER_ACTION_MAGIC_MAHORI",
+        "Script": "MAHORI",
+        "Animation": "Act2",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_RECOVER_MAGIC_MAHORI"
+      },
+      "BATTLE_MONSTER_ACTION_MAGIC_SHANAKU": {
+        "SelfId": "BATTLE_MONSTER_ACTION_MAGIC_SHANAKU",
+        "Script": "SHANAKU",
+        "Animation": "Act2",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_RECOVER_MAGIC_SHANAKU"
+      },
+      "BATTLE_MONSTER_ACTION_MAGIC_ZAORARU": {
+        "SelfId": "BATTLE_MONSTER_ACTION_MAGIC_ZAORARU",
+        "Script": "ZAORARU",
+        "Animation": "Act2",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_RECOVER_MAGIC_ENEMY_ZAORARU"
+      },
+      "BATTLE_MONSTER_ACTION_MAGIC_ZAORIKU": {
+        "SelfId": "BATTLE_MONSTER_ACTION_MAGIC_ZAORIKU",
+        "Script": "ZAORIKU",
+        "Animation": "Act2",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_RECOVER_MAGIC_ENEMY_ZAORIKU"
+      },
+      "BATTLE_MONSTER_ACTION_MAGIC_SUKARA": {
+        "SelfId": "BATTLE_MONSTER_ACTION_MAGIC_SUKARA",
+        "Script": "SUKARA",
+        "Animation": "Act2",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SUPPORT_MAGIC_SUKARA"
+      },
+      "BATTLE_MONSTER_ACTION_MAGIC_SUKURUTO": {
+        "SelfId": "BATTLE_MONSTER_ACTION_MAGIC_SUKURUTO",
+        "Script": "SUKURUTO",
+        "Animation": "Act2",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SUPPORT_MAGIC_SUKURUTO"
+      },
+      "BATTLE_MONSTER_ACTION_MAGIC_SUKURUTOGROUP": {
+        "SelfId": "BATTLE_MONSTER_ACTION_MAGIC_SUKURUTOGROUP",
+        "Script": "SUKURUTO",
+        "Animation": "Act2",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SUPPORT_MAGIC_ENEMY_SUKURUTO"
+      },
+      "BATTLE_MONSTER_ACTION_MAGIC_RUKANI": {
+        "SelfId": "BATTLE_MONSTER_ACTION_MAGIC_RUKANI",
+        "Script": "RUKANI",
+        "Animation": "Act2",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": true,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SUPPORT_MAGIC_RUKANI"
+      },
+      "BATTLE_MONSTER_ACTION_MAGIC_RUKANAN": {
+        "SelfId": "BATTLE_MONSTER_ACTION_MAGIC_RUKANAN",
+        "Script": "RUKANAN",
+        "Animation": "Act2",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": true,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SUPPORT_MAGIC_RUKANAN"
+      },
+      "BATTLE_MONSTER_ACTION_MAGIC_BAIKIRUTO": {
+        "SelfId": "BATTLE_MONSTER_ACTION_MAGIC_BAIKIRUTO",
+        "Script": "BAIKIRUTO",
+        "Animation": "Act2",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SUPPORT_MAGIC_BAIKIRUTO"
+      },
+      "BATTLE_MONSTER_ACTION_MAGIC_BOMIOSU": {
+        "SelfId": "BATTLE_MONSTER_ACTION_MAGIC_BOMIOSU",
+        "Script": "BOMIOSU",
+        "Animation": "Act2",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": true,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SUPPORT_MAGIC_BOMIOSU"
+      },
+      "BATTLE_MONSTER_ACTION_MAGIC_MAGICBARRIER": {
+        "SelfId": "BATTLE_MONSTER_ACTION_MAGIC_MAGICBARRIER",
+        "Script": "MAGICBARRIER",
+        "Animation": "Act2",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SUPPORT_MAGIC_MAJIKKUBARIA"
+      },
+      "BATTLE_MONSTER_ACTION_SKILL_KAENGIRI": {
+        "SelfId": "BATTLE_MONSTER_ACTION_SKILL_KAENGIRI",
+        "Script": "KAENGIRI",
+        "Animation": "Act1",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SKILL_ENEMY_KAENGIRI"
+      },
+      "BATTLE_MONSTER_ACTION_SKILL_MIKAWASIKYAKU": {
+        "SelfId": "BATTLE_MONSTER_ACTION_SKILL_MIKAWASIKYAKU",
+        "Script": "MIKAWASIKYAKU",
+        "Animation": "Act2",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SKILL_ENEMY_MIKAWASIKYAKU"
+      },
+      "BATTLE_MONSTER_ACTION_SKILL_INAZUMAGIRI": {
+        "SelfId": "BATTLE_MONSTER_ACTION_SKILL_INAZUMAGIRI",
+        "Script": "INAZUMAGIRI",
+        "Animation": "Act1",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SKILL_ENEMY_INAZUMAGIRI"
+      },
+      "BATTLE_MONSTER_ACTION_SKILL_DAIBOUGYO": {
+        "SelfId": "BATTLE_MONSTER_ACTION_SKILL_DAIBOUGYO",
+        "Script": "DAIBOUGYO",
+        "Animation": "BattleIdle",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SKILL_ENEMY_DAIBOUGYO"
+      },
+      "BATTLE_MONSTER_ACTION_SKILL_SINKUUGIRI": {
+        "SelfId": "BATTLE_MONSTER_ACTION_SKILL_SINKUUGIRI",
+        "Script": "SINKUUGIRI",
+        "Animation": "Act1",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SKILL_ENEMY_SINKUUGIRI"
+      },
+      "BATTLE_MONSTER_ACTION_SKILL_MEISOU": {
+        "SelfId": "BATTLE_MONSTER_ACTION_SKILL_MEISOU",
+        "Script": "MEISOU",
+        "Animation": "BattleIdle",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SKILL_ENEMY_MEISOU"
+      },
+      "BATTLE_MONSTER_ACTION_SKILL_HAYABUSAGIRI": {
+        "SelfId": "BATTLE_MONSTER_ACTION_SKILL_HAYABUSAGIRI",
+        "Script": "HAYABUSAGIRI",
+        "Animation": "Act1",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SKILL_ENEMY_HAYABUSAGIRI"
+      },
+      "BATTLE_MONSTER_ACTION_SKILL_GIGASURASSYU": {
+        "SelfId": "BATTLE_MONSTER_ACTION_SKILL_GIGASURASSYU",
+        "Script": "GIGASURASSYU",
+        "Animation": "Act1",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SKILL_ENEMY_GIGASURASSYU"
+      },
+      "BATTLE_MONSTER_ACTION_SKILL_UKENAGASI": {
+        "SelfId": "BATTLE_MONSTER_ACTION_SKILL_UKENAGASI",
+        "Script": "UKENAGASI",
+        "Animation": "Act1",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SKILL_ENEMY_UKENAGASI"
+      },
+      "BATTLE_MONSTER_ACTION_SKILL_KABAU": {
+        "SelfId": "BATTLE_MONSTER_ACTION_SKILL_KABAU",
+        "Script": "KABAU",
+        "Animation": "Act1",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SKILL_ENEMY_KABAU"
+      },
+      "BATTLE_MONSTER_ACTION_SKILL_SIPPUUDUKI": {
+        "SelfId": "BATTLE_MONSTER_ACTION_SKILL_SIPPUUDUKI",
+        "Script": "SIPPUUDUKI",
+        "Animation": "Act1",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SKILL_ENEMY_SIPPUUDUKI"
+      },
+      "BATTLE_MONSTER_ACTION_SKILL_MOROBAGIRI": {
+        "SelfId": "BATTLE_MONSTER_ACTION_SKILL_MOROBAGIRI",
+        "Script": "MOROBAGIRI",
+        "Animation": "Act1",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SKILL_ENEMY_MOROBAGIRI"
+      },
+      "BATTLE_MONSTER_ACTION_SKILL_KYUUSHODUKI": {
+        "SelfId": "BATTLE_MONSTER_ACTION_SKILL_KYUUSHODUKI",
+        "Script": "KYUUSHODUKI",
+        "Animation": "Act1",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": true,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SKILL_ENEMY_KYUUSHODUKI"
+      },
+      "BATTLE_MONSTER_ACTION_SKILL_KYUUSHODUKI_Act4": {
+        "SelfId": "BATTLE_MONSTER_ACTION_SKILL_KYUUSHODUKI_Act4",
+        "Script": "KYUUSHODUKI",
+        "Animation": "Act4",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": true,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SKILL_ENEMY_KYUUSHODUKI"
+      },
+      "BATTLE_MONSTER_ACTION_SKILL_NIOUDATI": {
+        "SelfId": "BATTLE_MONSTER_ACTION_SKILL_NIOUDATI",
+        "Script": "NIOUDATI",
+        "Animation": "Act1",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SKILL_ENEMY_NIOUDATI"
+      },
+      "BATTLE_MONSTER_ACTION_SKILL_TURUGINOMAI": {
+        "SelfId": "BATTLE_MONSTER_ACTION_SKILL_TURUGINOMAI",
+        "Script": "TURUGINOMAI",
+        "Animation": "Act1",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SKILL_ENEMY_TURUGINOMAI"
+      },
+      "BATTLE_MONSTER_ACTION_SKILL_METARUGIRI": {
+        "SelfId": "BATTLE_MONSTER_ACTION_SKILL_METARUGIRI",
+        "Script": "METARUGIRI",
+        "Animation": "Act1",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SKILL_ENEMY_METARUGIRI"
+      },
+      "BATTLE_MONSTER_ACTION_SKILL_SAMIDAREKEN": {
+        "SelfId": "BATTLE_MONSTER_ACTION_SKILL_SAMIDAREKEN",
+        "Script": "SAMIDAREKEN",
+        "Animation": "Act1",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SKILL_ENEMY_SAMIDAREKEN"
+      },
+      "BATTLE_MONSTER_ACTION_SKILL_KONSINGIRI": {
+        "SelfId": "BATTLE_MONSTER_ACTION_SKILL_KONSINGIRI",
+        "Script": "KONSINGIRI",
+        "Animation": "Act1",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SKILL_ENEMY_KONSINGIRI"
+      },
+      "BATTLE_MONSTER_ACTION_SKILL_ASIBARAI": {
+        "SelfId": "BATTLE_MONSTER_ACTION_SKILL_ASIBARAI",
+        "Script": "ASIBARAI",
+        "Animation": "Act1",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": true,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SKILL_ENEMY_ASIBARAI"
+      },
+      "BATTLE_MONSTER_ACTION_SKILL_TOBIHIZAGERI": {
+        "SelfId": "BATTLE_MONSTER_ACTION_SKILL_TOBIHIZAGERI",
+        "Script": "TOBIHIZAGERI",
+        "Animation": "Act1",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SKILL_ENEMY_TOBIHIZAGERI"
+      },
+      "BATTLE_MONSTER_ACTION_SKILL_HITTYUUKEN": {
+        "SelfId": "BATTLE_MONSTER_ACTION_SKILL_HITTYUUKEN",
+        "Script": "HITTYUUKEN",
+        "Animation": "Act1",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SKILL_ENEMY_HITTYUUKEN"
+      },
+      "BATTLE_MONSTER_ACTION_SKILL_KAMAITATI": {
+        "SelfId": "BATTLE_MONSTER_ACTION_SKILL_KAMAITATI",
+        "Script": "KAMAITATI",
+        "Animation": "Act1",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SKILL_ENEMY_KAMAITATI"
+      },
+      "BATTLE_MONSTER_ACTION_SKILL_KAMAITATI_Act2": {
+        "SelfId": "BATTLE_MONSTER_ACTION_SKILL_KAMAITATI_Act2",
+        "Script": "KAMAITATI",
+        "Animation": "Act2",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SKILL_ENEMY_KAMAITATI"
+      },
+      "BATTLE_MONSTER_ACTION_SKILL_SEIKENDUKI": {
+        "SelfId": "BATTLE_MONSTER_ACTION_SKILL_SEIKENDUKI",
+        "Script": "SEIKENDUKI",
+        "Animation": "Act1",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SKILL_ENEMY_SEIKENDUKI"
+      },
+      "BATTLE_MONSTER_ACTION_SKILL_SUTEMI": {
+        "SelfId": "BATTLE_MONSTER_ACTION_SKILL_SUTEMI",
+        "Script": "SUTEMI",
+        "Animation": "Act1",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SKILL_ENEMY_SUTEMI"
+      },
+      "BATTLE_MONSTER_ACTION_SKILL_MAWASIGERI": {
+        "SelfId": "BATTLE_MONSTER_ACTION_SKILL_MAWASIGERI",
+        "Script": "MAWASIGERI",
+        "Animation": "Act1",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SKILL_ENEMY_MAWASIGERI"
+      },
+      "BATTLE_MONSTER_ACTION_SKILL_BAKURETUKEN": {
+        "SelfId": "BATTLE_MONSTER_ACTION_SKILL_BAKURETUKEN",
+        "Script": "BAKURETUKEN",
+        "Animation": "Act1",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SKILL_ENEMY_BAKURETUKEN"
+      },
+      "BATTLE_MONSTER_ACTION_SKILL_BAKURETUKEN_Act6": {
+        "SelfId": "BATTLE_MONSTER_ACTION_SKILL_BAKURETUKEN_Act6",
+        "Script": "BAKURETUKEN",
+        "Animation": "Act6",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SKILL_ENEMY_BAKURETUKEN"
+      },
+      "BATTLE_MONSTER_ACTION_SKILL_ITETUKUHAMON": {
+        "SelfId": "BATTLE_MONSTER_ACTION_SKILL_ITETUKUHAMON",
+        "Script": "ITETUKUHAMON",
+        "Animation": "Act2",
+        "Is_enable_astron": true,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SKILL_ENEMY_ITETUKUHAMON"
+      },
+      "BATTLE_MONSTER_ACTION_SKILL_KAISINHITTYUU": {
+        "SelfId": "BATTLE_MONSTER_ACTION_SKILL_KAISINHITTYUU",
+        "Script": "KAISINHITTYUU",
+        "Animation": "Act1",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SKILL_ENEMY_KAISINHITTYUU"
+      },
+      "BATTLE_MONSTER_ACTION_SKILL_ISITUBUTE": {
+        "SelfId": "BATTLE_MONSTER_ACTION_SKILL_ISITUBUTE",
+        "Script": "ISITUBUTE",
+        "Animation": "Act1",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SKILL_ENEMY_ISITUBUTE"
+      },
+      "BATTLE_MONSTER_ACTION_SKILL_TIKARATAME": {
+        "SelfId": "BATTLE_MONSTER_ACTION_SKILL_TIKARATAME",
+        "Script": "TIKARATAME",
+        "Animation": "Act1",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SKILL_ENEMY_TIKARATAME"
+      },
+      "BATTLE_MONSTER_ACTION_SKILL_TIKARATAME_Act4": {
+        "SelfId": "BATTLE_MONSTER_ACTION_SKILL_TIKARATAME_Act4",
+        "Script": "TIKARATAME",
+        "Animation": "Act4",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SKILL_ENEMY_TIKARATAME"
+      },
+      "BATTLE_MONSTER_ACTION_SKILL_TIKARATAME_Act6": {
+        "SelfId": "BATTLE_MONSTER_ACTION_SKILL_TIKARATAME_Act6",
+        "Script": "TIKARATAME",
+        "Animation": "Act6",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SKILL_ENEMY_TIKARATAME"
+      },
+      "BATTLE_MONSTER_ACTION_SKILL_BUNMAWASI": {
+        "SelfId": "BATTLE_MONSTER_ACTION_SKILL_BUNMAWASI",
+        "Script": "BUNMAWASI",
+        "Animation": "Act1",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SKILL_ENEMY_BUNMAWASI"
+      },
+      "BATTLE_MONSTER_ACTION_SKILL_GUNTAIYOBI": {
+        "SelfId": "BATTLE_MONSTER_ACTION_SKILL_GUNTAIYOBI",
+        "Script": "GUNTAIYOBI",
+        "Animation": "Act1",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SKILL_ENEMY_GUNTAIYOBI"
+      },
+      "BATTLE_MONSTER_ACTION_SKILL_TUKKOMI": {
+        "SelfId": "BATTLE_MONSTER_ACTION_SKILL_TUKKOMI",
+        "Script": "TUKKOMI",
+        "Animation": "Act1",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SKILL_ENEMY_TUKKOMI"
+      },
+      "BATTLE_MONSTER_ACTION_SKILL_MEGAZARUDANSU": {
+        "SelfId": "BATTLE_MONSTER_ACTION_SKILL_MEGAZARUDANSU",
+        "Script": "MEGAZARUDANSU",
+        "Animation": "Act1",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SKILL_ENEMY_MEGAZARUDANSU"
+      },
+      "BATTLE_MONSTER_ACTION_SKILL_MEGAZARUDANSU_Act3": {
+        "SelfId": "BATTLE_MONSTER_ACTION_SKILL_MEGAZARUDANSU_Act3",
+        "Script": "MEGAZARUDANSU",
+        "Animation": "Act3",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SKILL_ENEMY_MEGAZARUDANSU"
+      },
+      "BATTLE_MONSTER_ACTION_SKILL_BUKIMINAHIKARI": {
+        "SelfId": "BATTLE_MONSTER_ACTION_SKILL_BUKIMINAHIKARI",
+        "Script": "BUKIMINAHIKARI",
+        "Animation": "Act2",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": true,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SKILL_ENEMY_BUKIMINAHIKARI"
+      },
+      "BATTLE_MONSTER_ACTION_SKILL_OUEN": {
+        "SelfId": "BATTLE_MONSTER_ACTION_SKILL_OUEN",
+        "Script": "OUEN",
+        "Animation": "Act2",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SKILL_ENEMY_OUEN"
+      },
+      "BATTLE_MONSTER_ACTION_SKILL_OUEN_Act6": {
+        "SelfId": "BATTLE_MONSTER_ACTION_SKILL_OUEN_Act6",
+        "Script": "OUEN",
+        "Animation": "Act6",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SKILL_ENEMY_OUEN"
+      },
+      "BATTLE_MONSTER_ACTION_SKILL_MUNSARUTO": {
+        "SelfId": "BATTLE_MONSTER_ACTION_SKILL_MUNSARUTO",
+        "Script": "MUNSARUTO",
+        "Animation": "Act1",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SKILL_ENEMY_MUNSARUTO"
+      },
+      "BATTLE_MONSTER_ACTION_SKILL_HASSURUDANSU": {
+        "SelfId": "BATTLE_MONSTER_ACTION_SKILL_HASSURUDANSU",
+        "Script": "HASSURUDANSU",
+        "Animation": "Act2",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SKILL_ENEMY_HASSURUDANSU"
+      },
+      "BATTLE_MONSTER_ACTION_SKILL_MARYOKUKAKUSEI": {
+        "SelfId": "BATTLE_MONSTER_ACTION_SKILL_MARYOKUKAKUSEI",
+        "Script": "MARYOKUKAKUSEI",
+        "Animation": "Act1",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SKILL_ENEMY_MARYOKUKAKUSEI"
+      },
+      "BATTLE_MONSTER_ACTION_SKILL_MARYOKUKAKUSEI_Act3": {
+        "SelfId": "BATTLE_MONSTER_ACTION_SKILL_MARYOKUKAKUSEI_Act3",
+        "Script": "MARYOKUKAKUSEI",
+        "Animation": "Act3",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SKILL_ENEMY_MARYOKUKAKUSEI"
+      },
+      "BATTLE_MONSTER_ACTION_SKILL_SUNAKEMURI": {
+        "SelfId": "BATTLE_MONSTER_ACTION_SKILL_SUNAKEMURI",
+        "Script": "SUNAKEMURI",
+        "Animation": "Act2",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": true,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SKILL_ENEMY_SUNAKEMURI"
+      },
+      "BATTLE_MONSTER_ACTION_SKILL_SUNAKEMURI_Act3": {
+        "SelfId": "BATTLE_MONSTER_ACTION_SKILL_SUNAKEMURI_Act3",
+        "Script": "SUNAKEMURI",
+        "Animation": "Act3",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": true,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SKILL_ENEMY_SUNAKEMURI"
+      },
+      "BATTLE_MONSTER_ACTION_SKILL_NEMURIATAKKU": {
+        "SelfId": "BATTLE_MONSTER_ACTION_SKILL_NEMURIATAKKU",
+        "Script": "NEMURIATAKKU",
+        "Animation": "Act1",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": true,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SKILL_ENEMY_NEMURIATAKKU"
+      },
+      "BATTLE_MONSTER_ACTION_SKILL_UINGUBUROU": {
+        "SelfId": "BATTLE_MONSTER_ACTION_SKILL_UINGUBUROU",
+        "Script": "UINGUBUROU",
+        "Animation": "Act1",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SKILL_ENEMY_UINGUBUROU"
+      },
+      "BATTLE_MONSTER_ACTION_SKILL_SIBIREATAKKU": {
+        "SelfId": "BATTLE_MONSTER_ACTION_SKILL_SIBIREATAKKU",
+        "Script": "SIBIREATAKKU",
+        "Animation": "Act1",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": true,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SKILL_ENEMY_SIBIREATAKKU"
+      },
+      "BATTLE_MONSTER_ACTION_SKILL_ASASHINATAKKU": {
+        "SelfId": "BATTLE_MONSTER_ACTION_SKILL_ASASHINATAKKU",
+        "Script": "ASASHINATAKKU",
+        "Animation": "Act1",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": true,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SKILL_ENEMY_ASASHINATAKKU"
+      },
+      "BATTLE_MONSTER_ACTION_SKILL_RASENUTI": {
+        "SelfId": "BATTLE_MONSTER_ACTION_SKILL_RASENUTI",
+        "Script": "RASENUTI",
+        "Animation": "Act1",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": true,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SKILL_ENEMY_RASENUTI"
+      },
+      "BATTLE_MONSTER_ACTION_SKILL_RASENUTI_Act4": {
+        "SelfId": "BATTLE_MONSTER_ACTION_SKILL_RASENUTI_Act4",
+        "Script": "RASENUTI",
+        "Animation": "Act4",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": true,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SKILL_ENEMY_RASENUTI"
+      },
+      "BATTLE_MONSTER_ACTION_SKILL_HYUPUNOSUHANTO": {
+        "SelfId": "BATTLE_MONSTER_ACTION_SKILL_HYUPUNOSUHANTO",
+        "Script": "HYUPUNOSUHANTO",
+        "Animation": "Act1",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SKILL_ENEMY_HYUPUNOSUHANTO"
+      },
+      "BATTLE_MONSTER_ACTION_SKILL_OIKAZE": {
+        "SelfId": "BATTLE_MONSTER_ACTION_SKILL_OIKAZE",
+        "Script": "OIKAZE",
+        "Animation": "Act1",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SKILL_ENEMY_OIKAZE"
+      },
+      "BATTLE_MONSTER_ACTION_SKILL_NAMEMAWASU": {
+        "SelfId": "BATTLE_MONSTER_ACTION_SKILL_NAMEMAWASU",
+        "Script": "NAMEMAWASU",
+        "Animation": "Act2",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": true,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SKILL_ENEMY_NAMEMAWASU"
+      },
+      "BATTLE_MONSTER_ACTION_SKILL_NAMEMAWASU_Act1": {
+        "SelfId": "BATTLE_MONSTER_ACTION_SKILL_NAMEMAWASU_Act1",
+        "Script": "NAMEMAWASU",
+        "Animation": "Act1",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": true,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SKILL_ENEMY_NAMEMAWASU"
+      },
+      "BATTLE_MONSTER_ACTION_SKILL_TOOBOE": {
+        "SelfId": "BATTLE_MONSTER_ACTION_SKILL_TOOBOE",
+        "Script": "TOOBOE",
+        "Animation": "Act1",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SKILL_ENEMY_TOOBOE"
+      },
+      "BATTLE_MONSTER_ACTION_SKILL_YASURAGINOUTA": {
+        "SelfId": "BATTLE_MONSTER_ACTION_SKILL_YASURAGINOUTA",
+        "Script": "YASURAGINOUTA",
+        "Animation": "Act2",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SKILL_ENEMY_YASURAGINOUTA"
+      },
+      "BATTLE_MONSTER_ACTION_SKILL_MAMONOYOBI": {
+        "SelfId": "BATTLE_MONSTER_ACTION_SKILL_MAMONOYOBI",
+        "Script": "MAMONOYOBI",
+        "Animation": "Act2",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SKILL_ENEMY_MAMONOYOBI"
+      },
+      "BATTLE_MONSTER_ACTION_SKILL_MAMONOYOBI_Act6": {
+        "SelfId": "BATTLE_MONSTER_ACTION_SKILL_MAMONOYOBI_Act6",
+        "Script": "MAMONOYOBI",
+        "Animation": "Act6",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SKILL_ENEMY_MAMONOYOBI"
+      },
+      "BATTLE_MONSTER_ACTION_SKILL_OUKYUUTEATE": {
+        "SelfId": "BATTLE_MONSTER_ACTION_SKILL_OUKYUUTEATE",
+        "Script": "OUKYUUTEATE",
+        "Animation": "Act1",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SKILL_ENEMY_OUKYUUTEATE"
+      },
+      "BATTLE_MONSTER_ACTION_SKILL_OUKYUUTEATE_Act6": {
+        "SelfId": "BATTLE_MONSTER_ACTION_SKILL_OUKYUUTEATE_Act6",
+        "Script": "OUKYUUTEATE",
+        "Animation": "Act6",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SKILL_ENEMY_OUKYUUTEATE"
+      },
+      "BATTLE_MONSTER_ACTION_SKILL_YAIBAKUDAKI": {
+        "SelfId": "BATTLE_MONSTER_ACTION_SKILL_YAIBAKUDAKI",
+        "Script": "YAIBAKUDAKI",
+        "Animation": "Act1",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": true,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SKILL_ENEMY_YAIBAKUDAKI"
+      },
+      "BATTLE_MONSTER_ACTION_SKILL_YAIBAKUDAKI_Act4": {
+        "SelfId": "BATTLE_MONSTER_ACTION_SKILL_YAIBAKUDAKI_Act4",
+        "Script": "YAIBAKUDAKI",
+        "Animation": "Act4",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": true,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SKILL_ENEMY_YAIBAKUDAKI"
+      },
+      "BATTLE_MONSTER_ACTION_SKILL_AINOMUTI": {
+        "SelfId": "BATTLE_MONSTER_ACTION_SKILL_AINOMUTI",
+        "Script": "AINOMUTI",
+        "Animation": "Act1",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SKILL_ENEMY_AINOMUTI"
+      },
+      "BATTLE_MONSTER_ACTION_SKILL_OTAKEBI": {
+        "SelfId": "BATTLE_MONSTER_ACTION_SKILL_OTAKEBI",
+        "Script": "OTAKEBI",
+        "Animation": "Act3",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": true,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SKILL_ENEMY_OTAKEBI"
+      },
+      "BATTLE_MONSTER_ACTION_SKILL_OTAKEBI_Act2": {
+        "SelfId": "BATTLE_MONSTER_ACTION_SKILL_OTAKEBI_Act2",
+        "Script": "OTAKEBI",
+        "Animation": "Act2",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": true,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SKILL_ENEMY_OTAKEBI"
+      },
+      "BATTLE_MONSTER_ACTION_SKILL_HYAKURETUNAME": {
+        "SelfId": "BATTLE_MONSTER_ACTION_SKILL_HYAKURETUNAME",
+        "Script": "HYAKURETUNAME",
+        "Animation": "Act2",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": true,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SKILL_ENEMY_HYAKURETUNAME"
+      },
+      "BATTLE_MONSTER_ACTION_SKILL_KAENNOIKI": {
+        "SelfId": "BATTLE_MONSTER_ACTION_SKILL_KAENNOIKI",
+        "Script": "KAENNOIKI",
+        "Animation": "Act3",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SKILL_ENEMY_KAENNOIKI"
+      },
+      "BATTLE_MONSTER_ACTION_SKILL_BISUTOMODO": {
+        "SelfId": "BATTLE_MONSTER_ACTION_SKILL_BISUTOMODO",
+        "Script": "BISUTOMODO",
+        "Animation": "Act2",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SKILL_ENEMY_BISUTOMODO"
+      },
+      "BATTLE_MONSTER_ACTION_SKILL_BISUTOMODO_Act4": {
+        "SelfId": "BATTLE_MONSTER_ACTION_SKILL_BISUTOMODO_Act4",
+        "Script": "BISUTOMODO",
+        "Animation": "Act4",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SKILL_ENEMY_BISUTOMODO"
+      },
+      "BATTLE_MONSTER_ACTION_SKILL_BISUTOMODO_Act6": {
+        "SelfId": "BATTLE_MONSTER_ACTION_SKILL_BISUTOMODO_Act6",
+        "Script": "BISUTOMODO",
+        "Animation": "Act6",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SKILL_ENEMY_BISUTOMODO"
+      },
+      "BATTLE_MONSTER_ACTION_SKILL_GANSEKIOTOSI": {
+        "SelfId": "BATTLE_MONSTER_ACTION_SKILL_GANSEKIOTOSI",
+        "Script": "GANSEKIOTOSI",
+        "Animation": "Act1",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SKILL_ENEMY_GANSEKIOTOSI"
+      },
+      "BATTLE_MONSTER_ACTION_SKILL_SEISINTOUITU": {
+        "SelfId": "BATTLE_MONSTER_ACTION_SKILL_SEISINTOUITU",
+        "Script": "SEISINTOUITU",
+        "Animation": "Act2",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SKILL_ENEMY_SEISINTOUITU"
+      },
+      "BATTLE_MONSTER_ACTION_SKILL_YAKETUKUIKI": {
+        "SelfId": "BATTLE_MONSTER_ACTION_SKILL_YAKETUKUIKI",
+        "Script": "YAKETUKUIKI",
+        "Animation": "Act3",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": true,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SKILL_ENEMY_YAKETUKUIKI"
+      },
+      "BATTLE_MONSTER_ACTION_SKILL_KUROIKIRI": {
+        "SelfId": "BATTLE_MONSTER_ACTION_SKILL_KUROIKIRI",
+        "Script": "KUROIKIRI",
+        "Animation": "Act3",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SKILL_ENEMY_KUROIKIRI"
+      },
+      "BATTLE_MONSTER_ACTION_SKILL_KAGAYAKUIKI": {
+        "SelfId": "BATTLE_MONSTER_ACTION_SKILL_KAGAYAKUIKI",
+        "Script": "KAGAYAKUIKI",
+        "Animation": "Act3",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_SKILL_ENEMY_KAGAYAKUIKI"
+      },
+      "BATTLE_MONSTER_ACTION_BREATH_FIRE_1": {
+        "SelfId": "BATTLE_MONSTER_ACTION_BREATH_FIRE_1",
+        "Script": "BREATH1_HINO",
+        "Animation": "Act3",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_MONSTER_SKILL_HINOIKI"
+      },
+      "BATTLE_MONSTER_ACTION_BREATH_FIRE_2": {
+        "SelfId": "BATTLE_MONSTER_ACTION_BREATH_FIRE_2",
+        "Script": "BREATH2_MOE",
+        "Animation": "Act3",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_MONSTER_SKILL_MOESAKARUKAEN"
+      },
+      "BATTLE_MONSTER_ACTION_BREATH_FIRE_3": {
+        "SelfId": "BATTLE_MONSTER_ACTION_BREATH_FIRE_3",
+        "Script": "BREATH3_HAGE",
+        "Animation": "Act3",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_MONSTER_SKILL_HAGESIIHONOO"
+      },
+      "BATTLE_MONSTER_ACTION_BREATH_FIRE_4": {
+        "SelfId": "BATTLE_MONSTER_ACTION_BREATH_FIRE_4",
+        "Script": "BREATH4_SHAKU",
+        "Animation": "Act3",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_MONSTER_SKILL_SHAKUNETUNOHONOO"
+      },
+      "BATTLE_MONSTER_ACTION_BREATH_ICE_1": {
+        "SelfId": "BATTLE_MONSTER_ACTION_BREATH_ICE_1",
+        "Script": "BREATH5_TSUME",
+        "Animation": "Act3",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_MONSTER_SKILL_TUMETAIIKI"
+      },
+      "BATTLE_MONSTER_ACTION_BREATH_ICE_2": {
+        "SelfId": "BATTLE_MONSTER_ACTION_BREATH_ICE_2",
+        "Script": "BREATH6_KOHRI",
+        "Animation": "Act3",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_MONSTER_SKILL_KOORINOIKI"
+      },
+      "BATTLE_MONSTER_ACTION_BREATH_ICE_3": {
+        "SelfId": "BATTLE_MONSTER_ACTION_BREATH_ICE_3",
+        "Script": "BREATH7_KOGO",
+        "Animation": "Act3",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_MONSTER_SKILL_KOGOERUHUBUKI"
+      },
+      "BATTLE_MONSTER_ACTION_BREATH_POISON": {
+        "SelfId": "BATTLE_MONSTER_ACTION_BREATH_POISON",
+        "Script": "BREATH9_DOKU",
+        "Animation": "Act3",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": true,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_MONSTER_SKILL_DOKUNOIKI"
+      },
+      "BATTLE_MONSTER_ACTION_BREATH_SLEEP": {
+        "SelfId": "BATTLE_MONSTER_ACTION_BREATH_SLEEP",
+        "Script": "BREATH8_AMAI",
+        "Animation": "Act3",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": true,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_MONSTER_SKILL_AMAIIKI"
+      },
+      "BATTLE_MONSTER_ACTION_BREATH_PARALYSIS": {
+        "SelfId": "BATTLE_MONSTER_ACTION_BREATH_PARALYSIS",
+        "Script": "BREATH10_YAKE",
+        "Animation": "Act3",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": true,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_MONSTER_SKILL_YAKETUKUIKI"
+      },
+      "BATTLE_MONSTER_ACTION_WONFER_DANCE": {
+        "SelfId": "BATTLE_MONSTER_ACTION_WONFER_DANCE",
+        "Script": "WONFER_DANCE",
+        "Animation": "Act5",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_MONSTER_SKILL_HUSIGINAODORI"
+      },
+      "BATTLE_MONSTER_ACTION_WONFER_DANCE_Act2": {
+        "SelfId": "BATTLE_MONSTER_ACTION_WONFER_DANCE_Act2",
+        "Script": "WONFER_DANCE",
+        "Animation": "Act2",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_MONSTER_SKILL_HUSIGINAODORI"
+      },
+      "BATTLE_MONSTER_ACTION_GUARD": {
+        "SelfId": "BATTLE_MONSTER_ACTION_GUARD",
+        "Script": "GUARD",
+        "Animation": "Idle",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_GUARD"
+      },
+      "BATTLE_MONSTER_ACTION_RUN_AWAY": {
+        "SelfId": "BATTLE_MONSTER_ACTION_RUN_AWAY",
+        "Script": "RUN_AWAY",
+        "Animation": "BattleIdle",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_RUN_AWAY"
+      },
+      "BATTLE_MONSTER_ACTION_ITETSUKU": {
+        "SelfId": "BATTLE_MONSTER_ACTION_ITETSUKU",
+        "Script": "ITETSUKU_HADO",
+        "Animation": "Act2",
+        "Is_enable_astron": true,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_MONSTER_SKILL_ITETUKUHADOU_COMMON"
+      },
+      "BATTLE_MONSTER_ACTION_ITETSUKU_LIGHT_ORB": {
+        "SelfId": "BATTLE_MONSTER_ACTION_ITETSUKU_LIGHT_ORB",
+        "Script": "ITETSUKU_HADO_LIGHT_ORB",
+        "Animation": "Act4",
+        "Is_enable_astron": true,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_MONSTER_SKILL_ITETUKUHADOU_LIGHT_ORB"
+      },
+      "BATTLE_MONSTER_ACTION_ITETSUKU_ZOMA": {
+        "SelfId": "BATTLE_MONSTER_ACTION_ITETSUKU_ZOMA",
+        "Script": "ITETSUKU_HADO",
+        "Animation": "Act4",
+        "Is_enable_astron": true,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_MONSTER_SKILL_ITETUKUHADOU"
+      },
+      "BATTLE_MONSTER_ACTION_SHARP_FANG": {
+        "SelfId": "BATTLE_MONSTER_ACTION_SHARP_FANG",
+        "Script": "SHARP_FANG",
+        "Animation": "Act1",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_MONSTER_SKILL_SURUDOIKIBA"
+      },
+      "BATTLE_MONSTER_ACTION_GLARE": {
+        "SelfId": "BATTLE_MONSTER_ACTION_GLARE",
+        "Script": "GLARE",
+        "Animation": "Act2",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_MONSTER_SKILL_AYASIIHITOMI"
+      },
+      "BATTLE_MONSTER_ACTION_GLARE_Idle": {
+        "SelfId": "BATTLE_MONSTER_ACTION_GLARE_Idle",
+        "Script": "GLARE",
+        "Animation": "Idle",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_MONSTER_SKILL_AYASIIHITOMI"
+      },
+      "BATTLE_MONSTER_ACTION_LEAN": {
+        "SelfId": "BATTLE_MONSTER_ACTION_LEAN",
+        "Script": "LEAN",
+        "Animation": "Act6",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_MONSTER_SKILL_NOSIKAKARU_0"
+      },
+      "BATTLE_MONSTER_ACTION_LEAN_1": {
+        "SelfId": "BATTLE_MONSTER_ACTION_LEAN_1",
+        "Script": "LEAN",
+        "Animation": "Act6",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_MONSTER_SKILL_NOSIKAKARU_1"
+      },
+      "BATTLE_MONSTER_ACTION_LEAN_2": {
+        "SelfId": "BATTLE_MONSTER_ACTION_LEAN_2",
+        "Script": "LEAN",
+        "Animation": "Act6",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_MONSTER_SKILL_NOSIKAKARU_2"
+      },
+      "BATTLE_MONSTER_ACTION_WAIT": {
+        "SelfId": "BATTLE_MONSTER_ACTION_WAIT",
+        "Script": "WAIT",
+        "Animation": "BattleIdle",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_MONSTER_SKILL_YOUSUWOMIRU"
+      },
+      "BATTLE_MONSTER_ACTION_ATTACK_YOURSELF": {
+        "SelfId": "BATTLE_MONSTER_ACTION_ATTACK_YOURSELF",
+        "Script": "",
+        "Animation": "BattleIdle",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_CONFUSE_SELF_ATTACK"
+      },
+      "BATTLE_MONSTER_ACTION_SUPPORT_YOURSELF": {
+        "SelfId": "BATTLE_MONSTER_ACTION_SUPPORT_YOURSELF",
+        "Script": "",
+        "Animation": "BattleIdle",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_CONFUSE_SELF_RANDOM_SUPPORT"
+      },
+      "BATTLE_MONSTER_ACTION_ATTACK_ENEMY": {
+        "SelfId": "BATTLE_MONSTER_ACTION_ATTACK_ENEMY",
+        "Script": "",
+        "Animation": "BattleIdle",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_CONFUSE_ENEMY_ATTACK"
+      },
+      "BATTLE_MONSTER_ACTION_SUPPORT_ENEMY": {
+        "SelfId": "BATTLE_MONSTER_ACTION_SUPPORT_ENEMY",
+        "Script": "",
+        "Animation": "BattleIdle",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_CONFUSE_ENEMY_RANDOM_SUPPORT"
+      },
+      "BATTLE_MONSTER_ACTION_DAMAGE_ENEMY": {
+        "SelfId": "BATTLE_MONSTER_ACTION_DAMAGE_ENEMY",
+        "Script": "",
+        "Animation": "BattleIdle",
+        "Is_enable_astron": false,
+        "Is_confirm_luck": false,
+        "Pierce_level": 0,
+        "Is_use_battle_road": true,
+        "GOP_Magic": "MAGIC_CONFUSE_ENEMY_RANDOM_DAMAGE"
+      }
+    }
+  }
+]

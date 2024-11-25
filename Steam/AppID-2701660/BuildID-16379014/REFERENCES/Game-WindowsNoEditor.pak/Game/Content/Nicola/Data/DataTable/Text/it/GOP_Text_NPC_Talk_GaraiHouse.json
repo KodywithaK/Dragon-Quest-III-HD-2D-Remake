@@ -1,0 +1,52 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_NPC_Talk_GaraiHouse",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Talk_GaraiHouse_Out_SUB_0_VOLUME_0010_010_1": {
+        "SelfId": "Txt_Talk_GaraiHouse_Out_SUB_0_VOLUME_0010_010_1",
+        "Text": "(slurp?)"
+      },
+      "Txt_Talk_GaraiHouse_Out_SUB_0_VOLUME_0010_010_2": {
+        "SelfId": "Txt_Talk_GaraiHouse_Out_SUB_0_VOLUME_0010_010_2",
+        "Text": "{LEADER} calma il mostro con voce suadente e gli parla del serraglio di mostri di Mister Muster..."
+      },
+      "Txt_Talk_GaraiHouse_Out_SUB_0_VOLUME_0010_010_3": {
+        "SelfId": "Txt_Talk_GaraiHouse_Out_SUB_0_VOLUME_0010_010_3",
+        "Text": "(sluuurp!)"
+      },
+      "Txt_Talk_GaraiHouse_1F_SUB_0_ACTOR_0120_010_1": {
+        "SelfId": "Txt_Talk_GaraiHouse_1F_SUB_0_ACTOR_0120_010_1",
+        "Text": "*: Ahimè, per quanto egli sia mio figlio, Galen mi procura grande affanno."
+      },
+      "Txt_Talk_GaraiHouse_1F_SUB_0_ACTOR_0120_010_2": {
+        "SelfId": "Txt_Talk_GaraiHouse_1F_SUB_0_ACTOR_0120_010_2",
+        "Text": "*: Molte lune or sono, abbandonò questa sua terra e cominciò il suo viaggio... con mente libera, cuore ricolmo e una canzone sulle labbra."
+      },
+      "Txt_Talk_GaraiHouse_1F_SUB_0_ACTOR_0110_010_1": {
+        "SelfId": "Txt_Talk_GaraiHouse_1F_SUB_0_ACTOR_0110_010_1",
+        "Text": "*: Stai dicendo il vero, <IfGender_LEADER(forestiero,forestiera,)>? Il mio Galen, mio figlio... farà presto ritorno? Tu porti buone nuove invero!"
+      },
+      "Txt_Talk_GaraiHouse_1F_SUB_0_ACTOR_0220_010_1": {
+        "SelfId": "Txt_Talk_GaraiHouse_1F_SUB_0_ACTOR_0220_010_1",
+        "Text": "*: Sei alla ricerca della lira dell'ira, <IfGender_LEADER(forestiero,forestiera,)>? Allora è mio figlio Galen colui che cerchi. Grazie a lui la troverai."
+      },
+      "Txt_Talk_GaraiHouse_1F_SUB_0_ACTOR_0210_010_1": {
+        "SelfId": "Txt_Talk_GaraiHouse_1F_SUB_0_ACTOR_0210_010_1",
+        "Text": "*: Nel nostro mondo regna infine la pace e persino mio figlio Galen pondera il suo futuro. Non so quale tra le due cose sia il miracolo più grande."
+      },
+      "Txt_Talk_GaraiHouse_1F_SUB_0_ACTOR_0210_010_2": {
+        "SelfId": "Txt_Talk_GaraiHouse_1F_SUB_0_ACTOR_0210_010_2",
+        "Text": "*: È tutto merito tuo, <IfGender_LEADER(forestiero,forestiera,)>.\r\nTi siamo riconoscenti."
+      }
+    }
+  }
+]

@@ -1,0 +1,516 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_Registration",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Registration_UI_Warrior_Info": {
+        "SelfId": "Txt_Registration_UI_Warrior_Info",
+        "Text": "Capaces de blandir armamento de gran poder, los guerreros emplean su fuerza y vigor para infligir daño a los enemigos y defender a sus aliados."
+      },
+      "Txt_Registration_UI_Mage_Info": {
+        "SelfId": "Txt_Registration_UI_Mage_Info",
+        "Text": "Expertos en lanzar conjuros, los magos hacen uso de sus amplios conocimientos sobre magia para devastar a cualquiera que les plante cara."
+      },
+      "Txt_Registration_UI_Priest_Info": {
+        "SelfId": "Txt_Registration_UI_Priest_Info",
+        "Text": "Los sacerdotes emplean conjuros curativos y también son duchos a la hora de blandir armas, por lo que suponen un apoyo inestimable para todo aventurero."
+      },
+      "Txt_Registration_UI_MartialArtist_Info": {
+        "SelfId": "Txt_Registration_UI_MartialArtist_Info",
+        "Text": "Maestros versados en maniobras cuerpo a cuerpo, los luchadores poseen una gran agilidad y asestan golpes críticos a sus enemigos con frecuencia."
+      },
+      "Txt_Registration_UI_Merchant_Info": {
+        "SelfId": "Txt_Registration_UI_Merchant_Info",
+        "Text": "Especializados en el comercio, los mercaderes resultan muy útiles a la hora de valorar objetos y amasar riquezas."
+      },
+      "Txt_Registration_UI_Gadabout_Info": {
+        "SelfId": "Txt_Registration_UI_Gadabout_Info",
+        "Text": "Expertos en ser el alma de la fiesta, estos bufones con el placer por ocupación resultan totalmente impredecibles."
+      },
+      "Txt_Registration_UI_Sage_Info": {
+        "SelfId": "Txt_Registration_UI_Sage_Info",
+        "Text": "Pozos de ciencia a los que poco les queda por aprender, los sabios son capaces de emplear conjuros propios tanto de los magos como de los sacerdotes."
+      },
+      "Txt_Registration_UI_Thief_Info": {
+        "SelfId": "Txt_Registration_UI_Thief_Info",
+        "Text": "Los ladrones son muy escurridizos. Se las saben todas para eludir a los enemigos dentro de las mazmorras y, además, tienen un olfato infalible para hallar tesoros."
+      },
+      "Txt_Registration_UI_MonsterTamer_Info": {
+        "SelfId": "Txt_Registration_UI_MonsterTamer_Info",
+        "Text": "Los domabestias son auténticos bichos raros. Aprenden habilidades de los monstruos que domestican y las combinan para crear estilos de combate inimitables."
+      },
+      "Txt_Registration_UI_JpbSelect_Guide": {
+        "SelfId": "Txt_Registration_UI_JpbSelect_Guide",
+        "Text": "Elige una vocación."
+      },
+      "Txt_Registration_UI_Style_Menu_01": {
+        "SelfId": "Txt_Registration_UI_Style_Menu_01",
+        "Text": "Tipo A"
+      },
+      "Txt_Registration_UI_Style_Menu_02": {
+        "SelfId": "Txt_Registration_UI_Style_Menu_02",
+        "Text": "Tipo B"
+      },
+      "Txt_Registration_UI_HairSelect_Guide": {
+        "SelfId": "Txt_Registration_UI_HairSelect_Guide",
+        "Text": "Elige un color de pelo."
+      },
+      "Txt_Registration_UI_SeedUseSelect_01": {
+        "SelfId": "Txt_Registration_UI_SeedUseSelect_01",
+        "Text": "Ya las reparto yo"
+      },
+      "Txt_Registration_UI_SeedUseSelect_02": {
+        "SelfId": "Txt_Registration_UI_SeedUseSelect_02",
+        "Text": "Házmelo tú"
+      },
+      "Txt_Registration_UI_Seed_Guide": {
+        "SelfId": "Txt_Registration_UI_Seed_Guide",
+        "Text": "N.º de simientes restantes: {0}"
+      },
+      "Txt_Registration_UI_Personality_Blank": {
+        "SelfId": "Txt_Registration_UI_Personality_Blank",
+        "Text": "¿?"
+      },
+      "Txt_Registration_UI_VoiceSelect_Guide": {
+        "SelfId": "Txt_Registration_UI_VoiceSelect_Guide",
+        "Text": "Elige un tono de voz."
+      },
+      "Txt_Registration_UI_VoiceSample_Guide": {
+        "SelfId": "Txt_Registration_UI_VoiceSample_Guide",
+        "Text": "Escuchar"
+      },
+      "Txt_Registration_UI_VoicePattern_01_M": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_01_M",
+        "Text": "Dócil"
+      },
+      "Txt_Registration_UI_VoicePattern_02_M": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_02_M",
+        "Text": "Chulesco"
+      },
+      "Txt_Registration_UI_VoicePattern_03_M": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_03_M",
+        "Text": "Temeroso"
+      },
+      "Txt_Registration_UI_VoicePattern_04_M": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_04_M",
+        "Text": "Sereno"
+      },
+      "Txt_Registration_UI_VoicePattern_05_M": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_05_M",
+        "Text": "Apasionado"
+      },
+      "Txt_Registration_UI_VoicePattern_06_M": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_06_M",
+        "Text": "Jocoso"
+      },
+      "Txt_Registration_UI_VoicePattern_07_M": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_07_M",
+        "Text": "Decidido"
+      },
+      "Txt_Registration_UI_VoicePattern_08_M": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_08_M",
+        "Text": "Amable"
+      },
+      "Txt_Registration_UI_VoicePattern_09_M": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_09_M",
+        "Text": "Agresivo"
+      },
+      "Txt_Registration_UI_VoicePattern_01_F": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_01_F",
+        "Text": "Infantil"
+      },
+      "Txt_Registration_UI_VoicePattern_02_F": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_02_F",
+        "Text": "Tímido"
+      },
+      "Txt_Registration_UI_VoicePattern_03_F": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_03_F",
+        "Text": "Salvaje"
+      },
+      "Txt_Registration_UI_VoicePattern_04_F": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_04_F",
+        "Text": "Comedido"
+      },
+      "Txt_Registration_UI_VoicePattern_05_F": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_05_F",
+        "Text": "Enérgico"
+      },
+      "Txt_Registration_UI_VoicePattern_06_F": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_06_F",
+        "Text": "Pijo"
+      },
+      "Txt_Registration_UI_VoicePattern_07_F": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_07_F",
+        "Text": "Elegante"
+      },
+      "Txt_Registration_UI_VoicePattern_08_F": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_08_F",
+        "Text": "Serio"
+      },
+      "Txt_Registration_UI_VoicePattern_09_F": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_09_F",
+        "Text": "Seductor"
+      },
+      "Txt_Registration_UI_DeleteGuide": {
+        "SelfId": "Txt_Registration_UI_DeleteGuide",
+        "Text": "Elige a quién dejar."
+      },
+      "Txt_Registration_Message_Start": {
+        "SelfId": "Txt_Registration_Message_Start",
+        "Text": "*: ¡<IfGender_LEADER(Bienvenido,Bienvenida,)> al Programa para Antiguos y Nuevos Aventureros sin Socios! ¡Forma un grupo de primera con PANAS!"
+      },
+      "Txt_Registration_Message_First": {
+        "SelfId": "Txt_Registration_Message_First",
+        "Text": "*: ¡Estamos aquí para ayudarte a sacar del paro a los mejores aventureros e incorporarlos a tu elenco!<KEY_WAIT>\r\n*: Dinos lo que buscas y nos encargaremos de enviarte un profesional cualificado al mostrador de Petricia."
+      },
+      "Txt_Registration_Message_Top": {
+        "SelfId": "Txt_Registration_Message_Top",
+        "Text": "*: Bueno, ¿qué? ¿Te gustaría añadir savia nueva a tu grupo?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_NameSelect": {
+        "SelfId": "Txt_Registration_Message_NameSelect",
+        "Text": "*: Primero de todo, dame un nombre.<NO_INPUT>"
+      },
+      "Txt_Registration_Message_JobSelect": {
+        "SelfId": "Txt_Registration_Message_JobSelect",
+        "Text": "*: Vale, ahora dime qué vocación te gustaría que tuviera.<NO_INPUT>"
+      },
+      "Txt_Registration_Message_StyleSelect": {
+        "SelfId": "Txt_Registration_Message_StyleSelect",
+        "Text": "*: ¿Qué tipo de apariencia te gustaría que tuviera?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_LooksSelect": {
+        "SelfId": "Txt_Registration_Message_LooksSelect",
+        "Text": "*: ¿Algún detalle más de su aspecto que quieras que tengamos en cuenta?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_HairColorSelect": {
+        "SelfId": "Txt_Registration_Message_HairColorSelect",
+        "Text": "*: Perfecto. Y el pelo, ¿de qué color?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_Confirm_01": {
+        "SelfId": "Txt_Registration_Message_Confirm_01",
+        "Text": "*: Ajá... Creo que tengo justo lo que buscas. ¿Qué te parece esta persona para tu grupo?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_UseSeedFirst": {
+        "SelfId": "Txt_Registration_Message_UseSeedFirst",
+        "Text": "*: ¡{LEADER}, hoy es tu día de suerte!<KEY_WAIT>\r\n*: Como parte del Sistema para Aventureros Voluntariosos, Intrépidos y Animosos de su majestad, ¡puedes obtener una Sistemática e Inigualable Mejora del Índice de Eficacia para Nuevos y Tenaces Exploradores!<KEY_WAIT>\r\n*: Eso quiere decir que vas a recibir cinco unidades potenciadoras de SIMIENTE, o <66>simientes<99>, ¡que darán un empujoncito a los atributos de los miembros de tu equipo!<KEY_WAIT>\r\n*: Puedes elegir las simientes por tu cuenta o confiar en mis habilidades orientativas para que escoja por ti.<KEY_WAIT>\r\n*: Si lo haces por tu cuenta, tendrás que seleccionar hasta cinco simientes para tu colega, pero, si me dejas elegir a mí, las repartiré como crea conveniente."
+      },
+      "Txt_Registration_Message_UseSeedSelect": {
+        "SelfId": "Txt_Registration_Message_UseSeedSelect",
+        "Text": "*: Bueno, ¿cómo vas a repartir las simientes de {WORD}?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_UseSeedStart": {
+        "SelfId": "Txt_Registration_Message_UseSeedStart",
+        "Text": "*: Tienes disponible<IfSing_VALUE(,s)> {VALUE} simiente<IfSing_VALUE(,s)>.\r\n¡Úsala<IfSing_VALUE(,s)> con cabeza!"
+      },
+      "Txt_Registration_Message_UseSeedAuto": {
+        "SelfId": "Txt_Registration_Message_UseSeedAuto",
+        "Text": "*: Excelente.\r\n¡Déjamelo a mí!"
+      },
+      "Txt_Registration_Message_Confirm_02": {
+        "SelfId": "Txt_Registration_Message_Confirm_02",
+        "Text": "*: Así que buscas a alguien como {WORD}, ¿eh?"
+      },
+      "Txt_Registration_Message_VoiceSelect": {
+        "SelfId": "Txt_Registration_Message_VoiceSelect",
+        "Text": "*: Por último, ¿me podrías decir cómo querrías que hablara?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_FinishConfirm": {
+        "SelfId": "Txt_Registration_Message_FinishConfirm",
+        "Text": "*: Si lo dejas estar ahora, esta persona no se unirá a tu grupo. ¿Seguro que quieres cancelar la gestión?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_Confirm_03": {
+        "SelfId": "Txt_Registration_Message_Confirm_03",
+        "Text": "*: Vas a reclutar a {WORD}.\r\n¿Lo tienes claro?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_AddBarMember": {
+        "SelfId": "Txt_Registration_Message_AddBarMember",
+        "Text": "*: Fantástico. {WORD} te estará esperando abajo."
+      },
+      "Txt_Registration_Message_RegistrationCancel": {
+        "SelfId": "Txt_Registration_Message_RegistrationCancel",
+        "Text": "*: Vaya, qué lástima."
+      },
+      "Txt_Registration_Message_AddRegistrationConfirm": {
+        "SelfId": "Txt_Registration_Message_AddRegistrationConfirm",
+        "Text": "*: ¿Quieres reclutar a alguien más?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_UseSeedAutoFinish": {
+        "SelfId": "Txt_Registration_Message_UseSeedAutoFinish",
+        "Text": "*: Pues ya estaría...\r\n¡Todo listo!"
+      },
+      "Txt_Registration_Message_BarMemberMax": {
+        "SelfId": "Txt_Registration_Message_BarMemberMax",
+        "Text": "*: Me temo que vas a tener que despedirte de alguien si quieres reclutar a más gente. ¿Te parece bien?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_DeleteBarMemberSelect": {
+        "SelfId": "Txt_Registration_Message_DeleteBarMemberSelect",
+        "Text": "*: Bueno, ¿a qué miembro de tu equipo crees que..., ejem, le vendría bien un cambio de aires?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_DeleteBarMemberConfirm": {
+        "SelfId": "Txt_Registration_Message_DeleteBarMemberConfirm",
+        "Text": "*: Así que quieres decir adiós a {WORD}, ¿no? ¿Seguro? Mira que no hay vuelta atrás...<NO_INPUT>"
+      },
+      "Txt_Registration_Message_DeleteBarMemberFinish": {
+        "SelfId": "Txt_Registration_Message_DeleteBarMemberFinish",
+        "Text": "*: Bueno, las despedidas siempre son tristes, pero seguro que a {WORD} le va bien en el futuro.<KEY_WAIT>\r\n*: Y no te preocupes, que ya nos hemos encargado de recuperar todas las pertenencias de valor que llevaba antes de que abandonara el local. Deberías tenerlo todo a buen recaudo en tu bolsa.<KEY_WAIT>\r\n*: Y ahora que se ha ido {WORD}, hay una vacante en tu cuadrilla, ¡así que puedes reclutar savia nueva!"
+      },
+      "Txt_Registration_Message_DeleteBarMemberCancel": {
+        "SelfId": "Txt_Registration_Message_DeleteBarMemberCancel",
+        "Text": "*: ¿Has cambiado de opinión?\r\nBueno, quién sabe, puede que sea mejor así."
+      },
+      "Txt_Registration_Message_NameError_Duplication": {
+        "SelfId": "Txt_Registration_Message_NameError_Duplication",
+        "Text": "*: Vaya, qué raro... Diría que esta persona ya está en tu equipo. ¿Quieres que busquemos otro candidato?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_NameError_Ban": {
+        "SelfId": "Txt_Registration_Message_NameError_Ban",
+        "Text": "*: Lo siento, pero no tenemos a nadie que se llame así.<KEY_WAIT>\r\n*: ¿Quieres que busquemos otro candidato?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_NameError_Roto": {
+        "SelfId": "Txt_Registration_Message_NameError_Roto",
+        "Text": "*: ¡¿E-Erdrick?! Has dicho Erdrick, ¿no? Lo siento en el alma, pero... <66>Erdrick<99> no solo es un nombre, sino también un título.<KEY_WAIT>\r\n*: Significa <66>quien mora la tierra<99> en la lengua antigua.<KEY_WAIT>\r\n*: Así que cuando llamas Erdrick a alguien, lo estás reconociendo como representante del reino, como su campeón.<KEY_WAIT>\r\n*: Huelga decir que solo los mayores héroes son dignos de llevar semejante apodo. Y a mí no se me permite buscar a tan consagradas figuras. ¡Me estaría jugando el puesto!"
+      },
+      "Txt_Registration_Message_RegistrationFinish": {
+        "SelfId": "Txt_Registration_Message_RegistrationFinish",
+        "Text": "*: Ven a verme cuando busques algún aventurero de primera categoría.\r\n¡Hasta pronto!"
+      },
+      "Txt_Registration_Message_Personality_01": {
+        "SelfId": "Txt_Registration_Message_Personality_01",
+        "Text": "*: Parece que está muy <SglF_WORD>.<KEY_WAIT>\r\n*: La gente así suele ganar fuerza extremadamente rápido; al contrario que la sabiduría, que aumenta de forma bastante lenta."
+      },
+      "Txt_Registration_Message_Personality_02": {
+        "SelfId": "Txt_Registration_Message_Personality_02",
+        "Text": "*: Parece una persona <SglF_WORD>.<KEY_WAIT>\r\n*: La gente así suele ganar fuerza extremadamente rápido; al contrario que la agilidad, la suerte y la sabiduría, que aumentan de forma bastante lenta."
+      },
+      "Txt_Registration_Message_Personality_03": {
+        "SelfId": "Txt_Registration_Message_Personality_03",
+        "Text": "*: Parece una persona <SglF_WORD>.<KEY_WAIT>\r\n*: La gente así suele ganar fuerza rápidamente, y su resistencia también aumenta un poco más rápido de lo normal. Sin embargo, la suerte y la sabiduría mejoran de forma bastante lenta."
+      },
+      "Txt_Registration_Message_Personality_04": {
+        "SelfId": "Txt_Registration_Message_Personality_04",
+        "Text": "*: Parece ser <IfGender_ACTOR(todo un <SglM_WORD>,toda una <SglF_WORD>,)>.<KEY_WAIT>\r\n*: La gente así suele ganar fuerza extremadamente rápido, y su resistencia también aumenta un poco más rápido de lo normal."
+      },
+      "Txt_Registration_Message_Personality_05": {
+        "SelfId": "Txt_Registration_Message_Personality_05",
+        "Text": "*: Parece una persona <SglF_WORD>.<KEY_WAIT>\r\n*: La gente así suele ganar resistencia extremadamente rápido, y su fuerza y su vigor también aumentan un poco más rápido de lo normal. Sin embargo, la sabiduría y la agilidad mejoran de forma bastante lenta."
+      },
+      "Txt_Registration_Message_Personality_06": {
+        "SelfId": "Txt_Registration_Message_Personality_06",
+        "Text": "*: Parece una persona <SglF_WORD>.<KEY_WAIT>\r\n*: La gente así suele ganar resistencia y fuerza rápidamente; al contrario que la suerte, que aumenta de forma bastante lenta."
+      },
+      "Txt_Registration_Message_Personality_07": {
+        "SelfId": "Txt_Registration_Message_Personality_07",
+        "Text": "*: Parece ser <IfGender_ACTOR(todo un <SglM_WORD>,toda una <SglF_WORD>,)>.<KEY_WAIT>\r\n*: La gente así suele ganar fuerza y agilidad rápidamente."
+      },
+      "Txt_Registration_Message_Personality_08": {
+        "SelfId": "Txt_Registration_Message_Personality_08",
+        "Text": "*: Parece una persona <SglF_WORD>.<KEY_WAIT>\r\n*: La gente así suele ganar agilidad y vigor rápidamente; al contrario que la resistencia, que aumenta de forma bastante lenta."
+      },
+      "Txt_Registration_Message_Personality_09": {
+        "SelfId": "Txt_Registration_Message_Personality_09",
+        "Text": "*: Parece una persona <SglF_WORD>.<KEY_WAIT>\r\n*: La gente así suele ganar vigor y fuerza rápidamente."
+      },
+      "Txt_Registration_Message_Personality_10": {
+        "SelfId": "Txt_Registration_Message_Personality_10",
+        "Text": "*: Parece una persona <SglF_WORD>.<KEY_WAIT>\r\n*: La gente así suele ganar agilidad rápidamente."
+      },
+      "Txt_Registration_Message_Personality_11": {
+        "SelfId": "Txt_Registration_Message_Personality_11",
+        "Text": "*: Parece una persona <SglF_WORD>.<KEY_WAIT>\r\n*: La gente así suele ganar agilidad y vigor un poco más rápido de lo normal."
+      },
+      "Txt_Registration_Message_Personality_12": {
+        "SelfId": "Txt_Registration_Message_Personality_12",
+        "Text": "*: Parece ser <IfGender_ACTOR(todo un <SglM_WORD>,toda una <SglF_WORD>,)>.<KEY_WAIT>\r\n*: La gente así suele ganar resistencia y vigor un poco más rápido de lo normal; al contrario que la agilidad, que aumenta de forma bastante lenta."
+      },
+      "Txt_Registration_Message_Personality_13": {
+        "SelfId": "Txt_Registration_Message_Personality_13",
+        "Text": "*: Parece ser <IfGender_ACTOR(todo un <SglM_WORD>,toda una <SglF_WORD>,)>.<KEY_WAIT>\r\n*: La gente así suele ganar suerte un poco más rápido de lo normal; al contrario que la sabiduría, que aumenta de forma bastante lenta."
+      },
+      "Txt_Registration_Message_Personality_14": {
+        "SelfId": "Txt_Registration_Message_Personality_14",
+        "Text": "*: Parece una persona <SglF_WORD>.<KEY_WAIT>\r\n*: La gente así suele ganar resistencia y vigor rápidamente; al contrario que la agilidad, la sabiduría y la suerte, que aumentan de forma bastante lenta."
+      },
+      "Txt_Registration_Message_Personality_15": {
+        "SelfId": "Txt_Registration_Message_Personality_15",
+        "Text": "*: Parece ser <IfGender_ACTOR(todo un <SglM_WORD>,toda una <SglF_WORD>,)>.<KEY_WAIT>\r\n*: La gente así suele ganar suerte extremadamente rápido, y su sabiduría también aumenta un poco más rápido de lo normal. Sin embargo, la resistencia mejora de forma bastante lenta."
+      },
+      "Txt_Registration_Message_Personality_16": {
+        "SelfId": "Txt_Registration_Message_Personality_16",
+        "Text": "*: Parece una persona <SglF_WORD>.<KEY_WAIT>\r\n*: La gente así suele ganar atributos de forma equilibrada."
+      },
+      "Txt_Registration_Message_Personality_17": {
+        "SelfId": "Txt_Registration_Message_Personality_17",
+        "Text": "*: Parece que se trata de <IfGender_ACTOR(un <SglM_WORD>,una <SglF_WORD>,)>.<KEY_WAIT>\r\n*: La gente así suele ganar atributos de forma equilibrada."
+      },
+      "Txt_Registration_Message_Personality_18": {
+        "SelfId": "Txt_Registration_Message_Personality_18",
+        "Text": "*: Parece ser un {WORD}.<KEY_WAIT>\r\n*: La gente así suele ganar agilidad extremadamente rápido."
+      },
+      "Txt_Registration_Message_Personality_19": {
+        "SelfId": "Txt_Registration_Message_Personality_19",
+        "Text": "*: Parece ser <IfGender_ACTOR(todo un <SglM_WORD>,toda una <SglF_WORD>,)>.<KEY_WAIT>\r\n*: La gente así suele ganar agilidad rápidamente."
+      },
+      "Txt_Registration_Message_Personality_20": {
+        "SelfId": "Txt_Registration_Message_Personality_20",
+        "Text": "*: Parece una persona <SglF_WORD>.<KEY_WAIT>\r\n*: La gente así suele ganar sabiduría rápidamente, y su resistencia y agilidad también aumentan un poco más rápido de lo normal."
+      },
+      "Txt_Registration_Message_Personality_21": {
+        "SelfId": "Txt_Registration_Message_Personality_21",
+        "Text": "*: Parece ser todo un {WORD}.<KEY_WAIT>\r\n*: La gente así suele ganar sabiduría extremadamente rápido, y su agilidad también aumenta un poco más rápido de lo normal."
+      },
+      "Txt_Registration_Message_Personality_22": {
+        "SelfId": "Txt_Registration_Message_Personality_22",
+        "Text": "*: Parece una persona <SglF_WORD>.<KEY_WAIT>\r\n*: La gente así suele ganar suerte extremadamente rápido, y su agilidad también aumenta rápidamente. Sin embargo, la fuerza y el vigor mejoran de forma bastante lenta."
+      },
+      "Txt_Registration_Message_Personality_23": {
+        "SelfId": "Txt_Registration_Message_Personality_23",
+        "Text": "*: Parece una persona <SglF_WORD>.<KEY_WAIT>\r\n*: La gente así suele ganar fuerza, resistencia y agilidad un poco más rápido de lo normal."
+      },
+      "Txt_Registration_Message_Personality_24": {
+        "SelfId": "Txt_Registration_Message_Personality_24",
+        "Text": "*: Parece una persona <SglF_WORD>.<KEY_WAIT>\r\n*: La gente así suele ganar agilidad un poco más rápido de lo normal."
+      },
+      "Txt_Registration_Message_Personality_25": {
+        "SelfId": "Txt_Registration_Message_Personality_25",
+        "Text": "*: Parece una persona <SglF_WORD>.<KEY_WAIT>\r\n*: La gente así suele ganar suerte rápidamente, y su sabiduría también aumenta un poco más rápido de lo normal. Sin embargo, la resistencia mejora de forma bastante lenta."
+      },
+      "Txt_Registration_Message_Personality_26": {
+        "SelfId": "Txt_Registration_Message_Personality_26",
+        "Text": "*: Parece una persona <SglF_WORD>.<KEY_WAIT>\r\n*: La gente así suele ganar sabiduría y suerte un poco más rápido de lo normal."
+      },
+      "Txt_Registration_Message_Personality_27": {
+        "SelfId": "Txt_Registration_Message_Personality_27",
+        "Text": "*: Parece una persona <SglF_WORD>.<KEY_WAIT>\r\n*: La gente así suele ganar vigor y resistencia extremadamente rápido; al contrario que la suerte, que aumenta de forma bastante lenta."
+      },
+      "Txt_Registration_Message_Personality_28": {
+        "SelfId": "Txt_Registration_Message_Personality_28",
+        "Text": "*: Parece una persona <SglF_WORD>.<KEY_WAIT>\r\n*: La gente así suele ganar resistencia y vigor extremadamente rápido."
+      },
+      "Txt_Registration_Message_Personality_29": {
+        "SelfId": "Txt_Registration_Message_Personality_29",
+        "Text": "*: Parece una persona <SglF_WORD>.<KEY_WAIT>\r\n*: La gente así suele ganar vigor rápidamente."
+      },
+      "Txt_Registration_Message_Personality_30": {
+        "SelfId": "Txt_Registration_Message_Personality_30",
+        "Text": "*: Parece una persona <SglF_WORD>.<KEY_WAIT>\r\n*: La gente así suele ganar resistencia y vigor rápidamente; al contrario que la suerte, que aumenta de forma bastante lenta."
+      },
+      "Txt_Registration_Message_Personality_31": {
+        "SelfId": "Txt_Registration_Message_Personality_31",
+        "Text": "*: Parece una persona <SglF_WORD>.<KEY_WAIT>\r\n*: La gente así suele ganar fuerza rápidamente, y su resistencia y vigor también aumentan un poco más rápido de lo normal."
+      },
+      "Txt_Registration_Message_Personality_32": {
+        "SelfId": "Txt_Registration_Message_Personality_32",
+        "Text": "*: Parece ser <IfGender_ACTOR(todo un <SglM_WORD>,toda una <SglF_WORD>,)>.<KEY_WAIT>\r\n*: La gente así suele ganar vigor un poco más rápido de lo normal."
+      },
+      "Txt_Registration_Message_Personality_33": {
+        "SelfId": "Txt_Registration_Message_Personality_33",
+        "Text": "*: Parece ser <IfGender_ACTOR(todo un <SglM_WORD>,toda una <SglF_WORD>,)>.<KEY_WAIT>\r\n*: La gente así suele ganar vigor rápidamente, y su suerte también aumenta un poco más rápido de lo normal. Sin embargo, la resistencia y la sabiduría mejoran de forma bastante lenta."
+      },
+      "Txt_Registration_Message_Personality_34": {
+        "SelfId": "Txt_Registration_Message_Personality_34",
+        "Text": "*: Parece ser <IfGender_WORD(todo un,toda una,)> <IfGender_WORD(<SglM_WORD>,<SglF_WORD>,)>.<KEY_WAIT>\r\n*: La gente así suele ganar sabiduría extremadamente rápido."
+      },
+      "Txt_Registration_Message_Personality_35": {
+        "SelfId": "Txt_Registration_Message_Personality_35",
+        "Text": "*: Parece ser <IfGender_ACTOR(todo un <SglM_WORD>,toda una <SglF_WORD>,)>.<KEY_WAIT>\r\n*: La gente así suele ganar sabiduría rápidamente, y su resistencia también aumenta un poco más rápido de lo normal."
+      },
+      "Txt_Registration_Message_Personality_36": {
+        "SelfId": "Txt_Registration_Message_Personality_36",
+        "Text": "*: Parece una persona <SglF_WORD>.<KEY_WAIT>\r\n*: La gente así suele ganar agilidad y sabiduría un poco más rápido de lo normal."
+      },
+      "Txt_Registration_Message_Personality_37": {
+        "SelfId": "Txt_Registration_Message_Personality_37",
+        "Text": "*: Parece una persona <SglF_WORD>.<KEY_WAIT>\r\n*: La gente así suele ganar suerte un poco más rápido de lo normal."
+      },
+      "Txt_Registration_Message_Personality_38": {
+        "SelfId": "Txt_Registration_Message_Personality_38",
+        "Text": "*: Parece una persona <SglF_WORD>.<KEY_WAIT>\r\n*: La gente así suele ganar suerte extremadamente rápido, y su agilidad también aumenta un poco más rápido de lo normal."
+      },
+      "Txt_Registration_Message_Personality_39": {
+        "SelfId": "Txt_Registration_Message_Personality_39",
+        "Text": "*: Parece una persona <SglF_WORD>.<KEY_WAIT>\r\n*: La gente así suele ganar suerte extremadamente rápido."
+      },
+      "Txt_Registration_Message_Personality_40": {
+        "SelfId": "Txt_Registration_Message_Personality_40",
+        "Text": "*: Parece ser <IfGender_ACTOR(todo un <SglM_WORD>,toda una <SglF_WORD>,)>.<KEY_WAIT>\r\n*: La gente así suele ganar agilidad rápidamente; al contrario que la sabiduría y la suerte, que aumentan de forma bastante lenta."
+      },
+      "Txt_Registration_Message_Personality_41": {
+        "SelfId": "Txt_Registration_Message_Personality_41",
+        "Text": "*: Parece ser <IfGender_ACTOR(todo un <SglM_WORD>,toda una <SglF_WORD>,)>.<KEY_WAIT>\r\n*: La gente así suele ganar resistencia y vigor rápidamente; al contrario que la suerte, que aumenta de forma bastante lenta."
+      },
+      "Txt_Registration_Message_Personality_42": {
+        "SelfId": "Txt_Registration_Message_Personality_42",
+        "Text": "*: Parece una persona <SglF_WORD>.<KEY_WAIT>\r\n*: La gente así suele ganar sabiduría y suerte rápidamente; al contrario que la agilidad, que aumenta de forma bastante lenta."
+      },
+      "Txt_Registration_Message_Personality_43": {
+        "SelfId": "Txt_Registration_Message_Personality_43",
+        "Text": "*: Parece ser <IfGender_ACTOR(todo un <SglM_WORD>,toda una <SglF_WORD>,)>.<KEY_WAIT>\r\n*: La gente así suele ganar agilidad rápidamente, y su sabiduría y su suerte también aumentan un poco más rápido de lo normal."
+      },
+      "Txt_Registration_Message_Personality_44": {
+        "SelfId": "Txt_Registration_Message_Personality_44",
+        "Text": "*: Parece una persona <SglF_WORD>.<KEY_WAIT>\r\n*: La gente así suele ganar vigor rápidamente, y su sabiduría también aumenta un poco más rápido de lo normal. Sin embargo, la agilidad mejora de forma bastante lenta."
+      },
+      "Txt_Registration_Message_Personality_45": {
+        "SelfId": "Txt_Registration_Message_Personality_45",
+        "Text": "*: Parece ser <SglF_WORD>.<KEY_WAIT>\r\n*: La gente así suele ganar atributos de forma equilibrada."
+      },
+      "Txt_Registration_Message_Personality_46": {
+        "SelfId": "Txt_Registration_Message_Personality_46",
+        "Text": "*: Parece una persona <SglF_WORD>.<KEY_WAIT>\r\n*: La gente así suele ganar agilidad y suerte rápidamente, y el resto de sus atributos mejoran de forma equilibrada."
+      },
+      "Txt_Registration_Message_DeleteBarMemberError_Hero": {
+        "SelfId": "Txt_Registration_Message_DeleteBarMemberError_Hero",
+        "Text": "*: ¡¿P-pero...?! ¡¿A {HERO}?!<KEY_WAIT>\r\n*: Ja, ja, ja... Venga, no digas tonterías. ¡No puedes poner <IfGender_HERO(al héroe,a la heroína,)> de patitas en la calle!"
+      },
+      "Txt_Registration_Message_DeleteBarMemberError_Mer": {
+        "SelfId": "Txt_Registration_Message_DeleteBarMemberError_Mer",
+        "Text": "*: Lo siento en el alma, pero, por motivos contractuales, no podemos despedir a esa persona..."
+      },
+      "Txt_Registration_Message_AddPartyMember_Confirm": {
+        "SelfId": "Txt_Registration_Message_AddPartyMember_Confirm",
+        "Text": "*: Bueno, ya está todo listo. ¿Quieres que {WORD} te acompañe?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_PartyMemberMAX": {
+        "SelfId": "Txt_Registration_Message_PartyMemberMAX",
+        "Text": "*: Ah, hay un problemilla..., no te queda hueco en el grupo.<KEY_WAIT>\r\n*: ¿Quieres dejar a alguien aquí un tiempo?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_DropOffConfirm": {
+        "SelfId": "Txt_Registration_Message_DropOffConfirm",
+        "Text": "*: ¡Perfecto! ¿Quién se va a tomar un descanso de tanta aventura?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_DropOffError": {
+        "SelfId": "Txt_Registration_Message_DropOffError",
+        "Text": "*: Ah, siento decirte que a <IfGender_WORD(él no lo,ella no la,)> puedes echar del grupo."
+      },
+      "Txt_Registration_Message_DropOffFinish": {
+        "SelfId": "Txt_Registration_Message_DropOffFinish",
+        "Text": "*: Bueno, sé que nunca es fácil decir adiós, ¡pero seguro que no tardarás en volver a ver a {WORD}!<KEY_WAIT>\r\n*: Dame un segundo que te meta sus objetos y su equipamiento en la bolsa."
+      },
+      "Txt_Registration_Message_PickUp": {
+        "SelfId": "Txt_Registration_Message_PickUp",
+        "Text": "¡{WORD} se une al grupo!"
+      },
+      "Txt_Registration_Message_AutoSeedUse": {
+        "SelfId": "Txt_Registration_Message_AutoSeedUse",
+        "Text": "¡<Cap><DefSgl_WORD> de {TARGET} aumenta en {VALUE}!<WAIT>[1]<NO_INPUT>"
+      },
+      "Txt_Registration_Start": {
+        "SelfId": "Txt_Registration_Start",
+        "Text": "*: ¡<IfGender_LEADER(Bienvenido,Bienvenida,)> al Programa para Antiguos y Nuevos Aventureros sin Socios! ¡Forma un grupo de primera con PANAS!"
+      },
+      "Txt_Registration_First": {
+        "SelfId": "Txt_Registration_First",
+        "Text": "*: ¡Estamos aquí para ayudarte a sacar del paro a los mejores aventureros e incorporarlos a tu elenco!"
+      }
+    }
+  }
+]

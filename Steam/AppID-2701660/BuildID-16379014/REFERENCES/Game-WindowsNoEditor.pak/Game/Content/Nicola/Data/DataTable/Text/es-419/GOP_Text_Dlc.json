@@ -1,0 +1,68 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_Dlc",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Dlc_Eary_Reserved": {
+        "SelfId": "Txt_Dlc_Eary_Reserved",
+        "Text": "Kit de viaje antiproblemas"
+      },
+      "Txt_Dlc_Fast_GuideBook": {
+        "SelfId": "Txt_Dlc_Fast_GuideBook",
+        "Text": "Kit de accesorios aventureros"
+      },
+      "Txt_Dlc_Sqex_GuideBook": {
+        "SelfId": "Txt_Dlc_Sqex_GuideBook",
+        "Text": "Kit de imagen sabionda"
+      },
+      "Txt_Dlc_Lawson_Collabo": {
+        "SelfId": "Txt_Dlc_Lawson_Collabo",
+        "Text": "Kit esencial para guerreros"
+      },
+      "Txt_Dlc_Amazon_Collabo": {
+        "SelfId": "Txt_Dlc_Amazon_Collabo",
+        "Text": "Kit esencial para conjuradores"
+      },
+      "Txt_Dlc_Open_Treasure": {
+        "SelfId": "Txt_Dlc_Open_Treasure",
+        "Text": "{LEADER} abre el cofre del tesoro<...>"
+      },
+      "Txt_Dlc_Not_Open_Treasure_1": {
+        "SelfId": "Txt_Dlc_Not_Open_Treasure_1",
+        "Text": "{LEADER} intenta abrir el cofre del tesoro."
+      },
+      "Txt_Dlc_Not_Open_Treasure_2": {
+        "SelfId": "Txt_Dlc_Not_Open_Treasure_2",
+        "Text": "Sin embargo, está cerrado con llave."
+      },
+      "Txt_Dlc_Not_Open_Treasure_3": {
+        "SelfId": "Txt_Dlc_Not_Open_Treasure_3",
+        "Text": "Si reservaste este juego con anticipación o lo compraste en determinadas tiendas, hallarás algunos objetos de bonificación en este cofre."
+      },
+      "Txt_Dlc_Not_Open_Treasure_4": {
+        "SelfId": "Txt_Dlc_Not_Open_Treasure_4",
+        "Text": "Para conocer más detalles, visita el sitio web de la tienda donde compraste DRAGON QUEST III HD-2D Remake o lee las instrucciones en los objetos de bonificación."
+      },
+      "Txt_Dlc_Dlc_Choice": {
+        "SelfId": "Txt_Dlc_Dlc_Choice",
+        "Text": "¿Qué objeto deseas comprar?<NO_INPUT>"
+      },
+      "Txt_Dlc_Confirm_Receipt": {
+        "SelfId": "Txt_Dlc_Confirm_Receipt",
+        "Text": "¿Confirmas que deseas <IndefSgl_WORD>?\r\n(El objeto se descartará si tus compañeros no tienen espacio para más y tú tienes 999 de este mismo objeto)."
+      },
+      "Txt_Dlc_Get_Item": {
+        "SelfId": "Txt_Dlc_Get_Item",
+        "Text": "{LEADER} obtiene <IndefSgl_WORD>."
+      }
+    }
+  }
+]

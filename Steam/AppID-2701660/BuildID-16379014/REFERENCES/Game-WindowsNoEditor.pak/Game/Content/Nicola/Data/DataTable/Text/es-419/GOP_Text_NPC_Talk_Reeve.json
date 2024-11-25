@@ -1,0 +1,352 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_NPC_Talk_Reeve",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Talk_Reeve_Out_SUB_0_ACTOR_0110_010_1": {
+        "SelfId": "Txt_Talk_Reeve_Out_SUB_0_ACTOR_0110_010_1",
+        "Text": "*: Si encuentras algo sospechoso mientras caminas, nueve de cada diez veces será algo interesante."
+      },
+      "Txt_Talk_Reeve_Out_SUB_0_ACTOR_0110_010_2": {
+        "SelfId": "Txt_Talk_Reeve_Out_SUB_0_ACTOR_0110_010_2",
+        "Text": "*: ¡No te quedes viendo de lejos, acércate e investiga!"
+      },
+      "Txt_Talk_Reeve_Out_SUB_0_ACTOR_0210_010_1": {
+        "SelfId": "Txt_Talk_Reeve_Out_SUB_0_ACTOR_0210_010_1",
+        "Text": "*: ¡Te damos la bienvenida a la aldea de Ribera!"
+      },
+      "Txt_Talk_Reeve_Out_SUB_0_ACTOR_0310_010_1": {
+        "SelfId": "Txt_Talk_Reeve_Out_SUB_0_ACTOR_0310_010_1",
+        "Text": "*: ¡Mpf! ¡¡¡Mpfmmmpppff!!!\r\nAh, no sirve. No se moverá."
+      },
+      "Txt_Talk_Reeve_Out_SUB_0_ACTOR_0310_010_2": {
+        "SelfId": "Txt_Talk_Reeve_Out_SUB_0_ACTOR_0310_010_2",
+        "Text": "*: ¡Demonios! ¡Con esa fuerza llegarás lejos en este mundo!"
+      },
+      "Txt_Talk_Reeve_Out_SUB_0_ACTOR_0310_020_1": {
+        "SelfId": "Txt_Talk_Reeve_Out_SUB_0_ACTOR_0310_020_1",
+        "Text": "*: ¡Mpf! ¡¡¡Mpfmmmpppff!!!\r\n¡No sirve! Sigue sin moverse<...>"
+      },
+      "Txt_Talk_Reeve_Out_SUB_0_ACTOR_0310_020_2": {
+        "SelfId": "Txt_Talk_Reeve_Out_SUB_0_ACTOR_0310_020_2",
+        "Text": "*: Por cierto, ¿alguna vez usaste esa fuerza divina que tienes?"
+      },
+      "Txt_Talk_Reeve_Out_SUB_0_ACTOR_0310_020_3": {
+        "SelfId": "Txt_Talk_Reeve_Out_SUB_0_ACTOR_0310_020_3",
+        "Text": "*: ¡Claro que sí! ¡Lo sabía!"
+      },
+      "Txt_Talk_Reeve_Out_SUB_0_ACTOR_0310_020_4": {
+        "SelfId": "Txt_Talk_Reeve_Out_SUB_0_ACTOR_0310_020_4",
+        "Text": "*: ¿En serio? Es una lástima. De hecho, ¡es un desperdicio absoluto!"
+      },
+      "Txt_Talk_Reeve_Out_SUB_0_ACTOR_0410_010_1": {
+        "SelfId": "Txt_Talk_Reeve_Out_SUB_0_ACTOR_0410_010_1",
+        "Text": "*: <IfSolo(Eres <IfGender_LEADER(un viajero,una viajera,)>,Tú y tu grupo viajan)> por el mundo, ¿verdad? Oh, de Aliahan, ¿no?"
+      },
+      "Txt_Talk_Reeve_Out_SUB_0_ACTOR_0410_010_2": {
+        "SelfId": "Txt_Talk_Reeve_Out_SUB_0_ACTOR_0410_010_2",
+        "Text": "*: No me <IfSolo(digas,digan)> que también <IfSolo(estás buscando,están buscando)> una bola demoledora."
+      },
+      "Txt_Talk_Reeve_Out_SUB_0_ACTOR_0410_010_3": {
+        "SelfId": "Txt_Talk_Reeve_Out_SUB_0_ACTOR_0410_010_3",
+        "Text": "*: ¿Qué tienen de especial esas cosas que la gente recorre los campos para encontrarlas?"
+      },
+      "Txt_Talk_Reeve_Out_SUB_0_ACTOR_0410_020_1": {
+        "SelfId": "Txt_Talk_Reeve_Out_SUB_0_ACTOR_0410_020_1",
+        "Text": "*: <...> ¿Perdón, <IfGender_LEADER(querido,querida,)>? ¿Una bola demoledora? No, ¡ahora tú también! ¡Mi esposo no deja de hablar de esas cosas!"
+      },
+      "Txt_Talk_Reeve_Out_SUB_0_ACTOR_0410_030_1": {
+        "SelfId": "Txt_Talk_Reeve_Out_SUB_0_ACTOR_0410_030_1",
+        "Text": "*: Bueno, si esa bola demoledora que hizo mi marido sirvió de algo<...>"
+      },
+      "Txt_Talk_Reeve_Out_SUB_0_ACTOR_0410_030_2": {
+        "SelfId": "Txt_Talk_Reeve_Out_SUB_0_ACTOR_0410_030_2",
+        "Text": "*: Supongo que tanto jugar con fuego y quemarse las cejas valió la pena<...>"
+      },
+      "Txt_Talk_Reeve_Out_SUB_0_ACTOR_0510_010_1": {
+        "SelfId": "Txt_Talk_Reeve_Out_SUB_0_ACTOR_0510_010_1",
+        "Text": "*: ¡Hi, hi, hi, hi!"
+      },
+      "Txt_Talk_Reeve_Out_SUB_0_ACTOR_0810_010_1": {
+        "SelfId": "Txt_Talk_Reeve_Out_SUB_0_ACTOR_0810_010_1",
+        "Text": "*: Sé que puede cundir el pánico si tienes la mala suerte de que un monstruo te envenene, pero si tienes <IndefSgl_I_NAME> a mano, ¡te recuperarás enseguida!"
+      },
+      "Txt_Talk_Reeve_Out_SUB_0_ACTOR_0810_010_2": {
+        "SelfId": "Txt_Talk_Reeve_Out_SUB_0_ACTOR_0810_010_2",
+        "Text": "*: También conviene recordar que estar envenenado no cambia nada mientras luchas; ¡espera a curarte hasta que te hayas encargado de tus enemigos!"
+      },
+      "Txt_Talk_Reeve_Out_SUB_0_ACTOR_0810_010_3": {
+        "SelfId": "Txt_Talk_Reeve_Out_SUB_0_ACTOR_0810_010_3",
+        "Text": "*: En cualquier caso, si te preocupas de tener siempre <IndefPlr_I_NAME> a mano, todo saldrá bien."
+      },
+      "Txt_Talk_Reeve_Out_SUB_0_ACTOR_0910_010_1": {
+        "SelfId": "Txt_Talk_Reeve_Out_SUB_0_ACTOR_0910_010_1",
+        "Text": "*: ¿Te has dado cuenta de que algunas tiendas de objetos también venden ropa y sombreros? Eso demuestra que puedes echar un vistazo a todas las tiendas de la ciudad si buscas algo en concreto."
+      },
+      "Txt_Talk_Reeve_Out_SUB_0_ACTOR_1010_010_1": {
+        "SelfId": "Txt_Talk_Reeve_Out_SUB_0_ACTOR_1010_010_1",
+        "Text": "*: ¿Alguna vez has encontrado todo tipo de objetos mientras explorabas el reino?"
+      },
+      "Txt_Talk_Reeve_Out_SUB_0_ACTOR_1010_010_2": {
+        "SelfId": "Txt_Talk_Reeve_Out_SUB_0_ACTOR_1010_010_2",
+        "Text": "*: ¡Yo mismo he encontrado innumerables hierbas comestibles, piezas de equipo olvidadas e incluso algún cofre del tesoro de vez en cuando!"
+      },
+      "Txt_Talk_Reeve_Out_SUB_0_ACTOR_1010_010_3": {
+        "SelfId": "Txt_Talk_Reeve_Out_SUB_0_ACTOR_1010_010_3",
+        "Text": "*: Regalos de la Diosa, digo yo. Mejor que sirvan a alguien a que se desperdicien, ¿eh?"
+      },
+      "Txt_Talk_Reeve_Out_SUB_0_ACTOR_1110_010_1": {
+        "SelfId": "Txt_Talk_Reeve_Out_SUB_0_ACTOR_1110_010_1",
+        "Text": "*: Oye, lindura. Será mejor que te esfuerces por recoger todo el equipo que veas en el suelo durante tus viajes."
+      },
+      "Txt_Talk_Reeve_Out_SUB_0_ACTOR_1110_010_2": {
+        "SelfId": "Txt_Talk_Reeve_Out_SUB_0_ACTOR_1110_010_2",
+        "Text": "*: Son los restos de aventureros como tú que no tuvieron la suerte de llegar hasta aquí<...>"
+      },
+      "Txt_Talk_Reeve_Out_SUB_0_ACTOR_1110_010_3": {
+        "SelfId": "Txt_Talk_Reeve_Out_SUB_0_ACTOR_1110_010_3",
+        "Text": "*: Bueno, la mayoría. Es probable que una parte sea equipo que se les cayó a algunos viejos, ¿no?"
+      },
+      "Txt_Talk_Reeve_Out_SUB_0_ACTOR_1110_010_4": {
+        "SelfId": "Txt_Talk_Reeve_Out_SUB_0_ACTOR_1110_010_4",
+        "Text": "*: Oye, lindura. Será mejor que te esfuerces por recoger todo el equipo que veas en el suelo durante tus viajes."
+      },
+      "Txt_Talk_Reeve_Out_SUB_0_ACTOR_1110_010_5": {
+        "SelfId": "Txt_Talk_Reeve_Out_SUB_0_ACTOR_1110_010_5",
+        "Text": "*: Son los restos de aventureros como tú que no tuvieron la suerte de llegar hasta aquí<...>"
+      },
+      "Txt_Talk_Reeve_Out_SUB_0_ACTOR_1110_010_6": {
+        "SelfId": "Txt_Talk_Reeve_Out_SUB_0_ACTOR_1110_010_6",
+        "Text": "*: Bueno, la mayoría. Es probable que una parte sea equipo que se les cayó a algunos viejos, ¿no?"
+      },
+      "Txt_Talk_Reeve_Out_SUB_0_ACTOR_1210_010_1": {
+        "SelfId": "Txt_Talk_Reeve_Out_SUB_0_ACTOR_1210_010_1",
+        "Text": "*: Me pregunto de dónde habrá salido ese muchacho<...>"
+      },
+      "Txt_Talk_Reeve_Out_SUB_0_ACTOR_1220_010_1": {
+        "SelfId": "Txt_Talk_Reeve_Out_SUB_0_ACTOR_1220_010_1",
+        "Text": "*: Zzz<...> ¿Q-quééé? Zzz<...>"
+      },
+      "Txt_Talk_Reeve_Out_SUB_0_ACTOR_1210_020_1": {
+        "SelfId": "Txt_Talk_Reeve_Out_SUB_0_ACTOR_1210_020_1",
+        "Text": "*: Las ancianas de la ciudad siempre están hablando de un portal o algo así al este de Aliahan. Al parecer, conduce a un continente totalmente distinto."
+      },
+      "Txt_Talk_Reeve_Out_SUB_0_ACTOR_1210_020_2": {
+        "SelfId": "Txt_Talk_Reeve_Out_SUB_0_ACTOR_1210_020_2",
+        "Text": "*: Aún recuerdo que cuando era un jovenzuelo, si hacía alguna travesura, me decían <66>¡Si sigues así, te tocará el portal!<99>."
+      },
+      "Txt_Talk_Reeve_Out_SUB_0_ACTOR_1220_020_1": {
+        "SelfId": "Txt_Talk_Reeve_Out_SUB_0_ACTOR_1220_020_1",
+        "Text": "*: Zzz<...> ¿Q-quééé? Zzz<...>"
+      },
+      "Txt_Talk_Reeve_Out_SUB_0_ACTOR_1310_010_1": {
+        "SelfId": "Txt_Talk_Reeve_Out_SUB_0_ACTOR_1310_010_1",
+        "Text": "*: ¿No es curioso que los artistas marciales se vuelvan <i>más débiles</> si les das una espada o una lanza para blandir?"
+      },
+      "Txt_Talk_Reeve_Out_SUB_0_ACTOR_1310_010_2": {
+        "SelfId": "Txt_Talk_Reeve_Out_SUB_0_ACTOR_1310_010_2",
+        "Text": "*: Supongo que pasan tanto tiempo entrenando con los puños que no saben nada de espadas y lanzas. ¡Tenlo en cuenta si alguna vez conoces a un artista marcial!"
+      },
+      "Txt_Talk_Reeve_Out_SUB_0_ACTOR_1410_010_1": {
+        "SelfId": "Txt_Talk_Reeve_Out_SUB_0_ACTOR_1410_010_1",
+        "Text": "*: Una vez tuve un amigo artista marcial que se negaba a entrar en combate sin su fiel par de garras, ¡siempre decía que se sentía débil sin ellas!"
+      },
+      "Txt_Talk_Reeve_Out_SUB_0_ACTOR_1410_010_2": {
+        "SelfId": "Txt_Talk_Reeve_Out_SUB_0_ACTOR_1410_010_2",
+        "Text": "*: Aunque son un poco difíciles de conseguir, a decir verdad."
+      },
+      "Txt_Talk_Reeve_House1_1F_SUB_0_ACTOR_0110_010_1": {
+        "SelfId": "Txt_Talk_Reeve_House1_1F_SUB_0_ACTOR_0110_010_1",
+        "Text": "*: ¿Ya oíste hablar de la llave de ladrón?"
+      },
+      "Txt_Talk_Reeve_House1_1F_SUB_0_ACTOR_0110_010_2": {
+        "SelfId": "Txt_Talk_Reeve_House1_1F_SUB_0_ACTOR_0110_010_2",
+        "Text": "*: Dicen que la cuida un sujeto que habita la Torre del Soñador. Ah, qué triste debe estar ese individuo en su diminuta isla al oeste de Aliahan."
+      },
+      "Txt_Talk_Reeve_House1_1F_SUB_0_ACTOR_0110_010_3": {
+        "SelfId": "Txt_Talk_Reeve_House1_1F_SUB_0_ACTOR_0110_010_3",
+        "Text": "*: No lo escuchaste de mí, pero dicen que hay un pasadizo secreto en el bosque al sur de aquí, por el cual llegas directamente a esa torre."
+      },
+      "Txt_Talk_Reeve_House1_1F_SUB_0_ACTOR_0110_010_4": {
+        "SelfId": "Txt_Talk_Reeve_House1_1F_SUB_0_ACTOR_0110_010_4",
+        "Text": "*: Siempre he querido ir a explorar ahí, pero el bosque es tan oscuro y tétrico<...> y yo, que no soy el más valiente<...> ¡Por eso no me atrevo!"
+      },
+      "Txt_Talk_Reeve_House1_1F_SUB_0_ACTOR_0110_020_1": {
+        "SelfId": "Txt_Talk_Reeve_House1_1F_SUB_0_ACTOR_0110_020_1",
+        "Text": "*: Mi padre siempre me contaba historias sobre el poderoso héroe Ortega."
+      },
+      "Txt_Talk_Reeve_House1_1F_SUB_0_ACTOR_0110_020_2": {
+        "SelfId": "Txt_Talk_Reeve_House1_1F_SUB_0_ACTOR_0110_020_2",
+        "Text": "*: Y ahora estoy yo aquí trabajando en lo mismo que mi padre, y tú viviendo aventuras al igual que el tuyo."
+      },
+      "Txt_Talk_Reeve_House1_1F_SUB_0_ACTOR_0110_020_3": {
+        "SelfId": "Txt_Talk_Reeve_House1_1F_SUB_0_ACTOR_0110_020_3",
+        "Text": "*: Es cierto lo que dicen, ¿verdad? ¡De tal padre, tal hijo! <IfGender_HERO(,¡O hija en tu caso!,)>"
+      },
+      "Txt_Talk_Reeve_House2_1F_SUB_0_ACTOR_0110_010_1": {
+        "SelfId": "Txt_Talk_Reeve_House2_1F_SUB_0_ACTOR_0110_010_1",
+        "Text": "*: ¿Qué haces aquí?"
+      },
+      "Txt_Talk_Reeve_House2_1F_SUB_0_ACTOR_0110_010_2": {
+        "SelfId": "Txt_Talk_Reeve_House2_1F_SUB_0_ACTOR_0110_010_2",
+        "Text": "*: Podría jurar que cerré la puerta principal. ¿Encontraste alguna llave en alguna parte o algo así, <IfGender_HERO(intruso,intrusa,)>?"
+      },
+      "Txt_Talk_Reeve_House2_1F_SUB_0_ACTOR_0110_010_3": {
+        "SelfId": "Txt_Talk_Reeve_House2_1F_SUB_0_ACTOR_0110_010_3",
+        "Text": "*: ¿Qué es eso? ¿La llave del ladrón? Dios mío, para haber conseguido eso, tendrías que<...>"
+      },
+      "Txt_Talk_Reeve_House2_1F_SUB_0_ACTOR_0110_010_4": {
+        "SelfId": "Txt_Talk_Reeve_House2_1F_SUB_0_ACTOR_0110_010_4",
+        "Text": "*: ¿Qué es eso? Usaste un hechizo para que se abriera, ¿verdad? Pero, para aprender un hechizo tan difícil, tendrías que<...>"
+      },
+      "Txt_Talk_Reeve_House2_1F_SUB_0_ACTOR_0110_010_5": {
+        "SelfId": "Txt_Talk_Reeve_House2_1F_SUB_0_ACTOR_0110_010_5",
+        "Text": "*: Eres tú, ¿verdad? ¡Eres quien lleva la sangre de Ortega en las venas! ¡Hemos oído hablar mucho de ti!"
+      },
+      "Txt_Talk_Reeve_House2_1F_SUB_0_ACTOR_0110_010_6": {
+        "SelfId": "Txt_Talk_Reeve_House2_1F_SUB_0_ACTOR_0110_010_6",
+        "Text": "*: ¡Vaya! Entonces será mejor que te dé algo que te ayude en tu viaje. ¿Dónde lo puse<...>?"
+      },
+      "Txt_Talk_Reeve_House2_1F_SUB_0_ACTOR_0110_010_7": {
+        "SelfId": "Txt_Talk_Reeve_House2_1F_SUB_0_ACTOR_0110_010_7",
+        "Text": "¡<Cap>{LEADER} recibe <IndefSgl_I_NAME>!"
+      },
+      "Txt_Talk_Reeve_House2_1F_SUB_0_ACTOR_0110_010_8": {
+        "SelfId": "Txt_Talk_Reeve_House2_1F_SUB_0_ACTOR_0110_010_8",
+        "Text": "*: Se puede usar para romper el sello del teleportal."
+      },
+      "Txt_Talk_Reeve_House2_1F_SUB_0_ACTOR_0110_010_8_1": {
+        "SelfId": "Txt_Talk_Reeve_House2_1F_SUB_0_ACTOR_0110_010_8_1",
+        "Text": "*: Cuando consideres que tienes todo listo, busca la ruta que te lleva a un manantial al este de Aliahan."
+      },
+      "Txt_Talk_Reeve_House2_1F_SUB_0_ACTOR_0110_010_9": {
+        "SelfId": "Txt_Talk_Reeve_House2_1F_SUB_0_ACTOR_0110_010_9",
+        "Text": "*: Pero ten cuidado, ¡esas cosas estallan con un estruendo sumamente poderoso! ¡Buena suerte! La vas a necesitar."
+      },
+      "Txt_Talk_Reeve_House2_1F_SUB_0_ACTOR_0110_010_10": {
+        "SelfId": "Txt_Talk_Reeve_House2_1F_SUB_0_ACTOR_0110_010_10",
+        "Text": "*: Pensar que nunca volveremos a ver al gran Ortega<...>"
+      },
+      "Txt_Talk_Reeve_House2_1F_SUB_0_ACTOR_0110_010_11": {
+        "SelfId": "Txt_Talk_Reeve_House2_1F_SUB_0_ACTOR_0110_010_11",
+        "Text": "*: Tu madre pone buena cara, pero en el fondo seguramente está destrozada por el dolor."
+      },
+      "Txt_Talk_Reeve_House2_1F_SUB_0_ACTOR_0110_010_12": {
+        "SelfId": "Txt_Talk_Reeve_House2_1F_SUB_0_ACTOR_0110_010_12",
+        "Text": "*: No dejes de ir a casa de vez en cuando para que vea que todo está bien."
+      },
+      "Txt_Talk_Reeve_House2_1F_SUB_0_ACTOR_0110_020_1": {
+        "SelfId": "Txt_Talk_Reeve_House2_1F_SUB_0_ACTOR_0110_020_1",
+        "Text": "*: La bola demoledora te permitirá continuar con tu viaje, pero no será sencillo. Debes ser fuerte."
+      },
+      "Txt_Talk_Reeve_House2_1F_SUB_0_ACTOR_0110_030_1": {
+        "SelfId": "Txt_Talk_Reeve_House2_1F_SUB_0_ACTOR_0110_030_1",
+        "Text": "*: Pero debes perseverar; el resto del mundo espera tu llegada. Lo sepan o no."
+      },
+      "Txt_Talk_Reeve_House2_1F_SUB_0_ACTOR_0110_030_2": {
+        "SelfId": "Txt_Talk_Reeve_House2_1F_SUB_0_ACTOR_0110_030_2",
+        "Text": "*: Solo tú puedes proporcionarles la ayuda que tan desesperadamente necesitan."
+      },
+      "Txt_Talk_Reeve_House2_1F_SUB_0_ACTOR_0110_040_1": {
+        "SelfId": "Txt_Talk_Reeve_House2_1F_SUB_0_ACTOR_0110_040_1",
+        "Text": "*: He oído hablar de tus aventuras. Si alguna vez necesitas la ayuda de este anciano, ven cuando quieras."
+      },
+      "Txt_Talk_Reeve_House2_1F_SUB_0_ACTOR_0110_040_2": {
+        "SelfId": "Txt_Talk_Reeve_House2_1F_SUB_0_ACTOR_0110_040_2",
+        "Text": "*: ¿Mm? ¿Necesitas otra bola demoledora? La Diosa trabaja de formas misteriosas<...> ¡Muy bien, te prepararé una!"
+      },
+      "Txt_Talk_Reeve_House2_1F_SUB_0_ACTOR_0110_040_3": {
+        "SelfId": "Txt_Talk_Reeve_House2_1F_SUB_0_ACTOR_0110_040_3",
+        "Text": "¡{LEADER} recibió una bola demoledora!"
+      },
+      "Txt_Talk_Reeve_House2_1F_SUB_0_ACTOR_0110_040_4": {
+        "SelfId": "Txt_Talk_Reeve_House2_1F_SUB_0_ACTOR_0110_040_4",
+        "Text": "*: La bola demoledora te permitirá continuar tu viaje, pero debes saber que no será fácil."
+      },
+      "Txt_Talk_Reeve_House2_1F_SUB_0_ACTOR_0220_010_1": {
+        "SelfId": "Txt_Talk_Reeve_House2_1F_SUB_0_ACTOR_0220_010_1",
+        "Text": "*: Zzz<...> Zzz<...>"
+      },
+      "Txt_Talk_Reeve_Inn_1F_SUB_0_ACTOR_0110_010_1": {
+        "SelfId": "Txt_Talk_Reeve_Inn_1F_SUB_0_ACTOR_0110_010_1",
+        "Text": "*: Dicen que hay un tipo de manantial sagrado en las montañas al sureste de la aldea."
+      },
+      "Txt_Talk_Reeve_Inn_1F_SUB_0_ACTOR_0110_010_2": {
+        "SelfId": "Txt_Talk_Reeve_Inn_1F_SUB_0_ACTOR_0110_010_2",
+        "Text": "*: Al parecer, todos los grandes héroes lo visitaban antes de iniciar sus misiones."
+      },
+      "Txt_Talk_Reeve_Inn_1F_SUB_0_ACTOR_0110_020_1": {
+        "SelfId": "Txt_Talk_Reeve_Inn_1F_SUB_0_ACTOR_0110_020_1",
+        "Text": "*: Y también dicen que algunos héroes nuevos han empezado a usarlo."
+      },
+      "Txt_Talk_Reeve_Inn_1F_SUB_0_ACTOR_0120_010_1": {
+        "SelfId": "Txt_Talk_Reeve_Inn_1F_SUB_0_ACTOR_0120_010_1",
+        "Text": "*: Zzz<...> Zzz<...>"
+      },
+      "Txt_Talk_Reeve_Inn_2F_SUB_0_ACTOR_0110_010_1": {
+        "SelfId": "Txt_Talk_Reeve_Inn_2F_SUB_0_ACTOR_0110_010_1",
+        "Text": "*: Prométeme que matarás muchos, muchos monstruos. Ellos<...>, mataron a mi mami y a mi papi<...>, ¡Buaaaa!"
+      },
+      "Txt_Talk_Reeve_Inn_2F_SUB_0_ACTOR_0120_010_1": {
+        "SelfId": "Txt_Talk_Reeve_Inn_2F_SUB_0_ACTOR_0120_010_1",
+        "Text": "*: Zzz<...> Zzz<...>"
+      },
+      "Txt_Talk_Reeve_Inn_2F_SUB_0_ACTOR_0110_020_1": {
+        "SelfId": "Txt_Talk_Reeve_Inn_2F_SUB_0_ACTOR_0110_020_1",
+        "Text": "*: ¿Mataste muchos, muchos monstruos por mí?"
+      },
+      "Txt_Talk_Reeve_Inn_2F_SUB_0_ACTOR_0110_020_2": {
+        "SelfId": "Txt_Talk_Reeve_Inn_2F_SUB_0_ACTOR_0110_020_2",
+        "Text": "*: ¿Lo hiciste? ¡Bravo! ¡Muchísimas gracias! ¡Mi mami y papi también te dan las gracias desde el cielo!"
+      },
+      "Txt_Talk_Reeve_Inn_2F_SUB_0_ACTOR_0110_020_3": {
+        "SelfId": "Txt_Talk_Reeve_Inn_2F_SUB_0_ACTOR_0110_020_3",
+        "Text": "*: ¿Qué? ¿Por qué no? ¡Te lo pedí por favor y todo!"
+      },
+      "Txt_Talk_Reeve_Inn_2F_SUB_0_ACTOR_0110_020_4": {
+        "SelfId": "Txt_Talk_Reeve_Inn_2F_SUB_0_ACTOR_0110_020_4",
+        "Text": "*: Ellos<...>, mataron a mi<...>, ¡BUAAA!\r\n¡¡¡BUUUAAAAA!!!"
+      },
+      "Txt_Talk_Reeve_Inn_2F_SUB_0_ACTOR_0220_010_1": {
+        "SelfId": "Txt_Talk_Reeve_Inn_2F_SUB_0_ACTOR_0220_010_1",
+        "Text": "*: A los padres de ese niño los asesinaron unos monstruos. Ah, es como para hacer llorar hasta a un adulto<...>"
+      },
+      "Txt_Talk_Reeve_House2_SearchObj_Cauldron_1": {
+        "SelfId": "Txt_Talk_Reeve_House2_SearchObj_Cauldron_1",
+        "Text": "Un líquido sospechoso burbujea en una olla grande."
+      },
+      "Txt_Talk_Reeve_Out_SUB_0_ACTOR_1000_010_1": {
+        "SelfId": "Txt_Talk_Reeve_Out_SUB_0_ACTOR_1000_010_1",
+        "Text": "*: ¿Has oído hablar del saco que entró en una posada en Ribera? ¿No? ¡Qué mal! ¡Jii, jii, jii!"
+      },
+      "Txt_Talk_Reeve_Out_SUB_0_ACTOR_1000_010_2": {
+        "SelfId": "Txt_Talk_Reeve_Out_SUB_0_ACTOR_1000_010_2",
+        "Text": "El espejo de Ra comienza a brillar<...>"
+      },
+      "Txt_Talk_Reeve_Out_SUB_0_ACTOR_1000_010_3": {
+        "SelfId": "Txt_Talk_Reeve_Out_SUB_0_ACTOR_1000_010_3",
+        "Text": "<...> ¡y revela a un monstruo disfrazado!"
+      },
+      "Txt_Talk_Reeve_Out_SUB_0_ACTOR_1000_010_4": {
+        "SelfId": "Txt_Talk_Reeve_Out_SUB_0_ACTOR_1000_010_4",
+        "Text": "Tiene que ser una broma<...>"
+      },
+      "Txt_Talk_Reeve_Out_SUB_0_ACTOR_1000_010_5": {
+        "SelfId": "Txt_Talk_Reeve_Out_SUB_0_ACTOR_1000_010_5",
+        "Text": "{LEADER} tranquiliza al monstruo con una voz relajante y le habla sobre la reserva de monstruos de Moncho<...>"
+      },
+      "Txt_Talk_Reeve_Out_SUB_0_ACTOR_1000_010_6": {
+        "SelfId": "Txt_Talk_Reeve_Out_SUB_0_ACTOR_1000_010_6",
+        "Text": "¡Jii, jii, jii! ¡Esa es buena!"
+      }
+    }
+  }
+]

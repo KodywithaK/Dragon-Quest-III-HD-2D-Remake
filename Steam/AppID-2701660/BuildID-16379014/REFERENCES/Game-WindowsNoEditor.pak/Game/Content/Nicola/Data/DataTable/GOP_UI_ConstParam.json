@@ -1,0 +1,964 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_UI_ConstParam",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_UI_ConstParamTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "UI_CONSTPARAM_UI_COMMON_WAIT_INPUT_MODE_TIME_GAMEUI": {
+        "SelfId": "UI_CONSTPARAM_UI_COMMON_WAIT_INPUT_MODE_TIME_GAMEUI",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 0.1
+      },
+      "UI_CONSTPARAM_UI_COMMON_LONG_PUSH_TIME": {
+        "SelfId": "UI_CONSTPARAM_UI_COMMON_LONG_PUSH_TIME",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 1.0
+      },
+      "UI_CONSTPARAM_MESSAGE_TEXT_FEED_TIME_DEFAULT": {
+        "SelfId": "UI_CONSTPARAM_MESSAGE_TEXT_FEED_TIME_DEFAULT",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 0.015
+      },
+      "UI_CONSTPARAM_MESSAGE_TEXT_FEED_TIME_FAST": {
+        "SelfId": "UI_CONSTPARAM_MESSAGE_TEXT_FEED_TIME_FAST",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 0.01
+      },
+      "UI_CONSTPARAM_MESSAGE_SCROLL_PLAYBACK_RATE_FAST": {
+        "SelfId": "UI_CONSTPARAM_MESSAGE_SCROLL_PLAYBACK_RATE_FAST",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 10.0
+      },
+      "UI_CONSTPARAM_MESSAGE_SE_WAIT_TO_TEXT_FEED_TIME": {
+        "SelfId": "UI_CONSTPARAM_MESSAGE_SE_WAIT_TO_TEXT_FEED_TIME",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 0.08
+      },
+      "UI_CONSTPARAM_MESSAGE_TEXT_FADE_IN_OUT_TIME": {
+        "SelfId": "UI_CONSTPARAM_MESSAGE_TEXT_FADE_IN_OUT_TIME",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 1.0
+      },
+      "UI_CONSTPARAM_MESSAGE_TEXT_FEED_PLAY_SE_TIME_DEFAULT": {
+        "SelfId": "UI_CONSTPARAM_MESSAGE_TEXT_FEED_PLAY_SE_TIME_DEFAULT",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 0.066
+      },
+      "UI_CONSTPARAM_MESSAGE_TEXT_FEED_PLAY_SE_TIME_FAST": {
+        "SelfId": "UI_CONSTPARAM_MESSAGE_TEXT_FEED_PLAY_SE_TIME_FAST",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 0.066
+      },
+      "UI_CONSTPARAM_MESSAGE_EVENT_FAST_FORWARD_RATE": {
+        "SelfId": "UI_CONSTPARAM_MESSAGE_EVENT_FAST_FORWARD_RATE",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 2.0
+      },
+      "UI_CONSTPARAM_MESSAGE_DISP_FAST_PLAY_SE_COUNT_MAX": {
+        "SelfId": "UI_CONSTPARAM_MESSAGE_DISP_FAST_PLAY_SE_COUNT_MAX",
+        "ParamBool": false,
+        "ParamInt": 3,
+        "ParamFloat": 0.0
+      },
+      "UI_CONSTPARAM_MAP_WORLD_MAP_SCROLL_SPEED": {
+        "SelfId": "UI_CONSTPARAM_MAP_WORLD_MAP_SCROLL_SPEED",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 3400.0
+      },
+      "UI_CONSTPARAM_MAP_TOWN_MAP_SCROLL_SPEED": {
+        "SelfId": "UI_CONSTPARAM_MAP_TOWN_MAP_SCROLL_SPEED",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 800.0
+      },
+      "UI_CONSTPARAM_MAP_PLAYER_SPOT_POS_Y_OFFSET": {
+        "SelfId": "UI_CONSTPARAM_MAP_PLAYER_SPOT_POS_Y_OFFSET",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 35.0
+      },
+      "UI_CONSTPARAM_MAP_WORLD_MAP_MAP_SCALE_ALL": {
+        "SelfId": "UI_CONSTPARAM_MAP_WORLD_MAP_MAP_SCALE_ALL",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 1.0
+      },
+      "UI_CONSTPARAM_MAP_WORLD_MAP_MAP_SCALE_ZOOM": {
+        "SelfId": "UI_CONSTPARAM_MAP_WORLD_MAP_MAP_SCALE_ZOOM",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 2.0
+      },
+      "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ALL_PLAYER": {
+        "SelfId": "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ALL_PLAYER",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 0.5
+      },
+      "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ZOOM_PLAYER": {
+        "SelfId": "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ZOOM_PLAYER",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 1.0
+      },
+      "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ALL_TOWN": {
+        "SelfId": "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ALL_TOWN",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 0.5
+      },
+      "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ZOOM_TOWN": {
+        "SelfId": "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ZOOM_TOWN",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 1.0
+      },
+      "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ALL_DUNGEON": {
+        "SelfId": "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ALL_DUNGEON",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 0.5
+      },
+      "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ZOOM_DUNGEON": {
+        "SelfId": "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ZOOM_DUNGEON",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 1.0
+      },
+      "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ALL_TARGET": {
+        "SelfId": "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ALL_TARGET",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 0.5
+      },
+      "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ZOOM_TARGET": {
+        "SelfId": "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ZOOM_TARGET",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 1.0
+      },
+      "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ALL_VEHICLE": {
+        "SelfId": "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ALL_VEHICLE",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 0.4
+      },
+      "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ZOOM_VEHICLE": {
+        "SelfId": "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ZOOM_VEHICLE",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 0.8
+      },
+      "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ALL_ECHO_FLUTE": {
+        "SelfId": "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ALL_ECHO_FLUTE",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 0.4
+      },
+      "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ZOOM_ECHO_FLUTE": {
+        "SelfId": "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ZOOM_ECHO_FLUTE",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 0.8
+      },
+      "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ALL_GUIDE_MAIN": {
+        "SelfId": "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ALL_GUIDE_MAIN",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 1.0
+      },
+      "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ZOOM_GUIDE_MAIN": {
+        "SelfId": "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ZOOM_GUIDE_MAIN",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 1.0
+      },
+      "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ALL_GUIDE_SUB": {
+        "SelfId": "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ALL_GUIDE_SUB",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 1.0
+      },
+      "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ZOOM_GUIDE_SUB": {
+        "SelfId": "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ZOOM_GUIDE_SUB",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 1.0
+      },
+      "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ALL_CROSS_MARK": {
+        "SelfId": "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ALL_CROSS_MARK",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 1.0
+      },
+      "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ZOOM_CROSS_MARK": {
+        "SelfId": "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ZOOM_CROSS_MARK",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 1.0
+      },
+      "UI_CONSTPARAM_MAP_WORLD_MAP_MAP_SCALE_ALL2": {
+        "SelfId": "UI_CONSTPARAM_MAP_WORLD_MAP_MAP_SCALE_ALL2",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 1.0
+      },
+      "UI_CONSTPARAM_MAP_WORLD_MAP_MAP_SCALE_ZOOM2": {
+        "SelfId": "UI_CONSTPARAM_MAP_WORLD_MAP_MAP_SCALE_ZOOM2",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 2.0
+      },
+      "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ALL2_PLAYER": {
+        "SelfId": "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ALL2_PLAYER",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 0.5
+      },
+      "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ZOOM2_PLAYER": {
+        "SelfId": "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ZOOM2_PLAYER",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 1.0
+      },
+      "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ALL2_TOWN": {
+        "SelfId": "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ALL2_TOWN",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 0.5
+      },
+      "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ZOOM2_TOWN": {
+        "SelfId": "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ZOOM2_TOWN",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 1.0
+      },
+      "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ALL2_DUNGEON": {
+        "SelfId": "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ALL2_DUNGEON",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 0.5
+      },
+      "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ZOOM2_DUNGEON": {
+        "SelfId": "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ZOOM2_DUNGEON",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 1.0
+      },
+      "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ALL2_TARGET": {
+        "SelfId": "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ALL2_TARGET",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 0.5
+      },
+      "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ZOOM2_TARGET": {
+        "SelfId": "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ZOOM2_TARGET",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 1.0
+      },
+      "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ALL2_VEHICLE": {
+        "SelfId": "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ALL2_VEHICLE",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 0.4
+      },
+      "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ZOOM2_VEHICLE": {
+        "SelfId": "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ZOOM2_VEHICLE",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 0.8
+      },
+      "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ALL2_ECHO_FLUTE": {
+        "SelfId": "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ALL2_ECHO_FLUTE",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 0.4
+      },
+      "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ZOOM2_ECHO_FLUTE": {
+        "SelfId": "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ZOOM2_ECHO_FLUTE",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 0.8
+      },
+      "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ALL2_GUIDE_MAIN": {
+        "SelfId": "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ALL2_GUIDE_MAIN",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 1.0
+      },
+      "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ZOOM2_GUIDE_MAIN": {
+        "SelfId": "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ZOOM2_GUIDE_MAIN",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 1.0
+      },
+      "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ALL2_GUIDE_SUB": {
+        "SelfId": "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ALL2_GUIDE_SUB",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 1.0
+      },
+      "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ZOOM2_GUIDE_SUB": {
+        "SelfId": "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ZOOM2_GUIDE_SUB",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 1.0
+      },
+      "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ALL2_CROSS_MARK": {
+        "SelfId": "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ALL2_CROSS_MARK",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 1.0
+      },
+      "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ZOOM2_CROSS_MARK": {
+        "SelfId": "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ZOOM2_CROSS_MARK",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 1.0
+      },
+      "UI_CONSTPARAM_MAP_WORLD_MAP_FIELD_POS_X3": {
+        "SelfId": "UI_CONSTPARAM_MAP_WORLD_MAP_FIELD_POS_X3",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": -62800.0
+      },
+      "UI_CONSTPARAM_MAP_WORLD_MAP_FIELD_POS_Y3": {
+        "SelfId": "UI_CONSTPARAM_MAP_WORLD_MAP_FIELD_POS_Y3",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 33000.0
+      },
+      "UI_CONSTPARAM_MAP_WORLD_MAP_FIELD_SIZE_X3": {
+        "SelfId": "UI_CONSTPARAM_MAP_WORLD_MAP_FIELD_SIZE_X3",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 47500.0
+      },
+      "UI_CONSTPARAM_MAP_WORLD_MAP_FIELD_SIZE_Y3": {
+        "SelfId": "UI_CONSTPARAM_MAP_WORLD_MAP_FIELD_SIZE_Y3",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 47500.0
+      },
+      "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ALL3_PLAYER": {
+        "SelfId": "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ALL3_PLAYER",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 0.5
+      },
+      "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ZOOM3_PLAYER": {
+        "SelfId": "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ZOOM3_PLAYER",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 1.0
+      },
+      "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ALL3_TOWN": {
+        "SelfId": "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ALL3_TOWN",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 0.5
+      },
+      "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ZOOM3_TOWN": {
+        "SelfId": "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ZOOM3_TOWN",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 1.0
+      },
+      "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ALL3_DUNGEON": {
+        "SelfId": "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ALL3_DUNGEON",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 0.5
+      },
+      "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ZOOM3_DUNGEON": {
+        "SelfId": "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ZOOM3_DUNGEON",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 1.0
+      },
+      "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ALL3_TARGET": {
+        "SelfId": "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ALL3_TARGET",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 0.5
+      },
+      "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ZOOM3_TARGET": {
+        "SelfId": "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ZOOM3_TARGET",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 1.0
+      },
+      "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ALL3_VEHICLE": {
+        "SelfId": "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ALL3_VEHICLE",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 0.5
+      },
+      "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ZOOM3_VEHICLE": {
+        "SelfId": "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ZOOM3_VEHICLE",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 1.0
+      },
+      "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ALL3_ECHO_FLUTE": {
+        "SelfId": "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ALL3_ECHO_FLUTE",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 0.5
+      },
+      "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ZOOM3_ECHO_FLUTE": {
+        "SelfId": "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ZOOM3_ECHO_FLUTE",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 1.0
+      },
+      "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ALL3_GUIDE_MAIN": {
+        "SelfId": "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ALL3_GUIDE_MAIN",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 1.0
+      },
+      "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ZOOM3_GUIDE_MAIN": {
+        "SelfId": "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ZOOM3_GUIDE_MAIN",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 1.0
+      },
+      "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ALL3_GUIDE_SUB": {
+        "SelfId": "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ALL3_GUIDE_SUB",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 1.0
+      },
+      "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ZOOM3_GUIDE_SUB": {
+        "SelfId": "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ZOOM3_GUIDE_SUB",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 1.0
+      },
+      "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ALL3_CROSS_MARK": {
+        "SelfId": "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ALL3_CROSS_MARK",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 1.0
+      },
+      "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ZOOM3_CROSS_MARK": {
+        "SelfId": "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_SCALE_ZOOM3_CROSS_MARK",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 1.0
+      },
+      "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_PLAYER_JUDGE_SCALE": {
+        "SelfId": "UI_CONSTPARAM_MAP_WORLD_MAP_ICON_PLAYER_JUDGE_SCALE",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 0.8
+      },
+      "UI_CONSTPARAM_MAP_TOWN_MAP_ICON_SCALE_ALL_PLAYER": {
+        "SelfId": "UI_CONSTPARAM_MAP_TOWN_MAP_ICON_SCALE_ALL_PLAYER",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 0.8
+      },
+      "UI_CONSTPARAM_MAP_TOWN_MAP_ICON_SCALE_ZOOM_PLAYER": {
+        "SelfId": "UI_CONSTPARAM_MAP_TOWN_MAP_ICON_SCALE_ZOOM_PLAYER",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 1.0
+      },
+      "UI_CONSTPARAM_MAP_TOWN_MAP_ICON_SCALE_ALL_FACILITY": {
+        "SelfId": "UI_CONSTPARAM_MAP_TOWN_MAP_ICON_SCALE_ALL_FACILITY",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 1.0
+      },
+      "UI_CONSTPARAM_MAP_TOWN_MAP_ICON_SCALE_ZOOM_FACILITY": {
+        "SelfId": "UI_CONSTPARAM_MAP_TOWN_MAP_ICON_SCALE_ZOOM_FACILITY",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 1.0
+      },
+      "UI_CONSTPARAM_MAP_TOWN_MAP_ICON_SCALE_ALL_TARGET": {
+        "SelfId": "UI_CONSTPARAM_MAP_TOWN_MAP_ICON_SCALE_ALL_TARGET",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 0.7
+      },
+      "UI_CONSTPARAM_MAP_TOWN_MAP_ICON_SCALE_ZOOM_TARGET": {
+        "SelfId": "UI_CONSTPARAM_MAP_TOWN_MAP_ICON_SCALE_ZOOM_TARGET",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 1.0
+      },
+      "UI_CONSTPARAM_MAP_TOWN_MAP_ICON_SCALE_ALL_GUIDE_MAIN": {
+        "SelfId": "UI_CONSTPARAM_MAP_TOWN_MAP_ICON_SCALE_ALL_GUIDE_MAIN",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 1.0
+      },
+      "UI_CONSTPARAM_MAP_TOWN_MAP_ICON_SCALE_ZOOM_GUIDE_MAIN": {
+        "SelfId": "UI_CONSTPARAM_MAP_TOWN_MAP_ICON_SCALE_ZOOM_GUIDE_MAIN",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 1.0
+      },
+      "UI_CONSTPARAM_MAP_TOWN_MAP_ICON_SCALE_ALL_GUIDE_SUB": {
+        "SelfId": "UI_CONSTPARAM_MAP_TOWN_MAP_ICON_SCALE_ALL_GUIDE_SUB",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 1.0
+      },
+      "UI_CONSTPARAM_MAP_TOWN_MAP_ICON_SCALE_ZOOM_GUIDE_SUB": {
+        "SelfId": "UI_CONSTPARAM_MAP_TOWN_MAP_ICON_SCALE_ZOOM_GUIDE_SUB",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 1.0
+      },
+      "UI_CONSTPARAM_MAP_TOWN_MAP_ICON_SCALE_ALL_DOOR_KEY": {
+        "SelfId": "UI_CONSTPARAM_MAP_TOWN_MAP_ICON_SCALE_ALL_DOOR_KEY",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 0.25
+      },
+      "UI_CONSTPARAM_MAP_TOWN_MAP_ICON_SCALE_ZOOM_DOOR_KEY": {
+        "SelfId": "UI_CONSTPARAM_MAP_TOWN_MAP_ICON_SCALE_ZOOM_DOOR_KEY",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 0.8
+      },
+      "UI_CONSTPARAM_MAP_TOWN_MAP_ICON_SCALE_ALL_SHIP": {
+        "SelfId": "UI_CONSTPARAM_MAP_TOWN_MAP_ICON_SCALE_ALL_SHIP",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 0.8
+      },
+      "UI_CONSTPARAM_MAP_TOWN_MAP_ICON_SCALE_ZOOM_SHIP": {
+        "SelfId": "UI_CONSTPARAM_MAP_TOWN_MAP_ICON_SCALE_ZOOM_SHIP",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 1.0
+      },
+      "UI_CONSTPARAM_MAP_RURA_OUT_LONG_PUSH_TIME": {
+        "SelfId": "UI_CONSTPARAM_MAP_RURA_OUT_LONG_PUSH_TIME",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 0.7
+      },
+      "UI_CONSTPARAM_BATTLE_MSG_WAIT_SEC_LINE_1_1": {
+        "SelfId": "UI_CONSTPARAM_BATTLE_MSG_WAIT_SEC_LINE_1_1",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 1.0
+      },
+      "UI_CONSTPARAM_BATTLE_MSG_WAIT_SEC_LINE_1_2": {
+        "SelfId": "UI_CONSTPARAM_BATTLE_MSG_WAIT_SEC_LINE_1_2",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 0.8
+      },
+      "UI_CONSTPARAM_BATTLE_MSG_WAIT_SEC_LINE_1_3": {
+        "SelfId": "UI_CONSTPARAM_BATTLE_MSG_WAIT_SEC_LINE_1_3",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 0.5
+      },
+      "UI_CONSTPARAM_BATTLE_MSG_WAIT_SEC_LINE_2_1": {
+        "SelfId": "UI_CONSTPARAM_BATTLE_MSG_WAIT_SEC_LINE_2_1",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 1.4
+      },
+      "UI_CONSTPARAM_BATTLE_MSG_WAIT_SEC_LINE_2_2": {
+        "SelfId": "UI_CONSTPARAM_BATTLE_MSG_WAIT_SEC_LINE_2_2",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 1.2
+      },
+      "UI_CONSTPARAM_BATTLE_MSG_WAIT_SEC_LINE_2_3": {
+        "SelfId": "UI_CONSTPARAM_BATTLE_MSG_WAIT_SEC_LINE_2_3",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 0.75
+      },
+      "UI_CONSTPARAM_BATTLE_MSG_WAIT_SEC_LINE_3_1": {
+        "SelfId": "UI_CONSTPARAM_BATTLE_MSG_WAIT_SEC_LINE_3_1",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 1.8
+      },
+      "UI_CONSTPARAM_BATTLE_MSG_WAIT_SEC_LINE_3_2": {
+        "SelfId": "UI_CONSTPARAM_BATTLE_MSG_WAIT_SEC_LINE_3_2",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 1.6
+      },
+      "UI_CONSTPARAM_BATTLE_MSG_WAIT_SEC_LINE_3_3": {
+        "SelfId": "UI_CONSTPARAM_BATTLE_MSG_WAIT_SEC_LINE_3_3",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 1.0
+      },
+      "UI_CONSTPARAM_BATTLE_MSG_WAIT_SEC_LINE_1_1_L": {
+        "SelfId": "UI_CONSTPARAM_BATTLE_MSG_WAIT_SEC_LINE_1_1_L",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 2.3
+      },
+      "UI_CONSTPARAM_BATTLE_MSG_WAIT_SEC_LINE_1_2_L": {
+        "SelfId": "UI_CONSTPARAM_BATTLE_MSG_WAIT_SEC_LINE_1_2_L",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 0.8
+      },
+      "UI_CONSTPARAM_BATTLE_MSG_WAIT_SEC_LINE_1_3_L": {
+        "SelfId": "UI_CONSTPARAM_BATTLE_MSG_WAIT_SEC_LINE_1_3_L",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 0.5
+      },
+      "UI_CONSTPARAM_BATTLE_MSG_WAIT_SEC_LINE_2_1_L": {
+        "SelfId": "UI_CONSTPARAM_BATTLE_MSG_WAIT_SEC_LINE_2_1_L",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 2.5
+      },
+      "UI_CONSTPARAM_BATTLE_MSG_WAIT_SEC_LINE_2_2_L": {
+        "SelfId": "UI_CONSTPARAM_BATTLE_MSG_WAIT_SEC_LINE_2_2_L",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 1.2
+      },
+      "UI_CONSTPARAM_BATTLE_MSG_WAIT_SEC_LINE_2_3_L": {
+        "SelfId": "UI_CONSTPARAM_BATTLE_MSG_WAIT_SEC_LINE_2_3_L",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 0.75
+      },
+      "UI_CONSTPARAM_BATTLE_MSG_WAIT_SEC_LINE_3_1_L": {
+        "SelfId": "UI_CONSTPARAM_BATTLE_MSG_WAIT_SEC_LINE_3_1_L",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 2.7
+      },
+      "UI_CONSTPARAM_BATTLE_MSG_WAIT_SEC_LINE_3_2_L": {
+        "SelfId": "UI_CONSTPARAM_BATTLE_MSG_WAIT_SEC_LINE_3_2_L",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 1.6
+      },
+      "UI_CONSTPARAM_BATTLE_MSG_WAIT_SEC_LINE_3_3_L": {
+        "SelfId": "UI_CONSTPARAM_BATTLE_MSG_WAIT_SEC_LINE_3_3_L",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 1.0
+      },
+      "UI_CONSTPARAM_BATTLE_ENCOUNT_MSG_WAIT_SEC_1": {
+        "SelfId": "UI_CONSTPARAM_BATTLE_ENCOUNT_MSG_WAIT_SEC_1",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 0.0
+      },
+      "UI_CONSTPARAM_BATTLE_ENCOUNT_MSG_WAIT_SEC_2": {
+        "SelfId": "UI_CONSTPARAM_BATTLE_ENCOUNT_MSG_WAIT_SEC_2",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 0.0
+      },
+      "UI_CONSTPARAM_BATTLE_ENCOUNT_MSG_WAIT_SEC_3": {
+        "SelfId": "UI_CONSTPARAM_BATTLE_ENCOUNT_MSG_WAIT_SEC_3",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 0.0
+      },
+      "UI_CONSTPARAM_BATTLE_ENCOUNT_MSG_DISP_SEC_1": {
+        "SelfId": "UI_CONSTPARAM_BATTLE_ENCOUNT_MSG_DISP_SEC_1",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 1.0
+      },
+      "UI_CONSTPARAM_BATTLE_ENCOUNT_MSG_DISP_SEC_2": {
+        "SelfId": "UI_CONSTPARAM_BATTLE_ENCOUNT_MSG_DISP_SEC_2",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 0.8
+      },
+      "UI_CONSTPARAM_BATTLE_ENCOUNT_MSG_DISP_SEC_3": {
+        "SelfId": "UI_CONSTPARAM_BATTLE_ENCOUNT_MSG_DISP_SEC_3",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 0.5
+      },
+      "UI_CONSTPARAM_BATTLE_ICON_VAR_STATUS_WAIT_SEC": {
+        "SelfId": "UI_CONSTPARAM_BATTLE_ICON_VAR_STATUS_WAIT_SEC",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 2.0
+      },
+      "UI_CONSTPARAM_BATTLE_MONSTER_NAME_MAX_WITDH": {
+        "SelfId": "UI_CONSTPARAM_BATTLE_MONSTER_NAME_MAX_WITDH",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 380.0
+      },
+      "UI_CONSTPARAM_BATTLE_FLEE_LONG_PRESS_SEC": {
+        "SelfId": "UI_CONSTPARAM_BATTLE_FLEE_LONG_PRESS_SEC",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 0.7
+      },
+      "UI_CONSTPARAM_MINI_MAP_MAP_SCALE_FIELD_NARROW": {
+        "SelfId": "UI_CONSTPARAM_MINI_MAP_MAP_SCALE_FIELD_NARROW",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 10.0
+      },
+      "UI_CONSTPARAM_MINI_MAP_MAP_SCALE_FIELD_WIDE": {
+        "SelfId": "UI_CONSTPARAM_MINI_MAP_MAP_SCALE_FIELD_WIDE",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 6.0
+      },
+      "UI_CONSTPARAM_MINI_MAP_MAP_SCALE_FIELD_VERY_WIDE": {
+        "SelfId": "UI_CONSTPARAM_MINI_MAP_MAP_SCALE_FIELD_VERY_WIDE",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 4.0
+      },
+      "UI_CONSTPARAM_MINI_MAP_MAP_SCALE_SHIP_DYNAMIC_TIME": {
+        "SelfId": "UI_CONSTPARAM_MINI_MAP_MAP_SCALE_SHIP_DYNAMIC_TIME",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 1.0
+      },
+      "UI_CONSTPARAM_MINI_MAP_ICON_SCALE_PLAYER": {
+        "SelfId": "UI_CONSTPARAM_MINI_MAP_ICON_SCALE_PLAYER",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 0.8
+      },
+      "UI_CONSTPARAM_MINI_MAP_ICON_SCALE_TOWN": {
+        "SelfId": "UI_CONSTPARAM_MINI_MAP_ICON_SCALE_TOWN",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 0.5
+      },
+      "UI_CONSTPARAM_MINI_MAP_ICON_SCALE_DUNGEON": {
+        "SelfId": "UI_CONSTPARAM_MINI_MAP_ICON_SCALE_DUNGEON",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 0.5
+      },
+      "UI_CONSTPARAM_MINI_MAP_ICON_SCALE_VEHICLE": {
+        "SelfId": "UI_CONSTPARAM_MINI_MAP_ICON_SCALE_VEHICLE",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 0.8
+      },
+      "UI_CONSTPARAM_MINI_MAP_ICON_SCALE_FACILITY": {
+        "SelfId": "UI_CONSTPARAM_MINI_MAP_ICON_SCALE_FACILITY",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 0.5
+      },
+      "UI_CONSTPARAM_MINI_MAP_ICON_SCALE_TARGET": {
+        "SelfId": "UI_CONSTPARAM_MINI_MAP_ICON_SCALE_TARGET",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 0.5
+      },
+      "UI_CONSTPARAM_MINI_MAP_ICON_SCALE_REMIRAMA": {
+        "SelfId": "UI_CONSTPARAM_MINI_MAP_ICON_SCALE_REMIRAMA",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 1.0
+      },
+      "UI_CONSTPARAM_MINI_MAP_ICON_SCALE_ECHO_FLUTE": {
+        "SelfId": "UI_CONSTPARAM_MINI_MAP_ICON_SCALE_ECHO_FLUTE",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 1.0
+      },
+      "UI_CONSTPARAM_MINI_MAP_ICON_SCALE_GUIDE_MAIN": {
+        "SelfId": "UI_CONSTPARAM_MINI_MAP_ICON_SCALE_GUIDE_MAIN",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 1.0
+      },
+      "UI_CONSTPARAM_MINI_MAP_ICON_SCALE_GUIDE_SUB": {
+        "SelfId": "UI_CONSTPARAM_MINI_MAP_ICON_SCALE_GUIDE_SUB",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 1.0
+      },
+      "UI_CONSTPARAM_MINI_MAP_ICON_SCALE_CROSS_MARK": {
+        "SelfId": "UI_CONSTPARAM_MINI_MAP_ICON_SCALE_CROSS_MARK",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 1.0
+      },
+      "UI_CONSTPARAM_MINI_MAP_ICON_SCALE_DOOR_KEY": {
+        "SelfId": "UI_CONSTPARAM_MINI_MAP_ICON_SCALE_DOOR_KEY",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 0.25
+      },
+      "UI_CONSTPARAM_MINI_MAP_FRAME_WIDTH": {
+        "SelfId": "UI_CONSTPARAM_MINI_MAP_FRAME_WIDTH",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 1800.0
+      },
+      "UI_CONSTPARAM_MINI_MAP_FADEOUT_TIME_TARGET": {
+        "SelfId": "UI_CONSTPARAM_MINI_MAP_FADEOUT_TIME_TARGET",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 1.5
+      },
+      "UI_CONSTPARAM_MINI_MAP_FADEOUT_TIME_REMIRAMA": {
+        "SelfId": "UI_CONSTPARAM_MINI_MAP_FADEOUT_TIME_REMIRAMA",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 1.5
+      },
+      "UI_CONSTPARAM_MINI_MAP_FADEOUT_TIME_ECHO_FLUTE": {
+        "SelfId": "UI_CONSTPARAM_MINI_MAP_FADEOUT_TIME_ECHO_FLUTE",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 2.0
+      },
+      "UI_CONSTPARAM_SEARCH_OBJECT_TOUZOKUNOHANA_FIELD_DISTANCE": {
+        "SelfId": "UI_CONSTPARAM_SEARCH_OBJECT_TOUZOKUNOHANA_FIELD_DISTANCE",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 5500.0
+      },
+      "UI_CONSTPARAM_SEARCH_OBJECT_REMIRAMA_DISTANCE": {
+        "SelfId": "UI_CONSTPARAM_SEARCH_OBJECT_REMIRAMA_DISTANCE",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 3000.0
+      },
+      "UI_CONSTPARAM_SEARCH_OBJECT_ECHO_FLUTE_FIELD_DISTANCE": {
+        "SelfId": "UI_CONSTPARAM_SEARCH_OBJECT_ECHO_FLUTE_FIELD_DISTANCE",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 44000.0
+      },
+      "UI_CONSTPARAM_SEARCH_OBJECT_YASEINOKAN_FIELD_DISTANCE": {
+        "SelfId": "UI_CONSTPARAM_SEARCH_OBJECT_YASEINOKAN_FIELD_DISTANCE",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 5500.0
+      },
+      "UI_CONSTPARAM_GUIDE_FIELD_DISPLAY_DISTANCE": {
+        "SelfId": "UI_CONSTPARAM_GUIDE_FIELD_DISPLAY_DISTANCE",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 7000.0
+      },
+      "UI_CONSTPARAM_GUIDE_TOWN_DISPLAY_DISTANCE": {
+        "SelfId": "UI_CONSTPARAM_GUIDE_TOWN_DISPLAY_DISTANCE",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 3000.0
+      },
+      "UI_CONSTPARAM_FIELD_SYSTEM_LIGHTNESS_START_VALUE_LARGE": {
+        "SelfId": "UI_CONSTPARAM_FIELD_SYSTEM_LIGHTNESS_START_VALUE_LARGE",
+        "ParamBool": false,
+        "ParamInt": 10,
+        "ParamFloat": 0.0
+      },
+      "UI_CONSTPARAM_FIELD_SYSTEM_LIGHTNESS_CHANGE_VALUE_SMALL": {
+        "SelfId": "UI_CONSTPARAM_FIELD_SYSTEM_LIGHTNESS_CHANGE_VALUE_SMALL",
+        "ParamBool": false,
+        "ParamInt": 1,
+        "ParamFloat": 0.0
+      },
+      "UI_CONSTPARAM_FIELD_SYSTEM_LIGHTNESS_CHANGE_VALUE_LARGE": {
+        "SelfId": "UI_CONSTPARAM_FIELD_SYSTEM_LIGHTNESS_CHANGE_VALUE_LARGE",
+        "ParamBool": false,
+        "ParamInt": 10,
+        "ParamFloat": 0.0
+      },
+      "UI_CONSTPARAM_VISUAL_CHANGE_COST": {
+        "SelfId": "UI_CONSTPARAM_VISUAL_CHANGE_COST",
+        "ParamBool": false,
+        "ParamInt": 100,
+        "ParamFloat": 0.0
+      },
+      "UI_CONSTPARAM_TOWN_NAME_DISP_TIME": {
+        "SelfId": "UI_CONSTPARAM_TOWN_NAME_DISP_TIME",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 3.0
+      },
+      "UI_CONSTPARAM_EVENT_SKIP_DISP_TIME": {
+        "SelfId": "UI_CONSTPARAM_EVENT_SKIP_DISP_TIME",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 3.0
+      },
+      "UI_CONSTPARAM_EVENT_SKIP_LONG_PUSH_TIME_SKIP": {
+        "SelfId": "UI_CONSTPARAM_EVENT_SKIP_LONG_PUSH_TIME_SKIP",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 1.5
+      },
+      "UI_CONSTPARAM_EVENT_SKIP_LONG_PUSH_TIME_FORWARD": {
+        "SelfId": "UI_CONSTPARAM_EVENT_SKIP_LONG_PUSH_TIME_FORWARD",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 0.7
+      },
+      "UI_CONSTPARAM_TITLE_FADE_TIME_TITLE_Out": {
+        "SelfId": "UI_CONSTPARAM_TITLE_FADE_TIME_TITLE_Out",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 2.0
+      },
+      "UI_CONSTPARAM_TITLE_FADE_TIME_TITLE_In": {
+        "SelfId": "UI_CONSTPARAM_TITLE_FADE_TIME_TITLE_In",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 0.5
+      },
+      "UI_CONSTPARAM_TITLE_FADE_TIME_OP": {
+        "SelfId": "UI_CONSTPARAM_TITLE_FADE_TIME_OP",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 0.5
+      },
+      "UI_CONSTPARAM_RENAME_PenaltyMoney": {
+        "SelfId": "UI_CONSTPARAM_RENAME_PenaltyMoney",
+        "ParamBool": false,
+        "ParamInt": 5000,
+        "ParamFloat": 0.0
+      },
+      "UI_CONSTPARAM_RENAME_WHITE_FADE_TIME": {
+        "SelfId": "UI_CONSTPARAM_RENAME_WHITE_FADE_TIME",
+        "ParamBool": false,
+        "ParamInt": 0,
+        "ParamFloat": 1.0
+      }
+    }
+  }
+]

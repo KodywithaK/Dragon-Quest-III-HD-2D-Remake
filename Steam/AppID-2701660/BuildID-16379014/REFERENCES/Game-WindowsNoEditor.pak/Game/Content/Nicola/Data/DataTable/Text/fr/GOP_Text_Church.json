@@ -1,0 +1,380 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_Church",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Church_UI_Top_01": {
+        "SelfId": "Txt_Church_UI_Top_01",
+        "Text": "Confession (Sauvegarde)"
+      },
+      "Txt_Church_UI_Top_02": {
+        "SelfId": "Txt_Church_UI_Top_02",
+        "Text": "Divination"
+      },
+      "Txt_Church_UI_Top_03": {
+        "SelfId": "Txt_Church_UI_Top_03",
+        "Text": "Résurrection"
+      },
+      "Txt_Church_UI_Top_04": {
+        "SelfId": "Txt_Church_UI_Top_04",
+        "Text": "Purification"
+      },
+      "Txt_Church_UI_Top_05": {
+        "SelfId": "Txt_Church_UI_Top_05",
+        "Text": "Bénédiction"
+      },
+      "Txt_Church_UI_Top_06": {
+        "SelfId": "Txt_Church_UI_Top_06",
+        "Text": "Annuler"
+      },
+      "Txt_Church_Message_Start_Pri": {
+        "SelfId": "Txt_Church_Message_Start_Pri",
+        "Text": "*: Fidèle disciple, de quelle manière notre Église peut-elle t'aider?<NO_INPUT>"
+      },
+      "Txt_Church_Message_StartNight_Pri": {
+        "SelfId": "Txt_Church_Message_StartNight_Pri",
+        "Text": "*: Qu'est-ce qui te pousse à venir chercher mon aide au milieu de la nuit, mon enfant?<NO_INPUT>"
+      },
+      "Txt_Church_Message_ReviveTop_Pri": {
+        "SelfId": "Txt_Church_Message_ReviveTop_Pri",
+        "Text": "*: Qui doit-on ramener dans le monde des vivants?<NO_INPUT>"
+      },
+      "Txt_Church_Message_Alive_Pri": {
+        "SelfId": "Txt_Church_Message_Alive_Pri",
+        "Text": "*: Tu dois plaisanter, n'est-ce pas? {ACTOR} me semble bien en vie!"
+      },
+      "Txt_Church_Message_Revive_Pri": {
+        "SelfId": "Txt_Church_Message_Revive_Pri",
+        "Text": "*: Au nom de la grandeur céleste et de la bienveillance...\r\nSi telle est votre volonté, ramenez dans ce monde notre fidèle {ACTOR}!<NO_INPUT>"
+      },
+      "Txt_Church_Message_ReviveResult_Pri": {
+        "SelfId": "Txt_Church_Message_ReviveResult_Pri",
+        "Text": "{ACTOR} est à nouveau en vie!"
+      },
+      "Txt_Church_Message_DetoxiTop_Pri": {
+        "SelfId": "Txt_Church_Message_DetoxiTop_Pri",
+        "Text": "*: Qui a besoin de soins contre le poison?<NO_INPUT>"
+      },
+      "Txt_Church_Message_NotPoison_Pri": {
+        "SelfId": "Txt_Church_Message_NotPoison_Pri",
+        "Text": "*: Eh bien, {ACTOR} n'a pas l'air d'avoir la moindre trace de poison dans le corps!"
+      },
+      "Txt_Church_Message_Detoxi_Pri": {
+        "SelfId": "Txt_Church_Message_Detoxi_Pri",
+        "Text": "*: Au nom de la grandeur céleste et de la bienveillance, puisse {ACTOR} voir son corps débarrassé de tout poison!<NO_INPUT>"
+      },
+      "Txt_Church_Message_DetoxiResult_Pri": {
+        "SelfId": "Txt_Church_Message_DetoxiResult_Pri",
+        "Text": "{ACTOR} n'est plus <IfGender_ACTOR(empoisonné,empoisonnée,)>."
+      },
+      "Txt_Church_Message_CurseTop_Pri": {
+        "SelfId": "Txt_Church_Message_CurseTop_Pri",
+        "Text": "*: Qui a besoin d'être désensorcelé?<NO_INPUT>"
+      },
+      "Txt_Church_Message_NotCurse_Pri": {
+        "SelfId": "Txt_Church_Message_NotCurse_Pri",
+        "Text": "*: Excuse-moi, mais {ACTOR} ne semble pas être sous l'emprise d'un sortilège, mon enfant."
+      },
+      "Txt_Church_Message_HealCurse_Pri": {
+        "SelfId": "Txt_Church_Message_HealCurse_Pri",
+        "Text": "*: J'implore les puissances bienveillantes de se révéler à nous!\r\nDébarrassez {ACTOR} de cette terrible malédiction!<NO_INPUT>"
+      },
+      "Txt_Church_Message_HealCurseResult_Pri": {
+        "SelfId": "Txt_Church_Message_HealCurseResult_Pri",
+        "Text": "{ACTOR} n'est plus sous l'effet de la malédiction."
+      },
+      "Txt_Church_Message_Confirm_Pri": {
+        "SelfId": "Txt_Church_Message_Confirm_Pri",
+        "Text": "*: Pour accomplir cette tâche, je dois te demander <IfSing_VALUE(une petite pièce d'or pour ta contribution,une petite contribution de {VALUE} pièces d'or)>.\r\nAurais-tu l'obligeance d'y consentir, mon enfant?<NO_INPUT>"
+      },
+      "Txt_Church_Message_Shotage_Pri": {
+        "SelfId": "Txt_Church_Message_Shotage_Pri",
+        "Text": "*: Il semble que tu ne sois pas en mesure de faire cette humble donation.<KEY_WAIT>\r\n*: Pardonnez-moi d'en avoir trop demandé à votre fidèle disciple, ô puissances bienveillantes!"
+      },
+      "Txt_Church_Message_PaymentCancel_Pri": {
+        "SelfId": "Txt_Church_Message_PaymentCancel_Pri",
+        "Text": "*: Les dons à l'Église témoignent de notre gratitude pour la bienveillance qui nous a été accordée!\r\nIl est très regrettable de négliger cet aspect de la foi."
+      },
+      "Txt_Church_Message_Cancel_Pri": {
+        "SelfId": "Txt_Church_Message_Cancel_Pri",
+        "Text": "*: Vraiment?\r\nEh bien, je respecte ton choix.\r\nQue la grandeur céleste te protège!"
+      },
+      "Txt_Church_Message_StartAgain_Pri": {
+        "SelfId": "Txt_Church_Message_StartAgain_Pri",
+        "Text": "*: Pouvons-nous faire autre chose pour t'aider?<NO_INPUT>"
+      },
+      "Txt_Church_Message_Finish_Pri": {
+        "SelfId": "Txt_Church_Message_Finish_Pri",
+        "Text": "*: Prends garde à toi, mon enfant.\r\nQue l'Esprit de la Terre t'accompagne."
+      },
+      "Txt_Church_Message_Nextlevel_Pri": {
+        "SelfId": "Txt_Church_Message_Nextlevel_Pri",
+        "Text": "*: {ACTOR}, mon enfant! Tu as besoin de {VALUE} <IfSing_VALUE(point,points)> d'expérience pour passer au niveau supérieur!"
+      },
+      "Txt_Church_Message_SaveConfirm_Pri": {
+        "SelfId": "Txt_Church_Message_SaveConfirm_Pri",
+        "Text": "*: Désires-tu enregistrer tes aventures dans un journal?<NO_INPUT>"
+      },
+      "Txt_Church_Message_SaveCancel_Pri": {
+        "SelfId": "Txt_Church_Message_SaveCancel_Pri",
+        "Text": "*: Très bien. Remettons l'enregistrement de tes aventures à plus tard."
+      },
+      "Txt_Church_Message_SaveTop_Pri": {
+        "SelfId": "Txt_Church_Message_SaveTop_Pri",
+        "Text": "*: Confesse-moi tout ce que tu as fait, mon enfant, afin que je puisse enregistrer tes aventures dans un journal.<KEY_WAIT>\r\n*: Dans quel journal souhaites-tu que je note par écrit tes aventures?<NO_INPUT>"
+      },
+      "Txt_Church_Message_OverwriteConfirm_Pri": {
+        "SelfId": "Txt_Church_Message_OverwriteConfirm_Pri",
+        "Text": "*: Dans ce cas, je vais devoir écraser le journal <Cap>{WORD} Niv. {VALUE}.\r\nEst-ce bien ce que tu veux?<NO_INPUT>"
+      },
+      "Txt_Church_Message_ContinueConfirm_Save_Pri": {
+        "SelfId": "Txt_Church_Message_ContinueConfirm_Save_Pri",
+        "Text": "*: J'ai enregistré tes aventures avec succès.\r\nAs-tu l'intention de poursuivre ton aventure, mon enfant?<NO_INPUT>"
+      },
+      "Txt_Church_Message_ContinueConfirm_Pri": {
+        "SelfId": "Txt_Church_Message_ContinueConfirm_Pri",
+        "Text": "*: As-tu l'intention de poursuivre ton aventure, mon enfant?<NO_INPUT>"
+      },
+      "Txt_Church_Message_ContinueConfirmNosave_Pri": {
+        "SelfId": "Txt_Church_Message_ContinueConfirmNosave_Pri",
+        "Text": "*: Comment?<!> Tu désires t'en aller sans enregistrer tes aventures?<!><KEY_WAIT>\r\n*: Si tu fais cela, tu reprendras ton voyage au moment de ton dernier journal enregistré. Est-ce bien ce que tu veux?<NO_INPUT>"
+      },
+      "Txt_Church_Message_ContinueNoSave_Pri": {
+        "SelfId": "Txt_Church_Message_ContinueNoSave_Pri",
+        "Text": "*: Tu as changé d'avis?"
+      },
+      "Txt_Church_Message_Continue_Pri": {
+        "SelfId": "Txt_Church_Message_Continue_Pri",
+        "Text": "*: Très bien. Suis ton chemin, brave {LEADER},\r\net que l'Esprit de la Terre t'accompagne."
+      },
+      "Txt_Church_Message_GameEnd_Pri": {
+        "SelfId": "Txt_Church_Message_GameEnd_Pri",
+        "Text": "*: Au nom de la grandeur céleste et de la compassion, que soit accordé un répit à cet enfant!"
+      },
+      "Txt_Church_Message_GameStart_Pri": {
+        "SelfId": "Txt_Church_Message_GameStart_Pri",
+        "Text": "*: Quelle joie de te revoir, {LEADER}!\r\nJ'espère que tu as bien récupéré."
+      },
+      "Txt_Church_Message_Defeated_Pri": {
+        "SelfId": "Txt_Church_Message_Defeated_Pri",
+        "Text": "*: Allons donc, brave {LEADER}, nous ne pouvons pas te perdre comme cela!<KEY_WAIT>\r\n*: Grâce au ciel, tu as désormais une nouvelle chance.\r\nNe la gaspille pas si facilement cette fois.<KEY_WAIT>\r\n*: Va, brave {LEADER}, et n'oublie pas que prudence est mère de sûreté!"
+      },
+      "Txt_Church_Message_LevelMax_Pri": {
+        "SelfId": "Txt_Church_Message_LevelMax_Pri",
+        "Text": "*: Brave {ACTOR}, tu as déjà atteint les sommets de ton art."
+      },
+      "Txt_Church_Message_EXPMax_Pri": {
+        "SelfId": "Txt_Church_Message_EXPMax_Pri",
+        "Text": "*: Brave {ACTOR}, tu as déjà suffisamment acquis d'expérience."
+      },
+      "Txt_Church_Message_NextlevelTop_Pri": {
+        "SelfId": "Txt_Church_Message_NextlevelTop_Pri",
+        "Text": "*: Une voix pleine de sagesse et de bienveillance s'élève..."
+      },
+      "Txt_Church_Message_ReviveTopNoTarget_Pri": {
+        "SelfId": "Txt_Church_Message_ReviveTopNoTarget_Pri",
+        "Text": "*: Réjouis-toi, mon enfant.\r\n<IfSolo(Tu n'as nullement,Aucun de tes compagnons n'a)> besoin d'un sort de résurrection."
+      },
+      "Txt_Church_Message_DetoxiTopNoTarget_Pri": {
+        "SelfId": "Txt_Church_Message_DetoxiTopNoTarget_Pri",
+        "Text": "*: Réjouis-toi, mon enfant.\r\n<IfSolo(Tu n'as pas,Aucun d'entre vous n'a)> de poison qui circule dans <IfSolo(tes,ses)> veines."
+      },
+      "Txt_Church_Message_CurseTopNoTarget_Pri": {
+        "SelfId": "Txt_Church_Message_CurseTopNoTarget_Pri",
+        "Text": "*: Réjouis-toi, mon enfant.\r\n<IfSolo(Tu n'es pas,Aucun d'entre vous n'est)> sous l'emprise d'une malédiction."
+      },
+      "Txt_Church_Message_Start_Sis": {
+        "SelfId": "Txt_Church_Message_Start_Sis",
+        "Text": "*: Pauvre agneau égaré, guidé jusqu'ici par les cieux, bienvenue.\r\nQue puis-je faire pour toi?<NO_INPUT>"
+      },
+      "Txt_Church_Message_StartNight_Sis": {
+        "SelfId": "Txt_Church_Message_StartNight_Sis",
+        "Text": "*: Qu'est-ce qui te pousse à venir chercher mon aide au milieu de la nuit, pauvre agneau égaré?<NO_INPUT>"
+      },
+      "Txt_Church_Message_ReviveTop_Sis": {
+        "SelfId": "Txt_Church_Message_ReviveTop_Sis",
+        "Text": "*: Qui souhaites-tu ramener à la vie?<NO_INPUT>"
+      },
+      "Txt_Church_Message_Alive_Sis": {
+        "SelfId": "Txt_Church_Message_Alive_Sis",
+        "Text": "*: Tu dois faire erreur.\r\n{ACTOR} m'a tout l'air d'être en vie!"
+      },
+      "Txt_Church_Message_Revive_Sis": {
+        "SelfId": "Txt_Church_Message_Revive_Sis",
+        "Text": "*: Au nom de la grandeur céleste et de la compassion!\r\n<KEY_WAIT>\r\n*: Que la vie soit à nouveau insufflée à {ACTOR} !\r\n<NO_INPUT>"
+      },
+      "Txt_Church_Message_ReviveResult_Sis": {
+        "SelfId": "Txt_Church_Message_ReviveResult_Sis",
+        "Text": "{ACTOR} est à nouveau en vie!"
+      },
+      "Txt_Church_Message_DetoxiTop_Sis": {
+        "SelfId": "Txt_Church_Message_DetoxiTop_Sis",
+        "Text": "*: Qui a besoin de soins contre le poison?<NO_INPUT>"
+      },
+      "Txt_Church_Message_NotPoison_Sis": {
+        "SelfId": "Txt_Church_Message_NotPoison_Sis",
+        "Text": "*: Mais {ACTOR} n'a pas l'air d'être sous l'emprise d'un poison!"
+      },
+      "Txt_Church_Message_Detoxi_Sis": {
+        "SelfId": "Txt_Church_Message_Detoxi_Sis",
+        "Text": "*: J'invoque à présent les forces célestes elles-mêmes...\r\nDébarrassez votre fidèle {ACTOR} du poison qui s'est répandu dans son corps!<NO_INPUT>"
+      },
+      "Txt_Church_Message_DetoxiResult_Sis": {
+        "SelfId": "Txt_Church_Message_DetoxiResult_Sis",
+        "Text": "{ACTOR} n'est plus sous l'effet du poison."
+      },
+      "Txt_Church_Message_CurseTop_Sis": {
+        "SelfId": "Txt_Church_Message_CurseTop_Sis",
+        "Text": "*: Qui a besoin d'être désensorcelé?\r\n<NO_INPUT>"
+      },
+      "Txt_Church_Message_NotCurse_Sis": {
+        "SelfId": "Txt_Church_Message_NotCurse_Sis",
+        "Text": "*: Tu dois te tromper, pauvre agneau égaré. {ACTOR} n'a pas l'air d'être sous l'emprise d'un sortilège."
+      },
+      "Txt_Church_Message_HealCurse_Sis": {
+        "SelfId": "Txt_Church_Message_HealCurse_Sis",
+        "Text": "*: J'implore les puissances bienveillantes de se révéler à nous!\r\nDébarrassez  {ACTOR} de cette terrible malédiction!<NO_INPUT>"
+      },
+      "Txt_Church_Message_HealCurseResult_Sis": {
+        "SelfId": "Txt_Church_Message_HealCurseResult_Sis",
+        "Text": "{ACTOR} n'est plus sous l'effet de la malédiction."
+      },
+      "Txt_Church_Message_Confirm_Sis": {
+        "SelfId": "Txt_Church_Message_Confirm_Sis",
+        "Text": "*: Si je puis me permettre... Pour accomplir cette tâche, je dois te demander un modeste tribut de {VALUE}<nbsp><IfSing_VALUE(pièce,pièces)> d'or.\r\nAurais-tu l'obligeance de t'en acquitter?<NO_INPUT>"
+      },
+      "Txt_Church_Message_Shotage_Sis": {
+        "SelfId": "Txt_Church_Message_Shotage_Sis",
+        "Text": "*: Je crains de t'avoir demandé bien plus que tu ne pouvais donner."
+      },
+      "Txt_Church_Message_PaymentCancel_Sis": {
+        "SelfId": "Txt_Church_Message_PaymentCancel_Sis",
+        "Text": "*: Je ne vais pas te demander l'impossible.\r\nSi telle est la volonté des cieux, pauvre agneau égaré..."
+      },
+      "Txt_Church_Message_Cancel_Sis": {
+        "SelfId": "Txt_Church_Message_Cancel_Sis",
+        "Text": "*: Je vois. Comme tu veux.\r\nPuissent les cieux te sourire."
+      },
+      "Txt_Church_Message_StartAgain_Sis": {
+        "SelfId": "Txt_Church_Message_StartAgain_Sis",
+        "Text": "*: As-tu besoin d'aide pour autre chose?<NO_INPUT>"
+      },
+      "Txt_Church_Message_Finish_Sis": {
+        "SelfId": "Txt_Church_Message_Finish_Sis",
+        "Text": "*: Puissent les forces bienveillantes veiller sur toi.\r\nJ'espère te revoir bientôt dans notre église."
+      },
+      "Txt_Church_Message_SaveConfirm_Sis": {
+        "SelfId": "Txt_Church_Message_SaveConfirm_Sis",
+        "Text": "*: Confesse-moi tout ce que tu as fait, afin que je puisse enregistrer tes aventures dans un journal.<NO_INPUT>"
+      },
+      "Txt_Church_Message_SaveCancel_Sis": {
+        "SelfId": "Txt_Church_Message_SaveCancel_Sis",
+        "Text": "*: Je vois. Comme tu veux.\r\nPuissent les cieux te sourire."
+      },
+      "Txt_Church_Message_SaveTop_Sis": {
+        "SelfId": "Txt_Church_Message_SaveTop_Sis",
+        "Text": "*: Dans quel journal souhaites-tu que je note par écrit tes aventures?<NO_INPUT>"
+      },
+      "Txt_Church_Message_OverwriteConfirm_Sis": {
+        "SelfId": "Txt_Church_Message_OverwriteConfirm_Sis",
+        "Text": "*: Dans ce cas, je vais devoir écraser le journal <Cap>{WORD} Niv. {VALUE}.\r\nEst-ce bien ce que tu veux?<NO_INPUT>"
+      },
+      "Txt_Church_Message_ContinueConfirm_Save_Sis": {
+        "SelfId": "Txt_Church_Message_ContinueConfirm_Save_Sis",
+        "Text": "*: J'ai enregistré ton journal.\r\nAs-tu l'intention de poursuivre ton aventure?<NO_INPUT>"
+      },
+      "Txt_Church_Message_ContinueConfirm_Sis": {
+        "SelfId": "Txt_Church_Message_ContinueConfirm_Sis",
+        "Text": "*: As-tu l'intention de poursuivre ton aventure?<NO_INPUT>"
+      },
+      "Txt_Church_Message_ContinueConfirmNosave_Sis": {
+        "SelfId": "Txt_Church_Message_ContinueConfirmNosave_Sis",
+        "Text": "*: Tu désires vraiment t'en aller sans enregistrer tes aventures?<KEY_WAIT>\r\n*: Si tu fais cela, tu reprendras ton voyage au moment de ton dernier journal enregistré.\r\nEst-ce bien ce que tu veux?<NO_INPUT>"
+      },
+      "Txt_Church_Message_ContinueNoSave_Sis": {
+        "SelfId": "Txt_Church_Message_ContinueNoSave_Sis",
+        "Text": "*: Je vois. Comme tu veux.\r\nPuissent les cieux te sourire, {LEADER}."
+      },
+      "Txt_Church_Message_Continue_Sis": {
+        "SelfId": "Txt_Church_Message_Continue_Sis",
+        "Text": "*: Puissent les cieux te sourire, {LEADER}."
+      },
+      "Txt_Church_Message_GameEnd_Sis": {
+        "SelfId": "Txt_Church_Message_GameEnd_Sis",
+        "Text": "*: Que les puissances qui nous protègent et nous guident permettent à cet agneau égaré de se reposer un moment!"
+      },
+      "Txt_Church_Message_GameStart_Sis": {
+        "SelfId": "Txt_Church_Message_GameStart_Sis",
+        "Text": "*: Mes prières ont été entendues !\r\nTu es de nouveau parmi nous, {LEADER}."
+      },
+      "Txt_Church_Message_Defeated_Sis": {
+        "SelfId": "Txt_Church_Message_Defeated_Sis",
+        "Text": "*: J'en appelle aux forces qui nous protègent et nous guident...\r\nPuissiez-vous protéger ce pauvre agneau égaré!"
+      },
+      "Txt_Church_Message_ReviveTopNoTarget_Sis": {
+        "SelfId": "Txt_Church_Message_ReviveTopNoTarget_Sis",
+        "Text": "*: N'aie crainte.\r\n<IfSolo(Tu ne me sembles pas avoir,Tous tes compagnons sont en vie. Aucun n'a)> besoin d'un sort de résurrection."
+      },
+      "Txt_Church_Message_DetoxiTopNoTarget_Sis": {
+        "SelfId": "Txt_Church_Message_DetoxiTopNoTarget_Sis",
+        "Text": "*: N'aie crainte.\r\nLes prières de purification ne sont pas nécessaires."
+      },
+      "Txt_Church_Message_CurseTopNoTarget_Sis": {
+        "SelfId": "Txt_Church_Message_CurseTopNoTarget_Sis",
+        "Text": "*: N'aie crainte.\r\nPrier pour une bénédiction n'est pas nécessaire."
+      },
+      "Txt_Church_Message_Start_ALIAHAN": {
+        "SelfId": "Txt_Church_Message_Start_ALIAHAN",
+        "Text": "*: Brave <IfGender_LEADER(guerrier,guerrière,)>, de quelle manière notre Église peut-elle t'aider?<NO_INPUT>"
+      },
+      "Txt_Church_Message_StartNight_ALIAHAN": {
+        "SelfId": "Txt_Church_Message_StartNight_ALIAHAN",
+        "Text": "*: Qu'est-ce qui te pousse à venir chercher mon aide au milieu de la nuit, <IfGender_LEADER(valeureux guerrier,valeureuse guerrière,)> d'Aliahan?<NO_INPUT>"
+      },
+      "Txt_Church_Message_Start_SAMANOSA": {
+        "SelfId": "Txt_Church_Message_Start_SAMANOSA",
+        "Text": "*: <IfGender_LEADER(Sauveur,Sauveuse,)> de Manoza, de quelle manière notre Église peut-elle t'aider?<NO_INPUT>"
+      },
+      "Txt_Church_Message_StartNight_SAMANOSA": {
+        "SelfId": "Txt_Church_Message_StartNight_SAMANOSA",
+        "Text": "*: Qu'est-ce qui te pousse à venir chercher mon aide au milieu de la nuit, <IfGender_LEADER(sauveur,sauveuse,)> de Manoza?<NO_INPUT>"
+      },
+      "Txt_Church_Message_Start_EDINBEAR": {
+        "SelfId": "Txt_Church_Message_Start_EDINBEAR",
+        "Text": "*: Pauvre hère, tu restes <IfGender_LEADER(égal,égale,)> à tout être humain à nos yeux.\r\nQue puis-je faire pour toi?<NO_INPUT>"
+      },
+      "Txt_Church_Message_StartNight_EDINBEAR": {
+        "SelfId": "Txt_Church_Message_StartNight_EDINBEAR",
+        "Text": "*: N'aie pas peur, nous bénissons tout le monde ici, même <IfGender_LEADER(un gueux,une gueuse,)> comme toi.\r\nQu'est-ce qui te pousse à venir chercher mon aide au milieu de la nuit?<NO_INPUT>"
+      },
+      "Txt_Church_Message_Start_MBR": {
+        "SelfId": "Txt_Church_Message_Start_MBR",
+        "Text": "*: Je dois admettre que j'ai du mal à résister à la tentation d'abandonner mon poste pour m'amuser comme tout le monde.\r\nJe ne peux cependant pas ignorer une âme dans le besoin. Que désires-tu?"
+      },
+      "Txt_Church_Message_Defeated_ALIAHAN": {
+        "SelfId": "Txt_Church_Message_Defeated_ALIAHAN",
+        "Text": "*: Allons donc, brave {LEADER}, nous ne pouvons pas te perdre comme cela!<KEY_WAIT>\r\n*: Grâce au ciel, tu as désormais une nouvelle chance.\r\nNe la gaspille pas si facilement cette fois.<KEY_WAIT>\r\n*: Va, brave {LEADER}, et fais en sorte qu'Ortéga soit fier de toi!"
+      },
+      "Txt_Church_Message_Defeated_SAMANOSA": {
+        "SelfId": "Txt_Church_Message_Defeated_SAMANOSA",
+        "Text": "*: Allons donc, brave {LEADER}, dire que quelqu'un comme toi puisse tomber aussi facilement!<KEY_WAIT>\r\n*: Grâce au ciel, tu as désormais une nouvelle chance.\r\nNe la gaspille pas si facilement cette fois.<KEY_WAIT>\r\n*: Va, brave {LEADER}, et n'oublie pas que prudence est mère de sûreté!"
+      },
+      "Txt_Church_Message_Defeated_EDINBEAR": {
+        "SelfId": "Txt_Church_Message_Defeated_EDINBEAR",
+        "Text": "*: Allons donc, brave {LEADER}, il ne faut pas oublier que nous vivons dans un monde dangereux.<KEY_WAIT>\r\n*: Grâce au Ciel, tu as désormais une nouvelle chance.\r\nNe la gaspille pas si facilement cette fois.<KEY_WAIT>\r\n*: Que le Ciel veille sur cette brebis égarée..."
+      },
+      "Txt_Church_Message_Defeated_LUDATORM": {
+        "SelfId": "Txt_Church_Message_Defeated_LUDATORM",
+        "Text": "*: Allons donc, brave {LEADER}, tu ne peux pas finir comme cela!<KEY_WAIT>\r\n*: Grâce au ciel, tu as désormais une nouvelle chance.\r\nNe la gaspille pas si facilement cette fois.<KEY_WAIT>\r\n*: Va, brave {LEADER}, et n'oublie pas que prudence est mère de sûreté!"
+      }
+    }
+  }
+]

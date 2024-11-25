@@ -1,0 +1,940 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_NPC_Talk_Common",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Talk_Common_FAILURE_1": {
+        "SelfId": "Txt_Talk_Common_FAILURE_1",
+        "Text": "但是什么也没有发生。"
+      },
+      "Txt_Talk_Common_MAIN_0_SCENE_0010_010_1": {
+        "SelfId": "Txt_Talk_Common_MAIN_0_SCENE_0010_010_1",
+        "Text": "差不多去看看{MERCHANT}的情况吧。"
+      },
+      "Txt_Talk_Common_Rainbow_Bridge_FieldEvent_01_1": {
+        "SelfId": "Txt_Talk_Common_Rainbow_Bridge_FieldEvent_01_1",
+        "Text": "前方是悬崖。"
+      },
+      "Txt_Talk_Common_Rainbow_Bridge_FieldEvent_01_2": {
+        "SelfId": "Txt_Talk_Common_Rainbow_Bridge_FieldEvent_01_2",
+        "Text": "照这个情况，\r\n根本无法前进。"
+      },
+      "Txt_Talk_Common_Rainbow_Bridge_FieldEvent_01_3": {
+        "SelfId": "Txt_Talk_Common_Rainbow_Bridge_FieldEvent_01_3",
+        "Text": "要使用{I_NAME}吗？"
+      },
+      "Txt_Talk_Common_TREASURE_1": {
+        "SelfId": "Txt_Talk_Common_TREASURE_1",
+        "Text": "{LEADER}打开了宝箱！"
+      },
+      "Txt_Talk_Common_TREASURE_2": {
+        "SelfId": "Txt_Talk_Common_TREASURE_2",
+        "Text": "但是宝箱是空的……"
+      },
+      "Txt_Talk_Common_TREASURE_3": {
+        "SelfId": "Txt_Talk_Common_TREASURE_3",
+        "Text": "{LEADER}调查了宝箱。"
+      },
+      "Txt_Talk_Common_TREASURE_5": {
+        "SelfId": "Txt_Talk_Common_TREASURE_5",
+        "Text": "发现了\r\n{I_NAME}！"
+      },
+      "Txt_Talk_Common_TREASURE_7": {
+        "SelfId": "Txt_Talk_Common_TREASURE_7",
+        "Text": "将{I_NAME}\r\n放入了{BAG}。"
+      },
+      "Txt_Talk_Common_TREASURE_8": {
+        "SelfId": "Txt_Talk_Common_TREASURE_8",
+        "Text": "{LEADER}得到了\r\n{VALUE}金币。"
+      },
+      "Txt_Talk_Common_TREASURE_9": {
+        "SelfId": "Txt_Talk_Common_TREASURE_9",
+        "Text": "原来宝箱是\r\n{WORD}！"
+      },
+      "Txt_Talk_Common_TREASURE_11": {
+        "SelfId": "Txt_Talk_Common_TREASURE_11",
+        "Text": "{LEADER}得到了\r\n{I_NAME}。"
+      },
+      "Txt_Talk_Common_STORAGE_4": {
+        "SelfId": "Txt_Talk_Common_STORAGE_4",
+        "Text": "什么也没有找到。"
+      },
+      "Txt_Talk_Common_POT_1": {
+        "SelfId": "Txt_Talk_Common_POT_1",
+        "Text": "{LEADER}看了看罐子里。"
+      },
+      "Txt_Talk_Common_BOOKSHELF_1": {
+        "SelfId": "Txt_Talk_Common_BOOKSHELF_1",
+        "Text": "{LEADER}调查了书架。"
+      },
+      "Txt_Talk_Common_BARREL_1": {
+        "SelfId": "Txt_Talk_Common_BARREL_1",
+        "Text": "{LEADER}\r\n看了看木桶里。"
+      },
+      "Txt_Talk_Common_GROUND_1": {
+        "SelfId": "Txt_Talk_Common_GROUND_1",
+        "Text": "{LEADER}调查了脚下！"
+      },
+      "Txt_Talk_Common_BAG_1": {
+        "SelfId": "Txt_Talk_Common_BAG_1",
+        "Text": "{LEADER}\r\n看了看袋子里。"
+      },
+      "Txt_Talk_Common_BAG_2": {
+        "SelfId": "Txt_Talk_Common_BAG_2",
+        "Text": "但是什么也没有找到。"
+      },
+      "Txt_Talk_Common_WOODBOX_1": {
+        "SelfId": "Txt_Talk_Common_WOODBOX_1",
+        "Text": "{LEADER}打开了木箱！"
+      },
+      "Txt_Talk_Common_SHINE_1": {
+        "SelfId": "Txt_Talk_Common_SHINE_1",
+        "Text": "得到了{I_NAME}。"
+      },
+      "Txt_Talk_Common_SHINE_2": {
+        "SelfId": "Txt_Talk_Common_SHINE_2",
+        "Text": "得到了{VALUE}个{I_NAME}。"
+      },
+      "Txt_Talk_Common_SHINE_3": {
+        "SelfId": "Txt_Talk_Common_SHINE_3",
+        "Text": "得到了{VALUE}金币。"
+      },
+      "Txt_Talk_Common_Fireplace_1": {
+        "SelfId": "Txt_Talk_Common_Fireplace_1",
+        "Text": "暖炉燃烧着。\r\n感觉很温暖。"
+      },
+      "Txt_Talk_Common_Well_1": {
+        "SelfId": "Txt_Talk_Common_Well_1",
+        "Text": "{LEADER}\r\n看了看水井里。"
+      },
+      "Txt_Talk_Common_Ozabuton_1": {
+        "SelfId": "Txt_Talk_Common_Ozabuton_1",
+        "Text": "感觉软绵绵的。\r\n好像是叫坐垫的东西。"
+      },
+      "Txt_Talk_Common_Shield_1": {
+        "SelfId": "Txt_Talk_Common_Shield_1",
+        "Text": "摆设着盾。"
+      },
+      "Txt_Talk_Common_Spear_2": {
+        "SelfId": "Txt_Talk_Common_Spear_2",
+        "Text": "摆设着矛。"
+      },
+      "Txt_Talk_Common_Axe_1": {
+        "SelfId": "Txt_Talk_Common_Axe_1",
+        "Text": "摆设着斧。"
+      },
+      "Txt_Talk_Common_Sword_1": {
+        "SelfId": "Txt_Talk_Common_Sword_1",
+        "Text": "摆设着刀。"
+      },
+      "Txt_Talk_Common_Mirror_1": {
+        "SelfId": "Txt_Talk_Common_Mirror_1",
+        "Text": "{LEADER}看了看镜子。"
+      },
+      "Txt_Talk_Common_Mirror_2": {
+        "SelfId": "Txt_Talk_Common_Mirror_2",
+        "Text": "映着一张疲倦的脸。"
+      },
+      "Txt_Talk_Common_Mirror_3": {
+        "SelfId": "Txt_Talk_Common_Mirror_3",
+        "Text": "“我果然很漂亮呢。”\r\n{LEADER}略微松了一口气。"
+      },
+      "Txt_Talk_Common_Mirror_4": {
+        "SelfId": "Txt_Talk_Common_Mirror_4",
+        "Text": "“我还真是个帅哥啊。”\r\n{LEADER}得意了起来。"
+      },
+      "Txt_Talk_Common_Mirror_5": {
+        "SelfId": "Txt_Talk_Common_Mirror_5",
+        "Text": "看起來似乎变得强壮了一些呢。"
+      },
+      "Txt_Talk_Common_Mirror_6": {
+        "SelfId": "Txt_Talk_Common_Mirror_6",
+        "Text": "里面是一张清爽干净的脸。"
+      },
+      "Txt_Talk_Common_Mirror_7": {
+        "SelfId": "Txt_Talk_Common_Mirror_7",
+        "Text": "头发有些乱了。\r\n{LEADER}将头发梳了上去。"
+      },
+      "Txt_Talk_Common_Mirror_8": {
+        "SelfId": "Txt_Talk_Common_Mirror_8",
+        "Text": "然后，露出了和蔼的笑容。"
+      },
+      "Txt_Talk_Common_Mirror_9": {
+        "SelfId": "Txt_Talk_Common_Mirror_9",
+        "Text": "之后，摆了个有点装酷的造型。"
+      },
+      "Txt_Talk_Common_Mirror_10": {
+        "SelfId": "Txt_Talk_Common_Mirror_10",
+        "Text": "喂，{LEADER}，\r\n你在干什么啊。\r\n快点出发了。"
+      },
+      "Txt_Talk_Common_Mirror_11": {
+        "SelfId": "Txt_Talk_Common_Mirror_11",
+        "Text": "映出了一张轻浮的脸。"
+      },
+      "Txt_Talk_Common_LockedDoor_1": {
+        "SelfId": "Txt_Talk_Common_LockedDoor_1",
+        "Text": "门上着锁！"
+      },
+      "Txt_Talk_Common_LockedDoor_2": {
+        "SelfId": "Txt_Talk_Common_LockedDoor_2",
+        "Text": "门上着锁！\r\n现有的钥匙无法打开它。"
+      },
+      "Txt_Talk_Common_Yggdrasil_1": {
+        "SelfId": "Txt_Talk_Common_Yggdrasil_1",
+        "Text": "{LEADER}调查了眼前的树。"
+      },
+      "Txt_Talk_Common_Yggdrasil_2": {
+        "SelfId": "Txt_Talk_Common_Yggdrasil_2",
+        "Text": "似乎还没有长出叶片。"
+      },
+      "Txt_Talk_Common_Corpse_1": {
+        "SelfId": "Txt_Talk_Common_Corpse_1",
+        "Text": "没有反应。\r\n看来只是一具尸体……"
+      },
+      "Txt_Talk_Common_Lancel_1": {
+        "SelfId": "Txt_Talk_Common_Lancel_1",
+        "Text": "{LEADER}向{WORD}搭话。\r\n但是没有反应。"
+      },
+      "Txt_Talk_Common_Animal_3": {
+        "SelfId": "Txt_Talk_Common_Animal_3",
+        "Text": "喵～"
+      },
+      "Txt_Talk_Common_Animal_4": {
+        "SelfId": "Txt_Talk_Common_Animal_4",
+        "Text": "呜噜呜噜……"
+      },
+      "Txt_Talk_Common_Animal_5": {
+        "SelfId": "Txt_Talk_Common_Animal_5",
+        "Text": "喵！"
+      },
+      "Txt_Talk_Common_Animal_6": {
+        "SelfId": "Txt_Talk_Common_Animal_6",
+        "Text": "喵～"
+      },
+      "Txt_Talk_Common_Animal_10": {
+        "SelfId": "Txt_Talk_Common_Animal_10",
+        "Text": "嘶嘶！"
+      },
+      "Txt_Talk_Common_Animal_13": {
+        "SelfId": "Txt_Talk_Common_Animal_13",
+        "Text": "噗噜噜噜噜！"
+      },
+      "Txt_Talk_Common_Kiesari_1": {
+        "SelfId": "Txt_Talk_Common_Kiesari_1",
+        "Text": "哎呀？怎么回事。"
+      },
+      "Txt_Talk_Common_Kiesari_2": {
+        "SelfId": "Txt_Talk_Common_Kiesari_2",
+        "Text": "哎呀。听错了吗？"
+      },
+      "Txt_Talk_Common_Kiesari_3": {
+        "SelfId": "Txt_Talk_Common_Kiesari_3",
+        "Text": "哇，不要突然跟我搭话……\r\n咦，没有人啊……"
+      },
+      "Txt_Talk_Common_Kiesari_4": {
+        "SelfId": "Txt_Talk_Common_Kiesari_4",
+        "Text": "唔？好像听到什么，\r\n错觉吗……"
+      },
+      "Txt_Talk_Common_Kiesari_5": {
+        "SelfId": "Txt_Talk_Common_Kiesari_5",
+        "Text": "哇？！\r\n刚才的声音是什么？"
+      },
+      "Txt_Talk_Common_Kiesari_6": {
+        "SelfId": "Txt_Talk_Common_Kiesari_6",
+        "Text": "哇！"
+      },
+      "Txt_Talk_Common_Kiesari_7": {
+        "SelfId": "Txt_Talk_Common_Kiesari_7",
+        "Text": "明明没有人，\r\n我却听到了声音？！"
+      },
+      "Txt_Talk_Common_Kiesari_8": {
+        "SelfId": "Txt_Talk_Common_Kiesari_8",
+        "Text": "神啊，是您吗？"
+      },
+      "Txt_Talk_Common_Kiesari_9": {
+        "SelfId": "Txt_Talk_Common_Kiesari_9",
+        "Text": "哎呀，刚刚有人的声音……\r\n是我太累了吗。"
+      },
+      "Txt_Talk_Common_Kiesari_10": {
+        "SelfId": "Txt_Talk_Common_Kiesari_10",
+        "Text": "哎呀？怎么回事。\r\n听错了啊。"
+      },
+      "Txt_Talk_Common_Kiesari_11": {
+        "SelfId": "Txt_Talk_Common_Kiesari_11",
+        "Text": "唔，什么人！\r\n别躲躲藏藏的，\r\n站出来！"
+      },
+      "Txt_Talk_Common_Kiesari_12": {
+        "SelfId": "Txt_Talk_Common_Kiesari_12",
+        "Text": "哇，怎么回事？\r\n发生了什么事？"
+      },
+      "Txt_Talk_Common_Kiesari_13": {
+        "SelfId": "Txt_Talk_Common_Kiesari_13",
+        "Text": "唔，有杀气！"
+      },
+      "Txt_Talk_Common_Kiesari_14": {
+        "SelfId": "Txt_Talk_Common_Kiesari_14",
+        "Text": "不对，是我想多了。"
+      },
+      "Txt_Talk_Common_Kiesari_15": {
+        "SelfId": "Txt_Talk_Common_Kiesari_15",
+        "Text": "咦？\r\n谁在叫我？"
+      },
+      "Txt_Talk_Common_Kiesari_16": {
+        "SelfId": "Txt_Talk_Common_Kiesari_16",
+        "Text": "没有人哦\r\n啦啦啦♪"
+      },
+      "Txt_Talk_Common_Kiesari_17": {
+        "SelfId": "Txt_Talk_Common_Kiesari_17",
+        "Text": "好奇怪。我明明感到\r\n刚刚有人跟我说话。"
+      },
+      "Txt_Talk_Common_Kiesari_18": {
+        "SelfId": "Txt_Talk_Common_Kiesari_18",
+        "Text": "嘁，听错了啊。\r\n是我在这种地方待久了，\r\n待出毛病来了吧……"
+      },
+      "Txt_Talk_Common_Kiesari_19": {
+        "SelfId": "Txt_Talk_Common_Kiesari_19",
+        "Text": "是谁？！"
+      },
+      "Txt_Talk_Common_Kiesari_20": {
+        "SelfId": "Txt_Talk_Common_Kiesari_20",
+        "Text": "真奇怪。\r\n没有人啊。"
+      },
+      "Txt_Talk_Common_Kiesari_21": {
+        "SelfId": "Txt_Talk_Common_Kiesari_21",
+        "Text": "即便你改变样子，\r\n我们也能认出来。"
+      },
+      "Txt_Talk_Common_Kiesari_22": {
+        "SelfId": "Txt_Talk_Common_Kiesari_22",
+        "Text": "嗯？怎么回事？"
+      },
+      "Txt_Talk_Common_Kiesari_23": {
+        "SelfId": "Txt_Talk_Common_Kiesari_23",
+        "Text": "嗯？真奇怪啊？"
+      },
+      "Txt_Talk_Common_Kiesari_24": {
+        "SelfId": "Txt_Talk_Common_Kiesari_24",
+        "Text": "哇！吓我一跳。"
+      },
+      "Txt_Talk_Common_Kiesari_25": {
+        "SelfId": "Txt_Talk_Common_Kiesari_25",
+        "Text": "刚才绝对，听到了声音。\r\n我们，不会说谎。"
+      },
+      "Txt_Talk_Common_Kiesari_26": {
+        "SelfId": "Txt_Talk_Common_Kiesari_26",
+        "Text": "唔？有什么，人，或是\r\n什么东西，在吗？"
+      },
+      "Txt_Talk_Common_Kiesari_27": {
+        "SelfId": "Txt_Talk_Common_Kiesari_27",
+        "Text": "什么也，没看见，\r\n有谁，在那里吗？"
+      },
+      "Txt_Talk_Common_Kiesari_28": {
+        "SelfId": "Txt_Talk_Common_Kiesari_28",
+        "Text": "刚才的是什么？\r\n难道是妖怪？\r\n哎呀！"
+      },
+      "Txt_Talk_Common_Kiesari_29": {
+        "SelfId": "Txt_Talk_Common_Kiesari_29",
+        "Text": "哎呀！\r\n刚才的声音是什么？"
+      },
+      "Txt_Talk_Common_Kiesari_30": {
+        "SelfId": "Txt_Talk_Common_Kiesari_30",
+        "Text": "哎呀？\r\n谁在叫我？"
+      },
+      "Txt_Talk_Common_Kiesari_31": {
+        "SelfId": "Txt_Talk_Common_Kiesari_31",
+        "Text": "真奇怪，一个人也没有。"
+      },
+      "Txt_Talk_Common_Kiesari_32": {
+        "SelfId": "Txt_Talk_Common_Kiesari_32",
+        "Text": "哎呀！是谁？\r\n干什么呀？！"
+      },
+      "Txt_Talk_Common_Kiesari_33": {
+        "SelfId": "Txt_Talk_Common_Kiesari_33",
+        "Text": "……\r\n是我耳朵不好用了呢，\r\n还是眼睛……"
+      },
+      "Txt_Talk_Common_Kiesari_34": {
+        "SelfId": "Txt_Talk_Common_Kiesari_34",
+        "Text": "真奇怪……\r\n明明听到有人的声音……"
+      },
+      "Txt_Talk_Common_Kiesari_35": {
+        "SelfId": "Txt_Talk_Common_Kiesari_35",
+        "Text": "是谁？\r\n是谁藏在那里？"
+      },
+      "Txt_Talk_Common_Kiesari_36": {
+        "SelfId": "Txt_Talk_Common_Kiesari_36",
+        "Text": "是！"
+      },
+      "Txt_Talk_Common_Kiesari_37": {
+        "SelfId": "Txt_Talk_Common_Kiesari_37",
+        "Text": "？"
+      },
+      "Txt_Talk_Common_Kiesari_38": {
+        "SelfId": "Txt_Talk_Common_Kiesari_38",
+        "Text": "谁在那里？"
+      },
+      "Txt_Talk_Common_Kiesari_39": {
+        "SelfId": "Txt_Talk_Common_Kiesari_39",
+        "Text": "奇怪了，是我听错了吗。"
+      },
+      "Txt_Talk_Common_Kiesari_40": {
+        "SelfId": "Txt_Talk_Common_Kiesari_40",
+        "Text": "有谁在那里吧。\r\n我感到了人类的气息。"
+      },
+      "Txt_Talk_Common_Kiesari_41": {
+        "SelfId": "Txt_Talk_Common_Kiesari_41",
+        "Text": "刚才的声音是什么！\r\n难道是……"
+      },
+      "Txt_Talk_Common_Kiesari_42": {
+        "SelfId": "Txt_Talk_Common_Kiesari_42",
+        "Text": "不知从哪传来了声音……\r\n真不可思议……"
+      },
+      "Txt_Talk_Common_Kiesari_43": {
+        "SelfId": "Txt_Talk_Common_Kiesari_43",
+        "Text": "刚刚，听到了，什么。\r\n但，什么人，也没有。奇怪。"
+      },
+      "Txt_Talk_Common_Kiesari_44": {
+        "SelfId": "Txt_Talk_Common_Kiesari_44",
+        "Text": "刚才的，声音是？"
+      },
+      "Txt_Talk_Common_Kiesari_45": {
+        "SelfId": "Txt_Talk_Common_Kiesari_45",
+        "Text": "所谓美究竟是什么……"
+      },
+      "Txt_Talk_Common_Kiesari_46": {
+        "SelfId": "Txt_Talk_Common_Kiesari_46",
+        "Text": "啊，我竟然在自言自语。"
+      },
+      "Txt_Talk_Common_Kiesari_47": {
+        "SelfId": "Txt_Talk_Common_Kiesari_47",
+        "Text": "有谁在那里吗？\r\n真烦人！"
+      },
+      "Txt_Talk_Common_Kiesari_48": {
+        "SelfId": "Txt_Talk_Common_Kiesari_48",
+        "Text": "哈！刚刚我听到了\r\n神的声音……"
+      },
+      "Txt_Talk_Common_Kiesari_49": {
+        "SelfId": "Txt_Talk_Common_Kiesari_49",
+        "Text": "这里是露依妲酒馆。\r\n冒险者们……"
+      },
+      "Txt_Talk_Common_Kiesari_50": {
+        "SelfId": "Txt_Talk_Common_Kiesari_50",
+        "Text": "怎么回事。\r\n一个人也没有啊。"
+      },
+      "Txt_Talk_Common_Kiesari_51": {
+        "SelfId": "Txt_Talk_Common_Kiesari_51",
+        "Text": "唉，也不知道那孩子\r\n近况如何……"
+      },
+      "Txt_Talk_Common_Kiesari_52": {
+        "SelfId": "Txt_Talk_Common_Kiesari_52",
+        "Text": "喵。"
+      },
+      "Txt_Talk_Common_Kiesari_53": {
+        "SelfId": "Txt_Talk_Common_Kiesari_53",
+        "Text": "咕噜咕噜。"
+      },
+      "Txt_Talk_Common_Kiesari_54": {
+        "SelfId": "Txt_Talk_Common_Kiesari_54",
+        "Text": "噗噜噗噜。"
+      },
+      "Txt_Talk_Common_Kiesari_55": {
+        "SelfId": "Txt_Talk_Common_Kiesari_55",
+        "Text": "看不见！看不见啊！"
+      },
+      "Txt_Talk_Common_Kiesari_56": {
+        "SelfId": "Txt_Talk_Common_Kiesari_56",
+        "Text": "这就算隐形吗？\r\n我可是看得一清二楚呢。"
+      },
+      "Txt_Talk_Common_Kiesari_57": {
+        "SelfId": "Txt_Talk_Common_Kiesari_57",
+        "Text": "噗？"
+      },
+      "Txt_Talk_Common_Kiesari_58": {
+        "SelfId": "Txt_Talk_Common_Kiesari_58",
+        "Text": "哇！"
+      },
+      "Txt_Talk_Common_Kiesari_59": {
+        "SelfId": "Txt_Talk_Common_Kiesari_59",
+        "Text": "咕噜咕噜。"
+      },
+      "Txt_Talk_Common_Kiesari_60": {
+        "SelfId": "Txt_Talk_Common_Kiesari_60",
+        "Text": "……\r\n是我耳朵不好用了呢，\r\n还是眼睛……"
+      },
+      "Txt_Talk_Common_Kiesari_61": {
+        "SelfId": "Txt_Talk_Common_Kiesari_61",
+        "Text": "唔？好像听到什么，\r\n错觉吗……"
+      },
+      "Txt_Talk_Common_Kiesari_62": {
+        "SelfId": "Txt_Talk_Common_Kiesari_62",
+        "Text": "嘁，听错了啊。\r\n是我在这种地方待久了，\r\n待出毛病来了吧……"
+      },
+      "Txt_Talk_Common_Kiesari_63": {
+        "SelfId": "Txt_Talk_Common_Kiesari_63",
+        "Text": "谁在那里？"
+      },
+      "Txt_Talk_Common_Kiesari_64": {
+        "SelfId": "Txt_Talk_Common_Kiesari_64",
+        "Text": "奇怪了，是我听错了吗。"
+      },
+      "Txt_Talk_Common_Kiesari_65": {
+        "SelfId": "Txt_Talk_Common_Kiesari_65",
+        "Text": "哎呀。听错了吗？"
+      },
+      "Txt_Talk_Common_Kiesari_66": {
+        "SelfId": "Txt_Talk_Common_Kiesari_66",
+        "Text": "哎呀！\r\n刚才的声音是什么？"
+      },
+      "Txt_Talk_Common_Kiesari_67": {
+        "SelfId": "Txt_Talk_Common_Kiesari_67",
+        "Text": "噗？"
+      },
+      "Txt_Talk_Common_Kiesari_68": {
+        "SelfId": "Txt_Talk_Common_Kiesari_68",
+        "Text": "不知从哪传来了声音……\r\n真不可思议……"
+      },
+      "Txt_Talk_Common_Kiesari_69": {
+        "SelfId": "Txt_Talk_Common_Kiesari_69",
+        "Text": "噗噜噗噜。"
+      },
+      "Txt_Talk_Common_Kiesari_70": {
+        "SelfId": "Txt_Talk_Common_Kiesari_70",
+        "Text": "嗯？怎么回事？"
+      },
+      "Txt_Talk_Common_Kiesari_71": {
+        "SelfId": "Txt_Talk_Common_Kiesari_71",
+        "Text": "是谁？！"
+      },
+      "Txt_Talk_Common_Kiesari_72": {
+        "SelfId": "Txt_Talk_Common_Kiesari_72",
+        "Text": "真奇怪。\r\n没有人啊。"
+      },
+      "Txt_Talk_Common_Kiesari_73": {
+        "SelfId": "Txt_Talk_Common_Kiesari_73",
+        "Text": "没有人哦\r\n啦啦啦♪"
+      },
+      "Txt_Talk_Common_Kiesari_74": {
+        "SelfId": "Txt_Talk_Common_Kiesari_74",
+        "Text": "这就算隐形吗？\r\n我可是看得一清二楚呢。"
+      },
+      "Txt_Talk_Common_Kiesari_75": {
+        "SelfId": "Txt_Talk_Common_Kiesari_75",
+        "Text": "哇？！\r\n刚才的声音是什么？"
+      },
+      "Txt_Talk_Common_Monster_1": {
+        "SelfId": "Txt_Talk_Common_Monster_1",
+        "Text": "你是谁？"
+      },
+      "Txt_Talk_Common_Monster_2": {
+        "SelfId": "Txt_Talk_Common_Monster_2",
+        "Text": "哎呀，出现啦！"
+      },
+      "Txt_Talk_Common_Monster_3": {
+        "SelfId": "Txt_Talk_Common_Monster_3",
+        "Text": "哇！怪、怪物！"
+      },
+      "Txt_Talk_Common_Monster_4": {
+        "SelfId": "Txt_Talk_Common_Monster_4",
+        "Text": "哇……"
+      },
+      "Txt_Talk_Common_Monster_5": {
+        "SelfId": "Txt_Talk_Common_Monster_5",
+        "Text": "哇哇哇。\r\n这里怎么会有怪物！"
+      },
+      "Txt_Talk_Common_Monster_6": {
+        "SelfId": "Txt_Talk_Common_Monster_6",
+        "Text": "啊，\r\n饶命啊！"
+      },
+      "Txt_Talk_Common_Monster_7": {
+        "SelfId": "Txt_Talk_Common_Monster_7",
+        "Text": "你这个怪物，\r\n不离开这里的话，\r\n会有天罚降临的。"
+      },
+      "Txt_Talk_Common_Monster_8": {
+        "SelfId": "Txt_Talk_Common_Monster_8",
+        "Text": "这里为什么会有魔物！\r\n快抓住它当研究材料！"
+      },
+      "Txt_Talk_Common_Monster_9": {
+        "SelfId": "Txt_Talk_Common_Monster_9",
+        "Text": "唔，你这家伙想干什么。\r\n要打的话就来吧。"
+      },
+      "Txt_Talk_Common_Monster_10": {
+        "SelfId": "Txt_Talk_Common_Monster_10",
+        "Text": "可恶的家伙！\r\n再不离开，\r\n休怪我斩你！"
+      },
+      "Txt_Talk_Common_Monster_11": {
+        "SelfId": "Txt_Talk_Common_Monster_11",
+        "Text": "你是干什么的！\r\n放马过来吧！"
+      },
+      "Txt_Talk_Common_Monster_12": {
+        "SelfId": "Txt_Talk_Common_Monster_12",
+        "Text": "哦？想打一架吗？\r\n我来奉陪！"
+      },
+      "Txt_Talk_Common_Monster_13": {
+        "SelfId": "Txt_Talk_Common_Monster_13",
+        "Text": "哇！"
+      },
+      "Txt_Talk_Common_Monster_14": {
+        "SelfId": "Txt_Talk_Common_Monster_14",
+        "Text": "是怪物啊。\r\n救命！"
+      },
+      "Txt_Talk_Common_Monster_15": {
+        "SelfId": "Txt_Talk_Common_Monster_15",
+        "Text": "为什么怪物会在这里！"
+      },
+      "Txt_Talk_Common_Monster_16": {
+        "SelfId": "Txt_Talk_Common_Monster_16",
+        "Text": "是魔物啊！\r\n救命啊！"
+      },
+      "Txt_Talk_Common_Monster_17": {
+        "SelfId": "Txt_Talk_Common_Monster_17",
+        "Text": "你这个怪物，\r\n看我怎么收拾你。"
+      },
+      "Txt_Talk_Common_Monster_18": {
+        "SelfId": "Txt_Talk_Common_Monster_18",
+        "Text": "哎呀，你是……"
+      },
+      "Txt_Talk_Common_Monster_19": {
+        "SelfId": "Txt_Talk_Common_Monster_19",
+        "Text": "怎么了？\r\n打扮成那个样子？"
+      },
+      "Txt_Talk_Common_Monster_20": {
+        "SelfId": "Txt_Talk_Common_Monster_20",
+        "Text": "出现啦！"
+      },
+      "Txt_Talk_Common_Monster_21": {
+        "SelfId": "Txt_Talk_Common_Monster_21",
+        "Text": "哎呀，\r\n我闪到腰了！"
+      },
+      "Txt_Talk_Common_Monster_22": {
+        "SelfId": "Txt_Talk_Common_Monster_22",
+        "Text": "哇，你是什么？\r\n怪物吗？"
+      },
+      "Txt_Talk_Common_Monster_23": {
+        "SelfId": "Txt_Talk_Common_Monster_23",
+        "Text": "哇！\r\n出现了！怪物！"
+      },
+      "Txt_Talk_Common_Monster_24": {
+        "SelfId": "Txt_Talk_Common_Monster_24",
+        "Text": "怪物，怪物！\r\n救命，救命！"
+      },
+      "Txt_Talk_Common_Monster_25": {
+        "SelfId": "Txt_Talk_Common_Monster_25",
+        "Text": "你来，干什么。\r\n从村中，滚出去。"
+      },
+      "Txt_Talk_Common_Monster_26": {
+        "SelfId": "Txt_Talk_Common_Monster_26",
+        "Text": "哇，好可怕。"
+      },
+      "Txt_Talk_Common_Monster_27": {
+        "SelfId": "Txt_Talk_Common_Monster_27",
+        "Text": "哇，是魔物。\r\n救命！"
+      },
+      "Txt_Talk_Common_Monster_28": {
+        "SelfId": "Txt_Talk_Common_Monster_28",
+        "Text": "哎呀！"
+      },
+      "Txt_Talk_Common_Monster_29": {
+        "SelfId": "Txt_Talk_Common_Monster_29",
+        "Text": "不行！\r\n这里是人类专用的。"
+      },
+      "Txt_Talk_Common_Monster_30": {
+        "SelfId": "Txt_Talk_Common_Monster_30",
+        "Text": "我可一点也不好吃啊！"
+      },
+      "Txt_Talk_Common_Monster_31": {
+        "SelfId": "Txt_Talk_Common_Monster_31",
+        "Text": "你要干什么！\r\n来人啊！谁去把士兵叫来。"
+      },
+      "Txt_Talk_Common_Monster_32": {
+        "SelfId": "Txt_Talk_Common_Monster_32",
+        "Text": "哎呀！\r\n来人呀！"
+      },
+      "Txt_Talk_Common_Monster_33": {
+        "SelfId": "Txt_Talk_Common_Monster_33",
+        "Text": "对不起，饶命啊！\r\n不要吃了我！"
+      },
+      "Txt_Talk_Common_Monster_34": {
+        "SelfId": "Txt_Talk_Common_Monster_34",
+        "Text": "哎呀！"
+      },
+      "Txt_Talk_Common_Monster_35": {
+        "SelfId": "Txt_Talk_Common_Monster_35",
+        "Text": "这里不是你们该来的地方。\r\n请出去！"
+      },
+      "Txt_Talk_Common_Monster_36": {
+        "SelfId": "Txt_Talk_Common_Monster_36",
+        "Text": "你这个怪物！\r\n明知这里是我们的据点\r\n还跑进来了吗！"
+      },
+      "Txt_Talk_Common_Monster_37": {
+        "SelfId": "Txt_Talk_Common_Monster_37",
+        "Text": "哎呀，\r\n请饶了我吧！"
+      },
+      "Txt_Talk_Common_Monster_38": {
+        "SelfId": "Txt_Talk_Common_Monster_38",
+        "Text": "怪物，好可怕！\r\n怪物，好讨厌！"
+      },
+      "Txt_Talk_Common_Monster_39": {
+        "SelfId": "Txt_Talk_Common_Monster_39",
+        "Text": "苏族之神啊，请救救我！"
+      },
+      "Txt_Talk_Common_Monster_40": {
+        "SelfId": "Txt_Talk_Common_Monster_40",
+        "Text": "士兵呢？\r\n士兵都在干些什么！\r\n快把这个魔物赶跑。"
+      },
+      "Txt_Talk_Common_Monster_41": {
+        "SelfId": "Txt_Talk_Common_Monster_41",
+        "Text": "干什么，\r\n我才不怕你们呢。\r\n消失吧！"
+      },
+      "Txt_Talk_Common_Monster_42": {
+        "SelfId": "Txt_Talk_Common_Monster_42",
+        "Text": "神啊……\r\n请救救\r\n您可怜的子民吧！"
+      },
+      "Txt_Talk_Common_Monster_43": {
+        "SelfId": "Txt_Talk_Common_Monster_43",
+        "Text": "你们想干什么！\r\n这里可是有一大帮\r\n实力高强的人在呢！"
+      },
+      "Txt_Talk_Common_Monster_44": {
+        "SelfId": "Txt_Talk_Common_Monster_44",
+        "Text": "啊，亲爱的！\r\n快来保护我……"
+      },
+      "Txt_Talk_Common_Monster_45": {
+        "SelfId": "Txt_Talk_Common_Monster_45",
+        "Text": "喵！"
+      },
+      "Txt_Talk_Common_Monster_46": {
+        "SelfId": "Txt_Talk_Common_Monster_46",
+        "Text": "呜噜呜噜。"
+      },
+      "Txt_Talk_Common_Monster_47": {
+        "SelfId": "Txt_Talk_Common_Monster_47",
+        "Text": "嘶嘶嘶嘶！"
+      },
+      "Txt_Talk_Common_Monster_48": {
+        "SelfId": "Txt_Talk_Common_Monster_48",
+        "Text": "什么嘛，不过是魔物罢了……"
+      },
+      "Txt_Talk_Common_Monster_49": {
+        "SelfId": "Txt_Talk_Common_Monster_49",
+        "Text": "变个样子\r\n就想让我掉以轻心吗？\r\n我才不会上当呢。"
+      },
+      "Txt_Talk_Common_Monster_50": {
+        "SelfId": "Txt_Talk_Common_Monster_50",
+        "Text": "哔叽！"
+      },
+      "Txt_Talk_Common_Monster_51": {
+        "SelfId": "Txt_Talk_Common_Monster_51",
+        "Text": "啊，\r\n饶命啊！"
+      },
+      "Txt_Talk_Common_Monster_52": {
+        "SelfId": "Txt_Talk_Common_Monster_52",
+        "Text": "呜噜呜噜。"
+      },
+      "Txt_Talk_Common_Monster_53": {
+        "SelfId": "Txt_Talk_Common_Monster_53",
+        "Text": "我可一点也不好吃啊！"
+      },
+      "Txt_Talk_Common_Monster_54": {
+        "SelfId": "Txt_Talk_Common_Monster_54",
+        "Text": "哇……"
+      },
+      "Txt_Talk_Common_Monster_55": {
+        "SelfId": "Txt_Talk_Common_Monster_55",
+        "Text": "是魔物啊！\r\n救命啊！"
+      },
+      "Txt_Talk_Common_Monster_56": {
+        "SelfId": "Txt_Talk_Common_Monster_56",
+        "Text": "哎呀！"
+      },
+      "Txt_Talk_Common_Monster_57": {
+        "SelfId": "Txt_Talk_Common_Monster_57",
+        "Text": "哎呀，出现啦！"
+      },
+      "Txt_Talk_Common_Monster_58": {
+        "SelfId": "Txt_Talk_Common_Monster_58",
+        "Text": "哎呀，你是……"
+      },
+      "Txt_Talk_Common_Monster_59": {
+        "SelfId": "Txt_Talk_Common_Monster_59",
+        "Text": "怎么了？\r\n打扮成那个样子？"
+      },
+      "Txt_Talk_Common_Monster_60": {
+        "SelfId": "Txt_Talk_Common_Monster_60",
+        "Text": "哇，是魔物。\r\n救命！"
+      },
+      "Txt_Talk_Common_Monster_61": {
+        "SelfId": "Txt_Talk_Common_Monster_61",
+        "Text": "哔叽！"
+      },
+      "Txt_Talk_Common_Monster_62": {
+        "SelfId": "Txt_Talk_Common_Monster_62",
+        "Text": "哎呀，\r\n请饶了我吧！"
+      },
+      "Txt_Talk_Common_Monster_63": {
+        "SelfId": "Txt_Talk_Common_Monster_63",
+        "Text": "嘶嘶嘶嘶！"
+      },
+      "Txt_Talk_Common_Monster_64": {
+        "SelfId": "Txt_Talk_Common_Monster_64",
+        "Text": "出现啦！"
+      },
+      "Txt_Talk_Common_Monster_65": {
+        "SelfId": "Txt_Talk_Common_Monster_65",
+        "Text": "你这个怪物，\r\n看我怎么收拾你。"
+      },
+      "Txt_Talk_Common_Monster_66": {
+        "SelfId": "Txt_Talk_Common_Monster_66",
+        "Text": "是怪物啊。\r\n救命！"
+      },
+      "Txt_Talk_Common_Monster_67": {
+        "SelfId": "Txt_Talk_Common_Monster_67",
+        "Text": "变个样子\r\n就想让我掉以轻心吗？\r\n我才不会上当呢。"
+      },
+      "Txt_Talk_Common_Monster_68": {
+        "SelfId": "Txt_Talk_Common_Monster_68",
+        "Text": "哇哇哇。\r\n这里怎么会有怪物！"
+      },
+      "Txt_Talk_Common_Slime_1": {
+        "SelfId": "Txt_Talk_Common_Slime_1",
+        "Text": "啊，是史莱姆！"
+      },
+      "Txt_Talk_Common_Slime_2": {
+        "SelfId": "Txt_Talk_Common_Slime_2",
+        "Text": "唔，原来是史莱姆啊。\r\n快点给我走开。"
+      },
+      "Txt_Talk_Common_Slime_3": {
+        "SelfId": "Txt_Talk_Common_Slime_3",
+        "Text": "啊，我知道的。\r\n是史莱姆，史莱姆。"
+      },
+      "Txt_Talk_Common_Slime_4": {
+        "SelfId": "Txt_Talk_Common_Slime_4",
+        "Text": "哇，是史莱姆。\r\n噗嗒噗嗒。"
+      },
+      "Txt_Talk_Common_Slime_5": {
+        "SelfId": "Txt_Talk_Common_Slime_5",
+        "Text": "哇！真可爱！"
+      },
+      "Txt_Talk_Common_Slime_6": {
+        "SelfId": "Txt_Talk_Common_Slime_6",
+        "Text": "哎呀，在这种地方有\r\n史莱姆……\r\n肯定是迷路了呢。"
+      },
+      "Txt_Talk_Common_Slime_7": {
+        "SelfId": "Txt_Talk_Common_Slime_7",
+        "Text": "哎呀，欢迎光临。\r\n但是，不好意思啊。\r\n这里没有史莱姆伙伴呀。"
+      },
+      "Txt_Talk_Common_Slime_8": {
+        "SelfId": "Txt_Talk_Common_Slime_8",
+        "Text": "哎呀，你好。\r\n噗噜噗噜。"
+      },
+      "Txt_Talk_Common_Slime_9": {
+        "SelfId": "Txt_Talk_Common_Slime_9",
+        "Text": "哇！真可爱！"
+      },
+      "Txt_Talk_Common_Slime_10": {
+        "SelfId": "Txt_Talk_Common_Slime_10",
+        "Text": "哎呀，你好。\r\n噗噜噗噜。"
+      },
+      "Txt_Talk_Common_ZomaBattle_1": {
+        "SelfId": "Txt_Talk_Common_ZomaBattle_1",
+        "Text": "嚯……\r\n你居然知道\r\n该如何解除我的屏障。"
+      },
+      "Txt_Talk_Common_ZomaBattle_2": {
+        "SelfId": "Txt_Talk_Common_ZomaBattle_2",
+        "Text": "不过，这都是无用功……\r\n来吧，在我的怀抱中痛苦挣扎吧。"
+      },
+      "Txt_Talk_Common_Field_MAIN_0_SCENE_0030_010_1": {
+        "SelfId": "Txt_Talk_Common_Field_MAIN_0_SCENE_0030_010_1",
+        "Text": "天空上方似乎传来了\r\n什么东西关上的声响……"
+      },
+      "Txt_Talk_Common_Field_MAIN_0_SCENE_0030_010_2": {
+        "SelfId": "Txt_Talk_Common_Field_MAIN_0_SCENE_0030_010_2",
+        "Text": "{WORD}竟然复活了！"
+      },
+      "Txt_Talk_Common_MBR_Escape_Sound": {
+        "SelfId": "Txt_Talk_Common_MBR_Escape_Sound",
+        "Text": "魔物似乎听到了脚步声，\r\n逃走了。"
+      },
+      "Txt_Talk_Common_MBR_Escape_Smell": {
+        "SelfId": "Txt_Talk_Common_MBR_Escape_Smell",
+        "Text": "魔物似乎闻到了人类的气味，\r\n逃走了。"
+      },
+      "Txt_Talk_Common_MBR_Escape_Look": {
+        "SelfId": "Txt_Talk_Common_MBR_Escape_Look",
+        "Text": "魔物似乎注意到了靠近的身影，\r\n逃走了。"
+      },
+      "Txt_Talk_Common_MBR_Entry_1": {
+        "SelfId": "Txt_Talk_Common_MBR_Entry_1",
+        "Text": "魔物们火热合演……\r\n欢迎来到怪物战斗之路。<KEY_WAIT>\r\n目前正在举办的级别是……\r\n咦？这里没有{LEADER}大人\r\n能参加的级别呢。"
+      },
+      "Txt_Talk_Common_MBR_Entry_2": {
+        "SelfId": "Txt_Talk_Common_MBR_Entry_2",
+        "Text": "您似乎在罗马利亚的战斗之路\r\n还有未突破的级别。\r\n请去那里挑战哦。"
+      },
+      "Txt_Talk_Common_MBR_Entry_3": {
+        "SelfId": "Txt_Talk_Common_MBR_Entry_3",
+        "Text": "您似乎在伊西斯的战斗之路\r\n还有未突破的级别。\r\n请去那里挑战哦。"
+      },
+      "Txt_Talk_Common_MBR_Entry_4": {
+        "SelfId": "Txt_Talk_Common_MBR_Entry_4",
+        "Text": "您似乎在沙曼奥萨的战斗之路\r\n还有未突破的级别。\r\n请去那里挑战哦。"
+      },
+      "Txt_Talk_Common_MBR_Entry_5": {
+        "SelfId": "Txt_Talk_Common_MBR_Entry_5",
+        "Text": "您似乎在麦尔基德的战斗之路\r\n还有未突破的级别。\r\n请去那里挑战哦。"
+      },
+      "Txt_Talk_Common_Field_SignBoard_1": {
+        "SelfId": "Txt_Talk_Common_Field_SignBoard_1",
+        "Text": "↑莱贝\r\n\r\n↓海角洞窟"
+      },
+      "Txt_Talk_Common_Field_SignBoard_2": {
+        "SelfId": "Txt_Talk_Common_Field_SignBoard_2",
+        "Text": "↑卡扎布\r\n←关卡\r\n→色兰"
+      },
+      "Txt_Talk_Common_Field_SignBoard_3": {
+        "SelfId": "Txt_Talk_Common_Field_SignBoard_3",
+        "Text": "↑诺尼尔\r\n\r\n←香帕尼塔"
+      },
+      "Txt_Talk_Common_Field_SignBoard_4": {
+        "SelfId": "Txt_Talk_Common_Field_SignBoard_4",
+        "Text": "→洞窟\r\n↓即将到达 色兰\r\n西南 伊西斯"
+      },
+      "Txt_Talk_Common_Field_SignBoard_5": {
+        "SelfId": "Txt_Talk_Common_Field_SignBoard_5",
+        "Text": "前方 沙漠\r\n西南 伊西斯\r\n西 金字塔"
+      },
+      "Txt_Talk_Common_Field_SignBoard_6": {
+        "SelfId": "Txt_Talk_Common_Field_SignBoard_6",
+        "Text": "北 奥莉维娅海角\r\n\r\n东南 巴哈拉塔"
+      },
+      "Txt_Talk_Common_Field_SignBoard_7": {
+        "SelfId": "Txt_Talk_Common_Field_SignBoard_7",
+        "Text": "↑达玛神殿\r\n\r\n←洞窟"
+      },
+      "Txt_Talk_Common_Field_SignBoard_8": {
+        "SelfId": "Txt_Talk_Common_Field_SignBoard_8",
+        "Text": "北 迦楼那塔\r\n\r\n东南 旅行者旅店"
+      },
+      "Txt_Talk_Common_Field_SignBoard_9": {
+        "SelfId": "Txt_Talk_Common_Field_SignBoard_9",
+        "Text": "↑穆奥尔\r\n\r\n↓旅行者旅店"
+      },
+      "Txt_Talk_Common_Field_SignBoard_10": {
+        "SelfId": "Txt_Talk_Common_Field_SignBoard_10",
+        "Text": "↑旅行者祠堂\r\n\r\n→河的尽头 泰顿"
+      },
+      "Txt_Talk_Common_Field_SignBoard_11": {
+        "SelfId": "Txt_Talk_Common_Field_SignBoard_11",
+        "Text": "↑河的尽头 苏\r\n\r\n←西面的山对面 厄普塔"
+      },
+      "Txt_Talk_Common_shortcut_1": {
+        "SelfId": "Txt_Talk_Common_shortcut_1",
+        "Text": "似乎可以从此处移动到入口。\r\n要移动吗？"
+      }
+    }
+  }
+]

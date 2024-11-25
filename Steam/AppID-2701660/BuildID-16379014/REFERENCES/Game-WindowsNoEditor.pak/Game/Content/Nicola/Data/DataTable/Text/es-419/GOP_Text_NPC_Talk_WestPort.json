@@ -1,0 +1,100 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_NPC_Talk_WestPort",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Talk_WestPort_Out_MAIN_0_ACTOR_0120_010_1": {
+        "SelfId": "Txt_Talk_WestPort_Out_MAIN_0_ACTOR_0120_010_1",
+        "Text": "*: ¿Acaso <IfSolo(eras tú,eran ustedes)> la fuente de la espantosa conmoción de hace un momento? Dime, ¿de dónde <IfSolo(has,han)> venido?"
+      },
+      "Txt_Talk_WestPort_Out_MAIN_0_ACTOR_0120_010_3": {
+        "SelfId": "Txt_Talk_WestPort_Out_MAIN_0_ACTOR_0120_010_3",
+        "Text": "*: Uy, te ves completamente <IfGender_LEADER(exhausto,exhausta,)>. Te ruego que entres en mi humilde morada y me cuentes lo que te ha ocurrido."
+      },
+      "Txt_Talk_WestPort_House_MAIN_0_ACTOR_0120_010_1": {
+        "SelfId": "Txt_Talk_WestPort_House_MAIN_0_ACTOR_0120_010_1",
+        "Text": "*: Así que<...> ¡¿en verdad quieres derrotar al Señor del Inframundo?!"
+      },
+      "Txt_Talk_WestPort_House_MAIN_0_ACTOR_0120_010_2": {
+        "SelfId": "Txt_Talk_WestPort_House_MAIN_0_ACTOR_0120_010_2",
+        "Text": "*: Veo que nadie debería meterse contigo."
+      },
+      "Txt_Talk_WestPort_House_MAIN_0_ACTOR_0120_010_3": {
+        "SelfId": "Txt_Talk_WestPort_House_MAIN_0_ACTOR_0120_010_3",
+        "Text": "*: No existe alma alguna en todo Alefgard que se atreviera a emprender semejante odisea. Por eso vivimos día con día temerosos del antedicho villano<...>"
+      },
+      "Txt_Talk_WestPort_House_MAIN_0_ACTOR_0120_010_3_2": {
+        "SelfId": "Txt_Talk_WestPort_House_MAIN_0_ACTOR_0120_010_3_2",
+        "Text": "*: En todo caso, tu camino es claro."
+      },
+      "Txt_Talk_WestPort_House_MAIN_0_ACTOR_0120_010_3_3": {
+        "SelfId": "Txt_Talk_WestPort_House_MAIN_0_ACTOR_0120_010_3_3",
+        "Text": "*: Dirígete hacia el este, rumbo a la ciudad fortificada de Trávena."
+      },
+      "Txt_Talk_WestPort_House_MAIN_0_ACTOR_0120_010_3_4": {
+        "SelfId": "Txt_Talk_WestPort_House_MAIN_0_ACTOR_0120_010_3_4",
+        "Text": "*: De ahí, cruza los mares hacia el sur hasta llegar a la enorme isla del villano."
+      },
+      "Txt_Talk_WestPort_House_MAIN_0_ACTOR_0120_010_3_5": {
+        "SelfId": "Txt_Talk_WestPort_House_MAIN_0_ACTOR_0120_010_3_5",
+        "Text": "*: Es en esa región donde encontrarás la espeluznante ciudadela del Señor del Inframundo."
+      },
+      "Txt_Talk_WestPort_House_MAIN_0_ACTOR_0120_010_4": {
+        "SelfId": "Txt_Talk_WestPort_House_MAIN_0_ACTOR_0120_010_4",
+        "Text": "*: ¿Tal vez te sería de utilidad un mapa del reino? Mejor que repose en tus manos, pues en las mías solo terminará lleno de polillas."
+      },
+      "Txt_Talk_WestPort_House_MAIN_0_ACTOR_0120_010_5": {
+        "SelfId": "Txt_Talk_WestPort_House_MAIN_0_ACTOR_0120_010_5",
+        "Text": "¡{LEADER} recibe <IndefSgl_I_NAME>!"
+      },
+      "Txt_Talk_WestPort_House_MAIN_0_ACTOR_0120_010_6": {
+        "SelfId": "Txt_Talk_WestPort_House_MAIN_0_ACTOR_0120_010_6",
+        "Text": "*: Y, por cierto, con plena confianza puedes hacerte a la mar en el bote como si tuyo fuera. Espero que te sea de ayuda en tu travesía."
+      },
+      "Txt_Talk_WestPort_House_MAIN_0_ACTOR_0120_010_7": {
+        "SelfId": "Txt_Talk_WestPort_House_MAIN_0_ACTOR_0120_010_7",
+        "Text": "*: Por último, recuerda que la Diosa acompaña siempre a los valientes."
+      },
+      "Txt_Talk_WestPort_House_MAIN_0_ACTOR_0120_020_1": {
+        "SelfId": "Txt_Talk_WestPort_House_MAIN_0_ACTOR_0120_020_1",
+        "Text": "*: No existe alma alguna en todo Alefgard que se atreviera a emprender semejante odisea. Por eso vivimos día con día temerosos del antedicho villano<...>"
+      },
+      "Txt_Talk_WestPort_House_MAIN_0_ACTOR_0120_020_2": {
+        "SelfId": "Txt_Talk_WestPort_House_MAIN_0_ACTOR_0120_020_2",
+        "Text": "*: En todo caso, recuerda estas palabras: la Diosa acompaña siempre a los valientes."
+      },
+      "Txt_Talk_WestPort_House_SUB_0_ACTOR_0110_010_1": {
+        "SelfId": "Txt_Talk_WestPort_House_SUB_0_ACTOR_0110_010_1",
+        "Text": "*: ¡Llegáis en un momento por demás oportuno, <IfGender_LEADER(extraño,extraña,)>! ¡Escúchame bien, y que tu sombrero no te abandone!"
+      },
+      "Txt_Talk_WestPort_House_SUB_0_ACTOR_0110_010_2": {
+        "SelfId": "Txt_Talk_WestPort_House_SUB_0_ACTOR_0110_010_2",
+        "Text": "*: ¡La Gran Maldad fue apaciguada! ¡La paz reinará de nuevo en estas tierras!"
+      },
+      "Txt_Talk_WestPort_House_SUB_0_ACTOR_0110_010_3": {
+        "SelfId": "Txt_Talk_WestPort_House_SUB_0_ACTOR_0110_010_3",
+        "Text": "*: ¿Cómo? ¿Ya sabías de esto? ¡¿Y sois tú quien acabó con semejante bestia?! ¡A-asombroso!"
+      },
+      "Txt_Talk_WestPort_Out_SUB_0_ACTOR_0220_010_1": {
+        "SelfId": "Txt_Talk_WestPort_Out_SUB_0_ACTOR_0220_010_1",
+        "Text": "*: Si viajáis al este desde aquí, en poco tiempo llegaréis al imponente castillo y el lindo pueblo de Trávena."
+      },
+      "Txt_Talk_WestPort_Out_SUB_0_ACTOR_0220_010_2": {
+        "SelfId": "Txt_Talk_WestPort_Out_SUB_0_ACTOR_0220_010_2",
+        "Text": "*: Si necesitáis una embarcación, aquel navío perteneció a mi padre. Podéis usarlo con confianza, <IfGender_LEADER(extraño,extraña,)>, pues rara vez se ha utilizado."
+      },
+      "Txt_Talk_WestPort_Out_SUB_0_ACTOR_0210_010_1": {
+        "SelfId": "Txt_Talk_WestPort_Out_SUB_0_ACTOR_0210_010_1",
+        "Text": "*: ¡Qué alegría! ¡Por fin llega la paz a este mundo!"
+      }
+    }
+  }
+]

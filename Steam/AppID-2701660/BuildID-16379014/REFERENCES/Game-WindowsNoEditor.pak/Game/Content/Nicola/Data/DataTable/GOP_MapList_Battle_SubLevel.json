@@ -1,0 +1,2350 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_MapList_Battle_SubLevel",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_MapList_Battle_SubLevelTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_PLAIN00_DAYTIMEFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_PLAIN00_DAYTIMEFIELD",
+        "MapId": "MAPLIST_BATTLE_PLAIN00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Plain/Level/BL_BT_Plain_00_Daytime.BL_BT_Plain_00_Daytime",
+        "UseTimeFrame": "EMapTimeFrame::DAYTIME"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_PLAIN00_DAYTIMELIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_PLAIN00_DAYTIMELIGHT",
+        "MapId": "MAPLIST_BATTLE_PLAIN00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Plain/Level/SL_BT_Plain_00_Light_Daytime.SL_BT_Plain_00_Light_Daytime",
+        "UseTimeFrame": "EMapTimeFrame::DAYTIME"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_PLAIN00_DAYTIMEENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_PLAIN00_DAYTIMEENV",
+        "MapId": "MAPLIST_BATTLE_PLAIN00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Plain/Level/SL_BT_Plain_00_Env_Daytime.SL_BT_Plain_00_Env_Daytime",
+        "UseTimeFrame": "EMapTimeFrame::DAYTIME"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_PLAIN00_EVENINGFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_PLAIN00_EVENINGFIELD",
+        "MapId": "MAPLIST_BATTLE_PLAIN00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Plain/Level/BL_BT_Plain_00_Daytime.BL_BT_Plain_00_Daytime",
+        "UseTimeFrame": "EMapTimeFrame::EVENING"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_PLAIN00_EVENINGLIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_PLAIN00_EVENINGLIGHT",
+        "MapId": "MAPLIST_BATTLE_PLAIN00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Plain/Level/SL_BT_Plain_00_Light_Evening.SL_BT_Plain_00_Light_Evening",
+        "UseTimeFrame": "EMapTimeFrame::EVENING"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_PLAIN00_EVENINGENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_PLAIN00_EVENINGENV",
+        "MapId": "MAPLIST_BATTLE_PLAIN00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Plain/Level/SL_BT_Plain_00_Env_Evening.SL_BT_Plain_00_Env_Evening",
+        "UseTimeFrame": "EMapTimeFrame::EVENING"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_PLAIN00_NIGHTFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_PLAIN00_NIGHTFIELD",
+        "MapId": "MAPLIST_BATTLE_PLAIN00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Plain/Level/BL_BT_Plain_00_Daytime.BL_BT_Plain_00_Daytime",
+        "UseTimeFrame": "EMapTimeFrame::NIGHT"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_PLAIN00_NIGHTLIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_PLAIN00_NIGHTLIGHT",
+        "MapId": "MAPLIST_BATTLE_PLAIN00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Plain/Level/SL_BT_Plain_00_Light_Night.SL_BT_Plain_00_Light_Night",
+        "UseTimeFrame": "EMapTimeFrame::NIGHT"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_PLAIN00_NIGHTENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_PLAIN00_NIGHTENV",
+        "MapId": "MAPLIST_BATTLE_PLAIN00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Plain/Level/SL_BT_Plain_00_Env_Night.SL_BT_Plain_00_Env_Night",
+        "UseTimeFrame": "EMapTimeFrame::NIGHT"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_PLAIN50FIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_PLAIN50FIELD",
+        "MapId": "MAPLIST_BATTLE_PLAIN50",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Plain/Level/BL_BT_Plain_00_Daytime.BL_BT_Plain_00_Daytime",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_PLAIN50LIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_PLAIN50LIGHT",
+        "MapId": "MAPLIST_BATTLE_PLAIN50",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Plain/Level/SL_BT_Plain_50_Light_Night.SL_BT_Plain_50_Light_Night",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_PLAIN50ENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_PLAIN50ENV",
+        "MapId": "MAPLIST_BATTLE_PLAIN50",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Plain/Level/SL_BT_Plain_50_Env_Night.SL_BT_Plain_50_Env_Night",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_FOREST00_NOONFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_FOREST00_NOONFIELD",
+        "MapId": "MAPLIST_BATTLE_FOREST00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Forest/Level/BL_BT_Forest_00.BL_BT_Forest_00",
+        "UseTimeFrame": "EMapTimeFrame::DAYTIME"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_FOREST00_NOONLIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_FOREST00_NOONLIGHT",
+        "MapId": "MAPLIST_BATTLE_FOREST00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Forest/Level/SL_BT_Forest_00_Light_Noon.SL_BT_Forest_00_Light_Noon",
+        "UseTimeFrame": "EMapTimeFrame::DAYTIME"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_FOREST00_NOONENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_FOREST00_NOONENV",
+        "MapId": "MAPLIST_BATTLE_FOREST00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Forest/Level/SL_BT_Forest_00_Env_Noon.SL_BT_Forest_00_Env_Noon",
+        "UseTimeFrame": "EMapTimeFrame::DAYTIME"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_FOREST00_SUNSETFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_FOREST00_SUNSETFIELD",
+        "MapId": "MAPLIST_BATTLE_FOREST00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Forest/Level/BL_BT_Forest_00.BL_BT_Forest_00",
+        "UseTimeFrame": "EMapTimeFrame::EVENING"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_FOREST00_SUNSETLIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_FOREST00_SUNSETLIGHT",
+        "MapId": "MAPLIST_BATTLE_FOREST00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Forest/Level/SL_BT_Forest_00_Light_Sunset.SL_BT_Forest_00_Light_Sunset",
+        "UseTimeFrame": "EMapTimeFrame::EVENING"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_FOREST00_SUNSETENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_FOREST00_SUNSETENV",
+        "MapId": "MAPLIST_BATTLE_FOREST00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Forest/Level/SL_BT_Forest_00_Env_Sunset.SL_BT_Forest_00_Env_Sunset",
+        "UseTimeFrame": "EMapTimeFrame::EVENING"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_FOREST00_NIGHTFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_FOREST00_NIGHTFIELD",
+        "MapId": "MAPLIST_BATTLE_FOREST00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Forest/Level/BL_BT_Forest_00.BL_BT_Forest_00",
+        "UseTimeFrame": "EMapTimeFrame::NIGHT"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_FOREST00_NIGHTLIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_FOREST00_NIGHTLIGHT",
+        "MapId": "MAPLIST_BATTLE_FOREST00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Forest/Level/SL_BT_Forest_00_Light_Night.SL_BT_Forest_00_Light_Night",
+        "UseTimeFrame": "EMapTimeFrame::NIGHT"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_FOREST00_NIGHTENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_FOREST00_NIGHTENV",
+        "MapId": "MAPLIST_BATTLE_FOREST00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Forest/Level/SL_BT_Forest_00_Env_Night.SL_BT_Forest_00_Env_Night",
+        "UseTimeFrame": "EMapTimeFrame::NIGHT"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_FOREST01_DAYTIMEFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_FOREST01_DAYTIMEFIELD",
+        "MapId": "MAPLIST_BATTLE_FOREST01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Forest/Level/BL_BT_Forest_01.BL_BT_Forest_01",
+        "UseTimeFrame": "EMapTimeFrame::DAYTIME"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_FOREST01_DAYTIMELIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_FOREST01_DAYTIMELIGHT",
+        "MapId": "MAPLIST_BATTLE_FOREST01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Forest/Level/SL_BT_Forest_01_Light_Daytime.SL_BT_Forest_01_Light_Daytime",
+        "UseTimeFrame": "EMapTimeFrame::DAYTIME"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_FOREST01_DAYTIMEENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_FOREST01_DAYTIMEENV",
+        "MapId": "MAPLIST_BATTLE_FOREST01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Forest/Level/SL_BT_Forest_01_Env_Daytime.SL_BT_Forest_01_Env_Daytime",
+        "UseTimeFrame": "EMapTimeFrame::DAYTIME"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_FOREST01_EVENINGFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_FOREST01_EVENINGFIELD",
+        "MapId": "MAPLIST_BATTLE_FOREST01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Forest/Level/BL_BT_Forest_01.BL_BT_Forest_01",
+        "UseTimeFrame": "EMapTimeFrame::EVENING"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_FOREST01_EVENINGLIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_FOREST01_EVENINGLIGHT",
+        "MapId": "MAPLIST_BATTLE_FOREST01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Forest/Level/SL_BT_Forest_01_Light_Evening.SL_BT_Forest_01_Light_Evening",
+        "UseTimeFrame": "EMapTimeFrame::EVENING"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_FOREST01_EVENINGENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_FOREST01_EVENINGENV",
+        "MapId": "MAPLIST_BATTLE_FOREST01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Forest/Level/SL_BT_Forest_01_Env_Evening.SL_BT_Forest_01_Env_Evening",
+        "UseTimeFrame": "EMapTimeFrame::EVENING"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_FOREST01_NIGHTFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_FOREST01_NIGHTFIELD",
+        "MapId": "MAPLIST_BATTLE_FOREST01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Forest/Level/BL_BT_Forest_01.BL_BT_Forest_01",
+        "UseTimeFrame": "EMapTimeFrame::NIGHT"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_FOREST01_NIGHTLIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_FOREST01_NIGHTLIGHT",
+        "MapId": "MAPLIST_BATTLE_FOREST01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Forest/Level/SL_BT_Forest_01_Light_Night.SL_BT_Forest_01_Light_Night",
+        "UseTimeFrame": "EMapTimeFrame::NIGHT"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_FOREST01_NIGHTENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_FOREST01_NIGHTENV",
+        "MapId": "MAPLIST_BATTLE_FOREST01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Forest/Level/SL_BT_Forest_01_Env_Night.SL_BT_Forest_01_Env_Night",
+        "UseTimeFrame": "EMapTimeFrame::NIGHT"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_FOREST02_DAYTIMEFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_FOREST02_DAYTIMEFIELD",
+        "MapId": "MAPLIST_BATTLE_FOREST02",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Forest/Level/BL_BT_Forest_02.BL_BT_Forest_02",
+        "UseTimeFrame": "EMapTimeFrame::DAYTIME"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_FOREST02_DAYTIMELIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_FOREST02_DAYTIMELIGHT",
+        "MapId": "MAPLIST_BATTLE_FOREST02",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Forest/Level/SL_BT_Forest_02_Light_Daytime.SL_BT_Forest_02_Light_Daytime",
+        "UseTimeFrame": "EMapTimeFrame::DAYTIME"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_FOREST02_DAYTIMEENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_FOREST02_DAYTIMEENV",
+        "MapId": "MAPLIST_BATTLE_FOREST02",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Forest/Level/SL_BT_Forest_02_Env_Daytime.SL_BT_Forest_02_Env_Daytime",
+        "UseTimeFrame": "EMapTimeFrame::DAYTIME"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_FOREST02_EVENINGFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_FOREST02_EVENINGFIELD",
+        "MapId": "MAPLIST_BATTLE_FOREST02",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Forest/Level/BL_BT_Forest_02.BL_BT_Forest_02",
+        "UseTimeFrame": "EMapTimeFrame::EVENING"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_FOREST02_EVENINGLIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_FOREST02_EVENINGLIGHT",
+        "MapId": "MAPLIST_BATTLE_FOREST02",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Forest/Level/SL_BT_Forest_02_Light_Evening.SL_BT_Forest_02_Light_Evening",
+        "UseTimeFrame": "EMapTimeFrame::EVENING"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_FOREST02_EVENINGENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_FOREST02_EVENINGENV",
+        "MapId": "MAPLIST_BATTLE_FOREST02",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Forest/Level/SL_BT_Forest_02_Env_Evening.SL_BT_Forest_02_Env_Evening",
+        "UseTimeFrame": "EMapTimeFrame::EVENING"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_FOREST02_NIGHTFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_FOREST02_NIGHTFIELD",
+        "MapId": "MAPLIST_BATTLE_FOREST02",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Forest/Level/BL_BT_Forest_02.BL_BT_Forest_02",
+        "UseTimeFrame": "EMapTimeFrame::NIGHT"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_FOREST02_NIGHTLIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_FOREST02_NIGHTLIGHT",
+        "MapId": "MAPLIST_BATTLE_FOREST02",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Forest/Level/SL_BT_Forest_02_Light_Night.SL_BT_Forest_02_Light_Night",
+        "UseTimeFrame": "EMapTimeFrame::NIGHT"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_FOREST02_NIGHTENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_FOREST02_NIGHTENV",
+        "MapId": "MAPLIST_BATTLE_FOREST02",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Forest/Level/SL_BT_Forest_02_Env_Night.SL_BT_Forest_02_Env_Night",
+        "UseTimeFrame": "EMapTimeFrame::NIGHT"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_FOREST50FIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_FOREST50FIELD",
+        "MapId": "MAPLIST_BATTLE_FOREST50",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Forest/Level/BL_BT_Forest_00.BL_BT_Forest_00",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_FOREST50LIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_FOREST50LIGHT",
+        "MapId": "MAPLIST_BATTLE_FOREST50",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Forest/Level/SL_BT_Forest_50_Light_Night.SL_BT_Forest_50_Light_Night",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_FOREST50ENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_FOREST50ENV",
+        "MapId": "MAPLIST_BATTLE_FOREST50",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Forest/Level/SL_BT_Forest_50_Env_Night.SL_BT_Forest_50_Env_Night",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GARUNA_DAYTIMEFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GARUNA_DAYTIMEFIELD",
+        "MapId": "MAPLIST_BATTLE_GARUNA",
+        "Sublevel": "/Game/Nicola/Map/BattleField/GarunaTower/Level/BL_BT_GarunaTower_00.BL_BT_GarunaTower_00",
+        "UseTimeFrame": "EMapTimeFrame::DAYTIME"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GARUNA_DAYTIMELIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GARUNA_DAYTIMELIGHT",
+        "MapId": "MAPLIST_BATTLE_GARUNA",
+        "Sublevel": "/Game/Nicola/Map/BattleField/GarunaTower/Level/SL_BT_GarunaTower_Daytime_00_Light.SL_BT_GarunaTower_Daytime_00_Light",
+        "UseTimeFrame": "EMapTimeFrame::DAYTIME"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GARUNA_DAYTIMEENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GARUNA_DAYTIMEENV",
+        "MapId": "MAPLIST_BATTLE_GARUNA",
+        "Sublevel": "/Game/Nicola/Map/BattleField/GarunaTower/Level/SL_BT_GarunaTower_Daytime_00_Env.SL_BT_GarunaTower_Daytime_00_Env",
+        "UseTimeFrame": "EMapTimeFrame::DAYTIME"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GARUNA_EVENINGFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GARUNA_EVENINGFIELD",
+        "MapId": "MAPLIST_BATTLE_GARUNA",
+        "Sublevel": "/Game/Nicola/Map/BattleField/GarunaTower/Level/BL_BT_GarunaTower_00.BL_BT_GarunaTower_00",
+        "UseTimeFrame": "EMapTimeFrame::EVENING"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GARUNA_EVENINGLIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GARUNA_EVENINGLIGHT",
+        "MapId": "MAPLIST_BATTLE_GARUNA",
+        "Sublevel": "/Game/Nicola/Map/BattleField/GarunaTower/Level/SL_BT_GarunaTower_Evening_00_Light.SL_BT_GarunaTower_Evening_00_Light",
+        "UseTimeFrame": "EMapTimeFrame::EVENING"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GARUNA_EVENINGENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GARUNA_EVENINGENV",
+        "MapId": "MAPLIST_BATTLE_GARUNA",
+        "Sublevel": "/Game/Nicola/Map/BattleField/GarunaTower/Level/SL_BT_GarunaTower_Evening_00_Env.SL_BT_GarunaTower_Evening_00_Env",
+        "UseTimeFrame": "EMapTimeFrame::EVENING"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GARUNA_NIGHTFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GARUNA_NIGHTFIELD",
+        "MapId": "MAPLIST_BATTLE_GARUNA",
+        "Sublevel": "/Game/Nicola/Map/BattleField/GarunaTower/Level/BL_BT_GarunaTower_00.BL_BT_GarunaTower_00",
+        "UseTimeFrame": "EMapTimeFrame::NIGHT"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GARUNA_NIGHTLIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GARUNA_NIGHTLIGHT",
+        "MapId": "MAPLIST_BATTLE_GARUNA",
+        "Sublevel": "/Game/Nicola/Map/BattleField/GarunaTower/Level/SL_BT_GarunaTower_Night_00_Light.SL_BT_GarunaTower_Night_00_Light",
+        "UseTimeFrame": "EMapTimeFrame::NIGHT"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GARUNA_NIGHTENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GARUNA_NIGHTENV",
+        "MapId": "MAPLIST_BATTLE_GARUNA",
+        "Sublevel": "/Game/Nicola/Map/BattleField/GarunaTower/Level/SL_BT_GarunaTower_Night_00_Env.SL_BT_GarunaTower_Night_00_Env",
+        "UseTimeFrame": "EMapTimeFrame::NIGHT"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_MOUNTAIN00_DAYTIMEFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_MOUNTAIN00_DAYTIMEFIELD",
+        "MapId": "MAPLIST_BATTLE_MOUNTAIN00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Mountain/Level/BL_BT_Mountain_00.BL_BT_Mountain_00",
+        "UseTimeFrame": "EMapTimeFrame::DAYTIME"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_MOUNTAIN00_DAYTIMELIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_MOUNTAIN00_DAYTIMELIGHT",
+        "MapId": "MAPLIST_BATTLE_MOUNTAIN00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Mountain/Level/SL_BT_Mountain_00_Light_Daytime.SL_BT_Mountain_00_Light_Daytime",
+        "UseTimeFrame": "EMapTimeFrame::DAYTIME"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_MOUNTAIN00_DAYTIMEENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_MOUNTAIN00_DAYTIMEENV",
+        "MapId": "MAPLIST_BATTLE_MOUNTAIN00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Mountain/Level/SL_BT_Mountain_00_Env_Daytime.SL_BT_Mountain_00_Env_Daytime",
+        "UseTimeFrame": "EMapTimeFrame::DAYTIME"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_MOUNTAIN00_EVENINGFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_MOUNTAIN00_EVENINGFIELD",
+        "MapId": "MAPLIST_BATTLE_MOUNTAIN00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Mountain/Level/BL_BT_Mountain_00.BL_BT_Mountain_00",
+        "UseTimeFrame": "EMapTimeFrame::EVENING"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_MOUNTAIN00_EVENINGLIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_MOUNTAIN00_EVENINGLIGHT",
+        "MapId": "MAPLIST_BATTLE_MOUNTAIN00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Mountain/Level/SL_BT_Mountain_00_Light_Evening.SL_BT_Mountain_00_Light_Evening",
+        "UseTimeFrame": "EMapTimeFrame::EVENING"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_MOUNTAIN00_EVENINGENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_MOUNTAIN00_EVENINGENV",
+        "MapId": "MAPLIST_BATTLE_MOUNTAIN00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Mountain/Level/SL_BT_Mountain_00_Env_Evening.SL_BT_Mountain_00_Env_Evening",
+        "UseTimeFrame": "EMapTimeFrame::EVENING"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_MOUNTAIN00_NIGHTFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_MOUNTAIN00_NIGHTFIELD",
+        "MapId": "MAPLIST_BATTLE_MOUNTAIN00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Mountain/Level/BL_BT_Mountain_00.BL_BT_Mountain_00",
+        "UseTimeFrame": "EMapTimeFrame::NIGHT"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_MOUNTAIN00_NIGHTLIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_MOUNTAIN00_NIGHTLIGHT",
+        "MapId": "MAPLIST_BATTLE_MOUNTAIN00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Mountain/Level/SL_BT_Mountain_00_Light_Night.SL_BT_Mountain_00_Light_Night",
+        "UseTimeFrame": "EMapTimeFrame::NIGHT"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_MOUNTAIN00_NIGHTENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_MOUNTAIN00_NIGHTENV",
+        "MapId": "MAPLIST_BATTLE_MOUNTAIN00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Mountain/Level/SL_BT_Mountain_00_Env_Night.SL_BT_Mountain_00_Env_Night",
+        "UseTimeFrame": "EMapTimeFrame::NIGHT"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_MOUNTAIN50FIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_MOUNTAIN50FIELD",
+        "MapId": "MAPLIST_BATTLE_MOUNTAIN50",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Mountain/Level/BL_BT_Mountain_00.BL_BT_Mountain_00",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_MOUNTAIN50LIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_MOUNTAIN50LIGHT",
+        "MapId": "MAPLIST_BATTLE_MOUNTAIN50",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Mountain/Level/SL_BT_Mountain_50_Light_Night.SL_BT_Mountain_50_Light_Night",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_MOUNTAIN50ENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_MOUNTAIN50ENV",
+        "MapId": "MAPLIST_BATTLE_MOUNTAIN50",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Mountain/Level/SL_BT_Mountain_50_Env_Night.SL_BT_Mountain_50_Env_Night",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_DESERT00_DAYTIMEFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_DESERT00_DAYTIMEFIELD",
+        "MapId": "MAPLIST_BATTLE_DESERT00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Desert/Level/BL_BT_Desert_00.BL_BT_Desert_00",
+        "UseTimeFrame": "EMapTimeFrame::DAYTIME"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_DESERT00_DAYTIMELIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_DESERT00_DAYTIMELIGHT",
+        "MapId": "MAPLIST_BATTLE_DESERT00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Desert/Level/SL_BT_Desert_00_Light_DayTime.SL_BT_Desert_00_Light_DayTime",
+        "UseTimeFrame": "EMapTimeFrame::DAYTIME"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_DESERT00_DAYTIMEENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_DESERT00_DAYTIMEENV",
+        "MapId": "MAPLIST_BATTLE_DESERT00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Desert/Level/SL_BT_Desert_00_Env_DayTime.SL_BT_Desert_00_Env_DayTime",
+        "UseTimeFrame": "EMapTimeFrame::DAYTIME"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_DESERT00_EVENINGFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_DESERT00_EVENINGFIELD",
+        "MapId": "MAPLIST_BATTLE_DESERT00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Desert/Level/BL_BT_Desert_00.BL_BT_Desert_00",
+        "UseTimeFrame": "EMapTimeFrame::EVENING"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_DESERT00_EVENINGLIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_DESERT00_EVENINGLIGHT",
+        "MapId": "MAPLIST_BATTLE_DESERT00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Desert/Level/SL_BT_Desert_00_Light_Evening.SL_BT_Desert_00_Light_Evening",
+        "UseTimeFrame": "EMapTimeFrame::EVENING"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_DESERT00_EVENINGENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_DESERT00_EVENINGENV",
+        "MapId": "MAPLIST_BATTLE_DESERT00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Desert/Level/SL_BT_Desert_00_Env_Evening.SL_BT_Desert_00_Env_Evening",
+        "UseTimeFrame": "EMapTimeFrame::EVENING"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_DESERT00_NIGHTFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_DESERT00_NIGHTFIELD",
+        "MapId": "MAPLIST_BATTLE_DESERT00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Desert/Level/BL_BT_Desert_00.BL_BT_Desert_00",
+        "UseTimeFrame": "EMapTimeFrame::NIGHT"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_DESERT00_NIGHTLIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_DESERT00_NIGHTLIGHT",
+        "MapId": "MAPLIST_BATTLE_DESERT00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Desert/Level/SL_BT_Desert_00_Light_Night.SL_BT_Desert_00_Light_Night",
+        "UseTimeFrame": "EMapTimeFrame::NIGHT"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_DESERT00_NIGHTENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_DESERT00_NIGHTENV",
+        "MapId": "MAPLIST_BATTLE_DESERT00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Desert/Level/SL_BT_Desert_00_Env_Night.SL_BT_Desert_00_Env_Night",
+        "UseTimeFrame": "EMapTimeFrame::NIGHT"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_DESERT50FIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_DESERT50FIELD",
+        "MapId": "MAPLIST_BATTLE_DESERT50",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Desert/Level/BL_BT_Desert_00.BL_BT_Desert_00",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_DESERT50LIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_DESERT50LIGHT",
+        "MapId": "MAPLIST_BATTLE_DESERT50",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Desert/Level/SL_BT_Desert_50_Light_Night.SL_BT_Desert_50_Light_Night",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_DESERT50ENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_DESERT50ENV",
+        "MapId": "MAPLIST_BATTLE_DESERT50",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Desert/Level/SL_BT_Desert_50_Env_Night.SL_BT_Desert_50_Env_Night",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_BEACH00_DAYTIMEFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_BEACH00_DAYTIMEFIELD",
+        "MapId": "MAPLIST_BATTLE_BEACH00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Beach/Level/BL_BT_Beach_00.BL_BT_Beach_00",
+        "UseTimeFrame": "EMapTimeFrame::DAYTIME"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_BEACH00_DAYTIMELIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_BEACH00_DAYTIMELIGHT",
+        "MapId": "MAPLIST_BATTLE_BEACH00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Beach/Level/SL_BT_Beach_00_Light_Daytime.SL_BT_Beach_00_Light_Daytime",
+        "UseTimeFrame": "EMapTimeFrame::DAYTIME"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_BEACH00_DAYTIMEENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_BEACH00_DAYTIMEENV",
+        "MapId": "MAPLIST_BATTLE_BEACH00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Beach/Level/SL_BT_Beach_00_Env_Daytime.SL_BT_Beach_00_Env_Daytime",
+        "UseTimeFrame": "EMapTimeFrame::DAYTIME"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_BEACH00_EVENINGFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_BEACH00_EVENINGFIELD",
+        "MapId": "MAPLIST_BATTLE_BEACH00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Beach/Level/BL_BT_Beach_00.BL_BT_Beach_00",
+        "UseTimeFrame": "EMapTimeFrame::EVENING"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_BEACH00_EVENINGLIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_BEACH00_EVENINGLIGHT",
+        "MapId": "MAPLIST_BATTLE_BEACH00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Beach/Level/SL_BT_Beach_00_Light_Evening.SL_BT_Beach_00_Light_Evening",
+        "UseTimeFrame": "EMapTimeFrame::EVENING"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_BEACH00_EVENINGENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_BEACH00_EVENINGENV",
+        "MapId": "MAPLIST_BATTLE_BEACH00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Beach/Level/SL_BT_Beach_00_Env_Evening.SL_BT_Beach_00_Env_Evening",
+        "UseTimeFrame": "EMapTimeFrame::EVENING"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_BEACH00_NIGHTFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_BEACH00_NIGHTFIELD",
+        "MapId": "MAPLIST_BATTLE_BEACH00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Beach/Level/BL_BT_Beach_00.BL_BT_Beach_00",
+        "UseTimeFrame": "EMapTimeFrame::NIGHT"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_BEACH00_NIGHTLIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_BEACH00_NIGHTLIGHT",
+        "MapId": "MAPLIST_BATTLE_BEACH00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Beach/Level/SL_BT_Beach_00_Light_Night.SL_BT_Beach_00_Light_Night",
+        "UseTimeFrame": "EMapTimeFrame::NIGHT"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_BEACH00_NIGHTENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_BEACH00_NIGHTENV",
+        "MapId": "MAPLIST_BATTLE_BEACH00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Beach/Level/SL_BT_Beach_00_Env_Night.SL_BT_Beach_00_Env_Night",
+        "UseTimeFrame": "EMapTimeFrame::NIGHT"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_RIVER00_DAYTIMEFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_RIVER00_DAYTIMEFIELD",
+        "MapId": "MAPLIST_BATTLE_RIVER00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/RIVER/Level/BL_BT_RIVER_00.BL_BT_RIVER_00",
+        "UseTimeFrame": "EMapTimeFrame::DAYTIME"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_RIVER00_DAYTIMELIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_RIVER00_DAYTIMELIGHT",
+        "MapId": "MAPLIST_BATTLE_RIVER00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/RIVER/Level/SL_BT_RIVER_00_Light_Daytime.SL_BT_RIVER_00_Light_Daytime",
+        "UseTimeFrame": "EMapTimeFrame::DAYTIME"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_RIVER00_DAYTIMEENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_RIVER00_DAYTIMEENV",
+        "MapId": "MAPLIST_BATTLE_RIVER00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/RIVER/Level/SL_BT_RIVER_00_Env_Daytime.SL_BT_RIVER_00_Env_Daytime",
+        "UseTimeFrame": "EMapTimeFrame::DAYTIME"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_RIVER00_EVENINGFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_RIVER00_EVENINGFIELD",
+        "MapId": "MAPLIST_BATTLE_RIVER00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/RIVER/Level/BL_BT_RIVER_00.BL_BT_RIVER_00",
+        "UseTimeFrame": "EMapTimeFrame::EVENING"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_RIVER00_EVENINGLIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_RIVER00_EVENINGLIGHT",
+        "MapId": "MAPLIST_BATTLE_RIVER00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/RIVER/Level/SL_BT_RIVER_00_Light_Evening.SL_BT_RIVER_00_Light_Evening",
+        "UseTimeFrame": "EMapTimeFrame::EVENING"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_RIVER00_EVENINGENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_RIVER00_EVENINGENV",
+        "MapId": "MAPLIST_BATTLE_RIVER00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/RIVER/Level/SL_BT_RIVER_00_Env_Evening.SL_BT_RIVER_00_Env_Evening",
+        "UseTimeFrame": "EMapTimeFrame::EVENING"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_RIVER00_NIGHTFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_RIVER00_NIGHTFIELD",
+        "MapId": "MAPLIST_BATTLE_RIVER00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/RIVER/Level/BL_BT_RIVER_00.BL_BT_RIVER_00",
+        "UseTimeFrame": "EMapTimeFrame::NIGHT"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_RIVER00_NIGHTLIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_RIVER00_NIGHTLIGHT",
+        "MapId": "MAPLIST_BATTLE_RIVER00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/RIVER/Level/SL_BT_RIVER_00_Light_Night.SL_BT_RIVER_00_Light_Night",
+        "UseTimeFrame": "EMapTimeFrame::NIGHT"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_RIVER00_NIGHTENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_RIVER00_NIGHTENV",
+        "MapId": "MAPLIST_BATTLE_RIVER00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/RIVER/Level/SL_BT_RIVER_00_Env_Night.SL_BT_RIVER_00_Env_Night",
+        "UseTimeFrame": "EMapTimeFrame::NIGHT"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_RIVER50FIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_RIVER50FIELD",
+        "MapId": "MAPLIST_BATTLE_RIVER50",
+        "Sublevel": "/Game/Nicola/Map/BattleField/RIVER/Level/BL_BT_RIVER_50.BL_BT_RIVER_50",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_RIVER50LIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_RIVER50LIGHT",
+        "MapId": "MAPLIST_BATTLE_RIVER50",
+        "Sublevel": "/Game/Nicola/Map/BattleField/RIVER/Level/SL_BT_RIVER_50_Light_Night.SL_BT_RIVER_50_Light_Night",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_RIVER50ENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_RIVER50ENV",
+        "MapId": "MAPLIST_BATTLE_RIVER50",
+        "Sublevel": "/Game/Nicola/Map/BattleField/RIVER/Level/SL_BT_RIVER_50_Env_Night.SL_BT_RIVER_50_Env_Night",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_POISONSWAMP00_DAYTIMEFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_POISONSWAMP00_DAYTIMEFIELD",
+        "MapId": "MAPLIST_BATTLE_POISONSWAMP00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/PoisonSwamp/Level/BL_BT_PoisonSwamp_00.BL_BT_PoisonSwamp_00",
+        "UseTimeFrame": "EMapTimeFrame::DAYTIME"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_POISONSWAMP00_DAYTIMELIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_POISONSWAMP00_DAYTIMELIGHT",
+        "MapId": "MAPLIST_BATTLE_POISONSWAMP00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/PoisonSwamp/Level/SL_BT_PoisonSwamp_00_Light_DayTime.SL_BT_PoisonSwamp_00_Light_DayTime",
+        "UseTimeFrame": "EMapTimeFrame::DAYTIME"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_POISONSWAMP00_DAYTIMEENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_POISONSWAMP00_DAYTIMEENV",
+        "MapId": "MAPLIST_BATTLE_POISONSWAMP00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/PoisonSwamp/Level/SL_BT_PoisonSwamp_00_Env_DayTime.SL_BT_PoisonSwamp_00_Env_DayTime",
+        "UseTimeFrame": "EMapTimeFrame::DAYTIME"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_POISONSWAMP00_EVENINGFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_POISONSWAMP00_EVENINGFIELD",
+        "MapId": "MAPLIST_BATTLE_POISONSWAMP00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/PoisonSwamp/Level/BL_BT_PoisonSwamp_00.BL_BT_PoisonSwamp_00",
+        "UseTimeFrame": "EMapTimeFrame::EVENING"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_POISONSWAMP00_EVENINGLIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_POISONSWAMP00_EVENINGLIGHT",
+        "MapId": "MAPLIST_BATTLE_POISONSWAMP00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/PoisonSwamp/Level/SL_BT_PoisonSwamp_00_Light_Evening.SL_BT_PoisonSwamp_00_Light_Evening",
+        "UseTimeFrame": "EMapTimeFrame::EVENING"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_POISONSWAMP00_EVENINGENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_POISONSWAMP00_EVENINGENV",
+        "MapId": "MAPLIST_BATTLE_POISONSWAMP00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/PoisonSwamp/Level/SL_BT_PoisonSwamp_00_Env_Evening.SL_BT_PoisonSwamp_00_Env_Evening",
+        "UseTimeFrame": "EMapTimeFrame::EVENING"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_POISONSWAMP00_NIGHTFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_POISONSWAMP00_NIGHTFIELD",
+        "MapId": "MAPLIST_BATTLE_POISONSWAMP00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/PoisonSwamp/Level/BL_BT_PoisonSwamp_00.BL_BT_PoisonSwamp_00",
+        "UseTimeFrame": "EMapTimeFrame::NIGHT"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_POISONSWAMP00_NIGHTLIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_POISONSWAMP00_NIGHTLIGHT",
+        "MapId": "MAPLIST_BATTLE_POISONSWAMP00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/PoisonSwamp/Level/SL_BT_PoisonSwamp_00_Light_Night.SL_BT_PoisonSwamp_00_Light_Night",
+        "UseTimeFrame": "EMapTimeFrame::NIGHT"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_POISONSWAMP00_NIGHTENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_POISONSWAMP00_NIGHTENV",
+        "MapId": "MAPLIST_BATTLE_POISONSWAMP00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/PoisonSwamp/Level/SL_BT_PoisonSwamp_00_Env_Night.SL_BT_PoisonSwamp_00_Env_Night",
+        "UseTimeFrame": "EMapTimeFrame::NIGHT"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_POISONSWAMP50FIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_POISONSWAMP50FIELD",
+        "MapId": "MAPLIST_BATTLE_POISONSWAMP50",
+        "Sublevel": "/Game/Nicola/Map/BattleField/PoisonSwamp/Level/BL_BT_PoisonSwamp_00.BL_BT_PoisonSwamp_00",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_POISONSWAMP50LIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_POISONSWAMP50LIGHT",
+        "MapId": "MAPLIST_BATTLE_POISONSWAMP50",
+        "Sublevel": "/Game/Nicola/Map/BattleField/PoisonSwamp/Level/SL_BT_PoisonSwamp_50_Light_Night.SL_BT_PoisonSwamp_50_Light_Night",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_POISONSWAMP50ENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_POISONSWAMP50ENV",
+        "MapId": "MAPLIST_BATTLE_POISONSWAMP50",
+        "Sublevel": "/Game/Nicola/Map/BattleField/PoisonSwamp/Level/SL_BT_PoisonSwamp_50_Env_Evening.SL_BT_PoisonSwamp_50_Env_Evening",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SEA00_DAYTIMEFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SEA00_DAYTIMEFIELD",
+        "MapId": "MAPLIST_BATTLE_SEA00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Sea/Level/BL_BT_Sea_00.BL_BT_Sea_00",
+        "UseTimeFrame": "EMapTimeFrame::DAYTIME"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SEA00_DAYTIMELIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SEA00_DAYTIMELIGHT",
+        "MapId": "MAPLIST_BATTLE_SEA00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Sea/Level/SL_BT_Sea_00_Light_Daytime.SL_BT_Sea_00_Light_Daytime",
+        "UseTimeFrame": "EMapTimeFrame::DAYTIME"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SEA00_DAYTIMEENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SEA00_DAYTIMEENV",
+        "MapId": "MAPLIST_BATTLE_SEA00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Sea/Level/SL_BT_Sea_00_Env_Daytime.SL_BT_Sea_00_Env_Daytime",
+        "UseTimeFrame": "EMapTimeFrame::DAYTIME"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SEA00_EVENINGFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SEA00_EVENINGFIELD",
+        "MapId": "MAPLIST_BATTLE_SEA00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Sea/Level/BL_BT_Sea_00.BL_BT_Sea_00",
+        "UseTimeFrame": "EMapTimeFrame::EVENING"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SEA00_EVENINGLIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SEA00_EVENINGLIGHT",
+        "MapId": "MAPLIST_BATTLE_SEA00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Sea/Level/SL_BT_Sea_00_Light_Evening.SL_BT_Sea_00_Light_Evening",
+        "UseTimeFrame": "EMapTimeFrame::EVENING"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SEA00_EVENINGENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SEA00_EVENINGENV",
+        "MapId": "MAPLIST_BATTLE_SEA00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Sea/Level/SL_BT_Sea_00_Env_Evening.SL_BT_Sea_00_Env_Evening",
+        "UseTimeFrame": "EMapTimeFrame::EVENING"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SEA00_NIGHTFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SEA00_NIGHTFIELD",
+        "MapId": "MAPLIST_BATTLE_SEA00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Sea/Level/BL_BT_Sea_00.BL_BT_Sea_00",
+        "UseTimeFrame": "EMapTimeFrame::NIGHT"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SEA00_NIGHTLIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SEA00_NIGHTLIGHT",
+        "MapId": "MAPLIST_BATTLE_SEA00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Sea/Level/SL_BT_Sea_00_Light_Night.SL_BT_Sea_00_Light_Night",
+        "UseTimeFrame": "EMapTimeFrame::NIGHT"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SEA00_NIGHTENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SEA00_NIGHTENV",
+        "MapId": "MAPLIST_BATTLE_SEA00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Sea/Level/SL_BT_Sea_00_Env_Night.SL_BT_Sea_00_Env_Night",
+        "UseTimeFrame": "EMapTimeFrame::NIGHT"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SEA50FIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SEA50FIELD",
+        "MapId": "MAPLIST_BATTLE_SEA50",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Sea/Level/BL_BT_Sea_50.BL_BT_Sea_50",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SEA50LIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SEA50LIGHT",
+        "MapId": "MAPLIST_BATTLE_SEA50",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Sea/Level/SL_BT_Sea_50_Light_Night.SL_BT_Sea_50_Light_Night",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SEA50ENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SEA50ENV",
+        "MapId": "MAPLIST_BATTLE_SEA50",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Sea/Level/SL_BT_Sea_50_Env_Night.SL_BT_Sea_50_Env_Night",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SEA01_DAYTIMEFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SEA01_DAYTIMEFIELD",
+        "MapId": "MAPLIST_BATTLE_SEA01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Sea/Level/BL_BT_Sea_01.BL_BT_Sea_01",
+        "UseTimeFrame": "EMapTimeFrame::DAYTIME"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SEA01_DAYTIMELIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SEA01_DAYTIMELIGHT",
+        "MapId": "MAPLIST_BATTLE_SEA01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Sea/Level/SL_BT_Sea_01_Light_Daytime.SL_BT_Sea_01_Light_Daytime",
+        "UseTimeFrame": "EMapTimeFrame::DAYTIME"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SEA01_DAYTIMEENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SEA01_DAYTIMEENV",
+        "MapId": "MAPLIST_BATTLE_SEA01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Sea/Level/SL_BT_Sea_01_Env_Daytime.SL_BT_Sea_01_Env_Daytime",
+        "UseTimeFrame": "EMapTimeFrame::DAYTIME"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SEA01_EVENINGFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SEA01_EVENINGFIELD",
+        "MapId": "MAPLIST_BATTLE_SEA01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Sea/Level/BL_BT_Sea_01.BL_BT_Sea_01",
+        "UseTimeFrame": "EMapTimeFrame::EVENING"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SEA01_EVENINGLIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SEA01_EVENINGLIGHT",
+        "MapId": "MAPLIST_BATTLE_SEA01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Sea/Level/SL_BT_Sea_01_Light_Evening.SL_BT_Sea_01_Light_Evening",
+        "UseTimeFrame": "EMapTimeFrame::EVENING"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SEA01_EVENINGENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SEA01_EVENINGENV",
+        "MapId": "MAPLIST_BATTLE_SEA01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Sea/Level/SL_BT_Sea_01_Env_Evening.SL_BT_Sea_01_Env_Evening",
+        "UseTimeFrame": "EMapTimeFrame::EVENING"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SEA01_NIGHTFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SEA01_NIGHTFIELD",
+        "MapId": "MAPLIST_BATTLE_SEA01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Sea/Level/BL_BT_Sea_01.BL_BT_Sea_01",
+        "UseTimeFrame": "EMapTimeFrame::NIGHT"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SEA01_NIGHTLIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SEA01_NIGHTLIGHT",
+        "MapId": "MAPLIST_BATTLE_SEA01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Sea/Level/SL_BT_Sea_01_Light_Night.SL_BT_Sea_01_Light_Night",
+        "UseTimeFrame": "EMapTimeFrame::NIGHT"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SEA01_NIGHTENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SEA01_NIGHTENV",
+        "MapId": "MAPLIST_BATTLE_SEA01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Sea/Level/SL_BT_Sea_01_Env_Night.SL_BT_Sea_01_Env_Night",
+        "UseTimeFrame": "EMapTimeFrame::NIGHT"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SNOWFIELD00_DAYTIMEFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SNOWFIELD00_DAYTIMEFIELD",
+        "MapId": "MAPLIST_BATTLE_SNOWFIELD00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/SnowField/Level/BL_BT_SnowField_00.BL_BT_SnowField_00",
+        "UseTimeFrame": "EMapTimeFrame::DAYTIME"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SNOWFIELD00_DAYTIMELIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SNOWFIELD00_DAYTIMELIGHT",
+        "MapId": "MAPLIST_BATTLE_SNOWFIELD00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/SnowField/Level/SL_BT_SnowField_00_Light_Daytime.SL_BT_SnowField_00_Light_Daytime",
+        "UseTimeFrame": "EMapTimeFrame::DAYTIME"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SNOWFIELD00_DAYTIMEENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SNOWFIELD00_DAYTIMEENV",
+        "MapId": "MAPLIST_BATTLE_SNOWFIELD00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/SnowField/Level/SL_BT_SnowField_00_Env_Daytime.SL_BT_SnowField_00_Env_Daytime",
+        "UseTimeFrame": "EMapTimeFrame::DAYTIME"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SNOWFIELD00_EVENINGFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SNOWFIELD00_EVENINGFIELD",
+        "MapId": "MAPLIST_BATTLE_SNOWFIELD00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/SnowField/Level/BL_BT_SnowField_00.BL_BT_SnowField_00",
+        "UseTimeFrame": "EMapTimeFrame::EVENING"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SNOWFIELD00_EVENINGLIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SNOWFIELD00_EVENINGLIGHT",
+        "MapId": "MAPLIST_BATTLE_SNOWFIELD00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/SnowField/Level/SL_BT_SnowField_00_Light_Evening.SL_BT_SnowField_00_Light_Evening",
+        "UseTimeFrame": "EMapTimeFrame::EVENING"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SNOWFIELD00_EVENINGENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SNOWFIELD00_EVENINGENV",
+        "MapId": "MAPLIST_BATTLE_SNOWFIELD00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/SnowField/Level/SL_BT_SnowField_00_Env_Evening.SL_BT_SnowField_00_Env_Evening",
+        "UseTimeFrame": "EMapTimeFrame::EVENING"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SNOWFIELD00_NIGHTFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SNOWFIELD00_NIGHTFIELD",
+        "MapId": "MAPLIST_BATTLE_SNOWFIELD00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/SnowField/Level/BL_BT_SnowField_00.BL_BT_SnowField_00",
+        "UseTimeFrame": "EMapTimeFrame::NIGHT"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SNOWFIELD00_NIGHTLIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SNOWFIELD00_NIGHTLIGHT",
+        "MapId": "MAPLIST_BATTLE_SNOWFIELD00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/SnowField/Level/SL_BT_SnowField_00_Light_Night.SL_BT_SnowField_00_Light_Night",
+        "UseTimeFrame": "EMapTimeFrame::NIGHT"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SNOWFIELD00_NIGHTENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SNOWFIELD00_NIGHTENV",
+        "MapId": "MAPLIST_BATTLE_SNOWFIELD00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/SnowField/Level/SL_BT_SnowField_00_Env_Night.SL_BT_SnowField_00_Env_Night",
+        "UseTimeFrame": "EMapTimeFrame::NIGHT"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SNOWFIELD01_DAYTIMEFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SNOWFIELD01_DAYTIMEFIELD",
+        "MapId": "MAPLIST_BATTLE_SNOWFIELD01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/SnowField/Level/BL_BT_SnowField_01.BL_BT_SnowField_01",
+        "UseTimeFrame": "EMapTimeFrame::DAYTIME"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SNOWFIELD01_DAYTIMELIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SNOWFIELD01_DAYTIMELIGHT",
+        "MapId": "MAPLIST_BATTLE_SNOWFIELD01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/SnowField/Level/SL_BT_SnowField_01_Light_Daytime.SL_BT_SnowField_01_Light_Daytime",
+        "UseTimeFrame": "EMapTimeFrame::DAYTIME"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SNOWFIELD01_DAYTIMEENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SNOWFIELD01_DAYTIMEENV",
+        "MapId": "MAPLIST_BATTLE_SNOWFIELD01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/SnowField/Level/SL_BT_SnowField_01_Env_Daytime.SL_BT_SnowField_01_Env_Daytime",
+        "UseTimeFrame": "EMapTimeFrame::DAYTIME"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SNOWFIELD01_EVENINGFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SNOWFIELD01_EVENINGFIELD",
+        "MapId": "MAPLIST_BATTLE_SNOWFIELD01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/SnowField/Level/BL_BT_SnowField_01.BL_BT_SnowField_01",
+        "UseTimeFrame": "EMapTimeFrame::EVENING"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SNOWFIELD01_EVENINGLIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SNOWFIELD01_EVENINGLIGHT",
+        "MapId": "MAPLIST_BATTLE_SNOWFIELD01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/SnowField/Level/SL_BT_SnowField_01_Light_Evening.SL_BT_SnowField_01_Light_Evening",
+        "UseTimeFrame": "EMapTimeFrame::EVENING"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SNOWFIELD01_NIGHTBATTLEMAP_SNOWFIELD01_NIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SNOWFIELD01_NIGHTBATTLEMAP_SNOWFIELD01_NIGHT",
+        "MapId": "MAPLIST_BATTLE_SNOWFIELD01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/SnowField/Level/SL_BT_SnowField_01_Env_Evening.SL_BT_SnowField_01_Env_Evening",
+        "UseTimeFrame": "EMapTimeFrame::EVENING"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SNOWFIELD01_NIGHTFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SNOWFIELD01_NIGHTFIELD",
+        "MapId": "MAPLIST_BATTLE_SNOWFIELD01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/SnowField/Level/BL_BT_SnowField_01.BL_BT_SnowField_01",
+        "UseTimeFrame": "EMapTimeFrame::NIGHT"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SNOWFIELD01_NIGHTLIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SNOWFIELD01_NIGHTLIGHT",
+        "MapId": "MAPLIST_BATTLE_SNOWFIELD01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/SnowField/Level/SL_BT_SnowField_01_Light_Night.SL_BT_SnowField_01_Light_Night",
+        "UseTimeFrame": "EMapTimeFrame::NIGHT"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SNOWFIELD01_NIGHTENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SNOWFIELD01_NIGHTENV",
+        "MapId": "MAPLIST_BATTLE_SNOWFIELD01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/SnowField/Level/SL_BT_SnowField_01_Env_Night.SL_BT_SnowField_01_Env_Night",
+        "UseTimeFrame": "EMapTimeFrame::NIGHT"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_TEDON00_NIGHTFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_TEDON00_NIGHTFIELD",
+        "MapId": "MAPLIST_BATTLE_TEDON00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Tedon/Level/BL_BT_Tedon_00.BL_BT_Tedon_00",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_TEDON00_NIGHTLIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_TEDON00_NIGHTLIGHT",
+        "MapId": "MAPLIST_BATTLE_TEDON00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Tedon/Level/SL_BT_Tedon_00_Light_Night.SL_BT_Tedon_00_Light_Night",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_TEDON00_NIGHTENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_TEDON00_NIGHTENV",
+        "MapId": "MAPLIST_BATTLE_TEDON00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Tedon/Level/SL_BT_Tedon_00_Env_Night.SL_BT_Tedon_00_Env_Night",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_ASHALAM_HOUSE00_DAYTIMEFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_ASHALAM_HOUSE00_DAYTIMEFIELD",
+        "MapId": "MAPLIST_BATTLE_ASHALAM_HOUSE00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Ashalam/Level/BL_BT_AshalamHouse_00.BL_BT_AshalamHouse_00",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_ASHALAM_HOUSE00_DAYTIMELIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_ASHALAM_HOUSE00_DAYTIMELIGHT",
+        "MapId": "MAPLIST_BATTLE_ASHALAM_HOUSE00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Ashalam/Level/SL_BT_AshalamHouse_00_Daytime_Light.SL_BT_AshalamHouse_00_Daytime_Light",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_ASHALAM_HOUSE00_DAYTIMEENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_ASHALAM_HOUSE00_DAYTIMEENV",
+        "MapId": "MAPLIST_BATTLE_ASHALAM_HOUSE00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Ashalam/Level/SL_BT_AshalamHouse_00_Daytime_Env.SL_BT_AshalamHouse_00_Daytime_Env",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_MISAKI_CAVE00_DAYTIMEFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_MISAKI_CAVE00_DAYTIMEFIELD",
+        "MapId": "MAPLIST_BATTLE_MISAKI_CAVE00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/MisakiCave/Level/BL_BT_MisakiCave_00.BL_BT_MisakiCave_00",
+        "UseTimeFrame": "EMapTimeFrame::DAYTIME"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_MISAKI_CAVE00_DAYTIMELIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_MISAKI_CAVE00_DAYTIMELIGHT",
+        "MapId": "MAPLIST_BATTLE_MISAKI_CAVE00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/MisakiCave/Level/SL_BT_MisakiCave_00_Light_Daytime.SL_BT_MisakiCave_00_Light_Daytime",
+        "UseTimeFrame": "EMapTimeFrame::DAYTIME"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_MISAKI_CAVE00_DAYTIMEENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_MISAKI_CAVE00_DAYTIMEENV",
+        "MapId": "MAPLIST_BATTLE_MISAKI_CAVE00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/MisakiCave/Level/SL_BT_MisakiCave_00_Env_Daytime.SL_BT_MisakiCave_00_Env_Daytime",
+        "UseTimeFrame": "EMapTimeFrame::DAYTIME"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_MISAKI_CAVE00_EVENINGFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_MISAKI_CAVE00_EVENINGFIELD",
+        "MapId": "MAPLIST_BATTLE_MISAKI_CAVE00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/MisakiCave/Level/BL_BT_MisakiCave_00.BL_BT_MisakiCave_00",
+        "UseTimeFrame": "EMapTimeFrame::EVENING"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_MISAKI_CAVE00_EVENINGLIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_MISAKI_CAVE00_EVENINGLIGHT",
+        "MapId": "MAPLIST_BATTLE_MISAKI_CAVE00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/MisakiCave/Level/SL_BT_MisakiCave_00_Light_Evening.SL_BT_MisakiCave_00_Light_Evening",
+        "UseTimeFrame": "EMapTimeFrame::EVENING"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_MISAKI_CAVE00_EVENINGENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_MISAKI_CAVE00_EVENINGENV",
+        "MapId": "MAPLIST_BATTLE_MISAKI_CAVE00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/MisakiCave/Level/SL_BT_MisakiCave_00_Env_Evening.SL_BT_MisakiCave_00_Env_Evening",
+        "UseTimeFrame": "EMapTimeFrame::EVENING"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_MISAKI_CAVE00_NIGHTFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_MISAKI_CAVE00_NIGHTFIELD",
+        "MapId": "MAPLIST_BATTLE_MISAKI_CAVE00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/MisakiCave/Level/BL_BT_MisakiCave_00.BL_BT_MisakiCave_00",
+        "UseTimeFrame": "EMapTimeFrame::NIGHT"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_MISAKI_CAVE00_NIGHTLIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_MISAKI_CAVE00_NIGHTLIGHT",
+        "MapId": "MAPLIST_BATTLE_MISAKI_CAVE00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/MisakiCave/Level/SL_BT_MisakiCave_00_Light_Night.SL_BT_MisakiCave_00_Light_Night",
+        "UseTimeFrame": "EMapTimeFrame::NIGHT"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_MISAKI_CAVE00_NIGHTENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_MISAKI_CAVE00_NIGHTENV",
+        "MapId": "MAPLIST_BATTLE_MISAKI_CAVE00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/MisakiCave/Level/SL_BT_MisakiCave_00_Env_Night.SL_BT_MisakiCave_00_Env_Night",
+        "UseTimeFrame": "EMapTimeFrame::NIGHT"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_NAJIMI_TOWER00_DAYTIMEFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_NAJIMI_TOWER00_DAYTIMEFIELD",
+        "MapId": "MAPLIST_BATTLE_NAJIMI_TOWER00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/NajimiTower/Level/BL_BT_NajimiTower_00.BL_BT_NajimiTower_00",
+        "UseTimeFrame": "EMapTimeFrame::DAYTIME"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_NAJIMI_TOWER00_DAYTIMELIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_NAJIMI_TOWER00_DAYTIMELIGHT",
+        "MapId": "MAPLIST_BATTLE_NAJIMI_TOWER00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/NajimiTower/Level/SL_BT_NajimiTower_Daytime_00_Light.SL_BT_NajimiTower_Daytime_00_Light",
+        "UseTimeFrame": "EMapTimeFrame::DAYTIME"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_NAJIMI_TOWER00_DAYTIMEENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_NAJIMI_TOWER00_DAYTIMEENV",
+        "MapId": "MAPLIST_BATTLE_NAJIMI_TOWER00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/NajimiTower/Level/SL_BT_NajimiTower_Daytime_00_Env.SL_BT_NajimiTower_Daytime_00_Env",
+        "UseTimeFrame": "EMapTimeFrame::DAYTIME"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_NAJIMI_TOWER00_EVENINGFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_NAJIMI_TOWER00_EVENINGFIELD",
+        "MapId": "MAPLIST_BATTLE_NAJIMI_TOWER00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/NajimiTower/Level/BL_BT_NajimiTower_00.BL_BT_NajimiTower_00",
+        "UseTimeFrame": "EMapTimeFrame::EVENING"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_NAJIMI_TOWER00_EVENINGLIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_NAJIMI_TOWER00_EVENINGLIGHT",
+        "MapId": "MAPLIST_BATTLE_NAJIMI_TOWER00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/NajimiTower/Level/SL_BT_NajimiTower_Evening_00_Light.SL_BT_NajimiTower_Evening_00_Light",
+        "UseTimeFrame": "EMapTimeFrame::EVENING"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_NAJIMI_TOWER00_EVENINGENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_NAJIMI_TOWER00_EVENINGENV",
+        "MapId": "MAPLIST_BATTLE_NAJIMI_TOWER00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/NajimiTower/Level/SL_BT_NajimiTower_Evening_00_Env.SL_BT_NajimiTower_Evening_00_Env",
+        "UseTimeFrame": "EMapTimeFrame::EVENING"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_NAJIMI_TOWER00_NIGHTFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_NAJIMI_TOWER00_NIGHTFIELD",
+        "MapId": "MAPLIST_BATTLE_NAJIMI_TOWER00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/NajimiTower/Level/BL_BT_NajimiTower_00.BL_BT_NajimiTower_00",
+        "UseTimeFrame": "EMapTimeFrame::NIGHT"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_NAJIMI_TOWER00_NIGHTLIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_NAJIMI_TOWER00_NIGHTLIGHT",
+        "MapId": "MAPLIST_BATTLE_NAJIMI_TOWER00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/NajimiTower/Level/SL_BT_NajimiTower_Night_00_Light.SL_BT_NajimiTower_Night_00_Light",
+        "UseTimeFrame": "EMapTimeFrame::NIGHT"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_NAJIMI_TOWER00_NIGHTENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_NAJIMI_TOWER00_NIGHTENV",
+        "MapId": "MAPLIST_BATTLE_NAJIMI_TOWER00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/NajimiTower/Level/SL_BT_NajimiTower_Night_00_Env.SL_BT_NajimiTower_Night_00_Env",
+        "UseTimeFrame": "EMapTimeFrame::NIGHT"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_NAJIMI_TOWER00_NOONFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_NAJIMI_TOWER00_NOONFIELD",
+        "MapId": "MAPLIST_BATTLE_NAJIMI_TOWER01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/NajimiTower/Level/BL_BT_NajimiTower_B1F_00.BL_BT_NajimiTower_B1F_00",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_NAJIMI_TOWER00_NOONLIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_NAJIMI_TOWER00_NOONLIGHT",
+        "MapId": "MAPLIST_BATTLE_NAJIMI_TOWER01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/NajimiTower/Level/SL_BT_NajimiTower_B1F_00_Light.SL_BT_NajimiTower_B1F_00_Light",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_NAJIMI_TOWER00_NOONENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_NAJIMI_TOWER00_NOONENV",
+        "MapId": "MAPLIST_BATTLE_NAJIMI_TOWER01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/NajimiTower/Level/SL_BT_NajimiTower_B1F_00_Env.SL_BT_NajimiTower_B1F_00_Env",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_IZANAI_CAVE00FIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_IZANAI_CAVE00FIELD",
+        "MapId": "MAPLIST_BATTLE_IZANAI_CAVE00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/IzanaiCave/Level/BL_BT_Izanai_00.BL_BT_Izanai_00",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_IZANAI_CAVE00LIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_IZANAI_CAVE00LIGHT",
+        "MapId": "MAPLIST_BATTLE_IZANAI_CAVE00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/IzanaiCave/Level/SL_BT_Izanai_00_Light.SL_BT_Izanai_00_Light",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_IZANAI_CAVE00ENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_IZANAI_CAVE00ENV",
+        "MapId": "MAPLIST_BATTLE_IZANAI_CAVE00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/IzanaiCave/Level/SL_BT_Izanai_00_Env.SL_BT_Izanai_00_Env",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_PYRAMID00FIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_PYRAMID00FIELD",
+        "MapId": "MAPLIST_BATTLE_PYRAMID00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Pyramid/Level/BL_BT_Pyramid_00.BL_BT_Pyramid_00",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_PYRAMID00LIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_PYRAMID00LIGHT",
+        "MapId": "MAPLIST_BATTLE_PYRAMID00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Pyramid/Level/SL_BT_Pyramid_00_Light.SL_BT_Pyramid_00_Light",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_PYRAMID00ENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_PYRAMID00ENV",
+        "MapId": "MAPLIST_BATTLE_PYRAMID00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Pyramid/Level/SL_BT_Pyramid_00_Env.SL_BT_Pyramid_00_Env",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_PYRAMID01FIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_PYRAMID01FIELD",
+        "MapId": "MAPLIST_BATTLE_PYRAMID01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Pyramid/Level/BL_BT_Pyramid_B1F_00.BL_BT_Pyramid_B1F_00",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_PYRAMID01LIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_PYRAMID01LIGHT",
+        "MapId": "MAPLIST_BATTLE_PYRAMID01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Pyramid/Level/SL_BT_Pyramid_B1F_00_Light.SL_BT_Pyramid_B1F_00_Light",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_PYRAMID01ENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_PYRAMID01ENV",
+        "MapId": "MAPLIST_BATTLE_PYRAMID01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Pyramid/Level/SL_BT_Pyramid_B1F_00_Env.SL_BT_Pyramid_B1F_00_Env",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_PYRAMID02FIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_PYRAMID02FIELD",
+        "MapId": "MAPLIST_BATTLE_PYRAMID02",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Pyramid/Level/BL_BT_Pyramid_01.BL_BT_Pyramid_01",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_PYRAMID02LIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_PYRAMID02LIGHT",
+        "MapId": "MAPLIST_BATTLE_PYRAMID02",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Pyramid/Level/SL_BT_Pyramid_01_Light.SL_BT_Pyramid_01_Light",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_PYRAMID02ENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_PYRAMID02ENV",
+        "MapId": "MAPLIST_BATTLE_PYRAMID02",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Pyramid/Level/SL_BT_Pyramid_01_Env.SL_BT_Pyramid_01_Env",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_BAHARATAEAST_CAVE00FIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_BAHARATAEAST_CAVE00FIELD",
+        "MapId": "MAPLIST_BATTLE_BAHARATAEAST_CAVE00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/BaharataEastCave/Level/BL_BT_BaharataEastCave_00.BL_BT_BaharataEastCave_00",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_BAHARATAEAST_CAVE00LIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_BAHARATAEAST_CAVE00LIGHT",
+        "MapId": "MAPLIST_BATTLE_BAHARATAEAST_CAVE00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/BaharataEastCave/Level/SL_BT_BaharataEastCave_00_Light.SL_BT_BaharataEastCave_00_Light",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_BAHARATAEAST_CAVE00ENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_BAHARATAEAST_CAVE00ENV",
+        "MapId": "MAPLIST_BATTLE_BAHARATAEAST_CAVE00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/BaharataEastCave/Level/SL_BT_BaharataEastCave_00_Env.SL_BT_BaharataEastCave_00_Env",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SHAMPANE_TOWER00_DAYTIMEFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SHAMPANE_TOWER00_DAYTIMEFIELD",
+        "MapId": "MAPLIST_BATTLE_SHAMPANE_TOWER00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/ShampaneTower/Level/BL_BT_ShampaneTower_00.BL_BT_ShampaneTower_00",
+        "UseTimeFrame": "EMapTimeFrame::DAYTIME"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SHAMPANE_TOWER00_DAYTIMELIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SHAMPANE_TOWER00_DAYTIMELIGHT",
+        "MapId": "MAPLIST_BATTLE_SHAMPANE_TOWER00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/ShampaneTower/Level/SL_BT_ShampaneTower_Daytime_00_Light.SL_BT_ShampaneTower_Daytime_00_Light",
+        "UseTimeFrame": "EMapTimeFrame::DAYTIME"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SHAMPANE_TOWER00_DAYTIMEENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SHAMPANE_TOWER00_DAYTIMEENV",
+        "MapId": "MAPLIST_BATTLE_SHAMPANE_TOWER00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/ShampaneTower/Level/SL_BT_ShampaneTower_Daytime_00_Env.SL_BT_ShampaneTower_Daytime_00_Env",
+        "UseTimeFrame": "EMapTimeFrame::DAYTIME"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SHAMPANE_TOWER00_EVENINGFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SHAMPANE_TOWER00_EVENINGFIELD",
+        "MapId": "MAPLIST_BATTLE_SHAMPANE_TOWER00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/ShampaneTower/Level/BL_BT_ShampaneTower_00.BL_BT_ShampaneTower_00",
+        "UseTimeFrame": "EMapTimeFrame::EVENING"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SHAMPANE_TOWER00_EVENINGLIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SHAMPANE_TOWER00_EVENINGLIGHT",
+        "MapId": "MAPLIST_BATTLE_SHAMPANE_TOWER00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/ShampaneTower/Level/SL_BT_ShampaneTower_Evening_00_Light.SL_BT_ShampaneTower_Evening_00_Light",
+        "UseTimeFrame": "EMapTimeFrame::EVENING"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SHAMPANE_TOWER00_EVENINGENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SHAMPANE_TOWER00_EVENINGENV",
+        "MapId": "MAPLIST_BATTLE_SHAMPANE_TOWER00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/ShampaneTower/Level/SL_BT_ShampaneTower_Evening_00_Env.SL_BT_ShampaneTower_Evening_00_Env",
+        "UseTimeFrame": "EMapTimeFrame::EVENING"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SHAMPANE_TOWER00_NIGHTFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SHAMPANE_TOWER00_NIGHTFIELD",
+        "MapId": "MAPLIST_BATTLE_SHAMPANE_TOWER00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/ShampaneTower/Level/BL_BT_ShampaneTower_00.BL_BT_ShampaneTower_00",
+        "UseTimeFrame": "EMapTimeFrame::NIGHT"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SHAMPANE_TOWER00_NIGHTLIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SHAMPANE_TOWER00_NIGHTLIGHT",
+        "MapId": "MAPLIST_BATTLE_SHAMPANE_TOWER00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/ShampaneTower/Level/SL_BT_ShampaneTower_Night_00_Light.SL_BT_ShampaneTower_Night_00_Light",
+        "UseTimeFrame": "EMapTimeFrame::NIGHT"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SHAMPANE_TOWER00_NIGHTENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SHAMPANE_TOWER00_NIGHTENV",
+        "MapId": "MAPLIST_BATTLE_SHAMPANE_TOWER00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/ShampaneTower/Level/SL_BT_ShampaneTower_Night_00_Env.SL_BT_ShampaneTower_Night_00_Env",
+        "UseTimeFrame": "EMapTimeFrame::NIGHT"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BattleMap_SHAMPANE_TOWER01_DAYTIMEFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BattleMap_SHAMPANE_TOWER01_DAYTIMEFIELD",
+        "MapId": "MAPLIST_BATTLE_SHAMPANE_TOWER01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/ShampaneTower/Level/BL_BT_ShampaneTower_01.BL_BT_ShampaneTower_01",
+        "UseTimeFrame": "EMapTimeFrame::DAYTIME"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BattleMap_SHAMPANE_TOWER01_DAYTIMELIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BattleMap_SHAMPANE_TOWER01_DAYTIMELIGHT",
+        "MapId": "MAPLIST_BATTLE_SHAMPANE_TOWER01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/ShampaneTower/Level/SL_BT_ShampaneTower_Daytime_01_Light.SL_BT_ShampaneTower_Daytime_01_Light",
+        "UseTimeFrame": "EMapTimeFrame::DAYTIME"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BattleMap_SHAMPANE_TOWER01_DAYTIMEENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BattleMap_SHAMPANE_TOWER01_DAYTIMEENV",
+        "MapId": "MAPLIST_BATTLE_SHAMPANE_TOWER01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/ShampaneTower/Level/SL_BT_ShampaneTower_Daytime_01_Env.SL_BT_ShampaneTower_Daytime_01_Env",
+        "UseTimeFrame": "EMapTimeFrame::DAYTIME"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BattleMap_SHAMPANE_TOWER01_EVENINGFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BattleMap_SHAMPANE_TOWER01_EVENINGFIELD",
+        "MapId": "MAPLIST_BATTLE_SHAMPANE_TOWER01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/ShampaneTower/Level/BL_BT_ShampaneTower_01.BL_BT_ShampaneTower_01",
+        "UseTimeFrame": "EMapTimeFrame::EVENING"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BattleMap_SHAMPANE_TOWER01_EVENINGLIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BattleMap_SHAMPANE_TOWER01_EVENINGLIGHT",
+        "MapId": "MAPLIST_BATTLE_SHAMPANE_TOWER01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/ShampaneTower/Level/SL_BT_ShampaneTower_Evening_01_Light.SL_BT_ShampaneTower_Evening_01_Light",
+        "UseTimeFrame": "EMapTimeFrame::EVENING"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BattleMap_SHAMPANE_TOWER01_EVENINGENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BattleMap_SHAMPANE_TOWER01_EVENINGENV",
+        "MapId": "MAPLIST_BATTLE_SHAMPANE_TOWER01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/ShampaneTower/Level/SL_BT_ShampaneTower_Evening_01_Env.SL_BT_ShampaneTower_Evening_01_Env",
+        "UseTimeFrame": "EMapTimeFrame::EVENING"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BattleMap_SHAMPANE_TOWER01_NIGHTFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BattleMap_SHAMPANE_TOWER01_NIGHTFIELD",
+        "MapId": "MAPLIST_BATTLE_SHAMPANE_TOWER01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/ShampaneTower/Level/BL_BT_ShampaneTower_01.BL_BT_ShampaneTower_01",
+        "UseTimeFrame": "EMapTimeFrame::NIGHT"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BattleMap_SHAMPANE_TOWER01_NIGHTLIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BattleMap_SHAMPANE_TOWER01_NIGHTLIGHT",
+        "MapId": "MAPLIST_BATTLE_SHAMPANE_TOWER01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/ShampaneTower/Level/SL_BT_ShampaneTower_Night_01_Light.SL_BT_ShampaneTower_Night_01_Light",
+        "UseTimeFrame": "EMapTimeFrame::NIGHT"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BattleMap_SHAMPANE_TOWER01_NIGHTENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BattleMap_SHAMPANE_TOWER01_NIGHTENV",
+        "MapId": "MAPLIST_BATTLE_SHAMPANE_TOWER01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/ShampaneTower/Level/SL_BT_ShampaneTower_Night_01_Env.SL_BT_ShampaneTower_Night_01_Env",
+        "UseTimeFrame": "EMapTimeFrame::NIGHT"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_RA_CAVE00_DAYTIMEFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_RA_CAVE00_DAYTIMEFIELD",
+        "MapId": "MAPLIST_BATTLE_RA_CAVE00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/RaCave/Level/BL_BT_RaCave_00.BL_BT_RaCave_00",
+        "UseTimeFrame": "EMapTimeFrame::DAYTIME"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_RA_CAVE00_DAYTIMELIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_RA_CAVE00_DAYTIMELIGHT",
+        "MapId": "MAPLIST_BATTLE_RA_CAVE00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/RaCave/Level/SL_BT_RaCave_Daytime_00_Light.SL_BT_RaCave_Daytime_00_Light",
+        "UseTimeFrame": "EMapTimeFrame::DAYTIME"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_RA_CAVE00_DAYTIMEENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_RA_CAVE00_DAYTIMEENV",
+        "MapId": "MAPLIST_BATTLE_RA_CAVE00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/RaCave/Level/SL_BT_RaCave_Daytime_00_Env.SL_BT_RaCave_Daytime_00_Env",
+        "UseTimeFrame": "EMapTimeFrame::DAYTIME"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_RA_CAVE00_EVENINGFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_RA_CAVE00_EVENINGFIELD",
+        "MapId": "MAPLIST_BATTLE_RA_CAVE00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/RaCave/Level/BL_BT_RaCave_00.BL_BT_RaCave_00",
+        "UseTimeFrame": "EMapTimeFrame::EVENING"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_RA_CAVE00_EVENINGLIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_RA_CAVE00_EVENINGLIGHT",
+        "MapId": "MAPLIST_BATTLE_RA_CAVE00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/RaCave/Level/SL_BT_RaCave_Evening_00_Light.SL_BT_RaCave_Evening_00_Light",
+        "UseTimeFrame": "EMapTimeFrame::EVENING"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_RA_CAVE00_EVENINGENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_RA_CAVE00_EVENINGENV",
+        "MapId": "MAPLIST_BATTLE_RA_CAVE00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/RaCave/Level/SL_BT_RaCave_Evening_00_Env.SL_BT_RaCave_Evening_00_Env",
+        "UseTimeFrame": "EMapTimeFrame::EVENING"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_RA_CAVE00_NIGHTFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_RA_CAVE00_NIGHTFIELD",
+        "MapId": "MAPLIST_BATTLE_RA_CAVE00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/RaCave/Level/BL_BT_RaCave_00.BL_BT_RaCave_00",
+        "UseTimeFrame": "EMapTimeFrame::NIGHT"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_RA_CAVE00_NIGHTLIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_RA_CAVE00_NIGHTLIGHT",
+        "MapId": "MAPLIST_BATTLE_RA_CAVE00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/RaCave/Level/SL_BT_RaCave_Night_00_Light.SL_BT_RaCave_Night_00_Light",
+        "UseTimeFrame": "EMapTimeFrame::NIGHT"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_RA_CAVE00_NIGHTENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_RA_CAVE00_NIGHTENV",
+        "MapId": "MAPLIST_BATTLE_RA_CAVE00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/RaCave/Level/SL_BT_RaCave_Night_00_Env.SL_BT_RaCave_Night_00_Env",
+        "UseTimeFrame": "EMapTimeFrame::NIGHT"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_RA_CAVE01FIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_RA_CAVE01FIELD",
+        "MapId": "MAPLIST_BATTLE_RA_CAVE01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/RaCave/Level/BL_BT_RaCave_01.BL_BT_RaCave_01",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_RA_CAVE01LIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_RA_CAVE01LIGHT",
+        "MapId": "MAPLIST_BATTLE_RA_CAVE01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/RaCave/Level/SL_BT_RaCave_01_Light.SL_BT_RaCave_01_Light",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_RA_CAVE01ENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_RA_CAVE01ENV",
+        "MapId": "MAPLIST_BATTLE_RA_CAVE01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/RaCave/Level/SL_BT_RaCave_01_Env.SL_BT_RaCave_01_Env",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_JIPANG_CAVE00FIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_JIPANG_CAVE00FIELD",
+        "MapId": "MAPLIST_BATTLE_JIPANG_CAVE00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/JipangCave/Level/BL_BT_JipangCave_00.BL_BT_JipangCave_00",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_JIPANG_CAVE00LIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_JIPANG_CAVE00LIGHT",
+        "MapId": "MAPLIST_BATTLE_JIPANG_CAVE00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/JipangCave/Level/SL_BT_JipangCave_00_Light.SL_BT_JipangCave_00_Light",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_JIPANG_CAVE00ENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_JIPANG_CAVE00ENV",
+        "MapId": "MAPLIST_BATTLE_JIPANG_CAVE00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/JipangCave/Level/SL_BT_JipangCave_00_Env.SL_BT_JipangCave_00_Env",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_JIPANG_CAVE01FIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_JIPANG_CAVE01FIELD",
+        "MapId": "MAPLIST_BATTLE_JIPANG_CAVE01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/JipangCave/Level/BL_BT_JipangCave_01.BL_BT_JipangCave_01",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_JIPANG_CAVE01LIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_JIPANG_CAVE01LIGHT",
+        "MapId": "MAPLIST_BATTLE_JIPANG_CAVE01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/JipangCave/Level/SL_BT_JipangCave_01_Light.SL_BT_JipangCave_01_Light",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_JIPANG_CAVE01ENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_JIPANG_CAVE01ENV",
+        "MapId": "MAPLIST_BATTLE_JIPANG_CAVE01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/JipangCave/Level/SL_BT_JipangCave_01_Env.SL_BT_JipangCave_01_Env",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_NECROGOND_CAVE00FIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_NECROGOND_CAVE00FIELD",
+        "MapId": "MAPLIST_BATTLE_NECROGOND_CAVE00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/NecrogondCave/Level/BL_BT_NecrogondCave_00.BL_BT_NecrogondCave_00",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_NECROGOND_CAVE00LIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_NECROGOND_CAVE00LIGHT",
+        "MapId": "MAPLIST_BATTLE_NECROGOND_CAVE00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/NecrogondCave/Level/SL_BT_NecrogondCave_00_Light.SL_BT_NecrogondCave_00_Light",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_NECROGOND_CAVE00ENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_NECROGOND_CAVE00ENV",
+        "MapId": "MAPLIST_BATTLE_NECROGOND_CAVE00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/NecrogondCave/Level/SL_BT_NecrogondCave_00_Env.SL_BT_NecrogondCave_00_Env",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_NECROGOND_CAVE01FIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_NECROGOND_CAVE01FIELD",
+        "MapId": "MAPLIST_BATTLE_NECROGOND_CAVE01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/NecrogondCave/Level/BL_BT_NecrogondCave_01.BL_BT_NecrogondCave_01",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_NECROGOND_CAVE01LIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_NECROGOND_CAVE01LIGHT",
+        "MapId": "MAPLIST_BATTLE_NECROGOND_CAVE01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/NecrogondCave/Level/SL_BT_NecrogondCave_01_Light.SL_BT_NecrogondCave_01_Light",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_NECROGOND_CAVE01ENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_NECROGOND_CAVE01ENV",
+        "MapId": "MAPLIST_BATTLE_NECROGOND_CAVE01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/NecrogondCave/Level/SL_BT_NecrogondCave_01_Env.SL_BT_NecrogondCave_01_Env",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_UNDERGROUNDLAKE00_DAYTIMEFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_UNDERGROUNDLAKE00_DAYTIMEFIELD",
+        "MapId": "MAPLIST_BATTLE_UNDERGROUNDLAKE00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/UndergroundLake/Level/BL_BT_UndergroundLake_00.BL_BT_UndergroundLake_00",
+        "UseTimeFrame": "EMapTimeFrame::DAYTIME"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_UNDERGROUNDLAKE00_DAYTIMELIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_UNDERGROUNDLAKE00_DAYTIMELIGHT",
+        "MapId": "MAPLIST_BATTLE_UNDERGROUNDLAKE00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/UndergroundLake/Level/SL_BT_UndergroundLake_00_Daytime_Light.SL_BT_UndergroundLake_00_Daytime_Light",
+        "UseTimeFrame": "EMapTimeFrame::DAYTIME"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_UNDERGROUNDLAKE00_DAYTIMEENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_UNDERGROUNDLAKE00_DAYTIMEENV",
+        "MapId": "MAPLIST_BATTLE_UNDERGROUNDLAKE00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/UndergroundLake/Level/SL_BT_UndergroundLake_00_Daytime_Env.SL_BT_UndergroundLake_00_Daytime_Env",
+        "UseTimeFrame": "EMapTimeFrame::DAYTIME"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_UNDERGROUNDLAKE00_EVENINGFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_UNDERGROUNDLAKE00_EVENINGFIELD",
+        "MapId": "MAPLIST_BATTLE_UNDERGROUNDLAKE00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/UndergroundLake/Level/BL_BT_UndergroundLake_00.BL_BT_UndergroundLake_00",
+        "UseTimeFrame": "EMapTimeFrame::EVENING"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_UNDERGROUNDLAKE00_EVENINGLIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_UNDERGROUNDLAKE00_EVENINGLIGHT",
+        "MapId": "MAPLIST_BATTLE_UNDERGROUNDLAKE00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/UndergroundLake/Level/SL_BT_UndergroundLake_00_Evening_Light.SL_BT_UndergroundLake_00_Evening_Light",
+        "UseTimeFrame": "EMapTimeFrame::EVENING"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_UNDERGROUNDLAKE00_EVENINGENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_UNDERGROUNDLAKE00_EVENINGENV",
+        "MapId": "MAPLIST_BATTLE_UNDERGROUNDLAKE00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/UndergroundLake/Level/SL_BT_UndergroundLake_00_Evening_Env.SL_BT_UndergroundLake_00_Evening_Env",
+        "UseTimeFrame": "EMapTimeFrame::EVENING"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_UNDERGROUNDLAKE00_NIGHTFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_UNDERGROUNDLAKE00_NIGHTFIELD",
+        "MapId": "MAPLIST_BATTLE_UNDERGROUNDLAKE00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/UndergroundLake/Level/BL_BT_UndergroundLake_00.BL_BT_UndergroundLake_00",
+        "UseTimeFrame": "EMapTimeFrame::NIGHT"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_UNDERGROUNDLAKE00_NIGHTLIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_UNDERGROUNDLAKE00_NIGHTLIGHT",
+        "MapId": "MAPLIST_BATTLE_UNDERGROUNDLAKE00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/UndergroundLake/Level/SL_BT_UndergroundLake_00_Night_Light.SL_BT_UndergroundLake_00_Night_Light",
+        "UseTimeFrame": "EMapTimeFrame::NIGHT"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_UNDERGROUNDLAKE00_NIGHTENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_UNDERGROUNDLAKE00_NIGHTENV",
+        "MapId": "MAPLIST_BATTLE_UNDERGROUNDLAKE00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/UndergroundLake/Level/SL_BT_UndergroundLake_00_Night_Env.SL_BT_UndergroundLake_00_Night_Env",
+        "UseTimeFrame": "EMapTimeFrame::NIGHT"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_UNDERGROUNDLAKE01FIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_UNDERGROUNDLAKE01FIELD",
+        "MapId": "MAPLIST_BATTLE_UNDERGROUNDLAKE01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/UndergroundLake/Level/BL_BT_UndergroundLake_01.BL_BT_UndergroundLake_01",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_UNDERGROUNDLAKE01LIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_UNDERGROUNDLAKE01LIGHT",
+        "MapId": "MAPLIST_BATTLE_UNDERGROUNDLAKE01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/UndergroundLake/Level/SL_BT_UndergroundLake_01_Light.SL_BT_UndergroundLake_01_Light",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_UNDERGROUNDLAKE01ENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_UNDERGROUNDLAKE01ENV",
+        "MapId": "MAPLIST_BATTLE_UNDERGROUNDLAKE01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/UndergroundLake/Level/SL_BT_UndergroundLake_01_Env.SL_BT_UndergroundLake_01_Env",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GAIA_CAVE00FIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GAIA_CAVE00FIELD",
+        "MapId": "MAPLIST_BATTLE_GAIA_CAVE00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/GaiaNavel/Level/BL_BT_GaiaNavel_00.BL_BT_GaiaNavel_00",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GAIA_CAVE00LIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GAIA_CAVE00LIGHT",
+        "MapId": "MAPLIST_BATTLE_GAIA_CAVE00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/GaiaNavel/Level/SL_BT_GaiaNavel_00_Light.SL_BT_GaiaNavel_00_Light",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GAIA_CAVE00ENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GAIA_CAVE00ENV",
+        "MapId": "MAPLIST_BATTLE_GAIA_CAVE00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/GaiaNavel/Level/SL_BT_GaiaNavel_00_Env.SL_BT_GaiaNavel_00_Env",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GAIA_CAVE01FIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GAIA_CAVE01FIELD",
+        "MapId": "MAPLIST_BATTLE_GAIA_CAVE01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/GaiaNavel/Level/BL_BT_GaiaNavel_01.BL_BT_GaiaNavel_01",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GAIA_CAVE01LIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GAIA_CAVE01LIGHT",
+        "MapId": "MAPLIST_BATTLE_GAIA_CAVE01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/GaiaNavel/Level/SL_BT_GaiaNavel_01_Light.SL_BT_GaiaNavel_01_Light",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GAIA_CAVE01ENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GAIA_CAVE01ENV",
+        "MapId": "MAPLIST_BATTLE_GAIA_CAVE01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/GaiaNavel/Level/SL_BT_GaiaNavel_01_Env.SL_BT_GaiaNavel_01_Env",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GAIA_CAVE02FIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GAIA_CAVE02FIELD",
+        "MapId": "MAPLIST_BATTLE_GAIA_CAVE02",
+        "Sublevel": "/Game/Nicola/Map/BattleField/GaiaNavel/Level/BL_BT_GaiaNavel_02.BL_BT_GaiaNavel_02",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GAIA_CAVE02LIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GAIA_CAVE02LIGHT",
+        "MapId": "MAPLIST_BATTLE_GAIA_CAVE02",
+        "Sublevel": "/Game/Nicola/Map/BattleField/GaiaNavel/Level/SL_BT_GaiaNavel_02_Light.SL_BT_GaiaNavel_02_Light",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GAIA_CAVE02ENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GAIA_CAVE02ENV",
+        "MapId": "MAPLIST_BATTLE_GAIA_CAVE02",
+        "Sublevel": "/Game/Nicola/Map/BattleField/GaiaNavel/Level/SL_BT_GaiaNavel_02_Env.SL_BT_GaiaNavel_02_Env",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SECRET_TOWER00_DAYTIMEFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SECRET_TOWER00_DAYTIMEFIELD",
+        "MapId": "MAPLIST_BATTLE_SECRET_TOWER00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/SecretTower/Level/BL_BT_SecretTower_00.BL_BT_SecretTower_00",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SECRET_TOWER00_DAYTIMELIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SECRET_TOWER00_DAYTIMELIGHT",
+        "MapId": "MAPLIST_BATTLE_SECRET_TOWER00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/SecretTower/Level/SL_BT_SecretTower_00_Light_DayTime.SL_BT_SecretTower_00_Light_DayTime",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SECRET_TOWER00_DAYTIMEENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SECRET_TOWER00_DAYTIMEENV",
+        "MapId": "MAPLIST_BATTLE_SECRET_TOWER00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/SecretTower/Level/SL_BT_SecretTower_00_Env_DayTime.SL_BT_SecretTower_00_Env_DayTime",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SECRET_TOWER01_DAYTIMEFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SECRET_TOWER01_DAYTIMEFIELD",
+        "MapId": "MAPLIST_BATTLE_SECRET_TOWER01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/SecretTower/Level/BL_BT_SecretTower_01.BL_BT_SecretTower_01",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SECRET_TOWER01_DAYTIMELIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SECRET_TOWER01_DAYTIMELIGHT",
+        "MapId": "MAPLIST_BATTLE_SECRET_TOWER01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/SecretTower/Level/SL_BT_SecretTower_01_Light_DayTime.SL_BT_SecretTower_01_Light_DayTime",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SECRET_TOWER01_DAYTIMEENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SECRET_TOWER01_DAYTIMEENV",
+        "MapId": "MAPLIST_BATTLE_SECRET_TOWER01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/SecretTower/Level/SL_BT_SecretTower_01_Env_DayTime.SL_BT_SecretTower_01_Env_DayTime",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SECRET_TOWER02_DAYTIMEFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SECRET_TOWER02_DAYTIMEFIELD",
+        "MapId": "MAPLIST_BATTLE_SECRET_TOWER02",
+        "Sublevel": "/Game/Nicola/Map/BattleField/SecretTower/Level/BL_BT_SecretTower_02.BL_BT_SecretTower_02",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SECRET_TOWER02_DAYTIMELIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SECRET_TOWER02_DAYTIMELIGHT",
+        "MapId": "MAPLIST_BATTLE_SECRET_TOWER02",
+        "Sublevel": "/Game/Nicola/Map/BattleField/SecretTower/Level/SL_BT_SecretTower_02_Light_DayTime.SL_BT_SecretTower_02_Light_DayTime",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SECRET_TOWER02_DAYTIMEENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SECRET_TOWER02_DAYTIMEENV",
+        "MapId": "MAPLIST_BATTLE_SECRET_TOWER02",
+        "Sublevel": "/Game/Nicola/Map/BattleField/SecretTower/Level/SL_BT_SecretTower_02_Env_DayTime.SL_BT_SecretTower_02_Env_DayTime",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_HERO_CAVE00FIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_HERO_CAVE00FIELD",
+        "MapId": "MAPLIST_BATTLE_HERO_CAVE00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/HeroCave/Level/BL_BT_HeroCave_00.BL_BT_HeroCave_00",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_HERO_CAVE00LIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_HERO_CAVE00LIGHT",
+        "MapId": "MAPLIST_BATTLE_HERO_CAVE00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/HeroCave/Level/SL_BT_HeroCave_00_Light.SL_BT_HeroCave_00_Light",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_HERO_CAVE00ENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_HERO_CAVE00ENV",
+        "MapId": "MAPLIST_BATTLE_HERO_CAVE00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/HeroCave/Level/SL_BT_HeroCave_00_Env.SL_BT_HeroCave_00_Env",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_JIPANG_CASTLE00_DAYTIMEFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_JIPANG_CASTLE00_DAYTIMEFIELD",
+        "MapId": "MAPLIST_BATTLE_JIPANG_CASTLE00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/JipangCastle/Level/BL_BT_JipangCastle_00.BL_BT_JipangCastle_00",
+        "UseTimeFrame": "EMapTimeFrame::DAYTIME"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_JIPANG_CASTLE00_DAYTIMELIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_JIPANG_CASTLE00_DAYTIMELIGHT",
+        "MapId": "MAPLIST_BATTLE_JIPANG_CASTLE00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/JipangCastle/Level/SL_BT_JipangCastle_00_Daytime_Light.SL_BT_JipangCastle_00_Daytime_Light",
+        "UseTimeFrame": "EMapTimeFrame::DAYTIME"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_JIPANG_CASTLE00_DAYTIMEENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_JIPANG_CASTLE00_DAYTIMEENV",
+        "MapId": "MAPLIST_BATTLE_JIPANG_CASTLE00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/JipangCastle/Level/SL_BT_JipangCastle_00_Daytime_Env.SL_BT_JipangCastle_00_Daytime_Env",
+        "UseTimeFrame": "EMapTimeFrame::DAYTIME"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_JIPANG_CASTLE00_EVENINGFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_JIPANG_CASTLE00_EVENINGFIELD",
+        "MapId": "MAPLIST_BATTLE_JIPANG_CASTLE00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/JipangCastle/Level/BL_BT_JipangCastle_00.BL_BT_JipangCastle_00",
+        "UseTimeFrame": "EMapTimeFrame::EVENING"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_JIPANG_CASTLE00_EVENINGLIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_JIPANG_CASTLE00_EVENINGLIGHT",
+        "MapId": "MAPLIST_BATTLE_JIPANG_CASTLE00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/JipangCastle/Level/SL_BT_JipangCastle_00_Evening_Light.SL_BT_JipangCastle_00_Evening_Light",
+        "UseTimeFrame": "EMapTimeFrame::EVENING"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_JIPANG_CASTLE00_EVENINGENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_JIPANG_CASTLE00_EVENINGENV",
+        "MapId": "MAPLIST_BATTLE_JIPANG_CASTLE00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/JipangCastle/Level/SL_BT_JipangCastle_00_Evening_Env.SL_BT_JipangCastle_00_Evening_Env",
+        "UseTimeFrame": "EMapTimeFrame::EVENING"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_JIPANG_CASTLE00_NIGHTFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_JIPANG_CASTLE00_NIGHTFIELD",
+        "MapId": "MAPLIST_BATTLE_JIPANG_CASTLE00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/JipangCastle/Level/BL_BT_JipangCastle_00.BL_BT_JipangCastle_00",
+        "UseTimeFrame": "EMapTimeFrame::NIGHT"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_JIPANG_CASTLE00_NIGHTLIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_JIPANG_CASTLE00_NIGHTLIGHT",
+        "MapId": "MAPLIST_BATTLE_JIPANG_CASTLE00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/JipangCastle/Level/SL_BT_JipangCastle_00_Night_Light.SL_BT_JipangCastle_00_Night_Light",
+        "UseTimeFrame": "EMapTimeFrame::NIGHT"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_JIPANG_CASTLE00_NIGHTENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_JIPANG_CASTLE00_NIGHTENV",
+        "MapId": "MAPLIST_BATTLE_JIPANG_CASTLE00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/JipangCastle/Level/SL_BT_JipangCastle_00_Night_Env.SL_BT_JipangCastle_00_Night_Env",
+        "UseTimeFrame": "EMapTimeFrame::NIGHT"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_BARAMOS_CASTLE00FIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_BARAMOS_CASTLE00FIELD",
+        "MapId": "MAPLIST_BATTLE_BARAMOS_CASTLE00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/BaramosCastle/Level/BL_BT_BaramosCastle_00.BL_BT_BaramosCastle_00",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_BARAMOS_CASTLE00LIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_BARAMOS_CASTLE00LIGHT",
+        "MapId": "MAPLIST_BATTLE_BARAMOS_CASTLE00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/BaramosCastle/Level/SL_BT_BaramosCastle_00_Light.SL_BT_BaramosCastle_00_Light",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_BARAMOS_CASTLE00ENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_BARAMOS_CASTLE00ENV",
+        "MapId": "MAPLIST_BATTLE_BARAMOS_CASTLE00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/BaramosCastle/Level/SL_BT_BaramosCastle_00_Env.SL_BT_BaramosCastle_00_Env",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_BARAMOS_CASTLE10FIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_BARAMOS_CASTLE10FIELD",
+        "MapId": "MAPLIST_BATTLE_BARAMOS_CASTLE10",
+        "Sublevel": "/Game/Nicola/Map/BattleField/BaramosCastle/Level/BL_BT_BaramosCastle_10.BL_BT_BaramosCastle_10",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_BARAMOS_CASTLE10LIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_BARAMOS_CASTLE10LIGHT",
+        "MapId": "MAPLIST_BATTLE_BARAMOS_CASTLE10",
+        "Sublevel": "/Game/Nicola/Map/BattleField/BaramosCastle/Level/SL_BT_BaramosCastle_10_Light.SL_BT_BaramosCastle_10_Light",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_BARAMOS_CASTLE10ENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_BARAMOS_CASTLE10ENV",
+        "MapId": "MAPLIST_BATTLE_BARAMOS_CASTLE10",
+        "Sublevel": "/Game/Nicola/Map/BattleField/BaramosCastle/Level/SL_BT_BaramosCastle_10_Env.SL_BT_BaramosCastle_10_Env",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_BARAMOS_CASTLE50FIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_BARAMOS_CASTLE50FIELD",
+        "MapId": "MAPLIST_BATTLE_BARAMOS_CASTLE50",
+        "Sublevel": "/Game/Nicola/Map/BattleField/BaramosCastle/Level/BL_BT_BaramosCastle_50.BL_BT_BaramosCastle_50",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_BARAMOS_CASTLE50LIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_BARAMOS_CASTLE50LIGHT",
+        "MapId": "MAPLIST_BATTLE_BARAMOS_CASTLE50",
+        "Sublevel": "/Game/Nicola/Map/BattleField/BaramosCastle/Level/SL_BT_BaramosCastle_50_Light_Night.SL_BT_BaramosCastle_50_Light_Night",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_BARAMOS_CASTLE50ENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_BARAMOS_CASTLE50ENV",
+        "MapId": "MAPLIST_BATTLE_BARAMOS_CASTLE50",
+        "Sublevel": "/Game/Nicola/Map/BattleField/BaramosCastle/Level/SL_BT_BaramosCastle_50_Env_Night.SL_BT_BaramosCastle_50_Env_Night",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_BARAMOS_CASTLE51FIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_BARAMOS_CASTLE51FIELD",
+        "MapId": "MAPLIST_BATTLE_BARAMOS_CASTLE51",
+        "Sublevel": "/Game/Nicola/Map/BattleField/BaramosCastle/Level/BL_BT_BaramosCastle_51.BL_BT_BaramosCastle_51",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_BARAMOS_CASTLE51LIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_BARAMOS_CASTLE51LIGHT",
+        "MapId": "MAPLIST_BATTLE_BARAMOS_CASTLE51",
+        "Sublevel": "/Game/Nicola/Map/BattleField/BaramosCastle/Level/SL_BT_BaramosCastle_51_Light_Night.SL_BT_BaramosCastle_51_Light_Night",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_BARAMOS_CASTLE51ENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_BARAMOS_CASTLE51ENV",
+        "MapId": "MAPLIST_BATTLE_BARAMOS_CASTLE51",
+        "Sublevel": "/Game/Nicola/Map/BattleField/BaramosCastle/Level/SL_BT_BaramosCastle_51_Env_Night.SL_BT_BaramosCastle_51_Env_night",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SAMANOSA_CASTLE00FIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SAMANOSA_CASTLE00FIELD",
+        "MapId": "MAPLIST_BATTLE_SAMANOSA_CASTLE00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Samanosa/Level/BL_BT_Samanosa_00.BL_BT_Samanosa_00",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SAMANOSA_CASTLE00LIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SAMANOSA_CASTLE00LIGHT",
+        "MapId": "MAPLIST_BATTLE_SAMANOSA_CASTLE00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Samanosa/Level/SL_BT_Samanosa_Night_00_Light.SL_BT_Samanosa_Night_00_Light",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SAMANOSA_CASTLE00ENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SAMANOSA_CASTLE00ENV",
+        "MapId": "MAPLIST_BATTLE_SAMANOSA_CASTLE00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Samanosa/Level/SL_BT_Samanosa_Night_00_Env.SL_BT_Samanosa_Night_00_Env",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_ARP_TOWER_00_DAYTIMEFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_ARP_TOWER_00_DAYTIMEFIELD",
+        "MapId": "MAPLIST_BATTLE_ARP_TOWER00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/ArpTower/Level/BL_BT_ArpTower_00.BL_BT_ArpTower_00",
+        "UseTimeFrame": "EMapTimeFrame::DAYTIME"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_ARP_TOWER_00_DAYTIMELIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_ARP_TOWER_00_DAYTIMELIGHT",
+        "MapId": "MAPLIST_BATTLE_ARP_TOWER00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/ArpTower/Level/SL_BT_ArpTower_Daytime_00_Light.SL_BT_ArpTower_Daytime_00_Light",
+        "UseTimeFrame": "EMapTimeFrame::DAYTIME"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_ARP_TOWER_00_DAYTIMEENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_ARP_TOWER_00_DAYTIMEENV",
+        "MapId": "MAPLIST_BATTLE_ARP_TOWER00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/ArpTower/Level/SL_BT_ArpTower_Daytime_00_Env.SL_BT_ArpTower_Daytime_00_Env",
+        "UseTimeFrame": "EMapTimeFrame::DAYTIME"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_ARP_TOWER_00_EVENINGFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_ARP_TOWER_00_EVENINGFIELD",
+        "MapId": "MAPLIST_BATTLE_ARP_TOWER00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/ArpTower/Level/BL_BT_ArpTower_00.BL_BT_ArpTower_00",
+        "UseTimeFrame": "EMapTimeFrame::EVENING"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_ARP_TOWER_00_EVENINGLIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_ARP_TOWER_00_EVENINGLIGHT",
+        "MapId": "MAPLIST_BATTLE_ARP_TOWER00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/ArpTower/Level/SL_BT_ArpTower_Evening_00_Light.SL_BT_ArpTower_Evening_00_Light",
+        "UseTimeFrame": "EMapTimeFrame::EVENING"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_ARP_TOWER_00_EVENINGENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_ARP_TOWER_00_EVENINGENV",
+        "MapId": "MAPLIST_BATTLE_ARP_TOWER00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/ArpTower/Level/SL_BT_ArpTower_Evening_00_Env.SL_BT_ArpTower_Evening_00_Env",
+        "UseTimeFrame": "EMapTimeFrame::EVENING"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_ARP_TOWER_00_NIGHTFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_ARP_TOWER_00_NIGHTFIELD",
+        "MapId": "MAPLIST_BATTLE_ARP_TOWER00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/ArpTower/Level/BL_BT_ArpTower_00.BL_BT_ArpTower_00",
+        "UseTimeFrame": "EMapTimeFrame::NIGHT"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_ARP_TOWER_00_NIGHTLIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_ARP_TOWER_00_NIGHTLIGHT",
+        "MapId": "MAPLIST_BATTLE_ARP_TOWER00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/ArpTower/Level/SL_BT_ArpTower_Night_00_Light.SL_BT_ArpTower_Night_00_Light",
+        "UseTimeFrame": "EMapTimeFrame::NIGHT"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_ARP_TOWER_00_NIGHTENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_ARP_TOWER_00_NIGHTENV",
+        "MapId": "MAPLIST_BATTLE_ARP_TOWER00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/ArpTower/Level/SL_BT_ArpTower_Night_00_Env.SL_BT_ArpTower_Night_00_Env",
+        "UseTimeFrame": "EMapTimeFrame::NIGHT"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_ARP_TOWER_01_DAYTIMEFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_ARP_TOWER_01_DAYTIMEFIELD",
+        "MapId": "MAPLIST_BATTLE_ARP_TOWER01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/ArpTower/Level/BL_BT_ArpTower_01.BL_BT_ArpTower_01",
+        "UseTimeFrame": "EMapTimeFrame::DAYTIME"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_ARP_TOWER_01_DAYTIMELIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_ARP_TOWER_01_DAYTIMELIGHT",
+        "MapId": "MAPLIST_BATTLE_ARP_TOWER01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/ArpTower/Level/SL_BT_ArpTower_Daytime_01_Light.SL_BT_ArpTower_Daytime_01_Light",
+        "UseTimeFrame": "EMapTimeFrame::DAYTIME"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_ARP_TOWER_01_DAYTIMEENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_ARP_TOWER_01_DAYTIMEENV",
+        "MapId": "MAPLIST_BATTLE_ARP_TOWER01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/ArpTower/Level/SL_BT_ArpTower_Daytime_01_Env.SL_BT_ArpTower_Daytime_01_Env",
+        "UseTimeFrame": "EMapTimeFrame::DAYTIME"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_ARP_TOWER_01_EVENINGFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_ARP_TOWER_01_EVENINGFIELD",
+        "MapId": "MAPLIST_BATTLE_ARP_TOWER01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/ArpTower/Level/BL_BT_ArpTower_01.BL_BT_ArpTower_01",
+        "UseTimeFrame": "EMapTimeFrame::EVENING"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_ARP_TOWER_01_EVENINGLIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_ARP_TOWER_01_EVENINGLIGHT",
+        "MapId": "MAPLIST_BATTLE_ARP_TOWER01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/ArpTower/Level/SL_BT_ArpTower_Evening_01_Light.SL_BT_ArpTower_Evening_01_Light",
+        "UseTimeFrame": "EMapTimeFrame::EVENING"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_ARP_TOWER_01_EVENINGENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_ARP_TOWER_01_EVENINGENV",
+        "MapId": "MAPLIST_BATTLE_ARP_TOWER01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/ArpTower/Level/SL_BT_ArpTower_Evening_01_Env.SL_BT_ArpTower_Evening_01_Env",
+        "UseTimeFrame": "EMapTimeFrame::EVENING"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_ARP_TOWER_01_NIGHTFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_ARP_TOWER_01_NIGHTFIELD",
+        "MapId": "MAPLIST_BATTLE_ARP_TOWER01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/ArpTower/Level/BL_BT_ArpTower_01.BL_BT_ArpTower_01",
+        "UseTimeFrame": "EMapTimeFrame::NIGHT"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_ARP_TOWER_01_NIGHTLIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_ARP_TOWER_01_NIGHTLIGHT",
+        "MapId": "MAPLIST_BATTLE_ARP_TOWER01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/ArpTower/Level/SL_BT_ArpTower_Night_01_Light.SL_BT_ArpTower_Night_01_Light",
+        "UseTimeFrame": "EMapTimeFrame::NIGHT"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_ARP_TOWER_01_NIGHTENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_ARP_TOWER_01_NIGHTENV",
+        "MapId": "MAPLIST_BATTLE_ARP_TOWER01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/ArpTower/Level/SL_BT_ArpTower_Night_01_Env.SL_BT_ArpTower_Night_01_Env",
+        "UseTimeFrame": "EMapTimeFrame::NIGHT"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_VOLCANO00_DAYTIMEFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_VOLCANO00_DAYTIMEFIELD",
+        "MapId": "MAPLIST_BATTLE_VOLCANO00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Volcano/Level/BL_BT_Volcano_00.BL_BT_Volcano_00",
+        "UseTimeFrame": "EMapTimeFrame::DAYTIME"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_VOLCANO00_DAYTIMELIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_VOLCANO00_DAYTIMELIGHT",
+        "MapId": "MAPLIST_BATTLE_VOLCANO00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Volcano/Level/SL_BT_Volcano_00_Light_Daytime.SL_BT_Volcano_00_Light_Daytime",
+        "UseTimeFrame": "EMapTimeFrame::DAYTIME"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_VOLCANO00_DAYTIMEENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_VOLCANO00_DAYTIMEENV",
+        "MapId": "MAPLIST_BATTLE_VOLCANO00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Volcano/Level/SL_BT_Volcano_00_Env_Daytime.SL_BT_Volcano_00_Env_Daytime",
+        "UseTimeFrame": "EMapTimeFrame::DAYTIME"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_VOLCANO00_EVENINGFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_VOLCANO00_EVENINGFIELD",
+        "MapId": "MAPLIST_BATTLE_VOLCANO00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Volcano/Level/BL_BT_Volcano_00.BL_BT_Volcano_00",
+        "UseTimeFrame": "EMapTimeFrame::EVENING"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_VOLCANO00_EVENINGLIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_VOLCANO00_EVENINGLIGHT",
+        "MapId": "MAPLIST_BATTLE_VOLCANO00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Volcano/Level/SL_BT_Volcano_00_Light_Evening.SL_BT_Volcano_00_Light_Evening",
+        "UseTimeFrame": "EMapTimeFrame::EVENING"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_VOLCANO00_EVENINGENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_VOLCANO00_EVENINGENV",
+        "MapId": "MAPLIST_BATTLE_VOLCANO00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Volcano/Level/SL_BT_Volcano_00_Env_Evening.SL_BT_Volcano_00_Env_Evening",
+        "UseTimeFrame": "EMapTimeFrame::EVENING"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_VOLCANO00_NIGHTFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_VOLCANO00_NIGHTFIELD",
+        "MapId": "MAPLIST_BATTLE_VOLCANO00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Volcano/Level/BL_BT_Volcano_00.BL_BT_Volcano_00",
+        "UseTimeFrame": "EMapTimeFrame::NIGHT"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_VOLCANO00_NIGHTLIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_VOLCANO00_NIGHTLIGHT",
+        "MapId": "MAPLIST_BATTLE_VOLCANO00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Volcano/Level/SL_BT_Volcano_00_Light_Night.SL_BT_Volcano_00_Light_Night",
+        "UseTimeFrame": "EMapTimeFrame::NIGHT"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_VOLCANO00_NIGHTENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_VOLCANO00_NIGHTENV",
+        "MapId": "MAPLIST_BATTLE_VOLCANO00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Volcano/Level/SL_BT_Volcano_00_Env_Night.SL_BT_Volcano_00_Env_Night",
+        "UseTimeFrame": "EMapTimeFrame::NIGHT"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_RUBISS_TOWER00FIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_RUBISS_TOWER00FIELD",
+        "MapId": "MAPLIST_BATTLE_RUBISS_TOWER00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/RubissTower/Level/BL_BT_RubissTower_00.BL_BT_RubissTower_00",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_RUBISS_TOWER00LIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_RUBISS_TOWER00LIGHT",
+        "MapId": "MAPLIST_BATTLE_RUBISS_TOWER00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/RubissTower/Level/SL_BT_RubissTower_00_Light.SL_BT_RubissTower_00_Light",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_RUBISS_TOWER00ENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_RUBISS_TOWER00ENV",
+        "MapId": "MAPLIST_BATTLE_RUBISS_TOWER00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/RubissTower/Level/SL_BT_RubissTower_00_Env.SL_BT_RubissTower_00_Env",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_RUBISS_TOWER01FIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_RUBISS_TOWER01FIELD",
+        "MapId": "MAPLIST_BATTLE_RUBISS_TOWER01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/RubissTower/Level/BL_BT_RubissTower_01.BL_BT_RubissTower_01",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_RUBISS_TOWER01LIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_RUBISS_TOWER01LIGHT",
+        "MapId": "MAPLIST_BATTLE_RUBISS_TOWER01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/RubissTower/Level/SL_BT_RubissTower_01_Light.SL_BT_RubissTower_01_Light",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_RUBISS_TOWER01ENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_RUBISS_TOWER01ENV",
+        "MapId": "MAPLIST_BATTLE_RUBISS_TOWER01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/RubissTower/Level/SL_BT_RubissTower_01_Env.SL_BT_RubissTower_01_Env",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_RUBISS_TOWER02FIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_RUBISS_TOWER02FIELD",
+        "MapId": "MAPLIST_BATTLE_RUBISS_TOWER02",
+        "Sublevel": "/Game/Nicola/Map/BattleField/RubissTower/Level/BL_BT_RubissTower_02.BL_BT_RubissTower_02",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_RUBISS_TOWER02LIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_RUBISS_TOWER02LIGHT",
+        "MapId": "MAPLIST_BATTLE_RUBISS_TOWER02",
+        "Sublevel": "/Game/Nicola/Map/BattleField/RubissTower/Level/SL_BT_RubissTower_02_Light.SL_BT_RubissTower_02_Light",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_RUBISS_TOWER02ENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_RUBISS_TOWER02ENV",
+        "MapId": "MAPLIST_BATTLE_RUBISS_TOWER02",
+        "Sublevel": "/Game/Nicola/Map/BattleField/RubissTower/Level/SL_BT_RubissTower_02_Env.SL_BT_RubissTower_02_Env",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BattleMap_ROCKMT_CAVE00FIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BattleMap_ROCKMT_CAVE00FIELD",
+        "MapId": "MAPLIST_BATTLE_ROCKMT_CAVE00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/RockMtCave/Level/BL_BT_RockMtCave_00.BL_BT_RockMtCave_00",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BattleMap_ROCKMT_CAVE00LIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BattleMap_ROCKMT_CAVE00LIGHT",
+        "MapId": "MAPLIST_BATTLE_ROCKMT_CAVE00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/RockMtCave/Level/SL_BT_RockMtCave_00_Light.SL_BT_RockMtCave_00_Light",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BattleMap_ROCKMT_CAVE00ENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BattleMap_ROCKMT_CAVE00ENV",
+        "MapId": "MAPLIST_BATTLE_ROCKMT_CAVE00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/RockMtCave/Level/SL_BT_RockMtCave_00_Env.SL_BT_RockMtCave_00_Env",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GHOSTSHIP_00_DAYTIMEFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GHOSTSHIP_00_DAYTIMEFIELD",
+        "MapId": "MAPLIST_BATTLE_GHOSTSHIP00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/GhostShip/Level/BL_BT_GhostShip_00.BL_BT_GhostShip_00",
+        "UseTimeFrame": "EMapTimeFrame::DAYTIME"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GHOSTSHIP_00_DAYTIMELIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GHOSTSHIP_00_DAYTIMELIGHT",
+        "MapId": "MAPLIST_BATTLE_GHOSTSHIP00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/GhostShip/Level/SL_BT_GhostShip_00_Light_Daytime.SL_BT_GhostShip_00_Light_Daytime",
+        "UseTimeFrame": "EMapTimeFrame::DAYTIME"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GHOSTSHIP_00_DAYTIMEENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GHOSTSHIP_00_DAYTIMEENV",
+        "MapId": "MAPLIST_BATTLE_GHOSTSHIP00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/GhostShip/Level/SL_BT_GhostShip_00_Env_Daytime.SL_BT_GhostShip_00_Env_Daytime",
+        "UseTimeFrame": "EMapTimeFrame::DAYTIME"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GHOSTSHIP_00_EVENINGFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GHOSTSHIP_00_EVENINGFIELD",
+        "MapId": "MAPLIST_BATTLE_GHOSTSHIP00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/GhostShip/Level/BL_BT_GhostShip_00.BL_BT_GhostShip_00",
+        "UseTimeFrame": "EMapTimeFrame::EVENING"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GHOSTSHIP_00_EVENINGLIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GHOSTSHIP_00_EVENINGLIGHT",
+        "MapId": "MAPLIST_BATTLE_GHOSTSHIP00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/GhostShip/Level/SL_BT_GhostShip_00_Light_Evening.SL_BT_GhostShip_00_Light_Evening",
+        "UseTimeFrame": "EMapTimeFrame::EVENING"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GHOSTSHIP_00_EVENINGENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GHOSTSHIP_00_EVENINGENV",
+        "MapId": "MAPLIST_BATTLE_GHOSTSHIP00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/GhostShip/Level/SL_BT_GhostShip_00_Env_Evening.SL_BT_GhostShip_00_Env_Evening",
+        "UseTimeFrame": "EMapTimeFrame::EVENING"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GHOSTSHIP_00_NIGHTFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GHOSTSHIP_00_NIGHTFIELD",
+        "MapId": "MAPLIST_BATTLE_GHOSTSHIP00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/GhostShip/Level/BL_BT_GhostShip_00.BL_BT_GhostShip_00",
+        "UseTimeFrame": "EMapTimeFrame::NIGHT"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GHOSTSHIP_00_NIGHTLIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GHOSTSHIP_00_NIGHTLIGHT",
+        "MapId": "MAPLIST_BATTLE_GHOSTSHIP00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/GhostShip/Level/SL_BT_GhostShip_00_Light_Night.SL_BT_GhostShip_00_Light_Night",
+        "UseTimeFrame": "EMapTimeFrame::NIGHT"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GHOSTSHIP_00_NIGHTENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GHOSTSHIP_00_NIGHTENV",
+        "MapId": "MAPLIST_BATTLE_GHOSTSHIP00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/GhostShip/Level/SL_BT_GhostShip_00_Env_Night.SL_BT_GhostShip_00_Env_Night",
+        "UseTimeFrame": "EMapTimeFrame::NIGHT"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GHOSTSHIP_01_DAYTIMEFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GHOSTSHIP_01_DAYTIMEFIELD",
+        "MapId": "MAPLIST_BATTLE_GHOSTSHIP01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/GhostShip/Level/BL_BT_GhostShip_01.BL_BT_GhostShip_01",
+        "UseTimeFrame": "EMapTimeFrame::DAYTIME"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GHOSTSHIP_01_DAYTIMELIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GHOSTSHIP_01_DAYTIMELIGHT",
+        "MapId": "MAPLIST_BATTLE_GHOSTSHIP01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/GhostShip/Level/SL_BT_GhostShip_01_Light_Daytime.SL_BT_GhostShip_01_Light_Daytime",
+        "UseTimeFrame": "EMapTimeFrame::DAYTIME"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GHOSTSHIP_01_DAYTIMEENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GHOSTSHIP_01_DAYTIMEENV",
+        "MapId": "MAPLIST_BATTLE_GHOSTSHIP01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/GhostShip/Level/SL_BT_GhostShip_01_Env_Daytime.SL_BT_GhostShip_01_Env_Daytime",
+        "UseTimeFrame": "EMapTimeFrame::DAYTIME"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GHOSTSHIP_01_EVENINGFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GHOSTSHIP_01_EVENINGFIELD",
+        "MapId": "MAPLIST_BATTLE_GHOSTSHIP01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/GhostShip/Level/BL_BT_GhostShip_01.BL_BT_GhostShip_01",
+        "UseTimeFrame": "EMapTimeFrame::EVENING"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GHOSTSHIP_01_EVENINGLIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GHOSTSHIP_01_EVENINGLIGHT",
+        "MapId": "MAPLIST_BATTLE_GHOSTSHIP01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/GhostShip/Level/SL_BT_GhostShip_01_Light_Evening.SL_BT_GhostShip_01_Light_Evening",
+        "UseTimeFrame": "EMapTimeFrame::EVENING"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GHOSTSHIP_01_EVENINGENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GHOSTSHIP_01_EVENINGENV",
+        "MapId": "MAPLIST_BATTLE_GHOSTSHIP01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/GhostShip/Level/SL_BT_GhostShip_01_Env_Evening.SL_BT_GhostShip_01_Env_Evening",
+        "UseTimeFrame": "EMapTimeFrame::EVENING"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GHOSTSHIP_01_NIGHTFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GHOSTSHIP_01_NIGHTFIELD",
+        "MapId": "MAPLIST_BATTLE_GHOSTSHIP01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/GhostShip/Level/BL_BT_GhostShip_01.BL_BT_GhostShip_01",
+        "UseTimeFrame": "EMapTimeFrame::NIGHT"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GHOSTSHIP_01_NIGHTLIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GHOSTSHIP_01_NIGHTLIGHT",
+        "MapId": "MAPLIST_BATTLE_GHOSTSHIP01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/GhostShip/Level/SL_BT_GhostShip_01_Light_Night.SL_BT_GhostShip_01_Light_Night",
+        "UseTimeFrame": "EMapTimeFrame::NIGHT"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GHOSTSHIP_01_NIGHTENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GHOSTSHIP_01_NIGHTENV",
+        "MapId": "MAPLIST_BATTLE_GHOSTSHIP01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/GhostShip/Level/SL_BT_GhostShip_01_Env_Night.SL_BT_GhostShip_01_Env_Night",
+        "UseTimeFrame": "EMapTimeFrame::NIGHT"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GARUNATOWER_01_EVENINGFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GARUNATOWER_01_EVENINGFIELD",
+        "MapId": "MAPLIST_BATTLE_GARUNATOWER01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/GarunaTower/Level/BL_BT_GarunaTower_01.BL_BT_GarunaTower_01",
+        "UseTimeFrame": "EMapTimeFrame::DAYTIME"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GARUNATOWER_01_EVENINGLIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GARUNATOWER_01_EVENINGLIGHT",
+        "MapId": "MAPLIST_BATTLE_GARUNATOWER01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/GarunaTower/Level/SL_BT_GarunaTower_01_Daytime_Light.SL_BT_GarunaTower_01_Daytime_Light",
+        "UseTimeFrame": "EMapTimeFrame::DAYTIME"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GARUNATOWER_01_EVENINGENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GARUNATOWER_01_EVENINGENV",
+        "MapId": "MAPLIST_BATTLE_GARUNATOWER01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/GarunaTower/Level/SL_BT_GarunaTower_01_Daytime_Env.SL_BT_GarunaTower_01_Daytime_Env",
+        "UseTimeFrame": "EMapTimeFrame::DAYTIME"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GARUNATOWER_01_DAYTIMEFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GARUNATOWER_01_DAYTIMEFIELD",
+        "MapId": "MAPLIST_BATTLE_GARUNATOWER01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/GarunaTower/Level/BL_BT_GarunaTower_01.BL_BT_GarunaTower_01",
+        "UseTimeFrame": "EMapTimeFrame::EVENING"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GARUNATOWER_01_DAYTIMELIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GARUNATOWER_01_DAYTIMELIGHT",
+        "MapId": "MAPLIST_BATTLE_GARUNATOWER01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/GarunaTower/Level/SL_BT_GarunaTower_01_Evening_Light.SL_BT_GarunaTower_01_Evening_Light",
+        "UseTimeFrame": "EMapTimeFrame::EVENING"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GARUNATOWER_01_DAYTIMEENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GARUNATOWER_01_DAYTIMEENV",
+        "MapId": "MAPLIST_BATTLE_GARUNATOWER01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/GarunaTower/Level/SL_BT_GarunaTower_01_Evening_Env.SL_BT_GarunaTower_01_Evening_Env",
+        "UseTimeFrame": "EMapTimeFrame::EVENING"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GARUNATOWER_01_NIGHTFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GARUNATOWER_01_NIGHTFIELD",
+        "MapId": "MAPLIST_BATTLE_GARUNATOWER01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/GarunaTower/Level/BL_BT_GarunaTower_01.BL_BT_GarunaTower_01",
+        "UseTimeFrame": "EMapTimeFrame::NIGHT"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GARUNATOWER_01_NIGHTLIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GARUNATOWER_01_NIGHTLIGHT",
+        "MapId": "MAPLIST_BATTLE_GARUNATOWER01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/GarunaTower/Level/SL_BT_GarunaTower_01_Night_Light.SL_BT_GarunaTower_01_Night_Light",
+        "UseTimeFrame": "EMapTimeFrame::NIGHT"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GARUNATOWER_01_NIGHTENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GARUNATOWER_01_NIGHTENV",
+        "MapId": "MAPLIST_BATTLE_GARUNATOWER01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/GarunaTower/Level/SL_BT_GarunaTower_01_Night_Env.SL_BT_GarunaTower_01_Night_Env",
+        "UseTimeFrame": "EMapTimeFrame::NIGHT"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_ZOMA_CASTLE00FIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_ZOMA_CASTLE00FIELD",
+        "MapId": "MAPLIST_BATTLE_ZOMA_CASTLE00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Zoma_Castle/Level/BL_BT_ZomaCastle_00.BL_BT_ZomaCastle_00",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_ZOMA_CASTLE00LIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_ZOMA_CASTLE00LIGHT",
+        "MapId": "MAPLIST_BATTLE_ZOMA_CASTLE00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Zoma_Castle/Level/SL_BT_ZomaCastle_00_Light.SL_BT_ZomaCastle_00_Light",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_ZOMA_CASTLE00ENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_ZOMA_CASTLE00ENV",
+        "MapId": "MAPLIST_BATTLE_ZOMA_CASTLE00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Zoma_Castle/Level/SL_BT_ZomaCastle_00_Env.SL_BT_ZomaCastle_00_Env",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_ZOMA_CASTLE10FIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_ZOMA_CASTLE10FIELD",
+        "MapId": "MAPLIST_BATTLE_ZOMA_CASTLE10",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Zoma_Castle/Level/BL_BT_ZomaCastle_10.BL_BT_ZomaCastle_10",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_ZOMA_CASTLE10LIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_ZOMA_CASTLE10LIGHT",
+        "MapId": "MAPLIST_BATTLE_ZOMA_CASTLE10",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Zoma_Castle/Level/SL_BT_ZomaCastle_10_Light.SL_BT_ZomaCastle_10_Light",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_ZOMA_CASTLE10ENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_ZOMA_CASTLE10ENV",
+        "MapId": "MAPLIST_BATTLE_ZOMA_CASTLE10",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Zoma_Castle/Level/SL_BT_ZomaCastle_10_Env.SL_BT_ZomaCastle_10_Env",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_ZOMA_CASTLE11FIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_ZOMA_CASTLE11FIELD",
+        "MapId": "MAPLIST_BATTLE_ZOMA_CASTLE11",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Zoma_Castle/Level/BL_BT_ZomaCastle_11.BL_BT_ZomaCastle_11",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_ZOMA_CASTLE11LIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_ZOMA_CASTLE11LIGHT",
+        "MapId": "MAPLIST_BATTLE_ZOMA_CASTLE11",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Zoma_Castle/Level/SL_BT_ZomaCastle_11_Light.SL_BT_ZomaCastle_11_Light",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_ZOMA_CASTLE11ENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_ZOMA_CASTLE11ENV",
+        "MapId": "MAPLIST_BATTLE_ZOMA_CASTLE11",
+        "Sublevel": "/Game/Nicola/Map/BattleField/Zoma_Castle/Level/SL_BT_ZomaCastle_11_Env.SL_BT_ZomaCastle_11_Env",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GRANDRAGON00FIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GRANDRAGON00FIELD",
+        "MapId": "MAPLIST_BATTLE_GRANDRAGON00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/GranDragon/Level/BL_BT_GranDragon_00.BL_BT_GranDragon_00",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GRANDRAGON00LIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GRANDRAGON00LIGHT",
+        "MapId": "MAPLIST_BATTLE_GRANDRAGON00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/GranDragon/Level/SL_BT_GranDragon_00_Light.SL_BT_GranDragon_00_Light",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GRANDRAGON00ENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GRANDRAGON00ENV",
+        "MapId": "MAPLIST_BATTLE_GRANDRAGON00",
+        "Sublevel": "/Game/Nicola/Map/BattleField/GranDragon/Level/SL_BT_GranDragon_00_Env.SL_BT_GranDragon_00_Env",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GRANDRAGON01FIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GRANDRAGON01FIELD",
+        "MapId": "MAPLIST_BATTLE_GRANDRAGON01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/GranDragon/Level/BL_BT_GranDragon_01.BL_BT_GranDragon_01",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GRANDRAGON01LIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GRANDRAGON01LIGHT",
+        "MapId": "MAPLIST_BATTLE_GRANDRAGON01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/GranDragon/Level/SL_BT_GranDragon_01_Light.SL_BT_GranDragon_01_Light",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GRANDRAGON01ENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_GRANDRAGON01ENV",
+        "MapId": "MAPLIST_BATTLE_GRANDRAGON01",
+        "Sublevel": "/Game/Nicola/Map/BattleField/GranDragon/Level/SL_BT_GranDragon_01_Env.SL_BT_GranDragon_01_Env",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_ROMARIA_BATTLEROADFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_ROMARIA_BATTLEROADFIELD",
+        "MapId": "MAPLIST_BATTLE_ROMARIA_BATTLEROAD",
+        "Sublevel": "/Game/Nicola/Map/BattleField/RomariaBattleRoad/Level/BL_BT_Romaria_BattleRoad.BL_BT_Romaria_BattleRoad",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_ROMARIA_BATTLEROADLIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_ROMARIA_BATTLEROADLIGHT",
+        "MapId": "MAPLIST_BATTLE_ROMARIA_BATTLEROAD",
+        "Sublevel": "/Game/Nicola/Map/BattleField/RomariaBattleRoad/Level/SL_BT_Romaria_BattleRoad_Light.SL_BT_Romaria_BattleRoad_Light",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_ROMARIA_BATTLEROADENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_ROMARIA_BATTLEROADENV",
+        "MapId": "MAPLIST_BATTLE_ROMARIA_BATTLEROAD",
+        "Sublevel": "/Game/Nicola/Map/BattleField/RomariaBattleRoad/Level/SL_BT_Romaria_BattleRaod_Env.SL_BT_Romaria_BattleRaod_Env",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_ROMARIA_BATTLEROADCUTIN": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_ROMARIA_BATTLEROADCUTIN",
+        "MapId": "MAPLIST_BATTLE_ROMARIA_BATTLEROAD",
+        "Sublevel": "/Game/Nicola/Map/BattleField/RomariaBattleRoad/Level/BL_BT_Romaria_BattleRoad_CutIn.BL_BT_Romaria_BattleRoad_CutIn",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_ISIS_BATTLEROAD_EVENINGFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_ISIS_BATTLEROAD_EVENINGFIELD",
+        "MapId": "MAPLIST_BATTLE_ISIS_BATTLEROAD",
+        "Sublevel": "/Game/Nicola/Map/BattleField/IsisBattleRoad/Level/BL_BT_Isis_BattleRoad.BL_BT_Isis_BattleRoad",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_ISIS_BATTLEROAD_EVENINGLIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_ISIS_BATTLEROAD_EVENINGLIGHT",
+        "MapId": "MAPLIST_BATTLE_ISIS_BATTLEROAD",
+        "Sublevel": "/Game/Nicola/Map/BattleField/IsisBattleRoad/Level/SL_BT_Isis_BattleRoad_Light_Daytime.SL_BT_Isis_BattleRoad_Light_Daytime",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_ISIS_BATTLEROAD_EVENINGENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_ISIS_BATTLEROAD_EVENINGENV",
+        "MapId": "MAPLIST_BATTLE_ISIS_BATTLEROAD",
+        "Sublevel": "/Game/Nicola/Map/BattleField/IsisBattleRoad/Level/SL_BT_Isis_BattleRaod_Env_Daytime.SL_BT_Isis_BattleRaod_Env_Daytime",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_ISIS_BATTLEROAD_EVENINGCUTIN": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_ISIS_BATTLEROAD_EVENINGCUTIN",
+        "MapId": "MAPLIST_BATTLE_ISIS_BATTLEROAD",
+        "Sublevel": "/Game/Nicola/Map/BattleField/IsisBattleRoad/Level/BL_BT_Isis_BattleRoad_CutIn.BL_BT_Isis_BattleRoad_CutIn",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SAMANOSA_BATTLEROAD_EVENINGFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SAMANOSA_BATTLEROAD_EVENINGFIELD",
+        "MapId": "MAPLIST_BATTLE_SAMANOSA_BATTLEROAD",
+        "Sublevel": "/Game/Nicola/Map/BattleField/SamanosaBattleRoad/Level/BL_BT_Samanosa_BattleRoad.BL_BT_Samanosa_BattleRoad",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SAMANOSA_BATTLEROAD_EVENINGLIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SAMANOSA_BATTLEROAD_EVENINGLIGHT",
+        "MapId": "MAPLIST_BATTLE_SAMANOSA_BATTLEROAD",
+        "Sublevel": "/Game/Nicola/Map/BattleField/SamanosaBattleRoad/Level/SL_BT_Samanosa_BattleRoad_Light_Daytime.SL_BT_Samanosa_BattleRoad_Light_Daytime",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SAMANOSA_BATTLEROAD_EVENINGENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SAMANOSA_BATTLEROAD_EVENINGENV",
+        "MapId": "MAPLIST_BATTLE_SAMANOSA_BATTLEROAD",
+        "Sublevel": "/Game/Nicola/Map/BattleField/SamanosaBattleRoad/Level/SL_BT_Samanosa_BattleRaod_Env_Daytime.SL_BT_Samanosa_BattleRaod_Env_Daytime",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SAMANOSA_BATTLEROAD_EVENINGCUTIN": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_SAMANOSA_BATTLEROAD_EVENINGCUTIN",
+        "MapId": "MAPLIST_BATTLE_SAMANOSA_BATTLEROAD",
+        "Sublevel": "/Game/Nicola/Map/BattleField/SamanosaBattleRoad/Level/BL_BT_Samanosa_BattleRoad_CutIn.BL_BT_Samanosa_BattleRoad_CutIn",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_JIPANG_BATTLEROADFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_JIPANG_BATTLEROADFIELD",
+        "MapId": "MAPLIST_BATTLE_JIPANG_BATTLEROAD",
+        "Sublevel": "/Game/Nicola/Map/BattleField/JipangBattleRoad/Level/BL_BT_Jipang_BattleRoad.BL_BT_Jipang_BattleRoad",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_JIPANG_BATTLEROADLIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_JIPANG_BATTLEROADLIGHT",
+        "MapId": "MAPLIST_BATTLE_JIPANG_BATTLEROAD",
+        "Sublevel": "/Game/Nicola/Map/BattleField/JipangBattleRoad/Level/SL_BT_Jipang_BattleRoad_Light.SL_BT_Jipang_BattleRoad_Light",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_JIPANG_BATTLEROADENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_JIPANG_BATTLEROADENV",
+        "MapId": "MAPLIST_BATTLE_JIPANG_BATTLEROAD",
+        "Sublevel": "/Game/Nicola/Map/BattleField/JipangBattleRoad/Level/SL_BT_Jipang_BattleRaod_Env.SL_BT_Jipang_BattleRaod_Env",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_JIPANG_BATTLEROADCUTIN": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_JIPANG_BATTLEROADCUTIN",
+        "MapId": "MAPLIST_BATTLE_JIPANG_BATTLEROAD",
+        "Sublevel": "/Game/Nicola/Map/BattleField/JipangBattleRoad/Level/BL_BT_Jipang_BattleRoad_CutIn.BL_BT_Jipang_BattleRoad_CutIn",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_MERCADO_BATTLEROADFIELD": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_MERCADO_BATTLEROADFIELD",
+        "MapId": "MAPLIST_BATTLE_MERCADO_BATTLEROAD",
+        "Sublevel": "/Game/Nicola/Map/BattleField/MercadoBattleRoad/Level/BL_BT_Mercado_BattleRoad.BL_BT_Mercado_BattleRoad",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_MERCADO_BATTLEROADLIGHT": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_MERCADO_BATTLEROADLIGHT",
+        "MapId": "MAPLIST_BATTLE_MERCADO_BATTLEROAD",
+        "Sublevel": "/Game/Nicola/Map/BattleField/MercadoBattleRoad/Level/SL_BT_Mercado_BattleRoad_Light.SL_BT_Mercado_BattleRoad_Light",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_MERCADO_BATTLEROADENV": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_MERCADO_BATTLEROADENV",
+        "MapId": "MAPLIST_BATTLE_MERCADO_BATTLEROAD",
+        "Sublevel": "/Game/Nicola/Map/BattleField/MercadoBattleRoad/Level/SL_BT_Mercado_BattleRaod_Env.SL_BT_Mercado_BattleRaod_Env",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      },
+      "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_MERCADO_BATTLEROADCUTIN": {
+        "SelfId": "MAPLIST_BATTLE_SUBLEVEL_BATTLEMAP_MERCADO_BATTLEROADCUTIN",
+        "MapId": "MAPLIST_BATTLE_MERCADO_BATTLEROAD",
+        "Sublevel": "/Game/Nicola/Map/BattleField/MercadoBattleRoad/Level/BL_BT_Mercado_BattleRoad_CutIn.BL_BT_Mercado_BattleRoad_CutIn",
+        "UseTimeFrame": "EMapTimeFrame::COMMON"
+      }
+    }
+  }
+]

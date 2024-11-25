@@ -1,0 +1,76 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_Medal",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Medal_UI_ItemName": {
+        "SelfId": "Txt_Medal_UI_ItemName",
+        "Text": "{0}"
+      },
+      "Txt_Medal_UI_ItemDetail": {
+        "SelfId": "Txt_Medal_UI_ItemDetail",
+        "Text": "{0}"
+      },
+      "Txt_Medal_UI_RequiredMedal": {
+        "SelfId": "Txt_Medal_UI_RequiredMedal",
+        "Text": "{0}"
+      },
+      "Txt_Medal_UI_ListGuide": {
+        "SelfId": "Txt_Medal_UI_ListGuide",
+        "Text": "しょうひんを　みる"
+      },
+      "Txt_Medal_Message_Start": {
+        "SelfId": "Txt_Medal_Message_Start",
+        "Text": "よくぞ　きた！　わしは　せかいじゅうの\r\nちいさなメダルを　あつめている\r\nおじさんじゃ。"
+      },
+      "Txt_Medal_Message_First": {
+        "SelfId": "Txt_Medal_Message_First",
+        "Text": "もし　メダルを　みつけてきた　ものには\r\nわしの　なけなしの　ほうびを\r\nとらせよう！"
+      },
+      "Txt_Medal_Message_First_Medal": {
+        "SelfId": "Txt_Medal_Message_First_Medal",
+        "Text": "ん？　なんと　メダルを　もってきたか！\r\nどれ　おじさんが　あずかろう！"
+      },
+      "Txt_Medal_Message_Confirm_Medal": {
+        "SelfId": "Txt_Medal_Message_Confirm_Medal",
+        "Text": "ふむ。これまでに　{LEADER}が\r\nもってきたメダルは　ぜんぶで\r\n{VALUE}まい　だな。"
+      },
+      "Txt_Medal_Message_HandoverMedal": {
+        "SelfId": "Txt_Medal_Message_HandoverMedal",
+        "Text": "ほほう。メダルを　もってきたか。\r\nどれ　おじさんが　あずかろう！"
+      },
+      "Txt_Medal_Message_Prize": {
+        "SelfId": "Txt_Medal_Message_Prize",
+        "Text": "よし！　これで　{LEADER}は　\r\nメダルを　{VALUE}まい　あつめたので　\r\nほうびに　{I_NAME}を　あたえよう！"
+      },
+      "Txt_Medal_Message_GetPrize": {
+        "SelfId": "Txt_Medal_Message_GetPrize",
+        "Text": "{LEADER}は\r\n{I_NAME}を　うけとった！"
+      },
+      "Txt_Medal_Message_Confirm": {
+        "SelfId": "Txt_Medal_Message_Confirm",
+        "Text": "{LEADER}からは　げんざい\r\n{VALUE}まいのメダルを\r\nあずかっておる。"
+      },
+      "Txt_Medal_Message_NextPrize": {
+        "SelfId": "Txt_Medal_Message_NextPrize",
+        "Text": "これが　{VALUE}まいに　なったときは\r\n{I_NAME}を　あたえよう。\r\nがんばって　あつめるのじゃぞ！"
+      },
+      "Txt_Medal_Message_MedalComplete": {
+        "SelfId": "Txt_Medal_Message_MedalComplete",
+        "Text": "{LEADER}！　よくぞ　{VALUE}まいも\r\nメダルを　あつめてくれた！<KEY_WAIT>\r\nこれで　わしからの　ほうびの　しなも\r\nおしまいじゃ。\r\n<KEY_WAIT>\r\nこれからも　その　たんきゅうしんを\r\nわすれずに　せかいじゅうの　ひとびとのため\r\nがんばってくれい。<KEY_WAIT>\r\nわしも　かげながら\r\nおうえん　しておるぞ！\r\n"
+      },
+      "Txt_Medal_Message_GetPrizeFailere": {
+        "SelfId": "Txt_Medal_Message_GetPrizeFailere",
+        "Text": "と　おもったが　もちきれない　ようじゃのう…\r\nもてるように　なってから　また　くるがいい。"
+      }
+    }
+  }
+]

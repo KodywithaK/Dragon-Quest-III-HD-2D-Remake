@@ -1,0 +1,231 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_PS5_Activity",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_PS5_ActivityTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "PS5_ACTIVITY_STORY_KillBaramos": {
+        "SelfId": "PS5_ACTIVITY_STORY_KillBaramos",
+        "StartTriggerEventID": "MAIN_ALIAHAN_ArriveCastle",
+        "EndTriggerEventID": "MAIN_ALIAHAN_DreamDragon"
+      },
+      "PS5_ACTIVITY_TASK_LeaveAliahan": {
+        "SelfId": "PS5_ACTIVITY_TASK_LeaveAliahan",
+        "StartTriggerEventID": "MAIN_ALIAHAN_ArriveCastle",
+        "EndTriggerEventID": "MAIN_IZANAICAVE_Warp"
+      },
+      "PS5_ACTIVITY_SUBTASK_ArriveReeve": {
+        "SelfId": "PS5_ACTIVITY_SUBTASK_ArriveReeve",
+        "StartTriggerEventID": "MAIN_ALIAHAN_ArriveCastle",
+        "EndTriggerEventID": "MAIN_REEVE_ArriveOut"
+      },
+      "PS5_ACTIVITY_SUBTASK_GetMagicBall": {
+        "SelfId": "PS5_ACTIVITY_SUBTASK_GetMagicBall",
+        "StartTriggerEventID": "MAIN_ALIAHAN_ArriveCastle",
+        "EndTriggerEventID": "MAIN_REEVE_GetMagicBall"
+      },
+      "PS5_ACTIVITY_SUBTASK_GetWorldMap": {
+        "SelfId": "PS5_ACTIVITY_SUBTASK_GetWorldMap",
+        "StartTriggerEventID": "MAIN_ALIAHAN_ArriveCastle",
+        "EndTriggerEventID": "MAIN_IZANAICAVE_GetWorldMap"
+      },
+      "PS5_ACTIVITY_SUBTASK_GetOutHokora": {
+        "SelfId": "PS5_ACTIVITY_SUBTASK_GetOutHokora",
+        "StartTriggerEventID": "MAIN_ALIAHAN_ArriveCastle",
+        "EndTriggerEventID": "MAIN_IZANAICAVE_Warp"
+      },
+      "PS5_ACTIVITY_TASK_GoPortoga": {
+        "SelfId": "PS5_ACTIVITY_TASK_GoPortoga",
+        "StartTriggerEventID": "MAIN_ROMARIAROAD_TalkHawker",
+        "EndTriggerEventID": "MAIN_PORTOGA_GetLetter"
+      },
+      "PS5_ACTIVITY_SUBTASK_DefeatKandata_1": {
+        "SelfId": "PS5_ACTIVITY_SUBTASK_DefeatKandata_1",
+        "StartTriggerEventID": "MAIN_ROMARIAROAD_TalkHawker",
+        "EndTriggerEventID": "MAIN_SHAMPANETOWER_DefeatKandata"
+      },
+      "PS5_ACTIVITY_SUBTASK_GetMagicKey": {
+        "SelfId": "PS5_ACTIVITY_SUBTASK_GetMagicKey",
+        "StartTriggerEventID": "MAIN_ROMARIAROAD_TalkHawker",
+        "EndTriggerEventID": "MAIN_PYRAMID_GetMagicKey"
+      },
+      "PS5_ACTIVITY_SUBTASK_GetLetter": {
+        "SelfId": "PS5_ACTIVITY_SUBTASK_GetLetter",
+        "StartTriggerEventID": "MAIN_ROMARIAROAD_TalkHawker",
+        "EndTriggerEventID": "MAIN_PORTOGA_GetLetter"
+      },
+      "PS5_ACTIVITY_TASK_GetPepper": {
+        "SelfId": "PS5_ACTIVITY_TASK_GetPepper",
+        "StartTriggerEventID": "MAIN_PORTOGA_GetLetter",
+        "EndTriggerEventID": "MAIN_PORTOGA_TalkWithPepper"
+      },
+      "PS5_ACTIVITY_SUBTASK_OpenCave": {
+        "SelfId": "PS5_ACTIVITY_SUBTASK_OpenCave",
+        "StartTriggerEventID": "MAIN_PORTOGA_GetLetter",
+        "EndTriggerEventID": "MAIN_NORUDCAVE_OpenCave"
+      },
+      "PS5_ACTIVITY_SUBTASK_DefeatKandata_2": {
+        "SelfId": "PS5_ACTIVITY_SUBTASK_DefeatKandata_2",
+        "StartTriggerEventID": "MAIN_PORTOGA_GetLetter",
+        "EndTriggerEventID": "MAIN_BAHARATAEASTCAVE_DefeatKandata"
+      },
+      "PS5_ACTIVITY_SUBTASK_TalkGuptaAfterRescue": {
+        "SelfId": "PS5_ACTIVITY_SUBTASK_TalkGuptaAfterRescue",
+        "StartTriggerEventID": "MAIN_PORTOGA_GetLetter",
+        "EndTriggerEventID": "MAIN_BAHARATA_TalkGuptaAfterRescue"
+      },
+      "PS5_ACTIVITY_SUBTASK_GetPepper": {
+        "SelfId": "PS5_ACTIVITY_SUBTASK_GetPepper",
+        "StartTriggerEventID": "MAIN_PORTOGA_GetLetter",
+        "EndTriggerEventID": "MAIN_BAHARATA_GetPepper"
+      },
+      "PS5_ACTIVITY_SUBTASK_TalkWithPepper": {
+        "SelfId": "PS5_ACTIVITY_SUBTASK_TalkWithPepper",
+        "StartTriggerEventID": "MAIN_PORTOGA_GetLetter",
+        "EndTriggerEventID": "MAIN_PORTOGA_TalkWithPepper"
+      },
+      "PS5_ACTIVITY_TASK_GetAllOrb": {
+        "SelfId": "PS5_ACTIVITY_TASK_GetAllOrb",
+        "StartTriggerEventID": "MAIN_PORTOGA_TalkWithPepper",
+        "EndTriggerEventID": "MAIN_MULTI_GetAllOrb"
+      },
+      "PS5_ACTIVITY_SUBTASK_GetBlueOrb": {
+        "SelfId": "PS5_ACTIVITY_SUBTASK_GetBlueOrb",
+        "StartTriggerEventID": "MAIN_PORTOGA_TalkWithPepper",
+        "EndTriggerEventID": "MAIN_GAIANAVEL_GetBlueOrb"
+      },
+      "PS5_ACTIVITY_SUBTASK_GetGreenOrb": {
+        "SelfId": "PS5_ACTIVITY_SUBTASK_GetGreenOrb",
+        "StartTriggerEventID": "MAIN_PORTOGA_TalkWithPepper",
+        "EndTriggerEventID": "MAIN_TEDON_GetGreenOrb"
+      },
+      "PS5_ACTIVITY_SUBTASK_GetRedOrb": {
+        "SelfId": "PS5_ACTIVITY_SUBTASK_GetRedOrb",
+        "StartTriggerEventID": "MAIN_PORTOGA_TalkWithPepper",
+        "EndTriggerEventID": "MAIN_PIRATESBASE_GetRedOrb"
+      },
+      "PS5_ACTIVITY_SUBTASK_GetYellowOrb": {
+        "SelfId": "PS5_ACTIVITY_SUBTASK_GetYellowOrb",
+        "StartTriggerEventID": "MAIN_PORTOGA_TalkWithPepper",
+        "EndTriggerEventID": "MAIN_BURG_GetYellowOrb"
+      },
+      "PS5_ACTIVITY_SUBTASK_GetSilverOrb": {
+        "SelfId": "PS5_ACTIVITY_SUBTASK_GetSilverOrb",
+        "StartTriggerEventID": "MAIN_PORTOGA_TalkWithPepper",
+        "EndTriggerEventID": "MAIN_NECROGONDSHRINE_GetSilverOrb"
+      },
+      "PS5_ACTIVITY_SUBTASK_GetPurpleOrb": {
+        "SelfId": "PS5_ACTIVITY_SUBTASK_GetPurpleOrb",
+        "StartTriggerEventID": "MAIN_PORTOGA_TalkWithPepper",
+        "EndTriggerEventID": "MAIN_JIPANG_DefeatOrochi"
+      },
+      "PS5_ACTIVITY_TASK_DevoteAllOrb": {
+        "SelfId": "PS5_ACTIVITY_TASK_DevoteAllOrb",
+        "StartTriggerEventID": "MAIN_MULTI_GetAllOrb",
+        "EndTriggerEventID": "MAIN_REIAMULAND_RevivalLamia"
+      },
+      "PS5_ACTIVITY_TASK_KillBaramos": {
+        "SelfId": "PS5_ACTIVITY_TASK_KillBaramos",
+        "StartTriggerEventID": "MAIN_REIAMULAND_RevivalLamia",
+        "EndTriggerEventID": "MAIN_ALIAHAN_BackHome"
+      },
+      "PS5_ACTIVITY_SUBTASK_ArriveBaramosCastle": {
+        "SelfId": "PS5_ACTIVITY_SUBTASK_ArriveBaramosCastle",
+        "StartTriggerEventID": "MAIN_REIAMULAND_RevivalLamia",
+        "EndTriggerEventID": "MAIN_BARAMOSCASTLE_ArriveCastle"
+      },
+      "PS5_ACTIVITY_SUBTASK_KillBaramos": {
+        "SelfId": "PS5_ACTIVITY_SUBTASK_KillBaramos",
+        "StartTriggerEventID": "MAIN_REIAMULAND_RevivalLamia",
+        "EndTriggerEventID": "MAIN_BARAMOSCASTLE_DefeatBaramos"
+      },
+      "PS5_ACTIVITY_SUBTASK_BackHome": {
+        "SelfId": "PS5_ACTIVITY_SUBTASK_BackHome",
+        "StartTriggerEventID": "MAIN_REIAMULAND_RevivalLamia",
+        "EndTriggerEventID": "MAIN_ALIAHAN_BackHome"
+      },
+      "PS5_ACTIVITY_STORY_KillZoma": {
+        "SelfId": "PS5_ACTIVITY_STORY_KillZoma",
+        "StartTriggerEventID": "MAIN_ALIAHAN_DreamDragon",
+        "EndTriggerEventID": "MAIN_Ludatorm_Ending"
+      },
+      "PS5_ACTIVITY_TASK_SearchCastle": {
+        "SelfId": "PS5_ACTIVITY_TASK_SearchCastle",
+        "StartTriggerEventID": "MAIN_ALIAHAN_DreamDragon",
+        "EndTriggerEventID": "MAIN_DRAGONQUEEN_GetShineBall"
+      },
+      "PS5_ACTIVITY_SUBTASK_SerchCastle": {
+        "SelfId": "PS5_ACTIVITY_SUBTASK_SerchCastle",
+        "StartTriggerEventID": "MAIN_ALIAHAN_DreamDragon",
+        "EndTriggerEventID": "MAIN_DRAGONQUEEN_ArriveOut"
+      },
+      "PS5_ACTIVITY_SUBTASK_GetShineBall": {
+        "SelfId": "PS5_ACTIVITY_SUBTASK_GetShineBall",
+        "StartTriggerEventID": "MAIN_ALIAHAN_DreamDragon",
+        "EndTriggerEventID": "MAIN_DRAGONQUEEN_GetShineBall"
+      },
+      "PS5_ACTIVITY_TASK_GoAlefgard": {
+        "SelfId": "PS5_ACTIVITY_TASK_GoAlefgard",
+        "StartTriggerEventID": "MAIN_DRAGONQUEEN_GetShineBall",
+        "EndTriggerEventID": "MAIN_GIAGAPIT_ArriveAlefgard"
+      },
+      "PS5_ACTIVITY_TASK_GetRainbowDrop": {
+        "SelfId": "PS5_ACTIVITY_TASK_GetRainbowDrop",
+        "StartTriggerEventID": "MAIN_WESTPORT_TalkArakure",
+        "EndTriggerEventID": "MAIN_HOLYSHRINE_GetRainbowDrop"
+      },
+      "PS5_ACTIVITY_SUBTASK_GetSunStone": {
+        "SelfId": "PS5_ACTIVITY_SUBTASK_GetSunStone",
+        "StartTriggerEventID": "MAIN_WESTPORT_TalkArakure",
+        "EndTriggerEventID": "MAIN_LUDATORM_GetSunStone"
+      },
+      "PS5_ACTIVITY_SUBTASK_GetRainStick": {
+        "SelfId": "PS5_ACTIVITY_SUBTASK_GetRainStick",
+        "StartTriggerEventID": "MAIN_WESTPORT_TalkArakure",
+        "EndTriggerEventID": "MAIN_SPIRITSHRINE_GetRainStick"
+      },
+      "PS5_ACTIVITY_SUBTASK_GetSacredAmulet": {
+        "SelfId": "PS5_ACTIVITY_SUBTASK_GetSacredAmulet",
+        "StartTriggerEventID": "MAIN_WESTPORT_TalkArakure",
+        "EndTriggerEventID": "MAIN_RUBISSTOWER_Dispel"
+      },
+      "PS5_ACTIVITY_SUBTASK_GetRainbowDrop": {
+        "SelfId": "PS5_ACTIVITY_SUBTASK_GetRainbowDrop",
+        "StartTriggerEventID": "MAIN_WESTPORT_TalkArakure",
+        "EndTriggerEventID": "MAIN_HOLYSHRINE_GetRainbowDrop"
+      },
+      "PS5_ACTIVITY_TASK_GoZomaCastle": {
+        "SelfId": "PS5_ACTIVITY_TASK_GoZomaCastle",
+        "StartTriggerEventID": "MAIN_HOLYSHRINE_GetRainbowDrop",
+        "EndTriggerEventID": "MAIN_ZOMACASTLE_Arrive1F"
+      },
+      "PS5_ACTIVITY_TASK_KillZoma": {
+        "SelfId": "PS5_ACTIVITY_TASK_KillZoma",
+        "StartTriggerEventID": "MAIN_ZOMACASTLE_Arrive1F",
+        "EndTriggerEventID": "MAIN_HEROCAVE_Warp"
+      },
+      "PS5_ACTIVITY_TASK_GoOutCave": {
+        "SelfId": "PS5_ACTIVITY_TASK_GoOutCave",
+        "StartTriggerEventID": "MAIN_HEROCAVE_Warp",
+        "EndTriggerEventID": "MAIN_HEROCAVE_GoOut"
+      },
+      "PS5_ACTIVITY_TASK_Ending": {
+        "SelfId": "PS5_ACTIVITY_TASK_Ending",
+        "StartTriggerEventID": "MAIN_HEROCAVE_GoOut",
+        "EndTriggerEventID": "MAIN_Ludatorm_Ending"
+      },
+      "PS5_ACTIVITY_STORY_Resume": {
+        "SelfId": "PS5_ACTIVITY_STORY_Resume",
+        "StartTriggerEventID": "MAIN_Ludatorm_Ending",
+        "EndTriggerEventID": ""
+      }
+    }
+  }
+]

@@ -1,0 +1,100 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_NPC_Talk_WestPort",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Talk_WestPort_Out_MAIN_0_ACTOR_0120_010_1": {
+        "SelfId": "Txt_Talk_WestPort_Out_MAIN_0_ACTOR_0120_010_1",
+        "Text": "*: Quelle estoit l'origine de cet horrible hourvari?\r\nD'où provenez-vous, je vous prie?"
+      },
+      "Txt_Talk_WestPort_Out_MAIN_0_ACTOR_0120_010_3": {
+        "SelfId": "Txt_Talk_WestPort_Out_MAIN_0_ACTOR_0120_010_3",
+        "Text": "*: Bigre. Vous semblez <IfGender_LEADER(harassé de fatigue,harassée de fatigue,)>.\r\nVeuillez entrer dans mon humble demeure et me narrer ce qui vous arriva."
+      },
+      "Txt_Talk_WestPort_House_MAIN_0_ACTOR_0120_010_1": {
+        "SelfId": "Txt_Talk_WestPort_House_MAIN_0_ACTOR_0120_010_1",
+        "Text": "*: ... Vous escomptez vaincre le Seigneur des Enfers?<!>"
+      },
+      "Txt_Talk_WestPort_House_MAIN_0_ACTOR_0120_010_2": {
+        "SelfId": "Txt_Talk_WestPort_House_MAIN_0_ACTOR_0120_010_2",
+        "Text": "*: Sacrebleu, vous n'estes point quelqu'un à sous-estimer."
+      },
+      "Txt_Talk_WestPort_House_MAIN_0_ACTOR_0120_010_3": {
+        "SelfId": "Txt_Talk_WestPort_House_MAIN_0_ACTOR_0120_010_3",
+        "Text": "*: Nulle ame en Alefgard n'oseroit mesme songer à accomplir pareille prouesse.\r\nNenni, nous préférons vivoter, courbés sous la menace du daemon..."
+      },
+      "Txt_Talk_WestPort_House_MAIN_0_ACTOR_0120_010_3_2": {
+        "SelfId": "Txt_Talk_WestPort_House_MAIN_0_ACTOR_0120_010_3_2",
+        "Text": "*: Néanmoins, vostre voie est libre."
+      },
+      "Txt_Talk_WestPort_House_MAIN_0_ACTOR_0120_010_3_3": {
+        "SelfId": "Txt_Talk_WestPort_House_MAIN_0_ACTOR_0120_010_3_3",
+        "Text": "*: Prenez à l'est pour la cité fortifiée de Tantegel."
+      },
+      "Txt_Talk_WestPort_House_MAIN_0_ACTOR_0120_010_3_4": {
+        "SelfId": "Txt_Talk_WestPort_House_MAIN_0_ACTOR_0120_010_3_4",
+        "Text": "*: De là, traversez les mers du sud pour rejoindre l'isle de l'Archidaemon."
+      },
+      "Txt_Talk_WestPort_House_MAIN_0_ACTOR_0120_010_3_5": {
+        "SelfId": "Txt_Talk_WestPort_House_MAIN_0_ACTOR_0120_010_3_5",
+        "Text": "*: C'est là que vous trouverez le castel du redoutable Seigneur des Enfers."
+      },
+      "Txt_Talk_WestPort_House_MAIN_0_ACTOR_0120_010_4": {
+        "SelfId": "Txt_Talk_WestPort_House_MAIN_0_ACTOR_0120_010_4",
+        "Text": "*: Une carte du royaulme vous seroit-elle utile?\r\nElle aura mieux fait de vous servir, plutost que de jaunir sottement chez moi."
+      },
+      "Txt_Talk_WestPort_House_MAIN_0_ACTOR_0120_010_5": {
+        "SelfId": "Txt_Talk_WestPort_House_MAIN_0_ACTOR_0120_010_5",
+        "Text": "{LEADER} reçoit <IndefSgl_I_NAME>!"
+      },
+      "Txt_Talk_WestPort_House_MAIN_0_ACTOR_0120_010_6": {
+        "SelfId": "Txt_Talk_WestPort_House_MAIN_0_ACTOR_0120_010_6",
+        "Text": "*: Oh, et n'hésitez point à user du vaisseau amarré là dehors.\r\nPuisse-t-il vous aider dans vostre queste."
+      },
+      "Txt_Talk_WestPort_House_MAIN_0_ACTOR_0120_010_7": {
+        "SelfId": "Txt_Talk_WestPort_House_MAIN_0_ACTOR_0120_010_7",
+        "Text": "*: N'oubliez point: le Ciel sourit aux braves."
+      },
+      "Txt_Talk_WestPort_House_MAIN_0_ACTOR_0120_020_1": {
+        "SelfId": "Txt_Talk_WestPort_House_MAIN_0_ACTOR_0120_020_1",
+        "Text": "*: Nulle ame en Alefgard n'oseroit mesme songer à accomplir pareille prouesse.\r\nNenni, nous préférons vivoter, courbés sous la menace du daemon..."
+      },
+      "Txt_Talk_WestPort_House_MAIN_0_ACTOR_0120_020_2": {
+        "SelfId": "Txt_Talk_WestPort_House_MAIN_0_ACTOR_0120_020_2",
+        "Text": "*: Mais n'oubliez point: le Ciel sourit aux braves."
+      },
+      "Txt_Talk_WestPort_House_SUB_0_ACTOR_0110_010_1": {
+        "SelfId": "Txt_Talk_WestPort_House_SUB_0_ACTOR_0110_010_1",
+        "Text": "*: <IfGender_LEADER(Étranger,Étrangère,)>, vous estes <IfGender_LEADER(arrivé,arrivée,)> à point nommé!\r\nMaintenant accrochez-vous, cela risque de secouer!"
+      },
+      "Txt_Talk_WestPort_House_SUB_0_ACTOR_0110_010_2": {
+        "SelfId": "Txt_Talk_WestPort_House_SUB_0_ACTOR_0110_010_2",
+        "Text": "*: Le mal supresme a été terrassé, et la paix règne à nouveau sur ces contrées!"
+      },
+      "Txt_Talk_WestPort_House_SUB_0_ACTOR_0110_010_3": {
+        "SelfId": "Txt_Talk_WestPort_House_SUB_0_ACTOR_0110_010_3",
+        "Text": "*: Hmm? Vous le saviez déjà?\r\nA-ainsi, vous seriez <IfGender_LEADER(icelui,icelle,)> qui auroit vaincu l'affreuse beste?\r\nM-morbleu!"
+      },
+      "Txt_Talk_WestPort_Out_SUB_0_ACTOR_0220_010_1": {
+        "SelfId": "Txt_Talk_WestPort_Out_SUB_0_ACTOR_0220_010_1",
+        "Text": "*: Si d'aventure tu partois vers l'est, tu arriverois sous peu à la puissante cité fortifiée de Tantegel."
+      },
+      "Txt_Talk_WestPort_Out_SUB_0_ACTOR_0220_010_2": {
+        "SelfId": "Txt_Talk_WestPort_Out_SUB_0_ACTOR_0220_010_2",
+        "Text": "*: Si jamais tu as besoin d'un navire, utilise icelui à ta guise.\r\nIl appartenait jadis à mon père. Il est à l'abandon, de nos jours."
+      },
+      "Txt_Talk_WestPort_Out_SUB_0_ACTOR_0210_010_1": {
+        "SelfId": "Txt_Talk_WestPort_Out_SUB_0_ACTOR_0210_010_1",
+        "Text": "*: Hourra! Enfin, la paix est revenue sur le monde!"
+      }
+    }
+  }
+]

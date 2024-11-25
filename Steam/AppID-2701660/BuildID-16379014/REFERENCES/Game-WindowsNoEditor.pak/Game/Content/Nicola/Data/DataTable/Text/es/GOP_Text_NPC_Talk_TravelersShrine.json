@@ -1,0 +1,32 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_NPC_Talk_TravelersShrine",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Talk_TravelersShrine_1F_SUB_0_ACTOR_0210_010_1": {
+        "SelfId": "Txt_Talk_TravelersShrine_1F_SUB_0_ACTOR_0210_010_1",
+        "Text": "*: <IfGender_LEADER(Bienvenido,Bienvenida,)>, <IfGender_LEADER(hijo,hija,)>, a nuestra humilde capilla, construida para servir a los marineros descarriados."
+      },
+      "Txt_Talk_TravelersShrine_1F_SUB_0_ACTOR_0210_010_2": {
+        "SelfId": "Txt_Talk_TravelersShrine_1F_SUB_0_ACTOR_0210_010_2",
+        "Text": "*: Tiempo ha, los aldeanos de Tedón también formaban parte de nuestro rebaño. Por desgracia..., ya no."
+      },
+      "Txt_Talk_TravelersShrine_1F_SUB_0_ACTOR_0210_010_3": {
+        "SelfId": "Txt_Talk_TravelersShrine_1F_SUB_0_ACTOR_0210_010_3",
+        "Text": "*: ¿Cómo? ¿Que <IfSolo(deseas,deseáis)> visitar la aldea?"
+      },
+      "Txt_Talk_TravelersShrine_1F_SUB_0_ACTOR_0210_010_4": {
+        "SelfId": "Txt_Talk_TravelersShrine_1F_SUB_0_ACTOR_0210_010_4",
+        "Text": "*: En ese caso, navega<IfSolo(,d)> hacia el sureste y <IfSolo(sigue,seguid)> el gran río. A no mucho tardar, <IfSolo(alcanzarás,alcanzaréis)> Tedón."
+      }
+    }
+  }
+]

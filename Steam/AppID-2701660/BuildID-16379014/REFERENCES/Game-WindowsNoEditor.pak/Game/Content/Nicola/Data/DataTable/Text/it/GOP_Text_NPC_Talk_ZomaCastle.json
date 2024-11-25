@@ -1,0 +1,248 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_NPC_Talk_ZomaCastle",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Talk_ZomaCastle_1F_MAIN_0_VOLUME_0010_020_1": {
+        "SelfId": "Txt_Talk_ZomaCastle_1F_MAIN_0_VOLUME_0010_020_1",
+        "Text": "All'improvviso, <IfSolo({LEADER} sente,il gruppo sente)> una voce..."
+      },
+      "Txt_Talk_ZomaCastle_1F_MAIN_0_VOLUME_0010_020_2": {
+        "SelfId": "Txt_Talk_ZomaCastle_1F_MAIN_0_VOLUME_0010_020_2",
+        "Text": "Siamo l'avanguardia dell'esercito del Signore degli Inferi!"
+      },
+      "Txt_Talk_ZomaCastle_1F_MAIN_0_VOLUME_0010_020_3": {
+        "SelfId": "Txt_Talk_ZomaCastle_1F_MAIN_0_VOLUME_0010_020_3",
+        "Text": "Nessuno può passare!"
+      },
+      "Txt_Talk_ZomaCastle_B3FB_SUB_0_VOLUME_0010_010_1": {
+        "SelfId": "Txt_Talk_ZomaCastle_B3FB_SUB_0_VOLUME_0010_010_1",
+        "Text": "(slurp?)"
+      },
+      "Txt_Talk_ZomaCastle_B3FB_SUB_0_VOLUME_0010_010_2": {
+        "SelfId": "Txt_Talk_ZomaCastle_B3FB_SUB_0_VOLUME_0010_010_2",
+        "Text": "{LEADER} calma il mostro con voce suadente e gli parla del serraglio di mostri di Mister Muster..."
+      },
+      "Txt_Talk_ZomaCastle_B3FB_SUB_0_VOLUME_0010_010_3": {
+        "SelfId": "Txt_Talk_ZomaCastle_B3FB_SUB_0_VOLUME_0010_010_3",
+        "Text": "Sarebbe faaantastico!"
+      },
+      "Txt_Talk_ZomaCastle_B4F_MAIN_0_VOLUME_0010_010_1": {
+        "SelfId": "Txt_Talk_ZomaCastle_B4F_MAIN_0_VOLUME_0010_010_1",
+        "Text": "<IfSolo({LEADER} vede,Il gruppo vede)> una figura solitaria sul ponte, impegnata in un combattimento mortale con un mostro a più teste!"
+      },
+      "Txt_Talk_ZomaCastle_B4F_MAIN_0_VOLUME_0010_010_2": {
+        "SelfId": "Txt_Talk_ZomaCastle_B4F_MAIN_0_VOLUME_0010_010_2",
+        "Text": "{HERO}... risveglia... la tua... forza..."
+      },
+      "Txt_Talk_ZomaCastle_B4F_MAIN_0_VOLUME_0010_010_3": {
+        "SelfId": "Txt_Talk_ZomaCastle_B4F_MAIN_0_VOLUME_0010_010_3",
+        "Text": "Io... non ce la faccio... più... Ti prego, {HERO}... salva... tega..."
+      },
+      "Txt_Talk_ZomaCastle_B4F_MAIN_0_VOLUME_0010_010_4": {
+        "SelfId": "Txt_Talk_ZomaCastle_B4F_MAIN_0_VOLUME_0010_010_4",
+        "Text": "Non puoi tornare indietro adesso!"
+      },
+      "Txt_Talk_ZomaCastle_B4F_MAIN_0_VOLUME_0010_020_1": {
+        "SelfId": "Txt_Talk_ZomaCastle_B4F_MAIN_0_VOLUME_0010_020_1",
+        "Text": "C-C'è qualcuno?"
+      },
+      "Txt_Talk_ZomaCastle_B4F_MAIN_0_VOLUME_0010_020_2": {
+        "SelfId": "Txt_Talk_ZomaCastle_B4F_MAIN_0_VOLUME_0010_020_2",
+        "Text": "Sembra che non mi funzionino né occhi né orecchie..."
+      },
+      "Txt_Talk_ZomaCastle_B4F_MAIN_0_VOLUME_0010_020_3": {
+        "SelfId": "Txt_Talk_ZomaCastle_B4F_MAIN_0_VOLUME_0010_020_3",
+        "Text": "{HERO} stringe la mano di Ortega."
+      },
+      "Txt_Talk_ZomaCastle_B4F_MAIN_0_VOLUME_0010_020_4": {
+        "SelfId": "Txt_Talk_ZomaCastle_B4F_MAIN_0_VOLUME_0010_020_4",
+        "Text": "Oh, sia lodata la Dea! Ascolta, probabilmente non mi conosci, ma devi trasmettere un mio messaggio."
+      },
+      "Txt_Talk_ZomaCastle_B4F_MAIN_0_VOLUME_0010_020_5": {
+        "SelfId": "Txt_Talk_ZomaCastle_B4F_MAIN_0_VOLUME_0010_020_5",
+        "Text": "Fino a non molto tempo fa, la mia mente era annebbiata. Ma ora ricordo tutto: io sono Ortega di Aliahan."
+      },
+      "Txt_Talk_ZomaCastle_B4F_MAIN_0_VOLUME_0010_020_6": {
+        "SelfId": "Txt_Talk_ZomaCastle_B4F_MAIN_0_VOLUME_0010_020_6",
+        "Text": "Io... ho abbandonato la mia amata moglie e <IfGender_HERO(il mio bambino,la mia bambina,)> per compiere una missione. Missione che temo essere ormai giunta a una fine prematura..."
+      },
+      "Txt_Talk_ZomaCastle_B4F_MAIN_0_VOLUME_0010_020_7": {
+        "SelfId": "Txt_Talk_ZomaCastle_B4F_MAIN_0_VOLUME_0010_020_7",
+        "Text": "Cosa non darei per stringere le mani <IfGender_HERO(del mio piccolino,della mia piccolina,)>... E <IfGender_HERO(dargli,darle,)> qualcosa per ricordarsi di me..."
+      },
+      "Txt_Talk_ZomaCastle_B4F_MAIN_0_VOLUME_0010_020_8": {
+        "SelfId": "Txt_Talk_ZomaCastle_B4F_MAIN_0_VOLUME_0010_020_8",
+        "Text": "Oh, <IfGender_HERO(figlio mio,figlia mia,)>. Devi odiarmi così tanto..."
+      },
+      "Txt_Talk_ZomaCastle_B4F_MAIN_0_VOLUME_0010_020_9": {
+        "SelfId": "Txt_Talk_ZomaCastle_B4F_MAIN_0_VOLUME_0010_020_9",
+        "Text": "Il mio cuore è da tempo colmo di rimpianto al pensiero che questo viaggio ha distrutto la mia famiglia."
+      },
+      "Txt_Talk_ZomaCastle_B4F_MAIN_0_VOLUME_0010_020_10": {
+        "SelfId": "Txt_Talk_ZomaCastle_B4F_MAIN_0_VOLUME_0010_020_10",
+        "Text": "Se solo avessi potuto trascorrere più tempo con loro..."
+      },
+      "Txt_Talk_ZomaCastle_B4F_MAIN_0_VOLUME_0010_020_11": {
+        "SelfId": "Txt_Talk_ZomaCastle_B4F_MAIN_0_VOLUME_0010_020_11",
+        "Text": "Vuoi rivelare a Ortega la tua identità?"
+      },
+      "Txt_Talk_ZomaCastle_B4F_MAIN_0_VOLUME_0010_020_12": {
+        "SelfId": "Txt_Talk_ZomaCastle_B4F_MAIN_0_VOLUME_0010_020_12",
+        "Text": "{HERO} stringe la mano di Ortega ed esclama che <IfGender_HERO(suo figlio,sua figlia,)> è proprio davanti a lui!"
+      },
+      "Txt_Talk_ZomaCastle_B4F_MAIN_0_VOLUME_0010_020_13": {
+        "SelfId": "Txt_Talk_ZomaCastle_B4F_MAIN_0_VOLUME_0010_020_13",
+        "Text": "Perdonami, so che stai cercando di dirmi qualcosa..."
+      },
+      "Txt_Talk_ZomaCastle_B4F_MAIN_0_VOLUME_0010_020_14": {
+        "SelfId": "Txt_Talk_ZomaCastle_B4F_MAIN_0_VOLUME_0010_020_14",
+        "Text": "Ma non riesco a sentirti."
+      },
+      "Txt_Talk_ZomaCastle_B4F_MAIN_0_VOLUME_0010_020_15": {
+        "SelfId": "Txt_Talk_ZomaCastle_B4F_MAIN_0_VOLUME_0010_020_15",
+        "Text": "Per lo meno riesco a sentire il calore della tua mano."
+      },
+      "Txt_Talk_ZomaCastle_B4F_MAIN_0_VOLUME_0010_020_16": {
+        "SelfId": "Txt_Talk_ZomaCastle_B4F_MAIN_0_VOLUME_0010_020_16",
+        "Text": "Anche se sarebbe stato bello vedere il volto dell'ultima persona con cui ho parlato..."
+      },
+      "Txt_Talk_ZomaCastle_B4F_MAIN_0_VOLUME_0010_020_17": {
+        "SelfId": "Txt_Talk_ZomaCastle_B4F_MAIN_0_VOLUME_0010_020_17",
+        "Text": "Ortega poggia una mano sull'elmo di {HERO}."
+      },
+      "Txt_Talk_ZomaCastle_B4F_MAIN_0_VOLUME_0010_020_18": {
+        "SelfId": "Txt_Talk_ZomaCastle_B4F_MAIN_0_VOLUME_0010_020_18",
+        "Text": "...!"
+      },
+      "Txt_Talk_ZomaCastle_B4F_MAIN_0_VOLUME_0010_020_19": {
+        "SelfId": "Txt_Talk_ZomaCastle_B4F_MAIN_0_VOLUME_0010_020_19",
+        "Text": "È davvero un bell'elmo. Racconta la storia del lungo viaggio che ti ha condotto fin qui..."
+      },
+      "Txt_Talk_ZomaCastle_B4F_MAIN_0_VOLUME_0010_020_20": {
+        "SelfId": "Txt_Talk_ZomaCastle_B4F_MAIN_0_VOLUME_0010_020_20",
+        "Text": "Questi graffi dimostrano che non dev'essere stato semplice, ma nonostante tutto hai resistito."
+      },
+      "Txt_Talk_ZomaCastle_B4F_MAIN_0_VOLUME_0010_020_21": {
+        "SelfId": "Txt_Talk_ZomaCastle_B4F_MAIN_0_VOLUME_0010_020_21",
+        "Text": "Avrò anche fallito come padre e come avventuriero, ma sono certo che tu riuscirai a fare ciò che io non ho potuto."
+      },
+      "Txt_Talk_ZomaCastle_B4F_MAIN_0_VOLUME_0010_020_22": {
+        "SelfId": "Txt_Talk_ZomaCastle_B4F_MAIN_0_VOLUME_0010_020_22",
+        "Text": "Buona fortuna... <IfGender_HERO(figlio mio,figlia mia,)>..."
+      },
+      "Txt_Talk_ZomaCastle_B4F_MAIN_0_VOLUME_0010_020_23": {
+        "SelfId": "Txt_Talk_ZomaCastle_B4F_MAIN_0_VOLUME_0010_020_23",
+        "Text": "Ti prego, se mai dovessi trovarti ad Aliahan..."
+      },
+      "Txt_Talk_ZomaCastle_B4F_MAIN_0_VOLUME_0010_020_24": {
+        "SelfId": "Txt_Talk_ZomaCastle_B4F_MAIN_0_VOLUME_0010_020_24",
+        "Text": "Trova <IfGender_HERO(mio figlio,mia figlia,)> e riferisci queste parole:"
+      },
+      "Txt_Talk_ZomaCastle_B4F_MAIN_0_VOLUME_0010_020_25": {
+        "SelfId": "Txt_Talk_ZomaCastle_B4F_MAIN_0_VOLUME_0010_020_25",
+        "Text": "Mi dispiace... Volevo rendere il mondo un posto migliore... Un posto in cui non avresti dovuto avere paura..."
+      },
+      "Txt_Talk_ZomaCastle_B4F_MAIN_0_VOLUME_0010_020_26": {
+        "SelfId": "Txt_Talk_ZomaCastle_B4F_MAIN_0_VOLUME_0010_020_26",
+        "Text": "E... avrei tanto voluto dirti che ti voglio più bene di quanto tu potrai mai immaginare... Ugh..."
+      },
+      "Txt_Talk_ZomaCastle_B4F_SUB_0_VOLUME_0110_010_1": {
+        "SelfId": "Txt_Talk_ZomaCastle_B4F_SUB_0_VOLUME_0110_010_1",
+        "Text": "..."
+      },
+      "Txt_Talk_ZomaCastle_B4F_SUB_0_VOLUME_0110_010_2": {
+        "SelfId": "Txt_Talk_ZomaCastle_B4F_SUB_0_VOLUME_0110_010_2",
+        "Text": "{LEADER} calma il mostro con voce suadente e gli parla del serraglio di mostri di Mister Muster..."
+      },
+      "Txt_Talk_ZomaCastle_B4F_SUB_0_VOLUME_0110_010_3": {
+        "SelfId": "Txt_Talk_ZomaCastle_B4F_SUB_0_VOLUME_0110_010_3",
+        "Text": "Eh eh... Beh, non ho niente di meglio da fare."
+      },
+      "Txt_Talk_ZomaCastle_B5F_MAIN_0_VOLUME_0010_010_1": {
+        "SelfId": "Txt_Talk_ZomaCastle_B5F_MAIN_0_VOLUME_0010_010_1",
+        "Text": "Dunque, finalmente sei <IfGender_LEADER(arrivato,arrivata,)>... nel luogo del sacrificio!"
+      },
+      "Txt_Talk_ZomaCastle_B5F_MAIN_0_VOLUME_0010_010_2": {
+        "SelfId": "Txt_Talk_ZomaCastle_B5F_MAIN_0_VOLUME_0010_010_2",
+        "Text": "Io sono Zoma, portatore dell'oblio!"
+      },
+      "Txt_Talk_ZomaCastle_B5F_MAIN_0_VOLUME_0010_010_3": {
+        "SelfId": "Txt_Talk_ZomaCastle_B5F_MAIN_0_VOLUME_0010_010_3",
+        "Text": "Tutti sacrificheranno la propria vita in nome della mia gloria! Tutti sprofonderanno nella disperazione! Tutti si inginocchieranno a me!"
+      },
+      "Txt_Talk_ZomaCastle_B5F_MAIN_0_VOLUME_0010_010_4": {
+        "SelfId": "Txt_Talk_ZomaCastle_B5F_MAIN_0_VOLUME_0010_010_4",
+        "Text": "Avanti, offrimi la tua vita!"
+      },
+      "Txt_Talk_ZomaCastle_B5F_MAIN_0_VOLUME_0010_010_5": {
+        "SelfId": "Txt_Talk_ZomaCastle_B5F_MAIN_0_VOLUME_0010_010_5",
+        "Text": "Sorgete, miei servitori! <IfGender_LEADER(Annientatelo,Annientatela,)>! Così che io possa nutrirmi della sua sofferenza!"
+      },
+      "Txt_Talk_ZomaCastle_B5F_MAIN_0_VOLUME_0010_020_1": {
+        "SelfId": "Txt_Talk_ZomaCastle_B5F_MAIN_0_VOLUME_0010_020_1",
+        "Text": "È un vero onore essere di nuovo in tua presenza..."
+      },
+      "Txt_Talk_ZomaCastle_B5F_MAIN_0_VOLUME_0010_020_2": {
+        "SelfId": "Txt_Talk_ZomaCastle_B5F_MAIN_0_VOLUME_0010_020_2",
+        "Text": "Ma questa volta non mi umilierai come hai fatto in quella torre infernale."
+      },
+      "Txt_Talk_ZomaCastle_B5F_MAIN_0_VOLUME_0010_040_1": {
+        "SelfId": "Txt_Talk_ZomaCastle_B5F_MAIN_0_VOLUME_0010_040_1",
+        "Text": "Ti aggrappi ancora alla tua patetica vita?"
+      },
+      "Txt_Talk_ZomaCastle_B5F_MAIN_0_VOLUME_0010_040_2": {
+        "SelfId": "Txt_Talk_ZomaCastle_B5F_MAIN_0_VOLUME_0010_040_2",
+        "Text": "Umpf. Mi sembra doveroso che sia io a provare la gioia di infliggerti il colpo di grazia."
+      },
+      "Txt_Talk_ZomaCastle_B5F_MAIN_0_VOLUME_0010_040_3": {
+        "SelfId": "Txt_Talk_ZomaCastle_B5F_MAIN_0_VOLUME_0010_040_3",
+        "Text": "Vieni avanti. Voglio assistere allo spettacolo della tua morte!"
+      },
+      "Txt_Talk_ZomaCastle_B5F_MAIN_0_VOLUME_0010_040_4": {
+        "SelfId": "Txt_Talk_ZomaCastle_B5F_MAIN_0_VOLUME_0010_040_4",
+        "Text": "Vuoi davvero gettarti ancora una volta nel baratro della disperazione?"
+      },
+      "Txt_Talk_ZomaCastle_B5F_MAIN_0_VOLUME_0010_040_5": {
+        "SelfId": "Txt_Talk_ZomaCastle_B5F_MAIN_0_VOLUME_0010_040_5",
+        "Text": "Tieni così tanto alla vita? Allora dovrò strappartela via!"
+      },
+      "Txt_Talk_ZomaCastle_B5F_MAIN_0_VOLUME_0010_050_1": {
+        "SelfId": "Txt_Talk_ZomaCastle_B5F_MAIN_0_VOLUME_0010_050_1",
+        "Text": "(tossisce) Ben fatto... mi hai sconfitto..."
+      },
+      "Txt_Talk_ZomaCastle_B5F_MAIN_0_VOLUME_0010_050_2": {
+        "SelfId": "Txt_Talk_ZomaCastle_B5F_MAIN_0_VOLUME_0010_050_2",
+        "Text": "Ma sappi... che finché c'è la luce... c'è anche l'oscurità..."
+      },
+      "Txt_Talk_ZomaCastle_B5F_MAIN_0_VOLUME_0010_050_3": {
+        "SelfId": "Txt_Talk_ZomaCastle_B5F_MAIN_0_VOLUME_0010_050_3",
+        "Text": "Io vedo... ciò che giungerà... Una nuova oscurità si leverà... e qualcos'altro prenderà il mio posto..."
+      },
+      "Txt_Talk_ZomaCastle_B5F_MAIN_0_VOLUME_0010_050_4": {
+        "SelfId": "Txt_Talk_ZomaCastle_B5F_MAIN_0_VOLUME_0010_050_4",
+        "Text": "I presagi sono già qui... Apri gli occhi..."
+      },
+      "Txt_Talk_ZomaCastle_B5F_MAIN_0_VOLUME_0010_050_5": {
+        "SelfId": "Txt_Talk_ZomaCastle_B5F_MAIN_0_VOLUME_0010_050_5",
+        "Text": "E quando arriverà... sarai inerme e non riuscirai a proteggere i tuoi simili... perché la morte ti avrà già fatto visita!"
+      },
+      "Txt_Talk_ZomaCastle_B5F_MAIN_0_VOLUME_0010_050_6": {
+        "SelfId": "Txt_Talk_ZomaCastle_B5F_MAIN_0_VOLUME_0010_050_6",
+        "Text": "Mmh mmh... Mmh..."
+      },
+      "Txt_Talk_ZomaCastle_B5F_MAIN_0_VOLUME_0010_050_7": {
+        "SelfId": "Txt_Talk_ZomaCastle_B5F_MAIN_0_VOLUME_0010_050_7",
+        "Text": "Coff..."
+      }
+    }
+  }
+]

@@ -1,0 +1,496 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Battle_Text_Set",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Battle_Text_SetTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "BATTLE_TEXT_SET_Txt_BattleMenu_Message_NONETARGET_Death": {
+        "SelfId": "BATTLE_TEXT_SET_Txt_BattleMenu_Message_NONETARGET_Death",
+        "TextId": "Txt_BattleMenu_Message_NONETARGET_Death",
+        "TextId_TargetEnemy": "Txt_BattleMenu_Message_NONETARGET_Death_Enemy",
+        "TextId_ActorEnemy": "None"
+      },
+      "BATTLE_TEXT_SET_Txt_BattleMenu_Message_NONETARGET_Revive": {
+        "SelfId": "BATTLE_TEXT_SET_Txt_BattleMenu_Message_NONETARGET_Revive",
+        "TextId": "Txt_BattleMenu_Message_NONETARGET_Revive",
+        "TextId_TargetEnemy": "Txt_BattleMenu_Message_NONETARGET_Revive_Enemy",
+        "TextId_ActorEnemy": "None"
+      },
+      "BATTLE_TEXT_SET_Txt_BattleMenu_Message_NOEFFECT": {
+        "SelfId": "BATTLE_TEXT_SET_Txt_BattleMenu_Message_NOEFFECT",
+        "TextId": "Txt_BattleMenu_Message_NOEFFECT",
+        "TextId_TargetEnemy": "None",
+        "TextId_ActorEnemy": "None"
+      },
+      "BATTLE_TEXT_SET_Txt_BattleMenu_Message_NOEFFECTED": {
+        "SelfId": "BATTLE_TEXT_SET_Txt_BattleMenu_Message_NOEFFECTED",
+        "TextId": "Txt_BattleMenu_Message_NOEFFECTED",
+        "TextId_TargetEnemy": "Txt_BattleMenu_Message_NOEFFECT",
+        "TextId_ActorEnemy": "None"
+      },
+      "BATTLE_TEXT_SET_Txt_BattleMenu_Message_Avoid": {
+        "SelfId": "BATTLE_TEXT_SET_Txt_BattleMenu_Message_Avoid",
+        "TextId": "Txt_BattleMenu_Message_Avoid",
+        "TextId_TargetEnemy": "Txt_BattleMenu_Message_Avoid_Enemy",
+        "TextId_ActorEnemy": "None"
+      },
+      "BATTLE_TEXT_SET_Txt_BattleMenu_Message_SleepAttack": {
+        "SelfId": "BATTLE_TEXT_SET_Txt_BattleMenu_Message_SleepAttack",
+        "TextId": "Txt_BattleMenu_Message_SleepAttack",
+        "TextId_TargetEnemy": "Txt_BattleMenu_Message_SleepAttack_Enemy",
+        "TextId_ActorEnemy": "None"
+      },
+      "BATTLE_TEXT_SET_Txt_BattleMenu_Message_Sacrifice": {
+        "SelfId": "BATTLE_TEXT_SET_Txt_BattleMenu_Message_Sacrifice",
+        "TextId": "Txt_BattleMenu_Message_Sacrifice",
+        "TextId_TargetEnemy": "Txt_BattleMenu_Message_Sacrifice_Enemy",
+        "TextId_ActorEnemy": "None"
+      },
+      "BATTLE_TEXT_SET_Txt_BattleMenu_Message_Sleep_": {
+        "SelfId": "BATTLE_TEXT_SET_Txt_BattleMenu_Message_Sleep_",
+        "TextId": "Txt_BattleMenu_Message_Sleep_",
+        "TextId_TargetEnemy": "None",
+        "TextId_ActorEnemy": "Txt_BattleMenu_Message_Sleep__Enemy"
+      },
+      "BATTLE_TEXT_SET_Txt_BattleMenu_Message_Sleep_Recover": {
+        "SelfId": "BATTLE_TEXT_SET_Txt_BattleMenu_Message_Sleep_Recover",
+        "TextId": "Txt_BattleMenu_Message_Sleep_Recover",
+        "TextId_TargetEnemy": "None",
+        "TextId_ActorEnemy": "Txt_BattleMenu_Message_Sleep_Recover_Enemy"
+      },
+      "BATTLE_TEXT_SET_Txt_BattleMenu_Message_Sleep_Recover_Impact": {
+        "SelfId": "BATTLE_TEXT_SET_Txt_BattleMenu_Message_Sleep_Recover_Impact",
+        "TextId": "Txt_BattleMenu_Message_Sleep_Recover_Impact",
+        "TextId_TargetEnemy": "Txt_BattleMenu_Message_Sleep_Recover_Impact_Enemy",
+        "TextId_ActorEnemy": "None"
+      },
+      "BATTLE_TEXT_SET_Txt_BattleMenu_Message_Sleep_Recover_Attacked": {
+        "SelfId": "BATTLE_TEXT_SET_Txt_BattleMenu_Message_Sleep_Recover_Attacked",
+        "TextId": "Txt_BattleMenu_Message_Sleep_Recover_Attacked",
+        "TextId_TargetEnemy": "Txt_BattleMenu_Message_Sleep_Recover_Attacked_Enemy",
+        "TextId_ActorEnemy": "None"
+      },
+      "BATTLE_TEXT_SET_Txt_BattleMenu_Message_Sleep_NotRecover": {
+        "SelfId": "BATTLE_TEXT_SET_Txt_BattleMenu_Message_Sleep_NotRecover",
+        "TextId": "Txt_BattleMenu_Message_Sleep_NotRecover",
+        "TextId_TargetEnemy": "Txt_BattleMenu_Message_Sleep_NotRecover_Enemy",
+        "TextId_ActorEnemy": "None"
+      },
+      "BATTLE_TEXT_SET_Txt_BattleMenu_Message_Sleep_NoNeed": {
+        "SelfId": "BATTLE_TEXT_SET_Txt_BattleMenu_Message_Sleep_NoNeed",
+        "TextId": "Txt_BattleMenu_Message_Sleep_NoNeed",
+        "TextId_TargetEnemy": "Txt_BattleMenu_Message_Sleep_NoNeed_Enemy",
+        "TextId_ActorEnemy": "None"
+      },
+      "BATTLE_TEXT_SET_Txt_BattleMenu_Message_Sleep_Failure": {
+        "SelfId": "BATTLE_TEXT_SET_Txt_BattleMenu_Message_Sleep_Failure",
+        "TextId": "Txt_BattleMenu_Message_Sleep_Failure",
+        "TextId_TargetEnemy": "Txt_BattleMenu_Message_Sleep_Failure_Enemy",
+        "TextId_ActorEnemy": "None"
+      },
+      "BATTLE_TEXT_SET_Txt_BattleMenu_Message_Confusion": {
+        "SelfId": "BATTLE_TEXT_SET_Txt_BattleMenu_Message_Confusion",
+        "TextId": "Txt_BattleMenu_Message_Confusion",
+        "TextId_TargetEnemy": "None",
+        "TextId_ActorEnemy": "Txt_BattleMenu_Message_Confusion_Enemy"
+      },
+      "BATTLE_TEXT_SET_Txt_BattleMenu_Message_Confusion_Success": {
+        "SelfId": "BATTLE_TEXT_SET_Txt_BattleMenu_Message_Confusion_Success",
+        "TextId": "Txt_BattleMenu_Message_Confusion_Success",
+        "TextId_TargetEnemy": "Txt_BattleMenu_Message_Confusion_Success_Enemy",
+        "TextId_ActorEnemy": "None"
+      },
+      "BATTLE_TEXT_SET_Txt_BattleMenu_Message_Confusion_Duplication": {
+        "SelfId": "BATTLE_TEXT_SET_Txt_BattleMenu_Message_Confusion_Duplication",
+        "TextId": "Txt_BattleMenu_Message_Confusion_Duplication",
+        "TextId_TargetEnemy": "Txt_BattleMenu_Message_Confusion_Duplication_Enemy",
+        "TextId_ActorEnemy": "None"
+      },
+      "BATTLE_TEXT_SET_Txt_BattleMenu_Message_Confusion_Recover": {
+        "SelfId": "BATTLE_TEXT_SET_Txt_BattleMenu_Message_Confusion_Recover",
+        "TextId": "Txt_BattleMenu_Message_Confusion_Recover",
+        "TextId_TargetEnemy": "Txt_BattleMenu_Message_Confusion_Recover_Enemy",
+        "TextId_ActorEnemy": "None"
+      },
+      "BATTLE_TEXT_SET_Txt_BattleMenu_Message_Confusion_Recover_Impact": {
+        "SelfId": "BATTLE_TEXT_SET_Txt_BattleMenu_Message_Confusion_Recover_Impact",
+        "TextId": "Txt_BattleMenu_Message_Confusion_Recover_Impact",
+        "TextId_TargetEnemy": "Txt_BattleMenu_Message_Confusion_Recover_Impact_Enemy",
+        "TextId_ActorEnemy": "None"
+      },
+      "BATTLE_TEXT_SET_Txt_BattleMenu_Message_Confusion_Recover_Failure": {
+        "SelfId": "BATTLE_TEXT_SET_Txt_BattleMenu_Message_Confusion_Recover_Failure",
+        "TextId": "Txt_BattleMenu_Message_Confusion_Recover_Failure",
+        "TextId_TargetEnemy": "Txt_BattleMenu_Message_Confusion_Recover_Failure_Enemy",
+        "TextId_ActorEnemy": "None"
+      },
+      "BATTLE_TEXT_SET_Txt_BattleMenu_Message_Paralysis": {
+        "SelfId": "BATTLE_TEXT_SET_Txt_BattleMenu_Message_Paralysis",
+        "TextId": "Txt_BattleMenu_Message_Paralysis",
+        "TextId_TargetEnemy": "None",
+        "TextId_ActorEnemy": "Txt_BattleMenu_Message_Paralysis_Enemy"
+      },
+      "BATTLE_TEXT_SET_Txt_BattleMenu_Message_Paralysis_Success": {
+        "SelfId": "BATTLE_TEXT_SET_Txt_BattleMenu_Message_Paralysis_Success",
+        "TextId": "Txt_BattleMenu_Message_Paralysis_Success",
+        "TextId_TargetEnemy": "Txt_BattleMenu_Message_Paralysis_Success_Enemy",
+        "TextId_ActorEnemy": "None"
+      },
+      "BATTLE_TEXT_SET_Txt_BattleMenu_Message_Paralysis_Avoid": {
+        "SelfId": "BATTLE_TEXT_SET_Txt_BattleMenu_Message_Paralysis_Avoid",
+        "TextId": "Txt_BattleMenu_Message_Paralysis_Avoid",
+        "TextId_TargetEnemy": "Txt_BattleMenu_Message_Paralysis_Avoid_Enemy",
+        "TextId_ActorEnemy": "None"
+      },
+      "BATTLE_TEXT_SET_Txt_BattleMenu_Message_Paralysis_Recover": {
+        "SelfId": "BATTLE_TEXT_SET_Txt_BattleMenu_Message_Paralysis_Recover",
+        "TextId": "Txt_BattleMenu_Message_Paralysis_Recover",
+        "TextId_TargetEnemy": "Txt_BattleMenu_Message_Paralysis_Recover_Enemy",
+        "TextId_ActorEnemy": "None"
+      },
+      "BATTLE_TEXT_SET_Txt_BattleMenu_Message_Poison_Success": {
+        "SelfId": "BATTLE_TEXT_SET_Txt_BattleMenu_Message_Poison_Success",
+        "TextId": "Txt_BattleMenu_Message_Poison_Success",
+        "TextId_TargetEnemy": "Txt_BattleMenu_Message_Poison_Success_Enemy",
+        "TextId_ActorEnemy": "None"
+      },
+      "BATTLE_TEXT_SET_Txt_BattleMenu_Message_Poison_Avoid": {
+        "SelfId": "BATTLE_TEXT_SET_Txt_BattleMenu_Message_Poison_Avoid",
+        "TextId": "Txt_BattleMenu_Message_Poison_Avoid",
+        "TextId_TargetEnemy": "Txt_BattleMenu_Message_Poison_Avoid_Enemy",
+        "TextId_ActorEnemy": "None"
+      },
+      "BATTLE_TEXT_SET_Txt_BattleMenu_Message_Poison_Recover_01": {
+        "SelfId": "BATTLE_TEXT_SET_Txt_BattleMenu_Message_Poison_Recover_01",
+        "TextId": "Txt_BattleMenu_Message_Poison_Recover_01",
+        "TextId_TargetEnemy": "Txt_BattleMenu_Message_Poison_Recover_01_Enemy",
+        "TextId_ActorEnemy": "None"
+      },
+      "BATTLE_TEXT_SET_Txt_BattleMenu_Message_Poison_Recover_02": {
+        "SelfId": "BATTLE_TEXT_SET_Txt_BattleMenu_Message_Poison_Recover_02",
+        "TextId": "Txt_BattleMenu_Message_Poison_Recover_02",
+        "TextId_TargetEnemy": "Txt_BattleMenu_Message_Poison_Recover_02_Enemy",
+        "TextId_ActorEnemy": "None"
+      },
+      "BATTLE_TEXT_SET_Txt_BattleMenu_Message_MPHeal": {
+        "SelfId": "BATTLE_TEXT_SET_Txt_BattleMenu_Message_MPHeal",
+        "TextId": "Txt_BattleMenu_Message_MPHeal",
+        "TextId_TargetEnemy": "Txt_BattleMenu_Message_MPHeal_Enemy",
+        "TextId_ActorEnemy": "None"
+      },
+      "BATTLE_TEXT_SET_Txt_BattleMenu_Message_Heal": {
+        "SelfId": "BATTLE_TEXT_SET_Txt_BattleMenu_Message_Heal",
+        "TextId": "Txt_BattleMenu_Message_Heal",
+        "TextId_TargetEnemy": "Txt_BattleMenu_Message_Heal_Enemy",
+        "TextId_ActorEnemy": "None"
+      },
+      "BATTLE_TEXT_SET_Txt_BattleMenu_Message_NoEffected_Asutoron": {
+        "SelfId": "BATTLE_TEXT_SET_Txt_BattleMenu_Message_NoEffected_Asutoron",
+        "TextId": "Txt_BattleMenu_Message_NoEffected_Asutoron",
+        "TextId_TargetEnemy": "Txt_BattleMenu_Message_NoEffected_Asutoron_Enemy",
+        "TextId_ActorEnemy": "None"
+      },
+      "BATTLE_TEXT_SET_Txt_Magic_Battle_Effective_Zaraki": {
+        "SelfId": "BATTLE_TEXT_SET_Txt_Magic_Battle_Effective_Zaraki",
+        "TextId": "Txt_Magic_Battle_Effective_Zaraki",
+        "TextId_TargetEnemy": "Txt_Magic_Battle_Effective_Zaraki_Enemy",
+        "TextId_ActorEnemy": "None"
+      },
+      "BATTLE_TEXT_SET_Txt_Magic_Battle_Effective_Sukuruto": {
+        "SelfId": "BATTLE_TEXT_SET_Txt_Magic_Battle_Effective_Sukuruto",
+        "TextId": "Txt_Magic_Battle_Effective_Sukuruto",
+        "TextId_TargetEnemy": "Txt_Magic_Battle_Effective_Sukuruto_Enemy",
+        "TextId_ActorEnemy": "None"
+      },
+      "BATTLE_TEXT_SET_Txt_Magic_Battle_Effective_Piorimu": {
+        "SelfId": "BATTLE_TEXT_SET_Txt_Magic_Battle_Effective_Piorimu",
+        "TextId": "Txt_Magic_Battle_Effective_Piorimu",
+        "TextId_TargetEnemy": "Txt_Magic_Battle_Effective_Piorimu_Enemy",
+        "TextId_ActorEnemy": "None"
+      },
+      "BATTLE_TEXT_SET_Txt_Magic_Battle_Effective_Fubaha": {
+        "SelfId": "BATTLE_TEXT_SET_Txt_Magic_Battle_Effective_Fubaha",
+        "TextId": "Txt_Magic_Battle_Effective_Fubaha",
+        "TextId_TargetEnemy": "Txt_Magic_Battle_Effective_Fubaha_Enemy",
+        "TextId_ActorEnemy": "None"
+      },
+      "BATTLE_TEXT_SET_Txt_Magic_Battle_Effective_Majikkubaria": {
+        "SelfId": "BATTLE_TEXT_SET_Txt_Magic_Battle_Effective_Majikkubaria",
+        "TextId": "Txt_Magic_Battle_Effective_Majikkubaria",
+        "TextId_TargetEnemy": "Txt_Magic_Battle_Effective_Majikkubaria_Enemy",
+        "TextId_ActorEnemy": "None"
+      },
+      "BATTLE_TEXT_SET_Txt_Magic_Battle_Effective_Bomiosu": {
+        "SelfId": "BATTLE_TEXT_SET_Txt_Magic_Battle_Effective_Bomiosu",
+        "TextId": "Txt_Magic_Battle_Effective_Bomiosu",
+        "TextId_TargetEnemy": "Txt_Magic_Battle_Effective_Bomiosu_Enemy",
+        "TextId_ActorEnemy": "None"
+      },
+      "BATTLE_TEXT_SET_Txt_Magic_Battle_Effective_Nihuramu": {
+        "SelfId": "BATTLE_TEXT_SET_Txt_Magic_Battle_Effective_Nihuramu",
+        "TextId": "Txt_Magic_Battle_Effective_Nihuramu",
+        "TextId_TargetEnemy": "Txt_Magic_Battle_Effective_Nihuramu_Enemy",
+        "TextId_ActorEnemy": "None"
+      },
+      "BATTLE_TEXT_SET_Txt_Magic_Battle_Effective_Mahoton": {
+        "SelfId": "BATTLE_TEXT_SET_Txt_Magic_Battle_Effective_Mahoton",
+        "TextId": "Txt_Magic_Battle_Effective_Mahoton",
+        "TextId_TargetEnemy": "Txt_Item_Battle_Use_Effective_Staff_Of_Antimagic",
+        "TextId_ActorEnemy": "None"
+      },
+      "BATTLE_TEXT_SET_Txt_Magic_Battle_Effective_Itetukuhamon": {
+        "SelfId": "BATTLE_TEXT_SET_Txt_Magic_Battle_Effective_Itetukuhamon",
+        "TextId": "Txt_Magic_Battle_Effective_Itetukuhamon",
+        "TextId_TargetEnemy": "Txt_Magic_Battle_Effective_Itetukuhamon_Enemy",
+        "TextId_ActorEnemy": "None"
+      },
+      "BATTLE_TEXT_SET_Txt_Magic_Battle_Effective_Sunakemuri": {
+        "SelfId": "BATTLE_TEXT_SET_Txt_Magic_Battle_Effective_Sunakemuri",
+        "TextId": "Txt_Magic_Battle_Effective_Sunakemuri",
+        "TextId_TargetEnemy": "Txt_Magic_Battle_Effective_Sunakemuri_Enemy",
+        "TextId_ActorEnemy": "None"
+      },
+      "BATTLE_TEXT_SET_Txt_Magic_Battle_Effective_Otakebi": {
+        "SelfId": "BATTLE_TEXT_SET_Txt_Magic_Battle_Effective_Otakebi",
+        "TextId": "Txt_Magic_Battle_Effective_Otakebi",
+        "TextId_TargetEnemy": "Txt_Magic_Battle_Effective_Otakebi_Enemy",
+        "TextId_ActorEnemy": "None"
+      },
+      "BATTLE_TEXT_SET_Txt_Magic_Battle_Passive_Kabau": {
+        "SelfId": "BATTLE_TEXT_SET_Txt_Magic_Battle_Passive_Kabau",
+        "TextId": "Txt_Magic_Battle_Passive_Kabau",
+        "TextId_TargetEnemy": "Txt_Magic_Battle_Passive_Kabau_Enemy",
+        "TextId_ActorEnemy": "None"
+      },
+      "BATTLE_TEXT_SET_Txt_Magic_Battle_Invalid_Otakebi": {
+        "SelfId": "BATTLE_TEXT_SET_Txt_Magic_Battle_Invalid_Otakebi",
+        "TextId": "Txt_Magic_Battle_Invalid_Otakebi",
+        "TextId_TargetEnemy": "Txt_Magic_Battle_Invalid_Otakebi_Enemy",
+        "TextId_ActorEnemy": "None"
+      },
+      "BATTLE_TEXT_SET_Txt_Magic_Battle_Invalid_Yaketukuiki": {
+        "SelfId": "BATTLE_TEXT_SET_Txt_Magic_Battle_Invalid_Yaketukuiki",
+        "TextId": "Txt_Magic_Battle_Invalid_Yaketukuiki",
+        "TextId_TargetEnemy": "Txt_Magic_Battle_Invalid_Yaketukuiki_Enemy",
+        "TextId_ActorEnemy": "None"
+      },
+      "BATTLE_TEXT_SET_Txt_Magic_Battle_duplication_Dokunoiki": {
+        "SelfId": "BATTLE_TEXT_SET_Txt_Magic_Battle_duplication_Dokunoiki",
+        "TextId": "Txt_Magic_Battle_duplication_Dokunoiki",
+        "TextId_TargetEnemy": "Txt_Magic_Battle_duplication_Dokunoiki_Enemy",
+        "TextId_ActorEnemy": "None"
+      },
+      "BATTLE_TEXT_SET_Txt_Magic_Out_of_effect_Fubaha": {
+        "SelfId": "BATTLE_TEXT_SET_Txt_Magic_Out_of_effect_Fubaha",
+        "TextId": "Txt_Magic_Out_of_effect_Fubaha",
+        "TextId_TargetEnemy": "Txt_Magic_Out_of_effect_Fubaha_Enemy",
+        "TextId_ActorEnemy": "None"
+      },
+      "BATTLE_TEXT_SET_Txt_Magic_Out_of_effect_Majikkubaria": {
+        "SelfId": "BATTLE_TEXT_SET_Txt_Magic_Out_of_effect_Majikkubaria",
+        "TextId": "Txt_Magic_Out_of_effect_Majikkubaria",
+        "TextId_TargetEnemy": "Txt_Magic_Out_of_effect_Majikkubaria_Enemy",
+        "TextId_ActorEnemy": "None"
+      },
+      "BATTLE_TEXT_SET_Txt_Magic_Out_of_effect_Sunakemuri": {
+        "SelfId": "BATTLE_TEXT_SET_Txt_Magic_Out_of_effect_Sunakemuri",
+        "TextId": "Txt_Magic_Out_of_effect_Sunakemuri",
+        "TextId_TargetEnemy": "Txt_Magic_Out_of_effect_Sunakemuri_Enemy",
+        "TextId_ActorEnemy": "None"
+      },
+      "BATTLE_TEXT_SET_Txt_Magic_Out_of_effect_Oikaze": {
+        "SelfId": "BATTLE_TEXT_SET_Txt_Magic_Out_of_effect_Oikaze",
+        "TextId": "Txt_Magic_Out_of_effect_Oikaze",
+        "TextId_TargetEnemy": "Txt_Magic_Out_of_effect_Oikaze_Enemy",
+        "TextId_ActorEnemy": "None"
+      },
+      "BATTLE_TEXT_SET_Txt_Item_Battle_Use_Effective_Orochis_Sword": {
+        "SelfId": "BATTLE_TEXT_SET_Txt_Item_Battle_Use_Effective_Orochis_Sword",
+        "TextId": "Txt_Item_Battle_Use_Effective_Orochis_Sword",
+        "TextId_TargetEnemy": "Txt_Item_Battle_Use_Effective_Orochis_Sword_Enemy",
+        "TextId_ActorEnemy": "None"
+      },
+      "BATTLE_TEXT_SET_Txt_Item_Battle_Use_Effective_Sandstorm_Spear": {
+        "SelfId": "BATTLE_TEXT_SET_Txt_Item_Battle_Use_Effective_Sandstorm_Spear",
+        "TextId": "Txt_Item_Battle_Use_Effective_Sandstorm_Spear",
+        "TextId_TargetEnemy": "Txt_Item_Battle_Use_Effective_Sandstorm_Spear_Enemy",
+        "TextId_ActorEnemy": "None"
+      },
+      "BATTLE_TEXT_SET_Txt_Item_Battle_Use_Effective_Staff_Of_Resurrection": {
+        "SelfId": "BATTLE_TEXT_SET_Txt_Item_Battle_Use_Effective_Staff_Of_Resurrection",
+        "TextId": "Txt_Item_Battle_Use_Effective_Staff_Of_Resurrection",
+        "TextId_TargetEnemy": "Txt_Item_Battle_Use_Effective_Staff_Of_Resurrection_Enemy",
+        "TextId_ActorEnemy": "None"
+      },
+      "BATTLE_TEXT_SET_Txt_Item_Battle_Use_Effective_Whispering_Nectar": {
+        "SelfId": "BATTLE_TEXT_SET_Txt_Item_Battle_Use_Effective_Whispering_Nectar",
+        "TextId": "Txt_Item_Battle_Use_Effective_Whispering_Nectar",
+        "TextId_TargetEnemy": "Txt_Item_Battle_Use_Effective_Whispering_Nectar_Enemy",
+        "TextId_ActorEnemy": "None"
+      },
+      "BATTLE_TEXT_SET_Txt_Item_Battle_Use_Effective_Tangleweb": {
+        "SelfId": "BATTLE_TEXT_SET_Txt_Item_Battle_Use_Effective_Tangleweb",
+        "TextId": "Txt_Item_Battle_Use_Effective_Tangleweb",
+        "TextId_TargetEnemy": "Txt_Item_Battle_Use_Effective_Tangleweb_Enemy",
+        "TextId_ActorEnemy": "None"
+      },
+      "BATTLE_TEXT_SET_Txt_Item_Out_of_Effect_Tangleweb": {
+        "SelfId": "BATTLE_TEXT_SET_Txt_Item_Out_of_Effect_Tangleweb",
+        "TextId": "Txt_Item_Out_of_Effect_Tangleweb",
+        "TextId_TargetEnemy": "Txt_Item_Out_of_Effect_Tangleweb_Enemy",
+        "TextId_ActorEnemy": "None"
+      },
+      "BATTLE_TEXT_SET_Txt_Item_Battle_Use_Duplication_Sleep": {
+        "SelfId": "BATTLE_TEXT_SET_Txt_Item_Battle_Use_Duplication_Sleep",
+        "TextId": "Txt_Item_Battle_Use_Duplication_Sleep",
+        "TextId_TargetEnemy": "Txt_Item_Battle_Use_Duplication_Sleep_Enemy",
+        "TextId_ActorEnemy": "None"
+      },
+      "BATTLE_TEXT_SET_Txt_Item_Absorb_MP_Success_2": {
+        "SelfId": "BATTLE_TEXT_SET_Txt_Item_Absorb_MP_Success_2",
+        "TextId": "Txt_Item_Absorb_MP_Success_2",
+        "TextId_TargetEnemy": "Txt_Item_Absorb_MP_Success",
+        "TextId_ActorEnemy": "None"
+      },
+      "BATTLE_TEXT_SET_Txt_Item_Out_of_Effect_Orochis_Sword": {
+        "SelfId": "BATTLE_TEXT_SET_Txt_Item_Out_of_Effect_Orochis_Sword",
+        "TextId": "Txt_Item_Out_of_Effect_Orochis_Sword",
+        "TextId_TargetEnemy": "Txt_Item_Out_of_Effect_Orochis_Sword_Enemy",
+        "TextId_ActorEnemy": "None"
+      },
+      "BATTLE_TEXT_SET_Txt_Item_Out_of_Effect_Sandstorm_Spear": {
+        "SelfId": "BATTLE_TEXT_SET_Txt_Item_Out_of_Effect_Sandstorm_Spear",
+        "TextId": "Txt_Item_Out_of_Effect_Sandstorm_Spear",
+        "TextId_TargetEnemy": "Txt_Item_Out_of_Effect_Sandstorm_Spear_Enemy",
+        "TextId_ActorEnemy": "None"
+      },
+      "BATTLE_TEXT_SET_Txt_Item_Out_of_Effect_Oomph_Powder": {
+        "SelfId": "BATTLE_TEXT_SET_Txt_Item_Out_of_Effect_Oomph_Powder",
+        "TextId": "Txt_Item_Out_of_Effect_Oomph_Powder",
+        "TextId_TargetEnemy": "Txt_Item_Out_of_Effect_Oomph_Powder_Enemy",
+        "TextId_ActorEnemy": "None"
+      },
+      "BATTLE_TEXT_SET_Txt_Item_Battle_Use_Effective_Oomph_Powder": {
+        "SelfId": "BATTLE_TEXT_SET_Txt_Item_Battle_Use_Effective_Oomph_Powder",
+        "TextId": "Txt_Item_Battle_Use_Effective_Oomph_Powder",
+        "TextId_TargetEnemy": "Txt_Item_Battle_Use_Effective_Oomph_Powder_Enemy",
+        "TextId_ActorEnemy": "None"
+      },
+      "BATTLE_TEXT_SET_Txt_Magic_Battle_duplication_Baikiruto": {
+        "SelfId": "BATTLE_TEXT_SET_Txt_Magic_Battle_duplication_Baikiruto",
+        "TextId": "Txt_Magic_Battle_duplication_Baikiruto",
+        "TextId_TargetEnemy": "Txt_Magic_Battle_duplication_Baikiruto_Enemy",
+        "TextId_ActorEnemy": "None"
+      },
+      "BATTLE_TEXT_SET_Txt_Magic_Battle_duplication_Piorimu": {
+        "SelfId": "BATTLE_TEXT_SET_Txt_Magic_Battle_duplication_Piorimu",
+        "TextId": "Txt_Magic_Battle_duplication_Piorimu",
+        "TextId_TargetEnemy": "Txt_Magic_Battle_duplication_Piorimu_Enemy",
+        "TextId_ActorEnemy": "None"
+      },
+      "BATTLE_TEXT_SET_Txt_Magic_Battle_duplication_Fubaha": {
+        "SelfId": "BATTLE_TEXT_SET_Txt_Magic_Battle_duplication_Fubaha",
+        "TextId": "Txt_Magic_Battle_duplication_Fubaha",
+        "TextId_TargetEnemy": "Txt_Magic_Battle_duplication_Fubaha_Enemy",
+        "TextId_ActorEnemy": "None"
+      },
+      "BATTLE_TEXT_SET_Txt_Magic_Battle_duplication_Majikkubaria": {
+        "SelfId": "BATTLE_TEXT_SET_Txt_Magic_Battle_duplication_Majikkubaria",
+        "TextId": "Txt_Magic_Battle_duplication_Majikkubaria",
+        "TextId_TargetEnemy": "Txt_Magic_Battle_duplication_Majikkubaria_Enemy",
+        "TextId_ActorEnemy": "None"
+      },
+      "BATTLE_TEXT_SET_Txt_Magic_Battle_duplication_Bomiosu": {
+        "SelfId": "BATTLE_TEXT_SET_Txt_Magic_Battle_duplication_Bomiosu",
+        "TextId": "Txt_Magic_Battle_duplication_Bomiosu",
+        "TextId_TargetEnemy": "Txt_Magic_Battle_duplication_Bomiosu_Enemy",
+        "TextId_ActorEnemy": "None"
+      },
+      "BATTLE_TEXT_SET_Txt_Magic_Battle_Upper_Limit_Sukara_Sukuruto": {
+        "SelfId": "BATTLE_TEXT_SET_Txt_Magic_Battle_Upper_Limit_Sukara_Sukuruto",
+        "TextId": "Txt_Magic_Battle_Upper_Limit_Sukara_Sukuruto",
+        "TextId_TargetEnemy": "Txt_Magic_Battle_Upper_Limit_Sukara_Sukuruto_Enemy",
+        "TextId_ActorEnemy": "None"
+      },
+      "BATTLE_TEXT_SET_Txt_Magic_Battle_Upper_Limit_Rukani_Rukanan": {
+        "SelfId": "BATTLE_TEXT_SET_Txt_Magic_Battle_Upper_Limit_Rukani_Rukanan",
+        "TextId": "Txt_Magic_Battle_Upper_Limit_Rukani_Rukanan",
+        "TextId_TargetEnemy": "Txt_Magic_Battle_Upper_Limit_Rukani_Rukanan_Enemy",
+        "TextId_ActorEnemy": "None"
+      },
+      "BATTLE_TEXT_SET_Txt_Magic_Battle_Upper_Limit_Manusa": {
+        "SelfId": "BATTLE_TEXT_SET_Txt_Magic_Battle_Upper_Limit_Manusa",
+        "TextId": "Txt_Magic_Battle_Upper_Limit_Manusa",
+        "TextId_TargetEnemy": "Txt_Magic_Battle_Upper_Limit_Manusa_Enemy",
+        "TextId_ActorEnemy": "None"
+      },
+      "BATTLE_TEXT_SET_Txt_Magic_Battle_Upper_Limit_Mahoton": {
+        "SelfId": "BATTLE_TEXT_SET_Txt_Magic_Battle_Upper_Limit_Mahoton",
+        "TextId": "Txt_Magic_Battle_Upper_Limit_Mahoton",
+        "TextId_TargetEnemy": "Txt_Magic_Battle_Upper_Limit_Mahoton_Enemy",
+        "TextId_ActorEnemy": "None"
+      },
+      "BATTLE_TEXT_SET_Txt_Magic_Battle_Upper_Limit_Sunakemuri": {
+        "SelfId": "BATTLE_TEXT_SET_Txt_Magic_Battle_Upper_Limit_Sunakemuri",
+        "TextId": "Txt_Magic_Battle_Upper_Limit_Sunakemuri",
+        "TextId_TargetEnemy": "Txt_Magic_Battle_Upper_Limit_Sunakemuri_Enemy",
+        "TextId_ActorEnemy": "None"
+      },
+      "BATTLE_TEXT_SET_Txt_Magic_Battle_Upper_Limit_Yaketukuiki": {
+        "SelfId": "BATTLE_TEXT_SET_Txt_Magic_Battle_Upper_Limit_Yaketukuiki",
+        "TextId": "Txt_Magic_Battle_Upper_Limit_Yaketukuiki",
+        "TextId_TargetEnemy": "Txt_Magic_Battle_Upper_Limit_Yaketukuiki_Enemy",
+        "TextId_ActorEnemy": "None"
+      },
+      "BATTLE_TEXT_SET_Txt_Magic_Battle_Upper_Limit_Dokunoiki": {
+        "SelfId": "BATTLE_TEXT_SET_Txt_Magic_Battle_Upper_Limit_Dokunoiki",
+        "TextId": "Txt_Magic_Battle_Upper_Limit_Dokunoiki",
+        "TextId_TargetEnemy": "Txt_Magic_Battle_Upper_Limit_Dokunoiki_Enemy",
+        "TextId_ActorEnemy": "None"
+      },
+      "BATTLE_TEXT_SET_Txt_Magic_Battle_Resistance_Common": {
+        "SelfId": "BATTLE_TEXT_SET_Txt_Magic_Battle_Resistance_Common",
+        "TextId": "Txt_Magic_Battle_Resistance_Common",
+        "TextId_TargetEnemy": "Txt_Magic_Battle_Resistance_Common_Enemy",
+        "TextId_ActorEnemy": "None"
+      },
+      "BATTLE_TEXT_SET_Txt_Magic_Play_24_04": {
+        "SelfId": "BATTLE_TEXT_SET_Txt_Magic_Play_24_04",
+        "TextId": "Txt_Magic_Play_24_04",
+        "TextId_TargetEnemy": "Txt_Magic_Play_24_04_Enemy",
+        "TextId_ActorEnemy": "None"
+      },
+      "BATTLE_TEXT_SET_Txt_Magic_Play_28_Failure": {
+        "SelfId": "BATTLE_TEXT_SET_Txt_Magic_Play_28_Failure",
+        "TextId": "Txt_Magic_Play_28_Failure",
+        "TextId_TargetEnemy": "Txt_Magic_Play_28_Failure_Enemy",
+        "TextId_ActorEnemy": "None"
+      },
+      "BATTLE_TEXT_SET_Txt_Magic_Battle_Effective_Megante": {
+        "SelfId": "BATTLE_TEXT_SET_Txt_Magic_Battle_Effective_Megante",
+        "TextId": "Txt_Magic_Battle_Effective_Megante",
+        "TextId_TargetEnemy": "Txt_Magic_Battle_Effective_Megante_Enemy",
+        "TextId_ActorEnemy": "None"
+      },
+      "BATTLE_TEXT_SET_Txt_Magic_Battle_Incapacitated_Otakebi": {
+        "SelfId": "BATTLE_TEXT_SET_Txt_Magic_Battle_Incapacitated_Otakebi",
+        "TextId": "Txt_Magic_Battle_Incapacitated_Otakebi",
+        "TextId_TargetEnemy": "Txt_Magic_Battle_Incapacitated_Otakebi_Enemy",
+        "TextId_ActorEnemy": "None"
+      },
+      "BATTLE_TEXT_SET_Txt_Item_Absorb_MP_Failure": {
+        "SelfId": "BATTLE_TEXT_SET_Txt_Item_Absorb_MP_Failure",
+        "TextId": "Txt_Item_Absorb_MP_Failure",
+        "TextId_TargetEnemy": "Txt_Item_Absorb_MP_Failure_Enemy",
+        "TextId_ActorEnemy": "None"
+      }
+    }
+  }
+]

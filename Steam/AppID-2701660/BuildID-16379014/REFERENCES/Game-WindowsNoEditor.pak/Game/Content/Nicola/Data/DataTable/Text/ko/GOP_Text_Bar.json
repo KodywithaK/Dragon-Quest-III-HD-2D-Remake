@@ -1,0 +1,312 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_Bar",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Bar_UI_Top_02": {
+        "SelfId": "Txt_Bar_UI_Top_02",
+        "Text": "명부 보기"
+      },
+      "Txt_Bar_UI_Top_03": {
+        "SelfId": "Txt_Bar_UI_Top_03",
+        "Text": "도와주기"
+      },
+      "Txt_Bar_UI_Top_04": {
+        "SelfId": "Txt_Bar_UI_Top_04",
+        "Text": "도움 요청하기"
+      },
+      "Txt_Bar_UI_Top_05": {
+        "SelfId": "Txt_Bar_UI_Top_05",
+        "Text": "그만두기"
+      },
+      "Txt_Bar_UI_Top_06": {
+        "SelfId": "Txt_Bar_UI_Top_06",
+        "Text": "동료 부르기"
+      },
+      "Txt_Bar_UI_Top_07": {
+        "SelfId": "Txt_Bar_UI_Top_07",
+        "Text": "동료 맡기기"
+      },
+      "Txt_Bar_UI_Top_08": {
+        "SelfId": "Txt_Bar_UI_Top_08",
+        "Text": "동료 찾기"
+      },
+      "Txt_Bar_UI_Top_09": {
+        "SelfId": "Txt_Bar_UI_Top_09",
+        "Text": "도움 기능"
+      },
+      "Txt_Bar_UI_Top_10": {
+        "SelfId": "Txt_Bar_UI_Top_10",
+        "Text": "돌아가기"
+      },
+      "Txt_Bar_UI_Guide_01": {
+        "SelfId": "Txt_Bar_UI_Guide_01",
+        "Text": "동료 선택"
+      },
+      "Txt_Bar_UI_Blank": {
+        "SelfId": "Txt_Bar_UI_Blank",
+        "Text": "동료가 없습니다"
+      },
+      "Txt_Bar_UI_Lend_Guide": {
+        "SelfId": "Txt_Bar_UI_Lend_Guide",
+        "Text": "동료 선택"
+      },
+      "Txt_Bar_UI_Borrow_Guide": {
+        "SelfId": "Txt_Bar_UI_Borrow_Guide",
+        "Text": "모험자 선택"
+      },
+      "Txt_Bar_Message_Start_01": {
+        "SelfId": "Txt_Bar_Message_Start_01",
+        "Text": "이곳은 루이다 주점이야."
+      },
+      "Txt_Bar_Message_Start_02": {
+        "SelfId": "Txt_Bar_Message_Start_02",
+        "Text": "여행자들이 동료를 찾아 모이는\r\n만남과 이별의 주점이지."
+      },
+      "Txt_Bar_Message_Top": {
+        "SelfId": "Txt_Bar_Message_Top",
+        "Text": "뭘 원해?<NO_INPUT>"
+      },
+      "Txt_Bar_Message_CannotDropOff": {
+        "SelfId": "Txt_Bar_Message_CannotDropOff",
+        "Text": "맡긴다니...... 누구를?\r\n{LEADER} 씨는 지금 혼자잖아?"
+      },
+      "Txt_Bar_Message_DropOffTop": {
+        "SelfId": "Txt_Bar_Message_DropOffTop",
+        "Text": "누구를 맡아 주면 될까?<NO_INPUT>"
+      },
+      "Txt_Bar_Message_DropOffHero": {
+        "SelfId": "Txt_Bar_Message_DropOffHero",
+        "Text": "어머, 말도 안 돼.\r\n{HERO} 씨가 가게에 있으면\r\n여행을 이끌 사람이 없어지잖아."
+      },
+      "Txt_Bar_Message_DropOffDeath_01": {
+        "SelfId": "Txt_Bar_Message_DropOffDeath_01",
+        "Text": "어머! {WORD} 씨를\r\n그대로 맡기려고?\r\n너무하지 않아?"
+      },
+      "Txt_Bar_Message_DropOffDeath_02": {
+        "SelfId": "Txt_Bar_Message_DropOffDeath_02",
+        "Text": "아니면 지금은\r\n살려 줄 돈이 없어서 그래?<NO_INPUT>"
+      },
+      "Txt_Bar_Message_DropOffAbnormalStatus": {
+        "SelfId": "Txt_Bar_Message_DropOffAbnormalStatus",
+        "Text": "{WORD} 씨를 맡으면 되는 거지?\r\n조금 안색이 안 좋아 보이는데......."
+      },
+      "Txt_Bar_Message_ReplaceSelectDeath": {
+        "SelfId": "Txt_Bar_Message_ReplaceSelectDeath",
+        "Text": "그러면 어쩔 수 없네.\r\n{WORD} 씨의 관을 확실히 맡아 둘게."
+      },
+      "Txt_Bar_Message_ReplaceSelectDeathCancel": {
+        "SelfId": "Txt_Bar_Message_ReplaceSelectDeathCancel",
+        "Text": "그렇다면 살려주는 편이 좋지 않을까?\r\n{WORD} 씨가 불쌍해 보여."
+      },
+      "Txt_Bar_Message_ReplaceSelect": {
+        "SelfId": "Txt_Bar_Message_ReplaceSelect",
+        "Text": "{WORD} 씨를 어떡할 거야?<NO_INPUT>"
+      },
+      "Txt_Bar_Message_DropOff_01": {
+        "SelfId": "Txt_Bar_Message_DropOff_01",
+        "Text": "{WORD} 씨를\r\n맡아 주면 되는 거지?"
+      },
+      "Txt_Bar_Message_DropOff_02": {
+        "SelfId": "Txt_Bar_Message_DropOff_02",
+        "Text": "그럼 {WORD} 씨,\r\n잠깐 쉬고 있자구."
+      },
+      "Txt_Bar_Message_Replace_01": {
+        "SelfId": "Txt_Bar_Message_Replace_01",
+        "Text": "{WORD} 씨를 교체할 거지?"
+      },
+      "Txt_Bar_Message_Replace_02": {
+        "SelfId": "Txt_Bar_Message_Replace_02",
+        "Text": "대신 누구를 부를 거야?<NO_INPUT>"
+      },
+      "Txt_Bar_Message_CannotReplace": {
+        "SelfId": "Txt_Bar_Message_CannotReplace",
+        "Text": "어머, 농담이지?\r\n죽은 사람뿐이라 여행은 떠날 수가 없어."
+      },
+      "Txt_Bar_Message_PickUpSelect": {
+        "SelfId": "Txt_Bar_Message_PickUpSelect",
+        "Text": "누굴 불러 줄까?<NO_INPUT>"
+      },
+      "Txt_Bar_Message_CannotPickUp": {
+        "SelfId": "Txt_Bar_Message_CannotPickUp",
+        "Text": "하지만 가게에 동료로\r\n합류할 수 있는 사람은 아무도 없네."
+      },
+      "Txt_Bar_Message_PickUp_01": {
+        "SelfId": "Txt_Bar_Message_PickUp_01",
+        "Text": "{WORD} 씨를 동료로 합류시킨다고?\r\n알았어."
+      },
+      "Txt_Bar_Message_PickUp_02": {
+        "SelfId": "Txt_Bar_Message_PickUp_02",
+        "Text": "{WORD} 씨!\r\n{LEADER} 씨가 불러~!"
+      },
+      "Txt_Bar_Message_PickUp_03": {
+        "SelfId": "Txt_Bar_Message_PickUp_03",
+        "Text": "{WORD}<IfKRVowel_WORD(가,이)> 동료로 합류했다!"
+      },
+      "Txt_Bar_Message_Sort": {
+        "SelfId": "Txt_Bar_Message_Sort",
+        "Text": "장비 중인 물건 말고는 모두\r\n그 주머니 속에 넣어 둘게."
+      },
+      "Txt_Bar_Message_SortFirst": {
+        "SelfId": "Txt_Bar_Message_SortFirst",
+        "Text": "이렇게 하지 않으면 중요한 물건을\r\n누가 가져갔는지\r\n잊어버리는 사람이 있거든."
+      },
+      "Txt_Bar_Message_DropOffAgain": {
+        "SelfId": "Txt_Bar_Message_DropOffAgain",
+        "Text": "그 밖에 누군가를 맡아 줄까?<NO_INPUT>"
+      },
+      "Txt_Bar_Message_PickUpAgain": {
+        "SelfId": "Txt_Bar_Message_PickUpAgain",
+        "Text": "그 밖에 누군가를 불러 줄까?<NO_INPUT>"
+      },
+      "Txt_Bar_Message_CannotPickUpPartyMAX_01": {
+        "SelfId": "Txt_Bar_Message_CannotPickUpPartyMAX_01",
+        "Text": "어머, 그렇게 줄줄이\r\n동료를 데리고 있는데도?"
+      },
+      "Txt_Bar_Message_CannotPickUpPartyMAX_02": {
+        "SelfId": "Txt_Bar_Message_CannotPickUpPartyMAX_02",
+        "Text": "누군가를 맡기지 않는 이상\r\n더 데려갈 수는 없어."
+      },
+      "Txt_Bar_Message_CannotViewRoster": {
+        "SelfId": "Txt_Bar_Message_CannotViewRoster",
+        "Text": "어머, 하지만 너의 동료는\r\n아무도 맡아 두지 않고 있어."
+      },
+      "Txt_Bar_Message_ViewRosterTop": {
+        "SelfId": "Txt_Bar_Message_ViewRosterTop",
+        "Text": "주점에 있는 사람을 살피려고?<NO_INPUT>"
+      },
+      "Txt_Bar_Message_TopAgain": {
+        "SelfId": "Txt_Bar_Message_TopAgain",
+        "Text": "다른 볼일 있어?<NO_INPUT>"
+      },
+      "Txt_Bar_Message_Finish": {
+        "SelfId": "Txt_Bar_Message_Finish",
+        "Text": "그럼 또 와."
+      },
+      "Txt_Bar_Message_DropOffOnlyLend": {
+        "SelfId": "Txt_Bar_Message_DropOffOnlyLend",
+        "Text": "그렇게 하면 파티가\r\n도와주러 온 사람들로만 구성돼."
+      },
+      "Txt_Bar_Message_LendFirst": {
+        "SelfId": "Txt_Bar_Message_LendFirst",
+        "Text": "여기서는 너의 동료를\r\n도우미로 등록할 수 있어.<KEY_WAIT>\r\n등록해 두면 다른 모험자의\r\n파티에서 그 사람을\r\n도와서 싸울 수 있게 돼.<KEY_WAIT>\r\n도와주러 간다곤 해도\r\n사라지는 건 아니라서\r\n평소처럼 모험에 데려갈 수 있어.<KEY_WAIT>\r\n언젠가 다른 모험자에게\r\n도움이 될지도 몰라."
+      },
+      "Txt_Bar_Message_LendNone": {
+        "SelfId": "Txt_Bar_Message_LendNone",
+        "Text": "하지만 지금은 도우미로 등록할 수 있는\r\n동료가 아무도 없는걸."
+      },
+      "Txt_Bar_Message_LendTop": {
+        "SelfId": "Txt_Bar_Message_LendTop",
+        "Text": "누구를 도우미로 등록할래?<NO_INPUT>"
+      },
+      "Txt_Bar_Message_LendTop2": {
+        "SelfId": "Txt_Bar_Message_LendTop2",
+        "Text": "그럼 누구를\r\n도우미로 등록할래?<NO_INPUT>"
+      },
+      "Txt_Bar_Message_LendRegistration": {
+        "SelfId": "Txt_Bar_Message_LendRegistration",
+        "Text": "{WORD} 씨를 도우미로 보내는 거지?<NO_INPUT>"
+      },
+      "Txt_Bar_Message_LendReregistration": {
+        "SelfId": "Txt_Bar_Message_LendReregistration",
+        "Text": "{WORD} 씨를 다시 도우미로 보내는 거지?<NO_INPUT>"
+      },
+      "Txt_Bar_Message_LendChange": {
+        "SelfId": "Txt_Bar_Message_LendChange",
+        "Text": "{WORD2} 씨가 도우미로 등록되어 있는데\r\n대신해서 {WORD} 씨를\r\n도우미로 보내려는 거지?<NO_INPUT>"
+      },
+      "Txt_Bar_Message_LendDecide": {
+        "SelfId": "Txt_Bar_Message_LendDecide",
+        "Text": "그럼 {WORD} 씨를 등록할게.\r\n다른 사람들에게 도움이 됐으면 좋겠다."
+      },
+      "Txt_Bar_Message_BorrowFirst": {
+        "SelfId": "Txt_Bar_Message_BorrowFirst",
+        "Text": "여기서는 다른 파티의 모험자를\r\n파티에 합류시킬 수 있어."
+      },
+      "Txt_Bar_Message_BorrowNone": {
+        "SelfId": "Txt_Bar_Message_BorrowNone",
+        "Text": "아직 도움을 줄 수 있는\r\n모험자가 없는 모양이야......."
+      },
+      "Txt_Bar_Message_BorrowTop": {
+        "SelfId": "Txt_Bar_Message_BorrowTop",
+        "Text": "누구에게 도움을 요청할래?<NO_INPUT>"
+      },
+      "Txt_Bar_Message_BorrowTop2": {
+        "SelfId": "Txt_Bar_Message_BorrowTop2",
+        "Text": "그럼 누구에게\r\n도움을 요청할래?<NO_INPUT>"
+      },
+      "Txt_Bar_Message_BorrowReturnConfirm": {
+        "SelfId": "Txt_Bar_Message_BorrowReturnConfirm",
+        "Text": "지금 도우미로 와 있는 {WORD} 씨는\r\n돌려보내야 하는데, 그래도 괜찮겠어?"
+      },
+      "Txt_Bar_Message_BorrowReturnDecide": {
+        "SelfId": "Txt_Bar_Message_BorrowReturnDecide",
+        "Text": "알았어.\r\n{WORD} 씨가 지니고 있던 물건은\r\n그 주머니 속에 넣어 둘게."
+      },
+      "Txt_Bar_Message_BorrowReturnNoLive": {
+        "SelfId": "Txt_Bar_Message_BorrowReturnNoLive",
+        "Text": "지금 {WORD} 씨가 사라지면\r\n죽은 사람밖에 남지 않아."
+      },
+      "Txt_Bar_Message_BorrowReturnCancel": {
+        "SelfId": "Txt_Bar_Message_BorrowReturnCancel",
+        "Text": "알겠어.\r\n앞으로도 {WORD} 씨에게\r\n도움을 받도록 하자."
+      },
+      "Txt_Bar_Message_BorrowSelect": {
+        "SelfId": "Txt_Bar_Message_BorrowSelect",
+        "Text": "{WORD} 씨에게\r\n도움을 요청할까?<NO_INPUT>"
+      },
+      "Txt_Bar_Message_BorrowDecide": {
+        "SelfId": "Txt_Bar_Message_BorrowDecide",
+        "Text": "그럼 {WORD} 씨를 등록할게."
+      },
+      "Txt_Bar_Message_BorrowPartyAdd": {
+        "SelfId": "Txt_Bar_Message_BorrowPartyAdd",
+        "Text": "그대로 {WORD} 씨를\r\n모험에 데리고 가려고?<NO_INPUT>"
+      },
+      "Txt_Bar_Message_BorrowPartyChange": {
+        "SelfId": "Txt_Bar_Message_BorrowPartyChange",
+        "Text": "하지만 그렇게 동료를 주렁주렁 달고서\r\n추가로 더 데리고 갈 수는 없어.\r\n누군가에게 주점에서 대기해 달라고 할까?<NO_INPUT>"
+      },
+      "Txt_Bar_Message_BorrowPartySelect": {
+        "SelfId": "Txt_Bar_Message_BorrowPartySelect",
+        "Text": "그럼 여기서 대기할 사람은\r\n누구로 할래?<NO_INPUT>"
+      },
+      "Txt_Bar_Message_BorrowPartySelect2": {
+        "SelfId": "Txt_Bar_Message_BorrowPartySelect2",
+        "Text": "대기할 사람을\r\n누구로 할래?<NO_INPUT>"
+      },
+      "Txt_Bar_Message_BorrowPartyToBar": {
+        "SelfId": "Txt_Bar_Message_BorrowPartyToBar",
+        "Text": "그럼 {WORD} 씨를 제외하고,\r\n장비 중인 물건 말고는 모두\r\n그 주머니 속에 넣어 둘게."
+      },
+      "Txt_Bar_Message_BorrowAddBarMember": {
+        "SelfId": "Txt_Bar_Message_BorrowAddBarMember",
+        "Text": "그럼 {WORD} 씨는\r\n주점에서 대기해 달라고 할게."
+      },
+      "Txt_Bar_Message_Find": {
+        "SelfId": "Txt_Bar_Message_Find",
+        "Text": "함께 모험할 사람을 찾고 싶은 거지?\r\n<KEY_WAIT>\r\n물론 주점에 있는 사람을 불러도 되지만\r\n혹시 그런 사람이 없다면\r\n2층 접수처에서 찾으면 돼.<KEY_WAIT>\r\n네가 원하는 사람을\r\n분명히 찾을 수 있을 거야!"
+      },
+      "Txt_Bar_Message_Help": {
+        "SelfId": "Txt_Bar_Message_Help",
+        "Text": "다른 모험자를 도와줄 거야?\r\n아니면 누군가에게 도움을 요청할래?<NO_INPUT>"
+      },
+      "Txt_Bar_Message_HelpAgain": {
+        "SelfId": "Txt_Bar_Message_HelpAgain",
+        "Text": "아직 더 할 일이 남았니?<NO_INPUT>"
+      },
+      "Txt_Bar_Message_BorrowDecideSystem": {
+        "SelfId": "Txt_Bar_Message_BorrowDecideSystem",
+        "Text": "{WORD}<IfKRVowel_WORD(가,이)> 모험의 서 {VALUE}의\r\n도우미 캐릭터로 등록되었습니다."
+      }
+    }
+  }
+]

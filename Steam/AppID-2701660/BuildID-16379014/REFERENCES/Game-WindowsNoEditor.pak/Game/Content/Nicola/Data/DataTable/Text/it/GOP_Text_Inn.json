@@ -1,0 +1,124 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_Inn",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Inn_UI_Top_01": {
+        "SelfId": "Txt_Inn_UI_Top_01",
+        "Text": "Resta per la notte"
+      },
+      "Txt_Inn_UI_Top_02": {
+        "SelfId": "Txt_Inn_UI_Top_02",
+        "Text": "Riposa per un po'"
+      },
+      "Txt_Inn_UI_Top_03": {
+        "SelfId": "Txt_Inn_UI_Top_03",
+        "Text": "Annulla"
+      },
+      "Txt_Inn_UI_Time_01": {
+        "SelfId": "Txt_Inn_UI_Time_01",
+        "Text": "Fino all'alba"
+      },
+      "Txt_Inn_UI_Time_02": {
+        "SelfId": "Txt_Inn_UI_Time_02",
+        "Text": "Fino a mezzogiorno"
+      },
+      "Txt_Inn_UI_Time_03": {
+        "SelfId": "Txt_Inn_UI_Time_03",
+        "Text": "Fino al tramonto"
+      },
+      "Txt_Inn_UI_Time_04": {
+        "SelfId": "Txt_Inn_UI_Time_04",
+        "Text": "Fino a notte"
+      },
+      "Txt_Inn_Message_Start_M": {
+        "SelfId": "Txt_Inn_Message_Start_M",
+        "Text": "*: <IfSolo(Ti,Vi)> do il benvenuto nella nostra locanda, <IfSolo(viandante,viandanti)>!"
+      },
+      "Txt_Inn_Message_StartNight_M": {
+        "SelfId": "Txt_Inn_Message_StartNight_M",
+        "Text": "*: <IfSolo(Ti,Vi)> do il benvenuto nella nostra locanda, <IfSolo(viandante,viandanti)>!\r\n<IfSolo(Immagino che tu voglia,Immagino che vogliate)> riposare, data l'ora tarda."
+      },
+      "Txt_Inn_Message_TopNotRest_M": {
+        "SelfId": "Txt_Inn_Message_TopNotRest_M",
+        "Text": "*: Pernottare in una stanza costa {VALUE} monete d'oro.\r\n<IfSolo(Vuoi fermarti,Volete fermarvi)>?<NO_INPUT>"
+      },
+      "Txt_Inn_Message_Top_M": {
+        "SelfId": "Txt_Inn_Message_Top_M",
+        "Text": "*: <IfSolo(Vuoi passare,Volete passare)> la notte qui? O forse <IfSolo(vuoi solo fermarti,volete solo fermarvi)> per un riposino? In ogni caso, una stanza costa {VALUE} monete d'oro.<NO_INPUT>"
+      },
+      "Txt_Inn_Message_Finish_M": {
+        "SelfId": "Txt_Inn_Message_Finish_M",
+        "Text": "*: Arrivederci, <IfSolo(audace viandante,audaci viandanti)>.\r\n<IfSolo(Torna pure quando vuoi,Tornate pure quando volete)>."
+      },
+      "Txt_Inn_Message_Cancel_M": {
+        "SelfId": "Txt_Inn_Message_Cancel_M",
+        "Text": "*: Oh, quindi non <IfSolo(hai,avete)> intenzione di restare? Come <IfSolo(preferisci,preferite)>. Arrivederci!"
+      },
+      "Txt_Inn_Message_Shotage_M": {
+        "SelfId": "Txt_Inn_Message_Shotage_M",
+        "Text": "*: Mi spiace, ma non <IfSolo(hai,avete)> denaro a sufficienza."
+      },
+      "Txt_Inn_Message_Heal_M": {
+        "SelfId": "Txt_Inn_Message_Heal_M",
+        "Text": "*: <IfSolo(Ti,Vi)> auguro una felice permanenza!"
+      },
+      "Txt_Inn_Message_FinishHeal_M": {
+        "SelfId": "Txt_Inn_Message_FinishHeal_M",
+        "Text": "*: Buongiorno!\r\nSpero che <IfSolo(tu abbia,abbiate)> dormito sonni tranquilli!\r\n<IfSolo(Torna,Tornate)> a trovarci!"
+      },
+      "Txt_Inn_Message_FinishHealRest_M": {
+        "SelfId": "Txt_Inn_Message_FinishHealRest_M",
+        "Text": "*: Spero <IfSolo(tu abbia,voi abbiate)> dormito sonni tranquilli! Torna<IfSolo(,te)> a trovarci!"
+      },
+      "Txt_Inn_Message_Start_F": {
+        "SelfId": "Txt_Inn_Message_Start_F",
+        "Text": "*: <IfSolo(Ti,Vi)> do il benvenuto nella nostra locanda, <IfSolo(viandante,viandanti)>!"
+      },
+      "Txt_Inn_Message_StartNight_F": {
+        "SelfId": "Txt_Inn_Message_StartNight_F",
+        "Text": "*: <IfSolo(Ti,Vi)> do il benvenuto nella nostra locanda, <IfSolo(viandante,viandanti)>!\r\n<IfSolo(Immagino che tu voglia,Immagino che vogliate)> riposare, data l'ora tarda."
+      },
+      "Txt_Inn_Message_TopNotRest_F": {
+        "SelfId": "Txt_Inn_Message_TopNotRest_F",
+        "Text": "*: Pernottare in una stanza costa {VALUE} monete d'oro.\r\n<IfSolo(Vuoi fermarti,Volete fermarvi)>?<NO_INPUT>"
+      },
+      "Txt_Inn_Message_Top_F": {
+        "SelfId": "Txt_Inn_Message_Top_F",
+        "Text": "*: <IfSolo(Vuoi,Volete)> passare la notte qui? O forse <IfSolo(vuoi solo fermarti,volete solo fermarti)> per un riposino? In ogni caso, una stanza costa {VALUE} monete d'oro.<NO_INPUT>"
+      },
+      "Txt_Inn_Message_Finish_F": {
+        "SelfId": "Txt_Inn_Message_Finish_F",
+        "Text": "*: Arrivederci, <IfSolo(audace viandante,audaci viandanti)>.\r\n<IfSolo(Torna pure quando vuoi,Tornate pure quando volete)>."
+      },
+      "Txt_Inn_Message_Cancel_F": {
+        "SelfId": "Txt_Inn_Message_Cancel_F",
+        "Text": "*: Oh, quindi non <IfSolo(hai,avete)> intenzione di restare? Come <IfSolo(preferisci,preferite)>. Arrivederci!"
+      },
+      "Txt_Inn_Message_Shotage_F": {
+        "SelfId": "Txt_Inn_Message_Shotage_F",
+        "Text": "*: Mi spiace, ma non <IfSolo(hai,avete)> denaro a sufficienza."
+      },
+      "Txt_Inn_Message_Heal_F": {
+        "SelfId": "Txt_Inn_Message_Heal_F",
+        "Text": "*: <IfSolo(Ti,Vi)> auguro una felice permanenza!"
+      },
+      "Txt_Inn_Message_FinishHeal_F": {
+        "SelfId": "Txt_Inn_Message_FinishHeal_F",
+        "Text": "*: Buongiorno!\r\nSpero che <IfSolo(tu abbia,abbiate)> dormito sonni tranquilli!\r\n<IfSolo(Torna,Tornate)> a trovarci!"
+      },
+      "Txt_Inn_Message_FinishHealRest_F": {
+        "SelfId": "Txt_Inn_Message_FinishHealRest_F",
+        "Text": "*: Spero <IfSolo(tu abbia,voi abbiate)> dormito sonni tranquilli! Torna<IfSolo(,te)> a trovarci!"
+      }
+    }
+  }
+]

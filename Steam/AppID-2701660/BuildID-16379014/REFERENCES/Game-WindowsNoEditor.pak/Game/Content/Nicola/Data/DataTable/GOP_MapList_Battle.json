@@ -1,0 +1,682 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_MapList_Battle",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_MapList_BattleTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "MAPLIST_BATTLE_PLAIN00": {
+        "SelfId": "MAPLIST_BATTLE_PLAIN00",
+        "MapID": "PLAIN00",
+        "ESwayAnimType": "ESwayAnimationType::ALWAYS",
+        "ActionCameraPostProcessId": "POSTPROCESS_BATTLE_ACTION_PLAIN_00",
+        "CommandCameraPostProcessId": "POSTPROCESS_BATTLE_COMMAND_PLAIN_00",
+        "CommandCameraDragonPostProcessId": "POSTPROCESS_BATTLE_COMMAND_DRAGON_PLAIN_00",
+        "DoProhibitChangingLightIntensity": false
+      },
+      "MAPLIST_BATTLE_PLAIN50": {
+        "SelfId": "MAPLIST_BATTLE_PLAIN50",
+        "MapID": "PLAIN50",
+        "ESwayAnimType": "ESwayAnimationType::ALWAYS",
+        "ActionCameraPostProcessId": "POSTPROCESS_BATTLE_ACTION_PLAIN_00",
+        "CommandCameraPostProcessId": "POSTPROCESS_BATTLE_COMMAND_PLAIN_00",
+        "CommandCameraDragonPostProcessId": "POSTPROCESS_BATTLE_COMMAND_DRAGON_PLAIN_00",
+        "DoProhibitChangingLightIntensity": false
+      },
+      "MAPLIST_BATTLE_FOREST00": {
+        "SelfId": "MAPLIST_BATTLE_FOREST00",
+        "MapID": "FOREST00",
+        "ESwayAnimType": "ESwayAnimationType::ALWAYS",
+        "ActionCameraPostProcessId": "POSTPROCESS_BATTLE_ACTION_FOREST_00",
+        "CommandCameraPostProcessId": "POSTPROCESS_BATTLE_COMMAND_FOREST_00",
+        "CommandCameraDragonPostProcessId": "POSTPROCESS_BATTLE_COMMAND_DRAGON_FOREST_00",
+        "DoProhibitChangingLightIntensity": false
+      },
+      "MAPLIST_BATTLE_FOREST50": {
+        "SelfId": "MAPLIST_BATTLE_FOREST50",
+        "MapID": "FOREST50",
+        "ESwayAnimType": "ESwayAnimationType::ALWAYS",
+        "ActionCameraPostProcessId": "POSTPROCESS_BATTLE_ACTION_FOREST_00",
+        "CommandCameraPostProcessId": "POSTPROCESS_BATTLE_COMMAND_FOREST_00",
+        "CommandCameraDragonPostProcessId": "POSTPROCESS_BATTLE_COMMAND_DRAGON_FOREST_00",
+        "DoProhibitChangingLightIntensity": false
+      },
+      "MAPLIST_BATTLE_FOREST01": {
+        "SelfId": "MAPLIST_BATTLE_FOREST01",
+        "MapID": "FOREST01",
+        "ESwayAnimType": "ESwayAnimationType::ALWAYS",
+        "ActionCameraPostProcessId": "POSTPROCESS_BATTLE_ACTION_FOREST_01",
+        "CommandCameraPostProcessId": "POSTPROCESS_BATTLE_COMMAND_FOREST_01",
+        "CommandCameraDragonPostProcessId": "POSTPROCESS_BATTLE_COMMAND_DRAGON_FOREST_01",
+        "DoProhibitChangingLightIntensity": false
+      },
+      "MAPLIST_BATTLE_FOREST02": {
+        "SelfId": "MAPLIST_BATTLE_FOREST02",
+        "MapID": "FOREST01",
+        "ESwayAnimType": "ESwayAnimationType::ALWAYS",
+        "ActionCameraPostProcessId": "POSTPROCESS_BATTLE_ACTION_FOREST_02",
+        "CommandCameraPostProcessId": "POSTPROCESS_BATTLE_COMMAND_FOREST_02",
+        "CommandCameraDragonPostProcessId": "POSTPROCESS_BATTLE_COMMAND_DRAGON_FOREST_02",
+        "DoProhibitChangingLightIntensity": false
+      },
+      "MAPLIST_BATTLE_MOUNTAIN00": {
+        "SelfId": "MAPLIST_BATTLE_MOUNTAIN00",
+        "MapID": "MOUNTAIN00",
+        "ESwayAnimType": "ESwayAnimationType::ALWAYS",
+        "ActionCameraPostProcessId": "POSTPROCESS_BATTLE_ACTION_MOUNTAIN_00",
+        "CommandCameraPostProcessId": "POSTPROCESS_BATTLE_COMMAND_MOUNTAIN_00",
+        "CommandCameraDragonPostProcessId": "POSTPROCESS_BATTLE_COMMAND_DRAGON_MOUNTAIN_00",
+        "DoProhibitChangingLightIntensity": false
+      },
+      "MAPLIST_BATTLE_MOUNTAIN50": {
+        "SelfId": "MAPLIST_BATTLE_MOUNTAIN50",
+        "MapID": "MOUNTAIN50",
+        "ESwayAnimType": "ESwayAnimationType::ALWAYS",
+        "ActionCameraPostProcessId": "POSTPROCESS_BATTLE_ACTION_MOUNTAIN_00",
+        "CommandCameraPostProcessId": "POSTPROCESS_BATTLE_COMMAND_MOUNTAIN_00",
+        "CommandCameraDragonPostProcessId": "POSTPROCESS_BATTLE_COMMAND_DRAGON_MOUNTAIN_00",
+        "DoProhibitChangingLightIntensity": false
+      },
+      "MAPLIST_BATTLE_DESERT00": {
+        "SelfId": "MAPLIST_BATTLE_DESERT00",
+        "MapID": "DESERT00",
+        "ESwayAnimType": "ESwayAnimationType::ALWAYS",
+        "ActionCameraPostProcessId": "POSTPROCESS_BATTLE_ACTION_DESERT_00",
+        "CommandCameraPostProcessId": "POSTPROCESS_BATTLE_COMMAND_DESERT_00",
+        "CommandCameraDragonPostProcessId": "POSTPROCESS_BATTLE_COMMAND_DRAGON_DESERT_00",
+        "DoProhibitChangingLightIntensity": false
+      },
+      "MAPLIST_BATTLE_DESERT50": {
+        "SelfId": "MAPLIST_BATTLE_DESERT50",
+        "MapID": "DESERT50",
+        "ESwayAnimType": "ESwayAnimationType::ALWAYS",
+        "ActionCameraPostProcessId": "POSTPROCESS_BATTLE_ACTION_DESERT_00",
+        "CommandCameraPostProcessId": "POSTPROCESS_BATTLE_COMMAND_DESERT_00",
+        "CommandCameraDragonPostProcessId": "POSTPROCESS_BATTLE_COMMAND_DRAGON_DESERT_00",
+        "DoProhibitChangingLightIntensity": false
+      },
+      "MAPLIST_BATTLE_POISONSWAMP00": {
+        "SelfId": "MAPLIST_BATTLE_POISONSWAMP00",
+        "MapID": "POISONSWAMP00",
+        "ESwayAnimType": "ESwayAnimationType::ALWAYS",
+        "ActionCameraPostProcessId": "POSTPROCESS_BATTLE_ACTION_POISONSWAMP_00",
+        "CommandCameraPostProcessId": "POSTPROCESS_BATTLE_COMMAND_POISONSWAMP_00",
+        "CommandCameraDragonPostProcessId": "POSTPROCESS_BATTLE_COMMAND_DRAGON_POISONSWAMP_00",
+        "DoProhibitChangingLightIntensity": false
+      },
+      "MAPLIST_BATTLE_POISONSWAMP50": {
+        "SelfId": "MAPLIST_BATTLE_POISONSWAMP50",
+        "MapID": "POISONSWAMP50",
+        "ESwayAnimType": "ESwayAnimationType::ALWAYS",
+        "ActionCameraPostProcessId": "POSTPROCESS_BATTLE_ACTION_POISONSWAMP_00",
+        "CommandCameraPostProcessId": "POSTPROCESS_BATTLE_COMMAND_POISONSWAMP_00",
+        "CommandCameraDragonPostProcessId": "POSTPROCESS_BATTLE_COMMAND_DRAGON_POISONSWAMP_00",
+        "DoProhibitChangingLightIntensity": false
+      },
+      "MAPLIST_BATTLE_SNOWFIELD00": {
+        "SelfId": "MAPLIST_BATTLE_SNOWFIELD00",
+        "MapID": "POISONSWAMP00",
+        "ESwayAnimType": "ESwayAnimationType::ALWAYS",
+        "ActionCameraPostProcessId": "POSTPROCESS_BATTLE_ACTION_SNOWFIELD_00",
+        "CommandCameraPostProcessId": "POSTPROCESS_BATTLE_COMMAND_SNOWFIELD_00",
+        "CommandCameraDragonPostProcessId": "POSTPROCESS_BATTLE_COMMAND_DRAGON_SNOWFIELD_00",
+        "DoProhibitChangingLightIntensity": false
+      },
+      "MAPLIST_BATTLE_SNOWFIELD01": {
+        "SelfId": "MAPLIST_BATTLE_SNOWFIELD01",
+        "MapID": "POISONSWAMP00",
+        "ESwayAnimType": "ESwayAnimationType::ALWAYS",
+        "ActionCameraPostProcessId": "POSTPROCESS_BATTLE_ACTION_SNOWFIELD_01",
+        "CommandCameraPostProcessId": "POSTPROCESS_BATTLE_COMMAND_SNOWFIELD_01",
+        "CommandCameraDragonPostProcessId": "POSTPROCESS_BATTLE_COMMAND_DRAGON_SNOWFIELD_01",
+        "DoProhibitChangingLightIntensity": false
+      },
+      "MAPLIST_BATTLE_SEA00": {
+        "SelfId": "MAPLIST_BATTLE_SEA00",
+        "MapID": "SEA00",
+        "ESwayAnimType": "ESwayAnimationType::ALWAYS",
+        "ActionCameraPostProcessId": "POSTPROCESS_BATTLE_ACTION_SEA_00",
+        "CommandCameraPostProcessId": "POSTPROCESS_BATTLE_COMMAND_SEA_00",
+        "CommandCameraDragonPostProcessId": "POSTPROCESS_BATTLE_COMMAND_DRAGON_SEA_00",
+        "DoProhibitChangingLightIntensity": false
+      },
+      "MAPLIST_BATTLE_SEA50": {
+        "SelfId": "MAPLIST_BATTLE_SEA50",
+        "MapID": "SEA50",
+        "ESwayAnimType": "ESwayAnimationType::ALWAYS",
+        "ActionCameraPostProcessId": "POSTPROCESS_BATTLE_ACTION_SEA_00",
+        "CommandCameraPostProcessId": "POSTPROCESS_BATTLE_COMMAND_SEA_00",
+        "CommandCameraDragonPostProcessId": "POSTPROCESS_BATTLE_COMMAND_DRAGON_SEA_00",
+        "DoProhibitChangingLightIntensity": false
+      },
+      "MAPLIST_BATTLE_SEA01": {
+        "SelfId": "MAPLIST_BATTLE_SEA01",
+        "MapID": "SEA01",
+        "ESwayAnimType": "ESwayAnimationType::ALWAYS",
+        "ActionCameraPostProcessId": "POSTPROCESS_BATTLE_ACTION_SEA_01",
+        "CommandCameraPostProcessId": "POSTPROCESS_BATTLE_COMMAND_SEA_01",
+        "CommandCameraDragonPostProcessId": "POSTPROCESS_BATTLE_COMMAND_DRAGON_SEA_01",
+        "DoProhibitChangingLightIntensity": false
+      },
+      "MAPLIST_BATTLE_BEACH00": {
+        "SelfId": "MAPLIST_BATTLE_BEACH00",
+        "MapID": "BEACH00",
+        "ESwayAnimType": "ESwayAnimationType::ALWAYS",
+        "ActionCameraPostProcessId": "POSTPROCESS_BATTLE_ACTION_BEACH_00",
+        "CommandCameraPostProcessId": "POSTPROCESS_BATTLE_COMMAND_BEACH_00",
+        "CommandCameraDragonPostProcessId": "POSTPROCESS_BATTLE_COMMAND_DRAGON_BEACH_00",
+        "DoProhibitChangingLightIntensity": false
+      },
+      "MAPLIST_BATTLE_RIVER00": {
+        "SelfId": "MAPLIST_BATTLE_RIVER00",
+        "MapID": "RIVER00",
+        "ESwayAnimType": "ESwayAnimationType::ALWAYS",
+        "ActionCameraPostProcessId": "POSTPROCESS_BATTLE_ACTION_RIVER_00",
+        "CommandCameraPostProcessId": "POSTPROCESS_BATTLE_COMMAND_RIVER_00",
+        "CommandCameraDragonPostProcessId": "POSTPROCESS_BATTLE_COMMAND_DRAGON_RIVER_00",
+        "DoProhibitChangingLightIntensity": false
+      },
+      "MAPLIST_BATTLE_RIVER50": {
+        "SelfId": "MAPLIST_BATTLE_RIVER50",
+        "MapID": "RIVER50",
+        "ESwayAnimType": "ESwayAnimationType::ALWAYS",
+        "ActionCameraPostProcessId": "POSTPROCESS_BATTLE_ACTION_RIVER_00",
+        "CommandCameraPostProcessId": "POSTPROCESS_BATTLE_COMMAND_RIVER_00",
+        "CommandCameraDragonPostProcessId": "POSTPROCESS_BATTLE_COMMAND_DRAGON_RIVER_00",
+        "DoProhibitChangingLightIntensity": false
+      },
+      "MAPLIST_BATTLE_MISAKI_CAVE00": {
+        "SelfId": "MAPLIST_BATTLE_MISAKI_CAVE00",
+        "MapID": "MISAKI_CAVE00",
+        "ESwayAnimType": "ESwayAnimationType::ALWAYS",
+        "ActionCameraPostProcessId": "POSTPROCESS_BATTLE_ACTION_MISAKICAVE_00",
+        "CommandCameraPostProcessId": "POSTPROCESS_BATTLE_COMMAND_MISAKICAVE_00",
+        "CommandCameraDragonPostProcessId": "POSTPROCESS_BATTLE_COMMAND_DRAGON_MISAKICAVE_00",
+        "DoProhibitChangingLightIntensity": false
+      },
+      "MAPLIST_BATTLE_NAJIMI_TOWER00": {
+        "SelfId": "MAPLIST_BATTLE_NAJIMI_TOWER00",
+        "MapID": "NAJIMI_TOWER00",
+        "ESwayAnimType": "ESwayAnimationType::ALWAYS",
+        "ActionCameraPostProcessId": "POSTPROCESS_BATTLE_ACTION_NAJIMITOWER_00",
+        "CommandCameraPostProcessId": "POSTPROCESS_BATTLE_COMMAND_NAJIMITOWER_00",
+        "CommandCameraDragonPostProcessId": "POSTPROCESS_BATTLE_COMMAND_DRAGON_NAJIMITOWER_00",
+        "DoProhibitChangingLightIntensity": true
+      },
+      "MAPLIST_BATTLE_NAJIMI_TOWER01": {
+        "SelfId": "MAPLIST_BATTLE_NAJIMI_TOWER01",
+        "MapID": "NAJIMI_TOWER_B1",
+        "ESwayAnimType": "ESwayAnimationType::ALWAYS",
+        "ActionCameraPostProcessId": "POSTPROCESS_BATTLE_ACTION_NAJIMITOWER_01",
+        "CommandCameraPostProcessId": "POSTPROCESS_BATTLE_COMMAND_NAJIMITOWER_01",
+        "CommandCameraDragonPostProcessId": "POSTPROCESS_BATTLE_COMMAND_DRAGON_NAJIMITOWER_01",
+        "DoProhibitChangingLightIntensity": false
+      },
+      "MAPLIST_BATTLE_IZANAI_CAVE00": {
+        "SelfId": "MAPLIST_BATTLE_IZANAI_CAVE00",
+        "MapID": "IZANAI_CAVE00",
+        "ESwayAnimType": "ESwayAnimationType::ALWAYS",
+        "ActionCameraPostProcessId": "POSTPROCESS_BATTLE_ACTION_IZANAICAVE_00",
+        "CommandCameraPostProcessId": "POSTPROCESS_BATTLE_COMMAND_IZANAICAVE_00",
+        "CommandCameraDragonPostProcessId": "POSTPROCESS_BATTLE_COMMAND_DRAGON_IZANAICAVE_00",
+        "DoProhibitChangingLightIntensity": false
+      },
+      "MAPLIST_BATTLE_PYRAMID00": {
+        "SelfId": "MAPLIST_BATTLE_PYRAMID00",
+        "MapID": "PYRAMID_00",
+        "ESwayAnimType": "ESwayAnimationType::ALWAYS",
+        "ActionCameraPostProcessId": "POSTPROCESS_BATTLE_ACTION_PYRAMID_00",
+        "CommandCameraPostProcessId": "POSTPROCESS_BATTLE_COMMAND_PYRAMID_00",
+        "CommandCameraDragonPostProcessId": "POSTPROCESS_BATTLE_COMMAND_DRAGON_PYRAMID_00",
+        "DoProhibitChangingLightIntensity": false
+      },
+      "MAPLIST_BATTLE_PYRAMID01": {
+        "SelfId": "MAPLIST_BATTLE_PYRAMID01",
+        "MapID": "PYRAMID_01",
+        "ESwayAnimType": "ESwayAnimationType::ALWAYS",
+        "ActionCameraPostProcessId": "POSTPROCESS_BATTLE_ACTION_PYRAMID_01",
+        "CommandCameraPostProcessId": "POSTPROCESS_BATTLE_COMMAND_PYRAMID_01",
+        "CommandCameraDragonPostProcessId": "POSTPROCESS_BATTLE_COMMAND_DRAGON_PYRAMID_01",
+        "DoProhibitChangingLightIntensity": false
+      },
+      "MAPLIST_BATTLE_PYRAMID02": {
+        "SelfId": "MAPLIST_BATTLE_PYRAMID02",
+        "MapID": "PYRAMID_02",
+        "ESwayAnimType": "ESwayAnimationType::ALWAYS",
+        "ActionCameraPostProcessId": "POSTPROCESS_BATTLE_ACTION_PYRAMID_02",
+        "CommandCameraPostProcessId": "POSTPROCESS_BATTLE_COMMAND_PYRAMID_02",
+        "CommandCameraDragonPostProcessId": "POSTPROCESS_BATTLE_COMMAND_DRAGON_PYRAMID_02",
+        "DoProhibitChangingLightIntensity": false
+      },
+      "MAPLIST_BATTLE_GARUNA": {
+        "SelfId": "MAPLIST_BATTLE_GARUNA",
+        "MapID": "GARUNA05",
+        "ESwayAnimType": "ESwayAnimationType::ALWAYS",
+        "ActionCameraPostProcessId": "POSTPROCESS_BATTLE_ACTION_GARUNATOWER_00",
+        "CommandCameraPostProcessId": "POSTPROCESS_BATTLE_COMMAND_GARUNATOWER_00",
+        "CommandCameraDragonPostProcessId": "POSTPROCESS_BATTLE_COMMAND_DRAGON_GARUNATOWER_00",
+        "DoProhibitChangingLightIntensity": false
+      },
+      "MAPLIST_BATTLE_GARUNATOWER01": {
+        "SelfId": "MAPLIST_BATTLE_GARUNATOWER01",
+        "MapID": "GARUNATOWER01",
+        "ESwayAnimType": "ESwayAnimationType::ALWAYS",
+        "ActionCameraPostProcessId": "POSTPROCESS_BATTLE_ACTION_GARUNATOWER_01",
+        "CommandCameraPostProcessId": "POSTPROCESS_BATTLE_COMMAND_GARUNATOWER_01",
+        "CommandCameraDragonPostProcessId": "POSTPROCESS_BATTLE_COMMAND_DRAGON_GARUNATOWER_01",
+        "DoProhibitChangingLightIntensity": false
+      },
+      "MAPLIST_BATTLE_BAHARATAEAST_CAVE00": {
+        "SelfId": "MAPLIST_BATTLE_BAHARATAEAST_CAVE00",
+        "MapID": "BAHARATAEAST_CAVE00",
+        "ESwayAnimType": "ESwayAnimationType::ALWAYS",
+        "ActionCameraPostProcessId": "POSTPROCESS_BATTLE_ACTION_BAHARATAEASTCAVE_00",
+        "CommandCameraPostProcessId": "POSTPROCESS_BATTLE_COMMAND_BAHARATAEASTCAVE_00",
+        "CommandCameraDragonPostProcessId": "POSTPROCESS_BATTLE_COMMAND_DRAGON_BAHARATAEASTCAVE_00",
+        "DoProhibitChangingLightIntensity": false
+      },
+      "MAPLIST_BATTLE_SHAMPANE_TOWER00": {
+        "SelfId": "MAPLIST_BATTLE_SHAMPANE_TOWER00",
+        "MapID": "SHAMPANE_TOWER00",
+        "ESwayAnimType": "ESwayAnimationType::ALWAYS",
+        "ActionCameraPostProcessId": "POSTPROCESS_BATTLE_ACTION_SHAMPANETOWER_00",
+        "CommandCameraPostProcessId": "POSTPROCESS_BATTLE_COMMAND_SHAMPANETOWER_00",
+        "CommandCameraDragonPostProcessId": "POSTPROCESS_BATTLE_COMMAND_DRAGON_SHAMPANETOWER_00",
+        "DoProhibitChangingLightIntensity": true
+      },
+      "MAPLIST_BATTLE_SHAMPANE_TOWER01": {
+        "SelfId": "MAPLIST_BATTLE_SHAMPANE_TOWER01",
+        "MapID": "SHAMPANE_TOWER01",
+        "ESwayAnimType": "ESwayAnimationType::ALWAYS",
+        "ActionCameraPostProcessId": "POSTPROCESS_BATTLE_ACTION_SHAMPANETOWER_01",
+        "CommandCameraPostProcessId": "POSTPROCESS_BATTLE_COMMAND_SHAMPANETOWER_01",
+        "CommandCameraDragonPostProcessId": "POSTPROCESS_BATTLE_COMMAND_DRAGON_SHAMPANETOWER_01",
+        "DoProhibitChangingLightIntensity": false
+      },
+      "MAPLIST_BATTLE_RA_CAVE00": {
+        "SelfId": "MAPLIST_BATTLE_RA_CAVE00",
+        "MapID": "RA_CAVE00",
+        "ESwayAnimType": "ESwayAnimationType::ALWAYS",
+        "ActionCameraPostProcessId": "POSTPROCESS_BATTLE_ACTION_RACAVE_00",
+        "CommandCameraPostProcessId": "POSTPROCESS_BATTLE_COMMAND_RACAVE_00",
+        "CommandCameraDragonPostProcessId": "POSTPROCESS_BATTLE_COMMAND_DRAGON_RACAVE_00",
+        "DoProhibitChangingLightIntensity": false
+      },
+      "MAPLIST_BATTLE_RA_CAVE01": {
+        "SelfId": "MAPLIST_BATTLE_RA_CAVE01",
+        "MapID": "RA_CAVE01",
+        "ESwayAnimType": "ESwayAnimationType::ALWAYS",
+        "ActionCameraPostProcessId": "POSTPROCESS_BATTLE_ACTION_RACAVE_01",
+        "CommandCameraPostProcessId": "POSTPROCESS_BATTLE_COMMAND_RACAVE_01",
+        "CommandCameraDragonPostProcessId": "POSTPROCESS_BATTLE_COMMAND_DRAGON_RACAVE_01",
+        "DoProhibitChangingLightIntensity": false
+      },
+      "MAPLIST_BATTLE_NECROGOND_CAVE00": {
+        "SelfId": "MAPLIST_BATTLE_NECROGOND_CAVE00",
+        "MapID": "NECROGOND_CAVE00",
+        "ESwayAnimType": "ESwayAnimationType::ALWAYS",
+        "ActionCameraPostProcessId": "POSTPROCESS_BATTLE_ACTION_NECROGONDOCAVE_00",
+        "CommandCameraPostProcessId": "POSTPROCESS_BATTLE_COMMAND_NECROGONDOCAVE_00",
+        "CommandCameraDragonPostProcessId": "POSTPROCESS_BATTLE_COMMAND_DRAGON_NECROGONDOCAVE_00",
+        "DoProhibitChangingLightIntensity": false
+      },
+      "MAPLIST_BATTLE_NECROGOND_CAVE01": {
+        "SelfId": "MAPLIST_BATTLE_NECROGOND_CAVE01",
+        "MapID": "NECROGOND_CAVE01",
+        "ESwayAnimType": "ESwayAnimationType::ALWAYS",
+        "ActionCameraPostProcessId": "POSTPROCESS_BATTLE_ACTION_NECROGONDOCAVE_01",
+        "CommandCameraPostProcessId": "POSTPROCESS_BATTLE_COMMAND_NECROGONDOCAVE_01",
+        "CommandCameraDragonPostProcessId": "POSTPROCESS_BATTLE_COMMAND_DRAGON_NECROGONDOCAVE_01",
+        "DoProhibitChangingLightIntensity": false
+      },
+      "MAPLIST_BATTLE_JIPANG_CAVE00": {
+        "SelfId": "MAPLIST_BATTLE_JIPANG_CAVE00",
+        "MapID": "JIPANG_CAVE00",
+        "ESwayAnimType": "ESwayAnimationType::ALWAYS",
+        "ActionCameraPostProcessId": "POSTPROCESS_BATTLE_ACTION_JIPANGCAVE_00",
+        "CommandCameraPostProcessId": "POSTPROCESS_BATTLE_COMMAND_JIPANGCAVE_00",
+        "CommandCameraDragonPostProcessId": "POSTPROCESS_BATTLE_COMMAND_DRAGON_JIPANGCAVE_00",
+        "DoProhibitChangingLightIntensity": false
+      },
+      "MAPLIST_BATTLE_JIPANG_CAVE01": {
+        "SelfId": "MAPLIST_BATTLE_JIPANG_CAVE01",
+        "MapID": "JIPANG_CAVE01",
+        "ESwayAnimType": "ESwayAnimationType::ALWAYS",
+        "ActionCameraPostProcessId": "POSTPROCESS_BATTLE_ACTION_JIPANGCAVE_01",
+        "CommandCameraPostProcessId": "POSTPROCESS_BATTLE_COMMAND_JIPANGCAVE_01",
+        "CommandCameraDragonPostProcessId": "POSTPROCESS_BATTLE_COMMAND_DRAGON_JIPANGCAVE_01",
+        "DoProhibitChangingLightIntensity": false
+      },
+      "MAPLIST_BATTLE_ARP_TOWER00": {
+        "SelfId": "MAPLIST_BATTLE_ARP_TOWER00",
+        "MapID": "ARP_TOWER00",
+        "ESwayAnimType": "ESwayAnimationType::ALWAYS",
+        "ActionCameraPostProcessId": "POSTPROCESS_BATTLE_ACTION_ARPTOWER_00",
+        "CommandCameraPostProcessId": "POSTPROCESS_BATTLE_COMMAND_ARPTOWER_00",
+        "CommandCameraDragonPostProcessId": "POSTPROCESS_BATTLE_COMMAND_DRAGON_ARPTOWER_00",
+        "DoProhibitChangingLightIntensity": false
+      },
+      "MAPLIST_BATTLE_ARP_TOWER01": {
+        "SelfId": "MAPLIST_BATTLE_ARP_TOWER01",
+        "MapID": "ARP_TOWER01",
+        "ESwayAnimType": "ESwayAnimationType::ALWAYS",
+        "ActionCameraPostProcessId": "POSTPROCESS_BATTLE_ACTION_ARPTOWER_01",
+        "CommandCameraPostProcessId": "POSTPROCESS_BATTLE_COMMAND_ARPTOWER_01",
+        "CommandCameraDragonPostProcessId": "POSTPROCESS_BATTLE_COMMAND_DRAGON_ARPTOWER_01",
+        "DoProhibitChangingLightIntensity": false
+      },
+      "MAPLIST_BATTLE_ROCKMT_CAVE00": {
+        "SelfId": "MAPLIST_BATTLE_ROCKMT_CAVE00",
+        "MapID": "ROCKMT_CAVE00",
+        "ESwayAnimType": "ESwayAnimationType::ALWAYS",
+        "ActionCameraPostProcessId": "POSTPROCESS_BATTLE_ACTION_ROCKMTCAVE_00",
+        "CommandCameraPostProcessId": "POSTPROCESS_BATTLE_COMMAND_ROCKMTCAVE_00",
+        "CommandCameraDragonPostProcessId": "POSTPROCESS_BATTLE_COMMAND_DRAGON_ROCKMTCAVE_00",
+        "DoProhibitChangingLightIntensity": false
+      },
+      "MAPLIST_BATTLE_UNDERGROUNDLAKE00": {
+        "SelfId": "MAPLIST_BATTLE_UNDERGROUNDLAKE00",
+        "MapID": "UNDERGROUNDLAKE00",
+        "ESwayAnimType": "ESwayAnimationType::ALWAYS",
+        "ActionCameraPostProcessId": "POSTPROCESS_BATTLE_ACTION_UNDERGROUNDLAKE_00",
+        "CommandCameraPostProcessId": "POSTPROCESS_BATTLE_COMMAND_UNDERGROUNDLAKE_00",
+        "CommandCameraDragonPostProcessId": "POSTPROCESS_BATTLE_COMMAND_DRAGON_UNDERGROUNDLAKE_00",
+        "DoProhibitChangingLightIntensity": false
+      },
+      "MAPLIST_BATTLE_UNDERGROUNDLAKE01": {
+        "SelfId": "MAPLIST_BATTLE_UNDERGROUNDLAKE01",
+        "MapID": "UNDERGROUNDLAKE01",
+        "ESwayAnimType": "ESwayAnimationType::ALWAYS",
+        "ActionCameraPostProcessId": "POSTPROCESS_BATTLE_ACTION_UNDERGROUNDLAKE_01",
+        "CommandCameraPostProcessId": "POSTPROCESS_BATTLE_COMMAND_UNDERGROUNDLAKE_01",
+        "CommandCameraDragonPostProcessId": "POSTPROCESS_BATTLE_COMMAND_DRAGON_UNDERGROUNDLAKE_01",
+        "DoProhibitChangingLightIntensity": false
+      },
+      "MAPLIST_BATTLE_JIPANG_CASTLE00": {
+        "SelfId": "MAPLIST_BATTLE_JIPANG_CASTLE00",
+        "MapID": "JIPANG_CASTLE00",
+        "ESwayAnimType": "ESwayAnimationType::ALWAYS",
+        "ActionCameraPostProcessId": "POSTPROCESS_BATTLE_ACTION_JIPANGCASTLE_00",
+        "CommandCameraPostProcessId": "POSTPROCESS_BATTLE_COMMAND_JIPANGCASTLE_00",
+        "CommandCameraDragonPostProcessId": "POSTPROCESS_BATTLE_COMMAND_DRAGON_JIPANGCASTLE_00",
+        "DoProhibitChangingLightIntensity": true
+      },
+      "MAPLIST_BATTLE_BARAMOS_CASTLE00": {
+        "SelfId": "MAPLIST_BATTLE_BARAMOS_CASTLE00",
+        "MapID": "BARAMOS_CASTLE00",
+        "ESwayAnimType": "ESwayAnimationType::ALWAYS",
+        "ActionCameraPostProcessId": "POSTPROCESS_BATTLE_ACTION_BARAMOSCASTLE_00",
+        "CommandCameraPostProcessId": "POSTPROCESS_BATTLE_COMMAND_BARAMOSCASTLE_00",
+        "CommandCameraDragonPostProcessId": "POSTPROCESS_BATTLE_COMMAND_DRAGON_BARAMOSCASTLE_00",
+        "DoProhibitChangingLightIntensity": false
+      },
+      "MAPLIST_BATTLE_BARAMOS_CASTLE10": {
+        "SelfId": "MAPLIST_BATTLE_BARAMOS_CASTLE10",
+        "MapID": "BARAMOS_CASTLE00",
+        "ESwayAnimType": "ESwayAnimationType::ALWAYS",
+        "ActionCameraPostProcessId": "POSTPROCESS_BATTLE_ACTION_BARAMOSCASTLE_10",
+        "CommandCameraPostProcessId": "POSTPROCESS_BATTLE_COMMAND_BARAMOSCASTLE_10",
+        "CommandCameraDragonPostProcessId": "POSTPROCESS_BATTLE_COMMAND_DRAGON_BARAMOSCASTLE_10",
+        "DoProhibitChangingLightIntensity": false
+      },
+      "MAPLIST_BATTLE_BARAMOS_CASTLE50": {
+        "SelfId": "MAPLIST_BATTLE_BARAMOS_CASTLE50",
+        "MapID": "BARAMOS_CASTLE00",
+        "ESwayAnimType": "ESwayAnimationType::ALWAYS",
+        "ActionCameraPostProcessId": "POSTPROCESS_BATTLE_ACTION_BARAMOSCASTLE_50",
+        "CommandCameraPostProcessId": "POSTPROCESS_BATTLE_COMMAND_BARAMOSCASTLE_50",
+        "CommandCameraDragonPostProcessId": "POSTPROCESS_BATTLE_COMMAND_DRAGON_BARAMOSCASTLE_50",
+        "DoProhibitChangingLightIntensity": false
+      },
+      "MAPLIST_BATTLE_BARAMOS_CASTLE51": {
+        "SelfId": "MAPLIST_BATTLE_BARAMOS_CASTLE51",
+        "MapID": "BARAMOS_CASTLE00",
+        "ESwayAnimType": "ESwayAnimationType::ALWAYS",
+        "ActionCameraPostProcessId": "POSTPROCESS_BATTLE_ACTION_BARAMOSCASTLE_51",
+        "CommandCameraPostProcessId": "POSTPROCESS_BATTLE_COMMAND_BARAMOSCASTLE_51",
+        "CommandCameraDragonPostProcessId": "POSTPROCESS_BATTLE_COMMAND_DRAGON_BARAMOSCASTLE_51",
+        "DoProhibitChangingLightIntensity": false
+      },
+      "MAPLIST_BATTLE_SAMANOSA_CASTLE00": {
+        "SelfId": "MAPLIST_BATTLE_SAMANOSA_CASTLE00",
+        "MapID": "SAMANOSA_CASTLE00",
+        "ESwayAnimType": "ESwayAnimationType::ALWAYS",
+        "ActionCameraPostProcessId": "POSTPROCESS_BATTLE_ACTION_SAMANOSACASTLE_00",
+        "CommandCameraPostProcessId": "POSTPROCESS_BATTLE_COMMAND_SAMANOSACASTLE_00",
+        "CommandCameraDragonPostProcessId": "POSTPROCESS_BATTLE_COMMAND_DRAGON_SAMANOSACASTLE_00",
+        "DoProhibitChangingLightIntensity": false
+      },
+      "MAPLIST_BATTLE_GHOSTSHIP00": {
+        "SelfId": "MAPLIST_BATTLE_GHOSTSHIP00",
+        "MapID": "GHOSTSHIP00",
+        "ESwayAnimType": "ESwayAnimationType::ALWAYS",
+        "ActionCameraPostProcessId": "POSTPROCESS_BATTLE_ACTION_GHOSTSHIP_00",
+        "CommandCameraPostProcessId": "POSTPROCESS_BATTLE_COMMAND_GHOSTSHIP_00",
+        "CommandCameraDragonPostProcessId": "POSTPROCESS_BATTLE_COMMAND_DRAGON_GHOSTSHIP_00",
+        "DoProhibitChangingLightIntensity": false
+      },
+      "MAPLIST_BATTLE_GHOSTSHIP01": {
+        "SelfId": "MAPLIST_BATTLE_GHOSTSHIP01",
+        "MapID": "GHOSTSHIP01",
+        "ESwayAnimType": "ESwayAnimationType::ALWAYS",
+        "ActionCameraPostProcessId": "POSTPROCESS_BATTLE_ACTION_GHOSTSHIP_01",
+        "CommandCameraPostProcessId": "POSTPROCESS_BATTLE_COMMAND_GHOSTSHIP_01",
+        "CommandCameraDragonPostProcessId": "POSTPROCESS_BATTLE_COMMAND_DRAGON_GHOSTSHIP_01",
+        "DoProhibitChangingLightIntensity": false
+      },
+      "MAPLIST_BATTLE_TEDON00": {
+        "SelfId": "MAPLIST_BATTLE_TEDON00",
+        "MapID": "TEDON00",
+        "ESwayAnimType": "ESwayAnimationType::ALWAYS",
+        "ActionCameraPostProcessId": "POSTPROCESS_BATTLE_ACTION_TEDON_00",
+        "CommandCameraPostProcessId": "POSTPROCESS_BATTLE_COMMAND_TEDON_00",
+        "CommandCameraDragonPostProcessId": "POSTPROCESS_BATTLE_COMMAND_DRAGON_TEDON_00",
+        "DoProhibitChangingLightIntensity": false
+      },
+      "MAPLIST_BATTLE_ASHALAM_HOUSE00": {
+        "SelfId": "MAPLIST_BATTLE_ASHALAM_HOUSE00",
+        "MapID": "ASHALAM_HOUSE00",
+        "ESwayAnimType": "ESwayAnimationType::ALWAYS",
+        "ActionCameraPostProcessId": "POSTPROCESS_BATTLE_ACTION_ASHALAM_HOUSE_00",
+        "CommandCameraPostProcessId": "POSTPROCESS_BATTLE_COMMAND_ASHALAM_HOUSE_00",
+        "CommandCameraDragonPostProcessId": "POSTPROCESS_BATTLE_COMMAND_DRAGON_ASHALAM_HOUSE_00",
+        "DoProhibitChangingLightIntensity": false
+      },
+      "MAPLIST_BATTLE_ZOMA_CASTLE00": {
+        "SelfId": "MAPLIST_BATTLE_ZOMA_CASTLE00",
+        "MapID": "ZOMA_CASTLE00",
+        "ESwayAnimType": "ESwayAnimationType::ALWAYS",
+        "ActionCameraPostProcessId": "POSTPROCESS_BATTLE_ACTION_ZOMA_CASTLE_00",
+        "CommandCameraPostProcessId": "POSTPROCESS_BATTLE_COMMAND_ZOMA_CASTLE_00",
+        "CommandCameraDragonPostProcessId": "POSTPROCESS_BATTLE_COMMAND_DRAGON_ZOMA_CASTLE_00",
+        "DoProhibitChangingLightIntensity": false
+      },
+      "MAPLIST_BATTLE_ZOMA_CASTLE10": {
+        "SelfId": "MAPLIST_BATTLE_ZOMA_CASTLE10",
+        "MapID": "ZOMA_CASTLE00",
+        "ESwayAnimType": "ESwayAnimationType::ALWAYS",
+        "ActionCameraPostProcessId": "POSTPROCESS_BATTLE_ACTION_ZOMA_CASTLE_10",
+        "CommandCameraPostProcessId": "POSTPROCESS_BATTLE_COMMAND_ZOMA_CASTLE_10",
+        "CommandCameraDragonPostProcessId": "POSTPROCESS_BATTLE_COMMAND_DRAGON_ZOMA_CASTLE_10",
+        "DoProhibitChangingLightIntensity": false
+      },
+      "MAPLIST_BATTLE_ZOMA_CASTLE11": {
+        "SelfId": "MAPLIST_BATTLE_ZOMA_CASTLE11",
+        "MapID": "ZOMA_CASTLE00",
+        "ESwayAnimType": "ESwayAnimationType::ALWAYS",
+        "ActionCameraPostProcessId": "POSTPROCESS_BATTLE_ACTION_ZOMA_CASTLE_11",
+        "CommandCameraPostProcessId": "POSTPROCESS_BATTLE_COMMAND_ZOMA_CASTLE_11",
+        "CommandCameraDragonPostProcessId": "POSTPROCESS_BATTLE_COMMAND_DRAGON_ZOMA_CASTLE_11",
+        "DoProhibitChangingLightIntensity": false
+      },
+      "MAPLIST_BATTLE_VOLCANO00": {
+        "SelfId": "MAPLIST_BATTLE_VOLCANO00",
+        "MapID": "VOLCANO00",
+        "ESwayAnimType": "ESwayAnimationType::ALWAYS",
+        "ActionCameraPostProcessId": "POSTPROCESS_BATTLE_ACTION_MOUNTAIN_00",
+        "CommandCameraPostProcessId": "POSTPROCESS_BATTLE_COMMAND_MOUNTAIN_00",
+        "CommandCameraDragonPostProcessId": "POSTPROCESS_BATTLE_COMMAND_DRAGON_MOUNTAIN_00",
+        "DoProhibitChangingLightIntensity": false
+      },
+      "MAPLIST_BATTLE_GAIA_CAVE00": {
+        "SelfId": "MAPLIST_BATTLE_GAIA_CAVE00",
+        "MapID": "GAIA_CAVE_CAVE00",
+        "ESwayAnimType": "ESwayAnimationType::ALWAYS",
+        "ActionCameraPostProcessId": "POSTPROCESS_BATTLE_ACTION_GAIA_CAVE_00",
+        "CommandCameraPostProcessId": "POSTPROCESS_BATTLE_COMMAND_GAIA_CAVE_00",
+        "CommandCameraDragonPostProcessId": "POSTPROCESS_BATTLE_COMMAND_DRAGON_GAIA_CAVE_00",
+        "DoProhibitChangingLightIntensity": false
+      },
+      "MAPLIST_BATTLE_GAIA_CAVE01": {
+        "SelfId": "MAPLIST_BATTLE_GAIA_CAVE01",
+        "MapID": "GAIA_CAVE_CAVE01",
+        "ESwayAnimType": "ESwayAnimationType::ALWAYS",
+        "ActionCameraPostProcessId": "POSTPROCESS_BATTLE_ACTION_GAIA_CAVE_01",
+        "CommandCameraPostProcessId": "POSTPROCESS_BATTLE_COMMAND_GAIA_CAVE_01",
+        "CommandCameraDragonPostProcessId": "POSTPROCESS_BATTLE_COMMAND_DRAGON_GAIA_CAVE_01",
+        "DoProhibitChangingLightIntensity": false
+      },
+      "MAPLIST_BATTLE_GAIA_CAVE02": {
+        "SelfId": "MAPLIST_BATTLE_GAIA_CAVE02",
+        "MapID": "GAIA_CAVE_CAVE02",
+        "ESwayAnimType": "ESwayAnimationType::ALWAYS",
+        "ActionCameraPostProcessId": "POSTPROCESS_BATTLE_ACTION_GAIA_CAVE_02",
+        "CommandCameraPostProcessId": "POSTPROCESS_BATTLE_COMMAND_GAIA_CAVE_02",
+        "CommandCameraDragonPostProcessId": "POSTPROCESS_BATTLE_COMMAND_DRAGON_GAIA_CAVE_02",
+        "DoProhibitChangingLightIntensity": false
+      },
+      "MAPLIST_BATTLE_SECRET_TOWER00": {
+        "SelfId": "MAPLIST_BATTLE_SECRET_TOWER00",
+        "MapID": "SECRET_TOWER00",
+        "ESwayAnimType": "ESwayAnimationType::ALWAYS",
+        "ActionCameraPostProcessId": "POSTPROCESS_BATTLE_ACTION_SECRET_TOWER_00",
+        "CommandCameraPostProcessId": "POSTPROCESS_BATTLE_COMMAND_SECRET_TOWER_00",
+        "CommandCameraDragonPostProcessId": "POSTPROCESS_BATTLE_COMMAND_DRAGON_SECRET_TOWER_00",
+        "DoProhibitChangingLightIntensity": true
+      },
+      "MAPLIST_BATTLE_SECRET_TOWER01": {
+        "SelfId": "MAPLIST_BATTLE_SECRET_TOWER01",
+        "MapID": "SECRET_TOWER01",
+        "ESwayAnimType": "ESwayAnimationType::ALWAYS",
+        "ActionCameraPostProcessId": "POSTPROCESS_BATTLE_ACTION_SECRET_TOWER_01",
+        "CommandCameraPostProcessId": "POSTPROCESS_BATTLE_COMMAND_SECRET_TOWER_01",
+        "CommandCameraDragonPostProcessId": "POSTPROCESS_BATTLE_COMMAND_DRAGON_SECRET_TOWER_01",
+        "DoProhibitChangingLightIntensity": true
+      },
+      "MAPLIST_BATTLE_SECRET_TOWER02": {
+        "SelfId": "MAPLIST_BATTLE_SECRET_TOWER02",
+        "MapID": "SECRET_TOWER02",
+        "ESwayAnimType": "ESwayAnimationType::ALWAYS",
+        "ActionCameraPostProcessId": "POSTPROCESS_BATTLE_ACTION_SECRET_TOWER_02",
+        "CommandCameraPostProcessId": "POSTPROCESS_BATTLE_COMMAND_SECRET_TOWER_02",
+        "CommandCameraDragonPostProcessId": "POSTPROCESS_BATTLE_COMMAND_DRAGON_SECRET_TOWER_02",
+        "DoProhibitChangingLightIntensity": false
+      },
+      "MAPLIST_BATTLE_HERO_CAVE00": {
+        "SelfId": "MAPLIST_BATTLE_HERO_CAVE00",
+        "MapID": "HERO_CAVE00",
+        "ESwayAnimType": "ESwayAnimationType::ALWAYS",
+        "ActionCameraPostProcessId": "POSTPROCESS_BATTLE_ACTION_HERO_CAVE_00",
+        "CommandCameraPostProcessId": "POSTPROCESS_BATTLE_COMMAND_HERO_CAVE_00",
+        "CommandCameraDragonPostProcessId": "POSTPROCESS_BATTLE_COMMAND_DRAGON_HERO_CAVE_00",
+        "DoProhibitChangingLightIntensity": false
+      },
+      "MAPLIST_BATTLE_RUBISS_TOWER00": {
+        "SelfId": "MAPLIST_BATTLE_RUBISS_TOWER00",
+        "MapID": "RUBISS_TOWER00",
+        "ESwayAnimType": "ESwayAnimationType::ALWAYS",
+        "ActionCameraPostProcessId": "POSTPROCESS_BATTLE_ACTION_RUBISSTOWER_00",
+        "CommandCameraPostProcessId": "POSTPROCESS_BATTLE_COMMAND_RUBISSTOWER_00",
+        "CommandCameraDragonPostProcessId": "POSTPROCESS_BATTLE_COMMAND_DRAGON_RUBISSTOWER_00",
+        "DoProhibitChangingLightIntensity": false
+      },
+      "MAPLIST_BATTLE_RUBISS_TOWER01": {
+        "SelfId": "MAPLIST_BATTLE_RUBISS_TOWER01",
+        "MapID": "RUBISS_TOWER01",
+        "ESwayAnimType": "ESwayAnimationType::ALWAYS",
+        "ActionCameraPostProcessId": "POSTPROCESS_BATTLE_ACTION_RUBISSTOWER_01",
+        "CommandCameraPostProcessId": "POSTPROCESS_BATTLE_COMMAND_RUBISSTOWER_01",
+        "CommandCameraDragonPostProcessId": "POSTPROCESS_BATTLE_COMMAND_DRAGON_RUBISSTOWER_01",
+        "DoProhibitChangingLightIntensity": true
+      },
+      "MAPLIST_BATTLE_RUBISS_TOWER02": {
+        "SelfId": "MAPLIST_BATTLE_RUBISS_TOWER02",
+        "MapID": "RUBISS_TOWER02",
+        "ESwayAnimType": "ESwayAnimationType::ALWAYS",
+        "ActionCameraPostProcessId": "POSTPROCESS_BATTLE_ACTION_RUBISSTOWER_02",
+        "CommandCameraPostProcessId": "POSTPROCESS_BATTLE_COMMAND_RUBISSTOWER_02",
+        "CommandCameraDragonPostProcessId": "POSTPROCESS_BATTLE_COMMAND_DRAGON_RUBISSTOWER_02",
+        "DoProhibitChangingLightIntensity": false
+      },
+      "MAPLIST_BATTLE_GRANDRAGON00": {
+        "SelfId": "MAPLIST_BATTLE_GRANDRAGON00",
+        "MapID": "GRANDRAGON00",
+        "ESwayAnimType": "ESwayAnimationType::ALWAYS",
+        "ActionCameraPostProcessId": "POSTPROCESS_BATTLE_ACTION_GRANDRAGON_00",
+        "CommandCameraPostProcessId": "POSTPROCESS_BATTLE_COMMAND_GRANDRAGON_00",
+        "CommandCameraDragonPostProcessId": "POSTPROCESS_BATTLE_COMMAND_DRAGON_GRANDRAGON_00",
+        "DoProhibitChangingLightIntensity": false
+      },
+      "MAPLIST_BATTLE_GRANDRAGON01": {
+        "SelfId": "MAPLIST_BATTLE_GRANDRAGON01",
+        "MapID": "GRANDRAGON01",
+        "ESwayAnimType": "ESwayAnimationType::ALWAYS",
+        "ActionCameraPostProcessId": "POSTPROCESS_BATTLE_ACTION_GRANDRAGON_01",
+        "CommandCameraPostProcessId": "POSTPROCESS_BATTLE_COMMAND_GRANDRAGON_01",
+        "CommandCameraDragonPostProcessId": "POSTPROCESS_BATTLE_COMMAND_DRAGON_GRANDRAGON_01",
+        "DoProhibitChangingLightIntensity": false
+      },
+      "MAPLIST_BATTLE_ROMARIA_BATTLEROAD": {
+        "SelfId": "MAPLIST_BATTLE_ROMARIA_BATTLEROAD",
+        "MapID": "ROMARIA_BATTLEROAD",
+        "ESwayAnimType": "ESwayAnimationType::ALWAYS",
+        "ActionCameraPostProcessId": "POSTPROCESS_BATTLE_ACTION_ROMARIA_BATTLEROAD",
+        "CommandCameraPostProcessId": "POSTPROCESS_BATTLE_COMMAND_ROMARIA_BATTLEROAD",
+        "CommandCameraDragonPostProcessId": "POSTPROCESS_BATTLE_COMMAND_DRAGON_ROMARIA_BATTLEROAD",
+        "DoProhibitChangingLightIntensity": false
+      },
+      "MAPLIST_BATTLE_ISIS_BATTLEROAD": {
+        "SelfId": "MAPLIST_BATTLE_ISIS_BATTLEROAD",
+        "MapID": "ISIS_BATTLEROAD",
+        "ESwayAnimType": "ESwayAnimationType::ALWAYS",
+        "ActionCameraPostProcessId": "POSTPROCESS_BATTLE_ACTION_ISIS_BATTLEROAD",
+        "CommandCameraPostProcessId": "POSTPROCESS_BATTLE_COMMAND_ISIS_BATTLEROAD",
+        "CommandCameraDragonPostProcessId": "POSTPROCESS_BATTLE_COMMAND_DRAGON_ISIS_BATTLEROAD",
+        "DoProhibitChangingLightIntensity": false
+      },
+      "MAPLIST_BATTLE_SAMANOSA_BATTLEROAD": {
+        "SelfId": "MAPLIST_BATTLE_SAMANOSA_BATTLEROAD",
+        "MapID": "SAMANOSA_BATTLEROAD",
+        "ESwayAnimType": "ESwayAnimationType::ALWAYS",
+        "ActionCameraPostProcessId": "POSTPROCESS_BATTLE_ACTION_SAMANOSA_BATTLEROAD",
+        "CommandCameraPostProcessId": "POSTPROCESS_BATTLE_COMMAND_SAMANOSA_BATTLEROAD",
+        "CommandCameraDragonPostProcessId": "POSTPROCESS_BATTLE_COMMAND_DRAGON_SAMANOSA_BATTLEROAD",
+        "DoProhibitChangingLightIntensity": false
+      },
+      "MAPLIST_BATTLE_JIPANG_BATTLEROAD": {
+        "SelfId": "MAPLIST_BATTLE_JIPANG_BATTLEROAD",
+        "MapID": "JIPANG_BATTLEROAD",
+        "ESwayAnimType": "ESwayAnimationType::ALWAYS",
+        "ActionCameraPostProcessId": "POSTPROCESS_BATTLE_ACTION_JIPANG_BATTLEROAD",
+        "CommandCameraPostProcessId": "POSTPROCESS_BATTLE_COMMAND_JIPANG_BATTLEROAD",
+        "CommandCameraDragonPostProcessId": "POSTPROCESS_BATTLE_COMMAND_DRAGON_JIPANG_BATTLEROAD",
+        "DoProhibitChangingLightIntensity": false
+      },
+      "MAPLIST_BATTLE_MERCADO_BATTLEROAD": {
+        "SelfId": "MAPLIST_BATTLE_MERCADO_BATTLEROAD",
+        "MapID": "MERCADO_BATTLEROAD",
+        "ESwayAnimType": "ESwayAnimationType::ALWAYS",
+        "ActionCameraPostProcessId": "POSTPROCESS_BATTLE_ACTION_MERCADO_BATTLEROAD",
+        "CommandCameraPostProcessId": "POSTPROCESS_BATTLE_COMMAND_MERCADO_BATTLEROAD",
+        "CommandCameraDragonPostProcessId": "POSTPROCESS_BATTLE_COMMAND_DRAGON_MERCADO_BATTLEROAD",
+        "DoProhibitChangingLightIntensity": false
+      }
+    }
+  }
+]

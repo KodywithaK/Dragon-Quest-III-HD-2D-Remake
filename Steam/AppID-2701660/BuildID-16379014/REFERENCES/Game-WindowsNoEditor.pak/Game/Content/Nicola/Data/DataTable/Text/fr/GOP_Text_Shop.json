@@ -1,0 +1,1096 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_Shop",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Shop_UI_Top_01": {
+        "SelfId": "Txt_Shop_UI_Top_01",
+        "Text": "Acheter"
+      },
+      "Txt_Shop_UI_Top_02": {
+        "SelfId": "Txt_Shop_UI_Top_02",
+        "Text": "Vendre"
+      },
+      "Txt_Shop_UI_Top_03": {
+        "SelfId": "Txt_Shop_UI_Top_03",
+        "Text": "Annuler"
+      },
+      "Txt_Shop_UI_NoEquip": {
+        "SelfId": "Txt_Shop_UI_NoEquip",
+        "Text": "Équip. impossible"
+      },
+      "Txt_Shop_UI_ShopGuide": {
+        "SelfId": "Txt_Shop_UI_ShopGuide",
+        "Text": "Objets à vendre"
+      },
+      "Txt_Shop_UI_BuyGuide": {
+        "SelfId": "Txt_Shop_UI_BuyGuide",
+        "Text": "Choisir un objet à acheter"
+      },
+      "Txt_Shop_UI_SellGuide": {
+        "SelfId": "Txt_Shop_UI_SellGuide",
+        "Text": "Choisir un objet à vendre"
+      },
+      "Txt_Shop_UI_Total": {
+        "SelfId": "Txt_Shop_UI_Total",
+        "Text": "Total :"
+      },
+      "Txt_Shop_UI_TotalPrice": {
+        "SelfId": "Txt_Shop_UI_TotalPrice",
+        "Text": "[0]"
+      },
+      "Txt_Shop_UI_NotForSell": {
+        "SelfId": "Txt_Shop_UI_NotForSell",
+        "Text": "Invendable"
+      },
+      "Txt_Shop_Message_Start_01_M": {
+        "SelfId": "Txt_Shop_Message_Start_01_M",
+        "Text": "*: Bienvenue dans mon humble échoppe! Je vends des {WORD}.\r\nQue puis-je vous servir?\r\n<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuySelect_01_M": {
+        "SelfId": "Txt_Shop_Message_BuySelect_01_M",
+        "Text": "*: Que désirez-vous acheter?\r\n<NO_INPUT>"
+      },
+      "Txt_Shop_Message_Shotage_01_M": {
+        "SelfId": "Txt_Shop_Message_Shotage_01_M",
+        "Text": "*: Pardonnez-moi, mais il me semble que vous n'avez pas assez d'argent sur vous."
+      },
+      "Txt_Shop_Message_BuySelectValue_01_M": {
+        "SelfId": "Txt_Shop_Message_BuySelectValue_01_M",
+        "Text": "*: Combien en désirez-vous?\r\n<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuySingle_01_M": {
+        "SelfId": "Txt_Shop_Message_BuySingle_01_M",
+        "Text": "*: <Cap><IndefSgl_I_NAME>? Très bon choix! Merci bien!"
+      },
+      "Txt_Shop_Message_BuyMultipul_01_M": {
+        "SelfId": "Txt_Shop_Message_BuyMultipul_01_M",
+        "Text": "*: {VALUE}<nbsp><Plr_I_NAME>, vous dites?\r\nUn grand merci!"
+      },
+      "Txt_Shop_Message_BuyUsefulBattle_01_M": {
+        "SelfId": "Txt_Shop_Message_BuyUsefulBattle_01_M",
+        "Text": "C'est un équipement que vous avez tout autant intérêt à utiliser comme objet en combat."
+      },
+      "Txt_Shop_Message_SelectBuyer_01_M": {
+        "SelfId": "Txt_Shop_Message_SelectBuyer_01_M",
+        "Text": "*: Qui va transporter ça?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_ConfirmSorting_01_M": {
+        "SelfId": "Txt_Shop_Message_ConfirmSorting_01_M",
+        "Text": "*: Vous ne pouvez plus rien transporter de plus, {ACTOR}.\r\nSouhaitez-vous que je fasse le tri dans vos affaires?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_FinishSorting_01_M": {
+        "SelfId": "Txt_Shop_Message_FinishSorting_01_M",
+        "Text": "*: Voilà!\r\nTout est trié comme il faut!"
+      },
+      "Txt_Shop_Message_StopSorting_01_M": {
+        "SelfId": "Txt_Shop_Message_StopSorting_01_M",
+        "Text": "*: Malheureusement, vous ne transportez que des objets importants, {ACTOR}. Je ne me permettrais pas d'y toucher!"
+      },
+      "Txt_Shop_Message_SelectBuyerAgain_01_M": {
+        "SelfId": "Txt_Shop_Message_SelectBuyerAgain_01_M",
+        "Text": "*: Qui d'autre peut transporter ça?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuyBag_01_M": {
+        "SelfId": "Txt_Shop_Message_BuyBag_01_M",
+        "Text": "*: Dans ce cas, je le mets dans <DefSgl_BAG>!"
+      },
+      "Txt_Shop_Message_BagFull_01_M": {
+        "SelfId": "Txt_Shop_Message_BagFull_01_M",
+        "Text": "*: Oh, mais votre sac m'a l'air bien plein..."
+      },
+      "Txt_Shop_Message_UnableEquip_01_M": {
+        "SelfId": "Txt_Shop_Message_UnableEquip_01_M",
+        "Text": "*: Je crains que vous ne puissiez vous en équiper, {ACTOR}.\r\nSouhaitez-vous tout de même poursuivre votre achat?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuyConfirmEquip_01_M": {
+        "SelfId": "Txt_Shop_Message_BuyConfirmEquip_01_M",
+        "Text": "*: Souhaitez-vous vous en équiper maintenant?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SelectAccessorie_01_M": {
+        "SelfId": "Txt_Shop_Message_SelectAccessorie_01_M",
+        "Text": "*: Où souhaitez-vous placer cet accessoire?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuyCurseLift_01_M": {
+        "SelfId": "Txt_Shop_Message_BuyCurseLift_01_M",
+        "Text": "*: Non! Impossible de retirer votre <Sgl_I_NAME>!<KEY_WAIT>\r\n*: On ne vous a jamais dit de ne pas toucher aux objets maudits?<!> Vous allez devoir rester comme ça pour le moment.\r\nVoici votre achat."
+      },
+      "Txt_Shop_Message_BuySuccess_01_M": {
+        "SelfId": "Txt_Shop_Message_BuySuccess_01_M",
+        "Text": "*: Voilà pour vous, {ACTOR}!"
+      },
+      "Txt_Shop_Message_BuySuccess_Death_01_M": {
+        "SelfId": "Txt_Shop_Message_BuySuccess_Death_01_M",
+        "Text": "*: Je mets ça dans le cercueil <IfVowel_ACTOR(d',de )>{ACTOR}."
+      },
+      "Txt_Shop_Message_BuyOverly_01_M": {
+        "SelfId": "Txt_Shop_Message_BuyOverly_01_M",
+        "Text": "*: Je mets le reste dans <DefSgl_BAG>, alors."
+      },
+      "Txt_Shop_Message_AdditionalBuy_01_M": {
+        "SelfId": "Txt_Shop_Message_AdditionalBuy_01_M",
+        "Text": "*: Désirez-vous autre chose?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SelectSeller_01_M": {
+        "SelfId": "Txt_Shop_Message_SelectSeller_01_M",
+        "Text": "*: Qui a quelque chose à vendre?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_NoItem_Chara_01_M": {
+        "SelfId": "Txt_Shop_Message_NoItem_Chara_01_M",
+        "Text": "*: Excusez-moi, mais vous n'avez rien qui puisse être vendu, {ACTOR}!"
+      },
+      "Txt_Shop_Message_NoItem_Bag_01_M": {
+        "SelfId": "Txt_Shop_Message_NoItem_Bag_01_M",
+        "Text": "*: <Cap><DefSgl_BAG> m'a l'air complètement vide!"
+      },
+      "Txt_Shop_Message_SellCanNot_01_M": {
+        "SelfId": "Txt_Shop_Message_SellCanNot_01_M",
+        "Text": "*: Vous m'en voyez navré mais je ne reprends pas ce genre de pièce."
+      },
+      "Txt_Shop_Message_SellConfirmEquip_01_M": {
+        "SelfId": "Txt_Shop_Message_SellConfirmEquip_01_M",
+        "Text": "*: Mais vous portez cette pièce sur vous.\r\nVous me confirmez vouloir la vendre?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_ConfirmLare_01_M": {
+        "SelfId": "Txt_Shop_Message_ConfirmLare_01_M",
+        "Text": "*: Vous ne pourrez peut-être plus jamais remettre la main sur cette pièce.\r\nVous me confirmez bien vouloir la vendre? <NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSelectValue_01_M": {
+        "SelfId": "Txt_Shop_Message_SellSelectValue_01_M",
+        "Text": "*: Et combien désirez-vous en vendre?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSingle_01_M": {
+        "SelfId": "Txt_Shop_Message_SellSingle_01_M",
+        "Text": "*: Je vous <IfPlrNoun_I_NAME(les,<IfGender_I_NAME(le,la,)>)> reprends pour {VALUE}<nbsp><IfFRSing_VALUE(pièce,pièces)> d'or.\r\nCela vous convient-il?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellMultiple_01_M": {
+        "SelfId": "Txt_Shop_Message_SellMultiple_01_M",
+        "Text": "*: Je vous reprends les {VALUE}<nbsp><Plr_I_NAME> pour {VALUE2}<nbsp><IfSing_VALUE2(pièce,pièces)> d'or.\r\nCela vous convient-il?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSuccess_01_M": {
+        "SelfId": "Txt_Shop_Message_SellSuccess_01_M",
+        "Text": "*: Merci bien!"
+      },
+      "Txt_Shop_Message_SellCancel_01_M": {
+        "SelfId": "Txt_Shop_Message_SellCancel_01_M",
+        "Text": "*: C'est bien dommage..."
+      },
+      "Txt_Shop_Message_GoldFull_01_M": {
+        "SelfId": "Txt_Shop_Message_GoldFull_01_M",
+        "Text": "*: Aussi incroyable que cela puisse paraître,\r\nvous ne pouvez pas posséder plus de pièces d'or!\r\nVous pouvez toujours m'acheter quelque chose."
+      },
+      "Txt_Shop_Message_SellCurseLift_01_M": {
+        "SelfId": "Txt_Shop_Message_SellCurseLift_01_M",
+        "Text": "*: Hm? Cette pièce semble sous l'emprise d'une malédiction!\r\nC'est bien dommage..."
+      },
+      "Txt_Shop_Message_AdditionalSell_01_M": {
+        "SelfId": "Txt_Shop_Message_AdditionalSell_01_M",
+        "Text": "*: Désirez-vous vendre autre chose?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_AdditionalShop_01_M": {
+        "SelfId": "Txt_Shop_Message_AdditionalShop_01_M",
+        "Text": "*: Désirez-vous autre chose?\r\n<NO_INPUT>"
+      },
+      "Txt_Shop_Message_Finish_01_M": {
+        "SelfId": "Txt_Shop_Message_Finish_01_M",
+        "Text": "*: À la revoyure!"
+      },
+      "Txt_Shop_Message_ConfirmGoldSingle_01_M": {
+        "SelfId": "Txt_Shop_Message_ConfirmGoldSingle_01_M",
+        "Text": "*: Ça fait {VALUE} <IfFRSing_VALUE(pièce,pièces)> d'or. Ça vous convient?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_ConfirmGoldMultiple_01_M": {
+        "SelfId": "Txt_Shop_Message_ConfirmGoldMultiple_01_M",
+        "Text": "*: Ça vous fait un total de {VALUE}<nbsp>pièces d'or. Ça vous convient?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSelect_01_M": {
+        "SelfId": "Txt_Shop_Message_SellSelect_01_M",
+        "Text": "*: Que désirez-vous revendre aujourd'hui?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_Start_01_F": {
+        "SelfId": "Txt_Shop_Message_Start_01_F",
+        "Text": "*: Bien le bonjour! Si vous cherchez des {WORD}, vous êtes au bon endroit!\r\nQue désirez-vous?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuySelect_01_F": {
+        "SelfId": "Txt_Shop_Message_BuySelect_01_F",
+        "Text": "*: Que souhaitez-vous acheter?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_Shotage_01_F": {
+        "SelfId": "Txt_Shop_Message_Shotage_01_F",
+        "Text": "*: Je suis désolée mais vous n'avez pas assez d'argent sur vous."
+      },
+      "Txt_Shop_Message_BuySelectValue_01_F": {
+        "SelfId": "Txt_Shop_Message_BuySelectValue_01_F",
+        "Text": "*: Et combien en désirez-vous?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuySingle_01_F": {
+        "SelfId": "Txt_Shop_Message_BuySingle_01_F",
+        "Text": "*: <Cap><IndefSgl_I_NAME>?\r\nC'est un très bon choix, merci!"
+      },
+      "Txt_Shop_Message_BuyMultipul_01_F": {
+        "SelfId": "Txt_Shop_Message_BuyMultipul_01_F",
+        "Text": "*: {VALUE}<nbsp><Plr_I_NAME>?\r\nJe vous remercie infiniment!"
+      },
+      "Txt_Shop_Message_BuyUsefulBattle_01_F": {
+        "SelfId": "Txt_Shop_Message_BuyUsefulBattle_01_F",
+        "Text": "C'est un équipement que vous avez tout autant intérêt à utiliser comme objet en combat."
+      },
+      "Txt_Shop_Message_SelectBuyer_01_F": {
+        "SelfId": "Txt_Shop_Message_SelectBuyer_01_F",
+        "Text": "*: Qui va transporter cela?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_ConfirmSorting_01_F": {
+        "SelfId": "Txt_Shop_Message_ConfirmSorting_01_F",
+        "Text": "*: Vous ne pouvez plus rien transporter de plus, {ACTOR}.\r\nSouhaitez-vous que je fasse le tri dans vos affaires?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_FinishSorting_01_F": {
+        "SelfId": "Txt_Shop_Message_FinishSorting_01_F",
+        "Text": "*: Et voilà!\r\nTout est proprement trié!"
+      },
+      "Txt_Shop_Message_StopSorting_01_F": {
+        "SelfId": "Txt_Shop_Message_StopSorting_01_F",
+        "Text": "*: Malheureusement, vous ne transportez que des objets importants, {ACTOR}. Je ne me permettrais pas d'y toucher!"
+      },
+      "Txt_Shop_Message_SelectBuyerAgain_01_F": {
+        "SelfId": "Txt_Shop_Message_SelectBuyerAgain_01_F",
+        "Text": "*: Qui d'autre peut transporter cela?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuyBag_01_F": {
+        "SelfId": "Txt_Shop_Message_BuyBag_01_F",
+        "Text": "*: Dans ce cas, je le mets dans <DefSgl_BAG>!"
+      },
+      "Txt_Shop_Message_BagFull_01_F": {
+        "SelfId": "Txt_Shop_Message_BagFull_01_F",
+        "Text": "*: Oh, mais votre sac m'a l'air de ne plus rien pouvoir contenir..."
+      },
+      "Txt_Shop_Message_UnableEquip_01_F": {
+        "SelfId": "Txt_Shop_Message_UnableEquip_01_F",
+        "Text": "*: Je crains que vous ne puissiez vous en équiper, {ACTOR}.\r\nSouhaitez-vous tout de même poursuivre votre achat?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuyConfirmEquip_01_F": {
+        "SelfId": "Txt_Shop_Message_BuyConfirmEquip_01_F",
+        "Text": "*: Souhaitez-vous vous en équiper maintenant?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SelectAccessorie_01_F": {
+        "SelfId": "Txt_Shop_Message_SelectAccessorie_01_F",
+        "Text": "*: Où souhaitez-vous placer cet accessoire?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuyCurseLift_01_F": {
+        "SelfId": "Txt_Shop_Message_BuyCurseLift_01_F",
+        "Text": "*: Non! Impossible de retirer votre <Sgl_I_NAME>!<KEY_WAIT>\r\n*: Ne vous a-t-on jamais dit de ne pas toucher aux objets maudits?<!> Vous allez devoir rester comme cela pour le moment.\r\nVoici votre achat."
+      },
+      "Txt_Shop_Message_BuySuccess_01_F": {
+        "SelfId": "Txt_Shop_Message_BuySuccess_01_F",
+        "Text": "*: Voilà pour vous, {ACTOR}!"
+      },
+      "Txt_Shop_Message_BuySuccess_Death_01_F": {
+        "SelfId": "Txt_Shop_Message_BuySuccess_Death_01_F",
+        "Text": "*: Je mets cela dans le cercueil <IfVowel_ACTOR(d',de )>{ACTOR}."
+      },
+      "Txt_Shop_Message_BuyOverly_01_F": {
+        "SelfId": "Txt_Shop_Message_BuyOverly_01_F",
+        "Text": "*: Je mets le reste dans <DefSgl_BAG>, alors."
+      },
+      "Txt_Shop_Message_AdditionalBuy_01_F": {
+        "SelfId": "Txt_Shop_Message_AdditionalBuy_01_F",
+        "Text": "*: Désirez-vous autre chose?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SelectSeller_01_F": {
+        "SelfId": "Txt_Shop_Message_SelectSeller_01_F",
+        "Text": "*: Qui a quelque chose à vendre?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_NoItem_Chara_01_F": {
+        "SelfId": "Txt_Shop_Message_NoItem_Chara_01_F",
+        "Text": "*: Excusez-moi, mais vous n'avez rien qui puisse être vendu, {ACTOR}!"
+      },
+      "Txt_Shop_Message_NoItem_Bag_01_F": {
+        "SelfId": "Txt_Shop_Message_NoItem_Bag_01_F",
+        "Text": "*: <Cap><DefSgl_BAG> m'a l'air complètement vide!"
+      },
+      "Txt_Shop_Message_SellCanNot_01_F": {
+        "SelfId": "Txt_Shop_Message_SellCanNot_01_F",
+        "Text": "*: Vous m'en voyez désolée mais je ne reprends pas ce genre de pièce."
+      },
+      "Txt_Shop_Message_SellConfirmEquip_01_F": {
+        "SelfId": "Txt_Shop_Message_SellConfirmEquip_01_F",
+        "Text": "*: Mais vous portez cette pièce sur vous. Vous voulez vraiment me la vendre?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_ConfirmLare_01_F": {
+        "SelfId": "Txt_Shop_Message_ConfirmLare_01_F",
+        "Text": "*: Vous ne pourrez peut-être plus jamais remettre la main sur cette pièce.\r\nVous me confirmez bien vouloir la vendre? <NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSelectValue_01_F": {
+        "SelfId": "Txt_Shop_Message_SellSelectValue_01_F",
+        "Text": "*: Et combien désirez-vous en vendre?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSingle_01_F": {
+        "SelfId": "Txt_Shop_Message_SellSingle_01_F",
+        "Text": "*: Je vous <IfPlrNoun_I_NAME(les,<IfGender_I_NAME(le,la,)>)> reprends pour {VALUE}<nbsp><IfFRSing_VALUE(pièce,pièces)> d'or.\r\nCela vous convient-il?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellMultiple_01_F": {
+        "SelfId": "Txt_Shop_Message_SellMultiple_01_F",
+        "Text": "*: Je vous reprends les {VALUE}<nbsp><Plr_I_NAME> pour {VALUE2}<nbsp><IfSing_VALUE2(pièce,pièces)> d'or. Cela vous convient-il?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSuccess_01_F": {
+        "SelfId": "Txt_Shop_Message_SellSuccess_01_F",
+        "Text": "*: Merci bien!"
+      },
+      "Txt_Shop_Message_SellCancel_01_F": {
+        "SelfId": "Txt_Shop_Message_SellCancel_01_F",
+        "Text": "*: C'est bien dommage..."
+      },
+      "Txt_Shop_Message_GoldFull_01_F": {
+        "SelfId": "Txt_Shop_Message_GoldFull_01_F",
+        "Text": "*: Aussi incroyable que cela puisse paraître,\r\nvous ne pouvez pas posséder plus de pièces d'or!\r\nVous pouvez toujours m'acheter quelque chose."
+      },
+      "Txt_Shop_Message_SellCurseLift_01_F": {
+        "SelfId": "Txt_Shop_Message_SellCurseLift_01_F",
+        "Text": "*: Hm? Cette pièce semble sous l'emprise d'une malédiction!\r\nC'est fort regrettable..."
+      },
+      "Txt_Shop_Message_AdditionalSell_01_F": {
+        "SelfId": "Txt_Shop_Message_AdditionalSell_01_F",
+        "Text": "*: Désirez-vous vendre autre chose?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_AdditionalShop_01_F": {
+        "SelfId": "Txt_Shop_Message_AdditionalShop_01_F",
+        "Text": "*: Désirez-vous autre chose?\r\n<NO_INPUT>"
+      },
+      "Txt_Shop_Message_Finish_01_F": {
+        "SelfId": "Txt_Shop_Message_Finish_01_F",
+        "Text": "J'espère vous revoir bientôt!"
+      },
+      "Txt_Shop_Message_ConfirmGoldSingle_01_F": {
+        "SelfId": "Txt_Shop_Message_ConfirmGoldSingle_01_F",
+        "Text": "*: Cela fait {VALUE} <IfFRSing_VALUE(pièce,pièces)> d'or.\r\nCela vous convient-il?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_ConfirmGoldMultiple_01_F": {
+        "SelfId": "Txt_Shop_Message_ConfirmGoldMultiple_01_F",
+        "Text": "*: Cela vous fait un total de {VALUE}<nbsp>pièces d'or.\r\nCela vous convient-il?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSelect_01_F": {
+        "SelfId": "Txt_Shop_Message_SellSelect_01_F",
+        "Text": "*: Que désirez-vous revendre?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_Start_02": {
+        "SelfId": "Txt_Shop_Message_Start_02",
+        "Text": "*: Salut! Si c'est des {WORD} que tu cherches, t'es au bon endroit!\r\nQu'est-ce qui t'intéresse?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuySelect_02": {
+        "SelfId": "Txt_Shop_Message_BuySelect_02",
+        "Text": "*: Tu me prends quoi, alors?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_Shotage_02": {
+        "SelfId": "Txt_Shop_Message_Shotage_02",
+        "Text": "*: Désolé <IfGender_LEADER(mon gars,ma petite,)>, mais t'as pas assez pour ça."
+      },
+      "Txt_Shop_Message_BuySelectValue_02": {
+        "SelfId": "Txt_Shop_Message_BuySelectValue_02",
+        "Text": "*: T'en veux combien?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuySingle_02": {
+        "SelfId": "Txt_Shop_Message_BuySingle_02",
+        "Text": "*: <Cap><IndefSgl_I_NAME>, c'est bien ça?\r\nMerci bien."
+      },
+      "Txt_Shop_Message_BuyMultipul_02": {
+        "SelfId": "Txt_Shop_Message_BuyMultipul_02",
+        "Text": "*: {VALUE}<nbsp><Plr_I_NAME>?\r\nTu m'en vois ravi!"
+      },
+      "Txt_Shop_Message_BuyUsefulBattle_02": {
+        "SelfId": "Txt_Shop_Message_BuyUsefulBattle_02",
+        "Text": "*: C'est un équipement que je te conseille d'utiliser comme objet en combat.\r\nT'auras une bonne surprise!"
+      },
+      "Txt_Shop_Message_SelectBuyer_02": {
+        "SelfId": "Txt_Shop_Message_SelectBuyer_02",
+        "Text": "*: C'est qui qui se trimballe le truc?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_ConfirmSorting_02": {
+        "SelfId": "Txt_Shop_Message_ConfirmSorting_02",
+        "Text": "*: Tu peux plus rien porter, {ACTOR}.\r\nTu veux que je fasse le tri dans ton bazar?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_FinishSorting_02": {
+        "SelfId": "Txt_Shop_Message_FinishSorting_02",
+        "Text": "*: C'est fait! On y voit un peu plus clair maintenant!"
+      },
+      "Txt_Shop_Message_StopSorting_02": {
+        "SelfId": "Txt_Shop_Message_StopSorting_02",
+        "Text": "*: Ah désolé, {ACTOR}, mais tu te trimballes des objets bien trop précieux pour que je mette mes sales pattes dessus!"
+      },
+      "Txt_Shop_Message_SelectBuyerAgain_02": {
+        "SelfId": "Txt_Shop_Message_SelectBuyerAgain_02",
+        "Text": "*: Quelqu'un d'autre peut transporter ça?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuyBag_02": {
+        "SelfId": "Txt_Shop_Message_BuyBag_02",
+        "Text": "*: Alors, je fourre ça dans <DefSgl_BAG>."
+      },
+      "Txt_Shop_Message_BagFull_02": {
+        "SelfId": "Txt_Shop_Message_BagFull_02",
+        "Text": "*: Mais en fait, ton sac est déjà plein à craquer..."
+      },
+      "Txt_Shop_Message_UnableEquip_02": {
+        "SelfId": "Txt_Shop_Message_UnableEquip_02",
+        "Text": "*: Tu pourras pas t'équiper de cette pièce, {ACTOR}. Tu la veux quand même?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuyConfirmEquip_02": {
+        "SelfId": "Txt_Shop_Message_BuyConfirmEquip_02",
+        "Text": "*: Tu veux t'équiper de ça, là maintenant?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SelectAccessorie_02": {
+        "SelfId": "Txt_Shop_Message_SelectAccessorie_02",
+        "Text": "*: Tu veux mettre ça où?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuyCurseLift_02": {
+        "SelfId": "Txt_Shop_Message_BuyCurseLift_02",
+        "Text": "*: Waouh! Pas moyen d'enlever <IfPlrNoun_I_NAME(ta ,<IfVowel_I_NAME(ton ,<IfGender_I_NAME(ton ,ta ,)>)>)><Sgl_I_NAME>! Ça pue la malédiction!<KEY_WAIT>\r\n*: En tout cas, voilà ta pièce!"
+      },
+      "Txt_Shop_Message_BuySuccess_02": {
+        "SelfId": "Txt_Shop_Message_BuySuccess_02",
+        "Text": "*: Voilà pour toi, {ACTOR}!"
+      },
+      "Txt_Shop_Message_BuySuccess_Death_02": {
+        "SelfId": "Txt_Shop_Message_BuySuccess_Death_02",
+        "Text": "*: Je mets ça dans le cercueil <IfVowel_ACTOR(d',de )>{ACTOR}, alors."
+      },
+      "Txt_Shop_Message_BuyOverly_02": {
+        "SelfId": "Txt_Shop_Message_BuyOverly_02",
+        "Text": "*: Je mets le reste dans <DefSgl_BAG>, alors."
+      },
+      "Txt_Shop_Message_AdditionalBuy_02": {
+        "SelfId": "Txt_Shop_Message_AdditionalBuy_02",
+        "Text": "*: T'as besoin d'autre chose?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SelectSeller_02": {
+        "SelfId": "Txt_Shop_Message_SelectSeller_02",
+        "Text": "*: Y a quelqu'un qui a quelque chose à vendre?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_NoItem_Chara_02": {
+        "SelfId": "Txt_Shop_Message_NoItem_Chara_02",
+        "Text": "*: Vraiment? Mais t'as rien sur toi, {ACTOR}!"
+      },
+      "Txt_Shop_Message_NoItem_Bag_02": {
+        "SelfId": "Txt_Shop_Message_NoItem_Bag_02",
+        "Text": "*: Mais y a rien dans <DefSgl_BAG>!"
+      },
+      "Txt_Shop_Message_SellCanNot_02": {
+        "SelfId": "Txt_Shop_Message_SellCanNot_02",
+        "Text": "*: Le prends pas mal mais je rachète pas ce genre de marchandise."
+      },
+      "Txt_Shop_Message_SellConfirmEquip_02": {
+        "SelfId": "Txt_Shop_Message_SellConfirmEquip_02",
+        "Text": "*: Mais t'as ça sur toi, <IfGender_ACTOR(l'ami,l'amie,)>? T'es vraiment <IfGender_ACTOR(sûr,sûre,)>?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_ConfirmLare_02": {
+        "SelfId": "Txt_Shop_Message_ConfirmLare_02",
+        "Text": "*: Tu retomberas peut-être plus jamais dessus. T'es <IfGender_LEADER(certain,certaine,)> de vouloir t'en débarrasser? <NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSelectValue_02": {
+        "SelfId": "Txt_Shop_Message_SellSelectValue_02",
+        "Text": "*: Et tu veux m'en vendre combien?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSingle_02": {
+        "SelfId": "Txt_Shop_Message_SellSingle_02",
+        "Text": "*: <Cap><IndefSgl_I_NAME>?\r\nJe t'en donne {VALUE}<nbsp><IfFRSing_VALUE(pièce,pièces)> d'or.\r\nC'est un bon prix, non?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellMultiple_02": {
+        "SelfId": "Txt_Shop_Message_SellMultiple_02",
+        "Text": "*: Je te reprends les {VALUE}<nbsp><Plr_I_NAME> pour {VALUE2}<nbsp><IfFRSing_VALUE2(pièce,pièces)> d'or.\r\nT'es d'accord avec ce prix?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSuccess_02": {
+        "SelfId": "Txt_Shop_Message_SellSuccess_02",
+        "Text": "*: Toujours un plaisir de faire des affaires!"
+      },
+      "Txt_Shop_Message_SellCancel_02": {
+        "SelfId": "Txt_Shop_Message_SellCancel_02",
+        "Text": "*: Ah d'accord, tant pis alors..."
+      },
+      "Txt_Shop_Message_GoldFull_02": {
+        "SelfId": "Txt_Shop_Message_GoldFull_02",
+        "Text": "*: C'est pas commun mais tu peux pas avoir plus de pièces d'or!\r\nJe peux rien te racheter."
+      },
+      "Txt_Shop_Message_SellCurseLift_02": {
+        "SelfId": "Txt_Shop_Message_SellCurseLift_02",
+        "Text": "*: Je voudrais bien t'aider mais désolé, je fais pas le commerce des produits touchés par une malédiction..."
+      },
+      "Txt_Shop_Message_AdditionalSell_02": {
+        "SelfId": "Txt_Shop_Message_AdditionalSell_02",
+        "Text": "*: Tu veux vendre d'autres trucs?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_AdditionalShop_02": {
+        "SelfId": "Txt_Shop_Message_AdditionalShop_02",
+        "Text": "*: T'as besoin d'autre chose?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_Finish_02": {
+        "SelfId": "Txt_Shop_Message_Finish_02",
+        "Text": "*: À la prochaine!"
+      },
+      "Txt_Shop_Message_ConfirmGoldSingle_02": {
+        "SelfId": "Txt_Shop_Message_ConfirmGoldSingle_02",
+        "Text": "*: Ça fera {VALUE}<nbsp><IfFRSing_VALUE(pièce,pièces)> d'or, c'est bon?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_ConfirmGoldMultiple_02": {
+        "SelfId": "Txt_Shop_Message_ConfirmGoldMultiple_02",
+        "Text": "*: Ça nous fait donc un total de {VALUE}<nbsp><IfFRSing_VALUE(pièce,pièces)> d'or. Ça te va?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSelect_02": {
+        "SelfId": "Txt_Shop_Message_SellSelect_02",
+        "Text": "*: Tu me vends quoi, alors?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_Start_01_Smith": {
+        "SelfId": "Txt_Shop_Message_Start_01_Smith",
+        "Text": "Bienvenue ici...\r\nJe suis tout à votre service...\r\nJe vends des objets...<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuySelect_01_Smith": {
+        "SelfId": "Txt_Shop_Message_BuySelect_01_Smith",
+        "Text": "Que recherchez-vous?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_Shotage_01_Smith": {
+        "SelfId": "Txt_Shop_Message_Shotage_01_Smith",
+        "Text": "J'en suis bien navré...\r\nIl vous manque quelques pièces d'or...\r\nVérifiez bien..."
+      },
+      "Txt_Shop_Message_BuySelectValue_01_Smith": {
+        "SelfId": "Txt_Shop_Message_BuySelectValue_01_Smith",
+        "Text": "Qu'en est-il du nombre?\r\n<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuySingle_01_Smith": {
+        "SelfId": "Txt_Shop_Message_BuySingle_01_Smith",
+        "Text": "<Cap><IndefSgl_I_NAME>?\r\nUn merci pour votre achat.\r\nUn excellent choix!"
+      },
+      "Txt_Shop_Message_BuyMultipul_01_Smith": {
+        "SelfId": "Txt_Shop_Message_BuyMultipul_01_Smith",
+        "Text": "{VALUE} <Plr_I_NAME>?\r\nUn merci pour votre achat.\r\nUn excellent choix!"
+      },
+      "Txt_Shop_Message_BuyUsefulBattle_01_Smith": {
+        "SelfId": "Txt_Shop_Message_BuyUsefulBattle_01_Smith",
+        "Text": "Lors de vos combats...\r\nUtilisez-<IfPlrNoun_I_NAME(les ,<IfGender_I_NAME(le ,la ,)>)>pour sûr...\r\nEffet garanti..."
+      },
+      "Txt_Shop_Message_SelectBuyer_01_Smith": {
+        "SelfId": "Txt_Shop_Message_SelectBuyer_01_Smith",
+        "Text": "Une petite question... Pour transporter cet article... Qui est volontaire?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_ConfirmSorting_01_Smith": {
+        "SelfId": "Txt_Shop_Message_ConfirmSorting_01_Smith",
+        "Text": "Une bien triste nouvelle... Vos poches pourraient bien céder... Il vous faut trier...<NO_INPUT>"
+      },
+      "Txt_Shop_Message_FinishSorting_01_Smith": {
+        "SelfId": "Txt_Shop_Message_FinishSorting_01_Smith",
+        "Text": "Le tour est joué...\r\nVous pouvez tout transporter...\r\nLes poches libérées..."
+      },
+      "Txt_Shop_Message_StopSorting_01_Smith": {
+        "SelfId": "Txt_Shop_Message_StopSorting_01_Smith",
+        "Text": "Je suis désolé...\r\nJe ne pourrais me permettre...\r\nObjets importants..."
+      },
+      "Txt_Shop_Message_SelectBuyerAgain_01_Smith": {
+        "SelfId": "Txt_Shop_Message_SelectBuyerAgain_01_Smith",
+        "Text": "Il faut donc choisir... Une autre personne volontaire... Pour porter le bien...\r\n<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuyBag_01_Smith": {
+        "SelfId": "Txt_Shop_Message_BuyBag_01_Smith",
+        "Text": "Alternativement...\r\nVotre <Sgl_BAG> fait l'affaire...\r\nLà, je <IfPlrNoun_I_NAME(les ,<IfGender_I_NAME(le ,la ,)>)>mets..."
+      },
+      "Txt_Shop_Message_BagFull_01_Smith": {
+        "SelfId": "Txt_Shop_Message_BagFull_01_Smith",
+        "Text": "Mais ô grand malheur...\r\nVotre sac est beaucoup trop plein...\r\nJ'en suis bien navré..."
+      },
+      "Txt_Shop_Message_UnableEquip_01_Smith": {
+        "SelfId": "Txt_Shop_Message_UnableEquip_01_Smith",
+        "Text": "Vous en équiper...\r\nNe vous est possible, hélas...\r\nVouloir prendre quand même?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuyConfirmEquip_01_Smith": {
+        "SelfId": "Txt_Shop_Message_BuyConfirmEquip_01_Smith",
+        "Text": "Pas de temps à perdre... Vite s'équiper de cette pièce... Le désirez-vous?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SelectAccessorie_01_Smith": {
+        "SelfId": "Txt_Shop_Message_SelectAccessorie_01_Smith",
+        "Text": "Mais il faut surtout...\r\nBien choisir lequel des deux...\r\nL'emplacement précis...<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuyCurseLift_01_Smith": {
+        "SelfId": "Txt_Shop_Message_BuyCurseLift_01_Smith",
+        "Text": "Cette pièce est maudite...\r\nJe ne puis la retirer...\r\nVoilà votre achat..."
+      },
+      "Txt_Shop_Message_BuySuccess_01_Smith": {
+        "SelfId": "Txt_Shop_Message_BuySuccess_01_Smith",
+        "Text": "Ceci est pour vous...\r\nJe vous souhaite une bonne journée...\r\nToute ma gratitude..."
+      },
+      "Txt_Shop_Message_BuySuccess_Death_01_Smith": {
+        "SelfId": "Txt_Shop_Message_BuySuccess_Death_01_Smith",
+        "Text": "Mes condoléances...\r\nJ'ai tout mis dans le cercueil...\r\nDe <IfGender_ACTOR(feu,feue,)> {ACTOR}..."
+      },
+      "Txt_Shop_Message_BuyOverly_01_Smith": {
+        "SelfId": "Txt_Shop_Message_BuyOverly_01_Smith",
+        "Text": "Pour tout ce qui reste...\r\nLa meilleure solution est...\r\n<Cap><DefSgl_BAG>..."
+      },
+      "Txt_Shop_Message_AdditionalBuy_01_Smith": {
+        "SelfId": "Txt_Shop_Message_AdditionalBuy_01_Smith",
+        "Text": "Voilà qui est fait...\r\nDésirez-vous quelque chose d'autre?\r\nNe vous gênez pas...<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SelectSeller_01_Smith": {
+        "SelfId": "Txt_Shop_Message_SelectSeller_01_Smith",
+        "Text": "Parmi votre équipe...\r\nQuelqu'un vend-il quelque chose?\r\nJe suis intéressé...<NO_INPUT>"
+      },
+      "Txt_Shop_Message_NoItem_Chara_01_Smith": {
+        "SelfId": "Txt_Shop_Message_NoItem_Chara_01_Smith",
+        "Text": "Mais je ne comprends pas...\r\nVous ne possédez rien à vendre...\r\n<IfGender_ACTOR(Mon cher,Ma chère,)>  {ACTOR}..."
+      },
+      "Txt_Shop_Message_NoItem_Bag_01_Smith": {
+        "SelfId": "Txt_Shop_Message_NoItem_Bag_01_Smith",
+        "Text": "De toute évidence...\r\nVotre <Sgl_BAG> ne contient rien...\r\nLe vide absolu..."
+      },
+      "Txt_Shop_Message_SellCanNot_01_Smith": {
+        "SelfId": "Txt_Shop_Message_SellCanNot_01_Smith",
+        "Text": "Vraiment désolé...\r\nImpossible d'acheter ceci...\r\nPolitique maison..."
+      },
+      "Txt_Shop_Message_SellConfirmEquip_01_Smith": {
+        "SelfId": "Txt_Shop_Message_SellConfirmEquip_01_Smith",
+        "Text": "Si je ne m'abuse...\r\nVous portez cela sur vous...\r\nMais vente confirmée?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_ConfirmLare_01_Smith": {
+        "SelfId": "Txt_Shop_Message_ConfirmLare_01_Smith",
+        "Text": "Grand avertissement...\r\nVous ne reverrez plus ceci...\r\nMais vente confirmée?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSelectValue_01_Smith": {
+        "SelfId": "Txt_Shop_Message_SellSelectValue_01_Smith",
+        "Text": "Encore une question...\r\nCombien voulez-vous en vendre?\r\nOui, la quantité...<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSingle_01_Smith": {
+        "SelfId": "Txt_Shop_Message_SellSingle_01_Smith",
+        "Text": "<Cap><IndefSgl_I_NAME>?\r\nJe vous en donne {VALUE}<nbsp><IfFRSing_VALUE(pièce,pièces)> d'or.\r\nÉquitable pour vous?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellMultiple_01_Smith": {
+        "SelfId": "Txt_Shop_Message_SellMultiple_01_Smith",
+        "Text": "Les {VALUE}<nbsp><Plr_I_NAME>...\r\nJe vous en donne {VALUE2}<nbsp><IfFRSing_VALUE2(pièce,pièces)> d'or...\r\nÉquitable pour vous?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSuccess_01_Smith": {
+        "SelfId": "Txt_Shop_Message_SellSuccess_01_Smith",
+        "Text": "Bien, marché conclu...\r\nLes deux parties sont contentes...\r\nMa reconnaissance..."
+      },
+      "Txt_Shop_Message_SellCancel_01_Smith": {
+        "SelfId": "Txt_Shop_Message_SellCancel_01_Smith",
+        "Text": "Un changement d'avis...\r\nCeci est une triste nouvelle...\r\nJ'en suis bien navré..."
+      },
+      "Txt_Shop_Message_GoldFull_01_Smith": {
+        "SelfId": "Txt_Shop_Message_GoldFull_01_Smith",
+        "Text": "Miracle absolu...\r\nLimite pécuniaire atteinte...\r\nAchetez-moi quelque chose..."
+      },
+      "Txt_Shop_Message_SellCurseLift_01_Smith": {
+        "SelfId": "Txt_Shop_Message_SellCurseLift_01_Smith",
+        "Text": "Attention à vous...\r\nCette pièce m'a tout l'air maudite...\r\nCeci est bien triste..."
+      },
+      "Txt_Shop_Message_AdditionalSell_01_Smith": {
+        "SelfId": "Txt_Shop_Message_AdditionalSell_01_Smith",
+        "Text": "Voilà qui est fait...\r\nAvez-vous autre chose à vendre?\r\nJe serais ravi...<NO_INPUT>"
+      },
+      "Txt_Shop_Message_AdditionalShop_01_Smith": {
+        "SelfId": "Txt_Shop_Message_AdditionalShop_01_Smith",
+        "Text": "Je suis à votre service...\r\nPuis-je donc faire autre chose pour vous?\r\nNe vous gênez pas...<NO_INPUT>"
+      },
+      "Txt_Shop_Message_Finish_01_Smith": {
+        "SelfId": "Txt_Shop_Message_Finish_01_Smith",
+        "Text": "Ce sera donc tout...\r\nJ'espère vous revoir bientôt...\r\nUne très bonne journée..."
+      },
+      "Txt_Shop_Message_ConfirmGoldSingle_01_Smith": {
+        "SelfId": "Txt_Shop_Message_ConfirmGoldSingle_01_Smith",
+        "Text": "D'accord, voyons voir...\r\nCela fera {VALUE}<nbsp><IfFRSing_VALUE(pièce,pièces)> d'or.\r\nÉquitable pour vous?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_ConfirmGoldMultiple_01_Smith": {
+        "SelfId": "Txt_Shop_Message_ConfirmGoldMultiple_01_Smith",
+        "Text": "Et pour le total...\r\nCela fera {VALUE}<nbsp><IfFRSing_VALUE(pièce,pièces)> d'or.\r\nÉquitable pour vous?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSelect_01_Smith": {
+        "SelfId": "Txt_Shop_Message_SellSelect_01_Smith",
+        "Text": "Je vous écoute donc...\r\nQue désirez-vous me vendre?\r\nMontrez-moi cela...<NO_INPUT>"
+      },
+      "Txt_Shop_Message_Start_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_Start_01_Burg_M",
+        "Text": "Salut!\r\nSi tu veux des {WORD}, j'ai ce qu'il te faut!\r\nQu'est-ce que tu cherches?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuySelect_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_BuySelect_01_Burg_M",
+        "Text": "Qu'est-ce que tu veux m'acheter?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_Shotage_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_Shotage_01_Burg_M",
+        "Text": "Désolé, mais tu as plus de sous!"
+      },
+      "Txt_Shop_Message_BuySelectValue_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_BuySelectValue_01_Burg_M",
+        "Text": "Et tu en voudras combien?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuySingle_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_BuySingle_01_Burg_M",
+        "Text": "<Cap><IndefSgl_I_NAME>?\r\nC'est comme si c'était fait!\r\nMerci à toi!"
+      },
+      "Txt_Shop_Message_BuyMultipul_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_BuyMultipul_01_Burg_M",
+        "Text": "{VALUE}<nbsp><Plr_I_NAME>?\r\nMerci bien!"
+      },
+      "Txt_Shop_Message_BuyUsefulBattle_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_BuyUsefulBattle_01_Burg_M",
+        "Text": "C'est un article que tu voudras utiliser en combat, crois-moi!"
+      },
+      "Txt_Shop_Message_SelectBuyer_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_SelectBuyer_01_Burg_M",
+        "Text": "Je file ça à qui?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_ConfirmSorting_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_ConfirmSorting_01_Burg_M",
+        "Text": "Désolé, {ACTOR}.\r\nJe peux plus rien faire entrer dans tes affaires!\r\nTu veux que je fasse le tri?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_FinishSorting_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_FinishSorting_01_Burg_M",
+        "Text": "Voilà!\r\nTout est trié comme il faut!"
+      },
+      "Txt_Shop_Message_StopSorting_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_StopSorting_01_Burg_M",
+        "Text": "Ah, tu transportes des objets importants, {ACTOR}.\r\nJe me permettrais pas d'y toucher!"
+      },
+      "Txt_Shop_Message_SelectBuyerAgain_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_SelectBuyerAgain_01_Burg_M",
+        "Text": "Quelqu'un d'autre pour transporter ça?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuyBag_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_BuyBag_01_Burg_M",
+        "Text": "Alors, je mets ça dans <DefSgl_BAG>."
+      },
+      "Txt_Shop_Message_BagFull_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_BagFull_01_Burg_M",
+        "Text": "Oh, mais le sac m'a l'air bien plein..."
+      },
+      "Txt_Shop_Message_UnableEquip_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_UnableEquip_01_Burg_M",
+        "Text": "Tu pourras pas t'équiper de cette pièce, {ACTOR}.\r\nTu la veux quand même?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuyConfirmEquip_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_BuyConfirmEquip_01_Burg_M",
+        "Text": "Tu veux t'en équiper, là maintenant?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SelectAccessorie_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_SelectAccessorie_01_Burg_M",
+        "Text": "Tu veux mettre ça où?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuyCurseLift_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_BuyCurseLift_01_Burg_M",
+        "Text": "Waouh!\r\nPas moyen d'enlever <IfPlrNoun_I_NAME(ta ,<IfVowel_I_NAME(ton ,<IfGender_I_NAME(ton ,ta ,)>)>)><Sgl_I_NAME>!\r\nÇa sent la malédiction!<KEY_WAIT>\r\nEn tout cas, voilà ta pièce!"
+      },
+      "Txt_Shop_Message_BuySuccess_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_BuySuccess_01_Burg_M",
+        "Text": "Voilà pour toi, {ACTOR}!"
+      },
+      "Txt_Shop_Message_BuySuccess_Death_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_BuySuccess_Death_01_Burg_M",
+        "Text": "Je mets ça dans le cercueil de notre pauvre {ACTOR}, alors."
+      },
+      "Txt_Shop_Message_BuyOverly_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_BuyOverly_01_Burg_M",
+        "Text": "Je mets le reste dans <DefSgl_BAG>, alors."
+      },
+      "Txt_Shop_Message_AdditionalBuy_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_AdditionalBuy_01_Burg_M",
+        "Text": "Tu as besoin d'autre chose?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SelectSeller_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_SelectSeller_01_Burg_M",
+        "Text": "L'un de vous a quelque chose à vendre?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_NoItem_Chara_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_NoItem_Chara_01_Burg_M",
+        "Text": "Vraiment?\r\nMais tu as rien sur toi, {ACTOR}!"
+      },
+      "Txt_Shop_Message_NoItem_Bag_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_NoItem_Bag_01_Burg_M",
+        "Text": "<Cap><DefSgl_BAG> m'a l'air complètement vide!"
+      },
+      "Txt_Shop_Message_SellCanNot_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_SellCanNot_01_Burg_M",
+        "Text": "Désolé, mais je reprends pas ce genre de marchandise."
+      },
+      "Txt_Shop_Message_SellConfirmEquip_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_SellConfirmEquip_01_Burg_M",
+        "Text": "Mais tu as ça sur toi!\r\nTu es vraiment <IfGender_ACTOR(sûr,sûre,)>?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_ConfirmLare_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_ConfirmLare_01_Burg_M",
+        "Text": "Tu retomberas peut-être plus jamais dessus.\r\nTu veux vraiment t'en débarrasser? <NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSelectValue_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_SellSelectValue_01_Burg_M",
+        "Text": "Et tu veux m'en vendre combien?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSingle_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_SellSingle_01_Burg_M",
+        "Text": "<Cap><IndefSgl_I_NAME>?\r\nJe t'en donne {VALUE}<nbsp><IfFRSing_VALUE(pièce,pièces)> d'or.\r\nC'est un bon prix, non?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellMultiple_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_SellMultiple_01_Burg_M",
+        "Text": "Je te reprends les {VALUE}<nbsp><Plr_I_NAME> pour {VALUE2}<nbsp><IfFRSing_VALUE2(pièce,pièces)> d'or.\r\nTu es d'accord avec ce prix?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSuccess_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_SellSuccess_01_Burg_M",
+        "Text": "Merci beaucoup!"
+      },
+      "Txt_Shop_Message_SellCancel_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_SellCancel_01_Burg_M",
+        "Text": "Ah d'accord, tant pis alors..."
+      },
+      "Txt_Shop_Message_GoldFull_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_GoldFull_01_Burg_M",
+        "Text": "Incroyable mais tu peux pas avoir plus de pièces d'or!\r\nTu as qu'à m'acheter quelque chose pour commencer."
+      },
+      "Txt_Shop_Message_SellCurseLift_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_SellCurseLift_01_Burg_M",
+        "Text": "Hm?\r\nCette pièce semble sous l'emprise d'une malédiction!\r\nC'est bien dommage..."
+      },
+      "Txt_Shop_Message_AdditionalSell_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_AdditionalSell_01_Burg_M",
+        "Text": "Tu veux vendre d'autres trucs?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_AdditionalShop_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_AdditionalShop_01_Burg_M",
+        "Text": "Autre chose, peut-être?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_Finish_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_Finish_01_Burg_M",
+        "Text": "À la prochaine!"
+      },
+      "Txt_Shop_Message_ConfirmGoldSingle_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_ConfirmGoldSingle_01_Burg_M",
+        "Text": "Ça fera {VALUE}<nbsp><IfFRSing_VALUE(pièce,pièces)> d'or, c'est bon?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_ConfirmGoldMultiple_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_ConfirmGoldMultiple_01_Burg_M",
+        "Text": "Ça nous fait donc un total de {VALUE}<nbsp><IfFRSing_VALUE(pièce,pièces)> d'or.\r\nÇa te va?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSelect_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_SellSelect_01_Burg_M",
+        "Text": "Tu me vends quoi, alors?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_Start_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_Start_01_Burg_F",
+        "Text": "Salut!\r\nSi tu veux des {WORD}, j'ai ce qu'il te faut!\r\nQu'est-ce que tu cherches?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuySelect_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_BuySelect_01_Burg_F",
+        "Text": "Qu'est-ce que tu veux m'acheter?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_Shotage_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_Shotage_01_Burg_F",
+        "Text": "Désolée, mais tu as plus de sous!"
+      },
+      "Txt_Shop_Message_BuySelectValue_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_BuySelectValue_01_Burg_F",
+        "Text": "Et tu en voudras combien?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuySingle_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_BuySingle_01_Burg_F",
+        "Text": "<Cap><IndefSgl_I_NAME>?\r\nC'est comme si c'était fait!\r\nMerci à toi!"
+      },
+      "Txt_Shop_Message_BuyMultipul_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_BuyMultipul_01_Burg_F",
+        "Text": "{VALUE}<nbsp><Plr_I_NAME>?\r\nMerci bien!"
+      },
+      "Txt_Shop_Message_BuyUsefulBattle_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_BuyUsefulBattle_01_Burg_F",
+        "Text": "C'est un article que tu voudras utiliser en combat, crois-moi!"
+      },
+      "Txt_Shop_Message_SelectBuyer_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_SelectBuyer_01_Burg_F",
+        "Text": "Je file ça à qui?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_ConfirmSorting_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_ConfirmSorting_01_Burg_F",
+        "Text": "Désolée, {ACTOR}.\r\nJe peux plus rien faire entrer dans tes affaires!\r\nTu veux que je fasse le tri?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_FinishSorting_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_FinishSorting_01_Burg_F",
+        "Text": "Voilà!\r\nTout est trié comme il faut!"
+      },
+      "Txt_Shop_Message_StopSorting_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_StopSorting_01_Burg_F",
+        "Text": "Ah, tu transportes des objets importants, {ACTOR}.\r\nJe me permettrais pas d'y toucher!"
+      },
+      "Txt_Shop_Message_SelectBuyerAgain_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_SelectBuyerAgain_01_Burg_F",
+        "Text": "Quelqu'un d'autre pour transporter ça?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuyBag_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_BuyBag_01_Burg_F",
+        "Text": "Alors, je mets ça dans <DefSgl_BAG>."
+      },
+      "Txt_Shop_Message_BagFull_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_BagFull_01_Burg_F",
+        "Text": "Oh, mais le sac m'a l'air bien plein..."
+      },
+      "Txt_Shop_Message_UnableEquip_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_UnableEquip_01_Burg_F",
+        "Text": "Tu pourras pas t'équiper de cette pièce, {ACTOR}.\r\nTu la veux quand même?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuyConfirmEquip_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_BuyConfirmEquip_01_Burg_F",
+        "Text": "Tu veux t'en équiper, là maintenant?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SelectAccessorie_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_SelectAccessorie_01_Burg_F",
+        "Text": "Tu veux mettre ça où?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuyCurseLift_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_BuyCurseLift_01_Burg_F",
+        "Text": "Waouh!\r\nPas moyen d'enlever <IfPlrNoun_I_NAME(ta ,<IfVowel_I_NAME(ton ,<IfGender_I_NAME(ton ,ta ,)>)>)><Sgl_I_NAME>!\r\nÇa sent la malédiction!<KEY_WAIT>\r\nEn tout cas, voilà ta pièce!"
+      },
+      "Txt_Shop_Message_BuySuccess_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_BuySuccess_01_Burg_F",
+        "Text": "Voilà pour toi, {ACTOR}!"
+      },
+      "Txt_Shop_Message_BuySuccess_Death_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_BuySuccess_Death_01_Burg_F",
+        "Text": "Je mets ça dans le cercueil de notre pauvre {ACTOR}, alors."
+      },
+      "Txt_Shop_Message_BuyOverly_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_BuyOverly_01_Burg_F",
+        "Text": "Je mets le reste dans <DefSgl_BAG>, alors."
+      },
+      "Txt_Shop_Message_AdditionalBuy_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_AdditionalBuy_01_Burg_F",
+        "Text": "Tu as besoin d'autre chose?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SelectSeller_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_SelectSeller_01_Burg_F",
+        "Text": "L'un de vous a quelque chose à vendre?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_NoItem_Chara_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_NoItem_Chara_01_Burg_F",
+        "Text": "Vraiment?\r\nMais tu as rien sur toi, {ACTOR}!"
+      },
+      "Txt_Shop_Message_NoItem_Bag_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_NoItem_Bag_01_Burg_F",
+        "Text": "<Cap><DefSgl_BAG> m'a l'air complètement vide!"
+      },
+      "Txt_Shop_Message_SellCanNot_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_SellCanNot_01_Burg_F",
+        "Text": "Désolée, mais je reprends pas ce genre de marchandise."
+      },
+      "Txt_Shop_Message_SellConfirmEquip_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_SellConfirmEquip_01_Burg_F",
+        "Text": "Mais tu as ça sur toi!\r\nTu es vraiment <IfGender_ACTOR(sûr,sûre,)>?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_ConfirmLare_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_ConfirmLare_01_Burg_F",
+        "Text": "Tu retomberas peut-être plus jamais dessus.\r\nTu veux vraiment t'en débarrasser? <NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSelectValue_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_SellSelectValue_01_Burg_F",
+        "Text": "Et tu veux m'en vendre combien?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSingle_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_SellSingle_01_Burg_F",
+        "Text": "<Cap><IndefSgl_I_NAME>?\r\nJe t'en donne {VALUE}<nbsp><IfFRSing_VALUE(pièce,pièces)> d'or.\r\nC'est un bon prix, non?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellMultiple_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_SellMultiple_01_Burg_F",
+        "Text": "Je te reprends les {VALUE}<nbsp><Plr_I_NAME> pour {VALUE2}<nbsp><IfFRSing_VALUE2(pièce,pièces)> d'or.\r\nTu es d'accord avec ce prix?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSuccess_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_SellSuccess_01_Burg_F",
+        "Text": "Merci beaucoup!"
+      },
+      "Txt_Shop_Message_SellCancel_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_SellCancel_01_Burg_F",
+        "Text": "Ah d'accord, tant pis alors..."
+      },
+      "Txt_Shop_Message_GoldFull_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_GoldFull_01_Burg_F",
+        "Text": "Incroyable mais tu peux pas avoir plus de pièces d'or!\r\nTu as qu'à m'acheter quelque chose pour commencer."
+      },
+      "Txt_Shop_Message_SellCurseLift_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_SellCurseLift_01_Burg_F",
+        "Text": "Hm?\r\nCette pièce semble sous l'emprise d'une malédiction!\r\nC'est bien dommage..."
+      },
+      "Txt_Shop_Message_AdditionalSell_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_AdditionalSell_01_Burg_F",
+        "Text": "Tu veux vendre d'autres trucs?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_AdditionalShop_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_AdditionalShop_01_Burg_F",
+        "Text": "Autre chose, peut-être?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_Finish_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_Finish_01_Burg_F",
+        "Text": "À la prochaine!"
+      },
+      "Txt_Shop_Message_ConfirmGoldSingle_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_ConfirmGoldSingle_01_Burg_F",
+        "Text": "Ça fera {VALUE}<nbsp><IfFRSing_VALUE(pièce,pièces)> d'or, c'est bon?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_ConfirmGoldMultiple_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_ConfirmGoldMultiple_01_Burg_F",
+        "Text": "Ça nous fait donc un total de {VALUE}<nbsp><IfFRSing_VALUE(pièce,pièces)> d'or.\r\nÇa te va?<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSelect_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_SellSelect_01_Burg_F",
+        "Text": "Tu me vends quoi, alors?<NO_INPUT>"
+      },
+      "Txt_Shop_SCAM_Message_Top": {
+        "SelfId": "Txt_Shop_SCAM_Message_Top",
+        "Text": "*: Bonjour, <IfGender_LEADER(cher ami,chère amie,)>!\r\nVous êtes la personne que j'attendais!\r\nVoulez-vous jeter un œil à mes merveilles?<NO_INPUT>"
+      },
+      "Txt_Shop_SCAM_Message_SelectNo": {
+        "SelfId": "Txt_Shop_SCAM_Message_SelectNo",
+        "Text": "*: Ne vous en faites pas, <IfGender_LEADER(cher ami,chère amie,)>!\r\nPrenez votre temps pour examiner mes produits!<NO_INPUT>"
+      },
+      "Txt_Shop_SCAM_Message_CancelBuy": {
+        "SelfId": "Txt_Shop_SCAM_Message_CancelBuy",
+        "Text": "*: Comment ça, rien ne vous convient? Les bras m'en tombent!\r\nMais n'hésitez pas à repasser quand vous voulez, <IfGender_LEADER(cher ami,chère amie,)>!"
+      },
+      "Txt_Shop_SCAM_Message_ConfirmBuy_01": {
+        "SelfId": "Txt_Shop_SCAM_Message_ConfirmBuy_01",
+        "Text": "*: Oh, mais vous avez un œil d'expert, <IfGender_LEADER(cher ami,chère amie,)>!\r\nVous en aurez pour {VALUE}<nbsp>pièces d'or, c'est acté, n'est-ce pas?<NO_INPUT>"
+      },
+      "Txt_Shop_SCAM_Message_ConfirmBuy_02": {
+        "SelfId": "Txt_Shop_SCAM_Message_ConfirmBuy_02",
+        "Text": "*: Ah, mais c'est que vous êtes <IfGender_LEADER(dur,dure,)> en affaires!\r\nJe m'incline.<KEY_WAIT>\r\n*: Je vous fais ça pour {VALUE}<nbsp>pièces d'or.\r\nVous ne pouvez qu'accepter, n'est-ce pas?<NO_INPUT>"
+      },
+      "Txt_Shop_SCAM_Message_ConfirmBuy_03": {
+        "SelfId": "Txt_Shop_SCAM_Message_ConfirmBuy_03",
+        "Text": "*: Mais vous êtes sans pitié!\r\nVous voulez que je mette la clef sous la porte?<!><KEY_WAIT>\r\n*: C'est un sacré prix d'ami, à {VALUE}<nbsp>pièces d'or.\r\nVous faites l'affaire du siècle, non?<NO_INPUT>"
+      },
+      "Txt_Shop_SCAM_Message_ConfirmBuy_04": {
+        "SelfId": "Txt_Shop_SCAM_Message_ConfirmBuy_04",
+        "Text": "*: S'il vous plaît, <IfGender_LEADER(mon cher ami,ma chère amie,)>!\r\nVous voulez ma mort?<!><KEY_WAIT>\r\n*: Je ne pourrai pas aller plus bas que {VALUE}<nbsp>pièces d'or.\r\nVous avez gagné, n'est-ce pas?<NO_INPUT>"
+      },
+      "Txt_Shop_SCAM_Message_CancelBuy_02": {
+        "SelfId": "Txt_Shop_SCAM_Message_CancelBuy_02",
+        "Text": "*: Vous n'acceptez pas une offre aussi exceptionnelle?\r\nDommage, peut-être la prochaine fois."
+      },
+      "Txt_Shop_SCAM_Message_Shotage": {
+        "SelfId": "Txt_Shop_SCAM_Message_Shotage",
+        "Text": "*: Mais <IfGender_LEADER(mon cher ami,ma chère amie,)>, vous n'avez pas assez de pièces d'or!\r\nRevenez quand vous aurez assez pour payer."
+      },
+      "Txt_Shop_SCAM_Message_BuySuccess": {
+        "SelfId": "Txt_Shop_SCAM_Message_BuySuccess",
+        "Text": "*: Vraiment?<!> Vous pouvez payer le prix?<!>\r\nMais vous êtes <IfGender_LEADER(mon meilleur ami,ma meilleure amie,)>!\r\nRevenez quand vous voulez!"
+      },
+      "Txt_Shop_Store_Name_Weapon": {
+        "SelfId": "Txt_Shop_Store_Name_Weapon",
+        "Text": "armes"
+      },
+      "Txt_Shop_Store_Name_Armor": {
+        "SelfId": "Txt_Shop_Store_Name_Armor",
+        "Text": "armures"
+      },
+      "Txt_Shop_Store_Name_WeaponArmor": {
+        "SelfId": "Txt_Shop_Store_Name_WeaponArmor",
+        "Text": "armes et armures"
+      },
+      "Txt_Shop_Store_Name_Item": {
+        "SelfId": "Txt_Shop_Store_Name_Item",
+        "Text": "objets"
+      }
+    }
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_EchoFlute",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_EchoFluteTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "ECHOFLUTE_RED": {
+        "SelfId": "ECHOFLUTE_RED",
+        "ActorTag": "EchoFluteTag_T16",
+        "MapPrefixID": "T16",
+        "OrbColor": "EOrbColorType::RED",
+        "DispTriggerEventID": "EGOPEnumProgressType::NONE",
+        "CompleteTriggerEventID": "EGOPEnumProgressType::MAIN_PIRATESBASE_GetRedOrb"
+      },
+      "ECHOFLUTE_GREEN": {
+        "SelfId": "ECHOFLUTE_GREEN",
+        "ActorTag": "EchoFluteTag_T13",
+        "MapPrefixID": "T13",
+        "OrbColor": "EOrbColorType::GREEN",
+        "DispTriggerEventID": "EGOPEnumProgressType::NONE",
+        "CompleteTriggerEventID": "EGOPEnumProgressType::MAIN_TEDON_GetGreenOrb"
+      },
+      "ECHOFLUTE_PURPLE_00": {
+        "SelfId": "ECHOFLUTE_PURPLE_00",
+        "ActorTag": "EchoFluteTag_D10",
+        "MapPrefixID": "D10",
+        "OrbColor": "EOrbColorType::PURPLE",
+        "DispTriggerEventID": "EGOPEnumProgressType::NONE",
+        "CompleteTriggerEventID": "EGOPEnumProgressType::MAIN_JIPANGCAVE_DefeatOrochi"
+      },
+      "ECHOFLUTE_PURPLE_01": {
+        "SelfId": "ECHOFLUTE_PURPLE_01",
+        "ActorTag": "EchoFluteTag_C06",
+        "MapPrefixID": "C06",
+        "OrbColor": "EOrbColorType::PURPLE",
+        "DispTriggerEventID": "EGOPEnumProgressType::MAIN_JIPANGCAVE_DefeatOrochi",
+        "CompleteTriggerEventID": "EGOPEnumProgressType::MAIN_JIPANG_DefeatOrochi"
+      },
+      "ECHOFLUTE_BLUE": {
+        "SelfId": "ECHOFLUTE_BLUE",
+        "ActorTag": "EchoFluteTag_D09",
+        "MapPrefixID": "D09",
+        "OrbColor": "EOrbColorType::BLUE",
+        "DispTriggerEventID": "EGOPEnumProgressType::NONE",
+        "CompleteTriggerEventID": "EGOPEnumProgressType::MAIN_GAIANAVEL_GetBlueOrb"
+      },
+      "ECHOFLUTE_SHILVER": {
+        "SelfId": "ECHOFLUTE_SHILVER",
+        "ActorTag": "EchoFluteTag_H18",
+        "MapPrefixID": "H18",
+        "OrbColor": "EOrbColorType::SHILVER",
+        "DispTriggerEventID": "EGOPEnumProgressType::NONE",
+        "CompleteTriggerEventID": "EGOPEnumProgressType::MAIN_NECROGONDSHRINE_GetSilverOrb"
+      },
+      "ECHOFLUTE_YELLOW": {
+        "SelfId": "ECHOFLUTE_YELLOW",
+        "ActorTag": "EchoFluteTag_T15",
+        "MapPrefixID": "T15",
+        "OrbColor": "EOrbColorType::YELLOW",
+        "DispTriggerEventID": "EGOPEnumProgressType::MAIN_BURG_5_ChangeFrom4",
+        "CompleteTriggerEventID": "EGOPEnumProgressType::MAIN_BURG_GetYellowOrb"
+      }
+    }
+  }
+]

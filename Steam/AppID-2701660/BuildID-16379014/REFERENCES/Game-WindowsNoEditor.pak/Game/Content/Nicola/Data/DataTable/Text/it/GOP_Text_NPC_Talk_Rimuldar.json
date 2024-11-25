@@ -1,0 +1,364 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_NPC_Talk_Rimuldar",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Talk_Rimuldar_Out_SUB_0_ACTOR_0120_010_1": {
+        "SelfId": "Txt_Talk_Rimuldar_Out_SUB_0_ACTOR_0120_010_1",
+        "Text": "*: Salve, viandant<IfSolo(e,i)>.\r\nLa città di Rimuldar <IfSolo(ti,vi)> accoglie."
+      },
+      "Txt_Talk_Rimuldar_Out_SUB_0_ACTOR_0110_010_1": {
+        "SelfId": "Txt_Talk_Rimuldar_Out_SUB_0_ACTOR_0110_010_1",
+        "Text": "*: Che l'oscuro signore sia stato realmente sconfitto...? Cos'altro potrebbe spiegare quest'incredibile leggerezza che sento nel cuor? Quale gioia!"
+      },
+      "Txt_Talk_Rimuldar_Out_SUB_0_ACTOR_0110_010_2": {
+        "SelfId": "Txt_Talk_Rimuldar_Out_SUB_0_ACTOR_0110_010_2",
+        "Text": "*: Ecco... la luce! Mai i miei occhi hanno ammirato cotanto bagliore... Sogno o son desta?"
+      },
+      "Txt_Talk_Rimuldar_Out_SUB_0_ACTOR_0220_010_1": {
+        "SelfId": "Txt_Talk_Rimuldar_Out_SUB_0_ACTOR_0220_010_1",
+        "Text": "*: Siete in missione per sconfiggere il Signore degli Inferi? Allora siete tali e quali a Ortega, amici."
+      },
+      "Txt_Talk_Rimuldar_Out_SUB_0_ACTOR_0220_010_2": {
+        "SelfId": "Txt_Talk_Rimuldar_Out_SUB_0_ACTOR_0220_010_2",
+        "Text": "*: Sei in missione per sconfiggere il Signore degli Inferi? Allora sei tale e quale a Ortega, <IfGender_LEADER(amico,amica,)>."
+      },
+      "Txt_Talk_Rimuldar_Out_SUB_0_ACTOR_0220_010_3": {
+        "SelfId": "Txt_Talk_Rimuldar_Out_SUB_0_ACTOR_0220_010_3",
+        "Text": "*: Siete in missione per sconfiggere il Signore degli Inferi? Allora siete tali e quali a Ortega, amici."
+      },
+      "Txt_Talk_Rimuldar_Out_SUB_0_ACTOR_0220_010_4": {
+        "SelfId": "Txt_Talk_Rimuldar_Out_SUB_0_ACTOR_0220_010_4",
+        "Text": "*: Sei in missione per sconfiggere il Signore degli Inferi? Allora sei tale e quale a Ortega, <IfGender_LEADER(amico,amica,)>."
+      },
+      "Txt_Talk_Rimuldar_Out_SUB_0_ACTOR_0220_010_5": {
+        "SelfId": "Txt_Talk_Rimuldar_Out_SUB_0_ACTOR_0220_010_5",
+        "Text": "*: Il possente Ortega è un guerriero senza pari, forte e abile, e potrebbe sgominare un gruppo di mostri anche da solo! Invero, è partito da solo per debellare il grande demone!"
+      },
+      "Txt_Talk_Rimuldar_Out_SUB_0_ACTOR_0210_010_1": {
+        "SelfId": "Txt_Talk_Rimuldar_Out_SUB_0_ACTOR_0210_010_1",
+        "Text": "*: Urrà! Urrà per {HERO} l'<IfGender_HERO(eroeee,eroinaaa,)>!"
+      },
+      "Txt_Talk_Rimuldar_Out_SUB_0_ACTOR_0210_010_2": {
+        "SelfId": "Txt_Talk_Rimuldar_Out_SUB_0_ACTOR_0210_010_2",
+        "Text": "*: Urrà! Urrà per {LEADER} l'<IfGender_LEADER(eroeee,eroinaaa,)>!"
+      },
+      "Txt_Talk_Rimuldar_Out_SUB_0_ACTOR_0320_010_1": {
+        "SelfId": "Txt_Talk_Rimuldar_Out_SUB_0_ACTOR_0320_010_1",
+        "Text": "*: Nessuno mai potrà sconfiggere il Signore degli Inferi senza ch'abbia prima preso possesso della sfera della luce. Nessuno, ti dico."
+      },
+      "Txt_Talk_Rimuldar_Out_SUB_0_ACTOR_0310_010_1": {
+        "SelfId": "Txt_Talk_Rimuldar_Out_SUB_0_ACTOR_0310_010_1",
+        "Text": "*: A <IfSolo(te,voi)> vanno i miei ringraziamenti, viandant<IfSolo(e,i)>! Il <IfSolo(tuo ardire è pari solo alla tua,vostro ardire è pari solo alla vostra)> forza, questo è certo! <IfSolo(Possiedi,Possedete)> la stoffa <IfSolo(<IfGender_LEADER(di un vero eroe,di una vera eroina,)>,di veri eroi)>!"
+      },
+      "Txt_Talk_Rimuldar_Out_SUB_0_ACTOR_0420_010_1": {
+        "SelfId": "Txt_Talk_Rimuldar_Out_SUB_0_ACTOR_0420_010_1",
+        "Text": "*: Oh... Nella locanda, tra i miei possedimenti, v'è un oggetto d'inestimabile valore."
+      },
+      "Txt_Talk_Rimuldar_Out_SUB_0_ACTOR_0420_010_2": {
+        "SelfId": "Txt_Talk_Rimuldar_Out_SUB_0_ACTOR_0420_010_2",
+        "Text": "*: Mi fu affidato dall'ardito Ortega in persona... Ah, qual sciagura sarebbe se venisse erroneamente scambiato per ciarpame e gettato via! Non oso pensarci..."
+      },
+      "Txt_Talk_Rimuldar_Out_SUB_0_ACTOR_0410_010_1": {
+        "SelfId": "Txt_Talk_Rimuldar_Out_SUB_0_ACTOR_0410_010_1",
+        "Text": "*: La pace è infine giunta! Grazie al cielo!"
+      },
+      "Txt_Talk_Rimuldar_Out_SUB_0_ACTOR_0410_010_2": {
+        "SelfId": "Txt_Talk_Rimuldar_Out_SUB_0_ACTOR_0410_010_2",
+        "Text": "*: Ah, se solo l'ardito Ortega fosse qui a mirar codesto giorno... Il cuor suo non basterebbe a contener sì tanta gioia..."
+      },
+      "Txt_Talk_Rimuldar_Out_SUB_0_ACTOR_0410_010_3": {
+        "SelfId": "Txt_Talk_Rimuldar_Out_SUB_0_ACTOR_0410_010_3",
+        "Text": "*: (sigh) Dove ti trovi, Ortega? Per quale ragione ci hai abbandonati?"
+      },
+      "Txt_Talk_Rimuldar_Out_SUB_0_ACTOR_0520_010_1": {
+        "SelfId": "Txt_Talk_Rimuldar_Out_SUB_0_ACTOR_0520_010_1",
+        "Text": "*: O ardito Ortega! Perché mai t'avventurasti sull'isola del grande demone senza l'adeguata preparazione? I crudeli mari hanno davvero reclamato le tue spoglie...?"
+      },
+      "Txt_Talk_Rimuldar_Out_SUB_0_ACTOR_0510_010_1": {
+        "SelfId": "Txt_Talk_Rimuldar_Out_SUB_0_ACTOR_0510_010_1",
+        "Text": "*: Ciò che hai fatto è encomiabile, <IfGender_LEADER(amico,amica,)>! Adesso questa terra potrà ancora una volta conoscere la pace!"
+      },
+      "Txt_Talk_Rimuldar_Out_SUB_0_ACTOR_0620_010_1": {
+        "SelfId": "Txt_Talk_Rimuldar_Out_SUB_0_ACTOR_0620_010_1",
+        "Text": "*: Uff! Non aveva forse menzionato la parte più esterna della città? Dov'è, dunque, di grazia? Dove? Mmh..."
+      },
+      "Txt_Talk_Rimuldar_Out_SUB_0_ACTOR_0610_010_1": {
+        "SelfId": "Txt_Talk_Rimuldar_Out_SUB_0_ACTOR_0610_010_1",
+        "Text": "*: Ecco... la luce! Mai i miei occhi hanno ammirato cotanto bagliore... Sogno o son desta?"
+      },
+      "Txt_Talk_Rimuldar_Out_SUB_0_ACTOR_0720_010_1": {
+        "SelfId": "Txt_Talk_Rimuldar_Out_SUB_0_ACTOR_0720_010_1",
+        "Text": "*: Osserva, la pietra del saggio puote curar le ferite tue et de li tuoi compari, e mai vedrai scemar il suo potere."
+      },
+      "Txt_Talk_Rimuldar_Out_SUB_0_ACTOR_0720_010_2": {
+        "SelfId": "Txt_Talk_Rimuldar_Out_SUB_0_ACTOR_0720_010_2",
+        "Text": "*: A scemare, invece, è la mia pazienza. È tutto il dì che attendo, ma della mia amata non v'è traccia..."
+      },
+      "Txt_Talk_Rimuldar_Out_SUB_0_ACTOR_0710_010_1": {
+        "SelfId": "Txt_Talk_Rimuldar_Out_SUB_0_ACTOR_0710_010_1",
+        "Text": "*: Le tue gesta sono eroiche invero!"
+      },
+      "Txt_Talk_Rimuldar_Out_SUB_0_ACTOR_0710_010_2": {
+        "SelfId": "Txt_Talk_Rimuldar_Out_SUB_0_ACTOR_0710_010_2",
+        "Text": "*: È la verità? La minaccia del Signore degli Inferi è dunque scongiurata? ... Ah, che gioia! Sia benedetto il tuo animo eroico!"
+      },
+      "Txt_Talk_Rimuldar_Out_SUB_0_ACTOR_0920_020_1": {
+        "SelfId": "Txt_Talk_Rimuldar_Out_SUB_0_ACTOR_0920_020_1",
+        "Text": "*: Da quel che ho sentito, il capo è stato beccato mentre sgraffignava qualcosa da una chiesa di Tantegel."
+      },
+      "Txt_Talk_Rimuldar_Out_SUB_0_ACTOR_0920_020_2": {
+        "SelfId": "Txt_Talk_Rimuldar_Out_SUB_0_ACTOR_0920_020_2",
+        "Text": "*: Mi piacerebbe andare a trovarlo, ma ogni percorso è pieno di maledetti mostri. La solita fortuna..."
+      },
+      "Txt_Talk_Rimuldar_Out_SUB_0_ACTOR_0920_010_1": {
+        "SelfId": "Txt_Talk_Rimuldar_Out_SUB_0_ACTOR_0920_010_1",
+        "Text": "*: Mmh, ho saputo che c'è un bel villaggio a nord chiamato Sorgesia, che ha persino delle sorgenti termali. Forse proverò ad andare lì..."
+      },
+      "Txt_Talk_Rimuldar_Out_SUB_0_ACTOR_0910_010_1": {
+        "SelfId": "Txt_Talk_Rimuldar_Out_SUB_0_ACTOR_0910_010_1",
+        "Text": "*: Ehi! Sì, dico a te! Sbaglio o da queste parti c'erano un sacco di mostri? Ugh, forse me li sono immaginati..."
+      },
+      "Txt_Talk_Rimuldar_Out_SUB_0_ACTOR_0910_010_2": {
+        "SelfId": "Txt_Talk_Rimuldar_Out_SUB_0_ACTOR_0910_010_2",
+        "Text": "*: Beh, almeno la strada per Tantegel è libera adesso. Non preoccuparti capo, ci rivedremo molto presto!"
+      },
+      "Txt_Talk_Rimuldar_Out_SUB_0_VOLUME_0810_010_1": {
+        "SelfId": "Txt_Talk_Rimuldar_Out_SUB_0_VOLUME_0810_010_1",
+        "Text": "Squaaa..."
+      },
+      "Txt_Talk_Rimuldar_Out_SUB_0_VOLUME_0810_010_2": {
+        "SelfId": "Txt_Talk_Rimuldar_Out_SUB_0_VOLUME_0810_010_2",
+        "Text": "{LEADER} calma il mostro con voce suadente e gli parla del serraglio di mostri di Mister Muster..."
+      },
+      "Txt_Talk_Rimuldar_Out_SUB_0_VOLUME_0810_010_3": {
+        "SelfId": "Txt_Talk_Rimuldar_Out_SUB_0_VOLUME_0810_010_3",
+        "Text": "Squa! Squaaark!"
+      },
+      "Txt_Talk_Rimuldar_Out_SUB_0_ACTOR_1010_010_1": {
+        "SelfId": "Txt_Talk_Rimuldar_Out_SUB_0_ACTOR_1010_010_1",
+        "Text": "*: Zzz... Aaah! Mi hai vista!"
+      },
+      "Txt_Talk_Rimuldar_Out_SUB_0_ACTOR_1010_010_2": {
+        "SelfId": "Txt_Talk_Rimuldar_Out_SUB_0_ACTOR_1010_010_2",
+        "Text": "*: Salpa per i mari che circondano la Cittadella di Zoma e potresti imbatterti in un luogo ben celato..."
+      },
+      "Txt_Talk_Rimuldar_House1_SUB_0_ACTOR_0120_010_1": {
+        "SelfId": "Txt_Talk_Rimuldar_House1_SUB_0_ACTOR_0120_010_1",
+        "Text": "*: L'armatura scintillante giace nella medesima torre in cui la gentile Rubiss è sopita, o così ho udito..."
+      },
+      "Txt_Talk_Rimuldar_House1_SUB_0_ACTOR_0110_010_1": {
+        "SelfId": "Txt_Talk_Rimuldar_House1_SUB_0_ACTOR_0110_010_1",
+        "Text": "*: Oh sì, son lieto invero! Raggiante, persino! Sia ringraziato il cielo!"
+      },
+      "Txt_Talk_Rimuldar_House1_SUB_0_ACTOR_0110_010_2": {
+        "SelfId": "Txt_Talk_Rimuldar_House1_SUB_0_ACTOR_0110_010_2",
+        "Text": "*: Credevo che i miei giorni su codesta terra stessero giungendo al termine, ma pare che la mia ora non sia ancora giunta! Urrà!"
+      },
+      "Txt_Talk_Rimuldar_House1_SUB_0_ACTOR_0220_010_1": {
+        "SelfId": "Txt_Talk_Rimuldar_House1_SUB_0_ACTOR_0220_010_1",
+        "Text": "*: L'amuleto sacro è prova del sempiterno amore che Rubiss prova per l'umanità tutta. Che ogni abitante di Alefgard le renda grazie!"
+      },
+      "Txt_Talk_Rimuldar_House1_SUB_0_ACTOR_0210_010_1": {
+        "SelfId": "Txt_Talk_Rimuldar_House1_SUB_0_ACTOR_0210_010_1",
+        "Text": "*: Indugia qui ancora per qualche tempo, viandante. Preparerò un banchetto degno d'un re per festeggiar la nostra liberazione."
+      },
+      "Txt_Talk_Rimuldar_House1_SUB_0_ACTOR_0210_010_2": {
+        "SelfId": "Txt_Talk_Rimuldar_House1_SUB_0_ACTOR_0210_010_2",
+        "Text": "*: Desidero ringraziarti a nome mio et a nome della gentile Rubiss. Non v'è dubbio che il tuo trionfo l'abbia resa estremamente lieta."
+      },
+      "Txt_Talk_Rimuldar_House2_SUB_0_ACTOR_0120_010_1": {
+        "SelfId": "Txt_Talk_Rimuldar_House2_SUB_0_ACTOR_0120_010_1",
+        "Text": "*: Oh, quale soddisfazione mi recherebbe mirar una chiave magica prima ch'io lasci codesto mondo. Ho udito mirabolanti storie al riguardo..."
+      },
+      "Txt_Talk_Rimuldar_House2_SUB_0_ACTOR_0120_010_2": {
+        "SelfId": "Txt_Talk_Rimuldar_House2_SUB_0_ACTOR_0120_010_2",
+        "Text": "*: Viandant<IfSolo(e... Mi concederesti forse di esaminare tal chiave curiosa in tuo,i... Mi concedereste forse di esaminare tal chiave curiosa in vostro)> possesso? Si dà il caso che, al momento, io stia conducendo una ricerca sugli oggetti magici, e credo che questa sia proprio magica."
+      },
+      "Txt_Talk_Rimuldar_House2_SUB_0_ACTOR_0120_010_3": {
+        "SelfId": "Txt_Talk_Rimuldar_House2_SUB_0_ACTOR_0120_010_3",
+        "Text": "*: Ah... quindi la mia ipotesi era corretta. Ora, ti chiedo umilmente di farmela esaminare da vicino."
+      },
+      "Txt_Talk_Rimuldar_House2_SUB_0_ACTOR_0120_010_4": {
+        "SelfId": "Txt_Talk_Rimuldar_House2_SUB_0_ACTOR_0120_010_4",
+        "Text": "*: Mmh...? Interessante... decisamente... Ah, ma certo! Che astuzia!"
+      },
+      "Txt_Talk_Rimuldar_House2_SUB_0_ACTOR_0120_010_5": {
+        "SelfId": "Txt_Talk_Rimuldar_House2_SUB_0_ACTOR_0120_010_5",
+        "Text": "*: Grazie, compare!"
+      },
+      "Txt_Talk_Rimuldar_House2_SUB_0_ACTOR_0120_020_1": {
+        "SelfId": "Txt_Talk_Rimuldar_House2_SUB_0_ACTOR_0120_020_1",
+        "Text": "*: Presto spero di plasmarne un'altra a sua immagine e somiglianza, benché dovrò profondere sforzi doppi."
+      },
+      "Txt_Talk_Rimuldar_House2_SUB_0_ACTOR_0110_010_1": {
+        "SelfId": "Txt_Talk_Rimuldar_House2_SUB_0_ACTOR_0110_010_1",
+        "Text": "*: Ah, <IfGender_LEADER(amico,amica,)>! Ho provato a crear chiavi magiche sì uguali alla tua, da parer gemelle in ogni parte!"
+      },
+      "Txt_Talk_Rimuldar_House2_SUB_0_ACTOR_0110_010_2": {
+        "SelfId": "Txt_Talk_Rimuldar_House2_SUB_0_ACTOR_0110_010_2",
+        "Text": "*: ... Ohimè, il tutto si è dimostrato assai più arduo del previsto. Potrebbe essermi necessario molto tempo prima di poterne riprodurre un esemplare veritiero."
+      },
+      "Txt_Talk_Rimuldar_Shop_SUB_0_ACTOR_0120_010_1": {
+        "SelfId": "Txt_Talk_Rimuldar_Shop_SUB_0_ACTOR_0120_010_1",
+        "Text": "*: Son certo di aver scorto una figura solitaria che se ne stava nel punto più a occidente di codesta isola."
+      },
+      "Txt_Talk_Rimuldar_Shop_SUB_0_ACTOR_0120_010_2": {
+        "SelfId": "Txt_Talk_Rimuldar_Shop_SUB_0_ACTOR_0120_010_2",
+        "Text": "*: Che faceva lì e per qual ragione? E donde sarà finito?"
+      },
+      "Txt_Talk_Rimuldar_Shop_SUB_0_ACTOR_0110_010_1": {
+        "SelfId": "Txt_Talk_Rimuldar_Shop_SUB_0_ACTOR_0110_010_1",
+        "Text": "*: Il Signore degli Inferi è perito invero? La tua forza non conosce pari, non v'è dubbio!"
+      },
+      "Txt_Talk_Rimuldar_Shop_SUB_0_ACTOR_0210_010_1": {
+        "SelfId": "Txt_Talk_Rimuldar_Shop_SUB_0_ACTOR_0210_010_1",
+        "Text": "*: ... Come dici? Hai dato una bella batosta al Signore degli Inferi? Diamine, allora sei davvero in gamba!"
+      },
+      "Txt_Talk_Rimuldar_Church_1F_SUB_0_ACTOR_0120_010_1": {
+        "SelfId": "Txt_Talk_Rimuldar_Church_1F_SUB_0_ACTOR_0120_010_1",
+        "Text": "*: Mmh? Come dici? V'è un regno oltre i cieli ove la luce ancor bacia la terra? Vergogna! Non pronunciar tali menzogne in mia presenza, canaglia! Non son tanto stolta quanto credi!"
+      },
+      "Txt_Talk_Rimuldar_Church_1F_SUB_0_ACTOR_0110_010_1": {
+        "SelfId": "Txt_Talk_Rimuldar_Church_1F_SUB_0_ACTOR_0110_010_1",
+        "Text": "*: Mai smisi di credere! Mai persi la fede! Mai dubitai che codesto giorno sarebbe giunto! I miei ringraziamenti, sei la nostra salvezza!"
+      },
+      "Txt_Talk_Rimuldar_Church_1F_SUB_0_ACTOR_0220_010_1": {
+        "SelfId": "Txt_Talk_Rimuldar_Church_1F_SUB_0_ACTOR_0220_010_1",
+        "Text": "*: Codesto è un luogo ove si predicono gli eventi. Ove si vede oltre ciò che si può vedere.\r\nAscolta bene..."
+      },
+      "Txt_Talk_Rimuldar_Church_1F_SUB_0_ACTOR_0220_010_2": {
+        "SelfId": "Txt_Talk_Rimuldar_Church_1F_SUB_0_ACTOR_0220_010_2",
+        "Text": "*: Quando la sacra goccia illuminerà l'oscurità... allora l'arco dalla pioggia creato ti condurrà dal punto più a occidente di codesta terra all'isola del demone..."
+      },
+      "Txt_Talk_Rimuldar_Church_1F_SUB_0_ACTOR_0210_010_1": {
+        "SelfId": "Txt_Talk_Rimuldar_Church_1F_SUB_0_ACTOR_0210_010_1",
+        "Text": "*: Mmh... Sei tu, dunque, ad aver liberato codesto mondo dal giogo dell'oscurità? Allora siamo in debito con te. I miei ringraziamenti, giovane."
+      },
+      "Txt_Talk_Rimuldar_Church_2F_SUB_0_ACTOR_0210_010_1": {
+        "SelfId": "Txt_Talk_Rimuldar_Church_2F_SUB_0_ACTOR_0210_010_1",
+        "Text": "*: O Dea generosa! Questi tuoi umili seguaci hanno eseguito la tua volontà! Che tutti ti re*: O Dea generosa! <IfSolo(Quest<IfGender_LEADER(o tuo,a tua)> umile seguace ha eseguito la tua volontà,Questi tuoi umili seguaci hanno eseguito la tua volontà)>! Che tutti ti rendano grazia!ndano grazia!"
+      },
+      "Txt_Talk_Rimuldar_Church_2F_SUB_0_ACTOR_0120_010_1": {
+        "SelfId": "Txt_Talk_Rimuldar_Church_2F_SUB_0_ACTOR_0120_010_1",
+        "Text": "*: O potente Dea! Libera questa terra dal male et conducici verso la salvezza, ti supplichiamo!"
+      },
+      "Txt_Talk_Rimuldar_Church_2F_SUB_0_ACTOR_0110_010_1": {
+        "SelfId": "Txt_Talk_Rimuldar_Church_2F_SUB_0_ACTOR_0110_010_1",
+        "Text": "*: Dal profondo del mio cuore ti porgo i miei ringraziamenti. Ci hai donato la luce di un nuovo giorno!"
+      },
+      "Txt_Talk_Rimuldar_Church_2F_SUB_0_ACTOR_0320_010_1": {
+        "SelfId": "Txt_Talk_Rimuldar_Church_2F_SUB_0_ACTOR_0320_010_1",
+        "Text": "*: Il prigioniero davanti a te non fa che pronunciar menzogne. È un millantatore spudorato et impenitente."
+      },
+      "Txt_Talk_Rimuldar_Church_2F_SUB_0_ACTOR_0310_010_1": {
+        "SelfId": "Txt_Talk_Rimuldar_Church_2F_SUB_0_ACTOR_0310_010_1",
+        "Text": "*: Il Signore degli Inferi è perito invero? La tua forza non conosce pari, non v'è dubbio!"
+      },
+      "Txt_Talk_Rimuldar_Church_2F_SUB_0_ACTOR_0420_010_1": {
+        "SelfId": "Txt_Talk_Rimuldar_Church_2F_SUB_0_ACTOR_0420_010_1",
+        "Text": "*: Sotto al trono del Signore degli Inferi giace una scalinata segreta, occultata alla vista."
+      },
+      "Txt_Talk_Rimuldar_Church_2F_SUB_0_ACTOR_0420_010_2": {
+        "SelfId": "Txt_Talk_Rimuldar_Church_2F_SUB_0_ACTOR_0420_010_2",
+        "Text": "*: Purtuttavia non importa a chi io riveli codesto segreto, poiché non v'è nessuno che mi creda! Perché mai ogni mia parola è destinata a esser ritenuta menzogna?"
+      },
+      "Txt_Talk_Rimuldar_Church_2F_SUB_0_ACTOR_0420_010_3": {
+        "SelfId": "Txt_Talk_Rimuldar_Church_2F_SUB_0_ACTOR_0420_010_3",
+        "Text": "*: Eppure so di affermare la verità, nel profondo del mio cuore! Esamina il trono, non te ne pentirai."
+      },
+      "Txt_Talk_Rimuldar_Church_2F_SUB_0_ACTOR_0410_010_1": {
+        "SelfId": "Txt_Talk_Rimuldar_Church_2F_SUB_0_ACTOR_0410_010_1",
+        "Text": "*: Semmai vorrai metter su una banda di furfanti, ora che la tua eroica impresa è giunta al termine... non esitar a fare affidamento sul sottoscritto!"
+      },
+      "Txt_Talk_Rimuldar_Inn_SUB_0_ACTOR_0110_010_1": {
+        "SelfId": "Txt_Talk_Rimuldar_Inn_SUB_0_ACTOR_0110_010_1",
+        "Text": "*: Dal profondo del mio cuore ti porgo i miei ringraziamenti. Ci hai donato la luce di un nuovo giorno!"
+      },
+      "Txt_Talk_Rimuldar_Inn_Ortega_Memoirs_1": {
+        "SelfId": "Txt_Talk_Rimuldar_Inn_Ortega_Memoirs_1",
+        "Text": "C'è qualcosa sul fondo del forziere..."
+      },
+      "Txt_Talk_Rimuldar_Inn_Ortega_Memoirs_2": {
+        "SelfId": "Txt_Talk_Rimuldar_Inn_Ortega_Memoirs_2",
+        "Text": "È un diario."
+      },
+      "Txt_Talk_Rimuldar_Inn_Ortega_Memoirs_3": {
+        "SelfId": "Txt_Talk_Rimuldar_Inn_Ortega_Memoirs_3",
+        "Text": "Vuoi leggere il diario?"
+      },
+      "Txt_Talk_Rimuldar_Inn_Ortega_Memoirs_4": {
+        "SelfId": "Txt_Talk_Rimuldar_Inn_Ortega_Memoirs_4",
+        "Text": "{HERO} apre il libro e inizia a leggere..."
+      },
+      "Txt_Talk_Rimuldar_Inn_Ortega_Memoirs_5": {
+        "SelfId": "Txt_Talk_Rimuldar_Inn_Ortega_Memoirs_5",
+        "Text": "{LEADER} rimette il diario nel forziere."
+      },
+      "Txt_Talk_Rimuldar_Inn_Ortega_Memoirs_6": {
+        "SelfId": "Txt_Talk_Rimuldar_Inn_Ortega_Memoirs_6",
+        "Text": "Hai cambiato idea e vuoi leggere il diario?"
+      },
+      "Txt_Talk_Rimuldar_Inn_Ortega_Memoirs_7": {
+        "SelfId": "Txt_Talk_Rimuldar_Inn_Ortega_Memoirs_7",
+        "Text": "<66>Anche se non so da dove vengo, nei miei sogni continuo a vedere un luogo stranamente familiare."
+      },
+      "Txt_Talk_Rimuldar_Inn_Ortega_Memoirs_8": {
+        "SelfId": "Txt_Talk_Rimuldar_Inn_Ortega_Memoirs_8",
+        "Text": "È completamente diverso da questa terra. Tutti sono felici e pieni di vita, sebbene la minaccia dei mostri sia sempre incombente, proprio come lo è qui."
+      },
+      "Txt_Talk_Rimuldar_Inn_Ortega_Memoirs_9": {
+        "SelfId": "Txt_Talk_Rimuldar_Inn_Ortega_Memoirs_9",
+        "Text": "I miei ricordi sono riaffiorati da quando ho lasciato Tantegel."
+      },
+      "Txt_Talk_Rimuldar_Inn_Ortega_Memoirs_10": {
+        "SelfId": "Txt_Talk_Rimuldar_Inn_Ortega_Memoirs_10",
+        "Text": "Ricordo che ero un guerriero, uno dei migliori. Ed ero in viaggio già da molto tempo prima che arrivassi qui."
+      },
+      "Txt_Talk_Rimuldar_Inn_Ortega_Memoirs_11": {
+        "SelfId": "Txt_Talk_Rimuldar_Inn_Ortega_Memoirs_11",
+        "Text": "Ora la mia determinazione è incrollabile. Sono certo di star percorrendo la giusta via... Devo solo portare a termine la mia missione."
+      },
+      "Txt_Talk_Rimuldar_Inn_Ortega_Memoirs_12": {
+        "SelfId": "Txt_Talk_Rimuldar_Inn_Ortega_Memoirs_12",
+        "Text": "Tuttavia, dovrò farlo da solo. Aver vissuto per così tanto tempo con il terrore dei mostri ha privato questa gente di tutto il suo spirito combattivo."
+      },
+      "Txt_Talk_Rimuldar_Inn_Ortega_Memoirs_13": {
+        "SelfId": "Txt_Talk_Rimuldar_Inn_Ortega_Memoirs_13",
+        "Text": "Ci sono ancora alcuni volti che non riesco a ricordare..."
+      },
+      "Txt_Talk_Rimuldar_Inn_Ortega_Memoirs_14": {
+        "SelfId": "Txt_Talk_Rimuldar_Inn_Ortega_Memoirs_14",
+        "Text": "Un uomo anziano, una donna gentile e un neonato..."
+      },
+      "Txt_Talk_Rimuldar_Inn_Ortega_Memoirs_15": {
+        "SelfId": "Txt_Talk_Rimuldar_Inn_Ortega_Memoirs_15",
+        "Text": "Che siano la mia famiglia? O semplicemente persone a cui tenevo?"
+      },
+      "Txt_Talk_Rimuldar_Inn_Ortega_Memoirs_16": {
+        "SelfId": "Txt_Talk_Rimuldar_Inn_Ortega_Memoirs_16",
+        "Text": "Se sono davvero la mia famiglia, sicuramente devono odiarmi per aver scelto di partire invece di restare con loro..."
+      },
+      "Txt_Talk_Rimuldar_Inn_Ortega_Memoirs_17": {
+        "SelfId": "Txt_Talk_Rimuldar_Inn_Ortega_Memoirs_17",
+        "Text": "Ma anche se adesso potessi tornare indietro, non credo che agirei diversamente."
+      },
+      "Txt_Talk_Rimuldar_Inn_Ortega_Memoirs_18": {
+        "SelfId": "Txt_Talk_Rimuldar_Inn_Ortega_Memoirs_18",
+        "Text": "Ad ogni modo, ho cose più importanti a cui pensare. Ad esempio, porre fine alla vita del Signore degli Inferi.<99>"
+      },
+      "Txt_Talk_Rimuldar_Inn_Ortega_Memoirs_19": {
+        "SelfId": "Txt_Talk_Rimuldar_Inn_Ortega_Memoirs_19",
+        "Text": "Sembra una raccolta di riflessioni scritte da Ortega."
+      }
+    }
+  }
+]

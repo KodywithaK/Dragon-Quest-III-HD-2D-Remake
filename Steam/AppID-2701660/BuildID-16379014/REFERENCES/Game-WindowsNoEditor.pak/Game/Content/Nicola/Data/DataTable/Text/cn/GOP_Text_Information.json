@@ -1,0 +1,564 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_Information",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Information_TITLE_AUTOSAVE": {
+        "SelfId": "Txt_Information_TITLE_AUTOSAVE",
+        "Text": "自动保存"
+      },
+      "Txt_Information_TITLE_DASH": {
+        "SelfId": "Txt_Information_TITLE_DASH",
+        "Text": "冲刺"
+      },
+      "Txt_Information_TITLE_EQUIP": {
+        "SelfId": "Txt_Information_TITLE_EQUIP",
+        "Text": "装备"
+      },
+      "Txt_Information_TITLE_BAR": {
+        "SelfId": "Txt_Information_TITLE_BAR",
+        "Text": "如何寻找伙伴"
+      },
+      "Txt_Information_TITLE_BAR_REPLACE": {
+        "SelfId": "Txt_Information_TITLE_BAR_REPLACE",
+        "Text": "替换/登记伙伴"
+      },
+      "Txt_Information_TITLE_HELP": {
+        "SelfId": "Txt_Information_TITLE_HELP",
+        "Text": "支援功能"
+      },
+      "Txt_Information_TITLE_HELP_HOST": {
+        "SelfId": "Txt_Information_TITLE_HELP_HOST",
+        "Text": "前往支援"
+      },
+      "Txt_Information_TITLE_HELP_CLIENT": {
+        "SelfId": "Txt_Information_TITLE_HELP_CLIENT",
+        "Text": "呼唤支援"
+      },
+      "Txt_Information_TITLE_SHOP": {
+        "SelfId": "Txt_Information_TITLE_SHOP",
+        "Text": "商店"
+      },
+      "Txt_Information_TITLE_CHURCH": {
+        "SelfId": "Txt_Information_TITLE_CHURCH",
+        "Text": "保存"
+      },
+      "Txt_Information_TITLE_INN": {
+        "SelfId": "Txt_Information_TITLE_INN",
+        "Text": "关于恢复"
+      },
+      "Txt_Information_TITLE_MAPMENU": {
+        "SelfId": "Txt_Information_TITLE_MAPMENU",
+        "Text": "地图菜单"
+      },
+      "Txt_Information_TITLE_DESTINATION": {
+        "SelfId": "Txt_Information_TITLE_DESTINATION",
+        "Text": "旅途的目的地"
+      },
+      "Txt_Information_TITLE_MEMORY": {
+        "SelfId": "Txt_Information_TITLE_MEMORY",
+        "Text": "记下对话"
+      },
+      "Txt_Information_TITLE_INFORMATION": {
+        "SelfId": "Txt_Information_TITLE_INFORMATION",
+        "Text": "旅行心得"
+      },
+      "Txt_Information_TITLE_FULL_RECOVERY": {
+        "SelfId": "Txt_Information_TITLE_FULL_RECOVERY",
+        "Text": "全恢复·几乎全恢复"
+      },
+      "Txt_Information_TITLE_SHIP": {
+        "SelfId": "Txt_Information_TITLE_SHIP",
+        "Text": "乘船·下船的方法"
+      },
+      "Txt_Information_TITLE_RAMIA": {
+        "SelfId": "Txt_Information_TITLE_RAMIA",
+        "Text": "拉米亚"
+      },
+      "Txt_Information_TITLE_JOB_CHANGE": {
+        "SelfId": "Txt_Information_TITLE_JOB_CHANGE",
+        "Text": "转职建议 其1"
+      },
+      "Txt_Information_TITLE_JOB_CHANGE_RECOMMEND": {
+        "SelfId": "Txt_Information_TITLE_JOB_CHANGE_RECOMMEND",
+        "Text": "转职建议 其2"
+      },
+      "Txt_Information_TITLE_JOB_CHANGE_RECOMMEND_3": {
+        "SelfId": "Txt_Information_TITLE_JOB_CHANGE_RECOMMEND_3",
+        "Text": "转职建议 其3"
+      },
+      "Txt_Information_TITLE_TIME_FLOW": {
+        "SelfId": "Txt_Information_TITLE_TIME_FLOW",
+        "Text": "时间带来的变化"
+      },
+      "Txt_Information_TITLE_STRATEGY": {
+        "SelfId": "Txt_Information_TITLE_STRATEGY",
+        "Text": "改变作战"
+      },
+      "Txt_Information_TITLE_STRATEGY_LIST": {
+        "SelfId": "Txt_Information_TITLE_STRATEGY_LIST",
+        "Text": "作战的种类"
+      },
+      "Txt_Information_TITLE_WEAK_RESIST": {
+        "SelfId": "Txt_Information_TITLE_WEAK_RESIST",
+        "Text": "技能的有效度"
+      },
+      "Txt_Information_TITLE_PERSONALITY": {
+        "SelfId": "Txt_Information_TITLE_PERSONALITY",
+        "Text": "性格"
+      },
+      "Txt_Information_TITLE_PERSONALITY_STATUS_1": {
+        "SelfId": "Txt_Information_TITLE_PERSONALITY_STATUS_1",
+        "Text": "性格与能力 其1"
+      },
+      "Txt_Information_TITLE_PERSONALITY_STATUS_2": {
+        "SelfId": "Txt_Information_TITLE_PERSONALITY_STATUS_2",
+        "Text": "性格与能力 其2"
+      },
+      "Txt_Information_TITLE_PERSONALITY_STATUS_3": {
+        "SelfId": "Txt_Information_TITLE_PERSONALITY_STATUS_3",
+        "Text": "性格与能力 其3"
+      },
+      "Txt_Information_TITLE_PERSONALITY_STATUS_4": {
+        "SelfId": "Txt_Information_TITLE_PERSONALITY_STATUS_4",
+        "Text": "性格与能力 其4"
+      },
+      "Txt_Information_TITLE_PERSONALITY_STATUS_5": {
+        "SelfId": "Txt_Information_TITLE_PERSONALITY_STATUS_5",
+        "Text": "性格与能力 其5"
+      },
+      "Txt_Information_TITLE_PERSONALITY_STATUS_6": {
+        "SelfId": "Txt_Information_TITLE_PERSONALITY_STATUS_6",
+        "Text": "性格与能力 其6"
+      },
+      "Txt_Information_TITLE_PERSONALITY_STATUS_7": {
+        "SelfId": "Txt_Information_TITLE_PERSONALITY_STATUS_7",
+        "Text": "性格与能力 其7"
+      },
+      "Txt_Information_TITLE_PERSONALITY_STATUS_8": {
+        "SelfId": "Txt_Information_TITLE_PERSONALITY_STATUS_8",
+        "Text": "性格与能力 其8"
+      },
+      "Txt_Information_TITLE_PERSONALITY_STATUS_9": {
+        "SelfId": "Txt_Information_TITLE_PERSONALITY_STATUS_9",
+        "Text": "性格与能力 其9"
+      },
+      "Txt_Information_TITLE_PERSONALITY_STATUS_10": {
+        "SelfId": "Txt_Information_TITLE_PERSONALITY_STATUS_10",
+        "Text": "性格与能力 其10"
+      },
+      "Txt_Information_TITLE_PERSONALITY_STATUS_11": {
+        "SelfId": "Txt_Information_TITLE_PERSONALITY_STATUS_11",
+        "Text": "性格与能力 其11"
+      },
+      "Txt_Information_TITLE_PERSONALITY_STATUS_12": {
+        "SelfId": "Txt_Information_TITLE_PERSONALITY_STATUS_12",
+        "Text": "性格与能力 其12"
+      },
+      "Txt_Information_TITLE_PERSONALITY_STATUS_13": {
+        "SelfId": "Txt_Information_TITLE_PERSONALITY_STATUS_13",
+        "Text": "性格与能力 其13"
+      },
+      "Txt_Information_TITLE_RUN_AWAY": {
+        "SelfId": "Txt_Information_TITLE_RUN_AWAY",
+        "Text": "逃跑"
+      },
+      "Txt_Information_TITLE_CURSE": {
+        "SelfId": "Txt_Information_TITLE_CURSE",
+        "Text": "诅咒装备"
+      },
+      "Txt_Information_TITLE_ACCESSORY_PERSONALITY": {
+        "SelfId": "Txt_Information_TITLE_ACCESSORY_PERSONALITY",
+        "Text": "饰品与性格"
+      },
+      "Txt_Information_TITLE_MEDAL": {
+        "SelfId": "Txt_Information_TITLE_MEDAL",
+        "Text": "小徽章"
+      },
+      "Txt_Information_TITLE_INVENTORY": {
+        "SelfId": "Txt_Information_TITLE_INVENTORY",
+        "Text": "在战斗中使用道具"
+      },
+      "Txt_Information_TITLE_SYSTEM": {
+        "SelfId": "Txt_Information_TITLE_SYSTEM",
+        "Text": "系统设定"
+      },
+      "Txt_Information_TITLE_KEY": {
+        "SelfId": "Txt_Information_TITLE_KEY",
+        "Text": "上锁的门"
+      },
+      "Txt_Information_TITLE_RULER": {
+        "SelfId": "Txt_Information_TITLE_RULER",
+        "Text": "如何瞬间移动"
+      },
+      "Txt_Information_TITLE_STATUS_LIST_1": {
+        "SelfId": "Txt_Information_TITLE_STATUS_LIST_1",
+        "Text": "关于能力数值 其1"
+      },
+      "Txt_Information_TITLE_STATUS_LIST_2": {
+        "SelfId": "Txt_Information_TITLE_STATUS_LIST_2",
+        "Text": "关于能力数值 其2"
+      },
+      "Txt_Information_TITLE_CHANGE_STATUS": {
+        "SelfId": "Txt_Information_TITLE_CHANGE_STATUS",
+        "Text": "状态变化"
+      },
+      "Txt_Information_TITLE_BAD_STATUS_LIST": {
+        "SelfId": "Txt_Information_TITLE_BAD_STATUS_LIST",
+        "Text": "状态变化图标 其1"
+      },
+      "Txt_Information_TITLE_BAD_STATUS_LIST_2": {
+        "SelfId": "Txt_Information_TITLE_BAD_STATUS_LIST_2",
+        "Text": "状态变化图标 其2"
+      },
+      "Txt_Information_TITLE_BAD_STATUS_LIST_3": {
+        "SelfId": "Txt_Information_TITLE_BAD_STATUS_LIST_3",
+        "Text": "状态异常图标 其1"
+      },
+      "Txt_Information_TITLE_BAD_STATUS_LIST_4": {
+        "SelfId": "Txt_Information_TITLE_BAD_STATUS_LIST_4",
+        "Text": "状态异常图标 其2"
+      },
+      "Txt_Information_TITLE_POISON_PARALYSE": {
+        "SelfId": "Txt_Information_TITLE_POISON_PARALYSE",
+        "Text": "关于中毒与麻痹"
+      },
+      "Txt_Information_TITLE_OVERLAP": {
+        "SelfId": "Txt_Information_TITLE_OVERLAP",
+        "Text": "能力变化叠加"
+      },
+      "Txt_Information_TITLE_BATTLEROAD": {
+        "SelfId": "Txt_Information_TITLE_BATTLEROAD",
+        "Text": "战斗之路"
+      },
+      "Txt_Information_TITLE_BATTLEROAD_BATTLE": {
+        "SelfId": "Txt_Information_TITLE_BATTLEROAD_BATTLE",
+        "Text": "战斗之路中的战斗方法"
+      },
+      "Txt_Information_TITLE_BREED_MONSTER": {
+        "SelfId": "Txt_Information_TITLE_BREED_MONSTER",
+        "Text": "收服怪物 其1"
+      },
+      "Txt_Information_TITLE_BREED_MONSTER_2": {
+        "SelfId": "Txt_Information_TITLE_BREED_MONSTER_2",
+        "Text": "收服怪物 其2"
+      },
+      "Txt_Information_TITLE_PUZZLE": {
+        "SelfId": "Txt_Information_TITLE_PUZZLE",
+        "Text": "艾丁拜亚的猜谜"
+      },
+      "Txt_Information_TITLE_WIPEOUT": {
+        "SelfId": "Txt_Information_TITLE_WIPEOUT",
+        "Text": "全灭"
+      },
+      "Txt_Information_TITLE_PICK": {
+        "SelfId": "Txt_Information_TITLE_PICK",
+        "Text": "野外中的闪光"
+      },
+      "Txt_Information_TITLE_SECRET_AREA": {
+        "SelfId": "Txt_Information_TITLE_SECRET_AREA",
+        "Text": "秘密地点"
+      },
+      "Txt_Information_TITLE_CLEAR": {
+        "SelfId": "Txt_Information_TITLE_CLEAR",
+        "Text": "通关后的乐趣"
+      },
+      "Txt_Information_TITLE_GAMEMODE": {
+        "SelfId": "Txt_Information_TITLE_GAMEMODE",
+        "Text": "关于游戏模式"
+      },
+      "Txt_Information_TITLE_FIELDMENU": {
+        "SelfId": "Txt_Information_TITLE_FIELDMENU",
+        "Text": "菜单"
+      },
+      "Txt_Information_TEXT_AUTOSAVE": {
+        "SelfId": "Txt_Information_TEXT_AUTOSAVE",
+        "Text": "当在冒险中移动至城镇或迷宫等地时，\r\n本游戏会进行自动保存。\r\n\r\n保存图标显示期间，请勿关闭电源。"
+      },
+      "Txt_Information_TEXT_DASH": {
+        "SelfId": "Txt_Information_TEXT_DASH",
+        "Text": "在移动时按住<IMG_BUTTON>[Dash]不放，\r\n可以进行“冲刺”。"
+      },
+      "Txt_Information_TEXT_EQUIP": {
+        "SelfId": "Txt_Information_TEXT_EQUIP",
+        "Text": "装备品仅靠持有无法发挥效果。\r\n\r\n在菜单画面的“装备”中把它们穿戴起来，\r\n便可使角色变得更强。"
+      },
+      "Txt_Information_TEXT_BAR": {
+        "SelfId": "Txt_Information_TEXT_BAR",
+        "Text": "在阿拉罕的露依妲酒馆\r\n可以增加伙伴。\r\n\r\n冒险之旅难免危险，\r\n去找到可靠的伙伴吧。"
+      },
+      "Txt_Information_TEXT_BAR_REPLACE": {
+        "SelfId": "Txt_Information_TEXT_BAR_REPLACE",
+        "Text": "与在阿拉罕的酒馆1层的露依妲对话，\r\n便可以替换共赴旅途的伙伴。\r\n\r\n此外，可以在位于2层的登记处\r\n创建新的伙伴。"
+      },
+      "Txt_Information_TEXT_HELP": {
+        "SelfId": "Txt_Information_TEXT_HELP",
+        "Text": "在阿拉罕的酒馆，\r\n可向同一保存数据中的其他冒险之书出借，\r\n或从其他冒险之书借来“支援角色”。\r\n\r\n如欲了解详情，就去旅行心得查看\r\n“前往支援”和“呼唤支援”吧。"
+      },
+      "Txt_Information_TEXT_HELP_PS5": {
+        "SelfId": "Txt_Information_TEXT_HELP_PS5",
+        "Text": "在阿拉罕的酒馆，\r\n可向同一已保存的数据中的其他冒险之书出借，\r\n或从其他冒险之书借来“支援角色”。\r\n\r\n如欲了解详情，就去旅行心得查看\r\n“前往支援”和“呼唤支援”吧。"
+      },
+      "Txt_Information_TEXT_HELP_HOST": {
+        "SelfId": "Txt_Information_TEXT_HELP_HOST",
+        "Text": "将主人公以外的伙伴登记为支援角色，\r\n就可以在其他冒险之书中召唤该角色，\r\n使其加入队伍。\r\n\r\n支援角色的等级和装备\r\n固定为登记时的状态。"
+      },
+      "Txt_Information_TEXT_HELP_CLIENT": {
+        "SelfId": "Txt_Information_TEXT_HELP_CLIENT",
+        "Text": "可以让仅1名在其他冒险之书中\r\n登记的支援角色加入队伍。\r\n\r\n支援角色具有以下特征：\r\n·等级不会提升。\r\n·无法更换装备品。"
+      },
+      "Txt_Information_TEXT_SHOP": {
+        "SelfId": "Txt_Information_TEXT_SHOP",
+        "Text": "镇上有“武器防具店”和“道具店”，\r\n可以在这些地方使用金钱购买商品。\r\n\r\n每个镇上出售的商品不尽相同，\r\n如果发现了商店，就主动进去看一看吧。"
+      },
+      "Txt_Information_TEXT_CHURCH": {
+        "SelfId": "Txt_Information_TEXT_CHURCH",
+        "Text": "向教会或修女祈祷，\r\n就能“记录（保存）”目前为止的冒险。\r\n\r\n由于自动保存会自动覆盖之前的记录，\r\n推荐同时灵活运用祈祷保存。\r\n\r\n保存数据最多可以创建9个。"
+      },
+      "Txt_Information_TEXT_CHURCH_PS5": {
+        "SelfId": "Txt_Information_TEXT_CHURCH_PS5",
+        "Text": "向教会或修女祈祷，\r\n就能“记录（保存）”目前为止的冒险。\r\n\r\n由于自动保存会自动覆盖之前的记录，\r\n推荐同时灵活运用祈祷保存。\r\n\r\n已保存的数据最多可以创建9个。"
+      },
+      "Txt_Information_TEXT_INN": {
+        "SelfId": "Txt_Information_TEXT_INN",
+        "Text": "在旅店“休息”或“住宿”，\r\n就能让ＨＰ和ＭＰ完全恢复。\r\n如果在战斗中受了伤，就去旅店吧。\r\n\r\n但是，无法恢复已经死亡的伙伴，\r\n所以遇到这种情况，就去请教会或修女\r\n帮忙复活伙伴吧。"
+      },
+      "Txt_Information_TEXT_MAPMENU": {
+        "SelfId": "Txt_Information_TEXT_MAPMENU",
+        "Text": "按<IMG_BUTTON>[Map]能打开“地图”。\r\n\r\n在地图中可以查看所在地和四周的地形，\r\n如果不小心迷路了，就先翻看一下地图吧。"
+      },
+      "Txt_Information_TEXT_DESTINATION": {
+        "SelfId": "Txt_Information_TEXT_DESTINATION",
+        "Text": "开启系统设定中的“目的地标记”，\r\n地图上就会显示下一个目的地。\r\n\r\n开启“目的引导文本”，\r\n菜单中还会显示\r\n下一个目的地的提示。"
+      },
+      "Txt_Information_TEXT_MEMORY": {
+        "SelfId": "Txt_Information_TEXT_MEMORY",
+        "Text": "在对话中或对话后，\r\n按<IMG_BUTTON>[Memory]便可以“记下”这段对话。\r\n\r\n记下的对话可以随时在\r\n菜单的“回忆”中重温。"
+      },
+      "Txt_Information_TEXT_INFORMATION": {
+        "SelfId": "Txt_Information_TEXT_INFORMATION",
+        "Text": "菜单画面的“作战”中有“旅行心得”，\r\n其中总结了操作方法和冒险的推进方法。\r\n\r\n随着旅行越来越深入，能查阅的项目也会越来越多。\r\n如果遇到不明白的地方，就去翻看一下吧。"
+      },
+      "Txt_Information_TEXT_FULL_RECOVERY": {
+        "SelfId": "Txt_Information_TEXT_FULL_RECOVERY",
+        "Text": "选择“作战”中的“全恢复”，\r\n便能以最有效率的方式使用恢复咒文，\r\n自动让全员的ＨＰ完全恢复。\r\n\r\n“几乎全恢复”虽然不能达到完全恢复的效果，\r\n但能以此节约ＭＰ。"
+      },
+      "Txt_Information_TEXT_SHIP": {
+        "SelfId": "Txt_Information_TEXT_SHIP",
+        "Text": "乘船前往新的冒险之地吧！\r\n\r\n·靠近陆地按<IMG_BUTTON>[Talk]下船。\r\n·靠近船按<IMG_BUTTON>[Talk]上船。"
+      },
+      "Txt_Information_TEXT_RAMIA": {
+        "SelfId": "Txt_Information_TEXT_RAMIA",
+        "Text": "骑着拉米亚去探索之前到不了的地方吧！\r\n\r\n·按<IMG_BUTTON>[Talk]骑上拉米亚。\r\n·按<IMG_BUTTON>[Talk]降落到地面。\r\n·推动<IMG_BUTTON>[Target_Lamia]调整着陆位置。\r\n·按<IMG_BUTTON>[Dash_Lamia]低空飞行。"
+      },
+      "Txt_Information_TEXT_JOB_CHANGE": {
+        "SelfId": "Txt_Information_TEXT_JOB_CHANGE",
+        "Text": "主人公以外的伙伴在达到等级20后，\r\n便可于达玛神殿转职为其他职业。\r\n\r\n转职后，该伙伴的等级会变为1。\r\n不过，已经学会的咒文和特技会原封不动地继承。\r\n\r\n接连从事不同的职业，\r\n能使用的技能会变得越来越多，\r\n便可在战斗中占据更多优势。"
+      },
+      "Txt_Information_TEXT_JOB_CHANGE_RECOMMEND": {
+        "SelfId": "Txt_Information_TEXT_JOB_CHANGE_RECOMMEND",
+        "Text": "转职后，等级会变为1，\r\n但是力量、耐力、敏捷等能力的数值\r\n会以约当前数值的一半被继承。\r\n\r\n即能以比在阿拉罕的酒馆相遇时\r\n更强的状态从等级1开始培养。"
+      },
+      "Txt_Information_TEXT_JOB_CHANGE_RECOMMEND_3": {
+        "SelfId": "Txt_Information_TEXT_JOB_CHANGE_RECOMMEND_3",
+        "Text": "转职后，升级所必需的\r\n经验值也会被重置，\r\n只要稍微战斗几次，等级就会快速提升。\r\n\r\n因为开始时继承了转职前一半的能力，\r\n所以能让角色成长得比不转职培养强许多。\r\n\r\n不断转职，培养出最强的伙伴吧！"
+      },
+      "Txt_Information_TEXT_TIME_FLOW": {
+        "SelfId": "Txt_Information_TEXT_TIME_FLOW",
+        "Text": "身处野外，时间段会由早晨变为傍晚，\r\n再从傍晚变到夜晚，遭遇的怪物也会随之变化。\r\n\r\n城镇中的人们和设施的情况\r\n也会根据时间段的不同而改变。"
+      },
+      "Txt_Information_TEXT_STRATEGY": {
+        "SelfId": "Txt_Information_TEXT_STRATEGY",
+        "Text": "在“改变作战”中，可以设定\r\n主人公和伙伴们在战斗中的作战方式。\r\n\r\n设定为“让我指挥”，\r\n便可以由自己来选择每一步的行动。\r\n\r\n设定为除此以外的作战方式，\r\n角色则会自动根据所选方针来行动。"
+      },
+      "Txt_Information_TEXT_STRATEGY_LIST": {
+        "SelfId": "Txt_Information_TEXT_STRATEGY_LIST",
+        "Text": "“一鼓作气”——\r\n积极使用咒文和特技攻击。\r\n\r\n“好好加油”——\r\n根据状况平衡地行动。\r\n\r\n“交给我了”——\r\n主人公专门负责攻击，伙伴为其辅助。\r\n\r\n“禁用ＭＰ”——\r\n不使用咒文或特技，节约ＭＰ。\r\n\r\n“珍惜生命”——\r\n相较于攻击，优先恢复或复活伙伴。\r\n\r\n“让我指挥”——\r\n指示每一步行动。"
+      },
+      "Txt_Information_TEXT_PERSONALITY": {
+        "SelfId": "Txt_Information_TEXT_PERSONALITY",
+        "Text": "主人公和伙伴们各自具有“性格”。\r\n性格不同，容易成长的能力也不一样。\r\n\r\n据说存在能改变性格的道具和装备。"
+      },
+      "Txt_Information_TEXT_PERSONALITY_STATUS_1": {
+        "SelfId": "Txt_Information_TEXT_PERSONALITY_STATUS_1",
+        "Text": "“光说不做”\r\n智力容易提升，\r\n耐力稍容易提升。\r\n\r\n“爱撒娇”\r\n幸运稍容易提升。\r\n\r\n“没骨气”\r\n智力和幸运容易提升。\r\n敏捷不容易提升。\r\n\r\n“独行侠”\r\n耐力和体力容易提升。\r\n幸运不容易提升。"
+      },
+      "Txt_Information_TEXT_PERSONALITY_STATUS_2": {
+        "SelfId": "Txt_Information_TEXT_PERSONALITY_STATUS_2",
+        "Text": "“无所畏惧”\r\n敏捷和体力容易提升。\r\n耐力不容易提升。\r\n\r\n“马虎”\r\n敏捷容易提升。\r\n智力和幸运不容易提升。\r\n\r\n“大胃王”\r\n耐力非常容易提升，\r\n力量和体力稍容易提升。\r\n智力和敏捷不容易提升。"
+      },
+      "Txt_Information_TEXT_PERSONALITY_STATUS_3": {
+        "SelfId": "Txt_Information_TEXT_PERSONALITY_STATUS_3",
+        "Text": "“好管闲事”\r\n体力稍容易提升。\r\n\r\n“爱出风头”\r\n敏捷容易提升，\r\n智力和幸运稍容易提升。\r\n\r\n“冒冒失失”\r\n敏捷容易提升。\r\n\r\n“顽固”\r\n耐力和体力容易提升。\r\n敏捷、智力和幸运不容易提升。"
+      },
+      "Txt_Information_TEXT_PERSONALITY_STATUS_4": {
+        "SelfId": "Txt_Information_TEXT_PERSONALITY_STATUS_4",
+        "Text": "“勤奋努力”\r\n力量容易提升，\r\n耐力和体力稍容易提升。\r\n\r\n“聪明人”\r\n智力非常容易提升，\r\n敏捷容易提升。\r\n\r\n“劳苦命”\r\n耐力和体力容易提升。\r\n幸运不容易提升。"
+      },
+      "Txt_Information_TEXT_PERSONALITY_STATUS_5": {
+        "SelfId": "Txt_Information_TEXT_PERSONALITY_STATUS_5",
+        "Text": "“豪杰”\r\n力量非常容易提升。\r\n敏捷、智力和幸运不容易提升。\r\n\r\n“寂寞心”\r\n智力和幸运稍容易提升。\r\n\r\n“幸福的人”\r\n幸运非常容易提升。\r\n\r\n“诚实的人”\r\n各项能力均衡地提升。"
+      },
+      "Txt_Information_TEXT_PERSONALITY_STATUS_6": {
+        "SelfId": "Txt_Information_TEXT_PERSONALITY_STATUS_6",
+        "Text": "“才思敏捷”\r\n智力非常容易提升。\r\n\r\n“行动敏捷”\r\n敏捷容易提升。\r\n\r\n“性感辣妹”\r\n敏捷和幸运容易提升，\r\n其他能力也均衡地提升。\r\n\r\n“不谙世故”\r\n幸运稍容易提升。\r\n智力不容易提升。"
+      },
+      "Txt_Information_TEXT_PERSONALITY_STATUS_7": {
+        "SelfId": "Txt_Information_TEXT_PERSONALITY_STATUS_7",
+        "Text": "“意志坚强”\r\n体力和耐力非常容易提升。\r\n幸运不容易提升。\r\n\r\n“大力士”\r\n力量非常容易提升。\r\n智力不容易提升。\r\n\r\n“强硬”\r\n力量非常容易提升，\r\n耐力稍容易提升。\r\n\r\n“铁人”\r\n耐力和体力非常容易提升。"
+      },
+      "Txt_Information_TEXT_PERSONALITY_STATUS_8": {
+        "SelfId": "Txt_Information_TEXT_PERSONALITY_STATUS_8",
+        "Text": "“电光石火”\r\n敏捷非常容易提升。\r\n\r\n“心软”\r\n幸运容易提升，\r\n智力稍容易提升。\r\n耐力不容易提升。\r\n\r\n“懒惰”\r\n体力容易提升，\r\n幸运稍容易提升。\r\n耐力和智力不容易提升。"
+      },
+      "Txt_Information_TEXT_PERSONALITY_STATUS_9": {
+        "SelfId": "Txt_Information_TEXT_PERSONALITY_STATUS_9",
+        "Text": "“精明”\r\n智力容易提升，\r\n耐力和敏捷稍容易提升。\r\n\r\n“一腔热血”\r\n耐力和力量容易提升。\r\n幸运不容易提升。\r\n\r\n“慢性子”\r\n耐力和体力稍容易提升。\r\n敏捷不容易提升。"
+      },
+      "Txt_Information_TEXT_PERSONALITY_STATUS_10": {
+        "SelfId": "Txt_Information_TEXT_PERSONALITY_STATUS_10",
+        "Text": "“内向”\r\n体力容易提升，\r\n智力稍容易提升。\r\n敏捷不容易提升。\r\n\r\n“性情乖张”\r\n幸运非常容易提升，\r\n敏捷容易提升。\r\n力量和体力不容易提升。\r\n\r\n“普普通通”\r\n各项能力均衡地提升。"
+      },
+      "Txt_Information_TEXT_PERSONALITY_STATUS_11": {
+        "SelfId": "Txt_Information_TEXT_PERSONALITY_STATUS_11",
+        "Text": "“资产阶级”\r\n幸运非常容易提升，\r\n智力稍容易提升。\r\n耐力不容易提升。\r\n\r\n“不屈不挠”\r\n体力容易提升。\r\n\r\n“不服输”\r\n敏捷和体力稍容易提升。\r\n\r\n“爱慕虚荣”\r\n力量、耐力和敏捷稍容易提升。"
+      },
+      "Txt_Information_TEXT_PERSONALITY_STATUS_12": {
+        "SelfId": "Txt_Information_TEXT_PERSONALITY_STATUS_12",
+        "Text": "“闷骚色狼”\r\n体力和力量容易提升。\r\n\r\n“善良的人”\r\n各项能力均衡地提升。\r\n\r\n“幸运儿”\r\n幸运非常容易提升，\r\n敏捷稍容易提升。\r\n\r\n“粗暴无礼”\r\n力量容易提升，\r\n耐力稍容易提升。\r\n智力和幸运不容易提升。"
+      },
+      "Txt_Information_TEXT_PERSONALITY_STATUS_13": {
+        "SelfId": "Txt_Information_TEXT_PERSONALITY_STATUS_13",
+        "Text": "“浪漫主义者”\r\n敏捷和智力稍容易提升。\r\n\r\n“淘气”\r\n力量和敏捷容易提升。\r\n\r\n“任性”\r\n敏捷稍容易提升。"
+      },
+      "Txt_Information_TEXT_RUN_AWAY": {
+        "SelfId": "Txt_Information_TEXT_RUN_AWAY",
+        "Text": "在与怪物战斗时可以逃跑。\r\n如果遇到了强敌，选择逃跑也是一种策略。\r\n\r\n不过有可能会遭到魔物堵截，导致逃跑失败。\r\n如果逃跑失败，全员将在短时间内无法行动。\r\n\r\n随着失败的次数累加，成功逃跑的几率会提升，\r\n危急时刻也可以不懈地尝试逃跑。"
+      },
+      "Txt_Information_TEXT_CURSE": {
+        "SelfId": "Txt_Information_TEXT_CURSE",
+        "Text": "装备品中存在只要穿戴到身上就会施放诅咒的物品。\r\n诅咒有可能会在战斗等中发挥负面效果，\r\n也有可能改变性格。\r\n\r\n被诅咒的装备品无法卸下，\r\n想卸下的话就去教会解除诅咒吧。"
+      },
+      "Txt_Information_TEXT_ACCESSORY_PERSONALITY": {
+        "SelfId": "Txt_Information_TEXT_ACCESSORY_PERSONALITY",
+        "Text": "饰品中存在\r\n具有改变性格效果的物品。\r\n\r\n饰品栏有“主饰品”和\r\n“副饰品”2种分类。\r\n只有作为主饰品装备的饰品\r\n才会发挥改变性格的效果。\r\n\r\n但是，被诅咒的饰品即便作为“副饰品”来装备，\r\n也会发动诅咒效果，这一点要注意。"
+      },
+      "Txt_Information_TEXT_MEDAL": {
+        "SelfId": "Txt_Information_TEXT_MEDAL",
+        "Text": "在冒险中能找到“小徽章”。\r\n\r\n只要收集就可以获得各种各样的礼品。\r\n如果收集到了大量小徽章，\r\n就去交给阿拉罕水井底部的“徽章叔叔”吧。"
+      },
+      "Txt_Information_TEXT_INVENTORY": {
+        "SelfId": "Txt_Information_TEXT_INVENTORY",
+        "Text": "在战斗中也可以使用道具，\r\n但是不能使用“道具袋”和\r\n“装备袋”中的物品。\r\n\r\n请事先从背包中取出希望在战斗中使用的物品，\r\n让角色持有吧。"
+      },
+      "Txt_Information_TEXT_SYSTEM": {
+        "SelfId": "Txt_Information_TEXT_SYSTEM",
+        "Text": "在“作战”的“系统设定”中\r\n可以调整音量和画面显示等\r\n游戏内的各种设定。"
+      },
+      "Txt_Information_TEXT_KEY": {
+        "SelfId": "Txt_Information_TEXT_KEY",
+        "Text": "这个世界中存在上锁的门。\r\n\r\n使用“盗贼的钥匙”\r\n可以打开红色的门。"
+      },
+      "Txt_Information_TEXT_RULER": {
+        "SelfId": "Txt_Information_TEXT_RULER",
+        "Text": "使用“奇美拉之翼”或“鲁拉”\r\n可以瞬间移动到目前为止已经去过的\r\n镇子、城堡或迷宫等地方。\r\n\r\n即使是在建筑物中，或是在有天花板的地方使用，\r\n也可以照常移动，不会撞到脑袋。"
+      },
+      "Txt_Information_TEXT_STATUS_LIST_1": {
+        "SelfId": "Txt_Information_TEXT_STATUS_LIST_1",
+        "Text": "“ＨＰ”\r\n每次受到伤害都会减少，\r\n为0后无法战斗。\r\n\r\n“ＭＰ”\r\n会在使用咒文或特技时消耗。\r\nＭＰ不足时将无法使用咒文或特技。\r\n\r\n“攻击力”\r\n为该角色的力量加上装备品的强度得出的数值。\r\n此数值越高，使用武器攻击等物理攻击\r\n所造成的伤害越大。\r\n\r\n“防御力”\r\n为该角色的耐力加上装备品的强度得出的数值。\r\n此数值越高，受到物理攻击时承受的伤害越小。"
+      },
+      "Txt_Information_TEXT_STATUS_LIST_2": {
+        "SelfId": "Txt_Information_TEXT_STATUS_LIST_2",
+        "Text": "“力量”\r\n物理攻击会变强。\r\n\r\n“耐力”\r\n受到物理攻击时承受的伤害会减小。\r\n\r\n“敏捷”\r\n更容易在战斗中优先行动。\r\n\r\n“体力”\r\n升级时，ＨＰ更容易增加。\r\n\r\n“智力”\r\n提升咒文的威力。\r\n升级时，ＭＰ也更容易增加。\r\n\r\n“幸运”\r\n变得不易陷入异常状态。\r\n使用物理攻击时所造成的伤害更容易增加，\r\n也更容易发动会心一击。"
+      },
+      "Txt_Information_TEXT_WEAK_RESIST": {
+        "SelfId": "Txt_Information_TEXT_WEAK_RESIST",
+        "Text": "根据怪物的种类，\r\n有些咒文和特技会更有效果。\r\n\r\n比如，针对青蛙形态的敌人，\r\n冰攻击会很有效果。\r\n\r\n效果很好时，\r\n伤害的数字会显示为红色，\r\n效果不佳时，则显示为蓝色。"
+      },
+      "Txt_Information_TEXT_CHANGE_STATUS": {
+        "SelfId": "Txt_Information_TEXT_CHANGE_STATUS",
+        "Text": "在战斗中，如果能力等状态发生变化，\r\n则会显示相应的图标。\r\n\r\n如欲了解详情，就去旅行心得查看\r\n“状态变化图标”吧。"
+      },
+      "Txt_Information_TEXT_BAD_STATUS_LIST": {
+        "SelfId": "Txt_Information_TEXT_BAD_STATUS_LIST",
+        "Text": "<IMG_STATUS>[BAIKIRUTO]攻击力提升。\r\n\r\n<IMG_STATUS>[POWER_DOWN]攻击力下降。\r\n\r\n<IMG_STATUS>[DEFENSE_UP]防御力提升。\r\n\r\n<IMG_STATUS>[DEFENSE_DOWN]防御力下降。\r\n\r\n<IMG_STATUS>[SPEED_UP]敏捷提升。\r\n\r\n<IMG_STATUS>[SPEED_DOWN]敏捷下降。\r\n\r\n<IMG_STATUS>[SPELL_ATTACK_UP]在下一回合中使用的咒文攻击的威力提升。\r\n\r\n<IMG_STATUS>[SPELL_WEAKNESS]所受敌方咒文攻击的抗性减弱。"
+      },
+      "Txt_Information_TEXT_BAD_STATUS_LIST_2": {
+        "SelfId": "Txt_Information_TEXT_BAD_STATUS_LIST_2",
+        "Text": "<IMG_STATUS>[MAHOKANTA]反弹敌人施放的咒文。\r\n\r\n<IMG_STATUS>[STUN]无法行动。\r\n\r\n<IMG_STATUS>[BEAST]1回合中可以行动2次。\r\n\r\n<IMG_STATUS>[COUNTER_BREATH]可以仅1次反弹气息攻击。\r\n\r\n<IMG_STATUS>[BUILD_UP_STRENGTH]下次攻击变强。\r\n\r\n<IMG_STATUS>[NO_DAMAGE]更容易闪避敌人的攻击。\r\n\r\n<IMG_STATUS>[AUTO_HEAL_MP]每回合恢复ＭＰ。"
+      },
+      "Txt_Information_TEXT_BAD_STATUS_LIST_3": {
+        "SelfId": "Txt_Information_TEXT_BAD_STATUS_LIST_3",
+        "Text": "<IMG_STATUS>[POISON]“中毒”\r\n在野外移动时会受到伤害。\r\n\r\n<IMG_STATUS>[PARALYZE]“麻痹”\r\n会在战斗中暂时无法行动。\r\n战斗结束后也不会立即自愈。\r\n\r\n<IMG_STATUS>[SLEEP]“睡眠”\r\n会在自己的回合内无法行动。\r\n受到伤害时，有可能苏醒。"
+      },
+      "Txt_Information_TEXT_BAD_STATUS_LIST_4": {
+        "SelfId": "Txt_Information_TEXT_BAD_STATUS_LIST_4",
+        "Text": "<IMG_STATUS>[CONFUSION]“混乱”\r\n会攻击同伴。\r\n\r\n<IMG_STATUS>[MANUSA]“迷惑”\r\n普通攻击会变得容易失败。\r\n但是，咒文等攻击不会受到影响。\r\n\r\n<IMG_STATUS>[MAHOTON]“咒文封印”\r\n会变得无法使用咒文。"
+      },
+      "Txt_Information_TEXT_POISON_PARALYSE": {
+        "SelfId": "Txt_Information_TEXT_POISON_PARALYSE",
+        "Text": "中毒和麻痹在战斗结束后也不会立即自愈。\r\n借助道具或咒文尽快治愈吧。\r\n\r\n但是，麻痹有可能会在行走几步后自愈。"
+      },
+      "Txt_Information_TEXT_OVERLAP": {
+        "SelfId": "Txt_Information_TEXT_OVERLAP",
+        "Text": "部分改变能力的咒文或特技可以叠加使用。\r\n\r\n通过不断叠加，效果会变得越来越显著。"
+      },
+      "Txt_Information_TEXT_BATTLEROAD": {
+        "SelfId": "Txt_Information_TEXT_BATTLEROAD",
+        "Text": "世界各地都在举办\r\n让魔物们龙争虎斗的怪物战斗之路。\r\n\r\n参加比赛并连战连捷便能获得奖金和礼品。\r\n详细说明请前往\r\n战斗之路竞技场中的问讯处听取。\r\n\r\n先从罗马利亚的低级别大赛开始挑战吧！"
+      },
+      "Txt_Information_TEXT_BATTLEROAD_BATTLE": {
+        "SelfId": "Txt_Information_TEXT_BATTLEROAD_BATTLE",
+        "Text": "在战斗之路中无法对怪物\r\n做出具体的指示。\r\n\r\n怪物们会根据“作战”\r\n自行判断如何战斗。\r\n\r\n获胜的窍门是根据不同的情况，\r\n勤快地调整怪物们的“作战”。"
+      },
+      "Txt_Information_TEXT_BREED_MONSTER": {
+        "SelfId": "Txt_Information_TEXT_BREED_MONSTER",
+        "Text": "出现在镇上或迷宫等中的那些\r\n魔性消散的怪物不会袭击人类。\r\n靠近搭话便能将它们收服。\r\n\r\n但是，部分这类怪物\r\n看到人便会逃走。\r\n\r\n被它们给逃走时，就按照提示信息，\r\n先使用道具或特技再靠近吧。"
+      },
+      "Txt_Information_TEXT_BREED_MONSTER_2": {
+        "SelfId": "Txt_Information_TEXT_BREED_MONSTER_2",
+        "Text": "收服的怪物的数量增多后，\r\n可以从怪物爷爷手中获得谢礼。\r\n想到了就去战斗之路会场见见他吧。\r\n\r\n另外，收服的怪物越多，\r\n“魔物大师”职业就会与怪物们越心意相通，\r\n从而习得更多的新特技。"
+      },
+      "Txt_Information_TEXT_PUZZLE": {
+        "SelfId": "Txt_Information_TEXT_PUZZLE",
+        "Text": "必须把岩石挪动到3块\r\n绘有纹章的地板上后才能继续前进。\r\n\r\n但要注意的是，如果把岩石推至水面，\r\n岩石就会沉入水中消失。\r\n\r\n按<IMG_BUTTON>[Puzzle_Reset]可以重置岩石的位置，\r\n从头来过。"
+      },
+      "Txt_Information_TEXT_WIPEOUT": {
+        "SelfId": "Txt_Information_TEXT_WIPEOUT",
+        "Text": "如果在全灭后返回到最后一次祈祷的地点，\r\n经验值和已获得的道具会被继承，\r\n但持有的金钱会减半。\r\n\r\n如果返回到自动保存的地点，\r\n经验值和持有的金钱都将退回到彼时的状态。\r\n\r\n即便全灭，\r\n存放在金币银行的金钱也不会减少。\r\n如果担心损失，就把钱存起来吧。"
+      },
+      "Txt_Information_TEXT_PICK": {
+        "SelfId": "Txt_Information_TEXT_PICK",
+        "Text": "调查野外闪闪发光的地方，\r\n便可获得道具或金币等物品。\r\n\r\n积极地寻找闪光吧。"
+      },
+      "Txt_Information_TEXT_SECRET_AREA": {
+        "SelfId": "Txt_Information_TEXT_SECRET_AREA",
+        "Text": "在野外的不同位置存在\r\n被称为“秘密地点”的隐藏地图。\r\n\r\n细看之下，可以发现这些地点\r\n在周围的景色中略显突兀。\r\n\r\n在这些地点可以获得对冒险有帮助的道具或金币，\r\n还有可能发现一些只存在于这些地点的生灵。"
+      },
+      "Txt_Information_TEXT_CLEAR": {
+        "SelfId": "Txt_Information_TEXT_CLEAR",
+        "Text": "游戏已通关，\r\n“龙女王城堡”中通往天界的道路现已开启。\r\n\r\n能实现愿望的生灵正在天界\r\n等待你前去挑战。\r\n\r\n天界的怪物们本领十分高强，\r\n请做好充足的准备再前往。"
+      },
+      "Txt_Information_TEXT_GAMEMODE": {
+        "SelfId": "Txt_Information_TEXT_GAMEMODE",
+        "Text": "在系统设定的“游戏模式设定”中，\r\n可以随时在以下模式之间切换。\r\n\r\n“轻松游玩”\r\n·无论受到多少伤害，都不会无法战斗。\r\n·对敌人造成的伤害增加。\r\n·部分头目的ＨＰ不会自动恢复。\r\n\r\n“痛快冒险”\r\n·可以按照推荐的平衡性游玩。\r\n\r\n“苦难重重”\r\n·所有头目的ＨＰ增加。\r\n·敌人造成的伤害增加。\r\n·通过战斗获得的经验值和金币减少。\r\n·针对敌人弱点造成的伤害很难增多。\r\n\r\n※在讨伐怪物列表内与经验值和金币相关的项目中，\r\n不会反映因设定为“苦难重重”而造成的减少。"
+      },
+      "Txt_Information_TEXT_FIELDMENU": {
+        "SelfId": "Txt_Information_TEXT_FIELDMENU",
+        "Text": "按<IMG_BUTTON>[FieldMenu]可以打开菜单画面。"
+      },
+      "Txt_Information_GUIDE_CLOSE": {
+        "SelfId": "Txt_Information_GUIDE_CLOSE",
+        "Text": "关闭"
+      }
+    }
+  }
+]

@@ -1,0 +1,76 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_Medal",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Medal_UI_ItemName": {
+        "SelfId": "Txt_Medal_UI_ItemName",
+        "Text": "{0}"
+      },
+      "Txt_Medal_UI_ItemDetail": {
+        "SelfId": "Txt_Medal_UI_ItemDetail",
+        "Text": "{0}"
+      },
+      "Txt_Medal_UI_RequiredMedal": {
+        "SelfId": "Txt_Medal_UI_RequiredMedal",
+        "Text": "{0}"
+      },
+      "Txt_Medal_UI_ListGuide": {
+        "SelfId": "Txt_Medal_UI_ListGuide",
+        "Text": "查看獎品"
+      },
+      "Txt_Medal_Message_Start": {
+        "SelfId": "Txt_Medal_Message_Start",
+        "Text": "來得好！\r\n我是正在收集世界各地小徽章的伯伯。"
+      },
+      "Txt_Medal_Message_First": {
+        "SelfId": "Txt_Medal_Message_First",
+        "Text": "如果有人找到小徽章並拿來的話，\r\n就可以從我這裡得到一些獎賞！"
+      },
+      "Txt_Medal_Message_First_Medal": {
+        "SelfId": "Txt_Medal_Message_First_Medal",
+        "Text": "嗯？什麼，你帶來小徽章了是嗎！\r\n那麼就交給伯伯吧！"
+      },
+      "Txt_Medal_Message_Confirm_Medal": {
+        "SelfId": "Txt_Medal_Message_Confirm_Medal",
+        "Text": "嗯。\r\n{LEADER}目前為止拿來的小徽章\r\n一共{VALUE}枚。"
+      },
+      "Txt_Medal_Message_HandoverMedal": {
+        "SelfId": "Txt_Medal_Message_HandoverMedal",
+        "Text": "喔，你帶來小徽章了是嗎。\r\n那麼就交給伯伯吧！"
+      },
+      "Txt_Medal_Message_Prize": {
+        "SelfId": "Txt_Medal_Message_Prize",
+        "Text": "很好！這麼一來{LEADER}\r\n已收集到{VALUE}枚小徽章，\r\n我要送你{I_NAME}作為獎勵！"
+      },
+      "Txt_Medal_Message_GetPrize": {
+        "SelfId": "Txt_Medal_Message_GetPrize",
+        "Text": "{LEADER}收下了\r\n{I_NAME}！"
+      },
+      "Txt_Medal_Message_Confirm": {
+        "SelfId": "Txt_Medal_Message_Confirm",
+        "Text": "我目前為{LEADER}\r\n保管著{VALUE}枚小徽章。"
+      },
+      "Txt_Medal_Message_NextPrize": {
+        "SelfId": "Txt_Medal_Message_NextPrize",
+        "Text": "等收集到{VALUE}枚時，\r\n我就送你{I_NAME}。\r\n去努力收集吧！"
+      },
+      "Txt_Medal_Message_MedalComplete": {
+        "SelfId": "Txt_Medal_Message_MedalComplete",
+        "Text": "{LEADER}！\r\n真虧你能收集到{VALUE}枚小徽章！<KEY_WAIT>\r\n我已經沒有什麼東西可以送你了。<KEY_WAIT>\r\n今後你也不要忘掉了那份探索精神，\r\n繼續為了全世界的人們而努力吧。<KEY_WAIT>\r\n我也會默默地為你加油喔！"
+      },
+      "Txt_Medal_Message_GetPrizeFailere": {
+        "SelfId": "Txt_Medal_Message_GetPrizeFailere",
+        "Text": "但你身上好像拿不了更多東西了……\r\n等騰出空間之後再來吧。"
+      }
+    }
+  }
+]

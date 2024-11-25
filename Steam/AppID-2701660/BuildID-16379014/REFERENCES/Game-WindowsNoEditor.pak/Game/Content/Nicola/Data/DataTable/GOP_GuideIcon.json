@@ -1,0 +1,1306 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_GuideIcon",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_GuideIconTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "GUIDEICON_Aliahan_Main_01": {
+        "SelfId": "GUIDEICON_Aliahan_Main_01",
+        "IconType": "EGuideIconType::MAIN",
+        "DispProgressFlag": "MAIN_ALIAHAN_ArriveCastle",
+        "HideProgressFlag": "MAIN_ALIAHAN_MeetKing | MAIN_IZANAICAVE_Warp",
+        "MarkerObject": "None",
+        "NpcTriggerActorIdDaytime": "Aliahan_Castle_2F_King_Aliahan_01_L1",
+        "NpcTriggerActorIdNight": "Aliahan_Castle_2F_King_Aliahan_01_L3",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_C01R0102",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_Aliahan_Main_02": {
+        "SelfId": "GUIDEICON_Aliahan_Main_02",
+        "IconType": "EGuideIconType::MAIN",
+        "DispProgressFlag": "MAIN_ALIAHAN_MeetKing",
+        "HideProgressFlag": "MAIN_NAJIMITOWER_GetKey | MAIN_REEVE_GetMagicBall",
+        "MarkerObject": "None",
+        "NpcTriggerActorIdDaytime": "NajimiTower_Penthouse_OldMan_Najimi_01_L1",
+        "NpcTriggerActorIdNight": "NajimiTower_Penthouse_OldMan_Najimi_01_L3",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_D02R0402",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_Aliahan_Main_03": {
+        "SelfId": "GUIDEICON_Aliahan_Main_03",
+        "IconType": "EGuideIconType::MAIN",
+        "DispProgressFlag": "MAIN_ALIAHAN_MeetKing",
+        "HideProgressFlag": "MAIN_REEVE_TalkNorthHouseNPC | MAIN_NAJIMITOWER_Arrival1F | MAIN_REEVE_GetMagicBall",
+        "MarkerObject": "None",
+        "NpcTriggerActorIdDaytime": "Reeve_House1_1F_Man_01_L1",
+        "NpcTriggerActorIdNight": "Reeve_House1_1F_Man_01_L3",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_T01R0101",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_Aliahan_Main_04": {
+        "SelfId": "GUIDEICON_Aliahan_Main_04",
+        "IconType": "EGuideIconType::MAIN",
+        "DispProgressFlag": "MAIN_NAJIMITOWER_GetKey",
+        "HideProgressFlag": "MAIN_IZANAICAVE_TalkOldMan | MAIN_REEVE_GetMagicBall",
+        "MarkerObject": "None",
+        "NpcTriggerActorIdDaytime": "IzanaiCave_B1F_before_OldMan_Izanai_01_L1",
+        "NpcTriggerActorIdNight": "IzanaiCave_B1F_before_OldMan_Izanai_01_L3",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_D03R0201",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_Aliahan_Main_05": {
+        "SelfId": "GUIDEICON_Aliahan_Main_05",
+        "IconType": "EGuideIconType::MAIN",
+        "DispProgressFlag": "MAIN_NAJIMITOWER_GetKey",
+        "HideProgressFlag": "MAIN_REEVE_GetMagicBall",
+        "MarkerObject": "None",
+        "NpcTriggerActorIdDaytime": "Reeve_House2_2F_OldMan_Reeve_01_L1",
+        "NpcTriggerActorIdNight": "Reeve_House2_2F_OldMan_Reeve_01_L3",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_T01R0202",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_Aliahan_Main_06": {
+        "SelfId": "GUIDEICON_Aliahan_Main_06",
+        "IconType": "EGuideIconType::MAIN",
+        "DispProgressFlag": "MAIN_REEVE_GetMagicBall",
+        "HideProgressFlag": "MAIN_IZANAICAVE_BreakWall",
+        "MarkerObject": "BP_SearchEvent_Ground_00",
+        "NpcTriggerActorIdDaytime": "None",
+        "NpcTriggerActorIdNight": "None",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_D03R0201",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_Aliahan_Main_07": {
+        "SelfId": "GUIDEICON_Aliahan_Main_07",
+        "IconType": "EGuideIconType::MAIN",
+        "DispProgressFlag": "MAIN_IZANAICAVE_BreakWall",
+        "HideProgressFlag": "MAIN_IZANAICAVE_Warp",
+        "MarkerObject": "BP_GuideIconActor_4",
+        "NpcTriggerActorIdDaytime": "None",
+        "NpcTriggerActorIdNight": "None",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_D03R0401",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_Aliahan_Main_08": {
+        "SelfId": "GUIDEICON_Aliahan_Main_08",
+        "IconType": "EGuideIconType::MAIN",
+        "DispProgressFlag": "MAIN_ALIAHAN_MeetKing",
+        "HideProgressFlag": "MAIN_ALIAHAN_PartyMem | MAIN_NAJIMITOWER_GetKey",
+        "MarkerObject": "None",
+        "NpcTriggerActorIdDaytime": "Aliahan_Luida_1F_Luida_01_L1",
+        "NpcTriggerActorIdNight": "Aliahan_Luida_1F_Luida_01_L3",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_C01R0201",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_Aliahan_Sub_01": {
+        "SelfId": "GUIDEICON_Aliahan_Sub_01",
+        "IconType": "EGuideIconType::SUB",
+        "DispProgressFlag": "MAIN_ALIAHAN_ArriveCastle",
+        "HideProgressFlag": "MAIN_ALIAHAN_TalkMedalCollector",
+        "MarkerObject": "None",
+        "NpcTriggerActorIdDaytime": "Aliahan_House3_1F_MedalCollector_01_L1",
+        "NpcTriggerActorIdNight": "Aliahan_House3_1F_MedalCollector_01_L3",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_C01R0801",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_Romaria_Main_01": {
+        "SelfId": "GUIDEICON_Romaria_Main_01",
+        "IconType": "EGuideIconType::MAIN",
+        "DispProgressFlag": "MAIN_ALIAHAN_ArriveCastle",
+        "HideProgressFlag": "MAIN_ROMARIAROAD_TalkHawker",
+        "MarkerObject": "None",
+        "NpcTriggerActorIdDaytime": "RomariaHighroad_Out_Guard_General_2_01_L1",
+        "NpcTriggerActorIdNight": "RomariaHighroad_Out_Guard_General_2_01_L3",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_H27F0101",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_Romaria_Sub_01": {
+        "SelfId": "GUIDEICON_Romaria_Sub_01",
+        "IconType": "EGuideIconType::SUB",
+        "DispProgressFlag": "MAIN_ALIAHAN_ArriveCastle",
+        "HideProgressFlag": "MAIN_NOANIEL_TalkHeadman",
+        "MarkerObject": "None",
+        "NpcTriggerActorIdDaytime": "Noaniel_Room02_2F_OldMan_01_L1",
+        "NpcTriggerActorIdNight": "Noaniel_Room02_2F_OldMan_01_L3",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_T03R0202",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_Romaria_Sub_02": {
+        "SelfId": "GUIDEICON_Romaria_Sub_02",
+        "IconType": "EGuideIconType::SUB",
+        "DispProgressFlag": "MAIN_NOANIEL_TalkHeadman",
+        "HideProgressFlag": "MAIN_ELFVILLAGE_TalkQueen | MAIN_UNDERGROUNDLAKE_GetDreamstone",
+        "MarkerObject": "None",
+        "NpcTriggerActorIdDaytime": "ElfVillage_House_Queen_Elf_01_L1",
+        "NpcTriggerActorIdNight": "ElfVillage_House_Queen_Elf_01_L3",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_T11R0101",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_Romaria_Sub_03": {
+        "SelfId": "GUIDEICON_Romaria_Sub_03",
+        "IconType": "EGuideIconType::SUB",
+        "DispProgressFlag": "MAIN_ELFVILLAGE_TalkQueen",
+        "HideProgressFlag": "MAIN_UNDERGROUNDLAKE_GetDreamstone",
+        "MarkerObject": "BP_SearchAnimEvent_Treasure_D05_B4F_01",
+        "NpcTriggerActorIdDaytime": "None",
+        "NpcTriggerActorIdNight": "None",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_D05R0401",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_Romaria_Sub_04": {
+        "SelfId": "GUIDEICON_Romaria_Sub_04",
+        "IconType": "EGuideIconType::SUB",
+        "DispProgressFlag": "MAIN_UNDERGROUNDLAKE_GetDreamstone",
+        "HideProgressFlag": "MAIN_ELFVILLAGE_GetWakeyDust",
+        "MarkerObject": "None",
+        "NpcTriggerActorIdDaytime": "ElfVillage_House_Queen_Elf_01_L1",
+        "NpcTriggerActorIdNight": "ElfVillage_House_Queen_Elf_01_L3",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_T11R0101",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_Romaria_Main_02": {
+        "SelfId": "GUIDEICON_Romaria_Main_02",
+        "IconType": "EGuideIconType::MAIN",
+        "DispProgressFlag": "MAIN_IZANAICAVE_Warp",
+        "HideProgressFlag": "MAIN_SHAMPANETOWER_KandataTrap",
+        "MarkerObject": "None",
+        "NpcTriggerActorIdDaytime": "ShampaneTower_6F_Kandar_01_L1",
+        "NpcTriggerActorIdNight": "ShampaneTower_6F_Kandar_01_L3",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_D04R0601",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_Romaria_Main_03": {
+        "SelfId": "GUIDEICON_Romaria_Main_03",
+        "IconType": "EGuideIconType::MAIN",
+        "DispProgressFlag": "MAIN_SHAMPANETOWER_KandataTrap",
+        "HideProgressFlag": "MAIN_SHAMPANETOWER_DefeatKandata",
+        "MarkerObject": "None",
+        "NpcTriggerActorIdDaytime": "ShampaneTower_4F_Kandar_01_L1",
+        "NpcTriggerActorIdNight": "ShampaneTower_4F_Kandar_01_L3",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_D04R0401",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_Romaria_Main_04": {
+        "SelfId": "GUIDEICON_Romaria_Main_04",
+        "IconType": "EGuideIconType::MAIN",
+        "DispProgressFlag": "MAIN_IZANAICAVE_Warp",
+        "HideProgressFlag": "MAIN_PYRAMID_GetMagicKey",
+        "MarkerObject": "None",
+        "NpcTriggerActorIdDaytime": "Flyingflayer_L1",
+        "NpcTriggerActorIdNight": "Flyingflayer_L3",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_D06R0301",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_Romaria_Main_05": {
+        "SelfId": "GUIDEICON_Romaria_Main_05",
+        "IconType": "EGuideIconType::MAIN",
+        "DispProgressFlag": "MAIN_PYRAMID_GetMagicKey",
+        "HideProgressFlag": "MAIN_PORTOGA_GetLetter",
+        "MarkerObject": "None",
+        "NpcTriggerActorIdDaytime": "Portoga_Castle_1F_King_Portoga_01_L1",
+        "NpcTriggerActorIdNight": "Portoga_Castle_1F_King_Portoga_01_L3",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_C04R0101",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_Portoga_Main_01": {
+        "SelfId": "GUIDEICON_Portoga_Main_01",
+        "IconType": "EGuideIconType::MAIN",
+        "DispProgressFlag": "MAIN_PORTOGA_GetLetter",
+        "HideProgressFlag": "MAIN_NORUDCAVE_TalkWithLetter",
+        "MarkerObject": "None",
+        "NpcTriggerActorIdDaytime": "NorudCave_B1F_Nord_01_L1",
+        "NpcTriggerActorIdNight": "NorudCave_B1F_Nord_01_L3",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_H07R0101",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_Portoga_Main_02": {
+        "SelfId": "GUIDEICON_Portoga_Main_02",
+        "IconType": "EGuideIconType::MAIN",
+        "DispProgressFlag": "MAIN_NORUDCAVE_TalkWithLetter",
+        "HideProgressFlag": "MAIN_NORUDCAVE_OpenCave",
+        "MarkerObject": "None",
+        "NpcTriggerActorIdDaytime": "NorudCave_B1F_Nord_02_L1",
+        "NpcTriggerActorIdNight": "NorudCave_B1F_Nord_02_L3",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_H07R0101",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_Portoga_Main_03": {
+        "SelfId": "GUIDEICON_Portoga_Main_03",
+        "IconType": "EGuideIconType::MAIN",
+        "DispProgressFlag": "MAIN_BAHARATA_TalkGupta",
+        "HideProgressFlag": "MAIN_BAHARATAEASTCAVE_DefeatHenchman",
+        "MarkerObject": "BP_GuideIconActor_2",
+        "NpcTriggerActorIdDaytime": "None",
+        "NpcTriggerActorIdNight": "None",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_D07R0201",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_Portoga_Main_04": {
+        "SelfId": "GUIDEICON_Portoga_Main_04",
+        "IconType": "EGuideIconType::MAIN",
+        "DispProgressFlag": "MAIN_BAHARATAEASTCAVE_DefeatHenchman",
+        "HideProgressFlag": "MAIN_BAHARATAEASTCAVE_OpenPrison",
+        "MarkerObject": "BP_SearchAnimEvent_D07_Switch_01",
+        "NpcTriggerActorIdDaytime": "None",
+        "NpcTriggerActorIdNight": "None",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_D07R0201",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_Portoga_Main_05": {
+        "SelfId": "GUIDEICON_Portoga_Main_05",
+        "IconType": "EGuideIconType::MAIN",
+        "DispProgressFlag": "MAIN_BAHARATAEASTCAVE_OpenPrison",
+        "HideProgressFlag": "MAIN_BAHARATAEASTCAVE_DefeatKandata",
+        "MarkerObject": "None",
+        "NpcTriggerActorIdDaytime": "BaharataEastCave_B2F_Kandar_2_01_L1",
+        "NpcTriggerActorIdNight": "BaharataEastCave_B2F_Kandar_2_01_L3",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_D07R0201",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_Portoga_Main_06": {
+        "SelfId": "GUIDEICON_Portoga_Main_06",
+        "IconType": "EGuideIconType::MAIN",
+        "DispProgressFlag": "MAIN_BAHARATAEASTCAVE_DefeatKandata",
+        "HideProgressFlag": "MAIN_BAHARATA_TalkGuptaAfterRescue",
+        "MarkerObject": "None",
+        "NpcTriggerActorIdDaytime": "Baharata_Shop3_1F_Gupta_01_L1",
+        "NpcTriggerActorIdNight": "Baharata_Shop3_1F_Gupta_01_L3",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_T05R0301",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_Portoga_Main_07": {
+        "SelfId": "GUIDEICON_Portoga_Main_07",
+        "IconType": "EGuideIconType::MAIN",
+        "DispProgressFlag": "MAIN_BAHARATA_TalkGuptaAfterRescue",
+        "HideProgressFlag": "MAIN_BAHARATA_GetPepper",
+        "MarkerObject": "None",
+        "NpcTriggerActorIdDaytime": "Dharma_1F_Trader_01_L1",
+        "NpcTriggerActorIdNight": "Dharma_1F_Trader_01_L3",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_C05R0101",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_Portoga_Sub_01": {
+        "SelfId": "GUIDEICON_Portoga_Sub_01",
+        "IconType": "EGuideIconType::SUB",
+        "DispProgressFlag": "MAIN_ALIAHAN_ArriveCastle",
+        "HideProgressFlag": "MAIN_DHARMA_TalkAbbot",
+        "MarkerObject": "None",
+        "NpcTriggerActorIdDaytime": "Dharma_1F_Abbot_Dharma_01_L1",
+        "NpcTriggerActorIdNight": "Dharma_1F_Abbot_Dharma_01_L3",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_C05R0101",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_Portoga_Main_08": {
+        "SelfId": "GUIDEICON_Portoga_Main_08",
+        "IconType": "EGuideIconType::MAIN",
+        "DispProgressFlag": "MAIN_BAHARATA_GetPepper",
+        "HideProgressFlag": "MAIN_PORTOGA_TalkWithPepper",
+        "MarkerObject": "None",
+        "NpcTriggerActorIdDaytime": "Portoga_Castle_1F_King_Portoga_01_L1",
+        "NpcTriggerActorIdNight": "Portoga_Castle_1F_King_Portoga_01_L3",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_C04R0101",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_Portoga_Main_09": {
+        "SelfId": "GUIDEICON_Portoga_Main_09",
+        "IconType": "EGuideIconType::MAIN",
+        "DispProgressFlag": "MAIN_PORTOGA_TalkWithPepper",
+        "HideProgressFlag": "MAIN_PORTOGA_RideShip",
+        "MarkerObject": "BP_SearchEvent_C04_Trap_00",
+        "NpcTriggerActorIdDaytime": "None",
+        "NpcTriggerActorIdNight": "None",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_C04F0101",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_WORLDMAP_Reiamuland_Sub_01": {
+        "SelfId": "GUIDEICON_WORLDMAP_Reiamuland_Sub_01",
+        "IconType": "EGuideIconType::SUB",
+        "DispProgressFlag": "MAIN_MUOR_ArriveOut",
+        "HideProgressFlag": "MAIN_MUOR_TalkPopotaGranpa",
+        "MarkerObject": "BP_SearchEvent_Ground_0",
+        "NpcTriggerActorIdDaytime": "Muor_Market_1F_OldMan_01_L1",
+        "NpcTriggerActorIdNight": "None",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_T12R0201",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_WORLDMAP_Reiamuland_Sub_02": {
+        "SelfId": "GUIDEICON_WORLDMAP_Reiamuland_Sub_02",
+        "IconType": "EGuideIconType::SUB",
+        "DispProgressFlag": "MAIN_MUOR_TalkPopotaGranpa",
+        "HideProgressFlag": "MAIN_MUOR_TalkPopota",
+        "MarkerObject": "BP_SearchEvent_Ground_0",
+        "NpcTriggerActorIdDaytime": "Muor_Market_2F_Popota_01_L1",
+        "NpcTriggerActorIdNight": "Muor_Market_2F_Popota_01_L3",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_T12R0202",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_WORLDMAP_Reiamuland_Main_01": {
+        "SelfId": "GUIDEICON_WORLDMAP_Reiamuland_Main_01",
+        "IconType": "EGuideIconType::MAIN",
+        "DispProgressFlag": "MAIN_PORTOGA_RideShip",
+        "HideProgressFlag": "MAIN_JIPANG_FindYayoi | MAIN_JIPANG_DefeatOrochi",
+        "MarkerObject": "BP_SearchEvent_C06_EF_Vase_01",
+        "NpcTriggerActorIdDaytime": "None",
+        "NpcTriggerActorIdNight": "None",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_C06R0501",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_WORLDMAP_Reiamuland_Main_03": {
+        "SelfId": "GUIDEICON_WORLDMAP_Reiamuland_Main_03",
+        "IconType": "EGuideIconType::MAIN",
+        "DispProgressFlag": "MAIN_JIPANGCAVE_DefeatOrochi",
+        "HideProgressFlag": "MAIN_JIPANG_DefeatOrochi",
+        "MarkerObject": "None",
+        "NpcTriggerActorIdDaytime": "Jipang_Room_Himiko_02_L1",
+        "NpcTriggerActorIdNight": "Jipang_Room_Himiko_02_L3",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_C06R0101",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_WORLDMAP_Reiamuland_Main_04": {
+        "SelfId": "GUIDEICON_WORLDMAP_Reiamuland_Main_04",
+        "IconType": "EGuideIconType::MAIN",
+        "DispProgressFlag": "MAIN_PORTOGA_RideShip",
+        "HideProgressFlag": "MAIN_EDINBEAR_GateKeeperBlock | MAIN_EDINBEAR_Arrive1F",
+        "MarkerObject": "None",
+        "NpcTriggerActorIdDaytime": "Edinbear_Castle_Out_Guard_01_L1",
+        "NpcTriggerActorIdNight": "Edinbear_Castle_Out_Guard_01_L3",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_C07F0101",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_WORLDMAP_Reiamuland_Main_05": {
+        "SelfId": "GUIDEICON_WORLDMAP_Reiamuland_Main_05",
+        "IconType": "EGuideIconType::MAIN",
+        "DispProgressFlag": "MAIN_PORTOGA_RideShip",
+        "HideProgressFlag": "MAIN_EDINBEAR_GetBottomlessPot",
+        "MarkerObject": "BP_SearchAnimEvent_Treasure_01",
+        "NpcTriggerActorIdDaytime": "None",
+        "NpcTriggerActorIdNight": "None",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_C07R0104",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_WORLDMAP_Reiamuland_Sub_03": {
+        "SelfId": "GUIDEICON_WORLDMAP_Reiamuland_Sub_03",
+        "IconType": "EGuideIconType::SUB",
+        "DispProgressFlag": "MAIN_EDINBEAR_Arrive1F",
+        "HideProgressFlag": "MAIN_SHALLOWSHRINE_UsePot",
+        "MarkerObject": "None",
+        "NpcTriggerActorIdDaytime": "Soo_Out_Ed_01_L1",
+        "NpcTriggerActorIdNight": "Soo_Out_Ed_01_L3",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_T07F0101",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_WORLDMAP_Reiamuland_Main_06": {
+        "SelfId": "GUIDEICON_WORLDMAP_Reiamuland_Main_06",
+        "IconType": "EGuideIconType::MAIN",
+        "DispProgressFlag": "MAIN_EDINBEAR_GetBottomlessPot",
+        "HideProgressFlag": "MAIN_SHALLOWSHRINE_UsePot",
+        "MarkerObject": "BP_SearchEvent_Ground_ForField_H12_1",
+        "NpcTriggerActorIdDaytime": "None",
+        "NpcTriggerActorIdNight": "None",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_FIELD1",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_WORLDMAP_Reiamuland_Main_07": {
+        "SelfId": "GUIDEICON_WORLDMAP_Reiamuland_Main_07",
+        "IconType": "EGuideIconType::MAIN",
+        "DispProgressFlag": "MAIN_EDINBEAR_GetBottomlessPot",
+        "HideProgressFlag": "MAIN_SHALLOWSHRINE_GetLastKey",
+        "MarkerObject": "BP_SearchAnimEvent_Treasure_01",
+        "NpcTriggerActorIdDaytime": "None",
+        "NpcTriggerActorIdNight": "None",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_H12R0101",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_WORLDMAP_Reiamuland_Sub_04": {
+        "SelfId": "GUIDEICON_WORLDMAP_Reiamuland_Sub_04",
+        "IconType": "EGuideIconType::SUB",
+        "DispProgressFlag": "MAIN_EDINBEAR_GetBottomlessPot",
+        "HideProgressFlag": "MAIN_SHALLOWSHRINE_TalkCorpse",
+        "MarkerObject": "None",
+        "NpcTriggerActorIdDaytime": "ShallowShrine_B1F_Corpse_01_L1",
+        "NpcTriggerActorIdNight": "ShallowShrine_B1F_Corpse_01_L3",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_H12R0101",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_WORLDMAP_Reiamuland_Main_08": {
+        "SelfId": "GUIDEICON_WORLDMAP_Reiamuland_Main_08",
+        "IconType": "EGuideIconType::MAIN",
+        "DispProgressFlag": "MAIN_ALIAHAN_ArriveCastle",
+        "HideProgressFlag": "MAIN_TEDON_GetGreenOrb",
+        "MarkerObject": "None",
+        "NpcTriggerActorIdDaytime": "None",
+        "NpcTriggerActorIdNight": "Tedon_Out_Prisoner_01_L3",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_T13F0101",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_WORLDMAP_Reiamuland_Main_09": {
+        "SelfId": "GUIDEICON_WORLDMAP_Reiamuland_Main_09",
+        "IconType": "EGuideIconType::MAIN",
+        "DispProgressFlag": "MAIN_ALIAHAN_ArriveCastle",
+        "HideProgressFlag": "MAIN_PIRATESBASE_GetRedOrb",
+        "MarkerObject": "BP_SearchEvent_T16_RedOrb_01",
+        "NpcTriggerActorIdDaytime": "None",
+        "NpcTriggerActorIdNight": "None",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_T16R0201",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_WORLDMAP_Reiamuland_Main_10": {
+        "SelfId": "GUIDEICON_WORLDMAP_Reiamuland_Main_10",
+        "IconType": "EGuideIconType::MAIN",
+        "DispProgressFlag": "MAIN_ALIAHAN_ArriveCastle",
+        "HideProgressFlag": "MAIN_BURG_1_DepositMerchant",
+        "MarkerObject": "None",
+        "NpcTriggerActorIdDaytime": "Burg_1_House01_1F_OldMan_Burg_01_L1",
+        "NpcTriggerActorIdNight": "Burg_1_House01_1F_OldMan_Burg_01_L3",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_T15R1101",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_WORLDMAP_Reiamuland_Main_11": {
+        "SelfId": "GUIDEICON_WORLDMAP_Reiamuland_Main_11",
+        "IconType": "EGuideIconType::MAIN",
+        "DispProgressFlag": "MAIN_BURG_4_ChangeFrom3",
+        "HideProgressFlag": "MAIN_BURG_4_PlanRevolution",
+        "MarkerObject": "None",
+        "NpcTriggerActorIdDaytime": "Burg_4_Out_Man_01_L1",
+        "NpcTriggerActorIdNight": "Burg_4_Out_Man_01_L3",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_T15F0401",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_WORLDMAP_Reiamuland_Main_12": {
+        "SelfId": "GUIDEICON_WORLDMAP_Reiamuland_Main_12",
+        "IconType": "EGuideIconType::MAIN",
+        "DispProgressFlag": "MAIN_BURG_5_ChangeFrom4",
+        "HideProgressFlag": "MAIN_BURG_5_TalkMerchant",
+        "MarkerObject": "None",
+        "NpcTriggerActorIdDaytime": "Burg_5_Prison_1F_Mayor_01_L1",
+        "NpcTriggerActorIdNight": "Burg_5_Prison_1F_Mayor_01_L3",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_T15R5401",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_WORLDMAP_Reiamuland_Main_13": {
+        "SelfId": "GUIDEICON_WORLDMAP_Reiamuland_Main_13",
+        "IconType": "EGuideIconType::MAIN",
+        "DispProgressFlag": "MAIN_BURG_5_TalkMerchant",
+        "HideProgressFlag": "MAIN_BURG_GetYellowOrb",
+        "MarkerObject": "BP_SearchEvent_Ground_01",
+        "NpcTriggerActorIdDaytime": "None",
+        "NpcTriggerActorIdNight": "None",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_T15R5501",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_WORLDMAP_Reiamuland_Main_14": {
+        "SelfId": "GUIDEICON_WORLDMAP_Reiamuland_Main_14",
+        "IconType": "EGuideIconType::MAIN",
+        "DispProgressFlag": "MAIN_SHALLOWSHRINE_GetLastKey",
+        "HideProgressFlag": "MAIN_TRAVELERSCHURCH_GoOut",
+        "MarkerObject": "BP_GuideIconActor_2",
+        "NpcTriggerActorIdDaytime": "None",
+        "NpcTriggerActorIdNight": "None",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_H14R0101",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_WORLDMAP_Reiamuland_Main_15": {
+        "SelfId": "GUIDEICON_WORLDMAP_Reiamuland_Main_15",
+        "IconType": "EGuideIconType::MAIN",
+        "DispProgressFlag": "MAIN_SHALLOWSHRINE_GetLastKey",
+        "HideProgressFlag": "MAIN_TRAVELERSCHURCH_GoOut",
+        "MarkerObject": "BP_GuideIconActor_2",
+        "NpcTriggerActorIdDaytime": "None",
+        "NpcTriggerActorIdNight": "None",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_H11R0101",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_WORLDMAP_Reiamuland_Main_16": {
+        "SelfId": "GUIDEICON_WORLDMAP_Reiamuland_Main_16",
+        "IconType": "EGuideIconType::MAIN",
+        "DispProgressFlag": "MAIN_ALIAHAN_ArriveCastle",
+        "HideProgressFlag": "MAIN_SAMANOSA_Imprison",
+        "MarkerObject": "None",
+        "NpcTriggerActorIdDaytime": "Samanosa_Castle_1F_King_Samanosa_Fake_01_L1",
+        "NpcTriggerActorIdNight": "Samanosa_Castle_1F_King_Samanosa_Fake_01_L3",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_C08R0101",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_WORLDMAP_Reiamuland_Main_17": {
+        "SelfId": "GUIDEICON_WORLDMAP_Reiamuland_Main_17",
+        "IconType": "EGuideIconType::MAIN",
+        "DispProgressFlag": "MAIN_SAMANOSA_Imprison",
+        "HideProgressFlag": "MAIN_SAMANOSA_PrisonBreak",
+        "MarkerObject": "None",
+        "NpcTriggerActorIdDaytime": "Samanosa_Castle_B2_A_King_Samanosa_True_01_L1",
+        "NpcTriggerActorIdNight": "Samanosa_Castle_B2_A_King_Samanosa_True_01_L3",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_C08R0105",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_WORLDMAP_Reiamuland_Main_18": {
+        "SelfId": "GUIDEICON_WORLDMAP_Reiamuland_Main_18",
+        "IconType": "EGuideIconType::MAIN",
+        "DispProgressFlag": "MAIN_ALIAHAN_ArriveCastle",
+        "HideProgressFlag": "MAIN_RACAVE_GetRaMirror",
+        "MarkerObject": "BP_SearchAnimEvent_Treasure_02",
+        "NpcTriggerActorIdDaytime": "None",
+        "NpcTriggerActorIdNight": "None",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_D12R0301",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_WORLDMAP_Reiamuland_Main_19": {
+        "SelfId": "GUIDEICON_WORLDMAP_Reiamuland_Main_19",
+        "IconType": "EGuideIconType::MAIN",
+        "DispProgressFlag": "MAIN_RACAVE_GetRaMirror",
+        "HideProgressFlag": "MAIN_SAMANOSA_DefeatBossTroll",
+        "MarkerObject": "None",
+        "NpcTriggerActorIdDaytime": "Samanosa_Castle_2F_BedRoom_King_Samanosa_Fake_01_L1",
+        "NpcTriggerActorIdNight": "Samanosa_Castle_2F_BedRoom_King_Samanosa_Fake_01_L3",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_C08R0103",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_WORLDMAP_Reiamuland_Main_20": {
+        "SelfId": "GUIDEICON_WORLDMAP_Reiamuland_Main_20",
+        "IconType": "EGuideIconType::MAIN",
+        "DispProgressFlag": "MAIN_SAMANOSA_DefeatBossTroll",
+        "HideProgressFlag": "MAIN_GREENLAD_GetBoatmanBone",
+        "MarkerObject": "None",
+        "NpcTriggerActorIdDaytime": "Greenlad_House_OldMan_Greenlad_01_L1",
+        "NpcTriggerActorIdNight": "Greenlad_House_OldMan_Greenlad_01_L3",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_H17R0101",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_WORLDMAP_Reiamuland_Main_21": {
+        "SelfId": "GUIDEICON_WORLDMAP_Reiamuland_Main_21",
+        "IconType": "EGuideIconType::MAIN",
+        "DispProgressFlag": "MAIN_GREENLAD_GetBoatmanBone",
+        "HideProgressFlag": "MAIN_GHOSTSHIP_GetLoveLocket",
+        "MarkerObject": "BP_SearchAnimEvent_Treasure_D13_B2F_01",
+        "NpcTriggerActorIdDaytime": "None",
+        "NpcTriggerActorIdNight": "None",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_D13R0201",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_WORLDMAP_Reiamuland_Sub_05": {
+        "SelfId": "GUIDEICON_WORLDMAP_Reiamuland_Sub_05",
+        "IconType": "EGuideIconType::SUB",
+        "DispProgressFlag": "MAIN_ALIAHAN_ArriveCastle",
+        "HideProgressFlag": "MAIN_OLIVIAMISAKI_Dispel",
+        "MarkerObject": "None",
+        "NpcTriggerActorIdDaytime": "OliviaMisaki_1F_Bard_01_L1",
+        "NpcTriggerActorIdNight": "OliviaMisaki_1F_Bard_01_L3",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_H14R0101",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_WORLDMAP_Reiamuland_Main_22": {
+        "SelfId": "GUIDEICON_WORLDMAP_Reiamuland_Main_22",
+        "IconType": "EGuideIconType::MAIN",
+        "DispProgressFlag": "MAIN_OLIVIAMISAKI_Dispel",
+        "HideProgressFlag": "MAIN_SHRINEPRISON_EnccountGhost",
+        "MarkerObject": "None",
+        "NpcTriggerActorIdDaytime": "ShrinePrison_1F_Ghost_Green_01_L1",
+        "NpcTriggerActorIdNight": "ShrinePrison_1F_Ghost_Green_01_L3",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_H15R0101",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_WORLDMAP_Reiamuland_Main_23": {
+        "SelfId": "GUIDEICON_WORLDMAP_Reiamuland_Main_23",
+        "IconType": "EGuideIconType::MAIN",
+        "DispProgressFlag": "MAIN_OLIVIAMISAKI_Dispel",
+        "HideProgressFlag": "MAIN_SHRINEPRISON_EnccountGhost",
+        "MarkerObject": "None",
+        "NpcTriggerActorIdDaytime": "ShrinePrison_1F_Ghost_Green_02_L1",
+        "NpcTriggerActorIdNight": "ShrinePrison_1F_Ghost_Green_02_L3",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_H15R0101",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_WORLDMAP_Reiamuland_Main_24": {
+        "SelfId": "GUIDEICON_WORLDMAP_Reiamuland_Main_24",
+        "IconType": "EGuideIconType::MAIN",
+        "DispProgressFlag": "MAIN_SHRINEPRISON_EnccountGhost",
+        "HideProgressFlag": "MAIN_SHRINEPRISON_GetGaiaSword",
+        "MarkerObject": "BP_SearchEvent_H15_EF_Simon_Corpse_01",
+        "NpcTriggerActorIdDaytime": "None",
+        "NpcTriggerActorIdNight": "None",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_H15R0101",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_WORLDMAP_Reiamuland_Main_25": {
+        "SelfId": "GUIDEICON_WORLDMAP_Reiamuland_Main_25",
+        "IconType": "EGuideIconType::MAIN",
+        "DispProgressFlag": "MAIN_SHRINEPRISON_GetGaiaSword",
+        "HideProgressFlag": "MAIN_VOLCANO_ThrowGaiaSword",
+        "MarkerObject": "BP_SearchEvent_Ground_gaia_01",
+        "NpcTriggerActorIdDaytime": "None",
+        "NpcTriggerActorIdNight": "None",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_H26F0101",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_WORLDMAP_Reiamuland_Main_26": {
+        "SelfId": "GUIDEICON_WORLDMAP_Reiamuland_Main_26",
+        "IconType": "EGuideIconType::MAIN",
+        "DispProgressFlag": "MAIN_ALIAHAN_ArriveCastle",
+        "HideProgressFlag": "MAIN_NECROGONDSHRINE_GetSilverOrb",
+        "MarkerObject": "None",
+        "NpcTriggerActorIdDaytime": "NecrogondShrine_House_Minister_01_L1",
+        "NpcTriggerActorIdNight": "NecrogondShrine_House_Minister_01_L3",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_H18R0101",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_WORLDMAP_Reiamuland_Main_27": {
+        "SelfId": "GUIDEICON_WORLDMAP_Reiamuland_Main_27",
+        "IconType": "EGuideIconType::MAIN",
+        "DispProgressFlag": "MAIN_ALIAHAN_ArriveCastle",
+        "HideProgressFlag": "MAIN_GAIANAVEL_GetBlueOrb",
+        "MarkerObject": "None",
+        "NpcTriggerActorIdDaytime": "Lancel_Temple_Priest_01_L1",
+        "NpcTriggerActorIdNight": "Lancel_Temple_Priest_01_L3",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_T06R0401",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_WORLDMAP_Reiamuland_Main_28": {
+        "SelfId": "GUIDEICON_WORLDMAP_Reiamuland_Main_28",
+        "IconType": "EGuideIconType::MAIN",
+        "DispProgressFlag": "MAIN_LANCEL_StartTrial",
+        "HideProgressFlag": "MAIN_GAIANAVEL_GetBlueOrb",
+        "MarkerObject": "BP_GuideIconActor_2",
+        "NpcTriggerActorIdDaytime": "None",
+        "NpcTriggerActorIdNight": "None",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_D09R0301",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_TOWN_DUNGEON_AliahanReturn_Main_01": {
+        "SelfId": "GUIDEICON_TOWN_DUNGEON_AliahanReturn_Main_01",
+        "IconType": "EGuideIconType::MAIN",
+        "DispProgressFlag": "MAIN_BARAMOSCASTLE_DefeatBaramos",
+        "HideProgressFlag": "MAIN_ALIAHAN_BackHome",
+        "MarkerObject": "None",
+        "NpcTriggerActorIdDaytime": "Aliahan_Castle_2F_King_Aliahan_01_L1",
+        "NpcTriggerActorIdNight": "Aliahan_Castle_2F_King_Aliahan_01_L3",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_C01R0102",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_WORLDMAP_Alefgard_Sub_01": {
+        "SelfId": "GUIDEICON_WORLDMAP_Alefgard_Sub_01",
+        "IconType": "EGuideIconType::SUB",
+        "DispProgressFlag": "MAIN_GIAGAPIT_ArriveAlefgard",
+        "HideProgressFlag": "MAIN_LUDATORM_GetSunStone",
+        "MarkerObject": "None",
+        "NpcTriggerActorIdDaytime": "Ludatorm_Church_2F_Prisoner_01_L1",
+        "NpcTriggerActorIdNight": "Ludatorm_Church_2F_Prisoner_01_L3",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_C10R0502",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_WORLDMAP_Alefgard_Main_01": {
+        "SelfId": "GUIDEICON_WORLDMAP_Alefgard_Main_01",
+        "IconType": "EGuideIconType::MAIN",
+        "DispProgressFlag": "MAIN_GIAGAPIT_ArriveAlefgard",
+        "HideProgressFlag": "MAIN_LUDATORM_GetSunStone",
+        "MarkerObject": "BP_SearchAnimEvent_Treasure_01",
+        "NpcTriggerActorIdDaytime": "None",
+        "NpcTriggerActorIdNight": "None",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_C10R0102",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_WORLDMAP_Alefgard_Main_02": {
+        "SelfId": "GUIDEICON_WORLDMAP_Alefgard_Main_02",
+        "IconType": "EGuideIconType::MAIN",
+        "DispProgressFlag": "MAIN_GIAGAPIT_ArriveAlefgard",
+        "HideProgressFlag": "MAIN_RUBISSTOWER_Dispel",
+        "MarkerObject": "BP_GuideIconActor_2",
+        "NpcTriggerActorIdDaytime": "None",
+        "NpcTriggerActorIdNight": "None",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_D18R0502",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_WORLDMAP_Alefgard_Main_03": {
+        "SelfId": "GUIDEICON_WORLDMAP_Alefgard_Main_03",
+        "IconType": "EGuideIconType::MAIN",
+        "DispProgressFlag": "MAIN_RUBISSTOWER_Dispel",
+        "HideProgressFlag": "MAIN_HOLYSHRINE_GetRainbowDrop",
+        "MarkerObject": "None",
+        "NpcTriggerActorIdDaytime": "HolyShrine_2F_Priest_01_L1",
+        "NpcTriggerActorIdNight": "HolyShrine_2F_Priest_01_L3",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_H25R0101",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_WORLDMAP_Alefgard_Main_04": {
+        "SelfId": "GUIDEICON_WORLDMAP_Alefgard_Main_04",
+        "IconType": "EGuideIconType::MAIN",
+        "DispProgressFlag": "MAIN_SPIRITSHRINE_GetRainStick",
+        "HideProgressFlag": "MAIN_MYRA_GetFairyFlute",
+        "MarkerObject": "BP_SearchEvent_Ground_T09_Faerie_Flute_01",
+        "NpcTriggerActorIdDaytime": "None",
+        "NpcTriggerActorIdNight": "None",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_T09F0101",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_WORLDMAP_Alefgard_Main_05": {
+        "SelfId": "GUIDEICON_WORLDMAP_Alefgard_Main_05",
+        "IconType": "EGuideIconType::MAIN",
+        "DispProgressFlag": "MAIN_HOLYSHRINE_GetRainbowDrop",
+        "HideProgressFlag": "MAIN_DEVILSILAND_UseRainbowDrop",
+        "MarkerObject": "BP_SearchEvent_GroundEF_Field_01",
+        "NpcTriggerActorIdDaytime": "None",
+        "NpcTriggerActorIdNight": "None",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_FIELD2",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_WORLDMAP_Alefgard_Sub_02": {
+        "SelfId": "GUIDEICON_WORLDMAP_Alefgard_Sub_02",
+        "IconType": "EGuideIconType::SUB",
+        "DispProgressFlag": "MAIN_GIAGAPIT_ArriveAlefgard",
+        "HideProgressFlag": "MAIN_MYRA_TalkGaiaHanmer",
+        "MarkerObject": "None",
+        "NpcTriggerActorIdDaytime": "Myra_Shop_2F_Swordsmith_01_L1",
+        "NpcTriggerActorIdNight": "Myra_Shop_2F_Swordsmith_01_L3",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_T09R0302",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_WORLDMAP_Alefgard_Sub_03": {
+        "SelfId": "GUIDEICON_WORLDMAP_Alefgard_Sub_03",
+        "IconType": "EGuideIconType::SUB",
+        "DispProgressFlag": "MAIN_MYRA_TalkGaiaHanmer",
+        "HideProgressFlag": "MAIN_JIPANG_GetGaiaHanmer",
+        "MarkerObject": "BP_SearchEvent_Ground_HAMMER_OF_GAIA_01",
+        "NpcTriggerActorIdDaytime": "None",
+        "NpcTriggerActorIdNight": "None",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_C06R0401",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_WORLDMAP_Alefgard_Sub_04": {
+        "SelfId": "GUIDEICON_WORLDMAP_Alefgard_Sub_04",
+        "IconType": "EGuideIconType::SUB",
+        "DispProgressFlag": "MAIN_MYRA_TalkBrokenSword",
+        "HideProgressFlag": "MAIN_MERCADO_GetBrokenSword",
+        "MarkerObject": "BP_SearchEvent_C11_RotoSword_02_01",
+        "NpcTriggerActorIdDaytime": "None",
+        "NpcTriggerActorIdNight": "None",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_C11R0202",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_WORLDMAP_Alefgard_Sub_05": {
+        "SelfId": "GUIDEICON_WORLDMAP_Alefgard_Sub_05",
+        "IconType": "EGuideIconType::SUB",
+        "DispProgressFlag": "MAIN_MYRA_TalkOrichalcum",
+        "HideProgressFlag": "MAIN_DOMDORA_GetOrichalcum",
+        "MarkerObject": "BP_SearchEvent_Ground_T08_Orichalcum_01",
+        "NpcTriggerActorIdDaytime": "None",
+        "NpcTriggerActorIdNight": "None",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_T08F0101",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_WORLDMAP_Alefgard_Sub_06": {
+        "SelfId": "GUIDEICON_WORLDMAP_Alefgard_Sub_06",
+        "IconType": "EGuideIconType::SUB",
+        "DispProgressFlag": "MAIN_JIPANG_GetGaiaHanmer",
+        "HideProgressFlag": "MAIN_MYRA_ChangeShopItem",
+        "MarkerObject": "None",
+        "NpcTriggerActorIdDaytime": "Myra_Shop_2F_Swordsmith_01_L1",
+        "NpcTriggerActorIdNight": "Myra_Shop_2F_Swordsmith_01_L3",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_T09R0302",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_WORLDMAP_Alefgard_Sub_07": {
+        "SelfId": "GUIDEICON_WORLDMAP_Alefgard_Sub_07",
+        "IconType": "EGuideIconType::SUB",
+        "DispProgressFlag": "MAIN_MERCADO_GetBrokenSword & MAIN_MYRA_ChangeShopItem",
+        "HideProgressFlag": "MAIN_MYRA_TalkOrichalcum | MAIN_MYRA_GetKingSword",
+        "MarkerObject": "None",
+        "NpcTriggerActorIdDaytime": "Myra_Shop_2F_Swordsmith_01_L1",
+        "NpcTriggerActorIdNight": "Myra_Shop_2F_Swordsmith_01_L3",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_T09R0302",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_WORLDMAP_Alefgard_Sub_08": {
+        "SelfId": "GUIDEICON_WORLDMAP_Alefgard_Sub_08",
+        "IconType": "EGuideIconType::SUB",
+        "DispProgressFlag": "MAIN_DOMDORA_GetOrichalcum & MAIN_MYRA_ChangeShopItem",
+        "HideProgressFlag": "MAIN_MYRA_GetKingSword | MAIN_MYRA_TalkBrokenSword",
+        "MarkerObject": "None",
+        "NpcTriggerActorIdDaytime": "Myra_Shop_2F_Swordsmith_01_L1",
+        "NpcTriggerActorIdNight": "Myra_Shop_2F_Swordsmith_01_L3",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_T09R0302",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_WORLDMAP_Alefgard_Sub_09": {
+        "SelfId": "GUIDEICON_WORLDMAP_Alefgard_Sub_09",
+        "IconType": "EGuideIconType::SUB",
+        "DispProgressFlag": "MAIN_HOBBITSHRINE_TalkHobbit",
+        "HideProgressFlag": "MAIN_SWAMPCAVE_TalkHenchman",
+        "MarkerObject": "None",
+        "NpcTriggerActorIdDaytime": "SwampCave_1F_KandarMinion_02_L1",
+        "NpcTriggerActorIdNight": "SwampCave_1F_KandarMinion_02_L3",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_H23R0101",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_WORLDMAP_Alefgard_Sub_10": {
+        "SelfId": "GUIDEICON_WORLDMAP_Alefgard_Sub_10",
+        "IconType": "EGuideIconType::SUB",
+        "DispProgressFlag": "MAIN_SWAMPCAVE_TalkHenchman",
+        "HideProgressFlag": "MAIN_GAIANAVEL_FindDeposit",
+        "MarkerObject": "BP_SearchEvent_Ground_01",
+        "NpcTriggerActorIdDaytime": "None",
+        "NpcTriggerActorIdNight": "None",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_D09R0401",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_WORLDMAP_Alefgard_Sub_11": {
+        "SelfId": "GUIDEICON_WORLDMAP_Alefgard_Sub_11",
+        "IconType": "EGuideIconType::SUB",
+        "DispProgressFlag": "MAIN_SWAMPCAVE_TalkHenchman",
+        "HideProgressFlag": "MAIN_REEVE_GetMagicBall_2",
+        "MarkerObject": "None",
+        "NpcTriggerActorIdDaytime": "Reeve_House2_2F_OldMan_Reeve_01_L1",
+        "NpcTriggerActorIdNight": "Reeve_House2_2F_OldMan_Reeve_01_L3",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_T01R0202",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_WORLDMAP_Alefgard_Sub_12": {
+        "SelfId": "GUIDEICON_WORLDMAP_Alefgard_Sub_12",
+        "IconType": "EGuideIconType::SUB",
+        "DispProgressFlag": "MAIN_REEVE_GetMagicBall_2",
+        "HideProgressFlag": "MAIN_GAIANAVEL_GetBlueMetal",
+        "MarkerObject": "BP_SearchEvent_Ground_01",
+        "NpcTriggerActorIdDaytime": "None",
+        "NpcTriggerActorIdNight": "None",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_D09R0401",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_WORLDMAP_Alefgard_Sub_13": {
+        "SelfId": "GUIDEICON_WORLDMAP_Alefgard_Sub_13",
+        "IconType": "EGuideIconType::SUB",
+        "DispProgressFlag": "MAIN_GIAGAPIT_ArriveAlefgard",
+        "HideProgressFlag": "MAIN_ZOMACASTLE_ArriveB1F",
+        "MarkerObject": "None",
+        "NpcTriggerActorIdDaytime": "Rimuldar_Church_2F_Prisoner_01_L1",
+        "NpcTriggerActorIdNight": "Rimuldar_Church_2F_Prisoner_01_L3",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_T10R0102",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_WORLDMAP_Alefgard_Sub_14": {
+        "SelfId": "GUIDEICON_WORLDMAP_Alefgard_Sub_14",
+        "IconType": "EGuideIconType::SUB",
+        "DispProgressFlag": "MAIN_GIAGAPIT_ArriveAlefgard",
+        "HideProgressFlag": "MAIN_SPIRITSHRINE_GetRainStick",
+        "MarkerObject": "None",
+        "NpcTriggerActorIdDaytime": "Mercado_Out_Minister_01_L1",
+        "NpcTriggerActorIdNight": "Mercado_Out_Minister_01_L3",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_C11F0101",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_WORLDMAP_Alefgard_Sub_15": {
+        "SelfId": "GUIDEICON_WORLDMAP_Alefgard_Sub_15",
+        "IconType": "EGuideIconType::SUB",
+        "DispProgressFlag": "MAIN_GIAGAPIT_ArriveAlefgard",
+        "HideProgressFlag": "MAIN_HOLYSHRINE_GetRainbowDrop",
+        "MarkerObject": "None",
+        "NpcTriggerActorIdDaytime": "Mercado_Out_Abbot_Dharma_01_L1",
+        "NpcTriggerActorIdNight": "Mercado_Out_Abbot_Dharma_01_L3",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_C11F0101",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_WORLDMAP_Alefgard_Sub_16": {
+        "SelfId": "GUIDEICON_WORLDMAP_Alefgard_Sub_16",
+        "IconType": "EGuideIconType::SUB",
+        "DispProgressFlag": "MAIN_GIAGAPIT_ArriveAlefgard",
+        "HideProgressFlag": "MAIN_RIMULDAR_OrtegaMemo",
+        "MarkerObject": "BP_SearchAnimEvent_Treasure_01",
+        "NpcTriggerActorIdDaytime": "None",
+        "NpcTriggerActorIdNight": "None",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_T10R0401",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_TOWN_DUNGEON_LudatormReturn_Main_01": {
+        "SelfId": "GUIDEICON_TOWN_DUNGEON_LudatormReturn_Main_01",
+        "IconType": "EGuideIconType::MAIN",
+        "DispProgressFlag": "MAIN_HEROCAVE_GoOut",
+        "HideProgressFlag": "",
+        "MarkerObject": "None",
+        "NpcTriggerActorIdDaytime": "Ludatorm_Castle_2F_throne_King_Ludatorm_01_L1",
+        "NpcTriggerActorIdNight": "Ludatorm_Castle_2F_throne_King_Ludatorm_01_L3",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_C10R0101",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_TOWN_DUNGEON_AfterClearSub_01": {
+        "SelfId": "GUIDEICON_TOWN_DUNGEON_AfterClearSub_01",
+        "IconType": "EGuideIconType::SUB",
+        "DispProgressFlag": "MAIN_Ludatorm_Ending",
+        "HideProgressFlag": "MAIN_SECRETCAVE_ArriveB1F",
+        "MarkerObject": "None",
+        "NpcTriggerActorIdDaytime": "DragonQueen_back_Elf_01_L1",
+        "NpcTriggerActorIdNight": "DragonQueen_back_Elf_01_L3",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_C09R0103",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_TOWN_DUNGEON_AfterClearSub_02": {
+        "SelfId": "GUIDEICON_TOWN_DUNGEON_AfterClearSub_02",
+        "IconType": "EGuideIconType::SUB",
+        "DispProgressFlag": "MAIN_Ludatorm_Ending",
+        "HideProgressFlag": "MAIN_ZENITH_TalkZenithKing",
+        "MarkerObject": "None",
+        "NpcTriggerActorIdDaytime": "Zenis_2F_King_Zenis_01_L1",
+        "NpcTriggerActorIdNight": "Zenis_2F_King_Zenis_01_L3",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_C12R0101",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "GUIDEICON_TOWN_DUNGEON_AfterClearSub_03": {
+        "SelfId": "GUIDEICON_TOWN_DUNGEON_AfterClearSub_03",
+        "IconType": "EGuideIconType::SUB",
+        "DispProgressFlag": "MAIN_Ludatorm_Ending",
+        "HideProgressFlag": "MAIN_SECRETTOWER_AllGrant",
+        "MarkerObject": "BP_GuideIconActor_2",
+        "NpcTriggerActorIdDaytime": "None",
+        "NpcTriggerActorIdNight": "None",
+        "MarkerWorldMap": "None",
+        "MarkerTownDungeonID": "MAPLIST_D21R0501",
+        "MarkerTownDungeonPos": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      }
+    }
+  }
+]

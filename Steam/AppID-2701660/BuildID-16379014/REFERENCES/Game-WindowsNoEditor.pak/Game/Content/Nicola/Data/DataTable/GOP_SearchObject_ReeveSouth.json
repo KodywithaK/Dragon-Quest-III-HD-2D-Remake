@@ -1,0 +1,38 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_SearchObject_ReeveSouth",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_SearchObject_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "SEARCH_ReeveSouth_BARREL_0": {
+        "SelfId": "SEARCH_ReeveSouth_BARREL_0",
+        "ObjectType": "ESearchObjectType::BARREL",
+        "ItemId": "ITEM_SMALL_MEDAL",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_ReeveSouth_BARREL_0"
+      },
+      "SEARCH_ReeveSouth_POT_0": {
+        "SelfId": "SEARCH_ReeveSouth_POT_0",
+        "ObjectType": "ESearchObjectType::POT",
+        "ItemId": "None",
+        "ItemNum": 0,
+        "Gold": 12,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_ReeveSouth_POT_0"
+      }
+    }
+  }
+]

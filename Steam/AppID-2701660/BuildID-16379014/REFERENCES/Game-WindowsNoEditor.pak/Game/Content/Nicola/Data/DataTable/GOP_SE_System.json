@@ -1,0 +1,372 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_SE_System",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_SE_SystemTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "SYSSE_DECIDE": {
+        "SelfId": "SYSSE_DECIDE",
+        "SEId": "SE_SYS_001_DECIDE"
+      },
+      "SYSSE_TALK_HIGH": {
+        "SelfId": "SYSSE_TALK_HIGH",
+        "SEId": "SE_SYS_002_TALK_WOMAN"
+      },
+      "SYSSE_TALK_MIDDLE": {
+        "SelfId": "SYSSE_TALK_MIDDLE",
+        "SEId": "SE_SYS_003_TALK_MAN"
+      },
+      "SYSSE_TALK_LOW": {
+        "SelfId": "SYSSE_TALK_LOW",
+        "SEId": "SE_SYS_004_TALK_OTHER"
+      },
+      "SYSSE_EQUIPMENT": {
+        "SelfId": "SYSSE_EQUIPMENT",
+        "SEId": "SE_SYS_005_EQUIPMENT"
+      },
+      "SYSSE_OPTIONS": {
+        "SelfId": "SYSSE_OPTIONS",
+        "SEId": "SE_SYS_006_OPTIONS"
+      },
+      "SYSSE_HEAL": {
+        "SelfId": "SYSSE_HEAL",
+        "SEId": "SE_SYS_007_HEAL"
+      },
+      "SYSSE_ERROR": {
+        "SelfId": "SYSSE_ERROR",
+        "SEId": "SE_SYS_008_ERROR"
+      },
+      "SYSSE_MAGIC_CASTING": {
+        "SelfId": "SYSSE_MAGIC_CASTING",
+        "SEId": "SE_SYS_015_SPELL_CASTING"
+      },
+      "SYSSE_RURA": {
+        "SelfId": "SYSSE_RURA",
+        "SEId": "SE_SYS_016_RURA"
+      },
+      "SYSSE_RURA_START": {
+        "SelfId": "SYSSE_RURA_START",
+        "SEId": "SE_SYS_RURA_START"
+      },
+      "SYSSE_RURA_FAILED": {
+        "SelfId": "SYSSE_RURA_FAILED",
+        "SEId": "SE_SYS_RURA_FAILED"
+      },
+      "SYSSE_MAP_OPEN": {
+        "SelfId": "SYSSE_MAP_OPEN",
+        "SEId": "SE_SYS_022_MAP_OPEN"
+      },
+      "SYSSE_MAP_CLOSE": {
+        "SelfId": "SYSSE_MAP_CLOSE",
+        "SEId": "SE_SYS_023_MAP_CLOSE"
+      },
+      "SYSSE_KIESARISOU": {
+        "SelfId": "SYSSE_KIESARISOU",
+        "SEId": "SE_SYS_KIESARISOU"
+      },
+      "SYSSE_NIGHT_LIGHT": {
+        "SelfId": "SYSSE_NIGHT_LIGHT",
+        "SEId": "SE_SYS_NIGHT_LIGHT"
+      },
+      "SYSSE_MOD_ROD": {
+        "SelfId": "SYSSE_MOD_ROD",
+        "SEId": "SE_SYS_MOD_ROD"
+      },
+      "SYSSE_REMIRAMA": {
+        "SelfId": "SYSSE_REMIRAMA",
+        "SEId": "SE_SYS_REMIRAMA"
+      },
+      "SYSSE_KUTIBUE": {
+        "SelfId": "SYSSE_KUTIBUE",
+        "SEId": "SE_SYS_KUTIBUE"
+      },
+      "SYSSE_RULA_EFF_LIGHT": {
+        "SelfId": "SYSSE_RULA_EFF_LIGHT",
+        "SEId": "SE_SYS_RULA_EFF_LIGHT"
+      },
+      "SYSSE_RIREMITO_EFF_WIND": {
+        "SelfId": "SYSSE_RIREMITO_EFF_WIND",
+        "SEId": "SE_SYS_RIREMITO_EFF_WIND"
+      },
+      "SYSSE_RIREMITO_EFF_LIGHT": {
+        "SelfId": "SYSSE_RIREMITO_EFF_LIGHT",
+        "SEId": "SE_SYS_RIREMITO_EFF_LIGHT"
+      },
+      "SYSSE_RAMIA": {
+        "SelfId": "SYSSE_RAMIA",
+        "SEId": "SE_ENV_WIND_RAMIA"
+      },
+      "SYSSE_SHIP_STOP": {
+        "SelfId": "SYSSE_SHIP_STOP",
+        "SEId": "SE_ENV_SHIP_WAVE_1"
+      },
+      "SYSSE_SHIP_MOVE": {
+        "SelfId": "SYSSE_SHIP_MOVE",
+        "SEId": "SE_ENV_SHIP_WAVE_2"
+      },
+      "SYSSE_MEMORY_SUCCESS": {
+        "SelfId": "SYSSE_MEMORY_SUCCESS",
+        "SEId": "SE_SYS_MEMORY_SUCCESS"
+      },
+      "SYSSE_MEMORY_FAILURE": {
+        "SelfId": "SYSSE_MEMORY_FAILURE",
+        "SEId": "SE_SYS_MEMORY_FAILURE"
+      },
+      "SYSSE_GUIDE_POPUP": {
+        "SelfId": "SYSSE_GUIDE_POPUP",
+        "SEId": "SE_SYS_GUIDE_POPUP"
+      },
+      "SYSSE_WALK_POISON": {
+        "SelfId": "SYSSE_WALK_POISON",
+        "SEId": "SE_SYS_WALK_POISON"
+      },
+      "SYSSE_WALK_BARRIER": {
+        "SelfId": "SYSSE_WALK_BARRIER",
+        "SEId": "SE_SYS_WALK_BARRIER"
+      },
+      "SYSSE_CHANGE_APPEARANCE": {
+        "SelfId": "SYSSE_CHANGE_APPEARANCE",
+        "SEId": "SE_SYS_CHANGE_APPEARANCE"
+      },
+      "SYSSE_WARP_GRANDORAGON": {
+        "SelfId": "SYSSE_WARP_GRANDORAGON",
+        "SEId": "SE_SYS_WARP_GRANDORAGON"
+      },
+      "SYSSE_BTL_ENCOUNT": {
+        "SelfId": "SYSSE_BTL_ENCOUNT",
+        "SEId": "SE_SYS_ENCOUNT"
+      },
+      "SYSSE_BTL_ATTACK_PC": {
+        "SelfId": "SYSSE_BTL_ATTACK_PC",
+        "SEId": "SE_BTL_001_ATTACK_PC"
+      },
+      "SYSSE_BTL_ATTACK_MISS": {
+        "SelfId": "SYSSE_BTL_ATTACK_MISS",
+        "SEId": "SE_BTL_003_MISTAKE"
+      },
+      "SYSSE_BTL_DAMAGE": {
+        "SelfId": "SYSSE_BTL_DAMAGE",
+        "SEId": "SE_BTL_002_DAMAGE"
+      },
+      "SYSSE_BTL_DAMAGE_FINISH": {
+        "SelfId": "SYSSE_BTL_DAMAGE_FINISH",
+        "SEId": "SE_BTL_DAMAGE_FINISH"
+      },
+      "SYSSE_BTL_ATTACK_MONSTER": {
+        "SelfId": "SYSSE_BTL_ATTACK_MONSTER",
+        "SEId": "SE_BTL_004_ATTACK_MONSTER"
+      },
+      "SYSSE_BTL_BUFF": {
+        "SelfId": "SYSSE_BTL_BUFF",
+        "SEId": "SE_BTL_005_BUFF"
+      },
+      "SYSSE_BTL_DEBUFF": {
+        "SelfId": "SYSSE_BTL_DEBUFF",
+        "SEId": "SE_BTL_006_DEBUFF"
+      },
+      "SYSSE_BTL_RUKANI": {
+        "SelfId": "SYSSE_BTL_RUKANI",
+        "SEId": "SE_BTL_007_RUKANI"
+      },
+      "SYSSE_BTL_POISON_HIT": {
+        "SelfId": "SYSSE_BTL_POISON_HIT",
+        "SEId": "SE_BTL_008_POISON_HIT"
+      },
+      "SYSSE_BTL_POISON_TURN": {
+        "SelfId": "SYSSE_BTL_POISON_TURN",
+        "SEId": "SE_BTL_009_POISON_TURN"
+      },
+      "SYSSE_BTL_POISON_END": {
+        "SelfId": "SYSSE_BTL_POISON_END",
+        "SEId": "SE_BTL_010_POISON_END"
+      },
+      "SYSSE_BTL_SLEEP_HIT": {
+        "SelfId": "SYSSE_BTL_SLEEP_HIT",
+        "SEId": "SE_BTL_011_SLEEP_HIT"
+      },
+      "SYSSE_BTL_SLEEP_TURN": {
+        "SelfId": "SYSSE_BTL_SLEEP_TURN",
+        "SEId": "SE_BTL_012_SLEEP_TURN"
+      },
+      "SYSSE_BTL_SLEEP_END": {
+        "SelfId": "SYSSE_BTL_SLEEP_END",
+        "SEId": "SE_BTL_013_SLEEP_END"
+      },
+      "SYSSE_BTL_PARALYSIS": {
+        "SelfId": "SYSSE_BTL_PARALYSIS",
+        "SEId": "SE_BTL_PARALYSIS"
+      },
+      "SYSSE_BTL_CONFUSION": {
+        "SelfId": "SYSSE_BTL_CONFUSION",
+        "SEId": "SE_BTL_CONFUSION"
+      },
+      "SYSSE_BTL_MP_RECOVER": {
+        "SelfId": "SYSSE_BTL_MP_RECOVER",
+        "SEId": "SE_BTL_MP_RECOVER"
+      },
+      "SYSSE_BTL_INOTINOISI": {
+        "SelfId": "SYSSE_BTL_INOTINOISI",
+        "SEId": "SE_BTL_INOTINOISI"
+      },
+      "SYSSE_BTL_PROTECT": {
+        "SelfId": "SYSSE_BTL_PROTECT",
+        "SEId": "SE_BTL_014_GUARD"
+      },
+      "SYSSE_BTL_PROTECT_ENEMY": {
+        "SelfId": "SYSSE_BTL_PROTECT_ENEMY",
+        "SEId": "SE_BTL_014_GUARD"
+      },
+      "SYSSE_BTL_ATTACK_CRITICAL_PC": {
+        "SelfId": "SYSSE_BTL_ATTACK_CRITICAL_PC",
+        "SEId": "SE_BTL_015_CRITICAL_HIT_PC"
+      },
+      "SYSSE_BTL_ATTACK_TUKON": {
+        "SelfId": "SYSSE_BTL_ATTACK_TUKON",
+        "SEId": "SE_BTL_060_CRITICAL_HIT_MON"
+      },
+      "SYSSE_BTL_DEATH": {
+        "SelfId": "SYSSE_BTL_DEATH",
+        "SEId": "SE_BTL_016_DEATH"
+      },
+      "SYSSE_BTL_ESCAPE": {
+        "SelfId": "SYSSE_BTL_ESCAPE",
+        "SEId": "SE_BTL_057_ESCAPE"
+      },
+      "SYSSE_BTL_PARAMETER_CHANGE": {
+        "SelfId": "SYSSE_BTL_PARAMETER_CHANGE",
+        "SEId": "SE_BTL_059_PARAMETER_CHANGE"
+      },
+      "SYSSE_BTL_SEISUI": {
+        "SelfId": "SYSSE_BTL_SEISUI",
+        "SEId": "SE_BTL_055_SEISUI"
+      },
+      "SYSSE_BTL_LEVELUP_TEXT": {
+        "SelfId": "SYSSE_BTL_LEVELUP_TEXT",
+        "SEId": "SE_BTL_LEVELUP_TEXT"
+      },
+      "SYSSE_TD_RAPPEL_DOWN": {
+        "SelfId": "SYSSE_TD_RAPPEL_DOWN",
+        "SEId": "SE_TD_ROPE"
+      },
+      "SYSSE_TD_CAT": {
+        "SelfId": "SYSSE_TD_CAT",
+        "SEId": "SE_TD_CAT"
+      },
+      "SYSSE_TD_STAIRWAY": {
+        "SelfId": "SYSSE_TD_STAIRWAY",
+        "SEId": "SE_TD_STAIRWAY"
+      },
+      "SYSSE_TD_TREASURE_BOX": {
+        "SelfId": "SYSSE_TD_TREASURE_BOX",
+        "SEId": "SE_TD_TREASURE_BOX"
+      },
+      "SYSSE_TD_TREASURE_BOX_CLOSE": {
+        "SelfId": "SYSSE_TD_TREASURE_BOX_CLOSE",
+        "SEId": "SE_TD_TREASURE_BOX_CLOSE"
+      },
+      "SYSSE_TD_DOOR": {
+        "SelfId": "SYSSE_TD_DOOR",
+        "SEId": "SE_TD_DOOR"
+      },
+      "SYSSE_TD_DOOR_JAIL": {
+        "SelfId": "SYSSE_TD_DOOR_JAIL",
+        "SEId": "SE_TD_DOOR_JAIL"
+      },
+      "SYSSE_TD_DOOR_UNLOCK": {
+        "SelfId": "SYSSE_TD_DOOR_UNLOCK",
+        "SEId": "SE_TD_DOOR_UNLOCK"
+      },
+      "SYSSE_TD_DOOR_CASTLE": {
+        "SelfId": "SYSSE_TD_DOOR_CASTLE",
+        "SEId": "SE_TD_DOOR_CASTLE"
+      },
+      "SYSSE_TD_DOOR_LARGE": {
+        "SelfId": "SYSSE_TD_DOOR_LARGE",
+        "SEId": "SE_TD_DOOR_LARGE"
+      },
+      "SYSSE_TD_DOOR_MIDDLE": {
+        "SelfId": "SYSSE_TD_DOOR_MIDDLE",
+        "SEId": "SE_TD_DOOR_MIDDLE"
+      },
+      "SYSSE_TD_DOOR_PYRAMID": {
+        "SelfId": "SYSSE_TD_DOOR_PYRAMID",
+        "SEId": "SE_TD_DOOR_PYRAMID"
+      },
+      "SYSSE_TD_DOOR_BARAMOS": {
+        "SelfId": "SYSSE_TD_DOOR_BARAMOS",
+        "SEId": "SE_TD_DOOR_BARAMOS"
+      },
+      "SYSSE_TD_SWITCH": {
+        "SelfId": "SYSSE_TD_SWITCH",
+        "SEId": "SE_TD_SWITCH"
+      },
+      "SYSSE_TD_DRAWER_OPEN_1": {
+        "SelfId": "SYSSE_TD_DRAWER_OPEN_1",
+        "SEId": "SE_TD_DRAWER_OPEN_1"
+      },
+      "SYSSE_TD_SLIDE_DOOR_OPEN": {
+        "SelfId": "SYSSE_TD_SLIDE_DOOR_OPEN",
+        "SEId": "SE_TD_SLIDE_DOOR_OPEN"
+      },
+      "SYSSE_TD_DRAWER_OPEN_2": {
+        "SelfId": "SYSSE_TD_DRAWER_OPEN_2",
+        "SEId": "SE_TD_DRAWER_OPEN_2"
+      },
+      "SYSSE_TD_FALL": {
+        "SelfId": "SYSSE_TD_FALL",
+        "SEId": "SE_TD_FALL"
+      },
+      "SYSSE_TD_LANDING": {
+        "SelfId": "SYSSE_TD_LANDING",
+        "SEId": "SE_TD_LANDING"
+      },
+      "SYSSE_TD_ROCK_MOVE": {
+        "SelfId": "SYSSE_TD_ROCK_MOVE",
+        "SEId": "SE_TD_ROCK_MOVE"
+      },
+      "SYSSE_TD_BAG": {
+        "SelfId": "SYSSE_TD_BAG",
+        "SEId": "SE_TD_BAG"
+      },
+      "SYSSE_TD_WARP": {
+        "SelfId": "SYSSE_TD_WARP",
+        "SEId": "SE_TD_WARP"
+      },
+      "SYSSE_TD_WARP_2": {
+        "SelfId": "SYSSE_TD_WARP_2",
+        "SEId": "SE_TD_WARP_2"
+      },
+      "SYSSE_TD_LOCK_PICK_FAIL": {
+        "SelfId": "SYSSE_TD_LOCK_PICK_FAIL",
+        "SEId": "SE_TD_LOCK_PICK_FAIL"
+      },
+      "SYSSE_TD_TREASURE_BOX_ITEM": {
+        "SelfId": "SYSSE_TD_TREASURE_BOX_ITEM",
+        "SEId": "SE_TD_TREASURE_BOX_ITEM"
+      },
+      "SYSSE_TD_TREASURE_BOX_SHINE": {
+        "SelfId": "SYSSE_TD_TREASURE_BOX_SHINE",
+        "SEId": "SE_TD_TREASURE_BOX_SHINE"
+      },
+      "SYSSE_TD_DOOR_QUEEN": {
+        "SelfId": "SYSSE_TD_DOOR_QUEEN",
+        "SEId": "SE_EVENT_DOOR_QUEEN"
+      },
+      "SYSSE_TD_GOLD": {
+        "SelfId": "SYSSE_TD_GOLD",
+        "SEId": "SE_EVENT_GOLD"
+      },
+      "SYSSE_TD_ROTATING_FLOOR": {
+        "SelfId": "SYSSE_TD_ROTATING_FLOOR",
+        "SEId": "SE_SYS_ROTATING_FLOOR"
+      }
+    }
+  }
+]

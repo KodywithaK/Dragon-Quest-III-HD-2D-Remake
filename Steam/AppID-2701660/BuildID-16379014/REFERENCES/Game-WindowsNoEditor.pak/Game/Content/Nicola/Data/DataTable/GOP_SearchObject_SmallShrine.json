@@ -1,0 +1,49 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_SearchObject_SmallShrine",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_SearchObject_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "SEARCH_SmallShrine_B1F_POT_0": {
+        "SelfId": "SEARCH_SmallShrine_B1F_POT_0",
+        "ObjectType": "ESearchObjectType::POT",
+        "ItemId": "ITEM_SMALL_MEDAL",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_SmallShrine_B1F_POT_0"
+      },
+      "SEARCH_SmallShrine_B1F_POT_1": {
+        "SelfId": "SEARCH_SmallShrine_B1F_POT_1",
+        "ObjectType": "ESearchObjectType::POT",
+        "ItemId": "ITEM_USE_ITEM_CHIMERA_WING",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_SmallShrine_B1F_POT_1"
+      },
+      "SEARCH_SmallShrine_B1F_BOOKSHELF_0": {
+        "SelfId": "SEARCH_SmallShrine_B1F_BOOKSHELF_0",
+        "ObjectType": "ESearchObjectType::BOOKSHELF",
+        "ItemId": "None",
+        "ItemNum": 0,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": false,
+        "OverrideScriptName": "SmallShrine_B1F_BookShelf",
+        "FlagName": "EGOPEnumSearchType::NONE"
+      }
+    }
+  }
+]

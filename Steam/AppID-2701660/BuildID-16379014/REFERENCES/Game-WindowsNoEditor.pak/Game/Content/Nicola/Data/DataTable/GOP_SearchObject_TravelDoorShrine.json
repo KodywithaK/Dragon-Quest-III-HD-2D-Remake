@@ -1,0 +1,27 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_SearchObject_TravelDoorShrine",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_SearchObject_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "SEARCH_TravelDoorShrine_1F_GROUND_0": {
+        "SelfId": "SEARCH_TravelDoorShrine_1F_GROUND_0",
+        "ObjectType": "ESearchObjectType::GROUND",
+        "ItemId": "ITEM_SMALL_MEDAL",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_TravelDoorShrine_1F_GROUND_0"
+      }
+    }
+  }
+]

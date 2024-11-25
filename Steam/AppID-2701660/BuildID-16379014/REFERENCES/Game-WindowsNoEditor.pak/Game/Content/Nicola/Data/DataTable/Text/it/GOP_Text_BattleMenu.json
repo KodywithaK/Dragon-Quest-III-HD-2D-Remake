@@ -1,0 +1,792 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_BattleMenu",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_BattleMenu_Top_COMMAND_00": {
+        "SelfId": "Txt_BattleMenu_Top_COMMAND_00",
+        "Text": "Lotta"
+      },
+      "Txt_BattleMenu_Top_COMMAND_01": {
+        "SelfId": "Txt_BattleMenu_Top_COMMAND_01",
+        "Text": "Tattiche"
+      },
+      "Txt_BattleMenu_Top_COMMAND_02": {
+        "SelfId": "Txt_BattleMenu_Top_COMMAND_02",
+        "Text": "Fuga"
+      },
+      "Txt_BattleMenu_Top_MBR_COMMAND_00": {
+        "SelfId": "Txt_BattleMenu_Top_MBR_COMMAND_00",
+        "Text": "Combatti"
+      },
+      "Txt_BattleMenu_Top_MBR_COMMAND_01": {
+        "SelfId": "Txt_BattleMenu_Top_MBR_COMMAND_01",
+        "Text": "Tattiche"
+      },
+      "Txt_BattleMenu_Top_MBR_COMMAND_02": {
+        "SelfId": "Txt_BattleMenu_Top_MBR_COMMAND_02",
+        "Text": "Arrenditi"
+      },
+      "Txt_BattleMenu_Top_SPEED": {
+        "SelfId": "Txt_BattleMenu_Top_SPEED",
+        "Text": "Velocità battaglia"
+      },
+      "Txt_BattleMenu_Top_SPEED_Low": {
+        "SelfId": "Txt_BattleMenu_Top_SPEED_Low",
+        "Text": "Normale"
+      },
+      "Txt_BattleMenu_Top_SPEED_Medium": {
+        "SelfId": "Txt_BattleMenu_Top_SPEED_Medium",
+        "Text": "Veloce"
+      },
+      "Txt_BattleMenu_Top_SPEED_High": {
+        "SelfId": "Txt_BattleMenu_Top_SPEED_High",
+        "Text": "Velocissima"
+      },
+      "Txt_BattleMenu_Top_UI_OFF": {
+        "SelfId": "Txt_BattleMenu_Top_UI_OFF",
+        "Text": "Nascondi interfaccia"
+      },
+      "Txt_BattleMenu_Top_MBR_MATCH_Count": {
+        "SelfId": "Txt_BattleMenu_Top_MBR_MATCH_Count",
+        "Text": "Incontro n. {0}"
+      },
+      "Txt_BattleMenu_Fight_COMMAND_00": {
+        "SelfId": "Txt_BattleMenu_Fight_COMMAND_00",
+        "Text": "Attacco"
+      },
+      "Txt_BattleMenu_Fight_COMMAND_01": {
+        "SelfId": "Txt_BattleMenu_Fight_COMMAND_01",
+        "Text": "Incantesimi"
+      },
+      "Txt_BattleMenu_Fight_COMMAND_02": {
+        "SelfId": "Txt_BattleMenu_Fight_COMMAND_02",
+        "Text": "Difesa"
+      },
+      "Txt_BattleMenu_Fight_COMMAND_03": {
+        "SelfId": "Txt_BattleMenu_Fight_COMMAND_03",
+        "Text": "Abilità"
+      },
+      "Txt_BattleMenu_Fight_COMMAND_04": {
+        "SelfId": "Txt_BattleMenu_Fight_COMMAND_04",
+        "Text": "Oggetti"
+      },
+      "Txt_BattleMenu_Fight_COMMAND_05": {
+        "SelfId": "Txt_BattleMenu_Fight_COMMAND_05",
+        "Text": "Equipagg."
+      },
+      "Txt_BattleMenu_Fight_TARGET_VALUE": {
+        "SelfId": "Txt_BattleMenu_Fight_TARGET_VALUE",
+        "Text": "{0}"
+      },
+      "Txt_BattleMenu_Fight_UNKNOWN_MAGIC": {
+        "SelfId": "Txt_BattleMenu_Fight_UNKNOWN_MAGIC",
+        "Text": "???"
+      },
+      "Txt_BattleMenu_Fight_ITEMGUIDE": {
+        "SelfId": "Txt_BattleMenu_Fight_ITEMGUIDE",
+        "Text": "Scegli un oggetto da usare."
+      },
+      "Txt_BattleMenu_Fight_EQUIPGUIDE": {
+        "SelfId": "Txt_BattleMenu_Fight_EQUIPGUIDE",
+        "Text": "Scegli qualcosa da equipaggiare."
+      },
+      "Txt_BattleMenu_Fight_SKILLGUIDE": {
+        "SelfId": "Txt_BattleMenu_Fight_SKILLGUIDE",
+        "Text": "Scegli un'abilità da usare."
+      },
+      "Txt_BattleMenu_Fight_MAGICGUIDE": {
+        "SelfId": "Txt_BattleMenu_Fight_MAGICGUIDE",
+        "Text": "Scegli un incantesimo da lanciare."
+      },
+      "Txt_BattleMenu_Fight_TACTICSGUIDE": {
+        "SelfId": "Txt_BattleMenu_Fight_TACTICSGUIDE",
+        "Text": "Scegli le tattiche di un personaggio da cambiare."
+      },
+      "Txt_BattleMenu_Fight_MBR_TACTICSGUIDE": {
+        "SelfId": "Txt_BattleMenu_Fight_MBR_TACTICSGUIDE",
+        "Text": "Scegli le tattiche di un personaggio da cambiare."
+      },
+      "Txt_BattleMenu_Fight_ACCESSORIEGUIDE": {
+        "SelfId": "Txt_BattleMenu_Fight_ACCESSORIEGUIDE",
+        "Text": "Scegli dove equipaggiare."
+      },
+      "Txt_BattleMenu_Fight_NOSKILL": {
+        "SelfId": "Txt_BattleMenu_Fight_NOSKILL",
+        "Text": "<Cap><DefSgl_ACTOR> non conosce alcuna abilità utilizzabile in battaglia!"
+      },
+      "Txt_BattleMenu_Fight_NOMAGIC": {
+        "SelfId": "Txt_BattleMenu_Fight_NOMAGIC",
+        "Text": "<Cap><DefSgl_ACTOR> non conosce alcun incantesimo utilizzabile in battaglia!"
+      },
+      "Txt_BattleMenu_Fight_SKILLUNSKILLED": {
+        "SelfId": "Txt_BattleMenu_Fight_SKILLUNSKILLED",
+        "Text": "<Cap><DefSgl_ACTOR> non ha ancora imparato quella abilità."
+      },
+      "Txt_BattleMenu_Fight_MAGICUNSKILLED": {
+        "SelfId": "Txt_BattleMenu_Fight_MAGICUNSKILLED",
+        "Text": "<Cap><DefSgl_ACTOR> non ha ancora imparato quell'incantesimo."
+      },
+      "Txt_BattleMenu_Fight_SEALMAGIC": {
+        "SelfId": "Txt_BattleMenu_Fight_SEALMAGIC",
+        "Text": "Ma qualcosa ne blocca gli effetti."
+      },
+      "Txt_BattleMenu_Fight_NOITEM": {
+        "SelfId": "Txt_BattleMenu_Fight_NOITEM",
+        "Text": "<Cap><DefSgl_ACTOR> non possiede oggetti o equipaggiamento che possono essere utilizzati in battaglia."
+      },
+      "Txt_BattleMenu_Fight_NOEQUIP": {
+        "SelfId": "Txt_BattleMenu_Fight_NOEQUIP",
+        "Text": "<Cap><DefSgl_ACTOR> non possiede nulla da equipaggiare."
+      },
+      "Txt_BattleMenu_Fight_CANNOTEQUIP": {
+        "SelfId": "Txt_BattleMenu_Fight_CANNOTEQUIP",
+        "Text": "<Cap><DefSgl_ACTOR> non può cambiare il suo equipaggiamento."
+      },
+      "Txt_BattleMenu_Fight_LOSSMP": {
+        "SelfId": "Txt_BattleMenu_Fight_LOSSMP",
+        "Text": "PM insufficienti!"
+      },
+      "Txt_BattleMenu_Fight_NOEFFECT": {
+        "SelfId": "Txt_BattleMenu_Fight_NOEFFECT",
+        "Text": "Il <IfPlrNoun_I_NAME(loro,suo)> utilizzo non avrebbe alcun effetto in questo momento."
+      },
+      "Txt_BattleMenu_Fight_EQUIP": {
+        "SelfId": "Txt_BattleMenu_Fight_EQUIP",
+        "Text": "<Cap><DefSgl_ACTOR> equipaggia <DefSgl_I_NAME>."
+      },
+      "Txt_BattleMenu_Fight_UNEQUIP": {
+        "SelfId": "Txt_BattleMenu_Fight_UNEQUIP",
+        "Text": "<Cap><DefSgl_ACTOR> rimuove <DefSgl_I_NAME>."
+      },
+      "Txt_BattleMenu_Fight_EQUIPCANNOT": {
+        "SelfId": "Txt_BattleMenu_Fight_EQUIPCANNOT",
+        "Text": "Impossibile equipaggiare <DefSgl_I_NAME>."
+      },
+      "Txt_BattleMenu_Fight_CURSEUNEQUIP": {
+        "SelfId": "Txt_BattleMenu_Fight_CURSEUNEQUIP",
+        "Text": "<Cap><DefSgl_I_NAME> ha una maledizione e non si può rimuovere!"
+      },
+      "Txt_BattleMenu_Fight_CURSEEQUIP": {
+        "SelfId": "Txt_BattleMenu_Fight_CURSEEQUIP",
+        "Text": "<Cap><DefSgl_ACTOR> ha subito una maledizione!"
+      },
+      "Txt_BattleMenu_Fight_CANNOTResurre": {
+        "SelfId": "Txt_BattleMenu_Fight_CANNOTResurre",
+        "Text": "Ma non hai alleati da riportare in vita."
+      },
+      "Txt_BattleMenu_Fight_CANNOTKabau": {
+        "SelfId": "Txt_BattleMenu_Fight_CANNOTKabau",
+        "Text": "Ma non c'è nessuno da proteggere al momento..."
+      },
+      "Txt_BattleMenu_Fight_SELFKabau": {
+        "SelfId": "Txt_BattleMenu_Fight_SELFKabau",
+        "Text": "Non ci provare: non funziona su se stessi!"
+      },
+      "Txt_BattleMenu_Fight_CANNOTRUN": {
+        "SelfId": "Txt_BattleMenu_Fight_CANNOTRUN",
+        "Text": "Non puoi fuggire da questa battaglia!"
+      },
+      "Txt_BattleMenu_Fight_CANNOTRUN_02": {
+        "SelfId": "Txt_BattleMenu_Fight_CANNOTRUN_02",
+        "Text": "Non puoi fuggire al momento!"
+      },
+      "Txt_BattleMenu_Result_BeforeLevel": {
+        "SelfId": "Txt_BattleMenu_Result_BeforeLevel",
+        "Text": "{0}"
+      },
+      "Txt_BattleMenu_Result_AfterLevel": {
+        "SelfId": "Txt_BattleMenu_Result_AfterLevel",
+        "Text": "{0}"
+      },
+      "Txt_BattleMenu_Result_StatusChange": {
+        "SelfId": "Txt_BattleMenu_Result_StatusChange",
+        "Text": "{0}"
+      },
+      "Txt_BattleMenu_Result_GetMagic": {
+        "SelfId": "Txt_BattleMenu_Result_GetMagic",
+        "Text": "<Cap><DefSgl_ACTOR> ha imparato <IfSing_VALUE(un nuovo incantesimo,dei nuovi incantesimi)>!"
+      },
+      "Txt_BattleMenu_Result_GetSkill": {
+        "SelfId": "Txt_BattleMenu_Result_GetSkill",
+        "Text": "<Cap><DefSgl_ACTOR> ha imparato <IfSing_VALUE2(una nuova,delle nuove)> abilità!"
+      },
+      "Txt_BattleMenu_Result_GetMagicSkill": {
+        "SelfId": "Txt_BattleMenu_Result_GetMagicSkill",
+        "Text": "<Cap><DefSgl_ACTOR> ha imparato <IfSing_VALUE(un nuovo incantesimo,dei nuovi incantesimi)> e <IfSing_VALUE2(una nuova,delle nuove)> abilità!"
+      },
+      "Txt_BattleMenu_Retry_Menu01": {
+        "SelfId": "Txt_BattleMenu_Retry_Menu01",
+        "Text": "Riprova"
+      },
+      "Txt_BattleMenu_Retry_Menu02": {
+        "SelfId": "Txt_BattleMenu_Retry_Menu02",
+        "Text": "Continua dall'autosalvataggio"
+      },
+      "Txt_BattleMenu_Retry_Menu03": {
+        "SelfId": "Txt_BattleMenu_Retry_Menu03",
+        "Text": "Continua da una chiesa"
+      },
+      "Txt_BattleMenu_Retry_Menu04": {
+        "SelfId": "Txt_BattleMenu_Retry_Menu04",
+        "Text": "Torna alla schermata del titolo"
+      },
+      "Txt_BattleMenu_Retry_Church": {
+        "SelfId": "Txt_BattleMenu_Retry_Church",
+        "Text": "Luogo:"
+      },
+      "Txt_BattleMenu_Retry_Mapname": {
+        "SelfId": "Txt_BattleMenu_Retry_Mapname",
+        "Text": "{0}"
+      },
+      "Txt_BattleMenu_Retry_AfterGold_Topic": {
+        "SelfId": "Txt_BattleMenu_Retry_AfterGold_Topic",
+        "Text": "Monete d'oro dopo continua:"
+      },
+      "Txt_BattleMenu_Retry_Time": {
+        "SelfId": "Txt_BattleMenu_Retry_Time",
+        "Text": "Tempo attuale"
+      },
+      "Txt_BattleMenu_Suffix_Multiple": {
+        "SelfId": "Txt_BattleMenu_Suffix_Multiple",
+        "Text": "<ERROR!>"
+      },
+      "Txt_BattleMenu_Suffix_Various": {
+        "SelfId": "Txt_BattleMenu_Suffix_Various",
+        "Text": "<ERROR!>"
+      },
+      "Txt_BattleMenu_Suffix_00": {
+        "SelfId": "Txt_BattleMenu_Suffix_00",
+        "Text": "A"
+      },
+      "Txt_BattleMenu_Suffix_01": {
+        "SelfId": "Txt_BattleMenu_Suffix_01",
+        "Text": "B"
+      },
+      "Txt_BattleMenu_Suffix_02": {
+        "SelfId": "Txt_BattleMenu_Suffix_02",
+        "Text": "C"
+      },
+      "Txt_BattleMenu_Suffix_03": {
+        "SelfId": "Txt_BattleMenu_Suffix_03",
+        "Text": "D"
+      },
+      "Txt_BattleMenu_Suffix_04": {
+        "SelfId": "Txt_BattleMenu_Suffix_04",
+        "Text": "E"
+      },
+      "Txt_BattleMenu_Suffix_05": {
+        "SelfId": "Txt_BattleMenu_Suffix_05",
+        "Text": "F"
+      },
+      "Txt_BattleMenu_Suffix_06": {
+        "SelfId": "Txt_BattleMenu_Suffix_06",
+        "Text": "G"
+      },
+      "Txt_BattleMenu_Suffix_07": {
+        "SelfId": "Txt_BattleMenu_Suffix_07",
+        "Text": "H"
+      },
+      "Txt_BattleMenu_Suffix_08": {
+        "SelfId": "Txt_BattleMenu_Suffix_08",
+        "Text": "I"
+      },
+      "Txt_BattleMenu_Suffix_09": {
+        "SelfId": "Txt_BattleMenu_Suffix_09",
+        "Text": "J"
+      },
+      "Txt_BattleMenu_Suffix_10": {
+        "SelfId": "Txt_BattleMenu_Suffix_10",
+        "Text": "K"
+      },
+      "Txt_BattleMenu_Suffix_11": {
+        "SelfId": "Txt_BattleMenu_Suffix_11",
+        "Text": "L"
+      },
+      "Txt_BattleMenu_Suffix_12": {
+        "SelfId": "Txt_BattleMenu_Suffix_12",
+        "Text": "M"
+      },
+      "Txt_BattleMenu_Suffix_13": {
+        "SelfId": "Txt_BattleMenu_Suffix_13",
+        "Text": "N"
+      },
+      "Txt_BattleMenu_Suffix_14": {
+        "SelfId": "Txt_BattleMenu_Suffix_14",
+        "Text": "O"
+      },
+      "Txt_BattleMenu_Suffix_15": {
+        "SelfId": "Txt_BattleMenu_Suffix_15",
+        "Text": "P"
+      },
+      "Txt_BattleMenu_Action_Damage": {
+        "SelfId": "Txt_BattleMenu_Action_Damage",
+        "Text": "{0}"
+      },
+      "Txt_BattleMenu_Action_Heal": {
+        "SelfId": "Txt_BattleMenu_Action_Heal",
+        "Text": "{0}"
+      },
+      "Txt_BattleMenu_Action_Miss": {
+        "SelfId": "Txt_BattleMenu_Action_Miss",
+        "Text": "Mancato!"
+      },
+      "Txt_BattleMenu_Message_RunConfirm": {
+        "SelfId": "Txt_BattleMenu_Message_RunConfirm",
+        "Text": "Vuoi fuggire da questa battaglia?"
+      },
+      "Txt_BattleMenu_Message_MBR_RunConfirm": {
+        "SelfId": "Txt_BattleMenu_Message_MBR_RunConfirm",
+        "Text": "Se ti arrendi perderai la quota d'iscrizione. Vuoi davvero gettare la spugna?"
+      },
+      "Txt_BattleMenu_Message_SPHERE_OF_LIGHT": {
+        "SelfId": "Txt_BattleMenu_Message_SPHERE_OF_LIGHT",
+        "Text": "La sfera della luce che la Regina Drago ti ha affidato ha cominciato a brillare intensamente! Vuoi provare a usarla?"
+      },
+      "Txt_BattleMenu_Message_Deffence": {
+        "SelfId": "Txt_BattleMenu_Message_Deffence",
+        "Text": "<Cap><IfPlrNoun_ACTOR(<DefSgl_ACTOR> si difendono,<DefSgl_ACTOR> si difende)>."
+      },
+      "Txt_BattleMenu_Message_AppearSingle": {
+        "SelfId": "Txt_BattleMenu_Message_AppearSingle",
+        "Text": "<IfPlrNoun_M_NAME(Compaiono <IndefSgl_M_NAME>,<IfSing_VALUE3(Compare <IndefSgl_M_NAME>,Compare un gruppo di <Plr_M_NAME>)>)>!"
+      },
+      "Txt_BattleMenu_Message_AppearVarious": {
+        "SelfId": "Txt_BattleMenu_Message_AppearVarious",
+        "Text": "Compare un gruppo di nemici!"
+      },
+      "Txt_BattleMenu_Message_FirstAttackSingle_01": {
+        "SelfId": "Txt_BattleMenu_Message_FirstAttackSingle_01",
+        "Text": "Ma <IfPlrNoun_M_NAME(<DefSgl_M_NAME> <IfGender_M_NAME(sono sorpresi e non riescono,sono sorprese e non riescono,)>,<IfSing_VALUE3(<DefSgl_M_NAME> <IfGender_M_NAME(è sorpreso e non riesce,è sorpresa e non riesce,)>,il nemico è sorpreso e non riesce)>)> a muoversi!"
+      },
+      "Txt_BattleMenu_Message_FirstAttackVarious_01": {
+        "SelfId": "Txt_BattleMenu_Message_FirstAttackVarious_01",
+        "Text": "Ma sono sorpresi e non riescono a muoversi!"
+      },
+      "Txt_BattleMenu_Message_FirstAttackSingle_02": {
+        "SelfId": "Txt_BattleMenu_Message_FirstAttackSingle_02",
+        "Text": "Ma <IfPlrNoun_M_NAME(<DefSgl_M_NAME> non si accorgono,<IfSing_VALUE3(<DefSgl_M_NAME> non si accorge,il nemico non si accorge)>)> della presenza <IfSolo(di {LEADER},del gruppo)>!"
+      },
+      "Txt_BattleMenu_Message_FirstAttackVarious_02": {
+        "SelfId": "Txt_BattleMenu_Message_FirstAttackVarious_02",
+        "Text": "Ma non notano <IfSolo(la tua presenza,la presenza del tuo gruppo)>!"
+      },
+      "Txt_BattleMenu_Message_FirstAttackedSingle_Hero": {
+        "SelfId": "Txt_BattleMenu_Message_FirstAttackedSingle_Hero",
+        "Text": "<Cap><IfPlrNoun_M_NAME(<DefSgl_M_NAME> sferrano,<IfSing_VALUE3(<DefSgl_M_NAME> sferra,Il nemico sferra)>)> il primo attacco prima che <IfSolo({LEADER},il gruppo)> abbia il tempo di prepararsi!"
+      },
+      "Txt_BattleMenu_Message_FirstAttackedVarious_Hero": {
+        "SelfId": "Txt_BattleMenu_Message_FirstAttackedVarious_Hero",
+        "Text": "I nemici attaccano prima che <IfSolo({LEADER},il gruppo)> abbia il tempo di prepararsi!"
+      },
+      "Txt_BattleMenu_Message_FirstAttackedSingle_02": {
+        "SelfId": "Txt_BattleMenu_Message_FirstAttackedSingle_02",
+        "Text": "<Cap><IfPlrNoun_M_NAME(<DefSgl_M_NAME> attaccano,<IfSing_VALUE3(<DefSgl_M_NAME> attacca,Il nemico attacca)>)> all'improvviso!"
+      },
+      "Txt_BattleMenu_Message_FirstAttackedVarious_02": {
+        "SelfId": "Txt_BattleMenu_Message_FirstAttackedVarious_02",
+        "Text": "Il gruppo di nemici attacca all'improvviso!"
+      },
+      "Txt_BattleMenu_Message_RunChallenge_Hero": {
+        "SelfId": "Txt_BattleMenu_Message_RunChallenge_Hero",
+        "Text": "<IfSolo(<Cap><DefSgl_LEADER>,Il gruppo)> se la svigna!"
+      },
+      "Txt_BattleMenu_Message_RunFailure": {
+        "SelfId": "Txt_BattleMenu_Message_RunFailure",
+        "Text": "Ma il nemico blocca la strada!"
+      },
+      "Txt_BattleMenu_Message_DefeatSingle": {
+        "SelfId": "Txt_BattleMenu_Message_DefeatSingle",
+        "Text": "<Cap><IfPlrNoun_M_NAME(<DefSgl_M_NAME> <IfGender_M_NAME(sono stati sconfitti,sono state sconfitte,)>,<IfSing_VALUE3(<DefSgl_M_NAME> <IfGender_M_NAME(è stato sconfitto,è stata sconfitta,)>,Il nemico è stato sconfitto)>)>!"
+      },
+      "Txt_BattleMenu_Message_DefeatVarious": {
+        "SelfId": "Txt_BattleMenu_Message_DefeatVarious",
+        "Text": "Il gruppo di nemici è stato sconfitto!"
+      },
+      "Txt_BattleMenu_Message_VanishSingle": {
+        "SelfId": "Txt_BattleMenu_Message_VanishSingle",
+        "Text": "<Cap><IfPlrNoun_M_NAME(<DefSgl_M_NAME> scompaiono,<IfSing_VALUE3(<DefSgl_M_NAME> scompare,Il nemico scompare)>)>."
+      },
+      "Txt_BattleMenu_Message_VanishVarious": {
+        "SelfId": "Txt_BattleMenu_Message_VanishVarious",
+        "Text": "Il gruppo di nemici scompare."
+      },
+      "Txt_BattleMenu_Message_Lose_Hero": {
+        "SelfId": "Txt_BattleMenu_Message_Lose_Hero",
+        "Text": "Oh, no! <Cap><DefSgl_LEADER> è <IfGender_LEADER(morto,morta,morto)>!<WAIT>[3]"
+      },
+      "Txt_BattleMenu_Message_Lose_Party": {
+        "SelfId": "Txt_BattleMenu_Message_Lose_Party",
+        "Text": "Il gruppo è stato sconfitto!<WAIT>[3]"
+      },
+      "Txt_BattleMenu_Message_DamageSingle": {
+        "SelfId": "Txt_BattleMenu_Message_DamageSingle",
+        "Text": "<Cap><DefSgl_TARGET> subisce {VALUE} <IfSing_VALUE(punto,punti)> di danno!"
+      },
+      "Txt_BattleMenu_Message_DamageMultiple": {
+        "SelfId": "Txt_BattleMenu_Message_DamageMultiple",
+        "Text": "Ciascun nemico colpito subisce {VALUE} <IfSing_VALUE(punto,punti)> di danno!"
+      },
+      "Txt_BattleMenu_Message_DamageContinuous": {
+        "SelfId": "Txt_BattleMenu_Message_DamageContinuous",
+        "Text": "<Cap><DefSgl_TARGET> subisce un totale di {VALUE} <IfSing_VALUE(punto,punti)> di danno!"
+      },
+      "Txt_BattleMenu_Message_DamagedSingle": {
+        "SelfId": "Txt_BattleMenu_Message_DamagedSingle",
+        "Text": "<Cap><DefSgl_TARGET> subisce {VALUE} <IfSing_VALUE(punto,punti)> di danno!"
+      },
+      "Txt_BattleMenu_Message_DamagedMultiple": {
+        "SelfId": "Txt_BattleMenu_Message_DamagedMultiple",
+        "Text": "Ogni membro del gruppo colpito subisce circa {VALUE} <IfSing_VALUE(punto,punti)> di danno!"
+      },
+      "Txt_BattleMenu_Message_CriticalAttack": {
+        "SelfId": "Txt_BattleMenu_Message_CriticalAttack",
+        "Text": "Colpo critico!"
+      },
+      "Txt_BattleMenu_Message_CriticalAttacked": {
+        "SelfId": "Txt_BattleMenu_Message_CriticalAttacked",
+        "Text": "<Cap><IfPlrNoun_ACTOR(<DefSgl_ACTOR> sferrano,<DefSgl_ACTOR> sferra)> un attacco disperato!"
+      },
+      "Txt_BattleMenu_Message_NONETARGET": {
+        "SelfId": "Txt_BattleMenu_Message_NONETARGET",
+        "Text": "Ma il loro bersaglio è già stato sconfitto!"
+      },
+      "Txt_BattleMenu_Message_MISS": {
+        "SelfId": "Txt_BattleMenu_Message_MISS",
+        "Text": "Niente da fare! <Cap><IfPlrNoun_TARGET(<DefSgl_TARGET> non subiscono,<IfSing_VALUE3(<DefSgl_TARGET> non subisce,<DefPlr_TARGET> non subiscono)>)> danni!"
+      },
+      "Txt_BattleMenu_Message_MISSED": {
+        "SelfId": "Txt_BattleMenu_Message_MISSED",
+        "Text": "Niente da fare! <Cap><IfSing_VALUE3(<DefSgl_TARGET> non subisce,Il gruppo non subisce)> danni!"
+      },
+      "Txt_BattleMenu_Message_NOEFFECT": {
+        "SelfId": "Txt_BattleMenu_Message_NOEFFECT",
+        "Text": "<Cap><IfPlrNoun_TARGET(<DefSgl_TARGET> non subiscono,<IfSing_VALUE3(<DefSgl_TARGET> non subisce,Il nemico non subisce)>)> alcun effetto!"
+      },
+      "Txt_BattleMenu_Message_NOEFFECTED": {
+        "SelfId": "Txt_BattleMenu_Message_NOEFFECTED",
+        "Text": "<Cap><IfSing_VALUE3(<DefSgl_TARGET> non subisce,Il gruppo non subisce)> alcun effetto!"
+      },
+      "Txt_BattleMenu_Message_Avoid": {
+        "SelfId": "Txt_BattleMenu_Message_Avoid",
+        "Text": "<Cap><IfSing_VALUE3(<DefSgl_TARGET>,Il gruppo)> schiva con agilità!"
+      },
+      "Txt_BattleMenu_Message_Avoid_Enemy": {
+        "SelfId": "Txt_BattleMenu_Message_Avoid_Enemy",
+        "Text": "<Cap><IfPlrNoun_TARGET(<DefSgl_TARGET> schivano,<IfSing_VALUE3(<DefSgl_TARGET> schiva,Il nemico schiva)>)> con agilità!"
+      },
+      "Txt_BattleMenu_Message_Death": {
+        "SelfId": "Txt_BattleMenu_Message_Death",
+        "Text": "Oh, no! <Cap><IfSing_VALUE3(<DefSgl_TARGET> è <IfGender_TARGET(morto,morta,morto)>,Diversi membri del gruppo sono morti)>!"
+      },
+      "Txt_BattleMenu_Message_Defeat": {
+        "SelfId": "Txt_BattleMenu_Message_Defeat",
+        "Text": "<Cap><IfPlrNoun_TARGET(<DefSgl_TARGET> <IfGender_TARGET(sono stati sconfitti,sono state sconfitte,)>,<IfSing_VALUE3(<IfSuffix_TARGET(<DefSgl_TARGET> <IfGender_TARGET(è stato sconfitto,è stata sconfitta,)>,<DefSgl_TARGET> <IfGender_TARGET(è stato sconfitto,è stata sconfitta,)>)>,Diversi nemici sono stati sconfitti)>)>!"
+      },
+      "Txt_BattleMenu_Message_SpecialResult_01": {
+        "SelfId": "Txt_BattleMenu_Message_SpecialResult_01",
+        "Text": "<Cap><IfPlrNoun_M_NAME(<DefSgl_M_NAME> scompaiono,<IfSing_VALUE3(<DefSgl_M_NAME> scompare,Il nemico scompare)>)> oltre l'orizzonte."
+      },
+      "Txt_BattleMenu_Message_SpecialResult_02": {
+        "SelfId": "Txt_BattleMenu_Message_SpecialResult_02",
+        "Text": "<Cap><IfSolo(<DefSgl_LEADER> sviene,Il gruppo sviene)> dalla stanchezza!"
+      },
+      "Txt_BattleMenu_Message_GetEXPGold_Party": {
+        "SelfId": "Txt_BattleMenu_Message_GetEXPGold_Party",
+        "Text": "Ciascun membro del gruppo riceve {VALUE} <IfSing_VALUE(punto,punti)> esperienza!\r\nIl gruppo ha ottenuto {VALUE2} <IfSing_VALUE2(moneta,monete)> d'oro!"
+      },
+      "Txt_BattleMenu_Message_GetEXPGold_Hero": {
+        "SelfId": "Txt_BattleMenu_Message_GetEXPGold_Hero",
+        "Text": "<Cap><DefSgl_ACTOR> riceve {VALUE} <IfSing_VALUE(punto,punti)> esperienza!\r\n<Cap><DefSgl_ACTOR> ha ottenuto {VALUE2} <IfSing_VALUE2(moneta,monete)> d'oro!"
+      },
+      "Txt_BattleMenu_Message_GetEXP_Party": {
+        "SelfId": "Txt_BattleMenu_Message_GetEXP_Party",
+        "Text": "Ciascun membro del gruppo riceve {VALUE} <IfSing_VALUE(punto,punti)> esperienza!"
+      },
+      "Txt_BattleMenu_Message_GetEXP_Hero": {
+        "SelfId": "Txt_BattleMenu_Message_GetEXP_Hero",
+        "Text": "<Cap><DefSgl_ACTOR> riceve {VALUE} <IfSing_VALUE(punto,punti)> esperienza!"
+      },
+      "Txt_BattleMenu_Message_GetGold": {
+        "SelfId": "Txt_BattleMenu_Message_GetGold",
+        "Text": "{LEADER} ha ottenuto {VALUE2} <IfSing_VALUE2(moneta,monete)> d'oro!"
+      },
+      "Txt_BattleMenu_Message_LevelUp": {
+        "SelfId": "Txt_BattleMenu_Message_LevelUp",
+        "Text": "<Cap><DefSgl_ACTOR> ha raggiunto il livello {VALUE}!"
+      },
+      "Txt_BattleMenu_Message_SkillGet": {
+        "SelfId": "Txt_BattleMenu_Message_SkillGet",
+        "Text": "<Cap>{ACTOR} ha imparato una nuova abilità dal mostro!"
+      },
+      "Txt_BattleMenu_Message_GetItem_01": {
+        "SelfId": "Txt_BattleMenu_Message_GetItem_01",
+        "Text": "<Cap><IfPlrNoun_M_NAME(<DefSgl_M_NAME> lasciano cadere,<DefSgl_M_NAME> lascia cadere)> un forziere!"
+      },
+      "Txt_BattleMenu_Message_GetItem_02": {
+        "SelfId": "Txt_BattleMenu_Message_GetItem_02",
+        "Text": "<Cap><DefSgl_LEADER> lo apre..."
+      },
+      "Txt_BattleMenu_Message_GetItem_03": {
+        "SelfId": "Txt_BattleMenu_Message_GetItem_03",
+        "Text": "Contiene <IndefSgl_I_NAME>!"
+      },
+      "Txt_BattleMenu_Message_GetItem_04": {
+        "SelfId": "Txt_BattleMenu_Message_GetItem_04",
+        "Text": "<Cap><DefSgl_ACTOR> prende <DefSgl_I_NAME>."
+      },
+      "Txt_BattleMenu_Message_GetItem_05": {
+        "SelfId": "Txt_BattleMenu_Message_GetItem_05",
+        "Text": "<Cap><DefSgl_I_NAME> è ora al sicuro nella borsa."
+      },
+      "Txt_BattleMenu_Message_GetItem_Thief": {
+        "SelfId": "Txt_BattleMenu_Message_GetItem_Thief",
+        "Text": "<Cap><DefSgl_ACTOR> ruba <IndefSgl_I_NAME>!"
+      },
+      "Txt_BattleMenu_Message_GetGold_Marchant": {
+        "SelfId": "Txt_BattleMenu_Message_GetGold_Marchant",
+        "Text": "<Cap><DefSgl_ACTOR> rinviene {VALUE} <IfSing_VALUE(moneta d'oro aggiuntiva,monete d'oro aggiuntive)>!"
+      },
+      "Txt_BattleMenu_Message_GetGold_Marchant_Multipul": {
+        "SelfId": "Txt_BattleMenu_Message_GetGold_Marchant_Multipul",
+        "Text": "<Cap><DefSgl_ACTOR> scopre {VALUE} <IfSing_VALUE(moneta,monete)> d'oro in più!"
+      },
+      "Txt_BattleMenu_Message_BASHIRURA": {
+        "SelfId": "Txt_BattleMenu_Message_BASHIRURA",
+        "Text": "<Cap><DefSgl_ACTOR> torna a unirsi al gruppo!"
+      },
+      "Txt_BattleMenu_Message_BASHIRURA_Multipul": {
+        "SelfId": "Txt_BattleMenu_Message_BASHIRURA_Multipul",
+        "Text": "<Cap><DefSgl_ACTOR> e compagnia tornano a unirsi al gruppo!"
+      },
+      "Txt_BattleMenu_Message_Sleep_": {
+        "SelfId": "Txt_BattleMenu_Message_Sleep_",
+        "Text": "<Cap><IfSing_VALUE3(<DefSgl_ACTOR>,Il gruppo)> dorme profondamente!"
+      },
+      "Txt_BattleMenu_Message_Sleep__Enemy": {
+        "SelfId": "Txt_BattleMenu_Message_Sleep__Enemy",
+        "Text": "<Cap><IfPlrNoun_ACTOR(<DefSgl_ACTOR> sono <IfGender_ACTOR(addormentati,addormentate,addormentati)>,<IfSolo(<DefSgl_ACTOR> è <IfGender_ACTOR(addormentato,addormentata,addormentato)>,Il nemico è addormentato)>)>!"
+      },
+      "Txt_BattleMenu_Message_Sleep_Recover": {
+        "SelfId": "Txt_BattleMenu_Message_Sleep_Recover",
+        "Text": "<Cap><IfSing_VALUE3(<DefSgl_ACTOR> si sveglia,Diversi membri del gruppo si svegliano)>!"
+      },
+      "Txt_BattleMenu_Message_Sleep_Recover_Enemy": {
+        "SelfId": "Txt_BattleMenu_Message_Sleep_Recover_Enemy",
+        "Text": "<Cap><IfPlrNoun_ACTOR(<DefSgl_ACTOR> si svegliano,<IfSolo(<DefSgl_ACTOR> si sveglia,Il nemico si sveglia)>)>!"
+      },
+      "Txt_BattleMenu_Message_Sleep_Recover_Impact": {
+        "SelfId": "Txt_BattleMenu_Message_Sleep_Recover_Impact",
+        "Text": "<Cap><IfSing_VALUE3(<DefSgl_TARGET> si sveglia,Diversi membri del gruppo si svegliano)>!"
+      },
+      "Txt_BattleMenu_Message_Sleep_Recover_Impact_Enemy": {
+        "SelfId": "Txt_BattleMenu_Message_Sleep_Recover_Impact_Enemy",
+        "Text": "<Cap><IfPlrNoun_TARGET(<DefSgl_TARGET> si svegliano,<IfSing_VALUE3(<DefSgl_TARGET> si sveglia,Il nemico si sveglia)>)>!"
+      },
+      "Txt_BattleMenu_Message_Sleep_Recover_Attacked": {
+        "SelfId": "Txt_BattleMenu_Message_Sleep_Recover_Attacked",
+        "Text": "<Cap><IfSing_VALUE3(<DefSgl_TARGET> si sveglia,Diversi membri del gruppo si svegliano)>!"
+      },
+      "Txt_BattleMenu_Message_Sleep_Recover_Attacked_Enemy": {
+        "SelfId": "Txt_BattleMenu_Message_Sleep_Recover_Attacked_Enemy",
+        "Text": "<Cap><IfPlrNoun_TARGET(<DefSgl_TARGET> si svegliano,<IfSing_VALUE3(<DefSgl_TARGET> si sveglia,Il nemico si sveglia)>)>!"
+      },
+      "Txt_BattleMenu_Message_Sleep_Success_Enemy": {
+        "SelfId": "Txt_BattleMenu_Message_Sleep_Success_Enemy",
+        "Text": "<Cap><IfPlrNoun_TARGET(<DefSgl_TARGET> si addormentano,<IfSing_VALUE3(<IfSuffix_TARGET(<DefSgl_TARGET> si addormenta,<DefSgl_TARGET> si addormenta)>,Diversi nemici si addormentano)>)>!"
+      },
+      "Txt_BattleMenu_Message_Sleep_Success_Friend": {
+        "SelfId": "Txt_BattleMenu_Message_Sleep_Success_Friend",
+        "Text": "<Cap><IfSing_VALUE3(<DefSgl_TARGET> si addormenta,Diversi membri del gruppo si addormentano)> a causa dell'incantesimo!"
+      },
+      "Txt_BattleMenu_Message_Sleep_Failure": {
+        "SelfId": "Txt_BattleMenu_Message_Sleep_Failure",
+        "Text": "<Cap><IfSing_VALUE3(<DefSgl_TARGET> non si addormenta,Il gruppo non si addormenta)>!"
+      },
+      "Txt_BattleMenu_Message_Sleep_Failure_Enemy": {
+        "SelfId": "Txt_BattleMenu_Message_Sleep_Failure_Enemy",
+        "Text": "<Cap><IfPlrNoun_TARGET(<DefSgl_TARGET> non si addormentano,<IfSing_VALUE3(<IfSuffix_TARGET(<DefSgl_TARGET> non si addormenta,<DefSgl_TARGET> non si addormenta)>,Diversi nemici non si addormentano)>)>!"
+      },
+      "Txt_BattleMenu_Message_Confusion": {
+        "SelfId": "Txt_BattleMenu_Message_Confusion",
+        "Text": "<Cap><IfSing_VALUE3(<DefSgl_ACTOR> è <IfGender_ACTOR(confuso,confusa,confuso)>,Il gruppo è confuso)>!"
+      },
+      "Txt_BattleMenu_Message_Confusion_Enemy": {
+        "SelfId": "Txt_BattleMenu_Message_Confusion_Enemy",
+        "Text": "<Cap><IfPlrNoun_ACTOR(<DefSgl_ACTOR> sono <IfGender_ACTOR(confusi,confuse,confusi)>,<IfSing_VALUE3(<DefSgl_ACTOR> è <IfGender_ACTOR(confuso,confusa,confuso)>,Il nemico è confuso)>)>!"
+      },
+      "Txt_BattleMenu_Message_Confusion_Success": {
+        "SelfId": "Txt_BattleMenu_Message_Confusion_Success",
+        "Text": "<Cap><IfSing_VALUE3(<DefSgl_TARGET> va,Diversi membri del gruppo vanno)> in confusione!"
+      },
+      "Txt_BattleMenu_Message_Confusion_Success_Enemy": {
+        "SelfId": "Txt_BattleMenu_Message_Confusion_Success_Enemy",
+        "Text": "<Cap><IfPlrNoun_TARGET(<DefSgl_TARGET> vanno,<IfSing_VALUE3(<DefSgl_TARGET> va,Diversi nemici vanno)>)> in confusione!"
+      },
+      "Txt_BattleMenu_Message_Confusion_Recover": {
+        "SelfId": "Txt_BattleMenu_Message_Confusion_Recover",
+        "Text": "<Cap><IfSing_VALUE3(<DefSgl_TARGET>,Il gruppo)> riprende i sensi!"
+      },
+      "Txt_BattleMenu_Message_Confusion_Recover_Enemy": {
+        "SelfId": "Txt_BattleMenu_Message_Confusion_Recover_Enemy",
+        "Text": "<Cap><IfPlrNoun_TARGET(<DefSgl_TARGET> riprendono,<IfSing_VALUE3(<IfSuffix_TARGET(<DefSgl_TARGET> riprende,<DefSgl_TARGET> riprende)>,Diversi nemici riprendono)>)> i sensi!"
+      },
+      "Txt_BattleMenu_Message_Confusion_Recover_Impact": {
+        "SelfId": "Txt_BattleMenu_Message_Confusion_Recover_Impact",
+        "Text": "<Cap><IfSing_VALUE3(<DefSgl_TARGET>,Il gruppo)> riprende i sensi!"
+      },
+      "Txt_BattleMenu_Message_Confusion_Recover_Impact_Enemy": {
+        "SelfId": "Txt_BattleMenu_Message_Confusion_Recover_Impact_Enemy",
+        "Text": "<Cap><IfPlrNoun_TARGET(<DefSgl_TARGET> riprendono,<IfSing_VALUE3(<IfSuffix_TARGET(<DefSgl_TARGET> riprende,<DefSgl_TARGET> riprende)>,Diversi nemici riprendono)>)> i sensi!"
+      },
+      "Txt_BattleMenu_Message_Paralysis": {
+        "SelfId": "Txt_BattleMenu_Message_Paralysis",
+        "Text": "<Cap><IfSing_VALUE3(<DefSgl_ACTOR>,Il gruppo)> è <IfGender_ACTOR(paralizzato,paralizzata,paralizzato)> e non può agire!"
+      },
+      "Txt_BattleMenu_Message_Paralysis_Enemy": {
+        "SelfId": "Txt_BattleMenu_Message_Paralysis_Enemy",
+        "Text": "<Cap><IfPlrNoun_TARGET(<DefSgl_TARGET> sono  paralizzat<IfGender_TARGET(i,e,)> e non possono,<IfSing_VALUE3(<IfSuffix_TARGET(<DefSgl_TARGET>,<DefSgl_TARGET>)> è paralizzat<IfGender_TARGET(o,a,)> e non può,Diversi nemici sono paralizzati e non possono)>)> agire!"
+      },
+      "Txt_BattleMenu_Message_Paralysis_Success": {
+        "SelfId": "Txt_BattleMenu_Message_Paralysis_Success",
+        "Text": "<Cap><IfSing_VALUE3(<DefSgl_TARGET> <IfGender_TARGET(è paralizzato,è paralizzata,)>,Diversi membri del gruppo sono paralizzati)>!"
+      },
+      "Txt_BattleMenu_Message_Paralysis_Success_Enemy": {
+        "SelfId": "Txt_BattleMenu_Message_Paralysis_Success_Enemy",
+        "Text": "<Cap><IfPlrNoun_TARGET(<DefSgl_TARGET> sono <IfGender_TARGET(paralizzati,paralizzate,paralizzati)>,<IfSing_VALUE3(<DefSgl_TARGET> è <IfGender_TARGET(paralizzato,paralizzata,paralizzato)>,Il nemico è paralizzato)>)>!"
+      },
+      "Txt_BattleMenu_Message_Paralysis_Avoid": {
+        "SelfId": "Txt_BattleMenu_Message_Paralysis_Avoid",
+        "Text": "<Cap><IfSing_VALUE3(<DefSgl_TARGET> schiva,Il gruppo schiva)> il respiro!"
+      },
+      "Txt_BattleMenu_Message_Paralysis_Avoid_Enemy": {
+        "SelfId": "Txt_BattleMenu_Message_Paralysis_Avoid_Enemy",
+        "Text": "<Cap><IfPlrNoun_TARGET(<DefSgl_TARGET> schivano,<IfSing_VALUE3(<DefSgl_TARGET> schiva,Il nemico schiva)>)> il respiro!"
+      },
+      "Txt_BattleMenu_Message_Paralysis_Recover": {
+        "SelfId": "Txt_BattleMenu_Message_Paralysis_Recover",
+        "Text": "<Cap><IfSing_VALUE3(<DefSgl_TARGET> non è più <IfGender_TARGET(paralizzato,paralizzata,paralizzato)>,Il gruppo non è più paralizzato)>."
+      },
+      "Txt_BattleMenu_Message_Paralysis_Recover_Enemy": {
+        "SelfId": "Txt_BattleMenu_Message_Paralysis_Recover_Enemy",
+        "Text": "<Cap><IfPlrNoun_TARGET(<DefSgl_TARGET> non sono più <IfGender_TARGET(paralizzati,paralizzate,paralizzati)>,<IfSing_VALUE3(<DefSgl_TARGET> non è più <IfGender_TARGET(paralizzato,paralizzata,paralizzato)>,Il nemico non è più paralizzato)>)>."
+      },
+      "Txt_BattleMenu_Message_Poison_Success": {
+        "SelfId": "Txt_BattleMenu_Message_Poison_Success",
+        "Text": "<Cap><IfPlrNoun_TARGET(<DefSgl_TARGET> <IfGender_TARGET(sono avvelenati,sono avvelenate,)>,<DefSgl_TARGET> <IfGender_TARGET(è avvelenato,è avvelenata,)>)>!"
+      },
+      "Txt_BattleMenu_Message_Poison_Recover_01": {
+        "SelfId": "Txt_BattleMenu_Message_Poison_Recover_01",
+        "Text": "<Cap><IfPlrNoun_TARGET(<DefSgl_TARGET> non sono più <IfGender_TARGET(avvelenati,avvelenate,)>,<DefSgl_TARGET> non è più <IfGender_TARGET(avvelenato,avvelenata,)>)>."
+      },
+      "Txt_BattleMenu_Message_Poison_Recover_02_Enemy": {
+        "SelfId": "Txt_BattleMenu_Message_Poison_Recover_02_Enemy",
+        "Text": "<Cap><IfPlrNoun_TARGET(<DefSgl_TARGET> non sono più <IfGender_TARGET(avvelenati,avvelenate,avvelenati)>,<IfSing_VALUE3(<DefSgl_TARGET> non è più <IfGender_TARGET(avvelenato,avvelenata,avvelenato)>,Il nemico non è più avvelenato)>)>."
+      },
+      "Txt_BattleMenu_Message_Curse": {
+        "SelfId": "Txt_BattleMenu_Message_Curse",
+        "Text": "<Cap><IfPlrNoun_ACTOR(<DefSgl_ACTOR> sono <IfGender_ACTOR(maledetti,maledette,maledetti)> e non possono muoversi,<IfSuffix_ACTOR(<Sgl_ACTOR> è <IfGender_ACTOR(maledetto,maledetta,maledetto)> e non può muoversi,<DefSgl_ACTOR> è <IfGender_ACTOR(maledetto,maledetta,maledetto)> e non può muoversi)>)>!"
+      },
+      "Txt_BattleMenu_Message_Magic": {
+        "SelfId": "Txt_BattleMenu_Message_Magic",
+        "Text": "<Cap><IfPlrNoun_ACTOR(<DefSgl_ACTOR> lanciano,<DefSgl_ACTOR> lancia)> {S_NAME}!"
+      },
+      "Txt_BattleMenu_Message_LackMP": {
+        "SelfId": "Txt_BattleMenu_Message_LackMP",
+        "Text": "PM insufficienti!"
+      },
+      "Txt_BattleMenu_Message_MPDecrease": {
+        "SelfId": "Txt_BattleMenu_Message_MPDecrease",
+        "Text": "<Cap><IfSing_VALUE3(<DefSgl_TARGET>,Il gruppo)> vede i suoi PM ridotti di {VALUE}!"
+      },
+      "Txt_BattleMenu_Message_MPDecrease_Enemy": {
+        "SelfId": "Txt_BattleMenu_Message_MPDecrease_Enemy",
+        "Text": "<Cap><IfPlrNoun_TARGET(<DefSgl_TARGET> cedono,<IfSing_VALUE3(<IfSuffix_TARGET(<Sgl_TARGET>,<DefSgl_TARGET>)> cede,Il nemico cede)>)> {VALUE} PM!"
+      },
+      "Txt_BattleMenu_Message_MPHeal": {
+        "SelfId": "Txt_BattleMenu_Message_MPHeal",
+        "Text": "<Cap><IfSing_VALUE3(<DefSgl_TARGET>,Il gruppo)> recupera i suoi PM!"
+      },
+      "Txt_BattleMenu_Message_Heal": {
+        "SelfId": "Txt_BattleMenu_Message_Heal",
+        "Text": "Le ferite <IfSing_VALUE3(di <DefSgl_TARGET>,del gruppo)> sono guarite!"
+      },
+      "Txt_BattleMenu_Message_Heal_Enemy": {
+        "SelfId": "Txt_BattleMenu_Message_Heal_Enemy",
+        "Text": "<Cap><IfSing_VALUE3(<IfSuffix_TARGET(<Sgl_TARGET>,<DefSgl_TARGET>)>,Il nemico)> ha recuperato salute!"
+      },
+      "Txt_BattleMenu_Message_UseItem_01": {
+        "SelfId": "Txt_BattleMenu_Message_UseItem_01",
+        "Text": "<Cap><DefSgl_ACTOR> usa <DefSgl_I_NAME>."
+      },
+      "Txt_BattleMenu_Message_Invalid": {
+        "SelfId": "Txt_BattleMenu_Message_Invalid",
+        "Text": "Ma non succede nulla."
+      },
+      "Txt_BattleMenu_Message_Run": {
+        "SelfId": "Txt_BattleMenu_Message_Run",
+        "Text": "<Cap><IfSing_VALUE3(<IfSuffix_TARGET(<DefSgl_TARGET> scappa via,<DefSgl_TARGET> scappa via)>,Il nemico scappa via)> urlando!"
+      },
+      "Txt_BattleMenu_Message_NoEffected_Asutoron_Enemy": {
+        "SelfId": "Txt_BattleMenu_Message_NoEffected_Asutoron_Enemy",
+        "Text": "<Cap><IfSing_VALUE3(<IfSuffix_TARGET(<Sgl_TARGET>,<DefSgl_TARGET>)> è <IfGender_TARGET(duro,dura,duro)>,Il nemico è duro)> come l'acciaio e non subisce alcun effetto!"
+      },
+      "Txt_BattleMenu_MBR_Message_Win": {
+        "SelfId": "Txt_BattleMenu_MBR_Message_Win",
+        "Text": "Ben fatto, hai vinto!"
+      },
+      "Txt_BattleMenu_MBR_Message_Lose": {
+        "SelfId": "Txt_BattleMenu_MBR_Message_Lose",
+        "Text": "Oh, cielo, la tua squadra è stata annientata..."
+      },
+      "Txt_BattleMenu_MBR_Message_Surrender": {
+        "SelfId": "Txt_BattleMenu_MBR_Message_Surrender",
+        "Text": "Decidi di arrenderti prima che le cose si mettano male..."
+      },
+      "Txt_BattleMenu_Retry_Message_Retry": {
+        "SelfId": "Txt_BattleMenu_Retry_Message_Retry",
+        "Text": "Continua dall'inizio dell'ultimo combattimento."
+      },
+      "Txt_BattleMenu_Retry_Message_AutoSave": {
+        "SelfId": "Txt_BattleMenu_Retry_Message_AutoSave",
+        "Text": "Continua dall'autosalvataggio più recente."
+      },
+      "Txt_BattleMenu_Retry_Message_AutoSaveNone": {
+        "SelfId": "Txt_BattleMenu_Retry_Message_AutoSaveNone",
+        "Text": "Non hai slot di autosalvataggio al momento."
+      },
+      "Txt_BattleMenu_Retry_Message_Church": {
+        "SelfId": "Txt_BattleMenu_Retry_Message_Church",
+        "Text": "Continua dal tuo ultimo salvataggio.\r\n(Perderai {VALUE} <IfSing_VALUE(moneta,monete)> d'oro.)"
+      },
+      "Txt_BattleMenu_Retry_Message_BackTitle": {
+        "SelfId": "Txt_BattleMenu_Retry_Message_BackTitle",
+        "Text": "Ritorno al menu di selezione diario dell'avventura.\r\n(I progressi non salvati andranno persi e non potrai tornare al menu di riprova.)"
+      },
+      "Txt_BattleMenu_Retry_Message_Confirm": {
+        "SelfId": "Txt_BattleMenu_Retry_Message_Confirm",
+        "Text": "Vuoi continuare la tua avventura?<NO_INPUT>"
+      },
+      "Txt_BattleMenu_Retry_Message_BackConfirm": {
+        "SelfId": "Txt_BattleMenu_Retry_Message_BackConfirm",
+        "Text": "Confermi di voler tornare al menu di selezione diario dell'avventura?\r\n(I progressi non salvati andranno persi.)<NO_INPUT>"
+      },
+      "Txt_BattleMenu_Retry_Message_DataNone": {
+        "SelfId": "Txt_BattleMenu_Retry_Message_DataNone",
+        "Text": "Non hai dati di autosalvataggio al momento."
+      },
+      "Txt_BattleMenu_Retry_Message_DataBroken": {
+        "SelfId": "Txt_BattleMenu_Retry_Message_DataBroken",
+        "Text": "Impossibile caricare l'autosalvataggio. Continua la tua avventura in un altro modo."
+      }
+    }
+  }
+]

@@ -1,0 +1,96 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_AppearanceChange",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_AppearanceChange_Message_Start": {
+        "SelfId": "Txt_AppearanceChange_Message_Start",
+        "Text": "안녕. 또 와 줬구나.\r\n\r\n<KEY_WAIT>\r\n그럼 바로 모습을 바꿀래?<NO_INPUT>"
+      },
+      "Txt_AppearanceChange_Message_First": {
+        "SelfId": "Txt_AppearanceChange_Message_First",
+        "Text": "난 호미초야.\r\n이래 봬도 패션 디자이너지.\r\n<KEY_WAIT>\r\n머리카락을 자르거나 물들이고\r\n뭣하면 목소리까지 바꿀 수 있어.\r\n<KEY_WAIT>\r\n너도 모습을 바꾸고 싶지 않아?\r\n그럼 나한테 맡겨.\r\n뭐, 골드는 좀 받을 거지만.<KEY_WAIT>\r\n좋아...... 본론으로 들어가서\r\n모습을 바꾸고 싶은 사람이 있어?<NO_INPUT>"
+      },
+      "Txt_AppearanceChange_Message_Top": {
+        "SelfId": "Txt_AppearanceChange_Message_Top",
+        "Text": "모습을 바꾸고 싶은 사람이 있어?"
+      },
+      "Txt_AppearanceChange_Message_NameSelect": {
+        "SelfId": "Txt_AppearanceChange_Message_NameSelect",
+        "Text": "누구로 할까?<NO_INPUT>"
+      },
+      "Txt_AppearanceChange_Message_LooksSelect": {
+        "SelfId": "Txt_AppearanceChange_Message_LooksSelect",
+        "Text": "{ACTOR} 맞지?\r\n어떤 모습으로 변경할래?<NO_INPUT>"
+      },
+      "Txt_AppearanceChange_Message_HairColorSelect": {
+        "SelfId": "Txt_AppearanceChange_Message_HairColorSelect",
+        "Text": "머리카락 색은 어떻게 할까?<NO_INPUT>"
+      },
+      "Txt_AppearanceChange_Message_HairColorSelectHero": {
+        "SelfId": "Txt_AppearanceChange_Message_HairColorSelectHero",
+        "Text": "아~ {HERO}<IfKRVowel_HERO(는,은)> 지금 그 머리가 제일 잘 어울려.\r\n머리카락 색만 바꾸자.\r\n어떤 색으로 할래?<NO_INPUT>"
+      },
+      "Txt_AppearanceChange_Message_VoiceSelect": {
+        "SelfId": "Txt_AppearanceChange_Message_VoiceSelect",
+        "Text": "목소리는 어떻게 할 거야?"
+      },
+      "Txt_AppearanceChange_Message_NoChange": {
+        "SelfId": "Txt_AppearanceChange_Message_NoChange",
+        "Text": "그럼 아무것도 안 변하는데?\r\n안 바꿔도 되겠어?<NO_INPUT>"
+      },
+      "Txt_AppearanceChange_Message_LooksChangeConfirm": {
+        "SelfId": "Txt_AppearanceChange_Message_LooksChangeConfirm",
+        "Text": "오케이, 이 모습으로 하는 거지?\r\n그럼 {VALUE}골드 받을게."
+      },
+      "Txt_AppearanceChange_Message_LooksChangeStart": {
+        "SelfId": "Txt_AppearanceChange_Message_LooksChangeStart",
+        "Text": "땡큐.\r\n그럼 잠시만 기다려~"
+      },
+      "Txt_AppearanceChange_Message_LooksChangeFinish": {
+        "SelfId": "Txt_AppearanceChange_Message_LooksChangeFinish",
+        "Text": "자, 끝났어."
+      },
+      "Txt_AppearanceChange_Message_CanNotChangeDeath": {
+        "SelfId": "Txt_AppearanceChange_Message_CanNotChangeDeath",
+        "Text": "으음...... 아무리 나라도\r\n죽은 사람은 좀 힘들겠는데......"
+      },
+      "Txt_AppearanceChange_Message_CanNotChangeHero": {
+        "SelfId": "Txt_AppearanceChange_Message_CanNotChangeHero",
+        "Text": "으음... {HERO}.\r\n지금 네 모습 상당히 괜찮거든.\r\n딱히 안 건드리는 게 좋을 것 같아."
+      },
+      "Txt_AppearanceChange_Message_Shortage": {
+        "SelfId": "Txt_AppearanceChange_Message_Shortage",
+        "Text": "근데 너 돈이 전혀 없구나......\r\n{VALUE}골드 정도는 받고 싶은걸."
+      },
+      "Txt_AppearanceChange_Message_Cancel": {
+        "SelfId": "Txt_AppearanceChange_Message_Cancel",
+        "Text": "어, 그만둘래?\r\n알았어~"
+      },
+      "Txt_AppearanceChange_Message_AddChangeConfirm": {
+        "SelfId": "Txt_AppearanceChange_Message_AddChangeConfirm",
+        "Text": "그 외에 바꾸고 싶은 사람 있어?<NO_INPUT>"
+      },
+      "Txt_AppearanceChange_Message_Finish": {
+        "SelfId": "Txt_AppearanceChange_Message_Finish",
+        "Text": "안녕~\r\n또 모습을 바꾸고 싶어지면 부담 없이 찾아와."
+      },
+      "Txt_AppearanceChange_Message_CanNotChange": {
+        "SelfId": "Txt_AppearanceChange_Message_CanNotChange",
+        "Text": "으음...\r\n지금은 모습을 바꿀 수 있는 사람이 없는 것 같네."
+      },
+      "Txt_AppearanceChange_Message_NoChangeLooks": {
+        "SelfId": "Txt_AppearanceChange_Message_NoChangeLooks",
+        "Text": "그럼 하나도 안 변하는데?\r\n이대로 계속할 거야?<NO_INPUT>"
+      }
+    }
+  }
+]

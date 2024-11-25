@@ -1,0 +1,64 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ForceFeedbackAssetTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'ForceFeedbackAssetTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "TestLarge": {
+        "ForceFeedbackAsset": {
+          "AssetPathName": "/Game/Nicola/Data/Vibration/FFE_Large.FFE_Large",
+          "SubPathString": ""
+        }
+      },
+      "TestSmall": {
+        "ForceFeedbackAsset": {
+          "AssetPathName": "/Game/Nicola/Data/Vibration/FFE_Small.FFE_Small",
+          "SubPathString": ""
+        }
+      },
+      "TestWave": {
+        "ForceFeedbackAsset": {
+          "AssetPathName": "/Game/Nicola/Data/Vibration/FFE_Wave.FFE_Wave",
+          "SubPathString": ""
+        }
+      },
+      "TestWave_S": {
+        "ForceFeedbackAsset": {
+          "AssetPathName": "/Game/Nicola/Data/Vibration/FFE_WaveS.FFE_WaveS",
+          "SubPathString": ""
+        }
+      },
+      "UI_Confirm_S": {
+        "ForceFeedbackAsset": {
+          "AssetPathName": "/Game/Nicola/Data/Vibration/FFE_Confirm.FFE_Confirm",
+          "SubPathString": ""
+        }
+      },
+      "UI_Cancel": {
+        "ForceFeedbackAsset": {
+          "AssetPathName": "/Game/Nicola/Data/Vibration/FFE_Error.FFE_Error",
+          "SubPathString": ""
+        }
+      },
+      "FaithUpLarge": {
+        "ForceFeedbackAsset": {
+          "AssetPathName": "/Game/Nicola/Data/Vibration/FFE_FaithUpLarge.FFE_FaithUpLarge",
+          "SubPathString": ""
+        }
+      },
+      "FaithUpSmall": {
+        "ForceFeedbackAsset": {
+          "AssetPathName": "/Game/Nicola/Data/Vibration/FFE_FaithUpSmall.FFE_FaithUpSmall",
+          "SubPathString": ""
+        }
+      }
+    }
+  }
+]

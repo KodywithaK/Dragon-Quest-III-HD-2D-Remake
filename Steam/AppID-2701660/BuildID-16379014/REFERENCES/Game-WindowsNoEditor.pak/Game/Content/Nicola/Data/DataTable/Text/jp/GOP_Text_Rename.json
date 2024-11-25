@@ -1,0 +1,120 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_Rename",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Rename_Message_Start": {
+        "SelfId": "Txt_Rename_Message_Start",
+        "Text": "わしは　<RUBY>命名神[めいめいしん]マリナンさまに\r\nつかえる<RUBY>神官[しんかん]じゃ。\r\n<KEY_WAIT>\r\nおぬしたちの<RUBY>中[なか]で　いまの<RUBY>名前[なまえ]を\r\nかえたい<RUBY>者[もの]がおったら　わしに\r\nいうがよい。<KEY_WAIT>\r\nだれか　<RUBY>名前[なまえ]をかえるか？<NO_INPUT>\r\n\r\n"
+      },
+      "Txt_Rename_Message_Top": {
+        "SelfId": "Txt_Rename_Message_Top",
+        "Text": "うむ　では　だれの<RUBY>名前[なまえ]を\r\nかえたいと　いうのじゃ？<NO_INPUT>"
+      },
+      "Txt_Rename_Message_NameSelect": {
+        "SelfId": "Txt_Rename_Message_NameSelect",
+        "Text": "{WORD}の　<RUBY>名前[なまえ]を　かえるのじゃな。\r\nでは　<RUBY>新[あたら]しい<RUBY>名前[なまえ]を　わしに\r\n<RUBY>教[おし]えてくれ。<NO_INPUT>"
+      },
+      "Txt_Rename_Message_NameDeside": {
+        "SelfId": "Txt_Rename_Message_NameDeside",
+        "Text": "うむ　{WORD}の　<RUBY>名前[なまえ]を\r\n{NAME}に　かえるのじゃな。\r\nほんとうに　それで　よいのじゃな？<NO_INPUT>"
+      },
+      "Txt_Rename_Message_NameChangeStart": {
+        "SelfId": "Txt_Rename_Message_NameChangeStart",
+        "Text": "おお　<RUBY>命名神[めいめいしん]マリナンよ！\r\n<RUBY>新[あら]たなる<RUBY>名[な]　{NAME}に\r\n<RUBY>神[かみ]の<RUBY>祝福[しゅくふく]を！！"
+      },
+      "Txt_Rename_Message_NameChangeFinish": {
+        "SelfId": "Txt_Rename_Message_NameChangeFinish",
+        "Text": "よーし！　これで　{WORD}は\r\nこれから　{NAME}と　<RUBY>名[な]のることが\r\nゆるされたぞ！"
+      },
+      "Txt_Rename_Message_AddNameChangeConfirm": {
+        "SelfId": "Txt_Rename_Message_AddNameChangeConfirm",
+        "Text": "ほかに　だれか　<RUBY>名前[なまえ]を\r\nかえたい<RUBY>者[もの]は　おるか？<NO_INPUT>"
+      },
+      "Txt_Rename_Message_Finish": {
+        "SelfId": "Txt_Rename_Message_Finish",
+        "Text": "そうか。<RUBY>名前[なまえ]をかえたくなったら\r\nいつでも　<RUBY>来[く]るがよいぞ。\r\n<RUBY>名前[なまえ]の<RUBY>守[まも]りが　あらんことを……。"
+      },
+      "Txt_Rename_Message_NameSelectAgain": {
+        "SelfId": "Txt_Rename_Message_NameSelectAgain",
+        "Text": "ほかの　<RUBY>名前[なまえ]に　かえるか？"
+      },
+      "Txt_Rename_Message_CanNotChangeDeath": {
+        "SelfId": "Txt_Rename_Message_CanNotChangeDeath",
+        "Text": "むっ　<RUBY>他人[たにん]の<RUBY>名前[なまえ]を　<RUBY>勝手[かって]に\r\nかえようと　いうのか？\r\nそれは　<RUBY>感心[かんしん]せんな。"
+      },
+      "Txt_Rename_Message_Cancel": {
+        "SelfId": "Txt_Rename_Message_Cancel",
+        "Text": "なんじゃ　<RUBY>名前[なまえ]を　かえないのか？\r\nまあ　それも　よかろう。"
+      },
+      "Txt_Rename_Message_NameError_Ban": {
+        "SelfId": "Txt_Rename_Message_NameError_Ban",
+        "Text": "{NAME}じゃな？　……むむっ\r\n<RUBY>命名神[めいめいしん]が　その<RUBY>名[な]は　イカンと\r\nいっておる！<KEY_WAIT>\r\nスマンが　<RUBY>他[ほか]の<RUBY>名前[なまえ]に\r\nしてもらえんじゃろうか？<NO_INPUT>\r\n"
+      },
+      "Txt_Rename_Message_OriginName": {
+        "SelfId": "Txt_Rename_Message_OriginName",
+        "Text": "ほう　もとの<RUBY>名前[なまえ]に　もどすと\r\nいうのじゃな。<KEY_WAIT>\r\n<RUBY>親[おや]の　つけてくれた<RUBY>名前[なまえ]じゃ\r\n<RUBY>大切[たいせつ]に　しなくてはな。うむうむ。<KEY_WAIT>\r\n{WORD}の　<RUBY>名前[なまえ]を　もとの\r\n{NAME}に　もどすぞ。よいな？<NO_INPUT>"
+      },
+      "Txt_Rename_Message_OriginNameChangeStart": {
+        "SelfId": "Txt_Rename_Message_OriginNameChangeStart",
+        "Text": "おお　<RUBY>命名神[めいめいしん]マリナンよ！\r\n{WORD}の　<RUBY>名[な]を　もとの　{NAME}に\r\nもどしたまえ！！"
+      },
+      "Txt_Rename_Message_OriginNameChangeFinish": {
+        "SelfId": "Txt_Rename_Message_OriginNameChangeFinish",
+        "Text": "よし！　おぬしの<RUBY>名[な]は\r\n{NAME}に　もどったぞ！"
+      },
+      "Txt_Rename_Message_BadNameFinalConfirm": {
+        "SelfId": "Txt_Rename_Message_BadNameFinalConfirm",
+        "Text": "<RUBY>命名神[めいめいしん]さまの　<RUBY>怒[いか]りにふれても\r\nわしは　しらんぞ！\r\nそれでも　かまわんのじゃな！？<NO_INPUT>"
+      },
+      "Txt_Rename_Message_BadNameChangeStart": {
+        "SelfId": "Txt_Rename_Message_BadNameChangeStart",
+        "Text": "……おお　<RUBY>命名神[めいめいしん]マリナンよ\r\n<RUBY>新[あら]たなる<RUBY>名[な]　{NAME}に\r\n<RUBY>神[かみ]の<RUBY>祝福[しゅくふく]……うわっ！！"
+      },
+      "Txt_Rename_Message_BadNameChangeFinish": {
+        "SelfId": "Txt_Rename_Message_BadNameChangeFinish",
+        "Text": "<RUBY>見[み]よ！　いわんことでは　ない！\r\nおぬしは　<RUBY>命名神[めいめいしん]の<RUBY>怒[いか]りに\r\nふれてしまったぞ！！<KEY_WAIT>\r\nおぬしの<RUBY>名[な]は　いっしょう\r\n{NAME}の　ままじゃ！！\r\n"
+      },
+      "Txt_Rename_Message_BadName": {
+        "SelfId": "Txt_Rename_Message_BadName",
+        "Text": "{NAME}じゃと……　おぬし\r\n<RUBY>名前[なまえ]というものを　なめておるのか？<NO_INPUT>"
+      },
+      "Txt_Rename_Message_BadNameConfirm": {
+        "SelfId": "Txt_Rename_Message_BadNameConfirm",
+        "Text": "では　<RUBY>名[な]をなめては　おらぬが\r\nそのような　<RUBY>名前[なまえ]をつけたいと\r\n<RUBY>申[もう]すのか？<NO_INPUT>"
+      },
+      "Txt_Rename_Message_BadNameCancel": {
+        "SelfId": "Txt_Rename_Message_BadNameCancel",
+        "Text": "ならば　ほかの<RUBY>名[な]にすることじゃ。\r\n{WORD}の　<RUBY>新[あたら]しい<RUBY>名前[なまえ]を\r\nわしに　<RUBY>教[おし]えてくれ。<NO_INPUT>"
+      },
+      "Txt_Rename_Message_CanNotNameChange": {
+        "SelfId": "Txt_Rename_Message_CanNotNameChange",
+        "Text": "なんと！　その<RUBY>名[な]は　<RUBY>命名神[めいめいしん]の\r\n<RUBY>怒[いか]りに　ふれておる！　<RUBY>名前[なまえ]を\r\nかえることは　できんぞ！<KEY_WAIT>\r\nそれでも　なお　かえたいのなら\r\n<RUBY>命名神[めいめいしん]の<RUBY>怒[いか]りを　とくため\r\n{VALUE}ゴールド　いただこう。<KEY_WAIT>\r\nそれで　よいかな。<NO_INPUT>\r\n\r\n"
+      },
+      "Txt_Rename_Message_PenaltyCancel": {
+        "SelfId": "Txt_Rename_Message_PenaltyCancel",
+        "Text": "では　やはり　そのままじゃ。"
+      },
+      "Txt_Rename_Message_PenaltyPay": {
+        "SelfId": "Txt_Rename_Message_PenaltyPay",
+        "Text": "{LEADER}は　{VALUE}ゴールドを\r\nさしだした。"
+      },
+      "Txt_Rename_Message_CanNameChange": {
+        "SelfId": "Txt_Rename_Message_CanNameChange",
+        "Text": "よろしい。では　{WORD}の\r\n<RUBY>新[あたら]しい<RUBY>名前[なまえ]を　<RUBY>教[おし]えてくれ。<NO_INPUT>"
+      },
+      "Txt_Rename_Message_PenaltyShotage": {
+        "SelfId": "Txt_Rename_Message_PenaltyShotage",
+        "Text": "ん？　ざんねんながら\r\nそんな<RUBY>大金[たいきん]は　ないようじゃな。\r\nいまは　ガマンするしかあるまい。"
+      }
+    }
+  }
+]

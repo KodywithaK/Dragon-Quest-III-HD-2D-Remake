@@ -1,0 +1,32 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_NPC_Talk_DesertShrine",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Talk_DesertShrine_1F_SUB_0_ACTOR_0110_010_1": {
+        "SelfId": "Txt_Talk_DesertShrine_1F_SUB_0_ACTOR_0110_010_1",
+        "Text": "*: Do you seek the magic key, wanderer<IfSolo(,s)>?"
+      },
+      "Txt_Talk_DesertShrine_1F_SUB_0_ACTOR_0110_010_2": {
+        "SelfId": "Txt_Talk_DesertShrine_1F_SUB_0_ACTOR_0110_010_2",
+        "Text": "*: In the northern part of the desert stands a great pyramid. It is within its depths that you will find the key. But beware<--->for it is a most treacherous place, filled with fiendish traps."
+      },
+      "Txt_Talk_DesertShrine_1F_SUB_0_ACTOR_0110_010_3": {
+        "SelfId": "Txt_Talk_DesertShrine_1F_SUB_0_ACTOR_0110_010_3",
+        "Text": "*: Before you enter, you must seek knowledge of its various contrivances in Ibis. Look for a great oasis to the west and there you shall find the city."
+      },
+      "Txt_Talk_DesertShrine_1F_SUB_0_ACTOR_0110_010_4": {
+        "SelfId": "Txt_Talk_DesertShrine_1F_SUB_0_ACTOR_0110_010_4",
+        "Text": "*: Then I shall not tell you that which you do not wish to hear..."
+      }
+    }
+  }
+]

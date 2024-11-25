@@ -1,0 +1,258 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_SearchObject_Jipang",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_SearchObject_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "SEARCH_Jipang_EVENT_0": {
+        "SelfId": "SEARCH_Jipang_EVENT_0",
+        "ObjectType": "ESearchObjectType::EVENT",
+        "ItemId": "None",
+        "ItemNum": 0,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": false,
+        "OverrideScriptName": "SearchObject_Ozabuton",
+        "FlagName": "EGOPEnumSearchType::NONE"
+      },
+      "SEARCH_Jipang_Out_GROUND_0": {
+        "SelfId": "SEARCH_Jipang_Out_GROUND_0",
+        "ObjectType": "ESearchObjectType::GROUND",
+        "ItemId": "ITEM_EQUIP_ACCESSORY_DRAGON_SCALES",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Jipang_Out_GROUND_0"
+      },
+      "SEARCH_Jipang_Out_GROUND_1": {
+        "SelfId": "SEARCH_Jipang_Out_GROUND_1",
+        "ObjectType": "ESearchObjectType::GROUND",
+        "ItemId": "None",
+        "ItemNum": 0,
+        "Gold": 600,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Jipang_Out_GROUND_1"
+      },
+      "SEARCH_Jipang_Out_POT_0": {
+        "SelfId": "SEARCH_Jipang_Out_POT_0",
+        "ObjectType": "ESearchObjectType::POT",
+        "ItemId": "ITEM_USE_ITEM_MAGIC_WATER",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Jipang_Out_POT_0"
+      },
+      "SEARCH_Jipang_House1_STORAGE_0": {
+        "SelfId": "SEARCH_Jipang_House1_STORAGE_0",
+        "ObjectType": "ESearchObjectType::STORAGE",
+        "ItemId": "ITEM_EQUIP_ARMOR_PLAIN_CLOTHES",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "SearchObject_JipangStorage",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Jipang_House1_STORAGE_0"
+      },
+      "SEARCH_Jipang_House2_STORAGE_0": {
+        "SelfId": "SEARCH_Jipang_House2_STORAGE_0",
+        "ObjectType": "ESearchObjectType::STORAGE",
+        "ItemId": "ITEM_EQUIP_HELMET_HARDWOOD_HEADWEAR",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "SearchObject_JipangStorage",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Jipang_House2_STORAGE_0"
+      },
+      "SEARCH_Jipang_House2_SACK_0": {
+        "SelfId": "SEARCH_Jipang_House2_SACK_0",
+        "ObjectType": "ESearchObjectType::SACK",
+        "ItemId": "ITEM_USE_ITEM_SEED_OF_WISDOM",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Jipang_House2_SACK_0"
+      },
+      "SEARCH_Jipang_House3_POT_0": {
+        "SelfId": "SEARCH_Jipang_House3_POT_0",
+        "ObjectType": "ESearchObjectType::POT",
+        "ItemId": "ITEM_USE_ITEM_SEED_OF_MAGIC",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Jipang_House3_POT_0"
+      },
+      "SEARCH_Jipang_House3_SACK_0": {
+        "SelfId": "SEARCH_Jipang_House3_SACK_0",
+        "ObjectType": "ESearchObjectType::SACK",
+        "ItemId": "ITEM_USE_ITEM_COAGULANT",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Jipang_House3_SACK_0"
+      },
+      "SEARCH_Jipang_House3_GROUND_0": {
+        "SelfId": "SEARCH_Jipang_House3_GROUND_0",
+        "ObjectType": "ESearchObjectType::GROUND",
+        "ItemId": "ITEM_IMPORTANT_HAMMER_OF_GAIA",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "Jipang_House3_Ground_00",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Jipang_House3_GROUND_0"
+      },
+      "SEARCH_Jipang_Storehouse_POT_0": {
+        "SelfId": "SEARCH_Jipang_Storehouse_POT_0",
+        "ObjectType": "ESearchObjectType::POT",
+        "ItemId": "ITEM_USE_ITEM_SEED_OF_STRENGTH",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Jipang_Storehouse_POT_0"
+      },
+      "SEARCH_Jipang_Storehouse_POT_1": {
+        "SelfId": "SEARCH_Jipang_Storehouse_POT_1",
+        "ObjectType": "ESearchObjectType::POT",
+        "ItemId": "ITEM_SMALL_MEDAL",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Jipang_Storehouse_POT_1"
+      },
+      "SEARCH_Jipang_Storehouse_POT_2": {
+        "SelfId": "SEARCH_Jipang_Storehouse_POT_2",
+        "ObjectType": "ESearchObjectType::POT",
+        "ItemId": "ITEM_EQUIP_WEAPON_DIVINE_DAGGER",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Jipang_Storehouse_POT_2"
+      },
+      "SEARCH_Jipang_Storehouse_POT_3": {
+        "SelfId": "SEARCH_Jipang_Storehouse_POT_3",
+        "ObjectType": "ESearchObjectType::POT",
+        "ItemId": "None",
+        "ItemNum": 0,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": false,
+        "OverrideScriptName": "Jipang_Storehouse_Pot_03",
+        "FlagName": "EGOPEnumSearchType::NONE"
+      },
+      "SEARCH_Jipang_Well_GROUND_0": {
+        "SelfId": "SEARCH_Jipang_Well_GROUND_0",
+        "ObjectType": "ESearchObjectType::GROUND",
+        "ItemId": "ITEM_EQUIP_ACCESSORY_PACIFIER",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Jipang_Well_GROUND_0"
+      },
+      "SEARCH_Jipang_BattleRoad_BARREL_0": {
+        "SelfId": "SEARCH_Jipang_BattleRoad_BARREL_0",
+        "ObjectType": "ESearchObjectType::BARREL",
+        "ItemId": "ITEM_USE_ITEM_SEED_OF_LIFE",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Jipang_BattleRoad_BARREL_0"
+      },
+      "SEARCH_Jipang_BattleRoad_POT_0": {
+        "SelfId": "SEARCH_Jipang_BattleRoad_POT_0",
+        "ObjectType": "ESearchObjectType::POT",
+        "ItemId": "ITEM_USE_ITEM_ELFIN_ELIXIR",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Jipang_BattleRoad_POT_0"
+      },
+      "SEARCH_Jipang_Castle_Room_POT_0": {
+        "SelfId": "SEARCH_Jipang_Castle_Room_POT_0",
+        "ObjectType": "ESearchObjectType::POT",
+        "ItemId": "ITEM_USE_ITEM_SEED_OF_MAGIC",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Jipang_Castle_Room_POT_0"
+      },
+      "SEARCH_Jipang_Castle_Room_POT_1": {
+        "SelfId": "SEARCH_Jipang_Castle_Room_POT_1",
+        "ObjectType": "ESearchObjectType::POT",
+        "ItemId": "ITEM_USE_ITEM_SEED_OF_STRENGTH",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Jipang_Castle_Room_POT_1"
+      },
+      "SEARCH_Jipang_Castle_Room_POT_2": {
+        "SelfId": "SEARCH_Jipang_Castle_Room_POT_2",
+        "ObjectType": "ESearchObjectType::POT",
+        "ItemId": "ITEM_SMALL_MEDAL",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Jipang_Castle_Room_POT_2"
+      },
+      "SEARCH_Jipang_Castle_Room_STORAGE_0": {
+        "SelfId": "SEARCH_Jipang_Castle_Room_STORAGE_0",
+        "ObjectType": "ESearchObjectType::STORAGE",
+        "ItemId": "ITEM_EQUIP_SHIELD_SCALE_SHIELD",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "SearchObject_JipangStorage",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Jipang_Castle_Room_STORAGE_0"
+      },
+      "SEARCH_Jipang_Castle_Room_STORAGE_1": {
+        "SelfId": "SEARCH_Jipang_Castle_Room_STORAGE_1",
+        "ObjectType": "ESearchObjectType::STORAGE",
+        "ItemId": "ITEM_EQUIP_ARMOR_TRAINING_TOGS",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "SearchObject_JipangStorage",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Jipang_Castle_Room_STORAGE_1"
+      }
+    }
+  }
+]

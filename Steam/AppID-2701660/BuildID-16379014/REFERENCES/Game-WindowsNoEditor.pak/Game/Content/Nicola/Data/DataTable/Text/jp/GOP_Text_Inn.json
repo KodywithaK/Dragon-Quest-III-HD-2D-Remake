@@ -1,0 +1,124 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_Inn",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Inn_UI_Top_01": {
+        "SelfId": "Txt_Inn_UI_Top_01",
+        "Text": "泊まる"
+      },
+      "Txt_Inn_UI_Top_02": {
+        "SelfId": "Txt_Inn_UI_Top_02",
+        "Text": "休む"
+      },
+      "Txt_Inn_UI_Top_03": {
+        "SelfId": "Txt_Inn_UI_Top_03",
+        "Text": "やめる"
+      },
+      "Txt_Inn_UI_Time_01": {
+        "SelfId": "Txt_Inn_UI_Time_01",
+        "Text": "朝まで"
+      },
+      "Txt_Inn_UI_Time_02": {
+        "SelfId": "Txt_Inn_UI_Time_02",
+        "Text": "昼まで"
+      },
+      "Txt_Inn_UI_Time_03": {
+        "SelfId": "Txt_Inn_UI_Time_03",
+        "Text": "夕方まで"
+      },
+      "Txt_Inn_UI_Time_04": {
+        "SelfId": "Txt_Inn_UI_Time_04",
+        "Text": "夜まで"
+      },
+      "Txt_Inn_Message_Start_M": {
+        "SelfId": "Txt_Inn_Message_Start_M",
+        "Text": "こんにちは。\r\n<RUBY>旅人[たびびと]の<RUBY>宿屋[やどや]へ　ようこそ。"
+      },
+      "Txt_Inn_Message_StartNight_M": {
+        "SelfId": "Txt_Inn_Message_StartNight_M",
+        "Text": "<RUBY>旅人[たびびと]の<RUBY>宿屋[やどや]へ　ようこそ。\r\nこんな　<RUBY>夜[よ]ふけまで\r\nおつかれさまでした。"
+      },
+      "Txt_Inn_Message_TopNotRest_M": {
+        "SelfId": "Txt_Inn_Message_TopNotRest_M",
+        "Text": "ひと<RUBY>晩[ばん]　{VALUE}ゴールドですが\r\nお<RUBY>泊[と]まりに　なりますか？<NO_INPUT>"
+      },
+      "Txt_Inn_Message_Top_M": {
+        "SelfId": "Txt_Inn_Message_Top_M",
+        "Text": "お<RUBY>泊[と]まりですか？\r\nそれとも　<RUBY>少[すこ]し<RUBY>休[やす]んで　いかれますか？\r\nどちらも　{VALUE}ゴールドに　なります。<NO_INPUT>"
+      },
+      "Txt_Inn_Message_Finish_M": {
+        "SelfId": "Txt_Inn_Message_Finish_M",
+        "Text": "さようなら　<RUBY>旅[たび]の<RUBY>人[ひと]\r\nまた　お<RUBY>立[た]ちよりください。"
+      },
+      "Txt_Inn_Message_Cancel_M": {
+        "SelfId": "Txt_Inn_Message_Cancel_M",
+        "Text": "おやめに　なられるのですね\r\nでは　<RUBY>気[き]を<RUBY>取[と]り<RUBY>直[なお]して"
+      },
+      "Txt_Inn_Message_Shotage_M": {
+        "SelfId": "Txt_Inn_Message_Shotage_M",
+        "Text": "でも　お<RUBY>金[かね]が\r\nたりないようですね。"
+      },
+      "Txt_Inn_Message_Heal_M": {
+        "SelfId": "Txt_Inn_Message_Heal_M",
+        "Text": "それでは　ごゆっくり\r\nお<RUBY>休[やす]みください。"
+      },
+      "Txt_Inn_Message_FinishHeal_M": {
+        "SelfId": "Txt_Inn_Message_FinishHeal_M",
+        "Text": "おはようございます。\r\nでは　いってらっしゃいませ。"
+      },
+      "Txt_Inn_Message_FinishHealRest_M": {
+        "SelfId": "Txt_Inn_Message_FinishHealRest_M",
+        "Text": "よくお<RUBY>休[やす]みでしたね。\r\nでは　いってらっしゃいませ。"
+      },
+      "Txt_Inn_Message_Start_F": {
+        "SelfId": "Txt_Inn_Message_Start_F",
+        "Text": "こんにちは。\r\n<RUBY>旅人[たびびと]の<RUBY>宿屋[やどや]へ　ようこそ。"
+      },
+      "Txt_Inn_Message_StartNight_F": {
+        "SelfId": "Txt_Inn_Message_StartNight_F",
+        "Text": "<RUBY>旅人[たびびと]の<RUBY>宿屋[やどや]へ　ようこそ。\r\nこんな　<RUBY>夜[よ]ふけまで\r\nおつかれさまでした。"
+      },
+      "Txt_Inn_Message_TopNotRest_F": {
+        "SelfId": "Txt_Inn_Message_TopNotRest_F",
+        "Text": "ひと<RUBY>晩[ばん]　{VALUE}ゴールドですが\r\nお<RUBY>泊[と]まりに　なりますか？<NO_INPUT>"
+      },
+      "Txt_Inn_Message_Top_F": {
+        "SelfId": "Txt_Inn_Message_Top_F",
+        "Text": "お<RUBY>泊[と]まりですか？\r\nそれとも　<RUBY>少[すこ]し<RUBY>休[やす]んで　いかれますか？\r\nどちらも　{VALUE}ゴールドに　なります。<NO_INPUT>"
+      },
+      "Txt_Inn_Message_Finish_F": {
+        "SelfId": "Txt_Inn_Message_Finish_F",
+        "Text": "さようなら　<RUBY>旅[たび]の<RUBY>人[ひと]\r\nまた　お<RUBY>立[た]ちよりください。"
+      },
+      "Txt_Inn_Message_Cancel_F": {
+        "SelfId": "Txt_Inn_Message_Cancel_F",
+        "Text": "おやめに　なられるのですね\r\nでは　<RUBY>気[き]を<RUBY>取[と]り<RUBY>直[なお]して"
+      },
+      "Txt_Inn_Message_Shotage_F": {
+        "SelfId": "Txt_Inn_Message_Shotage_F",
+        "Text": "でも　お<RUBY>金[かね]が\r\nたりないようですね。"
+      },
+      "Txt_Inn_Message_Heal_F": {
+        "SelfId": "Txt_Inn_Message_Heal_F",
+        "Text": "それでは　ごゆっくり\r\nお<RUBY>休[やす]みください。"
+      },
+      "Txt_Inn_Message_FinishHeal_F": {
+        "SelfId": "Txt_Inn_Message_FinishHeal_F",
+        "Text": "おはようございます。\r\nでは　いってらっしゃいませ。"
+      },
+      "Txt_Inn_Message_FinishHealRest_F": {
+        "SelfId": "Txt_Inn_Message_FinishHealRest_F",
+        "Text": "よくお<RUBY>休[やす]みでしたね。\r\nでは　いってらっしゃいませ。"
+      }
+    }
+  }
+]

@@ -1,0 +1,928 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_Common",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Common_Choice_YES": {
+        "SelfId": "Txt_Common_Choice_YES",
+        "Text": "是"
+      },
+      "Txt_Common_Choice_NO": {
+        "SelfId": "Txt_Common_Choice_NO",
+        "Text": "否"
+      },
+      "Txt_Common_Choice_EVENT_01": {
+        "SelfId": "Txt_Common_Choice_EVENT_01",
+        "Text": "裝傻"
+      },
+      "Txt_Common_Choice_EVENT_02": {
+        "SelfId": "Txt_Common_Choice_EVENT_02",
+        "Text": "……"
+      },
+      "Txt_Common_DATA_DialogNotifyStorageLackOnSystemDataSave": {
+        "SelfId": "Txt_Common_DATA_DialogNotifyStorageLackOnSystemDataSave",
+        "Text": "製作系統資料的\r\n可用容量不足。"
+      },
+      "Txt_Common_DATA_DialogNotifyStorageLackOnGameDataSave": {
+        "SelfId": "Txt_Common_DATA_DialogNotifyStorageLackOnGameDataSave",
+        "Text": "製作冒險之書的\r\n可用容量不足。"
+      },
+      "Txt_Common_DATA_DialogNotifyBrokenSystemDataSave": {
+        "SelfId": "Txt_Common_DATA_DialogNotifyBrokenSystemDataSave",
+        "Text": "系統資料已毀損。\r\n將進行初始化。"
+      },
+      "Txt_Common_DATA_DialogNotifyBrokenGameDataSave": {
+        "SelfId": "Txt_Common_DATA_DialogNotifyBrokenGameDataSave",
+        "Text": "非常遺憾，\r\n你的冒險之書{VALUE}消失了。"
+      },
+      "Txt_Common_DATA_DialogNotifyFailCreateGameData": {
+        "SelfId": "Txt_Common_DATA_DialogNotifyFailCreateGameData",
+        "Text": "冒險之書製作失敗。\r\n將返回標題畫面。"
+      },
+      "Txt_Common_DATA_DialogNotifyBrokenAutoSave": {
+        "SelfId": "Txt_Common_DATA_DialogNotifyBrokenAutoSave",
+        "Text": "由於勇者鬥惡龍III的\r\n儲存資料已損毀，\r\n因此無法自動儲存。"
+      },
+      "Txt_Common_DATA_DialogNotifyBrokenAutoSave_PS5": {
+        "SelfId": "Txt_Common_DATA_DialogNotifyBrokenAutoSave_PS5",
+        "Text": "由於勇者鬥惡龍III的\r\n保存資料已損毀，\r\n因此無法自動保存。"
+      },
+      "Txt_Common_DATA_DialogNotifyBrokenAutoSave_02": {
+        "SelfId": "Txt_Common_DATA_DialogNotifyBrokenAutoSave_02",
+        "Text": "非常遺憾，\r\n你的自動儲存紀錄消失了。"
+      },
+      "Txt_Common_DATA_DialogNotifyBrokenInterruptedSave": {
+        "SelfId": "Txt_Common_DATA_DialogNotifyBrokenInterruptedSave",
+        "Text": "非常遺憾，\r\n你的中斷之書消失了。"
+      },
+      "Txt_Common_TITLEDEMO_UI_Menu_01": {
+        "SelfId": "Txt_Common_TITLEDEMO_UI_Menu_01",
+        "Text": "開始冒險"
+      },
+      "Txt_Common_TITLEDEMO_UI_Menu_02": {
+        "SelfId": "Txt_Common_TITLEDEMO_UI_Menu_02",
+        "Text": "結束遊戲"
+      },
+      "Txt_Common_TITLEDEMO_UI_Copyright": {
+        "SelfId": "Txt_Common_TITLEDEMO_UI_Copyright",
+        "Text": "© ARMOR PROJECT/BIRD STUDIO/SPIKE CHUNSOFT/SQUARE ENIX\r\n© SUGIYAMA KOBO\r\n℗ SUGIYAMA KOBO"
+      },
+      "Txt_Common_TITLEDEMO_UI_Gamertag": {
+        "SelfId": "Txt_Common_TITLEDEMO_UI_Gamertag",
+        "Text": "{0}"
+      },
+      "Txt_Common_TITLEDEMO_UI_Ver": {
+        "SelfId": "Txt_Common_TITLEDEMO_UI_Ver",
+        "Text": "Ver.{0}"
+      },
+      "Txt_Common_TITLE_UI_Menu_01": {
+        "SelfId": "Txt_Common_TITLE_UI_Menu_01",
+        "Text": "開始冒險"
+      },
+      "Txt_Common_TITLE_UI_Menu_02": {
+        "SelfId": "Txt_Common_TITLE_UI_Menu_02",
+        "Text": "繼續中斷的冒險"
+      },
+      "Txt_Common_TITLE_UI_Menu_03": {
+        "SelfId": "Txt_Common_TITLE_UI_Menu_03",
+        "Text": "讀取自動存檔"
+      },
+      "Txt_Common_TITLE_UI_SaveMenu_01": {
+        "SelfId": "Txt_Common_TITLE_UI_SaveMenu_01",
+        "Text": "選擇冒險之書"
+      },
+      "Txt_Common_TITLE_UI_SaveMenu_02": {
+        "SelfId": "Txt_Common_TITLE_UI_SaveMenu_02",
+        "Text": "製作冒險之書"
+      },
+      "Txt_Common_TITLE_UI_SaveMenu_03": {
+        "SelfId": "Txt_Common_TITLE_UI_SaveMenu_03",
+        "Text": "刪除冒險之書"
+      },
+      "Txt_Common_TITLE_UI_DataElement_01": {
+        "SelfId": "Txt_Common_TITLE_UI_DataElement_01",
+        "Text": "{0}"
+      },
+      "Txt_Common_TITLE_UI_DataElement_02": {
+        "SelfId": "Txt_Common_TITLE_UI_DataElement_02",
+        "Text": "{0}"
+      },
+      "Txt_Common_TITLE_UI_DataElement_03": {
+        "SelfId": "Txt_Common_TITLE_UI_DataElement_03",
+        "Text": "{0}"
+      },
+      "Txt_Common_TITLE_UI_DataElement_04": {
+        "SelfId": "Txt_Common_TITLE_UI_DataElement_04",
+        "Text": "{0}"
+      },
+      "Txt_Common_TITLE_UI_DataElement_05": {
+        "SelfId": "Txt_Common_TITLE_UI_DataElement_05",
+        "Text": "遊玩時間"
+      },
+      "Txt_Common_TITLE_UI_DataElement_06": {
+        "SelfId": "Txt_Common_TITLE_UI_DataElement_06",
+        "Text": "{0}：{1}"
+      },
+      "Txt_Common_TITLE_UI_DataElement_07": {
+        "SelfId": "Txt_Common_TITLE_UI_DataElement_07",
+        "Text": "紀錄時間"
+      },
+      "Txt_Common_TITLE_UI_DataElement_08": {
+        "SelfId": "Txt_Common_TITLE_UI_DataElement_08",
+        "Text": "{0} {1}：{2}"
+      },
+      "Txt_Common_TITLE_UI_DataElement_09": {
+        "SelfId": "Txt_Common_TITLE_UI_DataElement_09",
+        "Text": "{0}/{1}/{2}"
+      },
+      "Txt_Common_TITLE_UI_ROTO": {
+        "SelfId": "Txt_Common_TITLE_UI_ROTO",
+        "Text": "{0}．羅德"
+      },
+      "Txt_Common_TITLE_UI_SaveSelectGuide": {
+        "SelfId": "Txt_Common_TITLE_UI_SaveSelectGuide",
+        "Text": "請選擇冒險之書。"
+      },
+      "Txt_Common_TITLE_UI_InterruptedSaveGuide": {
+        "SelfId": "Txt_Common_TITLE_UI_InterruptedSaveGuide",
+        "Text": "當前的中斷存檔"
+      },
+      "Txt_Common_TITLE_UI_AutoSaveGuide": {
+        "SelfId": "Txt_Common_TITLE_UI_AutoSaveGuide",
+        "Text": "當前的自動存檔"
+      },
+      "Txt_Common_TITLE_UI_Unused": {
+        "SelfId": "Txt_Common_TITLE_UI_Unused",
+        "Text": "此冒險之書未使用。"
+      },
+      "Txt_Common_TITLE_UI_Delete": {
+        "SelfId": "Txt_Common_TITLE_UI_Delete",
+        "Text": "請選擇欲刪除紀錄的冒險之書。"
+      },
+      "Txt_Common_TITLE_UI_Create": {
+        "SelfId": "Txt_Common_TITLE_UI_Create",
+        "Text": "要製作幾號冒險之書呢？"
+      },
+      "Txt_Common_TITLE_UI_HiraganaConfig": {
+        "SelfId": "Txt_Common_TITLE_UI_HiraganaConfig",
+        "Text": "標音模式"
+      },
+      "Txt_Common_TITLE_UI_GuideConfig": {
+        "SelfId": "Txt_Common_TITLE_UI_GuideConfig",
+        "Text": "目的地標記"
+      },
+      "Txt_Common_TITLE_UI_Confirm_ON": {
+        "SelfId": "Txt_Common_TITLE_UI_Confirm_ON",
+        "Text": "開"
+      },
+      "Txt_Common_TITLE_UI_Confirm_OFF": {
+        "SelfId": "Txt_Common_TITLE_UI_Confirm_OFF",
+        "Text": "關"
+      },
+      "Txt_Common_TITLE_Message_SelectGameSave": {
+        "SelfId": "Txt_Common_TITLE_Message_SelectGameSave",
+        "Text": "請選擇冒險之書。<NO_INPUT>"
+      },
+      "Txt_Common_TITLE_Message_OverwriteNewGameSave": {
+        "SelfId": "Txt_Common_TITLE_Message_OverwriteNewGameSave",
+        "Text": "該冒險之書中已有紀錄。\r\n請選擇其他的冒險之書。<NO_INPUT>"
+      },
+      "Txt_Common_TITLE_Message_DeleteGameSave": {
+        "SelfId": "Txt_Common_TITLE_Message_DeleteGameSave",
+        "Text": "確定要刪除冒險之書{VALUE}嗎？<NO_INPUT>"
+      },
+      "Txt_Common_TITLE_Message_DeleteGameSaveConfirm": {
+        "SelfId": "Txt_Common_TITLE_Message_DeleteGameSaveConfirm",
+        "Text": "冒險之書一旦刪除後即無法復原。\r\n確定要這麼做嗎？<NO_INPUT>"
+      },
+      "Txt_Common_TITLE_Message_Deleting": {
+        "SelfId": "Txt_Common_TITLE_Message_Deleting",
+        "Text": "正在刪除冒險之書{VALUE}的紀錄……"
+      },
+      "Txt_Common_TITLE_Message_DeletionComplete": {
+        "SelfId": "Txt_Common_TITLE_Message_DeletionComplete",
+        "Text": "已刪除冒險之書{VALUE}的紀錄。"
+      },
+      "Txt_Common_TITLE_Message_ConfirmLoadGameSave": {
+        "SelfId": "Txt_Common_TITLE_Message_ConfirmLoadGameSave",
+        "Text": "要使用此資料展開冒險嗎？<NO_INPUT>"
+      },
+      "Txt_Common_TITLE_Message_ConfirmLoadInterruptedSave": {
+        "SelfId": "Txt_Common_TITLE_Message_ConfirmLoadInterruptedSave",
+        "Text": "要使用此資料展開冒險嗎？\r\n※繼續展開冒險後中斷存檔將會被刪除。<NO_INPUT>"
+      },
+      "Txt_Common_TITLE_Message_SaveExist": {
+        "SelfId": "Txt_Common_TITLE_Message_SaveExist",
+        "Text": "無法製作更多冒險之書。\r\n若要製作新的冒險之書，\r\n請先刪除其中一本冒險之書。"
+      },
+      "Txt_Common_TITLE_Message_NameEntry": {
+        "SelfId": "Txt_Common_TITLE_Message_NameEntry",
+        "Text": "請為自己取個名字。<NO_INPUT>"
+      },
+      "Txt_Common_TITLE_Message_NameNG": {
+        "SelfId": "Txt_Common_TITLE_Message_NameNG",
+        "Text": "該名字無法使用！\r\n請輸入其他名字。"
+      },
+      "Txt_Common_TITLE_Message_NameConfirm": {
+        "SelfId": "Txt_Common_TITLE_Message_NameConfirm",
+        "Text": "確定要取名為「{ACTOR}」嗎？<NO_INPUT>"
+      },
+      "Txt_Common_TITLE_Message_StyleSelect": {
+        "SelfId": "Txt_Common_TITLE_Message_StyleSelect",
+        "Text": "請選擇你的角色造型。<NO_INPUT>"
+      },
+      "Txt_Common_TITLE_Message_HeroConfirm": {
+        "SelfId": "Txt_Common_TITLE_Message_HeroConfirm",
+        "Text": "這樣就好了嗎？<NO_INPUT>"
+      },
+      "Txt_Common_TITLE_Message_VoiceSelect": {
+        "SelfId": "Txt_Common_TITLE_Message_VoiceSelect",
+        "Text": "請選擇語音的語言。<NO_INPUT>"
+      },
+      "Txt_Common_TITLE_Message_HiraganaConfig": {
+        "SelfId": "Txt_Common_TITLE_Message_HiraganaConfig",
+        "Text": "要開啟標音模式嗎？\r\n開啟後即會在漢字上方\r\n標註假名。<NO_INPUT>"
+      },
+      "Txt_Common_TITLE_Message_HiraganaON": {
+        "SelfId": "Txt_Common_TITLE_Message_HiraganaON",
+        "Text": "<ERROR!>"
+      },
+      "Txt_Common_TITLE_Message_HiraganaOFF": {
+        "SelfId": "Txt_Common_TITLE_Message_HiraganaOFF",
+        "Text": "<ERROR!>"
+      },
+      "Txt_Common_TITLE_Message_GuideConfig": {
+        "SelfId": "Txt_Common_TITLE_Message_GuideConfig",
+        "Text": "要顯示「目的地標記」嗎？\r\n開啟後即會在地圖上\r\n顯示目的地。<NO_INPUT>"
+      },
+      "Txt_Common_TITLE_Message_GuideON": {
+        "SelfId": "Txt_Common_TITLE_Message_GuideON",
+        "Text": "已設定「目的地標記」。\r\n※可隨時在「系統設定」中進行更改。"
+      },
+      "Txt_Common_TITLE_Message_GuideOFF": {
+        "SelfId": "Txt_Common_TITLE_Message_GuideOFF",
+        "Text": "已關閉「目的地標記」。\r\n※可隨時在「系統設定」中進行更改。"
+      },
+      "Txt_Common_TITLE_Message_GamemodeConfig": {
+        "SelfId": "Txt_Common_TITLE_Message_GamemodeConfig",
+        "Text": "請選擇「遊玩模式」。\r\n※可隨時在「系統設定」中進行更改。<NO_INPUT>"
+      },
+      "Txt_Common_TITLE_Message_PlayingConfigConfirm": {
+        "SelfId": "Txt_Common_TITLE_Message_PlayingConfigConfirm",
+        "Text": "確定要套用此設定\r\n來展開冒險嗎？\r\n※可隨時在「系統設定」中進行更改。<NO_INPUT>"
+      },
+      "Txt_Common_ED_Message_Save": {
+        "SelfId": "Txt_Common_ED_Message_Save",
+        "Text": "即將記錄目前為止的冒險進度。\r\n要記錄至幾號冒險之書呢？<NO_INPUT>"
+      },
+      "Txt_Common_ED_Message_SaveConfirm": {
+        "SelfId": "Txt_Common_ED_Message_SaveConfirm",
+        "Text": "將會覆蓋這份資料：\r\n{WORD}　ＬＶ{VALUE}\r\n確定要繼續嗎？<NO_INPUT>"
+      },
+      "Txt_Common_ED_Message_SaveFinish": {
+        "SelfId": "Txt_Common_ED_Message_SaveFinish",
+        "Text": "已記錄至冒險之書。"
+      },
+      "Txt_Common_KEYBOARD_Hiragana": {
+        "SelfId": "Txt_Common_KEYBOARD_Hiragana",
+        "Text": "平假名"
+      },
+      "Txt_Common_KEYBOARD_Katakana": {
+        "SelfId": "Txt_Common_KEYBOARD_Katakana",
+        "Text": "片假名"
+      },
+      "Txt_Common_KEYBOARD_Back": {
+        "SelfId": "Txt_Common_KEYBOARD_Back",
+        "Text": "返回"
+      },
+      "Txt_Common_KEYBOARD_END": {
+        "SelfId": "Txt_Common_KEYBOARD_END",
+        "Text": "結束"
+      },
+      "Txt_Common_KEYBOARD_NOINPUT": {
+        "SelfId": "Txt_Common_KEYBOARD_NOINPUT",
+        "Text": "尚未輸入名字。"
+      },
+      "Txt_Common_NGNAME_ROTO_K": {
+        "SelfId": "Txt_Common_NGNAME_ROTO_K",
+        "Text": "羅德"
+      },
+      "Txt_Common_NGNAME_ROTO_H": {
+        "SelfId": "Txt_Common_NGNAME_ROTO_H",
+        "Text": "羅德"
+      },
+      "Txt_Common_LANGUAGE_JP": {
+        "SelfId": "Txt_Common_LANGUAGE_JP",
+        "Text": "日文"
+      },
+      "Txt_Common_LANGUAGE_EN": {
+        "SelfId": "Txt_Common_LANGUAGE_EN",
+        "Text": "英文"
+      },
+      "Txt_Common_LANGUAGE_TW": {
+        "SelfId": "Txt_Common_LANGUAGE_TW",
+        "Text": "繁體中文"
+      },
+      "Txt_Common_LANGUAGE_CN": {
+        "SelfId": "Txt_Common_LANGUAGE_CN",
+        "Text": "簡體中文"
+      },
+      "Txt_Common_LANGUAGE_KO": {
+        "SelfId": "Txt_Common_LANGUAGE_KO",
+        "Text": "韓文"
+      },
+      "Txt_Common_LANGUAGE_FR": {
+        "SelfId": "Txt_Common_LANGUAGE_FR",
+        "Text": "法文"
+      },
+      "Txt_Common_LANGUAGE_IT": {
+        "SelfId": "Txt_Common_LANGUAGE_IT",
+        "Text": "義大利文"
+      },
+      "Txt_Common_LANGUAGE_DE": {
+        "SelfId": "Txt_Common_LANGUAGE_DE",
+        "Text": "德文"
+      },
+      "Txt_Common_LANGUAGE_ES": {
+        "SelfId": "Txt_Common_LANGUAGE_ES",
+        "Text": "西班牙文"
+      },
+      "Txt_Common_LANGUAGE_ES-419": {
+        "SelfId": "Txt_Common_LANGUAGE_ES-419",
+        "Text": "墨西哥西班牙文"
+      },
+      "Txt_Common_BIRTHDAY_Month_Guide": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_Guide",
+        "Text": "出生月份"
+      },
+      "Txt_Common_BIRTHDAY_Day_Guide": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Guide",
+        "Text": "出生日期"
+      },
+      "Txt_Common_BIRTHDAY_Month_01": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_01",
+        "Text": "1"
+      },
+      "Txt_Common_BIRTHDAY_Month_02": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_02",
+        "Text": "2"
+      },
+      "Txt_Common_BIRTHDAY_Month_03": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_03",
+        "Text": "3"
+      },
+      "Txt_Common_BIRTHDAY_Month_04": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_04",
+        "Text": "4"
+      },
+      "Txt_Common_BIRTHDAY_Month_05": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_05",
+        "Text": "5"
+      },
+      "Txt_Common_BIRTHDAY_Month_06": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_06",
+        "Text": "6"
+      },
+      "Txt_Common_BIRTHDAY_Month_07": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_07",
+        "Text": "7"
+      },
+      "Txt_Common_BIRTHDAY_Month_08": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_08",
+        "Text": "8"
+      },
+      "Txt_Common_BIRTHDAY_Month_09": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_09",
+        "Text": "9"
+      },
+      "Txt_Common_BIRTHDAY_Month_10": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_10",
+        "Text": "10"
+      },
+      "Txt_Common_BIRTHDAY_Month_11": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_11",
+        "Text": "11"
+      },
+      "Txt_Common_BIRTHDAY_Month_12": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_12",
+        "Text": "12"
+      },
+      "Txt_Common_BIRTHDAY_Day_01": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_01",
+        "Text": "1日"
+      },
+      "Txt_Common_BIRTHDAY_Day_02": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_02",
+        "Text": "2日"
+      },
+      "Txt_Common_BIRTHDAY_Day_03": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_03",
+        "Text": "3日"
+      },
+      "Txt_Common_BIRTHDAY_Day_04": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_04",
+        "Text": "4日"
+      },
+      "Txt_Common_BIRTHDAY_Day_05": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_05",
+        "Text": "5日"
+      },
+      "Txt_Common_BIRTHDAY_Day_06": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_06",
+        "Text": "6日"
+      },
+      "Txt_Common_BIRTHDAY_Day_07": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_07",
+        "Text": "7日"
+      },
+      "Txt_Common_BIRTHDAY_Day_08": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_08",
+        "Text": "8日"
+      },
+      "Txt_Common_BIRTHDAY_Day_09": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_09",
+        "Text": "9日"
+      },
+      "Txt_Common_BIRTHDAY_Day_10": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_10",
+        "Text": "10日"
+      },
+      "Txt_Common_BIRTHDAY_Day_11": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_11",
+        "Text": "11日"
+      },
+      "Txt_Common_BIRTHDAY_Day_12": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_12",
+        "Text": "12日"
+      },
+      "Txt_Common_BIRTHDAY_Day_13": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_13",
+        "Text": "13日"
+      },
+      "Txt_Common_BIRTHDAY_Day_14": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_14",
+        "Text": "14日"
+      },
+      "Txt_Common_BIRTHDAY_Day_15": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_15",
+        "Text": "15日"
+      },
+      "Txt_Common_BIRTHDAY_Day_16": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_16",
+        "Text": "16日"
+      },
+      "Txt_Common_BIRTHDAY_Day_17": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_17",
+        "Text": "17日"
+      },
+      "Txt_Common_BIRTHDAY_Day_18": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_18",
+        "Text": "18日"
+      },
+      "Txt_Common_BIRTHDAY_Day_19": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_19",
+        "Text": "19日"
+      },
+      "Txt_Common_BIRTHDAY_Day_20": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_20",
+        "Text": "20日"
+      },
+      "Txt_Common_BIRTHDAY_Day_21": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_21",
+        "Text": "21日"
+      },
+      "Txt_Common_BIRTHDAY_Day_22": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_22",
+        "Text": "22日"
+      },
+      "Txt_Common_BIRTHDAY_Day_23": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_23",
+        "Text": "23日"
+      },
+      "Txt_Common_BIRTHDAY_Day_24": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_24",
+        "Text": "24日"
+      },
+      "Txt_Common_BIRTHDAY_Day_25": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_25",
+        "Text": "25日"
+      },
+      "Txt_Common_BIRTHDAY_Day_26": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_26",
+        "Text": "26日"
+      },
+      "Txt_Common_BIRTHDAY_Day_27": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_27",
+        "Text": "27日"
+      },
+      "Txt_Common_BIRTHDAY_Day_28": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_28",
+        "Text": "28日"
+      },
+      "Txt_Common_BIRTHDAY_Day_29": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_29",
+        "Text": "29日"
+      },
+      "Txt_Common_BIRTHDAY_Day_30": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_30",
+        "Text": "30日"
+      },
+      "Txt_Common_BIRTHDAY_Day_31": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_31",
+        "Text": "31日"
+      },
+      "Txt_Common_BIRTHDAY_Month_Number_01": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_Number_01",
+        "Text": "1"
+      },
+      "Txt_Common_BIRTHDAY_Month_Number_02": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_Number_02",
+        "Text": "2"
+      },
+      "Txt_Common_BIRTHDAY_Month_Number_03": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_Number_03",
+        "Text": "3"
+      },
+      "Txt_Common_BIRTHDAY_Month_Number_04": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_Number_04",
+        "Text": "4"
+      },
+      "Txt_Common_BIRTHDAY_Month_Number_05": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_Number_05",
+        "Text": "5"
+      },
+      "Txt_Common_BIRTHDAY_Month_Number_06": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_Number_06",
+        "Text": "6"
+      },
+      "Txt_Common_BIRTHDAY_Month_Number_07": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_Number_07",
+        "Text": "7"
+      },
+      "Txt_Common_BIRTHDAY_Month_Number_08": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_Number_08",
+        "Text": "8"
+      },
+      "Txt_Common_BIRTHDAY_Month_Number_09": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_Number_09",
+        "Text": "9"
+      },
+      "Txt_Common_BIRTHDAY_Month_Number_10": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_Number_10",
+        "Text": "10"
+      },
+      "Txt_Common_BIRTHDAY_Month_Number_11": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_Number_11",
+        "Text": "11"
+      },
+      "Txt_Common_BIRTHDAY_Month_Number_12": {
+        "SelfId": "Txt_Common_BIRTHDAY_Month_Number_12",
+        "Text": "12"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_01": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_01",
+        "Text": "1"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_02": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_02",
+        "Text": "2"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_03": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_03",
+        "Text": "3"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_04": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_04",
+        "Text": "4"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_05": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_05",
+        "Text": "5"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_06": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_06",
+        "Text": "6"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_07": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_07",
+        "Text": "7"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_08": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_08",
+        "Text": "8"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_09": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_09",
+        "Text": "9"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_10": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_10",
+        "Text": "10"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_11": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_11",
+        "Text": "11"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_12": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_12",
+        "Text": "12"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_13": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_13",
+        "Text": "13"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_14": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_14",
+        "Text": "14"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_15": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_15",
+        "Text": "15"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_16": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_16",
+        "Text": "16"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_17": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_17",
+        "Text": "17"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_18": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_18",
+        "Text": "18"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_19": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_19",
+        "Text": "19"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_20": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_20",
+        "Text": "20"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_21": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_21",
+        "Text": "21"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_22": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_22",
+        "Text": "22"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_23": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_23",
+        "Text": "23"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_24": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_24",
+        "Text": "24"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_25": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_25",
+        "Text": "25"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_26": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_26",
+        "Text": "26"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_27": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_27",
+        "Text": "27"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_28": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_28",
+        "Text": "28"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_29": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_29",
+        "Text": "29"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_30": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_30",
+        "Text": "30"
+      },
+      "Txt_Common_BIRTHDAY_Day_Number_31": {
+        "SelfId": "Txt_Common_BIRTHDAY_Day_Number_31",
+        "Text": "31"
+      },
+      "Txt_Common_STAR_SIGNS_01": {
+        "SelfId": "Txt_Common_STAR_SIGNS_01",
+        "Text": "白羊"
+      },
+      "Txt_Common_STAR_SIGNS_02": {
+        "SelfId": "Txt_Common_STAR_SIGNS_02",
+        "Text": "金牛"
+      },
+      "Txt_Common_STAR_SIGNS_03": {
+        "SelfId": "Txt_Common_STAR_SIGNS_03",
+        "Text": "雙子"
+      },
+      "Txt_Common_STAR_SIGNS_04": {
+        "SelfId": "Txt_Common_STAR_SIGNS_04",
+        "Text": "巨蟹"
+      },
+      "Txt_Common_STAR_SIGNS_05": {
+        "SelfId": "Txt_Common_STAR_SIGNS_05",
+        "Text": "獅子"
+      },
+      "Txt_Common_STAR_SIGNS_06": {
+        "SelfId": "Txt_Common_STAR_SIGNS_06",
+        "Text": "處女"
+      },
+      "Txt_Common_STAR_SIGNS_07": {
+        "SelfId": "Txt_Common_STAR_SIGNS_07",
+        "Text": "天秤"
+      },
+      "Txt_Common_STAR_SIGNS_08": {
+        "SelfId": "Txt_Common_STAR_SIGNS_08",
+        "Text": "天蠍"
+      },
+      "Txt_Common_STAR_SIGNS_09": {
+        "SelfId": "Txt_Common_STAR_SIGNS_09",
+        "Text": "人馬"
+      },
+      "Txt_Common_STAR_SIGNS_10": {
+        "SelfId": "Txt_Common_STAR_SIGNS_10",
+        "Text": "摩羯"
+      },
+      "Txt_Common_STAR_SIGNS_11": {
+        "SelfId": "Txt_Common_STAR_SIGNS_11",
+        "Text": "水瓶"
+      },
+      "Txt_Common_STAR_SIGNS_12": {
+        "SelfId": "Txt_Common_STAR_SIGNS_12",
+        "Text": "雙魚"
+      },
+      "Txt_Common_SAVE_Message_Saving_Switch": {
+        "SelfId": "Txt_Common_SAVE_Message_Saving_Switch",
+        "Text": "正在記錄冒險之書。\r\n請勿關閉\r\nNintendo Switch™的電源。<NO_INPUT>"
+      },
+      "Txt_Common_SAVE_Message_Saving_PS5": {
+        "SelfId": "Txt_Common_SAVE_Message_Saving_PS5",
+        "Text": "正在記錄冒險之書。\r\n請勿關閉\r\nPlayStation®5主機的電源。<NO_INPUT>"
+      },
+      "Txt_Common_SAVE_Message_Saving_Xbox": {
+        "SelfId": "Txt_Common_SAVE_Message_Saving_Xbox",
+        "Text": "正在記錄冒險之書。\r\n請勿關閉\r\nXbox的電源。<NO_INPUT>"
+      },
+      "Txt_Common_SAVE_Message_Saving_PC": {
+        "SelfId": "Txt_Common_SAVE_Message_Saving_PC",
+        "Text": "正在記錄冒險之書。<NO_INPUT>"
+      },
+      "Txt_Common_SAVE_Message_ReturnTitle": {
+        "SelfId": "Txt_Common_SAVE_Message_ReturnTitle",
+        "Text": "冒險辛苦了。\r\n請按Ａ鍵返回標題畫面。"
+      },
+      "Txt_Common_SAVE_Message_ReturnTitle_PS5": {
+        "SelfId": "Txt_Common_SAVE_Message_ReturnTitle_PS5",
+        "Text": "冒險辛苦了。\r\n請按×按鈕返回標題畫面。"
+      },
+      "Txt_Common_SAVE_Message_ReturnTitle_Xbox": {
+        "SelfId": "Txt_Common_SAVE_Message_ReturnTitle_Xbox",
+        "Text": "冒險辛苦了。\r\n請按A 按鍵返回標題畫面。"
+      },
+      "Txt_Common_SAVE_Message_ReturnTitle_PC": {
+        "SelfId": "Txt_Common_SAVE_Message_ReturnTitle_PC",
+        "Text": "冒險辛苦了。\r\n請按確定鍵返回標題畫面。"
+      },
+      "Txt_Common_Xenlon_Wish_01": {
+        "SelfId": "Txt_Common_Xenlon_Wish_01",
+        "Text": "我想遊玩新的怪物競技"
+      },
+      "Txt_Common_Xenlon_Wish_02": {
+        "SelfId": "Txt_Common_Xenlon_Wish_02",
+        "Text": "我想要復活父親奧爾特加"
+      },
+      "Txt_Common_Xenlon_Wish_03": {
+        "SelfId": "Txt_Common_Xenlon_Wish_03",
+        "Text": "勇者也想要追求時髦"
+      },
+      "Txt_Common_Xenlon_Wish_04": {
+        "SelfId": "Txt_Common_Xenlon_Wish_04",
+        "Text": "我想要強力的武器"
+      },
+      "Txt_Common_Xenlon_Wish_05": {
+        "SelfId": "Txt_Common_Xenlon_Wish_05",
+        "Text": "我想看色色的書"
+      },
+      "Txt_Common_Xenlon_Wish_06": {
+        "SelfId": "Txt_Common_Xenlon_Wish_06",
+        "Text": "我想看超色的書"
+      },
+      "Txt_Common_Xenlon_Wish_07": {
+        "SelfId": "Txt_Common_Xenlon_Wish_07",
+        "Text": ""
+      },
+      "Txt_Common_Event_Control_Skip": {
+        "SelfId": "Txt_Common_Event_Control_Skip",
+        "Text": "略過"
+      },
+      "Txt_Common_Event_Control_FastForward": {
+        "SelfId": "Txt_Common_Event_Control_FastForward",
+        "Text": "快轉"
+      },
+      "Txt_Common_Event_Control_FastForward_Now": {
+        "SelfId": "Txt_Common_Event_Control_FastForward_Now",
+        "Text": "快轉中"
+      },
+      "Txt_Common_SoftwareKeyboard_EntryName": {
+        "SelfId": "Txt_Common_SoftwareKeyboard_EntryName",
+        "Text": "請輸入名字。"
+      },
+      "Txt_Common_SoftwareKeyboard_OK": {
+        "SelfId": "Txt_Common_SoftwareKeyboard_OK",
+        "Text": "確定"
+      },
+      "Txt_Common_Xbox_System_Disconnect_Controller": {
+        "SelfId": "Txt_Common_Xbox_System_Disconnect_Controller",
+        "Text": "控制器已退出，\r\n無法繼續遊玩本遊戲。\r\n請連接控制器。"
+      },
+      "Txt_Common_Xbox_System_Account_Logout": {
+        "SelfId": "Txt_Common_Xbox_System_Account_Logout",
+        "Text": "帳戶已登出\r\n將返回標題畫面"
+      },
+      "Txt_Common_Xbox_System_Account_Change": {
+        "SelfId": "Txt_Common_Xbox_System_Account_Change",
+        "Text": "帳戶已變更\r\n將返回標題畫面"
+      },
+      "Txt_Common_Xbox_System_Title_NoLogin": {
+        "SelfId": "Txt_Common_Xbox_System_Title_NoLogin",
+        "Text": "請選擇要遊玩的帳戶。"
+      },
+      "Txt_Common_WindowName_Steam": {
+        "SelfId": "Txt_Common_WindowName_Steam",
+        "Text": "勇者鬥惡龍III HD-2D Remake"
+      },
+      "Txt_Common_WindowName_WinGDK": {
+        "SelfId": "Txt_Common_WindowName_WinGDK",
+        "Text": "勇者鬥惡龍III HD-2D Remake"
+      },
+      "Txt_Common_PS5_SAVE_TITLE_01": {
+        "SelfId": "Txt_Common_PS5_SAVE_TITLE_01",
+        "Text": "冒險之書 01"
+      },
+      "Txt_Common_PS5_SAVE_TITLE_02": {
+        "SelfId": "Txt_Common_PS5_SAVE_TITLE_02",
+        "Text": "冒險之書 02"
+      },
+      "Txt_Common_PS5_SAVE_TITLE_03": {
+        "SelfId": "Txt_Common_PS5_SAVE_TITLE_03",
+        "Text": "冒險之書 03"
+      },
+      "Txt_Common_PS5_SAVE_TITLE_04": {
+        "SelfId": "Txt_Common_PS5_SAVE_TITLE_04",
+        "Text": "冒險之書 04"
+      },
+      "Txt_Common_PS5_SAVE_TITLE_05": {
+        "SelfId": "Txt_Common_PS5_SAVE_TITLE_05",
+        "Text": "冒險之書 05"
+      },
+      "Txt_Common_PS5_SAVE_TITLE_06": {
+        "SelfId": "Txt_Common_PS5_SAVE_TITLE_06",
+        "Text": "冒險之書 06"
+      },
+      "Txt_Common_PS5_SAVE_TITLE_07": {
+        "SelfId": "Txt_Common_PS5_SAVE_TITLE_07",
+        "Text": "冒險之書 07"
+      },
+      "Txt_Common_PS5_SAVE_TITLE_08": {
+        "SelfId": "Txt_Common_PS5_SAVE_TITLE_08",
+        "Text": "冒險之書 08"
+      },
+      "Txt_Common_PS5_SAVE_TITLE_09": {
+        "SelfId": "Txt_Common_PS5_SAVE_TITLE_09",
+        "Text": "冒險之書 09"
+      },
+      "Txt_Common_PS5_SAVE_TITLE_Auto": {
+        "SelfId": "Txt_Common_PS5_SAVE_TITLE_Auto",
+        "Text": "自動保存資料"
+      },
+      "Txt_Common_PS5_SAVE_TITLE_Interruption": {
+        "SelfId": "Txt_Common_PS5_SAVE_TITLE_Interruption",
+        "Text": "中斷保存資料"
+      },
+      "Txt_Common_PS5_SAVE_TITLE_SUB": {
+        "SelfId": "Txt_Common_PS5_SAVE_TITLE_SUB",
+        "Text": "系統資料"
+      },
+      "Txt_Common_PS5_SAVE_TITLE_SUB_2": {
+        "SelfId": "Txt_Common_PS5_SAVE_TITLE_SUB_2",
+        "Text": "保存資料"
+      },
+      "Txt_Common_PS5_SAVE_EXPLAIN": {
+        "SelfId": "Txt_Common_PS5_SAVE_EXPLAIN",
+        "Text": "此為勇者鬥惡龍III的系統資料。"
+      },
+      "Txt_Common_PS5_SAVE_EXPLAIN_2": {
+        "SelfId": "Txt_Common_PS5_SAVE_EXPLAIN_2",
+        "Text": "此為勇者鬥惡龍III的保存資料。"
+      }
+    }
+  }
+]

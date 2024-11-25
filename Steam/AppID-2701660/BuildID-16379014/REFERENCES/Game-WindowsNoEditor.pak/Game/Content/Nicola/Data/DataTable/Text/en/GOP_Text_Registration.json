@@ -1,0 +1,516 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_Registration",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Registration_UI_Warrior_Info": {
+        "SelfId": "Txt_Registration_UI_Warrior_Info",
+        "Text": "Wielders of weighty weapons; warriors use their strength and stamina to deal out damage and defend their allies."
+      },
+      "Txt_Registration_UI_Mage_Info": {
+        "SelfId": "Txt_Registration_UI_Mage_Info",
+        "Text": "Master spell casters; mages harness their wealth of magical knowledge to take care of foes foolish enough to stand in their way."
+      },
+      "Txt_Registration_UI_Priest_Info": {
+        "SelfId": "Txt_Registration_UI_Priest_Info",
+        "Text": "The best backup any adventurer could ask for; priests can cast healing spells and also wield weapons."
+      },
+      "Txt_Registration_UI_MartialArtist_Info": {
+        "SelfId": "Txt_Registration_UI_MartialArtist_Info",
+        "Text": "Masters of hand-to-hand combat; martial artists are amazingly agile and can land critical hits for fun."
+      },
+      "Txt_Registration_UI_Merchant_Info": {
+        "SelfId": "Txt_Registration_UI_Merchant_Info",
+        "Text": "Experts in commerce; merchants make themselves useful by gathering gold coins and appraising items."
+      },
+      "Txt_Registration_UI_Gadabout_Info": {
+        "SelfId": "Txt_Registration_UI_Gadabout_Info",
+        "Text": "The life of the party; gadabouts can cause all sorts of things to happen with their wild high jinks."
+      },
+      "Txt_Registration_UI_Sage_Info": {
+        "SelfId": "Txt_Registration_UI_Sage_Info",
+        "Text": "Beings who have more or less nothing left to learn; sages can use both mage- and priest-specific spells."
+      },
+      "Txt_Registration_UI_Thief_Info": {
+        "SelfId": "Txt_Registration_UI_Thief_Info",
+        "Text": "Sneaky so-and-sos; thieves are excellent at avoiding enemies in dungeons and sniffing out treasure."
+      },
+      "Txt_Registration_UI_MonsterTamer_Info": {
+        "SelfId": "Txt_Registration_UI_MonsterTamer_Info",
+        "Text": "Oddballs who steal most of their moves from their monster mates, combining them to create an inimitable fighting style."
+      },
+      "Txt_Registration_UI_JpbSelect_Guide": {
+        "SelfId": "Txt_Registration_UI_JpbSelect_Guide",
+        "Text": "Choose a vocation."
+      },
+      "Txt_Registration_UI_Style_Menu_01": {
+        "SelfId": "Txt_Registration_UI_Style_Menu_01",
+        "Text": "Appearance A"
+      },
+      "Txt_Registration_UI_Style_Menu_02": {
+        "SelfId": "Txt_Registration_UI_Style_Menu_02",
+        "Text": "Appearance B"
+      },
+      "Txt_Registration_UI_HairSelect_Guide": {
+        "SelfId": "Txt_Registration_UI_HairSelect_Guide",
+        "Text": "Choose the colour of their hair."
+      },
+      "Txt_Registration_UI_SeedUseSelect_01": {
+        "SelfId": "Txt_Registration_UI_SeedUseSelect_01",
+        "Text": "Do It Myself"
+      },
+      "Txt_Registration_UI_SeedUseSelect_02": {
+        "SelfId": "Txt_Registration_UI_SeedUseSelect_02",
+        "Text": "Leave It to You"
+      },
+      "Txt_Registration_UI_Seed_Guide": {
+        "SelfId": "Txt_Registration_UI_Seed_Guide",
+        "Text": "{0} More Available"
+      },
+      "Txt_Registration_UI_Personality_Blank": {
+        "SelfId": "Txt_Registration_UI_Personality_Blank",
+        "Text": "???"
+      },
+      "Txt_Registration_UI_VoiceSelect_Guide": {
+        "SelfId": "Txt_Registration_UI_VoiceSelect_Guide",
+        "Text": "Choose their voice."
+      },
+      "Txt_Registration_UI_VoiceSample_Guide": {
+        "SelfId": "Txt_Registration_UI_VoiceSample_Guide",
+        "Text": "Listen"
+      },
+      "Txt_Registration_UI_VoicePattern_01_M": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_01_M",
+        "Text": "Earnest"
+      },
+      "Txt_Registration_UI_VoicePattern_02_M": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_02_M",
+        "Text": "Cheeky"
+      },
+      "Txt_Registration_UI_VoicePattern_03_M": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_03_M",
+        "Text": "Cowardly"
+      },
+      "Txt_Registration_UI_VoicePattern_04_M": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_04_M",
+        "Text": "Cool-Headed"
+      },
+      "Txt_Registration_UI_VoicePattern_05_M": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_05_M",
+        "Text": "Passionate"
+      },
+      "Txt_Registration_UI_VoicePattern_06_M": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_06_M",
+        "Text": "Comical"
+      },
+      "Txt_Registration_UI_VoicePattern_07_M": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_07_M",
+        "Text": "Headstrong"
+      },
+      "Txt_Registration_UI_VoicePattern_08_M": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_08_M",
+        "Text": "Gentle"
+      },
+      "Txt_Registration_UI_VoicePattern_09_M": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_09_M",
+        "Text": "Aggressive"
+      },
+      "Txt_Registration_UI_VoicePattern_01_F": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_01_F",
+        "Text": "Childish"
+      },
+      "Txt_Registration_UI_VoicePattern_02_F": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_02_F",
+        "Text": "Shy"
+      },
+      "Txt_Registration_UI_VoicePattern_03_F": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_03_F",
+        "Text": "Wild"
+      },
+      "Txt_Registration_UI_VoicePattern_04_F": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_04_F",
+        "Text": "Reserved"
+      },
+      "Txt_Registration_UI_VoicePattern_05_F": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_05_F",
+        "Text": "Determined"
+      },
+      "Txt_Registration_UI_VoicePattern_06_F": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_06_F",
+        "Text": "Youthful"
+      },
+      "Txt_Registration_UI_VoicePattern_07_F": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_07_F",
+        "Text": "Elegant"
+      },
+      "Txt_Registration_UI_VoicePattern_08_F": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_08_F",
+        "Text": "Serious"
+      },
+      "Txt_Registration_UI_VoicePattern_09_F": {
+        "SelfId": "Txt_Registration_UI_VoicePattern_09_F",
+        "Text": "Alluring"
+      },
+      "Txt_Registration_UI_DeleteGuide": {
+        "SelfId": "Txt_Registration_UI_DeleteGuide",
+        "Text": "Choose who you'll leave."
+      },
+      "Txt_Registration_Message_Start": {
+        "SelfId": "Txt_Registration_Message_Start",
+        "Text": "*: Welcome to Premiere Adventurer Listing Services! With PALS, you're sure to build a winning team!"
+      },
+      "Txt_Registration_Message_First": {
+        "SelfId": "Txt_Registration_Message_First",
+        "Text": "*: We're here to help you get the hottest adventuring talent out there off the dole and onto your roster!<KEY_WAIT>\r\n*: Just tell us what you're looking for, and we'll deliver a qualified professional direct to the Party Planning counter!"
+      },
+      "Txt_Registration_Message_Top": {
+        "SelfId": "Txt_Registration_Message_Top",
+        "Text": "*: So, are you looking to bolster your roster with some fresh blood today?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_NameSelect": {
+        "SelfId": "Txt_Registration_Message_NameSelect",
+        "Text": "*: And what kind of person are you looking for, exactly? Why don't you give me a name, and we'll take it from there?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_JobSelect": {
+        "SelfId": "Txt_Registration_Message_JobSelect",
+        "Text": "*: Alright. Now tell me what kind of vocation you'd like them to have.<NO_INPUT>"
+      },
+      "Txt_Registration_Message_StyleSelect": {
+        "SelfId": "Txt_Registration_Message_StyleSelect",
+        "Text": "*: Could you tell me a bit more about them?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_LooksSelect": {
+        "SelfId": "Txt_Registration_Message_LooksSelect",
+        "Text": "*: And what do they look like?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_HairColorSelect": {
+        "SelfId": "Txt_Registration_Message_HairColorSelect",
+        "Text": "*: Alright. What colour is their hair?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_Confirm_01": {
+        "SelfId": "Txt_Registration_Message_Confirm_01",
+        "Text": "*: Ah-ha! I think I have just what you're looking for. Does this candidate seem like a good fit for your team?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_UseSeedFirst": {
+        "SelfId": "Txt_Registration_Message_UseSeedFirst",
+        "Text": "*: It's your lucky day, {LEADER}!<KEY_WAIT>\r\n*: As part of His Majesty's Special Adventurer Programme, you've qualified for a Supplementary Educational Enhancement Dispensation!<KEY_WAIT>\r\n*: It takes the form of five attribute-enhancing SEEDs<--->or <6>seeds<9><--->which will give your team members a much-needed boost!<KEY_WAIT>\r\n*: You can choose the seeds yourself, or allow me to use my career guidance skills to pick for you.<KEY_WAIT>\r\n*: If you pick for yourself, you can select up to five seeds of your choice for your new-found friend. But if you let me pick, I'll be providing a comprehensive service, and applying the seeds as I see fit."
+      },
+      "Txt_Registration_Message_UseSeedSelect": {
+        "SelfId": "Txt_Registration_Message_UseSeedSelect",
+        "Text": "*: So, how will you be distributing {WORD}'s seed allowance?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_UseSeedStart": {
+        "SelfId": "Txt_Registration_Message_UseSeedStart",
+        "Text": "*: You have {VALUE} left to use.\r\nThink smart, now!"
+      },
+      "Txt_Registration_Message_UseSeedAuto": {
+        "SelfId": "Txt_Registration_Message_UseSeedAuto",
+        "Text": "*: Excellent.\r\nJust leave it to me!"
+      },
+      "Txt_Registration_Message_Confirm_02": {
+        "SelfId": "Txt_Registration_Message_Confirm_02",
+        "Text": "*: So you're after someone like {WORD}, then?"
+      },
+      "Txt_Registration_Message_VoiceSelect": {
+        "SelfId": "Txt_Registration_Message_VoiceSelect",
+        "Text": "*: Last but not least, can you give me an idea of what they sound like?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_FinishConfirm": {
+        "SelfId": "Txt_Registration_Message_FinishConfirm",
+        "Text": "*: If you back out now, they won't actually join your party. Are you sure you want to stop here?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_Confirm_03": {
+        "SelfId": "Txt_Registration_Message_Confirm_03",
+        "Text": "*: So, you'll be recruiting {WORD}.\r\nIs that alright with you?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_AddBarMember": {
+        "SelfId": "Txt_Registration_Message_AddBarMember",
+        "Text": "*: Lovely. {WORD} ought to be waiting for you downstairs."
+      },
+      "Txt_Registration_Message_RegistrationCancel": {
+        "SelfId": "Txt_Registration_Message_RegistrationCancel",
+        "Text": "*: Oh. That's a shame."
+      },
+      "Txt_Registration_Message_AddRegistrationConfirm": {
+        "SelfId": "Txt_Registration_Message_AddRegistrationConfirm",
+        "Text": "*: Will you be looking to recruit anybody else today?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_UseSeedAutoFinish": {
+        "SelfId": "Txt_Registration_Message_UseSeedAutoFinish",
+        "Text": "*: There we go...\r\nAll done!"
+      },
+      "Txt_Registration_Message_BarMemberMax": {
+        "SelfId": "Txt_Registration_Message_BarMemberMax",
+        "Text": "*: I'm afraid you'll need to let somebody go if you want to recruit anyone else. Is that alright with you?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_DeleteBarMemberSelect": {
+        "SelfId": "Txt_Registration_Message_DeleteBarMemberSelect",
+        "Text": "*: So, which member of your team do you think would...ahem...benefit from a new challenge?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_DeleteBarMemberConfirm": {
+        "SelfId": "Txt_Registration_Message_DeleteBarMemberConfirm",
+        "Text": "*: So you'll be saying goodbye to {WORD}, will you? Are you sure? There's no unfiring someone...<NO_INPUT>"
+      },
+      "Txt_Registration_Message_DeleteBarMemberFinish": {
+        "SelfId": "Txt_Registration_Message_DeleteBarMemberFinish",
+        "Text": "*: Well, it's sad to let anyone go, but I'm confident this will be good for {WORD}'s personal development.<KEY_WAIT>\r\n*: And don't worry<--->we took care to reclaim all relevant assets before escorting your former employee from the premises. Everything should now be safely in your bag.<KEY_WAIT>\r\n*: And with {WORD}'s departure, that's a space on your roster freed up<--->meaning you can recruit some exciting new talent!"
+      },
+      "Txt_Registration_Message_DeleteBarMemberCancel": {
+        "SelfId": "Txt_Registration_Message_DeleteBarMemberCancel",
+        "Text": "*: Changed your mind, have you?\r\nWell, you never know<--->it might be for the best."
+      },
+      "Txt_Registration_Message_NameError_Duplication": {
+        "SelfId": "Txt_Registration_Message_NameError_Duplication",
+        "Text": "*: Oh, that's strange... I think this person's already on your team. Shall we look for another candidate for you instead?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_NameError_Ban": {
+        "SelfId": "Txt_Registration_Message_NameError_Ban",
+        "Text": "*: I'm sorry, but we don’t have anyone by that name on our books.<KEY_WAIT>\r\n*: Shall we look for another candidate for you instead?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_NameError_Roto": {
+        "SelfId": "Txt_Registration_Message_NameError_Roto",
+        "Text": "*: E-Erdrick!? You did say Erdrick, didn't you? I'm terribly sorry... But <6>Erdrick,<9> isn't just a name, you know<--->it's a title.<KEY_WAIT>\r\n*: It actually means <6>dwelling-land<9> in the language of the ancients.<KEY_WAIT>\r\n*: So when you call someone Erdrick, you're literally acknowledging them as the land's anointed representative<--->its champion.<KEY_WAIT>\r\n*: Needless to say, only the greatest of heroes are permitted to bear the moniker. And I'm forbidden to seek out such anointed souls. It's more than my job's worth!"
+      },
+      "Txt_Registration_Message_RegistrationFinish": {
+        "SelfId": "Txt_Registration_Message_RegistrationFinish",
+        "Text": "*: Just come and see me again whenever you're in the market for some top-flight adventuring talent. Bye now!"
+      },
+      "Txt_Registration_Message_Personality_01": {
+        "SelfId": "Txt_Registration_Message_Personality_01",
+        "Text": "*: Seems like quite the {WORD}, eh?<KEY_WAIT>\r\n*: People with that personality often find their strength increases extremely quickly, but their wisdom tends to be slow to improve."
+      },
+      "Txt_Registration_Message_Personality_02": {
+        "SelfId": "Txt_Registration_Message_Personality_02",
+        "Text": "*: Seems like quite the {WORD}, eh?<KEY_WAIT>\r\n*: People with that personality often find their strength increases extremely quickly, but their agility, luck and wisdom tend to be slow to improve."
+      },
+      "Txt_Registration_Message_Personality_03": {
+        "SelfId": "Txt_Registration_Message_Personality_03",
+        "Text": "*: Seems like quite the {WORD}, eh?<KEY_WAIT>\r\n*: People with that personality often find their strength increases quickly, and that their resilience increases slightly quicker than normal. Although, their wisdom and luck tend to be slow to improve."
+      },
+      "Txt_Registration_Message_Personality_04": {
+        "SelfId": "Txt_Registration_Message_Personality_04",
+        "Text": "*: Seems like quite the {WORD}, eh?<KEY_WAIT>\r\n*: People with that personality often find their strength increases extremely quickly, and that their resilience increases slightly quicker than normal."
+      },
+      "Txt_Registration_Message_Personality_05": {
+        "SelfId": "Txt_Registration_Message_Personality_05",
+        "Text": "*: Seems like quite the {WORD}, eh?<KEY_WAIT>\r\n*: People with that personality often find their resilience increases extremely quickly, and that their strength and stamina increase slightly quicker than normal. Although, their wisdom and agility tend to be slow to improve."
+      },
+      "Txt_Registration_Message_Personality_06": {
+        "SelfId": "Txt_Registration_Message_Personality_06",
+        "Text": "*: Seems like quite the {WORD}, eh?<KEY_WAIT>\r\n*: People with that personality often find their resilience and strength increase quickly, but their luck tends to be slow to improve."
+      },
+      "Txt_Registration_Message_Personality_07": {
+        "SelfId": "Txt_Registration_Message_Personality_07",
+        "Text": "*: Seems like quite the {WORD}, eh?<KEY_WAIT>\r\n*: People with that personality often find their strength and agility increase quickly."
+      },
+      "Txt_Registration_Message_Personality_08": {
+        "SelfId": "Txt_Registration_Message_Personality_08",
+        "Text": "*: Seems like quite the {WORD}, eh?<KEY_WAIT>\r\n*: People with that personality often find their agility and stamina increase quickly, but their resilience tends to be slow to improve."
+      },
+      "Txt_Registration_Message_Personality_09": {
+        "SelfId": "Txt_Registration_Message_Personality_09",
+        "Text": "*: Seems like quite the {WORD}, eh?<KEY_WAIT>\r\n*: People with that personality often find their stamina and strength increase quickly."
+      },
+      "Txt_Registration_Message_Personality_10": {
+        "SelfId": "Txt_Registration_Message_Personality_10",
+        "Text": "*: Seems like quite the {WORD}, eh?<KEY_WAIT>\r\n*: People with that personality often find their agility increases quickly."
+      },
+      "Txt_Registration_Message_Personality_11": {
+        "SelfId": "Txt_Registration_Message_Personality_11",
+        "Text": "*: Seems like quite the {WORD}, eh?<KEY_WAIT>\r\n*: People with that personality often find their agility and stamina increase slightly quicker than normal."
+      },
+      "Txt_Registration_Message_Personality_12": {
+        "SelfId": "Txt_Registration_Message_Personality_12",
+        "Text": "*: Seems like quite the {WORD}, eh?<KEY_WAIT>\r\n*: People with that personality often find their resilience and stamina increase slightly quicker than normal, but their agility tends to be slow to improve."
+      },
+      "Txt_Registration_Message_Personality_13": {
+        "SelfId": "Txt_Registration_Message_Personality_13",
+        "Text": "*: Seems like quite the {WORD}, eh?<KEY_WAIT>\r\n*: People with that personality often find their luck increases slightly quicker than normal, but their wisdom tends to be slow to improve."
+      },
+      "Txt_Registration_Message_Personality_14": {
+        "SelfId": "Txt_Registration_Message_Personality_14",
+        "Text": "*: Seems like quite the {WORD}, eh?<KEY_WAIT>\r\n*: People with that personality often find their resilience and stamina increase quickly, but their agility, wisdom and luck tend to be slow to improve."
+      },
+      "Txt_Registration_Message_Personality_15": {
+        "SelfId": "Txt_Registration_Message_Personality_15",
+        "Text": "*: Seems like quite the {WORD}, eh?<KEY_WAIT>\r\n*: People with that personality often find their luck increases extremely quickly, and that their wisdom increases slightly quicker than normal. Although, their resilience tends to be slow to improve."
+      },
+      "Txt_Registration_Message_Personality_16": {
+        "SelfId": "Txt_Registration_Message_Personality_16",
+        "Text": "*: Seems like quite the {WORD}, eh?<KEY_WAIT>\r\n*: People with that personality often find their attributes improve in a balanced manner."
+      },
+      "Txt_Registration_Message_Personality_17": {
+        "SelfId": "Txt_Registration_Message_Personality_17",
+        "Text": "*: Seems like quite the {WORD}, eh?<KEY_WAIT>\r\n*: People with that personality often find their attributes improve in a balanced manner."
+      },
+      "Txt_Registration_Message_Personality_18": {
+        "SelfId": "Txt_Registration_Message_Personality_18",
+        "Text": "*: Seems like quite the {WORD}, eh?<KEY_WAIT>\r\n*: People with that personality often find their agility increases extremely quickly."
+      },
+      "Txt_Registration_Message_Personality_19": {
+        "SelfId": "Txt_Registration_Message_Personality_19",
+        "Text": "*: Seems like quite the {WORD}, eh?<KEY_WAIT>\r\n*: People with that personality often find their agility increases quickly."
+      },
+      "Txt_Registration_Message_Personality_20": {
+        "SelfId": "Txt_Registration_Message_Personality_20",
+        "Text": "*: Seems like quite the {WORD}, eh?<KEY_WAIT>\r\n*: People with that personality often find their wisdom increases quickly, and their resilience and agility increase slightly quicker than normal."
+      },
+      "Txt_Registration_Message_Personality_21": {
+        "SelfId": "Txt_Registration_Message_Personality_21",
+        "Text": "*: Seems like quite the {WORD}, eh?<KEY_WAIT>\r\n*: People with that personality often find their wisdom increases extremely quickly, and that their agility increases slightly quicker than normal."
+      },
+      "Txt_Registration_Message_Personality_22": {
+        "SelfId": "Txt_Registration_Message_Personality_22",
+        "Text": "*: Seems like quite the {WORD}, eh?<KEY_WAIT>\r\n*: People with that personality often find their luck increases extremely quickly, and that their agility increases quickly. Although, their strength and stamina tend to be slow to improve."
+      },
+      "Txt_Registration_Message_Personality_23": {
+        "SelfId": "Txt_Registration_Message_Personality_23",
+        "Text": "*: Seems like quite the {WORD}, eh?<KEY_WAIT>\r\n*: People with that personality often find their strength, resilience and agility increase slightly quicker than normal."
+      },
+      "Txt_Registration_Message_Personality_24": {
+        "SelfId": "Txt_Registration_Message_Personality_24",
+        "Text": "*: Seems like quite the {WORD}, eh?<KEY_WAIT>\r\n*: People with that personality often find their agility increases slightly quicker than normal."
+      },
+      "Txt_Registration_Message_Personality_25": {
+        "SelfId": "Txt_Registration_Message_Personality_25",
+        "Text": "*: Seems like quite the {WORD}, eh?<KEY_WAIT>\r\n*: People with that personality often find their luck increases quickly, and that their wisdom increases slightly quicker than normal. Although, their resilience tends to be slow to improve."
+      },
+      "Txt_Registration_Message_Personality_26": {
+        "SelfId": "Txt_Registration_Message_Personality_26",
+        "Text": "*: Seems like quite the {WORD}, eh?<KEY_WAIT>\r\n*: People with that personality often find their wisdom and luck increase slightly quicker than normal."
+      },
+      "Txt_Registration_Message_Personality_27": {
+        "SelfId": "Txt_Registration_Message_Personality_27",
+        "Text": "*: Seems like quite the {WORD}, eh?<KEY_WAIT>\r\n*: People with that personality often find their stamina and resilience increase extremely quickly, but their luck tends to be slow to improve."
+      },
+      "Txt_Registration_Message_Personality_28": {
+        "SelfId": "Txt_Registration_Message_Personality_28",
+        "Text": "*: Seems like quite the {WORD}, eh?<KEY_WAIT>\r\n*: People with that personality often find their resilience and stamina increase extremely quickly."
+      },
+      "Txt_Registration_Message_Personality_29": {
+        "SelfId": "Txt_Registration_Message_Personality_29",
+        "Text": "*: Seems like quite the {WORD}, eh?<KEY_WAIT>\r\n*: People with that personality often find their stamina increases quickly."
+      },
+      "Txt_Registration_Message_Personality_30": {
+        "SelfId": "Txt_Registration_Message_Personality_30",
+        "Text": "*: Seems like quite the {WORD}, eh?<KEY_WAIT>\r\n*: People with that personality often find their resilience and stamina increase quickly, but their luck tends to be slow to improve."
+      },
+      "Txt_Registration_Message_Personality_31": {
+        "SelfId": "Txt_Registration_Message_Personality_31",
+        "Text": "*: Seems like quite the {WORD}, eh?<KEY_WAIT>\r\n*: People with that personality often find their strength increases quickly, and that their resilience and stamina increase slightly quicker than normal."
+      },
+      "Txt_Registration_Message_Personality_32": {
+        "SelfId": "Txt_Registration_Message_Personality_32",
+        "Text": "*: Seems like quite the {WORD}, eh?<KEY_WAIT>\r\n*: People with that personality often find their stamina increases slightly quicker than normal."
+      },
+      "Txt_Registration_Message_Personality_33": {
+        "SelfId": "Txt_Registration_Message_Personality_33",
+        "Text": "*: Seems like quite the {WORD}, eh?<KEY_WAIT>\r\n*: People with that personality often find their stamina increases quickly, and that their luck increases slightly quicker than normal. Although, their resilience and wisdom tend to be slow to improve."
+      },
+      "Txt_Registration_Message_Personality_34": {
+        "SelfId": "Txt_Registration_Message_Personality_34",
+        "Text": "*: Seems like quite the {WORD}, eh?<KEY_WAIT>\r\n*: People with that personality often find their wisdom increases extremely quickly."
+      },
+      "Txt_Registration_Message_Personality_35": {
+        "SelfId": "Txt_Registration_Message_Personality_35",
+        "Text": "*: Seems like quite the {WORD}, eh?<KEY_WAIT>\r\n*: People with that personality often find their wisdom increases quickly, and that their resilience increases slightly quicker than normal."
+      },
+      "Txt_Registration_Message_Personality_36": {
+        "SelfId": "Txt_Registration_Message_Personality_36",
+        "Text": "*: Seems like quite the {WORD}, eh?<KEY_WAIT>\r\n*: People with that personality often find their agility and wisdom increase slightly quicker than normal."
+      },
+      "Txt_Registration_Message_Personality_37": {
+        "SelfId": "Txt_Registration_Message_Personality_37",
+        "Text": "*: Seems like quite the {WORD}, eh?<KEY_WAIT>\r\n*: People with that personality often find their luck increases slightly quicker than normal."
+      },
+      "Txt_Registration_Message_Personality_38": {
+        "SelfId": "Txt_Registration_Message_Personality_38",
+        "Text": "*: Seems like quite the {WORD}, eh?<KEY_WAIT>\r\n*: People with that personality often find their luck increases extremely quickly, and that their agility increases slightly quicker than normal."
+      },
+      "Txt_Registration_Message_Personality_39": {
+        "SelfId": "Txt_Registration_Message_Personality_39",
+        "Text": "*: Seems like quite the {WORD}, eh?<KEY_WAIT>\r\n*: People with that personality often find their luck increases extremely quickly."
+      },
+      "Txt_Registration_Message_Personality_40": {
+        "SelfId": "Txt_Registration_Message_Personality_40",
+        "Text": "*: Seems like quite the {WORD}, eh?<KEY_WAIT>\r\n*: People with that personality often find their agility increases quickly, but their wisdom and luck tend to be slow to improve."
+      },
+      "Txt_Registration_Message_Personality_41": {
+        "SelfId": "Txt_Registration_Message_Personality_41",
+        "Text": "*: Seems like quite the {WORD}, eh?<KEY_WAIT>\r\n*: People with that personality often find their resilience and stamina increase quickly, but their luck tends to be slow to improve."
+      },
+      "Txt_Registration_Message_Personality_42": {
+        "SelfId": "Txt_Registration_Message_Personality_42",
+        "Text": "*: Seems like quite the {WORD}, eh?<KEY_WAIT>\r\n*: People with that personality often find their wisdom and luck increase quickly, but their agility tends to be slow to improve."
+      },
+      "Txt_Registration_Message_Personality_43": {
+        "SelfId": "Txt_Registration_Message_Personality_43",
+        "Text": "*: Seems like quite the {WORD}, eh?<KEY_WAIT>\r\n*: People with that personality often find their agility increases quickly, and that their wisdom and luck increase slightly quicker than normal."
+      },
+      "Txt_Registration_Message_Personality_44": {
+        "SelfId": "Txt_Registration_Message_Personality_44",
+        "Text": "*: Seems like quite the {WORD}, eh?<KEY_WAIT>\r\n*: People with that personality often find their stamina increases quickly, and that their wisdom increases slightly quicker than normal. Although, their agility tends to be slow to improve."
+      },
+      "Txt_Registration_Message_Personality_45": {
+        "SelfId": "Txt_Registration_Message_Personality_45",
+        "Text": "*: Seems like quite the {WORD}, eh?<KEY_WAIT>\r\n*: People with that personality often find their attributes improve in a balanced manner."
+      },
+      "Txt_Registration_Message_Personality_46": {
+        "SelfId": "Txt_Registration_Message_Personality_46",
+        "Text": "*: Seems like quite the {WORD}, eh?<KEY_WAIT>\r\n*: People with that personality often find their agility and luck increase quickly, and that their other attributes improve in a balanced manner."
+      },
+      "Txt_Registration_Message_DeleteBarMemberError_Hero": {
+        "SelfId": "Txt_Registration_Message_DeleteBarMemberError_Hero",
+        "Text": "*: Wh<--->!? {HERO}!?<KEY_WAIT>\r\n*: Ahaha... Come on now, let's not be silly. You can't hand the hero of the piece their marching orders!"
+      },
+      "Txt_Registration_Message_DeleteBarMemberError_Mer": {
+        "SelfId": "Txt_Registration_Message_DeleteBarMemberError_Mer",
+        "Text": "*: I'm ever so sorry, but I'm afraid we're unable to let that person go for contractual reasons..."
+      },
+      "Txt_Registration_Message_AddPartyMember_Confirm": {
+        "SelfId": "Txt_Registration_Message_AddPartyMember_Confirm",
+        "Text": "*: Well, that's that taken care of. Will you be taking {WORD} with you today?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_PartyMemberMAX": {
+        "SelfId": "Txt_Registration_Message_PartyMemberMAX",
+        "Text": "*: Ah, slight problem<--->there's no space in your party right now.<KEY_WAIT>\r\n*: Do you want to leave someone here for a while?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_DropOffConfirm": {
+        "SelfId": "Txt_Registration_Message_DropOffConfirm",
+        "Text": "*: Very well! Who's going to take a break from adventuring then?<NO_INPUT>"
+      },
+      "Txt_Registration_Message_DropOffError": {
+        "SelfId": "Txt_Registration_Message_DropOffError",
+        "Text": "*: Ah, sorry to say but you can't remove <IfGender_WORD(him,her,them)> from your party."
+      },
+      "Txt_Registration_Message_DropOffFinish": {
+        "SelfId": "Txt_Registration_Message_DropOffFinish",
+        "Text": "*: Alright. I know farewells aren't easy, but I'm sure you'll see {WORD} again soon enough!<KEY_WAIT>\r\n*: I'll pop {WORD}'s items and equipment in the bag for you."
+      },
+      "Txt_Registration_Message_PickUp": {
+        "SelfId": "Txt_Registration_Message_PickUp",
+        "Text": "{WORD} joins the party!"
+      },
+      "Txt_Registration_Message_AutoSeedUse": {
+        "SelfId": "Txt_Registration_Message_AutoSeedUse",
+        "Text": "<Cap><DefSgl_TARGET>'s {WORD} increases by {VALUE}!<WAIT>[1]<NO_INPUT>"
+      },
+      "Txt_Registration_Start": {
+        "SelfId": "Txt_Registration_Start",
+        "Text": "*: Welcome to Premiere Adventurer Listing Services! With PALS, you're sure to build a winning team!"
+      },
+      "Txt_Registration_First": {
+        "SelfId": "Txt_Registration_First",
+        "Text": "*: We're here to help you get the hottest adventuring talent out there off the dole and onto your roster!"
+      }
+    }
+  }
+]

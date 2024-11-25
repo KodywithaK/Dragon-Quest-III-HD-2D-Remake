@@ -1,0 +1,38 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_SearchObject_SpiritShrine",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_SearchObject_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "SEARCH_SpiritShrine_2F_GROUND_0": {
+        "SelfId": "SEARCH_SpiritShrine_2F_GROUND_0",
+        "ObjectType": "ESearchObjectType::GROUND",
+        "ItemId": "ITEM_SMALL_MEDAL",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_SpiritShrine_2F_GROUND_0"
+      },
+      "SEARCH_SpiritShrine_2F_GROUND_1": {
+        "SelfId": "SEARCH_SpiritShrine_2F_GROUND_1",
+        "ObjectType": "ESearchObjectType::GROUND",
+        "ItemId": "ITEM_EQUIP_ACCESSORY_GOLD_ROSARY",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_SpiritShrine_2F_GROUND_1"
+      }
+    }
+  }
+]

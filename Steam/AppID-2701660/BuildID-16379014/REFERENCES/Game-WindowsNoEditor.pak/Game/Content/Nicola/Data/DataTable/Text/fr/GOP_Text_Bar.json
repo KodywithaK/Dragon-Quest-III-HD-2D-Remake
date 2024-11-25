@@ -1,0 +1,312 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_Bar",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Bar_UI_Top_02": {
+        "SelfId": "Txt_Bar_UI_Top_02",
+        "Text": "Voir les membres"
+      },
+      "Txt_Bar_UI_Top_03": {
+        "SelfId": "Txt_Bar_UI_Top_03",
+        "Text": "Envoyer de l'aide"
+      },
+      "Txt_Bar_UI_Top_04": {
+        "SelfId": "Txt_Bar_UI_Top_04",
+        "Text": "Appeler à l'aide"
+      },
+      "Txt_Bar_UI_Top_05": {
+        "SelfId": "Txt_Bar_UI_Top_05",
+        "Text": "Annuler"
+      },
+      "Txt_Bar_UI_Top_06": {
+        "SelfId": "Txt_Bar_UI_Top_06",
+        "Text": "Récupérer un coéquipier"
+      },
+      "Txt_Bar_UI_Top_07": {
+        "SelfId": "Txt_Bar_UI_Top_07",
+        "Text": "Déposer un coéquipier"
+      },
+      "Txt_Bar_UI_Top_08": {
+        "SelfId": "Txt_Bar_UI_Top_08",
+        "Text": "Recruter d'autres alliés"
+      },
+      "Txt_Bar_UI_Top_09": {
+        "SelfId": "Txt_Bar_UI_Top_09",
+        "Text": "Fonction d'aide"
+      },
+      "Txt_Bar_UI_Top_10": {
+        "SelfId": "Txt_Bar_UI_Top_10",
+        "Text": "Revenir"
+      },
+      "Txt_Bar_UI_Guide_01": {
+        "SelfId": "Txt_Bar_UI_Guide_01",
+        "Text": "Sélectionner un allié"
+      },
+      "Txt_Bar_UI_Blank": {
+        "SelfId": "Txt_Bar_UI_Blank",
+        "Text": "Aucun allié"
+      },
+      "Txt_Bar_UI_Lend_Guide": {
+        "SelfId": "Txt_Bar_UI_Lend_Guide",
+        "Text": "Sélectionner un allié"
+      },
+      "Txt_Bar_UI_Borrow_Guide": {
+        "SelfId": "Txt_Bar_UI_Borrow_Guide",
+        "Text": "Sélectionner un aventurier"
+      },
+      "Txt_Bar_Message_Start_01": {
+        "SelfId": "Txt_Bar_Message_Start_01",
+        "Text": "Bienvenue dans la taverne de Tulipe!"
+      },
+      "Txt_Bar_Message_Start_02": {
+        "SelfId": "Txt_Bar_Message_Start_02",
+        "Text": "C'est un lieu de rencontre pour tous les aventuriers!\r\nC'est également ici que leurs chemins se séparent."
+      },
+      "Txt_Bar_Message_Top": {
+        "SelfId": "Txt_Bar_Message_Top",
+        "Text": "Que puis-je faire pour toi aujourd'hui?<NO_INPUT>"
+      },
+      "Txt_Bar_Message_CannotDropOff": {
+        "SelfId": "Txt_Bar_Message_CannotDropOff",
+        "Text": "Tu souhaites déposer quelqu'un?\r\nJe suis désolée mais je ne vois que toi ici, {LEADER}."
+      },
+      "Txt_Bar_Message_DropOffTop": {
+        "SelfId": "Txt_Bar_Message_DropOffTop",
+        "Text": "Qui souhaites-tu déposer?<NO_INPUT>"
+      },
+      "Txt_Bar_Message_DropOffHero": {
+        "SelfId": "Txt_Bar_Message_DropOffHero",
+        "Text": "Ça me semble compliqué! Si {HERO} reste avec moi ici, qui va prendre en main le reste de l'équipe?"
+      },
+      "Txt_Bar_Message_DropOffDeath_01": {
+        "SelfId": "Txt_Bar_Message_DropOffDeath_01",
+        "Text": "Attends! Tu veux que je récupère {WORD} dans cet état?<!> Tu te trompes d'établissement!"
+      },
+      "Txt_Bar_Message_DropOffDeath_02": {
+        "SelfId": "Txt_Bar_Message_DropOffDeath_02",
+        "Text": "Oh, je vois.\r\nTu n'as pas assez d'argent pour lui venir en aide, c'est ça?<NO_INPUT>"
+      },
+      "Txt_Bar_Message_DropOffAbnormalStatus": {
+        "SelfId": "Txt_Bar_Message_DropOffAbnormalStatus",
+        "Text": "Tu veux laisser {WORD} ici, c'est ça? <IfGender_WORD(Il,Elle,)> n'a pas l'air dans son assiette..."
+      },
+      "Txt_Bar_Message_ReplaceSelectDeath": {
+        "SelfId": "Txt_Bar_Message_ReplaceSelectDeath",
+        "Text": "Hum, dans ce cas-là, je n'ai pas le choix.\r\nJe vais m'occuper <IfVowel_WORD(d',de )>{WORD} dans son cercueil, alors."
+      },
+      "Txt_Bar_Message_ReplaceSelectDeathCancel": {
+        "SelfId": "Txt_Bar_Message_ReplaceSelectDeathCancel",
+        "Text": "Alors, tu ferais mieux de prendre soin <IfVowel_WORD(d',de )>{WORD}.\r\nPauvre âme..."
+      },
+      "Txt_Bar_Message_ReplaceSelect": {
+        "SelfId": "Txt_Bar_Message_ReplaceSelect",
+        "Text": "Que faisons-nous <IfVowel_WORD(d',de )>{WORD}, alors?<NO_INPUT>"
+      },
+      "Txt_Bar_Message_DropOff_01": {
+        "SelfId": "Txt_Bar_Message_DropOff_01",
+        "Text": "Tu désires donc laisser {WORD} ici, c'est ça?"
+      },
+      "Txt_Bar_Message_DropOff_02": {
+        "SelfId": "Txt_Bar_Message_DropOff_02",
+        "Text": "D'accord. {WORD} va pouvoir profiter d'un repos bien mérité."
+      },
+      "Txt_Bar_Message_Replace_01": {
+        "SelfId": "Txt_Bar_Message_Replace_01",
+        "Text": "Tu veux donc remplacer {WORD} par quelqu'un d'autre?"
+      },
+      "Txt_Bar_Message_Replace_02": {
+        "SelfId": "Txt_Bar_Message_Replace_02",
+        "Text": "Qui souhaites-tu que j'appelle pour prendre sa place?<NO_INPUT>"
+      },
+      "Txt_Bar_Message_CannotReplace": {
+        "SelfId": "Txt_Bar_Message_CannotReplace",
+        "Text": "Tu plaisantes!\r\nTu ne vas pas aller loin avec une bande de macchabées!"
+      },
+      "Txt_Bar_Message_PickUpSelect": {
+        "SelfId": "Txt_Bar_Message_PickUpSelect",
+        "Text": "Qui souhaites-tu emmener avec toi?<NO_INPUT>"
+      },
+      "Txt_Bar_Message_CannotPickUp": {
+        "SelfId": "Txt_Bar_Message_CannotPickUp",
+        "Text": "Ah, mais je suis désolée... Je n'ai personne de disponible ici pour rejoindre ton équipe."
+      },
+      "Txt_Bar_Message_PickUp_01": {
+        "SelfId": "Txt_Bar_Message_PickUp_01",
+        "Text": "Tu veux <IfVowel_WORD(qu',que )>{WORD} rejoigne ton équipe?\r\nC'est comme si c'était fait!"
+      },
+      "Txt_Bar_Message_PickUp_02": {
+        "SelfId": "Txt_Bar_Message_PickUp_02",
+        "Text": "Hé! {WORD}!\r\n{LEADER} te demande!"
+      },
+      "Txt_Bar_Message_PickUp_03": {
+        "SelfId": "Txt_Bar_Message_PickUp_03",
+        "Text": "{WORD} se joint à l'équipe!"
+      },
+      "Txt_Bar_Message_Sort": {
+        "SelfId": "Txt_Bar_Message_Sort",
+        "Text": "Tous les objets à l'exception de ceux dont {WORD} est <IfGender_WORD(équipé,équipée,)> sont transférés dans le sac."
+      },
+      "Txt_Bar_Message_SortFirst": {
+        "SelfId": "Txt_Bar_Message_SortFirst",
+        "Text": "Sinon, on perd facilement de vue certains objets importants!"
+      },
+      "Txt_Bar_Message_DropOffAgain": {
+        "SelfId": "Txt_Bar_Message_DropOffAgain",
+        "Text": "Désires-tu déposer quelqu'un d'autre?\r\n<NO_INPUT>"
+      },
+      "Txt_Bar_Message_PickUpAgain": {
+        "SelfId": "Txt_Bar_Message_PickUpAgain",
+        "Text": "Désires-tu que je fasse venir quelqu'un d'autre?<NO_INPUT>"
+      },
+      "Txt_Bar_Message_CannotPickUpPartyMAX_01": {
+        "SelfId": "Txt_Bar_Message_CannotPickUpPartyMAX_01",
+        "Text": "Mais tu es déjà en très bonne compagnie!"
+      },
+      "Txt_Bar_Message_CannotPickUpPartyMAX_02": {
+        "SelfId": "Txt_Bar_Message_CannotPickUpPartyMAX_02",
+        "Text": "Tu vas devoir te séparer de quelqu'un pour pouvoir intégrer une nouvelle personne dans ton équipe."
+      },
+      "Txt_Bar_Message_CannotViewRoster": {
+        "SelfId": "Txt_Bar_Message_CannotViewRoster",
+        "Text": "Je suis désolée mais je n'ai aucun de tes équipiers avec moi en ce moment."
+      },
+      "Txt_Bar_Message_ViewRosterTop": {
+        "SelfId": "Txt_Bar_Message_ViewRosterTop",
+        "Text": "Tu veux jeter un œil parmi les personnes présentes dans la taverne?<NO_INPUT>"
+      },
+      "Txt_Bar_Message_TopAgain": {
+        "SelfId": "Txt_Bar_Message_TopAgain",
+        "Text": "Désires-tu autre chose?\r\n<NO_INPUT>"
+      },
+      "Txt_Bar_Message_Finish": {
+        "SelfId": "Txt_Bar_Message_Finish",
+        "Text": "D'accord! À la prochaine alors!"
+      },
+      "Txt_Bar_Message_DropOffOnlyLend": {
+        "SelfId": "Txt_Bar_Message_DropOffOnlyLend",
+        "Text": "Attends un peu! En faisant cela, tu vas te retrouver avec une équipe composée uniquement de personnes venues t'aider!"
+      },
+      "Txt_Bar_Message_LendFirst": {
+        "SelfId": "Txt_Bar_Message_LendFirst",
+        "Text": "Ici, tu peux enregistrer tes équipiers pour les rendre disponibles aux autres aventuriers.<KEY_WAIT>\r\nToute personne listée ici pourra rejoindre une toute nouvelle équipe vers de nouvelles aventures.<KEY_WAIT>\r\nMais cela ne veut pas dire pour autant qu'ils disparaîtront à jamais.\r\nTu pourras toujours faire appel à eux.<KEY_WAIT>\r\nIls seront juste prêts à aider d'autres aventuriers dans le besoin."
+      },
+      "Txt_Bar_Message_LendNone": {
+        "SelfId": "Txt_Bar_Message_LendNone",
+        "Text": "Hmm, on dirait que tu n'as personne à envoyer à la rescousse."
+      },
+      "Txt_Bar_Message_LendTop": {
+        "SelfId": "Txt_Bar_Message_LendTop",
+        "Text": "Alors, qui penses-tu apte à secourir autrui?<NO_INPUT>"
+      },
+      "Txt_Bar_Message_LendTop2": {
+        "SelfId": "Txt_Bar_Message_LendTop2",
+        "Text": "Un autre volontaire à envoyer secourir un aventurier dans le besoin?<NO_INPUT>"
+      },
+      "Txt_Bar_Message_LendRegistration": {
+        "SelfId": "Txt_Bar_Message_LendRegistration",
+        "Text": "{WORD}, tu dis? Très bon choix!<NO_INPUT>"
+      },
+      "Txt_Bar_Message_LendReregistration": {
+        "SelfId": "Txt_Bar_Message_LendReregistration",
+        "Text": "Oh, tu réassignes {WORD}? Une valeur sûre!<NO_INPUT>"
+      },
+      "Txt_Bar_Message_LendChange": {
+        "SelfId": "Txt_Bar_Message_LendChange",
+        "Text": "Pour info, {WORD2} est déjà en liste pour partir à la rescousse. Tu préfères envoyer {WORD} à sa place?<NO_INPUT>"
+      },
+      "Txt_Bar_Message_LendDecide": {
+        "SelfId": "Txt_Bar_Message_LendDecide",
+        "Text": "D'accord! C'est donc au tour <IfVowel_WORD(d',de )>{WORD} de voler au secours des aventuriers en galère."
+      },
+      "Txt_Bar_Message_BorrowFirst": {
+        "SelfId": "Txt_Bar_Message_BorrowFirst",
+        "Text": "Si tu as besoin d'un coup de main, c'est ici que tu peux emprunter des équipiers à d'autres aventuriers."
+      },
+      "Txt_Bar_Message_BorrowNone": {
+        "SelfId": "Txt_Bar_Message_BorrowNone",
+        "Text": "Malheureusement, je n'ai personne sous la main pour venir t'aider actuellement."
+      },
+      "Txt_Bar_Message_BorrowTop": {
+        "SelfId": "Txt_Bar_Message_BorrowTop",
+        "Text": "Qui souhaitez-vous appeler à l'aide?<NO_INPUT>"
+      },
+      "Txt_Bar_Message_BorrowTop2": {
+        "SelfId": "Txt_Bar_Message_BorrowTop2",
+        "Text": "Alors, qui d'autre souhaites-tu appeler à l'aide?<NO_INPUT>"
+      },
+      "Txt_Bar_Message_BorrowReturnConfirm": {
+        "SelfId": "Txt_Bar_Message_BorrowReturnConfirm",
+        "Text": "{WORD} qui est <IfGender_WORD(venu,venue,)> à la rescousse va devoir repartir.\r\nÇa va?"
+      },
+      "Txt_Bar_Message_BorrowReturnDecide": {
+        "SelfId": "Txt_Bar_Message_BorrowReturnDecide",
+        "Text": "D'accord, tout ce <IfVowel_WORD(qu',que )>{WORD} avait sur <IfGender_WORD(lui,elle,)> va dans ton sac."
+      },
+      "Txt_Bar_Message_BorrowReturnNoLive": {
+        "SelfId": "Txt_Bar_Message_BorrowReturnNoLive",
+        "Text": "Attends, mais {WORD} est la dernière personne encore debout dans l'équipe!\r\nIl est préférable de <IfGender_WORD(le,la,)> garder pour le moment..."
+      },
+      "Txt_Bar_Message_BorrowReturnCancel": {
+        "SelfId": "Txt_Bar_Message_BorrowReturnCancel",
+        "Text": "Ah, c'est encore trop tôt pour se séparer <IfVowel_WORD(d',de )>{WORD}?\r\nJe te comprends."
+      },
+      "Txt_Bar_Message_BorrowSelect": {
+        "SelfId": "Txt_Bar_Message_BorrowSelect",
+        "Text": "Tu souhaites donc <IfVowel_WORD(qu',que )>{WORD} te donne un coup de main?<NO_INPUT>"
+      },
+      "Txt_Bar_Message_BorrowDecide": {
+        "SelfId": "Txt_Bar_Message_BorrowDecide",
+        "Text": "J'approuve ce choix! {WORD} est désormais à ta disposition."
+      },
+      "Txt_Bar_Message_BorrowPartyAdd": {
+        "SelfId": "Txt_Bar_Message_BorrowPartyAdd",
+        "Text": "Désires-tu intégrer {WORD} directement dans ton équipe?<NO_INPUT>"
+      },
+      "Txt_Bar_Message_BorrowPartyChange": {
+        "SelfId": "Txt_Bar_Message_BorrowPartyChange",
+        "Text": "Hum, on dirait que vous êtes déjà au complet. Veux-tu que l'un de tes compagnons se repose un peu à la taverne?<NO_INPUT>"
+      },
+      "Txt_Bar_Message_BorrowPartySelect": {
+        "SelfId": "Txt_Bar_Message_BorrowPartySelect",
+        "Text": "D'accord! À qui dois-je donc demander de patienter ici?<NO_INPUT>"
+      },
+      "Txt_Bar_Message_BorrowPartySelect2": {
+        "SelfId": "Txt_Bar_Message_BorrowPartySelect2",
+        "Text": "Une autre personne à laisser sur le banc?<NO_INPUT>"
+      },
+      "Txt_Bar_Message_BorrowPartyToBar": {
+        "SelfId": "Txt_Bar_Message_BorrowPartyToBar",
+        "Text": "D'accord, {WORD} va faire une pause. Tout ce qu'<IfGender_WORD(il,elle,)> avait sur <IfGender_WORD(lui,elle,)> dont <IfGender_WORD(il,elle,)> n'était pas <IfGender_WORD(équipé,équipée,)> va dans ton sac."
+      },
+      "Txt_Bar_Message_BorrowAddBarMember": {
+        "SelfId": "Txt_Bar_Message_BorrowAddBarMember",
+        "Text": "{WORD} restera à ta disposition à la taverne, <IfGender_WORD(prêt,prête,)> à repartir à tout moment."
+      },
+      "Txt_Bar_Message_Find": {
+        "SelfId": "Txt_Bar_Message_Find",
+        "Text": "L'impression que ton équipe manque de bras?<KEY_WAIT>\r\nTu peux toujours gratter l'amitié aux aventuriers du coin mais c'est à l'étage que tu trouveras ton bonheur.<KEY_WAIT>\r\nJe te garantis que mon gars là-haut saura te dégoter les coéquipiers idéaux, ou alors je peux plier boutique!"
+      },
+      "Txt_Bar_Message_Help": {
+        "SelfId": "Txt_Bar_Message_Help",
+        "Text": "Tu te sens d'aller prêter main forte à un autre aventurier, ou c'est peut-être toi qui aurait bien besoin d'aide?<NO_INPUT>"
+      },
+      "Txt_Bar_Message_HelpAgain": {
+        "SelfId": "Txt_Bar_Message_HelpAgain",
+        "Text": "Je peux faire autre chose pour toi?<NO_INPUT>"
+      },
+      "Txt_Bar_Message_BorrowDecideSystem": {
+        "SelfId": "Txt_Bar_Message_BorrowDecideSystem",
+        "Text": "{WORD} est <IfGender_WORD(enregistré,enregistrée,)> comme personnage d'aide dans le journal {VALUE}."
+      }
+    }
+  }
+]

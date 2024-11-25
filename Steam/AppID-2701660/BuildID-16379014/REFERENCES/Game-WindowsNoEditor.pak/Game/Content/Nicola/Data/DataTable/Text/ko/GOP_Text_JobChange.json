@@ -1,0 +1,120 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_JobChange",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_JobChange_UI_JobGuide": {
+        "SelfId": "Txt_JobChange_UI_JobGuide",
+        "Text": "직업 선택"
+      },
+      "Txt_JobChange_Message_Start": {
+        "SelfId": "Txt_JobChange_Message_Start",
+        "Text": "이곳은 전직을 관장하는\r\n다마 신전이지. 직업을 바꾸고자 하는 자가\r\n오는 곳이라네.<KEY_WAIT>\r\n전직을 원하는가?"
+      },
+      "Txt_JobChange_Message_Reject": {
+        "SelfId": "Txt_JobChange_Message_Reject",
+        "Text": "그래, 전직을 하지 않는 게로군.\r\n그것도 나쁘지 않지."
+      },
+      "Txt_JobChange_Message_CharaSelect": {
+        "SelfId": "Txt_JobChange_Message_CharaSelect",
+        "Text": "누구의 직업을\r\n바꾸고 싶은가?"
+      },
+      "Txt_JobChange_Message_Error_Death": {
+        "SelfId": "Txt_JobChange_Message_Error_Death",
+        "Text": "농담 말게!\r\n{ACTOR}<IfKRVowel_ACTOR(는,은)> 지금 죽어 있지 않은가!<KEY_WAIT>\r\n아무리 나라도 죽은 자를\r\n전직시키는 일은 불가능하다네."
+      },
+      "Txt_JobChange_Message_Error_Hero": {
+        "SelfId": "Txt_JobChange_Message_Error_Hero",
+        "Text": "어리석기는!\r\n용사를 그만두겠다는 말인가?\r\n그것만큼은 안 된다네!"
+      },
+      "Txt_JobChange_Message_Error_LV": {
+        "SelfId": "Txt_JobChange_Message_Error_LV",
+        "Text": "아니, {ACTOR}<IfKRVowel_ACTOR(는,은)> 아직 제대로 된\r\n{WORD}<IfKRVowel_WORD(가,이)> 되지도 않았는데......<KEY_WAIT>\r\n아직 미숙한 실력으로\r\n벌써부터 직업을 바꾸고 싶어 하다니\r\n무슨 소릴 하는 게야!"
+      },
+      "Txt_JobChange_Message_JobSelect": {
+        "SelfId": "Txt_JobChange_Message_JobSelect",
+        "Text": "{ACTOR}<IfKRVowel_ACTOR(는,은)> 어떤 직업이 되고 싶은가?"
+      },
+      "Txt_JobChange_Message_JocConfirm": {
+        "SelfId": "Txt_JobChange_Message_JocConfirm",
+        "Text": "{ACTOR}<IfKRVowel_ACTOR(는,은)> {WORD}<IfKRVowel_WORD(가,이)> 되고 싶은 겐가?"
+      },
+      "Txt_JobChange_Message_JocDuplication": {
+        "SelfId": "Txt_JobChange_Message_JocDuplication",
+        "Text": "음? 하지만 {ACTOR}<IfKRVowel_ACTOR(는,은)>\r\n이미 그 직업이 아닌가."
+      },
+      "Txt_JobChange_Message_JobChangeConfirm": {
+        "SelfId": "Txt_JobChange_Message_JobChangeConfirm",
+        "Text": "다시 레벨1로 돌아가서\r\n수련을 쌓을 각오도\r\n되어 있겠지?"
+      },
+      "Txt_JobChange_Message_JobChangeStart": {
+        "SelfId": "Txt_JobChange_Message_JobChangeStart",
+        "Text": "오오, 신이시여.\r\n{ACTOR}<IfKRVowel_ACTOR(가,이)> 새로운 직업이 되는 것을\r\n부디 허락해 주소서!"
+      },
+      "Txt_JobChange_Message_JobChangeFinish": {
+        "SelfId": "Txt_JobChange_Message_JobChangeFinish",
+        "Text": "좋네. 그럼 지금부터\r\n{ACTOR}<IfKRVowel_ACTOR(는,은)> {WORD}<IfKRVowel_WORD(라,이라)>네!<KEY_WAIT>\r\n{ACTOR}의 장비는 새로운 직업의\r\n것으로 바꿔 놓았네."
+      },
+      "Txt_JobChange_Message_JobChangeCancel": {
+        "SelfId": "Txt_JobChange_Message_JobChangeCancel",
+        "Text": "흠... 그만두겠나?\r\n그것도 나쁘지 않지."
+      },
+      "Txt_JobChange_Message_AddJobChangeConfirm": {
+        "SelfId": "Txt_JobChange_Message_AddJobChangeConfirm",
+        "Text": "그 밖에도 전직하고 싶은 자가 있는가?"
+      },
+      "Txt_JobChange_Message_Finish": {
+        "SelfId": "Txt_JobChange_Message_Finish",
+        "Text": "그럼 가 보게나."
+      },
+      "Txt_JobChange_Message_Flavor_00": {
+        "SelfId": "Txt_JobChange_Message_Flavor_00",
+        "Text": "{WORD}<IfKRVowel_WORD(가,이)> 되고 싶다니\r\n역시 {ACTOR}<IfKRVowel_ACTOR(는,은)> 타고난 {WORD2}<IfKRVowel_WORD2(,이)>로군."
+      },
+      "Txt_JobChange_Message_Flavor_01": {
+        "SelfId": "Txt_JobChange_Message_Flavor_01",
+        "Text": "그나저나 {WORD}<IfKRVowel_WORD(,이)>라......\r\n{ACTOR}<IfKRVowel_ACTOR(는,은)> 놀라운 {WORD2}<IfKRVowel_WORD2(,이)>로군.\r\n뭐 좋네..."
+      },
+      "Txt_JobChange_Message_Flavor_02": {
+        "SelfId": "Txt_JobChange_Message_Flavor_02",
+        "Text": "흠. {WORD} 주제에\r\n{WORD2}<IfKRVowel_WORD2(가,이)> 되고 싶어 할 줄이야.\r\n제법 흥미롭군그래."
+      },
+      "Txt_JobChange_Message_Flavor_03": {
+        "SelfId": "Txt_JobChange_Message_Flavor_03",
+        "Text": "그렇군! 역시 {WORD}.\r\n행동이 성격을 따라 가는군.\r\n{ACTOR}<IfKRVowel_ACTOR(를,을)> 다시 보게 됐네."
+      },
+      "Txt_JobChange_Message_Flavor_04": {
+        "SelfId": "Txt_JobChange_Message_Flavor_04",
+        "Text": "그런가... {ACTOR} 정도의\r\n{WORD}<IfKRVowel_WORD(가,이)> {WORD2}<IfKRVowel_WORD2(가,이)> 되고 싶다니.<KEY_WAIT>\r\n이것도 세상이 어지러운 탓인 겐지.\r\n뭐, 정 원한다면 말릴 수는 없는 노릇이지."
+      },
+      "Txt_JobChange_Message_Flavor_05": {
+        "SelfId": "Txt_JobChange_Message_Flavor_05",
+        "Text": "흠.... {ACTOR} 같은\r\n{WORD}<IfKRVowel_WORD(가,이)> {WORD2}<IfKRVowel_WORD2(가,이)> 되고 싶다니....<KEY_WAIT>\r\n쉽지 않을 것 같네만...\r\n말릴 수는 없는 노릇이지."
+      },
+      "Txt_JobChange_Message_Flavor_06": {
+        "SelfId": "Txt_JobChange_Message_Flavor_06",
+        "Text": "핫핫핫.<KEY_WAIT>\r\n{WORD}<IfKRVowel_WORD(,이)>면서 {WORD2}<IfKRVowel_WORD2(가,이)> 되고 싶다니\r\n웃기려고 말한 겐가? 뭐 좋네...."
+      },
+      "Txt_JobChange_Message_Flavor_07": {
+        "SelfId": "Txt_JobChange_Message_Flavor_07",
+        "Text": "오오! {WORD} 성격인 {ACTOR}에게는\r\n천직이라 할 수 있는 좋은 선택이군."
+      },
+      "Txt_JobChange_Message_Flavor_08": {
+        "SelfId": "Txt_JobChange_Message_Flavor_08",
+        "Text": "{WORD}인 {ACTOR}<IfKRVowel_ACTOR(가,이)>\r\n{WORD2}<IfKRVowel_WORD2(가,이)> 되고 싶어 하다니\r\n많이 성장한 모양이군그래."
+      },
+      "Txt_JobChange_Message_Use_WORDS_OF_WISDOM": {
+        "SelfId": "Txt_JobChange_Message_Use_WORDS_OF_WISDOM",
+        "Text": "현자가 되려면\r\n깨달음의 책을 열심히 읽어야 하네.\r\n<KEY_WAIT>\r\n깨달음의 책은 더 이상 사용할 수 없게 되네만...\r\n괜찮겠나?"
+      }
+    }
+  }
+]

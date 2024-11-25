@@ -1,0 +1,139 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_ActionButtonMap",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'NicolaActionButtonMap'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "TypeA_GameUI": {
+        "configType": "ENicolaKeyConfigType::TypeA",
+        "inputMode": "ENicolaInputMode::GameUI",
+        "actions": [
+          "ENicolaAction::Up",
+          "ENicolaAction::Down",
+          "ENicolaAction::Left",
+          "ENicolaAction::Right",
+          "ENicolaAction::DebugMenu",
+          "ENicolaAction::Decide",
+          "ENicolaAction::Cancel"
+        ]
+      },
+      "TypeA_StandbyLua": {
+        "configType": "ENicolaKeyConfigType::TypeA",
+        "inputMode": "ENicolaInputMode::StandbyLua",
+        "actions": [
+          "ENicolaAction::Up",
+          "ENicolaAction::Down",
+          "ENicolaAction::Left",
+          "ENicolaAction::Right",
+          "ENicolaAction::DebugMenu",
+          "ENicolaAction::Decide",
+          "ENicolaAction::Cancel"
+        ]
+      },
+      "TypeA_GamePlay": {
+        "configType": "ENicolaKeyConfigType::TypeA",
+        "inputMode": "ENicolaInputMode::GamePlay",
+        "actions": [
+          "ENicolaAction::Up",
+          "ENicolaAction::Down",
+          "ENicolaAction::Left",
+          "ENicolaAction::Right",
+          "ENicolaAction::Search",
+          "ENicolaAction::Dash",
+          "ENicolaAction::TargetMarkerReset",
+          "ENicolaAction::Ride",
+          "ENicolaAction::Landing",
+          "ENicolaAction::DebugMenu",
+          "ENicolaAction::DebugConsole",
+          "ENicolaAction::DebugFly",
+          "ENicolaAction::Decide",
+          "ENicolaAction::Cancel",
+          "ENicolaAction::CameraZoomIn",
+          "ENicolaAction::CameraZoomOut",
+          "ENicolaAction::CameraReset",
+          "ENicolaAction::CameraFOVWiden",
+          "ENicolaAction::CameraFOVNarrow",
+          "ENicolaAction::DebugSuperDash1",
+          "ENicolaAction::DebugSuperDash2",
+          "ENicolaAction::DebugSuperDash3"
+        ]
+      },
+      "TypeA_NoInput": {
+        "configType": "ENicolaKeyConfigType::TypeA",
+        "inputMode": "ENicolaInputMode::NoInput",
+        "actions": []
+      },
+      "TypeA_DebugMenu": {
+        "configType": "ENicolaKeyConfigType::TypeA",
+        "inputMode": "ENicolaInputMode::DebugMenu",
+        "actions": [
+          "ENicolaAction::Up",
+          "ENicolaAction::Down",
+          "ENicolaAction::Left",
+          "ENicolaAction::Right",
+          "ENicolaAction::Decide",
+          "ENicolaAction::Cancel",
+          "ENicolaAction::DebugMenu",
+          "ENicolaAction::SoundTestStopSound",
+          "ENicolaAction::SoundSuperVisionVolumeRateUpCurrentFocus",
+          "ENicolaAction::SoundSuperVisionVolumeRateDownCurrentFocus",
+          "ENicolaAction::SoundSuperVisionStartPositionAdd",
+          "ENicolaAction::SoundSuperVisionStartPositionSub",
+          "ENicolaAction::SoundSuperVisionPlayCurrentFocus",
+          "ENicolaAction::SoundSuperVisionHoldCurrentFocus",
+          "ENicolaAction::SoundSuperVisionStopCurrentPlaying",
+          "ENicolaAction::SoundSuperVisionTogglePlayStateHolding",
+          "ENicolaAction::SoundSuperVisionSaveEdit",
+          "ENicolaAction::SoundSuperVisionReloadSetting",
+          "ENicolaAction::SoundSuperVisionDisposeEdit"
+        ]
+      },
+      "TypeA_GameBattle": {
+        "configType": "ENicolaKeyConfigType::TypeA",
+        "inputMode": "ENicolaInputMode::GameBattle",
+        "actions": [
+          "ENicolaAction::Up",
+          "ENicolaAction::Down",
+          "ENicolaAction::Left",
+          "ENicolaAction::Right",
+          "ENicolaAction::Decide",
+          "ENicolaAction::Cancel",
+          "ENicolaAction::DebugMenu"
+        ]
+      },
+      "TypeA_GameEvent": {
+        "configType": "ENicolaKeyConfigType::TypeA",
+        "inputMode": "ENicolaInputMode::GameEvent",
+        "actions": [
+          "ENicolaAction::Up",
+          "ENicolaAction::Down",
+          "ENicolaAction::Left",
+          "ENicolaAction::Right",
+          "ENicolaAction::Decide",
+          "ENicolaAction::Cancel",
+          "ENicolaAction::DebugMenu"
+        ]
+      },
+      "TypeA_GameMessage": {
+        "configType": "ENicolaKeyConfigType::TypeA",
+        "inputMode": "ENicolaInputMode::GameMessage",
+        "actions": [
+          "ENicolaAction::Up",
+          "ENicolaAction::Down",
+          "ENicolaAction::Left",
+          "ENicolaAction::Right",
+          "ENicolaAction::Decide",
+          "ENicolaAction::Cancel",
+          "ENicolaAction::DebugMenu"
+        ]
+      }
+    }
+  }
+]

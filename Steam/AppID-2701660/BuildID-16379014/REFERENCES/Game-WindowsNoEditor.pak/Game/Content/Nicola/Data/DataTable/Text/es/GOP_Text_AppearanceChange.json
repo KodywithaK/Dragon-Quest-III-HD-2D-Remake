@@ -1,0 +1,96 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_AppearanceChange",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_AppearanceChange_Message_Start": {
+        "SelfId": "Txt_AppearanceChange_Message_Start",
+        "Text": "¡Saludglops!<KEY_WAIT>\r\nSuponglop que has venido a cambiar tu aspectglop.<NO_INPUT>"
+      },
+      "Txt_AppearanceChange_Message_First": {
+        "SelfId": "Txt_AppearanceChange_Message_First",
+        "Text": "¡Holi! Me llamglop Curita. Aunque no lo parezglap, ¡soy una gurú de la modglap!\r\n<KEY_WAIT>\r\nLo mismo te corto el peglop que te lo tiño, o te cambio la voz. ¡Glup! ¡Vamos, que haglop de todo!\r\n<KEY_WAIT>\r\nPor un limoso precio, te puedglop dejar <IfGender_LEADER(hecho,hecha,)> un pincel en menos que cantglap un gallo.<KEY_WAIT>\r\nBuenglop, a ti o a quien tú quieras. ¿Qué, <IfSolo(te animas,os animáis)>?<NO_INPUT>"
+      },
+      "Txt_AppearanceChange_Message_Top": {
+        "SelfId": "Txt_AppearanceChange_Message_Top",
+        "Text": "¿Quieres cambiar el aspectglop de alguien?"
+      },
+      "Txt_AppearanceChange_Message_NameSelect": {
+        "SelfId": "Txt_AppearanceChange_Message_NameSelect",
+        "Text": "¡Glups! ¿Quién necesitglap un cambio de look?<NO_INPUT>"
+      },
+      "Txt_AppearanceChange_Message_LooksSelect": {
+        "SelfId": "Txt_AppearanceChange_Message_LooksSelect",
+        "Text": "Vaglep, así que quieres un cambio de imagen para {ACTOR}... ¿Qué aspectglop te glupstaría que tuviera?<NO_INPUT>"
+      },
+      "Txt_AppearanceChange_Message_HairColorSelect": {
+        "SelfId": "Txt_AppearanceChange_Message_HairColorSelect",
+        "Text": "¿Tenías pensadglop algún color de pelo?<NO_INPUT>"
+      },
+      "Txt_AppearanceChange_Message_HairColorSelectHero": {
+        "SelfId": "Txt_AppearanceChange_Message_HairColorSelectHero",
+        "Text": "Glups... Pero si tu peinado es el últimglop grito en cabelleras limosas, {HERO}. ¡Aunque puedglop teñírtelo! ¿Qué color te glupsta más?<NO_INPUT>"
+      },
+      "Txt_AppearanceChange_Message_VoiceSelect": {
+        "SelfId": "Txt_AppearanceChange_Message_VoiceSelect",
+        "Text": "¡Glups! ¿Tenías pensadglap alguna voz en concreto?"
+      },
+      "Txt_AppearanceChange_Message_NoChange": {
+        "SelfId": "Txt_AppearanceChange_Message_NoChange",
+        "Text": "¡Un momentglop! ¡Pero si todglop sigue igual! ¿De verdglap vas a desaprovechar esta oportunidglap de oro?<NO_INPUT>"
+      },
+      "Txt_AppearanceChange_Message_LooksChangeConfirm": {
+        "SelfId": "Txt_AppearanceChange_Message_LooksChangeConfirm",
+        "Text": "Perfectglop. Pues este estilazglop te va a costar {VALUE} <IfSing_VALUE(moneda,monedas)> de oro.\r\n¿Te parece bien?"
+      },
+      "Txt_AppearanceChange_Message_LooksChangeStart": {
+        "SelfId": "Txt_AppearanceChange_Message_LooksChangeStart",
+        "Text": "¡Muchas glapcias! Un segunditglop, por favor..."
+      },
+      "Txt_AppearanceChange_Message_LooksChangeFinish": {
+        "SelfId": "Txt_AppearanceChange_Message_LooksChangeFinish",
+        "Text": "¡Tachán! ¡Menudglap transformación!"
+      },
+      "Txt_AppearanceChange_Message_CanNotChangeDeath": {
+        "SelfId": "Txt_AppearanceChange_Message_CanNotChangeDeath",
+        "Text": "Ah, no, yo por ahí no pasglop. ¡Glups! Me estás pidiendo que cambie el aspectglop de una personglap muerta. Eso sí que no, lo sientglop."
+      },
+      "Txt_AppearanceChange_Message_CanNotChangeHero": {
+        "SelfId": "Txt_AppearanceChange_Message_CanNotChangeHero",
+        "Text": "Peglop a ver, {HERO}, si tú ya vas siempre <IfGender_HERO(hecho,hecha,)> un limoso pincel. Yo que tú glop me la jugaba..."
+      },
+      "Txt_AppearanceChange_Message_Shortage": {
+        "SelfId": "Txt_AppearanceChange_Message_Shortage",
+        "Text": "Uy, vaya... Estás sin blanca. Mejor vuelve cuandglop hayas ahorrado {VALUE} <IfSing_VALUE(moneda,monedas)> de oro, ¿de acuerglop?"
+      },
+      "Txt_AppearanceChange_Message_Cancel": {
+        "SelfId": "Txt_AppearanceChange_Message_Cancel",
+        "Text": "¿Glups? ¿Has cambiaglop de parecer? Buenglop, como veas..."
+      },
+      "Txt_AppearanceChange_Message_AddChangeConfirm": {
+        "SelfId": "Txt_AppearanceChange_Message_AddChangeConfirm",
+        "Text": "¿Te glupstaría modificar el aspectglop de alguien más?<NO_INPUT>"
+      },
+      "Txt_AppearanceChange_Message_Finish": {
+        "SelfId": "Txt_AppearanceChange_Message_Finish",
+        "Text": "Vuelve siempre que te apetezglap un cambio de look. ¡Hasta prontglop!"
+      },
+      "Txt_AppearanceChange_Message_CanNotChange": {
+        "SelfId": "Txt_AppearanceChange_Message_CanNotChange",
+        "Text": "Uy... Lo sientglop, parece que <IfSolo(no puedes,nadie puede)> cambiar de apariencia ahorglap mismo."
+      },
+      "Txt_AppearanceChange_Message_NoChangeLooks": {
+        "SelfId": "Txt_AppearanceChange_Message_NoChangeLooks",
+        "Text": "Pero si este es el mismo look de antes... ¿De verglap quieres elegir alglop así?<NO_INPUT>"
+      }
+    }
+  }
+]

@@ -1,0 +1,2584 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_NPC_Talk_Aliahan",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "TXT_Talk_Aliahan_House3_1F_BookShelf_1": {
+        "SelfId": "TXT_Talk_Aliahan_House3_1F_BookShelf_1",
+        "Text": "{LEADER} examina la estantería.\r\n¡Anda, pero si hay una lista con premios a canjear a cambio de minimedallas!"
+      },
+      "TXT_Talk_Aliahan_House1_1F_Event_MAIN_0_SCENE_0010_010_1": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_Event_MAIN_0_SCENE_0010_010_1",
+        "Text": "Nuestra historia da comienzo en la mañana del decimosexto cumpleaños de {HERO}..."
+      },
+      "TXT_Talk_Aliahan_House1_1F_Event_MAIN_0_SCENE_0010_010_2": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_Event_MAIN_0_SCENE_0010_010_2",
+        "Text": "Oh..."
+      },
+      "TXT_Talk_Aliahan_House1_1F_Event_MAIN_0_SCENE_0010_010_3": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_Event_MAIN_0_SCENE_0010_010_3",
+        "Text": "..."
+      },
+      "TXT_Talk_Aliahan_House1_1F_Event_MAIN_0_SCENE_0010_010_4": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_Event_MAIN_0_SCENE_0010_010_4",
+        "Text": "¿Seguro que no puedes esperar hasta que sea un poco más mayor?..."
+      },
+      "TXT_Talk_Aliahan_House1_1F_Event_MAIN_0_SCENE_0010_010_5": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_Event_MAIN_0_SCENE_0010_010_5",
+        "Text": "*: Lamento informaros de que no hemos recibido noticias de Ortega desde que partió hacia el volcán..."
+      },
+      "TXT_Talk_Aliahan_House1_1F_Event_MAIN_0_SCENE_0010_010_6": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_Event_MAIN_0_SCENE_0010_010_6",
+        "Text": "..."
+      },
+      "TXT_Talk_Aliahan_House1_1F_Event_MAIN_0_SCENE_0010_010_7": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_Event_MAIN_0_SCENE_0010_010_7",
+        "Text": "... Ha llegado el momento."
+      },
+      "TXT_Talk_Aliahan_House1_1F_Event_MAIN_0_SCENE_0010_010_8": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_Event_MAIN_0_SCENE_0010_010_8",
+        "Text": "Sí."
+      },
+      "TXT_Talk_Aliahan_House1_1F_Event_MAIN_0_SCENE_0010_010_9": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_Event_MAIN_0_SCENE_0010_010_9",
+        "Text": "Iré a despertar a {HERO}."
+      },
+      "TXT_Talk_Aliahan_House1_2F_MAIN_0_SCENE_0010_010_2": {
+        "SelfId": "TXT_Talk_Aliahan_House1_2F_MAIN_0_SCENE_0010_010_2",
+        "Text": "¡Eooo! ¡Despierta, que ya es por la mañana!"
+      },
+      "TXT_Talk_Aliahan_House1_2F_MAIN_0_SCENE_0010_010_3": {
+        "SelfId": "TXT_Talk_Aliahan_House1_2F_MAIN_0_SCENE_0010_010_3",
+        "Text": "¡Buenos días, cariño! ¡Hora de levantarse! ¡Hoy es un día muy importante!"
+      },
+      "TXT_Talk_Aliahan_House1_2F_MAIN_0_SCENE_0010_010_4": {
+        "SelfId": "TXT_Talk_Aliahan_House1_2F_MAIN_0_SCENE_0010_010_4",
+        "Text": "¡Tienes una audiencia con el mismísimo rey! ¡Va a darte el beneplácito real para que emprendas tu viaje!"
+      },
+      "TXT_Talk_Aliahan_House1_2F_MAIN_0_SCENE_0010_010_5": {
+        "SelfId": "TXT_Talk_Aliahan_House1_2F_MAIN_0_SCENE_0010_010_5",
+        "Text": "¡Es el momento para el que tanto te has estado preparando!"
+      },
+      "TXT_Talk_Aliahan_House1_2F_MAIN_0_SCENE_0010_010_7": {
+        "SelfId": "TXT_Talk_Aliahan_House1_2F_MAIN_0_SCENE_0010_010_7",
+        "Text": "Bueno, ¿nos ponemos en marcha? ¡Venga, sígueme!"
+      },
+      "TXT_Talk_Aliahan_Out_MAIN_0_SCENE_0010_010_1": {
+        "SelfId": "TXT_Talk_Aliahan_Out_MAIN_0_SCENE_0010_010_1",
+        "Text": "¡Vamos, cielo! El castillo está ahí mismo. ¡Todo recto!"
+      },
+      "TXT_Talk_Aliahan_Out_MAIN_0_SCENE_0010_010_2": {
+        "SelfId": "TXT_Talk_Aliahan_Out_MAIN_0_SCENE_0010_010_2",
+        "Text": "Hala, hasta aquí te acompaño. ¡Pórtate bien, no se vaya a pensar el rey que eres <IfGender_HERO(un malcriado,una malcriada,)>!"
+      },
+      "TXT_Talk_Aliahan_Out_MAIN_0_SCENE_0010_010_3": {
+        "SelfId": "TXT_Talk_Aliahan_Out_MAIN_0_SCENE_0010_010_3",
+        "Text": "Oye, ¿se puede saber qué haces, <IfGender_HERO(jovencito,jovencita,)>? ¡Venga! ¡<IfGender_HERO(Derechito,Derechita,)> a ver al rey!"
+      },
+      "TXT_Talk_Aliahan_Out_MAIN_0_SCENE_0010_010_4": {
+        "SelfId": "TXT_Talk_Aliahan_Out_MAIN_0_SCENE_0010_010_4",
+        "Text": "Pero ¿adónde te crees que vas, eh? ¿Es que prefieres no ver al rey?"
+      },
+      "TXT_Talk_Aliahan_Out_MAIN_0_SCENE_0010_010_5": {
+        "SelfId": "TXT_Talk_Aliahan_Out_MAIN_0_SCENE_0010_010_5",
+        "Text": "¡Pues menudo susto me has dado! Venga, déjate de tonterías y entra en el castillo. ¡Y pórtate bien!"
+      },
+      "TXT_Talk_Aliahan_Out_MAIN_0_SCENE_0010_010_6": {
+        "SelfId": "TXT_Talk_Aliahan_Out_MAIN_0_SCENE_0010_010_6",
+        "Text": "Ah, entiendo... Bueno, pues si no vas a verlo hoy, igual ya no vuelve a concederte una audiencia nunca más."
+      },
+      "TXT_Talk_Aliahan_Out_MAIN_0_SCENE_0010_010_7": {
+        "SelfId": "TXT_Talk_Aliahan_Out_MAIN_0_SCENE_0010_010_7",
+        "Text": "¿Te has parado a pensarlo? No es eso lo que quieres, ¿verdad?"
+      },
+      "TXT_Talk_Aliahan_Out_MAIN_0_SCENE_0010_010_8": {
+        "SelfId": "TXT_Talk_Aliahan_Out_MAIN_0_SCENE_0010_010_8",
+        "Text": "Bueno, pues si te vas a poner en ese plan, yo ya no digo nada más."
+      },
+      "TXT_Talk_Aliahan_Out_MAIN_0_SCENE_0010_010_9": {
+        "SelfId": "TXT_Talk_Aliahan_Out_MAIN_0_SCENE_0010_010_9",
+        "Text": "Yo me voy a casa, mi vida, pero te lo pregunto una última vez. ¿De verdad que no quieres reunirte con el rey?"
+      },
+      "TXT_Talk_Aliahan_Out_MAIN_0_SCENE_0010_010_10": {
+        "SelfId": "TXT_Talk_Aliahan_Out_MAIN_0_SCENE_0010_010_10",
+        "Text": "Bueno, tú verás. Ya eres <IfGender_HERO(mayorcito,mayorcita,)> para decidir por <IfGender_HERO(ti mismo,ti misma,)>. No seré yo quien te lleve la contraria."
+      },
+      "TXT_Talk_Aliahan_Out_MAIN_0_SCENE_0010_010_11": {
+        "SelfId": "TXT_Talk_Aliahan_Out_MAIN_0_SCENE_0010_010_11",
+        "Text": "Haz lo que quieras, {HERO}. Solo te pido que no te metas en ningún berenjenal. ¿Me harás caso?"
+      },
+      "TXT_Talk_Aliahan_Out_MAIN_0_SCENE_0010_010_12": {
+        "SelfId": "TXT_Talk_Aliahan_Out_MAIN_0_SCENE_0010_010_12",
+        "Text": "Eso espero. Venga, vete ya. ¡Y no seas <IfGender_HERO(maleducado,maleducada,)> con el rey!"
+      },
+      "TXT_Talk_Aliahan_Out_MAIN_0_SCENE_0010_010_13": {
+        "SelfId": "TXT_Talk_Aliahan_Out_MAIN_0_SCENE_0010_010_13",
+        "Text": "..."
+      },
+      "TXT_Talk_Aliahan_Out_MAIN_0_SCENE_0010_010_14": {
+        "SelfId": "TXT_Talk_Aliahan_Out_MAIN_0_SCENE_0010_010_14",
+        "Text": "Pues nada, yo me voy a casa.\r\nVe con cuidado, ¿eh? Ay... Snif, snif..."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0110_010_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0110_010_1",
+        "Text": "¡<IfGender_HERO(Bien hallado,Bien hallada,)>, <IfGender_HERO(hijo,hija,)> de Ortega!"
+      },
+      "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0110_010_4": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0110_010_4",
+        "Text": "*: No hemos podido hallar las pertenencias de Ortega."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0110_010_5": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0110_010_5",
+        "Text": "Ya veo... Resulta aterrador pensar que existe algo capaz de acabar con un hombre de su talla..."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0110_010_6": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0110_010_6",
+        "Text": "Mi marido fue un guerrero curtido en mil batallas. Estoy segura de que hizo cuanto pudo antes de morir."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0110_010_7": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0110_010_7",
+        "Text": "No me cabe duda de que tu madre te habrá contado numerosas veces la historia del fallecimiento de tu padre."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0110_010_8": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0110_010_8",
+        "Text": "Cuando Ortega se precipitó al cráter de ese condenado volcán, el mundo perdió a un gran hombre."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0110_010_9": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0110_010_9",
+        "Text": "Aun así, tu deseo de seguir sus pasos y emprender tu propia aventura cuenta con nuestra más sincera aprobación."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0110_010_10": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0110_010_10",
+        "Text": "Es lo que él habría querido. Además, solo <IfGender_HERO(el hijo,la hija,)> de tal héroe podría aspirar a salvar el mundo."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0110_010_11": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0110_010_11",
+        "Text": "Pues la calamidad a la que nos enfrentamos es atroz: ¡el archienemigo Baramos!"
+      },
+      "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0110_010_12": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0110_010_12",
+        "Text": "Muchas son las personas que no conocen todavía siquiera su nombre."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0110_010_13": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0110_010_13",
+        "Text": "Con todo, cada vez se halla más cerca de apoderarse del mundo."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0110_010_14": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0110_010_14",
+        "Text": "¡Hay que detenerlo! ¡Cueste lo que cueste!"
+      },
+      "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0110_010_15": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0110_010_15",
+        "Text": "¡Debes librarnos de la tiranía del Archienemigo que se cierne sobre nosotros!"
+      },
+      "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0110_010_16": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0110_010_16",
+        "Text": "Sin embargo, de emprender esta aventura <IfGender_HERO(solo,sola,)>, correrás la misma suerte que tu padre."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0110_010_17": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0110_010_17",
+        "Text": "Ve a hablar con la señorita Petricia y haz uso de esta dádiva para pertrechar a los acompañantes que ha elegido para ti."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0110_010_18": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0110_010_18",
+        "Text": "¡{HERO} recibe 50 monedas de oro y algunos objetos de equipo básicos, los cuales guarda en la bolsa!"
+      },
+      "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0110_010_20": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0110_010_20",
+        "Text": "Permíteme orientarte un poco: procura hallar la llave de ladrón, un artefacto capaz de abrir numerosas puertas que hay por todo el mundo. Seguro que te resulta de utilidad durante la travesía."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0110_010_21": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0110_010_21",
+        "Text": "Pero, antes que nada, deberías seguir el consejo de su majestad e ir a buscar a otros aventureros como tú en la Taberna de Petricia."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0110_010_22": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0110_010_22",
+        "Text": "Una vez lo hayas hecho, dirígete a Ribera, un pintoresco pueblo sito al noroeste de nuestro reino."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0110_010_23": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0110_010_23",
+        "Text": "Ahora tienes señalada la aldea de Ribera en el mapa. Dejo en tus manos la tarea de hallar los otros emplazamientos relevantes a lo largo y ancho de Aliana."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0110_010_24": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0110_010_24",
+        "Text": "Te recomiendo que explores y busques tantos lugares como te sea posible durante tu periplo. Por cierto, si no los visitas, no quedarán marcados en el mapa."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0110_010_25": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0110_010_25",
+        "Text": "Y recuerda: la curiosidad es una cualidad muy importante. Fíate de la intuición y seguro que obtendrás tu recompensa. Aun así, mantente ojo avizor; quién sabe qué amenazas podrían acechar..."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0110_010_26": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0110_010_26",
+        "Text": "¡Tenemos nuestras esperanzas puestas en ti!"
+      },
+      "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0110_010_27": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0110_010_27",
+        "Text": "Vaya, vaya... Parece que al final te has dignado a honrarnos con tu presencia. Ya pensábamos que no vendrías."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0110_010_28": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0110_010_28",
+        "Text": "Así que tú eres <IfGender_HERO(aquel niño,aquella niña,)> de hace tantos años, ¿eh?... Cuánto has crecido."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0110_010_29": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0110_010_29",
+        "Text": "No te acordarás, pero tú y yo ya nos habíamos conocido."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0110_010_30": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0110_010_30",
+        "Text": "Fue el día en el que recibimos la noticia de la muerte de tu padre..."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0110_010_31": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0110_010_31",
+        "Text": "Ortega era el héroe más formidable de esta tierra. El orgullo de nuestro reino..."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0110_010_32": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0110_010_32",
+        "Text": "Su pérdida supuso un golpe muy duro para todos nosotros..."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0110_010_33": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0110_010_33",
+        "Text": "Vaya, vaya... ¡Pero si es nada más y nada menos que <IfGender_HERO(el hijo,la hija,)> del gran Ortega!"
+      },
+      "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0110_010_34": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0110_010_34",
+        "Text": "... <IfGender_HERO(El,La,)> cual se fue de aventuras sin obtener antes el beneplácito de su rey..., ¡y sin nadie que <IfGender_HERO(lo,la,)> acompañara!"
+      },
+      "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0110_010_35": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0110_010_35",
+        "Text": "Parece que al final te has dignado a honrarnos con tu presencia..."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0110_010_36": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0110_010_36",
+        "Text": "Tanto da. Nunca es tarde para emprender un viaje..."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0110_010_37": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0110_010_37",
+        "Text": "¡Ha llegado la hora de dar a tu misión la importancia que se merece!..."
+      },
+      "TXT_Talk_Aliahan_Out_MAIN_0_SCENE_0010_020_1": {
+        "SelfId": "TXT_Talk_Aliahan_Out_MAIN_0_SCENE_0010_020_1",
+        "Text": "*: ¡Eh, atención! ¡{HERO} ha vuelto!"
+      },
+      "TXT_Talk_Aliahan_Out_MAIN_0_SCENE_0010_020_2": {
+        "SelfId": "TXT_Talk_Aliahan_Out_MAIN_0_SCENE_0010_020_2",
+        "Text": "*: ¡<IfGender_HERO(Nuestro héroe,Nuestra heroína,)> ha regresado! ¡Venid todos a saludar!"
+      },
+      "TXT_Talk_Aliahan_Out_MAIN_0_SCENE_0010_020_3": {
+        "SelfId": "TXT_Talk_Aliahan_Out_MAIN_0_SCENE_0010_020_3",
+        "Text": "*: ¡Hurraaa! ¡Hurraaa!"
+      },
+      "TXT_Talk_Aliahan_Out_MAIN_0_SCENE_0010_020_4": {
+        "SelfId": "TXT_Talk_Aliahan_Out_MAIN_0_SCENE_0010_020_4",
+        "Text": "*: ¿Vuelve a reinar la paz al fin?\r\nNo pensé que viviría para verlo..."
+      },
+      "TXT_Talk_Aliahan_Out_MAIN_0_SCENE_0010_020_5": {
+        "SelfId": "TXT_Talk_Aliahan_Out_MAIN_0_SCENE_0010_020_5",
+        "Text": "*: Gracias, {HERO}. Muchísimas gracias. De parte de todos nosotros."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0010_030_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0010_030_1",
+        "Text": "¡Ah! ¡<IfGender_HERO(Bienvenido,Bienvenida,)> a casa, mi <IfGender_HERO(pequeño campeón,pequeña campeona,)>! ¡Estoy muy orgullosa de ti!"
+      },
+      "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0010_030_2": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0010_030_2",
+        "Text": "Ay, ojalá pudiera verte tu padre..."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0010_030_3": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0010_030_3",
+        "Text": "¡Es que mírate! Te has convertido en <IfGender_HERO(un gran aventurero,una gran aventurera,)>.\r\nEres la viva imagen de tu padre."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0010_030_4": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0010_030_4",
+        "Text": "Estoy convencido de que, esté donde esté, se siente tan orgulloso como yo."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0010_030_5": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0010_030_5",
+        "Text": "¡Te doy la bienvenida, azote del archienemigo Baramos!"
+      },
+      "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0010_030_6": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0010_030_6",
+        "Text": "¡Eres <IfGender_HERO(digno hijo,digna hija,)> de tu padre! El reino... No, ¿qué digo? ¡El mundo entero te aplaude!"
+      },
+      "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0010_030_8": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0010_030_8",
+        "Text": "¡Te doy la bienvenida, azote del archienemigo Baramos!"
+      },
+      "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0010_030_9": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0010_030_9",
+        "Text": "¡Es toda una hazaña que hayas logrado derrotar a un tirano como el Archienemigo valiéndote únicamente de tu fuerza!"
+      },
+      "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0010_030_10": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0010_030_10",
+        "Text": "¡Eres <IfGender_HERO(digno hijo,digna hija,)> de tu padre! ¡Tu poderío es equiparable al suyo!"
+      },
+      "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0010_030_12": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0010_030_12",
+        "Text": "Una proeza tal ha de recompensarse de manera acorde. ¡Toma! ¡Acepta este regalo de tu agradecido rey!"
+      },
+      "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0010_030_13": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0010_030_13",
+        "Text": "¡{HERO} recibe una espada bastarda a estrenar!"
+      },
+      "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0010_030_14": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0010_030_14",
+        "Text": "¡Te doy la bienvenida, azote del archienemigo Baramos!"
+      },
+      "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0010_030_15": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0010_030_15",
+        "Text": "¡Eres <IfGender_HERO(digno hijo,digna hija,)> de tu padre! ¡Y tus acompañantes no te van a la zaga en cuanto a grandeza! El reino... No, ¿qué digo? ¡El mundo entero os aplaude!"
+      },
+      "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0010_030_17": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0010_030_17",
+        "Text": "¡Sirvientes! ¡Debéis preparar el mayor festín que se haya celebrado jamás en esta nación!"
+      },
+      "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0010_030_18": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0010_030_18",
+        "Text": "¡Ju, ju, ju!..."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0010_030_18_02": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0010_030_18_02",
+        "Text": "¡Disculpad que interrumpa una escena tan conmovedora!"
+      },
+      "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0010_030_19": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0010_030_19",
+        "Text": "Soy Zoma, patrono de la oscuridad y Señor del Inframundo."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0010_030_21": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0010_030_21",
+        "Text": "Y mientras así lo dicte mi voluntad,\r\nvuestro mundo yacerá envuelto en el oscuro manto de la noche."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0010_030_22": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0010_030_22",
+        "Text": "¡Preparaos para sufrir!"
+      },
+      "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0010_030_23": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0010_030_23",
+        "Text": "¡Me regocijaré en vuestro dolor!"
+      },
+      "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0010_030_24": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0010_030_24",
+        "Text": "¡Sucumbiréis a la desesperación! ¡Os someteréis a mi poder!\r\n¡Daréis vuestra vida en sacrificio a mi gloria!"
+      },
+      "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0010_030_25": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0010_030_25",
+        "Text": "¡Pues yo soy Zoma, heraldo del olvido!"
+      },
+      "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0010_030_26": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0010_030_26",
+        "Text": "¡Si obedecéis, vuestro sufrimiento será breve!\r\n¡Mas si os resistís, viviréis el peor de los tormentos!"
+      },
+      "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0010_030_27": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0010_030_27",
+        "Text": "¡Mmm, mmm, mmm, mmm!\r\n¡¡¡Ja, ja, ja, ja, jaaa!!!"
+      },
+      "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0010_030_28": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0010_030_28",
+        "Text": "*: ¡¿Estáis todos bien?!"
+      },
+      "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0010_030_29": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0010_030_29",
+        "Text": "*: ¡¿Qué ha sido eso?!"
+      },
+      "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0010_030_30": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0010_030_30",
+        "Text": "No... No puede ser... Ahora que nuestra tierra por fin había recobrado la paz..."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0010_030_31": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0010_030_31",
+        "Text": "¿Acaso no podremos disfrutarla jamás?..."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0010_030_32": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0010_030_32",
+        "Text": "Escuchadme todos con atención."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0010_030_33": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0010_030_33",
+        "Text": "El pueblo jamás ha de saber de la existencia de Zoma."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0010_030_34": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0010_030_34",
+        "Text": "Sus vidas llevan demasiado tiempo regidas por el desasosiego..."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0010_030_35": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0010_030_35",
+        "Text": "Ay, diosa... ¿Cuál es la senda que he de seguir?... Ah, permitidme unos instantes de debilidad. Quiero estar solo, por favor..."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0010_030_36": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0010_030_36",
+        "Text": "La aparición de Zoma, Señor del Inframundo, fue una desagradable sorpresa para {HERO} tras su retorno a Aliana."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0010_030_37": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0010_030_37",
+        "Text": "Sin embargo, tal y como el rey había ordenado, los hechos que acontecieron aquel día jamás saldrían de la sala del trono."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0010_030_39": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_MAIN_0_VOLUME_0010_030_39",
+        "Text": "Más tarde, aquella misma noche, mientras el pueblo dormía..."
+      },
+      "TXT_Talk_Aliahan_House1_1F_MAIN_0_SCENE_0010_030_1": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_MAIN_0_SCENE_0010_030_1",
+        "Text": "¿Qué tienes? ¿No puedes dormir?"
+      },
+      "TXT_Talk_Aliahan_House1_1F_MAIN_0_SCENE_0010_030_2": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_MAIN_0_SCENE_0010_030_2",
+        "Text": "No me sorprende, la verdad, teniendo en cuenta lo que ha pasado."
+      },
+      "TXT_Talk_Aliahan_House1_1F_MAIN_0_SCENE_0010_030_3": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_MAIN_0_SCENE_0010_030_3",
+        "Text": "Ay... Solo de pensar en esa horrible voz que oímos en el castillo se me hiela la sangre."
+      },
+      "TXT_Talk_Aliahan_House1_1F_MAIN_0_SCENE_0010_030_4": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_MAIN_0_SCENE_0010_030_4",
+        "Text": "En fin, es mejor no darle más vueltas. Dime, ¿ya has pensado qué vas a hacer ahora?"
+      },
+      "TXT_Talk_Aliahan_House1_1F_MAIN_0_SCENE_0010_030_5": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_MAIN_0_SCENE_0010_030_5",
+        "Text": "Ay, si es que... ¡No podría estar más orgullosa de ti!"
+      },
+      "TXT_Talk_Aliahan_House1_1F_MAIN_0_SCENE_0010_030_6": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_MAIN_0_SCENE_0010_030_6",
+        "Text": "Claro, yo también estoy muy abrumada..."
+      },
+      "TXT_Talk_Aliahan_House1_1F_MAIN_0_SCENE_0010_030_7": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_MAIN_0_SCENE_0010_030_7",
+        "Text": "Esperaba que todo hubiera acabado ya, pero sé que no puedes quedarte aquí de brazos cruzados. En ese sentido, eres como tu padre."
+      },
+      "TXT_Talk_Aliahan_House1_1F_MAIN_0_SCENE_0010_030_8": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_MAIN_0_SCENE_0010_030_8",
+        "Text": "Ay, me acuerdo de cuando él se fue de Aliana para emprender su viaje."
+      },
+      "TXT_Talk_Aliahan_House1_1F_MAIN_0_SCENE_0010_030_9": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_MAIN_0_SCENE_0010_030_9",
+        "Text": "Sus amigos le trajeron el yelmo más sublime que te puedas imaginar..."
+      },
+      "TXT_Talk_Aliahan_House1_1F_MAIN_0_SCENE_0010_030_10": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_MAIN_0_SCENE_0010_030_10",
+        "Text": "La ciudad entera vino a desearle un buen viaje. Estaban todos tan contentos..., pero yo solo sentía miedo."
+      },
+      "TXT_Talk_Aliahan_House1_1F_MAIN_0_SCENE_0010_030_11": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_MAIN_0_SCENE_0010_030_11",
+        "Text": "Qué yelmo tan bonito..."
+      },
+      "TXT_Talk_Aliahan_House1_1F_MAIN_0_SCENE_0010_030_12": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_MAIN_0_SCENE_0010_030_12",
+        "Text": "¿Seguro que no puedes esperar hasta que sea un poco más mayor?..."
+      },
+      "TXT_Talk_Aliahan_House1_1F_MAIN_0_SCENE_0010_030_13": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_MAIN_0_SCENE_0010_030_13",
+        "Text": "No quiero perderte a ti también..."
+      },
+      "TXT_Talk_Aliahan_House1_1F_MAIN_0_SCENE_0010_030_14": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_MAIN_0_SCENE_0010_030_14",
+        "Text": "Ay, lo siento... No te preocupes. Todo saldrá bien."
+      },
+      "TXT_Talk_Aliahan_House1_1F_MAIN_0_SCENE_0010_030_15": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_MAIN_0_SCENE_0010_030_15",
+        "Text": "Bueno, ya va siendo hora de que te vayas a dormir. Venga, tienes que estar que te caes de sueño. Ya hablaremos mañana."
+      },
+      "TXT_Talk_Aliahan_House1_2F_MAIN_0_SCENE_0010_040_1": {
+        "SelfId": "TXT_Talk_Aliahan_House1_2F_MAIN_0_SCENE_0010_040_1",
+        "Text": "Al despuntar el alba..."
+      },
+      "TXT_Talk_Aliahan_House1_1F_MAIN_0_SCENE_0010_040_1": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_MAIN_0_SCENE_0010_040_1",
+        "Text": "¡Buenos días, cariño!"
+      },
+      "TXT_Talk_Aliahan_House1_1F_MAIN_0_SCENE_0010_040_4": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_MAIN_0_SCENE_0010_040_4",
+        "Text": "Supongo que es hora de volver a despedirse, ¿no?"
+      },
+      "TXT_Talk_Aliahan_House1_1F_MAIN_0_SCENE_0010_040_5": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_MAIN_0_SCENE_0010_040_5",
+        "Text": "Ya sé que no tengo forma de pararte los pies, así que prométeme que irás con cuidado, ¿vale?"
+      },
+      "TXT_Talk_Aliahan_House1_1F_MAIN_0_SCENE_0010_040_6": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_MAIN_0_SCENE_0010_040_6",
+        "Text": "Cuando vuelvas a casa, aquí estaré yo esperándote con los brazos bien abiertos."
+      },
+      "TXT_Talk_Aliahan_House1_1F_MAIN_0_SCENE_0010_040_7": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_MAIN_0_SCENE_0010_040_7",
+        "Text": "Adiós, cielo. ¡Si alguna vez echas de menos la comida de mamá, no dudes en pasarte por casa!"
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_SCENE_0010_050_1": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_SCENE_0010_050_1",
+        "Text": "¡<IfGender_HERO(Bienvenido,Bienvenida,)> a casa, cariño! Vaya, qué pinta de <IfGender_HERO(aventurero,aventurera,)> me traes. Venga, dale un abrazo a tu..."
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_SCENE_0010_050_2": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_SCENE_0010_050_2",
+        "Text": "Por la diosa..."
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_SCENE_0010_050_3": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_SCENE_0010_050_3",
+        "Text": "No podría olvidar este yelmo aunque quisiese."
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_SCENE_0010_050_4": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_SCENE_0010_050_4",
+        "Text": "Todavía recuerdo aquel día con todo lujo de detalles, cuando los amigos de tu padre se lo regalaron para su viaje."
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_SCENE_0010_050_5": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_SCENE_0010_050_5",
+        "Text": "*: ¡Buenos días! Debes de tener muchos sentimientos encontrados ahora que se acerca la partida de Ortega."
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_SCENE_0010_050_6": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_SCENE_0010_050_6",
+        "Text": "*: No es gran cosa, pero le hemos preparao un regalito..."
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_SCENE_0010_050_7": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_SCENE_0010_050_7",
+        "Text": "Qué yelmo tan bonito..."
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_SCENE_0010_050_8": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_SCENE_0010_050_8",
+        "Text": "Aún puedo ver el fervor con el que le brillaron los ojos cuando se lo puso."
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_SCENE_0010_050_9": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_SCENE_0010_050_9",
+        "Text": "Y ahora, míralo..."
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_SCENE_0010_050_10": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_SCENE_0010_050_10",
+        "Text": "Está lleno de arañazos. Cuánto debió de sufrir mi pobre Ortega..."
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_SCENE_0010_050_11": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_SCENE_0010_050_11",
+        "Text": "Aun así, gracias por enseñármelo. Guárdalo bien; es lo que tu padre habría querido."
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_SCENE_0010_050_12": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_SCENE_0010_050_12",
+        "Text": "Lo digo en serio.\r\nYo no necesito el yelmo con todos los recuerdos tan bonitos que tengo."
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_SCENE_0010_050_13": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_SCENE_0010_050_13",
+        "Text": "Además, digo yo que te hará falta algo para protegerte la cabeza en tus viajes."
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_SCENE_0010_050_14": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_SCENE_0010_050_14",
+        "Text": "Bueno, ¿qué te parece si nos animamos con algo de comida? ¡Voy a preparar un plato la mar de especial!"
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_010_1": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_010_1",
+        "Text": "¡Ay, cariñín! ¡<IfGender_HERO(Bienvenido,Bienvenida,)> a casa!\r\n¡Cómo te he echado de menos, {HERO}!"
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_010_2": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_010_2",
+        "Text": "¡Seguro que estás <IfGender_HERO(molido,molida,)> de tanto ir de aquí para allá! ¡Venga, a la cama ahora mismo!"
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_010_3": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_010_3",
+        "Text": "¿Eh? ¡Pues claro que se puede quedar quien haga falta! Será como una fiesta de pijamas. ¡A descansar se ha dicho!"
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_010_4": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_010_4",
+        "Text": "¡Buenos días, corazón! ¡Es hora de irse de aventuras!"
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_010_5": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_010_5",
+        "Text": "¿Qué pasa, cielo? ¿Estás <IfGender_HERO(cansado,cansada,)> de tanto viaje?"
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_010_6": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_010_6",
+        "Text": "Claro, normal... Y anda que no me gustaría a mí tenerte siempre aquí en casa, {HERO}."
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_010_7": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_010_7",
+        "Text": "Pero todo polluelo tiene que acabar abandonando el nido."
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_010_8": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_010_8",
+        "Text": "¡Venga, ponte en marcha y haz que tu padre se sienta orgulloso!"
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_010_9": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_010_9",
+        "Text": "¡Más te vale! ¿Qué iba a pensar tu padre?"
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_010_10": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_010_10",
+        "Text": "¡¿Q-qué?! ¡¿Qué le ha pasado a mi {HERO}?!"
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_010_11": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_010_11",
+        "Text": "Ay... No me lo puedo creer... ¡No me digas que <IfGender_HERO(lo,la,)> he perdido también! Con lo que me costó superar lo de Ortega..., y ahora esto..."
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_010_12": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_010_12",
+        "Text": "¡Te lo suplico! ¡<IfGender_HERO(Sálvalo,Sálvala,)>! Ayuda a mi {HERO}... Es mi <IfGender_HERO(único hijo,única hija,)>..."
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_010_13": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_010_13",
+        "Text": "¡Hola, mi vida! ¿Qué tal te ha ido? ¿Ya has visto al rey?\r\n¿Cómo te has portado? Bien, ¿no?"
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_010_14": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_010_14",
+        "Text": "Ay, menos mal..."
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_010_15": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_010_15",
+        "Text": "Me daba miedo que tropezaras y armaras un escándalo, o que soltases algo inapropiado..."
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_010_16": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_010_16",
+        "Text": "En fin, bien está lo que bien acaba. ¡Ya tienes el visto bueno del rey para irte de aventuras! ¡Ahora eres oficialmente <IfGender_HERO(un adulto,una adulta,)>!"
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_010_17": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_010_17",
+        "Text": "¿En serio me lo dices? Ay, diosa... Bueno, ha sido tu primera vez en la corte, es normal."
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_010_18": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_010_18",
+        "Text": "Tampoco pueden esperar que te salga todo bien a la primera. Nadie es perfecto, ¿no?"
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_010_19": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_010_19",
+        "Text": "Bueno, tienes que estar <IfGender_HERO(agotado,agotada,)> después de tantas emociones. ¡Venga, a la cama!"
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_010_20": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_010_20",
+        "Text": "¡Buenos días, corazón! ¡Es hora de irse de aventuras!"
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_010_21": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_010_21",
+        "Text": "Hola de nuevo, cielo. ¿Sigues <IfGender_HERO(empeñado,empeñada,)> en eludir tus responsabilidades y al rey?"
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_010_22": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_010_22",
+        "Text": "Ah, ¿sí que has ido a verlo? ¿Después de todo lo que me habías dicho?"
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_010_23": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_010_23",
+        "Text": "¡Ay, no sabes lo orgullosa que estoy de ti!"
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_010_24": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_010_24",
+        "Text": "Bueno, tienes que estar <IfGender_HERO(agotado,agotada,)> después de tantas emociones. ¡Venga, a la cama!"
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_010_25": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_010_25",
+        "Text": "Para el carro, <IfGender_HERO(jovencito,jovencita,)>. A mí no me vas a engañar."
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_010_26": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_010_26",
+        "Text": "Sé de sobra que no has ido."
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_010_27": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_010_27",
+        "Text": "Pero seguro que tienes tus motivos, así que no me voy a inmiscuir."
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_010_28": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_010_28",
+        "Text": "Solo te pido que no te metas en líos, ¿vale? Venga, desfilando."
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_010_29": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_010_29",
+        "Text": "¿De verdad? Qué <IfGender_HERO(cabezón,cabezona,)> eres cuando quieres, ¿eh? Ay, ¿qué voy a hacer contigo?..."
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_010_30": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_010_30",
+        "Text": "Pero seguro que tienes tus motivos, así que no me voy a inmiscuir."
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_010_31": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_010_31",
+        "Text": "Bueno, tienes que estar <IfGender_HERO(agotado,agotada,)> después de tantas emociones. ¡Venga, a la cama!"
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_020_1": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_020_1",
+        "Text": "¡Ah! ¡<IfGender_HERO(Bienvenido,Bienvenida,)> a casa, mi <IfGender_HERO(pequeño héroe,pequeña heroína,)>! ¡Estoy muy orgullosa de ti!"
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_020_2": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_020_2",
+        "Text": "Ay, ojalá pudiera verte tu padre..."
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_020_3": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_020_3",
+        "Text": "¿Mmm? ¿Dónde está mi <IfGender_HERO(niño,niña,)>? ¿Qué le has hecho a mi {HERO}?"
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_020_4": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_020_4",
+        "Text": "¡Dile <IfGender_HERO(al,a la,)> muy granuja que se pase por casa pronto si no quiere que me enfade!"
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_020_5": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_020_5",
+        "Text": "Prométeme que vas a ir con cuidado, ¿vale? Yo estaré aquí para lo que necesites."
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_030_1": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_030_1",
+        "Text": "¡<IfGender_HERO(Bienvenido,Bienvenida,)> a casa, cielo! ¡Justo me estaba preguntando por dónde andarías!"
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_030_2": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_030_2",
+        "Text": "¿Aún no se te ha pasado lo de querer irte por ahí de aventuras?"
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_030_3": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_030_3",
+        "Text": "¿No? Bueno, pues nada, tu madre se quedará aquí contando los días que faltan para que vuelvas definitivamente."
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_030_4": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_030_4",
+        "Text": "Espero que mi <IfGender_HERO(pequeño héroe,pequeña heroína,)> esté descansando como toca. Tú <IfGender_HERO(cuídamelo,cuídamela,)>, ¿eh?"
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_030_5": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_030_5",
+        "Text": "¡Más vale que le recuerdes de vez en cuando <IfGender_HERO(al,a la,)> muy granuja que se pase por casa o la vamos a tener!"
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_040_1": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_040_1",
+        "Text": "¡Cielo, qué alegría verte! ¡No te lo vas a creer! ¡Tu padre ha vuelto! ¡Está vivo!"
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_040_2": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_040_2",
+        "Text": "¡Ay, voy a llorar de alegría! Snif..."
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_040_3": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_040_3",
+        "Text": "¡Mira, corazón! ¡Es tu padre! ¡Tu papaíto está en casa!"
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_040_4": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_040_4",
+        "Text": "Después de todo este tiempo..., ¡sigue vivo! ¡Estoy más contenta que unas castañuelas! Snif... Que me emociono."
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_040_5": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_040_5",
+        "Text": "Vaya tela... Su padre vuelve de entre los muertos y <IfGender_HERO(mi niño,mi niña,)> no está aquí para verlo. Si la diosa quiere, regresará pronto a casa y podremos volver a ser una familia feliz."
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_040_6": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_040_6",
+        "Text": "¡<IfGender_HERO(Hijo mío,Hija mía,)>! Ando poniendo al día a tu padre de todo lo que ha pasado durante su ausencia."
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_040_7": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_040_7",
+        "Text": "La cantidad de cosas que hay que contarle, ¿eh?"
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_040_8": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_040_8",
+        "Text": "Total, que no paro de darle al pico. ¡No paro! ¡Menuda cotorra soy! ¡Je, je!"
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_040_9": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0110_040_9",
+        "Text": "¿Qué le voy a hacer? ¡Tenemos mucho de lo que hablar! ¡Ji, ji!"
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0210_010_1": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0210_010_1",
+        "Text": "¡Eres <IfGender_HERO(el héroe más heroico,la heroína más heroica,)> del mundo mundial! ¿Quién iba a pensar que alguien de mi propia sangre sería tan valiente?... Bueno, yo, claro..."
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0210_010_2": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0210_010_2",
+        "Text": "Eres <IfGender_HERO(igualito,igualita,)> a tu padre, ¿eh? ¡O a tu abuelo, si lo piensas! ¡Je, je!"
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0310_010_1": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0310_010_1",
+        "Text": "Vaya, así que tú eres mi <IfGender_HERO(hijo,hija,)>, ¿eh? Qué cosa más rara... Sé que no te veía desde que eras un bebé..."
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0310_010_2": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0310_010_2",
+        "Text": "... pero me siento como si nos hubiéramos visto no hace mucho."
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0310_010_3": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0310_010_3",
+        "Text": "En fin, no me hagas mucho caso. Creo que solo necesito descansar un rato."
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0310_010_4": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0310_010_4",
+        "Text": "Así que tú eres mi <IfGender_HERO(pequeño,pequeña,)>, ¿eh? Bueno, de <IfGender_HERO(pequeño,pequeña,)> ya no tienes nada..."
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0310_010_5": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0310_010_5",
+        "Text": "Cuando me fui, eras apenas más grande que un guisante. ¡Y mírate ahora!"
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0310_010_6": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0310_010_6",
+        "Text": "Siento todo por lo que te he hecho pasar..."
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0310_010_7": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0310_010_7",
+        "Text": "Bueno, ¿y qué has estado haciendo todo este tiempo? ¿Cómo?... ¿Que juraste seguir mis pasos y derrotar al Archienemigo?"
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0310_010_8": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0310_010_8",
+        "Text": "Vaya, vaya. Pues no seré yo quien te haga cejar en tu empeño."
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0310_010_9": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0310_010_9",
+        "Text": "Solo te pido que no le des demasiados disgustos a tu madre, ¿vale? Ya lo ha pasado bastante mal."
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0310_010_10": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0310_010_10",
+        "Text": "Te has convertido en <IfGender_HERO(todo un aventurero,toda una aventurera,)>, {HERO}."
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0310_010_11": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0310_010_11",
+        "Text": "Casi me dan ganas de acompañarte, pero sería incapaz de hacerle algo así a tu pobre madre."
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0310_010_12": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0310_010_12",
+        "Text": "Ya la he hecho sufrir bastante..."
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0310_010_13": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0310_010_13",
+        "Text": "En fin, yo ya he cumplido con mi parte, {HERO}. Ahora te toca a ti terminar lo que empezó este padre tuyo."
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0310_010_14": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0310_010_14",
+        "Text": "Seguro que nos haces sentir orgullosos. ¡Tienes pinta de poder hacer picadillo al Señor del Inframundo con los ojos cerrados!"
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0310_010_15": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0310_010_15",
+        "Text": "..."
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0310_010_16": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0310_010_16",
+        "Text": "Parece estar ensimismado en sus pensamientos."
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0310_010_17": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0310_010_17",
+        "Text": "Ah, {HERO}, aquí estás. Mira, es que llevo tiempo queriendo preguntarte una cosa sobre tu madre..."
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0310_010_18": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0310_010_18",
+        "Text": "Me encanta que me quiera contar todo lo que me he perdido, pero..., eh..., ¿sabes si hay alguna forma de hacer que pare?"
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0310_010_19": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0310_010_19",
+        "Text": "¿No? Pues tendré que seguir con mi táctica de sonreír y asentir. Aunque me alegro de que esté tan emocionada con mi regreso, claro."
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0310_010_20": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0310_010_20",
+        "Text": "No sé por qué, pero me acabo de acordar de que me dejé algo en una aldea llamada Mur cuando pasé por allí durante mis viajes."
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0310_010_21": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0310_010_21",
+        "Text": "Seguro que se ha extraviado después de tanto tiempo, pero al menos me gustaría poder ir a agradecerles que lo guardaran."
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0310_010_22": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0310_010_22",
+        "Text": "¡Sí, ese mismo! ¡Mi yelmo! ¿Por qué lo tienes tú?"
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0310_010_23": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0310_010_23",
+        "Text": "Ah, no hace falta que me lo devuelvas. Hoy por hoy, tú le vas a dar mucho mejor uso que yo."
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0310_010_24": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0310_010_24",
+        "Text": "Aunque, si te digo la verdad, no recuerdo que estuviera tan desgastado cuando lo llevaba yo. De hecho, tengo un viejo amigo que podría..."
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0310_010_25": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0310_010_25",
+        "Text": "Bueno, tampoco es que haya tiempo para eso. Además, aún cumple su función tal y como está."
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0310_010_26": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0310_010_26",
+        "Text": "Ah..., mírate, {HERO}..."
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0310_010_27": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0310_010_27",
+        "Text": "Solo con derrotar a Baramos, ya has superado los logros de toda mi vida."
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0310_010_28": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0310_010_28",
+        "Text": "Quiero que sepas que no podría estar más orgulloso de ti, y eso no lo cambiará nada. Jamás."
+      },
+      "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0310_010_29": {
+        "SelfId": "TXT_Talk_Aliahan_House1_1F_SUB_0_ACTOR_0310_010_29",
+        "Text": "Además, tienes toda la vida por delante. A saber con qué otras hazañas nos sorprendes en el futuro."
+      },
+      "TXT_Talk_Aliahan_House1_2F_SUB_0_ACTOR_0110_010_1": {
+        "SelfId": "TXT_Talk_Aliahan_House1_2F_SUB_0_ACTOR_0110_010_1",
+        "Text": "Ortega fue un héroe de tomo y lomo, ¿sabes? Tu padre tenía algo especial. ¡Y el suyo también! ¡Je, je!"
+      },
+      "TXT_Talk_Aliahan_House1_2F_SUB_0_ACTOR_0110_010_2": {
+        "SelfId": "TXT_Talk_Aliahan_House1_2F_SUB_0_ACTOR_0110_010_2",
+        "Text": "El listón está muy alto, {HERO}. ¡No decepciones a tu abuelo!"
+      },
+      "TXT_Talk_Aliahan_House1_2F_SUB_0_ACTOR_0110_010_3": {
+        "SelfId": "TXT_Talk_Aliahan_House1_2F_SUB_0_ACTOR_0110_010_3",
+        "Text": "¿Dónde te has dejado a <IfGender_HERO(ese granujilla,esa granujilla,)> de {HERO}?"
+      },
+      "TXT_Talk_Aliahan_House1_2F_SUB_0_ACTOR_0110_010_4": {
+        "SelfId": "TXT_Talk_Aliahan_House1_2F_SUB_0_ACTOR_0110_010_4",
+        "Text": "Se ha escaqueado para no tener que dar el callo y está por ahí de juerga, ¿verdad? Si ya <IfGender_HERO(lo tengo calado,la tengo calada,)> yo..."
+      },
+      "TXT_Talk_Aliahan_House1_2F_SUB_0_ACTOR_0120_010_1": {
+        "SelfId": "TXT_Talk_Aliahan_House1_2F_SUB_0_ACTOR_0120_010_1",
+        "Text": "Zzz... ¡Ortega! Hijo mío... ¿Por qué tuviste que...? Snif, snif... Zzz..."
+      },
+      "TXT_Talk_Aliahan_House1_2F_SUB_0_ACTOR_0110_020_1": {
+        "SelfId": "TXT_Talk_Aliahan_House1_2F_SUB_0_ACTOR_0110_020_1",
+        "Text": "El sol brilla, los pájaros cantan... Qué maravilla de día, ¿eh, <IfGender_HERO(nieto mío,nieta mía,)>?"
+      },
+      "TXT_Talk_Aliahan_House1_2F_SUB_0_ACTOR_0110_020_2": {
+        "SelfId": "TXT_Talk_Aliahan_House1_2F_SUB_0_ACTOR_0110_020_2",
+        "Text": "No te creas tú que te voy a decir lo que tienes que hacer en tu aventura. ¡Ya me superas en heroicidad, que se dice pronto! Confío plenamente en ti."
+      },
+      "TXT_Talk_Aliahan_House1_2F_SUB_0_ACTOR_0110_020_3": {
+        "SelfId": "TXT_Talk_Aliahan_House1_2F_SUB_0_ACTOR_0110_020_3",
+        "Text": "¡Venga! ¡Ve a enseñarle a esa alimaña lo que vale un peine! No te preocupes, que seguiré aquí cuando vuelvas."
+      },
+      "TXT_Talk_Aliahan_House1_2F_SUB_0_ACTOR_0120_020_1": {
+        "SelfId": "TXT_Talk_Aliahan_House1_2F_SUB_0_ACTOR_0120_020_1",
+        "Text": "En fin, me da a mí que te has ganado un buen descanso. Venga, a la cama."
+      },
+      "TXT_Talk_Aliahan_House1_2F_SUB_0_ACTOR_0110_040_1": {
+        "SelfId": "TXT_Talk_Aliahan_House1_2F_SUB_0_ACTOR_0110_040_1",
+        "Text": "¡Ese es mi chico! Nadie creía que fuera posible, ¡pero sigue vivo! Por sus venas corre una sangre muy poderosa... ¡La mía! ¡Je, je!"
+      },
+      "TXT_Talk_Aliahan_House1_2F_SUB_0_ACTOR_0110_040_2": {
+        "SelfId": "TXT_Talk_Aliahan_House1_2F_SUB_0_ACTOR_0110_040_2",
+        "Text": "¡Jamás pensé que viviría para ver este día! Mi <IfGender_HERO(nieto,nieta,)> y mi hijo por fin reunidos...\r\n¡Qué alegría más grande!"
+      },
+      "TXT_Talk_Aliahan_House1_2F_SUB_0_ACTOR_0110_040_3": {
+        "SelfId": "TXT_Talk_Aliahan_House1_2F_SUB_0_ACTOR_0110_040_3",
+        "Text": "Alabada sea la diosa por mantenerlo sano y salvo todo este tiempo."
+      },
+      "TXT_Talk_Aliahan_House1_2F_SUB_0_ACTOR_0120_040_1": {
+        "SelfId": "TXT_Talk_Aliahan_House1_2F_SUB_0_ACTOR_0120_040_1",
+        "Text": "Zzz... Sangre de mi sangre... Inmortal... Todo gracias a mí... Zzz... Zzz..."
+      },
+      "TXT_Talk_Aliahan_Out_SUB_0_VOLUME_0010_010_1": {
+        "SelfId": "TXT_Talk_Aliahan_Out_SUB_0_VOLUME_0010_010_1",
+        "Text": "*: ¿Adónde <IfSolo(te crees,os creéis)> que <IfSolo(vas,vais)>? ¡Su majestad <IfSolo(te,os)> espera en la sala del trono!"
+      },
+      "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0110_010_1": {
+        "SelfId": "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0110_010_1",
+        "Text": "*: Esta es la ciudad amurallada de Aliana, como bien <IfSolo(sabes,sabéis)>."
+      },
+      "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0110_010_2": {
+        "SelfId": "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0110_010_2",
+        "Text": "*: Si <IfSolo(tienes,tenéis)> pensado salir de viaje, <IfSolo(te,os)> recomiendo visitar un pueblecito que hay al noroeste. Se llama Ribera y es muy pintoresco."
+      },
+      "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0110_020_1": {
+        "SelfId": "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0110_020_1",
+        "Text": "*: Anda, ¡<IfSolo(estás,estáis)> de vuelta!"
+      },
+      "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0110_020_2": {
+        "SelfId": "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0110_020_2",
+        "Text": "*: ¡Ya nos hemos enterado de que <IfSolo(has,habéis)> derrotado a Baramos! ¡Qué alegría!"
+      },
+      "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0110_030_1": {
+        "SelfId": "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0110_030_1",
+        "Text": "*: ¡Al fin <IfSolo(has,habéis)> podido volver a casa!"
+      },
+      "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0110_040_1": {
+        "SelfId": "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0110_040_1",
+        "Text": "*: ¡¿<IfSolo(Sabes,Sabéis)> qué?! No <IfSolo(te,os)> lo <IfSolo(vas,vais)> a creer... ¡Ortega, el héroe de Aliana, ha vuelto de entre los muertos! ¡Qué fuerte!"
+      },
+      "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0210_010_1": {
+        "SelfId": "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0210_010_1",
+        "Text": "*: En un antaño lejano, Aliana fue el reino más poderoso del mundo."
+      },
+      "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0210_010_2": {
+        "SelfId": "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0210_010_2",
+        "Text": "*: Luego llegaron las guerras y perdimos a muchos de nuestros jóvenes..."
+      },
+      "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0210_010_3": {
+        "SelfId": "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0210_010_3",
+        "Text": "*: Cuentan que el teleportal que lleva al continente se cerró a causa de dichos conflictos..."
+      },
+      "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0210_020_1": {
+        "SelfId": "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0210_020_1",
+        "Text": "*: Así que <IfSolo(te has,os habéis)> cargado a ese caradura de Baramos, ¿eh? ¡Cómo <IfSolo(te las gastas,os las gastáis)>!"
+      },
+      "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0210_030_1": {
+        "SelfId": "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0210_030_1",
+        "Text": "*: Juraría que antes he notado como que el suelo temblaba... ¿Tú también?"
+      },
+      "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0210_030_2": {
+        "SelfId": "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0210_030_2",
+        "Text": "*: Mmm. Bueno, ha sido una sacudida de nada. Seguro que carece de importancia..."
+      },
+      "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0210_030_3": {
+        "SelfId": "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0210_030_3",
+        "Text": "*: Ah, ¿no? Pues será que me fallan las rodillas..."
+      },
+      "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0210_040_1": {
+        "SelfId": "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0210_040_1",
+        "Text": "*: Qué cosa más rara... Baramos ha caído, pero..."
+      },
+      "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0210_040_2": {
+        "SelfId": "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0210_040_2",
+        "Text": "*: ... no sé, no me parece que el mundo esté en paz..."
+      },
+      "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0210_050_1": {
+        "SelfId": "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0210_050_1",
+        "Text": "*: Así que Ortega lleva vivo todo este tiempo, ¿eh? ¡Menudo pillo! ¡Eso sí que no me lo esperaba!"
+      },
+      "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0310_010_1": {
+        "SelfId": "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0310_010_1",
+        "Text": "*: El castillo está cerrado por la noche. Si <IfSolo(quieres,queréis)> ver a su majestad, <IfSolo(tendrás,tendréis)> que ir durante el día."
+      },
+      "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0310_020_1": {
+        "SelfId": "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0310_020_1",
+        "Text": "*: He oído hablar de una <66>nación dorada<99> que está muy lejos, al otro lado del mar. La llaman Cipango. Anda que no me gustaría visitarla algún día..."
+      },
+      "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0310_030_1": {
+        "SelfId": "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0310_030_1",
+        "Text": "*: ¡Venga, <IfSolo(vete,idos)> de cabeza al castillo! ¡Seguro que el rey está ansioso por dar<IfSolo(te,os)> la enhorabuena!"
+      },
+      "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0310_040_1": {
+        "SelfId": "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0310_040_1",
+        "Text": "*: Fijo que el rey estaba más contento que unas pascuas, ¿eh?"
+      },
+      "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0310_040_2": {
+        "SelfId": "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0310_040_2",
+        "Text": "*: No sé ni para qué pregunto... ¡¿Cómo no iba a estarlo?!"
+      },
+      "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0310_050_1": {
+        "SelfId": "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0310_050_1",
+        "Text": "*: Seguro que Baramos está criando malvas, ¿no?"
+      },
+      "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0310_050_2": {
+        "SelfId": "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0310_050_2",
+        "Text": "*: Pues claro, ¡qué cosas digo! Esta sensación que tengo de que seguimos en peligro no son más que imaginaciones mías, fijo."
+      },
+      "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0310_050_3": {
+        "SelfId": "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0310_050_3",
+        "Text": "*: ¿Eh? Pero ¿cómo es posible? Los guardias del castillo han dicho que habían ido a comprobarlo y que era verdad..."
+      },
+      "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0410_010_1": {
+        "SelfId": "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0410_010_1",
+        "Text": "*: Con un día tan bonito, parece mentira que el Archienemigo pueda destruir el mundo, ¿no?"
+      },
+      "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0410_020_1": {
+        "SelfId": "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0410_020_1",
+        "Text": "*: El malo maloso de Baramos se ha morido, ¿no?"
+      },
+      "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0410_020_2": {
+        "SelfId": "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0410_020_2",
+        "Text": "*: ¿<IfSolo(Crees,Creéis)> que todos los otros monstruos horribles también desaparecerán? Yo espero que sí. Quiero salir a jugar fuera."
+      },
+      "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0410_030_1": {
+        "SelfId": "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0410_030_1",
+        "Text": "*: El otro día intenté salir de la ciudad para ir a jugar."
+      },
+      "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0410_030_2": {
+        "SelfId": "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0410_030_2",
+        "Text": "*: Pero me encontré con un cuervo oscuro grandisísimo que me dio un miedo que no veas, así que volví corriendo a casa."
+      },
+      "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0410_040_1": {
+        "SelfId": "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0410_040_1",
+        "Text": "*: El señor Ortega ha vuelto, ¿no? ¡Todos hablan de lo mismo!"
+      },
+      "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0510_010_1": {
+        "SelfId": "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0510_010_1",
+        "Text": "*: Si <IfSolo(sales,salís)> de la ciudad y <IfSolo(esperas,esperáis)> un poco, se acabará haciendo de noche."
+      },
+      "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0510_010_2": {
+        "SelfId": "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0510_010_2",
+        "Text": "*: En esos casos, mejor andarse con ojo. ¡A los monstruos más temibles les pirra la oscuridad!"
+      },
+      "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0510_020_1": {
+        "SelfId": "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0510_020_1",
+        "Text": "*: Si <IfSolo(sales,salís)> de la ciudad y <IfSolo(esperas,esperáis)> un poco, se acabará haciendo de noche."
+      },
+      "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0510_020_2": {
+        "SelfId": "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0510_020_2",
+        "Text": "*: ¡A los monstruos más temibles les pirra la oscuridad! Si <IfSolo(te,os)> entra miedo, <IfSolo(busca,buscad)> una posada donde alojar<IfSolo(te,os)> hasta que se haga de día."
+      },
+      "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0510_030_1": {
+        "SelfId": "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0510_030_1",
+        "Text": "*: ¡Ahora ya podemos seguir con nuestras vidas en paz!"
+      },
+      "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0510_040_1": {
+        "SelfId": "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0510_040_1",
+        "Text": "*: Es un poco raro, ¿no? El Archienemigo ha muerto, pero sigue habiendo monstruos por todos lados."
+      },
+      "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0610_010_1": {
+        "SelfId": "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0610_010_1",
+        "Text": "*: ¿<IfSolo(Te has,Os habéis)> fijado en esa isla pequeñita que hay al oeste de la ciudad?"
+      },
+      "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0610_010_2": {
+        "SelfId": "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0610_010_2",
+        "Text": "*: Pues resulta que el edificio que se encuentra allí es la Torre del Soñador, una construcción de lo más intrigante..."
+      },
+      "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0610_010_3": {
+        "SelfId": "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0610_010_3",
+        "Text": "*: Si <IfSolo(sales,salís)> de la ciudad y <IfSolo(avanzas,avanzáis)> un poco hacia el oeste, no <IfSolo(tardarás,tardaréis)> en verla."
+      },
+      "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0610_020_1": {
+        "SelfId": "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0610_020_1",
+        "Text": "*: Que me aspen si no llevo un tiempo oyendo voces provenientes del pozo..."
+      },
+      "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0610_020_2": {
+        "SelfId": "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0610_020_2",
+        "Text": "*: No me digas que hay alguien atrapado ahí abajo..."
+      },
+      "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0610_030_1": {
+        "SelfId": "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0610_030_1",
+        "Text": "*: ¿Cómo <IfSolo(dices,decís)>? ¿Que <IfSolo(has,habéis)> derrotado al archienemigo Baramos? ¡Madre mía, qué hazaña!"
+      },
+      "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0710_010_1": {
+        "SelfId": "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0710_010_1",
+        "Text": "*: ¿Qué pasa, <IfSolo(<IfGender_LEADER(chaval,chavala,)>,pandilla)>? ¡Aquí <IfSolo(tienes,tenéis)> al guardia de turno, patrullando la ciudad!"
+      },
+      "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0710_010_2": {
+        "SelfId": "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0710_010_2",
+        "Text": "*: <IfSolo(Puedes,Podéis)> seguir con <IfSolo(tu,vuestro)> periplo sin preocupaciones. ¡La ciudad está a salvo conmigo!"
+      },
+      "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0710_020_1": {
+        "SelfId": "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0710_020_1",
+        "Text": "*: Ahora que lo pienso... Si ya no tenemos que preocuparnos por Baramos, ¿qué va a ser del cuerpo de guardia?"
+      },
+      "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0710_030_1": {
+        "SelfId": "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0710_030_1",
+        "Text": "*: Con Ortega de vuelta, ¡ya no hay de qué preocuparse!"
+      },
+      "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0710_030_2": {
+        "SelfId": "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0710_030_2",
+        "Text": "*: ¡Si los monstruos intentan atacar la ciudad, los echará a todos de un solo tortazo y le sobrará tiempo para echarse una siesta!"
+      },
+      "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0820_010_1": {
+        "SelfId": "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0820_010_1",
+        "Text": "*: ¡Anda! Tú eres el mozo al que conocí donde Petricia, ¿verdad?"
+      },
+      "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0820_010_2": {
+        "SelfId": "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0820_010_2",
+        "Text": "*: ¡Anda! Tú eres la moza a la que conocí donde Petricia, ¿verdad?"
+      },
+      "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0820_010_3": {
+        "SelfId": "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0820_010_3",
+        "Text": "*: Me habré confundido..., ¡pero da igual! ¡Mira qué luna! Es una maravilla. ¡Brindo por ella! Glu, glu, glu... ¡Hip!"
+      },
+      "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0820_020_1": {
+        "SelfId": "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0820_020_1",
+        "Text": "*: ¿Qué me dices? ¿En serio has derrotado al malote de Baramos?"
+      },
+      "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0820_020_2": {
+        "SelfId": "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0820_020_2",
+        "Text": "*: ¡Choca esos cinco! Madre mía... ¡Hip! Cómo tienes que estar de <IfGender_LEADER(feliciano,feliciana,)>... ¡Burp! Je, je... ¡Hip!"
+      },
+      "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0820_030_1": {
+        "SelfId": "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0820_030_1",
+        "Text": "*: Ufff... ¡Mira! ¡Eh, mira! Qué..., ¡hip!, qué luna, ¿eh? ¡Flipas, pipas! ¡Burp! ¡Ja, ja, ja!"
+      },
+      "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0820_040_1": {
+        "SelfId": "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0820_040_1",
+        "Text": "*: ¿Cómor? Ah, sí. Al final resulta que Ortega no había muerto... ¡Estaba de parranda! ¡Hip!"
+      },
+      "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0920_010_1": {
+        "SelfId": "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_0920_010_1",
+        "Text": "*: Lo siento, ya he cerrado por hoy. ¿Qué te parece si te vas a descansar y vuelves por la mañana?"
+      },
+      "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_1020_010_1": {
+        "SelfId": "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_1020_010_1",
+        "Text": "¡Uy, qué <IfGender_HERO(trasnochador,trasnochadora,)>! Pero bueno, estás aquí, <IfGender_HERO(sano y salvo,sana y salva,)>, que es lo importante."
+      },
+      "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_1020_010_2": {
+        "SelfId": "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_1020_010_2",
+        "Text": "¡Venga! ¡Tira para adentro!"
+      },
+      "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_1210_010_1": {
+        "SelfId": "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_1210_010_1",
+        "Text": "*: Oremos por la paz. Si tal gesto nos acerca aunque sea un poco a la salvación, todo habrá valido la pena."
+      },
+      "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_1210_020_1": {
+        "SelfId": "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_1210_020_1",
+        "Text": "*: Las gentes del mundo están al fin a salvo. Nos faltan palabras para profesar nuestra gratitud. Que la diosa te bendiga, <IfGender_LEADER(hijo mío,hija mía,)>."
+      },
+      "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_1210_030_1": {
+        "SelfId": "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_1210_030_1",
+        "Text": "*: El Archienemigo ha caído, pero aún albergo una cierta inquietud interior...\r\nNo puedo evitarlo. Rezo por que el instinto me falle..."
+      },
+      "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_1310_010_1": {
+        "SelfId": "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_1310_010_1",
+        "Text": "*: Se ve que van a organizar un banquete en el castillo para celebrar la caída del Archienemigo."
+      },
+      "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_1310_010_2": {
+        "SelfId": "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_1310_010_2",
+        "Text": "*: Tengo que admitir que me da envidia que hayan invitado a tu madre y a tu abuelo. ¡Deben de estar muy orgullosos de ti!"
+      },
+      "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_1410_010_1": {
+        "SelfId": "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_1410_010_1",
+        "Text": "*: ¿Alguna vez has mirado dentro de una tinaja o un barril? Si tienes suerte, puedes encontrar un montón de cosas chulas. Suelen ser objetos que la gente tira o que guarda y luego se les olvida..."
+      },
+      "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_1410_010_2": {
+        "SelfId": "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_1410_010_2",
+        "Text": "*: La verdad es que no entiendo por qué mamá siempre me dice que ordene mis cosas si los mayores van por ahí dejando de todo en jarrones y barriles. Aunque, por suerte para ellos, ¡me tienen a mí para recogerlo!"
+      },
+      "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_1510_010_1": {
+        "SelfId": "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_1510_010_1",
+        "Text": "*: ¿Has oído hablar alguna vez de Rob A. Conventos? La gente lo tilda de gran ladrón, pero en realidad no es más que un ratero que sisa cosas de los armarios y los cajones de la gente."
+      },
+      "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_1510_010_2": {
+        "SelfId": "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_1510_010_2",
+        "Text": "*: Un incordio es lo que es, y su conducta supone un muy mal ejemplo para los niños y niñas. ¡Todo lo contrario que tú, nuestro ejemplo de honestidad y justicia!"
+      },
+      "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_1610_010_1": {
+        "SelfId": "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_1610_010_1",
+        "Text": "*: Debería ir a ver cómo está el tipo aquel tan raro que vivía en el pozo..."
+      },
+      "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_1610_010_2": {
+        "SelfId": "TXT_Talk_Aliahan_Out_SUB_0_ACTOR_1610_010_2",
+        "Text": "*: Algunos de los otros guardias me han contado que van a visitarlo de vez en cuando, pero la verdad es que me gustaría saber qué es lo que se trae entre manos ahí abajo."
+      },
+      "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0110_010_1": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0110_010_1",
+        "Text": "¡<IfGender_LEADER(Bienvenido,Bienvenida,)> a la Taberna de Petricia, donde se reúnen aventureros de todo el mundo!"
+      },
+      "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0110_010_2": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0110_010_2",
+        "Text": "Anda, ¡pero si es nuestr<IfGender_HERO(o,a,)> adorable {HERO}! Ay, qué monada... Por esas pintas, cualquiera diría que te marchas de aventuras."
+      },
+      "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0110_010_3": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0110_010_3",
+        "Text": "Espera..., no se trata de ningún juego, ¿verdad, corazón? Lo de salir a ver mundo va en serio..."
+      },
+      "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0110_010_4": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0110_010_4",
+        "Text": "Igual es mejor que vayas primero a ver al rey. Tengo entendido que quiere dar el beneplácito real a tu viaje."
+      },
+      "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0110_010_5": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0110_010_5",
+        "Text": "Una vez que hayas visitado a su majestad, te ayudaré encantada, claro. Así que pásate luego, ¿vale?"
+      },
+      "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0110_020_1": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0110_020_1",
+        "Text": "Hola, ricura. Aún no me creo que haya llegado este día..."
+      },
+      "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0110_020_2": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0110_020_2",
+        "Text": "Recuerdo como si fuera ayer cuando saliste de la barriguita de tu madre."
+      },
+      "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0110_020_3": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0110_020_3",
+        "Text": "No vayas a tildarme de señora mayor, ¿eh? Yo era solo una niña por aquel entonces, pero de repente me sentí como si tuviera <IfGender_HERO(un nuevo hermanito al que,una nueva hermanita a la que,)> cuidar."
+      },
+      "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0110_020_4": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0110_020_4",
+        "Text": "Y pensar que ya han pasado dieciséis años..."
+      },
+      "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0110_020_5": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0110_020_5",
+        "Text": "En fin, estoy segura de que ya lo sabes, pero mi taberna es el establecimiento por excelencia para todo lo relacionado con las aventuras."
+      },
+      "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0110_020_6": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0110_020_6",
+        "Text": "Si te aburres de viajar <IfGender_HERO(solito,solita,)> o buscas un par de manos extra para salir de algún aprieto, ¡no tienes más que decírmelo! Yo te ayudaré a crear el grupo perfecto según tus necesidades."
+      },
+      "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0110_020_7": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0110_020_7",
+        "Text": "Hay que ver cuánto has crecido, ¿eh? Me costará un tiempo hacerme a la idea... Pero bueno, a lo que iba..."
+      },
+      "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0110_030_1": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0110_030_1",
+        "Text": "¡{HERO}! Estaba segura de que lo conseguirías, pero, aun así, ¡no me puedo creer que hayas derrotado a Baramos!"
+      },
+      "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0110_030_2": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0110_030_2",
+        "Text": "Algo me dice que el negocio va a ir en auge... ¡y es todo gracias a ti!"
+      },
+      "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0110_030_3": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0110_030_3",
+        "Text": "Pero ahora eso da igual. ¿Ya has ido a ver al rey? ¡Seguro que quiere organizar un banquete en tu honor!"
+      },
+      "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0110_040_1": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0110_040_1",
+        "Text": "Hola..."
+      },
+      "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0110_040_2": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0110_040_2",
+        "Text": "Ya me he enterado de todo el revuelo del castillo. Tienes que estar que no te lo crees... ¿Cómo es posible que Baramos no fuera más que el lacayo de otro?..."
+      },
+      "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0110_040_3": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0110_040_3",
+        "Text": "Oye, no hace falta que te hagas <IfGender_HERO(el loco,la loca,)>. Sé lo de Zoma. Yo tengo mis fuentes."
+      },
+      "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0110_040_4": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0110_040_4",
+        "Text": "De hecho, creo que ya va siendo hora de que te cuente cómo se creó esta taberna."
+      },
+      "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0110_040_5": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0110_040_5",
+        "Text": "Verás, cuando el rey se enteró de la muerte de Ortega, se sintió fatal por haberlo enviado a su misión sin ningún tipo de ayuda."
+      },
+      "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0110_040_6": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0110_040_6",
+        "Text": "Así que se le ocurrió crear un punto de encuentro donde los aventureros pudieran conocerse, compartir ideas y formar grupos."
+      },
+      "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0110_040_7": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0110_040_7",
+        "Text": "Total, que montamos esto."
+      },
+      "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0110_040_8": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0110_040_8",
+        "Text": "Porque yo también contribuí. Gracias a un par de favorcillos que me debían, conseguí que los primeros aventureros entraran por esa puerta. Luego el rey echó mano a las arcas para atraer a más aún."
+      },
+      "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0110_040_9": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0110_040_9",
+        "Text": "Con el tiempo, la taberna fue ganando fama hasta convertirse en el bullicioso establecimiento que es hoy. He de admitir que, cuando te vi entrar el día de tu cumpleaños, me emocioné un poco."
+      },
+      "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0110_040_10": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0110_040_10",
+        "Text": "De verdad, solo de pensar que esta taberna te haya podido ayudar en lo más mínimo, me pongo más feliz que una perdiz."
+      },
+      "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0110_040_11": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0110_040_11",
+        "Text": "Ah, y no te agobies. Aquí no encontrarás a nadie que se acobarde ante un tipo que se ha autoproclamado el señor de no sé qué historias, eso te lo garantizo."
+      },
+      "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0110_040_12": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0110_040_12",
+        "Text": "Tienes mi tabernilla a tu entera disposición, como siempre lo ha estado... ¡y siempre lo estará!"
+      },
+      "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0110_050_1": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0110_050_1",
+        "Text": "Ya me han contado lo de Ortega. ¡Estarás como unas castañuelitas! Ay, me alegro mucho por ti."
+      },
+      "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0110_050_2": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0110_050_2",
+        "Text": "Uf, tendrías que haber visto la cara del rey cuando se enteró. ¡Estaba para retratarlo! ¡Se le puso una sonrisa de oreja a oreja!"
+      },
+      "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0110_050_4": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0110_050_4",
+        "Text": "Verlo tan feliz de nuevo me hizo sonreír a mí también."
+      },
+      "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0110_050_5": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0110_050_5",
+        "Text": "Y, por supuesto, también me alegro de que Ortega haya vuelto. Cuando yo era pequeña, siempre me trataba con mucha amabilidad."
+      },
+      "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0110_050_6": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0110_050_6",
+        "Text": "Solo de pensarlo me vienen un montón de recuerdos... Me encantaba sentarme a escuchar las historias de sus andanzas."
+      },
+      "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0110_050_7": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0110_050_7",
+        "Text": "Cada vez que me enteraba de que había vuelto a la ciudad, corría a suplicarle que me relatara su último viaje."
+      },
+      "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0110_050_8": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0110_050_8",
+        "Text": "Un día, le pedí que me enseñara a blandir una espada."
+      },
+      "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0110_050_9": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0110_050_9",
+        "Text": "Yo no era lo bastante fuerte para empuñar un mandoble ni nada de eso, así que me enseñó a utilizar una daga."
+      },
+      "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0110_050_10": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0110_050_10",
+        "Text": "De no ser por su ayuda, estoy segura de que no tendría este juego de pies.\r\nAprendí mucho de él..."
+      },
+      "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0110_050_11": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0110_050_11",
+        "Text": "¡Y sus enseñanzas me siguen resultando útiles hoy en día!"
+      },
+      "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0110_050_12": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0110_050_12",
+        "Text": "¿Que en qué sentido? Pues mira, con lo rápida que soy con la daga, ¡cocino y sirvo mesas que da gusto!"
+      },
+      "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0110_050_13": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0110_050_13",
+        "Text": "Ah, ¿pensabas que te iba a contar que salgo por ahí a matar monstruos en mis ratos libres? Pues va a ser que no."
+      },
+      "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0110_050_14": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0110_050_14",
+        "Text": "Ya tengo bastante trabajo encargándome de este sitio y de todos los aventureros que entran por la puerta."
+      },
+      "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0210_010_1": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0210_010_1",
+        "Text": "*: ¿Lo qué? ¿Que <IfSolo(necesitas,necesitáis)> una llave? Ahora que m<9>acuerdo, una vez conocí a un chorizo que se las sabía toas pa abrir puertas. Se llamaba Rob A. Conventos."
+      },
+      "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0210_010_2": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0210_010_2",
+        "Text": "*: Aunque hace mucho que no sé na de él, la verdad. Se ve que se piró a la torre esa que hay en la isla más pa<9>l oeste."
+      },
+      "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0310_010_1": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0310_010_1",
+        "Text": "*: Si quieres montar un grupo de categoría, más vale que te busques a un guerrero, un sacerdote y un mago."
+      },
+      "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0310_010_2": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0310_010_2",
+        "Text": "*: Si la maja de Petricia no tiene lo que buscas, puedes ir al piso de arriba y pedirle al equipo de reclutamiento que te lo encuentre."
+      },
+      "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0310_020_1": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0310_020_1",
+        "Text": "*: ¡Hola! ¡<IfSolo(Siéntate,Sentaos)> a tomar algo conmigo! ¡Anda que no sienta bien un trago después de un duro día de aventuras!"
+      },
+      "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0310_020_2": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0310_020_2",
+        "Text": "*: ¿Sabes qué? Cuando yo tenía tu edad, me junté con un luchador, un ladrón y un sacerdote. Muy buena gente todos..."
+      },
+      "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0310_020_3": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0310_020_3",
+        "Text": "*: Bueno, el sacerdote no tanto, la verdad. Menudo narcisista era... Solo pensaba en él y no curaba a nadie..."
+      },
+      "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0310_020_4": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0310_020_4",
+        "Text": "*: Ahora que lo pienso, tú también tienes pinta de ser bastante narcisista, {WORD}. Se te ve en la cara. Uy... ¡No he dicho nada!"
+      },
+      "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0310_030_1": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0310_030_1",
+        "Text": "*: ¿<IfSolo(Te has,Os habéis)> enterado? ¡Ortega está vivo y ha vuelto a la ciudad!"
+      },
+      "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0310_030_2": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0310_030_2",
+        "Text": "*: Si tiene pensado volver a salir de aventuras, ¡yo me apunto el primero a ir con él! ¡Anda que no!"
+      },
+      "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0510_010_1": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0510_010_1",
+        "Text": "*: ¡Mecachis! ¡Me he dejado la bolsa colgada en la pared de mi habitación en la posada!"
+      },
+      "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0510_010_2": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0510_010_2",
+        "Text": "*: ¡Y ahí tenía todas mis monedas de oro y mis hierbas medicinales! Bah, seguro que ya ha volado..."
+      },
+      "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0510_010_3": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0510_010_3",
+        "Text": "*: En fin, ¿qué se le va a hacer? Espero que al menos quien se la haya llevado aproveche todo lo que había dentro."
+      },
+      "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0610_010_1": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0610_010_1",
+        "Text": "*: En mi opinión, nunca se tienen demasiadas <Plr_I_NAME>. Es que poder volar en un periquete a sitios en los que ya has estado me parece de lo más mágico. Bueno, claro... Sin magia, como que no existiría algo así..."
+      },
+      "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0610_010_2": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0610_010_2",
+        "Text": "*: En los viejos tiempos, si usabas una en interiores, te dabas un buen coscorrón contra el techo, pero ¡eso ya es agua pasada! Hay que ver la de comodidades que tenemos hoy en día, ¿eh?"
+      },
+      "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0710_010_1": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0710_010_1",
+        "Text": "*: El otro día me encontré cincuenta monedas de oro tiradas en el suelo. ¡Me sentí bendecido por la diosa!"
+      },
+      "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0710_010_2": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_1F_SUB_0_ACTOR_0710_010_2",
+        "Text": "*: Desde entonces, siempre voy con los ojos bien abiertos, ¡no vaya a ser que deje pasar una pequeña fortuna!"
+      },
+      "TXT_Talk_Aliahan_Luida_2F_SUB_0_ACTOR_0110_010_1": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_2F_SUB_0_ACTOR_0110_010_1",
+        "Text": "*: ¡<IfGender_LEADER(Bienvenido,Bienvenida,)> al Programa para Antiguos y Nuevos Aventureros sin Socios! ¡Forma un grupo de primera con PANAS!\r\nOfrecemos las mejores soluciones de reclutamiento a los aventureros que cuentan con el beneplácito del rey."
+      },
+      "TXT_Talk_Aliahan_Luida_2F_SUB_0_ACTOR_0110_010_2": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_2F_SUB_0_ACTOR_0110_010_2",
+        "Text": "*: Déjame ver... Tú eras {HERO}, ¿verdad? Un segundo..."
+      },
+      "TXT_Talk_Aliahan_Luida_2F_SUB_0_ACTOR_0110_010_3": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_2F_SUB_0_ACTOR_0110_010_3",
+        "Text": "*: Ay, vaya. Aquí pone que aún no tienes la venia del rey para emprender de forma oficial tu aventura."
+      },
+      "TXT_Talk_Aliahan_Luida_2F_SUB_0_ACTOR_0110_010_4": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_2F_SUB_0_ACTOR_0110_010_4",
+        "Text": "*: Vas a tener que pasarte a ver al rey. Luego, una vez que esté todo el papeleo, podrás venir a montar tu grupo."
+      },
+      "TXT_Talk_Aliahan_Luida_2F_SUB_0_ACTOR_0210_010_1": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_2F_SUB_0_ACTOR_0210_010_1",
+        "Text": "*: A ver, están los luchadores, que son rápidos como ellos solos...\r\nOtra opción son los ladrones, que van muy bien para encontrar tesoros..."
+      },
+      "TXT_Talk_Aliahan_Luida_2F_SUB_0_ACTOR_0210_010_2": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_2F_SUB_0_ACTOR_0210_010_2",
+        "Text": "*: Después están los mercaderes, que tasan los objetos, lo cual es bastante útil..."
+      },
+      "TXT_Talk_Aliahan_Luida_2F_SUB_0_ACTOR_0210_010_3": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_2F_SUB_0_ACTOR_0210_010_3",
+        "Text": "*: A los callejeros mejor ni te acerques. Solo se dedican a hacer el tonto, incluso en medio de los combates. Están como una chota..."
+      },
+      "TXT_Talk_Aliahan_Luida_2F_SUB_0_ACTOR_0210_010_4": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_2F_SUB_0_ACTOR_0210_010_4",
+        "Text": "*: Aunque, si te hace ilusión llevar a alguien así en el grupo, espera hasta ser lo bastante fuerte como para poder cargar con semejante lastre."
+      },
+      "TXT_Talk_Aliahan_Luida_2F_SUB_0_ACTOR_0220_010_1": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_2F_SUB_0_ACTOR_0220_010_1",
+        "Text": "*: Zzz..."
+      },
+      "TXT_Talk_Aliahan_Luida_2F_SUB_0_ACTOR_0210_020_1": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_2F_SUB_0_ACTOR_0210_020_1",
+        "Text": "*: ¡No esperábamos menos del hijo de Ortega! ¡Ha nacido un verdadero héroe!"
+      },
+      "TXT_Talk_Aliahan_Luida_2F_SUB_0_ACTOR_0210_020_2": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_2F_SUB_0_ACTOR_0210_020_2",
+        "Text": "*: ¡No esperábamos menos de la hija de Ortega! ¡Ha nacido una verdadera heroína!"
+      },
+      "TXT_Talk_Aliahan_Luida_2F_SUB_0_ACTOR_0210_030_1": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_2F_SUB_0_ACTOR_0210_030_1",
+        "Text": "*: Parece que eres lo bastante fuerte para poder reclutar a un callejero. ¿Por qué no le das una oportunidad a alguno? Igual te echas unas risas..."
+      },
+      "TXT_Talk_Aliahan_Luida_2F_SUB_0_ACTOR_0210_040_1": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_2F_SUB_0_ACTOR_0210_040_1",
+        "Text": "*: Vaya... Ver para creer..."
+      },
+      "TXT_Talk_Aliahan_Luida_2F_SUB_0_ACTOR_0310_010_1": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_2F_SUB_0_ACTOR_0310_010_1",
+        "Text": "*: ♪ ¡Si los cielos a los héroes eligen, ♪\r\n♪ los dioses a los sabios escogen! ♪"
+      },
+      "TXT_Talk_Aliahan_Luida_2F_SUB_0_ACTOR_0310_010_2": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_2F_SUB_0_ACTOR_0310_010_2",
+        "Text": "*: ♪ ¡Se enfrentan a pruebas de lo más temibles, ♪\r\n♪ mas con todo pueden, pues son invencibles! ♪"
+      },
+      "TXT_Talk_Aliahan_Luida_2F_SUB_0_ACTOR_0310_020_1": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_2F_SUB_0_ACTOR_0310_020_1",
+        "Text": "*: ♪ ¡Cantad la canción <IfGender_HERO(del héroe,de la heroína,)> de la nación, ♪\r\n♪ quien a todos protege con suma devoción! ♪"
+      },
+      "TXT_Talk_Aliahan_Luida_2F_SUB_0_ACTOR_0310_030_1": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_2F_SUB_0_ACTOR_0310_030_1",
+        "Text": "*: ♪ ¡La, la, la, larííí, ♪\r\n♪ la, la, la, larááá! ♪"
+      },
+      "TXT_Talk_Aliahan_Luida_2F_SUB_0_ACTOR_0310_040_1": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_2F_SUB_0_ACTOR_0310_040_1",
+        "Text": "*: ♪ ¡Su nombre es Ortega y tiene una espada más grande que nada! ♪\r\n♪ ¡De la muerte ha escapado y a la gente ha dejado alucinada! ♪\r\n♪ ¡Tralará, la, laaa! ♪"
+      },
+      "TXT_Talk_Aliahan_Luida_2F_SUB_0_ACTOR_0410_010_1": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_2F_SUB_0_ACTOR_0410_010_1",
+        "Text": "*: ¡Miaaau!"
+      },
+      "TXT_Talk_Aliahan_Luida_2F_SUB_0_ACTOR_0510_010_1": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_2F_SUB_0_ACTOR_0510_010_1",
+        "Text": "*: En mi opinión, existen dos tipos de aventureros: los que incluyen conjuradores en su grupo, como magos o sacerdotes, y los que no."
+      },
+      "TXT_Talk_Aliahan_Luida_2F_SUB_0_ACTOR_0510_010_2": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_2F_SUB_0_ACTOR_0510_010_2",
+        "Text": "*: Los que no lo hacen suelen ir a saco y llenan el grupo de guerreros, luchadores y hasta mercaderes. Es decir, vocaciones que se centran en la fuerza y el vigor. Yo, sinceramente, me decantaría por una composición un poco más equilibrada."
+      },
+      "TXT_Talk_Aliahan_Luida_2F_SUB_0_ACTOR_0510_010_3": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_2F_SUB_0_ACTOR_0510_010_3",
+        "Text": "*: Aunque, si de verdad te empeñas en no incluir a expertos en magia en el grupo, podrías probar a meter un domabestias o un ladrón, ¿no?"
+      },
+      "TXT_Talk_Aliahan_Luida_2F_SUB_0_ACTOR_0610_010_1": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_2F_SUB_0_ACTOR_0610_010_1",
+        "Text": "*: Cuando yo era joven y alocado, siempre me pasaba por las tiendas de todas las ciudades que visitaba. Es que me gustaba echar un vistazo a los productos de los mercaderes..."
+      },
+      "TXT_Talk_Aliahan_Luida_2F_SUB_0_ACTOR_0610_010_2": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_2F_SUB_0_ACTOR_0610_010_2",
+        "Text": "*: Seguro que a un alma aventurera como tú le interesan las armas y armaduras. Si tu especialidad es la fuerza, debes hacerte con una buena arma. Si no, mejor céntrate en el equipamiento defensivo."
+      },
+      "TXT_Talk_Aliahan_Luida_2F_SUB_0_ACTOR_0710_010_1": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_2F_SUB_0_ACTOR_0710_010_1",
+        "Text": "*: Los domabestias están hechos de otra pasta. Te lo dice el menda..."
+      },
+      "TXT_Talk_Aliahan_Luida_2F_SUB_0_ACTOR_0710_010_2": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_2F_SUB_0_ACTOR_0710_010_2",
+        "Text": "*: No es que sean mu fuertes y desde luego tampoco son lo más con la magia, pero luchan empleando técnicas to peculiares que pueden resultar la mar de útiles."
+      },
+      "TXT_Talk_Aliahan_Luida_2F_SUB_0_ACTOR_0710_010_3": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_2F_SUB_0_ACTOR_0710_010_3",
+        "Text": "*: Yo sé de más de un aventurero al que le ha venío de perlas la capacidad de curación de un domabestias."
+      },
+      "TXT_Talk_Aliahan_Luida_2F_SUB_0_ACTOR_0810_010_1": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_2F_SUB_0_ACTOR_0810_010_1",
+        "Text": "*: No tengo ni idea de quién creó las bolsas, pero menudo pedazo de invento. Ya me dirás tú cómo cargaba antes la gente con todos sus bártulos."
+      },
+      "TXT_Talk_Aliahan_Luida_2F_SUB_0_ACTOR_0810_010_2": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_2F_SUB_0_ACTOR_0810_010_2",
+        "Text": "*: Aunque la verdad es que no sirven de mucho en combate. Si estás dándole la del pulpo a un limo, no te va a dar tiempo a ponerte a rebuscar en la bolsa para encontrar un objeto."
+      },
+      "TXT_Talk_Aliahan_Luida_2F_SUB_0_ACTOR_0810_010_3": {
+        "SelfId": "TXT_Talk_Aliahan_Luida_2F_SUB_0_ACTOR_0810_010_3",
+        "Text": "*: Por eso siempre digo que, si crees que hay algo que puedas necesitar durante una batalla, es mejor que alguien de tu grupo o tú lo llevéis encima."
+      },
+      "TXT_Talk_Aliahan_Church_1F_SUB_0_ACTOR_0110_010_1": {
+        "SelfId": "TXT_Talk_Aliahan_Church_1F_SUB_0_ACTOR_0110_010_1",
+        "Text": "*: Aliana se erige sobre una porción de tierra rodeada de mar."
+      },
+      "TXT_Talk_Aliahan_Church_1F_SUB_0_ACTOR_0110_010_2": {
+        "SelfId": "TXT_Talk_Aliahan_Church_1F_SUB_0_ACTOR_0110_010_2",
+        "Text": "*: Cuentan que en el otro lado del océano existen enormes continentes, mayores de lo que cualquier habitante de nuestra isla podría imaginar..."
+      },
+      "TXT_Talk_Aliahan_Church_1F_SUB_0_ACTOR_0110_010_3": {
+        "SelfId": "TXT_Talk_Aliahan_Church_1F_SUB_0_ACTOR_0110_010_3",
+        "Text": "*: Ay..., cómo me gustaría poder contemplar las costas de ultramar, aunque solo fuera una vez antes de morir..."
+      },
+      "TXT_Talk_Aliahan_Church_1F_SUB_0_ACTOR_0110_020_1": {
+        "SelfId": "TXT_Talk_Aliahan_Church_1F_SUB_0_ACTOR_0110_020_1",
+        "Text": "*: ¿He oído bien? ¿Dices que <IfSolo(has,habéis)> derrotado a Baramos? ¿Al Archienemigo? ¡Vaya, vaya! ¡<IfSolo(Eres,Sois)> la monda!"
+      },
+      "TXT_Talk_Aliahan_Church_1F_SUB_0_ACTOR_0110_030_1": {
+        "SelfId": "TXT_Talk_Aliahan_Church_1F_SUB_0_ACTOR_0110_030_1",
+        "Text": "*: Vaya, <IfSolo(tú eres quien ha,tu grupito y tú sois quienes habéis)>... Bueno, ya sabes... Sí que lo <IfSolo(eres,sois)>, ¿no? ¡Muchas gracias! ¡<IfSolo(Te,Os)> lo debemos todo!"
+      },
+      "TXT_Talk_Aliahan_Church_1F_SUB_0_ACTOR_0110_040_1": {
+        "SelfId": "TXT_Talk_Aliahan_Church_1F_SUB_0_ACTOR_0110_040_1",
+        "Text": "*: ¡Ay, gracias al cielo! ¡Ortega ha vuelto sano y salvo!"
+      },
+      "TXT_Talk_Aliahan_Church_1F_SUB_0_ACTOR_0110_040_2": {
+        "SelfId": "TXT_Talk_Aliahan_Church_1F_SUB_0_ACTOR_0110_040_2",
+        "Text": "*: ¡¿Será verdad que la diosa atiende a las plegarias de una humilde anciana como yo?!"
+      },
+      "TXT_Talk_Aliahan_Church_1F_SUB_0_ACTOR_0110_040_3": {
+        "SelfId": "TXT_Talk_Aliahan_Church_1F_SUB_0_ACTOR_0110_040_3",
+        "Text": "*: Me parece todo un tiarrón... ¡He estado rezando como una loca para que volviera!"
+      },
+      "TXT_Talk_Aliahan_Church_1F_SUB_0_ACTOR_0110_040_4": {
+        "SelfId": "TXT_Talk_Aliahan_Church_1F_SUB_0_ACTOR_0110_040_4",
+        "Text": "*: ¡Uy! ¡Lo he dicho en voz alta! Je, je..."
+      },
+      "TXT_Talk_Aliahan_WeaponShop_1F_SUB_0_ACTOR_0110_010_1": {
+        "SelfId": "TXT_Talk_Aliahan_WeaponShop_1F_SUB_0_ACTOR_0110_010_1",
+        "Text": "*: Tú eres <IfGender_HERO(el hijo,la hija,)> del héroe Ortega, ¿no?"
+      },
+      "TXT_Talk_Aliahan_WeaponShop_1F_SUB_0_ACTOR_0110_010_3": {
+        "SelfId": "TXT_Talk_Aliahan_WeaponShop_1F_SUB_0_ACTOR_0110_010_3",
+        "Text": "*: Tu padre era un gran nombre.\r\nDe los que ya no quedan."
+      },
+      "TXT_Talk_Aliahan_WeaponShop_1F_SUB_0_ACTOR_0110_010_4": {
+        "SelfId": "TXT_Talk_Aliahan_WeaponShop_1F_SUB_0_ACTOR_0110_010_4",
+        "Text": "*: He oído que <IfGender_HERO(el hijo,la hija,)> de Ortega ha emprendido una especie de aventura."
+      },
+      "TXT_Talk_Aliahan_WeaponShop_1F_SUB_0_ACTOR_0110_010_5": {
+        "SelfId": "TXT_Talk_Aliahan_WeaponShop_1F_SUB_0_ACTOR_0110_010_5",
+        "Text": "*: Espero que algún día llegue a ser tan audaz y <IfGender_HERO(valeroso,valerosa,)> como su padre."
+      },
+      "TXT_Talk_Aliahan_WeaponShop_1F_SUB_0_ACTOR_0110_020_1": {
+        "SelfId": "TXT_Talk_Aliahan_WeaponShop_1F_SUB_0_ACTOR_0110_020_1",
+        "Text": "*: Tú eres el hijo del héroe Ortega, ¿no?"
+      },
+      "TXT_Talk_Aliahan_WeaponShop_1F_SUB_0_ACTOR_0110_020_1_02": {
+        "SelfId": "TXT_Talk_Aliahan_WeaponShop_1F_SUB_0_ACTOR_0110_020_1_02",
+        "Text": "*: Tú eres la hija del héroe Ortega, ¿no?"
+      },
+      "TXT_Talk_Aliahan_WeaponShop_1F_SUB_0_ACTOR_0110_020_2": {
+        "SelfId": "TXT_Talk_Aliahan_WeaponShop_1F_SUB_0_ACTOR_0110_020_2",
+        "Text": "*: ¡Los relatos de las hazañas de la progenie de Ortega ya han llegado hasta Aliana!"
+      },
+      "TXT_Talk_Aliahan_WeaponShop_1F_SUB_0_ACTOR_0110_030_1": {
+        "SelfId": "TXT_Talk_Aliahan_WeaponShop_1F_SUB_0_ACTOR_0110_030_1",
+        "Text": "*: ¡No esperábamos menos del hijo de Ortega! ¡Ha nacido un verdadero héroe!"
+      },
+      "TXT_Talk_Aliahan_WeaponShop_1F_SUB_0_ACTOR_0110_030_2": {
+        "SelfId": "TXT_Talk_Aliahan_WeaponShop_1F_SUB_0_ACTOR_0110_030_2",
+        "Text": "*: ¡No esperábamos menos de la hija de Ortega! ¡Ha nacido una verdadera heroína!"
+      },
+      "TXT_Talk_Aliahan_WeaponShop_1F_SUB_0_ACTOR_0110_040_1": {
+        "SelfId": "TXT_Talk_Aliahan_WeaponShop_1F_SUB_0_ACTOR_0110_040_1",
+        "Text": "*: ¡Anda, mira quién está aquí! ¡Hacía siglos que no <IfSolo(te,os)> veía!"
+      },
+      "TXT_Talk_Aliahan_WeaponShop_1F_SUB_0_ACTOR_0110_040_2": {
+        "SelfId": "TXT_Talk_Aliahan_WeaponShop_1F_SUB_0_ACTOR_0110_040_2",
+        "Text": "*: ¿Qué? ¿Un mundo bajo tierra? Lo siento, pero no tengo ni pajolera idea de lo que me está<IfSolo(,i)>s diciendo."
+      },
+      "TXT_Talk_Aliahan_WeaponShop_1F_SUB_0_ACTOR_0110_050_1": {
+        "SelfId": "TXT_Talk_Aliahan_WeaponShop_1F_SUB_0_ACTOR_0110_050_1",
+        "Text": "*: Llevaba una eternidad sin ver a Ortega. No sé cómo lo hace, ¡pero está más fuerte, noble y apuesto que nunca!"
+      },
+      "TXT_Talk_Aliahan_WeaponShop_1F_SUB_0_ACTOR_0110_050_2": {
+        "SelfId": "TXT_Talk_Aliahan_WeaponShop_1F_SUB_0_ACTOR_0110_050_2",
+        "Text": "*: ¡Un hombre hecho y derecho! ¡La personificación de la más pura hombría!"
+      },
+      "TXT_Talk_Aliahan_Inn_1F_SUB_0_ACTOR_0220_010_1": {
+        "SelfId": "TXT_Talk_Aliahan_Inn_1F_SUB_0_ACTOR_0220_010_1",
+        "Text": "*: ¿Alguna vez has mirado dentro de una tinaja o un barril? Si tienes suerte, puedes encontrar un montón de cosas chulas. Suelen ser objetos que la gente tira o que guarda y luego se les olvida..."
+      },
+      "TXT_Talk_Aliahan_Inn_1F_SUB_0_ACTOR_0220_010_2": {
+        "SelfId": "TXT_Talk_Aliahan_Inn_1F_SUB_0_ACTOR_0220_010_2",
+        "Text": "*: La verdad es que no entiendo por qué mamá siempre me dice que ordene mis cosas si los mayores van por ahí dejando de todo en jarrones y barriles. Aunque, por suerte para ellos, ¡me tienen a mí para recogerlo!"
+      },
+      "TXT_Talk_Aliahan_Inn_2F_SUB_0_ACTOR_0110_010_1": {
+        "SelfId": "TXT_Talk_Aliahan_Inn_2F_SUB_0_ACTOR_0110_010_1",
+        "Text": "*: Resulta que el tipo de la otra habitación intentó fabricar una bola de derribo, pero le salió rana y acabó herido."
+      },
+      "TXT_Talk_Aliahan_Inn_2F_SUB_0_ACTOR_0110_010_2": {
+        "SelfId": "TXT_Talk_Aliahan_Inn_2F_SUB_0_ACTOR_0110_010_2",
+        "Text": "*: Estaba yo tan tranquilo cuando, de repente, se oye un pedazo de explosión que venía de su cuarto. ¡Un poco más y me da un patatús!"
+      },
+      "TXT_Talk_Aliahan_Inn_2F_SUB_0_ACTOR_0110_010_3": {
+        "SelfId": "TXT_Talk_Aliahan_Inn_2F_SUB_0_ACTOR_0110_010_3",
+        "Text": "*: Teniendo en cuenta que el muy lumbreras casi se nos va al otro barrio, esa bola debe de ser un artilugio bastante peligroso..."
+      },
+      "TXT_Talk_Aliahan_Inn_2F_SUB_0_ACTOR_0110_020_1": {
+        "SelfId": "TXT_Talk_Aliahan_Inn_2F_SUB_0_ACTOR_0110_020_1",
+        "Text": "*: No habrá sido la primera persona a la que se le haya ocurrido intentar confeccionar una bola de derribo."
+      },
+      "TXT_Talk_Aliahan_Inn_2F_SUB_0_ACTOR_0110_020_2": {
+        "SelfId": "TXT_Talk_Aliahan_Inn_2F_SUB_0_ACTOR_0110_020_2",
+        "Text": "*: Seguro que encuentras a más gente así si buscas bien. ¡En el mundo tiene que haber de todo!"
+      },
+      "TXT_Talk_Aliahan_Inn_2F_SUB_0_ACTOR_0110_030_1": {
+        "SelfId": "TXT_Talk_Aliahan_Inn_2F_SUB_0_ACTOR_0110_030_1",
+        "Text": "*: ¡Ahora ya podemos seguir con nuestras vidas en paz!"
+      },
+      "TXT_Talk_Aliahan_Inn_2F_SUB_0_ACTOR_0110_040_1": {
+        "SelfId": "TXT_Talk_Aliahan_Inn_2F_SUB_0_ACTOR_0110_040_1",
+        "Text": "*: Parece que el tipo de la habitación de enfrente por fin se ha recuperado de sus heridas."
+      },
+      "TXT_Talk_Aliahan_Inn_2F_SUB_0_ACTOR_0210_010_1": {
+        "SelfId": "TXT_Talk_Aliahan_Inn_2F_SUB_0_ACTOR_0210_010_1",
+        "Text": "*: Yo... yo solo quería saber qué había al otro lao del mar... Cof, cof... Ay, que me muero..."
+      },
+      "TXT_Talk_Aliahan_Inn_2F_SUB_0_ACTOR_0210_020_1": {
+        "SelfId": "TXT_Talk_Aliahan_Inn_2F_SUB_0_ACTOR_0210_020_1",
+        "Text": "*: Zzz... Zzz..."
+      },
+      "TXT_Talk_Aliahan_Inn_2F_SUB_0_ACTOR_0210_030_1": {
+        "SelfId": "TXT_Talk_Aliahan_Inn_2F_SUB_0_ACTOR_0210_030_1",
+        "Text": "*: ¡Es que es muy fuerte, colega! ¡Ortega no la había palmao al final! Mira que yo soy duro, eh, pero es que él está a otro nivel..."
+      },
+      "TXT_Talk_Aliahan_Inn_2F_SUB_0_ACTOR_0320_010_1": {
+        "SelfId": "TXT_Talk_Aliahan_Inn_2F_SUB_0_ACTOR_0320_010_1",
+        "Text": "*: ♪ Albricias, <IfGender_LEADER(bienhallado,bienhallada,)>, de veros estoy contento. ♪\r\n♪ ¿Vos también vais a morar en este aposento? ♪"
+      },
+      "TXT_Talk_Aliahan_Inn_2F_SUB_0_ACTOR_0320_010_2": {
+        "SelfId": "TXT_Talk_Aliahan_Inn_2F_SUB_0_ACTOR_0320_010_2",
+        "Text": "*: Aguardad... ¿No nos habíamos conocido ya en la tasca de Petricia?\r\n♪ Ah, yo os prometo aquí, bajo la luz de la luna, ♪\r\n♪ ¡que de vuestro lado no me voy a separar por razón alguna! ♪"
+      },
+      "TXT_Talk_Aliahan_Inn_2F_SUB_0_ACTOR_0320_010_3": {
+        "SelfId": "TXT_Talk_Aliahan_Inn_2F_SUB_0_ACTOR_0320_010_3",
+        "Text": "*: ♪ Una cosa extraña y misteriosa ha sucedido. ♪\r\n♪ ¡Pedí alcoba para uno, mas ahora vos también habéis venido! ♪\r\n♪ ¡Raro, rarito, rarete! ♪"
+      },
+      "TXT_Talk_Aliahan_Inn_2F_SUB_0_ACTOR_0320_010_4": {
+        "SelfId": "TXT_Talk_Aliahan_Inn_2F_SUB_0_ACTOR_0320_010_4",
+        "Text": "*: ♪ ¡Muy a mi pesar, esto no puede pasar! ♪\r\n♪ ¡En esta nación, algo así no tendría perdón! ♪\r\n♪ ¡Y sanseacabó! ♪"
+      },
+      "TXT_Talk_Aliahan_Inn_2F_SUB_0_ACTOR_0320_020_1": {
+        "SelfId": "TXT_Talk_Aliahan_Inn_2F_SUB_0_ACTOR_0320_020_1",
+        "Text": "*: ♪ Aaah, su nombre es Ortega y su mandoble es más grande que... ¡Cof, cof! Uy..."
+      },
+      "TXT_Talk_Aliahan_Inn_2F_SUB_0_ACTOR_0320_020_2": {
+        "SelfId": "TXT_Talk_Aliahan_Inn_2F_SUB_0_ACTOR_0320_020_2",
+        "Text": "*: ¡Qué desgracia! ¡Me he quedado sin voz de tanto cantar! ¡Sea pues! Mi tonada cesará por hoy. ¡Gracias y buenas noches!"
+      },
+      "TXT_Talk_Aliahan_Inn_2F_SUB_0_ACTOR_0420_010_1": {
+        "SelfId": "TXT_Talk_Aliahan_Inn_2F_SUB_0_ACTOR_0420_010_1",
+        "Text": "*: Pero ¿qué...? Mmm..."
+      },
+      "TXT_Talk_Aliahan_Inn_2F_SUB_0_ACTOR_0520_010_1": {
+        "SelfId": "TXT_Talk_Aliahan_Inn_2F_SUB_0_ACTOR_0520_010_1",
+        "Text": "*: Mmm, mmm, mmm..."
+      },
+      "TXT_Talk_Aliahan_House2_2F_SUB_0_ACTOR_0120_010_1": {
+        "SelfId": "TXT_Talk_Aliahan_House2_2F_SUB_0_ACTOR_0120_010_1",
+        "Text": "*: ¿Qué <IfSolo(haces,hacéis)> por aquí a estas horas de la noche?"
+      },
+      "TXT_Talk_Aliahan_House2_2F_SUB_0_ACTOR_0120_020_1": {
+        "SelfId": "TXT_Talk_Aliahan_House2_2F_SUB_0_ACTOR_0120_020_1",
+        "Text": "*: Así que alguien al que dábamos por muerto ha vuelto..."
+      },
+      "TXT_Talk_Aliahan_House2_2F_SUB_0_ACTOR_0120_020_2": {
+        "SelfId": "TXT_Talk_Aliahan_House2_2F_SUB_0_ACTOR_0120_020_2",
+        "Text": "*: Digo yo que será la forma que tiene el universo de decirnos que nunca debemos rendirnos."
+      },
+      "TXT_Talk_Aliahan_House2_2F_SUB_0_ACTOR_0220_010_1": {
+        "SelfId": "TXT_Talk_Aliahan_House2_2F_SUB_0_ACTOR_0220_010_1",
+        "Text": "*: ¿Por qué tienes que irte por ahí tan tarde? Vas a matar a tu madre de un disgusto..."
+      },
+      "TXT_Talk_Aliahan_House2_2F_SUB_0_ACTOR_0220_010_2": {
+        "SelfId": "TXT_Talk_Aliahan_House2_2F_SUB_0_ACTOR_0220_010_2",
+        "Text": "*: Pero ¿qué le ha pasado <IfGender_HERO(al,a la,)> pobre {HERO}? Ay... Ay, por la diosa..."
+      },
+      "TXT_Talk_Aliahan_House2_2F_SUB_0_ACTOR_0220_010_3": {
+        "SelfId": "TXT_Talk_Aliahan_House2_2F_SUB_0_ACTOR_0220_010_3",
+        "Text": "*: Ahora todos podemos dormir tranquilos sabiendo que Baramos se ha ido para siempre. Muchas gracias, de verdad."
+      },
+      "TXT_Talk_Aliahan_House2_2F_SUB_0_ACTOR_0220_020_1": {
+        "SelfId": "TXT_Talk_Aliahan_House2_2F_SUB_0_ACTOR_0220_020_1",
+        "Text": "*: Una cosa <IfSolo(te,os)> voy a decir sobre ese Ortega..."
+      },
+      "TXT_Talk_Aliahan_House2_2F_SUB_0_ACTOR_0220_020_2": {
+        "SelfId": "TXT_Talk_Aliahan_House2_2F_SUB_0_ACTOR_0220_020_2",
+        "Text": "*: ¡Su mujer es la persona más afortunada del mundo!"
+      },
+      "TXT_Talk_Aliahan_House2_2F_SUB_0_ACTOR_0320_010_1": {
+        "SelfId": "TXT_Talk_Aliahan_House2_2F_SUB_0_ACTOR_0320_010_1",
+        "Text": "*: ¡Por la noche todo está oscuro y da miedo! ¡Lo odio! ¡Lo odio un montón!"
+      },
+      "TXT_Talk_Aliahan_House2_2F_SUB_0_ACTOR_0320_010_2": {
+        "SelfId": "TXT_Talk_Aliahan_House2_2F_SUB_0_ACTOR_0320_010_2",
+        "Text": "*: Ay, pues entonces tendría que intentar dormirme ya, ¿no? Así, cuando me despierte, ¡será de día! ¡Qué lista soy yo! ¡Ji, ji!"
+      },
+      "TXT_Talk_Aliahan_House3_1F_SUB_0_ACTOR_0210_010_1": {
+        "SelfId": "TXT_Talk_Aliahan_House3_1F_SUB_0_ACTOR_0210_010_1",
+        "Text": "*: ¡<IfSolo(Estás,Estáis)> en el Cortijo de las minimedallas!"
+      },
+      "TXT_Talk_Aliahan_House3_1F_SUB_0_ACTOR_0210_010_2": {
+        "SelfId": "TXT_Talk_Aliahan_House3_1F_SUB_0_ACTOR_0210_010_2",
+        "Text": "*: Aunque no lo parezca, el jefe es un tipo muy importante. Procura<IfSolo(,d)> caerle en gracia, que seguro que <IfSolo(te,os)> ayuda un montón."
+      },
+      "TXT_Talk_Aliahan_House3_1F_SUB_0_ACTOR_0310_010_1": {
+        "SelfId": "TXT_Talk_Aliahan_House3_1F_SUB_0_ACTOR_0310_010_1",
+        "Text": "*: Vete a saber por qué, pero, cuando conocí al jefe, tuve la sensación de que era como un rey al que tenía que proteger."
+      },
+      "TXT_Talk_Aliahan_House3_1F_SUB_0_ACTOR_0310_010_2": {
+        "SelfId": "TXT_Talk_Aliahan_House3_1F_SUB_0_ACTOR_0310_010_2",
+        "Text": "*: Por eso lo he seguido hasta aquí, vaya."
+      },
+      "TXT_Talk_Aliahan_House3_1F_SUB_0_ACTOR_0310_010_3": {
+        "SelfId": "TXT_Talk_Aliahan_House3_1F_SUB_0_ACTOR_0310_010_3",
+        "Text": "*: Es que me parece el tipo de persona importante a la que algún bellaco como el Archienemigo podría querer cargarse... ¿<IfSolo(Sabes,Sabéis)> a qué me refiero?"
+      },
+      "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0110_010_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0110_010_1",
+        "Text": "*: Le debo una bien grande a Ortega."
+      },
+      "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0110_010_2": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0110_010_2",
+        "Text": "*: Así que..., si en algún momento sientes la necesidad de realizar un acto... poco legal, no tengo problema en hacer la vista gorda..."
+      },
+      "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0110_010_3": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0110_010_3",
+        "Text": "*: Le debo una bien grande a Ortega."
+      },
+      "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0110_010_4": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0110_010_4",
+        "Text": "*: Así que..., si en algún momento el grupo de acompañantes de su hijo siente la necesidad de realizar un acto... poco legal, no tengo problema en hacer la vista gorda..."
+      },
+      "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0110_010_5": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0110_010_5",
+        "Text": "*: Así que..., si en algún momento el grupo de acompañantes de su hija siente la necesidad de realizar un acto... poco legal, no tengo problema en hacer la vista gorda..."
+      },
+      "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0110_020_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0110_020_1",
+        "Text": "*: ¡No esperábamos menos del hijo de Ortega! ¡Ha nacido un verdadero héroe!"
+      },
+      "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0110_020_2": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0110_020_2",
+        "Text": "*: ¡No esperábamos menos de la hija de Ortega! ¡Ha nacido una verdadera heroína!"
+      },
+      "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0110_030_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0110_030_1",
+        "Text": "*: ¡Venga, coge<IfSolo(,d)> lo que <IfSolo(quieras,queráis)>! ¡Arrambla<IfSolo(,d)> con todo!"
+      },
+      "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0110_030_2": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0110_030_2",
+        "Text": "*: Ah... Vaya, lo siento. Se ve que ya no queda nada..."
+      },
+      "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0210_010_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0210_010_1",
+        "Text": "*: Estas escaleras llevan a la sala del trono."
+      },
+      "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0310_010_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0310_010_1",
+        "Text": "*: Venga, adelante. Su majestad <IfSolo(te,os)> espera."
+      },
+      "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0310_020_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0310_020_1",
+        "Text": "*: Hemos oído mucho ruido que venía de arriba. ¿Ha pasado algo?"
+      },
+      "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0310_020_2": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0310_020_2",
+        "Text": "*: ¿Cómo dices? ¿Que ha aparecido el maestro de la oscuridad? ¡Ja! Esa sí que es buena."
+      },
+      "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0310_020_3": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0310_020_3",
+        "Text": "*: ¡Pero a mí no me engañas, <IfGender_LEADER(majo,maja,)>! Todos sabemos que has acabado con Baramos."
+      },
+      "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0310_020_4": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0310_020_4",
+        "Text": "*: Bueno, vale. Si dices que no pasa nada..."
+      },
+      "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0310_030_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0310_030_1",
+        "Text": "*: Venga, adelante. Su majestad <IfSolo(te,os)> espera."
+      },
+      "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0410_010_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0410_010_1",
+        "Text": "*: Por fin se ha llevado su merecido ese desgraciado de Rob A. Conventos. Andaba mangando en casas de la ciudad, ¡pero ahora se pudre entre rejas! ¡Ja, ja, ja!"
+      },
+      "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0410_020_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0410_020_1",
+        "Text": "*: ♪ ¡Cantad la canción <IfGender_HERO(del héroe,de la heroína,)> de la nación! ♪\r\n♪ ¡Que a todos protege con gran devoción! ♪"
+      },
+      "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0410_030_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0410_030_1",
+        "Text": "*: Quién lo iba a decir... Yo pensaba que el rey se alegraría mucho de saber que Baramos ha muerto, pero se le ve más alicaído que nunca..."
+      },
+      "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0410_030_2": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0410_030_2",
+        "Text": "*: Supongo que ahora está preocupadísimo por Zoma. No lo culpo, la verdad..."
+      },
+      "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0410_040_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0410_040_1",
+        "Text": "*: Dicen por ahí que hay un dragón en el cielo que puede conceder cualquier deseo."
+      },
+      "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0410_040_2": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0410_040_2",
+        "Text": "*: ¿Tú crees que puede existir algo así?"
+      },
+      "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0410_040_3": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0410_040_3",
+        "Text": "*: Claro, es mucho más divertido creer que sí, ¿verdad?"
+      },
+      "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0410_040_4": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0410_040_4",
+        "Text": "*: Mmm. Supongo que tienes razón..."
+      },
+      "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0420_010_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0420_010_1",
+        "Text": "*: ¡<IfGender_LEADER(Quieto parado,Quieta parada,)>, <IfGender_LEADER(ladrón de poca monta,ladrona de poca monta,)>!"
+      },
+      "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0420_010_2": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0420_010_2",
+        "Text": "*: Anda..., si eres tú. ¡¿Qué haces aquí a las tantas?! Venga, vete y vuelve por la mañana, ¿vale?"
+      },
+      "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0510_010_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0510_010_1",
+        "Text": "*: ¡<IfGender_LEADER(Bienvenido,Bienvenida,)> al castillo de Aliana!"
+      },
+      "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0510_020_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0510_020_1",
+        "Text": "*: ¡<IfSolo(Date,Daos)> prisa <IfSolo(y ve,e id)> a ver al rey!\r\n¡Su majestad <IfSolo(te,os)> espera!"
+      },
+      "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0510_030_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0510_030_1",
+        "Text": "*: ¡<IfGender_LEADER(Bienvenido,Bienvenida,)> al castillo de Aliana!"
+      },
+      "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0520_010_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0520_010_1",
+        "Text": "*: Me temo que su majestad ya se ha retirado a sus aposentos."
+      },
+      "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0610_010_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0610_010_1",
+        "Text": "*: ¡<IfGender_LEADER(Bienvenido,Bienvenida,)> al castillo de Aliana!"
+      },
+      "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0610_010_2": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0610_010_2",
+        "Text": "*: Tú debes de ser {HERO}, ¿no? Nos habían avisado de que vendrías."
+      },
+      "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0610_020_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0610_020_1",
+        "Text": "*: ¡<IfSolo(Date,Daos)> prisa <IfSolo(y ve,e id)> a ver al rey!\r\n¡Su majestad <IfSolo(te,os)> espera!"
+      },
+      "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0610_030_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0610_030_1",
+        "Text": "*: ¡<IfGender_LEADER(Bienvenido,Bienvenida,)> al castillo de Aliana!"
+      },
+      "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0610_030_2": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0610_030_2",
+        "Text": "*: Tú debes de ser {HERO}, ¿no? Nos habían avisado de que vendrías."
+      },
+      "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0620_010_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0620_010_1",
+        "Text": "*: Mejor busca algún lugar donde pasar la noche, como la posada, y vuelve por la mañana, ¿vale?"
+      },
+      "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0710_010_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0710_010_1",
+        "Text": "*: ¡He oído que ese manilargo de Rob A. Conventos ha inventado una llave que abre cualquier cerradura!"
+      },
+      "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0710_010_2": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0710_010_2",
+        "Text": "*: Con tamaño descubrimiento en el bolsillo, ¡podrías ir por el mundo entrando donde te diera la real gana!"
+      },
+      "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0710_020_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0710_020_1",
+        "Text": "*: Dicen que la llave de ladrón no es la única llave especial que existe, ¿sabes?"
+      },
+      "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0710_020_2": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0710_020_2",
+        "Text": "*: Si las tuvieras todas, ¡podrías colarte donde se te antojara!"
+      },
+      "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0710_030_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0710_030_1",
+        "Text": "*: Así que <IfSolo(te has,os habéis)> cargado a ese caradura de Baramos, ¿eh? ¡Cómo <IfSolo(te las gastas,os las gastáis)>!"
+      },
+      "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0710_040_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0710_040_1",
+        "Text": "*: Hala, <IfSolo(tú eres quien ha,tu banda y tú sois quienes habéis)>... Bueno, tú ya me entiendes... Sí que lo <IfSolo(eres,sois)>, ¿no? ¡No sé cómo <IfSolo(darte,daros)> las gracias! ¡<IfSolo(Te,Os)> debemos una!"
+      },
+      "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0710_050_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0710_050_1",
+        "Text": "*: Ortega vuelve a andar entre los vivos, ¿eh? ¡Entonces la paz estará al caer!"
+      },
+      "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0810_010_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0810_010_1",
+        "Text": "*: Llevo diez años trabajando aquí, en el castillo de Aliana."
+      },
+      "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0810_010_2": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0810_010_2",
+        "Text": "*: Yo quería ser erudito real, pero suspendí el puñetero examen."
+      },
+      "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0810_010_3": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0810_010_3",
+        "Text": "*: Luego me enteré de que a los que aprobaron les dieron un libro especial que aumentó aún más su sapiencia. Qué envidia..."
+      },
+      "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0810_020_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0810_020_1",
+        "Text": "*: ¡Viva {HERO}, <IfGender_HERO(nuestro héroe,nuestra heroína,)>!"
+      },
+      "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0810_030_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0810_030_1",
+        "Text": "*: Mmm... Ñam, ñam, ñam. ¡Mmm! ¡La comida de hoy está buenísima!"
+      },
+      "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0910_010_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0910_010_1",
+        "Text": "*: Tengo entendido que la cueva que hay en el promontorio lleva a la Torre del Soñador. Vaya cosa, ¿eh?"
+      },
+      "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0910_010_2": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0910_010_2",
+        "Text": "*: A ver, yo no he comprobado si es verdad, pero es curioso que lo diga todo el mundo."
+      },
+      "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0910_020_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0910_020_1",
+        "Text": "*: Tengo entendido que la cueva que hay en el promontorio lleva a la Torre del Soñador. Vaya cosa, ¿eh?"
+      },
+      "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0910_020_2": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0910_020_2",
+        "Text": "*: ¡Pero no acaba ahí el asunto! También he oído que hay un pasadizo secreto bajo el castillo que conduce a la cueva. ¿Cómo te quedas?"
+      },
+      "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0910_020_3": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0910_020_3",
+        "Text": "*: ¿Eh? ¿Ya lo sabías? Jum... Qué aguafiestas..."
+      },
+      "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0910_030_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0910_030_1",
+        "Text": "*: ¡Viva {HERO}, <IfGender_HERO(nuestro héroe,nuestra heroína,)>!"
+      },
+      "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0910_040_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0910_040_1",
+        "Text": "*: ¿Cómo te va, {LEADER}? Aún no vas a colgar los hábitos viajeros, ¿eh? ¡Pues buena suerte en tus aventuras!"
+      },
+      "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0910_050_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_0910_050_1",
+        "Text": "*: ¡Viva Ortega! ¡Siuuu!"
+      },
+      "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_1010_010_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_1010_010_1",
+        "Text": "*: Al parecer, la bola de derribo es en realidad un explosivo. Se usa para volar paredes por los aires y cosas así..."
+      },
+      "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_1010_010_2": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_1010_010_2",
+        "Text": "*: ¿Eh? Ah, ya lo <IfSolo(sabías,sabíais)>. Perdón, no tengo más información útil que compartir..."
+      },
+      "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_1010_020_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_1010_020_1",
+        "Text": "*: Gracias a <IfSolo(tus,vuestras)> hazañas, ahora el comercio ambulante es mucho más seguro. ¡<IfSolo(Te,Os)> debo una!"
+      },
+      "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_1110_010_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_1110_010_1",
+        "Text": "¡Loz plaztaz de loz adultoz no me quieren dejar zalir porque dizen que ez demaziado peligrozo!"
+      },
+      "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_1110_010_2": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_1110_010_2",
+        "Text": "¡Todo por culpa de eze mugriento del Archienemigo! ¡Lo odio! ¡Lo odio muchízimo! ¡Me aburro aquí todo el día contándome loz peloz del brazo!"
+      },
+      "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_1110_010_3": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_1110_010_3",
+        "Text": "El otro día cazi me ezcapo, pero mi papá me pilló <66>infragante<99>, o como ze diga."
+      },
+      "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_1110_010_4": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_1110_010_4",
+        "Text": "Pareze que no ze entera de nada, pero eztá todo el día con la oreja puezta..."
+      },
+      "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_1110_020_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_1110_020_1",
+        "Text": "¡<IfSolo(Haz,Habéiz)> matado a Baramoz y ziguen zin dejarme zalir a jugar! ¡Ezto ez la mayor injuztizia del mundo mundial!"
+      },
+      "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_1110_020_2": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_1110_020_2",
+        "Text": "¡Cómo ze paza mi papá! ¡Ez un rencorozo! ¡Quiere que me quede aquí atrapada para ziempre!"
+      },
+      "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_1210_010_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_1210_010_1",
+        "Text": "*: ¿<IfSolo(Has,Habéis)> visto a la princesa?\r\nAy, qué disgusto llevo... ¡Princesa! ¡Princesaaa!"
+      },
+      "TXT_Talk_Aliahan_Castle_1F_Out_SUB_0_ACTOR_0110_010_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1F_Out_SUB_0_ACTOR_0110_010_1",
+        "Text": "*: ¡Anda, hola! No habrás venido hasta aquí solo para verme, ¿verdad?..."
+      },
+      "TXT_Talk_Aliahan_Castle_1F_Out_SUB_0_ACTOR_0110_010_2": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1F_Out_SUB_0_ACTOR_0110_010_2",
+        "Text": "*: Ah, ¿has acabado aquí por casualidad? Vaya, y yo que me había hecho ilusiones..."
+      },
+      "TXT_Talk_Aliahan_Castle_1F_Out_SUB_0_ACTOR_0110_010_3": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1F_Out_SUB_0_ACTOR_0110_010_3",
+        "Text": "*: Sé que no es verdad, pero eres un encanto por mentir. Te voy a devolver el favor contándote una cosita..."
+      },
+      "TXT_Talk_Aliahan_Castle_1F_Out_SUB_0_ACTOR_0110_010_4": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1F_Out_SUB_0_ACTOR_0110_010_4",
+        "Text": "*: Parece ser que antes había una cosa llamada teleportal en la parte este de nuestro querido continente."
+      },
+      "TXT_Talk_Aliahan_Castle_1F_Out_SUB_0_ACTOR_0110_010_5": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1F_Out_SUB_0_ACTOR_0110_010_5",
+        "Text": "*: Pero ahora está sellado y no puede usarlo nadie."
+      },
+      "TXT_Talk_Aliahan_Castle_1F_Out_SUB_0_ACTOR_0110_010_6": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1F_Out_SUB_0_ACTOR_0110_010_6",
+        "Text": "*: Dicen que Ortega, el gran héroe, empezó su aventura atravesando el teleportal que había antes al este de aquí."
+      },
+      "TXT_Talk_Aliahan_Castle_1F_Out_SUB_0_ACTOR_0110_010_7": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1F_Out_SUB_0_ACTOR_0110_010_7",
+        "Text": "*: ¿Adónde llevaría ese portal? ¡Ay, qué envidia! ¡Él lo descubrió, pero el resto nunca lo sabremos!"
+      },
+      "TXT_Talk_Aliahan_Castle_1F_Out_SUB_0_ACTOR_0110_020_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1F_Out_SUB_0_ACTOR_0110_020_1",
+        "Text": "*: ¡Ya no tenemos que preocuparnos por Baramos! ¡Es como un sueño hecho realidad! ¡Qué maravilla!"
+      },
+      "TXT_Talk_Aliahan_Castle_1F_Out_SUB_0_ACTOR_0110_030_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1F_Out_SUB_0_ACTOR_0110_030_1",
+        "Text": "*: Ya hace un tiempo que Baramos cayó derrotado, ¿verdad?"
+      },
+      "TXT_Talk_Aliahan_Castle_1F_Out_SUB_0_ACTOR_0110_030_2": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1F_Out_SUB_0_ACTOR_0110_030_2",
+        "Text": "*: Si te soy sincera, últimamente no pasa nada interesante... En fin, así es la paz que todos deseábamos. Toco madera para que la cosa no cambie."
+      },
+      "TXT_Talk_Aliahan_Castle_1F_Out_SUB_0_ACTOR_0110_040_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1F_Out_SUB_0_ACTOR_0110_040_1",
+        "Text": "*: ¡Anda! ¡Has vuelto aquí solo para verme! ¡Qué alegría!"
+      },
+      "TXT_Talk_Aliahan_Castle_1F_Out_SUB_0_ACTOR_0110_040_2": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1F_Out_SUB_0_ACTOR_0110_040_2",
+        "Text": "*: ¿Cómo?... ¡¿Ortega está vivo?! ¡¿Qué me estás contando?! ¡Menudo notición!"
+      },
+      "TXT_Talk_Aliahan_Castle_1F_Out_SUB_0_ACTOR_0110_040_3": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1F_Out_SUB_0_ACTOR_0110_040_3",
+        "Text": "*: Ay, lo siento..."
+      },
+      "TXT_Talk_Aliahan_Castle_1F_Out_SUB_0_ACTOR_0110_040_4": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1F_Out_SUB_0_ACTOR_0110_040_4",
+        "Text": "*: La verdad es que ya lo sabía. Solo quería ser maja porque has venido a contármelo. Gracias de todas formas..."
+      },
+      "TXT_Talk_Aliahan_Castle_1FA_SUB_0_ACTOR_0110_010_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1FA_SUB_0_ACTOR_0110_010_1",
+        "Text": "*: Creo que leí en algún sitio que el sello que se usó para el teleportal podría romperse con una bola de derribo."
+      },
+      "TXT_Talk_Aliahan_Castle_1FA_SUB_0_ACTOR_0110_010_2": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1FA_SUB_0_ACTOR_0110_010_2",
+        "Text": "*: Me suena que había alguien investigando las bolas de derribo... ¿Quién era?... ¡Ah, sí! ¡El anciano ese de Ribera!"
+      },
+      "TXT_Talk_Aliahan_Castle_1FA_SUB_0_ACTOR_0110_020_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1FA_SUB_0_ACTOR_0110_020_1",
+        "Text": "*: ¿Qué clase de ser es el archienemigo Baramos?"
+      },
+      "TXT_Talk_Aliahan_Castle_1FA_SUB_0_ACTOR_0110_030_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1FA_SUB_0_ACTOR_0110_030_1",
+        "Text": "*: Ojalá hubiera podido averiguar qué clase de ser era el archienemigo Baramos..."
+      },
+      "TXT_Talk_Aliahan_Castle_1FA_SUB_0_ACTOR_0110_040_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1FA_SUB_0_ACTOR_0110_040_1",
+        "Text": "*: Ese temblor que se ha percibido antes no ha sido un fenómeno natural..."
+      },
+      "TXT_Talk_Aliahan_Castle_1FA_SUB_0_ACTOR_0110_040_2": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1FA_SUB_0_ACTOR_0110_040_2",
+        "Text": "*: Espero que no se esté gestando nada siniestro..."
+      },
+      "TXT_Talk_Aliahan_Castle_1FA_SUB_0_ACTOR_0110_050_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1FA_SUB_0_ACTOR_0110_050_1",
+        "Text": "*: Según mi investigación, existe un hoyo conocido como el Pozo de Giaga en la masa terrestre al noroeste de aquí."
+      },
+      "TXT_Talk_Aliahan_Castle_1FA_SUB_0_ACTOR_0110_050_2": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1FA_SUB_0_ACTOR_0110_050_2",
+        "Text": "*: Parece que hay un oscuro secreto asociado al lugar. Aunque no he sido capaz de descubrir de qué se trata..."
+      },
+      "TXT_Talk_Aliahan_Castle_1FB_SUB_0_ACTOR_0110_010_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1FB_SUB_0_ACTOR_0110_010_1",
+        "Text": "*: Yo me alisté como guardia del castillo porque admiraba a Ortega, ¿sabes?"
+      },
+      "TXT_Talk_Aliahan_Castle_1FB_SUB_0_ACTOR_0110_010_2": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1FB_SUB_0_ACTOR_0110_010_2",
+        "Text": "*: Pero luego él se fue a combatir al enemigo y no volvió jamás..."
+      },
+      "TXT_Talk_Aliahan_Castle_1FB_SUB_0_ACTOR_0110_010_3": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1FB_SUB_0_ACTOR_0110_010_3",
+        "Text": "*: No me entra en la cabeza cómo podría haberse dejado matar tan fácilmente..."
+      },
+      "TXT_Talk_Aliahan_Castle_1FB_SUB_0_ACTOR_0110_010_4": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1FB_SUB_0_ACTOR_0110_010_4",
+        "Text": "*: Sé que sigue vivo en alguna parte. Estoy seguro."
+      },
+      "TXT_Talk_Aliahan_Castle_1FB_SUB_0_ACTOR_0110_020_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1FB_SUB_0_ACTOR_0110_020_1",
+        "Text": "*: Ahora Ortega al fin puede descansar en paz..."
+      },
+      "TXT_Talk_Aliahan_Castle_1FB_SUB_0_ACTOR_0110_030_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1FB_SUB_0_ACTOR_0110_030_1",
+        "Text": "*: ¡Anda! ¡Pero si es <IfSolo(<IfGender_LEADER(el mismísimo,la mismísima,)> {LEADER},<IfGender_LEADER(el mismísimo,la mismísima,)> {LEADER} y compañía)>!\r\nNos <IfSolo(honras,honráis)> con <IfSolo(tu,vuestra)> presencia."
+      },
+      "TXT_Talk_Aliahan_Castle_1FB_SUB_0_ACTOR_0110_040_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1FB_SUB_0_ACTOR_0110_040_1",
+        "Text": "*: ¿Es verdad eso de que Ortega sigue vivo y ha vuelto a casa? ¡Qué gran noticia!"
+      },
+      "TXT_Talk_Aliahan_Castle_1FB_SUB_0_ACTOR_0110_040_2": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1FB_SUB_0_ACTOR_0110_040_2",
+        "Text": "*: ¿Crees que se pasará por el castillo a hacernos una visita? Me encantaría volver a verlo después de tanto tiempo."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0110_020_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0110_020_1",
+        "Text": "No... No puede ser... Ahora que nuestra tierra por fin había recobrado la paz..."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0110_020_2": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0110_020_2",
+        "Text": "¿Nuestro reino yacerá envuelto en el oscuro manto de la noche?... ¿Qué habrá querido decir?"
+      },
+      "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0110_020_3": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0110_020_3",
+        "Text": "{MOST_HEROIC}, no debes hablarle a nadie de este asunto..."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0110_020_4": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0110_020_4",
+        "Text": "Estoy agotado. Márchate, por favor..."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0110_030_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0110_030_1",
+        "Text": "Valiente {LEADER}, solo tú puedes salvarnos de Zom..."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0110_030_2": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0110_030_2",
+        "Text": "No, no puedo pedirte tal cosa. Olvida lo que he dicho..."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0110_030_3": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0110_030_3",
+        "Text": "Estoy agotado. Márchate, por favor..."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0110_040_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0110_040_1",
+        "Text": "Ya he oído las buenas nuevas, {HERO}. ¡Ortega ha regresado! Contra todo pronóstico, tu padre ha vuelto a casa."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0110_040_2": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0110_040_2",
+        "Text": "Le he pedido que acuda al castillo, pero debe de hallarse agotado después de todo lo que ha sufrido."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0110_040_3": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0110_040_3",
+        "Text": "Dile que haga reposo. Lo recibiré cuando se haya recuperado."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0110_050_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0110_050_1",
+        "Text": "¡Cuentas con mi beneplácito para partir en busca de Baramos! Aunque tal vez quieras saber más acerca de esa nefaria criatura antes de tratar de derrotarla..."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0110_050_2": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0110_050_2",
+        "Text": "Al Archienemigo se le atribuye la liberación del sinfín de monstruos que plagan actualmente el mundo entero. Es su líder, por así decirlo."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0110_050_3": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0110_050_3",
+        "Text": "Desconocemos cuál es su verdadero aspecto, pues nadie que lo haya visto ha vivido para relatar tal horror, ni mucho menos para informar sobre su paradero."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0110_050_4": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0110_050_4",
+        "Text": "Lo único que sabemos de él es su nombre, ya que los monstruos suelen exclamarlo en sus últimos estertores."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0110_050_5": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0110_050_5",
+        "Text": "Espero de todo corazón que seas capaz de hallar a Baramos y nos libres por fin de esta pesadilla. ¡Que la diosa te asista, {HERO}!"
+      },
+      "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0110_050_6": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0110_050_6",
+        "Text": "Muy bien, pues. En ese caso, te deseo suerte en tu aventura. Todas nuestras esperanzas están puestas en ti."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0110_060_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0110_060_1",
+        "Text": "La prominente construcción situada en el islote al oeste de Aliana recibe el nombre de Torre del Soñador."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0110_060_2": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0110_060_2",
+        "Text": "Parece estar habitada, aunque no sabría decirte por quién, y existe un pasadizo por el cual se puede acceder a ella."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0110_060_3": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0110_060_3",
+        "Text": "Si quieres encontrarlo, dirígete al oeste desde Aliana hasta que vislumbres la torre. Luego solo tienes que seguir la costa y acabarás llegando a la entrada."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0110_070_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0110_070_1",
+        "Text": "En uno de los bosques de las tierras del este, que están prácticamente deshabitadas, hay un manantial del que mana un agua prístina."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0110_070_2": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0110_070_2",
+        "Text": "Cerca de dicho manantial se halla la entrada a unas ruinas antiguas que llevan allí desde tiempos remotos."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0110_070_3": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0110_070_3",
+        "Text": "Parece ser que la única forma de acceder a estas ruinas es mediante cierto objeto fabricado por un anciano del pueblo de Ribera..."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0110_080_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0110_080_1",
+        "Text": "Vaya, veo que has obtenido una bola de derribo."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0110_080_2": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0110_080_2",
+        "Text": "Con ella, podrás demoler el muro que obstaculiza el acceso al Túnel de la Promesa."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0110_080_3": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0110_080_3",
+        "Text": "Como probablemente ya sabrás, el túnel se encuentra muy lejos, al este de aquí, pasados el pueblo de Ribera y las montañas que hay más allá."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0110_080_4": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0110_080_4",
+        "Text": "No me cabe duda de que el camino estará plagado de peligros, así que te ruego que te prepares como es debido."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0110_090_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0110_090_1",
+        "Text": "Estás a punto de embarcarte en un viaje de suma importancia, {LEADER}, y es posible que el camino a seguir no siempre te resulte claro."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0110_090_2": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0110_090_2",
+        "Text": "Si no sabes adónde dirigirte o si la tarea que debes cumplir te parece demasiado complicada, dirígete al asentamiento más cercano y solicita una audiencia con su regente."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0110_090_3": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0110_090_3",
+        "Text": "No lo olvides, pues vivimos en un mundo de vastas dimensiones y tu misión dista mucho de ser sencilla."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0110_090_4": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0110_090_4",
+        "Text": "A pesar de ser rey, mis conocimientos resultan limitados. Estoy seguro de que los regentes de las demás tierras podrán darte información de utilidad."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0110_100_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0110_100_1",
+        "Text": "Saludos, {LEADER}. Parece que has adquirido una excelente embarcación. Un avance muy prometedor, ciertamente."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0110_100_2": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0110_100_2",
+        "Text": "Por desgracia, he de informarte de que no tenemos ninguna novedad acerca del paradero de Baramos... Aunque sigo teniendo la certeza de que no podrá ocultarse por mucho más tiempo."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0110_100_3": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0110_100_3",
+        "Text": "Recuerda que quien menos esperas podría revelarte información crucial. Por eso debes investigar todo aquello que pueda parecerte una pista, por banal que sea."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0110_100_4": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0110_100_4",
+        "Text": "Asimismo, si llega a tus manos algún objeto extraño que no parezca tener un uso evidente, no te deshagas de él. Puede que su utilidad solo se revele en los lugares más inesperados."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0110_110_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0110_110_1",
+        "Text": "{LEADER}, poseo una información de gran valor. Acepta mis disculpas por no haberla compartido antes contigo, pero debes saber que he antepuesto tu seguridad a todo lo demás."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0110_110_2": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0110_110_2",
+        "Text": "Se trata de Ortega... Su búsqueda de Baramos hace tantos años lo llevó hasta un lejano continente numerosas leguas al oeste, donde trató de escalar un volcán."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0110_110_3": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0110_110_3",
+        "Text": "Si hay pistas sobre el paradero de Baramos en algún lugar, ha de ser en las inmediaciones de esa ardiente cumbre."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0110_110_4": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0110_110_4",
+        "Text": "Sin embargo, como todos bien sabemos, Ortega jamás regresó de allí..., lo que solo puede significar que se trata de un lugar de lo más peligroso. Prométele a tu rey que extremarás las precauciones."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0210_030_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0210_030_1",
+        "Text": "¡Una vez más, el nombre de Aliana está en boca de todos los habitantes del mundo! ¡Qué gozo, qué júbilo!"
+      },
+      "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0210_040_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0210_040_1",
+        "Text": "Mis disculpas, pero incluso un hombre tan brioso como el rey ha de descansar de vez en cuando."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0210_040_2": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0210_040_2",
+        "Text": "Espero poder serte de ayuda en su ausencia."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0210_040_3": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0210_040_3",
+        "Text": "A fin de cuentas, la corte real debe seguir trabajando como de costumbre. No podemos permitir que el pueblo perciba nuestra inquietud."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0210_050_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0210_050_1",
+        "Text": "¿Así que Ortega, a quien creíamos fallecido, ha vuelto con nosotros? ¡Qué día tan glorioso!"
+      },
+      "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0210_050_2": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0210_050_2",
+        "Text": "Es posible que me reúna con él para tratar el asunto de Zoma, el Señor del Inframundo..."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0210_050_3": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0210_050_3",
+        "Text": "Me temo que su majestad aún no ha tomado una decisión. Sigue ponderando sobre el tema..."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0210_050_4": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0210_050_4",
+        "Text": "Ocuparé su lugar, aunque solo sea por un breve período de tiempo, para así poder aliviar su carga."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0210_060_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0210_060_1",
+        "Text": "El mundo exterior es demasiado peligroso para viajar <IfGender_LEADER(solo,sola,)>."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0210_060_2": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0210_060_2",
+        "Text": "Será mejor que vayas a la Taberna de Petricia a reclutar miembros para tu grupo. Está en la parte oeste de la ciudad."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0210_070_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0210_070_1",
+        "Text": "Huelga decir que, aunque encuentres la llave de ladrón, has de resistir la tentación de darle un uso indebido... Como allanar moradas ajenas, por ejemplo."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0210_070_2": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0210_070_2",
+        "Text": "Lo digo porque, en su momento, estuvo en manos de un réprobo que se hacía llamar Rob A. Conventos y se valió de ella para llevar a cabo todo tipo de fechorías."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0210_070_3": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0210_070_3",
+        "Text": "Por fortuna, ahora ese sujeto está cumpliendo condena en el calabozo del castillo. Evidentemente, no espero que <IfGender_LEADER(un joven,una joven,)> tan ejemplar como tú vaya a seguir sus pasos."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0210_080_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0210_080_1",
+        "Text": "Si alguna vez tienes dudas con respecto a cuál debe ser tu próximo destino, visita la ciudad más cercana, pues es posible que sus habitantes puedan proporcionarte información útil."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0210_080_2": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0210_080_2",
+        "Text": "Incluso el más trivial de los rumores podría contener una pista de vital importancia que te acerque un poco más a dar con el paradero del Archienemigo."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0210_080_3": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0210_080_3",
+        "Text": "Normalmente, esa clase de habladurías se oye en tascas y posadas. Bueno, y en cualquier lugar en el que se reúna la gente, la verdad."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0310_010_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0310_010_1",
+        "Text": "*: Debería ser evidente, pero te lo digo por si acaso... Las armas y armaduras no sirven de nada si no te las equipas."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0310_010_2": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0310_010_2",
+        "Text": "*: Aunque siendo tan <IfGender_HERO(<SglM_WORD>,<SglF_WORD>,)>, tú nunca cometerías un error tan básico. ¿Verdad, {HERO}?"
+      },
+      "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0310_010_3": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0310_010_3",
+        "Text": "*: Por aquí se te conoce por el calificativo de <IfGender_HERO(<SglM_WORD>,<SglF_WORD>,)>, {HERO}, pero ten cuidado y no cometas fallos tontos."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0310_010_4": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0310_010_4",
+        "Text": "*: Perdona, eh. No quería ponerme en plan padre..."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0310_010_5": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0310_010_5",
+        "Text": "*: Es que me preocupa que alguien como tú, <IfGender_HERO(<SglM_WORD>,<SglF_WORD>,)> donde <IfGender_HERO(los,las,)> haya, salga <IfGender_HERO(solo,sola,)> a recorrer el mundo, ¿entiendes?"
+      },
+      "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0410_010_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0410_010_1",
+        "Text": "*: Cuanto más cerca esté alguien de encabezar la lista de miembros de tu grupo, más probabilidades tendrá de ser blanco de un ataque."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0410_010_2": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0410_010_2",
+        "Text": "*: Piénsate muy bien el orden en que colocas a los integrantes de tu cuadrilla."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0410_010_3": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0410_010_3",
+        "Text": "*: Serás todo lo <IfGender_HERO(<SglM_WORD>,<SglF_WORD>,)> que quieras, pero ni siquiera tú puedes sobrevivir sin ayuda, {HERO}."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0410_010_4": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0410_010_4",
+        "Text": "*: Una persona tan <SglF_WORD> como tú le cae bien a todo el mundo. Seguro que los miembros de tu grupo siguen tus órdenes de buena gana."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0410_010_5": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0410_010_5",
+        "Text": "*: Vas a tener que ser un poco menos <IfGender_HERO(<SglM_WORD>,<SglF_WORD>,)> para poder llevarte bien con la gente. Nada de pelearte con los tuyos, ¿eh?"
+      },
+      "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0410_010_6": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0410_010_6",
+        "Text": "*: En realidad, no sé por qué te lo digo. Siendo tan <IfGender_HERO(<SglM_WORD>,<SglF_WORD>,)>, seguro que haces amigos enseguida."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0410_010_7": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0410_010_7",
+        "Text": "*: Todos tenemos nuestras esperanzas puestas en ti, {HERO}. Necesitamos a <IfGender_HERO(nuestro héroe,nuestra heroína,)>. Por favor, no nos defraudes."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0510_010_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0510_010_1",
+        "Text": "*: Si has venido a ver al rey, sigue recto por aquí."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0510_020_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0510_020_1",
+        "Text": "*: ¡Anda! ¡Pero si es <IfSolo(<IfGender_LEADER(el mismísimo,la mismísima,)> {LEADER},<IfGender_LEADER(el mismísimo,la mismísima,)> {LEADER} y compañía)>!\r\nNos <IfSolo(honras,honráis)> con <IfSolo(tu,vuestra)> presencia."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0510_030_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0510_030_1",
+        "Text": "*: Adelante. Entra a hablar con el rey."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0610_010_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0610_010_1",
+        "Text": "*: ♪ Si sales del castillo y sigues el mar hacia el oeste, ♪\r\n♪ ¡pronto verás una cueva en un terreno agreste! ♪\r\n♪ ¡Le, lere, lerele! ♪"
+      },
+      "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0610_020_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0610_020_1",
+        "Text": "*: ♪ ¡Que nuestro gran rey viva para siempre! ♪\r\n♪ ¡Y que <IfGender_HERO(el héroe,la heroína,)> de Aliana cuide de su gente! ♪\r\n♪ ¡La, laralá, la, la! ♪"
+      },
+      "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0710_010_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0710_010_1",
+        "Text": "*: ¡Ay, te lo suplico, valiente <IfGender_HERO(héroe,heroína,)>! ¡Trae la paz al mundo!\r\n¡Eres nuestra única esperanza!"
+      },
+      "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0710_010_2": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0710_010_2",
+        "Text": "*: Hasta que llegue el día en el que <IfGender_HERO(el héroe,la heroína,)> de Aliana consiga que la paz vuelva a reinar..."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0710_010_3": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0710_010_3",
+        "Text": "*: ... nosotros seguiremos aquí, esperando y orando con devoción..."
+      },
+      "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0810_010_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_2F_SUB_0_ACTOR_0810_010_1",
+        "Text": "*: ¡Date prisa! ¡Entra a hablar con su majestad!"
+      },
+      "TXT_Talk_Aliahan_Castle_B1FA_SUB_0_ACTOR_0110_010_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_B1FA_SUB_0_ACTOR_0110_010_1",
+        "Text": "*: Esta es la mazmorra del castillo. Si <IfSolo(vienes,venís)> a ver a un prisionero, <IfSolo(acércate,acercaos)> a los barrotes de su celda y <IfSolo(llámale,llamadle)> la atención. Pero nada de cosas raras, ¿eh?"
+      },
+      "TXT_Talk_Aliahan_Castle_B1FA_SUB_0_ACTOR_0210_010_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_B1FA_SUB_0_ACTOR_0210_010_1",
+        "Text": "*: Si no <IfSolo(tienes,tenéis)> una llave pa abrir la puerta, <IfSolo(lárgate,largaos)>, ¡que aquí no se <IfSolo(te,os)> ha perdío na!"
+      },
+      "TXT_Talk_Aliahan_Castle_B1FA_SUB_0_ACTOR_0210_020_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_B1FA_SUB_0_ACTOR_0210_020_1",
+        "Text": "*: <IfSolo(Dejas,Dejáis)> que me las pire, ¿eh? ¡Qué guapo! Venga, <IfSolo(te,os)> voy a contar una cosa pa dar<IfSolo(te,os)> las gracias."
+      },
+      "TXT_Talk_Aliahan_Castle_B1FA_SUB_0_ACTOR_0210_020_2": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_B1FA_SUB_0_ACTOR_0210_020_2",
+        "Text": "*: Dicen que la mismísima Reina Dragón vive en una especie de santuario en medio de la na. Pero, si <IfSolo(te,os)> preguntan, no <IfSolo(te has,os habéis)> enterao por mí, ¿eh?"
+      },
+      "TXT_Talk_Aliahan_Castle_B1FA_SUB_0_ACTOR_0210_030_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_B1FA_SUB_0_ACTOR_0210_030_1",
+        "Text": "*: ¿Que Ortega está vivito y coleando? ¡Uf, flipas! ¡Menudo ídolo!"
+      },
+      "TXT_Talk_Aliahan_Castle_B1FA_SUB_0_ACTOR_0310_010_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_B1FA_SUB_0_ACTOR_0310_010_1",
+        "Text": "¡No veas cómo se las gasta el viejo ese de la Torre del Soñador!"
+      },
+      "TXT_Talk_Aliahan_Castle_B1FA_SUB_0_ACTOR_0310_010_2": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_B1FA_SUB_0_ACTOR_0310_010_2",
+        "Text": "Me mete en la trena... y encima va y me birla mi querida llave.\r\n¡El viejo m<9>ha sisao a mí! ¡Al gran Rob A. Conventos!"
+      },
+      "TXT_Talk_Aliahan_Castle_B1FA_SUB_0_ACTOR_0310_010_3": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_B1FA_SUB_0_ACTOR_0310_010_3",
+        "Text": "Con mi llave de ladrón podía abrir cualquier puerta roja del mundo.\r\nPfff... Si la hubiera usao pa... ¡Bah, soy un parguela!"
+      },
+      "TXT_Talk_Aliahan_Castle_B1FA_SUB_0_ACTOR_0310_020_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_B1FA_SUB_0_ACTOR_0310_020_1",
+        "Text": "¡La leche! ¿Te piras un momento y te plantas aquí con mi llave de ladrón?"
+      },
+      "TXT_Talk_Aliahan_Castle_B1FA_SUB_0_ACTOR_0310_020_2": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_B1FA_SUB_0_ACTOR_0310_020_2",
+        "Text": "Abre cualquier puerta roja, ¿sabes?\r\nPfff... Si la hubiera usao pa... ¡Bah, soy un parguela!"
+      },
+      "TXT_Talk_Aliahan_Castle_B1FA_SUB_0_ACTOR_0310_020_3": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_B1FA_SUB_0_ACTOR_0310_020_3",
+        "Text": "Es mu resultona, ¿eh? Está mal que yo lo diga, porque la he hecho yo con estas manitas..., pero asín es. Me la cuidas, ¿eh?"
+      },
+      "TXT_Talk_Aliahan_Castle_B1FA_SUB_0_ACTOR_0310_030_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_B1FA_SUB_0_ACTOR_0310_030_1",
+        "Text": "No me da la santa gana de pudrirme en chirona, eso por descontao."
+      },
+      "TXT_Talk_Aliahan_Castle_B1FA_SUB_0_ACTOR_0310_030_2": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_B1FA_SUB_0_ACTOR_0310_030_2",
+        "Text": "Voy a montar la fuga del siglo. ¡Y no m<9>hace falta <IfSolo(tu,vuestra)> ayuda! ¡<IfSolo(Vas,Vais)> a ver!"
+      },
+      "TXT_Talk_Aliahan_Castle_B1FA_SUB_0_ACTOR_0310_040_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_B1FA_SUB_0_ACTOR_0310_040_1",
+        "Text": "¿Pa qué quiere <IfGender_LEADER(un mindundi,una mindundi,)> como tú hablar con el gran Rob A. Conventos? Bah, da igual. A ver, al loro..."
+      },
+      "TXT_Talk_Aliahan_Castle_B1FA_SUB_0_ACTOR_0310_040_2": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_B1FA_SUB_0_ACTOR_0310_040_2",
+        "Text": "El dragón ese del cielo..., si se lo pides bien, t<9>hace realidad un deseo cada vez que vas a verlo. O eso comentan por ahí."
+      },
+      "TXT_Talk_Aliahan_Castle_B1FA_SUB_0_ACTOR_0310_040_3": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_B1FA_SUB_0_ACTOR_0310_040_3",
+        "Text": "¡Total, que no tienes que ir racaneando con los deseos!\r\n¡Tú pide por esa boquita! ¡Je, je!"
+      },
+      "TXT_Talk_Aliahan_Castle_B1FA_SUB_0_VOLUME_0410_010_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_B1FA_SUB_0_VOLUME_0410_010_1",
+        "Text": "Glup..."
+      },
+      "TXT_Talk_Aliahan_Castle_B1FA_SUB_0_VOLUME_0410_010_2": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_B1FA_SUB_0_VOLUME_0410_010_2",
+        "Text": "{LEADER} calma al monstruo y le habla sobre el refugio de Moncho..."
+      },
+      "TXT_Talk_Aliahan_Castle_B1FA_SUB_0_VOLUME_0410_010_3": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_B1FA_SUB_0_VOLUME_0410_010_3",
+        "Text": "¡Qué buenglap idea!"
+      },
+      "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_1310_010_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_1310_010_1",
+        "Text": "*: ¿Has visitado ya el calabozo que hay bajo el castillo, {LEADER}? Ahora mismo tenemos encerrado a un preso un tanto peculiar. Por lo visto, se trata de un limo. Solo la diosa sabe qué habrá hecho para acabar entre rejas..."
+      },
+      "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_1310_010_3": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_1F_SUB_0_ACTOR_1310_010_3",
+        "Text": "*: ¿Has visitado ya el calabozo que hay bajo el castillo, {LEADER}? En él tienen preso a un limo... Bueno, lo tenían..., creo. ¿Acaso me lo habré imaginado todo?"
+      },
+      "TXT_Talk_Aliahan_Castle_B1FB_SUB_0_ACTOR_0120_010_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_B1FB_SUB_0_ACTOR_0120_010_1",
+        "Text": "*: Lo siento, pero está terminantemente prohibido acceder al castillo durante la noche."
+      },
+      "TXT_Talk_Aliahan_Castle_B1FB_SUB_0_ACTOR_0120_010_2": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_B1FB_SUB_0_ACTOR_0120_010_2",
+        "Text": "*: <IfSolo(Te,Os)> pido que <IfSolo(vuelvas,volváis)> por donde <IfSolo(has,habéis)> venido. Gracias."
+      },
+      "TXT_Talk_Aliahan_Castle_B1FB_SUB_0_ACTOR_0110_010_1": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_B1FB_SUB_0_ACTOR_0110_010_1",
+        "Text": "*: ¿Qué <IfSolo(haces,hacéis)> aquí?\r\n¿Ocurre algo?"
+      },
+      "TXT_Talk_Aliahan_Castle_B1FB_SUB_0_ACTOR_0110_010_2": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_B1FB_SUB_0_ACTOR_0110_010_2",
+        "Text": "*: ¡¿C-cómo?! ¿Que <IfSolo(has,habéis)> derrotado al archienemigo Baramos?"
+      },
+      "TXT_Talk_Aliahan_Castle_B1FB_SUB_0_ACTOR_0110_010_3": {
+        "SelfId": "TXT_Talk_Aliahan_Castle_B1FB_SUB_0_ACTOR_0110_010_3",
+        "Text": "*: ¡A-adelante entonces, faltaría más! ¡Ja, ja, ja! <IfSolo(Entra,Entrad)> por la puerta principal. Seguro que <IfSolo(te,os)> tienen preparado un comité de bienvenida y todo."
+      }
+    }
+  }
+]

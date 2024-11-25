@@ -1,0 +1,76 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Event_DreamForest",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Event_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "EVENT_DreamForest_MAPLIST_S05R0101_1": {
+        "SelfId": "EVENT_DreamForest_MAPLIST_S05R0101_1",
+        "EventID": "DreamForest_MAIN_0_SCENE_0010_010",
+        "TriggerType": "EEventTriggerType::SCENE",
+        "TriggerID": "MAPLIST_S05R0101",
+        "EventPriority": 1,
+        "ProgressLower": 0,
+        "ProgressUpper": 30,
+        "StartFlagName1": "None",
+        "IsTrueCondition1": false,
+        "IsAndOperation": false,
+        "StartFlagName2": "None",
+        "IsTrueCondition2": false,
+        "ScenarioProgress": 0
+      },
+      "EVENT_DreamForest_DreamForest_OldMan_01_L1_1": {
+        "SelfId": "EVENT_DreamForest_DreamForest_OldMan_01_L1_1",
+        "EventID": "DreamForest_MAIN_0_ACTOR_0110_010",
+        "TriggerType": "EEventTriggerType::ACTOR",
+        "TriggerID": "DreamForest_OldMan_01_L1",
+        "EventPriority": 1,
+        "ProgressLower": 0,
+        "ProgressUpper": 30,
+        "StartFlagName1": "None",
+        "IsTrueCondition1": false,
+        "IsAndOperation": false,
+        "StartFlagName2": "None",
+        "IsTrueCondition2": false,
+        "ScenarioProgress": 0
+      },
+      "EVENT_DreamForest_DreamForest_OldMan_01_L1_0": {
+        "SelfId": "EVENT_DreamForest_DreamForest_OldMan_01_L1_0",
+        "EventID": "DreamForest_MAIN_0_ACTOR_0110_020",
+        "TriggerType": "EEventTriggerType::ACTOR",
+        "TriggerID": "DreamForest_OldMan_01_L1",
+        "EventPriority": 0,
+        "ProgressLower": 0,
+        "ProgressUpper": 30,
+        "StartFlagName1": "FF0",
+        "IsTrueCondition1": true,
+        "IsAndOperation": false,
+        "StartFlagName2": "None",
+        "IsTrueCondition2": false,
+        "ScenarioProgress": 0
+      },
+      "EVENT_DreamForest_DreamForest_OldMan_1_0": {
+        "SelfId": "EVENT_DreamForest_DreamForest_OldMan_1_0",
+        "EventID": "DreamForest_MAIN_0_ROCK_0010_010",
+        "TriggerType": "EEventTriggerType::ROCK",
+        "TriggerID": "DreamForest_OldMan_1",
+        "EventPriority": 0,
+        "ProgressLower": 0,
+        "ProgressUpper": 30,
+        "StartFlagName1": "FF1",
+        "IsTrueCondition1": false,
+        "IsAndOperation": false,
+        "StartFlagName2": "None",
+        "IsTrueCondition2": false,
+        "ScenarioProgress": 0
+      }
+    }
+  }
+]

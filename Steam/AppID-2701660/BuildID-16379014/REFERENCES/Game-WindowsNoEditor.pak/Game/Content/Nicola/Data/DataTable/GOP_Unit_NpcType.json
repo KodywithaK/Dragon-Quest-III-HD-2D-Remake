@@ -1,0 +1,1157 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Unit_NpcType",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Unit_NpcTypeTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "UNIT_NPCTYPE_NONE": {
+        "SelfId": "UNIT_NPCTYPE_NONE",
+        "PopopoSeId": "SYSSE_TALK_MIDDLE",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "None"
+      },
+      "UNIT_NPCTYPE_BOY": {
+        "SelfId": "UNIT_NPCTYPE_BOY",
+        "PopopoSeId": "SYSSE_TALK_HIGH",
+        "MoveSpeed": "ENpcMoveSpeed::LITTLE_FAST",
+        "MoveWait": "ENpcMoveWaitTime::LITTLE_SHORT",
+        "DefaultNpcNameId": "Txt_NPC_Name_Boy"
+      },
+      "UNIT_NPCTYPE_BrenansSon": {
+        "SelfId": "UNIT_NPCTYPE_BrenansSon",
+        "PopopoSeId": "SYSSE_TALK_HIGH",
+        "MoveSpeed": "ENpcMoveSpeed::LITTLE_FAST",
+        "MoveWait": "ENpcMoveWaitTime::LITTLE_SHORT",
+        "DefaultNpcNameId": "Txt_NPC_Name_BrenansSon"
+      },
+      "UNIT_NPCTYPE_PopotaBoy": {
+        "SelfId": "UNIT_NPCTYPE_PopotaBoy",
+        "PopopoSeId": "SYSSE_TALK_HIGH",
+        "MoveSpeed": "ENpcMoveSpeed::LITTLE_FAST",
+        "MoveWait": "ENpcMoveWaitTime::LITTLE_SHORT",
+        "DefaultNpcNameId": "Txt_NPC_Name_Popota"
+      },
+      "UNIT_NPCTYPE_MAN": {
+        "SelfId": "UNIT_NPCTYPE_MAN",
+        "PopopoSeId": "SYSSE_TALK_MIDDLE",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_Man"
+      },
+      "UNIT_NPCTYPE_Man_02": {
+        "SelfId": "UNIT_NPCTYPE_Man_02",
+        "PopopoSeId": "SYSSE_TALK_MIDDLE",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_Man_02"
+      },
+      "UNIT_NPCTYPE_Socras": {
+        "SelfId": "UNIT_NPCTYPE_Socras",
+        "PopopoSeId": "SYSSE_TALK_MIDDLE",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_Socras"
+      },
+      "UNIT_NPCTYPE_Carlos": {
+        "SelfId": "UNIT_NPCTYPE_Carlos",
+        "PopopoSeId": "SYSSE_TALK_MIDDLE",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_Carlos"
+      },
+      "UNIT_NPCTYPE_Dick": {
+        "SelfId": "UNIT_NPCTYPE_Dick",
+        "PopopoSeId": "SYSSE_TALK_MIDDLE",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_Dick"
+      },
+      "UNIT_NPCTYPE_Gupta": {
+        "SelfId": "UNIT_NPCTYPE_Gupta",
+        "PopopoSeId": "SYSSE_TALK_MIDDLE",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_Gupta"
+      },
+      "UNIT_NPCTYPE_Eric": {
+        "SelfId": "UNIT_NPCTYPE_Eric",
+        "PopopoSeId": "SYSSE_TALK_MIDDLE",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_Eric"
+      },
+      "UNIT_NPCTYPE_Popota": {
+        "SelfId": "UNIT_NPCTYPE_Popota",
+        "PopopoSeId": "SYSSE_TALK_MIDDLE",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_Popota"
+      },
+      "UNIT_NPCTYPE_UNCLE": {
+        "SelfId": "UNIT_NPCTYPE_UNCLE",
+        "PopopoSeId": "SYSSE_TALK_MIDDLE",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::LITTLE_LONG",
+        "DefaultNpcNameId": "Txt_NPC_Name_Uncle"
+      },
+      "UNIT_NPCTYPE_TheatreMaster": {
+        "SelfId": "UNIT_NPCTYPE_TheatreMaster",
+        "PopopoSeId": "SYSSE_TALK_MIDDLE",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::LITTLE_LONG",
+        "DefaultNpcNameId": "Txt_NPC_Name_TheatreMaster"
+      },
+      "UNIT_NPCTYPE_Old_Man": {
+        "SelfId": "UNIT_NPCTYPE_Old_Man",
+        "PopopoSeId": "SYSSE_TALK_MIDDLE",
+        "MoveSpeed": "ENpcMoveSpeed::LITTLE_SLOW",
+        "MoveWait": "ENpcMoveWaitTime::LONG",
+        "DefaultNpcNameId": "Txt_NPC_Name_OldMan"
+      },
+      "UNIT_NPCTYPE_Girl": {
+        "SelfId": "UNIT_NPCTYPE_Girl",
+        "PopopoSeId": "SYSSE_TALK_HIGH",
+        "MoveSpeed": "ENpcMoveSpeed::LITTLE_FAST",
+        "MoveWait": "ENpcMoveWaitTime::LITTLE_SHORT",
+        "DefaultNpcNameId": "Txt_NPC_Name_Girl"
+      },
+      "UNIT_NPCTYPE_Anna": {
+        "SelfId": "UNIT_NPCTYPE_Anna",
+        "PopopoSeId": "SYSSE_TALK_HIGH",
+        "MoveSpeed": "ENpcMoveSpeed::LITTLE_FAST",
+        "MoveWait": "ENpcMoveWaitTime::LITTLE_SHORT",
+        "DefaultNpcNameId": "Txt_NPC_Name_Anna"
+      },
+      "UNIT_NPCTYPE_Woman": {
+        "SelfId": "UNIT_NPCTYPE_Woman",
+        "PopopoSeId": "SYSSE_TALK_HIGH",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_Woman"
+      },
+      "UNIT_NPCTYPE_Woman_City": {
+        "SelfId": "UNIT_NPCTYPE_Woman_City",
+        "PopopoSeId": "SYSSE_TALK_HIGH",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_Woman_City"
+      },
+      "UNIT_NPCTYPE_Woman_Town": {
+        "SelfId": "UNIT_NPCTYPE_Woman_Town",
+        "PopopoSeId": "SYSSE_TALK_HIGH",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_Woman_Town"
+      },
+      "UNIT_NPCTYPE_GaraisMother": {
+        "SelfId": "UNIT_NPCTYPE_GaraisMother",
+        "PopopoSeId": "SYSSE_TALK_HIGH",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_GaraisMother"
+      },
+      "UNIT_NPCTYPE_BrenansWife": {
+        "SelfId": "UNIT_NPCTYPE_BrenansWife",
+        "PopopoSeId": "SYSSE_TALK_HIGH",
+        "MoveSpeed": "ENpcMoveSpeed::LITTLE_SLOW",
+        "MoveWait": "ENpcMoveWaitTime::LITTLE_LONG",
+        "DefaultNpcNameId": "Txt_NPC_Name_BrenansWife"
+      },
+      "UNIT_NPCTYPE_Mourning_Dress": {
+        "SelfId": "UNIT_NPCTYPE_Mourning_Dress",
+        "PopopoSeId": "SYSSE_TALK_HIGH",
+        "MoveSpeed": "ENpcMoveSpeed::LITTLE_SLOW",
+        "MoveWait": "ENpcMoveWaitTime::LITTLE_LONG",
+        "DefaultNpcNameId": "Txt_NPC_Name_Woman"
+      },
+      "UNIT_NPCTYPE_Tanya": {
+        "SelfId": "UNIT_NPCTYPE_Tanya",
+        "PopopoSeId": "SYSSE_TALK_HIGH",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_Tanya"
+      },
+      "UNIT_NPCTYPE_Miss": {
+        "SelfId": "UNIT_NPCTYPE_Miss",
+        "PopopoSeId": "SYSSE_TALK_HIGH",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_Miss"
+      },
+      "UNIT_NPCTYPE_Sabrina": {
+        "SelfId": "UNIT_NPCTYPE_Sabrina",
+        "PopopoSeId": "SYSSE_TALK_HIGH",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_Sabrina"
+      },
+      "UNIT_NPCTYPE_Olivia": {
+        "SelfId": "UNIT_NPCTYPE_Olivia",
+        "PopopoSeId": "SYSSE_TALK_HIGH",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_Olivia"
+      },
+      "UNIT_NPCTYPE_Aunt": {
+        "SelfId": "UNIT_NPCTYPE_Aunt",
+        "PopopoSeId": "SYSSE_TALK_MIDDLE",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::LITTLE_LONG",
+        "DefaultNpcNameId": "Txt_NPC_Name_Aunt"
+      },
+      "UNIT_NPCTYPE_Old_Woman": {
+        "SelfId": "UNIT_NPCTYPE_Old_Woman",
+        "PopopoSeId": "SYSSE_TALK_MIDDLE",
+        "MoveSpeed": "ENpcMoveSpeed::LITTLE_SLOW",
+        "MoveWait": "ENpcMoveWaitTime::LONG",
+        "DefaultNpcNameId": "Txt_NPC_Name_Old_Woman"
+      },
+      "UNIT_NPCTYPE_Swordsmith": {
+        "SelfId": "UNIT_NPCTYPE_Swordsmith",
+        "PopopoSeId": "SYSSE_TALK_MIDDLE",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::LITTLE_LONG",
+        "DefaultNpcNameId": "Txt_NPC_Name_Swordsmith"
+      },
+      "UNIT_NPCTYPE_SwordsmithsWife": {
+        "SelfId": "UNIT_NPCTYPE_SwordsmithsWife",
+        "PopopoSeId": "SYSSE_TALK_HIGH",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_SwordsmithsWife"
+      },
+      "UNIT_NPCTYPE_Jipang_Yayoi": {
+        "SelfId": "UNIT_NPCTYPE_Jipang_Yayoi",
+        "PopopoSeId": "SYSSE_TALK_HIGH",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_Yayoi"
+      },
+      "UNIT_NPCTYPE_Baby": {
+        "SelfId": "UNIT_NPCTYPE_Baby",
+        "PopopoSeId": "SYSSE_TALK_HIGH",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_Baby"
+      },
+      "UNIT_NPCTYPE_King": {
+        "SelfId": "UNIT_NPCTYPE_King",
+        "PopopoSeId": "SYSSE_TALK_MIDDLE",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_King"
+      },
+      "UNIT_NPCTYPE_King_Greenlad": {
+        "SelfId": "UNIT_NPCTYPE_King_Greenlad",
+        "PopopoSeId": "SYSSE_TALK_MIDDLE",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_King"
+      },
+      "UNIT_NPCTYPE_Queen": {
+        "SelfId": "UNIT_NPCTYPE_Queen",
+        "PopopoSeId": "SYSSE_TALK_MIDDLE",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_Queen"
+      },
+      "UNIT_NPCTYPE_Princess": {
+        "SelfId": "UNIT_NPCTYPE_Princess",
+        "PopopoSeId": "SYSSE_TALK_HIGH",
+        "MoveSpeed": "ENpcMoveSpeed::LITTLE_SLOW",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_Princess"
+      },
+      "UNIT_NPCTYPE_Margot": {
+        "SelfId": "UNIT_NPCTYPE_Margot",
+        "PopopoSeId": "SYSSE_TALK_HIGH",
+        "MoveSpeed": "ENpcMoveSpeed::LITTLE_SLOW",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_Margot"
+      },
+      "UNIT_NPCTYPE_Minister": {
+        "SelfId": "UNIT_NPCTYPE_Minister",
+        "PopopoSeId": "SYSSE_TALK_MIDDLE",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_Minister"
+      },
+      "UNIT_NPCTYPE_Minister_Rich": {
+        "SelfId": "UNIT_NPCTYPE_Minister_Rich",
+        "PopopoSeId": "SYSSE_TALK_MIDDLE",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_Minister_Rich"
+      },
+      "UNIT_NPCTYPE_Guardian_Shrine": {
+        "SelfId": "UNIT_NPCTYPE_Guardian_Shrine",
+        "PopopoSeId": "SYSSE_TALK_MIDDLE",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_Guardian_Shrine"
+      },
+      "UNIT_NPCTYPE_Guard": {
+        "SelfId": "UNIT_NPCTYPE_Guard",
+        "PopopoSeId": "SYSSE_TALK_MIDDLE",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_Guard"
+      },
+      "UNIT_NPCTYPE_Noweapon": {
+        "SelfId": "UNIT_NPCTYPE_Noweapon",
+        "PopopoSeId": "SYSSE_TALK_MIDDLE",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_Guard"
+      },
+      "UNIT_NPCTYPE_Hanbiru": {
+        "SelfId": "UNIT_NPCTYPE_Hanbiru",
+        "PopopoSeId": "SYSSE_TALK_MIDDLE",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_Hanbiru"
+      },
+      "UNIT_NPCTYPE_Guard_General": {
+        "SelfId": "UNIT_NPCTYPE_Guard_General",
+        "PopopoSeId": "SYSSE_TALK_MIDDLE",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_Guard_General"
+      },
+      "UNIT_NPCTYPE_Lady": {
+        "SelfId": "UNIT_NPCTYPE_Lady",
+        "PopopoSeId": "SYSSE_TALK_HIGH",
+        "MoveSpeed": "ENpcMoveSpeed::LITTLE_SLOW",
+        "MoveWait": "ENpcMoveWaitTime::LONG",
+        "DefaultNpcNameId": "Txt_NPC_Name_Lady"
+      },
+      "UNIT_NPCTYPE_Servant": {
+        "SelfId": "UNIT_NPCTYPE_Servant",
+        "PopopoSeId": "SYSSE_TALK_HIGH",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::LITTLE_SHORT",
+        "DefaultNpcNameId": "Txt_NPC_Name_Servant"
+      },
+      "UNIT_NPCTYPE_Father": {
+        "SelfId": "UNIT_NPCTYPE_Father",
+        "PopopoSeId": "SYSSE_TALK_MIDDLE",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_Priest"
+      },
+      "UNIT_NPCTYPE_Nun": {
+        "SelfId": "UNIT_NPCTYPE_Nun",
+        "PopopoSeId": "SYSSE_TALK_HIGH",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_Sister"
+      },
+      "UNIT_NPCTYPE_Merchant": {
+        "SelfId": "UNIT_NPCTYPE_Merchant",
+        "PopopoSeId": "SYSSE_TALK_MIDDLE",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_Merchant"
+      },
+      "UNIT_NPCTYPE_Traveller": {
+        "SelfId": "UNIT_NPCTYPE_Traveller",
+        "PopopoSeId": "SYSSE_TALK_MIDDLE",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::LITTLE_SHORT",
+        "DefaultNpcNameId": "Txt_NPC_Name_Trader"
+      },
+      "UNIT_NPCTYPE_Rough": {
+        "SelfId": "UNIT_NPCTYPE_Rough",
+        "PopopoSeId": "SYSSE_TALK_MIDDLE",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_Arakure"
+      },
+      "UNIT_NPCTYPE_Rough_Ashalam": {
+        "SelfId": "UNIT_NPCTYPE_Rough_Ashalam",
+        "PopopoSeId": "SYSSE_TALK_LOW",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_Arakure"
+      },
+      "UNIT_NPCTYPE_Squid": {
+        "SelfId": "UNIT_NPCTYPE_Squid",
+        "PopopoSeId": "SYSSE_TALK_MIDDLE",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_Toughman"
+      },
+      "UNIT_NPCTYPE_Squid_Alefgard": {
+        "SelfId": "UNIT_NPCTYPE_Squid_Alefgard",
+        "PopopoSeId": "SYSSE_TALK_MIDDLE",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_Uncle"
+      },
+      "UNIT_NPCTYPE_Worker": {
+        "SelfId": "UNIT_NPCTYPE_Worker",
+        "PopopoSeId": "SYSSE_TALK_MIDDLE",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_Worker"
+      },
+      "UNIT_NPCTYPE_Swordsman": {
+        "SelfId": "UNIT_NPCTYPE_Swordsman",
+        "PopopoSeId": "SYSSE_TALK_MIDDLE",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_Swordsman"
+      },
+      "UNIT_NPCTYPE_GaraisFather": {
+        "SelfId": "UNIT_NPCTYPE_GaraisFather",
+        "PopopoSeId": "SYSSE_TALK_MIDDLE",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_GaraisFather"
+      },
+      "UNIT_NPCTYPE_SimonsSon": {
+        "SelfId": "UNIT_NPCTYPE_SimonsSon",
+        "PopopoSeId": "SYSSE_TALK_MIDDLE",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_SimonsSon"
+      },
+      "UNIT_NPCTYPE_Martial_Artist": {
+        "SelfId": "UNIT_NPCTYPE_Martial_Artist",
+        "PopopoSeId": "SYSSE_TALK_MIDDLE",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_MartialArtist"
+      },
+      "UNIT_NPCTYPE_Poets": {
+        "SelfId": "UNIT_NPCTYPE_Poets",
+        "PopopoSeId": "SYSSE_TALK_HIGH",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_Bard"
+      },
+      "UNIT_NPCTYPE_Scholar": {
+        "SelfId": "UNIT_NPCTYPE_Scholar",
+        "PopopoSeId": "SYSSE_TALK_MIDDLE",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_Scholar"
+      },
+      "UNIT_NPCTYPE_Mage_Man": {
+        "SelfId": "UNIT_NPCTYPE_Mage_Man",
+        "PopopoSeId": "SYSSE_TALK_MIDDLE",
+        "MoveSpeed": "ENpcMoveSpeed::LITTLE_SLOW",
+        "MoveWait": "ENpcMoveWaitTime::LONG",
+        "DefaultNpcNameId": "Txt_NPC_Name_OldMan"
+      },
+      "UNIT_NPCTYPE_Witch": {
+        "SelfId": "UNIT_NPCTYPE_Witch",
+        "PopopoSeId": "SYSSE_TALK_MIDDLE",
+        "MoveSpeed": "ENpcMoveSpeed::LITTLE_SLOW",
+        "MoveWait": "ENpcMoveWaitTime::LONG",
+        "DefaultNpcNameId": "Txt_NPC_Name_Witch"
+      },
+      "UNIT_NPCTYPE_Bartender": {
+        "SelfId": "UNIT_NPCTYPE_Bartender",
+        "PopopoSeId": "SYSSE_TALK_MIDDLE",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_Bartender"
+      },
+      "UNIT_NPCTYPE_Pirate": {
+        "SelfId": "UNIT_NPCTYPE_Pirate",
+        "PopopoSeId": "SYSSE_TALK_MIDDLE",
+        "MoveSpeed": "ENpcMoveSpeed::LITTLE_FAST",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_Pirate"
+      },
+      "UNIT_NPCTYPE_Prisoner": {
+        "SelfId": "UNIT_NPCTYPE_Prisoner",
+        "PopopoSeId": "SYSSE_TALK_MIDDLE",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_Prisoner"
+      },
+      "UNIT_NPCTYPE_Prisoner_Ghost": {
+        "SelfId": "UNIT_NPCTYPE_Prisoner_Ghost",
+        "PopopoSeId": "SYSSE_TALK_MIDDLE",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_Ghost_Red"
+      },
+      "UNIT_NPCTYPE_Dancer": {
+        "SelfId": "UNIT_NPCTYPE_Dancer",
+        "PopopoSeId": "SYSSE_TALK_HIGH",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_Dancer"
+      },
+      "UNIT_NPCTYPE_Dancing": {
+        "SelfId": "UNIT_NPCTYPE_Dancing",
+        "PopopoSeId": "SYSSE_TALK_HIGH",
+        "MoveSpeed": "ENpcMoveSpeed::FAST",
+        "MoveWait": "ENpcMoveWaitTime::SHORT",
+        "DefaultNpcNameId": "Txt_NPC_Name_Dancer"
+      },
+      "UNIT_NPCTYPE_Vivian": {
+        "SelfId": "UNIT_NPCTYPE_Vivian",
+        "PopopoSeId": "SYSSE_TALK_HIGH",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_Vivian"
+      },
+      "UNIT_NPCTYPE_Lena": {
+        "SelfId": "UNIT_NPCTYPE_Lena",
+        "PopopoSeId": "SYSSE_TALK_HIGH",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_Lena"
+      },
+      "UNIT_NPCTYPE_Pony": {
+        "SelfId": "UNIT_NPCTYPE_Pony",
+        "PopopoSeId": "SYSSE_TALK_HIGH",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_Pony"
+      },
+      "UNIT_NPCTYPE_Bunny": {
+        "SelfId": "UNIT_NPCTYPE_Bunny",
+        "PopopoSeId": "SYSSE_TALK_HIGH",
+        "MoveSpeed": "ENpcMoveSpeed::LITTLE_FAST",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_BunnyGirl"
+      },
+      "UNIT_NPCTYPE_Elf": {
+        "SelfId": "UNIT_NPCTYPE_Elf",
+        "PopopoSeId": "SYSSE_TALK_HIGH",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::LITTLE_LONG",
+        "DefaultNpcNameId": "Txt_NPC_Name_Elf"
+      },
+      "UNIT_NPCTYPE_Hobbit": {
+        "SelfId": "UNIT_NPCTYPE_Hobbit",
+        "PopopoSeId": "SYSSE_TALK_MIDDLE",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_Dwarf"
+      },
+      "UNIT_NPCTYPE_Nord": {
+        "SelfId": "UNIT_NPCTYPE_Nord",
+        "PopopoSeId": "SYSSE_TALK_MIDDLE",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_Nord"
+      },
+      "UNIT_NPCTYPE_Cat": {
+        "SelfId": "UNIT_NPCTYPE_Cat",
+        "PopopoSeId": "SYSSE_TALK_HIGH",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_Cat"
+      },
+      "UNIT_NPCTYPE_Dog": {
+        "SelfId": "UNIT_NPCTYPE_Dog",
+        "PopopoSeId": "SYSSE_TALK_MIDDLE",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_Dog"
+      },
+      "UNIT_NPCTYPE_Bobby": {
+        "SelfId": "UNIT_NPCTYPE_Bobby",
+        "PopopoSeId": "SYSSE_TALK_MIDDLE",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_Bobby"
+      },
+      "UNIT_NPCTYPE_Horse": {
+        "SelfId": "UNIT_NPCTYPE_Horse",
+        "PopopoSeId": "SYSSE_TALK_MIDDLE",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_Horse"
+      },
+      "UNIT_NPCTYPE_Ed": {
+        "SelfId": "UNIT_NPCTYPE_Ed",
+        "PopopoSeId": "SYSSE_TALK_MIDDLE",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::LONG",
+        "DefaultNpcNameId": "Txt_NPC_Name_Ed"
+      },
+      "UNIT_NPCTYPE_Corpse": {
+        "SelfId": "UNIT_NPCTYPE_Corpse",
+        "PopopoSeId": "SYSSE_TALK_LOW",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "None"
+      },
+      "UNIT_NPCTYPE_Corpse_Prisoner": {
+        "SelfId": "UNIT_NPCTYPE_Corpse_Prisoner",
+        "PopopoSeId": "SYSSE_TALK_LOW",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "None"
+      },
+      "UNIT_NPCTYPE_Ghost_Red": {
+        "SelfId": "UNIT_NPCTYPE_Ghost_Red",
+        "PopopoSeId": "SYSSE_TALK_LOW",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NO_WAIT",
+        "DefaultNpcNameId": "Txt_NPC_Name_Ghost_Red"
+      },
+      "UNIT_NPCTYPE_Ghost_Green": {
+        "SelfId": "UNIT_NPCTYPE_Ghost_Green",
+        "PopopoSeId": "SYSSE_TALK_LOW",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NO_WAIT",
+        "DefaultNpcNameId": "Txt_NPC_Name_Ghost_Red"
+      },
+      "UNIT_NPCTYPE_SimonsSoul": {
+        "SelfId": "UNIT_NPCTYPE_SimonsSoul",
+        "PopopoSeId": "SYSSE_TALK_LOW",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NO_WAIT",
+        "DefaultNpcNameId": "Txt_NPC_Name_SimonsSoul"
+      },
+      "UNIT_NPCTYPE_Ghost_Silver": {
+        "SelfId": "UNIT_NPCTYPE_Ghost_Silver",
+        "PopopoSeId": "SYSSE_TALK_LOW",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NO_WAIT",
+        "DefaultNpcNameId": "Txt_NPC_Name_Ghost_Silver"
+      },
+      "UNIT_NPCTYPE_Slime": {
+        "SelfId": "UNIT_NPCTYPE_Slime",
+        "PopopoSeId": "SYSSE_TALK_HIGH",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_Slime"
+      },
+      "UNIT_NPCTYPE_Healslime": {
+        "SelfId": "UNIT_NPCTYPE_Healslime",
+        "PopopoSeId": "SYSSE_TALK_HIGH",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_Healslime"
+      },
+      "UNIT_NPCTYPE_Monster": {
+        "SelfId": "UNIT_NPCTYPE_Monster",
+        "PopopoSeId": "SYSSE_TALK_LOW",
+        "MoveSpeed": "ENpcMoveSpeed::LITTLE_FAST",
+        "MoveWait": "ENpcMoveWaitTime::LITTLE_SHORT",
+        "DefaultNpcNameId": "Txt_NPC_Name_Monster"
+      },
+      "UNIT_NPCTYPE_Monster_Volcano": {
+        "SelfId": "UNIT_NPCTYPE_Monster_Volcano",
+        "PopopoSeId": "SYSSE_TALK_LOW",
+        "MoveSpeed": "ENpcMoveSpeed::LITTLE_FAST",
+        "MoveWait": "ENpcMoveWaitTime::LITTLE_SHORT",
+        "DefaultNpcNameId": "Txt_NPC_Name_Monster_Volcano"
+      },
+      "UNIT_NPCTYPE_Monster_Greenlad": {
+        "SelfId": "UNIT_NPCTYPE_Monster_Greenlad",
+        "PopopoSeId": "SYSSE_TALK_LOW",
+        "MoveSpeed": "ENpcMoveSpeed::LITTLE_FAST",
+        "MoveWait": "ENpcMoveWaitTime::LITTLE_SHORT",
+        "DefaultNpcNameId": "Txt_NPC_Name_Monster"
+      },
+      "UNIT_NPCTYPE_Faerie": {
+        "SelfId": "UNIT_NPCTYPE_Faerie",
+        "PopopoSeId": "SYSSE_TALK_HIGH",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_Faerie"
+      },
+      "UNIT_NPCTYPE_Ortega": {
+        "SelfId": "UNIT_NPCTYPE_Ortega",
+        "PopopoSeId": "SYSSE_TALK_MIDDLE",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_Ortega"
+      },
+      "UNIT_NPCTYPE_Ortega_Helm": {
+        "SelfId": "UNIT_NPCTYPE_Ortega_Helm",
+        "PopopoSeId": "SYSSE_TALK_MIDDLE",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_Ortega"
+      },
+      "UNIT_NPCTYPE_Pokapamas": {
+        "SelfId": "UNIT_NPCTYPE_Pokapamas",
+        "PopopoSeId": "SYSSE_TALK_MIDDLE",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_Pokapamas"
+      },
+      "UNIT_NPCTYPE_Heros_Mother": {
+        "SelfId": "UNIT_NPCTYPE_Heros_Mother",
+        "PopopoSeId": "SYSSE_TALK_HIGH",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_HerosMother"
+      },
+      "UNIT_NPCTYPE_HerosGrandfarther": {
+        "SelfId": "UNIT_NPCTYPE_HerosGrandfarther",
+        "PopopoSeId": "SYSSE_TALK_MIDDLE",
+        "MoveSpeed": "ENpcMoveSpeed::SLOW",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_HerosGrandfarther"
+      },
+      "UNIT_NPCTYPE_Hero": {
+        "SelfId": "UNIT_NPCTYPE_Hero",
+        "PopopoSeId": "SYSSE_TALK_MIDDLE",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_Hero"
+      },
+      "UNIT_NPCTYPE_Hero_Girl": {
+        "SelfId": "UNIT_NPCTYPE_Hero_Girl",
+        "PopopoSeId": "SYSSE_TALK_HIGH",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_Hero"
+      },
+      "UNIT_NPCTYPE_Hero_Boy": {
+        "SelfId": "UNIT_NPCTYPE_Hero_Boy",
+        "PopopoSeId": "SYSSE_TALK_HIGH",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_Hero"
+      },
+      "UNIT_NPCTYPE_Hero_Baby": {
+        "SelfId": "UNIT_NPCTYPE_Hero_Baby",
+        "PopopoSeId": "SYSSE_TALK_HIGH",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_Hero"
+      },
+      "UNIT_NPCTYPE_Ruida": {
+        "SelfId": "UNIT_NPCTYPE_Ruida",
+        "PopopoSeId": "SYSSE_TALK_HIGH",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_Luida"
+      },
+      "UNIT_NPCTYPE_Queen_02": {
+        "SelfId": "UNIT_NPCTYPE_Queen_02",
+        "PopopoSeId": "SYSSE_TALK_HIGH",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_Queen_02"
+      },
+      "UNIT_NPCTYPE_Queen_Himiko": {
+        "SelfId": "UNIT_NPCTYPE_Queen_Himiko",
+        "PopopoSeId": "SYSSE_TALK_MIDDLE",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_Himiko"
+      },
+      "UNIT_NPCTYPE_Queen_Isis": {
+        "SelfId": "UNIT_NPCTYPE_Queen_Isis",
+        "PopopoSeId": "SYSSE_TALK_HIGH",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_Queen_02"
+      },
+      "UNIT_NPCTYPE_Queen_Elf": {
+        "SelfId": "UNIT_NPCTYPE_Queen_Elf",
+        "PopopoSeId": "SYSSE_TALK_HIGH",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_Queen_02"
+      },
+      "UNIT_NPCTYPE_Pirate_Head": {
+        "SelfId": "UNIT_NPCTYPE_Pirate_Head",
+        "PopopoSeId": "SYSSE_TALK_HIGH",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_PiratesHead"
+      },
+      "UNIT_NPCTYPE_MedalCollector": {
+        "SelfId": "UNIT_NPCTYPE_MedalCollector",
+        "PopopoSeId": "SYSSE_TALK_MIDDLE",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_MedalCollector"
+      },
+      "UNIT_NPCTYPE_Priest": {
+        "SelfId": "UNIT_NPCTYPE_Priest",
+        "PopopoSeId": "SYSSE_TALK_MIDDLE",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "None"
+      },
+      "UNIT_NPCTYPE_Abbot_Dharma": {
+        "SelfId": "UNIT_NPCTYPE_Abbot_Dharma",
+        "PopopoSeId": "SYSSE_TALK_MIDDLE",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_Abbot_Dharma"
+      },
+      "UNIT_NPCTYPE_Old_Priest": {
+        "SelfId": "UNIT_NPCTYPE_Old_Priest",
+        "PopopoSeId": "SYSSE_TALK_MIDDLE",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_Old_Priest"
+      },
+      "UNIT_NPCTYPE_Abbot_Marinan": {
+        "SelfId": "UNIT_NPCTYPE_Abbot_Marinan",
+        "PopopoSeId": "SYSSE_TALK_MIDDLE",
+        "MoveSpeed": "ENpcMoveSpeed::LITTLE_SLOW",
+        "MoveWait": "ENpcMoveWaitTime::LONG",
+        "DefaultNpcNameId": "Txt_NPC_Name_Abbot_Marinan"
+      },
+      "UNIT_NPCTYPE_Ramia_Maiden": {
+        "SelfId": "UNIT_NPCTYPE_Ramia_Maiden",
+        "PopopoSeId": "SYSSE_TALK_HIGH",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_RamiasMaiden"
+      },
+      "UNIT_NPCTYPE_Faerie_SpiritShrine": {
+        "SelfId": "UNIT_NPCTYPE_Faerie_SpiritShrine",
+        "PopopoSeId": "SYSSE_TALK_HIGH",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_Faerie_SpiritShrine"
+      },
+      "UNIT_NPCTYPE_Rubiss": {
+        "SelfId": "UNIT_NPCTYPE_Rubiss",
+        "PopopoSeId": "SYSSE_TALK_HIGH",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_Rubiss"
+      },
+      "UNIT_NPCTYPE_Hargon": {
+        "SelfId": "UNIT_NPCTYPE_Hargon",
+        "PopopoSeId": "SYSSE_TALK_MIDDLE",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_Hargon"
+      },
+      "UNIT_NPCTYPE_Dragon_Priest": {
+        "SelfId": "UNIT_NPCTYPE_Dragon_Priest",
+        "PopopoSeId": "SYSSE_TALK_MIDDLE",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_Dragon_Priest"
+      },
+      "UNIT_NPCTYPE_Bacota": {
+        "SelfId": "UNIT_NPCTYPE_Bacota",
+        "PopopoSeId": "SYSSE_TALK_MIDDLE",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_Bacota"
+      },
+      "UNIT_NPCTYPE_Kandar": {
+        "SelfId": "UNIT_NPCTYPE_Kandar",
+        "PopopoSeId": "SYSSE_TALK_LOW",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_Kandar"
+      },
+      "UNIT_NPCTYPE_Kandar_Minion": {
+        "SelfId": "UNIT_NPCTYPE_Kandar_Minion",
+        "PopopoSeId": "SYSSE_TALK_MIDDLE",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_KandarMinion"
+      },
+      "UNIT_NPCTYPE_Simon": {
+        "SelfId": "UNIT_NPCTYPE_Simon",
+        "PopopoSeId": "SYSSE_TALK_MIDDLE",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_Simon"
+      },
+      "UNIT_NPCTYPE_Garai": {
+        "SelfId": "UNIT_NPCTYPE_Garai",
+        "PopopoSeId": "SYSSE_TALK_HIGH",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_Garai"
+      },
+      "UNIT_NPCTYPE_Monty": {
+        "SelfId": "UNIT_NPCTYPE_Monty",
+        "PopopoSeId": "SYSSE_TALK_MIDDLE",
+        "MoveSpeed": "ENpcMoveSpeed::LITTLE_SLOW",
+        "MoveWait": "ENpcMoveWaitTime::LONG",
+        "DefaultNpcNameId": "Txt_NPC_Name_Monty"
+      },
+      "UNIT_NPCTYPE_Devil_Nile": {
+        "SelfId": "UNIT_NPCTYPE_Devil_Nile",
+        "PopopoSeId": "SYSSE_TALK_LOW",
+        "MoveSpeed": "ENpcMoveSpeed::LITTLE_FAST",
+        "MoveWait": "ENpcMoveWaitTime::LITTLE_SHORT",
+        "DefaultNpcNameId": "Txt_NPC_Name_Devil_Nile"
+      },
+      "UNIT_NPCTYPE_Warlock": {
+        "SelfId": "UNIT_NPCTYPE_Warlock",
+        "PopopoSeId": "SYSSE_TALK_LOW",
+        "MoveSpeed": "ENpcMoveSpeed::LITTLE_FAST",
+        "MoveWait": "ENpcMoveWaitTime::LITTLE_SHORT",
+        "DefaultNpcNameId": "Txt_NPC_Name_Warlock"
+      },
+      "UNIT_NPCTYPE_Underworld_Guard": {
+        "SelfId": "UNIT_NPCTYPE_Underworld_Guard",
+        "PopopoSeId": "SYSSE_TALK_LOW",
+        "MoveSpeed": "ENpcMoveSpeed::LITTLE_FAST",
+        "MoveWait": "ENpcMoveWaitTime::LITTLE_SHORT",
+        "DefaultNpcNameId": "Txt_NPC_Name_Underworld_Guard"
+      },
+      "UNIT_NPCTYPE_Baby_Satan": {
+        "SelfId": "UNIT_NPCTYPE_Baby_Satan",
+        "PopopoSeId": "SYSSE_TALK_LOW",
+        "MoveSpeed": "ENpcMoveSpeed::LITTLE_FAST",
+        "MoveWait": "ENpcMoveWaitTime::LITTLE_SHORT",
+        "DefaultNpcNameId": "Txt_NPC_Name_Baby_Satan"
+      },
+      "UNIT_NPCTYPE_Mini_Daemon": {
+        "SelfId": "UNIT_NPCTYPE_Mini_Daemon",
+        "PopopoSeId": "SYSSE_TALK_LOW",
+        "MoveSpeed": "ENpcMoveSpeed::LITTLE_FAST",
+        "MoveWait": "ENpcMoveWaitTime::LITTLE_SHORT",
+        "DefaultNpcNameId": "Txt_NPC_Name_Mini_Demon"
+      },
+      "UNIT_NPCTYPE_Ramia": {
+        "SelfId": "UNIT_NPCTYPE_Ramia",
+        "PopopoSeId": "SYSSE_TALK_LOW",
+        "MoveSpeed": "ENpcMoveSpeed::LITTLE_FAST",
+        "MoveWait": "ENpcMoveWaitTime::LITTLE_SHORT",
+        "DefaultNpcNameId": "Txt_NPC_Name_Ramia"
+      },
+      "UNIT_NPCTYPE_DragonQueen": {
+        "SelfId": "UNIT_NPCTYPE_DragonQueen",
+        "PopopoSeId": "SYSSE_TALK_LOW",
+        "MoveSpeed": "ENpcMoveSpeed::LITTLE_FAST",
+        "MoveWait": "ENpcMoveWaitTime::LITTLE_SHORT",
+        "DefaultNpcNameId": "Txt_NPC_Name_DragonQueen"
+      },
+      "UNIT_NPCTYPE_Orochi": {
+        "SelfId": "UNIT_NPCTYPE_Orochi",
+        "PopopoSeId": "SYSSE_TALK_LOW",
+        "MoveSpeed": "ENpcMoveSpeed::LITTLE_FAST",
+        "MoveWait": "ENpcMoveWaitTime::LITTLE_SHORT",
+        "DefaultNpcNameId": "Txt_NPC_Name_Orochi"
+      },
+      "UNIT_NPCTYPE_King_Hydra": {
+        "SelfId": "UNIT_NPCTYPE_King_Hydra",
+        "PopopoSeId": "SYSSE_TALK_LOW",
+        "MoveSpeed": "ENpcMoveSpeed::LITTLE_FAST",
+        "MoveWait": "ENpcMoveWaitTime::LITTLE_SHORT",
+        "DefaultNpcNameId": "Txt_NPC_Name_King_Hydra"
+      },
+      "UNIT_NPCTYPE_GranDragon": {
+        "SelfId": "UNIT_NPCTYPE_GranDragon",
+        "PopopoSeId": "SYSSE_TALK_LOW",
+        "MoveSpeed": "ENpcMoveSpeed::LITTLE_FAST",
+        "MoveWait": "ENpcMoveWaitTime::LITTLE_SHORT",
+        "DefaultNpcNameId": "Txt_NPC_Name_GranDragon"
+      },
+      "UNIT_NPCTYPE_BossTroll": {
+        "SelfId": "UNIT_NPCTYPE_BossTroll",
+        "PopopoSeId": "SYSSE_TALK_LOW",
+        "MoveSpeed": "ENpcMoveSpeed::LITTLE_FAST",
+        "MoveWait": "ENpcMoveWaitTime::LITTLE_SHORT",
+        "DefaultNpcNameId": "Txt_NPC_Name_BossTroll"
+      },
+      "UNIT_NPCTYPE_Baramos": {
+        "SelfId": "UNIT_NPCTYPE_Baramos",
+        "PopopoSeId": "SYSSE_TALK_LOW",
+        "MoveSpeed": "ENpcMoveSpeed::LITTLE_FAST",
+        "MoveWait": "ENpcMoveWaitTime::LITTLE_SHORT",
+        "DefaultNpcNameId": "Txt_NPC_Name_Baramos"
+      },
+      "UNIT_NPCTYPE_BaramosBros": {
+        "SelfId": "UNIT_NPCTYPE_BaramosBros",
+        "PopopoSeId": "SYSSE_TALK_LOW",
+        "MoveSpeed": "ENpcMoveSpeed::LITTLE_FAST",
+        "MoveWait": "ENpcMoveWaitTime::LITTLE_SHORT",
+        "DefaultNpcNameId": "Txt_NPC_Name_BaramosBros"
+      },
+      "UNIT_NPCTYPE_BaramosZombie": {
+        "SelfId": "UNIT_NPCTYPE_BaramosZombie",
+        "PopopoSeId": "SYSSE_TALK_LOW",
+        "MoveSpeed": "ENpcMoveSpeed::LITTLE_FAST",
+        "MoveWait": "ENpcMoveWaitTime::LITTLE_SHORT",
+        "DefaultNpcNameId": "Txt_NPC_Name_BaramosZombie"
+      },
+      "UNIT_NPCTYPE_Zoma": {
+        "SelfId": "UNIT_NPCTYPE_Zoma",
+        "PopopoSeId": "SYSSE_TALK_LOW",
+        "MoveSpeed": "ENpcMoveSpeed::LITTLE_FAST",
+        "MoveWait": "ENpcMoveWaitTime::LITTLE_SHORT",
+        "DefaultNpcNameId": "Txt_NPC_Name_Zoma"
+      },
+      "UNIT_NPCTYPE_Xenlon": {
+        "SelfId": "UNIT_NPCTYPE_Xenlon",
+        "PopopoSeId": "SYSSE_TALK_LOW",
+        "MoveSpeed": "ENpcMoveSpeed::LITTLE_FAST",
+        "MoveWait": "ENpcMoveWaitTime::LITTLE_SHORT",
+        "DefaultNpcNameId": "Txt_NPC_Name_Xenlon"
+      },
+      "UNIT_NPCTYPE_Soo_Boy": {
+        "SelfId": "UNIT_NPCTYPE_Soo_Boy",
+        "PopopoSeId": "SYSSE_TALK_HIGH",
+        "MoveSpeed": "ENpcMoveSpeed::LITTLE_FAST",
+        "MoveWait": "ENpcMoveWaitTime::LITTLE_SHORT",
+        "DefaultNpcNameId": "Txt_NPC_Name_Boy"
+      },
+      "UNIT_NPCTYPE_Soo_Small_Man": {
+        "SelfId": "UNIT_NPCTYPE_Soo_Small_Man",
+        "PopopoSeId": "SYSSE_TALK_MIDDLE",
+        "MoveSpeed": "ENpcMoveSpeed::LITTLE_FAST",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_Man"
+      },
+      "UNIT_NPCTYPE_Soo_Big_Man": {
+        "SelfId": "UNIT_NPCTYPE_Soo_Big_Man",
+        "PopopoSeId": "SYSSE_TALK_MIDDLE",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::LITTLE_LONG",
+        "DefaultNpcNameId": "Txt_NPC_Name_Uncle"
+      },
+      "UNIT_NPCTYPE_Soo_Old_Man": {
+        "SelfId": "UNIT_NPCTYPE_Soo_Old_Man",
+        "PopopoSeId": "SYSSE_TALK_MIDDLE",
+        "MoveSpeed": "ENpcMoveSpeed::SLOW",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_OldMan"
+      },
+      "UNIT_NPCTYPE_Soo_Girl": {
+        "SelfId": "UNIT_NPCTYPE_Soo_Girl",
+        "PopopoSeId": "SYSSE_TALK_HIGH",
+        "MoveSpeed": "ENpcMoveSpeed::LITTLE_FAST",
+        "MoveWait": "ENpcMoveWaitTime::LITTLE_SHORT",
+        "DefaultNpcNameId": "Txt_NPC_Name_Girl"
+      },
+      "UNIT_NPCTYPE_Soo_Small_Lady": {
+        "SelfId": "UNIT_NPCTYPE_Soo_Small_Lady",
+        "PopopoSeId": "SYSSE_TALK_HIGH",
+        "MoveSpeed": "ENpcMoveSpeed::LITTLE_FAST",
+        "MoveWait": "ENpcMoveWaitTime::LITTLE_SHORT",
+        "DefaultNpcNameId": "Txt_NPC_Name_Woman"
+      },
+      "UNIT_NPCTYPE_Soo_Big_Lady": {
+        "SelfId": "UNIT_NPCTYPE_Soo_Big_Lady",
+        "PopopoSeId": "SYSSE_TALK_MIDDLE",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::LITTLE_LONG",
+        "DefaultNpcNameId": "Txt_NPC_Name_Aunt"
+      },
+      "UNIT_NPCTYPE_Soo_Old_Woman": {
+        "SelfId": "UNIT_NPCTYPE_Soo_Old_Woman",
+        "PopopoSeId": "SYSSE_TALK_MIDDLE",
+        "MoveSpeed": "ENpcMoveSpeed::LITTLE_SLOW",
+        "MoveWait": "ENpcMoveWaitTime::LONG",
+        "DefaultNpcNameId": "Txt_NPC_Name_Old_Woman"
+      },
+      "UNIT_NPCTYPE_Soo_Merchant": {
+        "SelfId": "UNIT_NPCTYPE_Soo_Merchant",
+        "PopopoSeId": "SYSSE_TALK_MIDDLE",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_Merchant"
+      },
+      "UNIT_NPCTYPE_Jipang_Boy": {
+        "SelfId": "UNIT_NPCTYPE_Jipang_Boy",
+        "PopopoSeId": "SYSSE_TALK_HIGH",
+        "MoveSpeed": "ENpcMoveSpeed::LITTLE_FAST",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_Boy"
+      },
+      "UNIT_NPCTYPE_Jipang_Man": {
+        "SelfId": "UNIT_NPCTYPE_Jipang_Man",
+        "PopopoSeId": "SYSSE_TALK_MIDDLE",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::LITTLE_LONG",
+        "DefaultNpcNameId": "Txt_NPC_Name_Man"
+      },
+      "UNIT_NPCTYPE_Jipang_Uncle": {
+        "SelfId": "UNIT_NPCTYPE_Jipang_Uncle",
+        "PopopoSeId": "SYSSE_TALK_MIDDLE",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::LITTLE_LONG",
+        "DefaultNpcNameId": "Txt_NPC_Name_Uncle"
+      },
+      "UNIT_NPCTYPE_Jipang_Old_Man": {
+        "SelfId": "UNIT_NPCTYPE_Jipang_Old_Man",
+        "PopopoSeId": "SYSSE_TALK_MIDDLE",
+        "MoveSpeed": "ENpcMoveSpeed::SLOW",
+        "MoveWait": "ENpcMoveWaitTime::LONG",
+        "DefaultNpcNameId": "Txt_NPC_Name_OldMan"
+      },
+      "UNIT_NPCTYPE_Jipang_Girl": {
+        "SelfId": "UNIT_NPCTYPE_Jipang_Girl",
+        "PopopoSeId": "SYSSE_TALK_HIGH",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::LITTLE_LONG",
+        "DefaultNpcNameId": "Txt_NPC_Name_Girl"
+      },
+      "UNIT_NPCTYPE_Jipang_Lady": {
+        "SelfId": "UNIT_NPCTYPE_Jipang_Lady",
+        "PopopoSeId": "SYSSE_TALK_HIGH",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::LITTLE_LONG",
+        "DefaultNpcNameId": "Txt_NPC_Name_Woman_03"
+      },
+      "UNIT_NPCTYPE_Jipang_Aunt": {
+        "SelfId": "UNIT_NPCTYPE_Jipang_Aunt",
+        "PopopoSeId": "SYSSE_TALK_MIDDLE",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::LITTLE_LONG",
+        "DefaultNpcNameId": "Txt_NPC_Name_Aunt"
+      },
+      "UNIT_NPCTYPE_Jipang_Old_Woman": {
+        "SelfId": "UNIT_NPCTYPE_Jipang_Old_Woman",
+        "PopopoSeId": "SYSSE_TALK_MIDDLE",
+        "MoveSpeed": "ENpcMoveSpeed::LITTLE_SLOW",
+        "MoveWait": "ENpcMoveWaitTime::LONG",
+        "DefaultNpcNameId": "Txt_NPC_Name_Old_Woman"
+      },
+      "UNIT_NPCTYPE_Mayor_Noaniel": {
+        "SelfId": "UNIT_NPCTYPE_Mayor_Noaniel",
+        "PopopoSeId": "SYSSE_TALK_MIDDLE",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_Minister_Rich"
+      },
+      "UNIT_NPCTYPE_King_Troll": {
+        "SelfId": "UNIT_NPCTYPE_King_Troll",
+        "PopopoSeId": "SYSSE_TALK_LOW",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_King"
+      },
+      "UNIT_NPCTYPE_Onsen_Man": {
+        "SelfId": "UNIT_NPCTYPE_Onsen_Man",
+        "PopopoSeId": "SYSSE_TALK_MIDDLE",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_OldMan"
+      },
+      "UNIT_NPCTYPE_Coffin": {
+        "SelfId": "UNIT_NPCTYPE_Coffin",
+        "PopopoSeId": "SYSSE_TALK_MIDDLE",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "None"
+      },
+      "UNIT_NPCTYPE_Miss_Bathing": {
+        "SelfId": "UNIT_NPCTYPE_Miss_Bathing",
+        "PopopoSeId": "SYSSE_TALK_HIGH",
+        "MoveSpeed": "ENpcMoveSpeed::NORMAL",
+        "MoveWait": "ENpcMoveWaitTime::NORMAL",
+        "DefaultNpcNameId": "Txt_NPC_Name_Miss"
+      }
+    }
+  }
+]

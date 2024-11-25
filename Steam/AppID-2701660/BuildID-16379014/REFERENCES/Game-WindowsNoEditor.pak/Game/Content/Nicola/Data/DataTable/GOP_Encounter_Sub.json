@@ -1,0 +1,781 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Encounter_Sub",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Encounter_Area_SubTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "ENCOUNTER_AREA_SUB_DUMMY_ALIAHAN0_1": {
+        "SelfId": "ENCOUNTER_AREA_SUB_DUMMY_ALIAHAN0_1",
+        "X0": -59527.0,
+        "Y0": 23763.0,
+        "X1": -63750.0,
+        "Y1": 34000.0,
+        "Priority": 1,
+        "AreaID": "ENCOUNTER_AREA_UPPER_GROUND_ALIAHAN_0"
+      },
+      "ENCOUNTER_AREA_SUB_DUMMY_ALIAHAN0_2": {
+        "SelfId": "ENCOUNTER_AREA_SUB_DUMMY_ALIAHAN0_2",
+        "X0": -67480.0,
+        "Y0": 37353.0,
+        "X1": -73805.0,
+        "Y1": 39700.0,
+        "Priority": 1,
+        "AreaID": "ENCOUNTER_AREA_UPPER_GROUND_ALIAHAN_0"
+      },
+      "ENCOUNTER_AREA_SUB_DUMMY_ALIAHAN1_1": {
+        "SelfId": "ENCOUNTER_AREA_SUB_DUMMY_ALIAHAN1_1",
+        "X0": -72500.0,
+        "Y0": 22500.0,
+        "X1": -77500.0,
+        "Y1": 28000.0,
+        "Priority": 1,
+        "AreaID": "ENCOUNTER_AREA_UPPER_GROUND_ALIAHAN_1"
+      },
+      "ENCOUNTER_AREA_SUB_DUMMY_ALIAHAN3_1": {
+        "SelfId": "ENCOUNTER_AREA_SUB_DUMMY_ALIAHAN3_1",
+        "X0": -62500.0,
+        "Y0": 36500.0,
+        "X1": -64412.0,
+        "Y1": 37965.0,
+        "Priority": 1,
+        "AreaID": "ENCOUNTER_AREA_UPPER_GROUND_ALIAHAN_3"
+      },
+      "ENCOUNTER_AREA_SUB_EDINBEAR_1": {
+        "SelfId": "ENCOUNTER_AREA_SUB_EDINBEAR_1",
+        "X0": 63335.0,
+        "Y0": -88827.5,
+        "X1": 61785.0,
+        "Y1": -83347.02,
+        "Priority": 1,
+        "AreaID": "ENCOUNTER_AREA_EDINBEAR_0"
+      },
+      "ENCOUNTER_AREA_SUB_NOANIEL_1": {
+        "SelfId": "ENCOUNTER_AREA_SUB_NOANIEL_1",
+        "X0": 76015.0,
+        "Y0": -77507.5,
+        "X1": 73565.0,
+        "Y1": -72027.02,
+        "Priority": 1,
+        "AreaID": "ENCOUNTER_AREA_NOANIEL_0_0"
+      },
+      "ENCOUNTER_AREA_SUB_NOANIEL_2": {
+        "SelfId": "ENCOUNTER_AREA_SUB_NOANIEL_2",
+        "X0": 75770.0,
+        "Y0": -25250.0,
+        "X1": 73820.0,
+        "Y1": -22490.0,
+        "Priority": 1,
+        "AreaID": "ENCOUNTER_AREA_NOANIEL_0_0"
+      },
+      "ENCOUNTER_AREA_SUB_ROMARIA_1": {
+        "SelfId": "ENCOUNTER_AREA_SUB_ROMARIA_1",
+        "X0": 37982.5,
+        "Y0": -64615.0,
+        "X1": 27157.5,
+        "Y1": -61962.348,
+        "Priority": 1,
+        "AreaID": "ENCOUNTER_AREA_ROMARIA_0"
+      },
+      "ENCOUNTER_AREA_SUB_ROMARIA_2": {
+        "SelfId": "ENCOUNTER_AREA_SUB_ROMARIA_2",
+        "X0": 38080.0,
+        "Y0": -51252.5,
+        "X1": 32980.0,
+        "Y1": -45721.97,
+        "Priority": 1,
+        "AreaID": "ENCOUNTER_AREA_ROMARIA_0"
+      },
+      "ENCOUNTER_AREA_SUB_ROMARIA_3": {
+        "SelfId": "ENCOUNTER_AREA_SUB_ROMARIA_3",
+        "X0": 37860.0,
+        "Y0": -83595.0,
+        "X1": 37360.0,
+        "Y1": -82145.0,
+        "Priority": 1,
+        "AreaID": "ENCOUNTER_AREA_ROMARIA_1_0"
+      },
+      "ENCOUNTER_AREA_SUB_ROMARIA_4": {
+        "SelfId": "ENCOUNTER_AREA_SUB_ROMARIA_4",
+        "X0": 63090.0,
+        "Y0": -37930.0,
+        "X1": 62360.0,
+        "Y1": -37460.0,
+        "Priority": 1,
+        "AreaID": "ENCOUNTER_AREA_ROMARIA_1_0"
+      },
+      "ENCOUNTER_AREA_SUB_ISIS_1_1": {
+        "SelfId": "ENCOUNTER_AREA_SUB_ISIS_1_1",
+        "X0": 43367.5,
+        "Y0": -75955.0,
+        "X1": 37592.5,
+        "Y1": -71205.0,
+        "Priority": 1,
+        "AreaID": "ENCOUNTER_AREA_ISIS_1"
+      },
+      "ENCOUNTER_AREA_SUB_ISIS_1_2": {
+        "SelfId": "ENCOUNTER_AREA_SUB_ISIS_1_2",
+        "X0": 41977.5,
+        "Y0": -77147.5,
+        "X1": 39602.5,
+        "Y1": -75772.5,
+        "Priority": 1,
+        "AreaID": "ENCOUNTER_AREA_ISIS_1"
+      },
+      "ENCOUNTER_AREA_SUB_ISIS_1_3": {
+        "SelfId": "ENCOUNTER_AREA_SUB_ISIS_1_3",
+        "X0": 39887.5,
+        "Y0": -80237.5,
+        "X1": 37612.5,
+        "Y1": -75662.5,
+        "Priority": 1,
+        "AreaID": "ENCOUNTER_AREA_ISIS_1"
+      },
+      "ENCOUNTER_AREA_SUB_ISIS_1_4": {
+        "SelfId": "ENCOUNTER_AREA_SUB_ISIS_1_4",
+        "X0": 41127.5,
+        "Y0": -79090.0,
+        "X1": 39752.5,
+        "Y1": -77117.5,
+        "Priority": 1,
+        "AreaID": "ENCOUNTER_AREA_ISIS_1"
+      },
+      "ENCOUNTER_AREA_SUB_YGGDRASILL_1": {
+        "SelfId": "ENCOUNTER_AREA_SUB_YGGDRASILL_1",
+        "X0": 51242.766,
+        "Y0": -39350.0,
+        "X1": 44577.234,
+        "Y1": -27400.0,
+        "Priority": 1,
+        "AreaID": "ENCOUNTER_AREA_YGGDRASILL_2"
+      },
+      "ENCOUNTER_AREA_SUB_YGGDRASILL_2": {
+        "SelfId": "ENCOUNTER_AREA_SUB_YGGDRASILL_2",
+        "X0": 56900.0,
+        "Y0": -39900.0,
+        "X1": 51000.0,
+        "Y1": -37700.0,
+        "Priority": 1,
+        "AreaID": "ENCOUNTER_AREA_YGGDRASILL_2"
+      },
+      "ENCOUNTER_AREA_SUB_YGGDRASILL_4": {
+        "SelfId": "ENCOUNTER_AREA_SUB_YGGDRASILL_4",
+        "X0": 65100.0,
+        "Y0": -35750.0,
+        "X1": 62574.113,
+        "Y1": -30617.844,
+        "Priority": 1,
+        "AreaID": "ENCOUNTER_AREA_YGGDRASILL_2"
+      },
+      "ENCOUNTER_AREA_SUB_YGGDRASILL_5": {
+        "SelfId": "ENCOUNTER_AREA_SUB_YGGDRASILL_5",
+        "X0": 68000.0,
+        "Y0": -33500.0,
+        "X1": 64724.113,
+        "Y1": -31451.516,
+        "Priority": 1,
+        "AreaID": "ENCOUNTER_AREA_YGGDRASILL_2"
+      },
+      "ENCOUNTER_AREA_SUB_YGGDRASILL_6": {
+        "SelfId": "ENCOUNTER_AREA_SUB_YGGDRASILL_6",
+        "X0": 71272.0,
+        "Y0": -31450.0,
+        "X1": 62650.42,
+        "Y1": -25012.2,
+        "Priority": 1,
+        "AreaID": "ENCOUNTER_AREA_YGGDRASILL_2"
+      },
+      "ENCOUNTER_AREA_SUB_YGGDRASILL_7": {
+        "SelfId": "ENCOUNTER_AREA_SUB_YGGDRASILL_7",
+        "X0": 82849.375,
+        "Y0": -20350.0,
+        "X1": 74910.64,
+        "Y1": -12004.298,
+        "Priority": 1,
+        "AreaID": "ENCOUNTER_AREA_YGGDRASILL_0"
+      },
+      "ENCOUNTER_AREA_SUB_YGGDRASILL_8": {
+        "SelfId": "ENCOUNTER_AREA_SUB_YGGDRASILL_8",
+        "X0": 38767.824,
+        "Y0": -19905.703,
+        "X1": 25112.203,
+        "Y1": -12174.298,
+        "Priority": 1,
+        "AreaID": "ENCOUNTER_AREA_YGGDRASILL_1"
+      },
+      "ENCOUNTER_AREA_SUB_DHARMA_0": {
+        "SelfId": "ENCOUNTER_AREA_SUB_DHARMA_0",
+        "X0": 29280.0,
+        "Y0": -20228.65,
+        "X1": 24611.986,
+        "Y1": -15960.0,
+        "Priority": 2,
+        "AreaID": "ENCOUNTER_AREA_DHARMA_0"
+      },
+      "ENCOUNTER_AREA_SUB_YGGDRASILL_9": {
+        "SelfId": "ENCOUNTER_AREA_SUB_YGGDRASILL_9",
+        "X0": 25618.803,
+        "Y0": -13100.618,
+        "X1": 20401.207,
+        "Y1": 460.6167,
+        "Priority": 1,
+        "AreaID": "ENCOUNTER_AREA_YGGDRASILL_1"
+      },
+      "ENCOUNTER_AREA_SUB_GARUNA_0": {
+        "SelfId": "ENCOUNTER_AREA_SUB_GARUNA_0",
+        "X0": 17310.0,
+        "Y0": -506.5133,
+        "X1": 10561.207,
+        "Y1": 3146.5132,
+        "Priority": 1,
+        "AreaID": "ENCOUNTER_AREA_BAHARATA_3"
+      },
+      "ENCOUNTER_AREA_SUB_MUOR_0": {
+        "SelfId": "ENCOUNTER_AREA_SUB_MUOR_0",
+        "X0": 15007.921,
+        "Y0": 5449.4424,
+        "X1": 12411.605,
+        "Y1": 12831.0,
+        "Priority": 1,
+        "AreaID": "ENCOUNTER_AREA_MUOR_0"
+      },
+      "ENCOUNTER_AREA_SUB_MUOR_1": {
+        "SelfId": "ENCOUNTER_AREA_SUB_MUOR_1",
+        "X0": 17267.922,
+        "Y0": 11269.337,
+        "X1": 14671.605,
+        "Y1": 12870.663,
+        "Priority": 1,
+        "AreaID": "ENCOUNTER_AREA_MUOR_0"
+      },
+      "ENCOUNTER_AREA_SUB_DHARMA_1": {
+        "SelfId": "ENCOUNTER_AREA_SUB_DHARMA_1",
+        "X0": 20120.0,
+        "Y0": -12996.514,
+        "X1": -770.0,
+        "Y1": -9343.486,
+        "Priority": 1,
+        "AreaID": "ENCOUNTER_AREA_DHARMA_1"
+      },
+      "ENCOUNTER_AREA_SUB_DHARMA_2": {
+        "SelfId": "ENCOUNTER_AREA_SUB_DHARMA_2",
+        "X0": 8047.5005,
+        "Y0": -32712.5,
+        "X1": -527.5005,
+        "Y1": -25027.5,
+        "Priority": 1,
+        "AreaID": "ENCOUNTER_AREA_DHARMA_1"
+      },
+      "ENCOUNTER_AREA_SUB_YGGDRASILL_10": {
+        "SelfId": "ENCOUNTER_AREA_SUB_YGGDRASILL_10",
+        "X0": 37243.426,
+        "Y0": 12567.886,
+        "X1": 24436.6,
+        "Y1": 17672.0,
+        "Priority": 1,
+        "AreaID": "ENCOUNTER_AREA_YGGDRASILL_0"
+      },
+      "ENCOUNTER_AREA_SUB_YGGDRASILL_11": {
+        "SelfId": "ENCOUNTER_AREA_SUB_YGGDRASILL_11",
+        "X0": 39782.5,
+        "Y0": 12485.0,
+        "X1": 37357.5,
+        "Y1": 13935.0,
+        "Priority": 1,
+        "AreaID": "ENCOUNTER_AREA_YGGDRASILL_0"
+      },
+      "ENCOUNTER_AREA_SUB_BAHARATA_0": {
+        "SelfId": "ENCOUNTER_AREA_SUB_BAHARATA_0",
+        "X0": 2307.9219,
+        "Y0": -330.6631,
+        "X1": -288.39453,
+        "Y1": 1270.6631,
+        "Priority": 1,
+        "AreaID": "ENCOUNTER_AREA_BAHARATA_2"
+      },
+      "ENCOUNTER_AREA_SUB_JIPANG_0": {
+        "SelfId": "ENCOUNTER_AREA_SUB_JIPANG_0",
+        "X0": -7863.3145,
+        "Y0": 22900.0,
+        "X1": -12815.0,
+        "Y1": 27759.438,
+        "Priority": 1,
+        "AreaID": "ENCOUNTER_AREA_JIPANG_0"
+      },
+      "ENCOUNTER_AREA_SUB_MUOR_2": {
+        "SelfId": "ENCOUNTER_AREA_SUB_MUOR_2",
+        "X0": -12468.941,
+        "Y0": 17446.412,
+        "X1": -13068.091,
+        "Y1": 20073.588,
+        "Priority": 1,
+        "AreaID": "ENCOUNTER_AREA_MUOR_0"
+      },
+      "ENCOUNTER_AREA_SUB_MUOR_3": {
+        "SelfId": "ENCOUNTER_AREA_SUB_MUOR_3",
+        "X0": -12286.432,
+        "Y0": 12306.412,
+        "X1": -14175.0,
+        "Y1": 14933.588,
+        "Priority": 1,
+        "AreaID": "ENCOUNTER_AREA_MUOR_0"
+      },
+      "ENCOUNTER_AREA_SUB_ASHALAM_0": {
+        "SelfId": "ENCOUNTER_AREA_SUB_ASHALAM_0",
+        "X0": 312.76562,
+        "Y0": -38244.293,
+        "X1": -7000.0,
+        "Y1": -33915.707,
+        "Priority": 1,
+        "AreaID": "ENCOUNTER_AREA_ASHALAM_0"
+      },
+      "ENCOUNTER_AREA_SUB_ASHALAM_1": {
+        "SelfId": "ENCOUNTER_AREA_SUB_ASHALAM_1",
+        "X0": 40650.0,
+        "Y0": -44822.5,
+        "X1": 37550.0,
+        "Y1": -37535.105,
+        "Priority": 1,
+        "AreaID": "ENCOUNTER_AREA_ASHALAM_0"
+      },
+      "ENCOUNTER_AREA_SUB_ASHALAM_2_1": {
+        "SelfId": "ENCOUNTER_AREA_SUB_ASHALAM_2_1",
+        "X0": 35620.0,
+        "Y0": -38427.5,
+        "X1": 26420.0,
+        "Y1": -35952.5,
+        "Priority": 1,
+        "AreaID": "ENCOUNTER_AREA_ASHALAM_0"
+      },
+      "ENCOUNTER_AREA_SUB_ASHALAM_2_2": {
+        "SelfId": "ENCOUNTER_AREA_SUB_ASHALAM_2_2",
+        "X0": 29077.5,
+        "Y0": -38320.0,
+        "X1": 24902.5,
+        "Y1": -32120.0,
+        "Priority": 1,
+        "AreaID": "ENCOUNTER_AREA_ASHALAM_0"
+      },
+      "ENCOUNTER_AREA_SUB_TEDON_0": {
+        "SelfId": "ENCOUNTER_AREA_SUB_TEDON_0",
+        "X0": 8007.7295,
+        "Y0": -88437.42,
+        "X1": -12787.7295,
+        "Y1": -81925.0,
+        "Priority": 1,
+        "AreaID": "ENCOUNTER_AREA_TEDON_0"
+      },
+      "ENCOUNTER_AREA_SUB_TEDON_1": {
+        "SelfId": "ENCOUNTER_AREA_SUB_TEDON_1",
+        "X0": -8235.0,
+        "Y0": -83171.945,
+        "X1": -12779.716,
+        "Y1": -78468.055,
+        "Priority": 1,
+        "AreaID": "ENCOUNTER_AREA_TEDON_0"
+      },
+      "ENCOUNTER_AREA_SUB_TEDON_2": {
+        "SelfId": "ENCOUNTER_AREA_SUB_TEDON_2",
+        "X0": -19375.0,
+        "Y0": -75893.35,
+        "X1": -26127.305,
+        "Y1": -67786.65,
+        "Priority": 1,
+        "AreaID": "ENCOUNTER_AREA_TEDON_0"
+      },
+      "ENCOUNTER_AREA_SUB_TEDON_5": {
+        "SelfId": "ENCOUNTER_AREA_SUB_TEDON_5",
+        "X0": -17415.0,
+        "Y0": -75750.0,
+        "X1": -19470.0,
+        "Y1": -74245.0,
+        "Priority": 1,
+        "AreaID": "ENCOUNTER_AREA_TEDON_0"
+      },
+      "ENCOUNTER_AREA_SUB_TEDON_3": {
+        "SelfId": "ENCOUNTER_AREA_SUB_TEDON_3",
+        "X0": -22800.0,
+        "Y0": -67900.0,
+        "X1": -25500.0,
+        "Y1": -65450.0,
+        "Priority": 1,
+        "AreaID": "ENCOUNTER_AREA_TEDON_0"
+      },
+      "ENCOUNTER_AREA_SUB_NECROGOND_0": {
+        "SelfId": "ENCOUNTER_AREA_SUB_NECROGOND_0",
+        "X0": -49766.453,
+        "Y0": -60656.773,
+        "X1": -51813.547,
+        "Y1": -50323.227,
+        "Priority": 1,
+        "AreaID": "ENCOUNTER_AREA_NECROGOND_0"
+      },
+      "ENCOUNTER_AREA_SUB_TEDON_4": {
+        "SelfId": "ENCOUNTER_AREA_SUB_TEDON_4",
+        "X0": -45373.688,
+        "Y0": -47830.0,
+        "X1": -52090.0,
+        "Y1": -42030.44,
+        "Priority": 1,
+        "AreaID": "ENCOUNTER_AREA_TEDON_1"
+      },
+      "ENCOUNTER_AREA_SUB_GAIA_0": {
+        "SelfId": "ENCOUNTER_AREA_SUB_GAIA_0",
+        "X0": -66125.0,
+        "Y0": -23775.0,
+        "X1": -71055.0,
+        "Y1": -14278.538,
+        "Priority": 1,
+        "AreaID": "ENCOUNTER_AREA_GAIA_0"
+      },
+      "ENCOUNTER_AREA_SUB_LANCEL_0": {
+        "SelfId": "ENCOUNTER_AREA_SUB_LANCEL_0",
+        "X0": -70310.0,
+        "Y0": -16830.0,
+        "X1": -71090.0,
+        "Y1": -14265.0,
+        "Priority": 2,
+        "AreaID": "ENCOUNTER_AREA_LANCEL_0"
+      },
+      "ENCOUNTER_AREA_SUB_LANCEL_1": {
+        "SelfId": "ENCOUNTER_AREA_SUB_LANCEL_1",
+        "X0": -66100.0,
+        "Y0": -23815.0,
+        "X1": -67575.0,
+        "Y1": -22520.0,
+        "Priority": 2,
+        "AreaID": "ENCOUNTER_AREA_LANCEL_0"
+      },
+      "ENCOUNTER_AREA_SUB_LANCEL_2": {
+        "SelfId": "ENCOUNTER_AREA_SUB_LANCEL_2",
+        "X0": -66100.0,
+        "Y0": -23815.0,
+        "X1": -66433.0,
+        "Y1": -22230.0,
+        "Priority": 2,
+        "AreaID": "ENCOUNTER_AREA_LANCEL_0"
+      },
+      "ENCOUNTER_AREA_SUB_LANCEL_3": {
+        "SelfId": "ENCOUNTER_AREA_SUB_LANCEL_3",
+        "X0": -70153.0,
+        "Y0": -23850.0,
+        "X1": -71178.0,
+        "Y1": -22785.0,
+        "Priority": 2,
+        "AreaID": "ENCOUNTER_AREA_LANCEL_0"
+      },
+      "ENCOUNTER_AREA_SUB_LANCEL_4": {
+        "SelfId": "ENCOUNTER_AREA_SUB_LANCEL_4",
+        "X0": -66103.0,
+        "Y0": -16405.0,
+        "X1": -67973.0,
+        "Y1": -14220.0,
+        "Priority": 2,
+        "AreaID": "ENCOUNTER_AREA_LANCEL_0"
+      },
+      "ENCOUNTER_AREA_SUB_GAIA_1": {
+        "SelfId": "ENCOUNTER_AREA_SUB_GAIA_1",
+        "X0": -67243.0,
+        "Y0": -16465.0,
+        "X1": -67993.0,
+        "Y1": -15285.0,
+        "Priority": 3,
+        "AreaID": "ENCOUNTER_AREA_GAIA_0"
+      },
+      "ENCOUNTER_AREA_SUB_SOO_0": {
+        "SelfId": "ENCOUNTER_AREA_SUB_SOO_0",
+        "X0": 38694.13,
+        "Y0": 29038.654,
+        "X1": 30405.889,
+        "Y1": 38321.137,
+        "Priority": 1,
+        "AreaID": "ENCOUNTER_AREA_SOO_3_0"
+      },
+      "ENCOUNTER_AREA_SUB_SOO_1": {
+        "SelfId": "ENCOUNTER_AREA_SUB_SOO_1",
+        "X0": 30591.852,
+        "Y0": 32470.064,
+        "X1": 26148.156,
+        "Y1": 38349.805,
+        "Priority": 1,
+        "AreaID": "ENCOUNTER_AREA_SOO_3_0"
+      },
+      "ENCOUNTER_AREA_SUB_YGGDRASILL_13": {
+        "SelfId": "ENCOUNTER_AREA_SUB_YGGDRASILL_13",
+        "X0": 46120.0,
+        "Y0": -40580.0,
+        "X1": 42600.0,
+        "Y1": -37040.0,
+        "Priority": 1,
+        "AreaID": "ENCOUNTER_AREA_YGGDRASILL_2"
+      },
+      "ENCOUNTER_AREA_SUB_YGGDRASILL_14": {
+        "SelfId": "ENCOUNTER_AREA_SUB_YGGDRASILL_14",
+        "X0": 87080.0,
+        "Y0": -15870.0,
+        "X1": 84080.0,
+        "Y1": -12370.0,
+        "Priority": 1,
+        "AreaID": "ENCOUNTER_AREA_YGGDRASILL_0"
+      },
+      "ENCOUNTER_AREA_SUB_YGGDRASILL_16": {
+        "SelfId": "ENCOUNTER_AREA_SUB_YGGDRASILL_16",
+        "X0": 25361.127,
+        "Y0": 12378.112,
+        "X1": 19361.127,
+        "Y1": 15378.112,
+        "Priority": 1,
+        "AreaID": "ENCOUNTER_AREA_YGGDRASILL_1"
+      },
+      "ENCOUNTER_AREA_SUB_MUOR_4": {
+        "SelfId": "ENCOUNTER_AREA_SUB_MUOR_4",
+        "X0": 22191.127,
+        "Y0": 14138.112,
+        "X1": 19191.127,
+        "Y1": 15638.112,
+        "Priority": 2,
+        "AreaID": "ENCOUNTER_AREA_MUOR_2"
+      },
+      "ENCOUNTER_AREA_SUB_ZOMA_0": {
+        "SelfId": "ENCOUNTER_AREA_SUB_ZOMA_0",
+        "X0": 933353.0,
+        "Y0": -11285.0,
+        "X1": 925402.0,
+        "Y1": 1239.0,
+        "Priority": 1,
+        "AreaID": "ENCOUNTER_AREA_ZOMA_0"
+      },
+      "ENCOUNTER_AREA_SUB_ZOMA_1": {
+        "SelfId": "ENCOUNTER_AREA_SUB_ZOMA_1",
+        "X0": 942625.0,
+        "Y0": -724.0,
+        "X1": 939718.0,
+        "Y1": 2874.0,
+        "Priority": 1,
+        "AreaID": "ENCOUNTER_AREA_ZOMA_0"
+      },
+      "ENCOUNTER_AREA_SUB_ZOMA_2": {
+        "SelfId": "ENCOUNTER_AREA_SUB_ZOMA_2",
+        "X0": 943844.0,
+        "Y0": -14067.0,
+        "X1": 926500.0,
+        "Y1": -11317.0,
+        "Priority": 1,
+        "AreaID": "ENCOUNTER_AREA_ZOMA_0"
+      },
+      "ENCOUNTER_AREA_SUB_LUDATORM_0": {
+        "SelfId": "ENCOUNTER_AREA_SUB_LUDATORM_0",
+        "X0": 926200.0,
+        "Y0": -12700.0,
+        "X1": 924950.0,
+        "Y1": -12150.0,
+        "Priority": 1,
+        "AreaID": "ENCOUNTER_AREA_LUDATORM_0"
+      },
+      "ENCOUNTER_AREA_SUB_DHARMA_4": {
+        "SelfId": "ENCOUNTER_AREA_SUB_DHARMA_4",
+        "X0": -4307.2344,
+        "Y0": -35420.0,
+        "X1": -7100.0,
+        "Y1": -33805.707,
+        "Priority": 2,
+        "AreaID": "ENCOUNTER_AREA_DHARMA_1"
+      },
+      "ENCOUNTER_AREA_SUB_ASHALAM_3": {
+        "SelfId": "ENCOUNTER_AREA_SUB_ASHALAM_3",
+        "X0": 36160.0,
+        "Y0": -47572.5,
+        "X1": 32892.766,
+        "Y1": -45634.293,
+        "Priority": 2,
+        "AreaID": "ENCOUNTER_AREA_ASHALAM_0"
+      },
+      "ENCOUNTER_AREA_SUB_ASHALAM_4": {
+        "SelfId": "ENCOUNTER_AREA_SUB_ASHALAM_4",
+        "X0": -14200.0,
+        "Y0": -50550.0,
+        "X1": -15200.0,
+        "Y1": -49950.0,
+        "Priority": 1,
+        "AreaID": "ENCOUNTER_AREA_ASHALAM_1"
+      },
+      "ENCOUNTER_AREA_SUB_ASHALAM_5": {
+        "SelfId": "ENCOUNTER_AREA_SUB_ASHALAM_5",
+        "X0": 162.50012,
+        "Y0": -44850.0,
+        "X1": -2462.5,
+        "Y1": -37450.0,
+        "Priority": 1,
+        "AreaID": "ENCOUNTER_AREA_ASHALAM_0"
+      },
+      "ENCOUNTER_AREA_SUB_ASHALAM_6": {
+        "SelfId": "ENCOUNTER_AREA_SUB_ASHALAM_6",
+        "X0": -2225.0,
+        "Y0": -41037.5,
+        "X1": -6175.0,
+        "Y1": -37462.5,
+        "Priority": 1,
+        "AreaID": "ENCOUNTER_AREA_ASHALAM_0"
+      },
+      "ENCOUNTER_AREA_SUB_SAMANOSA_1": {
+        "SelfId": "ENCOUNTER_AREA_SUB_SAMANOSA_1",
+        "X0": -35097.5,
+        "Y0": 61730.01,
+        "X1": -48122.5,
+        "Y1": 70930.0,
+        "Priority": 1,
+        "AreaID": "ENCOUNTER_AREA_SAMANOSA_1"
+      },
+      "ENCOUNTER_AREA_SUB_SOO_3": {
+        "SelfId": "ENCOUNTER_AREA_SUB_SOO_3",
+        "X0": 46290.0,
+        "Y0": 85140.0,
+        "X1": 37630.0,
+        "Y1": 88640.0,
+        "Priority": 1,
+        "AreaID": "ENCOUNTER_AREA_SOO_0_1"
+      },
+      "ENCOUNTER_AREA_SUB_NOANIEL_3": {
+        "SelfId": "ENCOUNTER_AREA_SUB_NOANIEL_3",
+        "X0": 84520.0,
+        "Y0": -81520.0,
+        "X1": 73700.0,
+        "Y1": -73470.0,
+        "Priority": 1,
+        "AreaID": "ENCOUNTER_AREA_NOANIEL_0_1"
+      },
+      "ENCOUNTER_AREA_SUB_NECROGOND_2": {
+        "SelfId": "ENCOUNTER_AREA_SUB_NECROGOND_2",
+        "X0": -8790.0,
+        "Y0": -46360.0,
+        "X1": -16190.0,
+        "Y1": -38560.0,
+        "Priority": 1,
+        "AreaID": "ENCOUNTER_AREA_NECROGOND_0"
+      },
+      "ENCOUNTER_AREA_SUB_SLIME_00": {
+        "SelfId": "ENCOUNTER_AREA_SUB_SLIME_00",
+        "X0": -62515.0,
+        "Y0": 15027.5,
+        "X1": -63615.0,
+        "Y1": 16352.5,
+        "Priority": 10,
+        "AreaID": "ENCOUNTER_AREA_SLIME_0"
+      },
+      "ENCOUNTER_AREA_SUB_SLIME_01": {
+        "SelfId": "ENCOUNTER_AREA_SUB_SLIME_01",
+        "X0": -63517.5,
+        "Y0": 15405.0,
+        "X1": -63792.5,
+        "Y1": 16455.0,
+        "Priority": 10,
+        "AreaID": "ENCOUNTER_AREA_SLIME_0"
+      },
+      "ENCOUNTER_AREA_SUB_SLIME_02": {
+        "SelfId": "ENCOUNTER_AREA_SUB_SLIME_02",
+        "X0": -62695.0,
+        "Y0": 16195.0,
+        "X1": -63545.0,
+        "Y1": 16595.0,
+        "Priority": 10,
+        "AreaID": "ENCOUNTER_AREA_SLIME_0"
+      },
+      "ENCOUNTER_AREA_SUB_SLIME_03": {
+        "SelfId": "ENCOUNTER_AREA_SUB_SLIME_03",
+        "X0": -63535.0,
+        "Y0": 16445.0,
+        "X1": -63695.0,
+        "Y1": 16590.0,
+        "Priority": 10,
+        "AreaID": "ENCOUNTER_AREA_SLIME_0"
+      },
+      "ENCOUNTER_AREA_SUB_SLIME_04": {
+        "SelfId": "ENCOUNTER_AREA_SUB_SLIME_04",
+        "X0": -62930.0,
+        "Y0": 16550.0,
+        "X1": -63420.0,
+        "Y1": 16720.0,
+        "Priority": 10,
+        "AreaID": "ENCOUNTER_AREA_SLIME_0"
+      },
+      "ENCOUNTER_AREA_SUB_SLIME_10": {
+        "SelfId": "ENCOUNTER_AREA_SUB_SLIME_10",
+        "X0": 26617.5,
+        "Y0": -8536.449,
+        "X1": 26393.824,
+        "Y1": -7813.551,
+        "Priority": 10,
+        "AreaID": "ENCOUNTER_AREA_SLIME_1"
+      },
+      "ENCOUNTER_AREA_SUB_SLIME_11": {
+        "SelfId": "ENCOUNTER_AREA_SUB_SLIME_11",
+        "X0": 25967.5,
+        "Y0": -6914.6377,
+        "X1": 25346.176,
+        "Y1": -6665.3623,
+        "Priority": 10,
+        "AreaID": "ENCOUNTER_AREA_SLIME_1"
+      },
+      "ENCOUNTER_AREA_SUB_SLIME_12": {
+        "SelfId": "ENCOUNTER_AREA_SUB_SLIME_12",
+        "X0": 26375.0,
+        "Y0": -7109.6377,
+        "X1": 25182.059,
+        "Y1": -6860.3623,
+        "Priority": 10,
+        "AreaID": "ENCOUNTER_AREA_SLIME_1"
+      },
+      "ENCOUNTER_AREA_SUB_SLIME_13": {
+        "SelfId": "ENCOUNTER_AREA_SUB_SLIME_13",
+        "X0": 25377.5,
+        "Y0": -8236.667,
+        "X1": 24905.293,
+        "Y1": -7663.3335,
+        "Priority": 10,
+        "AreaID": "ENCOUNTER_AREA_SLIME_1"
+      },
+      "ENCOUNTER_AREA_SUB_SLIME_14": {
+        "SelfId": "ENCOUNTER_AREA_SUB_SLIME_14",
+        "X0": 25647.5,
+        "Y0": -8462.0,
+        "X1": 25274.705,
+        "Y1": -7888.3335,
+        "Priority": 10,
+        "AreaID": "ENCOUNTER_AREA_SLIME_1"
+      },
+      "ENCOUNTER_AREA_SUB_SLIME_15": {
+        "SelfId": "ENCOUNTER_AREA_SUB_SLIME_15",
+        "X0": 25595.0,
+        "Y0": -7951.087,
+        "X1": 24750.0,
+        "Y1": -6978.913,
+        "Priority": 10,
+        "AreaID": "ENCOUNTER_AREA_SLIME_1"
+      },
+      "ENCOUNTER_AREA_SUB_SLIME_16": {
+        "SelfId": "ENCOUNTER_AREA_SUB_SLIME_16",
+        "X0": 26430.0,
+        "Y0": -8690.0,
+        "X1": 25585.0,
+        "Y1": -6970.0,
+        "Priority": 10,
+        "AreaID": "ENCOUNTER_AREA_SLIME_1"
+      },
+      "ENCOUNTER_AREA_SUB_SLIME_2": {
+        "SelfId": "ENCOUNTER_AREA_SUB_SLIME_2",
+        "X0": 981645.0,
+        "Y0": -25095.0,
+        "X1": 978890.0,
+        "Y1": -20055.0,
+        "Priority": 10,
+        "AreaID": "ENCOUNTER_AREA_SLIME_2"
+      }
+    }
+  }
+]

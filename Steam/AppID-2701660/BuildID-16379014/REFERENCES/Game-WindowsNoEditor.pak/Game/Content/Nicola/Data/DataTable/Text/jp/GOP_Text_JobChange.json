@@ -1,0 +1,120 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_JobChange",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_JobChange_UI_JobGuide": {
+        "SelfId": "Txt_JobChange_UI_JobGuide",
+        "Text": "職業を選択"
+      },
+      "Txt_JobChange_Message_Start": {
+        "SelfId": "Txt_JobChange_Message_Start",
+        "Text": "ここは　<RUBY>転職[てんしょく]をつかさどる\r\nダーマの<RUBY>神殿[しんでん]。<RUBY>職業[しょくぎょう]を　かえたい<RUBY>者[もの]が\r\n<RUBY>来[く]るところじゃ。<KEY_WAIT>\r\n<RUBY>転職[てんしょく]を　ごきぼうか？\r\n\r\n"
+      },
+      "Txt_JobChange_Message_Reject": {
+        "SelfId": "Txt_JobChange_Message_Reject",
+        "Text": "そうか。<RUBY>転職[てんしょく]を　せぬのじゃな？\r\nまあ　それも　よかろう。"
+      },
+      "Txt_JobChange_Message_CharaSelect": {
+        "SelfId": "Txt_JobChange_Message_CharaSelect",
+        "Text": "どなたの　<RUBY>職業[しょくぎょう]を\r\nかえたいのじゃ？"
+      },
+      "Txt_JobChange_Message_Error_Death": {
+        "SelfId": "Txt_JobChange_Message_Error_Death",
+        "Text": "たわけが！　{ACTOR}は\r\nいま　<RUBY>死[し]んでおるでは　ないか！<KEY_WAIT>\r\nいくら　わしでも<RUBY>死[し]んでおる<RUBY>者[もの]を\r\n<RUBY>転職[てんしょく]させることは　できんぞ。\r\n"
+      },
+      "Txt_JobChange_Message_Error_Hero": {
+        "SelfId": "Txt_JobChange_Message_Error_Hero",
+        "Text": "おろか<RUBY>者[もの]め！\r\n<RUBY>勇者[ゆうしゃ]を　やめたいというのか？\r\nそれだけは　ならんっ！"
+      },
+      "Txt_JobChange_Message_Error_LV": {
+        "SelfId": "Txt_JobChange_Message_Error_LV",
+        "Text": "なんと　{ACTOR}は\r\nまだ　<RUBY>一人前[いちにんまえ]の　{WORD}に\r\nなっていないというに……。<KEY_WAIT>\r\n<RUBY>未熟者[みじゅくもの]の<RUBY>分際[ぶんざい]で　もう\r\n<RUBY>職[しょく]をかえたいとは　なにごとじゃ！"
+      },
+      "Txt_JobChange_Message_JobSelect": {
+        "SelfId": "Txt_JobChange_Message_JobSelect",
+        "Text": "{ACTOR}が　なりたいのは\r\nどの　<RUBY>職業[しょくぎょう]じゃな？"
+      },
+      "Txt_JobChange_Message_JocConfirm": {
+        "SelfId": "Txt_JobChange_Message_JocConfirm",
+        "Text": "{ACTOR}は　{WORD}に\r\nなりたいと　<RUBY>申[もう]すか？"
+      },
+      "Txt_JobChange_Message_JocDuplication": {
+        "SelfId": "Txt_JobChange_Message_JocDuplication",
+        "Text": "うん？　しかし　{ACTOR}は\r\nもう　それに　なっているぞ。"
+      },
+      "Txt_JobChange_Message_JobChangeConfirm": {
+        "SelfId": "Txt_JobChange_Message_JobChangeConfirm",
+        "Text": "いちど　レベル１にもどり\r\n<RUBY>修行[しゅぎょう]をしなおす<RUBY>覚悟[かくご]も\r\nおありじゃな？"
+      },
+      "Txt_JobChange_Message_JobChangeStart": {
+        "SelfId": "Txt_JobChange_Message_JobChangeStart",
+        "Text": "おお　<RUBY>神[かみ]よ　{ACTOR}が\r\n<RUBY>新[あら]たな<RUBY>職[しょく]につくことを　なにとぞ\r\nお<RUBY>許[ゆる]しください！"
+      },
+      "Txt_JobChange_Message_JobChangeFinish": {
+        "SelfId": "Txt_JobChange_Message_JobChangeFinish",
+        "Text": "よろしい。では　<RUBY>今[いま]から\r\n{ACTOR}は　{WORD}じゃ！<KEY_WAIT>\r\n{ACTOR}のそうびは　<RUBY>新[あたら]しい<RUBY>職業[しょくぎょう]のものに\r\nかえておいたからな。"
+      },
+      "Txt_JobChange_Message_JobChangeCancel": {
+        "SelfId": "Txt_JobChange_Message_JobChangeCancel",
+        "Text": "ふむ…　やめると<RUBY>申[もう]すか？\r\nそれも　よろしかろう。"
+      },
+      "Txt_JobChange_Message_AddJobChangeConfirm": {
+        "SelfId": "Txt_JobChange_Message_AddJobChangeConfirm",
+        "Text": "ほかにも　<RUBY>転職[てんしょく]したい<RUBY>者[もの]は\r\nおるかな？"
+      },
+      "Txt_JobChange_Message_Finish": {
+        "SelfId": "Txt_JobChange_Message_Finish",
+        "Text": "では　ゆくがよい。"
+      },
+      "Txt_JobChange_Message_Flavor_00": {
+        "SelfId": "Txt_JobChange_Message_Flavor_00",
+        "Text": "{WORD}に　なりたいとは\r\nさすが　{ACTOR}は　<RUBY>根[ね]っからの\r\n{WORD2}じゃのう。"
+      },
+      "Txt_JobChange_Message_Flavor_01": {
+        "SelfId": "Txt_JobChange_Message_Flavor_01",
+        "Text": "しかし　{WORD}とは……\r\n{ACTOR}は　なんという\r\n{WORD2}じゃ。まあ　よい…"
+      },
+      "Txt_JobChange_Message_Flavor_02": {
+        "SelfId": "Txt_JobChange_Message_Flavor_02",
+        "Text": "ふむ。{WORD}の　<RUBY>分際[ぶんざい]で\r\n{WORD2}に　なりたいとは。\r\nけっこう　<RUBY>笑[わら]かしてくれるぞ。"
+      },
+      "Txt_JobChange_Message_Flavor_03": {
+        "SelfId": "Txt_JobChange_Message_Flavor_03",
+        "Text": "そうか！　さすが　{WORD}\r\n<RUBY>性格[せいかく]だけのことは　あるのう。\r\n{ACTOR}を　すこし<RUBY>見[み]なおしたぞ。"
+      },
+      "Txt_JobChange_Message_Flavor_04": {
+        "SelfId": "Txt_JobChange_Message_Flavor_04",
+        "Text": "そうか…　{ACTOR}ほどの\r\n{WORD}が　{WORD2}に\r\nなりたいとはな。<KEY_WAIT>\r\nこれも　<RUBY>世[よ]の<RUBY>中[なか]が　いけないからかの。\r\nまあ　どうしてもというなら\r\nそれも　しかたあるまい。"
+      },
+      "Txt_JobChange_Message_Flavor_05": {
+        "SelfId": "Txt_JobChange_Message_Flavor_05",
+        "Text": "ふむ…。{ACTOR}みたいな\r\n{WORD}が　{WORD2}に\r\nなるとは…。<KEY_WAIT>\r\nちょっと　<RUBY>大変[たいへん]そうな<RUBY>気[き]もするが\r\nそれも　しかたあるまい。"
+      },
+      "Txt_JobChange_Message_Flavor_06": {
+        "SelfId": "Txt_JobChange_Message_Flavor_06",
+        "Text": "ふぁっ　ふぁっ　ふぁっ。<KEY_WAIT>\r\n{WORD}の　くせに　{WORD2}に\r\nなりたいとは　ウケねらいかの？　まあ　よい…。\r\n"
+      },
+      "Txt_JobChange_Message_Flavor_07": {
+        "SelfId": "Txt_JobChange_Message_Flavor_07",
+        "Text": "おお！　{WORD}の\r\n{ACTOR}には　<RUBY>天職[てんしょく]ともいえる\r\nナイスチョイスじゃのう。"
+      },
+      "Txt_JobChange_Message_Flavor_08": {
+        "SelfId": "Txt_JobChange_Message_Flavor_08",
+        "Text": "{WORD}の　{ACTOR}が\r\n{WORD2}に　なりたいとは\r\nずいぶん　<RUBY>成長[せいちょう]したものよのう。"
+      },
+      "Txt_JobChange_Message_Use_WORDS_OF_WISDOM": {
+        "SelfId": "Txt_JobChange_Message_Use_WORDS_OF_WISDOM",
+        "Text": "<RUBY>賢者[けんじゃ]に　なるためには\r\nその　さとりのしょを\r\n<RUBY>読[よ]み<RUBY>込[こ]まねば　なるまい。<KEY_WAIT>\r\nさとりのしょは　もう<RUBY>使[つか]えなくなるが…\r\nよいかの？"
+      }
+    }
+  }
+]

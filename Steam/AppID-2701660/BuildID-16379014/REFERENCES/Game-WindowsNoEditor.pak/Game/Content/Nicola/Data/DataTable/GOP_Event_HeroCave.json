@@ -1,0 +1,136 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Event_HeroCave",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Event_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "EVENT_HeroCave_HeroCave_B1F_GOODYBAG_00_L3_0": {
+        "SelfId": "EVENT_HeroCave_HeroCave_B1F_GOODYBAG_00_L3_0",
+        "EventID": "HeroCave_B1F_SUB_0_MBR_SCOUT_0010_010",
+        "TriggerType": "EEventTriggerType::MBR_SCOUT",
+        "TriggerID": "HeroCave_B1F_GOODYBAG_00_L3",
+        "EventPriority": 0,
+        "ProgressLower": 0,
+        "ProgressUpper": 30,
+        "StartFlagName1": "None",
+        "IsTrueCondition1": false,
+        "IsAndOperation": false,
+        "StartFlagName2": "None",
+        "IsTrueCondition2": false,
+        "ScenarioProgress": 0
+      },
+      "EVENT_HeroCave_MAPLIST_D16R0101_0": {
+        "SelfId": "EVENT_HeroCave_MAPLIST_D16R0101_0",
+        "EventID": "HeroCave_B1F_SUB_0_SCENE_0000_010",
+        "TriggerType": "EEventTriggerType::SCENE",
+        "TriggerID": "MAPLIST_D16R0101",
+        "EventPriority": 0,
+        "ProgressLower": 0,
+        "ProgressUpper": 30,
+        "StartFlagName1": "FE731",
+        "IsTrueCondition1": false,
+        "IsAndOperation": false,
+        "StartFlagName2": "None",
+        "IsTrueCondition2": false,
+        "ScenarioProgress": 0
+      },
+      "EVENT_HeroCave_HeroCave_B1F_Exit_0": {
+        "SelfId": "EVENT_HeroCave_HeroCave_B1F_Exit_0",
+        "EventID": "HeroCave_B1F_MAIN_0_VOLUME_0010_010",
+        "TriggerType": "EEventTriggerType::VOLUME",
+        "TriggerID": "HeroCave_B1F_Exit",
+        "EventPriority": 0,
+        "ProgressLower": 0,
+        "ProgressUpper": 30,
+        "StartFlagName1": "FE91",
+        "IsTrueCondition1": true,
+        "IsAndOperation": true,
+        "StartFlagName2": "FE104",
+        "IsTrueCondition2": false,
+        "ScenarioProgress": 0
+      },
+      "EVENT_HeroCave_HeroCave_B2F_Escape_01_0": {
+        "SelfId": "EVENT_HeroCave_HeroCave_B2F_Escape_01_0",
+        "EventID": "HeroCave_B2F_MAIN_0_VOLUME_ONE_FRAME_0010_010",
+        "TriggerType": "EEventTriggerType::VOLUME_ONE_FRAME",
+        "TriggerID": "HeroCave_B2F_Escape_01",
+        "EventPriority": 0,
+        "ProgressLower": 0,
+        "ProgressUpper": 30,
+        "StartFlagName1": "FE225",
+        "IsTrueCondition1": true,
+        "IsAndOperation": true,
+        "StartFlagName2": "FS0",
+        "IsTrueCondition2": false,
+        "ScenarioProgress": 0
+      },
+      "EVENT_HeroCave_HeroCave_B2F_Escape_02_0": {
+        "SelfId": "EVENT_HeroCave_HeroCave_B2F_Escape_02_0",
+        "EventID": "HeroCave_B2F_MAIN_0_VOLUME_ONE_FRAME_0010_020",
+        "TriggerType": "EEventTriggerType::VOLUME_ONE_FRAME",
+        "TriggerID": "HeroCave_B2F_Escape_02",
+        "EventPriority": 0,
+        "ProgressLower": 0,
+        "ProgressUpper": 30,
+        "StartFlagName1": "FE225",
+        "IsTrueCondition1": true,
+        "IsAndOperation": true,
+        "StartFlagName2": "FS1",
+        "IsTrueCondition2": false,
+        "ScenarioProgress": 0
+      },
+      "EVENT_HeroCave_HeroCave_B2F_Escape_03_0": {
+        "SelfId": "EVENT_HeroCave_HeroCave_B2F_Escape_03_0",
+        "EventID": "HeroCave_B2F_MAIN_0_VOLUME_0010_030",
+        "TriggerType": "EEventTriggerType::VOLUME",
+        "TriggerID": "HeroCave_B2F_Escape_03",
+        "EventPriority": 0,
+        "ProgressLower": 0,
+        "ProgressUpper": 30,
+        "StartFlagName1": "FE225",
+        "IsTrueCondition1": true,
+        "IsAndOperation": true,
+        "StartFlagName2": "FE226",
+        "IsTrueCondition2": false,
+        "ScenarioProgress": 0
+      },
+      "EVENT_HeroCave_MAPLIST_D16R0301_0": {
+        "SelfId": "EVENT_HeroCave_MAPLIST_D16R0301_0",
+        "EventID": "HeroCave_B3F_MAIN_0_SCENE_0010_010",
+        "TriggerType": "EEventTriggerType::SCENE",
+        "TriggerID": "MAPLIST_D16R0301",
+        "EventPriority": 0,
+        "ProgressLower": 0,
+        "ProgressUpper": 30,
+        "StartFlagName1": "FE91",
+        "IsTrueCondition1": true,
+        "IsAndOperation": true,
+        "StartFlagName2": "FE225",
+        "IsTrueCondition2": false,
+        "ScenarioProgress": 0
+      },
+      "EVENT_HeroCave_HeroCave_B3F_Repulsion_0": {
+        "SelfId": "EVENT_HeroCave_HeroCave_B3F_Repulsion_0",
+        "EventID": "HeroCave_B3F_SUB_0_VOLUME_0010_010",
+        "TriggerType": "EEventTriggerType::VOLUME",
+        "TriggerID": "HeroCave_B3F_Repulsion",
+        "EventPriority": 0,
+        "ProgressLower": 0,
+        "ProgressUpper": 30,
+        "StartFlagName1": "None",
+        "IsTrueCondition1": false,
+        "IsAndOperation": false,
+        "StartFlagName2": "None",
+        "IsTrueCondition2": false,
+        "ScenarioProgress": 0
+      }
+    }
+  }
+]

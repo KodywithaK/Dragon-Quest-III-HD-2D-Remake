@@ -1,0 +1,76 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_Medal",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Medal_UI_ItemName": {
+        "SelfId": "Txt_Medal_UI_ItemName",
+        "Text": "{0}"
+      },
+      "Txt_Medal_UI_ItemDetail": {
+        "SelfId": "Txt_Medal_UI_ItemDetail",
+        "Text": "{0}"
+      },
+      "Txt_Medal_UI_RequiredMedal": {
+        "SelfId": "Txt_Medal_UI_RequiredMedal",
+        "Text": "{0}"
+      },
+      "Txt_Medal_UI_ListGuide": {
+        "SelfId": "Txt_Medal_UI_ListGuide",
+        "Text": "Peruse the prizes."
+      },
+      "Txt_Medal_Message_Start": {
+        "SelfId": "Txt_Medal_Message_Start",
+        "Text": "Mini thanks for dropping by!\r\nI'm trying to max out my collection of mini medals!"
+      },
+      "Txt_Medal_Message_First": {
+        "SelfId": "Txt_Medal_Message_First",
+        "Text": "If you find any, bring them to me and I'll make it maximally worth your while!"
+      },
+      "Txt_Medal_Message_First_Medal": {
+        "SelfId": "Txt_Medal_Message_First_Medal",
+        "Text": "Hm? You've brought me some? Well, don't just stand there! Hand them over! I need to count how mini there are!"
+      },
+      "Txt_Medal_Message_Confirm_Medal": {
+        "SelfId": "Txt_Medal_Message_Confirm_Medal",
+        "Text": "Let's see now... That's {VALUE} mini medal<IfSing_VALUE(,s)> you've brought me so far. Ho-ho! Mini thanks, mini thanks!"
+      },
+      "Txt_Medal_Message_HandoverMedal": {
+        "SelfId": "Txt_Medal_Message_HandoverMedal",
+        "Text": "Ho-ho! You've brought me some medals, have you? Well, hand them over, and I'll count how mini there are!"
+      },
+      "Txt_Medal_Message_Prize": {
+        "SelfId": "Txt_Medal_Message_Prize",
+        "Text": "Wait a mini moment... You've hit the {VALUE} mini medal milestone! Ho-ho! This calls for a reward! Here you go! <Cap><IndefSgl_I_NAME>! Just what you've always wanted, I'll bet! Mini thanks, mini thanks!"
+      },
+      "Txt_Medal_Message_GetPrize": {
+        "SelfId": "Txt_Medal_Message_GetPrize",
+        "Text": "{LEADER} is rewarded with <IndefSgl_I_NAME>!"
+      },
+      "Txt_Medal_Message_Confirm": {
+        "SelfId": "Txt_Medal_Message_Confirm",
+        "Text": "You've brought me, let's see...<IfSing_VALUE(just a single medal,{VALUE} medals)> so far. Ho-ho! Mini thanks, mini thanks!"
+      },
+      "Txt_Medal_Message_NextPrize": {
+        "SelfId": "Txt_Medal_Message_NextPrize",
+        "Text": "Bring your total up to {VALUE}, and you'll be the proud owner of <IndefSgl_I_NAME>! You can do it! It's not mini more!"
+      },
+      "Txt_Medal_Message_MedalComplete": {
+        "SelfId": "Txt_Medal_Message_MedalComplete",
+        "Text": "My dear {LEADER}! You've brought me {VALUE} medals altogether! That's so mini!<KEY_WAIT>\r\nIn fact, it's the maximum amount you can bring me<--->there aren't any more! Ho-ho! Mini thanks, mini thanks!<KEY_WAIT>\r\nNow all that's left for you to do is get out there and save the world!<KEY_WAIT>\r\nYou'll have maximum respect from me if you manage it!"
+      },
+      "Txt_Medal_Message_GetPrizeFailere": {
+        "SelfId": "Txt_Medal_Message_GetPrizeFailere",
+        "Text": "Oh dear. You don't seem to have any room for my gift. Well, come back when you do and I'll make it maximally worth your while!"
+      }
+    }
+  }
+]

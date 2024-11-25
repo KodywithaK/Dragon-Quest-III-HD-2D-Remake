@@ -1,0 +1,520 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_BattleRoadMenu",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_MBR_Rank_H": {
+        "SelfId": "Txt_MBR_Rank_H",
+        "Text": "级别Ｈ"
+      },
+      "Txt_MBR_Rank_G": {
+        "SelfId": "Txt_MBR_Rank_G",
+        "Text": "级别Ｇ"
+      },
+      "Txt_MBR_Rank_F": {
+        "SelfId": "Txt_MBR_Rank_F",
+        "Text": "级别Ｆ"
+      },
+      "Txt_MBR_Rank_E": {
+        "SelfId": "Txt_MBR_Rank_E",
+        "Text": "级别Ｅ"
+      },
+      "Txt_MBR_Rank_D": {
+        "SelfId": "Txt_MBR_Rank_D",
+        "Text": "级别Ｄ"
+      },
+      "Txt_MBR_Rank_C": {
+        "SelfId": "Txt_MBR_Rank_C",
+        "Text": "级别Ｃ"
+      },
+      "Txt_MBR_Rank_B": {
+        "SelfId": "Txt_MBR_Rank_B",
+        "Text": "级别Ｂ"
+      },
+      "Txt_MBR_Rank_A": {
+        "SelfId": "Txt_MBR_Rank_A",
+        "Text": "级别Ａ"
+      },
+      "Txt_MBR_Rank_S": {
+        "SelfId": "Txt_MBR_Rank_S",
+        "Text": "级别Ｓ"
+      },
+      "Txt_MBR_Rank_SS": {
+        "SelfId": "Txt_MBR_Rank_SS",
+        "Text": "级别ＳＳ"
+      },
+      "Txt_MBR_Rank_SSS": {
+        "SelfId": "Txt_MBR_Rank_SSS",
+        "Text": "级别ＳＳＳ"
+      },
+      "Txt_MBR_Window_UI_Status_LV": {
+        "SelfId": "Txt_MBR_Window_UI_Status_LV",
+        "Text": "Ｌｖ"
+      },
+      "Txt_MBR_Window_UI_Status_NAME": {
+        "SelfId": "Txt_MBR_Window_UI_Status_NAME",
+        "Text": "名字"
+      },
+      "Txt_MBR_Window_UI_Status_MAX_HP": {
+        "SelfId": "Txt_MBR_Window_UI_Status_MAX_HP",
+        "Text": "最大ＨＰ"
+      },
+      "Txt_MBR_Window_UI_Status_MAX_MP": {
+        "SelfId": "Txt_MBR_Window_UI_Status_MAX_MP",
+        "Text": "最大ＭＰ"
+      },
+      "Txt_MBR_Window_UI_Status_PARAM_01": {
+        "SelfId": "Txt_MBR_Window_UI_Status_PARAM_01",
+        "Text": "攻击力"
+      },
+      "Txt_MBR_Window_UI_Status_PARAM_02": {
+        "SelfId": "Txt_MBR_Window_UI_Status_PARAM_02",
+        "Text": "防御力"
+      },
+      "Txt_MBR_Window_UI_Status_PARAM_03": {
+        "SelfId": "Txt_MBR_Window_UI_Status_PARAM_03",
+        "Text": "敏捷"
+      },
+      "Txt_MBR_Window_UI_Status_PARAM_04": {
+        "SelfId": "Txt_MBR_Window_UI_Status_PARAM_04",
+        "Text": "智力"
+      },
+      "Txt_MBR_Window_UI_Status_PARAM_05": {
+        "SelfId": "Txt_MBR_Window_UI_Status_PARAM_05",
+        "Text": "幸运"
+      },
+      "Txt_MBR_Window_UI_Same_Species": {
+        "SelfId": "Txt_MBR_Window_UI_Same_Species",
+        "Text": "同种族的伙伴"
+      },
+      "Txt_MBR_Window_UI_Species_Power": {
+        "SelfId": "Txt_MBR_Window_UI_Species_Power",
+        "Text": "种族力"
+      },
+      "Txt_MBR_Window_UI_Sort_Order": {
+        "SelfId": "Txt_MBR_Window_UI_Sort_Order",
+        "Text": "排序"
+      },
+      "Txt_MBR_Window_UI_Sort_Level": {
+        "SelfId": "Txt_MBR_Window_UI_Sort_Level",
+        "Text": "等级顺序"
+      },
+      "Txt_MBR_Window_UI_Sort_Species": {
+        "SelfId": "Txt_MBR_Window_UI_Sort_Species",
+        "Text": "ＩＤ顺序"
+      },
+      "Txt_MBR_Window_UI_Sort_ABC": {
+        "SelfId": "Txt_MBR_Window_UI_Sort_ABC",
+        "Text": "拼音顺序"
+      },
+      "Txt_MBR_Window_UI_Magic_Unknown": {
+        "SelfId": "Txt_MBR_Window_UI_Magic_Unknown",
+        "Text": "？？？"
+      },
+      "Txt_MBR_Window_UI_Indi_Unknown": {
+        "SelfId": "Txt_MBR_Window_UI_Indi_Unknown",
+        "Text": "？？？"
+      },
+      "Txt_MBR_Window_UI_Species_Solo": {
+        "SelfId": "Txt_MBR_Window_UI_Species_Solo",
+        "Text": "无"
+      },
+      "Txt_MBR_Window_UI_Reward_Mask": {
+        "SelfId": "Txt_MBR_Window_UI_Reward_Mask",
+        "Text": "？？？"
+      },
+      "Txt_MBR_Window_UI_Reward_First": {
+        "SelfId": "Txt_MBR_Window_UI_Reward_First",
+        "Text": "首次突破奖品"
+      },
+      "Txt_MBR_Window_UI_Disp_Disp": {
+        "SelfId": "Txt_MBR_Window_UI_Disp_Disp",
+        "Text": "显示"
+      },
+      "Txt_MBR_Window_UI_Disp_Status": {
+        "SelfId": "Txt_MBR_Window_UI_Disp_Status",
+        "Text": "能力"
+      },
+      "Txt_MBR_Window_UI_Disp_Magic": {
+        "SelfId": "Txt_MBR_Window_UI_Disp_Magic",
+        "Text": "行动"
+      },
+      "Txt_MBR_Window_UI_Member_Decide": {
+        "SelfId": "Txt_MBR_Window_UI_Member_Decide",
+        "Text": "确定成员"
+      },
+      "Txt_MBR_Info_UI_Quit": {
+        "SelfId": "Txt_MBR_Info_UI_Quit",
+        "Text": "放弃"
+      },
+      "Txt_MBR_Info_UI_Guide": {
+        "SelfId": "Txt_MBR_Info_UI_Guide",
+        "Text": "选择想咨询的问题"
+      },
+      "Txt_MBR_Info_UI_Question_01": {
+        "SelfId": "Txt_MBR_Info_UI_Question_01",
+        "Text": "什么样的魔物是可以收服的？"
+      },
+      "Txt_MBR_Info_UI_Question_02": {
+        "SelfId": "Txt_MBR_Info_UI_Question_02",
+        "Text": "有的魔物一靠近它就逃跑……"
+      },
+      "Txt_MBR_Info_UI_Question_03": {
+        "SelfId": "Txt_MBR_Info_UI_Question_03",
+        "Text": "有什么寻找魔物的诀窍吗？"
+      },
+      "Txt_MBR_Info_UI_Question_04": {
+        "SelfId": "Txt_MBR_Info_UI_Question_04",
+        "Text": "战斗之路是什么？"
+      },
+      "Txt_MBR_Info_UI_Question_05": {
+        "SelfId": "Txt_MBR_Info_UI_Question_05",
+        "Text": "如何才能挑战战斗之路……"
+      },
+      "Txt_MBR_Info_UI_Question_06": {
+        "SelfId": "Txt_MBR_Info_UI_Question_06",
+        "Text": "在战斗之路中落败会怎么样？"
+      },
+      "Txt_MBR_Zoo_UI_Guide": {
+        "SelfId": "Txt_MBR_Zoo_UI_Guide",
+        "Text": "选择怪物"
+      },
+      "Txt_MBR_Entry_UI_Rank_Guide": {
+        "SelfId": "Txt_MBR_Entry_UI_Rank_Guide",
+        "Text": "选择级别"
+      },
+      "Txt_MBR_Entry_UI_Monster_Guide": {
+        "SelfId": "Txt_MBR_Entry_UI_Monster_Guide",
+        "Text": "选择怪物"
+      },
+      "Txt_MBR_Entry_UI_Monster_Remove": {
+        "SelfId": "Txt_MBR_Entry_UI_Monster_Remove",
+        "Text": "移除"
+      },
+      "Txt_MBR_Entry_UI_Monster_Return": {
+        "SelfId": "Txt_MBR_Entry_UI_Monster_Return",
+        "Text": "返回"
+      },
+      "Txt_MBR_Entry_UI_Entry_Yes": {
+        "SelfId": "Txt_MBR_Entry_UI_Entry_Yes",
+        "Text": "是"
+      },
+      "Txt_MBR_Entry_UI_Entry_No": {
+        "SelfId": "Txt_MBR_Entry_UI_Entry_No",
+        "Text": "更换成员"
+      },
+      "Txt_MBR_Entry_UI_FightMoney": {
+        "SelfId": "Txt_MBR_Entry_UI_FightMoney",
+        "Text": "奖金"
+      },
+      "Txt_MBR_Invitation_UI_MonsterInfo": {
+        "SelfId": "Txt_MBR_Invitation_UI_MonsterInfo",
+        "Text": "收服的怪物"
+      },
+      "Txt_MBR_Invitation_UI_MonsterTamer_003": {
+        "SelfId": "Txt_MBR_Invitation_UI_MonsterTamer_003",
+        "Text": "可以和怪物互通心意了"
+      },
+      "Txt_MBR_Invitation_UI_MonsterTamer_010": {
+        "SelfId": "Txt_MBR_Invitation_UI_MonsterTamer_010",
+        "Text": "稍微理解怪物的想法了"
+      },
+      "Txt_MBR_Invitation_UI_MonsterTamer_030": {
+        "SelfId": "Txt_MBR_Invitation_UI_MonsterTamer_030",
+        "Text": "更能理解怪物的想法了"
+      },
+      "Txt_MBR_Invitation_UI_MonsterTamer_050": {
+        "SelfId": "Txt_MBR_Invitation_UI_MonsterTamer_050",
+        "Text": "相当理解怪物的想法了"
+      },
+      "Txt_MBR_Invitation_UI_MonsterTamer_080": {
+        "SelfId": "Txt_MBR_Invitation_UI_MonsterTamer_080",
+        "Text": "和怪物互通心意了"
+      },
+      "Txt_MBR_Invitation_UI_MonsterTamer_100": {
+        "SelfId": "Txt_MBR_Invitation_UI_MonsterTamer_100",
+        "Text": "和怪物建立了信赖关系"
+      },
+      "Txt_MBR_Info_Msg_Start_01": {
+        "SelfId": "Txt_MBR_Info_Msg_Start_01",
+        "Text": "欢迎光临～！\r\n这里是问讯处。"
+      },
+      "Txt_MBR_Info_Msg_Start_02": {
+        "SelfId": "Txt_MBR_Info_Msg_Start_02",
+        "Text": "欢迎光临～！\r\n这里提供收服魔物们的方法和\r\n战斗之路的相关信息～"
+      },
+      "Txt_MBR_Info_Msg_Top_01": {
+        "SelfId": "Txt_MBR_Info_Msg_Top_01",
+        "Text": "有什么可以帮您～？<NO_INPUT>"
+      },
+      "Txt_MBR_Info_Msg_Top_02": {
+        "SelfId": "Txt_MBR_Info_Msg_Top_02",
+        "Text": "有什么可以帮您～？<NO_INPUT>"
+      },
+      "Txt_MBR_Info_Msg_Quit": {
+        "SelfId": "Txt_MBR_Info_Msg_Quit",
+        "Text": "欢迎您随时再来～"
+      },
+      "Txt_MBR_Info_Msg_Answer_01": {
+        "SelfId": "Txt_MBR_Info_Msg_Answer_01",
+        "Text": "您问这个问题啊～\r\n如果发现了温顺的魔物，只要靠近它，\r\n摸摸它的脑袋就可以收服了～！<KEY_WAIT>\r\n既然怪物爷爷已经认可了您，\r\n那魔物们一定也会向您敞开心扉的～！\r\n<KEY_WAIT>\r\n魔性消散的魔物\r\n一般都会待在原地一动不动……\r\n如果您发现了这样的魔物，就请尽管收服它们吧～！"
+      },
+      "Txt_MBR_Info_Msg_Answer_02": {
+        "SelfId": "Txt_MBR_Info_Msg_Answer_02",
+        "Text": "那是警惕心比较强的魔物～！\r\n人走路的声响、散发的气味等等就能惊扰它们。\r\n没等人靠近，它们就会先一步逃跑～<KEY_WAIT>\r\n因此，只要在走路时放轻脚步，\r\n或者释放出魔物喜欢的气味，\r\n那些魔物们也就不会逃跑了～！<KEY_WAIT>\r\n举个例子……\r\n比如盗贼就能静悄悄地行动～\r\n多试一试吧～！"
+      },
+      "Txt_MBR_Info_Msg_Answer_03": {
+        "SelfId": "Txt_MBR_Info_Msg_Answer_03",
+        "Text": "这个问题呀……\r\n比如说，每种魔物都有它们\r\n各自的活跃时间～<KEY_WAIT>\r\n既有在白天频繁活动的魔物，\r\n也有只在夜晚精神十足的魔物。\r\n试试看在不同的时间段出发冒险吧～！<KEY_WAIT>\r\n还有只在傍晚时分\r\n才突然冒出来的魔物呢～！\r\n如果使用旅店的服务，也可以选择在夜晚出发～"
+      },
+      "Txt_MBR_Info_Msg_Answer_04": {
+        "SelfId": "Txt_MBR_Info_Msg_Answer_04",
+        "Text": "嘻嘻嘻……终于等到您问这个了～！\r\n所谓战斗之路！\r\n就是被收服后开启新生活的魔物们～<KEY_WAIT>\r\n为了保持健康和每天向上的劲头，\r\n大家一起流血流汗，进行战斗的殿堂～！<KEY_WAIT>\r\n偶尔也会有老爷爷\r\n把它错喊成The Monster Battle Road，\r\n但正式名称其实是不加The的～<KEY_WAIT>\r\n请您多多收服魔物，\r\n让不同的魔物出场参赛～\r\n<KEY_WAIT>\r\n即便一开始不能获胜，\r\n随着魔物朋友们越来越多，\r\n终有一天能赢得胜利的～！"
+      },
+      "Txt_MBR_Info_Msg_Answer_05": {
+        "SelfId": "Txt_MBR_Info_Msg_Answer_05",
+        "Text": "只要在接待处提交申请，\r\n就可以随时出场参赛～<KEY_WAIT>\r\n虽然要支付一定金额的参赛费，\r\n但获胜的次数越多，得到的奖金也就越多～\r\n还请您多多努力赚取奖金～！<KEY_WAIT>\r\n战斗之路竞技场不仅这里有，\r\n世界各地也都有设立～\r\n每个地方都设定了级别～<KEY_WAIT>\r\n起初先从Ｈ级别开始，\r\n只要在一个级别的所有比赛中连战连捷，\r\n就可以挑战下一级别～！"
+      },
+      "Txt_MBR_Info_Msg_Answer_06": {
+        "SelfId": "Txt_MBR_Info_Msg_Answer_06",
+        "Text": "如果落败，则当即退场～\r\n不过，您会按照此前获胜的次数\r\n得到奖金，这一点大可以放心～<KEY_WAIT>\r\n还请不要气馁，多多挑战～！\r\n<KEY_WAIT>\r\n就算输了，结果也不过是返回接待处，\r\n没有什么大损失的～\r\n魔物们也能得到恢复，完全不用担心～！"
+      },
+      "Txt_MBR_Zoo_Msg_Start_01": {
+        "SelfId": "Txt_MBR_Zoo_Msg_Start_01",
+        "Text": "欢迎你来。\r\n怪物们和之前一样，都生活得很好。"
+      },
+      "Txt_MBR_Zoo_Msg_Start_02": {
+        "SelfId": "Txt_MBR_Zoo_Msg_Start_02",
+        "Text": "噢，是你啊！欢迎你来。\r\n看来打那以后你也常常关注怪物们，\r\n实在是太让我欣慰了。"
+      },
+      "Txt_MBR_Zoo_Msg_Top_01": {
+        "SelfId": "Txt_MBR_Zoo_Msg_Top_01",
+        "Text": "难得来一趟，你也看看怪物的情况吧。<NO_INPUT>"
+      },
+      "Txt_MBR_Zoo_Msg_Top_02": {
+        "SelfId": "Txt_MBR_Zoo_Msg_Top_02",
+        "Text": "还有想查看情况的怪物吗？<NO_INPUT>"
+      },
+      "Txt_MBR_Zoo_Msg_Top_03": {
+        "SelfId": "Txt_MBR_Zoo_Msg_Top_03",
+        "Text": "真没想到你能胜过我们啊……\r\n太精彩了！"
+      },
+      "Txt_MBR_Zoo_Msg_Quit": {
+        "SelfId": "Txt_MBR_Zoo_Msg_Quit",
+        "Text": "你什么时候再来都好。\r\n我会等着你的！"
+      },
+      "Txt_MBR_Zoo_Msg_Achieve_Reward_01": {
+        "SelfId": "Txt_MBR_Zoo_Msg_Achieve_Reward_01",
+        "Text": "噢，我一直等着你呢。\r\n<KEY_WAIT>\r\n你收服的怪物的数量\r\n达到了{VALUE}只。\r\n我想好好谢谢你。<KEY_WAIT>\r\n希望今后你也能\r\n继续关注怪物们。\r\n拜托你了。"
+      },
+      "Txt_MBR_Zoo_Msg_Achieve_Reward_02": {
+        "SelfId": "Txt_MBR_Zoo_Msg_Achieve_Reward_02",
+        "Text": "噢，欢迎你来。\r\n<KEY_WAIT>\r\n如今你收服的怪物的数量\r\n达到了{VALUE}只。\r\n这里的成员越来越多了。<KEY_WAIT>\r\n这份慰劳品算是我对你的一点心意！\r\n今后也拜托你多多关注怪物们了。"
+      },
+      "Txt_MBR_Zoo_Msg_Achieve_Reward_03": {
+        "SelfId": "Txt_MBR_Zoo_Msg_Achieve_Reward_03",
+        "Text": "噢，是你啊！\r\n你来得正是时候。\r\n<KEY_WAIT>\r\n你收服的怪物的数量\r\n已经达到了{VALUE}只。\r\n<KEY_WAIT>\r\n真是弹指一挥间啊……\r\n就壮大成一个大家庭了。\r\n<KEY_WAIT>\r\n也只有你这般的人物才有能力\r\n找到这么多怪物吧。我会继续看好你的。\r\n希望这份薄礼能为你的旅行添一份力。"
+      },
+      "Txt_MBR_Zoo_Msg_Achieve_Reward_04": {
+        "SelfId": "Txt_MBR_Zoo_Msg_Achieve_Reward_04",
+        "Text": "噢，是你啊！我一直等着你呢。\r\n<KEY_WAIT>\r\n你收服的怪物们啊，\r\n数量终于达到{VALUE}只了！\r\n<KEY_WAIT>\r\n说实话，我可真没料到\r\n数量会变得这么多啊。\r\n<KEY_WAIT>\r\n怪物们都在这里健康地生活着。\r\n我也高兴极了。\r\n<KEY_WAIT>\r\n看你这么努力，我想好好回报你一番。\r\n这次我准备了特别的物品，你尽管拿去吧！\r\n我会为你祈祷，祝福你旅途平安的。"
+      },
+      "Txt_MBR_Zoo_Msg_Achieve_Reward_05": {
+        "SelfId": "Txt_MBR_Zoo_Msg_Achieve_Reward_05",
+        "Text": "噢，是你啊……\r\n你可真是个厉害的家伙啊。\r\n我对你的敬佩又多了几分。<KEY_WAIT>\r\n我这么说是因为……\r\n你收服的怪物们的数量\r\n竟然已经达到了{VALUE}只。<KEY_WAIT>\r\n到底要如何走遍这个世界，\r\n才能找到数量如此之多的怪物啊……\r\n我这个怪物爷爷是无法想象的。<KEY_WAIT>\r\n就让我再对你道一声谢谢吧。\r\n在与史莱林相遇的那天主动和你攀谈……\r\n看来我的直觉准确无误！<KEY_WAIT>\r\n你就是真正的怪物大师！\r\n真的太谢谢你了！！\r\n<KEY_WAIT>\r\n也不知道能不能在你的旅行中派上用场，\r\n反正我把我喜爱的物品给你了。\r\n哎，你别客气，赶紧拿上走吧！<KEY_WAIT>\r\n怪物们今后也会继续在这里生活。\r\n你高兴了就随时来看看。"
+      },
+      "Txt_MBR_Zoo_Msg_Reward_A1": {
+        "SelfId": "Txt_MBR_Zoo_Msg_Reward_A1",
+        "Text": "{LEADER}把\r\n{VALUE}个{WORD}\r\n从怪物爷爷手中接了过来！"
+      },
+      "Txt_MBR_Zoo_Msg_Reward_A2": {
+        "SelfId": "Txt_MBR_Zoo_Msg_Reward_A2",
+        "Text": "{LEADER}把\r\n{VALUE}个{WORD}\r\n{VALUE2}个{WORD2}"
+      },
+      "Txt_MBR_Zoo_Msg_Reward_B0": {
+        "SelfId": "Txt_MBR_Zoo_Msg_Reward_B0",
+        "Text": "从怪物爷爷手中接了过来！"
+      },
+      "Txt_MBR_Zoo_Msg_Reward_B1": {
+        "SelfId": "Txt_MBR_Zoo_Msg_Reward_B1",
+        "Text": "{VALUE}个{WORD}\r\n从怪物爷爷手中接了过来！"
+      },
+      "Txt_MBR_Zoo_Msg_Reward_B2": {
+        "SelfId": "Txt_MBR_Zoo_Msg_Reward_B2",
+        "Text": "{VALUE}个{WORD}\r\n{VALUE2}个{WORD2}\r\n从怪物爷爷手中接了过来！"
+      },
+      "Txt_MBR_Zoo_Msg_Reward_B3": {
+        "SelfId": "Txt_MBR_Zoo_Msg_Reward_B3",
+        "Text": "{VALUE}个{WORD}\r\n{VALUE2}个{WORD2}\r\n{VALUE3}个{WORD3}"
+      },
+      "Txt_MBR_Zoo_Msg_Reward_Excess": {
+        "SelfId": "Txt_MBR_Zoo_Msg_Reward_Excess",
+        "Text": "什么！竟然拿不下了。\r\n抱歉，\r\n拿不下的谢礼就算了吧。"
+      },
+      "Txt_MBR_Entry_Msg_Start_01": {
+        "SelfId": "Txt_MBR_Entry_Msg_Start_01",
+        "Text": "魔物们火热合演……\r\n欢迎来到怪物战斗之路。"
+      },
+      "Txt_MBR_Entry_Msg_Start_02": {
+        "SelfId": "Txt_MBR_Entry_Msg_Start_02",
+        "Text": "欢迎您来。\r\n这里是魔物们相互竞争、培养友情的战斗殿堂\r\n——怪物战斗之路！<KEY_WAIT>\r\n您可以派出自己收集的魔物们\r\n来这里战斗。"
+      },
+      "Txt_MBR_Entry_Msg_Rank_01": {
+        "SelfId": "Txt_MBR_Entry_Msg_Rank_01",
+        "Text": "这是目前正在举办的战斗级别。\r\n要申请出场吗？<NO_INPUT>"
+      },
+      "Txt_MBR_Entry_Msg_Rank_02": {
+        "SelfId": "Txt_MBR_Entry_Msg_Rank_02",
+        "Text": "这是目前正在举办的战斗级别。\r\n要申请出场吗？<NO_INPUT>"
+      },
+      "Txt_MBR_Entry_Msg_Rank_Entry": {
+        "SelfId": "Txt_MBR_Entry_Msg_Rank_Entry",
+        "Text": "那我就收取您的参赛费了。"
+      },
+      "Txt_MBR_Entry_Msg_Rank_Err_Entry": {
+        "SelfId": "Txt_MBR_Entry_Msg_Rank_Err_Entry",
+        "Text": "非常遗憾，\r\n现在并没有您可以出场的级别……"
+      },
+      "Txt_MBR_Entry_Msg_Rank_Err_Rank": {
+        "SelfId": "Txt_MBR_Entry_Msg_Rank_Err_Rank",
+        "Text": "您还不能在这个级别中出场。"
+      },
+      "Txt_MBR_Entry_Msg_Rank_Err_Money": {
+        "SelfId": "Txt_MBR_Entry_Msg_Rank_Err_Money",
+        "Text": "非常抱歉，\r\n您的钱似乎不够支付参赛费。"
+      },
+      "Txt_MBR_Entry_Msg_Party_01": {
+        "SelfId": "Txt_MBR_Entry_Msg_Party_01",
+        "Text": "出场成员确定下来了吗？\r\n您也可以选择成员栏，替换成其他魔物。<NO_INPUT>"
+      },
+      "Txt_MBR_Entry_Msg_Party_02": {
+        "SelfId": "Txt_MBR_Entry_Msg_Party_02",
+        "Text": "出场成员确定下来了吗？\r\n如果想替换，请选择成员栏。<NO_INPUT>"
+      },
+      "Txt_MBR_Entry_Msg_Party_Empty": {
+        "SelfId": "Txt_MBR_Entry_Msg_Party_Empty",
+        "Text": "咦？队伍中一只怪物都没有呀。\r\n来登记要出场的魔物吧！\r\n请先选择成员栏。<NO_INPUT>"
+      },
+      "Txt_MBR_Entry_Msg_Monster_01": {
+        "SelfId": "Txt_MBR_Entry_Msg_Monster_01",
+        "Text": "要派哪只魔物出场？<NO_INPUT>"
+      },
+      "Txt_MBR_Entry_Msg_Entry_Confirm": {
+        "SelfId": "Txt_MBR_Entry_Msg_Entry_Confirm",
+        "Text": "我明白了。\r\n淘汰赛即将开始。\r\n您准备好了吗？<NO_INPUT>"
+      },
+      "Txt_MBR_Entry_Msg_Entry_Err_Party": {
+        "SelfId": "Txt_MBR_Entry_Msg_Entry_Err_Party",
+        "Text": "咦？出场成员中一只魔物都没有呀。\r\n请选择成员栏，放入魔物。<NO_INPUT>"
+      },
+      "Txt_MBR_Entry_Msg_Quit_01": {
+        "SelfId": "Txt_MBR_Entry_Msg_Quit_01",
+        "Text": "衷心期待您再次光临。"
+      },
+      "Txt_MBR_Entry_Msg_Quit_02": {
+        "SelfId": "Txt_MBR_Entry_Msg_Quit_02",
+        "Text": "衷心期待您再次光临。"
+      },
+      "Txt_MBR_Entry_Msg_Start_Match": {
+        "SelfId": "Txt_MBR_Entry_Msg_Start_Match",
+        "Text": "战斗之路{WORD}现在开始。\r\n有请挑战者进入竞技场！"
+      },
+      "Txt_MBR_Entry_Msg_Result_Top": {
+        "SelfId": "Txt_MBR_Entry_Msg_Result_Top",
+        "Text": "辛苦了。"
+      },
+      "Txt_MBR_Entry_Msg_Result_Lose": {
+        "SelfId": "Txt_MBR_Entry_Msg_Result_Lose",
+        "Text": "比赛非常精彩。\r\n不过很遗憾，您在中途败退了。"
+      },
+      "Txt_MBR_Entry_Msg_Result_Win_01": {
+        "SelfId": "Txt_MBR_Entry_Msg_Result_Win_01",
+        "Text": "在战斗之路{WORD}中连战连捷！"
+      },
+      "Txt_MBR_Entry_Msg_Result_Win_02": {
+        "SelfId": "Txt_MBR_Entry_Msg_Result_Win_02",
+        "Text": "您连战连捷，在{VALUE}场比赛中获得了胜利，\r\n交予您{VALUE2}金币的奖金。"
+      },
+      "Txt_MBR_Entry_Msg_Result_Win_03": {
+        "SelfId": "Txt_MBR_Entry_Msg_Result_Win_03",
+        "Text": "恭喜您突破战斗之路{WORD}！\r\n实在是一连串让观众热血沸腾的精彩比赛。\r\n<KEY_WAIT>\r\n由于这是您初次在{WORD}中连战连捷，\r\n赠予您{VALUE}金币的奖金和奖品一份！"
+      },
+      "Txt_MBR_Entry_Msg_Result_Win_04": {
+        "SelfId": "Txt_MBR_Entry_Msg_Result_Win_04",
+        "Text": "非常抱歉，\r\n拿不下的奖金无法交予您。"
+      },
+      "Txt_MBR_Entry_Msg_Reward_A1": {
+        "SelfId": "Txt_MBR_Entry_Msg_Reward_A1",
+        "Text": "{LEADER}把\r\n{VALUE}个{WORD}\r\n作为奖品收下了！"
+      },
+      "Txt_MBR_Entry_Msg_Reward_A2": {
+        "SelfId": "Txt_MBR_Entry_Msg_Reward_A2",
+        "Text": "{LEADER}把\r\n{VALUE}个{WORD}\r\n{VALUE2}个{WORD2}"
+      },
+      "Txt_MBR_Entry_Msg_Reward_B0": {
+        "SelfId": "Txt_MBR_Entry_Msg_Reward_B0",
+        "Text": "作为奖品收下了！"
+      },
+      "Txt_MBR_Entry_Msg_Reward_B1": {
+        "SelfId": "Txt_MBR_Entry_Msg_Reward_B1",
+        "Text": "{VALUE}个{WORD}\r\n作为奖品收下了！"
+      },
+      "Txt_MBR_Entry_Msg_Reward_B2": {
+        "SelfId": "Txt_MBR_Entry_Msg_Reward_B2",
+        "Text": "{VALUE}个{WORD}\r\n{VALUE2}个{WORD2}\r\n作为奖品收下了！"
+      },
+      "Txt_MBR_Entry_Msg_Reward_B3": {
+        "SelfId": "Txt_MBR_Entry_Msg_Reward_B3",
+        "Text": "{VALUE}个{WORD}\r\n{VALUE2}个{WORD2}\r\n{VALUE3}个{WORD3}"
+      },
+      "Txt_MBR_Entry_Msg_Reward_Excess": {
+        "SelfId": "Txt_MBR_Entry_Msg_Reward_Excess",
+        "Text": "非常抱歉，\r\n拿不下的奖品无法交予您。"
+      },
+      "Txt_MBR_Invitation_Msg_Success_010": {
+        "SelfId": "Txt_MBR_Invitation_Msg_Success_010",
+        "Text": "魔物一脸高兴地\r\n往怪物爷爷那里去了！"
+      },
+      "Txt_MBR_Invitation_Msg_Success_020": {
+        "SelfId": "Txt_MBR_Invitation_Msg_Success_020",
+        "Text": "魔物一蹦一跳地\r\n朝着怪物爷爷跑去了！"
+      },
+      "Txt_MBR_Invitation_Msg_Success_030": {
+        "SelfId": "Txt_MBR_Invitation_Msg_Success_030",
+        "Text": "魔物不紧不慢地\r\n往怪物爷爷那里去了！"
+      },
+      "Txt_MBR_Invitation_Msg_Success_040": {
+        "SelfId": "Txt_MBR_Invitation_Msg_Success_040",
+        "Text": "魔物鼓起劲儿，\r\n朝着怪物爷爷跑去了！"
+      },
+      "Txt_MBR_Invitation_Msg_Success_050": {
+        "SelfId": "Txt_MBR_Invitation_Msg_Success_050",
+        "Text": "神龙深深地点了点头，\r\n往怪物爷爷那里去了。"
+      },
+      "Txt_MBR_Invitation_Msg_Named": {
+        "SelfId": "Txt_MBR_Invitation_Msg_Named",
+        "Text": "顺利收服了怪物，\r\n并将其命名为了{ACTOR}！"
+      },
+      "Txt_MBR_Invitation_Msg_StatusUp": {
+        "SelfId": "Txt_MBR_Invitation_Msg_StatusUp",
+        "Text": "由于增添了{M_NAME}这个伙伴，\r\n{ACTOR}一行的感情更深了！<KEY_WAIT>\r\n{ACTOR}变得更加强大了！！"
+      },
+      "Txt_MBR_Invitation_Msg_ZooPrize": {
+        "SelfId": "Txt_MBR_Invitation_Msg_ZooPrize",
+        "Text": "收服的怪物数量已经有{VALUE}只。<KEY_WAIT>\r\n去看看怪物爷爷和怪物们的情况吧。"
+      },
+      "Txt_MBR_Invitation_Msg_MonsterTamer": {
+        "SelfId": "Txt_MBR_Invitation_Msg_MonsterTamer",
+        "Text": "收服的怪物数量已经有{VALUE}只。<KEY_WAIT>\r\n对怪物的理解更深了。"
+      }
+    }
+  }
+]

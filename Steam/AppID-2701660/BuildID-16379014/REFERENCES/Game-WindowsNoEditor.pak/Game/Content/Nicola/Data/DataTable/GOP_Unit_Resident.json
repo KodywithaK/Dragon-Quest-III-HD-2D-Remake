@@ -1,0 +1,177 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Unit_Resident",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Unit_ResidentTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "UNIT_RESIDENT_HERO_M": {
+        "SelfId": "UNIT_RESIDENT_HERO_M",
+        "GopIdUnitMaster": "UNIT_MASTER_HERO_M",
+        "UnitClassType": "EUnitClassType::HERO",
+        "UnitGenderType": "EUnitGenderType::MALE",
+        "GopIdPersonality": "PERSONALITY_MEATHEAD"
+      },
+      "UNIT_RESIDENT_HERO_F": {
+        "SelfId": "UNIT_RESIDENT_HERO_F",
+        "GopIdUnitMaster": "UNIT_MASTER_HERO_F",
+        "UnitClassType": "EUnitClassType::HERO",
+        "UnitGenderType": "EUnitGenderType::FEMALE",
+        "GopIdPersonality": "PERSONALITY_MEATHEAD"
+      },
+      "UNIT_RESIDENT_WARRIOR_M": {
+        "SelfId": "UNIT_RESIDENT_WARRIOR_M",
+        "GopIdUnitMaster": "UNIT_MASTER_WARRIOR_M",
+        "UnitClassType": "EUnitClassType::WARRIOR",
+        "UnitGenderType": "EUnitGenderType::MALE",
+        "GopIdPersonality": "PERSONALITY_PARAGON"
+      },
+      "UNIT_RESIDENT_WARRIOR_F": {
+        "SelfId": "UNIT_RESIDENT_WARRIOR_F",
+        "GopIdUnitMaster": "UNIT_MASTER_WARRIOR_F",
+        "UnitClassType": "EUnitClassType::WARRIOR",
+        "UnitGenderType": "EUnitGenderType::FEMALE",
+        "GopIdPersonality": "PERSONALITY_PARAGON"
+      },
+      "UNIT_RESIDENT_FIGHTER_M": {
+        "SelfId": "UNIT_RESIDENT_FIGHTER_M",
+        "GopIdUnitMaster": "UNIT_MASTER_FIGHTER_M",
+        "UnitClassType": "EUnitClassType::FIGHTER",
+        "UnitGenderType": "EUnitGenderType::MALE",
+        "GopIdPersonality": "PERSONALITY_PARAGON"
+      },
+      "UNIT_RESIDENT_FIGHTER_F": {
+        "SelfId": "UNIT_RESIDENT_FIGHTER_F",
+        "GopIdUnitMaster": "UNIT_MASTER_FIGHTER_F",
+        "UnitClassType": "EUnitClassType::FIGHTER",
+        "UnitGenderType": "EUnitGenderType::FEMALE",
+        "GopIdPersonality": "PERSONALITY_PARAGON"
+      },
+      "UNIT_RESIDENT_MAGE_M": {
+        "SelfId": "UNIT_RESIDENT_MAGE_M",
+        "GopIdUnitMaster": "UNIT_MASTER_MAGE_M",
+        "UnitClassType": "EUnitClassType::MAGE",
+        "UnitGenderType": "EUnitGenderType::MALE",
+        "GopIdPersonality": "PERSONALITY_SCATTERBRAIN"
+      },
+      "UNIT_RESIDENT_MAGE_F": {
+        "SelfId": "UNIT_RESIDENT_MAGE_F",
+        "GopIdUnitMaster": "UNIT_MASTER_MAGE_F",
+        "UnitClassType": "EUnitClassType::MAGE",
+        "UnitGenderType": "EUnitGenderType::FEMALE",
+        "GopIdPersonality": "PERSONALITY_SCATTERBRAIN"
+      },
+      "UNIT_RESIDENT_PRIEST_M": {
+        "SelfId": "UNIT_RESIDENT_PRIEST_M",
+        "GopIdUnitMaster": "UNIT_MASTER_PRIEST_M",
+        "UnitClassType": "EUnitClassType::PRIEST",
+        "UnitGenderType": "EUnitGenderType::MALE",
+        "GopIdPersonality": "PERSONALITY_PRINCESS"
+      },
+      "UNIT_RESIDENT_PRIEST_F": {
+        "SelfId": "UNIT_RESIDENT_PRIEST_F",
+        "GopIdUnitMaster": "UNIT_MASTER_PRIEST_F",
+        "UnitClassType": "EUnitClassType::PRIEST",
+        "UnitGenderType": "EUnitGenderType::FEMALE",
+        "GopIdPersonality": "PERSONALITY_PRINCESS"
+      },
+      "UNIT_RESIDENT_MERCHANT_M": {
+        "SelfId": "UNIT_RESIDENT_MERCHANT_M",
+        "GopIdUnitMaster": "UNIT_MASTER_MERCHANT_M",
+        "UnitClassType": "EUnitClassType::MERCHANT",
+        "UnitGenderType": "EUnitGenderType::MALE",
+        "GopIdPersonality": "PERSONALITY_MEATHEAD"
+      },
+      "UNIT_RESIDENT_MERCHANT_F": {
+        "SelfId": "UNIT_RESIDENT_MERCHANT_F",
+        "GopIdUnitMaster": "UNIT_MASTER_MERCHANT_F",
+        "UnitClassType": "EUnitClassType::MERCHANT",
+        "UnitGenderType": "EUnitGenderType::FEMALE",
+        "GopIdPersonality": "PERSONALITY_MEATHEAD"
+      },
+      "UNIT_RESIDENT_GADABOUT_M": {
+        "SelfId": "UNIT_RESIDENT_GADABOUT_M",
+        "GopIdUnitMaster": "UNIT_MASTER_GADABOUT_M",
+        "UnitClassType": "EUnitClassType::GADABOUT",
+        "UnitGenderType": "EUnitGenderType::MALE",
+        "GopIdPersonality": "PERSONALITY_PARAGON"
+      },
+      "UNIT_RESIDENT_GADABOUT_F": {
+        "SelfId": "UNIT_RESIDENT_GADABOUT_F",
+        "GopIdUnitMaster": "UNIT_MASTER_GADABOUT_F",
+        "UnitClassType": "EUnitClassType::GADABOUT",
+        "UnitGenderType": "EUnitGenderType::FEMALE",
+        "GopIdPersonality": "PERSONALITY_PARAGON"
+      },
+      "UNIT_RESIDENT_THIEF_M": {
+        "SelfId": "UNIT_RESIDENT_THIEF_M",
+        "GopIdUnitMaster": "UNIT_MASTER_THIEF_M",
+        "UnitClassType": "EUnitClassType::THIEF",
+        "UnitGenderType": "EUnitGenderType::MALE",
+        "GopIdPersonality": "PERSONALITY_SCATTERBRAIN"
+      },
+      "UNIT_RESIDENT_THIEF_F": {
+        "SelfId": "UNIT_RESIDENT_THIEF_F",
+        "GopIdUnitMaster": "UNIT_MASTER_THIEF_F",
+        "UnitClassType": "EUnitClassType::THIEF",
+        "UnitGenderType": "EUnitGenderType::FEMALE",
+        "GopIdPersonality": "PERSONALITY_SCATTERBRAIN"
+      },
+      "UNIT_RESIDENT_SAGE_M": {
+        "SelfId": "UNIT_RESIDENT_SAGE_M",
+        "GopIdUnitMaster": "UNIT_MASTER_SAGE_M",
+        "UnitClassType": "EUnitClassType::SAGE",
+        "UnitGenderType": "EUnitGenderType::MALE",
+        "GopIdPersonality": "PERSONALITY_PRINCESS"
+      },
+      "UNIT_RESIDENT_SAGE_F": {
+        "SelfId": "UNIT_RESIDENT_SAGE_F",
+        "GopIdUnitMaster": "UNIT_MASTER_SAGE_F",
+        "UnitClassType": "EUnitClassType::SAGE",
+        "UnitGenderType": "EUnitGenderType::FEMALE",
+        "GopIdPersonality": "PERSONALITY_PRINCESS"
+      },
+      "UNIT_RESIDENT_BREEDER_M": {
+        "SelfId": "UNIT_RESIDENT_BREEDER_M",
+        "GopIdUnitMaster": "UNIT_MASTER_BREEDER_M",
+        "UnitClassType": "EUnitClassType::BREEDER",
+        "UnitGenderType": "EUnitGenderType::MALE",
+        "GopIdPersonality": "PERSONALITY_PRINCESS"
+      },
+      "UNIT_RESIDENT_BREEDER_F": {
+        "SelfId": "UNIT_RESIDENT_BREEDER_F",
+        "GopIdUnitMaster": "UNIT_MASTER_BREEDER_F",
+        "UnitClassType": "EUnitClassType::BREEDER",
+        "UnitGenderType": "EUnitGenderType::FEMALE",
+        "GopIdPersonality": "PERSONALITY_PRINCESS"
+      },
+      "UNIT_RESIDENT_BAG_ITEM": {
+        "SelfId": "UNIT_RESIDENT_BAG_ITEM",
+        "GopIdUnitMaster": "UNIT_MASTER_BAG_ITEM",
+        "UnitClassType": "EUnitClassType::BAG_ITEM",
+        "UnitGenderType": "EUnitGenderType::NONE",
+        "GopIdPersonality": "None"
+      },
+      "UNIT_RESIDENT_BAG_EQUIP": {
+        "SelfId": "UNIT_RESIDENT_BAG_EQUIP",
+        "GopIdUnitMaster": "UNIT_MASTER_BAG_EQUIP",
+        "UnitClassType": "EUnitClassType::BAG_EQUIP",
+        "UnitGenderType": "EUnitGenderType::NONE",
+        "GopIdPersonality": "None"
+      },
+      "UNIT_RESIDENT_BAG_IMPORTANT": {
+        "SelfId": "UNIT_RESIDENT_BAG_IMPORTANT",
+        "GopIdUnitMaster": "UNIT_MASTER_BAG_IMPORTANT",
+        "UnitClassType": "EUnitClassType::BAG_IMPORTANT",
+        "UnitGenderType": "EUnitGenderType::NONE",
+        "GopIdPersonality": "None"
+      }
+    }
+  }
+]

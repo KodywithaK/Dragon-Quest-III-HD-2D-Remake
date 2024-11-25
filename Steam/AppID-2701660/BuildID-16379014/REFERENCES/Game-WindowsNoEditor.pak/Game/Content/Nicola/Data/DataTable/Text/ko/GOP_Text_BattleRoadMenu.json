@@ -1,0 +1,520 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_BattleRoadMenu",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_MBR_Rank_H": {
+        "SelfId": "Txt_MBR_Rank_H",
+        "Text": "랭크 H"
+      },
+      "Txt_MBR_Rank_G": {
+        "SelfId": "Txt_MBR_Rank_G",
+        "Text": "랭크 G"
+      },
+      "Txt_MBR_Rank_F": {
+        "SelfId": "Txt_MBR_Rank_F",
+        "Text": "랭크 F"
+      },
+      "Txt_MBR_Rank_E": {
+        "SelfId": "Txt_MBR_Rank_E",
+        "Text": "랭크 E"
+      },
+      "Txt_MBR_Rank_D": {
+        "SelfId": "Txt_MBR_Rank_D",
+        "Text": "랭크 D"
+      },
+      "Txt_MBR_Rank_C": {
+        "SelfId": "Txt_MBR_Rank_C",
+        "Text": "랭크 C"
+      },
+      "Txt_MBR_Rank_B": {
+        "SelfId": "Txt_MBR_Rank_B",
+        "Text": "랭크 B"
+      },
+      "Txt_MBR_Rank_A": {
+        "SelfId": "Txt_MBR_Rank_A",
+        "Text": "랭크 A"
+      },
+      "Txt_MBR_Rank_S": {
+        "SelfId": "Txt_MBR_Rank_S",
+        "Text": "랭크 S"
+      },
+      "Txt_MBR_Rank_SS": {
+        "SelfId": "Txt_MBR_Rank_SS",
+        "Text": "랭크 SS"
+      },
+      "Txt_MBR_Rank_SSS": {
+        "SelfId": "Txt_MBR_Rank_SSS",
+        "Text": "랭크 SSS"
+      },
+      "Txt_MBR_Window_UI_Status_LV": {
+        "SelfId": "Txt_MBR_Window_UI_Status_LV",
+        "Text": "Lv"
+      },
+      "Txt_MBR_Window_UI_Status_NAME": {
+        "SelfId": "Txt_MBR_Window_UI_Status_NAME",
+        "Text": "이름"
+      },
+      "Txt_MBR_Window_UI_Status_MAX_HP": {
+        "SelfId": "Txt_MBR_Window_UI_Status_MAX_HP",
+        "Text": "최대 HP"
+      },
+      "Txt_MBR_Window_UI_Status_MAX_MP": {
+        "SelfId": "Txt_MBR_Window_UI_Status_MAX_MP",
+        "Text": "최대 MP"
+      },
+      "Txt_MBR_Window_UI_Status_PARAM_01": {
+        "SelfId": "Txt_MBR_Window_UI_Status_PARAM_01",
+        "Text": "공격력"
+      },
+      "Txt_MBR_Window_UI_Status_PARAM_02": {
+        "SelfId": "Txt_MBR_Window_UI_Status_PARAM_02",
+        "Text": "수비력"
+      },
+      "Txt_MBR_Window_UI_Status_PARAM_03": {
+        "SelfId": "Txt_MBR_Window_UI_Status_PARAM_03",
+        "Text": "민첩함"
+      },
+      "Txt_MBR_Window_UI_Status_PARAM_04": {
+        "SelfId": "Txt_MBR_Window_UI_Status_PARAM_04",
+        "Text": "총명함"
+      },
+      "Txt_MBR_Window_UI_Status_PARAM_05": {
+        "SelfId": "Txt_MBR_Window_UI_Status_PARAM_05",
+        "Text": "운"
+      },
+      "Txt_MBR_Window_UI_Same_Species": {
+        "SelfId": "Txt_MBR_Window_UI_Same_Species",
+        "Text": "같은 종족 동료"
+      },
+      "Txt_MBR_Window_UI_Species_Power": {
+        "SelfId": "Txt_MBR_Window_UI_Species_Power",
+        "Text": "종족력"
+      },
+      "Txt_MBR_Window_UI_Sort_Order": {
+        "SelfId": "Txt_MBR_Window_UI_Sort_Order",
+        "Text": "정렬"
+      },
+      "Txt_MBR_Window_UI_Sort_Level": {
+        "SelfId": "Txt_MBR_Window_UI_Sort_Level",
+        "Text": "레벨순"
+      },
+      "Txt_MBR_Window_UI_Sort_Species": {
+        "SelfId": "Txt_MBR_Window_UI_Sort_Species",
+        "Text": "ID순"
+      },
+      "Txt_MBR_Window_UI_Sort_ABC": {
+        "SelfId": "Txt_MBR_Window_UI_Sort_ABC",
+        "Text": "가나다순"
+      },
+      "Txt_MBR_Window_UI_Magic_Unknown": {
+        "SelfId": "Txt_MBR_Window_UI_Magic_Unknown",
+        "Text": "???"
+      },
+      "Txt_MBR_Window_UI_Indi_Unknown": {
+        "SelfId": "Txt_MBR_Window_UI_Indi_Unknown",
+        "Text": "???"
+      },
+      "Txt_MBR_Window_UI_Species_Solo": {
+        "SelfId": "Txt_MBR_Window_UI_Species_Solo",
+        "Text": "없음"
+      },
+      "Txt_MBR_Window_UI_Reward_Mask": {
+        "SelfId": "Txt_MBR_Window_UI_Reward_Mask",
+        "Text": "???"
+      },
+      "Txt_MBR_Window_UI_Reward_First": {
+        "SelfId": "Txt_MBR_Window_UI_Reward_First",
+        "Text": "첫 클리어 상품"
+      },
+      "Txt_MBR_Window_UI_Disp_Disp": {
+        "SelfId": "Txt_MBR_Window_UI_Disp_Disp",
+        "Text": "표시"
+      },
+      "Txt_MBR_Window_UI_Disp_Status": {
+        "SelfId": "Txt_MBR_Window_UI_Disp_Status",
+        "Text": "능력치"
+      },
+      "Txt_MBR_Window_UI_Disp_Magic": {
+        "SelfId": "Txt_MBR_Window_UI_Disp_Magic",
+        "Text": "행동"
+      },
+      "Txt_MBR_Window_UI_Member_Decide": {
+        "SelfId": "Txt_MBR_Window_UI_Member_Decide",
+        "Text": "멤버 결정"
+      },
+      "Txt_MBR_Info_UI_Quit": {
+        "SelfId": "Txt_MBR_Info_UI_Quit",
+        "Text": "그만두기"
+      },
+      "Txt_MBR_Info_UI_Guide": {
+        "SelfId": "Txt_MBR_Info_UI_Guide",
+        "Text": "알고 싶은 것 선택"
+      },
+      "Txt_MBR_Info_UI_Question_01": {
+        "SelfId": "Txt_MBR_Info_UI_Question_01",
+        "Text": "어떤 마물을 보호할 수 있나요?"
+      },
+      "Txt_MBR_Info_UI_Question_02": {
+        "SelfId": "Txt_MBR_Info_UI_Question_02",
+        "Text": "가까이 다가가면 도망가는 마물은......"
+      },
+      "Txt_MBR_Info_UI_Question_03": {
+        "SelfId": "Txt_MBR_Info_UI_Question_03",
+        "Text": "마물을 발견하는 요령이 있나요?"
+      },
+      "Txt_MBR_Info_UI_Question_04": {
+        "SelfId": "Txt_MBR_Info_UI_Question_04",
+        "Text": "배틀 로드가 뭔가요?"
+      },
+      "Txt_MBR_Info_UI_Question_05": {
+        "SelfId": "Txt_MBR_Info_UI_Question_05",
+        "Text": "배틀 로드에 도전하려면......"
+      },
+      "Txt_MBR_Info_UI_Question_06": {
+        "SelfId": "Txt_MBR_Info_UI_Question_06",
+        "Text": "배틀 로드에서 지면 어떻게 되나요?"
+      },
+      "Txt_MBR_Zoo_UI_Guide": {
+        "SelfId": "Txt_MBR_Zoo_UI_Guide",
+        "Text": "몬스터 선택"
+      },
+      "Txt_MBR_Entry_UI_Rank_Guide": {
+        "SelfId": "Txt_MBR_Entry_UI_Rank_Guide",
+        "Text": "랭크 선택"
+      },
+      "Txt_MBR_Entry_UI_Monster_Guide": {
+        "SelfId": "Txt_MBR_Entry_UI_Monster_Guide",
+        "Text": "몬스터 선택"
+      },
+      "Txt_MBR_Entry_UI_Monster_Remove": {
+        "SelfId": "Txt_MBR_Entry_UI_Monster_Remove",
+        "Text": "해제"
+      },
+      "Txt_MBR_Entry_UI_Monster_Return": {
+        "SelfId": "Txt_MBR_Entry_UI_Monster_Return",
+        "Text": "돌아가기"
+      },
+      "Txt_MBR_Entry_UI_Entry_Yes": {
+        "SelfId": "Txt_MBR_Entry_UI_Entry_Yes",
+        "Text": "예"
+      },
+      "Txt_MBR_Entry_UI_Entry_No": {
+        "SelfId": "Txt_MBR_Entry_UI_Entry_No",
+        "Text": "멤버 교체"
+      },
+      "Txt_MBR_Entry_UI_FightMoney": {
+        "SelfId": "Txt_MBR_Entry_UI_FightMoney",
+        "Text": "상금"
+      },
+      "Txt_MBR_Invitation_UI_MonsterInfo": {
+        "SelfId": "Txt_MBR_Invitation_UI_MonsterInfo",
+        "Text": "보호한 몬스터"
+      },
+      "Txt_MBR_Invitation_UI_MonsterTamer_003": {
+        "SelfId": "Txt_MBR_Invitation_UI_MonsterTamer_003",
+        "Text": "몬스터와 교감하기 시작했다."
+      },
+      "Txt_MBR_Invitation_UI_MonsterTamer_010": {
+        "SelfId": "Txt_MBR_Invitation_UI_MonsterTamer_010",
+        "Text": "몬스터의 마음을 조금 이해했다."
+      },
+      "Txt_MBR_Invitation_UI_MonsterTamer_030": {
+        "SelfId": "Txt_MBR_Invitation_UI_MonsterTamer_030",
+        "Text": "몬스터의 마음을 더 이해했다."
+      },
+      "Txt_MBR_Invitation_UI_MonsterTamer_050": {
+        "SelfId": "Txt_MBR_Invitation_UI_MonsterTamer_050",
+        "Text": "몬스터의 마음을 상당히 이해했다."
+      },
+      "Txt_MBR_Invitation_UI_MonsterTamer_080": {
+        "SelfId": "Txt_MBR_Invitation_UI_MonsterTamer_080",
+        "Text": "몬스터와 교감했다."
+      },
+      "Txt_MBR_Invitation_UI_MonsterTamer_100": {
+        "SelfId": "Txt_MBR_Invitation_UI_MonsterTamer_100",
+        "Text": "몬스터와 신뢰 관계를 맺었다."
+      },
+      "Txt_MBR_Info_Msg_Start_01": {
+        "SelfId": "Txt_MBR_Info_Msg_Start_01",
+        "Text": "어서 오세요~!\r\n여기는 안내소랍니다."
+      },
+      "Txt_MBR_Info_Msg_Start_02": {
+        "SelfId": "Txt_MBR_Info_Msg_Start_02",
+        "Text": "어서 오세요~!\r\n여기서는 마물들을 보호하는 방법과\r\n배틀 로드에 대해서 안내해 드립니다~"
+      },
+      "Txt_MBR_Info_Msg_Top_01": {
+        "SelfId": "Txt_MBR_Info_Msg_Top_01",
+        "Text": "무슨 일로 오셨나요~?<NO_INPUT>"
+      },
+      "Txt_MBR_Info_Msg_Top_02": {
+        "SelfId": "Txt_MBR_Info_Msg_Top_02",
+        "Text": "무슨 일로 오셨나요~?<NO_INPUT>"
+      },
+      "Txt_MBR_Info_Msg_Quit": {
+        "SelfId": "Txt_MBR_Info_Msg_Quit",
+        "Text": "언제든지 또 오세요~"
+      },
+      "Txt_MBR_Info_Msg_Answer_01": {
+        "SelfId": "Txt_MBR_Info_Msg_Answer_01",
+        "Text": "그건 말이죠~\r\n얌전히 있는 아이를 발견하면 다가가서\r\n예뻐해 주면 된답니다~!<KEY_WAIT>\r\n몬스터 영감님이 인정하신 분이라면\r\n마물들도 마음을 열어 줄 거예요~!<KEY_WAIT>\r\n마성이 사라진 아이들은 그 자리에\r\n가만히 서 있기만 하거든요......\r\n발견하면 꼭 보호해 주세요~!"
+      },
+      "Txt_MBR_Info_Msg_Answer_02": {
+        "SelfId": "Txt_MBR_Info_Msg_Answer_02",
+        "Text": "그건 경계심이 강한 아이랍니다~!\r\n사람의 발소리나 냄새에 놀라서\r\n다가가기 전에 달아나는 거예요~<KEY_WAIT>\r\n그러니 자신의 발소리를 죽이거나\r\n마물이 좋아하는 냄새를 풍기면\r\n그런 아이들도 도망가지 않을 거예요~!<KEY_WAIT>\r\n예를 들면...... 도적인 분은\r\n조용히 이동할 수 있겠죠~\r\n도전해 보세요~!"
+      },
+      "Txt_MBR_Info_Msg_Answer_03": {
+        "SelfId": "Txt_MBR_Info_Msg_Answer_03",
+        "Text": "어디 보자......\r\n예를 들면 마물마다\r\n자주 활동하는 시간대가 있답니다~<KEY_WAIT>\r\n낮에 활발히 움직이는 아이도 있고\r\n밤에만 쌩쌩해지는 아이도 있는 듯하니\r\n다양한 시간대에 모험을 해 보세요~!<KEY_WAIT>\r\n저녁에만 잠시 모습을 드러내는\r\n아이도 있을지 모르겠네요~!\r\n여관이라면 밤에 출발할 수도 있답니다~"
+      },
+      "Txt_MBR_Info_Msg_Answer_04": {
+        "SelfId": "Txt_MBR_Info_Msg_Answer_04",
+        "Text": "후후후...... 좋은 질문이에요~!\r\n배틀 로드란! 보호되어\r\n새로운 생활을 시작한 마물들이~<KEY_WAIT>\r\n건강과 일상의 보람을 찾아\r\n다 함께 땀과 육즙을 흘리는 싸움의 전당이에요~!<KEY_WAIT>\r\n......가끔 더 몬스터 배틀 로드라고\r\n잘못 부르는 할아버지가 계신데\r\n정식 명칭에는 더가 안 붙는답니다~<KEY_WAIT>\r\n마물들을 많이 보호해서\r\n다양한 아이를 출전시켜 보세요~<KEY_WAIT>\r\n처음에는 이기기 힘들더라도\r\n마물 친구가 늘어나면\r\n점차 이겨 나갈 수 있을 거예요~!"
+      },
+      "Txt_MBR_Info_Msg_Answer_05": {
+        "SelfId": "Txt_MBR_Info_Msg_Answer_05",
+        "Text": "접수처에 신청하면\r\n언제든지 출전할 수 있어요~<KEY_WAIT>\r\n참가비는 필요하지만\r\n이기면 이길수록 상금도 늘어난답니다~\r\n힘을 내서 많이 벌어 보세요~!<KEY_WAIT>\r\n배틀 로드 경기장은 여기뿐 아니라\r\n전 세계 곳곳에 있답니다~\r\n장소마다 랭크가 설정되어 있어요~<KEY_WAIT>\r\n처음에는 H 랭크부터 시작해서\r\n해당 랭크의 모든 시합을 이기면\r\n다음 랭크에 도전할 수 있게 된답니다~!"
+      },
+      "Txt_MBR_Info_Msg_Answer_06": {
+        "SelfId": "Txt_MBR_Info_Msg_Answer_06",
+        "Text": "시합에 지면 그 즉시 탈락하게 돼요~\r\n하지만 그때까지 이긴 횟수에 따라\r\n상금이 지급되니까 안심하세요~<KEY_WAIT>\r\n포기하지 말고 몇 번이고 도전해 주세요~!<KEY_WAIT>\r\n지더라도 접수처에 돌아오는 게 다니까\r\n딱히 손해 보는 것도 없답니다~\r\n마물들의 회복도 해 드리니 걱정 마세요~!"
+      },
+      "Txt_MBR_Zoo_Msg_Start_01": {
+        "SelfId": "Txt_MBR_Zoo_Msg_Start_01",
+        "Text": "어서 오게.\r\n몬스터들은 여전히 건강히 지내고 있다네."
+      },
+      "Txt_MBR_Zoo_Msg_Start_02": {
+        "SelfId": "Txt_MBR_Zoo_Msg_Start_02",
+        "Text": "오오, 자네인가! 잘 왔네.\r\n그때 이후로도 몬스터들에게 마음을\r\n써 주고 있는 듯해서 고맙구먼."
+      },
+      "Txt_MBR_Zoo_Msg_Top_01": {
+        "SelfId": "Txt_MBR_Zoo_Msg_Top_01",
+        "Text": "모처럼이니 둘러보고 가게나.<NO_INPUT>"
+      },
+      "Txt_MBR_Zoo_Msg_Top_02": {
+        "SelfId": "Txt_MBR_Zoo_Msg_Top_02",
+        "Text": "또 만나고 싶은 몬스터가 있는가?<NO_INPUT>"
+      },
+      "Txt_MBR_Zoo_Msg_Top_03": {
+        "SelfId": "Txt_MBR_Zoo_Msg_Top_03",
+        "Text": "설마 우리를 이기다니......\r\n훌륭했네!"
+      },
+      "Txt_MBR_Zoo_Msg_Quit": {
+        "SelfId": "Txt_MBR_Zoo_Msg_Quit",
+        "Text": "언제든지 또 오게나.\r\n기다리고 있겠네!"
+      },
+      "Txt_MBR_Zoo_Msg_Achieve_Reward_01": {
+        "SelfId": "Txt_MBR_Zoo_Msg_Achieve_Reward_01",
+        "Text": "오오, 기다리고 있었네.<KEY_WAIT>\r\n자네가 보호한 몬스터의 수가\r\n{VALUE}체를 넘은 기념으로\r\n사례를 하고 싶었다네.<KEY_WAIT>\r\n부디 앞으로도\r\n몬스터들을 잘 돌봐주게나.\r\n부탁함세."
+      },
+      "Txt_MBR_Zoo_Msg_Achieve_Reward_02": {
+        "SelfId": "Txt_MBR_Zoo_Msg_Achieve_Reward_02",
+        "Text": "오오, 잘 왔네.<KEY_WAIT>\r\n자네가 보호한 몬스터의 수가\r\n{VALUE}체가 됐다네.\r\n다들 개성이 넘치는군.<KEY_WAIT>\r\n적지만 내가 주는 보답일세!\r\n앞으로도 몬스터들을 잘 부탁하네."
+      },
+      "Txt_MBR_Zoo_Msg_Achieve_Reward_03": {
+        "SelfId": "Txt_MBR_Zoo_Msg_Achieve_Reward_03",
+        "Text": "오오, 자네인가!\r\n마침 잘 왔군.<KEY_WAIT>\r\n자네가 보호한 몬스터들이\r\n{VALUE}체가 됐다네.<KEY_WAIT>\r\n언제 이렇게 시간이 흘렀는지......\r\n대가족이 되었구먼.<KEY_WAIT>\r\n이렇게 많은 몬스터들을 발견한 사람은\r\n자네 말고는 없을 게야. 앞으로도 기대하겠네.\r\n대단한 것은 아니지만 여행할 때 써 주게나."
+      },
+      "Txt_MBR_Zoo_Msg_Achieve_Reward_04": {
+        "SelfId": "Txt_MBR_Zoo_Msg_Achieve_Reward_04",
+        "Text": "오오, 자네인가! 기다리고 있었네.<KEY_WAIT>\r\n자네가 보호한 몬스터들이\r\n드디어 {VALUE}체가 됐다네!<KEY_WAIT>\r\n이렇게 많아질 줄은\r\n솔직히 상상도 못 했다네.<KEY_WAIT>\r\n몬스터들도 모두 건강히 지내고 있는 듯해\r\n나도 아주 기쁘군.<KEY_WAIT>\r\n오늘은 자네의 노력을 칭찬하는 의미에서\r\n특별한 것을 준비했다네. 받아 주게나!\r\n안전한 여행길이 되기를 바라네."
+      },
+      "Txt_MBR_Zoo_Msg_Achieve_Reward_05": {
+        "SelfId": "Txt_MBR_Zoo_Msg_Achieve_Reward_05",
+        "Text": "......오오, 자네인가.\r\n자네는 참 대단해.\r\n새삼스럽지만 놀랐다네.<KEY_WAIT>\r\n갑자기 무슨 말이냐고?\r\n자네가 보호한 몬스터들이\r\n무려 {VALUE}체가 됐다네.<KEY_WAIT>\r\n얼마나 세계를 돌아다녀야\r\n이 많은 몬스터를 발견할 수 있을지......\r\n이 몬스터 영감님도 상상을 못 하겠군.<KEY_WAIT>\r\n정말 고맙네.\r\n슬라링과 만난 그 날......\r\n자네에게 말을 건 내 감이 옳았어!<KEY_WAIT>\r\n자네야말로 진정한 몬스터 마스터일세!\r\n정말로 고맙네!!<KEY_WAIT>\r\n자네의 여행에 도움이 될지는 이제 모르겠지만\r\n내가 좋아하는 것을 선물함세.\r\n사양 말고 가뿐한 마음으로 받아 주게나!<KEY_WAIT>\r\n몬스터들의 생활은 앞으로도 이어질 게야.\r\n마음이 내키면 또 언제든 찾아오게나."
+      },
+      "Txt_MBR_Zoo_Msg_Reward_A1": {
+        "SelfId": "Txt_MBR_Zoo_Msg_Reward_A1",
+        "Text": "{LEADER}<IfKRVowel_LEADER(는,은)>\r\n{WORD}<IfKRVowel_WORD(를,을)> {VALUE}개\r\n몬스터 영감님에게 받았다!"
+      },
+      "Txt_MBR_Zoo_Msg_Reward_A2": {
+        "SelfId": "Txt_MBR_Zoo_Msg_Reward_A2",
+        "Text": "{LEADER}<IfKRVowel_LEADER(는,은)>\r\n{WORD}<IfKRVowel_WORD(를,을)> {VALUE}개,\r\n{WORD2}<IfKRVowel_WORD2(를,을)> {VALUE2}개"
+      },
+      "Txt_MBR_Zoo_Msg_Reward_B0": {
+        "SelfId": "Txt_MBR_Zoo_Msg_Reward_B0",
+        "Text": "몬스터 영감님에게 받았다!"
+      },
+      "Txt_MBR_Zoo_Msg_Reward_B1": {
+        "SelfId": "Txt_MBR_Zoo_Msg_Reward_B1",
+        "Text": "{WORD}<IfKRVowel_WORD(를,을)> {VALUE}개\r\n몬스터 영감님에게 받았다!"
+      },
+      "Txt_MBR_Zoo_Msg_Reward_B2": {
+        "SelfId": "Txt_MBR_Zoo_Msg_Reward_B2",
+        "Text": "{WORD}<IfKRVowel_WORD(를,을)> {VALUE}개,\r\n{WORD2}<IfKRVowel_WORD2(를,을)> {VALUE2}개\r\n몬스터 영감님에게 받았다!"
+      },
+      "Txt_MBR_Zoo_Msg_Reward_B3": {
+        "SelfId": "Txt_MBR_Zoo_Msg_Reward_B3",
+        "Text": "{WORD}<IfKRVowel_WORD(를,을)> {VALUE}개,\r\n{WORD2}<IfKRVowel_WORD2(를,을)> {VALUE2}개,\r\n{WORD3}<IfKRVowel_WORD3(를,을)> {VALUE3}개"
+      },
+      "Txt_MBR_Zoo_Msg_Reward_Excess": {
+        "SelfId": "Txt_MBR_Zoo_Msg_Reward_Excess",
+        "Text": "이런! 더는 못 드는 모양이군.\r\n미안하네만 들 수 없는 사례는 포기하게."
+      },
+      "Txt_MBR_Entry_Msg_Start_01": {
+        "SelfId": "Txt_MBR_Entry_Msg_Start_01",
+        "Text": "마물들의 뜨거운 공연......\r\n몬스터 배틀 로드에 잘 오셨습니다."
+      },
+      "Txt_MBR_Entry_Msg_Start_02": {
+        "SelfId": "Txt_MBR_Entry_Msg_Start_02",
+        "Text": "잘 오셨습니다.\r\n이곳은 마물들이 겨루며 인연을 다지는 싸움의 전당.\r\n몬스터 배틀 로드입니다!<KEY_WAIT>\r\n이곳에서는 모았던 마물들을\r\n싸우게 할 수 있습니다."
+      },
+      "Txt_MBR_Entry_Msg_Rank_01": {
+        "SelfId": "Txt_MBR_Entry_Msg_Rank_01",
+        "Text": "현재 개최 중인\r\n배틀 랭크는 이러합니다.\r\n출전 신청을 하시겠습니까?<NO_INPUT>"
+      },
+      "Txt_MBR_Entry_Msg_Rank_02": {
+        "SelfId": "Txt_MBR_Entry_Msg_Rank_02",
+        "Text": "현재 개최 중인\r\n배틀 랭크는 이러합니다.\r\n출전 신청을 하시겠습니까?<NO_INPUT>"
+      },
+      "Txt_MBR_Entry_Msg_Rank_Entry": {
+        "SelfId": "Txt_MBR_Entry_Msg_Rank_Entry",
+        "Text": "그럼 참가비를 받겠습니다."
+      },
+      "Txt_MBR_Entry_Msg_Rank_Err_Entry": {
+        "SelfId": "Txt_MBR_Entry_Msg_Rank_Err_Entry",
+        "Text": "죄송하지만 손님께서 출전하실 수 있는\r\n랭크가 없는 듯합니다......."
+      },
+      "Txt_MBR_Entry_Msg_Rank_Err_Rank": {
+        "SelfId": "Txt_MBR_Entry_Msg_Rank_Err_Rank",
+        "Text": "손님께서는 아직 그 랭크에\r\n출전하실 수 없는 듯합니다."
+      },
+      "Txt_MBR_Entry_Msg_Rank_Err_Money": {
+        "SelfId": "Txt_MBR_Entry_Msg_Rank_Err_Money",
+        "Text": "대단히 죄송하지만\r\n참가비가 부족한 것 같네요."
+      },
+      "Txt_MBR_Entry_Msg_Party_01": {
+        "SelfId": "Txt_MBR_Entry_Msg_Party_01",
+        "Text": "출전 멤버는 이렇게 결정하시겠습니까?\r\n멤버 칸을 선택해서 다른 마물과\r\n교체할 수도 있습니다.<NO_INPUT>"
+      },
+      "Txt_MBR_Entry_Msg_Party_02": {
+        "SelfId": "Txt_MBR_Entry_Msg_Party_02",
+        "Text": "출전 멤버는 이렇게 결정하시겠습니까?\r\n교체하고 싶다면 멤버 칸을 선택해 주십시오.<NO_INPUT>"
+      },
+      "Txt_MBR_Entry_Msg_Party_Empty": {
+        "SelfId": "Txt_MBR_Entry_Msg_Party_Empty",
+        "Text": "어머? 파티에 아무도 없는 듯하네요.\r\n출전할 마물을 등록하죠!\r\n먼저 멤버 칸을 선택해 주세요.<NO_INPUT>"
+      },
+      "Txt_MBR_Entry_Msg_Monster_01": {
+        "SelfId": "Txt_MBR_Entry_Msg_Monster_01",
+        "Text": "어떤 마물을 출전시키시겠습니까?<NO_INPUT>"
+      },
+      "Txt_MBR_Entry_Msg_Entry_Confirm": {
+        "SelfId": "Txt_MBR_Entry_Msg_Entry_Confirm",
+        "Text": "알겠습니다.\r\n곧 토너먼트가 시작됩니다.\r\n준비는 다 되셨나요?<NO_INPUT>"
+      },
+      "Txt_MBR_Entry_Msg_Entry_Err_Party": {
+        "SelfId": "Txt_MBR_Entry_Msg_Entry_Err_Party",
+        "Text": "어머? 출전 멤버가 아무도 없는 듯하네요.\r\n멤버 칸을 선택해서 마물을 등록해 주세요.<NO_INPUT>"
+      },
+      "Txt_MBR_Entry_Msg_Quit_01": {
+        "SelfId": "Txt_MBR_Entry_Msg_Quit_01",
+        "Text": "다음 방문을 기다리고 있겠습니다."
+      },
+      "Txt_MBR_Entry_Msg_Quit_02": {
+        "SelfId": "Txt_MBR_Entry_Msg_Quit_02",
+        "Text": "다음 방문을 기다리고 있겠습니다."
+      },
+      "Txt_MBR_Entry_Msg_Start_Match": {
+        "SelfId": "Txt_MBR_Entry_Msg_Start_Match",
+        "Text": "지금부터 배틀 로드 {WORD}<IfKRVowel_WORD(를,을)> 시작합니다.\r\n도전자는 투기장으로 이동해 주세요!"
+      },
+      "Txt_MBR_Entry_Msg_Result_Top": {
+        "SelfId": "Txt_MBR_Entry_Msg_Result_Top",
+        "Text": "수고하셨습니다."
+      },
+      "Txt_MBR_Entry_Msg_Result_Lose": {
+        "SelfId": "Txt_MBR_Entry_Msg_Result_Lose",
+        "Text": "훌륭한 시합이었지만\r\n아쉽게도 중도 탈락입니다."
+      },
+      "Txt_MBR_Entry_Msg_Result_Win_01": {
+        "SelfId": "Txt_MBR_Entry_Msg_Result_Win_01",
+        "Text": "배틀 로드 {WORD} 승리입니다!"
+      },
+      "Txt_MBR_Entry_Msg_Result_Win_02": {
+        "SelfId": "Txt_MBR_Entry_Msg_Result_Win_02",
+        "Text": "{VALUE}번 승리하셨으므로\r\n상금 {VALUE2}골드를 드립니다."
+      },
+      "Txt_MBR_Entry_Msg_Result_Win_03": {
+        "SelfId": "Txt_MBR_Entry_Msg_Result_Win_03",
+        "Text": "배틀 로드 {WORD} 돌파 축하드립니다!\r\n보는 이들까지 뜨겁게 하는 멋진 시합이었습니다.\r\n<KEY_WAIT>\r\n처음으로 {WORD}에서 승리하셨으니\r\n상금 {VALUE}골드와 상품을 드립니다!"
+      },
+      "Txt_MBR_Entry_Msg_Result_Win_04": {
+        "SelfId": "Txt_MBR_Entry_Msg_Result_Win_04",
+        "Text": "소지 한도를 초과한 상금은\r\n죄송하지만 드릴 수 없습니다."
+      },
+      "Txt_MBR_Entry_Msg_Reward_A1": {
+        "SelfId": "Txt_MBR_Entry_Msg_Reward_A1",
+        "Text": "{LEADER}<IfKRVowel_LEADER(는,은)>\r\n{WORD}<IfKRVowel_WORD(를,을)> {VALUE}개\r\n상품으로 받았다!"
+      },
+      "Txt_MBR_Entry_Msg_Reward_A2": {
+        "SelfId": "Txt_MBR_Entry_Msg_Reward_A2",
+        "Text": "{LEADER}<IfKRVowel_LEADER(는,은)>\r\n{WORD}<IfKRVowel_WORD(를,을)> {VALUE}개,\r\n{WORD2}<IfKRVowel_WORD2(를,을)> {VALUE2}개"
+      },
+      "Txt_MBR_Entry_Msg_Reward_B0": {
+        "SelfId": "Txt_MBR_Entry_Msg_Reward_B0",
+        "Text": "상품으로 받았다!"
+      },
+      "Txt_MBR_Entry_Msg_Reward_B1": {
+        "SelfId": "Txt_MBR_Entry_Msg_Reward_B1",
+        "Text": "{WORD}<IfKRVowel_WORD(를,을)> {VALUE}개\r\n상품으로 받았다!"
+      },
+      "Txt_MBR_Entry_Msg_Reward_B2": {
+        "SelfId": "Txt_MBR_Entry_Msg_Reward_B2",
+        "Text": "{WORD}<IfKRVowel_WORD(를,을)> {VALUE}개,\r\n{WORD2}<IfKRVowel_WORD2(를,을)> {VALUE2}개\r\n상품으로 받았다!"
+      },
+      "Txt_MBR_Entry_Msg_Reward_B3": {
+        "SelfId": "Txt_MBR_Entry_Msg_Reward_B3",
+        "Text": "{WORD}<IfKRVowel_WORD(를,을)> {VALUE}개,\r\n{WORD2}<IfKRVowel_WORD2(를,을)> {VALUE2}개,\r\n{WORD3}<IfKRVowel_WORD3(를,을)> {VALUE3}개"
+      },
+      "Txt_MBR_Entry_Msg_Reward_Excess": {
+        "SelfId": "Txt_MBR_Entry_Msg_Reward_Excess",
+        "Text": "소지 한도를 초과한 상품은\r\n죄송하지만 드릴 수 없습니다."
+      },
+      "Txt_MBR_Invitation_Msg_Success_010": {
+        "SelfId": "Txt_MBR_Invitation_Msg_Success_010",
+        "Text": "마물은 기쁜 듯이\r\n몬스터 영감님 곁으로 향했다!"
+      },
+      "Txt_MBR_Invitation_Msg_Success_020": {
+        "SelfId": "Txt_MBR_Invitation_Msg_Success_020",
+        "Text": "마물은 춤을 추며\r\n몬스터 영감님 곁으로 달려갔다!"
+      },
+      "Txt_MBR_Invitation_Msg_Success_030": {
+        "SelfId": "Txt_MBR_Invitation_Msg_Success_030",
+        "Text": "마물은 천천히\r\n몬스터 영감님 곁으로 향했다!"
+      },
+      "Txt_MBR_Invitation_Msg_Success_040": {
+        "SelfId": "Txt_MBR_Invitation_Msg_Success_040",
+        "Text": "마물은 마음을 다잡고\r\n몬스터 영감님 곁으로 달려갔다!"
+      },
+      "Txt_MBR_Invitation_Msg_Success_050": {
+        "SelfId": "Txt_MBR_Invitation_Msg_Success_050",
+        "Text": "신룡은 크게 고개를 끄덕이고는\r\n몬스터 영감님 곁으로 향했다."
+      },
+      "Txt_MBR_Invitation_Msg_Named": {
+        "SelfId": "Txt_MBR_Invitation_Msg_Named",
+        "Text": "몬스터를 무사히 보호하여\r\n{ACTOR}<IfKRVowel_ACTOR(라는,이라는)> 이름을 붙여 주었다!"
+      },
+      "Txt_MBR_Invitation_Msg_StatusUp": {
+        "SelfId": "Txt_MBR_Invitation_Msg_StatusUp",
+        "Text": "{M_NAME}의 동료가 늘어나\r\n{ACTOR} 일행의 인연이 깊어졌다!<KEY_WAIT>\r\n{ACTOR}<IfKRVowel_ACTOR(가,이)> 더욱 강해졌다!!"
+      },
+      "Txt_MBR_Invitation_Msg_ZooPrize": {
+        "SelfId": "Txt_MBR_Invitation_Msg_ZooPrize",
+        "Text": "보호한 몬스터 수가 {VALUE}체가 됐다.<KEY_WAIT>\r\n몬스터 영감님과 몬스터들을\r\n살펴보러 가 보자."
+      },
+      "Txt_MBR_Invitation_Msg_MonsterTamer": {
+        "SelfId": "Txt_MBR_Invitation_Msg_MonsterTamer",
+        "Text": "보호한 몬스터 수가 {VALUE}체가 됐다.<KEY_WAIT>\r\n몬스터에 대해 더 깊이 이해할 수 있게 되었다."
+      }
+    }
+  }
+]

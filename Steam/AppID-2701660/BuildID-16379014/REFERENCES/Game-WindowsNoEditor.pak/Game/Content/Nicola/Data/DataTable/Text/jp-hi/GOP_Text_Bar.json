@@ -1,0 +1,312 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_Bar",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Bar_UI_Top_02": {
+        "SelfId": "Txt_Bar_UI_Top_02",
+        "Text": "めいぼをみる"
+      },
+      "Txt_Bar_UI_Top_03": {
+        "SelfId": "Txt_Bar_UI_Top_03",
+        "Text": "たすけにだす"
+      },
+      "Txt_Bar_UI_Top_04": {
+        "SelfId": "Txt_Bar_UI_Top_04",
+        "Text": "たすけをよぶ"
+      },
+      "Txt_Bar_UI_Top_05": {
+        "SelfId": "Txt_Bar_UI_Top_05",
+        "Text": "やめる"
+      },
+      "Txt_Bar_UI_Top_06": {
+        "SelfId": "Txt_Bar_UI_Top_06",
+        "Text": "なかまをよびだす"
+      },
+      "Txt_Bar_UI_Top_07": {
+        "SelfId": "Txt_Bar_UI_Top_07",
+        "Text": "なかまをあずける"
+      },
+      "Txt_Bar_UI_Top_08": {
+        "SelfId": "Txt_Bar_UI_Top_08",
+        "Text": "なかまをさがす"
+      },
+      "Txt_Bar_UI_Top_09": {
+        "SelfId": "Txt_Bar_UI_Top_09",
+        "Text": "おたすけきのう"
+      },
+      "Txt_Bar_UI_Top_10": {
+        "SelfId": "Txt_Bar_UI_Top_10",
+        "Text": "もどる"
+      },
+      "Txt_Bar_UI_Guide_01": {
+        "SelfId": "Txt_Bar_UI_Guide_01",
+        "Text": "なかまをせんたく"
+      },
+      "Txt_Bar_UI_Blank": {
+        "SelfId": "Txt_Bar_UI_Blank",
+        "Text": "なかまがいません"
+      },
+      "Txt_Bar_UI_Lend_Guide": {
+        "SelfId": "Txt_Bar_UI_Lend_Guide",
+        "Text": "なかまをせんたく"
+      },
+      "Txt_Bar_UI_Borrow_Guide": {
+        "SelfId": "Txt_Bar_UI_Borrow_Guide",
+        "Text": "ぼうけんしゃをせんたく"
+      },
+      "Txt_Bar_Message_Start_01": {
+        "SelfId": "Txt_Bar_Message_Start_01",
+        "Text": "ここは　ルイーダのみせ。"
+      },
+      "Txt_Bar_Message_Start_02": {
+        "SelfId": "Txt_Bar_Message_Start_02",
+        "Text": "たびびとたちが　なかまをもとめて\r\nあつまる　であいと　わかれの　さかばよ。"
+      },
+      "Txt_Bar_Message_Top": {
+        "SelfId": "Txt_Bar_Message_Top",
+        "Text": "なにを　おのぞみかしら？<NO_INPUT>"
+      },
+      "Txt_Bar_Message_CannotDropOff": {
+        "SelfId": "Txt_Bar_Message_CannotDropOff",
+        "Text": "あずけるって……　だれを？\r\n{LEADER}さんは　いま\r\nひとりぼっち　でしょう？"
+      },
+      "Txt_Bar_Message_DropOffTop": {
+        "SelfId": "Txt_Bar_Message_DropOffTop",
+        "Text": "だれを　おあずかりすれば　いいの？<NO_INPUT>"
+      },
+      "Txt_Bar_Message_DropOffHero": {
+        "SelfId": "Txt_Bar_Message_DropOffHero",
+        "Text": "あら　いやだ。\r\n{HERO}さんが　おみせにいたら　たびの\r\nしきをとる　ひとが　いなくなっちゃうわよ。"
+      },
+      "Txt_Bar_Message_DropOffDeath_01": {
+        "SelfId": "Txt_Bar_Message_DropOffDeath_01",
+        "Text": "まあ！　{WORD}さんを　そんな\r\nすがたのまま　あずけるの？\r\nそれは　あんまりじゃないかしら。"
+      },
+      "Txt_Bar_Message_DropOffDeath_02": {
+        "SelfId": "Txt_Bar_Message_DropOffDeath_02",
+        "Text": "それとも　いまは\r\nたすけてあげる　おカネが　ないの？<NO_INPUT>"
+      },
+      "Txt_Bar_Message_DropOffAbnormalStatus": {
+        "SelfId": "Txt_Bar_Message_DropOffAbnormalStatus",
+        "Text": "{WORD}さんを\r\nおあずかりすれば　いいのね？\r\nすこし　カオいろが　わるそうだけど……。"
+      },
+      "Txt_Bar_Message_ReplaceSelectDeath": {
+        "SelfId": "Txt_Bar_Message_ReplaceSelectDeath",
+        "Text": "それなら　しかたないわね。\r\n{WORD}さんの　ひつぎ\r\nたしかに　おあずかりするわ。"
+      },
+      "Txt_Bar_Message_ReplaceSelectDeathCancel": {
+        "SelfId": "Txt_Bar_Message_ReplaceSelectDeathCancel",
+        "Text": "だったら　たすけてあげたほうが\r\nいいんじゃないかしら？\r\n{WORD}さんが　かわいそうよ。"
+      },
+      "Txt_Bar_Message_ReplaceSelect": {
+        "SelfId": "Txt_Bar_Message_ReplaceSelect",
+        "Text": "{WORD}さんを　どうするの？<NO_INPUT>"
+      },
+      "Txt_Bar_Message_DropOff_01": {
+        "SelfId": "Txt_Bar_Message_DropOff_01",
+        "Text": "{WORD}さんを　おあずかりすれば　いいのね？"
+      },
+      "Txt_Bar_Message_DropOff_02": {
+        "SelfId": "Txt_Bar_Message_DropOff_02",
+        "Text": "じゃあ　{WORD}さん\r\nしばらく　おやすみだわよ。"
+      },
+      "Txt_Bar_Message_Replace_01": {
+        "SelfId": "Txt_Bar_Message_Replace_01",
+        "Text": "{WORD}さんを　いれかえるのね？"
+      },
+      "Txt_Bar_Message_Replace_02": {
+        "SelfId": "Txt_Bar_Message_Replace_02",
+        "Text": "かわりに　だれを　およびするのかしら？<NO_INPUT>"
+      },
+      "Txt_Bar_Message_CannotReplace": {
+        "SelfId": "Txt_Bar_Message_CannotReplace",
+        "Text": "あら　じょうだんでしょ。\r\nしんでるひと　ばかりで\r\nたびには　でられなくてよ。"
+      },
+      "Txt_Bar_Message_PickUpSelect": {
+        "SelfId": "Txt_Bar_Message_PickUpSelect",
+        "Text": "だれを　およびしましょうか？<NO_INPUT>"
+      },
+      "Txt_Bar_Message_CannotPickUp": {
+        "SelfId": "Txt_Bar_Message_CannotPickUp",
+        "Text": "でも　おみせには\r\nあなたのなかまに　できるようなひとは\r\nひとりも　いなくてよ。"
+      },
+      "Txt_Bar_Message_PickUp_01": {
+        "SelfId": "Txt_Bar_Message_PickUp_01",
+        "Text": "{WORD}さんを　なかまに　くわえるのね。\r\nわかったわ。"
+      },
+      "Txt_Bar_Message_PickUp_02": {
+        "SelfId": "Txt_Bar_Message_PickUp_02",
+        "Text": "{WORD}さーん！\r\n{LEADER}さんが　およびよー！"
+      },
+      "Txt_Bar_Message_PickUp_03": {
+        "SelfId": "Txt_Bar_Message_PickUp_03",
+        "Text": "{WORD}が　なかまに　くわわった！"
+      },
+      "Txt_Bar_Message_Sort": {
+        "SelfId": "Txt_Bar_Message_Sort",
+        "Text": "そうびしているもの　いがいは\r\nその　ふくろに　いれておくわね。"
+      },
+      "Txt_Bar_Message_SortFirst": {
+        "SelfId": "Txt_Bar_Message_SortFirst",
+        "Text": "こうしておかないと　たいせつなものを\r\nだれが　もっていたか\r\nわすれちゃうひとが　いるのよ。"
+      },
+      "Txt_Bar_Message_DropOffAgain": {
+        "SelfId": "Txt_Bar_Message_DropOffAgain",
+        "Text": "ほかにも　だれか\r\nおあずかりしましょうか？<NO_INPUT>"
+      },
+      "Txt_Bar_Message_PickUpAgain": {
+        "SelfId": "Txt_Bar_Message_PickUpAgain",
+        "Text": "ほかにも　だれか\r\nおよびしましょうか？<NO_INPUT>"
+      },
+      "Txt_Bar_Message_CannotPickUpPartyMAX_01": {
+        "SelfId": "Txt_Bar_Message_CannotPickUpPartyMAX_01",
+        "Text": "あら　そんなに\r\nゾロゾロおなかまが　いるのに？"
+      },
+      "Txt_Bar_Message_CannotPickUpPartyMAX_02": {
+        "SelfId": "Txt_Bar_Message_CannotPickUpPartyMAX_02",
+        "Text": "だれかを　あずけないかぎり\r\nそれいじょうは　つれていけなくてよ。"
+      },
+      "Txt_Bar_Message_CannotViewRoster": {
+        "SelfId": "Txt_Bar_Message_CannotViewRoster",
+        "Text": "あら　でも　あなたの　おなかまは\r\nひとりも　おあずかりしてなくてよ。"
+      },
+      "Txt_Bar_Message_ViewRosterTop": {
+        "SelfId": "Txt_Bar_Message_ViewRosterTop",
+        "Text": "さかばにいるひとのようすを　みたいのね。<NO_INPUT>"
+      },
+      "Txt_Bar_Message_TopAgain": {
+        "SelfId": "Txt_Bar_Message_TopAgain",
+        "Text": "ほかに　ごようは？<NO_INPUT>"
+      },
+      "Txt_Bar_Message_Finish": {
+        "SelfId": "Txt_Bar_Message_Finish",
+        "Text": "じゃ　また　いらしてね。"
+      },
+      "Txt_Bar_Message_DropOffOnlyLend": {
+        "SelfId": "Txt_Bar_Message_DropOffOnlyLend",
+        "Text": "それじゃあ　パーティが\r\nたすけにきてくれている　ひとだけに\r\nなってしまうわよ。"
+      },
+      "Txt_Bar_Message_LendFirst": {
+        "SelfId": "Txt_Bar_Message_LendFirst",
+        "Text": "ここでは　あなたのなかまを　たすけに\r\nとうろくすることが　できるわ。<KEY_WAIT>\r\nとうろくしておけば　だれかの　べつのパーティで\r\nそのひとが　つかえるように　なるわよ。<KEY_WAIT>\r\nたすけにいく　といっても\r\nいなくなることは　ないし\r\nいままでどおりに　ぼうけんに　つれていけるわ。<KEY_WAIT>\r\nいつか　ほかの　ぼうけんしゃさんの\r\nたすけになるかも　しれないわね。"
+      },
+      "Txt_Bar_Message_LendNone": {
+        "SelfId": "Txt_Bar_Message_LendNone",
+        "Text": "でも　いまは　たすけにだせる\r\nなかまが　だれも　いないわよ。"
+      },
+      "Txt_Bar_Message_LendTop": {
+        "SelfId": "Txt_Bar_Message_LendTop",
+        "Text": "だれを　たすけに　だすのかしら？<NO_INPUT>"
+      },
+      "Txt_Bar_Message_LendTop2": {
+        "SelfId": "Txt_Bar_Message_LendTop2",
+        "Text": "じゃ　ほかの　だれを\r\nたすけに　だすのかしら？<NO_INPUT>"
+      },
+      "Txt_Bar_Message_LendRegistration": {
+        "SelfId": "Txt_Bar_Message_LendRegistration",
+        "Text": "{WORD}さんを\r\nたすけに　いかせるのね？<NO_INPUT>"
+      },
+      "Txt_Bar_Message_LendReregistration": {
+        "SelfId": "Txt_Bar_Message_LendReregistration",
+        "Text": "{WORD}さんを\r\nまた　たすけにいかせるのね？<NO_INPUT>"
+      },
+      "Txt_Bar_Message_LendChange": {
+        "SelfId": "Txt_Bar_Message_LendChange",
+        "Text": "{WORD2}さんが　とうろくされているけど\r\nかわりに　{WORD}さんを\r\nたすけにいかせて　いいのね？<NO_INPUT>"
+      },
+      "Txt_Bar_Message_LendDecide": {
+        "SelfId": "Txt_Bar_Message_LendDecide",
+        "Text": "じゃ　{WORD}さんを　とうろくするわね。\r\nみんなの　たすけになると　いいわね。"
+      },
+      "Txt_Bar_Message_BorrowFirst": {
+        "SelfId": "Txt_Bar_Message_BorrowFirst",
+        "Text": "ここでは　ほかのパーティの　ぼうけんしゃさんを\r\nパーティに　くわえることが　できるわ。"
+      },
+      "Txt_Bar_Message_BorrowNone": {
+        "SelfId": "Txt_Bar_Message_BorrowNone",
+        "Text": "まだ　たすけて　くれるような\r\nぼうけんしゃさんが　いないみたいね……。"
+      },
+      "Txt_Bar_Message_BorrowTop": {
+        "SelfId": "Txt_Bar_Message_BorrowTop",
+        "Text": "だれに　たすけにきて　\r\nもらうのかしら？<NO_INPUT>"
+      },
+      "Txt_Bar_Message_BorrowTop2": {
+        "SelfId": "Txt_Bar_Message_BorrowTop2",
+        "Text": "じゃ　ほかのだれかに\r\nたすけにきて　もらいましょうか？<NO_INPUT>"
+      },
+      "Txt_Bar_Message_BorrowReturnConfirm": {
+        "SelfId": "Txt_Bar_Message_BorrowReturnConfirm",
+        "Text": "いま　たすけてくれている　{WORD}さんは\r\nもどってしまうけど　それでも　いいかしら？"
+      },
+      "Txt_Bar_Message_BorrowReturnDecide": {
+        "SelfId": "Txt_Bar_Message_BorrowReturnDecide",
+        "Text": "わかったわ。\r\n{WORD}さんが　もっていたものは\r\nその　ふくろに　いれておくわね。"
+      },
+      "Txt_Bar_Message_BorrowReturnNoLive": {
+        "SelfId": "Txt_Bar_Message_BorrowReturnNoLive",
+        "Text": "いま　{WORD}さんが\r\nいなくなってしまうと　しんでいるひと\r\nばかりに　なってしまうわよ。"
+      },
+      "Txt_Bar_Message_BorrowReturnCancel": {
+        "SelfId": "Txt_Bar_Message_BorrowReturnCancel",
+        "Text": "わかったわ。\r\nこれからも　{WORD}さんに\r\nたすけて　もらいましょう。"
+      },
+      "Txt_Bar_Message_BorrowSelect": {
+        "SelfId": "Txt_Bar_Message_BorrowSelect",
+        "Text": "{WORD}さんに\r\nたすけにきて　もらうのかしら？<NO_INPUT>"
+      },
+      "Txt_Bar_Message_BorrowDecide": {
+        "SelfId": "Txt_Bar_Message_BorrowDecide",
+        "Text": "じゃ　{WORD}さんを\r\nとうろくするわね。"
+      },
+      "Txt_Bar_Message_BorrowPartyAdd": {
+        "SelfId": "Txt_Bar_Message_BorrowPartyAdd",
+        "Text": "そのまま　{WORD}さんを\r\nぼうけんに　つれていくの？<NO_INPUT>"
+      },
+      "Txt_Bar_Message_BorrowPartyChange": {
+        "SelfId": "Txt_Bar_Message_BorrowPartyChange",
+        "Text": "でも　そんなにゾロゾロ　おなかまが　いたら\r\nそれいじょうは　つれていけなくてよ。\r\nだれか　さかばで　まっていて　もらいましょうか？<NO_INPUT>"
+      },
+      "Txt_Bar_Message_BorrowPartySelect": {
+        "SelfId": "Txt_Bar_Message_BorrowPartySelect",
+        "Text": "じゃ　だれに　ここで\r\nまっていて　もらうのかしら？<NO_INPUT>"
+      },
+      "Txt_Bar_Message_BorrowPartySelect2": {
+        "SelfId": "Txt_Bar_Message_BorrowPartySelect2",
+        "Text": "ほかの　だれに　\r\nまっていて　もらいましょうか？<NO_INPUT>"
+      },
+      "Txt_Bar_Message_BorrowPartyToBar": {
+        "SelfId": "Txt_Bar_Message_BorrowPartyToBar",
+        "Text": "じゃ　{WORD}さんを　はずすわね。\r\nそうびしているもの　いがいは\r\nその　ふくろに　いれておくわ。"
+      },
+      "Txt_Bar_Message_BorrowAddBarMember": {
+        "SelfId": "Txt_Bar_Message_BorrowAddBarMember",
+        "Text": "じゃ　{WORD}さんは\r\nさかばで　まっていてもらうわね。"
+      },
+      "Txt_Bar_Message_Find": {
+        "SelfId": "Txt_Bar_Message_Find",
+        "Text": "いっしょに　ぼうけんにでるひとを\r\nさがしたいのね？\r\n<KEY_WAIT>\r\nもちろん　さかばにいるひとを　よんでもいいけれど\r\nもし　そんなひとが　いなかったら\r\nにかいの　うけつけで　さがしてもらうといいわ。<KEY_WAIT>\r\nきっと　あなたのきぼうに　ぴったりなひとを\r\nみつけてもらえると　おもうわよ！"
+      },
+      "Txt_Bar_Message_Help": {
+        "SelfId": "Txt_Bar_Message_Help",
+        "Text": "ほかの　ぼうけんしゃさんを　たすけてあげるの？\r\nそれとも　だれかに　たすけをおねがいする？<NO_INPUT>"
+      },
+      "Txt_Bar_Message_HelpAgain": {
+        "SelfId": "Txt_Bar_Message_HelpAgain",
+        "Text": "まだ　やりたいことが\r\nあるのかしら？<NO_INPUT>"
+      },
+      "Txt_Bar_Message_BorrowDecideSystem": {
+        "SelfId": "Txt_Bar_Message_BorrowDecideSystem",
+        "Text": "{WORD}が　ぼうけんのしょ{VALUE}の\r\nおたすけキャラとして\r\nとうろくされました。"
+      }
+    }
+  }
+]

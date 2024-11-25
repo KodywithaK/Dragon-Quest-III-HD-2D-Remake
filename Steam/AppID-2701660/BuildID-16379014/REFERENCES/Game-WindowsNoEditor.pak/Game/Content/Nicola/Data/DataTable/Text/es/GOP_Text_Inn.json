@@ -1,0 +1,124 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_Inn",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Inn_UI_Top_01": {
+        "SelfId": "Txt_Inn_UI_Top_01",
+        "Text": "Pasar la noche"
+      },
+      "Txt_Inn_UI_Top_02": {
+        "SelfId": "Txt_Inn_UI_Top_02",
+        "Text": "Descansar un rato"
+      },
+      "Txt_Inn_UI_Top_03": {
+        "SelfId": "Txt_Inn_UI_Top_03",
+        "Text": "Cancelar"
+      },
+      "Txt_Inn_UI_Time_01": {
+        "SelfId": "Txt_Inn_UI_Time_01",
+        "Text": "Hasta el amanecer"
+      },
+      "Txt_Inn_UI_Time_02": {
+        "SelfId": "Txt_Inn_UI_Time_02",
+        "Text": "Hasta mediodía"
+      },
+      "Txt_Inn_UI_Time_03": {
+        "SelfId": "Txt_Inn_UI_Time_03",
+        "Text": "Hasta el atardecer"
+      },
+      "Txt_Inn_UI_Time_04": {
+        "SelfId": "Txt_Inn_UI_Time_04",
+        "Text": "Hasta la noche"
+      },
+      "Txt_Inn_Message_Start_M": {
+        "SelfId": "Txt_Inn_Message_Start_M",
+        "Text": "*: ¡<IfSolo(Bienvenid<IfGender_LEADER(o,a,)>,Les doy la bienvenida)> a nuestra posada, <IfSolo(viajer<IfGender_LEADER(o,a,)>,viajantes)>!"
+      },
+      "Txt_Inn_Message_StartNight_M": {
+        "SelfId": "Txt_Inn_Message_StartNight_M",
+        "Text": "*: ¡<IfSolo(Bienvenid<IfGender_LEADER(o,a,)>,Les doy la bienvenida)> a nuestra posada, <IfSolo(viajer<IfGender_LEADER(o,a,)>,viajantes)>!\r\nDebe<IfSolo(,n)> de tener ganas de descansar después de todo el día de arriba para abajo."
+      },
+      "Txt_Inn_Message_TopNotRest_M": {
+        "SelfId": "Txt_Inn_Message_TopNotRest_M",
+        "Text": "*: Nuestra tarifa es de {VALUE} monedas de oro por noche.\r\n¿Va<IfSolo(,n)> a quedarse?<NO_INPUT>"
+      },
+      "Txt_Inn_Message_Top_M": {
+        "SelfId": "Txt_Inn_Message_Top_M",
+        "Text": "*: ¿Quiere<IfSolo(,n)> pasar la noche aquí o solo descansar un rato? En cualquier caso, la tarifa es la misma: {VALUE} monedas de oro.<NO_INPUT>"
+      },
+      "Txt_Inn_Message_Finish_M": {
+        "SelfId": "Txt_Inn_Message_Finish_M",
+        "Text": "*: ¡Buen viaje, y vuelva<IfSolo(,n)> cuando quiera<IfSolo(,n)>!"
+      },
+      "Txt_Inn_Message_Cancel_M": {
+        "SelfId": "Txt_Inn_Message_Cancel_M",
+        "Text": "*: ¿Ha<IfSolo(,n)> cambiado de opinión? Bueno, como guste<IfSolo(,n)>. ¡Vuelva<IfSolo(,n)> pronto!"
+      },
+      "Txt_Inn_Message_Shotage_M": {
+        "SelfId": "Txt_Inn_Message_Shotage_M",
+        "Text": "*: Lo siento muchísimo, pero no parece<IfSolo(,n)> tener suficiente dinero."
+      },
+      "Txt_Inn_Message_Heal_M": {
+        "SelfId": "Txt_Inn_Message_Heal_M",
+        "Text": "*: ¡Disfrute<IfSolo(,n)> de su estancia!"
+      },
+      "Txt_Inn_Message_FinishHeal_M": {
+        "SelfId": "Txt_Inn_Message_FinishHeal_M",
+        "Text": "*: ¡Buenos días!\r\nEspero que haya<IfSolo(,n)> dormido bien.\r\n¡No deje<IfSolo(,n)> de volver!"
+      },
+      "Txt_Inn_Message_FinishHealRest_M": {
+        "SelfId": "Txt_Inn_Message_FinishHealRest_M",
+        "Text": "*: Confío en que haya<IfSolo(,n)> dormido bien. ¡No deje<IfSolo(,n)> de volver!"
+      },
+      "Txt_Inn_Message_Start_F": {
+        "SelfId": "Txt_Inn_Message_Start_F",
+        "Text": "*: ¡<IfSolo(Bienvenid<IfGender_LEADER(o,a,)>,Les doy la bienvenida)> a nuestra posada, <IfSolo(viajer<IfGender_LEADER(o,a,)>,viajantes)>!"
+      },
+      "Txt_Inn_Message_StartNight_F": {
+        "SelfId": "Txt_Inn_Message_StartNight_F",
+        "Text": "*: ¡<IfSolo(Bienvenid<IfGender_LEADER(o,a,)>,Les doy la bienvenida)> a nuestra posada, <IfSolo(viajer<IfGender_LEADER(o,a,)>,viajantes)>!\r\nDebe<IfSolo(,n)> de tener ganas de descansar después de todo el día de arriba para abajo."
+      },
+      "Txt_Inn_Message_TopNotRest_F": {
+        "SelfId": "Txt_Inn_Message_TopNotRest_F",
+        "Text": "*: Nuestra tarifa es de {VALUE} monedas de oro por noche.\r\n¿Va<IfSolo(,n)> a quedarse?<NO_INPUT>"
+      },
+      "Txt_Inn_Message_Top_F": {
+        "SelfId": "Txt_Inn_Message_Top_F",
+        "Text": "*: ¿Quiere<IfSolo(,n)> pasar la noche aquí o solo descansar un rato? En cualquier caso, la tarifa es la misma: {VALUE} monedas de oro.<NO_INPUT>"
+      },
+      "Txt_Inn_Message_Finish_F": {
+        "SelfId": "Txt_Inn_Message_Finish_F",
+        "Text": "*: ¡Buen viaje, y vuelva<IfSolo(,n)> cuando quiera<IfSolo(,n)>!"
+      },
+      "Txt_Inn_Message_Cancel_F": {
+        "SelfId": "Txt_Inn_Message_Cancel_F",
+        "Text": "*: ¿Ha<IfSolo(,n)> cambiado de opinión? Bueno, como guste<IfSolo(,n)>. ¡Vuelva<IfSolo(,n)> pronto!"
+      },
+      "Txt_Inn_Message_Shotage_F": {
+        "SelfId": "Txt_Inn_Message_Shotage_F",
+        "Text": "*: Lo siento muchísimo, pero no parece<IfSolo(,n)> tener suficiente dinero."
+      },
+      "Txt_Inn_Message_Heal_F": {
+        "SelfId": "Txt_Inn_Message_Heal_F",
+        "Text": "*: ¡Disfrute<IfSolo(,n)> de su estancia!"
+      },
+      "Txt_Inn_Message_FinishHeal_F": {
+        "SelfId": "Txt_Inn_Message_FinishHeal_F",
+        "Text": "*: ¡Buenos días!\r\nEspero que haya<IfSolo(,n)> dormido bien.\r\n¡No deje<IfSolo(,n)> de volver!"
+      },
+      "Txt_Inn_Message_FinishHealRest_F": {
+        "SelfId": "Txt_Inn_Message_FinishHealRest_F",
+        "Text": "*: Confío en que haya<IfSolo(,n)> dormido bien. ¡No deje<IfSolo(,n)> de volver!"
+      }
+    }
+  }
+]

@@ -1,0 +1,48 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_NPC_Talk_GarunaTower",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Talk_GarunaTower_1F_SUB_0_ACTOR_0110_010_1": {
+        "SelfId": "Txt_Talk_GarunaTower_1F_SUB_0_ACTOR_0110_010_1",
+        "Text": "*: La vie est un pèlerinage en quête de sagesse et de vérité.\r\nBienvenue, <IfGender_LEADER(pèlerin,pèlerine,)>, à la tour de Garna."
+      },
+      "Txt_Talk_GarunaTower_1F_SUB_0_ACTOR_0210_010_1": {
+        "SelfId": "Txt_Talk_GarunaTower_1F_SUB_0_ACTOR_0210_010_1",
+        "Text": "*: Apparemment, il y a quelque part dans cette tour un livre appelé «Voix de la sagesse»."
+      },
+      "Txt_Talk_GarunaTower_1F_SUB_0_ACTOR_0210_010_2": {
+        "SelfId": "Txt_Talk_GarunaTower_1F_SUB_0_ACTOR_0210_010_2",
+        "Text": "*: Si ce que l'on raconte est vrai, le simple fait de le lire suffirait à transformer n'importe qui, même moi, en sage!"
+      },
+      "Txt_Talk_GarunaTower_1F_SUB_0_ACTOR_0310_010_1": {
+        "SelfId": "Txt_Talk_GarunaTower_1F_SUB_0_ACTOR_0310_010_1",
+        "Text": "*: Ommm........."
+      },
+      "Txt_Talk_GarunaTower_1F_SUB_0_ACTOR_0310_010_2": {
+        "SelfId": "Txt_Talk_GarunaTower_1F_SUB_0_ACTOR_0310_010_2",
+        "Text": "*: Hé! Laisse-moi tranquille, veux-tu?\r\nJ'essaie de méditer!"
+      },
+      "Txt_Talk_GarunaTower_2F_SUB_0_VOLUME_0410_010_1": {
+        "SelfId": "Txt_Talk_GarunaTower_2F_SUB_0_VOLUME_0410_010_1",
+        "Text": "Miaouuu..."
+      },
+      "Txt_Talk_GarunaTower_2F_SUB_0_VOLUME_0410_010_2": {
+        "SelfId": "Txt_Talk_GarunaTower_2F_SUB_0_VOLUME_0410_010_2",
+        "Text": "{LEADER} calme le monstre de sa voix apaisante et lui parle de papi monstre..."
+      },
+      "Txt_Talk_GarunaTower_2F_SUB_0_VOLUME_0410_010_3": {
+        "SelfId": "Txt_Talk_GarunaTower_2F_SUB_0_VOLUME_0410_010_3",
+        "Text": "Sangsationnel!"
+      }
+    }
+  }
+]

@@ -1,0 +1,120 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_Rename",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Rename_Message_Start": {
+        "SelfId": "Txt_Rename_Message_Start",
+        "Text": "나는 이름의 신 마리난 님을\r\n모시는 신관일세.\r\n<KEY_WAIT>\r\n자네들 가운데 지금 가진 이름을\r\n바꾸고자 하는 자가 있다면 내게\r\n말해 주게나.<KEY_WAIT>\r\n이름을 바꾸고자 하는 자가 있는가?<NO_INPUT>"
+      },
+      "Txt_Rename_Message_Top": {
+        "SelfId": "Txt_Rename_Message_Top",
+        "Text": "음, 그럼 누구의 이름을 바꾸고 싶은가?<NO_INPUT>"
+      },
+      "Txt_Rename_Message_NameSelect": {
+        "SelfId": "Txt_Rename_Message_NameSelect",
+        "Text": "{WORD}의 이름을 바꾸는 게로군.\r\n그럼 새로운 이름을 내게 알려 주게.<NO_INPUT>"
+      },
+      "Txt_Rename_Message_NameDeside": {
+        "SelfId": "Txt_Rename_Message_NameDeside",
+        "Text": "음, {WORD}의 이름을\r\n{NAME}<IfKRVowel_NAME(로,으로)> 바꾸려는 게로군.\r\n정말 그 이름으로 바꾸겠나?<NO_INPUT>"
+      },
+      "Txt_Rename_Message_NameChangeStart": {
+        "SelfId": "Txt_Rename_Message_NameChangeStart",
+        "Text": "오오, 이름의 신 마리난이여!\r\n새로운 이름 {NAME}에\r\n신의 축복을!!"
+      },
+      "Txt_Rename_Message_NameChangeFinish": {
+        "SelfId": "Txt_Rename_Message_NameChangeFinish",
+        "Text": "됐다네! {WORD}<IfKRVowel_WORD(는,은)>\r\n앞으로 {NAME}<IfKRVowel_NAME(라,이라)>는 이름으로\r\n불리게 될 걸세!"
+      },
+      "Txt_Rename_Message_AddNameChangeConfirm": {
+        "SelfId": "Txt_Rename_Message_AddNameChangeConfirm",
+        "Text": "그 밖에도 이름을\r\n바꾸고자 하는 자가 있는가?<NO_INPUT>"
+      },
+      "Txt_Rename_Message_Finish": {
+        "SelfId": "Txt_Rename_Message_Finish",
+        "Text": "그런가.\r\n이름을 바꾸고 싶어지면 언제든 오게나.\r\n이름의 수호가 있기를......."
+      },
+      "Txt_Rename_Message_NameSelectAgain": {
+        "SelfId": "Txt_Rename_Message_NameSelectAgain",
+        "Text": "다른 이름으로 바꾸겠나?"
+      },
+      "Txt_Rename_Message_CanNotChangeDeath": {
+        "SelfId": "Txt_Rename_Message_CanNotChangeDeath",
+        "Text": "아니, 다른 사람의 이름을 함부로\r\n바꾸겠다는 겐가?\r\n그건 용납할 수 없네."
+      },
+      "Txt_Rename_Message_Cancel": {
+        "SelfId": "Txt_Rename_Message_Cancel",
+        "Text": "뭐야, 이름을 바꾸지 않겠다고?\r\n그것도 나쁘지 않지."
+      },
+      "Txt_Rename_Message_NameError_Ban": {
+        "SelfId": "Txt_Rename_Message_NameError_Ban",
+        "Text": "{NAME} 말인가?\r\n......으음. 이름의 신께서 그 이름은\r\n안 된다고 하시는군!<KEY_WAIT>\r\n미안하지만 다른 이름을 붙여 주겠나?<NO_INPUT>"
+      },
+      "Txt_Rename_Message_OriginName": {
+        "SelfId": "Txt_Rename_Message_OriginName",
+        "Text": "호오, 원래 이름으로\r\n되돌리겠나?<KEY_WAIT>\r\n부모님이 지어 주신 이름은\r\n소중히 여겨야지. 암, 그렇고말고.<KEY_WAIT>\r\n{WORD}의 이름을 원래대로\r\n{NAME}<IfKRVowel_NAME(로,으로)> 돌리겠네. 괜찮겠나?<NO_INPUT>"
+      },
+      "Txt_Rename_Message_OriginNameChangeStart": {
+        "SelfId": "Txt_Rename_Message_OriginNameChangeStart",
+        "Text": "오오, 이름의 신 마리난이여!\r\n{WORD}의 이름을 원래의 {NAME}<IfKRVowel_NAME(로,으로)>\r\n되돌려 주소서!!"
+      },
+      "Txt_Rename_Message_OriginNameChangeFinish": {
+        "SelfId": "Txt_Rename_Message_OriginNameChangeFinish",
+        "Text": "좋아! 자네의 이름은\r\n{NAME}<IfKRVowel_NAME(로,으로)> 돌아갔다네!"
+      },
+      "Txt_Rename_Message_BadNameFinalConfirm": {
+        "SelfId": "Txt_Rename_Message_BadNameFinalConfirm",
+        "Text": "이름의 신의 분노를 사더라도\r\n나는 모르네!\r\n그래도 상관없겠나!?<NO_INPUT>"
+      },
+      "Txt_Rename_Message_BadNameChangeStart": {
+        "SelfId": "Txt_Rename_Message_BadNameChangeStart",
+        "Text": "......오오, 이름의 신 마리난이여.\r\n새로운 이름 {NAME}에\r\n신의 축복...... 으앗!!"
+      },
+      "Txt_Rename_Message_BadNameChangeFinish": {
+        "SelfId": "Txt_Rename_Message_BadNameChangeFinish",
+        "Text": "자, 보게! 내가 뭐랬나!\r\n자네는 이름의 신의 분노를 사고 말았어!!<KEY_WAIT>\r\n자네의 이름은 평생\r\n{NAME}에서 바뀌지 않을 게야!!"
+      },
+      "Txt_Rename_Message_BadName": {
+        "SelfId": "Txt_Rename_Message_BadName",
+        "Text": "{NAME} 말인가......?\r\n자네, 이름이란 걸 우습게 보는 겐가?<NO_INPUT>"
+      },
+      "Txt_Rename_Message_BadNameConfirm": {
+        "SelfId": "Txt_Rename_Message_BadNameConfirm",
+        "Text": "이름을 우습게 보지는 않으면서도\r\n굳이 그런 이름을 붙이고 싶다는 겐가?<NO_INPUT>"
+      },
+      "Txt_Rename_Message_BadNameCancel": {
+        "SelfId": "Txt_Rename_Message_BadNameCancel",
+        "Text": "그럼 다른 이름으로 하게.\r\n{WORD}의 새로운 이름을\r\n내게 알려 주게.<NO_INPUT>"
+      },
+      "Txt_Rename_Message_CanNotNameChange": {
+        "SelfId": "Txt_Rename_Message_CanNotNameChange",
+        "Text": "아니! 그 이름은\r\n이름의 신의 분노를 사버렸어!\r\n이름을 바꿀 수는 없다네!<KEY_WAIT>\r\n그래도 정 바꾸고 싶다면\r\n이름의 신의 분노를 풀기 위해\r\n{VALUE}골드가 필요하네.<KEY_WAIT>\r\n그래도 괜찮겠나?<NO_INPUT>"
+      },
+      "Txt_Rename_Message_PenaltyCancel": {
+        "SelfId": "Txt_Rename_Message_PenaltyCancel",
+        "Text": "그럼 그대로 둘 수밖에 없네."
+      },
+      "Txt_Rename_Message_PenaltyPay": {
+        "SelfId": "Txt_Rename_Message_PenaltyPay",
+        "Text": "{LEADER}<IfKRVowel_LEADER(는,은)> {VALUE}골드를 내밀었다."
+      },
+      "Txt_Rename_Message_CanNameChange": {
+        "SelfId": "Txt_Rename_Message_CanNameChange",
+        "Text": "좋네. 그럼 {WORD}의\r\n새 이름을 알려 주게나.<NO_INPUT>"
+      },
+      "Txt_Rename_Message_PenaltyShotage": {
+        "SelfId": "Txt_Rename_Message_PenaltyShotage",
+        "Text": "응? 아쉽게도 그런 큰돈은 없나 보군.\r\n지금은 참는 수밖에 없겠어."
+      }
+    }
+  }
+]

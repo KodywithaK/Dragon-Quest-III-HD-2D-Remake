@@ -1,0 +1,940 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_NPC_Talk_Common",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Talk_Common_FAILURE_1": {
+        "SelfId": "Txt_Talk_Common_FAILURE_1",
+        "Text": "しかし　<RUBY>何[なに]も　おこらなかった。"
+      },
+      "Txt_Talk_Common_MAIN_0_SCENE_0010_010_1": {
+        "SelfId": "Txt_Talk_Common_MAIN_0_SCENE_0010_010_1",
+        "Text": "そろそろ　{MERCHANT}の<RUBY>様子[ようす]を\r\n<RUBY>見[み]にいってみよう。"
+      },
+      "Txt_Talk_Common_Rainbow_Bridge_FieldEvent_01_1": {
+        "SelfId": "Txt_Talk_Common_Rainbow_Bridge_FieldEvent_01_1",
+        "Text": "<RUBY>断崖[だんがい]がある。"
+      },
+      "Txt_Talk_Common_Rainbow_Bridge_FieldEvent_01_2": {
+        "SelfId": "Txt_Talk_Common_Rainbow_Bridge_FieldEvent_01_2",
+        "Text": "このままでは　とても\r\n<RUBY>先[さき]に<RUBY>進[すす]むことが　できない。"
+      },
+      "Txt_Talk_Common_Rainbow_Bridge_FieldEvent_01_3": {
+        "SelfId": "Txt_Talk_Common_Rainbow_Bridge_FieldEvent_01_3",
+        "Text": "{I_NAME}を　<RUBY>使[つか]いますか？"
+      },
+      "Txt_Talk_Common_TREASURE_1": {
+        "SelfId": "Txt_Talk_Common_TREASURE_1",
+        "Text": "{LEADER}は　<RUBY>宝箱[たからばこ]を　<RUBY>開[あ]けた！"
+      },
+      "Txt_Talk_Common_TREASURE_2": {
+        "SelfId": "Txt_Talk_Common_TREASURE_2",
+        "Text": "しかし　<RUBY>宝箱[たからばこ]は　からっぽだった……。"
+      },
+      "Txt_Talk_Common_TREASURE_3": {
+        "SelfId": "Txt_Talk_Common_TREASURE_3",
+        "Text": "{LEADER}は　<RUBY>宝箱[たからばこ]を　<RUBY>調[しら]べた。"
+      },
+      "Txt_Talk_Common_TREASURE_5": {
+        "SelfId": "Txt_Talk_Common_TREASURE_5",
+        "Text": "なんと！\r\n{I_NAME}を　<RUBY>見[み]つけた！"
+      },
+      "Txt_Talk_Common_TREASURE_7": {
+        "SelfId": "Txt_Talk_Common_TREASURE_7",
+        "Text": "{I_NAME}を\r\n{BAG}に<RUBY>入[い]れた。"
+      },
+      "Txt_Talk_Common_TREASURE_8": {
+        "SelfId": "Txt_Talk_Common_TREASURE_8",
+        "Text": "{LEADER}は\r\n{VALUE}ゴールドを　<RUBY>手[て]に<RUBY>入[い]れた。"
+      },
+      "Txt_Talk_Common_TREASURE_9": {
+        "SelfId": "Txt_Talk_Common_TREASURE_9",
+        "Text": "なんと　<RUBY>宝箱[たからばこ]は\r\n{WORD}だった！"
+      },
+      "Txt_Talk_Common_TREASURE_11": {
+        "SelfId": "Txt_Talk_Common_TREASURE_11",
+        "Text": "{LEADER}は\r\n{I_NAME}を　<RUBY>手[て]に<RUBY>入[い]れた。"
+      },
+      "Txt_Talk_Common_STORAGE_4": {
+        "SelfId": "Txt_Talk_Common_STORAGE_4",
+        "Text": "とくに　<RUBY>何[なに]も　<RUBY>見[み]つからなかった。"
+      },
+      "Txt_Talk_Common_POT_1": {
+        "SelfId": "Txt_Talk_Common_POT_1",
+        "Text": "{LEADER}は　ツボの<RUBY>中[なか]を\r\nのぞきこんだ。"
+      },
+      "Txt_Talk_Common_BOOKSHELF_1": {
+        "SelfId": "Txt_Talk_Common_BOOKSHELF_1",
+        "Text": "{LEADER}は　<RUBY>本[ほん]だなを　<RUBY>調[しら]べた。"
+      },
+      "Txt_Talk_Common_BARREL_1": {
+        "SelfId": "Txt_Talk_Common_BARREL_1",
+        "Text": "{LEADER}は　タルの<RUBY>中[なか]を\r\nのぞきこんだ。"
+      },
+      "Txt_Talk_Common_GROUND_1": {
+        "SelfId": "Txt_Talk_Common_GROUND_1",
+        "Text": "{LEADER}は　<RUBY>足[あし]もとを　<RUBY>調[しら]べた！"
+      },
+      "Txt_Talk_Common_BAG_1": {
+        "SelfId": "Txt_Talk_Common_BAG_1",
+        "Text": "{LEADER}は\r\nふくろを　のぞきこんだ。"
+      },
+      "Txt_Talk_Common_BAG_2": {
+        "SelfId": "Txt_Talk_Common_BAG_2",
+        "Text": "しかし　なにも　<RUBY>見[み]つからなかった。"
+      },
+      "Txt_Talk_Common_WOODBOX_1": {
+        "SelfId": "Txt_Talk_Common_WOODBOX_1",
+        "Text": "{LEADER}は　<RUBY>木箱[きばこ]を　<RUBY>開[あ]けた！"
+      },
+      "Txt_Talk_Common_SHINE_1": {
+        "SelfId": "Txt_Talk_Common_SHINE_1",
+        "Text": "{I_NAME}を　<RUBY>手[て]に<RUBY>入[い]れた。"
+      },
+      "Txt_Talk_Common_SHINE_2": {
+        "SelfId": "Txt_Talk_Common_SHINE_2",
+        "Text": "{I_NAME}を　{VALUE}<RUBY>個[こ]　<RUBY>手[て]に<RUBY>入[い]れた。"
+      },
+      "Txt_Talk_Common_SHINE_3": {
+        "SelfId": "Txt_Talk_Common_SHINE_3",
+        "Text": "{VALUE}ゴールドを　<RUBY>手[て]に<RUBY>入[い]れた。"
+      },
+      "Txt_Talk_Common_Fireplace_1": {
+        "SelfId": "Txt_Talk_Common_Fireplace_1",
+        "Text": "<RUBY>暖炉[だんろ]が　もえている。\r\nとてもあたたかだ。"
+      },
+      "Txt_Talk_Common_Well_1": {
+        "SelfId": "Txt_Talk_Common_Well_1",
+        "Text": "{LEADER}は　<RUBY>井戸[いど]のなかを\r\nのぞきこんだ。"
+      },
+      "Txt_Talk_Common_Ozabuton_1": {
+        "SelfId": "Txt_Talk_Common_Ozabuton_1",
+        "Text": "なにやら　ふわふわしている。\r\nおざぶとんと　いうもの　らしい。"
+      },
+      "Txt_Talk_Common_Shield_1": {
+        "SelfId": "Txt_Talk_Common_Shield_1",
+        "Text": "<RUBY>盾[たて]が　かざられている。"
+      },
+      "Txt_Talk_Common_Spear_2": {
+        "SelfId": "Txt_Talk_Common_Spear_2",
+        "Text": "ヤリが　かざられている。"
+      },
+      "Txt_Talk_Common_Axe_1": {
+        "SelfId": "Txt_Talk_Common_Axe_1",
+        "Text": "オノが　かざられている。"
+      },
+      "Txt_Talk_Common_Sword_1": {
+        "SelfId": "Txt_Talk_Common_Sword_1",
+        "Text": "<RUBY>剣[けん]が　かざられている。"
+      },
+      "Txt_Talk_Common_Mirror_1": {
+        "SelfId": "Txt_Talk_Common_Mirror_1",
+        "Text": "{LEADER}は　カガミを　のぞきこんだ。"
+      },
+      "Txt_Talk_Common_Mirror_2": {
+        "SelfId": "Txt_Talk_Common_Mirror_2",
+        "Text": "つかれた<RUBY>顔[かお]が　うつっている。"
+      },
+      "Txt_Talk_Common_Mirror_3": {
+        "SelfId": "Txt_Talk_Common_Mirror_3",
+        "Text": "<RUBY>私[わたし]って　やっぱり　きれいよね。\r\n{LEADER}は　ちょっぴり　<RUBY>安心[あんしん]した。"
+      },
+      "Txt_Talk_Common_Mirror_4": {
+        "SelfId": "Txt_Talk_Common_Mirror_4",
+        "Text": "オレって　なかなか　いい<RUBY>男[おとこ]じゃん。\r\n{LEADER}は　いい<RUBY>気[き]になった。"
+      },
+      "Txt_Talk_Common_Mirror_5": {
+        "SelfId": "Txt_Talk_Common_Mirror_5",
+        "Text": "すこしだけ　たくましくなったような\r\nそんな<RUBY>気[き]が　した。"
+      },
+      "Txt_Talk_Common_Mirror_6": {
+        "SelfId": "Txt_Talk_Common_Mirror_6",
+        "Text": "さわやかな<RUBY>顔[かお]が　そこにあった。"
+      },
+      "Txt_Talk_Common_Mirror_7": {
+        "SelfId": "Txt_Talk_Common_Mirror_7",
+        "Text": "かみのけが　すこし　みだれている。\r\n{LEADER}は　かみを　かきあげた。"
+      },
+      "Txt_Talk_Common_Mirror_8": {
+        "SelfId": "Txt_Talk_Common_Mirror_8",
+        "Text": "そして　にこやかに　<RUBY>笑[わら]ってみせた。"
+      },
+      "Txt_Talk_Common_Mirror_9": {
+        "SelfId": "Txt_Talk_Common_Mirror_9",
+        "Text": "そして　ちょっぴり　きどったポーズを\r\nしてみた。"
+      },
+      "Txt_Talk_Common_Mirror_10": {
+        "SelfId": "Txt_Talk_Common_Mirror_10",
+        "Text": "おい　{LEADER}\r\nなにを　してるんだよ。\r\nはやく　いこうぜ。"
+      },
+      "Txt_Talk_Common_Mirror_11": {
+        "SelfId": "Txt_Talk_Common_Mirror_11",
+        "Text": "なんだか　にやけた<RUBY>顔[かお]が\r\nうつっている。"
+      },
+      "Txt_Talk_Common_LockedDoor_1": {
+        "SelfId": "Txt_Talk_Common_LockedDoor_1",
+        "Text": "トビラには　カギが　かかっている！"
+      },
+      "Txt_Talk_Common_LockedDoor_2": {
+        "SelfId": "Txt_Talk_Common_LockedDoor_2",
+        "Text": "トビラには　カギが　かかっている！\r\nもっているカギでは　あけられなかった。"
+      },
+      "Txt_Talk_Common_Yggdrasil_1": {
+        "SelfId": "Txt_Talk_Common_Yggdrasil_1",
+        "Text": "{LEADER}は　<RUBY>目[め]の<RUBY>前[まえ]の<RUBY>木[き]を　<RUBY>調[しら]べた。"
+      },
+      "Txt_Talk_Common_Yggdrasil_2": {
+        "SelfId": "Txt_Talk_Common_Yggdrasil_2",
+        "Text": "まだ　<RUBY>葉[は]っぱは　<RUBY>生[は]えてきていないようだ。"
+      },
+      "Txt_Talk_Common_Corpse_1": {
+        "SelfId": "Txt_Talk_Common_Corpse_1",
+        "Text": "<RUBY>返事[へんじ]がない。\r\nただの　しかばねの　ようだ……。"
+      },
+      "Txt_Talk_Common_Lancel_1": {
+        "SelfId": "Txt_Talk_Common_Lancel_1",
+        "Text": "{LEADER}は　{WORD}に　<RUBY>話[はな]しかけた。\r\nしかし　<RUBY>返事[へんじ]は　なかった。"
+      },
+      "Txt_Talk_Common_Animal_3": {
+        "SelfId": "Txt_Talk_Common_Animal_3",
+        "Text": "にゃ～ん。"
+      },
+      "Txt_Talk_Common_Animal_4": {
+        "SelfId": "Txt_Talk_Common_Animal_4",
+        "Text": "ゴロゴロ……。"
+      },
+      "Txt_Talk_Common_Animal_5": {
+        "SelfId": "Txt_Talk_Common_Animal_5",
+        "Text": "フーッ！"
+      },
+      "Txt_Talk_Common_Animal_6": {
+        "SelfId": "Txt_Talk_Common_Animal_6",
+        "Text": "にゃーん。"
+      },
+      "Txt_Talk_Common_Animal_10": {
+        "SelfId": "Txt_Talk_Common_Animal_10",
+        "Text": "ヒヒーン！"
+      },
+      "Txt_Talk_Common_Animal_13": {
+        "SelfId": "Txt_Talk_Common_Animal_13",
+        "Text": "ブルルルル！"
+      },
+      "Txt_Talk_Common_Kiesari_1": {
+        "SelfId": "Txt_Talk_Common_Kiesari_1",
+        "Text": "あれー？　なんだろう。"
+      },
+      "Txt_Talk_Common_Kiesari_2": {
+        "SelfId": "Txt_Talk_Common_Kiesari_2",
+        "Text": "おやっ。<RUBY>空耳[そらみみ]かな？"
+      },
+      "Txt_Talk_Common_Kiesari_3": {
+        "SelfId": "Txt_Talk_Common_Kiesari_3",
+        "Text": "うわっ　<RUBY>急[きゅう]に　<RUBY>話[はな]しかけ……って\r\nだれも　いねえじゃねえか？"
+      },
+      "Txt_Talk_Common_Kiesari_4": {
+        "SelfId": "Txt_Talk_Common_Kiesari_4",
+        "Text": "ん？　なにか　<RUBY>聞[き]こえたようじゃが\r\n<RUBY>気[き]のせいかのう……。"
+      },
+      "Txt_Talk_Common_Kiesari_5": {
+        "SelfId": "Txt_Talk_Common_Kiesari_5",
+        "Text": "うおっ！？\r\nなんじゃ　<RUBY>今[いま]の<RUBY>声[こえ]は？"
+      },
+      "Txt_Talk_Common_Kiesari_6": {
+        "SelfId": "Txt_Talk_Common_Kiesari_6",
+        "Text": "ひえっ！"
+      },
+      "Txt_Talk_Common_Kiesari_7": {
+        "SelfId": "Txt_Talk_Common_Kiesari_7",
+        "Text": "だれも　いないのに\r\n<RUBY>声[こえ]が　<RUBY>聞[き]こえるとは！？"
+      },
+      "Txt_Talk_Common_Kiesari_8": {
+        "SelfId": "Txt_Talk_Common_Kiesari_8",
+        "Text": "おお　<RUBY>神[かみ]よ　あなたですか？"
+      },
+      "Txt_Talk_Common_Kiesari_9": {
+        "SelfId": "Txt_Talk_Common_Kiesari_9",
+        "Text": "あれっ　いま　<RUBY>人[ひと]の<RUBY>声[こえ]が……\r\nうーん　つかれてるのかなあ。"
+      },
+      "Txt_Talk_Common_Kiesari_10": {
+        "SelfId": "Txt_Talk_Common_Kiesari_10",
+        "Text": "あれ？　なんだろう。\r\n<RUBY>空耳[そらみみ]かな。"
+      },
+      "Txt_Talk_Common_Kiesari_11": {
+        "SelfId": "Txt_Talk_Common_Kiesari_11",
+        "Text": "むっ　なにやつだ！\r\nかくれていないで\r\n<RUBY>出[で]てこい！"
+      },
+      "Txt_Talk_Common_Kiesari_12": {
+        "SelfId": "Txt_Talk_Common_Kiesari_12",
+        "Text": "わっ　なんだなんだ？\r\nなにが　おこったんだ？"
+      },
+      "Txt_Talk_Common_Kiesari_13": {
+        "SelfId": "Txt_Talk_Common_Kiesari_13",
+        "Text": "むっ　<RUBY>殺気[さっき]！"
+      },
+      "Txt_Talk_Common_Kiesari_14": {
+        "SelfId": "Txt_Talk_Common_Kiesari_14",
+        "Text": "おや　<RUBY>気[き]のせいか。"
+      },
+      "Txt_Talk_Common_Kiesari_15": {
+        "SelfId": "Txt_Talk_Common_Kiesari_15",
+        "Text": "え？\r\nだれか　<RUBY>呼[よ]びましたか？"
+      },
+      "Txt_Talk_Common_Kiesari_16": {
+        "SelfId": "Txt_Talk_Common_Kiesari_16",
+        "Text": "だ～れ～も　いないよ～\r\nラララ～♪"
+      },
+      "Txt_Talk_Common_Kiesari_17": {
+        "SelfId": "Txt_Talk_Common_Kiesari_17",
+        "Text": "おかしいなあ。いま　だれかに\r\n<RUBY>話[はな]しかけられたと　<RUBY>思[おも]ったのに。"
+      },
+      "Txt_Talk_Common_Kiesari_18": {
+        "SelfId": "Txt_Talk_Common_Kiesari_18",
+        "Text": "チッ　<RUBY>空耳[そらみみ]が　<RUBY>聞[き]こえやがる。\r\nこんなところに　<RUBY>長[なが]くいれば\r\nおかしくも　なるか……。"
+      },
+      "Txt_Talk_Common_Kiesari_19": {
+        "SelfId": "Txt_Talk_Common_Kiesari_19",
+        "Text": "だれだっ！？"
+      },
+      "Txt_Talk_Common_Kiesari_20": {
+        "SelfId": "Txt_Talk_Common_Kiesari_20",
+        "Text": "おかしいな。\r\nだれも　いねえぞ。"
+      },
+      "Txt_Talk_Common_Kiesari_21": {
+        "SelfId": "Txt_Talk_Common_Kiesari_21",
+        "Text": "<RUBY>姿[すがた]を　かえても\r\n<RUBY>私[わたし]たちには　わかります。"
+      },
+      "Txt_Talk_Common_Kiesari_22": {
+        "SelfId": "Txt_Talk_Common_Kiesari_22",
+        "Text": "はて　なんだろう？"
+      },
+      "Txt_Talk_Common_Kiesari_23": {
+        "SelfId": "Txt_Talk_Common_Kiesari_23",
+        "Text": "はて　これは　<RUBY>面妖[めんよう]な？"
+      },
+      "Txt_Talk_Common_Kiesari_24": {
+        "SelfId": "Txt_Talk_Common_Kiesari_24",
+        "Text": "わっ！　びっくり。"
+      },
+      "Txt_Talk_Common_Kiesari_25": {
+        "SelfId": "Txt_Talk_Common_Kiesari_25",
+        "Text": "いま　ぜったい　<RUBY>声[こえ]　<RUBY>聞[き]こえた。\r\n<RUBY>私[わたし]たち　ウソ　つかない。"
+      },
+      "Txt_Talk_Common_Kiesari_26": {
+        "SelfId": "Txt_Talk_Common_Kiesari_26",
+        "Text": "ん？　だれか\r\nなにか　いったか。"
+      },
+      "Txt_Talk_Common_Kiesari_27": {
+        "SelfId": "Txt_Talk_Common_Kiesari_27",
+        "Text": "なにも　<RUBY>見[み]えんが\r\nだれか　そこに　いるか？"
+      },
+      "Txt_Talk_Common_Kiesari_28": {
+        "SelfId": "Txt_Talk_Common_Kiesari_28",
+        "Text": "なに　<RUBY>今[いま]の？\r\nもしかして　おばけ？\r\nきゃーっ！"
+      },
+      "Txt_Talk_Common_Kiesari_29": {
+        "SelfId": "Txt_Talk_Common_Kiesari_29",
+        "Text": "きゃっ\r\n<RUBY>今[いま]の<RUBY>声[こえ]は　なんなの？"
+      },
+      "Txt_Talk_Common_Kiesari_30": {
+        "SelfId": "Txt_Talk_Common_Kiesari_30",
+        "Text": "あら？\r\nだれか　<RUBY>私[わたし]を　<RUBY>呼[よ]んだ？"
+      },
+      "Txt_Talk_Common_Kiesari_31": {
+        "SelfId": "Txt_Talk_Common_Kiesari_31",
+        "Text": "へんねえ　だれも　いないわ。"
+      },
+      "Txt_Talk_Common_Kiesari_32": {
+        "SelfId": "Txt_Talk_Common_Kiesari_32",
+        "Text": "きゃっ　だれっ？\r\nなにをしているのっ！？"
+      },
+      "Txt_Talk_Common_Kiesari_33": {
+        "SelfId": "Txt_Talk_Common_Kiesari_33",
+        "Text": "……\r\n<RUBY>耳[みみ]が　<RUBY>悪[わる]くなったかのう。\r\nそれとも　<RUBY>目[め]か……。"
+      },
+      "Txt_Talk_Common_Kiesari_34": {
+        "SelfId": "Txt_Talk_Common_Kiesari_34",
+        "Text": "へんですわ……\r\nだれかの<RUBY>声[こえ]が　<RUBY>聞[き]こえたと\r\n<RUBY>思[おも]いましたのに……。"
+      },
+      "Txt_Talk_Common_Kiesari_35": {
+        "SelfId": "Txt_Talk_Common_Kiesari_35",
+        "Text": "どなたですの？\r\nだれか　そこに　かくれて\r\nますの？"
+      },
+      "Txt_Talk_Common_Kiesari_36": {
+        "SelfId": "Txt_Talk_Common_Kiesari_36",
+        "Text": "はいっ！"
+      },
+      "Txt_Talk_Common_Kiesari_37": {
+        "SelfId": "Txt_Talk_Common_Kiesari_37",
+        "Text": "……？"
+      },
+      "Txt_Talk_Common_Kiesari_38": {
+        "SelfId": "Txt_Talk_Common_Kiesari_38",
+        "Text": "そこにいるのは　だれっ？"
+      },
+      "Txt_Talk_Common_Kiesari_39": {
+        "SelfId": "Txt_Talk_Common_Kiesari_39",
+        "Text": "へんねえ。<RUBY>空耳[そらみみ]かしら。"
+      },
+      "Txt_Talk_Common_Kiesari_40": {
+        "SelfId": "Txt_Talk_Common_Kiesari_40",
+        "Text": "だれか　そこに　いるのですね。\r\n<RUBY>人[ひと]の<RUBY>気配[けはい]が　<RUBY>感[かん]じられます。"
+      },
+      "Txt_Talk_Common_Kiesari_41": {
+        "SelfId": "Txt_Talk_Common_Kiesari_41",
+        "Text": "なんだ　<RUBY>今[いま]の<RUBY>声[こえ]はっ！\r\nま…まさか……"
+      },
+      "Txt_Talk_Common_Kiesari_42": {
+        "SelfId": "Txt_Talk_Common_Kiesari_42",
+        "Text": "まあ　どこからか　<RUBY>声[こえ]が……\r\n<RUBY>不思議[ふしぎ]なことも　ありにけり……。"
+      },
+      "Txt_Talk_Common_Kiesari_43": {
+        "SelfId": "Txt_Talk_Common_Kiesari_43",
+        "Text": "いま　なにか　<RUBY>聞[き]こえた。\r\nでも　だれも　いない。へん。"
+      },
+      "Txt_Talk_Common_Kiesari_44": {
+        "SelfId": "Txt_Talk_Common_Kiesari_44",
+        "Text": "<RUBY>今[いま]の<RUBY>声[こえ]　なに？"
+      },
+      "Txt_Talk_Common_Kiesari_45": {
+        "SelfId": "Txt_Talk_Common_Kiesari_45",
+        "Text": "<RUBY>美[うつく]しさとは　なに……。"
+      },
+      "Txt_Talk_Common_Kiesari_46": {
+        "SelfId": "Txt_Talk_Common_Kiesari_46",
+        "Text": "ああ　<RUBY>私[わたし]としたことが\r\nひとりごとを。"
+      },
+      "Txt_Talk_Common_Kiesari_47": {
+        "SelfId": "Txt_Talk_Common_Kiesari_47",
+        "Text": "なんじゃ　だれぞ　おるのか？\r\nうるさいぞ！"
+      },
+      "Txt_Talk_Common_Kiesari_48": {
+        "SelfId": "Txt_Talk_Common_Kiesari_48",
+        "Text": "ハッ！　いま　<RUBY>神[かみ]の<RUBY>声[こえ]が\r\n<RUBY>聞[き]こえたような……。"
+      },
+      "Txt_Talk_Common_Kiesari_49": {
+        "SelfId": "Txt_Talk_Common_Kiesari_49",
+        "Text": "ここは　ルイーダの<RUBY>酒場[さかば]。\r\n<RUBY>冒険者[ぼうけんしゃ]たちが……"
+      },
+      "Txt_Talk_Common_Kiesari_50": {
+        "SelfId": "Txt_Talk_Common_Kiesari_50",
+        "Text": "……って　なんだ。\r\nだれも　いないじゃない。"
+      },
+      "Txt_Talk_Common_Kiesari_51": {
+        "SelfId": "Txt_Talk_Common_Kiesari_51",
+        "Text": "はあ……　あの<RUBY>子[こ]は\r\n<RUBY>今[いま]ごろ　どうしているのかしら……。"
+      },
+      "Txt_Talk_Common_Kiesari_52": {
+        "SelfId": "Txt_Talk_Common_Kiesari_52",
+        "Text": "ふーっ。"
+      },
+      "Txt_Talk_Common_Kiesari_53": {
+        "SelfId": "Txt_Talk_Common_Kiesari_53",
+        "Text": "ぐるるるる。"
+      },
+      "Txt_Talk_Common_Kiesari_54": {
+        "SelfId": "Txt_Talk_Common_Kiesari_54",
+        "Text": "ぶるるるるっ。"
+      },
+      "Txt_Talk_Common_Kiesari_55": {
+        "SelfId": "Txt_Talk_Common_Kiesari_55",
+        "Text": "<RUBY>見[み]えねえ！　<RUBY>見[み]えねえよお！"
+      },
+      "Txt_Talk_Common_Kiesari_56": {
+        "SelfId": "Txt_Talk_Common_Kiesari_56",
+        "Text": "それでも　<RUBY>姿[すがた]を　<RUBY>消[け]してるつもりか？\r\nおれさまには　まる<RUBY>見[み]えだぜ。"
+      },
+      "Txt_Talk_Common_Kiesari_57": {
+        "SelfId": "Txt_Talk_Common_Kiesari_57",
+        "Text": "ピキッ？"
+      },
+      "Txt_Talk_Common_Kiesari_58": {
+        "SelfId": "Txt_Talk_Common_Kiesari_58",
+        "Text": "ひえっ！"
+      },
+      "Txt_Talk_Common_Kiesari_59": {
+        "SelfId": "Txt_Talk_Common_Kiesari_59",
+        "Text": "ぐるるるる。"
+      },
+      "Txt_Talk_Common_Kiesari_60": {
+        "SelfId": "Txt_Talk_Common_Kiesari_60",
+        "Text": "……\r\n<RUBY>耳[みみ]が　<RUBY>悪[わる]くなったかのう。\r\nそれとも　<RUBY>目[め]か……。"
+      },
+      "Txt_Talk_Common_Kiesari_61": {
+        "SelfId": "Txt_Talk_Common_Kiesari_61",
+        "Text": "ん？　なにか　<RUBY>聞[き]こえたようじゃが\r\n<RUBY>気[き]のせいかのう……。"
+      },
+      "Txt_Talk_Common_Kiesari_62": {
+        "SelfId": "Txt_Talk_Common_Kiesari_62",
+        "Text": "チッ　<RUBY>空耳[そらみみ]が　<RUBY>聞[き]こえやがる。\r\nこんなところに　<RUBY>長[なが]くいれば\r\nおかしくも　なるか……。"
+      },
+      "Txt_Talk_Common_Kiesari_63": {
+        "SelfId": "Txt_Talk_Common_Kiesari_63",
+        "Text": "そこにいるのは　だれっ？"
+      },
+      "Txt_Talk_Common_Kiesari_64": {
+        "SelfId": "Txt_Talk_Common_Kiesari_64",
+        "Text": "へんねえ。<RUBY>空耳[そらみみ]かしら。"
+      },
+      "Txt_Talk_Common_Kiesari_65": {
+        "SelfId": "Txt_Talk_Common_Kiesari_65",
+        "Text": "おやっ。<RUBY>空耳[そらみみ]かな？"
+      },
+      "Txt_Talk_Common_Kiesari_66": {
+        "SelfId": "Txt_Talk_Common_Kiesari_66",
+        "Text": "きゃっ\r\n<RUBY>今[いま]の<RUBY>声[こえ]は　なんなの？"
+      },
+      "Txt_Talk_Common_Kiesari_67": {
+        "SelfId": "Txt_Talk_Common_Kiesari_67",
+        "Text": "ピキッ？"
+      },
+      "Txt_Talk_Common_Kiesari_68": {
+        "SelfId": "Txt_Talk_Common_Kiesari_68",
+        "Text": "まあ　どこからか　<RUBY>声[こえ]が……\r\n<RUBY>不思議[ふしぎ]なことも　ありにけり……。"
+      },
+      "Txt_Talk_Common_Kiesari_69": {
+        "SelfId": "Txt_Talk_Common_Kiesari_69",
+        "Text": "ぶるるるるっ。"
+      },
+      "Txt_Talk_Common_Kiesari_70": {
+        "SelfId": "Txt_Talk_Common_Kiesari_70",
+        "Text": "はて　なんだろう？"
+      },
+      "Txt_Talk_Common_Kiesari_71": {
+        "SelfId": "Txt_Talk_Common_Kiesari_71",
+        "Text": "だれだっ！？"
+      },
+      "Txt_Talk_Common_Kiesari_72": {
+        "SelfId": "Txt_Talk_Common_Kiesari_72",
+        "Text": "おかしいな。\r\nだれも　いねえぞ。"
+      },
+      "Txt_Talk_Common_Kiesari_73": {
+        "SelfId": "Txt_Talk_Common_Kiesari_73",
+        "Text": "だ～れ～も　いないよ～\r\nラララ～♪"
+      },
+      "Txt_Talk_Common_Kiesari_74": {
+        "SelfId": "Txt_Talk_Common_Kiesari_74",
+        "Text": "それでも　<RUBY>姿[すがた]を　<RUBY>消[け]してるつもりか？\r\nおれさまには　まる<RUBY>見[み]えだぜ。"
+      },
+      "Txt_Talk_Common_Kiesari_75": {
+        "SelfId": "Txt_Talk_Common_Kiesari_75",
+        "Text": "うおっ！？\r\nなんじゃ　<RUBY>今[いま]の<RUBY>声[こえ]は？"
+      },
+      "Txt_Talk_Common_Monster_1": {
+        "SelfId": "Txt_Talk_Common_Monster_1",
+        "Text": "きみ　だあれ？"
+      },
+      "Txt_Talk_Common_Monster_2": {
+        "SelfId": "Txt_Talk_Common_Monster_2",
+        "Text": "ひゃーっ　<RUBY>出[で]たーっ！"
+      },
+      "Txt_Talk_Common_Monster_3": {
+        "SelfId": "Txt_Talk_Common_Monster_3",
+        "Text": "うわっ　ば　ばけものっ！"
+      },
+      "Txt_Talk_Common_Monster_4": {
+        "SelfId": "Txt_Talk_Common_Monster_4",
+        "Text": "あわわわわ……。"
+      },
+      "Txt_Talk_Common_Monster_5": {
+        "SelfId": "Txt_Talk_Common_Monster_5",
+        "Text": "おおおっ。\r\nこの　ばけものは　なんじゃっ！"
+      },
+      "Txt_Talk_Common_Monster_6": {
+        "SelfId": "Txt_Talk_Common_Monster_6",
+        "Text": "ひいいっ\r\n<RUBY>命[いのち]ばかりは　お<RUBY>助[たす]けをっ！"
+      },
+      "Txt_Talk_Common_Monster_7": {
+        "SelfId": "Txt_Talk_Common_Monster_7",
+        "Text": "この　ばけものめっ\r\nここから　<RUBY>立[た]ち<RUBY>去[さ]らないと\r\nてんばつが　くだるぞっ。"
+      },
+      "Txt_Talk_Common_Monster_8": {
+        "SelfId": "Txt_Talk_Common_Monster_8",
+        "Text": "おおっ　なぜ　<RUBY>魔物[まもの]がっ！\r\nつ…つかまえて　<RUBY>研究材料[けんきゅうざいりょう]に！"
+      },
+      "Txt_Talk_Common_Monster_9": {
+        "SelfId": "Txt_Talk_Common_Monster_9",
+        "Text": "むっ　なんだ　こいつ。\r\n<RUBY>来[く]るなら　<RUBY>来[こ]いっ。"
+      },
+      "Txt_Talk_Common_Monster_10": {
+        "SelfId": "Txt_Talk_Common_Monster_10",
+        "Text": "おのれ　もののけめ！\r\nさっさと　ゆかぬと\r\n<RUBY>成敗[せいばい]して　くれるぞっ！"
+      },
+      "Txt_Talk_Common_Monster_11": {
+        "SelfId": "Txt_Talk_Common_Monster_11",
+        "Text": "なんだ　てめえはっ。\r\nどこからでも　かかってこい！"
+      },
+      "Txt_Talk_Common_Monster_12": {
+        "SelfId": "Txt_Talk_Common_Monster_12",
+        "Text": "おっ　やる<RUBY>気[き]か？\r\n<RUBY>相手[あいて]になるぜっ！"
+      },
+      "Txt_Talk_Common_Monster_13": {
+        "SelfId": "Txt_Talk_Common_Monster_13",
+        "Text": "うわっと！"
+      },
+      "Txt_Talk_Common_Monster_14": {
+        "SelfId": "Txt_Talk_Common_Monster_14",
+        "Text": "かっかっ　<RUBY>怪物[かいぶつ]だ～。\r\nた～すけ～て～。"
+      },
+      "Txt_Talk_Common_Monster_15": {
+        "SelfId": "Txt_Talk_Common_Monster_15",
+        "Text": "なんで　<RUBY>怪物[かいぶつ]が\r\nこんな　ところに！"
+      },
+      "Txt_Talk_Common_Monster_16": {
+        "SelfId": "Txt_Talk_Common_Monster_16",
+        "Text": "げげっ　<RUBY>魔物[まもの]が！\r\nた　<RUBY>助[たす]けてくれっ。"
+      },
+      "Txt_Talk_Common_Monster_17": {
+        "SelfId": "Txt_Talk_Common_Monster_17",
+        "Text": "この　<RUBY>怪物[かいぶつ]めっ\r\nやっつけて　やろうかっ。"
+      },
+      "Txt_Talk_Common_Monster_18": {
+        "SelfId": "Txt_Talk_Common_Monster_18",
+        "Text": "おや　あんたは……。"
+      },
+      "Txt_Talk_Common_Monster_19": {
+        "SelfId": "Txt_Talk_Common_Monster_19",
+        "Text": "どうしたのかね？\r\nそんな　かっこうをして？"
+      },
+      "Txt_Talk_Common_Monster_20": {
+        "SelfId": "Txt_Talk_Common_Monster_20",
+        "Text": "<RUBY>出[で]たーっ！"
+      },
+      "Txt_Talk_Common_Monster_21": {
+        "SelfId": "Txt_Talk_Common_Monster_21",
+        "Text": "ひいいっ\r\nこしが　ぬけたっ！"
+      },
+      "Txt_Talk_Common_Monster_22": {
+        "SelfId": "Txt_Talk_Common_Monster_22",
+        "Text": "わっ　おまえ　なに？\r\nばけもの？"
+      },
+      "Txt_Talk_Common_Monster_23": {
+        "SelfId": "Txt_Talk_Common_Monster_23",
+        "Text": "うお。\r\n<RUBY>出[で]たな　ばけもの。"
+      },
+      "Txt_Talk_Common_Monster_24": {
+        "SelfId": "Txt_Talk_Common_Monster_24",
+        "Text": "ばけもの　ばけもの！\r\n<RUBY>助[たす]けて　<RUBY>助[たす]けて！"
+      },
+      "Txt_Talk_Common_Monster_25": {
+        "SelfId": "Txt_Talk_Common_Monster_25",
+        "Text": "おまえ　なにしに　<RUBY>来[き]た。\r\n<RUBY>村[むら]から　<RUBY>出[で]ていけ。"
+      },
+      "Txt_Talk_Common_Monster_26": {
+        "SelfId": "Txt_Talk_Common_Monster_26",
+        "Text": "うわーん　こわいよー。"
+      },
+      "Txt_Talk_Common_Monster_27": {
+        "SelfId": "Txt_Talk_Common_Monster_27",
+        "Text": "きゃーっ　ま　<RUBY>魔物[まもの]よっ。\r\n<RUBY>助[たす]けてーっ！"
+      },
+      "Txt_Talk_Common_Monster_28": {
+        "SelfId": "Txt_Talk_Common_Monster_28",
+        "Text": "ひっ！"
+      },
+      "Txt_Talk_Common_Monster_29": {
+        "SelfId": "Txt_Talk_Common_Monster_29",
+        "Text": "だめっ！\r\nここは　<RUBY>人間専用[にんげんせんよう]なのよ。"
+      },
+      "Txt_Talk_Common_Monster_30": {
+        "SelfId": "Txt_Talk_Common_Monster_30",
+        "Text": "わ　わしなぞ　<RUBY>食[く]っても\r\nうまく　ないぞ！"
+      },
+      "Txt_Talk_Common_Monster_31": {
+        "SelfId": "Txt_Talk_Common_Monster_31",
+        "Text": "なんですの　あなたは！\r\nだれか！　だれか　<RUBY>兵[へい]をっ。"
+      },
+      "Txt_Talk_Common_Monster_32": {
+        "SelfId": "Txt_Talk_Common_Monster_32",
+        "Text": "あれーっ！\r\nだれかーっ！"
+      },
+      "Txt_Talk_Common_Monster_33": {
+        "SelfId": "Txt_Talk_Common_Monster_33",
+        "Text": "ごめんなさい　ゆるして！\r\n<RUBY>食[た]べないで！"
+      },
+      "Txt_Talk_Common_Monster_34": {
+        "SelfId": "Txt_Talk_Common_Monster_34",
+        "Text": "あれーっ！"
+      },
+      "Txt_Talk_Common_Monster_35": {
+        "SelfId": "Txt_Talk_Common_Monster_35",
+        "Text": "ここは　あなたがたの\r\n<RUBY>来[く]るようなところでは　ありません。\r\n<RUBY>出[で]ていきなさいっ！"
+      },
+      "Txt_Talk_Common_Monster_36": {
+        "SelfId": "Txt_Talk_Common_Monster_36",
+        "Text": "この　ばけものめっ！\r\nここが　あたいらのアジトと<RUBY>知[し]って\r\n<RUBY>入[はい]ってきたのか！"
+      },
+      "Txt_Talk_Common_Monster_37": {
+        "SelfId": "Txt_Talk_Common_Monster_37",
+        "Text": "あれーっ\r\nおみのがしをーっ！"
+      },
+      "Txt_Talk_Common_Monster_38": {
+        "SelfId": "Txt_Talk_Common_Monster_38",
+        "Text": "ばけもの　こわい！\r\nばけもの　キライ！"
+      },
+      "Txt_Talk_Common_Monster_39": {
+        "SelfId": "Txt_Talk_Common_Monster_39",
+        "Text": "スーの<RUBY>神[かみ]さま　<RUBY>助[たす]けて！"
+      },
+      "Txt_Talk_Common_Monster_40": {
+        "SelfId": "Txt_Talk_Common_Monster_40",
+        "Text": "<RUBY>兵[へい]は？　<RUBY>兵[へい]は　なにを\r\nしているのです！\r\nこの<RUBY>魔物[まもの]を　<RUBY>追[お]いはらいなさい。"
+      },
+      "Txt_Talk_Common_Monster_41": {
+        "SelfId": "Txt_Talk_Common_Monster_41",
+        "Text": "なんじゃ。おまえらなぞ\r\nおそろしくも　なんとも　ないわ。\r\n<RUBY>消[き]えうせい！"
+      },
+      "Txt_Talk_Common_Monster_42": {
+        "SelfId": "Txt_Talk_Common_Monster_42",
+        "Text": "おお　<RUBY>神[かみ]よ……\r\nあわれな　<RUBY>神[かみ]の<RUBY>子[こ]を\r\nお<RUBY>救[すく]いください！"
+      },
+      "Txt_Talk_Common_Monster_43": {
+        "SelfId": "Txt_Talk_Common_Monster_43",
+        "Text": "なによ　あんたたちっ！\r\nここには　<RUBY>強[つよ]い<RUBY>人[ひと]たちが\r\nいっぱい　いるんだからねっ！"
+      },
+      "Txt_Talk_Common_Monster_44": {
+        "SelfId": "Txt_Talk_Common_Monster_44",
+        "Text": "ああ　あなた！\r\n<RUBY>私[わたし]を　<RUBY>守[まも]って……。"
+      },
+      "Txt_Talk_Common_Monster_45": {
+        "SelfId": "Txt_Talk_Common_Monster_45",
+        "Text": "ふぎゃあごーっ！"
+      },
+      "Txt_Talk_Common_Monster_46": {
+        "SelfId": "Txt_Talk_Common_Monster_46",
+        "Text": "がるるるる。"
+      },
+      "Txt_Talk_Common_Monster_47": {
+        "SelfId": "Txt_Talk_Common_Monster_47",
+        "Text": "いーひひひひーんっ！"
+      },
+      "Txt_Talk_Common_Monster_48": {
+        "SelfId": "Txt_Talk_Common_Monster_48",
+        "Text": "なんだ　<RUBY>魔物[まもの]か……。"
+      },
+      "Txt_Talk_Common_Monster_49": {
+        "SelfId": "Txt_Talk_Common_Monster_49",
+        "Text": "<RUBY>姿[すがた]を　かえて\r\nおれさまを　ゆだんさせる<RUBY>気[き]か？\r\nその<RUBY>手[て]には　のらぬわい。"
+      },
+      "Txt_Talk_Common_Monster_50": {
+        "SelfId": "Txt_Talk_Common_Monster_50",
+        "Text": "ピキーッ！"
+      },
+      "Txt_Talk_Common_Monster_51": {
+        "SelfId": "Txt_Talk_Common_Monster_51",
+        "Text": "ひいいっ\r\n<RUBY>命[いのち]ばかりは　お<RUBY>助[たす]けをっ！"
+      },
+      "Txt_Talk_Common_Monster_52": {
+        "SelfId": "Txt_Talk_Common_Monster_52",
+        "Text": "がるるるる。"
+      },
+      "Txt_Talk_Common_Monster_53": {
+        "SelfId": "Txt_Talk_Common_Monster_53",
+        "Text": "わ　わしなぞ　<RUBY>食[く]っても\r\nうまく　ないぞ！"
+      },
+      "Txt_Talk_Common_Monster_54": {
+        "SelfId": "Txt_Talk_Common_Monster_54",
+        "Text": "あわわわわ……。"
+      },
+      "Txt_Talk_Common_Monster_55": {
+        "SelfId": "Txt_Talk_Common_Monster_55",
+        "Text": "げげっ　<RUBY>魔物[まもの]が！\r\nた　<RUBY>助[たす]けてくれっ。"
+      },
+      "Txt_Talk_Common_Monster_56": {
+        "SelfId": "Txt_Talk_Common_Monster_56",
+        "Text": "あれーっ！"
+      },
+      "Txt_Talk_Common_Monster_57": {
+        "SelfId": "Txt_Talk_Common_Monster_57",
+        "Text": "ひゃーっ　<RUBY>出[で]たーっ！"
+      },
+      "Txt_Talk_Common_Monster_58": {
+        "SelfId": "Txt_Talk_Common_Monster_58",
+        "Text": "おや　あんたは……。"
+      },
+      "Txt_Talk_Common_Monster_59": {
+        "SelfId": "Txt_Talk_Common_Monster_59",
+        "Text": "どうしたのかね？\r\nそんな　かっこうをして？"
+      },
+      "Txt_Talk_Common_Monster_60": {
+        "SelfId": "Txt_Talk_Common_Monster_60",
+        "Text": "きゃーっ　ま　<RUBY>魔物[まもの]よっ。\r\n<RUBY>助[たす]けてーっ！"
+      },
+      "Txt_Talk_Common_Monster_61": {
+        "SelfId": "Txt_Talk_Common_Monster_61",
+        "Text": "ピキーッ！"
+      },
+      "Txt_Talk_Common_Monster_62": {
+        "SelfId": "Txt_Talk_Common_Monster_62",
+        "Text": "あれーっ\r\nおみのがしをーっ！"
+      },
+      "Txt_Talk_Common_Monster_63": {
+        "SelfId": "Txt_Talk_Common_Monster_63",
+        "Text": "いーひひひひーんっ！"
+      },
+      "Txt_Talk_Common_Monster_64": {
+        "SelfId": "Txt_Talk_Common_Monster_64",
+        "Text": "<RUBY>出[で]たーっ！"
+      },
+      "Txt_Talk_Common_Monster_65": {
+        "SelfId": "Txt_Talk_Common_Monster_65",
+        "Text": "この　<RUBY>怪物[かいぶつ]めっ\r\nやっつけて　やろうかっ。"
+      },
+      "Txt_Talk_Common_Monster_66": {
+        "SelfId": "Txt_Talk_Common_Monster_66",
+        "Text": "かっかっ　<RUBY>怪物[かいぶつ]だ～。\r\nた～すけ～て～。"
+      },
+      "Txt_Talk_Common_Monster_67": {
+        "SelfId": "Txt_Talk_Common_Monster_67",
+        "Text": "<RUBY>姿[すがた]を　かえて\r\nおれさまを　ゆだんさせる<RUBY>気[き]か？\r\nその<RUBY>手[て]には　のらぬわい。"
+      },
+      "Txt_Talk_Common_Monster_68": {
+        "SelfId": "Txt_Talk_Common_Monster_68",
+        "Text": "おおおっ。\r\nこの　ばけものは　なんじゃっ！"
+      },
+      "Txt_Talk_Common_Slime_1": {
+        "SelfId": "Txt_Talk_Common_Slime_1",
+        "Text": "あっ　スライムだ！"
+      },
+      "Txt_Talk_Common_Slime_2": {
+        "SelfId": "Txt_Talk_Common_Slime_2",
+        "Text": "ふん　なんだ　スライムか。\r\nとっとと　あっちへ　<RUBY>消[き]えな。"
+      },
+      "Txt_Talk_Common_Slime_3": {
+        "SelfId": "Txt_Talk_Common_Slime_3",
+        "Text": "あっ　ぼく　<RUBY>知[し]ってる。\r\nスライム　スライム。"
+      },
+      "Txt_Talk_Common_Slime_4": {
+        "SelfId": "Txt_Talk_Common_Slime_4",
+        "Text": "わーい　スライムだー。\r\nプニ　プニ。"
+      },
+      "Txt_Talk_Common_Slime_5": {
+        "SelfId": "Txt_Talk_Common_Slime_5",
+        "Text": "きゃーっ！　かわいいーっ！"
+      },
+      "Txt_Talk_Common_Slime_6": {
+        "SelfId": "Txt_Talk_Common_Slime_6",
+        "Text": "あら　こんなところに\r\nスライムが……\r\nきっと　<RUBY>迷[まよ]いこんだのね。"
+      },
+      "Txt_Talk_Common_Slime_7": {
+        "SelfId": "Txt_Talk_Common_Slime_7",
+        "Text": "あらあら　いらっしゃい。\r\nでも　ゴメンね。スライムの\r\n<RUBY>仲間[なかま]は　ここには　いないのよ。"
+      },
+      "Txt_Talk_Common_Slime_8": {
+        "SelfId": "Txt_Talk_Common_Slime_8",
+        "Text": "やあ　こんにちはっ。\r\nプルルン　プルン。"
+      },
+      "Txt_Talk_Common_Slime_9": {
+        "SelfId": "Txt_Talk_Common_Slime_9",
+        "Text": "きゃーっ！　かわいいーっ！"
+      },
+      "Txt_Talk_Common_Slime_10": {
+        "SelfId": "Txt_Talk_Common_Slime_10",
+        "Text": "やあ　こんにちはっ。\r\nプルルン　プルン。"
+      },
+      "Txt_Talk_Common_ZomaBattle_1": {
+        "SelfId": "Txt_Talk_Common_ZomaBattle_1",
+        "Text": "ほほう……。\r\nわがバリアを　はずす　すべを\r\nしっていたとはな。"
+      },
+      "Txt_Talk_Common_ZomaBattle_2": {
+        "SelfId": "Txt_Talk_Common_ZomaBattle_2",
+        "Text": "しかし　<RUBY>無駄[むだ]な　こと……。\r\nさあ　わが　うでの　なかで\r\nもがき　<RUBY>苦[くる]しむが　よい。"
+      },
+      "Txt_Talk_Common_Field_MAIN_0_SCENE_0030_010_1": {
+        "SelfId": "Txt_Talk_Common_Field_MAIN_0_SCENE_0030_010_1",
+        "Text": "<RUBY>空[そら]の<RUBY>上[うえ]のほうで　なにかが\r\n<RUBY>閉[と]じたような　<RUBY>音[おと]がした……。"
+      },
+      "Txt_Talk_Common_Field_MAIN_0_SCENE_0030_010_2": {
+        "SelfId": "Txt_Talk_Common_Field_MAIN_0_SCENE_0030_010_2",
+        "Text": "なんと　{WORD}が　<RUBY>生[い]き<RUBY>返[かえ]った！"
+      },
+      "Txt_Talk_Common_MBR_Escape_Sound": {
+        "SelfId": "Txt_Talk_Common_MBR_Escape_Sound",
+        "Text": "<RUBY>足音[あしおと]に<RUBY>気[き]がついて\r\n<RUBY>魔物[まもの]が　<RUBY>逃[に]げていったようだ。"
+      },
+      "Txt_Talk_Common_MBR_Escape_Smell": {
+        "SelfId": "Txt_Talk_Common_MBR_Escape_Smell",
+        "Text": "ヒトの<RUBY>匂[にお]いに　<RUBY>気[き]がついて\r\n<RUBY>魔物[まもの]が　<RUBY>逃[に]げていったようだ。"
+      },
+      "Txt_Talk_Common_MBR_Escape_Look": {
+        "SelfId": "Txt_Talk_Common_MBR_Escape_Look",
+        "Text": "こちらの<RUBY>姿[すがた]に　<RUBY>気[き]がついて\r\n<RUBY>魔物[まもの]が　<RUBY>逃[に]げていったようだ。"
+      },
+      "Txt_Talk_Common_MBR_Entry_1": {
+        "SelfId": "Txt_Talk_Common_MBR_Entry_1",
+        "Text": "<RUBY>魔物[まもの]たちの<RUBY>熱[あつ]き<RUBY>共演[きょうえん]……\r\nモンスター・バトルロードへようこそ。<KEY_WAIT>\r\nただいま　<RUBY>開催[かいさい]されているランクは……\r\nおや？　{LEADER}さまの\r\n<RUBY>参加[さんか]できるランクが　ここには　ありませんね。"
+      },
+      "Txt_Talk_Common_MBR_Entry_2": {
+        "SelfId": "Txt_Talk_Common_MBR_Entry_2",
+        "Text": "ロマリアの　バトルロードで\r\nまだ<RUBY>突破[とっぱ]していないランクが　あるようです。\r\nそちらに　<RUBY>挑戦[ちょうせん]してください。"
+      },
+      "Txt_Talk_Common_MBR_Entry_3": {
+        "SelfId": "Txt_Talk_Common_MBR_Entry_3",
+        "Text": "イシスの　バトルロードで\r\nまだ<RUBY>突破[とっぱ]していないランクが　あるようです。\r\nそちらに　<RUBY>挑戦[ちょうせん]してください。"
+      },
+      "Txt_Talk_Common_MBR_Entry_4": {
+        "SelfId": "Txt_Talk_Common_MBR_Entry_4",
+        "Text": "サマンオサの　バトルロードで\r\nまだ<RUBY>突破[とっぱ]していないランクが　あるようです。\r\nそちらに　<RUBY>挑戦[ちょうせん]してください。"
+      },
+      "Txt_Talk_Common_MBR_Entry_5": {
+        "SelfId": "Txt_Talk_Common_MBR_Entry_5",
+        "Text": "メルキドの　バトルロードで\r\nまだ<RUBY>突破[とっぱ]していないランクが　あるようです。\r\nそちらに　<RUBY>挑戦[ちょうせん]してください。"
+      },
+      "Txt_Talk_Common_Field_SignBoard_1": {
+        "SelfId": "Txt_Talk_Common_Field_SignBoard_1",
+        "Text": "↑レーベ\r\n\r\n↓<RUBY>岬[みさき]の<RUBY>洞窟[どうくつ]"
+      },
+      "Txt_Talk_Common_Field_SignBoard_2": {
+        "SelfId": "Txt_Talk_Common_Field_SignBoard_2",
+        "Text": "↑カザーブ\r\n←<RUBY>関所[せきしょ]\r\n→アッサラーム"
+      },
+      "Txt_Talk_Common_Field_SignBoard_3": {
+        "SelfId": "Txt_Talk_Common_Field_SignBoard_3",
+        "Text": "↑ノアニール\r\n\r\n←シャンパーニの<RUBY>塔[とう]"
+      },
+      "Txt_Talk_Common_Field_SignBoard_4": {
+        "SelfId": "Txt_Talk_Common_Field_SignBoard_4",
+        "Text": "→<RUBY>洞窟[どうくつ]\r\n↓すぐそこ　アッサラーム\r\n<RUBY>南西[なんせい]　イシス"
+      },
+      "Txt_Talk_Common_Field_SignBoard_5": {
+        "SelfId": "Txt_Talk_Common_Field_SignBoard_5",
+        "Text": "この<RUBY>先[さき]　<RUBY>砂漠[さばく]\r\n<RUBY>南西[なんせい]　イシス\r\n<RUBY>西[にし]　ピラミッド"
+      },
+      "Txt_Talk_Common_Field_SignBoard_6": {
+        "SelfId": "Txt_Talk_Common_Field_SignBoard_6",
+        "Text": "<RUBY>北[きた]　オリビアの<RUBY>岬[みさき]\r\n\r\n<RUBY>南東[なんとう]　バハラタ"
+      },
+      "Txt_Talk_Common_Field_SignBoard_7": {
+        "SelfId": "Txt_Talk_Common_Field_SignBoard_7",
+        "Text": "↑ダーマ<RUBY>神殿[しんでん]\r\n\r\n←<RUBY>洞窟[どうくつ]"
+      },
+      "Txt_Talk_Common_Field_SignBoard_8": {
+        "SelfId": "Txt_Talk_Common_Field_SignBoard_8",
+        "Text": "<RUBY>北[きた]　ガルナの<RUBY>塔[とう]\r\n\r\n<RUBY>南東[なんとう]　<RUBY>旅人[たびびと]の<RUBY>宿屋[やどや]"
+      },
+      "Txt_Talk_Common_Field_SignBoard_9": {
+        "SelfId": "Txt_Talk_Common_Field_SignBoard_9",
+        "Text": "↑ムオル\r\n\r\n↓<RUBY>旅人[たびびと]の<RUBY>宿屋[やどや]"
+      },
+      "Txt_Talk_Common_Field_SignBoard_10": {
+        "SelfId": "Txt_Talk_Common_Field_SignBoard_10",
+        "Text": "↑<RUBY>旅人[たびびと]のほこら\r\n\r\n→<RUBY>川[かわ]の<RUBY>先[さき]　テドン"
+      },
+      "Txt_Talk_Common_Field_SignBoard_11": {
+        "SelfId": "Txt_Talk_Common_Field_SignBoard_11",
+        "Text": "↑<RUBY>川[かわ]の<RUBY>先[さき]　スー\r\n\r\n←<RUBY>西[にし]の<RUBY>山[やま]の<RUBY>向[む]こう　アープの<RUBY>塔[とう]"
+      },
+      "Txt_Talk_Common_shortcut_1": {
+        "SelfId": "Txt_Talk_Common_shortcut_1",
+        "Text": "ここから　<RUBY>入[い]り<RUBY>口[ぐち]へ　<RUBY>移動[いどう]できそうだ。\r\n<RUBY>移動[いどう]しますか？"
+      }
+    }
+  }
+]

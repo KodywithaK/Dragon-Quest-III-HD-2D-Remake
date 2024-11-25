@@ -1,0 +1,520 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_BattleRoadMenu",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_MBR_Rank_H": {
+        "SelfId": "Txt_MBR_Rank_H",
+        "Text": "Rang 1"
+      },
+      "Txt_MBR_Rank_G": {
+        "SelfId": "Txt_MBR_Rank_G",
+        "Text": "Rang 2"
+      },
+      "Txt_MBR_Rank_F": {
+        "SelfId": "Txt_MBR_Rank_F",
+        "Text": "Rang 3"
+      },
+      "Txt_MBR_Rank_E": {
+        "SelfId": "Txt_MBR_Rank_E",
+        "Text": "Rang 4"
+      },
+      "Txt_MBR_Rank_D": {
+        "SelfId": "Txt_MBR_Rank_D",
+        "Text": "Rang 5"
+      },
+      "Txt_MBR_Rank_C": {
+        "SelfId": "Txt_MBR_Rank_C",
+        "Text": "Rang 6"
+      },
+      "Txt_MBR_Rank_B": {
+        "SelfId": "Txt_MBR_Rank_B",
+        "Text": "Rang 7"
+      },
+      "Txt_MBR_Rank_A": {
+        "SelfId": "Txt_MBR_Rank_A",
+        "Text": "Rang 8"
+      },
+      "Txt_MBR_Rank_S": {
+        "SelfId": "Txt_MBR_Rank_S",
+        "Text": "Rang 9"
+      },
+      "Txt_MBR_Rank_SS": {
+        "SelfId": "Txt_MBR_Rank_SS",
+        "Text": "Rang 10"
+      },
+      "Txt_MBR_Rank_SSS": {
+        "SelfId": "Txt_MBR_Rank_SSS",
+        "Text": "Rang 11"
+      },
+      "Txt_MBR_Window_UI_Status_LV": {
+        "SelfId": "Txt_MBR_Window_UI_Status_LV",
+        "Text": "St.:"
+      },
+      "Txt_MBR_Window_UI_Status_NAME": {
+        "SelfId": "Txt_MBR_Window_UI_Status_NAME",
+        "Text": "Name"
+      },
+      "Txt_MBR_Window_UI_Status_MAX_HP": {
+        "SelfId": "Txt_MBR_Window_UI_Status_MAX_HP",
+        "Text": "Max. LP"
+      },
+      "Txt_MBR_Window_UI_Status_MAX_MP": {
+        "SelfId": "Txt_MBR_Window_UI_Status_MAX_MP",
+        "Text": "Max. MP"
+      },
+      "Txt_MBR_Window_UI_Status_PARAM_01": {
+        "SelfId": "Txt_MBR_Window_UI_Status_PARAM_01",
+        "Text": "Angriff"
+      },
+      "Txt_MBR_Window_UI_Status_PARAM_02": {
+        "SelfId": "Txt_MBR_Window_UI_Status_PARAM_02",
+        "Text": "Abwehr"
+      },
+      "Txt_MBR_Window_UI_Status_PARAM_03": {
+        "SelfId": "Txt_MBR_Window_UI_Status_PARAM_03",
+        "Text": "Flinkheit"
+      },
+      "Txt_MBR_Window_UI_Status_PARAM_04": {
+        "SelfId": "Txt_MBR_Window_UI_Status_PARAM_04",
+        "Text": "Weisheit"
+      },
+      "Txt_MBR_Window_UI_Status_PARAM_05": {
+        "SelfId": "Txt_MBR_Window_UI_Status_PARAM_05",
+        "Text": "Glück"
+      },
+      "Txt_MBR_Window_UI_Same_Species": {
+        "SelfId": "Txt_MBR_Window_UI_Same_Species",
+        "Text": "Artgenossen"
+      },
+      "Txt_MBR_Window_UI_Species_Power": {
+        "SelfId": "Txt_MBR_Window_UI_Species_Power",
+        "Text": "Monsterstärke:"
+      },
+      "Txt_MBR_Window_UI_Sort_Order": {
+        "SelfId": "Txt_MBR_Window_UI_Sort_Order",
+        "Text": "Sortierung:"
+      },
+      "Txt_MBR_Window_UI_Sort_Level": {
+        "SelfId": "Txt_MBR_Window_UI_Sort_Level",
+        "Text": "Stufe"
+      },
+      "Txt_MBR_Window_UI_Sort_Species": {
+        "SelfId": "Txt_MBR_Window_UI_Sort_Species",
+        "Text": "Numerisch"
+      },
+      "Txt_MBR_Window_UI_Sort_ABC": {
+        "SelfId": "Txt_MBR_Window_UI_Sort_ABC",
+        "Text": "Alphabetisch"
+      },
+      "Txt_MBR_Window_UI_Magic_Unknown": {
+        "SelfId": "Txt_MBR_Window_UI_Magic_Unknown",
+        "Text": "???"
+      },
+      "Txt_MBR_Window_UI_Indi_Unknown": {
+        "SelfId": "Txt_MBR_Window_UI_Indi_Unknown",
+        "Text": "???"
+      },
+      "Txt_MBR_Window_UI_Species_Solo": {
+        "SelfId": "Txt_MBR_Window_UI_Species_Solo",
+        "Text": "Keine"
+      },
+      "Txt_MBR_Window_UI_Reward_Mask": {
+        "SelfId": "Txt_MBR_Window_UI_Reward_Mask",
+        "Text": "???"
+      },
+      "Txt_MBR_Window_UI_Reward_First": {
+        "SelfId": "Txt_MBR_Window_UI_Reward_First",
+        "Text": "Preis für den ersten Sieg"
+      },
+      "Txt_MBR_Window_UI_Disp_Disp": {
+        "SelfId": "Txt_MBR_Window_UI_Disp_Disp",
+        "Text": "Anzeigen"
+      },
+      "Txt_MBR_Window_UI_Disp_Status": {
+        "SelfId": "Txt_MBR_Window_UI_Disp_Status",
+        "Text": "Stärke"
+      },
+      "Txt_MBR_Window_UI_Disp_Magic": {
+        "SelfId": "Txt_MBR_Window_UI_Disp_Magic",
+        "Text": "Zauber/Fähigk."
+      },
+      "Txt_MBR_Window_UI_Member_Decide": {
+        "SelfId": "Txt_MBR_Window_UI_Member_Decide",
+        "Text": "Bereit"
+      },
+      "Txt_MBR_Info_UI_Quit": {
+        "SelfId": "Txt_MBR_Info_UI_Quit",
+        "Text": "Gehen"
+      },
+      "Txt_MBR_Info_UI_Guide": {
+        "SelfId": "Txt_MBR_Info_UI_Guide",
+        "Text": "Wähle ein Thema."
+      },
+      "Txt_MBR_Info_UI_Question_01": {
+        "SelfId": "Txt_MBR_Info_UI_Question_01",
+        "Text": "Monster retten"
+      },
+      "Txt_MBR_Info_UI_Question_02": {
+        "SelfId": "Txt_MBR_Info_UI_Question_02",
+        "Text": "Scheue Monster"
+      },
+      "Txt_MBR_Info_UI_Question_03": {
+        "SelfId": "Txt_MBR_Info_UI_Question_03",
+        "Text": "Monster aufspüren"
+      },
+      "Txt_MBR_Info_UI_Question_04": {
+        "SelfId": "Txt_MBR_Info_UI_Question_04",
+        "Text": "Monsterarenen"
+      },
+      "Txt_MBR_Info_UI_Question_05": {
+        "SelfId": "Txt_MBR_Info_UI_Question_05",
+        "Text": "Turnierteilnahme"
+      },
+      "Txt_MBR_Info_UI_Question_06": {
+        "SelfId": "Txt_MBR_Info_UI_Question_06",
+        "Text": "Niederlagen"
+      },
+      "Txt_MBR_Zoo_UI_Guide": {
+        "SelfId": "Txt_MBR_Zoo_UI_Guide",
+        "Text": "Wähle ein Monster."
+      },
+      "Txt_MBR_Entry_UI_Rank_Guide": {
+        "SelfId": "Txt_MBR_Entry_UI_Rank_Guide",
+        "Text": "Wähle ein Turnier."
+      },
+      "Txt_MBR_Entry_UI_Monster_Guide": {
+        "SelfId": "Txt_MBR_Entry_UI_Monster_Guide",
+        "Text": "Wähle ein Monster."
+      },
+      "Txt_MBR_Entry_UI_Monster_Remove": {
+        "SelfId": "Txt_MBR_Entry_UI_Monster_Remove",
+        "Text": "Monster entfernen"
+      },
+      "Txt_MBR_Entry_UI_Monster_Return": {
+        "SelfId": "Txt_MBR_Entry_UI_Monster_Return",
+        "Text": "Zurück"
+      },
+      "Txt_MBR_Entry_UI_Entry_Yes": {
+        "SelfId": "Txt_MBR_Entry_UI_Entry_Yes",
+        "Text": "Ja"
+      },
+      "Txt_MBR_Entry_UI_Entry_No": {
+        "SelfId": "Txt_MBR_Entry_UI_Entry_No",
+        "Text": "Noch nicht"
+      },
+      "Txt_MBR_Entry_UI_FightMoney": {
+        "SelfId": "Txt_MBR_Entry_UI_FightMoney",
+        "Text": "Preisgeld:"
+      },
+      "Txt_MBR_Invitation_UI_MonsterInfo": {
+        "SelfId": "Txt_MBR_Invitation_UI_MonsterInfo",
+        "Text": "Gezähmtes Monster"
+      },
+      "Txt_MBR_Invitation_UI_MonsterTamer_003": {
+        "SelfId": "Txt_MBR_Invitation_UI_MonsterTamer_003",
+        "Text": "<IfGender_ACTOR(Dem Monsterbändiger,Der Monsterbändigerin,)> eröffnet sich eine ganz neue Welt des Verständnisses für Monster!"
+      },
+      "Txt_MBR_Invitation_UI_MonsterTamer_010": {
+        "SelfId": "Txt_MBR_Invitation_UI_MonsterTamer_010",
+        "Text": "<IfGender_ACTOR(Der Monsterbändiger,Die Monsterbändigerin,)> weiß inzwischen ein wenig mehr über Monster."
+      },
+      "Txt_MBR_Invitation_UI_MonsterTamer_030": {
+        "SelfId": "Txt_MBR_Invitation_UI_MonsterTamer_030",
+        "Text": "<IfGender_ACTOR(Der Monsterbändiger,Die Monsterbändigerin,)> verfügt inzwischen über ein solides Wissen über Monster"
+      },
+      "Txt_MBR_Invitation_UI_MonsterTamer_050": {
+        "SelfId": "Txt_MBR_Invitation_UI_MonsterTamer_050",
+        "Text": "<IfGender_ACTOR(Der Monsterbändiger,Die Monsterbändigerin,)> verfügt inzwischen über ein umfassendes Wissen über Monster."
+      },
+      "Txt_MBR_Invitation_UI_MonsterTamer_080": {
+        "SelfId": "Txt_MBR_Invitation_UI_MonsterTamer_080",
+        "Text": "Das Wissen über Monster <IfGender_ACTOR(des Monsterbändigers,der Monsterbändigerin,)> ist nun beinahe allumfassend."
+      },
+      "Txt_MBR_Invitation_UI_MonsterTamer_100": {
+        "SelfId": "Txt_MBR_Invitation_UI_MonsterTamer_100",
+        "Text": "<IfGender_ACTOR(Der Monsterbändiger,Die Monsterbändigerin,)> weiß inzwischen alles, was es über Monster zu wissen gibt!"
+      },
+      "Txt_MBR_Info_Msg_Start_01": {
+        "SelfId": "Txt_MBR_Info_Msg_Start_01",
+        "Text": "*: Hallo! Wenn du irgendetwas über die Monsterarenen wissen möchtest, kann ich dir gewiss behilflich sein."
+      },
+      "Txt_MBR_Info_Msg_Start_02": {
+        "SelfId": "Txt_MBR_Info_Msg_Start_02",
+        "Text": "*: Guten Tag! Wenn du irgendwelche Fragen zur wunderbaren Welt der Monsterarenen hast, bist du bei mir genau richtig."
+      },
+      "Txt_MBR_Info_Msg_Top_01": {
+        "SelfId": "Txt_MBR_Info_Msg_Top_01",
+        "Text": "*: Was möchtest du wissen?<NO_INPUT>"
+      },
+      "Txt_MBR_Info_Msg_Top_02": {
+        "SelfId": "Txt_MBR_Info_Msg_Top_02",
+        "Text": "*: Was möchtest du wissen?<NO_INPUT>"
+      },
+      "Txt_MBR_Info_Msg_Quit": {
+        "SelfId": "Txt_MBR_Info_Msg_Quit",
+        "Text": "*: Bis hoffentlich bald!"
+      },
+      "Txt_MBR_Info_Msg_Answer_01": {
+        "SelfId": "Txt_MBR_Info_Msg_Answer_01",
+        "Text": "*: Es ist eigentlich ziemlich einfach. Wenn du eine sanftmütige Kreatur findest, die nicht gleich Reißaus nimmt und sich von dir streicheln lässt, dann kannst du dich mit ihr anfreunden!<KEY_WAIT>\r\n*: Monty setzt große Hoffnungen in dich, also wirst du sicher keine Mühe haben, Monster von deinem Charme zu überzeugen.\r\n<KEY_WAIT>\r\n*: Denk einfach daran, dass du dich freundlichen Kreaturen problemlos nähern kannst<nbsp><--> sie sind meist überhaupt nicht scheu. Im Gegenteil: Sie machen gerne neue Bekanntschaften!"
+      },
+      "Txt_MBR_Info_Msg_Answer_02": {
+        "SelfId": "Txt_MBR_Info_Msg_Answer_02",
+        "Text": "*: Ah, ja, ein paar können etwas schüchtern sein. Die laufen direkt davon, wenn sie einen Menschen wittern oder Schritte hören.<KEY_WAIT>\r\n*: Am besten übst du dich im Schleichen oder findest heraus, welche Düfte ihnen zusagen.<KEY_WAIT>\r\n*: Ich frage mich oft, wie es Dieben gelingt, bei ihren Raubzügen so heimlich zu sein<nbsp>... Die könnten sich bestimmt mit einer Menge Monster anfreunden!"
+      },
+      "Txt_MBR_Info_Msg_Answer_03": {
+        "SelfId": "Txt_MBR_Info_Msg_Answer_03",
+        "Text": "*: Es vergeht kein einziger Tag, an dem ich mir darüber nicht den Kopf zerbreche. Wusstest du, dass manche Kreaturen nur zu bestimmten Zeiten zu sehen sind?<KEY_WAIT>\r\n*: Sieh, nicht alle Monster sind Frühaufsteher. Manche wagen sich nur nachts nach draußen, also mach dich zu verschiedenen Zeiten auf die Suche.<KEY_WAIT>\r\n*: Wer weiß, vielleicht kommen ein paar von ihnen sogar nur in der Dämmerung raus? Wenn du die ewige Warterei leid bist, kannst du einfach bis zum Abend in einer Herberge verweilen."
+      },
+      "Txt_MBR_Info_Msg_Answer_04": {
+        "SelfId": "Txt_MBR_Info_Msg_Answer_04",
+        "Text": "*: Monsterarenen bieten sanftmütigeren Kreaturen ein neues Leben.<KEY_WAIT>\r\n*: Hier können sie sich in freundschaftlichen Kämpfen miteinander messen, auch wenn sie dabei manchmal ein wenig Blut, Schweiß und mitunter auch Schleim lassen.<KEY_WAIT>\r\n*: Oh, was noch ganz wichtig ist: Das sind Monsterarenen und keine Monstergruben. Ein paar alberne Typen nennen sie so und das macht mich wahnsinnig!<KEY_WAIT>\r\n*: Jedenfalls sind wir alle ganz gespannt auf die freundlichen Monsterchen, die du herschicken wirst! Versuch, so viele wie möglich zu finden.<KEY_WAIT>\r\n*: Und lass dich nicht unterkriegen, wenn du anfangs verlierst! Je mehr Kreaturen du sammelst, desto besser werden deine Chancen."
+      },
+      "Txt_MBR_Info_Msg_Answer_05": {
+        "SelfId": "Txt_MBR_Info_Msg_Answer_05",
+        "Text": "*: Sprich einfach mit der Empfangsdame am Eingang zur Arena.<KEY_WAIT>\r\n*: Es gibt übrigens eine Teilnahmegebühr, aber die bekommst du locker wieder rein, wenn du genug Kämpfe gewinnst.<KEY_WAIT>\r\n*: Und nur damit du es weißt: Monsterarenen sind in der ganzen Welt verstreut und sie alle haben ihre eigenen Ränge und Turniere.<KEY_WAIT>\r\n*: Die ersten Kämpfe in einer Arena sind auf Rang<nbsp>1 eingestuft. Wenn du alle Runden auf Rang<nbsp>1 gewinnst, kannst du dich mit stärkeren Gegnern messen."
+      },
+      "Txt_MBR_Info_Msg_Answer_06": {
+        "SelfId": "Txt_MBR_Info_Msg_Answer_06",
+        "Text": "*: Leider scheidest du bei einer Niederlage aus. Aber keine Sorge, dein bis dahin angesammeltes Preisgeld bekommst du trotzdem!<KEY_WAIT>\r\n*: Komm einfach immer wieder, um dich und deine Monster auf die Probe zu stellen!<KEY_WAIT>\r\n*: Nach einer Niederlage wirst du in die Empfangshalle zurückgeleitet und deine Monster erholen sich direkt wieder. Du hast wirklich nichts zu verlieren<nbsp>... Außer der Teilnahmegebühr, schätze ich."
+      },
+      "Txt_MBR_Zoo_Msg_Start_01": {
+        "SelfId": "Txt_MBR_Zoo_Msg_Start_01",
+        "Text": "Ah, du bist es wieder! Hier, um all den Monstern hallo zu sagen? Es geht ihnen ganz ausgezeichnet, kann ich dir versichern."
+      },
+      "Txt_MBR_Zoo_Msg_Start_02": {
+        "SelfId": "Txt_MBR_Zoo_Msg_Start_02",
+        "Text": "Ach, wie schön, dich wiederzusehen. Wie ich höre, nimmst du dir trotz allem noch immer die Zeit, nach freundlichen Monstern zu suchen. Vielen, vielen Dank!"
+      },
+      "Txt_MBR_Zoo_Msg_Top_01": {
+        "SelfId": "Txt_MBR_Zoo_Msg_Top_01",
+        "Text": "Sieh doch mal eben nach den kleinen Kreaturen, wenn du schon hier bist.<NO_INPUT>"
+      },
+      "Txt_MBR_Zoo_Msg_Top_02": {
+        "SelfId": "Txt_MBR_Zoo_Msg_Top_02",
+        "Text": "Würdest du dir gern noch andere Monster ansehen?<NO_INPUT>"
+      },
+      "Txt_MBR_Zoo_Msg_Top_03": {
+        "SelfId": "Txt_MBR_Zoo_Msg_Top_03",
+        "Text": "Bemerkenswert<nbsp>... Kaum zu glauben, dass du jetzt sogar besser bist als der Monsterhüter selbst. Herzlichen Glückwunsch!"
+      },
+      "Txt_MBR_Zoo_Msg_Quit": {
+        "SelfId": "Txt_MBR_Zoo_Msg_Quit",
+        "Text": "Komm bald wieder. Die Monster lieben es, wenn du vorbeischaust!"
+      },
+      "Txt_MBR_Zoo_Msg_Achieve_Reward_01": {
+        "SelfId": "Txt_MBR_Zoo_Msg_Achieve_Reward_01",
+        "Text": "Ich hatte mich schon gefragt, wann wir uns wiedersehen würden.<KEY_WAIT>\r\nEs ist höchste Zeit, mich erkenntlich zu zeigen, du hast schließlich schon {VALUE}<nbsp>Monster gefunden.<KEY_WAIT>\r\nAber glaub ja nicht, das war<9>s jetzt! Da draußen warten noch viel mehr Monsterchen auf eine neue Heimat!"
+      },
+      "Txt_MBR_Zoo_Msg_Achieve_Reward_02": {
+        "SelfId": "Txt_MBR_Zoo_Msg_Achieve_Reward_02",
+        "Text": "Hallo!<KEY_WAIT>\r\nDu hast jetzt schon {VALUE}<nbsp>Monster gefunden. Wie schön! Und sie kommen alle wunderbar miteinander aus!<KEY_WAIT>\r\nHier, ein kleines Zeichen meiner Dankbarkeit. Welche Kreatur wohl als nächstes vor meiner Tür stehen wird<nbsp>...? Wie aufregend!"
+      },
+      "Txt_MBR_Zoo_Msg_Achieve_Reward_03": {
+        "SelfId": "Txt_MBR_Zoo_Msg_Achieve_Reward_03",
+        "Text": "Auf dich habe ich schon gewartet!<KEY_WAIT>\r\nDu hast mittlerweile ganze {VALUE}<nbsp>Monster in meine Obhut gegeben.<KEY_WAIT>\r\nSie sind für mich wie Familie. Eine echt knuddelige Bande!<KEY_WAIT>\r\nIch bin mir ziemlich sicher, dass das eine der größten Kollektionen knuddeliger Knilche, äh, Monster ist!<KEY_WAIT>\r\nHier, als Zeichen meiner Dankbarkeit."
+      },
+      "Txt_MBR_Zoo_Msg_Achieve_Reward_04": {
+        "SelfId": "Txt_MBR_Zoo_Msg_Achieve_Reward_04",
+        "Text": "Da ist ja <IfGender_LEADER(mein Lieblingsmonstersammler,meine Lieblingsmonstersammlerin,)>!<KEY_WAIT>\r\nDu wirst erstaunt sein, aber inzwischen haben wir schon {VALUE}<nbsp>Monstern eine neue Heimat geschenkt!<KEY_WAIT>\r\nIch hätte wirklich nie gedacht, dass wir so erfolgreich sein würden<nbsp>...<KEY_WAIT>\r\nUnd ich kann mit Freude behaupten, dass sie allesamt gesund und munter sind!<KEY_WAIT>\r\nAngesichts deiner wirklich bemerkenswerten Arbeit habe ich hier etwas ganz Besonderes für dich. Viel Glück weiterhin!"
+      },
+      "Txt_MBR_Zoo_Msg_Achieve_Reward_05": {
+        "SelfId": "Txt_MBR_Zoo_Msg_Achieve_Reward_05",
+        "Text": "Na, wenn das mal nicht <IfGender_LEADER(der weltbeste Monsterretter,die weltbeste Monsterretterin,)> ist! Dein Besuch ist mir eine besondere Ehre.<KEY_WAIT>\r\nOb du es glaubst oder nicht<nbsp><--> so wie ich<nbsp><--> du hast uns unglaubliche {VALUE}<nbsp>Monster geschickt!<KEY_WAIT>\r\nIch kann mir gar nicht vorstellen, wo du überall gewesen sein musst, um die alle zu finden.<KEY_WAIT>\r\nEcht gut, dass ich damals auf mein Bauchgefühl gehört habe, als du Grinser getroffen hast. Niemand sonst hätte das geschafft!<KEY_WAIT>\r\nEhrlich gesagt gibt es keine Worte, die dir gerecht werden würden, aber<nbsp>... ich danke dir aus ganzem Herzen!<KEY_WAIT>\r\nIch weiß nicht, ob du damit etwas anfangen kannst, aber ich habe hier eine Kleinigkeit für dich.<KEY_WAIT>\r\nKomm gerne vorbei, wenn du Zeit hast. Die Monster liegen mir dauernd in den Ohren, weil sie dich so sehr vermissen."
+      },
+      "Txt_MBR_Zoo_Msg_Reward_A1": {
+        "SelfId": "Txt_MBR_Zoo_Msg_Reward_A1",
+        "Text": "{LEADER} erhält <IfSing_VALUE(<IndefSgl_ACC_ART_WORD>,{VALUE}<nbsp><IndefPlr_ACC_WORD>)> von Monty!"
+      },
+      "Txt_MBR_Zoo_Msg_Reward_A2": {
+        "SelfId": "Txt_MBR_Zoo_Msg_Reward_A2",
+        "Text": "{LEADER} erhält <IfSing_VALUE(<IndefSgl_ACC_ART_WORD>,{VALUE}<nbsp><IndefPlr_ACC_WORD>)> und <IfSing_VALUE2(<IndefSgl_ACC_ART_WORD2>,{VALUE2}<nbsp><IndefPlr_ACC_WORD2>)><nbsp>..."
+      },
+      "Txt_MBR_Zoo_Msg_Reward_B0": {
+        "SelfId": "Txt_MBR_Zoo_Msg_Reward_B0",
+        "Text": "... von Monty. Wie großzügig!"
+      },
+      "Txt_MBR_Zoo_Msg_Reward_B1": {
+        "SelfId": "Txt_MBR_Zoo_Msg_Reward_B1",
+        "Text": "... und <IfSing_VALUE(<IndefSgl_ACC_ART_WORD>,{VALUE}<nbsp><IndefPlr_ACC_WORD>)> von Monty!"
+      },
+      "Txt_MBR_Zoo_Msg_Reward_B2": {
+        "SelfId": "Txt_MBR_Zoo_Msg_Reward_B2",
+        "Text": "{LEADER} erhält <IfSing_VALUE(<IndefSgl_ACC_ART_WORD>,{VALUE}<nbsp><IndefPlr_ACC_WORD>)> und <IfSing_VALUE2(<IndefSgl_ACC_ART_WORD2>,{VALUE2}<nbsp><IndefPlr_ACC_WORD2>)> von Monty!"
+      },
+      "Txt_MBR_Zoo_Msg_Reward_B3": {
+        "SelfId": "Txt_MBR_Zoo_Msg_Reward_B3",
+        "Text": "... <IfSing_VALUE(<IndefSgl_ACC_ART_WORD>,{VALUE}<nbsp><IndefPlr_ACC_WORD>)>,\r\n<IfSing_VALUE2(<IndefSgl_ACC_ART_WORD2>,{VALUE2}<nbsp><IndefPlr_ACC_WORD2>)>,\r\n<IfSing_VALUE3(<IndefSgl_ACC_ART_WORD3>,{VALUE3}<nbsp><IndefPlr_ACC_WORD3>)><nbsp>..."
+      },
+      "Txt_MBR_Zoo_Msg_Reward_Excess": {
+        "SelfId": "Txt_MBR_Zoo_Msg_Reward_Excess",
+        "Text": "Ach du meine Güte! Dein Beutel platzt ja aus allen Nähten. Tja, dann wird da wohl nichts draus, schade."
+      },
+      "Txt_MBR_Entry_Msg_Start_01": {
+        "SelfId": "Txt_MBR_Entry_Msg_Start_01",
+        "Text": "*: Willkommen in der heiligsten aller Arenen, in der die freundlichsten<nbsp><--> und mächtigsten<nbsp><--> Monster der Welt in glorreichen Kämpfen gegeneinander antreten!"
+      },
+      "Txt_MBR_Entry_Msg_Start_02": {
+        "SelfId": "Txt_MBR_Entry_Msg_Start_02",
+        "Text": "*: Danke für deinen Besuch in der Monsterarena. Wir sind hier alle der Ansicht, dass freundschaftliche Wettkämpfe die Bindung zwischen Mensch und Monster stärken!\r\n*: Nicht falsch verstehen: Deine Monster kämpfen hier, nicht du. Alles klar?"
+      },
+      "Txt_MBR_Entry_Msg_Rank_01": {
+        "SelfId": "Txt_MBR_Entry_Msg_Rank_01",
+        "Text": "*: Bist du hier, um die Kräfte deiner Monster in einem Turnier auf die Probe zu stellen?<NO_INPUT>"
+      },
+      "Txt_MBR_Entry_Msg_Rank_02": {
+        "SelfId": "Txt_MBR_Entry_Msg_Rank_02",
+        "Text": "*: Bist du hier, um die Kräfte deiner Monster in einem Turnier auf die Probe zu stellen?<NO_INPUT>"
+      },
+      "Txt_MBR_Entry_Msg_Rank_Entry": {
+        "SelfId": "Txt_MBR_Entry_Msg_Rank_Entry",
+        "Text": "*: Sehr schön! Du musst nur noch die Teilnahmegebühr zahlen und es kann sofort losgehen."
+      },
+      "Txt_MBR_Entry_Msg_Rank_Err_Entry": {
+        "SelfId": "Txt_MBR_Entry_Msg_Rank_Err_Entry",
+        "Text": "*: Oh, leider gibt es gerade keine Turniere, an denen du teilnehmen könntest."
+      },
+      "Txt_MBR_Entry_Msg_Rank_Err_Rank": {
+        "SelfId": "Txt_MBR_Entry_Msg_Rank_Err_Rank",
+        "Text": "*: Ich bewundere deinen Ehrgeiz, aber ich denke, das Turnier ist noch etwas zu schwierig für dich."
+      },
+      "Txt_MBR_Entry_Msg_Rank_Err_Money": {
+        "SelfId": "Txt_MBR_Entry_Msg_Rank_Err_Money",
+        "Text": "*: Hm, das ist jetzt etwas unangenehm, aber du scheinst nicht genug Goldmünzen zu haben, um teilzunehmen<nbsp>..."
+      },
+      "Txt_MBR_Entry_Msg_Party_01": {
+        "SelfId": "Txt_MBR_Entry_Msg_Party_01",
+        "Text": "*: Bist du mit deiner Truppe zufrieden? Wenn nicht, kannst du jetzt noch Monster ein- und auswechseln. Hör einfach auf dein Bauchgefühl.<NO_INPUT>"
+      },
+      "Txt_MBR_Entry_Msg_Party_02": {
+        "SelfId": "Txt_MBR_Entry_Msg_Party_02",
+        "Text": "*: Wenn du mit deiner Aufstellung zufrieden bist, kann es jederzeit losgehen. Sag einfach Bescheid, wenn du bereit bist!<NO_INPUT>"
+      },
+      "Txt_MBR_Entry_Msg_Party_Empty": {
+        "SelfId": "Txt_MBR_Entry_Msg_Party_Empty",
+        "Text": "*: Ähm<nbsp>... Dein Monsteraufgebot wirkt gerade noch etwas<nbsp>... dünn. Wieso meldest du nicht ein paar Monster an?<NO_INPUT>"
+      },
+      "Txt_MBR_Entry_Msg_Monster_01": {
+        "SelfId": "Txt_MBR_Entry_Msg_Monster_01",
+        "Text": "*: Na, wer springt heute in den Ring?<NO_INPUT>"
+      },
+      "Txt_MBR_Entry_Msg_Entry_Confirm": {
+        "SelfId": "Txt_MBR_Entry_Msg_Entry_Confirm",
+        "Text": "*: Fantastisch. Das Turnier beginnt gleich. Bist du bereit für deinen ersten Kampf?<NO_INPUT>"
+      },
+      "Txt_MBR_Entry_Msg_Entry_Err_Party": {
+        "SelfId": "Txt_MBR_Entry_Msg_Entry_Err_Party",
+        "Text": "*: Hmm, deine Aufstellung enthält anscheinend nicht genug Monster. Schau mal, ob du noch welche findest.<NO_INPUT>"
+      },
+      "Txt_MBR_Entry_Msg_Quit_01": {
+        "SelfId": "Txt_MBR_Entry_Msg_Quit_01",
+        "Text": "*: Komm bald wieder!"
+      },
+      "Txt_MBR_Entry_Msg_Quit_02": {
+        "SelfId": "Txt_MBR_Entry_Msg_Quit_02",
+        "Text": "*: Komm bald wieder!"
+      },
+      "Txt_MBR_Entry_Msg_Start_Match": {
+        "SelfId": "Txt_MBR_Entry_Msg_Start_Match",
+        "Text": "*: Das {WORD}-Turnier wird in Kürze starten! Alle Teilnehmer werden gebeten, sich in der Monsterarena einzufinden!"
+      },
+      "Txt_MBR_Entry_Msg_Result_Top": {
+        "SelfId": "Txt_MBR_Entry_Msg_Result_Top",
+        "Text": "*: Gut gekämpft."
+      },
+      "Txt_MBR_Entry_Msg_Result_Lose": {
+        "SelfId": "Txt_MBR_Entry_Msg_Result_Lose",
+        "Text": "*: Leider war dein Team nicht stark genug. Offenbar ist ihm auf den letzten Metern die Puste ausgegangen."
+      },
+      "Txt_MBR_Entry_Msg_Result_Win_01": {
+        "SelfId": "Txt_MBR_Entry_Msg_Result_Win_01",
+        "Text": "*: Es ist mir eine große Freude, dir mitzuteilen, dass du das {WORD}-Turnier gewonnen hast!"
+      },
+      "Txt_MBR_Entry_Msg_Result_Win_02": {
+        "SelfId": "Txt_MBR_Entry_Msg_Result_Win_02",
+        "Text": "*: Du bist aus<nbsp>... {VALUE}<nbsp><IfSing_VALUE(Kampf,Kämpfen)> siegreich hervorgegangen und gewinnst damit {VALUE2}<nbsp><IfSing_VALUE2(Goldmünze,Goldmünzen)>."
+      },
+      "Txt_MBR_Entry_Msg_Result_Win_03": {
+        "SelfId": "Txt_MBR_Entry_Msg_Result_Win_03",
+        "Text": "*: Herzlichen Glückwunsch! Du hast das {WORD}-Turnier im Sturm erobert und kannst wirklich stolz auf deine Monster sein.<KEY_WAIT>\r\n*: Da du das Turnier zum ersten Mal gewonnen hast, habe ich hier eine besondere Belohnung vorbereitet: {VALUE}<nbsp><IfSing_VALUE(Goldmünze,Goldmünzen)>."
+      },
+      "Txt_MBR_Entry_Msg_Result_Win_04": {
+        "SelfId": "Txt_MBR_Entry_Msg_Result_Win_04",
+        "Text": "*: Oh, leider kann ich dir dein Preisgeld nicht geben, wenn deine Geldbörse schon so voll ist."
+      },
+      "Txt_MBR_Entry_Msg_Reward_A1": {
+        "SelfId": "Txt_MBR_Entry_Msg_Reward_A1",
+        "Text": "{LEADER} erhält <IfSing_VALUE(<IndefSgl_ACC_ART_WORD>,{VALUE}<nbsp><IndefPlr_ACC_WORD>)> als Belohnung!"
+      },
+      "Txt_MBR_Entry_Msg_Reward_A2": {
+        "SelfId": "Txt_MBR_Entry_Msg_Reward_A2",
+        "Text": "{LEADER} erhält <IfSing_VALUE(<IndefSgl_ACC_ART_WORD>,{VALUE}<nbsp><IndefPlr_ACC_WORD>)> und <IfSing_VALUE2(<IndefSgl_ACC_ART_WORD2>,{VALUE2}<nbsp><IndefPlr_ACC_WORD2>)><nbsp>..."
+      },
+      "Txt_MBR_Entry_Msg_Reward_B0": {
+        "SelfId": "Txt_MBR_Entry_Msg_Reward_B0",
+        "Text": "... als Belohnung. Wie schön!"
+      },
+      "Txt_MBR_Entry_Msg_Reward_B1": {
+        "SelfId": "Txt_MBR_Entry_Msg_Reward_B1",
+        "Text": "... plus <IfSing_VALUE(<IndefSgl_ACC_ART_WORD>,{VALUE}<nbsp><IndefPlr_ACC_WORD>)> als Belohnung!"
+      },
+      "Txt_MBR_Entry_Msg_Reward_B2": {
+        "SelfId": "Txt_MBR_Entry_Msg_Reward_B2",
+        "Text": "... plus <IfSing_VALUE(<IndefSgl_ACC_ART_WORD>,{VALUE}<nbsp><IndefPlr_ACC_WORD>)> und <IfSing_VALUE2(<IndefSgl_ACC_ART_WORD2>,{VALUE2}<nbsp><IndefPlr_ACC_WORD2>)> als Belohnung!"
+      },
+      "Txt_MBR_Entry_Msg_Reward_B3": {
+        "SelfId": "Txt_MBR_Entry_Msg_Reward_B3",
+        "Text": "... <IfSing_VALUE(<IndefSgl_ACC_ART_WORD>,{VALUE}<nbsp><IndefPlr_ACC_WORD>)>,\r\n<IfSing_VALUE2(<IndefSgl_ACC_ART_WORD2>,{VALUE2}<nbsp><IndefPlr_ACC_WORD2>)>,\r\n<IfSing_VALUE3(<IndefSgl_ACC_ART_WORD3>,{VALUE3}<nbsp><IndefPlr_ACC_WORD3>)><nbsp>..."
+      },
+      "Txt_MBR_Entry_Msg_Reward_Excess": {
+        "SelfId": "Txt_MBR_Entry_Msg_Reward_Excess",
+        "Text": "*: Oh, du scheinst gerade nicht genug Platz zu haben, um Preise entgegenzunehmen<nbsp>..."
+      },
+      "Txt_MBR_Invitation_Msg_Success_010": {
+        "SelfId": "Txt_MBR_Invitation_Msg_Success_010",
+        "Text": "Das Monster eilt freudig fort, um sich bei Opa Monty vorzustellen!"
+      },
+      "Txt_MBR_Invitation_Msg_Success_020": {
+        "SelfId": "Txt_MBR_Invitation_Msg_Success_020",
+        "Text": "Das Monster eilt entzückt davon, um sich bei Opa Monty vorzustellen."
+      },
+      "Txt_MBR_Invitation_Msg_Success_030": {
+        "SelfId": "Txt_MBR_Invitation_Msg_Success_030",
+        "Text": "Das Monster macht sich gemächlich auf den Weg, um sich bei Opa Monty vorzustellen."
+      },
+      "Txt_MBR_Invitation_Msg_Success_040": {
+        "SelfId": "Txt_MBR_Invitation_Msg_Success_040",
+        "Text": "Das Monster ist hocherfreut und zieht los, um sich bei Opa Monty vorzustellen."
+      },
+      "Txt_MBR_Invitation_Msg_Success_050": {
+        "SelfId": "Txt_MBR_Invitation_Msg_Success_050",
+        "Text": "Xenlon lächelt zufrieden und macht sich auf den Weg, um sich bei Opa Monty vorzustellen."
+      },
+      "Txt_MBR_Invitation_Msg_Named": {
+        "SelfId": "Txt_MBR_Invitation_Msg_Named",
+        "Text": "Nachdem das Monster von Monty in Obhut genommen wurde, kann es nun ein neues Leben unter einem neuen Namen beginnen: {ACTOR}!"
+      },
+      "Txt_MBR_Invitation_Msg_StatusUp": {
+        "SelfId": "Txt_MBR_Invitation_Msg_StatusUp",
+        "Text": "<Cap><DefSgl_NOM_ART_ACTOR> ist außer sich vor Freude, denn endlich hat <IfGender_ACTOR(er,sie,)> mit weiteren <DefPlr_DAT_M_NAME> Bekanntschaft gemacht!<KEY_WAIT>\r\nDas Band der Kameradschaft verleiht {ACTOR} bislang unerreichte Stärke."
+      },
+      "Txt_MBR_Invitation_Msg_ZooPrize": {
+        "SelfId": "Txt_MBR_Invitation_Msg_ZooPrize",
+        "Text": "Du hast nun bereits {VALUE} Monster gesammelt.<KEY_WAIT>\r\nVielleicht ist es an der Zeit, Opa Monty einen Besuch abzustatten, um zu sehen, was deine neuen monströsen Freunde so treiben."
+      },
+      "Txt_MBR_Invitation_Msg_MonsterTamer": {
+        "SelfId": "Txt_MBR_Invitation_Msg_MonsterTamer",
+        "Text": "Mit {VALUE} gesammelten Monstern hast du einen neuen Meilenstein erreicht.<KEY_WAIT>\r\nDein Wissen über ihre Lebensgewohnheiten und Eigenarten ist nun größer denn je!"
+      }
+    }
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_SearchObject_SwampCave",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_SearchObject_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "SEARCH_SwampCave_1F_GROUND_0": {
+        "SelfId": "SEARCH_SwampCave_1F_GROUND_0",
+        "ObjectType": "ESearchObjectType::GROUND",
+        "ItemId": "ITEM_SMALL_MEDAL",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_SwampCave_1F_GROUND_0"
+      },
+      "SEARCH_SwampCave_1F_GROUND_1": {
+        "SelfId": "SEARCH_SwampCave_1F_GROUND_1",
+        "ObjectType": "ESearchObjectType::GROUND",
+        "ItemId": "ITEM_EQUIP_HELMET_BLACK_BANDANA",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_SwampCave_1F_GROUND_1"
+      },
+      "SEARCH_SwampCave_1F_POT_0": {
+        "SelfId": "SEARCH_SwampCave_1F_POT_0",
+        "ObjectType": "ESearchObjectType::POT",
+        "ItemId": "ITEM_USE_ITEM_HOLY_WATER",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_SwampCave_1F_POT_0"
+      }
+    }
+  }
+]

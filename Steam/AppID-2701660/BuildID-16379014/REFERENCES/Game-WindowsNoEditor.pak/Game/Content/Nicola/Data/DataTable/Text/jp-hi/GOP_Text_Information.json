@@ -1,0 +1,564 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_Information",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Information_TITLE_AUTOSAVE": {
+        "SelfId": "Txt_Information_TITLE_AUTOSAVE",
+        "Text": "オートセーブ"
+      },
+      "Txt_Information_TITLE_DASH": {
+        "SelfId": "Txt_Information_TITLE_DASH",
+        "Text": "ダッシュ"
+      },
+      "Txt_Information_TITLE_EQUIP": {
+        "SelfId": "Txt_Information_TITLE_EQUIP",
+        "Text": "そうび"
+      },
+      "Txt_Information_TITLE_BAR": {
+        "SelfId": "Txt_Information_TITLE_BAR",
+        "Text": "なかまのさがしかた"
+      },
+      "Txt_Information_TITLE_BAR_REPLACE": {
+        "SelfId": "Txt_Information_TITLE_BAR_REPLACE",
+        "Text": "なかまのいれかえ・とうろく"
+      },
+      "Txt_Information_TITLE_HELP": {
+        "SelfId": "Txt_Information_TITLE_HELP",
+        "Text": "おたすけきのう"
+      },
+      "Txt_Information_TITLE_HELP_HOST": {
+        "SelfId": "Txt_Information_TITLE_HELP_HOST",
+        "Text": "たすけにだす"
+      },
+      "Txt_Information_TITLE_HELP_CLIENT": {
+        "SelfId": "Txt_Information_TITLE_HELP_CLIENT",
+        "Text": "たすけをよぶ"
+      },
+      "Txt_Information_TITLE_SHOP": {
+        "SelfId": "Txt_Information_TITLE_SHOP",
+        "Text": "おみせ"
+      },
+      "Txt_Information_TITLE_CHURCH": {
+        "SelfId": "Txt_Information_TITLE_CHURCH",
+        "Text": "セーブ"
+      },
+      "Txt_Information_TITLE_INN": {
+        "SelfId": "Txt_Information_TITLE_INN",
+        "Text": "かいふくについて"
+      },
+      "Txt_Information_TITLE_MAPMENU": {
+        "SelfId": "Txt_Information_TITLE_MAPMENU",
+        "Text": "ちず"
+      },
+      "Txt_Information_TITLE_DESTINATION": {
+        "SelfId": "Txt_Information_TITLE_DESTINATION",
+        "Text": "たびのもくてきち"
+      },
+      "Txt_Information_TITLE_MEMORY": {
+        "SelfId": "Txt_Information_TITLE_MEMORY",
+        "Text": "かいわをおぼえる"
+      },
+      "Txt_Information_TITLE_INFORMATION": {
+        "SelfId": "Txt_Information_TITLE_INFORMATION",
+        "Text": "たびのこころえ"
+      },
+      "Txt_Information_TITLE_FULL_RECOVERY": {
+        "SelfId": "Txt_Information_TITLE_FULL_RECOVERY",
+        "Text": "まんたん・ほぼまんたん"
+      },
+      "Txt_Information_TITLE_SHIP": {
+        "SelfId": "Txt_Information_TITLE_SHIP",
+        "Text": "ふねののりかた・おりかた"
+      },
+      "Txt_Information_TITLE_RAMIA": {
+        "SelfId": "Txt_Information_TITLE_RAMIA",
+        "Text": "ラーミア"
+      },
+      "Txt_Information_TITLE_JOB_CHANGE": {
+        "SelfId": "Txt_Information_TITLE_JOB_CHANGE",
+        "Text": "てんしょくのすすめ　その１"
+      },
+      "Txt_Information_TITLE_JOB_CHANGE_RECOMMEND": {
+        "SelfId": "Txt_Information_TITLE_JOB_CHANGE_RECOMMEND",
+        "Text": "てんしょくのすすめ　その２"
+      },
+      "Txt_Information_TITLE_JOB_CHANGE_RECOMMEND_3": {
+        "SelfId": "Txt_Information_TITLE_JOB_CHANGE_RECOMMEND_3",
+        "Text": "てんしょくのすすめ　その３"
+      },
+      "Txt_Information_TITLE_TIME_FLOW": {
+        "SelfId": "Txt_Information_TITLE_TIME_FLOW",
+        "Text": "じかんによるへんか"
+      },
+      "Txt_Information_TITLE_STRATEGY": {
+        "SelfId": "Txt_Information_TITLE_STRATEGY",
+        "Text": "さくせんがえ"
+      },
+      "Txt_Information_TITLE_STRATEGY_LIST": {
+        "SelfId": "Txt_Information_TITLE_STRATEGY_LIST",
+        "Text": "さくせんのしゅるい"
+      },
+      "Txt_Information_TITLE_WEAK_RESIST": {
+        "SelfId": "Txt_Information_TITLE_WEAK_RESIST",
+        "Text": "わざのききやすさ"
+      },
+      "Txt_Information_TITLE_PERSONALITY": {
+        "SelfId": "Txt_Information_TITLE_PERSONALITY",
+        "Text": "せいかく"
+      },
+      "Txt_Information_TITLE_PERSONALITY_STATUS_1": {
+        "SelfId": "Txt_Information_TITLE_PERSONALITY_STATUS_1",
+        "Text": "せいかくとつよさ　その１"
+      },
+      "Txt_Information_TITLE_PERSONALITY_STATUS_2": {
+        "SelfId": "Txt_Information_TITLE_PERSONALITY_STATUS_2",
+        "Text": "せいかくとつよさ　その２"
+      },
+      "Txt_Information_TITLE_PERSONALITY_STATUS_3": {
+        "SelfId": "Txt_Information_TITLE_PERSONALITY_STATUS_3",
+        "Text": "せいかくとつよさ　その３"
+      },
+      "Txt_Information_TITLE_PERSONALITY_STATUS_4": {
+        "SelfId": "Txt_Information_TITLE_PERSONALITY_STATUS_4",
+        "Text": "せいかくとつよさ　その４"
+      },
+      "Txt_Information_TITLE_PERSONALITY_STATUS_5": {
+        "SelfId": "Txt_Information_TITLE_PERSONALITY_STATUS_5",
+        "Text": "せいかくとつよさ　その５"
+      },
+      "Txt_Information_TITLE_PERSONALITY_STATUS_6": {
+        "SelfId": "Txt_Information_TITLE_PERSONALITY_STATUS_6",
+        "Text": "せいかくとつよさ　その６"
+      },
+      "Txt_Information_TITLE_PERSONALITY_STATUS_7": {
+        "SelfId": "Txt_Information_TITLE_PERSONALITY_STATUS_7",
+        "Text": "せいかくとつよさ　その７"
+      },
+      "Txt_Information_TITLE_PERSONALITY_STATUS_8": {
+        "SelfId": "Txt_Information_TITLE_PERSONALITY_STATUS_8",
+        "Text": "せいかくとつよさ　その８"
+      },
+      "Txt_Information_TITLE_PERSONALITY_STATUS_9": {
+        "SelfId": "Txt_Information_TITLE_PERSONALITY_STATUS_9",
+        "Text": "せいかくとつよさ　その９"
+      },
+      "Txt_Information_TITLE_PERSONALITY_STATUS_10": {
+        "SelfId": "Txt_Information_TITLE_PERSONALITY_STATUS_10",
+        "Text": "せいかくとつよさ　その１０"
+      },
+      "Txt_Information_TITLE_PERSONALITY_STATUS_11": {
+        "SelfId": "Txt_Information_TITLE_PERSONALITY_STATUS_11",
+        "Text": "せいかくとつよさ　その１１"
+      },
+      "Txt_Information_TITLE_PERSONALITY_STATUS_12": {
+        "SelfId": "Txt_Information_TITLE_PERSONALITY_STATUS_12",
+        "Text": "せいかくとつよさ　その１２"
+      },
+      "Txt_Information_TITLE_PERSONALITY_STATUS_13": {
+        "SelfId": "Txt_Information_TITLE_PERSONALITY_STATUS_13",
+        "Text": "せいかくとつよさ　その１３"
+      },
+      "Txt_Information_TITLE_RUN_AWAY": {
+        "SelfId": "Txt_Information_TITLE_RUN_AWAY",
+        "Text": "にげる"
+      },
+      "Txt_Information_TITLE_CURSE": {
+        "SelfId": "Txt_Information_TITLE_CURSE",
+        "Text": "のろいのそうび"
+      },
+      "Txt_Information_TITLE_ACCESSORY_PERSONALITY": {
+        "SelfId": "Txt_Information_TITLE_ACCESSORY_PERSONALITY",
+        "Text": "アクセサリーとせいかく"
+      },
+      "Txt_Information_TITLE_MEDAL": {
+        "SelfId": "Txt_Information_TITLE_MEDAL",
+        "Text": "ちいさなメダル"
+      },
+      "Txt_Information_TITLE_INVENTORY": {
+        "SelfId": "Txt_Information_TITLE_INVENTORY",
+        "Text": "バトルちゅうに　どうぐをつかうには"
+      },
+      "Txt_Information_TITLE_SYSTEM": {
+        "SelfId": "Txt_Information_TITLE_SYSTEM",
+        "Text": "システムせってい"
+      },
+      "Txt_Information_TITLE_KEY": {
+        "SelfId": "Txt_Information_TITLE_KEY",
+        "Text": "カギのかかったとびら"
+      },
+      "Txt_Information_TITLE_RULER": {
+        "SelfId": "Txt_Information_TITLE_RULER",
+        "Text": "いっしゅんで　いどうするには"
+      },
+      "Txt_Information_TITLE_STATUS_LIST_1": {
+        "SelfId": "Txt_Information_TITLE_STATUS_LIST_1",
+        "Text": "パラメータについて　その１"
+      },
+      "Txt_Information_TITLE_STATUS_LIST_2": {
+        "SelfId": "Txt_Information_TITLE_STATUS_LIST_2",
+        "Text": "パラメータについて　その２"
+      },
+      "Txt_Information_TITLE_CHANGE_STATUS": {
+        "SelfId": "Txt_Information_TITLE_CHANGE_STATUS",
+        "Text": "じょうたいへんか"
+      },
+      "Txt_Information_TITLE_BAD_STATUS_LIST": {
+        "SelfId": "Txt_Information_TITLE_BAD_STATUS_LIST",
+        "Text": "じょうたいへんかのアイコン　その１"
+      },
+      "Txt_Information_TITLE_BAD_STATUS_LIST_2": {
+        "SelfId": "Txt_Information_TITLE_BAD_STATUS_LIST_2",
+        "Text": "じょうたいへんかのアイコン　その２"
+      },
+      "Txt_Information_TITLE_BAD_STATUS_LIST_3": {
+        "SelfId": "Txt_Information_TITLE_BAD_STATUS_LIST_3",
+        "Text": "じょうたいいじょうのアイコン　その１"
+      },
+      "Txt_Information_TITLE_BAD_STATUS_LIST_4": {
+        "SelfId": "Txt_Information_TITLE_BAD_STATUS_LIST_4",
+        "Text": "じょうたいいじょうのアイコン　その２"
+      },
+      "Txt_Information_TITLE_POISON_PARALYSE": {
+        "SelfId": "Txt_Information_TITLE_POISON_PARALYSE",
+        "Text": "どくと　マヒについて"
+      },
+      "Txt_Information_TITLE_OVERLAP": {
+        "SelfId": "Txt_Information_TITLE_OVERLAP",
+        "Text": "つよさへんかの　かさねがけ"
+      },
+      "Txt_Information_TITLE_BATTLEROAD": {
+        "SelfId": "Txt_Information_TITLE_BATTLEROAD",
+        "Text": "バトルロード"
+      },
+      "Txt_Information_TITLE_BATTLEROAD_BATTLE": {
+        "SelfId": "Txt_Information_TITLE_BATTLEROAD_BATTLE",
+        "Text": "バトルロードでの　たたかいかた"
+      },
+      "Txt_Information_TITLE_BREED_MONSTER": {
+        "SelfId": "Txt_Information_TITLE_BREED_MONSTER",
+        "Text": "モンスターのほご　その１"
+      },
+      "Txt_Information_TITLE_BREED_MONSTER_2": {
+        "SelfId": "Txt_Information_TITLE_BREED_MONSTER_2",
+        "Text": "モンスターのほご　その２"
+      },
+      "Txt_Information_TITLE_PUZZLE": {
+        "SelfId": "Txt_Information_TITLE_PUZZLE",
+        "Text": "エジンベアのパズル"
+      },
+      "Txt_Information_TITLE_WIPEOUT": {
+        "SelfId": "Txt_Information_TITLE_WIPEOUT",
+        "Text": "ぜんめつ"
+      },
+      "Txt_Information_TITLE_PICK": {
+        "SelfId": "Txt_Information_TITLE_PICK",
+        "Text": "フィールドのキラキラ"
+      },
+      "Txt_Information_TITLE_SECRET_AREA": {
+        "SelfId": "Txt_Information_TITLE_SECRET_AREA",
+        "Text": "ひみつのばしょ"
+      },
+      "Txt_Information_TITLE_CLEAR": {
+        "SelfId": "Txt_Information_TITLE_CLEAR",
+        "Text": "クリアごの　おたのしみ"
+      },
+      "Txt_Information_TITLE_GAMEMODE": {
+        "SelfId": "Txt_Information_TITLE_GAMEMODE",
+        "Text": "ゲームモードについて"
+      },
+      "Txt_Information_TITLE_FIELDMENU": {
+        "SelfId": "Txt_Information_TITLE_FIELDMENU",
+        "Text": "メニュー"
+      },
+      "Txt_Information_TEXT_AUTOSAVE": {
+        "SelfId": "Txt_Information_TEXT_AUTOSAVE",
+        "Text": "まちやダンジョンへ　いどうしたときなど\r\nぼうけんちゅうに　オートセーブを\r\nすることがあります。\r\n\r\nセーブアイコンが　でているあいだは\r\nでんげんを　きらないでください。"
+      },
+      "Txt_Information_TEXT_DASH": {
+        "SelfId": "Txt_Information_TEXT_DASH",
+        "Text": "いどうちゅうに<IMG_BUTTON>[Dash]を　おしているあいだ\r\n『ダッシュ』ができます。"
+      },
+      "Txt_Information_TEXT_EQUIP": {
+        "SelfId": "Txt_Information_TEXT_EQUIP",
+        "Text": "そうびひんは　もっているだけでは\r\nこうかがありません。\r\n\r\nメニューがめんの『そうび』で　みにつけることで\r\nキャラクターを　つよくすることができます。"
+      },
+      "Txt_Information_TEXT_BAR": {
+        "SelfId": "Txt_Information_TEXT_BAR",
+        "Text": "アリアハンの　ルイーダのさかばでは\r\nなかまを　ふやすことができます。\r\n\r\nぼうけんのたびには　きけんがつきもの。\r\nたよりになるなかまを　みつけにいきましょう。"
+      },
+      "Txt_Information_TEXT_BAR_REPLACE": {
+        "SelfId": "Txt_Information_TEXT_BAR_REPLACE",
+        "Text": "アリアハンのさかばの　１かいにいる\r\nルイーダに　はなしかけると\r\nたびにつれていくなかまを　いれかえることができます。\r\n\r\nまた　２かいにある　とうろくじょでは\r\nなかまを　あたらしく　さくせいすることができます。"
+      },
+      "Txt_Information_TEXT_HELP": {
+        "SelfId": "Txt_Information_TEXT_HELP",
+        "Text": "アリアハンのさかばで　おなじセーブデータにある\r\nほかのぼうけんのしょと　『おたすけキャラ』の\r\nかしかりができます。\r\n\r\nくわしくしりたいひとは　たびのこころえの\r\n『たすけにだす』と『たすけをよぶ』を\r\nかくにんしましょう。"
+      },
+      "Txt_Information_TEXT_HELP_PS5": {
+        "SelfId": "Txt_Information_TEXT_HELP_PS5",
+        "Text": "アリアハンのさかばで　おなじセーブデータにある\r\nほかのぼうけんのしょと　『おたすけキャラ』の\r\nかしかりができます。\r\n\r\nくわしくしりたいひとは　たびのこころえの\r\n『たすけにだす』と『たすけをよぶ』を\r\nかくにんしましょう。"
+      },
+      "Txt_Information_TEXT_HELP_HOST": {
+        "SelfId": "Txt_Information_TEXT_HELP_HOST",
+        "Text": "しゅじんこういがいの　なかまを　おたすけキャラとして\r\nとうろくすることで　ほかのぼうけんのしょで\r\nそのキャラをよびだして　パーティにくわえることが\r\nできるようになります。\r\n\r\nおたすけキャラの　レベルやそうびは\r\nとうろくしたときのものから　かわりません。"
+      },
+      "Txt_Information_TEXT_HELP_CLIENT": {
+        "SelfId": "Txt_Information_TEXT_HELP_CLIENT",
+        "Text": "ほかのぼうけんのしょで　とうろくされた\r\nおたすけキャラを　ひとりだけ　パーティに\r\nくわえることができます。\r\n\r\nおたすけキャラは　つぎのとくちょうがあります。\r\n・レベルがあがりません。\r\n・そうびひんを　へんこうできません。"
+      },
+      "Txt_Information_TEXT_SHOP": {
+        "SelfId": "Txt_Information_TEXT_SHOP",
+        "Text": "まちには　おかねをつかって　かいものができる\r\n『ぶきとぼうぐのみせ』や『どうぐや』があります。\r\n\r\nそれぞれのまちで　しなぞろえがかわるので　\r\nおみせをみつけたら　せっきょくてきに\r\nチェックしましょう。"
+      },
+      "Txt_Information_TEXT_CHURCH": {
+        "SelfId": "Txt_Information_TEXT_CHURCH",
+        "Text": "きょうかいや　シスターに　おいのりをすることで\r\nそこまでのぼうけんを　『きろく（セーブ）』\r\nすることができます。\r\n\r\nオートセーブは　じどうで　うわがきされていってしまうので\r\nおいのりセーブも　かつようすることを　オススメします。\r\n\r\nセーブデータは　さいだいで９こまで　さくせいできます。"
+      },
+      "Txt_Information_TEXT_CHURCH_PS5": {
+        "SelfId": "Txt_Information_TEXT_CHURCH_PS5",
+        "Text": "きょうかいや　シスターに　おいのりをすることで\r\nそこまでのぼうけんを　『きろく（セーブ）』\r\nすることができます。\r\n\r\nオートセーブは　じどうで　うわがきされていってしまうので\r\nおいのりセーブも　かつようすることを　オススメします。\r\n\r\nセーブデータは　さいだいで９こまで　さくせいできます。"
+      },
+      "Txt_Information_TEXT_INN": {
+        "SelfId": "Txt_Information_TEXT_INN",
+        "Text": "やどやで『やすむ』か『とまる』をおこなうと\r\nＨＰとＭＰが　かんぜんにかいふくします。\r\nたたかいで　キズついたときは　やどやへ　いきましょう。\r\n\r\nただし　しんでしまったなかまは　かいふくできません。\r\nたすけたいときは　きょうかいやシスターに\r\nたのんで　いきかえらせて　もらいましょう。"
+      },
+      "Txt_Information_TEXT_MAPMENU": {
+        "SelfId": "Txt_Information_TEXT_MAPMENU",
+        "Text": "<IMG_BUTTON>[Map]をおすと『ちず』を　ひらくことができます。\r\n\r\nいまいるばしょや　まわりのちけいを　かくにんできるので\r\nまよったら　ちずをみてみましょう。"
+      },
+      "Txt_Information_TEXT_DESTINATION": {
+        "SelfId": "Txt_Information_TEXT_DESTINATION",
+        "Text": "システムせっていの『もくてきちマーカー』をオンにすると\r\nつぎのもくてきちが　ちずに　ひょうじされるようになります。\r\n\r\n『もくてきガイドテキスト』をオンにすると\r\nつぎのもくてきちの　ヒントが\r\nメニューに　ひょうじされるようになります。"
+      },
+      "Txt_Information_TEXT_MEMORY": {
+        "SelfId": "Txt_Information_TEXT_MEMORY",
+        "Text": "かいわが　ひょうじされているときか\r\nかいわちょくごに　<IMG_BUTTON>[Memory]をおすと\r\nそのかいわを『きおくする』ことができます。\r\n\r\nきおくしたかいわは　メニューの『おもいで』から\r\nいつでも　みることができます。"
+      },
+      "Txt_Information_TEXT_INFORMATION": {
+        "SelfId": "Txt_Information_TEXT_INFORMATION",
+        "Text": "メニューがめんの『さくせん』の　なかにある\r\n『たびのこころえ』は　そうさほうほうや\r\nぼうけんのすすめかたが　まとめてあります。\r\n\r\nたびをすすめると　こうもくがふえていくので\r\nわからないことがでてきたら　チェックしましょう。"
+      },
+      "Txt_Information_TEXT_FULL_RECOVERY": {
+        "SelfId": "Txt_Information_TEXT_FULL_RECOVERY",
+        "Text": "『さくせん』メニューにある　『まんたん』をえらぶと\r\nこうりつよく　かいふくじゅもんをつかい\r\nぜんいんのＨＰを　かんぜんかいふく　できます。\r\n\r\n『ほぼまんたん』は　かんぜんかいふくに\r\nならないかわりに　ＭＰのせつやくができます。"
+      },
+      "Txt_Information_TEXT_SHIP": {
+        "SelfId": "Txt_Information_TEXT_SHIP",
+        "Text": "ふねにのって　あたらしいぼうけんのちへ　むかいましょう！\r\n\r\n・ふねからおりる：りくにちかづいて<IMG_BUTTON>[Talk]をおす。\r\n・ふねにのりこむ：ふねにちかづいて<IMG_BUTTON>[Talk]をおす。"
+      },
+      "Txt_Information_TEXT_RAMIA": {
+        "SelfId": "Txt_Information_TEXT_RAMIA",
+        "Text": "ラーミアにのって　いままで　いけなかったばしょを\r\nたんさくしましょう！\r\n\r\n・ラーミアにのる：<IMG_BUTTON>[Talk]をおす。\r\n・ちじょうにおりる：<IMG_BUTTON>[Talk]をおす。\r\n・ちゃくちのちょうせい：<IMG_BUTTON>[Target_Lamia]そうさ。\r\n・ていくうひこう：<IMG_BUTTON>[Dash_Lamia]をおす。"
+      },
+      "Txt_Information_TEXT_JOB_CHANGE": {
+        "SelfId": "Txt_Information_TEXT_JOB_CHANGE",
+        "Text": "なかまたちは　レベル２０いじょうになると\r\nダーマしんでんで　ほかのしょくぎょうに\r\nてんしょくできます。\r\n\r\nてんしょくすると　レベルが１になってしまいますが\r\nじゅもんととくぎは　わすれることなく　そのままつかえます。\r\n\r\nいろんなしょくぎょうを　けいけんすることで\r\nつかえるワザが　どんどんふえていくため\r\nバトルが　ゆうりになっていきます。"
+      },
+      "Txt_Information_TEXT_JOB_CHANGE_RECOMMEND": {
+        "SelfId": "Txt_Information_TEXT_JOB_CHANGE_RECOMMEND",
+        "Text": "てんしょくすると　レベルが１になってしまいますが\r\nちから　みのまもり　すばやさなどの\r\nつよさのステータスは　いまの　やくはんぶんのすうちを\r\nひきつぎます。\r\n\r\nつまり　アリアハンの　さかばでであったときより　\r\nつよいじょうたいのレベル１から\r\nそだてることができます"
+      },
+      "Txt_Information_TEXT_JOB_CHANGE_RECOMMEND_3": {
+        "SelfId": "Txt_Information_TEXT_JOB_CHANGE_RECOMMEND_3",
+        "Text": "てんしょくすると　レベルアップのために\r\nひつようなけいけんちも　リセットされているので\r\nすこしのバトルで　レベルがどんどん　あがっていきます。\r\n\r\nつよさのはんぶんを　ひきついだじょうたいから\r\nスタートしているので　てんしょくをしないまま　そだてるよりも\r\nかくだんにつよく　せいちょうさせることができます。\r\n\r\nドンドンてんしょくして　さいきょうのなかまを\r\nそだてましょう！"
+      },
+      "Txt_Information_TEXT_TIME_FLOW": {
+        "SelfId": "Txt_Information_TEXT_TIME_FLOW",
+        "Text": "フィールドにいると　ひるからゆうがた　そしてよるへと\r\nじかんがかわっていき　であうモンスターたちも　かわります。\r\n\r\nまちも　じかんによって　\r\nひとびとや　しせつのようすが　かわることがあります。"
+      },
+      "Txt_Information_TEXT_STRATEGY": {
+        "SelfId": "Txt_Information_TEXT_STRATEGY",
+        "Text": "『さくせんがえ』では　しゅじんこうや　なかまたちの\r\nバトルでのたたかいかたを　せっていできます。\r\n\r\n『めいれいさせろ』では\r\nじぶんでこまかく　こうどうを　きめることが\r\nできるようになります。\r\n\r\nそれいがいのさくせんでは　そのほうしんにしたがって\r\nじどうで　こうどうします。"
+      },
+      "Txt_Information_TEXT_STRATEGY_LIST": {
+        "SelfId": "Txt_Information_TEXT_STRATEGY_LIST",
+        "Text": "『ガンガンいこうぜ』\r\n………せっきょくてきに　こうげきします。\r\n\r\n『バッチリがんばれ』\r\n………バランスよく　こうどうします。\r\n\r\n『おれにまかせろ』\r\n………しゅじんこうをたすける　こうどうをします。\r\n\r\n『ＭＰつかうな』\r\n………じゅもんや　とくぎを　つかわなくなります。\r\n\r\n『いのちだいじに』\r\n………かいふくや　そせいを　ゆうせんします。\r\n\r\n『めいれいさせろ』\r\n………ひとりひとりに　しじをだせるようになります。"
+      },
+      "Txt_Information_TEXT_PERSONALITY": {
+        "SelfId": "Txt_Information_TEXT_PERSONALITY",
+        "Text": "しゅじんこうやなかまたちには\r\nそれぞれ『せいかく』があります。\r\nせいかくによって　せいちょうしやすい\r\nのうりょくが　かわります。\r\n\r\nせいかくをかえることができる\r\nどうぐやそうびも　そんざいします。"
+      },
+      "Txt_Information_TEXT_PERSONALITY_STATUS_1": {
+        "SelfId": "Txt_Information_TEXT_PERSONALITY_STATUS_1",
+        "Text": "『あたまでっかち』\r\nかしこさが　あがりやすく\r\nみのまもりが　すこしあがりやすい。\r\n\r\n『あまえんぼう』\r\nうんのよさが　すこしあがりやすい。\r\n\r\n『いくじなし』\r\nかしこさと　うんのよさが　あがりやすい。\r\nすばやさが　あがりにくい。\r\n\r\n『いっぴきおおかみ』\r\nみのまもりと　たいりょくが　あがりやすい。\r\nうんのよさが　あがりにくい。"
+      },
+      "Txt_Information_TEXT_PERSONALITY_STATUS_2": {
+        "SelfId": "Txt_Information_TEXT_PERSONALITY_STATUS_2",
+        "Text": "『いのちしらず』\r\nすばやさと　たいりょくが　あがりやすい。\r\nみのまもりが　あがりにくい。\r\n\r\n『うっかりもの』\r\nすばやさが　あがりやすい。\r\nかしこさと　うんのよさが　あがりにくい。\r\n\r\n『おおぐらい』\r\nみのまもりが　とてもあがりやすく\r\nちからと　たいりょくが　すこしあがりやすい。\r\nかしこさと　すばやさが　あがりにくい。"
+      },
+      "Txt_Information_TEXT_PERSONALITY_STATUS_3": {
+        "SelfId": "Txt_Information_TEXT_PERSONALITY_STATUS_3",
+        "Text": "『おせっかい』\r\nたいりょくが　すこしあがりやすい。\r\n\r\n『おちょうしもの』\r\nすばやさが　あがりやすく\r\nかしこさと　うんのよさが　すこしあがりやすい。\r\n\r\n『おっちょこちょい』\r\nすばやさが　あがりやすい。\r\n\r\n『がんこもの』\r\nみのまもりと　たいりょくが　あがりやすい。\r\nすばやさと　かしこさと　うんのよさが　あがりにくい。"
+      },
+      "Txt_Information_TEXT_PERSONALITY_STATUS_4": {
+        "SelfId": "Txt_Information_TEXT_PERSONALITY_STATUS_4",
+        "Text": "『がんばりや』\r\nちからが　あがりやすく\r\nみのまもりと　たいりょくが　すこしあがりやすい。\r\n\r\n『きれもの』\r\nかしこさが　とてもあがりやすく\r\nすばやさが　あがりやすい。\r\n\r\n『くろうにん』\r\nみのまもりと　たいりょくが　あがりやすい。\r\nうんのよさが　あがりにくい。"
+      },
+      "Txt_Information_TEXT_PERSONALITY_STATUS_5": {
+        "SelfId": "Txt_Information_TEXT_PERSONALITY_STATUS_5",
+        "Text": "『ごうけつ』\r\nちからが　とてもあがりやすい。\r\nすばやさと　かしこさと　うんのよさが　あがりにくい。\r\n\r\n『さびしがりや』\r\nかしこさと　うんのよさが　すこしあがりやすい。\r\n\r\n『しあわせもの』\r\nうんのよさが　とてもあがりやすい。\r\n\r\n『しょうじきもの』\r\nバランスよく　あがる。"
+      },
+      "Txt_Information_TEXT_PERSONALITY_STATUS_6": {
+        "SelfId": "Txt_Information_TEXT_PERSONALITY_STATUS_6",
+        "Text": "『ずのうめいせき』\r\nかしこさが　とてもあがりやすい。\r\n\r\n『すばしっこい』\r\nすばやさが　あがりやすい。\r\n\r\n『セクシーギャル』\r\nすばやさと　うんのよさが　あがりやすく\r\nほかのつよさも　バランスよく　あがる。\r\n\r\n『せけんしらず』\r\nうんのよさが　すこしあがりやすい。\r\nかしこさが　あがりにくい。"
+      },
+      "Txt_Information_TEXT_PERSONALITY_STATUS_7": {
+        "SelfId": "Txt_Information_TEXT_PERSONALITY_STATUS_7",
+        "Text": "『タフネス』\r\nたいりょくと　みのまもりが　とてもあがりやすい。\r\nうんのよさが　あがりにくい。\r\n\r\n『ちからじまん』\r\nちからが　とてもあがりやすい。\r\nかしこさが　あがりにくい。\r\n\r\n『つよき』\r\nちからが　とてもあがりやすく\r\nみのまもりが　すこしあがりやすい。\r\n\r\n『てつじん』\r\nみのまもりと　たいりょくが　とてもあがりやすい。"
+      },
+      "Txt_Information_TEXT_PERSONALITY_STATUS_8": {
+        "SelfId": "Txt_Information_TEXT_PERSONALITY_STATUS_8",
+        "Text": "『でんこうせっか』\r\nすばやさが　とてもあがりやすい。\r\n\r\n『なきむし』\r\nうんのよさが　あがりやすく\r\nかしこさが　すこしあがりやすい。\r\nみのまもりが　あがりにくい。\r\n\r\n『なまけもの』\r\nたいりょくが　あがりやすく\r\nうんのよさが　すこしあがりやすい。\r\nみのまもりと　かしこさが　あがりにくい。"
+      },
+      "Txt_Information_TEXT_PERSONALITY_STATUS_9": {
+        "SelfId": "Txt_Information_TEXT_PERSONALITY_STATUS_9",
+        "Text": "『ぬけめがない』\r\nかしこさが　あがりやすく\r\nみのまもりと　すばやさが　すこしあがりやすい。\r\n\r\n『ねっけつ』\r\nみのまもりと　ちからが　あがりやすい。\r\nうんのよさが　あがりにくい。\r\n\r\n『のんきもの』\r\nみのまもりと　たいりょくが　すこしあがりやすい。\r\nすばやさが　あがりにくい。"
+      },
+      "Txt_Information_TEXT_PERSONALITY_STATUS_10": {
+        "SelfId": "Txt_Information_TEXT_PERSONALITY_STATUS_10",
+        "Text": "『ひっこみじあん』\r\nたいりょくが　あがりやすく\r\nかしこさが　すこしあがりやすい。\r\nすばやさが　あがりにくい。\r\n\r\n『ひねくれもの』\r\nうんのよさが　とてもあがりやすく\r\nすばやさが　あがりやすい。\r\nちからと　たいりょくが　あがりにくい。\r\n\r\n『ふつう』\r\nバランスよく　あがる。"
+      },
+      "Txt_Information_TEXT_PERSONALITY_STATUS_11": {
+        "SelfId": "Txt_Information_TEXT_PERSONALITY_STATUS_11",
+        "Text": "『ブルジョワ』\r\nうんのよさが　とてもあがりやすく\r\nかしこさが　すこしあがりやすい。\r\nみのまもりが　あがりにくい。\r\n\r\n『へこたれない』\r\nたいりょくが　あがりやすい。\r\n\r\n『まけずぎらい』\r\nすばやさと　たいりょくが　すこしあがりやすい。\r\n\r\n『みえっぱり』\r\nちからと　みのまもりと　すばやさが　すこしあがりやすい。"
+      },
+      "Txt_Information_TEXT_PERSONALITY_STATUS_12": {
+        "SelfId": "Txt_Information_TEXT_PERSONALITY_STATUS_12",
+        "Text": "『むっつりスケべ』\r\nたいりょくと　ちからが　あがりやすい。\r\n\r\n『やさしいひと』\r\nバランスよく　あがる。\r\n\r\n『ラッキーパーソン』\r\nうんのよさが　とてもあがりやすく\r\nすばやさが　すこしあがりやすい。\r\n\r\n『らんぼうもの』\r\nちからが　あがりやすく\r\nみのまもりが　すこしあがりやすい。\r\nかしこさと　うんのよさが　あがりにくい。"
+      },
+      "Txt_Information_TEXT_PERSONALITY_STATUS_13": {
+        "SelfId": "Txt_Information_TEXT_PERSONALITY_STATUS_13",
+        "Text": "『ロマンチスト』\r\nすばやさと　かしこさが　すこしあがりやすい。\r\n\r\n『わんぱく』\r\nちからと　すばやさが　あがりやすい。\r\n\r\n『わがまま』\r\nすばやさが　すこしあがりやすい。"
+      },
+      "Txt_Information_TEXT_RUN_AWAY": {
+        "SelfId": "Txt_Information_TEXT_RUN_AWAY",
+        "Text": "モンスターとのたたかいは　にげることができます。\r\nつよいてきに　であってしまったら\r\nにげることも　さくせんのうちです。\r\n\r\nただし　まわりこまれて　しっぱいすることがあります。\r\nしっぱいしたばあいは　すこしのあいだ\r\nぜんいん　こうどうすることが　できません。\r\n\r\nしっぱいするごとに　にげられるかくりつは　あがるので\r\nピンチのばあいでも　あきらめずに　ためしてみましょう。"
+      },
+      "Txt_Information_TEXT_CURSE": {
+        "SelfId": "Txt_Information_TEXT_CURSE",
+        "Text": "そうびひんのなかには　みにつけると\r\nのろわれて　しまうものがあります。\r\nのろわれると　バトルなどで　\r\nわるいこうかが　はっきされたり\r\nせいかくが　かわってしまうことが　あります。\r\n\r\nのろわれたそうびは　はずすことができないので\r\nきょうかいで　のろいを　といてもらいましょう。"
+      },
+      "Txt_Information_TEXT_ACCESSORY_PERSONALITY": {
+        "SelfId": "Txt_Information_TEXT_ACCESSORY_PERSONALITY",
+        "Text": "アクセサリーのなかには　『せいかく』を\r\nかえるこうかを　もつものがあります。\r\n\r\nアクセサリーのわくは　『メイン』と『サブ』の２つがあります。\r\nせいかくへんこうの　こうかがあるのは　メインだけです。\r\n\r\nただし　のろわれたアクセサリーは　サブでそうびしても\r\nのろいのこうかが　はつどうするので　ちゅういしましょう。"
+      },
+      "Txt_Information_TEXT_MEDAL": {
+        "SelfId": "Txt_Information_TEXT_MEDAL",
+        "Text": "ぼうけんちゅうに『ちいさなメダル』を\r\nみつけることがあります。\r\n\r\nあつめることで　さまざまなアイテムを　もらえるので\r\nたくさんあつめたら　アリアハンのいどのそこにいる\r\n『メダルおじさん』に　わたしましょう。"
+      },
+      "Txt_Information_TEXT_INVENTORY": {
+        "SelfId": "Txt_Information_TEXT_INVENTORY",
+        "Text": "バトルちゅうも　どうぐをつかうことが　できますが\r\n『どうぐぶくろ』や『そうびぶくろ』のなかに\r\nあるものは　つかうことができません。\r\n\r\nバトルでつかいたいものは　ふくろのなかからだして\r\nキャラにもたせておくように　しましょう。"
+      },
+      "Txt_Information_TEXT_SYSTEM": {
+        "SelfId": "Txt_Information_TEXT_SYSTEM",
+        "Text": "『さくせん』の『システムせってい』では\r\nサウンドや　がめんひょうじなど\r\nゲームがあそびやすくなるように　せっていを\r\nかえることができます。"
+      },
+      "Txt_Information_TEXT_KEY": {
+        "SelfId": "Txt_Information_TEXT_KEY",
+        "Text": "このせかいには　カギのかかった　とびらがあります。\r\n\r\n『とうぞくのかぎ』では\r\nあかいとびらを　あけることができます。"
+      },
+      "Txt_Information_TEXT_RULER": {
+        "SelfId": "Txt_Information_TEXT_RULER",
+        "Text": "『キメラのつばさ』や『ルーラ』をつかえば\r\nいままでおとずれたことがある　まちやしろ\r\nダンジョンなどに　いっしゅんで　いどうすることができます。\r\n\r\nたてもののなかや　てんじょうがあるばしょで\r\nつかっても　あたまをぶつけたりせずに\r\nちゃんと　いどうできます。"
+      },
+      "Txt_Information_TEXT_STATUS_LIST_1": {
+        "SelfId": "Txt_Information_TEXT_STATUS_LIST_1",
+        "Text": "『ＨＰ』\r\n　ダメージをうけるたびに　へっていき\r\n　ゼロになると　せんとうふのうになる。\r\n\r\n『ＭＰ』\r\n　じゅもんや　とくぎをつかうときに　しょうひする。\r\n　ＭＰがたりなければ　そのじゅもんや　とくぎは\r\n　つかえない。\r\n\r\n『こうげきりょく』\r\n　ちからと　そうびひんのつよさの　すうち。\r\n　たかければたかいほど　すでや　ぶきをつかった\r\n　こうげきで　あたえるダメージがふえる。\r\n\r\n『しゅびりょく』\r\n　みのまもりと　そうびひんのつよさの　すうち。\r\n　このすうちがたかいと　てきからのこうげきで\r\n　うけるダメージがへる。"
+      },
+      "Txt_Information_TEXT_STATUS_LIST_2": {
+        "SelfId": "Txt_Information_TEXT_STATUS_LIST_2",
+        "Text": "『ちから』\r\n　ぶつりこうげきが　つよくなる。\r\n\r\n『みのまもり』\r\n　ぶつりこうげきで　てきから　うけるダメージがへる。\r\n\r\n『すばやさ』\r\n　バトルちゅうに　さきにこうどうしやすくなる。\r\n\r\n『たいりょく』\r\n　レベルアップしたとき　ＨＰがふえやすくなる。\r\n\r\n『かしこさ』\r\n　じゅもんの　いりょくが　アップする。\r\n　レベルアップしたとき　ＭＰがふえやすくなる。\r\n\r\n『うんのよさ』\r\n　じょうたいいじょうに　かかりにくくなる。\r\n　ぶつりこうげきで　あたえるダメージが　ふえやすくなり\r\n　かいしんのいちげきが　でやすくなる。"
+      },
+      "Txt_Information_TEXT_WEAK_RESIST": {
+        "SelfId": "Txt_Information_TEXT_WEAK_RESIST",
+        "Text": "モンスターのしゅるいによって\r\nじゅもんやとくぎに　ききやすさがあります。\r\n\r\nたとえば　カエルのすがたのてきには\r\nこおりをつかったこうげきが　よくききます。\r\n\r\nよくきいているばあいは　あかに\r\nあまりきいていないばあいは　あおに\r\nダメージのすうじの　いろがへんかします。"
+      },
+      "Txt_Information_TEXT_CHANGE_STATUS": {
+        "SelfId": "Txt_Information_TEXT_CHANGE_STATUS",
+        "Text": "バトルちゅうに　つよさなどが　へんかしている\r\nときに　アイコンがひょうじされます。\r\n\r\nくわしくしりたいひとは　たびのこころえの\r\n『じょうたいへんかのアイコン』を\r\nかくにんしましょう。"
+      },
+      "Txt_Information_TEXT_BAD_STATUS_LIST": {
+        "SelfId": "Txt_Information_TEXT_BAD_STATUS_LIST",
+        "Text": "<IMG_STATUS>[BAIKIRUTO]　こうげきりょくが　あがっている。\r\n\r\n<IMG_STATUS>[POWER_DOWN]　こうげきりょくが　さがっている。\r\n\r\n<IMG_STATUS>[DEFENSE_UP]　しゅびりょくが　あがっている。\r\n\r\n<IMG_STATUS>[DEFENSE_DOWN]　しゅびりょくが　さがっている。\r\n\r\n<IMG_STATUS>[SPEED_UP]　すばやさが　あがっている。\r\n\r\n<IMG_STATUS>[SPEED_DOWN]　すばやさが　さがっている。\r\n\r\n<IMG_STATUS>[SPELL_ATTACK_UP]　つぎのターンにつかう　じゅもんこうげきの 　\r\n　　いりょくがあがる。\r\n\r\n<IMG_STATUS>[SPELL_WEAKNESS]　てきからうける　じゅもんこうげきに　よわくなっている。"
+      },
+      "Txt_Information_TEXT_BAD_STATUS_LIST_2": {
+        "SelfId": "Txt_Information_TEXT_BAD_STATUS_LIST_2",
+        "Text": "<IMG_STATUS>[MAHOKANTA]　てきからのじゅもんを　はねかえす。\r\n\r\n<IMG_STATUS>[STUN]　こうどうできない。\r\n\r\n<IMG_STATUS>[BEAST]　１ターンに２かい　こうどうできるようになる。\r\n\r\n<IMG_STATUS>[COUNTER_BREATH]　１かいだけ　ブレスけいのこうげきを　はねかえす。\r\n\r\n<IMG_STATUS>[BUILD_UP_STRENGTH]　つぎにおこなうこうげきが　つよくなる。\r\n\r\n<IMG_STATUS>[NO_DAMAGE]　てきのこうげきを　かわしやすくなる。\r\n\r\n<IMG_STATUS>[AUTO_HEAL_MP]　まいターン　ＭＰをかいふくする。"
+      },
+      "Txt_Information_TEXT_BAD_STATUS_LIST_3": {
+        "SelfId": "Txt_Information_TEXT_BAD_STATUS_LIST_3",
+        "Text": "<IMG_STATUS>[POISON]『どく』\r\n　フィールドをいどうするときに　ダメージをうける。\r\n\r\n<IMG_STATUS>[PARALYZE]『マヒ』\r\n　バトルちゅう　しばらく　こうどうできなくなる。\r\n　バトルがおわっても　なおらない。\r\n\r\n<IMG_STATUS>[SLEEP]『ねむり』\r\n　じぶんのターンに　こうどうできなくなる。\r\n　ダメージをうけると　なおることがある。"
+      },
+      "Txt_Information_TEXT_BAD_STATUS_LIST_4": {
+        "SelfId": "Txt_Information_TEXT_BAD_STATUS_LIST_4",
+        "Text": "<IMG_STATUS>[CONFUSION]『こんらん』\r\n　みかたを　こうげきするように　なってしまう。\r\n\r\n<IMG_STATUS>[MANUSA]『げんわく』\r\n　つうじょうこうげきが　しっぱいしやすくなってしまう。\r\n　ただし　じゅもんなどのこうげきは　えいきょうをうけない。\r\n\r\n<IMG_STATUS>[MAHOTON]『じゅもんふういん』\r\n　じゅもんが　つかえなくなる。"
+      },
+      "Txt_Information_TEXT_POISON_PARALYSE": {
+        "SelfId": "Txt_Information_TEXT_POISON_PARALYSE",
+        "Text": "どくや　マヒは　バトルがおわっても　なおりません。\r\nどうぐやじゅもんで　はやめになおしましょう。\r\n\r\nただし　マヒは　しばらくあるくと　なおることがあります。"
+      },
+      "Txt_Information_TEXT_OVERLAP": {
+        "SelfId": "Txt_Information_TEXT_OVERLAP",
+        "Text": "つよさをへんかさせる　じゅもんやとくぎには\r\nかさねがけができるものが　あります。\r\n\r\nかさねがけによって　こうかがどんどんおおきくなります。"
+      },
+      "Txt_Information_TEXT_BATTLEROAD": {
+        "SelfId": "Txt_Information_TEXT_BATTLEROAD",
+        "Text": "まものたちをきそわせる　モンスター・バトルロードが　\r\nせかいかくちで　かいさいされています。\r\n\r\nさんかしてかちぬくと　しょうきんやけいひんを　もらえます。\r\nくわしいせつめいは　バトルロードじょうのなかにある\r\nあんないじょで　きくことができます。\r\n\r\nまずは　ロマリアのたいかいから　ちょうせんしましょう！"
+      },
+      "Txt_Information_TEXT_BATTLEROAD_BATTLE": {
+        "SelfId": "Txt_Information_TEXT_BATTLEROAD_BATTLE",
+        "Text": "バトルロードでは　モンスターに\r\nぐたいてきなしじを　だすことができません。\r\n\r\nモンスターたちは『さくせん』におうじて\r\nじぶんたちではんだんして　たたかいます。\r\n\r\nじょうきょうにあわせて　モンスターたちの\r\n『さくせん』をこまめにかえるのが　しょうりのコツです。"
+      },
+      "Txt_Information_TEXT_BREED_MONSTER": {
+        "SelfId": "Txt_Information_TEXT_BREED_MONSTER",
+        "Text": "まちや　ダンジョンなどにいる　\r\nましょうがきえた　モンスターは　ひとをおそいません。\r\nちかづいて　はなしかけると　ほごすることができます。\r\n\r\nただし　そういったモンスターのなかには\r\nにんげんのすがたをみて　にげだすものもいます。\r\n\r\nにげられてしまったときは　ヒントメッセージをさんこうに\r\nアイテムやとくぎを　つかってから　ちかづいてみましょう。"
+      },
+      "Txt_Information_TEXT_BREED_MONSTER_2": {
+        "SelfId": "Txt_Information_TEXT_BREED_MONSTER_2",
+        "Text": "ほごしたモンスターのかずが　ふえていくと　\r\nモンスターじいさんから　おれいがもらえます。\r\nきがむいたら　バトルロードかいじょうへ\r\nあいにいってみましょう。\r\n\r\nさらに『まものつかい』のしょくぎょうは　\r\nほごしたモンスターが　ふえればふえるほど\r\nかれらとこころをかよわせ　あたらしいとくぎを\r\nおぼえていきます。"
+      },
+      "Txt_Information_TEXT_PUZZLE": {
+        "SelfId": "Txt_Information_TEXT_PUZZLE",
+        "Text": "もんしょうがかかれた　３つのゆかに　いわをはこぶことで\r\nさきにすすめるようになります。\r\n\r\nただし　みずのうえに　いわをおしてしまうと\r\nしずんで　なくなってしまうので　きをつけましょう。\r\n\r\n<IMG_BUTTON>[Puzzle_Reset]をおすと　さいしょから\r\nやりなおすことができます。"
+      },
+      "Txt_Information_TEXT_WIPEOUT": {
+        "SelfId": "Txt_Information_TEXT_WIPEOUT",
+        "Text": "ぜんめつして　さいごにおいのりしたばしょまでもどると\r\nけいけんちやもっているアイテムは　のこりますが\r\nしょじきんが　はんぶんになってしまいます。\r\n\r\nオートセーブされたばしょまでもどると\r\nけいけんちや　しょじきんも　そのときの\r\nじょうたいまで　まきもどります。\r\n\r\nゴールドぎんこうにあずけたおかねは\r\nぜんめつしても　へったりすることは　ありません。\r\nしんぱいなひとは　あずけておくと　いいでしょう。"
+      },
+      "Txt_Information_TEXT_PICK": {
+        "SelfId": "Txt_Information_TEXT_PICK",
+        "Text": "フィールドで　キラキラひかっているばしょを　しらべると\r\nアイテムやゴールドなどが　てにはいります。\r\n\r\nせっきょくてきに　さがしてみましょう。"
+      },
+      "Txt_Information_TEXT_SECRET_AREA": {
+        "SelfId": "Txt_Information_TEXT_SECRET_AREA",
+        "Text": "フィールドの　さまざまなところに\r\n『ひみつのばしょ』とよばれる\r\nかくしマップが　そんざいします。\r\n\r\nよくみると　まわりのけしきと\r\nすこしちがうみために　なっているのが　とくちょうです。\r\n\r\nぼうけんにやくだつアイテムや　ゴールドがてにはいったり\r\nここでしか　みつからない　なにかがいるかも？"
+      },
+      "Txt_Information_TEXT_CLEAR": {
+        "SelfId": "Txt_Information_TEXT_CLEAR",
+        "Text": "ゲームをクリアしたことで\r\n『りゅうのじょおうのしろ』に　\r\nてんかいへのみちが　ひらかれました。\r\n\r\nてんかいでは　ねがいをかなえてくれるそんざいが\r\nあなたのちょうせんを　まっています。\r\n\r\nてんかいのモンスターたちは　とてもきょうりょくなので\r\nしっかりじゅんびをして　むかいましょう。"
+      },
+      "Txt_Information_TEXT_GAMEMODE": {
+        "SelfId": "Txt_Information_TEXT_GAMEMODE",
+        "Text": "システムせっていの『ゲームモードせってい』で\r\nつぎのモードを　いつでも　きりかえできます。\r\n\r\n『らくちんプレイ』\r\n・どれだけダメージをうけても　せんとうふのうに　なりません。\r\n・てきへあたえる　ダメージがふえます。\r\n・いちぶのボスのＨＰが　じどうかいふく　しなくなります。\r\n\r\n『バッチリぼうけん』\r\n・オススメのバランスで　あそぶことができます。\r\n\r\n『いばらのみちだぜ』\r\n・すべてのボスのＨＰが　ふえます。\r\n・てきからうける　ダメージがふえます。\r\n・せんとうごの　けいけんちとゴールドが　へります。\r\n・てきのじゃくてんへ　あたえるダメージがふえにくくなります。\r\n\r\n※とうばつモンスターリストの　けいけんちとゴールドには\r\n『いばらのみちだぜ』で　へったぶんは　はんえいされません。"
+      },
+      "Txt_Information_TEXT_FIELDMENU": {
+        "SelfId": "Txt_Information_TEXT_FIELDMENU",
+        "Text": "<IMG_BUTTON>[FieldMenu]をおすと\r\nメニューがめんを　ひらくことができます。"
+      },
+      "Txt_Information_GUIDE_CLOSE": {
+        "SelfId": "Txt_Information_GUIDE_CLOSE",
+        "Text": "とじる"
+      }
+    }
+  }
+]

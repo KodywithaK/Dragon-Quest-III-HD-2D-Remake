@@ -1,0 +1,1096 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_Shop",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Shop_UI_Top_01": {
+        "SelfId": "Txt_Shop_UI_Top_01",
+        "Text": "買いにきた"
+      },
+      "Txt_Shop_UI_Top_02": {
+        "SelfId": "Txt_Shop_UI_Top_02",
+        "Text": "売りにきた"
+      },
+      "Txt_Shop_UI_Top_03": {
+        "SelfId": "Txt_Shop_UI_Top_03",
+        "Text": "やめる"
+      },
+      "Txt_Shop_UI_NoEquip": {
+        "SelfId": "Txt_Shop_UI_NoEquip",
+        "Text": "そうびできない"
+      },
+      "Txt_Shop_UI_ShopGuide": {
+        "SelfId": "Txt_Shop_UI_ShopGuide",
+        "Text": "うっているもの"
+      },
+      "Txt_Shop_UI_BuyGuide": {
+        "SelfId": "Txt_Shop_UI_BuyGuide",
+        "Text": "かうものを　えらぶ"
+      },
+      "Txt_Shop_UI_SellGuide": {
+        "SelfId": "Txt_Shop_UI_SellGuide",
+        "Text": "うるものを　えらぶ"
+      },
+      "Txt_Shop_UI_Total": {
+        "SelfId": "Txt_Shop_UI_Total",
+        "Text": "合計"
+      },
+      "Txt_Shop_UI_TotalPrice": {
+        "SelfId": "Txt_Shop_UI_TotalPrice",
+        "Text": "[0]"
+      },
+      "Txt_Shop_UI_NotForSell": {
+        "SelfId": "Txt_Shop_UI_NotForSell",
+        "Text": "うれない"
+      },
+      "Txt_Shop_Message_Start_01_M": {
+        "SelfId": "Txt_Shop_Message_Start_01_M",
+        "Text": "ここは　{WORD}です。\r\nどんなご<RUBY>用[よう]でしょう？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuySelect_01_M": {
+        "SelfId": "Txt_Shop_Message_BuySelect_01_M",
+        "Text": "どれを　おもとめですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_Shotage_01_M": {
+        "SelfId": "Txt_Shop_Message_Shotage_01_M",
+        "Text": "すみません　それを<RUBY>買[か]うには\r\nお<RUBY>金[かね]がたりませんが……。"
+      },
+      "Txt_Shop_Message_BuySelectValue_01_M": {
+        "SelfId": "Txt_Shop_Message_BuySelectValue_01_M",
+        "Text": "いくつ\r\n<RUBY>買[か]っていただけるのでしょうか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuySingle_01_M": {
+        "SelfId": "Txt_Shop_Message_BuySingle_01_M",
+        "Text": "{I_NAME}ですね\r\nまいど　ありがとうございます。"
+      },
+      "Txt_Shop_Message_BuyMultipul_01_M": {
+        "SelfId": "Txt_Shop_Message_BuyMultipul_01_M",
+        "Text": "{I_NAME}　{VALUE}<RUBY>個[こ]ですね\r\nまいど　ありがとうございます。"
+      },
+      "Txt_Shop_Message_BuyUsefulBattle_01_M": {
+        "SelfId": "Txt_Shop_Message_BuyUsefulBattle_01_M",
+        "Text": "これは　<RUBY>戦[たたか]いのときに　<RUBY>道具[どうぐ]として\r\nつかってもおトクな　<RUBY>品物[しなもの]ですよ。"
+      },
+      "Txt_Shop_Message_SelectBuyer_01_M": {
+        "SelfId": "Txt_Shop_Message_SelectBuyer_01_M",
+        "Text": "どなたが　お<RUBY>持[も]ちに　なりますか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_ConfirmSorting_01_M": {
+        "SelfId": "Txt_Shop_Message_ConfirmSorting_01_M",
+        "Text": "でも　{ACTOR}さんは\r\nそれ<RUBY>以上[いじょう]ものを　<RUBY>持[も]てないようですよ\r\n<RUBY>持[も]ちものを　<RUBY>整理[せいり]しましょうか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_FinishSorting_01_M": {
+        "SelfId": "Txt_Shop_Message_FinishSorting_01_M",
+        "Text": "はい！　<RUBY>整理[せいり]しましたよ。"
+      },
+      "Txt_Shop_Message_StopSorting_01_M": {
+        "SelfId": "Txt_Shop_Message_StopSorting_01_M",
+        "Text": "おや？\r\nでも　{ACTOR}さんの　<RUBY>持[も]ちものは\r\n<RUBY>大切[たいせつ]なものばかりですね。"
+      },
+      "Txt_Shop_Message_SelectBuyerAgain_01_M": {
+        "SelfId": "Txt_Shop_Message_SelectBuyerAgain_01_M",
+        "Text": "べつのひとが　<RUBY>持[も]ちますか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuyBag_01_M": {
+        "SelfId": "Txt_Shop_Message_BuyBag_01_M",
+        "Text": "では\r\nその　{BAG}の<RUBY>中[なか]に　<RUBY>入[い]れておきますね。"
+      },
+      "Txt_Shop_Message_BagFull_01_M": {
+        "SelfId": "Txt_Shop_Message_BagFull_01_M",
+        "Text": "ふくろの<RUBY>中[なか]も　いっぱいのようですね…"
+      },
+      "Txt_Shop_Message_UnableEquip_01_M": {
+        "SelfId": "Txt_Shop_Message_UnableEquip_01_M",
+        "Text": "おや？\r\n{ACTOR}さんは　これをそうびできませんが\r\nそれでも　よろしいですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuyConfirmEquip_01_M": {
+        "SelfId": "Txt_Shop_Message_BuyConfirmEquip_01_M",
+        "Text": "さっそく　そうび　なさいますか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SelectAccessorie_01_M": {
+        "SelfId": "Txt_Shop_Message_SelectAccessorie_01_M",
+        "Text": "どちらにアクセサリーを\r\nおつけに　なられますか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuyCurseLift_01_M": {
+        "SelfId": "Txt_Shop_Message_BuyCurseLift_01_M",
+        "Text": "おや！？　その　{I_NAME}が\r\nはずれませんよ！　もしかして\r\n<RUBY>呪[のろ]いが　かかっているのでは？<KEY_WAIT>\r\nしかたありません　とりあえず\r\n<RUBY>受[う]けとって　いただけますか？"
+      },
+      "Txt_Shop_Message_BuySuccess_01_M": {
+        "SelfId": "Txt_Shop_Message_BuySuccess_01_M",
+        "Text": "はい　どうぞ　{ACTOR}さん。"
+      },
+      "Txt_Shop_Message_BuySuccess_Death_01_M": {
+        "SelfId": "Txt_Shop_Message_BuySuccess_Death_01_M",
+        "Text": "では　{ACTOR}さんの\r\nひつぎの<RUBY>中[なか]に　<RUBY>入[い]れておきますね。"
+      },
+      "Txt_Shop_Message_BuyOverly_01_M": {
+        "SelfId": "Txt_Shop_Message_BuyOverly_01_M",
+        "Text": "<RUBY>持[も]ちきれなかったぶんは\r\nその　{BAG}に　<RUBY>入[い]れておきますね。"
+      },
+      "Txt_Shop_Message_AdditionalBuy_01_M": {
+        "SelfId": "Txt_Shop_Message_AdditionalBuy_01_M",
+        "Text": "ほかに　なにか　<RUBY>必要[ひつよう]ですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SelectSeller_01_M": {
+        "SelfId": "Txt_Shop_Message_SelectSeller_01_M",
+        "Text": "どなたの　<RUBY>持[も]ちものを\r\n<RUBY>売[う]ってくれますか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_NoItem_Chara_01_M": {
+        "SelfId": "Txt_Shop_Message_NoItem_Chara_01_M",
+        "Text": "{ACTOR}さんは　<RUBY>売[う]れるものを\r\nなにも　<RUBY>持[も]っていませんが。"
+      },
+      "Txt_Shop_Message_NoItem_Bag_01_M": {
+        "SelfId": "Txt_Shop_Message_NoItem_Bag_01_M",
+        "Text": "おや？　その　{BAG}の<RUBY>中[なか]は\r\nからっぽ　みたいですよ。"
+      },
+      "Txt_Shop_Message_SellCanNot_01_M": {
+        "SelfId": "Txt_Shop_Message_SellCanNot_01_M",
+        "Text": "すみませんが　その<RUBY>品物[しなもの]は\r\nうちでは　<RUBY>買[か]いとれません。"
+      },
+      "Txt_Shop_Message_SellConfirmEquip_01_M": {
+        "SelfId": "Txt_Shop_Message_SellConfirmEquip_01_M",
+        "Text": "しかし　それは　<RUBY>装備中[そうびちゅう]のようですが\r\nいいんですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_ConfirmLare_01_M": {
+        "SelfId": "Txt_Shop_Message_ConfirmLare_01_M",
+        "Text": "でも　それを　<RUBY>売[う]ってしまうと\r\nもう２<RUBY>度[ど]と　<RUBY>手[て]に<RUBY>入[はい]らないかも\r\nしれませんよ。いいんですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSelectValue_01_M": {
+        "SelfId": "Txt_Shop_Message_SellSelectValue_01_M",
+        "Text": "いくつ\r\n<RUBY>売[う]っていただけるの　でしょうか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSingle_01_M": {
+        "SelfId": "Txt_Shop_Message_SellSingle_01_M",
+        "Text": "{I_NAME}ですね。\r\nそれなら　{VALUE}ゴールドで\r\n<RUBY>買[か]いましょう。いいですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellMultiple_01_M": {
+        "SelfId": "Txt_Shop_Message_SellMultiple_01_M",
+        "Text": "{I_NAME}　{VALUE}<RUBY>個[こ]　ですね。\r\nそれなら　{VALUE2}ゴールドで\r\n<RUBY>買[か]いましょう。いいですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSuccess_01_M": {
+        "SelfId": "Txt_Shop_Message_SellSuccess_01_M",
+        "Text": "どうも　ありがとうございます。"
+      },
+      "Txt_Shop_Message_SellCancel_01_M": {
+        "SelfId": "Txt_Shop_Message_SellCancel_01_M",
+        "Text": "それは　ざんねんです……。"
+      },
+      "Txt_Shop_Message_GoldFull_01_M": {
+        "SelfId": "Txt_Shop_Message_GoldFull_01_M",
+        "Text": "でも　そんなにお<RUBY>金[かね]を　<RUBY>持[も]てませんよ。\r\nどうです？　うちで　なにか\r\n<RUBY>買[か]っていっては。"
+      },
+      "Txt_Shop_Message_SellCurseLift_01_M": {
+        "SelfId": "Txt_Shop_Message_SellCurseLift_01_M",
+        "Text": "おや！？　どうやら　<RUBY>呪[のろ]いが\r\nかかっているみたいですね。\r\nうーん　ざんねんです……。"
+      },
+      "Txt_Shop_Message_AdditionalSell_01_M": {
+        "SelfId": "Txt_Shop_Message_AdditionalSell_01_M",
+        "Text": "ほかに　なにか\r\n<RUBY>売[う]ってくれますか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_AdditionalShop_01_M": {
+        "SelfId": "Txt_Shop_Message_AdditionalShop_01_M",
+        "Text": "ほかに　ご<RUBY>用[よう]は　ありますか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_Finish_01_M": {
+        "SelfId": "Txt_Shop_Message_Finish_01_M",
+        "Text": "では　またの　おこしを\r\nおまちしています。"
+      },
+      "Txt_Shop_Message_ConfirmGoldSingle_01_M": {
+        "SelfId": "Txt_Shop_Message_ConfirmGoldSingle_01_M",
+        "Text": "{VALUE}ゴールドですが\r\nよろしいですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_ConfirmGoldMultiple_01_M": {
+        "SelfId": "Txt_Shop_Message_ConfirmGoldMultiple_01_M",
+        "Text": "<RUBY>全部[ぜんぶ]で　{VALUE}ゴールドになりますが\r\nよろしいですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSelect_01_M": {
+        "SelfId": "Txt_Shop_Message_SellSelect_01_M",
+        "Text": "どれを　<RUBY>売[う]ってくれますか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_Start_01_F": {
+        "SelfId": "Txt_Shop_Message_Start_01_F",
+        "Text": "ここは　{WORD}です。\r\nどんなご<RUBY>用[よう]でしょう？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuySelect_01_F": {
+        "SelfId": "Txt_Shop_Message_BuySelect_01_F",
+        "Text": "どれを　おもとめですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_Shotage_01_F": {
+        "SelfId": "Txt_Shop_Message_Shotage_01_F",
+        "Text": "すみません　それを<RUBY>買[か]うには\r\nお<RUBY>金[かね]がたりませんが……。"
+      },
+      "Txt_Shop_Message_BuySelectValue_01_F": {
+        "SelfId": "Txt_Shop_Message_BuySelectValue_01_F",
+        "Text": "いくつ\r\n<RUBY>買[か]っていただけるのでしょうか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuySingle_01_F": {
+        "SelfId": "Txt_Shop_Message_BuySingle_01_F",
+        "Text": "{I_NAME}ですね\r\nまいど　ありがとうございます。"
+      },
+      "Txt_Shop_Message_BuyMultipul_01_F": {
+        "SelfId": "Txt_Shop_Message_BuyMultipul_01_F",
+        "Text": "{I_NAME}　{VALUE}<RUBY>個[こ]ですね\r\nまいど　ありがとうございます。"
+      },
+      "Txt_Shop_Message_BuyUsefulBattle_01_F": {
+        "SelfId": "Txt_Shop_Message_BuyUsefulBattle_01_F",
+        "Text": "これは　<RUBY>戦[たたか]いのときに　<RUBY>道具[どうぐ]として\r\nつかってもおトクな　<RUBY>品物[しなもの]ですよ。"
+      },
+      "Txt_Shop_Message_SelectBuyer_01_F": {
+        "SelfId": "Txt_Shop_Message_SelectBuyer_01_F",
+        "Text": "どなたが　お<RUBY>持[も]ちになりますか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_ConfirmSorting_01_F": {
+        "SelfId": "Txt_Shop_Message_ConfirmSorting_01_F",
+        "Text": "でも　{ACTOR}さんは\r\nそれ<RUBY>以上[いじょう]ものを　<RUBY>持[も]てないようですよ\r\n<RUBY>持[も]ちものを　<RUBY>整理[せいり]しましょうか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_FinishSorting_01_F": {
+        "SelfId": "Txt_Shop_Message_FinishSorting_01_F",
+        "Text": "はい！　<RUBY>整理[せいり]しましたよ。"
+      },
+      "Txt_Shop_Message_StopSorting_01_F": {
+        "SelfId": "Txt_Shop_Message_StopSorting_01_F",
+        "Text": "おや？\r\nでも　{ACTOR}さんの　<RUBY>持[も]ちものは\r\n<RUBY>大切[たいせつ]なものばかりですね。"
+      },
+      "Txt_Shop_Message_SelectBuyerAgain_01_F": {
+        "SelfId": "Txt_Shop_Message_SelectBuyerAgain_01_F",
+        "Text": "べつのひとが　<RUBY>持[も]ちますか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuyBag_01_F": {
+        "SelfId": "Txt_Shop_Message_BuyBag_01_F",
+        "Text": "では\r\nその　{BAG}の<RUBY>中[なか]に　<RUBY>入[い]れておきますね。"
+      },
+      "Txt_Shop_Message_BagFull_01_F": {
+        "SelfId": "Txt_Shop_Message_BagFull_01_F",
+        "Text": "ふくろの<RUBY>中[なか]もいっぱいのようですね…"
+      },
+      "Txt_Shop_Message_UnableEquip_01_F": {
+        "SelfId": "Txt_Shop_Message_UnableEquip_01_F",
+        "Text": "おや？\r\n{ACTOR}さんは　これをそうびできませんが\r\nそれでも　よろしいですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuyConfirmEquip_01_F": {
+        "SelfId": "Txt_Shop_Message_BuyConfirmEquip_01_F",
+        "Text": "さっそく　そうび　なさいますか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SelectAccessorie_01_F": {
+        "SelfId": "Txt_Shop_Message_SelectAccessorie_01_F",
+        "Text": "どちらにアクセサリーを\r\nおつけに　なられますか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuyCurseLift_01_F": {
+        "SelfId": "Txt_Shop_Message_BuyCurseLift_01_F",
+        "Text": "おや！？　その{I_NAME}が\r\nはずれませんよ！　もしかして\r\n<RUBY>呪[のろ]いが　かかっているのでは？<KEY_WAIT>\r\nしかたありません　とりあえず\r\n<RUBY>受[う]けとって　いただけますか？\r\n"
+      },
+      "Txt_Shop_Message_BuySuccess_01_F": {
+        "SelfId": "Txt_Shop_Message_BuySuccess_01_F",
+        "Text": "はい　どうぞ　{ACTOR}さん。"
+      },
+      "Txt_Shop_Message_BuySuccess_Death_01_F": {
+        "SelfId": "Txt_Shop_Message_BuySuccess_Death_01_F",
+        "Text": "では　{ACTOR}さんの\r\nひつぎの<RUBY>中[なか]に　<RUBY>入[い]れておきますね。"
+      },
+      "Txt_Shop_Message_BuyOverly_01_F": {
+        "SelfId": "Txt_Shop_Message_BuyOverly_01_F",
+        "Text": "<RUBY>持[も]ちきれなかったぶんは\r\nその　{BAG}に　<RUBY>入[い]れておきますね。"
+      },
+      "Txt_Shop_Message_AdditionalBuy_01_F": {
+        "SelfId": "Txt_Shop_Message_AdditionalBuy_01_F",
+        "Text": "ほかに　なにか　<RUBY>必要[ひつよう]ですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SelectSeller_01_F": {
+        "SelfId": "Txt_Shop_Message_SelectSeller_01_F",
+        "Text": "どなたの　<RUBY>持[も]ちものを\r\n<RUBY>売[う]ってくれますか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_NoItem_Chara_01_F": {
+        "SelfId": "Txt_Shop_Message_NoItem_Chara_01_F",
+        "Text": "{ACTOR}さんは　<RUBY>売[う]れるものを\r\nなにも　<RUBY>持[も]っていませんが。"
+      },
+      "Txt_Shop_Message_NoItem_Bag_01_F": {
+        "SelfId": "Txt_Shop_Message_NoItem_Bag_01_F",
+        "Text": "おや？　その{BAG}の<RUBY>中[なか]は\r\nからっぽ　みたいですよ。"
+      },
+      "Txt_Shop_Message_SellCanNot_01_F": {
+        "SelfId": "Txt_Shop_Message_SellCanNot_01_F",
+        "Text": "すみませんが　その<RUBY>品物[しなもの]は\r\nうちでは　<RUBY>買[か]いとれません。"
+      },
+      "Txt_Shop_Message_SellConfirmEquip_01_F": {
+        "SelfId": "Txt_Shop_Message_SellConfirmEquip_01_F",
+        "Text": "しかし　それは　<RUBY>装備中[そうびちゅう]のようですが\r\nいいんですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_ConfirmLare_01_F": {
+        "SelfId": "Txt_Shop_Message_ConfirmLare_01_F",
+        "Text": "でも　それを　<RUBY>売[う]ってしまうと\r\nもう２<RUBY>度[ど]と　<RUBY>手[て]に<RUBY>入[はい]らないかも\r\nしれませんよ。いいんですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSelectValue_01_F": {
+        "SelfId": "Txt_Shop_Message_SellSelectValue_01_F",
+        "Text": "いくつ\r\n<RUBY>売[う]っていただけるのでしょうか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSingle_01_F": {
+        "SelfId": "Txt_Shop_Message_SellSingle_01_F",
+        "Text": "{I_NAME}ですね。\r\nそれなら　{VALUE}ゴールドで\r\n<RUBY>買[か]いましょう。いいですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellMultiple_01_F": {
+        "SelfId": "Txt_Shop_Message_SellMultiple_01_F",
+        "Text": "{I_NAME}　{VALUE}<RUBY>個[こ]　ですね。\r\nそれなら　{VALUE2}ゴールドで\r\n<RUBY>買[か]いましょう。いいですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSuccess_01_F": {
+        "SelfId": "Txt_Shop_Message_SellSuccess_01_F",
+        "Text": "どうも　ありがとうございます。"
+      },
+      "Txt_Shop_Message_SellCancel_01_F": {
+        "SelfId": "Txt_Shop_Message_SellCancel_01_F",
+        "Text": "それは　ざんねんです……。"
+      },
+      "Txt_Shop_Message_GoldFull_01_F": {
+        "SelfId": "Txt_Shop_Message_GoldFull_01_F",
+        "Text": "でも　そんなにお<RUBY>金[かね]を　<RUBY>持[も]てませんよ。\r\nどうです？　うちで　なにか\r\n<RUBY>買[か]っていっては。"
+      },
+      "Txt_Shop_Message_SellCurseLift_01_F": {
+        "SelfId": "Txt_Shop_Message_SellCurseLift_01_F",
+        "Text": "おや！？　どうやら　<RUBY>呪[のろ]いが\r\nかかっているみたいですね。\r\nうーん　ざんねんです……。"
+      },
+      "Txt_Shop_Message_AdditionalSell_01_F": {
+        "SelfId": "Txt_Shop_Message_AdditionalSell_01_F",
+        "Text": "ほかに　なにか\r\n<RUBY>売[う]ってくれますか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_AdditionalShop_01_F": {
+        "SelfId": "Txt_Shop_Message_AdditionalShop_01_F",
+        "Text": "ほかに　ご<RUBY>用[よう]は　ありますか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_Finish_01_F": {
+        "SelfId": "Txt_Shop_Message_Finish_01_F",
+        "Text": "では　またの　おこしを\r\nおまちしています。"
+      },
+      "Txt_Shop_Message_ConfirmGoldSingle_01_F": {
+        "SelfId": "Txt_Shop_Message_ConfirmGoldSingle_01_F",
+        "Text": "{VALUE}ゴールドですが\r\nよろしいですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_ConfirmGoldMultiple_01_F": {
+        "SelfId": "Txt_Shop_Message_ConfirmGoldMultiple_01_F",
+        "Text": "<RUBY>全部[ぜんぶ]で　{VALUE}ゴールドになりますが\r\nよろしいですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSelect_01_F": {
+        "SelfId": "Txt_Shop_Message_SellSelect_01_F",
+        "Text": "どれを　<RUBY>売[う]ってくれますか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_Start_02": {
+        "SelfId": "Txt_Shop_Message_Start_02",
+        "Text": "ここは　{WORD}だ。\r\nどんな<RUBY>用[よう]だい？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuySelect_02": {
+        "SelfId": "Txt_Shop_Message_BuySelect_02",
+        "Text": "なにを　<RUBY>買[か]うかね？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_Shotage_02": {
+        "SelfId": "Txt_Shop_Message_Shotage_02",
+        "Text": "おっと　ざんねんだが\r\nお<RUBY>金[かね]がたりないようだ。"
+      },
+      "Txt_Shop_Message_BuySelectValue_02": {
+        "SelfId": "Txt_Shop_Message_BuySelectValue_02",
+        "Text": "いくつ　<RUBY>買[か]ってくれるんだい？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuySingle_02": {
+        "SelfId": "Txt_Shop_Message_BuySingle_02",
+        "Text": "{I_NAME}だね。\r\nどうも　ありがとう。"
+      },
+      "Txt_Shop_Message_BuyMultipul_02": {
+        "SelfId": "Txt_Shop_Message_BuyMultipul_02",
+        "Text": "{I_NAME}　{VALUE}<RUBY>個[こ]　だね。\r\nどうも　ありがとう。"
+      },
+      "Txt_Shop_Message_BuyUsefulBattle_02": {
+        "SelfId": "Txt_Shop_Message_BuyUsefulBattle_02",
+        "Text": "これは　<RUBY>戦[たたか]いのときに　<RUBY>道具[どうぐ]として\r\nつかっても　<RUBY>効力[こうりょく]があるよ。"
+      },
+      "Txt_Shop_Message_SelectBuyer_02": {
+        "SelfId": "Txt_Shop_Message_SelectBuyer_02",
+        "Text": "だれが　<RUBY>持[も]つかね？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_ConfirmSorting_02": {
+        "SelfId": "Txt_Shop_Message_ConfirmSorting_02",
+        "Text": "おや？　わるいが　{ACTOR}は\r\nそれ<RUBY>以上[いじょう]　<RUBY>持[も]てないみたいだ。\r\n<RUBY>持[も]ちものを　<RUBY>整理[せいり]するかい？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_FinishSorting_02": {
+        "SelfId": "Txt_Shop_Message_FinishSorting_02",
+        "Text": "よし！　<RUBY>整理[せいり]したぜ。"
+      },
+      "Txt_Shop_Message_StopSorting_02": {
+        "SelfId": "Txt_Shop_Message_StopSorting_02",
+        "Text": "おや？　しかし　{ACTOR}の\r\n<RUBY>持[も]ちものは　<RUBY>大事[だいじ]なものばかりで\r\n<RUBY>勝手[かって]に　<RUBY>整理[せいり]できないぞ。"
+      },
+      "Txt_Shop_Message_SelectBuyerAgain_02": {
+        "SelfId": "Txt_Shop_Message_SelectBuyerAgain_02",
+        "Text": "ほかのひとが　<RUBY>持[も]つかね？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuyBag_02": {
+        "SelfId": "Txt_Shop_Message_BuyBag_02",
+        "Text": "じゃあ　その　{BAG}に\r\n<RUBY>入[い]れておくぜ！"
+      },
+      "Txt_Shop_Message_BagFull_02": {
+        "SelfId": "Txt_Shop_Message_BagFull_02",
+        "Text": "と<RUBY>思[おも]ったが　ふくろも　いっぱいだな…"
+      },
+      "Txt_Shop_Message_UnableEquip_02": {
+        "SelfId": "Txt_Shop_Message_UnableEquip_02",
+        "Text": "{ACTOR}は\r\nこれを　そうびできないが\r\nそれでも　いいかね？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuyConfirmEquip_02": {
+        "SelfId": "Txt_Shop_Message_BuyConfirmEquip_02",
+        "Text": "ここで　そうび　していくかい？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SelectAccessorie_02": {
+        "SelfId": "Txt_Shop_Message_SelectAccessorie_02",
+        "Text": "どこに　<RUBY>着[つ]けるんだい？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuyCurseLift_02": {
+        "SelfId": "Txt_Shop_Message_BuyCurseLift_02",
+        "Text": "わっ　びっくりした！　その\r\n{I_NAME}は　<RUBY>呪[のろ]いで\r\nはずれないようだぜ。<KEY_WAIT>\r\nしょうがないなあ…　とりあえず\r\n<RUBY>受[う]けとって　おくれよ。\r\n"
+      },
+      "Txt_Shop_Message_BuySuccess_02": {
+        "SelfId": "Txt_Shop_Message_BuySuccess_02",
+        "Text": "ほらよっ　{ACTOR}さん！"
+      },
+      "Txt_Shop_Message_BuySuccess_Death_02": {
+        "SelfId": "Txt_Shop_Message_BuySuccess_Death_02",
+        "Text": "じゃあ　{ACTOR}の\r\nひつぎの<RUBY>中[なか]に　<RUBY>入[い]れておくよ。"
+      },
+      "Txt_Shop_Message_BuyOverly_02": {
+        "SelfId": "Txt_Shop_Message_BuyOverly_02",
+        "Text": "<RUBY>持[も]ちきれなかったぶんは\r\nその　{BAG}に　<RUBY>入[い]れておくよ。"
+      },
+      "Txt_Shop_Message_AdditionalBuy_02": {
+        "SelfId": "Txt_Shop_Message_AdditionalBuy_02",
+        "Text": "ほかにも　<RUBY>買[か]うかね？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SelectSeller_02": {
+        "SelfId": "Txt_Shop_Message_SelectSeller_02",
+        "Text": "だれが　<RUBY>売[う]ってくれるんだい？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_NoItem_Chara_02": {
+        "SelfId": "Txt_Shop_Message_NoItem_Chara_02",
+        "Text": "おや？　でも　{ACTOR}は\r\nなんにも　<RUBY>持[も]ってないぜ。"
+      },
+      "Txt_Shop_Message_NoItem_Bag_02": {
+        "SelfId": "Txt_Shop_Message_NoItem_Bag_02",
+        "Text": "おや？　その　{BAG}には\r\nなんにも　はいってないぜ。"
+      },
+      "Txt_Shop_Message_SellCanNot_02": {
+        "SelfId": "Txt_Shop_Message_SellCanNot_02",
+        "Text": "わるいが　それは　うちでは\r\n<RUBY>買[か]いとれないなあ。"
+      },
+      "Txt_Shop_Message_SellConfirmEquip_02": {
+        "SelfId": "Txt_Shop_Message_SellConfirmEquip_02",
+        "Text": "しかし　それは　<RUBY>装備中[そうびちゅう]のようだが\r\nいいのかい？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_ConfirmLare_02": {
+        "SelfId": "Txt_Shop_Message_ConfirmLare_02",
+        "Text": "しかし　それを　<RUBY>売[う]っちまうと\r\n２<RUBY>度[ど]と　<RUBY>手[て]に<RUBY>入[はい]らないかも\r\nしれないぜ。いいのかい？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSelectValue_02": {
+        "SelfId": "Txt_Shop_Message_SellSelectValue_02",
+        "Text": "いくつ　<RUBY>売[う]ってくれるんだい？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSingle_02": {
+        "SelfId": "Txt_Shop_Message_SellSingle_02",
+        "Text": "{I_NAME}だね。\r\n{VALUE}ゴールドで\r\n<RUBY>引[ひ]きとろう。いいかい？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellMultiple_02": {
+        "SelfId": "Txt_Shop_Message_SellMultiple_02",
+        "Text": "{I_NAME}　{VALUE}<RUBY>個[こ]だね。\r\n{VALUE2}ゴールドで\r\n<RUBY>引[ひ]きとろう。いいかい？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSuccess_02": {
+        "SelfId": "Txt_Shop_Message_SellSuccess_02",
+        "Text": "よし！　たしかに<RUBY>買[か]いとったぜ。"
+      },
+      "Txt_Shop_Message_SellCancel_02": {
+        "SelfId": "Txt_Shop_Message_SellCancel_02",
+        "Text": "それは　ざんねんだな。"
+      },
+      "Txt_Shop_Message_GoldFull_02": {
+        "SelfId": "Txt_Shop_Message_GoldFull_02",
+        "Text": "おっと！　<RUBY>買[か]いとりたいが\r\nそれ<RUBY>以上[いじょう]　お<RUBY>金[かね]を\r\n<RUBY>持[も]てないみたいだぜっ。"
+      },
+      "Txt_Shop_Message_SellCurseLift_02": {
+        "SelfId": "Txt_Shop_Message_SellCurseLift_02",
+        "Text": "うわっと！　こいつは　おどろいた！\r\n<RUBY>買[か]いとりたいのは　やまやまだが\r\n<RUBY>呪[のろ]いで　はずれないようだぜ。"
+      },
+      "Txt_Shop_Message_AdditionalSell_02": {
+        "SelfId": "Txt_Shop_Message_AdditionalSell_02",
+        "Text": "ほかにも　<RUBY>売[う]ってくれるかい？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_AdditionalShop_02": {
+        "SelfId": "Txt_Shop_Message_AdditionalShop_02",
+        "Text": "ほかにも　<RUBY>用[よう]は　あるかね？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_Finish_02": {
+        "SelfId": "Txt_Shop_Message_Finish_02",
+        "Text": "また　<RUBY>来[き]てくれよなっ！"
+      },
+      "Txt_Shop_Message_ConfirmGoldSingle_02": {
+        "SelfId": "Txt_Shop_Message_ConfirmGoldSingle_02",
+        "Text": "{VALUE}ゴールドになるが\r\nいいかい？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_ConfirmGoldMultiple_02": {
+        "SelfId": "Txt_Shop_Message_ConfirmGoldMultiple_02",
+        "Text": "<RUBY>全部[ぜんぶ]で　{VALUE}ゴールドになるが\r\nいいかい？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSelect_02": {
+        "SelfId": "Txt_Shop_Message_SellSelect_02",
+        "Text": "どれを　<RUBY>売[う]ってくれるんだい？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_Start_01_Smith": {
+        "SelfId": "Txt_Shop_Message_Start_01_Smith",
+        "Text": "ここは　{WORD}です。\r\nどんなご<RUBY>用[よう]でしょう？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuySelect_01_Smith": {
+        "SelfId": "Txt_Shop_Message_BuySelect_01_Smith",
+        "Text": "どれを　おもとめですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_Shotage_01_Smith": {
+        "SelfId": "Txt_Shop_Message_Shotage_01_Smith",
+        "Text": "すみません　それを<RUBY>買[か]うには\r\nお<RUBY>金[かね]がたりませんが……。"
+      },
+      "Txt_Shop_Message_BuySelectValue_01_Smith": {
+        "SelfId": "Txt_Shop_Message_BuySelectValue_01_Smith",
+        "Text": "いくつ\r\n<RUBY>買[か]っていただけるのでしょうか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuySingle_01_Smith": {
+        "SelfId": "Txt_Shop_Message_BuySingle_01_Smith",
+        "Text": "{I_NAME}ですね\r\nまいど　ありがとうございます。"
+      },
+      "Txt_Shop_Message_BuyMultipul_01_Smith": {
+        "SelfId": "Txt_Shop_Message_BuyMultipul_01_Smith",
+        "Text": "{I_NAME}　{VALUE}<RUBY>個[こ]　ですね\r\nまいど　ありがとうございます。"
+      },
+      "Txt_Shop_Message_BuyUsefulBattle_01_Smith": {
+        "SelfId": "Txt_Shop_Message_BuyUsefulBattle_01_Smith",
+        "Text": "これは　<RUBY>戦[たたか]いのときに　<RUBY>道具[どうぐ]として\r\nつかってもおトクな　<RUBY>品物[しなもの]ですよ。"
+      },
+      "Txt_Shop_Message_SelectBuyer_01_Smith": {
+        "SelfId": "Txt_Shop_Message_SelectBuyer_01_Smith",
+        "Text": "どなたが　お<RUBY>持[も]ちになりますか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_ConfirmSorting_01_Smith": {
+        "SelfId": "Txt_Shop_Message_ConfirmSorting_01_Smith",
+        "Text": "でも　{ACTOR}さんは\r\nそれ<RUBY>以上[いじょう]ものを　<RUBY>持[も]てないようですよ\r\n<RUBY>持[も]ちものを　<RUBY>整理[せいり]しましょうか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_FinishSorting_01_Smith": {
+        "SelfId": "Txt_Shop_Message_FinishSorting_01_Smith",
+        "Text": "はい！　<RUBY>整理[せいり]しましたよ。"
+      },
+      "Txt_Shop_Message_StopSorting_01_Smith": {
+        "SelfId": "Txt_Shop_Message_StopSorting_01_Smith",
+        "Text": "おや？\r\nでも　{ACTOR}さんの　<RUBY>持[も]ちものは\r\n<RUBY>大切[たいせつ]なものばかりですね。"
+      },
+      "Txt_Shop_Message_SelectBuyerAgain_01_Smith": {
+        "SelfId": "Txt_Shop_Message_SelectBuyerAgain_01_Smith",
+        "Text": "べつのひとが　<RUBY>持[も]ちますか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuyBag_01_Smith": {
+        "SelfId": "Txt_Shop_Message_BuyBag_01_Smith",
+        "Text": "では\r\nその　{BAG}の<RUBY>中[なか]に　<RUBY>入[い]れておきますね。"
+      },
+      "Txt_Shop_Message_BagFull_01_Smith": {
+        "SelfId": "Txt_Shop_Message_BagFull_01_Smith",
+        "Text": "ふくろの<RUBY>中[なか]も　いっぱいのようですね…"
+      },
+      "Txt_Shop_Message_UnableEquip_01_Smith": {
+        "SelfId": "Txt_Shop_Message_UnableEquip_01_Smith",
+        "Text": "おや？\r\n{ACTOR}さんは　これをそうびできませんが\r\nそれでも　よろしいですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuyConfirmEquip_01_Smith": {
+        "SelfId": "Txt_Shop_Message_BuyConfirmEquip_01_Smith",
+        "Text": "さっそく　そうび　なさいますか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SelectAccessorie_01_Smith": {
+        "SelfId": "Txt_Shop_Message_SelectAccessorie_01_Smith",
+        "Text": "どちらにアクセサリーを\r\nおつけに　なられますか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuyCurseLift_01_Smith": {
+        "SelfId": "Txt_Shop_Message_BuyCurseLift_01_Smith",
+        "Text": "おや！？　その{I_NAME}が\r\nはずれませんよ！　もしかして\r\n<RUBY>呪[のろ]いが　かかっているのでは？<KEY_WAIT>\r\nしかたありません　とりあえず\r\n<RUBY>受[う]けとって　いただけますか？"
+      },
+      "Txt_Shop_Message_BuySuccess_01_Smith": {
+        "SelfId": "Txt_Shop_Message_BuySuccess_01_Smith",
+        "Text": "はい　どうぞ　{ACTOR}さん。"
+      },
+      "Txt_Shop_Message_BuySuccess_Death_01_Smith": {
+        "SelfId": "Txt_Shop_Message_BuySuccess_Death_01_Smith",
+        "Text": "では　{ACTOR}さんの\r\nひつぎの<RUBY>中[なか]に　<RUBY>入[い]れておきますね。"
+      },
+      "Txt_Shop_Message_BuyOverly_01_Smith": {
+        "SelfId": "Txt_Shop_Message_BuyOverly_01_Smith",
+        "Text": "<RUBY>持[も]ちきれなかったぶんは\r\nその　{BAG}に　<RUBY>入[い]れておきますね。"
+      },
+      "Txt_Shop_Message_AdditionalBuy_01_Smith": {
+        "SelfId": "Txt_Shop_Message_AdditionalBuy_01_Smith",
+        "Text": "ほかに　なにか　<RUBY>必要[ひつよう]ですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SelectSeller_01_Smith": {
+        "SelfId": "Txt_Shop_Message_SelectSeller_01_Smith",
+        "Text": "どなたの　<RUBY>持[も]ちものを\r\n<RUBY>売[う]ってくれますか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_NoItem_Chara_01_Smith": {
+        "SelfId": "Txt_Shop_Message_NoItem_Chara_01_Smith",
+        "Text": "{ACTOR}さんは　<RUBY>売[う]れるものを\r\nなにも　<RUBY>持[も]っていませんが。"
+      },
+      "Txt_Shop_Message_NoItem_Bag_01_Smith": {
+        "SelfId": "Txt_Shop_Message_NoItem_Bag_01_Smith",
+        "Text": "おや？　その{BAG}の<RUBY>中[なか]は\r\nからっぽ　みたいですよ。"
+      },
+      "Txt_Shop_Message_SellCanNot_01_Smith": {
+        "SelfId": "Txt_Shop_Message_SellCanNot_01_Smith",
+        "Text": "すみませんが　その<RUBY>品物[しなもの]は\r\nうちでは　<RUBY>買[か]いとれません。"
+      },
+      "Txt_Shop_Message_SellConfirmEquip_01_Smith": {
+        "SelfId": "Txt_Shop_Message_SellConfirmEquip_01_Smith",
+        "Text": "しかし　それは　<RUBY>装備中[そうびちゅう]のようですが\r\nいいんですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_ConfirmLare_01_Smith": {
+        "SelfId": "Txt_Shop_Message_ConfirmLare_01_Smith",
+        "Text": "でも　それを　<RUBY>売[う]ってしまうと\r\nもう２<RUBY>度[ど]と　<RUBY>手[て]に<RUBY>入[はい]らないかも\r\nしれませんよ。いいんですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSelectValue_01_Smith": {
+        "SelfId": "Txt_Shop_Message_SellSelectValue_01_Smith",
+        "Text": "いくつ\r\n<RUBY>売[う]っていただけるのでしょうか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSingle_01_Smith": {
+        "SelfId": "Txt_Shop_Message_SellSingle_01_Smith",
+        "Text": "{I_NAME}ですね。\r\nそれなら　{VALUE}ゴールドで\r\n<RUBY>買[か]いましょう。いいですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellMultiple_01_Smith": {
+        "SelfId": "Txt_Shop_Message_SellMultiple_01_Smith",
+        "Text": "{I_NAME}　{VALUE}<RUBY>個[こ]　ですね。\r\nそれなら　{VALUE2}ゴールドで\r\n<RUBY>買[か]いましょう。いいですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSuccess_01_Smith": {
+        "SelfId": "Txt_Shop_Message_SellSuccess_01_Smith",
+        "Text": "どうも　ありがとうございます。"
+      },
+      "Txt_Shop_Message_SellCancel_01_Smith": {
+        "SelfId": "Txt_Shop_Message_SellCancel_01_Smith",
+        "Text": "それは　ざんねんです……。"
+      },
+      "Txt_Shop_Message_GoldFull_01_Smith": {
+        "SelfId": "Txt_Shop_Message_GoldFull_01_Smith",
+        "Text": "でも　そんなにお<RUBY>金[かね]を　<RUBY>持[も]てませんよ。\r\nどうです？　うちで　なにか\r\n<RUBY>買[か]っていっては。"
+      },
+      "Txt_Shop_Message_SellCurseLift_01_Smith": {
+        "SelfId": "Txt_Shop_Message_SellCurseLift_01_Smith",
+        "Text": "おや！？　どうやら　<RUBY>呪[のろ]いが\r\nかかっているみたいですね。\r\nうーん　ざんねんです……。"
+      },
+      "Txt_Shop_Message_AdditionalSell_01_Smith": {
+        "SelfId": "Txt_Shop_Message_AdditionalSell_01_Smith",
+        "Text": "ほかに　なにか\r\n<RUBY>売[う]ってくれますか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_AdditionalShop_01_Smith": {
+        "SelfId": "Txt_Shop_Message_AdditionalShop_01_Smith",
+        "Text": "ほかに　ご<RUBY>用[よう]は　ありますか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_Finish_01_Smith": {
+        "SelfId": "Txt_Shop_Message_Finish_01_Smith",
+        "Text": "では　またの　おこしを\r\nおまちしています。"
+      },
+      "Txt_Shop_Message_ConfirmGoldSingle_01_Smith": {
+        "SelfId": "Txt_Shop_Message_ConfirmGoldSingle_01_Smith",
+        "Text": "{VALUE}ゴールドですが\r\nよろしいですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_ConfirmGoldMultiple_01_Smith": {
+        "SelfId": "Txt_Shop_Message_ConfirmGoldMultiple_01_Smith",
+        "Text": "<RUBY>全部[ぜんぶ]で　{VALUE}ゴールドになりますが\r\nよろしいですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSelect_01_Smith": {
+        "SelfId": "Txt_Shop_Message_SellSelect_01_Smith",
+        "Text": "どれを　<RUBY>売[う]ってくれますか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_Start_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_Start_01_Burg_M",
+        "Text": "ここは　{WORD}です。\r\nどんなご<RUBY>用[よう]でしょう？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuySelect_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_BuySelect_01_Burg_M",
+        "Text": "どれを　おもとめですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_Shotage_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_Shotage_01_Burg_M",
+        "Text": "すみません　それを<RUBY>買[か]うには\r\nお<RUBY>金[かね]がたりませんが……。"
+      },
+      "Txt_Shop_Message_BuySelectValue_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_BuySelectValue_01_Burg_M",
+        "Text": "いくつ\r\n<RUBY>買[か]っていただけるのでしょうか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuySingle_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_BuySingle_01_Burg_M",
+        "Text": "{I_NAME}ですね\r\nまいど　ありがとうございます。"
+      },
+      "Txt_Shop_Message_BuyMultipul_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_BuyMultipul_01_Burg_M",
+        "Text": "{I_NAME}　{VALUE}<RUBY>個[こ]　ですね\r\nまいど　ありがとうございます。"
+      },
+      "Txt_Shop_Message_BuyUsefulBattle_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_BuyUsefulBattle_01_Burg_M",
+        "Text": "これは　<RUBY>戦[たたか]いのときに　<RUBY>道具[どうぐ]として\r\nつかってもおトクな　<RUBY>品物[しなもの]ですよ。"
+      },
+      "Txt_Shop_Message_SelectBuyer_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_SelectBuyer_01_Burg_M",
+        "Text": "どなたが　お<RUBY>持[も]ちになりますか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_ConfirmSorting_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_ConfirmSorting_01_Burg_M",
+        "Text": "でも　{ACTOR}さんは\r\nそれ<RUBY>以上[いじょう]ものを　<RUBY>持[も]てないようですよ\r\n<RUBY>持[も]ちものを　<RUBY>整理[せいり]しましょうか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_FinishSorting_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_FinishSorting_01_Burg_M",
+        "Text": "はい！　<RUBY>整理[せいり]しましたよ。"
+      },
+      "Txt_Shop_Message_StopSorting_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_StopSorting_01_Burg_M",
+        "Text": "おや？\r\nでも　{ACTOR}さんの　<RUBY>持[も]ちものは\r\n<RUBY>大切[たいせつ]なものばかりですね。"
+      },
+      "Txt_Shop_Message_SelectBuyerAgain_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_SelectBuyerAgain_01_Burg_M",
+        "Text": "べつのひとが　<RUBY>持[も]ちますか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuyBag_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_BuyBag_01_Burg_M",
+        "Text": "では\r\nその　{BAG}の<RUBY>中[なか]に　<RUBY>入[い]れておきますね。"
+      },
+      "Txt_Shop_Message_BagFull_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_BagFull_01_Burg_M",
+        "Text": "ふくろの<RUBY>中[なか]も　いっぱいのようですね…"
+      },
+      "Txt_Shop_Message_UnableEquip_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_UnableEquip_01_Burg_M",
+        "Text": "おや？\r\n{ACTOR}さんは　これをそうびできませんが\r\nそれでも　よろしいですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuyConfirmEquip_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_BuyConfirmEquip_01_Burg_M",
+        "Text": "さっそく　そうび　なさいますか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SelectAccessorie_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_SelectAccessorie_01_Burg_M",
+        "Text": "どちらにアクセサリーを\r\nおつけに　なられますか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuyCurseLift_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_BuyCurseLift_01_Burg_M",
+        "Text": "おや！？　その{I_NAME}が\r\nはずれませんよ！　もしかして\r\n<RUBY>呪[のろ]いが　かかっているのでは？<KEY_WAIT>\r\nしかたありません　とりあえず\r\n<RUBY>受[う]けとって　いただけますか？"
+      },
+      "Txt_Shop_Message_BuySuccess_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_BuySuccess_01_Burg_M",
+        "Text": "はい　どうぞ　{ACTOR}さん。"
+      },
+      "Txt_Shop_Message_BuySuccess_Death_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_BuySuccess_Death_01_Burg_M",
+        "Text": "では　{ACTOR}さんの\r\nひつぎの<RUBY>中[なか]に　<RUBY>入[い]れておきますね。"
+      },
+      "Txt_Shop_Message_BuyOverly_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_BuyOverly_01_Burg_M",
+        "Text": "<RUBY>持[も]ちきれなかったぶんは\r\nその　{BAG}に　<RUBY>入[い]れておきますね。"
+      },
+      "Txt_Shop_Message_AdditionalBuy_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_AdditionalBuy_01_Burg_M",
+        "Text": "ほかに　なにか　<RUBY>必要[ひつよう]ですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SelectSeller_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_SelectSeller_01_Burg_M",
+        "Text": "どなたの　<RUBY>持[も]ちものを\r\n<RUBY>売[う]ってくれますか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_NoItem_Chara_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_NoItem_Chara_01_Burg_M",
+        "Text": "{ACTOR}さんは　<RUBY>売[う]れるものを\r\nなにも　<RUBY>持[も]っていませんが。"
+      },
+      "Txt_Shop_Message_NoItem_Bag_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_NoItem_Bag_01_Burg_M",
+        "Text": "おや？　その{BAG}の<RUBY>中[なか]は\r\nからっぽ　みたいですよ。"
+      },
+      "Txt_Shop_Message_SellCanNot_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_SellCanNot_01_Burg_M",
+        "Text": "すみませんが　その<RUBY>品物[しなもの]は\r\nうちでは　<RUBY>買[か]いとれません。"
+      },
+      "Txt_Shop_Message_SellConfirmEquip_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_SellConfirmEquip_01_Burg_M",
+        "Text": "しかし　それは　<RUBY>装備中[そうびちゅう]のようですが\r\nいいんですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_ConfirmLare_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_ConfirmLare_01_Burg_M",
+        "Text": "でも　それを　<RUBY>売[う]ってしまうと\r\nもう２<RUBY>度[ど]と　<RUBY>手[て]に<RUBY>入[はい]らないかも\r\nしれませんよ。いいんですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSelectValue_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_SellSelectValue_01_Burg_M",
+        "Text": "いくつ\r\n<RUBY>売[う]っていただけるのでしょうか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSingle_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_SellSingle_01_Burg_M",
+        "Text": "{I_NAME}ですね。\r\nそれなら　{VALUE}ゴールドで\r\n<RUBY>買[か]いましょう。いいですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellMultiple_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_SellMultiple_01_Burg_M",
+        "Text": "{I_NAME}　{VALUE}<RUBY>個[こ]　ですね。\r\nそれなら　{VALUE2}ゴールドで\r\n<RUBY>買[か]いましょう。いいですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSuccess_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_SellSuccess_01_Burg_M",
+        "Text": "どうも　ありがとうございます。"
+      },
+      "Txt_Shop_Message_SellCancel_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_SellCancel_01_Burg_M",
+        "Text": "それは　ざんねんです……。"
+      },
+      "Txt_Shop_Message_GoldFull_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_GoldFull_01_Burg_M",
+        "Text": "でも　そんなにお<RUBY>金[かね]を　<RUBY>持[も]てませんよ。\r\nどうです？　うちで　なにか\r\n<RUBY>買[か]っていっては。"
+      },
+      "Txt_Shop_Message_SellCurseLift_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_SellCurseLift_01_Burg_M",
+        "Text": "おや！？　どうやら　<RUBY>呪[のろ]いが\r\nかかっているみたいですね。\r\nうーん　ざんねんです……。"
+      },
+      "Txt_Shop_Message_AdditionalSell_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_AdditionalSell_01_Burg_M",
+        "Text": "ほかに　なにか\r\n<RUBY>売[う]ってくれますか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_AdditionalShop_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_AdditionalShop_01_Burg_M",
+        "Text": "ほかに　ご<RUBY>用[よう]は　ありますか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_Finish_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_Finish_01_Burg_M",
+        "Text": "では　またの　おこしを\r\nおまちしています。"
+      },
+      "Txt_Shop_Message_ConfirmGoldSingle_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_ConfirmGoldSingle_01_Burg_M",
+        "Text": "{VALUE}ゴールドですが\r\nよろしいですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_ConfirmGoldMultiple_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_ConfirmGoldMultiple_01_Burg_M",
+        "Text": "<RUBY>全部[ぜんぶ]で　{VALUE}ゴールドになりますが\r\nよろしいですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSelect_01_Burg_M": {
+        "SelfId": "Txt_Shop_Message_SellSelect_01_Burg_M",
+        "Text": "どれを　<RUBY>売[う]ってくれますか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_Start_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_Start_01_Burg_F",
+        "Text": "ここは　{WORD}です。\r\nどんなご<RUBY>用[よう]でしょう？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuySelect_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_BuySelect_01_Burg_F",
+        "Text": "どれを　おもとめですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_Shotage_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_Shotage_01_Burg_F",
+        "Text": "すみません　それを<RUBY>買[か]うには\r\nお<RUBY>金[かね]がたりませんが……。"
+      },
+      "Txt_Shop_Message_BuySelectValue_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_BuySelectValue_01_Burg_F",
+        "Text": "いくつ\r\n<RUBY>買[か]っていただけるのでしょうか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuySingle_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_BuySingle_01_Burg_F",
+        "Text": "{I_NAME}ですね\r\nまいど　ありがとうございます。"
+      },
+      "Txt_Shop_Message_BuyMultipul_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_BuyMultipul_01_Burg_F",
+        "Text": "{I_NAME}　{VALUE}<RUBY>個[こ]　ですね\r\nまいど　ありがとうございます。"
+      },
+      "Txt_Shop_Message_BuyUsefulBattle_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_BuyUsefulBattle_01_Burg_F",
+        "Text": "これは　<RUBY>戦[たたか]いのときに　<RUBY>道具[どうぐ]として\r\nつかってもおトクな　<RUBY>品物[しなもの]ですよ。"
+      },
+      "Txt_Shop_Message_SelectBuyer_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_SelectBuyer_01_Burg_F",
+        "Text": "どなたが　お<RUBY>持[も]ちになりますか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_ConfirmSorting_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_ConfirmSorting_01_Burg_F",
+        "Text": "でも　{ACTOR}さんは\r\nそれ<RUBY>以上[いじょう]ものを　<RUBY>持[も]てないようですよ\r\n<RUBY>持[も]ちものを　<RUBY>整理[せいり]しましょうか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_FinishSorting_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_FinishSorting_01_Burg_F",
+        "Text": "はい！　<RUBY>整理[せいり]しましたよ。"
+      },
+      "Txt_Shop_Message_StopSorting_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_StopSorting_01_Burg_F",
+        "Text": "おや？\r\nでも　{ACTOR}さんの　<RUBY>持[も]ちものは\r\n<RUBY>大切[たいせつ]なものばかりですね。"
+      },
+      "Txt_Shop_Message_SelectBuyerAgain_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_SelectBuyerAgain_01_Burg_F",
+        "Text": "べつのひとが　<RUBY>持[も]ちますか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuyBag_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_BuyBag_01_Burg_F",
+        "Text": "では\r\nその　{BAG}の<RUBY>中[なか]に　<RUBY>入[い]れておきますね。"
+      },
+      "Txt_Shop_Message_BagFull_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_BagFull_01_Burg_F",
+        "Text": "ふくろの<RUBY>中[なか]もいっぱいのようですね…"
+      },
+      "Txt_Shop_Message_UnableEquip_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_UnableEquip_01_Burg_F",
+        "Text": "おや？\r\n{ACTOR}さんは　これをそうびできませんが\r\nそれでも　よろしいですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuyConfirmEquip_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_BuyConfirmEquip_01_Burg_F",
+        "Text": "さっそく　そうび　なさいますか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SelectAccessorie_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_SelectAccessorie_01_Burg_F",
+        "Text": "どちらにアクセサリーを\r\nおつけに　なられますか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_BuyCurseLift_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_BuyCurseLift_01_Burg_F",
+        "Text": "おや！？　その{I_NAME}が\r\nはずれませんよ！　もしかして\r\n<RUBY>呪[のろ]いが　かかっているのでは？<KEY_WAIT>\r\nしかたありません　とりあえず\r\n<RUBY>受[う]けとって　いただけますか？"
+      },
+      "Txt_Shop_Message_BuySuccess_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_BuySuccess_01_Burg_F",
+        "Text": "はい　どうぞ　{ACTOR}さん。"
+      },
+      "Txt_Shop_Message_BuySuccess_Death_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_BuySuccess_Death_01_Burg_F",
+        "Text": "では　{ACTOR}さんの\r\nひつぎの<RUBY>中[なか]に　<RUBY>入[い]れておきますね。"
+      },
+      "Txt_Shop_Message_BuyOverly_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_BuyOverly_01_Burg_F",
+        "Text": "<RUBY>持[も]ちきれなかったぶんは\r\nその　{BAG}に　<RUBY>入[い]れておきますね。"
+      },
+      "Txt_Shop_Message_AdditionalBuy_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_AdditionalBuy_01_Burg_F",
+        "Text": "ほかに　なにか　<RUBY>必要[ひつよう]ですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SelectSeller_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_SelectSeller_01_Burg_F",
+        "Text": "どなたの　<RUBY>持[も]ちものを\r\n<RUBY>売[う]ってくれますか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_NoItem_Chara_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_NoItem_Chara_01_Burg_F",
+        "Text": "{ACTOR}さんは　<RUBY>売[う]れるものを\r\nなにも　<RUBY>持[も]っていませんが。"
+      },
+      "Txt_Shop_Message_NoItem_Bag_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_NoItem_Bag_01_Burg_F",
+        "Text": "おや？　その{BAG}の<RUBY>中[なか]は\r\nからっぽ　みたいですよ。"
+      },
+      "Txt_Shop_Message_SellCanNot_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_SellCanNot_01_Burg_F",
+        "Text": "すみませんが　その<RUBY>品物[しなもの]は\r\nうちでは　<RUBY>買[か]いとれません。"
+      },
+      "Txt_Shop_Message_SellConfirmEquip_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_SellConfirmEquip_01_Burg_F",
+        "Text": "しかし　それは　<RUBY>装備中[そうびちゅう]のようですが\r\nいいんですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_ConfirmLare_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_ConfirmLare_01_Burg_F",
+        "Text": "でも　それを　<RUBY>売[う]ってしまうと\r\nもう２<RUBY>度[ど]と　<RUBY>手[て]に<RUBY>入[はい]らないかも\r\nしれませんよ。いいんですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSelectValue_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_SellSelectValue_01_Burg_F",
+        "Text": "いくつ\r\n<RUBY>売[う]っていただけるのでしょうか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSingle_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_SellSingle_01_Burg_F",
+        "Text": "{I_NAME}ですね。\r\nそれなら　{VALUE}ゴールドで\r\n<RUBY>買[か]いましょう。いいですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellMultiple_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_SellMultiple_01_Burg_F",
+        "Text": "{I_NAME}　{VALUE}<RUBY>個[こ]　ですね。\r\nそれなら　{VALUE2}ゴールドで\r\n<RUBY>買[か]いましょう。いいですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSuccess_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_SellSuccess_01_Burg_F",
+        "Text": "どうも　ありがとうございます。"
+      },
+      "Txt_Shop_Message_SellCancel_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_SellCancel_01_Burg_F",
+        "Text": "それは　ざんねんです……。"
+      },
+      "Txt_Shop_Message_GoldFull_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_GoldFull_01_Burg_F",
+        "Text": "でも　そんなにお<RUBY>金[かね]を　<RUBY>持[も]てませんよ。\r\nどうです？　うちで　なにか\r\n<RUBY>買[か]っていっては。"
+      },
+      "Txt_Shop_Message_SellCurseLift_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_SellCurseLift_01_Burg_F",
+        "Text": "おや！？　どうやら　<RUBY>呪[のろ]いが\r\nかかっているみたいですね。\r\nうーん　ざんねんです……。"
+      },
+      "Txt_Shop_Message_AdditionalSell_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_AdditionalSell_01_Burg_F",
+        "Text": "ほかに　なにか\r\n<RUBY>売[う]ってくれますか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_AdditionalShop_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_AdditionalShop_01_Burg_F",
+        "Text": "ほかに　ご<RUBY>用[よう]は　ありますか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_Finish_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_Finish_01_Burg_F",
+        "Text": "では　またの　おこしを\r\nおまちしています。"
+      },
+      "Txt_Shop_Message_ConfirmGoldSingle_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_ConfirmGoldSingle_01_Burg_F",
+        "Text": "{VALUE}ゴールドですが\r\nよろしいですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_ConfirmGoldMultiple_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_ConfirmGoldMultiple_01_Burg_F",
+        "Text": "<RUBY>全部[ぜんぶ]で　{VALUE}ゴールドになりますが\r\nよろしいですか？<NO_INPUT>"
+      },
+      "Txt_Shop_Message_SellSelect_01_Burg_F": {
+        "SelfId": "Txt_Shop_Message_SellSelect_01_Burg_F",
+        "Text": "どれを　<RUBY>売[う]ってくれますか？<NO_INPUT>"
+      },
+      "Txt_Shop_SCAM_Message_Top": {
+        "SelfId": "Txt_Shop_SCAM_Message_Top",
+        "Text": "おお！　わたしの　ともだち！\r\nお<RUBY>待[ま]ちしておりました。\r\n<RUBY>売[う]ってるものを　<RUBY>見[み]ますか？<NO_INPUT>"
+      },
+      "Txt_Shop_SCAM_Message_SelectNo": {
+        "SelfId": "Txt_Shop_SCAM_Message_SelectNo",
+        "Text": "まあ　そういわずに\r\n<RUBY>見[み]ていってくださいよ。<NO_INPUT>"
+      },
+      "Txt_Shop_SCAM_Message_CancelBuy": {
+        "SelfId": "Txt_Shop_SCAM_Message_CancelBuy",
+        "Text": "おや？　お<RUBY>気[き]にめしませんでした？\r\nそれは　ざんねんです。\r\nまた　きっと　<RUBY>来[き]てくださいね。"
+      },
+      "Txt_Shop_SCAM_Message_ConfirmBuy_01": {
+        "SelfId": "Txt_Shop_SCAM_Message_ConfirmBuy_01",
+        "Text": "おお！　お<RUBY>目[め]が<RUBY>高[たか]い！\r\n{VALUE}ゴールドですが\r\nお<RUBY>買[か]いになりますよね？<NO_INPUT>"
+      },
+      "Txt_Shop_SCAM_Message_ConfirmBuy_02": {
+        "SelfId": "Txt_Shop_SCAM_Message_ConfirmBuy_02",
+        "Text": "おお　お<RUBY>客[きゃく]さん\r\nとても　<RUBY>買[か]いもの<RUBY>上手[じょうず]。\r\nわたし　まいってしまいます。<KEY_WAIT>\r\nでは　{VALUE}ゴールドに\r\nいたしましょう。\r\nこれなら　いいでしょう？<NO_INPUT>"
+      },
+      "Txt_Shop_SCAM_Message_ConfirmBuy_03": {
+        "SelfId": "Txt_Shop_SCAM_Message_ConfirmBuy_03",
+        "Text": "おお　あなた　ひどいひと！\r\nわたしに　<RUBY>首[くび]つれと　いいますか？\r\nわかりました。<KEY_WAIT>\r\nでは　{VALUE}ゴールドに\r\nいたしましょう。\r\nこれなら　いいでしょう？<NO_INPUT>"
+      },
+      "Txt_Shop_SCAM_Message_ConfirmBuy_04": {
+        "SelfId": "Txt_Shop_SCAM_Message_ConfirmBuy_04",
+        "Text": "おお　これいじょう　まけると\r\nわたし　おおぞんします！\r\nでも　あなた　ともだち！<KEY_WAIT>\r\nでは　{VALUE}ゴールドに\r\nいたしましょう。\r\nこれなら　いいですか？<NO_INPUT>"
+      },
+      "Txt_Shop_SCAM_Message_CancelBuy_02": {
+        "SelfId": "Txt_Shop_SCAM_Message_CancelBuy_02",
+        "Text": "そうですか。ざんねんです。\r\nまた　きっと　<RUBY>来[き]てくださいね。"
+      },
+      "Txt_Shop_SCAM_Message_Shotage": {
+        "SelfId": "Txt_Shop_SCAM_Message_Shotage",
+        "Text": "おお！　でも\r\nおカネが　たりません！\r\nまた　きっと　<RUBY>来[き]てくださいね。"
+      },
+      "Txt_Shop_SCAM_Message_BuySuccess": {
+        "SelfId": "Txt_Shop_SCAM_Message_BuySuccess",
+        "Text": "おお！　<RUBY>買[か]ってくれますか？\r\nわたしたち　いつまでも　ともだち！\r\nまた　きっと　<RUBY>来[き]てくださいね。"
+      },
+      "Txt_Shop_Store_Name_Weapon": {
+        "SelfId": "Txt_Shop_Store_Name_Weapon",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_Shop_Store_Name_Armor": {
+        "SelfId": "Txt_Shop_Store_Name_Armor",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_Shop_Store_Name_WeaponArmor": {
+        "SelfId": "Txt_Shop_Store_Name_WeaponArmor",
+        "Text": "!GOP_Text_Noun!"
+      },
+      "Txt_Shop_Store_Name_Item": {
+        "SelfId": "Txt_Shop_Store_Name_Item",
+        "Text": "!GOP_Text_Noun!"
+      }
+    }
+  }
+]

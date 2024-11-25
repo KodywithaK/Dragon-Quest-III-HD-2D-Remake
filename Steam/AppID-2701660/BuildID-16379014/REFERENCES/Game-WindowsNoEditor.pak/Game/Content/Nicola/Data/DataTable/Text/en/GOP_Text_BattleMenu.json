@@ -1,0 +1,792 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_BattleMenu",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_BattleMenu_Top_COMMAND_00": {
+        "SelfId": "Txt_BattleMenu_Top_COMMAND_00",
+        "Text": "Fight"
+      },
+      "Txt_BattleMenu_Top_COMMAND_01": {
+        "SelfId": "Txt_BattleMenu_Top_COMMAND_01",
+        "Text": "Tactics"
+      },
+      "Txt_BattleMenu_Top_COMMAND_02": {
+        "SelfId": "Txt_BattleMenu_Top_COMMAND_02",
+        "Text": "Flee"
+      },
+      "Txt_BattleMenu_Top_MBR_COMMAND_00": {
+        "SelfId": "Txt_BattleMenu_Top_MBR_COMMAND_00",
+        "Text": "Fight"
+      },
+      "Txt_BattleMenu_Top_MBR_COMMAND_01": {
+        "SelfId": "Txt_BattleMenu_Top_MBR_COMMAND_01",
+        "Text": "Tactics"
+      },
+      "Txt_BattleMenu_Top_MBR_COMMAND_02": {
+        "SelfId": "Txt_BattleMenu_Top_MBR_COMMAND_02",
+        "Text": "Forfeit"
+      },
+      "Txt_BattleMenu_Top_SPEED": {
+        "SelfId": "Txt_BattleMenu_Top_SPEED",
+        "Text": "Battle Speed"
+      },
+      "Txt_BattleMenu_Top_SPEED_Low": {
+        "SelfId": "Txt_BattleMenu_Top_SPEED_Low",
+        "Text": "Normal"
+      },
+      "Txt_BattleMenu_Top_SPEED_Medium": {
+        "SelfId": "Txt_BattleMenu_Top_SPEED_Medium",
+        "Text": "Fast"
+      },
+      "Txt_BattleMenu_Top_SPEED_High": {
+        "SelfId": "Txt_BattleMenu_Top_SPEED_High",
+        "Text": "Ultra-Fast"
+      },
+      "Txt_BattleMenu_Top_UI_OFF": {
+        "SelfId": "Txt_BattleMenu_Top_UI_OFF",
+        "Text": "Hide UI"
+      },
+      "Txt_BattleMenu_Top_MBR_MATCH_Count": {
+        "SelfId": "Txt_BattleMenu_Top_MBR_MATCH_Count",
+        "Text": "Bout #{0}"
+      },
+      "Txt_BattleMenu_Fight_COMMAND_00": {
+        "SelfId": "Txt_BattleMenu_Fight_COMMAND_00",
+        "Text": "Attack"
+      },
+      "Txt_BattleMenu_Fight_COMMAND_01": {
+        "SelfId": "Txt_BattleMenu_Fight_COMMAND_01",
+        "Text": "Spells"
+      },
+      "Txt_BattleMenu_Fight_COMMAND_02": {
+        "SelfId": "Txt_BattleMenu_Fight_COMMAND_02",
+        "Text": "Defend"
+      },
+      "Txt_BattleMenu_Fight_COMMAND_03": {
+        "SelfId": "Txt_BattleMenu_Fight_COMMAND_03",
+        "Text": "Abilities"
+      },
+      "Txt_BattleMenu_Fight_COMMAND_04": {
+        "SelfId": "Txt_BattleMenu_Fight_COMMAND_04",
+        "Text": "Items"
+      },
+      "Txt_BattleMenu_Fight_COMMAND_05": {
+        "SelfId": "Txt_BattleMenu_Fight_COMMAND_05",
+        "Text": "Equipment"
+      },
+      "Txt_BattleMenu_Fight_TARGET_VALUE": {
+        "SelfId": "Txt_BattleMenu_Fight_TARGET_VALUE",
+        "Text": "{0}"
+      },
+      "Txt_BattleMenu_Fight_UNKNOWN_MAGIC": {
+        "SelfId": "Txt_BattleMenu_Fight_UNKNOWN_MAGIC",
+        "Text": "???"
+      },
+      "Txt_BattleMenu_Fight_ITEMGUIDE": {
+        "SelfId": "Txt_BattleMenu_Fight_ITEMGUIDE",
+        "Text": "Choose an item to use."
+      },
+      "Txt_BattleMenu_Fight_EQUIPGUIDE": {
+        "SelfId": "Txt_BattleMenu_Fight_EQUIPGUIDE",
+        "Text": "Choose something to equip."
+      },
+      "Txt_BattleMenu_Fight_SKILLGUIDE": {
+        "SelfId": "Txt_BattleMenu_Fight_SKILLGUIDE",
+        "Text": "Choose an ability to use."
+      },
+      "Txt_BattleMenu_Fight_MAGICGUIDE": {
+        "SelfId": "Txt_BattleMenu_Fight_MAGICGUIDE",
+        "Text": "Choose a spell to cast."
+      },
+      "Txt_BattleMenu_Fight_TACTICSGUIDE": {
+        "SelfId": "Txt_BattleMenu_Fight_TACTICSGUIDE",
+        "Text": "Choose someone's tactics to change."
+      },
+      "Txt_BattleMenu_Fight_MBR_TACTICSGUIDE": {
+        "SelfId": "Txt_BattleMenu_Fight_MBR_TACTICSGUIDE",
+        "Text": "Choose someone's tactics to change."
+      },
+      "Txt_BattleMenu_Fight_ACCESSORIEGUIDE": {
+        "SelfId": "Txt_BattleMenu_Fight_ACCESSORIEGUIDE",
+        "Text": "Choose where to equip the gear."
+      },
+      "Txt_BattleMenu_Fight_NOSKILL": {
+        "SelfId": "Txt_BattleMenu_Fight_NOSKILL",
+        "Text": "<Cap><DefSgl_ACTOR> doesn't know any abilities that can be used in battle."
+      },
+      "Txt_BattleMenu_Fight_NOMAGIC": {
+        "SelfId": "Txt_BattleMenu_Fight_NOMAGIC",
+        "Text": "<Cap><DefSgl_ACTOR> doesn't know any spells that can be used in battle."
+      },
+      "Txt_BattleMenu_Fight_SKILLUNSKILLED": {
+        "SelfId": "Txt_BattleMenu_Fight_SKILLUNSKILLED",
+        "Text": "<Cap><DefSgl_ACTOR> hasn't learnt that ability yet."
+      },
+      "Txt_BattleMenu_Fight_MAGICUNSKILLED": {
+        "SelfId": "Txt_BattleMenu_Fight_MAGICUNSKILLED",
+        "Text": "<Cap><DefSgl_ACTOR> hasn't learnt that spell yet."
+      },
+      "Txt_BattleMenu_Fight_SEALMAGIC": {
+        "SelfId": "Txt_BattleMenu_Fight_SEALMAGIC",
+        "Text": "But something stops it from working."
+      },
+      "Txt_BattleMenu_Fight_NOITEM": {
+        "SelfId": "Txt_BattleMenu_Fight_NOITEM",
+        "Text": "<Cap><DefSgl_ACTOR> doesn't have any items or equipment that can be used in battle."
+      },
+      "Txt_BattleMenu_Fight_NOEQUIP": {
+        "SelfId": "Txt_BattleMenu_Fight_NOEQUIP",
+        "Text": "<Cap><DefSgl_ACTOR> doesn't have anything they can equip."
+      },
+      "Txt_BattleMenu_Fight_CANNOTEQUIP": {
+        "SelfId": "Txt_BattleMenu_Fight_CANNOTEQUIP",
+        "Text": "<Cap><DefSgl_ACTOR> can't change <IfGender_ACTOR(his,her,its)> equipment."
+      },
+      "Txt_BattleMenu_Fight_LOSSMP": {
+        "SelfId": "Txt_BattleMenu_Fight_LOSSMP",
+        "Text": "Not enough MP!"
+      },
+      "Txt_BattleMenu_Fight_NOEFFECT": {
+        "SelfId": "Txt_BattleMenu_Fight_NOEFFECT",
+        "Text": "There's not much point in using <IfPlrNoun_I_NAME(those,that)> right now."
+      },
+      "Txt_BattleMenu_Fight_EQUIP": {
+        "SelfId": "Txt_BattleMenu_Fight_EQUIP",
+        "Text": "<Cap><DefSgl_ACTOR> equips <DefSgl_I_NAME>."
+      },
+      "Txt_BattleMenu_Fight_UNEQUIP": {
+        "SelfId": "Txt_BattleMenu_Fight_UNEQUIP",
+        "Text": "<Cap><DefSgl_ACTOR> unequips <DefSgl_I_NAME>."
+      },
+      "Txt_BattleMenu_Fight_EQUIPCANNOT": {
+        "SelfId": "Txt_BattleMenu_Fight_EQUIPCANNOT",
+        "Text": "<Cap><DefSgl_I_NAME> cannot be equipped."
+      },
+      "Txt_BattleMenu_Fight_CURSEUNEQUIP": {
+        "SelfId": "Txt_BattleMenu_Fight_CURSEUNEQUIP",
+        "Text": "<Cap><DefSgl_I_NAME> is cursed, and cannot be removed!"
+      },
+      "Txt_BattleMenu_Fight_CURSEEQUIP": {
+        "SelfId": "Txt_BattleMenu_Fight_CURSEEQUIP",
+        "Text": "<Cap><DefSgl_ACTOR> has been cursed!"
+      },
+      "Txt_BattleMenu_Fight_CANNOTResurre": {
+        "SelfId": "Txt_BattleMenu_Fight_CANNOTResurre",
+        "Text": "But you don't have any allies to resurrect."
+      },
+      "Txt_BattleMenu_Fight_CANNOTKabau": {
+        "SelfId": "Txt_BattleMenu_Fight_CANNOTKabau",
+        "Text": "But there's no one to shield right now."
+      },
+      "Txt_BattleMenu_Fight_SELFKabau": {
+        "SelfId": "Txt_BattleMenu_Fight_SELFKabau",
+        "Text": "Don't be silly: you can't shield yourself!"
+      },
+      "Txt_BattleMenu_Fight_CANNOTRUN": {
+        "SelfId": "Txt_BattleMenu_Fight_CANNOTRUN",
+        "Text": "You can't flee from this battle!"
+      },
+      "Txt_BattleMenu_Fight_CANNOTRUN_02": {
+        "SelfId": "Txt_BattleMenu_Fight_CANNOTRUN_02",
+        "Text": "You can't flee right now!"
+      },
+      "Txt_BattleMenu_Result_BeforeLevel": {
+        "SelfId": "Txt_BattleMenu_Result_BeforeLevel",
+        "Text": "{0}"
+      },
+      "Txt_BattleMenu_Result_AfterLevel": {
+        "SelfId": "Txt_BattleMenu_Result_AfterLevel",
+        "Text": "{0}"
+      },
+      "Txt_BattleMenu_Result_StatusChange": {
+        "SelfId": "Txt_BattleMenu_Result_StatusChange",
+        "Text": "{0}"
+      },
+      "Txt_BattleMenu_Result_GetMagic": {
+        "SelfId": "Txt_BattleMenu_Result_GetMagic",
+        "Text": "<Cap><DefSgl_ACTOR> learns <IfSing_VALUE(a new spell,new spells)>!"
+      },
+      "Txt_BattleMenu_Result_GetSkill": {
+        "SelfId": "Txt_BattleMenu_Result_GetSkill",
+        "Text": "<Cap><DefSgl_ACTOR> learns <IfSing_VALUE2(a new ability,new abilities)>!"
+      },
+      "Txt_BattleMenu_Result_GetMagicSkill": {
+        "SelfId": "Txt_BattleMenu_Result_GetMagicSkill",
+        "Text": "<Cap><DefSgl_ACTOR> learns <IfSing_VALUE(a new spell,new spells)> and <IfSing_VALUE2(a new ability,new abilities)>!"
+      },
+      "Txt_BattleMenu_Retry_Menu01": {
+        "SelfId": "Txt_BattleMenu_Retry_Menu01",
+        "Text": "Rematch"
+      },
+      "Txt_BattleMenu_Retry_Menu02": {
+        "SelfId": "Txt_BattleMenu_Retry_Menu02",
+        "Text": "Continue from Autosave"
+      },
+      "Txt_BattleMenu_Retry_Menu03": {
+        "SelfId": "Txt_BattleMenu_Retry_Menu03",
+        "Text": "Continue from a Church"
+      },
+      "Txt_BattleMenu_Retry_Menu04": {
+        "SelfId": "Txt_BattleMenu_Retry_Menu04",
+        "Text": "Reselect an Adventure Log"
+      },
+      "Txt_BattleMenu_Retry_Church": {
+        "SelfId": "Txt_BattleMenu_Retry_Church",
+        "Text": "Location:"
+      },
+      "Txt_BattleMenu_Retry_Mapname": {
+        "SelfId": "Txt_BattleMenu_Retry_Mapname",
+        "Text": "{0}"
+      },
+      "Txt_BattleMenu_Retry_AfterGold_Topic": {
+        "SelfId": "Txt_BattleMenu_Retry_AfterGold_Topic",
+        "Text": "Gold Coins After Continuing:"
+      },
+      "Txt_BattleMenu_Retry_Time": {
+        "SelfId": "Txt_BattleMenu_Retry_Time",
+        "Text": "Current Time:"
+      },
+      "Txt_BattleMenu_Suffix_Multiple": {
+        "SelfId": "Txt_BattleMenu_Suffix_Multiple",
+        "Text": "<ERROR!>"
+      },
+      "Txt_BattleMenu_Suffix_Various": {
+        "SelfId": "Txt_BattleMenu_Suffix_Various",
+        "Text": "<ERROR!>"
+      },
+      "Txt_BattleMenu_Suffix_00": {
+        "SelfId": "Txt_BattleMenu_Suffix_00",
+        "Text": "<nbsp>A"
+      },
+      "Txt_BattleMenu_Suffix_01": {
+        "SelfId": "Txt_BattleMenu_Suffix_01",
+        "Text": "<nbsp>B"
+      },
+      "Txt_BattleMenu_Suffix_02": {
+        "SelfId": "Txt_BattleMenu_Suffix_02",
+        "Text": "<nbsp>C"
+      },
+      "Txt_BattleMenu_Suffix_03": {
+        "SelfId": "Txt_BattleMenu_Suffix_03",
+        "Text": "<nbsp>D"
+      },
+      "Txt_BattleMenu_Suffix_04": {
+        "SelfId": "Txt_BattleMenu_Suffix_04",
+        "Text": "<nbsp>E"
+      },
+      "Txt_BattleMenu_Suffix_05": {
+        "SelfId": "Txt_BattleMenu_Suffix_05",
+        "Text": "<nbsp>F"
+      },
+      "Txt_BattleMenu_Suffix_06": {
+        "SelfId": "Txt_BattleMenu_Suffix_06",
+        "Text": "<nbsp>G"
+      },
+      "Txt_BattleMenu_Suffix_07": {
+        "SelfId": "Txt_BattleMenu_Suffix_07",
+        "Text": "<nbsp>H"
+      },
+      "Txt_BattleMenu_Suffix_08": {
+        "SelfId": "Txt_BattleMenu_Suffix_08",
+        "Text": "<nbsp>I"
+      },
+      "Txt_BattleMenu_Suffix_09": {
+        "SelfId": "Txt_BattleMenu_Suffix_09",
+        "Text": "<nbsp>J"
+      },
+      "Txt_BattleMenu_Suffix_10": {
+        "SelfId": "Txt_BattleMenu_Suffix_10",
+        "Text": "<nbsp>K"
+      },
+      "Txt_BattleMenu_Suffix_11": {
+        "SelfId": "Txt_BattleMenu_Suffix_11",
+        "Text": "<nbsp>L"
+      },
+      "Txt_BattleMenu_Suffix_12": {
+        "SelfId": "Txt_BattleMenu_Suffix_12",
+        "Text": "<nbsp>M"
+      },
+      "Txt_BattleMenu_Suffix_13": {
+        "SelfId": "Txt_BattleMenu_Suffix_13",
+        "Text": "<nbsp>N"
+      },
+      "Txt_BattleMenu_Suffix_14": {
+        "SelfId": "Txt_BattleMenu_Suffix_14",
+        "Text": "<nbsp>O"
+      },
+      "Txt_BattleMenu_Suffix_15": {
+        "SelfId": "Txt_BattleMenu_Suffix_15",
+        "Text": "<nbsp>P"
+      },
+      "Txt_BattleMenu_Action_Damage": {
+        "SelfId": "Txt_BattleMenu_Action_Damage",
+        "Text": "{0}"
+      },
+      "Txt_BattleMenu_Action_Heal": {
+        "SelfId": "Txt_BattleMenu_Action_Heal",
+        "Text": "{0}"
+      },
+      "Txt_BattleMenu_Action_Miss": {
+        "SelfId": "Txt_BattleMenu_Action_Miss",
+        "Text": "Miss!"
+      },
+      "Txt_BattleMenu_Message_RunConfirm": {
+        "SelfId": "Txt_BattleMenu_Message_RunConfirm",
+        "Text": "Flee from this battle?"
+      },
+      "Txt_BattleMenu_Message_MBR_RunConfirm": {
+        "SelfId": "Txt_BattleMenu_Message_MBR_RunConfirm",
+        "Text": "Giving up now won't get you your entry fee back. Are you sure you want to throw in the towel?"
+      },
+      "Txt_BattleMenu_Message_SPHERE_OF_LIGHT": {
+        "SelfId": "Txt_BattleMenu_Message_SPHERE_OF_LIGHT",
+        "Text": "The Sphere of Light begins to shine brightly! Do you want to try using it?"
+      },
+      "Txt_BattleMenu_Message_Deffence": {
+        "SelfId": "Txt_BattleMenu_Message_Deffence",
+        "Text": "<Cap><IfPlrNoun_ACTOR(<DefSgl_ACTOR> defend,<IfSuffix_ACTOR(<Sgl_ACTOR> defends,<DefSgl_ACTOR> defends)>)>."
+      },
+      "Txt_BattleMenu_Message_AppearSingle": {
+        "SelfId": "Txt_BattleMenu_Message_AppearSingle",
+        "Text": "<Cap><IfPlrNoun_M_NAME(<IndefSgl_M_NAME> appear,<IfSing_VALUE3(<IfSuffix_M_NAME(<Sgl_M_NAME> appears,<IndefSgl_M_NAME> appears)>,A group of <Plr_M_NAME> appears)>)>."
+      },
+      "Txt_BattleMenu_Message_AppearVarious": {
+        "SelfId": "Txt_BattleMenu_Message_AppearVarious",
+        "Text": "A group of enemies appears!"
+      },
+      "Txt_BattleMenu_Message_FirstAttackSingle_01": {
+        "SelfId": "Txt_BattleMenu_Message_FirstAttackSingle_01",
+        "Text": "But <IfPlrNoun_M_NAME(<DefSgl_M_NAME> are,<IfSing_VALUE3(<IfSuffix_M_NAME(<Sgl_M_NAME> is,<DefSgl_M_NAME> is)>,the enemy are)>)> too stunned to move!"
+      },
+      "Txt_BattleMenu_Message_FirstAttackVarious_01": {
+        "SelfId": "Txt_BattleMenu_Message_FirstAttackVarious_01",
+        "Text": "But they're too stunned to move!"
+      },
+      "Txt_BattleMenu_Message_FirstAttackSingle_02": {
+        "SelfId": "Txt_BattleMenu_Message_FirstAttackSingle_02",
+        "Text": "But <IfPlrNoun_M_NAME(<DefSgl_M_NAME> don't,<IfSing_VALUE3(<IfSuffix_M_NAME(<Sgl_M_NAME> doesn't,<DefSgl_M_NAME> doesn't)>,the enemy don't)>)> notice <IfSolo({LEADER},the party)>'s presence!"
+      },
+      "Txt_BattleMenu_Message_FirstAttackVarious_02": {
+        "SelfId": "Txt_BattleMenu_Message_FirstAttackVarious_02",
+        "Text": "But they don't notice <IfSolo(your,the party's)> presence!"
+      },
+      "Txt_BattleMenu_Message_FirstAttackedSingle_Hero": {
+        "SelfId": "Txt_BattleMenu_Message_FirstAttackedSingle_Hero",
+        "Text": "<Cap><IfPlrNoun_M_NAME(<DefSgl_M_NAME> make,<IfSing_VALUE3(<IfSuffix_M_NAME(<Sgl_M_NAME> makes,<DefSgl_M_NAME> makes)>,The enemy make)>)> the first strike before <IfSolo({LEADER} has,the party have)> time to prepare!"
+      },
+      "Txt_BattleMenu_Message_FirstAttackedVarious_Hero": {
+        "SelfId": "Txt_BattleMenu_Message_FirstAttackedVarious_Hero",
+        "Text": "The group of enemies make the first strike before <IfSolo({LEADER},the party)> has time to prepare!"
+      },
+      "Txt_BattleMenu_Message_FirstAttackedSingle_02": {
+        "SelfId": "Txt_BattleMenu_Message_FirstAttackedSingle_02",
+        "Text": "<Cap><IfPlrNoun_M_NAME(<DefSgl_M_NAME> suddenly attack,<IfSing_VALUE3(<IfSuffix_M_NAME(<Sgl_M_NAME> suddenly attacks,<DefSgl_M_NAME> suddenly attacks)>,The enemy suddenly attack)>)>!"
+      },
+      "Txt_BattleMenu_Message_FirstAttackedVarious_02": {
+        "SelfId": "Txt_BattleMenu_Message_FirstAttackedVarious_02",
+        "Text": "The group of enemies suddenly attacks!"
+      },
+      "Txt_BattleMenu_Message_RunChallenge_Hero": {
+        "SelfId": "Txt_BattleMenu_Message_RunChallenge_Hero",
+        "Text": "<IfSolo(<Cap><DefSgl_LEADER>,The party)> makes a break for safety!"
+      },
+      "Txt_BattleMenu_Message_RunFailure": {
+        "SelfId": "Txt_BattleMenu_Message_RunFailure",
+        "Text": "But the enemy blocks the way!"
+      },
+      "Txt_BattleMenu_Message_DefeatSingle": {
+        "SelfId": "Txt_BattleMenu_Message_DefeatSingle",
+        "Text": "<Cap><IfPlrNoun_M_NAME(<DefSgl_M_NAME> are,<IfSing_VALUE3(<IfSuffix_M_NAME(<Sgl_M_NAME> is,<DefSgl_M_NAME> is)>,The enemy are)>)> defeated!"
+      },
+      "Txt_BattleMenu_Message_DefeatVarious": {
+        "SelfId": "Txt_BattleMenu_Message_DefeatVarious",
+        "Text": "The group of enemies are defeated!"
+      },
+      "Txt_BattleMenu_Message_VanishSingle": {
+        "SelfId": "Txt_BattleMenu_Message_VanishSingle",
+        "Text": "<Cap><IfPlrNoun_M_NAME(<DefSgl_M_NAME> disappear,<IfSing_VALUE3(<IfSuffix_M_NAME(<Sgl_M_NAME> disappears,<DefSgl_M_NAME> disappears)>,The enemy disappear)>)>."
+      },
+      "Txt_BattleMenu_Message_VanishVarious": {
+        "SelfId": "Txt_BattleMenu_Message_VanishVarious",
+        "Text": "The group of enemies disappear."
+      },
+      "Txt_BattleMenu_Message_Lose_Hero": {
+        "SelfId": "Txt_BattleMenu_Message_Lose_Hero",
+        "Text": "Oh no! <Cap><DefSgl_LEADER>'s dead!<WAIT>[3]"
+      },
+      "Txt_BattleMenu_Message_Lose_Party": {
+        "SelfId": "Txt_BattleMenu_Message_Lose_Party",
+        "Text": "The party is wiped out!<WAIT>[3]"
+      },
+      "Txt_BattleMenu_Message_DamageSingle": {
+        "SelfId": "Txt_BattleMenu_Message_DamageSingle",
+        "Text": "<Cap><IfPlrNoun_TARGET(<DefSgl_TARGET> take,<IfSuffix_TARGET(<Sgl_TARGET> takes,<DefSgl_TARGET> takes)>)> {VALUE} <IfSing_VALUE(point,points)> of damage!"
+      },
+      "Txt_BattleMenu_Message_DamageMultiple": {
+        "SelfId": "Txt_BattleMenu_Message_DamageMultiple",
+        "Text": "Each affected enemy takes about {VALUE} <IfSing_VALUE(point,points)> of damage!"
+      },
+      "Txt_BattleMenu_Message_DamageContinuous": {
+        "SelfId": "Txt_BattleMenu_Message_DamageContinuous",
+        "Text": "<Cap><IfSuffix_TARGET(<Sgl_TARGET>,<DefSgl_TARGET>)> takes a total of {VALUE} <IfSing_VALUE(point,points)> of damage!"
+      },
+      "Txt_BattleMenu_Message_DamagedSingle": {
+        "SelfId": "Txt_BattleMenu_Message_DamagedSingle",
+        "Text": "<Cap><IfPlrNoun_TARGET(<DefSgl_TARGET> take,<IfSuffix_TARGET(<Sgl_TARGET> takes,<DefSgl_TARGET> takes)>)> {VALUE} <IfSing_VALUE(point,points)> of damage!"
+      },
+      "Txt_BattleMenu_Message_DamagedMultiple": {
+        "SelfId": "Txt_BattleMenu_Message_DamagedMultiple",
+        "Text": "Each affected party member takes\r\nabout {VALUE} <IfSing_VALUE(point,points)> of damage!"
+      },
+      "Txt_BattleMenu_Message_CriticalAttack": {
+        "SelfId": "Txt_BattleMenu_Message_CriticalAttack",
+        "Text": "Critical hit!"
+      },
+      "Txt_BattleMenu_Message_CriticalAttacked": {
+        "SelfId": "Txt_BattleMenu_Message_CriticalAttacked",
+        "Text": "<Cap><IfPlrNoun_ACTOR(<DefSgl_ACTOR> make,<IfSuffix_ACTOR(<Sgl_ACTOR>,<DefSgl_ACTOR>)> makes)> a desperate attack!"
+      },
+      "Txt_BattleMenu_Message_NONETARGET": {
+        "SelfId": "Txt_BattleMenu_Message_NONETARGET",
+        "Text": "But their target's long gone!"
+      },
+      "Txt_BattleMenu_Message_MISS": {
+        "SelfId": "Txt_BattleMenu_Message_MISS",
+        "Text": "Miss! <Cap><IfPlrNoun_TARGET(<DefSgl_TARGET> take,<IfSing_VALUE3(<IfSuffix_TARGET(<Sgl_TARGET> takes,<DefSgl_TARGET> takes)>,The enemy take)>)> no damage!"
+      },
+      "Txt_BattleMenu_Message_MISSED": {
+        "SelfId": "Txt_BattleMenu_Message_MISSED",
+        "Text": "Miss! <Cap><IfSing_VALUE3(<DefSgl_TARGET> takes,The party take)> no damage!"
+      },
+      "Txt_BattleMenu_Message_NOEFFECT": {
+        "SelfId": "Txt_BattleMenu_Message_NOEFFECT",
+        "Text": "<Cap><IfPlrNoun_TARGET(<DefSgl_TARGET> aren't,<IfSing_VALUE3(<IfSuffix_TARGET(<Sgl_TARGET> isn't,<DefSgl_TARGET> isn't)>,The enemy aren't)>)> affected!"
+      },
+      "Txt_BattleMenu_Message_NOEFFECTED": {
+        "SelfId": "Txt_BattleMenu_Message_NOEFFECTED",
+        "Text": "<Cap><IfSing_VALUE3(<DefSgl_TARGET> isn't,The party aren't)> affected!"
+      },
+      "Txt_BattleMenu_Message_Avoid": {
+        "SelfId": "Txt_BattleMenu_Message_Avoid",
+        "Text": "<Cap><IfSing_VALUE3(<DefSgl_TARGET> dodges,The party dodge)> nimbly!"
+      },
+      "Txt_BattleMenu_Message_Avoid_Enemy": {
+        "SelfId": "Txt_BattleMenu_Message_Avoid_Enemy",
+        "Text": "<Cap><IfPlrNoun_TARGET(<DefSgl_TARGET> dodge,<IfSing_VALUE3(<IfSuffix_TARGET(<Sgl_TARGET> dodges,<DefSgl_TARGET> dodges)>,The enemy dodge)>)> nimbly!"
+      },
+      "Txt_BattleMenu_Message_Death": {
+        "SelfId": "Txt_BattleMenu_Message_Death",
+        "Text": "Oh no! <Cap><IfSing_VALUE3(<DefSgl_TARGET>'s dead,Several party members are dead)>!"
+      },
+      "Txt_BattleMenu_Message_Defeat": {
+        "SelfId": "Txt_BattleMenu_Message_Defeat",
+        "Text": "<Cap><IfPlrNoun_TARGET(<DefSgl_TARGET> are,<IfSing_VALUE3(<IfSuffix_TARGET(<Sgl_TARGET> is,<DefSgl_TARGET> is)>,Multiple enemies are)>)> defeated!"
+      },
+      "Txt_BattleMenu_Message_SpecialResult_01": {
+        "SelfId": "Txt_BattleMenu_Message_SpecialResult_01",
+        "Text": "<Cap><IfPlrNoun_M_NAME(<DefSgl_M_NAME> disappear,<IfSing_VALUE3(<IfSuffix_M_NAME(<Sgl_M_NAME> disappears,<DefSgl_M_NAME> disappears)>,The enemy disappear)>)> off over the horizon."
+      },
+      "Txt_BattleMenu_Message_SpecialResult_02": {
+        "SelfId": "Txt_BattleMenu_Message_SpecialResult_02",
+        "Text": "<Cap><IfSolo(<DefSgl_LEADER> faints,The party faint)> clean away with exhaustion!"
+      },
+      "Txt_BattleMenu_Message_GetEXPGold_Party": {
+        "SelfId": "Txt_BattleMenu_Message_GetEXPGold_Party",
+        "Text": "Each party member receives {VALUE} experience <IfSing_VALUE(point,points)>!\r\nThe party obtains {VALUE2} gold <IfSing_VALUE2(coin,coins)>!"
+      },
+      "Txt_BattleMenu_Message_GetEXPGold_Hero": {
+        "SelfId": "Txt_BattleMenu_Message_GetEXPGold_Hero",
+        "Text": "<DefSgl_ACTOR> receives {VALUE} experience <IfSing_VALUE(point,points)>!\r\n<DefSgl_ACTOR> obtains {VALUE2} gold <IfSing_VALUE2(coin,coins)>!"
+      },
+      "Txt_BattleMenu_Message_GetEXP_Party": {
+        "SelfId": "Txt_BattleMenu_Message_GetEXP_Party",
+        "Text": "Each party member receives {VALUE} experience <IfSing_VALUE(point,points)>!"
+      },
+      "Txt_BattleMenu_Message_GetEXP_Hero": {
+        "SelfId": "Txt_BattleMenu_Message_GetEXP_Hero",
+        "Text": "<DefSgl_ACTOR> receives {VALUE} experience <IfSing_VALUE(point,points)>!"
+      },
+      "Txt_BattleMenu_Message_GetGold": {
+        "SelfId": "Txt_BattleMenu_Message_GetGold",
+        "Text": "{LEADER} obtains {VALUE2} gold <IfSing_VALUE2(coin,coins)>!"
+      },
+      "Txt_BattleMenu_Message_LevelUp": {
+        "SelfId": "Txt_BattleMenu_Message_LevelUp",
+        "Text": "<Cap><DefSgl_ACTOR> reaches level {VALUE}!"
+      },
+      "Txt_BattleMenu_Message_SkillGet": {
+        "SelfId": "Txt_BattleMenu_Message_SkillGet",
+        "Text": "{ACTOR}'s repertoire of abilities gets a boost thanks to <IfGender_ACTOR(his,her,their)> improved understanding of monsters!"
+      },
+      "Txt_BattleMenu_Message_GetItem_01": {
+        "SelfId": "Txt_BattleMenu_Message_GetItem_01",
+        "Text": "<Cap><IfPlrNoun_M_NAME(<DefSgl_M_NAME> drop,<IfSuffix_M_NAME(<Sgl_M_NAME> drops,<DefSgl_M_NAME> drops)>)> a treasure chest!"
+      },
+      "Txt_BattleMenu_Message_GetItem_02": {
+        "SelfId": "Txt_BattleMenu_Message_GetItem_02",
+        "Text": "<Cap><DefSgl_LEADER> opens it up..."
+      },
+      "Txt_BattleMenu_Message_GetItem_03": {
+        "SelfId": "Txt_BattleMenu_Message_GetItem_03",
+        "Text": "It contains <IndefSgl_I_NAME>!"
+      },
+      "Txt_BattleMenu_Message_GetItem_04": {
+        "SelfId": "Txt_BattleMenu_Message_GetItem_04",
+        "Text": "<Cap><DefSgl_ACTOR> takes <DefSgl_I_NAME>."
+      },
+      "Txt_BattleMenu_Message_GetItem_05": {
+        "SelfId": "Txt_BattleMenu_Message_GetItem_05",
+        "Text": "<Cap><DefSgl_I_NAME> is put in the <DefSgl_BAG> for safekeeping."
+      },
+      "Txt_BattleMenu_Message_GetItem_Thief": {
+        "SelfId": "Txt_BattleMenu_Message_GetItem_Thief",
+        "Text": "<Cap><IfSuffix_ACTOR(<Sgl_ACTOR>,<DefSgl_ACTOR>)> steals <IndefSgl_I_NAME>!"
+      },
+      "Txt_BattleMenu_Message_GetGold_Marchant": {
+        "SelfId": "Txt_BattleMenu_Message_GetGold_Marchant",
+        "Text": "<Cap><DefSgl_ACTOR> discovers an additional {VALUE} gold <IfSing_VALUE(coin,coins)>!"
+      },
+      "Txt_BattleMenu_Message_GetGold_Marchant_Multipul": {
+        "SelfId": "Txt_BattleMenu_Message_GetGold_Marchant_Multipul",
+        "Text": "<Cap><DefSgl_ACTOR> discovers an additional {VALUE} gold <IfSing_VALUE(coin,coins)>!"
+      },
+      "Txt_BattleMenu_Message_BASHIRURA": {
+        "SelfId": "Txt_BattleMenu_Message_BASHIRURA",
+        "Text": "<Cap><IfSuffix_ACTOR(<Sgl_ACTOR>,<DefSgl_ACTOR>)> rejoins the party!"
+      },
+      "Txt_BattleMenu_Message_BASHIRURA_Multipul": {
+        "SelfId": "Txt_BattleMenu_Message_BASHIRURA_Multipul",
+        "Text": "<Cap><IfSuffix_ACTOR(<Sgl_ACTOR>,<DefSgl_ACTOR>)> and Co. rejoin the party!"
+      },
+      "Txt_BattleMenu_Message_Sleep_": {
+        "SelfId": "Txt_BattleMenu_Message_Sleep_",
+        "Text": "<Cap><IfSing_VALUE3(<DefSgl_ACTOR> is,The party are)> asleep!"
+      },
+      "Txt_BattleMenu_Message_Sleep__Enemy": {
+        "SelfId": "Txt_BattleMenu_Message_Sleep__Enemy",
+        "Text": "<Cap><IfPlrNoun_ACTOR(<DefSgl_ACTOR> are,<IfSing_VALUE3(<IfSuffix_ACTOR(<Sgl_ACTOR> is,<DefSgl_ACTOR> is)>,The enemy are)>)> asleep!"
+      },
+      "Txt_BattleMenu_Message_Sleep_Recover": {
+        "SelfId": "Txt_BattleMenu_Message_Sleep_Recover",
+        "Text": "<Cap><IfSing_VALUE3(<DefSgl_ACTOR> wakes,Multiple members of the party wake)> up!"
+      },
+      "Txt_BattleMenu_Message_Sleep_Recover_Enemy": {
+        "SelfId": "Txt_BattleMenu_Message_Sleep_Recover_Enemy",
+        "Text": "<Cap><IfPlrNoun_ACTOR(<DefSgl_ACTOR> wake,<IfSing_VALUE3(<IfSuffix_ACTOR(<Sgl_ACTOR> wakes,<DefSgl_ACTOR> wakes)>,The enemy wake)>)> up!"
+      },
+      "Txt_BattleMenu_Message_Sleep_Recover_Impact": {
+        "SelfId": "Txt_BattleMenu_Message_Sleep_Recover_Impact",
+        "Text": "<Cap><IfSing_VALUE3(<DefSgl_TARGET> wakes,Multiple members of the party wake)> up!"
+      },
+      "Txt_BattleMenu_Message_Sleep_Recover_Impact_Enemy": {
+        "SelfId": "Txt_BattleMenu_Message_Sleep_Recover_Impact_Enemy",
+        "Text": "<Cap><IfPlrNoun_TARGET(<DefSgl_TARGET> wake,<IfSing_VALUE3(<IfSuffix_TARGET(<Sgl_TARGET> wakes,<DefSgl_TARGET> wakes)>,The enemy wake)>)> up!"
+      },
+      "Txt_BattleMenu_Message_Sleep_Recover_Attacked": {
+        "SelfId": "Txt_BattleMenu_Message_Sleep_Recover_Attacked",
+        "Text": "<Cap><IfSing_VALUE3(<DefSgl_TARGET> wakes,Multiple members of the party wake)> up!"
+      },
+      "Txt_BattleMenu_Message_Sleep_Recover_Attacked_Enemy": {
+        "SelfId": "Txt_BattleMenu_Message_Sleep_Recover_Attacked_Enemy",
+        "Text": "<Cap><IfPlrNoun_TARGET(<DefSgl_TARGET> wake,<IfSing_VALUE3(<IfSuffix_TARGET(<Sgl_TARGET> wakes,<DefSgl_TARGET> wakes)>,The enemy wake)>)> up!"
+      },
+      "Txt_BattleMenu_Message_Sleep_Success_Enemy": {
+        "SelfId": "Txt_BattleMenu_Message_Sleep_Success_Enemy",
+        "Text": "<Cap><IfPlrNoun_TARGET(<DefSgl_TARGET> are put to sleep,<IfSing_VALUE3(<IfSuffix_TARGET(<Sgl_TARGET> is put to sleep,<DefSgl_TARGET> is put to sleep)>,Multiple enemies fall asleep)>)>!"
+      },
+      "Txt_BattleMenu_Message_Sleep_Success_Friend": {
+        "SelfId": "Txt_BattleMenu_Message_Sleep_Success_Friend",
+        "Text": "<Cap><IfSing_VALUE3(<DefSgl_TARGET> is,Multiple members of the party are)> affected by the sleep spell!"
+      },
+      "Txt_BattleMenu_Message_Sleep_Failure": {
+        "SelfId": "Txt_BattleMenu_Message_Sleep_Failure",
+        "Text": "<Cap><IfSing_VALUE3(<DefSgl_TARGET> doesn't,The party don't)> fall asleep!"
+      },
+      "Txt_BattleMenu_Message_Sleep_Failure_Enemy": {
+        "SelfId": "Txt_BattleMenu_Message_Sleep_Failure_Enemy",
+        "Text": "<Cap><IfPlrNoun_TARGET(<DefSgl_TARGET> don't,<IfSing_VALUE3(<IfSuffix_TARGET(<Sgl_TARGET> doesn't,<DefSgl_TARGET> doesn't)>,Multiple enemies don't)>)> fall asleep!"
+      },
+      "Txt_BattleMenu_Message_Confusion": {
+        "SelfId": "Txt_BattleMenu_Message_Confusion",
+        "Text": "<Cap><IfSing_VALUE3(<DefSgl_ACTOR> is,The party are)> confused!"
+      },
+      "Txt_BattleMenu_Message_Confusion_Enemy": {
+        "SelfId": "Txt_BattleMenu_Message_Confusion_Enemy",
+        "Text": "<Cap><IfPlrNoun_TARGET(<DefSgl_TARGET> are,<IfSing_VALUE3(<IfSuffix_TARGET(<Sgl_TARGET> is,<DefSgl_TARGET> is)>,The enemy are)>)> confused!"
+      },
+      "Txt_BattleMenu_Message_Confusion_Success": {
+        "SelfId": "Txt_BattleMenu_Message_Confusion_Success",
+        "Text": "<Cap><IfSing_VALUE3(<DefSgl_TARGET> becomes,Multiple members of the party become)> confused!"
+      },
+      "Txt_BattleMenu_Message_Confusion_Success_Enemy": {
+        "SelfId": "Txt_BattleMenu_Message_Confusion_Success_Enemy",
+        "Text": "<Cap><IfPlrNoun_TARGET(<DefSgl_TARGET> become,<IfSing_VALUE3(<IfSuffix_TARGET(<Sgl_TARGET> becomes,<DefSgl_TARGET> becomes)>,Multiple enemies become)>)> confused!"
+      },
+      "Txt_BattleMenu_Message_Confusion_Recover": {
+        "SelfId": "Txt_BattleMenu_Message_Confusion_Recover",
+        "Text": "<Cap><IfSing_VALUE3(<DefSgl_TARGET> returns,The party return)> to <IfSing_VALUE3(<IfGender_TARGET(his,her,its)>,their)> senses!"
+      },
+      "Txt_BattleMenu_Message_Confusion_Recover_Enemy": {
+        "SelfId": "Txt_BattleMenu_Message_Confusion_Recover_Enemy",
+        "Text": "<Cap><IfPlrNoun_TARGET(<DefSgl_TARGET> return,<IfSing_VALUE3(<IfSuffix_TARGET(<Sgl_TARGET> returns,<DefSgl_TARGET> returns)>,Multiple enemies return)>)> to <IfSing_VALUE3(<IfGender_TARGET(his,her,its)>,their)> senses!"
+      },
+      "Txt_BattleMenu_Message_Confusion_Recover_Impact": {
+        "SelfId": "Txt_BattleMenu_Message_Confusion_Recover_Impact",
+        "Text": "<Cap><IfSing_VALUE3(<DefSgl_TARGET> returns,The party return)> to <IfSing_VALUE3(<IfGender_TARGET(his,her,its)>,their)> senses!"
+      },
+      "Txt_BattleMenu_Message_Confusion_Recover_Impact_Enemy": {
+        "SelfId": "Txt_BattleMenu_Message_Confusion_Recover_Impact_Enemy",
+        "Text": "<Cap><IfPlrNoun_TARGET(<DefSgl_TARGET> return,<IfSing_VALUE3(<IfSuffix_TARGET(<Sgl_TARGET> returns,<DefSgl_TARGET> returns)>,Multiple enemies return)>)> to <IfSing_VALUE3(<IfGender_TARGET(his,her,its)>,their)> senses!"
+      },
+      "Txt_BattleMenu_Message_Paralysis": {
+        "SelfId": "Txt_BattleMenu_Message_Paralysis",
+        "Text": "<Cap><IfSing_VALUE3(<DefSgl_ACTOR> is,The party are)> paralysed, and powerless to act!"
+      },
+      "Txt_BattleMenu_Message_Paralysis_Enemy": {
+        "SelfId": "Txt_BattleMenu_Message_Paralysis_Enemy",
+        "Text": "<Cap><IfPlrNoun_TARGET(<DefSgl_TARGET> are,<IfSing_VALUE3(<IfSuffix_TARGET(<Sgl_TARGET>,<DefSgl_TARGET>)> is,Multiple enemies are)>)> paralysed, and powerless to act!"
+      },
+      "Txt_BattleMenu_Message_Paralysis_Success": {
+        "SelfId": "Txt_BattleMenu_Message_Paralysis_Success",
+        "Text": "<Cap><IfSing_VALUE3(<DefSgl_TARGET> is,Multiple members of the party are)> paralysed!"
+      },
+      "Txt_BattleMenu_Message_Paralysis_Success_Enemy": {
+        "SelfId": "Txt_BattleMenu_Message_Paralysis_Success_Enemy",
+        "Text": "<Cap><IfPlrNoun_TARGET(<DefSgl_TARGET> are,<IfSing_VALUE3(<DefSgl_TARGET> is,The enemy are)>)> paralysed!"
+      },
+      "Txt_BattleMenu_Message_Paralysis_Avoid": {
+        "SelfId": "Txt_BattleMenu_Message_Paralysis_Avoid",
+        "Text": "<Cap><IfSing_VALUE3(<DefSgl_TARGET> dodges,The party dodge)> the cloud of breath!"
+      },
+      "Txt_BattleMenu_Message_Paralysis_Avoid_Enemy": {
+        "SelfId": "Txt_BattleMenu_Message_Paralysis_Avoid_Enemy",
+        "Text": "<Cap><IfPlrNoun_TARGET(<DefSgl_TARGET> dodge,<IfSing_VALUE3(<DefSgl_TARGET> dodges,The enemy dodge)>)> the cloud of breath!"
+      },
+      "Txt_BattleMenu_Message_Paralysis_Recover": {
+        "SelfId": "Txt_BattleMenu_Message_Paralysis_Recover",
+        "Text": "<Cap><IfSing_VALUE3(<DefSgl_TARGET> is,The party are)> no longer paralysed."
+      },
+      "Txt_BattleMenu_Message_Paralysis_Recover_Enemy": {
+        "SelfId": "Txt_BattleMenu_Message_Paralysis_Recover_Enemy",
+        "Text": "<Cap><IfPlrNoun_TARGET(<DefSgl_TARGET> are,<IfSing_VALUE3(<DefSgl_TARGET> is,The enemy are)>)> no longer paralysed."
+      },
+      "Txt_BattleMenu_Message_Poison_Success": {
+        "SelfId": "Txt_BattleMenu_Message_Poison_Success",
+        "Text": "<Cap><IfSing_VALUE3(<DefSgl_TARGET> is,Multiple members of the party are)> poisoned!"
+      },
+      "Txt_BattleMenu_Message_Poison_Recover_01": {
+        "SelfId": "Txt_BattleMenu_Message_Poison_Recover_01",
+        "Text": "<Cap><IfSing_VALUE3(<DefSgl_TARGET> is,The party are)> no longer poisoned."
+      },
+      "Txt_BattleMenu_Message_Poison_Recover_02_Enemy": {
+        "SelfId": "Txt_BattleMenu_Message_Poison_Recover_02_Enemy",
+        "Text": "<Cap><IfPlrNoun_TARGET(<DefSgl_TARGET> are,<IfSing_VALUE3(<DefSgl_TARGET> is,The enemy are)>)> no longer poisoned."
+      },
+      "Txt_BattleMenu_Message_Curse": {
+        "SelfId": "Txt_BattleMenu_Message_Curse",
+        "Text": "<Cap><IfPlrNoun_ACTOR(<DefSgl_ACTOR> are,<IfSuffix_ACTOR(<Sgl_ACTOR> is,<DefSgl_ACTOR> is)>)> cursed, and cannot move!"
+      },
+      "Txt_BattleMenu_Message_Magic": {
+        "SelfId": "Txt_BattleMenu_Message_Magic",
+        "Text": "<Cap><IfPlrNoun_ACTOR(<DefSgl_ACTOR> cast,<IfSuffix_ACTOR(<Sgl_ACTOR> casts,<DefSgl_ACTOR> casts)>)> {S_NAME}!"
+      },
+      "Txt_BattleMenu_Message_LackMP": {
+        "SelfId": "Txt_BattleMenu_Message_LackMP",
+        "Text": "Not enough MP!"
+      },
+      "Txt_BattleMenu_Message_MPDecrease": {
+        "SelfId": "Txt_BattleMenu_Message_MPDecrease",
+        "Text": "<Cap><IfSing_VALUE3(<DefSgl_TARGET>,The party)>'s MP are reduced by {VALUE}!"
+      },
+      "Txt_BattleMenu_Message_MPDecrease_Enemy": {
+        "SelfId": "Txt_BattleMenu_Message_MPDecrease_Enemy",
+        "Text": "<Cap><IfPlrNoun_TARGET(<DefSgl_TARGET> are,<IfSing_VALUE3(<IfSuffix_TARGET(<Sgl_TARGET>,<DefSgl_TARGET>)> is,The enemy are)>)> drained of {VALUE} of <IfGender_TARGET(his,her,its)> MP!"
+      },
+      "Txt_BattleMenu_Message_MPHeal": {
+        "SelfId": "Txt_BattleMenu_Message_MPHeal",
+        "Text": "<Cap><IfSing_VALUE3(<DefSgl_TARGET>,The party)>'s MP are restored!"
+      },
+      "Txt_BattleMenu_Message_Heal": {
+        "SelfId": "Txt_BattleMenu_Message_Heal",
+        "Text": "<Cap><IfSing_VALUE3(<DefSgl_TARGET>,The party)>'s wounds are healed!"
+      },
+      "Txt_BattleMenu_Message_Heal_Enemy": {
+        "SelfId": "Txt_BattleMenu_Message_Heal_Enemy",
+        "Text": "<Cap><IfSing_VALUE3(<IfSuffix_TARGET(<Sgl_TARGET>,<DefSgl_TARGET>)>,The enemy)>'s wounds are healed!"
+      },
+      "Txt_BattleMenu_Message_UseItem_01": {
+        "SelfId": "Txt_BattleMenu_Message_UseItem_01",
+        "Text": "<Cap><IfPlrNoun_ACTOR(<DefSgl_ACTOR> use,<IfSuffix_ACTOR(<Sgl_ACTOR> uses,<DefSgl_ACTOR> uses)>)> <DefSgl_I_NAME>."
+      },
+      "Txt_BattleMenu_Message_Invalid": {
+        "SelfId": "Txt_BattleMenu_Message_Invalid",
+        "Text": "But nothing happens."
+      },
+      "Txt_BattleMenu_Message_Run": {
+        "SelfId": "Txt_BattleMenu_Message_Run",
+        "Text": "<Cap><IfSing_VALUE3(<IfSuffix_TARGET(<Sgl_TARGET> flees,<DefSgl_TARGET> flees)>,The enemy flee)>!"
+      },
+      "Txt_BattleMenu_Message_NoEffected_Asutoron_Enemy": {
+        "SelfId": "Txt_BattleMenu_Message_NoEffected_Asutoron_Enemy",
+        "Text": "<Cap><IfSing_VALUE3(<IfSuffix_TARGET(<Sgl_TARGET>,<DefSgl_TARGET>)> steely body is,The enemy's steely bodies are)> unaffected!"
+      },
+      "Txt_BattleMenu_MBR_Message_Win": {
+        "SelfId": "Txt_BattleMenu_MBR_Message_Win",
+        "Text": "Nicely done<--->you won!"
+      },
+      "Txt_BattleMenu_MBR_Message_Lose": {
+        "SelfId": "Txt_BattleMenu_MBR_Message_Lose",
+        "Text": "Oh dear, your team have been wiped out..."
+      },
+      "Txt_BattleMenu_MBR_Message_Surrender": {
+        "SelfId": "Txt_BattleMenu_MBR_Message_Surrender",
+        "Text": "You decide to surrender\r\nbefore things get ugly..."
+      },
+      "Txt_BattleMenu_Retry_Message_Retry": {
+        "SelfId": "Txt_BattleMenu_Retry_Message_Retry",
+        "Text": "Continue from the beginning of your last fight."
+      },
+      "Txt_BattleMenu_Retry_Message_AutoSave": {
+        "SelfId": "Txt_BattleMenu_Retry_Message_AutoSave",
+        "Text": "Continue from your most recent autosave."
+      },
+      "Txt_BattleMenu_Retry_Message_AutoSaveNone": {
+        "SelfId": "Txt_BattleMenu_Retry_Message_AutoSaveNone",
+        "Text": "You don't have an autosave log right now."
+      },
+      "Txt_BattleMenu_Retry_Message_Church": {
+        "SelfId": "Txt_BattleMenu_Retry_Message_Church",
+        "Text": "Continue from wherever you last saved.\r\n(You will lose {VALUE} gold <IfSing_VALUE(coin,coins)>.)"
+      },
+      "Txt_BattleMenu_Retry_Message_BackTitle": {
+        "SelfId": "Txt_BattleMenu_Retry_Message_BackTitle",
+        "Text": "Return to the adventure log selection menu.\r\n(Any unsaved progress will be lost, and you will be unable to return to the rematch menu.)"
+      },
+      "Txt_BattleMenu_Retry_Message_Confirm": {
+        "SelfId": "Txt_BattleMenu_Retry_Message_Confirm",
+        "Text": "Are you ready to continue your adventure?<NO_INPUT>"
+      },
+      "Txt_BattleMenu_Retry_Message_BackConfirm": {
+        "SelfId": "Txt_BattleMenu_Retry_Message_BackConfirm",
+        "Text": "Are you sure you wish to return to the adventure log selection menu?\r\n(Any unsaved progress will be lost.)<NO_INPUT>"
+      },
+      "Txt_BattleMenu_Retry_Message_DataNone": {
+        "SelfId": "Txt_BattleMenu_Retry_Message_DataNone",
+        "Text": "You don't have any autosave data right now."
+      },
+      "Txt_BattleMenu_Retry_Message_DataBroken": {
+        "SelfId": "Txt_BattleMenu_Retry_Message_DataBroken",
+        "Text": "Unable to load autosave log. Please continue your adventure another way."
+      }
+    }
+  }
+]

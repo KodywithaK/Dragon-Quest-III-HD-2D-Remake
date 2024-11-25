@@ -1,0 +1,76 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_Medal",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Medal_UI_ItemName": {
+        "SelfId": "Txt_Medal_UI_ItemName",
+        "Text": "{0}"
+      },
+      "Txt_Medal_UI_ItemDetail": {
+        "SelfId": "Txt_Medal_UI_ItemDetail",
+        "Text": "{0}"
+      },
+      "Txt_Medal_UI_RequiredMedal": {
+        "SelfId": "Txt_Medal_UI_RequiredMedal",
+        "Text": "{0}"
+      },
+      "Txt_Medal_UI_ListGuide": {
+        "SelfId": "Txt_Medal_UI_ListGuide",
+        "Text": "Belohnungen ansehen"
+      },
+      "Txt_Medal_Message_Start": {
+        "SelfId": "Txt_Medal_Message_Start",
+        "Text": "Oho, wen haben wir denn hier? <IfGender_LEADER(Ein Jäger,Eine Jägerin,)> verlorener Schätze? Wunderbar! Ich möchte nämlich meine Sammlung an Minimedaillen vervollständigen!"
+      },
+      "Txt_Medal_Message_First": {
+        "SelfId": "Txt_Medal_Message_First",
+        "Text": "Wenn du auf deinen Reisen welche finden solltest, bring sie mir und ich werde sie für dich eintauschen."
+      },
+      "Txt_Medal_Message_First_Medal": {
+        "SelfId": "Txt_Medal_Message_First_Medal",
+        "Text": "Oho! Du hast mir welche mitgebracht? Sehr gut, sehr gut! Gib her, ich muss sie sofort begutachten!"
+      },
+      "Txt_Medal_Message_Confirm_Medal": {
+        "SelfId": "Txt_Medal_Message_Confirm_Medal",
+        "Text": "Also gut, lass mal sehen<nbsp>... Das <IfSing_Value(ist,sind)> jetzt genau {VALUE} <IfSing_Value(Minimedaille,Minimedaillen)>, die du mir bislang gebracht hast. Sehr gut."
+      },
+      "Txt_Medal_Message_HandoverMedal": {
+        "SelfId": "Txt_Medal_Message_HandoverMedal",
+        "Text": "Ah! Du hast mir Minimedaillen mitgebracht, was? Ausgezeichnet! Gib her, ich muss sie sofort begutachten!"
+      },
+      "Txt_Medal_Message_Prize": {
+        "SelfId": "Txt_Medal_Message_Prize",
+        "Text": "Moment mal<nbsp>... Du hast die Zielmarke von {VALUE} Minimedaillen erreicht und dir somit eine Belohnung verdient! Hier, bitte! <Cap><IndefSgl_NOM_ART_I_NAME>! Genau das, was du gesucht hast, wette ich!"
+      },
+      "Txt_Medal_Message_GetPrize": {
+        "SelfId": "Txt_Medal_Message_GetPrize",
+        "Text": "{LEADER} hat <IndefSgl_ACC_ART_I_NAME> erhalten!"
+      },
+      "Txt_Medal_Message_Confirm": {
+        "SelfId": "Txt_Medal_Message_Confirm",
+        "Text": "Mal sehen<nbsp>... Ah, ja. Das <IfSing_Value(ist,sind)> jetzt genau {VALUE} <IfSing_Value(Minimedaille,Minimedaillen)>, die du mir bislang gebracht hast. Besten Dank!"
+      },
+      "Txt_Medal_Message_NextPrize": {
+        "SelfId": "Txt_Medal_Message_NextPrize",
+        "Text": "Wenn du mir mindestens {VALUE} Minimedaillen bringst, überlasse ich dir <DefSgl_ACC_ART_I_NAME>. Ein fairer Tausch, wenn du mich fragst. Also: Lass <IfGender_LEADER(dem Schatzsucher,der Schatzsucherin,)> in dir freien Lauf!"
+      },
+      "Txt_Medal_Message_MedalComplete": {
+        "SelfId": "Txt_Medal_Message_MedalComplete",
+        "Text": "<IfGender_LEADER(Verehrter,Verehrte,)> {LEADER}! Du hast mir nun insgesamt {VALUE} meiner geliebten Minimedaillen gebracht.<KEY_WAIT>\r\nTatsächlich ist damit meine Sammlung vollständig! Es gibt keine weiteren Medaillen mehr zu finden.<KEY_WAIT>\r\nAlles, was nun noch bleibt, ist die Welt zu retten.<KEY_WAIT>\r\nWenn es <IfGender_LEADER(einer,eine,)> schaffen kann, dann du, {LEADER}! Wir glauben an dich!"
+      },
+      "Txt_Medal_Message_GetPrizeFailere": {
+        "SelfId": "Txt_Medal_Message_GetPrizeFailere",
+        "Text": "Oh, Schreck! Ich fürchte, du hast keinen Platz mehr für mein kleines Geschenk. Komm doch wieder, wenn du nicht ganz so überladen bist."
+      }
+    }
+  }
+]

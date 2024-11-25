@@ -1,0 +1,120 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_JobChange",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_JobChange_UI_JobGuide": {
+        "SelfId": "Txt_JobChange_UI_JobGuide",
+        "Text": "选择职业"
+      },
+      "Txt_JobChange_Message_Start": {
+        "SelfId": "Txt_JobChange_Message_Start",
+        "Text": "这里是掌管转职的达玛神殿。\r\n想改变职业的人\r\n可以到这里来。<KEY_WAIT>\r\n你想要转职吗？"
+      },
+      "Txt_JobChange_Message_Reject": {
+        "SelfId": "Txt_JobChange_Message_Reject",
+        "Text": "这样啊，不想转职吗？\r\n那也罢。"
+      },
+      "Txt_JobChange_Message_CharaSelect": {
+        "SelfId": "Txt_JobChange_Message_CharaSelect",
+        "Text": "想改变\r\n哪位的职业？"
+      },
+      "Txt_JobChange_Message_Error_Death": {
+        "SelfId": "Txt_JobChange_Message_Error_Death",
+        "Text": "蠢货！{ACTOR}现在\r\n不是死了吗！<KEY_WAIT>\r\n就算是我，也不能使\r\n已死之人转职啊。"
+      },
+      "Txt_JobChange_Message_Error_Hero": {
+        "SelfId": "Txt_JobChange_Message_Error_Hero",
+        "Text": "蠢货！\r\n你不想当勇者了吗？\r\n这可不行！"
+      },
+      "Txt_JobChange_Message_Error_LV": {
+        "SelfId": "Txt_JobChange_Message_Error_LV",
+        "Text": "{ACTOR}居然还没有成为可以\r\n独当一面的{WORD}啊……<KEY_WAIT>\r\n区区新手还谈什么转职！"
+      },
+      "Txt_JobChange_Message_JobSelect": {
+        "SelfId": "Txt_JobChange_Message_JobSelect",
+        "Text": "{ACTOR}想转成\r\n什么职业？"
+      },
+      "Txt_JobChange_Message_JocConfirm": {
+        "SelfId": "Txt_JobChange_Message_JocConfirm",
+        "Text": "{ACTOR}想转成\r\n{WORD}是吗？"
+      },
+      "Txt_JobChange_Message_JocDuplication": {
+        "SelfId": "Txt_JobChange_Message_JocDuplication",
+        "Text": "唔？但是，{ACTOR}\r\n已经是那个职业了。"
+      },
+      "Txt_JobChange_Message_JobChangeConfirm": {
+        "SelfId": "Txt_JobChange_Message_JobChangeConfirm",
+        "Text": "做好返回1级\r\n重新修行的准备了吧？"
+      },
+      "Txt_JobChange_Message_JobChangeStart": {
+        "SelfId": "Txt_JobChange_Message_JobChangeStart",
+        "Text": "神啊，请允许\r\n{ACTOR}从事新的职业吧！"
+      },
+      "Txt_JobChange_Message_JobChangeFinish": {
+        "SelfId": "Txt_JobChange_Message_JobChangeFinish",
+        "Text": "好的。从现在开始，\r\n{ACTOR}就是{WORD}了！<KEY_WAIT>\r\n我已经将{ACTOR}的装备\r\n换为新职业用的东西了。"
+      },
+      "Txt_JobChange_Message_JobChangeCancel": {
+        "SelfId": "Txt_JobChange_Message_JobChangeCancel",
+        "Text": "唔，要放弃吗？\r\n那也罢。"
+      },
+      "Txt_JobChange_Message_AddJobChangeConfirm": {
+        "SelfId": "Txt_JobChange_Message_AddJobChangeConfirm",
+        "Text": "还有其他人\r\n想要转职吗？"
+      },
+      "Txt_JobChange_Message_Finish": {
+        "SelfId": "Txt_JobChange_Message_Finish",
+        "Text": "那就出发吧。"
+      },
+      "Txt_JobChange_Message_Flavor_00": {
+        "SelfId": "Txt_JobChange_Message_Flavor_00",
+        "Text": "你竟然想成为{WORD}，\r\n{ACTOR}到底是个\r\n天生的{WORD2}啊。"
+      },
+      "Txt_JobChange_Message_Flavor_01": {
+        "SelfId": "Txt_JobChange_Message_Flavor_01",
+        "Text": "不过竟然是{WORD}……\r\n{ACTOR}是个怎样的\r\n{WORD2}啊。也行吧……"
+      },
+      "Txt_JobChange_Message_Flavor_02": {
+        "SelfId": "Txt_JobChange_Message_Flavor_02",
+        "Text": "哼，区区一个{WORD}，\r\n竟然想当{WORD2}。\r\n真是个大笑话。"
+      },
+      "Txt_JobChange_Message_Flavor_03": {
+        "SelfId": "Txt_JobChange_Message_Flavor_03",
+        "Text": "这样啊！\r\n果然还是{WORD}呢。\r\n我对{ACTOR}有些改观了。"
+      },
+      "Txt_JobChange_Message_Flavor_04": {
+        "SelfId": "Txt_JobChange_Message_Flavor_04",
+        "Text": "这样啊……{ACTOR}级别的\r\n{WORD}竟然想当{WORD2}。<KEY_WAIT>\r\n这也要怪世道不行。\r\n不过既然你坚持，\r\n也只能如此了。"
+      },
+      "Txt_JobChange_Message_Flavor_05": {
+        "SelfId": "Txt_JobChange_Message_Flavor_05",
+        "Text": "嗯……{ACTOR}这样的\r\n{WORD}竟然想成为{WORD2}……<KEY_WAIT>\r\n可以预料到会有些辛苦，\r\n但也只能如此了。"
+      },
+      "Txt_JobChange_Message_Flavor_06": {
+        "SelfId": "Txt_JobChange_Message_Flavor_06",
+        "Text": "呵，呵，呵。<KEY_WAIT>\r\n区区{WORD}竟然想当{WORD2}，\r\n是在搞笑吗？也行吧……"
+      },
+      "Txt_JobChange_Message_Flavor_07": {
+        "SelfId": "Txt_JobChange_Message_Flavor_07",
+        "Text": "啊！对{WORD}的\r\n{ACTOR}来说，这简直是\r\n像天职一般的最佳选择。"
+      },
+      "Txt_JobChange_Message_Flavor_08": {
+        "SelfId": "Txt_JobChange_Message_Flavor_08",
+        "Text": "身为{WORD}的{ACTOR}\r\n想成为{WORD2}，\r\n成长真大啊。"
+      },
+      "Txt_JobChange_Message_Use_WORDS_OF_WISDOM": {
+        "SelfId": "Txt_JobChange_Message_Use_WORDS_OF_WISDOM",
+        "Text": "要成为贤者\r\n就必须掌握那本领悟之书。\r\n<KEY_WAIT>\r\n领悟之书不可重复使用……\r\n可以接受吗？"
+      }
+    }
+  }
+]

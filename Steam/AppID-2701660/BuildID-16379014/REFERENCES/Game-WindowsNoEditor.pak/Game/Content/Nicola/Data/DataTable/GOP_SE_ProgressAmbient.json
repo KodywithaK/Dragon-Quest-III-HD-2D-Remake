@@ -1,0 +1,170 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_SE_ProgressAmbient",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_SE_ProgressAmbientTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "SE_PROGRESSAMBIENT_ALIAHAN_BraveHouseMorning": {
+        "SelfId": "SE_PROGRESSAMBIENT_ALIAHAN_BraveHouseMorning",
+        "GOPEnumProgressPlayable": "MAIN_ALIAHAN_BraveHouseMorning",
+        "GOPEnumProgressUnplayable": "",
+        "bPlayableOnNoFlagOn": false,
+        "bPlayableOnAllFlagOn": true
+      },
+      "SE_PROGRESSAMBIENT_IZANAICAVE_BreakWall": {
+        "SelfId": "SE_PROGRESSAMBIENT_IZANAICAVE_BreakWall",
+        "GOPEnumProgressPlayable": "",
+        "GOPEnumProgressUnplayable": "MAIN_IZANAICAVE_BreakWall",
+        "bPlayableOnNoFlagOn": true,
+        "bPlayableOnAllFlagOn": false
+      },
+      "SE_PROGRESSAMBIENT_SAMANOSA_DefeatBossTroll": {
+        "SelfId": "SE_PROGRESSAMBIENT_SAMANOSA_DefeatBossTroll",
+        "GOPEnumProgressPlayable": "MAIN_SAMANOSA_DefeatBossTroll",
+        "GOPEnumProgressUnplayable": "",
+        "bPlayableOnNoFlagOn": false,
+        "bPlayableOnAllFlagOn": true
+      },
+      "SE_PROGRESSAMBIENT_GAIANAVEL_GetBlueMetal": {
+        "SelfId": "SE_PROGRESSAMBIENT_GAIANAVEL_GetBlueMetal",
+        "GOPEnumProgressPlayable": "",
+        "GOPEnumProgressUnplayable": "MAIN_GAIANAVEL_GetBlueMetal",
+        "bPlayableOnNoFlagOn": true,
+        "bPlayableOnAllFlagOn": false
+      },
+      "SE_PROGRESSAMBIENT_ALIAHAN_BraveHouseNight": {
+        "SelfId": "SE_PROGRESSAMBIENT_ALIAHAN_BraveHouseNight",
+        "GOPEnumProgressPlayable": "MAIN_ALIAHAN_BraveHouseNight",
+        "GOPEnumProgressUnplayable": "",
+        "bPlayableOnNoFlagOn": false,
+        "bPlayableOnAllFlagOn": true
+      },
+      "SE_PROGRESSAMBIENT_ZOMACASTLE_EndOrtegaBattle": {
+        "SelfId": "SE_PROGRESSAMBIENT_ZOMACASTLE_EndOrtegaBattle",
+        "GOPEnumProgressPlayable": "",
+        "GOPEnumProgressUnplayable": "MAIN_ZOMACASTLE_EndOrtegaBattle",
+        "bPlayableOnNoFlagOn": true,
+        "bPlayableOnAllFlagOn": false
+      },
+      "SE_PROGRESSAMBIENT_ZOMACASTLE_DefeatZoma": {
+        "SelfId": "SE_PROGRESSAMBIENT_ZOMACASTLE_DefeatZoma",
+        "GOPEnumProgressPlayable": "MAIN_ZOMACASTLE_DefeatZoma",
+        "GOPEnumProgressUnplayable": "",
+        "bPlayableOnNoFlagOn": false,
+        "bPlayableOnAllFlagOn": true
+      },
+      "SE_PROGRESSAMBIENT_ZOMACASTLE_DefeatZoma02": {
+        "SelfId": "SE_PROGRESSAMBIENT_ZOMACASTLE_DefeatZoma02",
+        "GOPEnumProgressPlayable": "",
+        "GOPEnumProgressUnplayable": "MAIN_ZOMACASTLE_DefeatZoma",
+        "bPlayableOnNoFlagOn": true,
+        "bPlayableOnAllFlagOn": false
+      },
+      "SE_PROGRESSAMBIENT_PYRAMID_CurseGoldenClaws": {
+        "SelfId": "SE_PROGRESSAMBIENT_PYRAMID_CurseGoldenClaws",
+        "GOPEnumProgressPlayable": "MAIN_PYRAMID_HasPartyCurseGoldenClaws",
+        "GOPEnumProgressUnplayable": "",
+        "bPlayableOnNoFlagOn": false,
+        "bPlayableOnAllFlagOn": true
+      },
+      "SE_PROGRESSAMBIENT_BARAMOSCASTLE_RestartWarp": {
+        "SelfId": "SE_PROGRESSAMBIENT_BARAMOSCASTLE_RestartWarp",
+        "GOPEnumProgressPlayable": "MAIN_BARAMOSCASTLE_RestartWarp",
+        "GOPEnumProgressUnplayable": "",
+        "bPlayableOnNoFlagOn": false,
+        "bPlayableOnAllFlagOn": true
+      },
+      "SE_PROGRESSAMBIENT_ZOMACASTLE_RestartWarp": {
+        "SelfId": "SE_PROGRESSAMBIENT_ZOMACASTLE_RestartWarp",
+        "GOPEnumProgressPlayable": "MAIN_ZOMACASTLE_RestartWarp",
+        "GOPEnumProgressUnplayable": "",
+        "bPlayableOnNoFlagOn": false,
+        "bPlayableOnAllFlagOn": true
+      },
+      "SE_PROGRESSAMBIENT_GRANDRAGON_Pay": {
+        "SelfId": "SE_PROGRESSAMBIENT_GRANDRAGON_Pay",
+        "GOPEnumProgressPlayable": "MAIN_GRANDRAGON_Pay",
+        "GOPEnumProgressUnplayable": "",
+        "bPlayableOnNoFlagOn": false,
+        "bPlayableOnAllFlagOn": true
+      },
+      "SE_PROGRESSAMBIENT_GRANDRAGON_Pay_OpenDoor": {
+        "SelfId": "SE_PROGRESSAMBIENT_GRANDRAGON_Pay_OpenDoor",
+        "GOPEnumProgressPlayable": "MAIN_GRANDRAGON_Pay",
+        "GOPEnumProgressUnplayable": "MAIN_GRANDRAGON_OpenDoor",
+        "bPlayableOnNoFlagOn": false,
+        "bPlayableOnAllFlagOn": false
+      },
+      "SE_PROGRESSAMBIENT_GRANDRAGON_Protect": {
+        "SelfId": "SE_PROGRESSAMBIENT_GRANDRAGON_Protect",
+        "GOPEnumProgressPlayable": "MAIN_GRANDRAGON_Protect",
+        "GOPEnumProgressUnplayable": "",
+        "bPlayableOnNoFlagOn": false,
+        "bPlayableOnAllFlagOn": true
+      },
+      "SE_PROGRESSAMBIENT_GRANDRAGON_Protect_OpenDoor": {
+        "SelfId": "SE_PROGRESSAMBIENT_GRANDRAGON_Protect_OpenDoor",
+        "GOPEnumProgressPlayable": "MAIN_GRANDRAGON_Protect",
+        "GOPEnumProgressUnplayable": "MAIN_GRANDRAGON_OpenDoor",
+        "bPlayableOnNoFlagOn": false,
+        "bPlayableOnAllFlagOn": false
+      },
+      "SE_PROGRESSAMBIENT_GRANDRAGON_Appreciation": {
+        "SelfId": "SE_PROGRESSAMBIENT_GRANDRAGON_Appreciation",
+        "GOPEnumProgressPlayable": "MAIN_GRANDRAGON_Appreciation",
+        "GOPEnumProgressUnplayable": "",
+        "bPlayableOnNoFlagOn": false,
+        "bPlayableOnAllFlagOn": true
+      },
+      "SE_PROGRESSAMBIENT_GRANDRAGON_Appreciation_OpenDoor": {
+        "SelfId": "SE_PROGRESSAMBIENT_GRANDRAGON_Appreciation_OpenDoor",
+        "GOPEnumProgressPlayable": "MAIN_GRANDRAGON_Appreciation",
+        "GOPEnumProgressUnplayable": "MAIN_GRANDRAGON_OpenDoor",
+        "bPlayableOnNoFlagOn": false,
+        "bPlayableOnAllFlagOn": false
+      },
+      "SE_PROGRESSAMBIENT_GRANDRAGON_Weapon1": {
+        "SelfId": "SE_PROGRESSAMBIENT_GRANDRAGON_Weapon1",
+        "GOPEnumProgressPlayable": "MAIN_GRANDRAGON_Weapon1",
+        "GOPEnumProgressUnplayable": "",
+        "bPlayableOnNoFlagOn": false,
+        "bPlayableOnAllFlagOn": true
+      },
+      "SE_PROGRESSAMBIENT_GRANDRAGON_Weapon1_OpenDoor": {
+        "SelfId": "SE_PROGRESSAMBIENT_GRANDRAGON_Weapon1_OpenDoor",
+        "GOPEnumProgressPlayable": "MAIN_GRANDRAGON_Weapon1",
+        "GOPEnumProgressUnplayable": "MAIN_GRANDRAGON_OpenDoor",
+        "bPlayableOnNoFlagOn": false,
+        "bPlayableOnAllFlagOn": false
+      },
+      "SE_PROGRESSAMBIENT_GRANDRAGON_Weapon2": {
+        "SelfId": "SE_PROGRESSAMBIENT_GRANDRAGON_Weapon2",
+        "GOPEnumProgressPlayable": "MAIN_GRANDRAGON_Weapon2",
+        "GOPEnumProgressUnplayable": "",
+        "bPlayableOnNoFlagOn": false,
+        "bPlayableOnAllFlagOn": true
+      },
+      "SE_PROGRESSAMBIENT_GRANDRAGON_Weapon2_OpenDoor": {
+        "SelfId": "SE_PROGRESSAMBIENT_GRANDRAGON_Weapon2_OpenDoor",
+        "GOPEnumProgressPlayable": "MAIN_GRANDRAGON_Weapon2",
+        "GOPEnumProgressUnplayable": "MAIN_GRANDRAGON_OpenDoor",
+        "bPlayableOnNoFlagOn": false,
+        "bPlayableOnAllFlagOn": false
+      },
+      "SE_PROGRESSAMBIENT_MAIN_Ludatorm_Ending": {
+        "SelfId": "SE_PROGRESSAMBIENT_MAIN_Ludatorm_Ending",
+        "GOPEnumProgressPlayable": "MAIN_Ludatorm_Ending",
+        "GOPEnumProgressUnplayable": "",
+        "bPlayableOnNoFlagOn": false,
+        "bPlayableOnAllFlagOn": true
+      }
+    }
+  }
+]

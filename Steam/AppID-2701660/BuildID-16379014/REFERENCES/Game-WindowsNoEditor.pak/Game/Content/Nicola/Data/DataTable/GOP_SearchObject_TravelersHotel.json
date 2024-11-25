@@ -1,0 +1,38 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_SearchObject_TravelersHotel",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_SearchObject_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "SEARCH_TravelersHotel_House_DRAWER_0": {
+        "SelfId": "SEARCH_TravelersHotel_House_DRAWER_0",
+        "ObjectType": "ESearchObjectType::DRAWER",
+        "ItemId": "ITEM_EQUIP_WEAPON_CYPRESS_STICK",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_TravelersHotel_House_DRAWER_0"
+      },
+      "SEARCH_TravelersHotel_House_DRAWER_1": {
+        "SelfId": "SEARCH_TravelersHotel_House_DRAWER_1",
+        "ObjectType": "ESearchObjectType::DRAWER",
+        "ItemId": "ITEM_SMALL_MEDAL",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_TravelersHotel_House_DRAWER_1"
+      }
+    }
+  }
+]

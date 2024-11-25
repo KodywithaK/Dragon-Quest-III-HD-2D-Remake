@@ -1,0 +1,1264 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_NPC_Talk_Ludatorm",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0110_020_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0110_020_1",
+        "Text": "*: ¡Qué bendición! Se acabó la amenaza de los monstruos, ¡ya podremos viajar y comerciar sin miedo!"
+      },
+      "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0210_010_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0210_010_1",
+        "Text": "*: ¿Dices que derrotaste al Archivillano?"
+      },
+      "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0210_010_2": {
+        "SelfId": "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0210_010_2",
+        "Text": "*: ¿Pero acaso no es Baramos un simple esbirro de Zoma, el verdadero Señor del Inframundo y señor de toda maldad?"
+      },
+      "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0210_020_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0210_020_1",
+        "Text": "*: Oye, ¿es verdad que derrotaste al invencible Zoma, Señor del Inframundo?"
+      },
+      "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0210_020_2": {
+        "SelfId": "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0210_020_2",
+        "Text": "*: <...> ¿Perdón? ¿Entendí bien? ¡¿Lo derrotaste por cuenta propia y sin nadie que te ayudara?! ¡Por la Diosa! ¡Nunca hubiera imaginado que tal proeza fuera posible!"
+      },
+      "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0210_020_3": {
+        "SelfId": "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0210_020_3",
+        "Text": "*: Mmm, ya decía yo que algo así no era posible. Después de todo, sin compañía y con tu aspecto<...> digamos<...> poco intimidante<...>"
+      },
+      "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0210_020_4": {
+        "SelfId": "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0210_020_4",
+        "Text": "*: Entonces debe ser obra de aquel sujeto gallardo y bravío<...> ¡Sí, eso es! ¡Salve Ortega, quien a Zoma ha vencido!"
+      },
+      "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0210_020_5": {
+        "SelfId": "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0210_020_5",
+        "Text": "*: Sin lugar a dudas, el asesino de Zoma únicamente puede ser el poderosísimo Ortega. ¡Nadie más sería capaz de algo semejante!"
+      },
+      "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0210_020_6": {
+        "SelfId": "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0210_020_6",
+        "Text": "*: ¡A ti, pues, te debemos el feliz regreso de la luz del día! ¡Gracias totales, noble y valiente <IfGender_HERO(héroe,heroína,)>!"
+      },
+      "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0210_020_7": {
+        "SelfId": "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0210_020_7",
+        "Text": "*: Mmm, ya decía yo que algo así no era posible. <IfSolo(Tú,Tú y tus acompañantes)><...> <IfSolo(impones,imponen)> muy poco, la verdad<...>"
+      },
+      "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0210_020_8": {
+        "SelfId": "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0210_020_8",
+        "Text": "*: Entonces debe ser obra de aquel sujeto gallardo y bravío<...> ¡Sí, eso es! ¡Salve Ortega, quien a Zoma ha vencido!"
+      },
+      "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0210_020_9": {
+        "SelfId": "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0210_020_9",
+        "Text": "*: Ah, <IfSolo(eres tú quien,son ustedes quienes)> aplastaron al maligno Zoma, ¿verdad?"
+      },
+      "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0210_020_10": {
+        "SelfId": "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0210_020_10",
+        "Text": "*: ¿Y bien? ¿Por qué no está aquí? ¿Acaso el poderoso y valiente Ortega no viene contigo?"
+      },
+      "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0210_020_11": {
+        "SelfId": "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0210_020_11",
+        "Text": "*: ¿Mmm? ¡No lo veo! ¡Ortega! ¡¿Ortega, dónde estás?!"
+      },
+      "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0210_020_12": {
+        "SelfId": "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0210_020_12",
+        "Text": "*: ¿Dónde está? ¿A dónde fue?"
+      },
+      "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0210_030_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0210_030_1",
+        "Text": "*: Sin lugar a dudas, el asesino de Zoma únicamente puede ser el poderosísimo Ortega. ¡Nadie más sería capaz de algo semejante!"
+      },
+      "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0210_030_2": {
+        "SelfId": "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0210_030_2",
+        "Text": "*: Pensar que alguien se pueda atrever a colgarse encima la gloria que es de Ortega<...> Qué rabia<...> Grrr<...>"
+      },
+      "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0210_030_3": {
+        "SelfId": "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0210_030_3",
+        "Text": "*: ¿Y bien? ¿Por qué no está aquí? ¿Acaso el poderoso y valiente Ortega no viene contigo?"
+      },
+      "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0210_030_4": {
+        "SelfId": "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0210_030_4",
+        "Text": "*: ¿Mmm? ¡No lo veo! ¡Ortega! ¡¿Ortega, dónde estás?!"
+      },
+      "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0210_030_5": {
+        "SelfId": "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0210_030_5",
+        "Text": "*: ¿Dónde está? ¿A dónde fue?"
+      },
+      "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0310_010_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0310_010_1",
+        "Text": "*: Nuestros antepasados descendieron a este reino a través de la fosa de Giaga. Eran gente sumamente intrépida<...>"
+      },
+      "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0310_020_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0310_020_1",
+        "Text": "*: Nuestros antepasados descendieron a este reino a través de la fosa de Giaga. Eran gente sumamente intrépida<...>"
+      },
+      "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0310_020_2": {
+        "SelfId": "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0310_020_2",
+        "Text": "*: Solo podemos especular sobre quién bautizó este lugar como <6>Alefgard<9>."
+      },
+      "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0310_020_3": {
+        "SelfId": "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0310_020_3",
+        "Text": "*: Pero, fuera quien fuera, seguramente que hoy sonríe desde el más allá. Después de todo, ¿quién no se alegraría ante la vista de la luz que hoy calienta de nuevo esta tierra?"
+      },
+      "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0410_010_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0410_010_1",
+        "Text": "*: Alefgard es un reino de oscuridad, aislado de todos los demás territorios. Una prisión de miseria en la que nunca prospera la esperanza."
+      },
+      "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0410_020_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0410_020_1",
+        "Text": "*: ¡Sí, la felicidad inunda mi corazón, pues la paz hoy vuelve a esta tierra y renace la esperanza!"
+      },
+      "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0510_010_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0510_010_1",
+        "Text": "*: La ciudad amurallada de Trávena te da la bienvenida, trotamundos."
+      },
+      "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0510_020_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0510_020_1",
+        "Text": "*: ¿Ustedes son<...>? ¡Sí, sí lo son! ¡Camaradas, ya nos llegaron las noticias!"
+      },
+      "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0510_020_2": {
+        "SelfId": "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0510_020_2",
+        "Text": "*: ¿Tú eres<...>? ¡Sí, sí eres! ¡Camarada, ya nos llegaron las noticias!"
+      },
+      "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0510_020_3": {
+        "SelfId": "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0510_020_3",
+        "Text": "*: ¡Tu victoria sobre el terrible demonio es una hazaña milagrosa!"
+      },
+      "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0510_020_4": {
+        "SelfId": "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0510_020_4",
+        "Text": "*: Pero ¿qué clase de criaturas son como para vencer a semejante enemigo? Estoy en shock<...>"
+      },
+      "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0510_020_5": {
+        "SelfId": "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0510_020_5",
+        "Text": "*: ¿Pero qué clase de criatura eres, que lograste vencer a semejante enemigo? En verdad te admiro<...>"
+      },
+      "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0510_020_6": {
+        "SelfId": "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0510_020_6",
+        "Text": "*: ¿Ustedes son<...>? ¡Sí, sí lo son! ¡Camaradas, ya nos llegaron las noticias!"
+      },
+      "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0510_020_7": {
+        "SelfId": "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0510_020_7",
+        "Text": "*: ¿Tú eres<...>? ¡Sí, sí eres! ¡Camarada, ya nos llegaron las noticias!"
+      },
+      "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0510_020_8": {
+        "SelfId": "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0510_020_8",
+        "Text": "*: ¿Y dónde está el flamante héroe? ¿Aquél de quien hablan tantas historias? ¿Te quedaste sin tu poderoso compañero?"
+      },
+      "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0510_020_9": {
+        "SelfId": "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0510_020_9",
+        "Text": "*: ¿Cómo dices? ¿Que el Señor del Inframundo fue derrotado sin la ayuda de aquel héroe? ¡Es un milagro!"
+      },
+      "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0510_020_10": {
+        "SelfId": "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0510_020_10",
+        "Text": "*: Pero claro. La modestia es una de las cualidades de los héroes. Suelen desaparecer del ojo público hasta que su fama disminuye."
+      },
+      "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0610_010_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0610_010_1",
+        "Text": "*: El Señor del Inframundo se alimenta de desesperación, y las lágrimas de sus víctimas apagan por un rato su sed."
+      },
+      "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0610_010_2": {
+        "SelfId": "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0610_010_2",
+        "Text": "*: ¿Acaso permite que los habitantes de Alefgard vivamos solo para tener con quién calmar sus viles antojos?"
+      },
+      "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0610_020_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0610_020_1",
+        "Text": "*: ¿Acaso es verdad que el Señor del Inframundo fue abatido? ¡Ciertamente eres alguien imponente!"
+      },
+      "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0710_010_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0710_010_1",
+        "Text": "*: Encontrarás una ruina antigua en el centro del desierto que hay al norte."
+      },
+      "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0710_010_2": {
+        "SelfId": "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0710_010_2",
+        "Text": "*: En lo profundo se encuentra un gran abismo sin fondo."
+      },
+      "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0710_010_3": {
+        "SelfId": "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0710_010_3",
+        "Text": "*: Según las leyendas, cuando el Señor del Inframundo nació, abrió ese abismo con sus garras terribles."
+      },
+      "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0710_020_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0710_020_1",
+        "Text": "*: <...> ¿Qué dices? ¿Que le diste una paliza al Señor del Inframundo? ¡Eso quiere decir que eres muy <IfGender_LEADER(poderoso,poderosa,)>!"
+      },
+      "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0810_010_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0810_010_1",
+        "Text": "*: Si deseas visitar el magno castillo de Trávena, solo sigue por este camino."
+      },
+      "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0810_020_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0810_020_1",
+        "Text": "*: ¡<IfGender_HERO(Admirable héroe,Admirable heroína,)>! ¡Por favor, pasa a ver al rey! ¡Su Majestad ya te está esperando!"
+      },
+      "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0810_020_2": {
+        "SelfId": "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0810_020_2",
+        "Text": "*: ¡<IfGender_LEADER(Admirable héroe,Admirable heroína,)>! ¡Por favor, pasa a ver al rey! ¡Su Majestad ya te está esperando!"
+      },
+      "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_1010_010_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_1010_010_1",
+        "Text": "*: ¿Ves aquella ciudadela por allá? Pertenece al mismísimo Señor del Inframundo<...>"
+      },
+      "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_1010_010_2": {
+        "SelfId": "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_1010_010_2",
+        "Text": "*: En todos mis años, jamás he visto que alguien fuera a derrotarlo y haya vuelto para contar la historia."
+      },
+      "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_1010_010_3": {
+        "SelfId": "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_1010_010_3",
+        "Text": "*: Permíteme darte un consejo<...> si deseas vivir mucho tiempo, ni se te ocurra dirigirte allí."
+      },
+      "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_1010_020_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_1010_020_1",
+        "Text": "*: Nunca pensé que viviría para ver la ciudadela de ese demonio en ruinas. ¡Bendita Todopoderosa!"
+      },
+      "Txt_Talk_Ludatorm_Out_SearchEvent_Sack_00_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Out_SearchEvent_Sack_00_1",
+        "Text": "{LEADER} echa un vistazo dentro del saco<...>"
+      },
+      "Txt_Talk_Ludatorm_Church_1F_SUB_0_ACTOR_0110_020_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Church_1F_SUB_0_ACTOR_0110_020_1",
+        "Text": "*: ¡Oh, benevolente Diosa! ¡<IfSolo(<IfGender_LEADER(Este humilde siervo tuyo ha,Esta humilde sierva tuya ha,)>,Estos humildes siervos tuyos han)> cumplido tu voluntad! ¡Que todos los hombres te agradezcan!"
+      },
+      "Txt_Talk_Ludatorm_Church_2F_SUB_0_VOLUME_0110_010_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Church_2F_SUB_0_VOLUME_0110_010_1",
+        "Text": "Estás bromeando, ¿verdad? ¿En serio eres tú? ¡Válgame! ¡Nah, ja, ja! ¡Soy yo, tu viejo amigo Robbin Hood!"
+      },
+      "Txt_Talk_Ludatorm_Church_2F_SUB_0_VOLUME_0110_010_2": {
+        "SelfId": "Txt_Talk_Ludatorm_Church_2F_SUB_0_VOLUME_0110_010_2",
+        "Text": "Te hablo con sinceridad, camarada. Nuevo mundo, nueva vida, ¿qué te parece? ¿Entonces por qué estoy en la cárcel, te preguntarás? Ah, fue un malentendido sin importancia<...>, ¡En serio, ya soy bueno!"
+      },
+      "Txt_Talk_Ludatorm_Church_2F_SUB_0_VOLUME_0110_010_3": {
+        "SelfId": "Txt_Talk_Ludatorm_Church_2F_SUB_0_VOLUME_0110_010_3",
+        "Text": "*: Mira, pa<9> que me creas, te diré algo pa<9> que me perdones por tantas molestias que te causé todos estos años, ¿qué te parece?"
+      },
+      "Txt_Talk_Ludatorm_Church_2F_SUB_0_VOLUME_0110_010_4": {
+        "SelfId": "Txt_Talk_Ludatorm_Church_2F_SUB_0_VOLUME_0110_010_4",
+        "Text": "*: Resulta que hay una<...> una como<...> cosa que se llama <66>piedra solar<99> y es muy valiosa, ¡de veras, de veritas! Y también resulta que la tienen aquí, en Trávena, ¿cómo te ha queda<9>o el ojo, <IfGender_LEADER(compadre,comadre,)>?"
+      },
+      "Txt_Talk_Ludatorm_Church_2F_SUB_0_VOLUME_0110_010_5": {
+        "SelfId": "Txt_Talk_Ludatorm_Church_2F_SUB_0_VOLUME_0110_010_5",
+        "Text": "*: Como sea, no puedo evitar preguntarme dónde demonios acabaron todos mis hombres<...>"
+      },
+      "Txt_Talk_Ludatorm_Church_2F_SUB_0_ACTOR_0110_010_2": {
+        "SelfId": "Txt_Talk_Ludatorm_Church_2F_SUB_0_ACTOR_0110_010_2",
+        "Text": "Te hablo con sinceridad, camarada. ¡JA! Nuevo mundo, nueva vida, ¿qué te parece? ¿Entonces por qué estoy en la cárcel, te preguntarás? Oh, fue un pequeño malentendido y ya<...> ¡Pero en serio, ya soy bueno!"
+      },
+      "Txt_Talk_Ludatorm_Church_2F_SUB_0_ACTOR_0110_010_3": {
+        "SelfId": "Txt_Talk_Ludatorm_Church_2F_SUB_0_ACTOR_0110_010_3",
+        "Text": "Mira, pa<9> que me creas, te diré algo pa<9> que me perdones por tantas molestias que te causé todos estos años, ¿qué te parece?"
+      },
+      "Txt_Talk_Ludatorm_Church_2F_SUB_0_ACTOR_0110_010_4": {
+        "SelfId": "Txt_Talk_Ludatorm_Church_2F_SUB_0_ACTOR_0110_010_4",
+        "Text": "Resulta que<...> hay una cosa que se llama <66>piedra solar<99> y es muy valiosa, ¡de veras, de veritas! Y también<...> resulta que la tienen aquí, en Trávena, ¡en el comedor!"
+      },
+      "Txt_Talk_Ludatorm_Church_2F_SUB_0_ACTOR_0110_010_5": {
+        "SelfId": "Txt_Talk_Ludatorm_Church_2F_SUB_0_ACTOR_0110_010_5",
+        "Text": "Como sea, no puedo evitar preguntarme dónde demonios acabaron todos mis hombres<...>"
+      },
+      "Txt_Talk_Ludatorm_Church_2F_SUB_0_ACTOR_0110_020_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Church_2F_SUB_0_ACTOR_0110_020_1",
+        "Text": "Oye, ¿es verdad lo que dicen? ¡¿Le diste una buena tunda al Señor del Inframundo?! ¡Ándale, <IfGender_LEADER(compadre,comadre,)>!"
+      },
+      "Txt_Talk_Ludatorm_Church_2F_SUB_0_ACTOR_0110_020_2": {
+        "SelfId": "Txt_Talk_Ludatorm_Church_2F_SUB_0_ACTOR_0110_020_2",
+        "Text": "¡Ahora entiendo por qué siempre que me topaba contigo me dabas una paliza!"
+      },
+      "Txt_Talk_Ludatorm_Church_2F_SUB_0_ACTOR_0110_020_3": {
+        "SelfId": "Txt_Talk_Ludatorm_Church_2F_SUB_0_ACTOR_0110_020_3",
+        "Text": "Me has puesto a reflexionar en más de una ocasión, ¡en especial hoy! ¡Y he decidido que nunca más haré cosas malas!"
+      },
+      "Txt_Talk_Ludatorm_Church_2F_SUB_0_ACTOR_0110_020_4": {
+        "SelfId": "Txt_Talk_Ludatorm_Church_2F_SUB_0_ACTOR_0110_020_4",
+        "Text": "Ah, cuando oí que le habían dado una lección a ese canalla de Zoma, de inmediato dije<...>"
+      },
+      "Txt_Talk_Ludatorm_Church_2F_SUB_0_ACTOR_0110_020_5": {
+        "SelfId": "Txt_Talk_Ludatorm_Church_2F_SUB_0_ACTOR_0110_020_5",
+        "Text": "De inmediato supe que había sido {HERO}. Dime, ¿mi <IfGender_HERO(eterno némesis,eterna némesis,)> no tuvo nada que ver?"
+      },
+      "Txt_Talk_Ludatorm_House1_1F_SUB_0_ACTOR_0110_010_1": {
+        "SelfId": "Txt_Talk_Ludatorm_House1_1F_SUB_0_ACTOR_0110_010_1",
+        "Text": "*: Me dedico al estudio de métodos para contrarrestar maldiciones."
+      },
+      "Txt_Talk_Ludatorm_House1_1F_SUB_0_ACTOR_0110_010_2": {
+        "SelfId": "Txt_Talk_Ludatorm_House1_1F_SUB_0_ACTOR_0110_010_2",
+        "Text": "*: Elegí este campo de estudio para tratar de ayudar a toda la gente afectada por hechizos malignos."
+      },
+      "Txt_Talk_Ludatorm_House1_1F_SUB_0_ACTOR_0110_020_1": {
+        "SelfId": "Txt_Talk_Ludatorm_House1_1F_SUB_0_ACTOR_0110_020_1",
+        "Text": "*: Me dedico al estudio de métodos para contrarrestar maldiciones."
+      },
+      "Txt_Talk_Ludatorm_House1_1F_SUB_0_ACTOR_0110_020_2": {
+        "SelfId": "Txt_Talk_Ludatorm_House1_1F_SUB_0_ACTOR_0110_020_2",
+        "Text": "*: Liberaré al mundo de las maldiciones, del mismo modo en que tú erradicaste el mal y restauraste la paz."
+      },
+      "Txt_Talk_Ludatorm_House1_1F_SUB_0_ACTOR_0110_020_3": {
+        "SelfId": "Txt_Talk_Ludatorm_House1_1F_SUB_0_ACTOR_0110_020_3",
+        "Text": "*: Liberaré al mundo de las maldiciones, del mismo modo en que tú erradicaste el mal y restauraste la paz."
+      },
+      "Txt_Talk_Ludatorm_House1_1F_SUB_0_ACTOR_0110_020_4": {
+        "SelfId": "Txt_Talk_Ludatorm_House1_1F_SUB_0_ACTOR_0110_020_4",
+        "Text": "*: Si alguna vez te lanzan una maldición, ven a visitarme y te impondré una bendición. Aquí estaré siempre que me necesites."
+      },
+      "Txt_Talk_Ludatorm_House1_2F_SUB_0_ACTOR_0110_010_1": {
+        "SelfId": "Txt_Talk_Ludatorm_House1_2F_SUB_0_ACTOR_0110_010_1",
+        "Text": "*: <66>Cuando la lluvia y el sol se encuentren,\r\nEl arco de la lluvia completará un puente<99>.\r\nAsí dice el antiguo refrán<...>"
+      },
+      "Txt_Talk_Ludatorm_House1_2F_SUB_0_ACTOR_0110_020_1": {
+        "SelfId": "Txt_Talk_Ludatorm_House1_2F_SUB_0_ACTOR_0110_020_1",
+        "Text": "*: <66>Cuando la lluvia y el sol se encuentran,\r\nEl arco de la lluvia completará un puente<99>.\r\nAsí decía el antiguo refrán<...>"
+      },
+      "Txt_Talk_Ludatorm_House1_2F_SUB_0_ACTOR_0110_020_2": {
+        "SelfId": "Txt_Talk_Ludatorm_House1_2F_SUB_0_ACTOR_0110_020_2",
+        "Text": "*: Y al parecer, es la verdad."
+      },
+      "Txt_Talk_Ludatorm_House1_2F_SUB_0_ACTOR_0110_020_3": {
+        "SelfId": "Txt_Talk_Ludatorm_House1_2F_SUB_0_ACTOR_0110_020_3",
+        "Text": "*: Gracias a ti, el alba renace en este reino. Estamos en deuda contigo, trotamundos."
+      },
+      "Txt_Talk_Ludatorm_Inn_SUB_0_ACTOR_0110_010_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Inn_SUB_0_ACTOR_0110_010_1",
+        "Text": "*: Argh<...> ¡Mi propia glotonería castiga a mi estómago! Diosa, ¿por qué sufro tanto?<...> ¡Argh! ¡Me muero!"
+      },
+      "Txt_Talk_Ludatorm_Inn_SUB_0_ACTOR_0110_020_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Inn_SUB_0_ACTOR_0110_020_1",
+        "Text": "*: Zzz<...>, ¿Mmm? ¿De dónde proviene tanto esplendor?<...>, Ah, es solo un sueño<...>, Mmm<...>, Zzz<...>"
+      },
+      "Txt_Talk_Ludatorm_Inn_SUB_0_ACTOR_0210_020_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Inn_SUB_0_ACTOR_0210_020_1",
+        "Text": "*: <66>¡Buenos días!<99>.\r\n<66>¡Ya amaneció!<99>.\r\nSí, esto es mucho mejor<...>"
+      },
+      "Txt_Talk_Ludatorm_Inn_SUB_0_ACTOR_0210_020_2": {
+        "SelfId": "Txt_Talk_Ludatorm_Inn_SUB_0_ACTOR_0210_020_2",
+        "Text": "*: Por años batallé con huéspedes que no querían irse porque decían que seguía siendo de noche."
+      },
+      "Txt_Talk_Ludatorm_Inn_SUB_0_ACTOR_0210_020_3": {
+        "SelfId": "Txt_Talk_Ludatorm_Inn_SUB_0_ACTOR_0210_020_3",
+        "Text": "*: ¡Ahora que amanece y anochece, ya podré definir con toda claridad los horarios de entrada y salida!"
+      },
+      "Txt_Talk_Ludatorm_Inn_SUB_0_ACTOR_0310_020_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Inn_SUB_0_ACTOR_0310_020_1",
+        "Text": "*: Zzzzzz<...> Zzzzzz<...> ¡AH! ¡LO VEO!"
+      },
+      "Txt_Talk_Ludatorm_Inn_SUB_0_ACTOR_0310_020_2": {
+        "SelfId": "Txt_Talk_Ludatorm_Inn_SUB_0_ACTOR_0310_020_2",
+        "Text": "*: Dentro de estas tierras<...> Islas de secretos<...> Al norte del túnel<...> Y al sur de la caverna<...>"
+      },
+      "Txt_Talk_Ludatorm_Inn_SUB_0_ACTOR_0310_020_3": {
+        "SelfId": "Txt_Talk_Ludatorm_Inn_SUB_0_ACTOR_0310_020_3",
+        "Text": "*: Al norte<...> Y al sur<...> ¿Ambos? Pero no ambos<...> No pueden ser ambos<...> Zzzzzz<...>"
+      },
+      "Txt_Talk_Ludatorm_Item_SUB_0_ACTOR_0110_020_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Item_SUB_0_ACTOR_0110_020_1",
+        "Text": "*: Te agradezco desde el fondo de mi corazón. ¡Al fin trajiste el amanecer!"
+      },
+      "Txt_Talk_Ludatorm_House2_2F_SUB_0_ACTOR_0110_010_1": {
+        "SelfId": "Txt_Talk_Ludatorm_House2_2F_SUB_0_ACTOR_0110_010_1",
+        "Text": "*: Eres <IfGender_LEADER(un viajero empedernido,una viajera empedernida,)>, ¿verdad? Entonces, quizá hayas escuchado hablar del anillo de vida, ¿te suena?"
+      },
+      "Txt_Talk_Ludatorm_House2_2F_SUB_0_ACTOR_0110_010_2": {
+        "SelfId": "Txt_Talk_Ludatorm_House2_2F_SUB_0_ACTOR_0110_010_2",
+        "Text": "*: ¡Se dice que, quien lo porte, solo tendrá que caminar un poco con el anillo puesto para que sus heridas se curen milagrosamente!"
+      },
+      "Txt_Talk_Ludatorm_House2_2F_SUB_0_ACTOR_0110_020_1": {
+        "SelfId": "Txt_Talk_Ludatorm_House2_2F_SUB_0_ACTOR_0110_020_1",
+        "Text": "*: ¡La luz! Nunca la había visto tan brillante<...> ¡Es como un sueño!"
+      },
+      "Txt_Talk_Ludatorm_Castle_1F_Out_SUB_0_ACTOR_0110_010_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_1F_Out_SUB_0_ACTOR_0110_010_1",
+        "Text": "*: ¿Aliahan? Es un nombre que creo haber oído antes, pero<...>"
+      },
+      "Txt_Talk_Ludatorm_Castle_1F_Out_SUB_0_ACTOR_0110_010_2": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_1F_Out_SUB_0_ACTOR_0110_010_2",
+        "Text": "*: ¡Ah, claro! ¡Es la ciudad de donde provenía ese otro viajero que pasó por aquí!"
+      },
+      "Txt_Talk_Ludatorm_Castle_1F_Out_SUB_0_ACTOR_0110_020_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_1F_Out_SUB_0_ACTOR_0110_020_1",
+        "Text": "*: ¡En verdad eres muy amable!"
+      },
+      "Txt_Talk_Ludatorm_Castle_1F_Out_SUB_0_ACTOR_0110_020_2": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_1F_Out_SUB_0_ACTOR_0110_020_2",
+        "Text": "*: ¡Aunque te espera el rey en persona, te tomas la molestia de platicar con este humilde pecador!"
+      },
+      "Txt_Talk_Ludatorm_Castle_1F_Out_SUB_0_ACTOR_0110_020_3": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_1F_Out_SUB_0_ACTOR_0110_020_3",
+        "Text": "*: Siempre te recordaré, lo juro. ¡El relato de tus hazañas pasará de generación en generación por décadas!"
+      },
+      "Txt_Talk_Ludatorm_Castle_1F_Out_SUB_0_ACTOR_0110_020_4": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_1F_Out_SUB_0_ACTOR_0110_020_4",
+        "Text": "*: ¿Eres tú quien, según los rumores, derrotó al temible Señor del Inframundo?"
+      },
+      "Txt_Talk_Ludatorm_Castle_1F_Out_SUB_0_ACTOR_0110_020_5": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_1F_Out_SUB_0_ACTOR_0110_020_5",
+        "Text": "*: Vaya, pues qué extraño. Tu aspecto en persona es<...> diferente al de los relatos que hablan de ti<...> Bah, no importa."
+      },
+      "Txt_Talk_Ludatorm_Castle_1F_Out_SUB_0_ACTOR_0110_020_6": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_1F_Out_SUB_0_ACTOR_0110_020_6",
+        "Text": "*: ¡Te damos las gracias porque nos has librado de la opresión de Zoma!"
+      },
+      "Txt_Talk_Ludatorm_Castle_1F_Out_SUB_0_ACTOR_0110_020_7": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_1F_Out_SUB_0_ACTOR_0110_020_7",
+        "Text": "*: ¿Perdón? ¿<IfSolo(Fuiste tú quien lo derrotó,Fueron ustedes quienes lo derrotaron)>, aunque no <IfSolo(eres el héroe del,son los héroes de los)> que hablan los rumores? ¡Entonces <IfSolo(eres,son)> el heroísmo encarnado! ¡Que la Diosa <IfSolo(te,los)> bendiga por siempre!"
+      },
+      "Txt_Talk_Ludatorm_Castle_1F_Out_SUB_0_ACTOR_0110_030_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_1F_Out_SUB_0_ACTOR_0110_030_1",
+        "Text": "*: ¡<IfSolo(Te,Les)> damos las gracias porque nos <IfSolo(libraste,libraron)> de la opresión de Zoma!"
+      },
+      "Txt_Talk_Ludatorm_Castle_1F_Out_SUB_0_ACTOR_0110_030_2": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_1F_Out_SUB_0_ACTOR_0110_030_2",
+        "Text": "*: ¿Perdón? ¿<IfSolo(Fuiste tú quien lo derrotó,Fueron ustedes quienes lo derrotaron)>, aunque no <IfSolo(eres el héroe del,son los héroes de los)> que hablan los rumores? ¡Entonces <IfSolo(eres,son)> el heroísmo encarnado! ¡Que la Diosa <IfSolo(te,los)> bendiga por siempre!"
+      },
+      "Txt_Talk_Ludatorm_Castle_1F_Out_SUB_0_ACTOR_0210_010_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_1F_Out_SUB_0_ACTOR_0210_010_1",
+        "Text": "*: ¡Miauuuu!"
+      },
+      "Txt_Talk_Ludatorm_Castle_1F_Out_SUB_0_ACTOR_0210_020_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_1F_Out_SUB_0_ACTOR_0210_020_1",
+        "Text": "*: ¡Miau! ¡Miauuu! ¡Miaaaauuuu!"
+      },
+      "Txt_Talk_Ludatorm_Castle_1F_Out_SUB_0_VOLUME_0310_010_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_1F_Out_SUB_0_VOLUME_0310_010_1",
+        "Text": "¿Glup?"
+      },
+      "Txt_Talk_Ludatorm_Castle_1F_Out_SUB_0_VOLUME_0310_010_2": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_1F_Out_SUB_0_VOLUME_0310_010_2",
+        "Text": "{LEADER} tranquiliza a <DefSgl_WORD> con una voz relajante y le habla sobre la reserva de monstruos de Moncho<...>"
+      },
+      "Txt_Talk_Ludatorm_Castle_1F_Out_SUB_0_VOLUME_0310_010_3": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_1F_Out_SUB_0_VOLUME_0310_010_3",
+        "Text": "¡Muagnuíficuo!"
+      },
+      "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0910_010_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0910_010_1",
+        "Text": "*: Está claro que no eres de por aquí, ¿eh? ¿De dónde provienes y qué te ha traído por estos lares? ¿Mmm? ¿Viajaste hasta aquí para destruir al temible Señor del Inframundo?"
+      },
+      "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0910_010_2": {
+        "SelfId": "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0910_010_2",
+        "Text": "*: ¡Gloria! ¡La salvación ha llegado!"
+      },
+      "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0910_010_3": {
+        "SelfId": "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0910_010_3",
+        "Text": "*: Pero mira, seguramente tendrás que esforzarte para encontrar tu camino en este mundo aún desconocido."
+      },
+      "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0910_010_4": {
+        "SelfId": "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0910_010_4",
+        "Text": "*: Espero que la Diosa te sonría y que bendiga tu travesía."
+      },
+      "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0910_010_6": {
+        "SelfId": "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0910_010_6",
+        "Text": "*: Perdóname."
+      },
+      "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0910_010_7": {
+        "SelfId": "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0910_010_7",
+        "Text": "*: Llevo tanto tiempo anhelando escuchar esa noticia<...> creo que empiezo a perder la esperanza<...>"
+      },
+      "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0910_030_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0910_030_1",
+        "Text": "*: ¡Ya está hecho! ¡Se logró lo imposible!"
+      },
+      "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0910_030_2": {
+        "SelfId": "Txt_Talk_Ludatorm_Out_SUB_0_ACTOR_0910_030_2",
+        "Text": "*: Ahora nuestra tierra puede dar sus primeros pasos hacia una nueva era de paz.\r\nNo existen palabras suficientes para agradecerte, <IfGender_LEADER(noble viajero,noble viajera,)>."
+      },
+      "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_0110_010_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_0110_010_1",
+        "Text": "*: La ciudadela que ves por allá es la morada del nefasto Zoma, el Señor del Inframundo."
+      },
+      "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_0110_020_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_0110_020_1",
+        "Text": "*: Te agradezco desde el fondo de mi corazón. ¡Al fin trajiste el amanecer!"
+      },
+      "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_0210_010_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_0210_010_1",
+        "Text": "*: El alba surgirá de nuevo en nuestra tierra. Tengo fe en que así será."
+      },
+      "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_0210_020_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_0210_020_1",
+        "Text": "*: ¡La luz! Nunca la había visto tan brillante<...> ¡Es como un sueño!"
+      },
+      "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_0310_010_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_0310_010_1",
+        "Text": "*: La poderosa Rubiss le dio forma a estas tierras."
+      },
+      "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_0310_010_2": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_0310_010_2",
+        "Text": "*: Pero ni siquiera ella pudo escapar de la ira de Zoma, quien la encerró en un lugar lúgubre alejado de toda esperanza."
+      },
+      "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_0310_020_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_0310_020_1",
+        "Text": "*: La bondadosa Rubiss le dio forma a estas tierras."
+      },
+      "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_0310_020_2": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_0310_020_2",
+        "Text": "*: ¿Mmm? ¿Has visto en persona a la Todopoderosa?"
+      },
+      "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_0310_020_3": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_0310_020_3",
+        "Text": "*: ¿Cómo dices? ¡¿Te regaló el amuleto sacro?! <...> ¡Siento muchos celos en este momento!"
+      },
+      "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_0310_020_4": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_0310_020_4",
+        "Text": "*: ¿Cómo? ¿Fue una cruel mentira? Ya veo<...>"
+      },
+      "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_0410_010_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_0410_010_1",
+        "Text": "*: Aquí es la cocina, donde se prepara la carne y el vino de todo el castillo."
+      },
+      "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_0410_020_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_0410_020_1",
+        "Text": "*: ¡En serio que, en toda mi vida, no había tenido un día tan ocupado como hoy! ¡Estamos preparando todo para la magna celebración!"
+      },
+      "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_0410_020_2": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_0410_020_2",
+        "Text": "*: ¡Habrá comida suficiente como para todo un ejército! ¡Espero que llegues con hambre, porque vas a querer probar de todo!"
+      },
+      "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_0410_020_3": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_0410_020_3",
+        "Text": "*: Si no tienes algo más importante que hacer, podrías echarnos una mano con los preparativos."
+      },
+      "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_0410_020_4": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_0410_020_4",
+        "Text": "*: <...> ¿Mande? ¡¿Es una celebración en honor de tu victoria?! ¡Ay! ¡Mil perdones!"
+      },
+      "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_0510_010_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_0510_010_1",
+        "Text": "*: ¿Te enfrentarías al temible Zoma? Alabo tu valor, aplaudo tu bravura, pero no desperdicies tu vida."
+      },
+      "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_0510_010_2": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_0510_010_2",
+        "Text": "*: Nadie, salvo aquella persona que empuñe la Espada de reyes, podría pelear con el señor oscuro. Nadie, salvo aquella persona que porte la armadura boreal y el escudo de héroe, es rival para su furia."
+      },
+      "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_0510_010_3": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_0510_010_3",
+        "Text": "*: Por desgracia, esa trinidad sagrada de arma, armadura y escudo ya no está en el castillo. Ni siquiera tenemos una imagen de aquellos legendarios tesoros<...>"
+      },
+      "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_0510_020_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_0510_020_1",
+        "Text": "*: ¿La Espada de reyes<...>? ¿No la había destrozado el Señor del Inframundo? ¿Cómo conseguiste semejante tesoro? ¿Sufriste mucho para tenerlo en tus manos?"
+      },
+      "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_0510_020_2": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_0510_020_2",
+        "Text": "*: Jamás hubiera siquiera imaginado que tal proeza fuera posible<...> Con toda certeza te habrá costado sangre, sudor y lágrimas<...>"
+      },
+      "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_0510_020_3": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_0510_020_3",
+        "Text": "*: Pero<...> ¡Diosa del cielo! Pensaba que portabas la legendaria espada, ¡pero solo es <IndefSgl_I_NAME2>!\r\n¡¿En verdad acabaste con el temible Zoma<...> con esa cosa<...>?!"
+      },
+      "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_0510_020_4": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_0510_020_4",
+        "Text": "*: Pero<...> ¡Diosa del cielo! Pensaba que portabas la legendaria espada, ¡pero no llevas nada en las manos! ¡¿Acaso fuiste capaz de vencer al infame Zoma con tus propias manos?!"
+      },
+      "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_0510_020_5": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_0510_020_5",
+        "Text": "*: ¡¿<IfSolo(Eres tú quien derrotó,Son ustedes quienes derrotaron)> al temible Zoma?! ¡Sí, <IfSolo(eres tú,son ustedes)>!"
+      },
+      "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_0510_020_6": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_0510_020_6",
+        "Text": "*: ¿Puedo <IfSolo(pedirte,pedirles)> un favor especial? ¿Me <IfSolo(podrías,podrían)> mostrar el arma con la que <IfSolo(llevaste,llevaron)> a cabo tan majestuosa hazaña?"
+      },
+      "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_0510_020_7": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_0510_020_7",
+        "Text": "*: ¡Pero<...> pero solo es <IndefSgl_I_NAME2>! ¡¿Cómo <IfSolo(lograste imponerte,lograron imponerse)> al Señor del Inframundo con algo tan simple?!"
+      },
+      "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_0510_020_8": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_0510_020_8",
+        "Text": "*: ¡Pero<...> pero esas son solo <IfSolo(tus,sus)> manos! ¡¿Cómo <IfSolo(lograste imponerte,lograron imponerse)> al Señor del Inframundo<...> con las puras manos<...>?!"
+      },
+      "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_0610_010_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_0610_010_1",
+        "Text": "*: ¡Que la luz divina bendiga tu futuro, honorable <IfGender_LEADER(héroe,heroína,)>!"
+      },
+      "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_0610_020_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_0610_020_1",
+        "Text": "*: Tienes nuestro más sincero y eterno agradecimiento, <IfGender_LEADER(joven heroico,joven heroica,)>."
+      },
+      "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_0610_020_2": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_0610_020_2",
+        "Text": "*: Siempre recuerda que el futuro no está escrito en piedra. Y que es posible que surjan otros males en el mundo. Debemos estar en alerta constante."
+      },
+      "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_0610_020_3": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_0610_020_3",
+        "Text": "*: Antes de que se agoten tus fuerzas, <IfGender_LEADER(intrépido héroe,intrépida heroína,)>, deberías buscar la forma de asegurar la continuación de tu linaje."
+      },
+      "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_0610_020_4": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_0610_020_4",
+        "Text": "*: ¡No te rías, es en serio! De hecho, te diría que es tu deber, ¡que la humanidad no puede vivir sin ti!"
+      },
+      "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_0610_020_5": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_0610_020_5",
+        "Text": "*: Debes asegurarte de transmitir tu fuerza, tu audacia y tus habilidades por el bien de las generaciones que vendrán después de ti."
+      },
+      "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_0610_020_6": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_0610_020_6",
+        "Text": "*: De lo contrario, en el futuro no habrá nadie que se ponga la capa de <IfGender_LEADER(héroe,heroína,)> si la oscuridad decidiera volver a aquejar al mundo."
+      },
+      "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_0710_010_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_0710_010_1",
+        "Text": "*: Zoma robó de aquí las armas sagradas y las escondió en lugares desconocidos para el hombre. Cómo me habría gustado verlas<...>"
+      },
+      "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_0710_020_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_0710_020_1",
+        "Text": "*: ¡Viva! ¡Que viva {HERO}!"
+      },
+      "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_0710_020_2": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_0710_020_2",
+        "Text": "*: ¡Viva! ¡Que viva {LEADER}!"
+      },
+      "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_0810_010_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_0810_010_1",
+        "Text": "*: ¿Crees que el Señor del Inframundo le tema a algo? ¿Tal vez a las arañas?"
+      },
+      "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_0810_020_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_0810_020_1",
+        "Text": "*: Ah, fuiste tú quien derrotó al Señor del Inframundo, ¿no es así? ¡Eres impresionante! ¡Ji, ji, je, je!"
+      },
+      "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_0910_010_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_0910_010_1",
+        "Text": "*: El castillo de Trávena te da la más cordial bienvenida con sus brazos abiertos<...> bueno, <66>sus puertas<99>, no <66>brazos<99>."
+      },
+      "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_0910_020_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_0910_020_1",
+        "Text": "*: ¡Regresaste!"
+      },
+      "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_0910_020_2": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_0910_020_2",
+        "Text": "*: ¡El rey se enteró de la derrota propinada al terrible Zoma y está que no cabe de contento!"
+      },
+      "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_1010_010_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_1010_010_1",
+        "Text": "*: El castillo de Trávena te da la más cordial bienvenida con sus brazos abiertos<...> bueno, <66>sus puertas<99>, no <66>brazos<99>."
+      },
+      "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_1010_020_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_1010_020_1",
+        "Text": "*: ¡<IfGender_HERO(Admirable héroe,Admirable heroína,)>! ¡Por favor, pasa a ver al rey! ¡Su Majestad ya te está esperando!"
+      },
+      "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_1010_020_2": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_1F_SUB_0_ACTOR_1010_020_2",
+        "Text": "*: ¡<IfGender_LEADER(Admirable héroe,Admirable heroína,)>! ¡Por favor, pasa a ver al rey! ¡Su Majestad ya te está esperando!"
+      },
+      "Txt_Talk_Ludatorm_Castle_1F_MAIN_0_VOLUME_0010_010_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_1F_MAIN_0_VOLUME_0010_010_1",
+        "Text": "*: ¡Alto! Tu rostro, lo recordaría si lo hubiera visto antes. ¿De dónde vienes?"
+      },
+      "Txt_Talk_Ludatorm_Castle_1F_MAIN_0_VOLUME_0010_010_2": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_1F_MAIN_0_VOLUME_0010_010_2",
+        "Text": "*: ¿En barco desde el oeste? No puede ser<...>"
+      },
+      "Txt_Talk_Ludatorm_Castle_1F_MAIN_0_VOLUME_0010_010_3": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_1F_MAIN_0_VOLUME_0010_010_3",
+        "Text": "*: <IfGender_HERO(Viajero,Viajera,)>, quieres reunirte con Su Majestad, ¿verdad?"
+      },
+      "Txt_Talk_Ludatorm_Castle_1F_MAIN_0_VOLUME_0010_010_4": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_1F_MAIN_0_VOLUME_0010_010_4",
+        "Text": "*: Entonces, permíteme que te acompañe."
+      },
+      "Txt_Talk_Ludatorm_Castle_1F_MAIN_0_VOLUME_0010_010_5": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_1F_MAIN_0_VOLUME_0010_010_5",
+        "Text": "*: No te preocupes. Su Majestad es un rey muy gentil. Será justo contigo. Sígueme."
+      },
+      "Txt_Talk_Ludatorm_Castle_1F_MAIN_0_VOLUME_0010_010_6": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_1F_MAIN_0_VOLUME_0010_010_6",
+        "Text": "*: ¡Oye! Rufianes como tú tienen prohibido el acceso al castillo, ¡media vuelta y largo de aquí!"
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_SUB_0_ACTOR_0110_010_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_SUB_0_ACTOR_0110_010_1",
+        "Text": "*: Oooh<...>, Tengo que encontrar la forma de volver a través de la fosa de Giaga para poder reportar lo que he visto aquí abajo<...>"
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_SUB_0_ACTOR_0110_010_2": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_SUB_0_ACTOR_0110_010_2",
+        "Text": "*: Pero me da muchísimo miedo salir, y aún más volver hasta allá<...>, Ufff<...>"
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_SUB_0_ACTOR_0110_020_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_SUB_0_ACTOR_0110_020_1",
+        "Text": "*: Zzz<...> Zzz<...>"
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_SUB_0_ACTOR_0210_010_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_SUB_0_ACTOR_0210_010_1",
+        "Text": "*: Hasta hace poco, héroes y heroínas por montones ocupaban todas las habitaciones de nuestro humilde hostal."
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_SUB_0_ACTOR_0210_010_2": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_SUB_0_ACTOR_0210_010_2",
+        "Text": "*: Tristemente, ninguno de ellos regresó de donde sea que hayan ido<...>, y nuestras habitaciones ahora están vacías<...> ¡Perdón, se me salen las lágrimas!"
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_SUB_0_ACTOR_0210_020_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_SUB_0_ACTOR_0210_020_1",
+        "Text": "*: ¡Por fin! ¡Después de tantas personas que se aventuraron a la fortaleza del temible Zoma, <IfGender_LEADER(uno,una,)> regresa con vida!"
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_SUB_0_ACTOR_0210_020_2": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_SUB_0_ACTOR_0210_020_2",
+        "Text": "*: Y como si tal hazaña no fuera suficiente, ¡acabaste con el Señor del Inframundo! Eso es<...> no tengo palabras<...> ¡Gracias, infinitas gracias!"
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_SUB_0_ACTOR_0210_020_3": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_SUB_0_ACTOR_0210_020_3",
+        "Text": "*: Veo que <IfGender_HERO(nuestro héroe,nuestra heroína,)> no está aquí<...> ¿Acaso<...>? ¿<IfGender_HERO(Nuestro héroe,Nuestra heroína,)> perdió la vida en<...>?"
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_SUB_0_ACTOR_0210_020_4": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_SUB_0_ACTOR_0210_020_4",
+        "Text": "*: ¡No! ¡Ay, qué dolor! ¿Así que <IfGender_HERO(nuestro salvador,nuestra salvadora,)> derrotó al temible Zoma, pero <IfGender_HERO(lo,la,)> perdimos como consecuencia? Vaya tragedia<...>, Qué pérdida más dolorosa<...>"
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_SUB_0_ACTOR_0210_020_5": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_SUB_0_ACTOR_0210_020_5",
+        "Text": "*: No, no, no<...> Claro que no. ¡Ja! ¡No sé por qué me imaginé lo peor! Por favor, transmítele mi sincera gratitud."
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_MAIN_0_SCENE_0010_010_6": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_MAIN_0_SCENE_0010_010_6",
+        "Text": "Mi guardia me ha hablado mucho de tus proezas. Perdóname por citarte aquí tan repentinamente, pero hay algo que me gustaría pedirte."
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_MAIN_0_SCENE_0010_010_7": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_MAIN_0_SCENE_0010_010_7",
+        "Text": "¿Te suena el nombre de <6>Ortega<9>?"
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_MAIN_0_SCENE_0010_010_8": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_MAIN_0_SCENE_0010_010_8",
+        "Text": "Al fin y al cabo, eres su <IfGender_HERO(hijo,hija,)>."
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_MAIN_0_SCENE_0010_010_9": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_MAIN_0_SCENE_0010_010_9",
+        "Text": "Entonces, permíteme darte oficialmente la bienvenida a Trávena."
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_MAIN_0_SCENE_0010_010_10": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_MAIN_0_SCENE_0010_010_10",
+        "Text": "Ahora, nos correspondería empezar explicándote cómo llegamos a conocer a tu padre en Trávena."
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_MAIN_0_SCENE_0010_010_11": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_MAIN_0_SCENE_0010_010_11",
+        "Text": "Aunque resulte difícil de comprender, Ortega residió una vez entre estos mismos muros."
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_MAIN_0_SCENE_0010_010_12": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_MAIN_0_SCENE_0010_010_12",
+        "Text": "Debe tener más o menos una década. Era un día como cualquier otro, cuando un guerrero herido fue llevado al castillo."
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_MAIN_0_SCENE_0010_010_13": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_MAIN_0_SCENE_0010_010_13",
+        "Text": "Sus heridas eran muy graves, pero aún no había exhalado el último suspiro."
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_MAIN_0_SCENE_0010_010_14": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_MAIN_0_SCENE_0010_010_14",
+        "Text": "Desgraciadamente, excluido su propio nombre, sus recuerdos lo habían abandonado por completo."
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_MAIN_0_SCENE_0010_010_15": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_MAIN_0_SCENE_0010_010_15",
+        "Text": "Decidí que se quedara con nosotros mientras se recuperaba. Ortega incluso me sirvió durante un tiempo."
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_MAIN_0_SCENE_0010_010_16": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_MAIN_0_SCENE_0010_010_16",
+        "Text": "Aunque no recordaba nada de su antigua vida, era un caballero de lo más jovial y muy querido por todos en el castillo."
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_MAIN_0_SCENE_0010_010_17": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_MAIN_0_SCENE_0010_010_17",
+        "Text": "Entonces, de pronto, un día simplemente<...> desapareció. Nadie sabía adónde había ido."
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_MAIN_0_SCENE_0010_010_18": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_MAIN_0_SCENE_0010_010_18",
+        "Text": "Seguramente, te encuentras hoy aquí en busca de tu padre. Por supuesto, pregúntales lo que quieras a los que están en el castillo."
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_MAIN_0_SCENE_0010_010_19": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_MAIN_0_SCENE_0010_010_19",
+        "Text": "Estoy seguro de que pronto te reunirás con él. Pero ten paciencia. Si te ocurriera una tragedia por tu desesperación, Ortega también sufriría."
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0110_020_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0110_020_1",
+        "Text": "Antes de tu llegada, Trávena recibió la visita de un tipo llamado <66>Robo Hood<99>, o algo así."
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0110_020_2": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0110_020_2",
+        "Text": "El desalmado fue sorprendido en el acto de cometer un crimen de lo más atroz y actualmente se encuentra resguardado bajo llave en la iglesia. Es de esperarse que se esté arrepintiendo de sus actos."
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0110_030_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0110_030_1",
+        "Text": "Qué gusto verte, {LEADER}."
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0110_030_2": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0110_030_2",
+        "Text": "Tal vez conozcas la ciudad de Canteria, situada al sur de Trávena. Según recuerdo, tu padre Ortega quería visitar ese lugar."
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0110_030_3": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0110_030_3",
+        "Text": "Supongo que también sabía del peculiar santuario que hay en las cercanías. Si investigas dicho santuario, puede que se te presente una pista sobre el destino de tu padre."
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0110_040_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0110_040_1",
+        "Text": "Qué gusto verte, {LEADER}."
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0110_040_2": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0110_040_2",
+        "Text": "¿Cómo te va con la búsqueda de tu padre? Confío en que te des permiso para descansar un poco de vez en cuando."
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0110_040_3": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0110_040_3",
+        "Text": "Hazme caso, el reposo es vital para aliviar tus heridas y calmar tu mente. Mi canciller me dice que la gente común visita a menudo las aguas termales de Kol, al este, con este mismo propósito."
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0110_040_4": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0110_040_4",
+        "Text": "Tal vez olvidar tus deberes durante un tiempo despierte en ti ideas hasta ahora inconcebibles."
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0110_050_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0110_050_1",
+        "Text": "Qué gusto verte, {LEADER}."
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0110_050_2": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0110_050_2",
+        "Text": "¿Has posado tus ojos en la elevada torre que se alza desde una isla por el lejano noreste?"
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0110_050_3": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0110_050_3",
+        "Text": "Se llama la Torre de Rubiss, y<...> si la leyenda es cierta<...> es la morada sagrada de su homónima."
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0110_050_4": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0110_050_4",
+        "Text": "Te pido que visites la torre y busques a Rubiss para que recibas Su bendición."
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0110_060_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0110_060_1",
+        "Text": "Qué gusto verte, {LEADER}. Quizá haya llegado ya a tus oídos lo que voy a contarte<...>"
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0110_060_2": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0110_060_2",
+        "Text": "Hay una isla, muy al sudeste de Trávena, sobre la que se alza un antiguo santuario."
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0110_060_3": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0110_060_3",
+        "Text": "Un sacerdote de carácter agresivo reside ahí en espera de la llegada <IfGender_LEADER(del elegido,de la elegida,)>."
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0110_060_4": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0110_060_4",
+        "Text": "{HERO}, tengo la firme creencia de que él te revelará el camino que debes seguir en tu travesía."
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0110_060_5": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0110_060_5",
+        "Text": "Aunque no sé por qué se despertó en mí este sentimiento, pongo toda mi fe en él."
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0110_070_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0110_070_1",
+        "Text": "Qué gusto verte, {LEADER}."
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0110_070_2": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0110_070_2",
+        "Text": "Desde la última vez que nos vimos he estado muy preocupado pensando en el paradero de Ortega."
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0110_070_3": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0110_070_3",
+        "Text": "Durante mucho tiempo he reflexionado sobre este tema, hasta que llegué a la firme conclusión de que viajó a la isla del gran demonio, hogar de Zoma."
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0110_070_4": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0110_070_4",
+        "Text": "No es un lugar al que pueda llegar un simple mortal, pero tampoco es <66>digno<99> de alguien de la talla de Ortega<...>"
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0110_070_5": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0110_070_5",
+        "Text": "El tiempo apremia, {HERO}. Te pido que encuentres a Ortega antes de que sea demasiado tarde."
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0110_080_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0110_080_1",
+        "Text": "Qué gusto verte, {LEADER}. Tienes un semblante vigoroso y valiente."
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0110_080_2": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0110_080_2",
+        "Text": "Es una vista muy estimulante en medio de la creciente oscuridad que Zoma ha provocado. Debo enviar las tropas de las que pueda disponer a los asentamientos vecinos<...>"
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0110_080_3": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0110_080_3",
+        "Text": "Sus vidas son valiosas, igual <IfSolo(que la tuya,que las de ustedes)>. Ruego que <IfSolo(tus,sus)> esfuerzos no hayan sido en vano."
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0110_080_4": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0110_080_4",
+        "Text": "¡Adelante, {LEADER}! ¡Derrota al enemigo que siembra la oscuridad en nuestra hermosa tierra!"
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0210_010_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0210_010_1",
+        "Text": "El poderoso Ortega luchó junto a nosotros contra las legiones de Zoma en el pasado. Nunca había visto un guerrero tan capaz, y no lo he vuelto a ver desde entonces."
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0210_020_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0210_020_1",
+        "Text": "Que surgiera <IfGender_HERO(un héroe,una heroína,)> con la fuerza suficiente para vencer al Señor del Inframundo<...>"
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0210_020_2": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0210_020_2",
+        "Text": "Es tan joven<...>"
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0210_020_4": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0210_020_4",
+        "Text": "Y haberlo hecho sin ayuda<...>"
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0210_020_5": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0210_020_5",
+        "Text": "Pero no esperaría menos <IfGender_HERO(del hijo,de la hija,)> de Ortega. ¡Tu nombre será recordado por siglos!"
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0210_020_9": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0210_020_9",
+        "Text": "Qué triste que alguien de su talla tuviera un final tan trágico<...> Sin duda lo recordaremos con gran estima, <IfGender_LEADER(joven héroe,joven heroína,)>."
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0210_020_10": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0210_020_10",
+        "Text": "No es mucho consuelo, pero estoy seguro de que te sonríe desde donde esté mientras hablamos. ¡Sé que está muy orgulloso de ti!"
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0210_020_11": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0210_020_11",
+        "Text": "Así que realmente existían guerreros capaces de vencer al Señor del Inframundo<...>"
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0210_020_12": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0210_020_12",
+        "Text": "Pero, entonces, los compañeros elegidos por <IfGender_HERO(el,la,)> gran {HERO} no pueden sino estar a la altura de semejante tarea<...>"
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0210_020_13": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0210_020_13",
+        "Text": "En cualquier caso, <IfSolo(tienes,tienen)> toda mi admiración y mi profundo agradecimiento. ¡Su Majestad está esperando!"
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0210_030_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0210_030_1",
+        "Text": "Así que Ortega<...> Esto sí que es una tragedia<...>"
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0210_030_2": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0210_030_2",
+        "Text": "En cualquier caso, <IfSolo(tienes,tienen)> toda mi admiración y mi profundo agradecimiento. ¡Su Majestad está esperando!"
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0310_010_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0310_010_1",
+        "Text": "*: El humilde asentamiento de Kol se encuentra muy al noreste de este lugar, en una región donde sus bosques se extienden más allá del horizonte."
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0310_010_2": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0310_010_2",
+        "Text": "*: Aunque, si tuvieras un barco, podrías caminar hacia el oeste, llegar a la costa y hacerte a la mar desde ahí para llegar hasta allá."
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0410_010_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0410_010_1",
+        "Text": "*: Mientras Ortega estuvo aquí, estuve a cargo de atender a tan valeroso héroe."
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0410_010_2": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0410_010_2",
+        "Text": "*: Se encontraba en un estado grave cuando lo encontraron a las afueras del castillo. Se había desmayado y sufrido quemaduras graves."
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0410_010_3": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0410_010_3",
+        "Text": "*: Lo único que recordaba era su propio nombre, y aunque físicamente se recuperó con el tiempo, nunca recobró la memoria."
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0510_010_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0510_010_1",
+        "Text": "*: ¿Te vas a embarcar en una aventura, <IfGender_LEADER(amigo mío,amiga mía,)>? En ese caso, ¡permite que este humilde bardo cante tus alabanzas! A ver<...>"
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0510_010_2": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0510_010_2",
+        "Text": "*: ♪ La, la, loooo, de muy lejos <IfGender_MOST_HEROIC(un gran héroe,una gran heroína,)> llegóóó<...>\r\n¡La, la, liiiii, que se cuide Zoma de su valiente némesiiiis!\r\n¡La, la, leeee, el Señor del Inframundo ya fueeee! ♪"
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0510_020_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0510_020_1",
+        "Text": "*: ¡Compondré una canción sobre <IfSolo(ti,ti y tus acompañantes)>! ¡Una que resonará por toda la Tierra!"
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0510_020_2": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0510_020_2",
+        "Text": "*: ¡Una melodía que la gente entonará por siglos, acerca de las hazañas <IfGender_LEADER(del héroe,de la heroína,)> más grande del reino!"
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0510_020_3": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0510_020_3",
+        "Text": "*: Camarada, la noticia ha llegado a mis oídos. Te alzaste con la victoria incluso sin la ayuda <IfGender_HERO(del magnífico héroe,de la magnífica heroína,)><...>"
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0510_020_4": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0510_020_4",
+        "Text": "*: ¡Asombroso! ¡Extraordinario! ¡ÉPICO! Escribiré una canción sobre <IfSolo(ti,ti y tu grupo de valientes compañeros)> para que tal hazaña sea recordada por siglos, ¡sí que sí!"
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0610_010_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0610_010_1",
+        "Text": "*: Según algunas leyendas, habría una ocarina feérica en algún lugar de la aldea de Kol. ¿Será real?"
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0710_010_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0710_010_1",
+        "Text": "*: Ahora mismo nos encontramos en la sala del trono de nuestro amado rey."
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0810_010_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0810_010_1",
+        "Text": "*: ¡Viva! ¡Hurra! ¡Qué alegría! ¡El Señor del Inframundo dejó de existir!"
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0810_010_2": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0810_010_2",
+        "Text": "*: ¡La tierra se regocija desde la cumbre más alta hasta el barranco más profundo! ¡Es un día de pura felicidad!"
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0910_010_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0910_010_1",
+        "Text": "*: ¡Estoy tan, pero tan FELIZ! ¡Mi cuerpo no para de bailar! ¡Bailo, bailo y sigo bailando de alegría!"
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0910_010_2": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_0910_010_2",
+        "Text": "*: ¡Pasito! ¡Dos, tres, cuatro! ¡Sacude! ¡Por fin amanece en Alefgard! ¡Dos, tres, cuatro y salto! ¡Ven, baila conmigo!"
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_1010_010_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_1010_010_1",
+        "Text": "*: En verdad nunca imaginé que llegaría un día como hoy. ¡Te estamos eternamente agradecidos, trotamundos!"
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_1110_010_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_1110_010_1",
+        "Text": "*: Ya nos llegaron noticias sobre tus hazañas. Preséntate ante el rey. Tiene muchas ganas de verte."
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_1210_010_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_1210_010_1",
+        "Text": "*: Su Majestad espera tu llegada con gran emoción. ¡Anda, ve!"
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_1310_010_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_1310_010_1",
+        "Text": "*: ¡Derrotaste al temible Zoma! ¡Eres <IfGender_HERO(un verdadero héroe,una verdadera heroína,)>!"
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_1310_010_2": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_1310_010_2",
+        "Text": "*: Nunca imaginé que alguien lograría acabar con Zoma."
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_1410_010_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_1410_010_1",
+        "Text": "*: Tienes mi gratitud absoluta y sincera<...> ¡Salvaste nuestro reino! La luz y la esperanza regresan a Alefgard<...> No tengo palabras<...>"
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_1510_010_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_1510_010_1",
+        "Text": "*: ¡Salve {HERO}, <IfGender_HERO(nuestro admirable héroe,nuestra admirable heroína,)>! ¿Eh? ¿Te<...> ruborizaste? ¡Je, je! ¡Anda, en marcha, el rey te espera!"
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_1510_010_2": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_1510_010_2",
+        "Text": "*: ¿Dónde está <IfGender_HERO(el,la,)> increíble e imponente {HERO}? ¿Cómo? ¿Es tan <IfGender_HERO(tímido,tímida,)> que no se atreve a hablar con un rey? ¡Ja, qué curioso! ¡Por favor, trae a <IfGender_HERO(nuestro salvador,nuestra salvadora,)>!"
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_1610_010_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_1610_010_1",
+        "Text": "*: ¡No lo puedo creer! ¿Le diriges la palabra a alguien de mi clase? Me siento honrado, ¡gracias eternas!"
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_1610_010_2": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_1610_010_2",
+        "Text": "*: Bueno, adelante<...> El rey quiere verte<...> ¡No lo dejes esperando!"
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_1710_010_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_1710_010_1",
+        "Text": "*: ¡La luz! Qué hermosa<...> Qué bonito resplandece<...> Qué tibia se siente<...> Nunca antes me había tocado ver algo así<...>"
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_1710_010_2": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_1710_010_2",
+        "Text": "*: Ya no tendremos que vivir en las tinieblas ni temerle a la oscuridad."
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_1710_010_3": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_1710_010_3",
+        "Text": "*: ¡Viva {HERO}!\r\n¡Larga y próspera vida a <IfGender_HERO(nuestro héroe y salvador,nuestra heroína y salvadora,)>!"
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_1710_010_4": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_ACTOR_1710_010_4",
+        "Text": "*: ¡Viva {HERO}, <IfGender_HERO(nuestro héroe y salvador,nuestra heroína y salvadora,)>!\r\n¿Mmm? ¿Y dónde se encuentra <IfGender_HERO(aquél,aquella,)> a quien tanto debemos?"
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_1",
+        "Text": "¡Silencio en la cámara real!"
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_2": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_2",
+        "Text": "Recibimos noticias de tus hazañas y esperábamos ansiosos tu llegada."
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_3": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_3",
+        "Text": "Que derrotaras al temible Zoma, Señor del Inframundo, es algo increíble. Haber realizado semejante hazaña sin ayuda alguna es poco menos que un milagro."
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_4": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_4",
+        "Text": "Y que hayas regresado con nosotros <IfGender_HERO(ileso,ilesa,)> es un regalo por el que damos gracias al Todopoderoso."
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_5": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_5",
+        "Text": "Por fin amaneció en nuestro reino, y todo gracias a tus denodados esfuerzos."
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_6": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_6",
+        "Text": "Aunque parece que la muerte del temible Zoma ha sellado la puerta entre nuestro reino y el tuyo<...>"
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_7": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_7",
+        "Text": "Alefgard debe dar ahora sus primeros pasos como mundo por derecho propio. Debe emerger, parpadeando, en el amanecer de su devenir."
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_8": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_8",
+        "Text": "Todo gracias a ti."
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_9": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_9",
+        "Text": "Eres <IfGender_HERO(un héroe,una heroína,)> sin igual."
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_10": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_10",
+        "Text": "Por la presente, te concedo el más alto honor de nuestro reino. El título de <66>Erdrick<99>, que significa <6>tierra de morada<9> en la lengua antigua. Un nombre digno <IfGender_HERO(del héroe elegido,de la heroína elegida,)> por la tierra."
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_11": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_11",
+        "Text": "Todos sabrán de ti."
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_12": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_12",
+        "Text": "La historia de las hazañas de Erdrick ocupará un lugar entre las leyendas de nuestro reino y resonará a través de los siglos."
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_13": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_13",
+        "Text": "Recibimos noticias de sus hazañas y esperábamos ansiosos su llegada."
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_15": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_15",
+        "Text": "Que <IfSolo(derrotaras,derrotaran)> al temible Zoma, Señor del Inframundo, es algo increíble. Y que <IfSolo(hayas,hayan)> regresado con nosotros es un regalo por el que damos gracias a la Todopoderosa."
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_16": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_16",
+        "Text": "Por fin amaneció en nuestro reino, y todo gracias a <IfSolo(tus,sus)> denodados esfuerzos."
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_17": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_17",
+        "Text": "Aunque parece que la muerte del temible Zoma ha sellado la puerta entre nuestro reino y el <IfSolo(tuyo,de ustedes)><...>"
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_18": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_18",
+        "Text": "Alefgard debe dar ahora sus primeros pasos como mundo por derecho propio. Debe emerger, parpadeando, en el amanecer de su devenir."
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_19": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_19",
+        "Text": "Todo es gracias a ti y a tus compañeros."
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_20": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_20",
+        "Text": "Eres <IfGender_HERO(un héroe,una heroína,)> sin igual."
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_21": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_21",
+        "Text": "Por la presente, te concedo el más alto honor de nuestro reino. El título de <66>Erdrick<99>, que significa <6>tierra de morada<9> en la lengua antigua. Un nombre digno <IfGender_HERO(del héroe elegido,de la heroína elegida,)> por la tierra."
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_22": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_22",
+        "Text": "Todos sabrán de <IfSolo(ti,ustedes)>."
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_23": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_23",
+        "Text": "¡La historia de <IfSolo(tus,sus)> hazañas ocupará un lugar entre las leyendas de nuestro reino y resonará a través de los siglos!"
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_24": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_24",
+        "Text": "Recibimos noticias de sus hazañas y esperábamos ansiosos su llegada."
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_25": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_25",
+        "Text": "Que derrotaran al temible Zoma, Señor del Inframundo, es algo increíble."
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_26": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_26",
+        "Text": "Sus hazañas son prueba de la valía que su gran líder vio en ustedes. Ahora nadie puede negar su poder."
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_27": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_27",
+        "Text": "Que la luz del amanecer haya caído por fin sobre nuestro reino es gracias a sus incansables esfuerzos."
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_28": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_28",
+        "Text": "Se los agradecemos de todo corazón."
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_29": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_29",
+        "Text": "¿Y dónde está a quien tanto ansío ver? Hay algo que me gustaría decirle a <IfGender_HERO(nuestro héroe,nuestra heroína,)> y a nadie más."
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_30": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_30",
+        "Text": "Espera<...>"
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_31": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_31",
+        "Text": "A quien buscas está ante ti<...>"
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_32": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_32",
+        "Text": "Madre mía<...>"
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_33": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_33",
+        "Text": "¿Cómo<...>? No importa. Es bueno que te hayas presentado ante nosotros."
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_34": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_34",
+        "Text": "Por nuestra parte, debemos agradecer tus esfuerzos y tus actos verdaderamente heroicos."
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_35": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_35",
+        "Text": "Ahora, ruego que me prestes toda tu atención<...>"
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_38": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_38",
+        "Text": "Por la presente, te concedo el más alto honor de nuestro reino. El título de <66>Erdrick<99>, que significa <6>tierra de morada<9> en la lengua antigua. Un nombre digno <IfGender_HERO(del héroe elegido,de la heroína elegida,)> por la tierra."
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_39": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_39",
+        "Text": "Todos sabrán de <IfSolo(ti,ustedes)>."
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_40": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_40",
+        "Text": "¡La historia de <IfSolo(tus,sus)> hazañas ocupará un lugar entre las leyendas de nuestro reino y resonará a través de los siglos!"
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_41": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_41",
+        "Text": "Y así, {HERO}, <IfGender_HERO(salvador,salvadora,)> de Alefgard, pasó a la leyenda de aquel reino como Erdrick, <IfGender_HERO(héroe,heroína,)> de la tierra."
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_42": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_42",
+        "Text": "Pero cuando finalmente se apagaron las celebraciones, <IfGender_HERO(nuestro héroe,nuestra heroína,)> no aparecía por ninguna parte<...>"
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_43": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_43",
+        "Text": "Solo dejó una espada, una armadura, un escudo y un amuleto, que se convirtieron en grandes tesoros del reino."
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_44": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_44",
+        "Text": "La espada, la armadura, el escudo y la marca de Erdrick, como llegó a conocerse al amuleto sacro, se transmitieron de generación en generación<...>"
+      },
+      "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_45": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_2F_throne_SUB_0_VOLUME_1810_010_45",
+        "Text": "Así se sembraron las semillas de la salvación."
+      },
+      "Txt_Talk_Ludatorm_Castle_B1_SUB_0_ACTOR_0110_010_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_B1_SUB_0_ACTOR_0110_010_1",
+        "Text": "*: ¿Cómo, perdón? ¿La piedra solar? Por desgracia, aquí no encontrarás tal tesoro, camarada."
+      },
+      "Txt_Talk_Ludatorm_Castle_B1_SUB_0_ACTOR_0110_010_2": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_B1_SUB_0_ACTOR_0110_010_2",
+        "Text": "*: Pero, por alguna extraña coincidencia, soñé con ese objeto<...>"
+      },
+      "Txt_Talk_Ludatorm_Castle_B1_SUB_0_ACTOR_0110_010_3": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_B1_SUB_0_ACTOR_0110_010_3",
+        "Text": "*: Sí, el alba regresó finalmente a nuestro reino y, tras su ruptura, se me confió la misma piedra<...>"
+      },
+      "Txt_Talk_Ludatorm_Castle_B1_SUB_0_ACTOR_0110_020_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_B1_SUB_0_ACTOR_0110_020_1",
+        "Text": "*: ¡La luz del día vuelve a nuestras vidas! ¡Y todo gracias a ti! ¡Qué emoción! ¡Cuánta felicidad!"
+      },
+      "Txt_Talk_Ludatorm_Castle_B1_SUB_0_ACTOR_0110_020_2": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_B1_SUB_0_ACTOR_0110_020_2",
+        "Text": "*: Es primavera en mi corazón y no tengo palabras que puedan expresar toda mi gratitud<...> ¡Estoy conmovido!"
+      },
+      "Txt_Talk_Ludatorm_Castle_B1_SUB_0_ACTOR_0110_020_3": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_B1_SUB_0_ACTOR_0110_020_3",
+        "Text": "*: Ejem. ¿Era tu deseo conversar con tu servidor?"
+      },
+      "Txt_Talk_Ludatorm_Castle_B1_SUB_0_ACTOR_0110_020_4": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_B1_SUB_0_ACTOR_0110_020_4",
+        "Text": "*: ¡Pero<...>!\r\n¡No lo puedo creer!"
+      },
+      "Txt_Talk_Ludatorm_Castle_B1_SUB_0_ACTOR_0110_020_5": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_B1_SUB_0_ACTOR_0110_020_5",
+        "Text": "*: ¿En verdad es tu voluntad confiarme la piedra solar?"
+      },
+      "Txt_Talk_Ludatorm_Castle_B1_SUB_0_ACTOR_0110_020_6": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_B1_SUB_0_ACTOR_0110_020_6",
+        "Text": "*: ¿Entonces mi sueño<...> fue más bien un presagio? ¡Alabada sea la Todopoderosa!"
+      },
+      "Txt_Talk_Ludatorm_Castle_B1_SUB_0_ACTOR_0110_020_7": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_B1_SUB_0_ACTOR_0110_020_7",
+        "Text": "*: ¡En este acto, acepto con toda humildad y absoluta responsabilidad la encomienda de salvaguardar la piedra sagrada!"
+      },
+      "Txt_Talk_Ludatorm_Castle_B1_SUB_0_ACTOR_0110_020_8": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_B1_SUB_0_ACTOR_0110_020_8",
+        "Text": "*: ¿No me la confiarás<...>? Pero<...> En mi sueño<...> La piedra solar me era confiada<...> Quedaba bajo mi custodia<...> ¿Por qué no<...>?"
+      },
+      "Txt_Talk_Ludatorm_Castle_B1_SUB_0_ACTOR_0110_030_1": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_B1_SUB_0_ACTOR_0110_030_1",
+        "Text": "*: Aunque hoy gocemos de la luz, si alguna vez el mal pernicioso intenta hundirnos de nuevo en la penumbra, recurriremos con presteza a la piedra solar."
+      },
+      "Txt_Talk_Ludatorm_Castle_B1_SUB_0_ACTOR_0110_030_2": {
+        "SelfId": "Txt_Talk_Ludatorm_Castle_B1_SUB_0_ACTOR_0110_030_2",
+        "Text": "*: Por ello, juro cuidarla con esmero, por si un día volvemos a necesitarla a fin de restaurar la paz en esta tierra."
+      }
+    }
+  }
+]

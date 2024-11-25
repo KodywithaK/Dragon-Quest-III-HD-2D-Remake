@@ -1,0 +1,106 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Event_DreamCastle",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Event_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "EVENT_DreamCastle_MAPLIST_S06R0102_0": {
+        "SelfId": "EVENT_DreamCastle_MAPLIST_S06R0102_0",
+        "EventID": "DreamCastle_QueenRoom_MAIN_0_SCENE_0010_010",
+        "TriggerType": "EEventTriggerType::SCENE",
+        "TriggerID": "MAPLIST_S06R0102",
+        "EventPriority": 0,
+        "ProgressLower": 0,
+        "ProgressUpper": 30,
+        "StartFlagName1": "None",
+        "IsTrueCondition1": false,
+        "IsAndOperation": false,
+        "StartFlagName2": "None",
+        "IsTrueCondition2": false,
+        "ScenarioProgress": 0
+      },
+      "EVENT_DreamCastle_DreamCastle_QueenRoom_1_0": {
+        "SelfId": "EVENT_DreamCastle_DreamCastle_QueenRoom_1_0",
+        "EventID": "DreamCastle_QueenRoom_MAIN_0_VOLUME_0110_010",
+        "TriggerType": "EEventTriggerType::VOLUME",
+        "TriggerID": "DreamCastle_QueenRoom_1",
+        "EventPriority": 0,
+        "ProgressLower": 0,
+        "ProgressUpper": 30,
+        "StartFlagName1": "FD8",
+        "IsTrueCondition1": false,
+        "IsAndOperation": false,
+        "StartFlagName2": "None",
+        "IsTrueCondition2": false,
+        "ScenarioProgress": 0
+      },
+      "EVENT_DreamCastle_DreamCastle_QueenRoom_Princess_01_L1_0": {
+        "SelfId": "EVENT_DreamCastle_DreamCastle_QueenRoom_Princess_01_L1_0",
+        "EventID": "DreamCastle_QueenRoom_MAIN_0_ACTOR_0110_010",
+        "TriggerType": "EEventTriggerType::ACTOR",
+        "TriggerID": "DreamCastle_QueenRoom_Princess_01_L1",
+        "EventPriority": 0,
+        "ProgressLower": 0,
+        "ProgressUpper": 30,
+        "StartFlagName1": "None",
+        "IsTrueCondition1": false,
+        "IsAndOperation": false,
+        "StartFlagName2": "None",
+        "IsTrueCondition2": false,
+        "ScenarioProgress": 0
+      },
+      "EVENT_DreamCastle_DreamCastle_ThroneRoom_1_0": {
+        "SelfId": "EVENT_DreamCastle_DreamCastle_ThroneRoom_1_0",
+        "EventID": "DreamCastle_ThroneRoom_MAIN_0_VOLUME_0010_010",
+        "TriggerType": "EEventTriggerType::VOLUME",
+        "TriggerID": "DreamCastle_ThroneRoom_1",
+        "EventPriority": 0,
+        "ProgressLower": 0,
+        "ProgressUpper": 30,
+        "StartFlagName1": "FD9",
+        "IsTrueCondition1": false,
+        "IsAndOperation": false,
+        "StartFlagName2": "None",
+        "IsTrueCondition2": false,
+        "ScenarioProgress": 0
+      },
+      "EVENT_DreamCastle_DreamCastle_ThroneRoom_King_01_L1_0": {
+        "SelfId": "EVENT_DreamCastle_DreamCastle_ThroneRoom_King_01_L1_0",
+        "EventID": "DreamCastle_ThroneRoom_MAIN_0_ACTOR_0110_010",
+        "TriggerType": "EEventTriggerType::ACTOR",
+        "TriggerID": "DreamCastle_ThroneRoom_King_01_L1",
+        "EventPriority": 0,
+        "ProgressLower": 0,
+        "ProgressUpper": 30,
+        "StartFlagName1": "None",
+        "IsTrueCondition1": false,
+        "IsAndOperation": false,
+        "StartFlagName2": "None",
+        "IsTrueCondition2": false,
+        "ScenarioProgress": 0
+      },
+      "EVENT_DreamCastle_DreamCastle_ThroneRoom_Minister_01_L1_0": {
+        "SelfId": "EVENT_DreamCastle_DreamCastle_ThroneRoom_Minister_01_L1_0",
+        "EventID": "DreamCastle_ThroneRoom_MAIN_0_ACTOR_0210_010",
+        "TriggerType": "EEventTriggerType::ACTOR",
+        "TriggerID": "DreamCastle_ThroneRoom_Minister_01_L1",
+        "EventPriority": 0,
+        "ProgressLower": 0,
+        "ProgressUpper": 30,
+        "StartFlagName1": "None",
+        "IsTrueCondition1": false,
+        "IsAndOperation": false,
+        "StartFlagName2": "None",
+        "IsTrueCondition2": false,
+        "ScenarioProgress": 0
+      }
+    }
+  }
+]

@@ -1,0 +1,96 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_AppearanceChange",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_AppearanceChange_Message_Start": {
+        "SelfId": "Txt_AppearanceChange_Message_Start",
+        "Text": "Salut (slurp)!<KEY_WAIT>\r\nJ'imagine que t'es là pour changer ton apparence?<NO_INPUT>"
+      },
+      "Txt_AppearanceChange_Message_First": {
+        "SelfId": "Txt_AppearanceChange_Message_First",
+        "Text": "J'm'appelle Homicho, au fait. J'en ai pas l'air mais la mode, c'est ma slurpécialité!\r\n<KEY_WAIT>\r\nJ'ai plein de talents comme la coiffure ou la teinture, je peux même changer ta voix (slurp)!<KEY_WAIT>\r\nSi ça te chante, je peux te faire un relooking. Mais attention, c'est pas gratuit (slurp)!<KEY_WAIT>\r\nNe perdons pas glu de temps! Quelqu'un est partant pour un renouveau, ici?<NO_INPUT>"
+      },
+      "Txt_AppearanceChange_Message_Top": {
+        "SelfId": "Txt_AppearanceChange_Message_Top",
+        "Text": "Un candidat pour un relooking gluifiant?"
+      },
+      "Txt_AppearanceChange_Message_NameSelect": {
+        "SelfId": "Txt_AppearanceChange_Message_NameSelect",
+        "Text": "(slurp) Qui veut se créer un nouveau style?<NO_INPUT>"
+      },
+      "Txt_AppearanceChange_Message_LooksSelect": {
+        "SelfId": "Txt_AppearanceChange_Message_LooksSelect",
+        "Text": "{ACTOR}? OK (slurp)!\r\nOn part sur quelle apparence, alors?<NO_INPUT>"
+      },
+      "Txt_AppearanceChange_Message_HairColorSelect": {
+        "SelfId": "Txt_AppearanceChange_Message_HairColorSelect",
+        "Text": "(slurp) Une préférence pour la couleur de cheveux?\r\n<NO_INPUT>"
+      },
+      "Txt_AppearanceChange_Message_HairColorSelectHero": {
+        "SelfId": "Txt_AppearanceChange_Message_HairColorSelectHero",
+        "Text": "Hum... {HERO}, je trouve que ta coiffure est au top mais je peux te faire une couleur!\r\nUne préférence?<NO_INPUT>"
+      },
+      "Txt_AppearanceChange_Message_VoiceSelect": {
+        "SelfId": "Txt_AppearanceChange_Message_VoiceSelect",
+        "Text": "(slurp) Une idée pour le style de voix?"
+      },
+      "Txt_AppearanceChange_Message_NoChange": {
+        "SelfId": "Txt_AppearanceChange_Message_NoChange",
+        "Text": "Là, je vois vraiment glu différence avec avant!\r\nOn change rien, alors?<NO_INPUT>"
+      },
+      "Txt_AppearanceChange_Message_LooksChangeConfirm": {
+        "SelfId": "Txt_AppearanceChange_Message_LooksChangeConfirm",
+        "Text": "OK! Ça fera {VALUE} <IfFRSing_VALUE(pièce,pièces)> d'or pour ce nouveau look, c'est bon?"
+      },
+      "Txt_AppearanceChange_Message_LooksChangeStart": {
+        "SelfId": "Txt_AppearanceChange_Message_LooksChangeStart",
+        "Text": "(slurp) Merci! Attends glu secondes!"
+      },
+      "Txt_AppearanceChange_Message_LooksChangeFinish": {
+        "SelfId": "Txt_AppearanceChange_Message_LooksChangeFinish",
+        "Text": "Glu-glu! Le résultat est gluifiant!"
+      },
+      "Txt_AppearanceChange_Message_CanNotChangeDeath": {
+        "SelfId": "Txt_AppearanceChange_Message_CanNotChangeDeath",
+        "Text": "Gluuuu! Faut pas pousser! Je peux pas relooker un macchabée! Ça craint..."
+      },
+      "Txt_AppearanceChange_Message_CanNotChangeHero": {
+        "SelfId": "Txt_AppearanceChange_Message_CanNotChangeHero",
+        "Text": "Glu sais, {HERO}, t'as déjà atteint le pic de la classe.\r\nSi j'étais toi, je changerais pas d'un iota..."
+      },
+      "Txt_AppearanceChange_Message_Shortage": {
+        "SelfId": "Txt_AppearanceChange_Message_Shortage",
+        "Text": "Mais t'as pas un rond sur toi, poto ! (slurp)\r\nReviens me voir quand t'as au moins {VALUE} <IfFRSing_VALUE(pièce,pièces)> d'or sur toi, OK?"
+      },
+      "Txt_AppearanceChange_Message_Cancel": {
+        "SelfId": "Txt_AppearanceChange_Message_Cancel",
+        "Text": "... Eh? T'as changé d'avis? (slurp)\r\nD'accord..."
+      },
+      "Txt_AppearanceChange_Message_AddChangeConfirm": {
+        "SelfId": "Txt_AppearanceChange_Message_AddChangeConfirm",
+        "Text": "D'autres volontaires pour se refaire une beauté?<NO_INPUT>"
+      },
+      "Txt_AppearanceChange_Message_Finish": {
+        "SelfId": "Txt_AppearanceChange_Message_Finish",
+        "Text": "Bye glu! Repasse quand tu veux pour un relooking gluifiant!"
+      },
+      "Txt_AppearanceChange_Message_CanNotChange": {
+        "SelfId": "Txt_AppearanceChange_Message_CanNotChange",
+        "Text": "Hum... Pardon mais <IfSolo(glu peux pas, aucun d'entre vous peut)> profiter d'un relooking gluifiant, là maintenant!"
+      },
+      "Txt_AppearanceChange_Message_NoChangeLooks": {
+        "SelfId": "Txt_AppearanceChange_Message_NoChangeLooks",
+        "Text": "Mais y a rien qui change, là... (slurp)\r\nOn reste comme ça?<NO_INPUT>"
+      }
+    }
+  }
+]

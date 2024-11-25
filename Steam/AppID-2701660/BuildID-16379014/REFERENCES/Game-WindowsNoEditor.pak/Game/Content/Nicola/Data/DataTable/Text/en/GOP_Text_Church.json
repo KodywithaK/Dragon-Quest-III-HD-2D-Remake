@@ -1,0 +1,380 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_Church",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Church_UI_Top_01": {
+        "SelfId": "Txt_Church_UI_Top_01",
+        "Text": "Confession (Save)"
+      },
+      "Txt_Church_UI_Top_02": {
+        "SelfId": "Txt_Church_UI_Top_02",
+        "Text": "Divination"
+      },
+      "Txt_Church_UI_Top_03": {
+        "SelfId": "Txt_Church_UI_Top_03",
+        "Text": "Resurrection"
+      },
+      "Txt_Church_UI_Top_04": {
+        "SelfId": "Txt_Church_UI_Top_04",
+        "Text": "Purification"
+      },
+      "Txt_Church_UI_Top_05": {
+        "SelfId": "Txt_Church_UI_Top_05",
+        "Text": "Benediction"
+      },
+      "Txt_Church_UI_Top_06": {
+        "SelfId": "Txt_Church_UI_Top_06",
+        "Text": "Cancel"
+      },
+      "Txt_Church_Message_Start_Pri": {
+        "SelfId": "Txt_Church_Message_Start_Pri",
+        "Text": "*: Faithful servant of the Goddess, how may our church assist you?<NO_INPUT>"
+      },
+      "Txt_Church_Message_StartNight_Pri": {
+        "SelfId": "Txt_Church_Message_StartNight_Pri",
+        "Text": "*: What brings you to our church in the dead of night, child?<NO_INPUT>"
+      },
+      "Txt_Church_Message_ReviveTop_Pri": {
+        "SelfId": "Txt_Church_Message_ReviveTop_Pri",
+        "Text": "*: Whom would you see brought back to the world of the living?<NO_INPUT>"
+      },
+      "Txt_Church_Message_Alive_Pri": {
+        "SelfId": "Txt_Church_Message_Alive_Pri",
+        "Text": "*: Surely you jest? {ACTOR} looks very much alive to me!"
+      },
+      "Txt_Church_Message_Revive_Pri": {
+        "SelfId": "Txt_Church_Message_Revive_Pri",
+        "Text": "*: O great and benevolent Goddess!\r\nIf it be Your will, please bring our beloved {ACTOR} back to this world!<NO_INPUT>"
+      },
+      "Txt_Church_Message_ReviveResult_Pri": {
+        "SelfId": "Txt_Church_Message_ReviveResult_Pri",
+        "Text": "{ACTOR} is resurrected!"
+      },
+      "Txt_Church_Message_DetoxiTop_Pri": {
+        "SelfId": "Txt_Church_Message_DetoxiTop_Pri",
+        "Text": "*: Whom shall I treat for poison?<NO_INPUT>"
+      },
+      "Txt_Church_Message_NotPoison_Pri": {
+        "SelfId": "Txt_Church_Message_NotPoison_Pri",
+        "Text": "*: You are mistaken, child. There is no trace of poison in {ACTOR}'s system."
+      },
+      "Txt_Church_Message_Detoxi_Pri": {
+        "SelfId": "Txt_Church_Message_Detoxi_Pri",
+        "Text": "*: O great and benevolent Goddess!\r\nPlease purge the poison from Your faithful servant, {ACTOR}!<NO_INPUT>"
+      },
+      "Txt_Church_Message_DetoxiResult_Pri": {
+        "SelfId": "Txt_Church_Message_DetoxiResult_Pri",
+        "Text": "{ACTOR} is no longer poisoned."
+      },
+      "Txt_Church_Message_CurseTop_Pri": {
+        "SelfId": "Txt_Church_Message_CurseTop_Pri",
+        "Text": "*: From whom do you wish to lift a curse?<NO_INPUT>"
+      },
+      "Txt_Church_Message_NotCurse_Pri": {
+        "SelfId": "Txt_Church_Message_NotCurse_Pri",
+        "Text": "*: Pardon me, child, but {ACTOR} does not seem to be cursed."
+      },
+      "Txt_Church_Message_HealCurse_Pri": {
+        "SelfId": "Txt_Church_Message_HealCurse_Pri",
+        "Text": "*: O great and benevolent Goddess, lend us Your almighty power! Remove the infernal curse afflicting {ACTOR}!<NO_INPUT>"
+      },
+      "Txt_Church_Message_HealCurseResult_Pri": {
+        "SelfId": "Txt_Church_Message_HealCurseResult_Pri",
+        "Text": "{ACTOR} is no longer cursed."
+      },
+      "Txt_Church_Message_Confirm_Pri": {
+        "SelfId": "Txt_Church_Message_Confirm_Pri",
+        "Text": "*: In order to perform this service, I shall require <IfSing_VALUE(a single gold coin by way of a contribution,a small contribution of {VALUE} gold coins)>. Will you oblige, my child?<NO_INPUT>"
+      },
+      "Txt_Church_Message_Shotage_Pri": {
+        "SelfId": "Txt_Church_Message_Shotage_Pri",
+        "Text": "*: It seems that you cannot afford to make this humble donation.<KEY_WAIT>\r\n*: Forgive me for requesting too much from Your faithful servants, O great and benevolent Goddess!"
+      },
+      "Txt_Church_Message_PaymentCancel_Pri": {
+        "SelfId": "Txt_Church_Message_PaymentCancel_Pri",
+        "Text": "*: Donations to the church are an expression of gratitude to the great and benevolent Goddess! To neglect this expression of faith is most lamentable."
+      },
+      "Txt_Church_Message_Cancel_Pri": {
+        "SelfId": "Txt_Church_Message_Cancel_Pri",
+        "Text": "*: Indeed?\r\nVery well. The choice is yours.\r\nMay the Goddess smile upon you."
+      },
+      "Txt_Church_Message_StartAgain_Pri": {
+        "SelfId": "Txt_Church_Message_StartAgain_Pri",
+        "Text": "*: Is there any other way in which we can be of assistance?<NO_INPUT>"
+      },
+      "Txt_Church_Message_Finish_Pri": {
+        "SelfId": "Txt_Church_Message_Finish_Pri",
+        "Text": "*: Please take care, my child, and may the Goddess watch over you."
+      },
+      "Txt_Church_Message_Nextlevel_Pri": {
+        "SelfId": "Txt_Church_Message_Nextlevel_Pri",
+        "Text": "*: {ACTOR}, my child! You require {VALUE} experience <IfSing_VALUE(point,points)> to reach the next level."
+      },
+      "Txt_Church_Message_SaveConfirm_Pri": {
+        "SelfId": "Txt_Church_Message_SaveConfirm_Pri",
+        "Text": "*: Do you wish to record the details of your journey in an adventure log?<NO_INPUT>"
+      },
+      "Txt_Church_Message_SaveCancel_Pri": {
+        "SelfId": "Txt_Church_Message_SaveCancel_Pri",
+        "Text": "*: Very well. We will leave the chronicle of your journey unwritten for now."
+      },
+      "Txt_Church_Message_SaveTop_Pri": {
+        "SelfId": "Txt_Church_Message_SaveTop_Pri",
+        "Text": "*: Confess to me all that you have done, child, that I might record it in an adventure log.<KEY_WAIT>\r\n*: Into which adventure log do you wish me to record this?<NO_INPUT>"
+      },
+      "Txt_Church_Message_OverwriteConfirm_Pri": {
+        "SelfId": "Txt_Church_Message_OverwriteConfirm_Pri",
+        "Text": "*: In that case, I must overwrite <Cap>{WORD} Lv. {VALUE}. Do you wish me to proceed, my child? <NO_INPUT>"
+      },
+      "Txt_Church_Message_ContinueConfirm_Save_Pri": {
+        "SelfId": "Txt_Church_Message_ContinueConfirm_Save_Pri",
+        "Text": "*: I successfully recorded your adventure log. Do you intend to continue on your adventure at this point, my child?<NO_INPUT>"
+      },
+      "Txt_Church_Message_ContinueConfirm_Pri": {
+        "SelfId": "Txt_Church_Message_ContinueConfirm_Pri",
+        "Text": "*: Do you intend to continue on your adventure at this point, my child?<NO_INPUT>"
+      },
+      "Txt_Church_Message_ContinueConfirmNosave_Pri": {
+        "SelfId": "Txt_Church_Message_ContinueConfirmNosave_Pri",
+        "Text": "*: What!? You wish to abandon your adventure without recording your progress!?<KEY_WAIT>\r\n*: If you do so, your next journey will begin from the point when last you created an adventure log. Are you sure?<NO_INPUT>"
+      },
+      "Txt_Church_Message_ContinueNoSave_Pri": {
+        "SelfId": "Txt_Church_Message_ContinueNoSave_Pri",
+        "Text": "*: You have changed your mind?"
+      },
+      "Txt_Church_Message_Continue_Pri": {
+        "SelfId": "Txt_Church_Message_Continue_Pri",
+        "Text": "*: Very well. Go forth, brave {LEADER}, and may the Goddess smile upon you, whichever path you choose!"
+      },
+      "Txt_Church_Message_GameEnd_Pri": {
+        "SelfId": "Txt_Church_Message_GameEnd_Pri",
+        "Text": "*: In the name of all that is great and compassionate, I bid this child a peaceful respite!"
+      },
+      "Txt_Church_Message_GameStart_Pri": {
+        "SelfId": "Txt_Church_Message_GameStart_Pri",
+        "Text": "*: Welcome back, {LEADER}! I trust you had a peaceful respite?"
+      },
+      "Txt_Church_Message_Defeated_Pri": {
+        "SelfId": "Txt_Church_Message_Defeated_Pri",
+        "Text": "*: Come, come, brave {LEADER}, we cannot afford to have you die now, can we?<KEY_WAIT>\r\n*: Happily, you are to be given another chance.<KEY_WAIT>\r\n*: Do not squander this one so easily.\r\nNow, go forth, brave {LEADER}, and may caution guide your hand!"
+      },
+      "Txt_Church_Message_LevelMax_Pri": {
+        "SelfId": "Txt_Church_Message_LevelMax_Pri",
+        "Text": "*: My brave {ACTOR}, you are more than mighty enough."
+      },
+      "Txt_Church_Message_EXPMax_Pri": {
+        "SelfId": "Txt_Church_Message_EXPMax_Pri",
+        "Text": "*: My brave {ACTOR}, you are more than experienced enough."
+      },
+      "Txt_Church_Message_NextlevelTop_Pri": {
+        "SelfId": "Txt_Church_Message_NextlevelTop_Pri",
+        "Text": "*: A wise and benevolent voice can be heard..."
+      },
+      "Txt_Church_Message_ReviveTopNoTarget_Pri": {
+        "SelfId": "Txt_Church_Message_ReviveTopNoTarget_Pri",
+        "Text": "*: Give thanks for your good fortune, child. <IfSolo(You are not in need of resurrection,Not one of your companions is in need of resurrection)>."
+      },
+      "Txt_Church_Message_DetoxiTopNoTarget_Pri": {
+        "SelfId": "Txt_Church_Message_DetoxiTopNoTarget_Pri",
+        "Text": "*: Give thanks for your good fortune, child. <IfSolo(You do not have,Not one of your companions has)> poison coursing through <IfSolo(your,their)> veins."
+      },
+      "Txt_Church_Message_CurseTopNoTarget_Pri": {
+        "SelfId": "Txt_Church_Message_CurseTopNoTarget_Pri",
+        "Text": "*: Give thanks for your good fortune, child. <IfSolo(You are not,Not one of your companions is)> currently gripped by a curse."
+      },
+      "Txt_Church_Message_Start_Sis": {
+        "SelfId": "Txt_Church_Message_Start_Sis",
+        "Text": "*: Wayward sheep of the great shepherdess, how may we help you?<NO_INPUT>"
+      },
+      "Txt_Church_Message_StartNight_Sis": {
+        "SelfId": "Txt_Church_Message_StartNight_Sis",
+        "Text": "*: Welcome, wayward sheep of the great shepherdess. How may we assist you at this late hour?<NO_INPUT>"
+      },
+      "Txt_Church_Message_ReviveTop_Sis": {
+        "SelfId": "Txt_Church_Message_ReviveTop_Sis",
+        "Text": "*: Whom shall we ask the Goddess to return to the world of the living?<NO_INPUT>"
+      },
+      "Txt_Church_Message_Alive_Sis": {
+        "SelfId": "Txt_Church_Message_Alive_Sis",
+        "Text": "*: You must be mistaken.\r\n{ACTOR} seems rather too lively to be dead!"
+      },
+      "Txt_Church_Message_Revive_Sis": {
+        "SelfId": "Txt_Church_Message_Revive_Sis",
+        "Text": "*: O Goddess of light!\r\nOur great and benevolent shepherdess!<KEY_WAIT>\r\n*: If it is Your will, please bring Your faithful servant, {ACTOR}, back to this world!<NO_INPUT>"
+      },
+      "Txt_Church_Message_ReviveResult_Sis": {
+        "SelfId": "Txt_Church_Message_ReviveResult_Sis",
+        "Text": "{ACTOR} is resurrected!"
+      },
+      "Txt_Church_Message_DetoxiTop_Sis": {
+        "SelfId": "Txt_Church_Message_DetoxiTop_Sis",
+        "Text": "*: Whom shall I treat for poison?<NO_INPUT>"
+      },
+      "Txt_Church_Message_NotPoison_Sis": {
+        "SelfId": "Txt_Church_Message_NotPoison_Sis",
+        "Text": "*: But {ACTOR} does not seem to be poisoned!"
+      },
+      "Txt_Church_Message_Detoxi_Sis": {
+        "SelfId": "Txt_Church_Message_Detoxi_Sis",
+        "Text": "*: O great and benevolent Goddess, lend us your awesome power! Please purge the poison from Your faithful servant, {ACTOR}!<NO_INPUT>"
+      },
+      "Txt_Church_Message_DetoxiResult_Sis": {
+        "SelfId": "Txt_Church_Message_DetoxiResult_Sis",
+        "Text": "{ACTOR} is no longer poisoned."
+      },
+      "Txt_Church_Message_CurseTop_Sis": {
+        "SelfId": "Txt_Church_Message_CurseTop_Sis",
+        "Text": "*: From whom do you wish to lift a curse?<NO_INPUT>"
+      },
+      "Txt_Church_Message_NotCurse_Sis": {
+        "SelfId": "Txt_Church_Message_NotCurse_Sis",
+        "Text": "*: You must be mistaken, my child.\r\n{ACTOR} does not seem to be cursed."
+      },
+      "Txt_Church_Message_HealCurse_Sis": {
+        "SelfId": "Txt_Church_Message_HealCurse_Sis",
+        "Text": "*: O omnipotent Goddess, reveal Your heavenly might! Remove the unholy curse that torments poor {ACTOR}!<NO_INPUT>"
+      },
+      "Txt_Church_Message_HealCurseResult_Sis": {
+        "SelfId": "Txt_Church_Message_HealCurseResult_Sis",
+        "Text": "{ACTOR} is no longer cursed."
+      },
+      "Txt_Church_Message_Confirm_Sis": {
+        "SelfId": "Txt_Church_Message_Confirm_Sis",
+        "Text": "*: If I may... In order to perform this task, I will require a contribution of {VALUE} gold coin<IfSing_VALUE(,s)>. Can you oblige?<NO_INPUT>"
+      },
+      "Txt_Church_Message_Shotage_Sis": {
+        "SelfId": "Txt_Church_Message_Shotage_Sis",
+        "Text": "*: I'm afraid I seem to have asked for more than you can part with."
+      },
+      "Txt_Church_Message_PaymentCancel_Sis": {
+        "SelfId": "Txt_Church_Message_PaymentCancel_Sis",
+        "Text": "*: Forgive me, O Goddess, for asking too much of <IfSolo(this,these)> poor lost sheep!"
+      },
+      "Txt_Church_Message_Cancel_Sis": {
+        "SelfId": "Txt_Church_Message_Cancel_Sis",
+        "Text": "*: I see. As you wish.\r\nMay the Goddess smile upon you."
+      },
+      "Txt_Church_Message_StartAgain_Sis": {
+        "SelfId": "Txt_Church_Message_StartAgain_Sis",
+        "Text": "*: Is there anything else I can help you with?<NO_INPUT>"
+      },
+      "Txt_Church_Message_Finish_Sis": {
+        "SelfId": "Txt_Church_Message_Finish_Sis",
+        "Text": "*: May the Goddess be with you.\r\nI hope to see you again soon."
+      },
+      "Txt_Church_Message_SaveConfirm_Sis": {
+        "SelfId": "Txt_Church_Message_SaveConfirm_Sis",
+        "Text": "*: Confess to me all that you have done, child, that I might record it in an adventure log.<NO_INPUT>"
+      },
+      "Txt_Church_Message_SaveCancel_Sis": {
+        "SelfId": "Txt_Church_Message_SaveCancel_Sis",
+        "Text": "*: I see. As you wish.\r\nMay the Goddess smile upon you."
+      },
+      "Txt_Church_Message_SaveTop_Sis": {
+        "SelfId": "Txt_Church_Message_SaveTop_Sis",
+        "Text": "*: Into which adventure log do you wish me to record this?<NO_INPUT>"
+      },
+      "Txt_Church_Message_OverwriteConfirm_Sis": {
+        "SelfId": "Txt_Church_Message_OverwriteConfirm_Sis",
+        "Text": "*: In that case, I must overwrite {WORD} Lv. {VALUE}. Do you wish me to proceed, my child?<NO_INPUT>"
+      },
+      "Txt_Church_Message_ContinueConfirm_Save_Sis": {
+        "SelfId": "Txt_Church_Message_ContinueConfirm_Save_Sis",
+        "Text": "*: I successfully recorded your adventure log. Do you plan to continue on your adventure at this point?<NO_INPUT>"
+      },
+      "Txt_Church_Message_ContinueConfirm_Sis": {
+        "SelfId": "Txt_Church_Message_ContinueConfirm_Sis",
+        "Text": "*: Do you plan to continue on your adventure at this point?<NO_INPUT>"
+      },
+      "Txt_Church_Message_ContinueConfirmNosave_Sis": {
+        "SelfId": "Txt_Church_Message_ContinueConfirmNosave_Sis",
+        "Text": "*: You truly wish to abandon your adventure without recording your progress?<KEY_WAIT>\r\n*: If you do so, your next journey will begin from the point when last you created an adventure log. Are you sure?<NO_INPUT>"
+      },
+      "Txt_Church_Message_ContinueNoSave_Sis": {
+        "SelfId": "Txt_Church_Message_ContinueNoSave_Sis",
+        "Text": "*: I see. As you wish.\r\nMay the Goddess smile upon you, {LEADER}."
+      },
+      "Txt_Church_Message_Continue_Sis": {
+        "SelfId": "Txt_Church_Message_Continue_Sis",
+        "Text": "*: May the Goddess smile upon you, {LEADER}."
+      },
+      "Txt_Church_Message_GameEnd_Sis": {
+        "SelfId": "Txt_Church_Message_GameEnd_Sis",
+        "Text": "*: I call upon those who guard and guide us to allow this faithful lamb to rest in peace awhile!"
+      },
+      "Txt_Church_Message_GameStart_Sis": {
+        "SelfId": "Txt_Church_Message_GameStart_Sis",
+        "Text": "*: My prayers have been answered! You have joined us again, {LEADER}."
+      },
+      "Txt_Church_Message_Defeated_Sis": {
+        "SelfId": "Txt_Church_Message_Defeated_Sis",
+        "Text": "*: I call upon those who guard and guide us... Please protect this poor lost sheep!"
+      },
+      "Txt_Church_Message_ReviveTopNoTarget_Sis": {
+        "SelfId": "Txt_Church_Message_ReviveTopNoTarget_Sis",
+        "Text": "*: Fear not, my child. <IfSolo(The very fact you are able to converse with me means you do not require resurrection,None of your companions have sustained wounds so severe as to require their resurrection)>."
+      },
+      "Txt_Church_Message_DetoxiTopNoTarget_Sis": {
+        "SelfId": "Txt_Church_Message_DetoxiTopNoTarget_Sis",
+        "Text": "*: Fear not, my child. Praying for purification is not necessary."
+      },
+      "Txt_Church_Message_CurseTopNoTarget_Sis": {
+        "SelfId": "Txt_Church_Message_CurseTopNoTarget_Sis",
+        "Text": "*: Fear not, my child. Praying for benediction is not necessary."
+      },
+      "Txt_Church_Message_Start_ALIAHAN": {
+        "SelfId": "Txt_Church_Message_Start_ALIAHAN",
+        "Text": "*: Brave warrior, how may our church assist you?<NO_INPUT>"
+      },
+      "Txt_Church_Message_StartNight_ALIAHAN": {
+        "SelfId": "Txt_Church_Message_StartNight_ALIAHAN",
+        "Text": "*: What brings you to our church in the dead of night, brave warrior?<NO_INPUT>"
+      },
+      "Txt_Church_Message_Start_SAMANOSA": {
+        "SelfId": "Txt_Church_Message_Start_SAMANOSA",
+        "Text": "*: Saviour of Manoza, how may our church assist you?<NO_INPUT>"
+      },
+      "Txt_Church_Message_StartNight_SAMANOSA": {
+        "SelfId": "Txt_Church_Message_StartNight_SAMANOSA",
+        "Text": "*: What brings you to our church in the dead of night, saviour of Manoza?<NO_INPUT>"
+      },
+      "Txt_Church_Message_Start_EDINBEAR": {
+        "SelfId": "Txt_Church_Message_Start_EDINBEAR",
+        "Text": "*: The Goddess lends an ear to all Her children, even those of less fortunate upbringings. Tell me, how may our church assist you?<NO_INPUT>"
+      },
+      "Txt_Church_Message_StartNight_EDINBEAR": {
+        "SelfId": "Txt_Church_Message_StartNight_EDINBEAR",
+        "Text": "*: Do not fear, the Goddess lends an ear to all Her children, even those of less fortunate upbringings. Now, what brings you to our church in the dead of night?<NO_INPUT>"
+      },
+      "Txt_Church_Message_Start_MBR": {
+        "SelfId": "Txt_Church_Message_Start_MBR",
+        "Text": "*: I must admit, in my weaker moments, I am tempted to abandon my duties and indulge in the same pastimes as everyone else. However, I cannot forsake the Goddess<--->tell me, how may I be of service?"
+      },
+      "Txt_Church_Message_Defeated_ALIAHAN": {
+        "SelfId": "Txt_Church_Message_Defeated_ALIAHAN",
+        "Text": "*: Come, come, brave {LEADER}, we cannot afford to have you die now, can we?<KEY_WAIT>\r\n*: Happily, you are to be given another chance.<KEY_WAIT>\r\n*: Do not squander this one so easily.\r\nNow, go forth, brave {LEADER}, and do Ortega proud!"
+      },
+      "Txt_Church_Message_Defeated_SAMANOSA": {
+        "SelfId": "Txt_Church_Message_Defeated_SAMANOSA",
+        "Text": "*: Oh brave {LEADER}, to think one of your might could fall so easily!<KEY_WAIT>\r\n*: Happily, you are to be given another chance.<KEY_WAIT>\r\n*: Do not squander this one.\r\nNow, go forth, brave {LEADER}, and may caution guide your hand!"
+      },
+      "Txt_Church_Message_Defeated_EDINBEAR": {
+        "SelfId": "Txt_Church_Message_Defeated_EDINBEAR",
+        "Text": "*: Oh brave {LEADER}, you must remember the world is a dangerous place; it would be simply rum of you not to take more care on your travels.<KEY_WAIT>\r\n*: Happily, you are to be given another chance.<KEY_WAIT>\r\n*: Almighty Goddess, please protect this poor lost sheep."
+      },
+      "Txt_Church_Message_Defeated_LUDATORM": {
+        "SelfId": "Txt_Church_Message_Defeated_LUDATORM",
+        "Text": "*: Oh brave {LEADER}, we cannot afford to have you die now!<KEY_WAIT>\r\n*: Happily, you are to be given another chance.<KEY_WAIT>\r\n*: Do not squander this one.\r\nNow, go forth, brave {LEADER}, and may caution guide your hand!"
+      }
+    }
+  }
+]

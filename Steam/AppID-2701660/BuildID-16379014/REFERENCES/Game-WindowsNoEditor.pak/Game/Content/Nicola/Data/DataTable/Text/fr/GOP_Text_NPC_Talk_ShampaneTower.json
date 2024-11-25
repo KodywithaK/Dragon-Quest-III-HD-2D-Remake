@@ -1,0 +1,172 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_NPC_Talk_ShampaneTower",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Talk_ShampaneTower_1F_SUB_0_ACTOR_0110_010_2": {
+        "SelfId": "Txt_Talk_ShampaneTower_1F_SUB_0_ACTOR_0110_010_2",
+        "Text": "*: Une bande de voyous menée par un type qu'on appelle le chaperon vert vit dans c'te tour."
+      },
+      "Txt_Talk_ShampaneTower_1F_SUB_0_ACTOR_0110_010_3": {
+        "SelfId": "Txt_Talk_ShampaneTower_1F_SUB_0_ACTOR_0110_010_3",
+        "Text": "*: Fais gaffe en t'approchant du dernier étage.\r\nTout le haut d'la tour grouille de ces sales bandits."
+      },
+      "Txt_Talk_ShampaneTower_1F_SUB_0_ACTOR_0110_020_1": {
+        "SelfId": "Txt_Talk_ShampaneTower_1F_SUB_0_ACTOR_0110_020_1",
+        "Text": "*: De quoi? T'as tabassé l'Chaperon vert?\r\nBen ça alors, tu dois être <IfGender_LEADER(un sacré dur,une sacrée dure,)> à cuire!\r\nComment ça s'fait qu'j'aie jamais entendu parler d'toi?"
+      },
+      "Txt_Talk_ShampaneTower_1F_SUB_0_ACTOR_0210_010_1": {
+        "SelfId": "Txt_Talk_ShampaneTower_1F_SUB_0_ACTOR_0210_010_1",
+        "Text": "*: La tour de Champagnie abrite de nombreux monstres, mais il est étonnamment aisé de s'y aventurer en se concentrant sur les faiblesses de chaque ennemi."
+      },
+      "Txt_Talk_ShampaneTower_1F_SUB_0_ACTOR_0210_010_2": {
+        "SelfId": "Txt_Talk_ShampaneTower_1F_SUB_0_ACTOR_0210_010_2",
+        "Text": "*: Certains monstres sont sensibles aux sorts de feu comme Flamme et Crame.\r\nD'autres craignent les incantations de vent comme Tornade.\r\nEn résumé, chaque ennemi a ses propres points faibles."
+      },
+      "Txt_Talk_ShampaneTower_1F_SUB_0_ACTOR_0210_010_3": {
+        "SelfId": "Txt_Talk_ShampaneTower_1F_SUB_0_ACTOR_0210_010_3",
+        "Text": "*: Je ne doute pas que <IfSolo(vous,votre équipe et vous)> trouverez quelles attaques utiliser contre\r\nchaque ennemi. Il vous suffit d'utiliser une stratégie adaptée."
+      },
+      "Txt_Talk_ShampaneTower_3F_SUB_0_ACTOR_0110_010_1": {
+        "SelfId": "Txt_Talk_ShampaneTower_3F_SUB_0_ACTOR_0110_010_1",
+        "Text": "*: Cet endroit a abrité les grands bandits de ce monde pendant des générations. Aaah, ressens le poids de l'histoire!"
+      },
+      "Txt_Talk_ShampaneTower_3F_SUB_0_VOLUME_0210_010_1": {
+        "SelfId": "Txt_Talk_ShampaneTower_3F_SUB_0_VOLUME_0210_010_1",
+        "Text": "(slurp)"
+      },
+      "Txt_Talk_ShampaneTower_3F_SUB_0_VOLUME_0210_010_2": {
+        "SelfId": "Txt_Talk_ShampaneTower_3F_SUB_0_VOLUME_0210_010_2",
+        "Text": "{LEADER} calme le monstre de sa voix apaisante et lui parle de papi monstre..."
+      },
+      "Txt_Talk_ShampaneTower_3F_SUB_0_VOLUME_0210_010_3": {
+        "SelfId": "Txt_Talk_ShampaneTower_3F_SUB_0_VOLUME_0210_010_3",
+        "Text": "Sluper!"
+      },
+      "Txt_Talk_ShampaneTower_5F_MAIN_0_VOLUME_0110_010_1": {
+        "SelfId": "Txt_Talk_ShampaneTower_5F_MAIN_0_VOLUME_0110_010_1",
+        "Text": "*: Hé oh, regarde! On dirait qu'on a d'la compagnie indésirable!"
+      },
+      "Txt_Talk_ShampaneTower_5F_MAIN_0_VOLUME_0110_010_2": {
+        "SelfId": "Txt_Talk_ShampaneTower_5F_MAIN_0_VOLUME_0110_010_2",
+        "Text": "*: Tss, on avait bien b'soin de ça! On d'vrait prévenir le boss, hein?"
+      },
+      "Txt_Talk_ShampaneTower_6F_MAIN_0_VOLUME_0110_010_1": {
+        "SelfId": "Txt_Talk_ShampaneTower_6F_MAIN_0_VOLUME_0110_010_1",
+        "Text": "C'est tout à ton honneur; tu t'en es bien <IfGender_LEADER(sorti,sortie,)> pour arriver jusque là."
+      },
+      "Txt_Talk_ShampaneTower_6F_MAIN_0_VOLUME_0110_010_2": {
+        "SelfId": "Txt_Talk_ShampaneTower_6F_MAIN_0_VOLUME_0110_010_2",
+        "Text": "Mais si tu crois pouvoir m'attraper aussi facilement, tu t'fourres le doigt dans l'œil!"
+      },
+      "Txt_Talk_ShampaneTower_6F_MAIN_0_VOLUME_0110_010_3": {
+        "SelfId": "Txt_Talk_ShampaneTower_6F_MAIN_0_VOLUME_0110_010_3",
+        "Text": "À plus! Na ha ha!"
+      },
+      "Txt_Talk_ShampaneTower_4F_MAIN_0_VOLUME_0110_010_1": {
+        "SelfId": "Txt_Talk_ShampaneTower_4F_MAIN_0_VOLUME_0110_010_1",
+        "Text": "Rah, tu lâches jamais l'affaire, hein?"
+      },
+      "Txt_Talk_ShampaneTower_4F_MAIN_0_VOLUME_0110_010_2": {
+        "SelfId": "Txt_Talk_ShampaneTower_4F_MAIN_0_VOLUME_0110_010_2",
+        "Text": "Bon, si tu veux te battre, ramène-toi!"
+      },
+      "Txt_Talk_ShampaneTower_4F_MAIN_0_BATTLE_END_0110_020_1": {
+        "SelfId": "Txt_Talk_ShampaneTower_4F_MAIN_0_BATTLE_END_0110_020_1",
+        "Text": "Bon, bon! Tu m'as eu! Je vais te rendre cette couronne à la noix.\r\nMais laisse-moi filer, compris?"
+      },
+      "Txt_Talk_ShampaneTower_4F_MAIN_0_BATTLE_END_0110_020_2": {
+        "SelfId": "Txt_Talk_ShampaneTower_4F_MAIN_0_BATTLE_END_0110_020_2",
+        "Text": "J'te remercie!"
+      },
+      "Txt_Talk_ShampaneTower_4F_MAIN_0_BATTLE_END_0110_020_3": {
+        "SelfId": "Txt_Talk_ShampaneTower_4F_MAIN_0_BATTLE_END_0110_020_3",
+        "Text": "T'es un ange!\r\nBon courage, hein? Tchao!"
+      },
+      "Txt_Talk_ShampaneTower_4F_MAIN_0_BATTLE_END_0110_020_4": {
+        "SelfId": "Txt_Talk_ShampaneTower_4F_MAIN_0_BATTLE_END_0110_020_4",
+        "Text": "J'vais changer! J'vais suivre la loi, promis! Mais laisse-moi partir, s'te plaît!"
+      },
+      "Txt_Talk_ShampaneTower_4F_MAIN_0_BATTLE_END_0110_020_5": {
+        "SelfId": "Txt_Talk_ShampaneTower_4F_MAIN_0_BATTLE_END_0110_020_5",
+        "Text": "*: Vous pouvez le croire, ça?\r\nOn est libres, boss!"
+      },
+      "Txt_Talk_ShampaneTower_4F_MAIN_0_BATTLE_END_0110_020_6": {
+        "SelfId": "Txt_Talk_ShampaneTower_4F_MAIN_0_BATTLE_END_0110_020_6",
+        "Text": "*: Il faut juste qu'on se trouve une planque et on sera de retour dans les affaires en un rien de temps."
+      },
+      "Txt_Talk_ShampaneTower_4F_MAIN_0_BATTLE_END_0110_020_7": {
+        "SelfId": "Txt_Talk_ShampaneTower_4F_MAIN_0_BATTLE_END_0110_020_7",
+        "Text": "C'est lui!\r\nLe Chaperon vert, le bandito!"
+      },
+      "Txt_Talk_ShampaneTower_4F_MAIN_0_BATTLE_END_0110_020_8": {
+        "SelfId": "Txt_Talk_ShampaneTower_4F_MAIN_0_BATTLE_END_0110_020_8",
+        "Text": "*: J'crois que c'est le moment de se tirer, boss!"
+      },
+      "Txt_Talk_ShampaneTower_4F_MAIN_0_BATTLE_END_0110_020_9": {
+        "SelfId": "Txt_Talk_ShampaneTower_4F_MAIN_0_BATTLE_END_0110_020_9",
+        "Text": "Ça vole toujours en escadrille, hein..."
+      },
+      "Txt_Talk_ShampaneTower_4F_MAIN_0_BATTLE_END_0110_020_10": {
+        "SelfId": "Txt_Talk_ShampaneTower_4F_MAIN_0_BATTLE_END_0110_020_10",
+        "Text": "*: Mi perdoni...\r\nIls ont fui avant que nous ayons pu les capturer."
+      },
+      "Txt_Talk_ShampaneTower_4F_MAIN_0_BATTLE_END_0110_020_11": {
+        "SelfId": "Txt_Talk_ShampaneTower_4F_MAIN_0_BATTLE_END_0110_020_11",
+        "Text": "Je vois... Eh bien, au moins la couronne se trouve entre de bonnes mains.\r\nIl Re sera ravi de l'apprendre."
+      },
+      "Txt_Talk_ShampaneTower_4F_MAIN_0_BATTLE_END_0110_020_12": {
+        "SelfId": "Txt_Talk_ShampaneTower_4F_MAIN_0_BATTLE_END_0110_020_12",
+        "Text": "<IfGender_LEADER(Héros,Héroïne,)> d'Aliahan. Votre aide nous a été des plus précieuses dans la récupération de la couronne. Je vous saurais gré de la remettre vous-même à notre roi."
+      },
+      "Txt_Talk_ShampaneTower_4F_MAIN_0_BATTLE_END_0110_020_13": {
+        "SelfId": "Txt_Talk_ShampaneTower_4F_MAIN_0_BATTLE_END_0110_020_13",
+        "Text": "Il tiendra à vous remercier personnellement, et je suis certain que la barrière d'octroi ne tardera pas à être rouverte ensuite."
+      },
+      "Txt_Talk_ShampaneTower_4F_MAIN_0_BATTLE_END_0110_020_14": {
+        "SelfId": "Txt_Talk_ShampaneTower_4F_MAIN_0_BATTLE_END_0110_020_14",
+        "Text": "*: Mais Commendatore, ce n'est pas assez..."
+      },
+      "Txt_Talk_ShampaneTower_4F_MAIN_0_BATTLE_END_0110_020_15": {
+        "SelfId": "Txt_Talk_ShampaneTower_4F_MAIN_0_BATTLE_END_0110_020_15",
+        "Text": "Ah, sì, sì!"
+      },
+      "Txt_Talk_ShampaneTower_4F_MAIN_0_BATTLE_END_0110_020_16": {
+        "SelfId": "Txt_Talk_ShampaneTower_4F_MAIN_0_BATTLE_END_0110_020_16",
+        "Text": "Comment ai-je pu oublier? Même une fois la barrière d'octroi rouverte, vous aurez besoin de la chiave magica; la clef magique."
+      },
+      "Txt_Talk_ShampaneTower_4F_MAIN_0_BATTLE_END_0110_020_17": {
+        "SelfId": "Txt_Talk_ShampaneTower_4F_MAIN_0_BATTLE_END_0110_020_17",
+        "Text": "Si c'était en mon pouvoir, je vous la donnerais moi-même avec plaisir en guise de récompense."
+      },
+      "Txt_Talk_ShampaneTower_4F_MAIN_0_BATTLE_END_0110_020_18": {
+        "SelfId": "Txt_Talk_ShampaneTower_4F_MAIN_0_BATTLE_END_0110_020_18",
+        "Text": "Mais, voyez-vous, je ne sais pas exactement où elle se trouve..."
+      },
+      "Txt_Talk_ShampaneTower_4F_MAIN_0_BATTLE_END_0110_020_19": {
+        "SelfId": "Txt_Talk_ShampaneTower_4F_MAIN_0_BATTLE_END_0110_020_19",
+        "Text": "*: En fait, j'ai entendu dire qu'elle était cachée quelque part dans le désert au sud... au sein de la grande pyramide."
+      },
+      "Txt_Talk_ShampaneTower_4F_MAIN_0_BATTLE_END_0110_020_20": {
+        "SelfId": "Txt_Talk_ShampaneTower_4F_MAIN_0_BATTLE_END_0110_020_20",
+        "Text": "Davvero? Cela ne me paraît pas insensé, en effet."
+      },
+      "Txt_Talk_ShampaneTower_4F_MAIN_0_BATTLE_END_0110_020_21": {
+        "SelfId": "Txt_Talk_ShampaneTower_4F_MAIN_0_BATTLE_END_0110_020_21",
+        "Text": "Mes hommes et moi-même devons maintenant retourner au château al più presto. Votre gentillesse sera un jour récompensée, vous en avez ma parole."
+      },
+      "Txt_Talk_ShampaneTower_4F_MAIN_0_BATTLE_END_0110_020_22": {
+        "SelfId": "Txt_Talk_ShampaneTower_4F_MAIN_0_BATTLE_END_0110_020_22",
+        "Text": "Je vous souhaite bonne chance dans votre quête de la clef.\r\nQue les puissances célestes vous accompagnent!"
+      }
+    }
+  }
+]

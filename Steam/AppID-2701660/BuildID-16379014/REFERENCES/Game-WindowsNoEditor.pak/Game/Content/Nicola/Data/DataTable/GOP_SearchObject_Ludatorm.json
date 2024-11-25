@@ -1,0 +1,346 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_SearchObject_Ludatorm",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_SearchObject_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "SEARCH_Ludatorm_Out_GROUND_0": {
+        "SelfId": "SEARCH_Ludatorm_Out_GROUND_0",
+        "ObjectType": "ESearchObjectType::GROUND",
+        "ItemId": "ITEM_USE_ITEM_SEED_OF_MAGIC",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Ludatorm_Out_GROUND_0"
+      },
+      "SEARCH_Ludatorm_Out_GROUND_1": {
+        "SelfId": "SEARCH_Ludatorm_Out_GROUND_1",
+        "ObjectType": "ESearchObjectType::GROUND",
+        "ItemId": "ITEM_SMALL_MEDAL",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Ludatorm_Out_GROUND_1"
+      },
+      "SEARCH_Ludatorm_Out_GROUND_2": {
+        "SelfId": "SEARCH_Ludatorm_Out_GROUND_2",
+        "ObjectType": "ESearchObjectType::GROUND",
+        "ItemId": "ITEM_EQUIP_ACCESSORY_RING_OF_REASON",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Ludatorm_Out_GROUND_2"
+      },
+      "SEARCH_Ludatorm_Out_BARREL_0": {
+        "SelfId": "SEARCH_Ludatorm_Out_BARREL_0",
+        "ObjectType": "ESearchObjectType::BARREL",
+        "ItemId": "None",
+        "ItemNum": 0,
+        "Gold": 38,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Ludatorm_Out_BARREL_0"
+      },
+      "SEARCH_Ludatorm_Out_BARREL_1": {
+        "SelfId": "SEARCH_Ludatorm_Out_BARREL_1",
+        "ObjectType": "ESearchObjectType::BARREL",
+        "ItemId": "ITEM_EQUIP_WEAPON_IRON_LANCE",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Ludatorm_Out_BARREL_1"
+      },
+      "SEARCH_Ludatorm_Out_POT_0": {
+        "SelfId": "SEARCH_Ludatorm_Out_POT_0",
+        "ObjectType": "ESearchObjectType::POT",
+        "ItemId": "ITEM_USE_ITEM_MAGIC_WATER",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Ludatorm_Out_POT_0"
+      },
+      "SEARCH_Ludatorm_Out_SACK_0": {
+        "SelfId": "SEARCH_Ludatorm_Out_SACK_0",
+        "ObjectType": "ESearchObjectType::SACK",
+        "ItemId": "None",
+        "ItemNum": 0,
+        "Gold": 1223,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "Ludatorm_Out_SearchEvent_Sack_00",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Ludatorm_Out_SACK_0"
+      },
+      "SEARCH_Ludatorm_Out_TREASURE_NORMAL_0": {
+        "SelfId": "SEARCH_Ludatorm_Out_TREASURE_NORMAL_0",
+        "ObjectType": "ESearchObjectType::TREASURE_NORMAL",
+        "ItemId": "ITEM_EQUIP_ACCESSORY_SLIME_EARRINGS",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Ludatorm_Out_TREASURE_NORMAL_0"
+      },
+      "SEARCH_Ludatorm_House1_2F_BOOKSHELF_0": {
+        "SelfId": "SEARCH_Ludatorm_House1_2F_BOOKSHELF_0",
+        "ObjectType": "ESearchObjectType::BOOKSHELF",
+        "ItemId": "ITEM_USE_ITEM_LOVING_LIVING_A_GRINNERS_GUIDE",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Ludatorm_House1_2F_BOOKSHELF_0"
+      },
+      "SEARCH_Ludatorm_House1_2F_BOOKSHELF_1": {
+        "SelfId": "SEARCH_Ludatorm_House1_2F_BOOKSHELF_1",
+        "ObjectType": "ESearchObjectType::BOOKSHELF",
+        "ItemId": "ITEM_USE_ITEM_TEARS_BEFORE_BEDTIME",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Ludatorm_House1_2F_BOOKSHELF_1"
+      },
+      "SEARCH_Ludatorm_House2_2F_STORAGE_0": {
+        "SelfId": "SEARCH_Ludatorm_House2_2F_STORAGE_0",
+        "ObjectType": "ESearchObjectType::STORAGE",
+        "ItemId": "ITEM_USE_ITEM_SEED_OF_LIFE",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Ludatorm_House2_2F_STORAGE_0"
+      },
+      "SEARCH_Ludatorm_Church_1F_POT_0": {
+        "SelfId": "SEARCH_Ludatorm_Church_1F_POT_0",
+        "ObjectType": "ESearchObjectType::POT",
+        "ItemId": "ITEM_USE_ITEM_HOLY_WATER",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Ludatorm_Church_1F_POT_0"
+      },
+      "SEARCH_Ludatorm_Church_2F_POT_0": {
+        "SelfId": "SEARCH_Ludatorm_Church_2F_POT_0",
+        "ObjectType": "ESearchObjectType::POT",
+        "ItemId": "ITEM_EQUIP_ARMOR_BOXER_SHORTS",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Ludatorm_Church_2F_POT_0"
+      },
+      "SEARCH_Ludatorm_Inn_BARREL_0": {
+        "SelfId": "SEARCH_Ludatorm_Inn_BARREL_0",
+        "ObjectType": "ESearchObjectType::BARREL",
+        "ItemId": "ITEM_USE_ITEM_ANTIDOTAL_HERB",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Ludatorm_Inn_BARREL_0"
+      },
+      "SEARCH_Ludatorm_Inn_POT_0": {
+        "SelfId": "SEARCH_Ludatorm_Inn_POT_0",
+        "ObjectType": "ESearchObjectType::POT",
+        "ItemId": "ITEM_USE_ITEM_STRONG_MEDICINE",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Ludatorm_Inn_POT_0"
+      },
+      "SEARCH_Ludatorm_Inn_SACK_0": {
+        "SelfId": "SEARCH_Ludatorm_Inn_SACK_0",
+        "ObjectType": "ESearchObjectType::SACK",
+        "ItemId": "ITEM_USE_ITEM_SEED_OF_LUCK",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Ludatorm_Inn_SACK_0"
+      },
+      "SEARCH_Ludatorm_Castle_1F_TREASURE_NORMAL_0": {
+        "SelfId": "SEARCH_Ludatorm_Castle_1F_TREASURE_NORMAL_0",
+        "ObjectType": "ESearchObjectType::TREASURE_NORMAL",
+        "ItemId": "None",
+        "ItemNum": 0,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": false,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Ludatorm_Castle_1F_TREASURE_NORMAL_0"
+      },
+      "SEARCH_Ludatorm_Castle_1F_TREASURE_NORMAL_1": {
+        "SelfId": "SEARCH_Ludatorm_Castle_1F_TREASURE_NORMAL_1",
+        "ObjectType": "ESearchObjectType::TREASURE_NORMAL",
+        "ItemId": "None",
+        "ItemNum": 0,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": false,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Ludatorm_Castle_1F_TREASURE_NORMAL_1"
+      },
+      "SEARCH_Ludatorm_Castle_1F_TREASURE_NORMAL_2": {
+        "SelfId": "SEARCH_Ludatorm_Castle_1F_TREASURE_NORMAL_2",
+        "ObjectType": "ESearchObjectType::TREASURE_NORMAL",
+        "ItemId": "None",
+        "ItemNum": 0,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": false,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Ludatorm_Castle_1F_TREASURE_NORMAL_2"
+      },
+      "SEARCH_Ludatorm_Castle_1F_TREASURE_NORMAL_3": {
+        "SelfId": "SEARCH_Ludatorm_Castle_1F_TREASURE_NORMAL_3",
+        "ObjectType": "ESearchObjectType::TREASURE_NORMAL",
+        "ItemId": "ITEM_USE_ITEM_YGGDRASIL_LEAF",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Ludatorm_Castle_1F_TREASURE_NORMAL_3"
+      },
+      "SEARCH_Ludatorm_Castle_1F_TREASURE_NORMAL_4": {
+        "SelfId": "SEARCH_Ludatorm_Castle_1F_TREASURE_NORMAL_4",
+        "ObjectType": "ESearchObjectType::TREASURE_NORMAL",
+        "ItemId": "ITEM_USE_ITEM_ELFIN_ELIXIR",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Ludatorm_Castle_1F_TREASURE_NORMAL_4"
+      },
+      "SEARCH_Ludatorm_Castle_1F_BARREL_0": {
+        "SelfId": "SEARCH_Ludatorm_Castle_1F_BARREL_0",
+        "ObjectType": "ESearchObjectType::BARREL",
+        "ItemId": "ITEM_SMALL_MEDAL",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Ludatorm_Castle_1F_BARREL_0"
+      },
+      "SEARCH_Ludatorm_Castle_1F_POT_0": {
+        "SelfId": "SEARCH_Ludatorm_Castle_1F_POT_0",
+        "ObjectType": "ESearchObjectType::POT",
+        "ItemId": "ITEM_USE_ITEM_DIEAMEND",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Ludatorm_Castle_1F_POT_0"
+      },
+      "SEARCH_Ludatorm_Castle_2F_STORAGE_0": {
+        "SelfId": "SEARCH_Ludatorm_Castle_2F_STORAGE_0",
+        "ObjectType": "ESearchObjectType::STORAGE",
+        "ItemId": "ITEM_EQUIP_ARMOR_SILK_ROBE",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Ludatorm_Castle_2F_STORAGE_0"
+      },
+      "SEARCH_Ludatorm_Castle_2F_POT_0": {
+        "SelfId": "SEARCH_Ludatorm_Castle_2F_POT_0",
+        "ObjectType": "ESearchObjectType::POT",
+        "ItemId": "ITEM_USE_ITEM_SPECIAL_MEDICINE",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Ludatorm_Castle_2F_POT_0"
+      },
+      "SEARCH_Ludatorm_Castle_2F_hidden_room_TREASURE_IMPORTANT_0": {
+        "SelfId": "SEARCH_Ludatorm_Castle_2F_hidden_room_TREASURE_IMPORTANT_0",
+        "ObjectType": "ESearchObjectType::TREASURE_IMPORTANT",
+        "ItemId": "ITEM_IMPORTANT_SUNSTONE",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "Ludatorm_Castle_2F_hidden_room_Treasure_Important",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Ludatorm_Castle_2F_hidden_room_TREASURE_IMPORTANT_0"
+      },
+      "SEARCH_Ludatorm_Castle_2F_hidden_room_BARREL_0": {
+        "SelfId": "SEARCH_Ludatorm_Castle_2F_hidden_room_BARREL_0",
+        "ObjectType": "ESearchObjectType::BARREL",
+        "ItemId": "ITEM_USE_ITEM_COAGULANT",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Ludatorm_Castle_2F_hidden_room_BARREL_0"
+      },
+      "SEARCH_Ludatorm_Castle_2F_hidden_room_BARREL_1": {
+        "SelfId": "SEARCH_Ludatorm_Castle_2F_hidden_room_BARREL_1",
+        "ObjectType": "ESearchObjectType::BARREL",
+        "ItemId": "ITEM_USE_ITEM_SEED_OF_AGILITY",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Ludatorm_Castle_2F_hidden_room_BARREL_1"
+      },
+      "SEARCH_Ludatorm_Castle_1F_Out_GROUND_0": {
+        "SelfId": "SEARCH_Ludatorm_Castle_1F_Out_GROUND_0",
+        "ObjectType": "ESearchObjectType::GROUND",
+        "ItemId": "ITEM_EQUIP_ARMOR_CAT_SUIT",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Ludatorm_Castle_1F_Out_GROUND_0"
+      },
+      "SEARCH_Ludatorm_Castle_B1F_POT_0": {
+        "SelfId": "SEARCH_Ludatorm_Castle_B1F_POT_0",
+        "ObjectType": "ESearchObjectType::POT",
+        "ItemId": "ITEM_EQUIP_ACCESSORY_MANGETSU_RING",
+        "ItemNum": 1,
+        "Gold": 0,
+        "EnemyId": "None",
+        "bIsRemirama": true,
+        "OverrideScriptName": "",
+        "FlagName": "EGOPEnumSearchType::SEARCH_Ludatorm_Castle_B1F_POT_0"
+      }
+    }
+  }
+]

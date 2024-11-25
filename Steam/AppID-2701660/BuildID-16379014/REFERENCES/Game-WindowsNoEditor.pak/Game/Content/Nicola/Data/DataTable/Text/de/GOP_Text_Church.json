@@ -1,0 +1,380 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_Church",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Church_UI_Top_01": {
+        "SelfId": "Txt_Church_UI_Top_01",
+        "Text": "Beichte (Speichern)"
+      },
+      "Txt_Church_UI_Top_02": {
+        "SelfId": "Txt_Church_UI_Top_02",
+        "Text": "Weissagung"
+      },
+      "Txt_Church_UI_Top_03": {
+        "SelfId": "Txt_Church_UI_Top_03",
+        "Text": "Wiederauferstehung"
+      },
+      "Txt_Church_UI_Top_04": {
+        "SelfId": "Txt_Church_UI_Top_04",
+        "Text": "Läuterung"
+      },
+      "Txt_Church_UI_Top_05": {
+        "SelfId": "Txt_Church_UI_Top_05",
+        "Text": "Segen"
+      },
+      "Txt_Church_UI_Top_06": {
+        "SelfId": "Txt_Church_UI_Top_06",
+        "Text": "Gehen"
+      },
+      "Txt_Church_Message_Start_Pri": {
+        "SelfId": "Txt_Church_Message_Start_Pri",
+        "Text": "*: <IfGender_LEADER(Getreuer Diener,Getreue Dienerin,)> der Göttin, wie kann unsere Kirche Euch behilflich sein?<NO_INPUT>"
+      },
+      "Txt_Church_Message_StartNight_Pri": {
+        "SelfId": "Txt_Church_Message_StartNight_Pri",
+        "Text": "Was führt Euch mitten in der Nacht in unsere Kirche, Kind?<NO_INPUT>"
+      },
+      "Txt_Church_Message_ReviveTop_Pri": {
+        "SelfId": "Txt_Church_Message_ReviveTop_Pri",
+        "Text": "*: Wen möchtet Ihr in die Welt der Lebenden zurückrufen?<NO_INPUT>"
+      },
+      "Txt_Church_Message_Alive_Pri": {
+        "SelfId": "Txt_Church_Message_Alive_Pri",
+        "Text": "*: Ihr scherzt sicher? {ACTOR} wirkt sehr lebendig auf mich!"
+      },
+      "Txt_Church_Message_Revive_Pri": {
+        "SelfId": "Txt_Church_Message_Revive_Pri",
+        "Text": "*: Oh große und gütige Göttin! Wenn es denn dein Wille ist, so bringe <IfGender_ACTOR(unseren geliebten,unsere geliebte,)> {ACTOR} zu uns zurück!<NO_INPUT>"
+      },
+      "Txt_Church_Message_ReviveResult_Pri": {
+        "SelfId": "Txt_Church_Message_ReviveResult_Pri",
+        "Text": "{ACTOR} ist wiederauferstanden."
+      },
+      "Txt_Church_Message_DetoxiTop_Pri": {
+        "SelfId": "Txt_Church_Message_DetoxiTop_Pri",
+        "Text": "*: Wen soll ich von der Geißel des tödlichen Giftes befreien?<NO_INPUT>"
+      },
+      "Txt_Church_Message_NotPoison_Pri": {
+        "SelfId": "Txt_Church_Message_NotPoison_Pri",
+        "Text": "*: Hm, das muss ein Missverständnis sein. {ACTOR} scheint nicht unter einer Vergiftung zu leiden."
+      },
+      "Txt_Church_Message_Detoxi_Pri": {
+        "SelfId": "Txt_Church_Message_Detoxi_Pri",
+        "Text": "*: Oh große und gütige Göttin! Bitte befreie <IfGender_ACTOR(deinen treuen Diener,deine treue Dienerin,)> {ACTOR} von dem Gift!<NO_INPUT>"
+      },
+      "Txt_Church_Message_DetoxiResult_Pri": {
+        "SelfId": "Txt_Church_Message_DetoxiResult_Pri",
+        "Text": "{ACTOR} ist nicht mehr vergiftet."
+      },
+      "Txt_Church_Message_CurseTop_Pri": {
+        "SelfId": "Txt_Church_Message_CurseTop_Pri",
+        "Text": "*: Wen wünscht Ihr von einem Fluch zu befreien?<NO_INPUT>"
+      },
+      "Txt_Church_Message_NotCurse_Pri": {
+        "SelfId": "Txt_Church_Message_NotCurse_Pri",
+        "Text": "*: Vergebt mir, doch {ACTOR} scheint mir nicht unter einem Fluch zu leiden, Kind."
+      },
+      "Txt_Church_Message_HealCurse_Pri": {
+        "SelfId": "Txt_Church_Message_HealCurse_Pri",
+        "Text": "*: Oh große und gütige Göttin, steh uns mit deiner Allmacht zur Seite! Hebe den teuflischen Fluch auf, der auf {ACTOR} lastet!<NO_INPUT>"
+      },
+      "Txt_Church_Message_HealCurseResult_Pri": {
+        "SelfId": "Txt_Church_Message_HealCurseResult_Pri",
+        "Text": "{ACTOR} ist nicht mehr verflucht."
+      },
+      "Txt_Church_Message_Confirm_Pri": {
+        "SelfId": "Txt_Church_Message_Confirm_Pri",
+        "Text": "*: Um diese Aufgabe auszuführen, werde ich eine kleine Spende <IfSing_VALUE(von einer Goldmünze,von {VALUE}<nbsp>Goldmünzen)> benötigen. Wollt Ihr so gut sein, mein Kind?<NO_INPUT>"
+      },
+      "Txt_Church_Message_Shotage_Pri": {
+        "SelfId": "Txt_Church_Message_Shotage_Pri",
+        "Text": "*: Offenbar könnt Ihr Euch diese bescheidene Spende nicht leisten.<KEY_WAIT>\r\n*: Vergib mir, wenn ich zu viel von deinen treuen Dienern verlange, oh große und gütige Göttin!"
+      },
+      "Txt_Church_Message_PaymentCancel_Pri": {
+        "SelfId": "Txt_Church_Message_PaymentCancel_Pri",
+        "Text": "*: Spenden an die Kirche sind ein Ausdruck der Dankbarkeit gegenüber der großen und gütigen Göttin! Es wäre höchst betrüblich, wolltet Ihr dieses Bekenntnis des Glaubens vernachlässigen."
+      },
+      "Txt_Church_Message_Cancel_Pri": {
+        "SelfId": "Txt_Church_Message_Cancel_Pri",
+        "Text": "*: Wirklich?\r\nWie Ihr wünscht. Die Entscheidung liegt bei Euch.\r\nMöge die Göttin Euch hold sein."
+      },
+      "Txt_Church_Message_StartAgain_Pri": {
+        "SelfId": "Txt_Church_Message_StartAgain_Pri",
+        "Text": "*: Können wir Euch noch auf andere Weise behilflich sein?<NO_INPUT>"
+      },
+      "Txt_Church_Message_Finish_Pri": {
+        "SelfId": "Txt_Church_Message_Finish_Pri",
+        "Text": "*: Dann gehe in Frieden, mein Kind. Große Göttin, mögest du über dieses arme Kind wachen und es behüten! Amen!"
+      },
+      "Txt_Church_Message_Nextlevel_Pri": {
+        "SelfId": "Txt_Church_Message_Nextlevel_Pri",
+        "Text": "*: {ACTOR}, mein Kind!\r\nDu benötigst noch <IfSing_VALUE(einen Erfahrungspunkt,{VALUE}<nbsp>Erfahrungspunkte)>, um die nächste Stufe zu erreichen."
+      },
+      "Txt_Church_Message_SaveConfirm_Pri": {
+        "SelfId": "Txt_Church_Message_SaveConfirm_Pri",
+        "Text": "*: Würdet Ihr mir gestatten, Euer Wirken in einem Abenteuertagebuch zu verzeichnen?<NO_INPUT>"
+      },
+      "Txt_Church_Message_SaveCancel_Pri": {
+        "SelfId": "Txt_Church_Message_SaveCancel_Pri",
+        "Text": "*: Ihr würdet Euer Abenteuer lieber nicht aufzeichnen? Nun, die Entscheidung liegt bei Euch."
+      },
+      "Txt_Church_Message_SaveTop_Pri": {
+        "SelfId": "Txt_Church_Message_SaveTop_Pri",
+        "Text": "*: Beichtet alles, was Ihr getan habt, der allmächtigen Göttin, Kind.<KEY_WAIT>\r\n*: Nun gut. In welchem Abenteuertagebuch soll ich es verzeichnen? <NO_INPUT>"
+      },
+      "Txt_Church_Message_OverwriteConfirm_Pri": {
+        "SelfId": "Txt_Church_Message_OverwriteConfirm_Pri",
+        "Text": "*: In diesem Fall muss ich <DE99><Cap>{WORD} St. {VALUE}<DE66> überschreiben. Wünscht Ihr, dass ich fortfahre, mein Kind?<NO_INPUT>"
+      },
+      "Txt_Church_Message_ContinueConfirm_Save_Pri": {
+        "SelfId": "Txt_Church_Message_ContinueConfirm_Save_Pri",
+        "Text": "*: Ich habe Euer Abenteuer erfolgreich aufgezeichnet. Möchtet Ihr es jetzt fortsetzen, mein Kind?<NO_INPUT>"
+      },
+      "Txt_Church_Message_ContinueConfirm_Pri": {
+        "SelfId": "Txt_Church_Message_ContinueConfirm_Pri",
+        "Text": "*: Möchtet Ihr Euer Abenteuer jetzt fortsetzen, mein Kind?<NO_INPUT>"
+      },
+      "Txt_Church_Message_ContinueConfirmNosave_Pri": {
+        "SelfId": "Txt_Church_Message_ContinueConfirmNosave_Pri",
+        "Text": "*: Große Göttin! Ihr würdet Euer Abenteuer lieber nicht aufzeichnen?!<KEY_WAIT>\r\n*: Nun, die Entscheidung liegt bei Euch, aber es bedeutet, dass Ihr Euer Abenteurer vom letzten Eintrag fortsetzen müsst. Seid Ihr Euch wirklich sicher?<NO_INPUT>"
+      },
+      "Txt_Church_Message_ContinueNoSave_Pri": {
+        "SelfId": "Txt_Church_Message_ContinueNoSave_Pri",
+        "Text": "*: Ein Sinneswandel? Nun gut, wie Ihr wünscht<nbsp>..."
+      },
+      "Txt_Church_Message_Continue_Pri": {
+        "SelfId": "Txt_Church_Message_Continue_Pri",
+        "Text": "*: Bitte gebt auf Euch Acht, {LEADER}, und möge die Göttin über Euch wachen!"
+      },
+      "Txt_Church_Message_GameEnd_Pri": {
+        "SelfId": "Txt_Church_Message_GameEnd_Pri",
+        "Text": "*: Oh große und gnädige Göttin, bitte gewähre diesem Kind eine friedliche Ruhepause!"
+      },
+      "Txt_Church_Message_GameStart_Pri": {
+        "SelfId": "Txt_Church_Message_GameStart_Pri",
+        "Text": "*: Willkommen zurück, {LEADER}! Ich hoffe, Ihr habt gut geruht?"
+      },
+      "Txt_Church_Message_Defeated_Pri": {
+        "SelfId": "Txt_Church_Message_Defeated_Pri",
+        "Text": "*: O <IfGender_LEADER(mutiger,mutige,)> {LEADER}, wir können Euch ja wohl kaum ins Jenseits entschwinden lassen, nicht wahr?<KEY_WAIT>\r\n*: Der Göttin sei Dank, wird Euch eine neue Chance gewährt.<KEY_WAIT>\r\n*: Vergeudet sie nicht, {LEADER}, und wählt Eure Pfade mit Bedacht!"
+      },
+      "Txt_Church_Message_LevelMax_Pri": {
+        "SelfId": "Txt_Church_Message_LevelMax_Pri",
+        "Text": "*: O <IfGender_ACTOR(weiser,weise,)> {ACTOR}, Eure Macht hat bereits himmlische Sphären erreicht! Ich fürchte, mehr ist <IfGender_ACTOR(einem Sterblichen, einer Sterblichen,)> nicht vergönnt<nbsp>..."
+      },
+      "Txt_Church_Message_EXPMax_Pri": {
+        "SelfId": "Txt_Church_Message_EXPMax_Pri",
+        "Text": "*: O <IfGender_ACTOR(weiser,weise,)> {ACTOR}, Eure Erfahrung hat bereits ihren Höhepunkt erreicht. Weiser ist nur die Göttin selbst!"
+      },
+      "Txt_Church_Message_NextlevelTop_Pri": {
+        "SelfId": "Txt_Church_Message_NextlevelTop_Pri",
+        "Text": "*: Eine weise und gütige Stimme ist zu hören<nbsp>..."
+      },
+      "Txt_Church_Message_ReviveTopNoTarget_Pri": {
+        "SelfId": "Txt_Church_Message_ReviveTopNoTarget_Pri",
+        "Text": "*: Schätzt Euch glücklich, Kind. Meine Dienste scheinen diesmal nicht vonnöten zu sein. <IfSolo(Ihr wirkt quicklebendig auf mich,Niemand wurde vom Tod heimgesucht)>."
+      },
+      "Txt_Church_Message_DetoxiTopNoTarget_Pri": {
+        "SelfId": "Txt_Church_Message_DetoxiTopNoTarget_Pri",
+        "Text": "*: Schätzt Euch glücklich, Kind. Meine Dienste scheinen diesmal nicht vonnöten zu sein. Niemand wird von irgendwelchen Giften heimgesucht."
+      },
+      "Txt_Church_Message_CurseTopNoTarget_Pri": {
+        "SelfId": "Txt_Church_Message_CurseTopNoTarget_Pri",
+        "Text": "*: Schätzt Euch glücklich, Kind. Meine Dienste scheinen diesmal nicht vonnöten zu sein. Niemand wird von irgendwelchen Flüchen heimgesucht."
+      },
+      "Txt_Church_Message_Start_Sis": {
+        "SelfId": "Txt_Church_Message_Start_Sis",
+        "Text": "*: Willkommen mein verlorenes Schäfchen. Wie kann Euch diese Dienerin der Göttin helfen?<NO_INPUT>"
+      },
+      "Txt_Church_Message_StartNight_Sis": {
+        "SelfId": "Txt_Church_Message_StartNight_Sis",
+        "Text": "Willkommen im Hause der großen Hirtin. Wie kann ich Euch zu dieser späten Stunde behilflich sein?<NO_INPUT>"
+      },
+      "Txt_Church_Message_ReviveTop_Sis": {
+        "SelfId": "Txt_Church_Message_ReviveTop_Sis",
+        "Text": "*: Und wem soll die allmächtige Göttin den Pfad in die Welt der Lebenden weisen?<NO_INPUT>"
+      },
+      "Txt_Church_Message_Alive_Sis": {
+        "SelfId": "Txt_Church_Message_Alive_Sis",
+        "Text": "*: Das muss ein Missverständnis sein. {ACTOR} erscheint mir geradezu quicklebendig!"
+      },
+      "Txt_Church_Message_Revive_Sis": {
+        "SelfId": "Txt_Church_Message_Revive_Sis",
+        "Text": "*: Oh große Göttin des Lichtes! Gütige Hirtin der verirrten Schäflein!<KEY_WAIT>\r\n*: Bringe <IfGender_ACTOR(deinen treuen Diener,deine treue Dienerin,)> {ACTOR} zu uns zurück!<NO_INPUT>"
+      },
+      "Txt_Church_Message_ReviveResult_Sis": {
+        "SelfId": "Txt_Church_Message_ReviveResult_Sis",
+        "Text": "{ACTOR} wurde wiederbelebt!"
+      },
+      "Txt_Church_Message_DetoxiTop_Sis": {
+        "SelfId": "Txt_Church_Message_DetoxiTop_Sis",
+        "Text": "*: Welches arme Schaf soll ich vom Gift erlösen?"
+      },
+      "Txt_Church_Message_NotPoison_Sis": {
+        "SelfId": "Txt_Church_Message_NotPoison_Sis",
+        "Text": "*:  Aber {ACTOR} erscheint mir überhaupt nicht vergiftet zu sein!"
+      },
+      "Txt_Church_Message_Detoxi_Sis": {
+        "SelfId": "Txt_Church_Message_Detoxi_Sis",
+        "Text": "*: Oh große und gütige Göttin! Bitte befreie <IfGender_ACTOR(deinen treuen Diener,deine treue Dienerin,)> {ACTOR} von dem Gift!<NO_INPUT>"
+      },
+      "Txt_Church_Message_DetoxiResult_Sis": {
+        "SelfId": "Txt_Church_Message_DetoxiResult_Sis",
+        "Text": "{ACTOR} ist nicht mehr vergiftet."
+      },
+      "Txt_Church_Message_CurseTop_Sis": {
+        "SelfId": "Txt_Church_Message_CurseTop_Sis",
+        "Text": "*: Von wem wünscht Ihr einen Fluch zu nehmen?<NO_INPUT>"
+      },
+      "Txt_Church_Message_NotCurse_Sis": {
+        "SelfId": "Txt_Church_Message_NotCurse_Sis",
+        "Text": "*: Das muss eine Verwechslung sein, mein Kind. {ACTOR} wird von keinerlei Flüchen heimgesucht."
+      },
+      "Txt_Church_Message_HealCurse_Sis": {
+        "SelfId": "Txt_Church_Message_HealCurse_Sis",
+        "Text": "*: Oh allmächtige Göttin, stehe uns mit deiner unendlichen Güte zur Seite! Hebe den bösen Fluch auf, der {ACTOR} quält!<NO_INPUT>"
+      },
+      "Txt_Church_Message_HealCurseResult_Sis": {
+        "SelfId": "Txt_Church_Message_HealCurseResult_Sis",
+        "Text": "{ACTOR} ist nicht mehr verflucht."
+      },
+      "Txt_Church_Message_Confirm_Sis": {
+        "SelfId": "Txt_Church_Message_Confirm_Sis",
+        "Text": "*: Wenn ich um eine kleine Spende für meine Dienste bitten dürfte<nbsp>... <IfSing_VALUE(Eine Goldmünze,{VALUE}<nbsp>Goldmünzen)> dürften der Göttin gefällig sein.<NO_INPUT>"
+      },
+      "Txt_Church_Message_Shotage_Sis": {
+        "SelfId": "Txt_Church_Message_Shotage_Sis",
+        "Text": "*: Wie es scheint, habe ich mehr verlangt, als Ihr aufwenden könnt."
+      },
+      "Txt_Church_Message_PaymentCancel_Sis": {
+        "SelfId": "Txt_Church_Message_PaymentCancel_Sis",
+        "Text": "*: Möge die gütige Göttin mir vergeben, dass ich ihren Schäflein nicht zu Diensten sein kann!"
+      },
+      "Txt_Church_Message_Cancel_Sis": {
+        "SelfId": "Txt_Church_Message_Cancel_Sis",
+        "Text": "*: Ich verstehe. Ganz wie Ihr wünscht. Möge Euch die große Hirtin immer gewogen sein."
+      },
+      "Txt_Church_Message_StartAgain_Sis": {
+        "SelfId": "Txt_Church_Message_StartAgain_Sis",
+        "Text": "*: Gibt es sonst noch etwas, womit ich zu Diensten sein kann?<NO_INPUT>"
+      },
+      "Txt_Church_Message_Finish_Sis": {
+        "SelfId": "Txt_Church_Message_Finish_Sis",
+        "Text": "*: Möge die Göttin mit Euch sein. Und wenn es Ihr Wille ist, so werden wir uns wiedersehen."
+      },
+      "Txt_Church_Message_SaveConfirm_Sis": {
+        "SelfId": "Txt_Church_Message_SaveConfirm_Sis",
+        "Text": "*: Beichtet alles, was Ihr getan habt, der allmächtigen Göttin, Kind.<NO_INPUT>"
+      },
+      "Txt_Church_Message_SaveCancel_Sis": {
+        "SelfId": "Txt_Church_Message_SaveCancel_Sis",
+        "Text": "*: Ich verstehe. Ganz wie Ihr wünscht.\r\nMöge die Göttin über Euch wachen, mein Kind."
+      },
+      "Txt_Church_Message_SaveTop_Sis": {
+        "SelfId": "Txt_Church_Message_SaveTop_Sis",
+        "Text": "*: Nun gut. In welchem Abenteuertagebuch soll ich es verzeichnen?<NO_INPUT>"
+      },
+      "Txt_Church_Message_OverwriteConfirm_Sis": {
+        "SelfId": "Txt_Church_Message_OverwriteConfirm_Sis",
+        "Text": "*: In diesem Fall muss ich <DE99><Cap>{WORD} St.<nbsp>{VALUE}<DE66> überschreiben. Wünscht Ihr, dass ich fortfahre, mein Kind?<NO_INPUT>"
+      },
+      "Txt_Church_Message_ContinueConfirm_Save_Sis": {
+        "SelfId": "Txt_Church_Message_ContinueConfirm_Save_Sis",
+        "Text": "*: Ich habe Euer Abenteuer erfolgreich aufgezeichnet. Möchtet Ihr es jetzt fortsetzen, mein Kind?<NO_INPUT>"
+      },
+      "Txt_Church_Message_ContinueConfirm_Sis": {
+        "SelfId": "Txt_Church_Message_ContinueConfirm_Sis",
+        "Text": "*: Möchtet Ihr Euer Abenteuer jetzt fortsetzen, mein Kind?<NO_INPUT>"
+      },
+      "Txt_Church_Message_ContinueConfirmNosave_Sis": {
+        "SelfId": "Txt_Church_Message_ContinueConfirmNosave_Sis",
+        "Text": "*: Gütige Göttin! Ihr wünscht keine Aufzeichnung Euer Abenteuer?!<KEY_WAIT>\r\n*: Nun, die Entscheidung liegt bei Euch, aber es bedeutet, dass Ihr Euer Abenteuer vom letzten Eintrag fortsetzen müsst. Seid Ihr Euch wirklich sicher?<NO_INPUT>"
+      },
+      "Txt_Church_Message_ContinueNoSave_Sis": {
+        "SelfId": "Txt_Church_Message_ContinueNoSave_Sis",
+        "Text": "*: Ganz wie Ihr wünscht.\r\nMöge die Göttin Euch auf Euren Reisen beschützen, {LEADER}."
+      },
+      "Txt_Church_Message_Continue_Sis": {
+        "SelfId": "Txt_Church_Message_Continue_Sis",
+        "Text": "*: Möge Euch die Göttin immer gewogen sein, {LEADER}."
+      },
+      "Txt_Church_Message_GameEnd_Sis": {
+        "SelfId": "Txt_Church_Message_GameEnd_Sis",
+        "Text": "*: O himmlische Mächte, bitte lasst dieses arme Lamm eine Weile in Frieden ruhen!"
+      },
+      "Txt_Church_Message_GameStart_Sis": {
+        "SelfId": "Txt_Church_Message_GameStart_Sis",
+        "Text": "*: Meine Gebete wurden erhört! Ihr seid zu uns zurückgekehrt, {LEADER}!"
+      },
+      "Txt_Church_Message_Defeated_Sis": {
+        "SelfId": "Txt_Church_Message_Defeated_Sis",
+        "Text": "*: O himmlische Mächte, die ihr uns schützt und uns den Weg weist! Bitte behütet dieses arme verirrte Schäflein!"
+      },
+      "Txt_Church_Message_ReviveTopNoTarget_Sis": {
+        "SelfId": "Txt_Church_Message_ReviveTopNoTarget_Sis",
+        "Text": "*: Sei unbesorgt, mein Kind. <IfSolo(Ihr wirkt quicklebendig auf mich,Keiner Eurer Gefährten ist zu Tode gekommen)>."
+      },
+      "Txt_Church_Message_DetoxiTopNoTarget_Sis": {
+        "SelfId": "Txt_Church_Message_DetoxiTopNoTarget_Sis",
+        "Text": "*: Sei unbesorgt, mein Kind. Es besteht keine Notwendigkeit, für Läuterung zu beten."
+      },
+      "Txt_Church_Message_CurseTopNoTarget_Sis": {
+        "SelfId": "Txt_Church_Message_CurseTopNoTarget_Sis",
+        "Text": "*: Sei unbesorgt, mein Kind. Es besteht keine Notwendigkeit, für die Gewährung eines Segens zu beten."
+      },
+      "Txt_Church_Message_Start_ALIAHAN": {
+        "SelfId": "Txt_Church_Message_Start_ALIAHAN",
+        "Text": "*: Die gütige Göttin heißt Euch Willkommen, <ifGender_LEADER(mutiger Held, mutige Heldin,)>. Wie kann Euch das Haus der Hirtin heute helfen?<NO_INPUT>"
+      },
+      "Txt_Church_Message_StartNight_ALIAHAN": {
+        "SelfId": "Txt_Church_Message_StartNight_ALIAHAN",
+        "Text": "*: Die gütige Göttin heißt Euch Willkommen, <ifGender_LEADER(mutiger Held, mutige Heldin,)>. Wie kann Euch das Haus der Hirtin zu dieser späten Stunde helfen?<NO_INPUT>"
+      },
+      "Txt_Church_Message_Start_SAMANOSA": {
+        "SelfId": "Txt_Church_Message_Start_SAMANOSA",
+        "Text": "*: Die gütige Göttin heißt Euch Willkommen, <ifGender_LEADER(mutiger Freund, mutige Freundin,)> Manozas. Wie kann Euch das Haus der Hirtin heute helfen?<NO_INPUT>"
+      },
+      "Txt_Church_Message_StartNight_SAMANOSA": {
+        "SelfId": "Txt_Church_Message_StartNight_SAMANOSA",
+        "Text": "*: Die gütige Göttin heißt Euch Willkommen, <ifGender_LEADER(mutiger Freund, mutige Freundin,)> Manozas. Wie kann Euch das Haus der Hirtin zu dieser späten Stunde helfen?<NO_INPUT>"
+      },
+      "Txt_Church_Message_Start_EDINBEAR": {
+        "SelfId": "Txt_Church_Message_Start_EDINBEAR",
+        "Text": "*: Vor der Göttin sind alle gleich. Wie kann Euch das Haus der Hirtin heute helfen?<NO_INPUT>"
+      },
+      "Txt_Church_Message_StartNight_EDINBEAR": {
+        "SelfId": "Txt_Church_Message_StartNight_EDINBEAR",
+        "Text": "*: Die gütige Göttin erhört alle gleichermaßen. Wie kann Euch das Haus der Hirtin zu dieser späten Stunde helfen?<NO_INPUT>"
+      },
+      "Txt_Church_Message_Start_MBR": {
+        "SelfId": "Txt_Church_Message_Start_MBR",
+        "Text": "*: Verzeiht, aber auch eine bescheidene Dienerin der Göttin braucht ab und an etwas weltliche Zerstreuung. Gibt es etwas, das Euch bedrückt, mein Kind?"
+      },
+      "Txt_Church_Message_Defeated_ALIAHAN": {
+        "SelfId": "Txt_Church_Message_Defeated_ALIAHAN",
+        "Text": "*: Noch ist Eure Zeit nicht gekommen!<KEY_WAIT>\r\n*: Ihr sollt eine neue Gelegenheit erhalten, Eure Bestimmung zu erfüllen, {LEADER}.<KEY_WAIT>\r\n*: Nun zieht von dannen und macht dem Namen Ortegas alle Ehre!"
+      },
+      "Txt_Church_Message_Defeated_SAMANOSA": {
+        "SelfId": "Txt_Church_Message_Defeated_SAMANOSA",
+        "Text": "*: {LEADER}! Auch die größten Helden können scheitern.<KEY_WAIT>\r\n*: Aber die Göttin hat Euch eine neue Chance gewährt, Eure Bestimmung zu erfüllen.<KEY_WAIT>\r\n*: Schreitet voran, {LEADER}, und bezwingt das Böse!"
+      },
+      "Txt_Church_Message_Defeated_EDINBEAR": {
+        "SelfId": "Txt_Church_Message_Defeated_EDINBEAR",
+        "Text": "*: O <IfGender_LEADER(mutiger,mutige,)> {LEADER}! Vergesst nicht, dass die Welt eine voller Gefahren ist.<KEY_WAIT>\r\n*: Gepriesen sei die Göttin, die Euch eine neue Chance gewährt, Eure Bestimmung zu erfüllen.<KEY_WAIT>\r\n*: Möge der Segen der großen Hirtin mit Euch sein, Kind."
+      },
+      "Txt_Church_Message_Defeated_LUDATORM": {
+        "SelfId": "Txt_Church_Message_Defeated_LUDATORM",
+        "Text": "*: Die Göttin kann Euch noch nicht die Pforte zu Ihrem Reich eröffnen, {LEADER}.<KEY_WAIT>\r\n*: Daher sollt Ihr eine neue Chance erhalten, Eure Bestimmung zu erfüllen.<KEY_WAIT>\r\n*: Schreitet voran, {LEADER}, und bezwingt das Böse!"
+      }
+    }
+  }
+]

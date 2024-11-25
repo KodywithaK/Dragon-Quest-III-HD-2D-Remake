@@ -1,0 +1,100 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GOP_Text_NPC_Talk_WestPort",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GOP_Text_CommonTable'",
+        "ObjectPath": "/Script/Nicola"
+      }
+    },
+    "Rows": {
+      "Txt_Talk_WestPort_Out_MAIN_0_ACTOR_0120_010_1": {
+        "SelfId": "Txt_Talk_WestPort_Out_MAIN_0_ACTOR_0120_010_1",
+        "Text": "*: <IfSolo(Eri tu,Eravate voi)> la fonte di quel trambusto spaventoso di poc'anzi? <IfSolo(Dimmi,Ditemi)>, da dove <IfSolo(vieni,venite)>?"
+      },
+      "Txt_Talk_WestPort_Out_MAIN_0_ACTOR_0120_010_3": {
+        "SelfId": "Txt_Talk_WestPort_Out_MAIN_0_ACTOR_0120_010_3",
+        "Text": "*: Oh, cielo. <IfSolo(Sembri <IfGender_LEADER(stremato,stremata,)>,Sembrate stremati)>. Entra<IfSolo(,te)> nella mia umile dimora e riferi<IfSolo(scimi ciò che ti,temi ciò che vi)> è accaduto."
+      },
+      "Txt_Talk_WestPort_House_MAIN_0_ACTOR_0120_010_1": {
+        "SelfId": "Txt_Talk_WestPort_House_MAIN_0_ACTOR_0120_010_1",
+        "Text": "*: ... Hai intenzione di abbattere il Signore degli Inferi?"
+      },
+      "Txt_Talk_WestPort_House_MAIN_0_ACTOR_0120_010_2": {
+        "SelfId": "Txt_Talk_WestPort_House_MAIN_0_ACTOR_0120_010_2",
+        "Text": "*: È chiaro che tu non sia da sottovalutare."
+      },
+      "Txt_Talk_WestPort_House_MAIN_0_ACTOR_0120_010_3": {
+        "SelfId": "Txt_Talk_WestPort_House_MAIN_0_ACTOR_0120_010_3",
+        "Text": "*: Non un singolo abitante di Alefgard oserebbe neppure sognar di portare a termine compito tanto arduo. No, noi trascorriamo i nostri giorni attanagliati dalla paura..."
+      },
+      "Txt_Talk_WestPort_House_MAIN_0_ACTOR_0120_010_3_2": {
+        "SelfId": "Txt_Talk_WestPort_House_MAIN_0_ACTOR_0120_010_3_2",
+        "Text": "*: In ogni caso, la tua strada è libera."
+      },
+      "Txt_Talk_WestPort_House_MAIN_0_ACTOR_0120_010_3_3": {
+        "SelfId": "Txt_Talk_WestPort_House_MAIN_0_ACTOR_0120_010_3_3",
+        "Text": "*: Dirigiti a est, verso la città castello di Tantegel."
+      },
+      "Txt_Talk_WestPort_House_MAIN_0_ACTOR_0120_010_3_4": {
+        "SelfId": "Txt_Talk_WestPort_House_MAIN_0_ACTOR_0120_010_3_4",
+        "Text": "*: Da lì naviga i mari in direzione sud e raggiungi l'isola del grande demone."
+      },
+      "Txt_Talk_WestPort_House_MAIN_0_ACTOR_0120_010_3_5": {
+        "SelfId": "Txt_Talk_WestPort_House_MAIN_0_ACTOR_0120_010_3_5",
+        "Text": "*: È lì che troverai la temuta cittadella del Signore degli Inferi."
+      },
+      "Txt_Talk_WestPort_House_MAIN_0_ACTOR_0120_010_4": {
+        "SelfId": "Txt_Talk_WestPort_House_MAIN_0_ACTOR_0120_010_4",
+        "Text": "*: Potrebbe, per caso, esserti d'aiuto una mappa del regno? Temo che nelle mie mani non sarebbe che uno spreco."
+      },
+      "Txt_Talk_WestPort_House_MAIN_0_ACTOR_0120_010_5": {
+        "SelfId": "Txt_Talk_WestPort_House_MAIN_0_ACTOR_0120_010_5",
+        "Text": "{LEADER} ha ricevuto <IndefSgl_I_NAME>!"
+      },
+      "Txt_Talk_WestPort_House_MAIN_0_ACTOR_0120_010_6": {
+        "SelfId": "Txt_Talk_WestPort_House_MAIN_0_ACTOR_0120_010_6",
+        "Text": "*: Oh, e prendi pure l'imbarcazione qui fuori. Spero possa aiutarti nella tua missione."
+      },
+      "Txt_Talk_WestPort_House_MAIN_0_ACTOR_0120_010_7": {
+        "SelfId": "Txt_Talk_WestPort_House_MAIN_0_ACTOR_0120_010_7",
+        "Text": "*: E ricorda sempre che la Dea accompagna gli audaci."
+      },
+      "Txt_Talk_WestPort_House_MAIN_0_ACTOR_0120_020_1": {
+        "SelfId": "Txt_Talk_WestPort_House_MAIN_0_ACTOR_0120_020_1",
+        "Text": "*: Non un singolo abitante di Alefgard oserebbe neppure sognar di portare a termine compito tanto arduo. No, noi trascorriamo i nostri giorni attanagliati dalla paura..."
+      },
+      "Txt_Talk_WestPort_House_MAIN_0_ACTOR_0120_020_2": {
+        "SelfId": "Txt_Talk_WestPort_House_MAIN_0_ACTOR_0120_020_2",
+        "Text": "*: Ad ogni modo, non dimenticare che la Dea accompagna gli audaci."
+      },
+      "Txt_Talk_WestPort_House_SUB_0_ACTOR_0110_010_1": {
+        "SelfId": "Txt_Talk_WestPort_House_SUB_0_ACTOR_0110_010_1",
+        "Text": "*: Arrivi in una circostanza invero epocale! Ora presta ascolto e tieniti forte!"
+      },
+      "Txt_Talk_WestPort_House_SUB_0_ACTOR_0110_010_2": {
+        "SelfId": "Txt_Talk_WestPort_House_SUB_0_ACTOR_0110_010_2",
+        "Text": "*: Il Male supremo è stato sconfitto e la pace è tornata a regnare sulle nostre terre!"
+      },
+      "Txt_Talk_WestPort_House_SUB_0_ACTOR_0110_010_3": {
+        "SelfId": "Txt_Talk_WestPort_House_SUB_0_ACTOR_0110_010_3",
+        "Text": "*: Come? Ne eri già al corrente? Sei tu l'artefice della disfatta di suddetta bestia? P-Perdincibacco!"
+      },
+      "Txt_Talk_WestPort_Out_SUB_0_ACTOR_0220_010_1": {
+        "SelfId": "Txt_Talk_WestPort_Out_SUB_0_ACTOR_0220_010_1",
+        "Text": "*: Dirigiti verso est e ti imbatterai immantinente nell'imponente città castello di Tantegel."
+      },
+      "Txt_Talk_WestPort_Out_SUB_0_ACTOR_0220_010_2": {
+        "SelfId": "Txt_Talk_WestPort_Out_SUB_0_ACTOR_0220_010_2",
+        "Text": "*: Se necessiti di un'imbarcazione, quella barca laggiù apparteneva a mio padre. Non esitare, usala pure a tua discrezione. Ha solcato raramente il mare, o forse mai."
+      },
+      "Txt_Talk_WestPort_Out_SUB_0_ACTOR_0210_010_1": {
+        "SelfId": "Txt_Talk_WestPort_Out_SUB_0_ACTOR_0210_010_1",
+        "Text": "*: Evviva! Infine v'è pace nel nostro mondo!"
+      }
+    }
+  }
+]
